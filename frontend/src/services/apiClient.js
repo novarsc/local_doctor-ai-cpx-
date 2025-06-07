@@ -9,7 +9,8 @@ import axios from 'axios';
 import { getToken, setToken, getRefreshToken, clearTokens } from '../utils/localStorageHelper'; 
 
 const apiClient = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE_URL || 'http://localhost:5001/api/v1',
+  // 백엔드 서버 주소를 직접 입력합니다. (포트 3000번)
+  baseURL: 'http://localhost:3000/api/v1',
   headers: {
     'Content-Type': 'application/json',
   },
