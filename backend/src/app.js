@@ -1,38 +1,42 @@
 /**
  * @file app.js
- * @description Main Express application setup file.
+ * @description Configures the Express application, including middleware and routes.
  */
 
 const express = require('express');
 const cors = require('cors');
-const helmet = require('helmet');
-const morgan = require('morgan');
-
-const ApiError = require('./utils/ApiError');
-const errorHandler = require('./middlewares/errorHandler.middleware');
-const authRoutes = require('./api/v1/auth.routes');
-const caseRoutes = require('./api/v1/cases.routes.js');
-const practiceSessionRoutes = require('./api/v1/practiceSessions.routes.js');
-const mockExamRoutes = require('./api/v1/mockExams.routes.js');
-const myNotesRoutes = require('./api/v1/myNotes.routes.js'); // Import my-notes routes
+// v1 통합 라우터를 불러옵니다.
+const v1ApiRoutes = require('./api/v1'); 
 
 const app = express();
 
-app.use(helmet());
-app.use(cors());
+// Middleware
+app.use(cors({
+  origin: process.env.CLIENT_URL || 'http://localhost:3000',
+  credentials: true,
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-if (process.env.NODE_ENV !== 'test') app.use(morgan('dev'));
 
-app.get('/health', (req, res) => res.status(200).send('OK'));
+// API 라우트 설정
+// 이제 /api/v1 경로로 오는 모든 요청은 v1 통합 라우터가 처리합니다.
+app.use('/api/v1', v1ApiRoutes);
 
-app.use('/api/v1/auth', authRoutes);
-app.use('/api/v1/scenarios', caseRoutes);
-app.use('/api/v1/practice-sessions', practiceSessionRoutes);
-app.use('/api/v1/mock-exams', mockExamRoutes);
-app.use('/api/v1/my-notes', myNotesRoutes); // Mount my-notes routes
+// 기본 라우트 (서버 상태 확인용)
+app.get('/', (req, res) => {
+  res.status(200).send('Server is running!');
+});
 
-app.use((req, res, next) => next(new ApiError(404, 'C001_RESOURCE_NOT_FOUND', 'Not found')));
-app.use(errorHandler);
+// 404 Not Found 핸들러
+app.use((req, res, next) => {
+  res.status(404).json({ message: 'Not Found' });
+});
+
+// 전역 에러 핸들러
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({ message: 'Internal Server Error' });
+});
+
 
 module.exports = app;

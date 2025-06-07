@@ -3,13 +3,18 @@
  * @description Defines the Sequelize model for the 'Users' table.
  * This model represents a user in the system, storing credentials and profile information.
  */
-
-const { DataTypes, Model } = require('sequelize');
+'use strict';
+const { Model, DataTypes } = require('sequelize');
 const { v4: uuidv4 } = require('uuid');
 const { USER_ROLE_ENUM, USER_ROLE } = require('../enums/UserRole.enum');
 
 module.exports = (sequelize) => {
-  class User extends Model {}
+  class User extends Model {
+    static associate(models) {
+        // 여기에 다른 모델과의 관계를 정의합니다.
+        // 예: this.hasMany(models.PracticeSession, { foreignKey: 'userId' });
+    }
+  }
 
   User.init({
     userId: {
@@ -22,10 +27,8 @@ module.exports = (sequelize) => {
     email: {
       type: DataTypes.STRING,
       allowNull: false,
-      unique: {
-        name: 'users_email_unique',
-        msg: 'An account with this email already exists.',
-      },
+      // [변경됨] unique 옵션을 여기서 직접 정의하지 않습니다.
+      // unique: true,
       validate: {
         isEmail: true,
       },
@@ -44,10 +47,8 @@ module.exports = (sequelize) => {
     nickname: {
       type: DataTypes.STRING,
       allowNull: false,
-      unique: {
-        name: 'users_nickname_unique',
-        msg: 'This nickname is already in use.',
-      },
+      // [변경됨] unique 옵션을 여기서 직접 정의하지 않습니다.
+      // unique: true,
       comment: 'User\'s display name, must be unique',
     },
     profileImagePath: {
@@ -56,10 +57,9 @@ module.exports = (sequelize) => {
       comment: 'URL path to the user\'s profile image',
     },
     role: {
-      type: DataTypes.ENUM(USER_ROLE_ENUM),
+      type: DataTypes.ENUM(...USER_ROLE_ENUM),
       allowNull: false,
       defaultValue: USER_ROLE.USER,
-      comment: 'User role (e.g., USER, ADMIN)',
     },
     emailVerified: {
       type: DataTypes.BOOLEAN,
@@ -67,13 +67,23 @@ module.exports = (sequelize) => {
       defaultValue: false,
       comment: 'Flag indicating if the user has verified their email address',
     },
-    // Timestamps are managed by Sequelize automatically (createdAt, updatedAt)
   }, {
     sequelize,
     modelName: 'User',
     tableName: 'Users',
-    timestamps: true, // Enables createdAt and updatedAt fields
-    paranoid: false, // Set to true if you want soft deletes (deletedAt field)
+    timestamps: true,
+    paranoid: false,
+    // [추가됨] unique 제약 조건을 indexes 옵션을 통해 별도로 정의합니다.
+    indexes: [
+      {
+        unique: true,
+        fields: ['email']
+      },
+      {
+        unique: true,
+        fields: ['nickname']
+      }
+    ]
   });
 
   return User;

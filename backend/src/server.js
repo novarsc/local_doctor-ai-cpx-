@@ -1,42 +1,36 @@
 /**
  * @file server.js
- * @description The entry point for the backend server.
- * Initializes the server and connects to the database.
+ * @description The main entry point for the application server.
+ * It initializes the app, connects to the database, and starts listening for requests.
  */
 
-// It's a good practice to use a dotenv library to manage environment variables
+// .env 파일의 환경 변수를 가장 먼저 로드합니다.
 require('dotenv').config();
 
-const app = require('./app');
-const { sequelize } = require('./models'); // Assuming models/index.js exports sequelize instance
+const app = require('./app'); // 같은 src 폴더에 있는 app.js를 불러옵니다.
+const { sequelize } = require('./models'); // 같은 src 폴더에 있는 models 폴더를 불러옵니다.
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 3000;
 
-/**
- * Starts the server after ensuring the database connection is established.
- */
 const startServer = async () => {
   try {
-    // Authenticate the database connection
+    // 데이터베이스 연결 확인
     await sequelize.authenticate();
-    console.log('Database connection has been established successfully.');
+    console.log('✅ Database connection has been established successfully.');
 
-    // In development, you might want to sync the models with the database.
-    // WARNING: { force: true } will drop and re-create all tables. Use with caution.
+    // (선택사항) 개발 환경에서만 모델과 데이터베이스를 동기화합니다.
+    // 주의: { force: true } 옵션은 기존 테이블을 삭제하므로 프로덕션에서는 절대 사용하지 마세요.
     if (process.env.NODE_ENV === 'development') {
-      // await sequelize.sync({ alter: true }); // Use alter: true to update tables without dropping them
-      console.log('Database synchronized in development mode.');
+      await sequelize.sync({ alter: true });
+      console.log('🛠️  All models were synchronized successfully (alter: true).');
     }
 
-    // Start listening for incoming requests
     app.listen(PORT, () => {
-      console.log(`Server is running on port ${PORT}`);
-      console.log(`Access it at http://localhost:${PORT}`);
+      console.log(`🚀 Server is running on http://localhost:${PORT}`);
     });
-
   } catch (error) {
-    console.error('Unable to connect to the database or start the server:', error);
-    process.exit(1); // Exit the process with an error code
+    console.error('❌ Unable to connect to the database:', error);
+    process.exit(1); // 데이터베이스 연결 실패 시 프로세스 종료
   }
 };
 
