@@ -80,7 +80,7 @@ const PrePracticePage = () => {
           <div>
             <h2 className="text-xl font-semibold text-gray-800 mb-4">환자 정보</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-base">
-              <p><strong className="font-medium text-gray-500 w-24 inline-block">나이/성별</strong> {patientInfo.age}세 / {patientInfo.sex === 'male' ? '남성' : '여성'}</p>
+              <p><strong className="font-medium text-gray-500 w-24 inline-block">나이/성별</strong> {patientInfo.age}세 / {patientInfo.sex === '남성' ? '남성' : '여성'}</p>
               <p><strong className="font-medium text-gray-500 w-24 inline-block">주요 호소</strong> {patientInfo.presentIllness}</p>
               <p><strong className="font-medium text-gray-500 w-24 inline-block">과거력</strong> {patientInfo.pastHistory}</p>
               <p><strong className="font-medium text-gray-500 w-24 inline-block">사회력</strong> {patientInfo.socialHistory}</p>
