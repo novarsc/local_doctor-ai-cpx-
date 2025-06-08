@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, NavLink } from 'react-router-dom';
 import { fetchBookmarks } from '../../store/slices/myNotesSlice';
 
-// This layout can be extracted into a separate MyNotesLayout.jsx file later.
+// MyNotesLayout은 여러 "MY 노트" 페이지에서 재사용됩니다.
 const MyNotesLayout = ({ children }) => (
     <div className="flex min-h-screen bg-gray-100">
         <aside className="w-64 bg-white p-6 shadow-md flex-shrink-0">
@@ -16,23 +16,21 @@ const MyNotesLayout = ({ children }) => (
             <nav className="space-y-2">
                 <NavLink 
                     to="/my-notes/bookmarks" 
-                    className={({ isActive }) => `block py-2 px-3 rounded-md text-lg ${isActive ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'}`}
+                    className={({ isActive }) => `block py-2 px-4 rounded-md text-lg ${isActive ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'}`}
                 >
                     즐겨찾기
                 </NavLink>
                 <NavLink 
                     to="/my-notes/incorrect" 
-                    className="block py-2 px-3 rounded-md text-lg text-gray-400 cursor-not-allowed"
-                    onClick={(e) => e.preventDefault()}
+                    className={({ isActive }) => `block py-2 px-4 rounded-md text-lg ${isActive ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'}`}
                 >
-                    오답노트 (예정)
+                    오답노트
                 </NavLink>
                 <NavLink 
                     to="/my-notes/history" 
-                    className="block py-2 px-3 rounded-md text-lg text-gray-400 cursor-not-allowed"
-                    onClick={(e) => e.preventDefault()}
+                    className={({ isActive }) => `block py-2 px-4 rounded-md text-lg ${isActive ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'}`}
                 >
-                    학습 기록 (예정)
+                    학습 기록
                 </NavLink>
             </nav>
         </aside>
@@ -44,40 +42,47 @@ const MyNotesLayout = ({ children }) => (
 
 const BookmarksPageContent = () => {
     const dispatch = useDispatch();
-    const { bookmarks, isLoading, error } = useSelector((state) => state.myNotes);
+    // myNotes 슬라이스의 상태를 가져옵니다.
+    const { bookmarks, status, error } = useSelector((state) => state.myNotes);
 
     useEffect(() => {
+        // 컴포넌트가 마운트될 때 즐겨찾기 목록을 불러옵니다.
         dispatch(fetchBookmarks());
     }, [dispatch]);
     
     return (
         <div>
             <h1 className="text-3xl font-bold mb-6 text-gray-800">즐겨찾는 증례</h1>
-            {isLoading && <p>즐겨찾기 목록을 불러오는 중...</p>}
+            
+            {status.bookmarks === 'loading' && <p>즐겨찾기 목록을 불러오는 중...</p>}
             {error && <p className="text-red-500">오류가 발생했습니다: {error}</p>}
-            {!isLoading && !error && bookmarks.length === 0 && (
+            
+            {status.bookmarks === 'succeeded' && bookmarks.length === 0 && (
                 <div className="text-center py-20 bg-white rounded-lg shadow">
-                    <p className="text-gray-500">아직 즐겨찾기한 증례가 없습니다.</p>
+                    <p className="text-gray-500 text-lg">아직 즐겨찾기한 증례가 없습니다.</p>
                     <p className="text-sm text-gray-400 mt-2">증례 목록에서 별표를 눌러 중요한 증례를 추가해보세요.</p>
                 </div>
             )}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {bookmarks.map(scenario => (
-                    <div key={scenario.scenarioId} className="bg-white rounded-xl shadow-lg p-5 flex flex-col justify-between transition hover:shadow-xl hover:-translate-y-1">
-                        <div>
-                            <p className="text-sm text-blue-600 font-semibold">{scenario.primaryCategory} &gt; {scenario.secondaryCategory}</p>
-                            <h2 className="font-bold text-xl my-2 text-gray-900">{scenario.name}</h2>
-                            <p className="text-sm text-gray-600 line-clamp-2">{scenario.shortDescription}</p>
+
+            {status.bookmarks === 'succeeded' && bookmarks.length > 0 && (
+                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {bookmarks.map(scenario => (
+                        <div key={scenario.scenarioId} className="bg-white rounded-xl shadow-lg p-6 flex flex-col justify-between transition hover:shadow-xl hover:-translate-y-1">
+                            <div>
+                                <p className="text-sm text-blue-600 font-semibold">{scenario.primaryCategory} &gt; {scenario.secondaryCategory}</p>
+                                <h2 className="font-bold text-xl my-2 text-gray-900">{scenario.name}</h2>
+                                <p className="text-gray-600 line-clamp-3">{scenario.shortDescription}</p>
+                            </div>
+                            <div className="mt-6 pt-4 border-t border-gray-200">
+                                <Link to={`/cases/${scenario.scenarioId}/practice`} className="font-semibold text-blue-600 hover:text-blue-800 flex items-center justify-end">
+                                    학습하러 가기
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5-5 5M6 12h12" /></svg>
+                                </Link>
+                            </div>
                         </div>
-                        <div className="mt-4 pt-4 border-t">
-                            <Link to={`/cases/${scenario.scenarioId}/practice`} className="font-semibold text-blue-600 hover:text-blue-800 flex items-center">
-                                학습하러 가기
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-                            </Link>
-                        </div>
-                    </div>
-                ))}
-            </div>
+                    ))}
+                </div>
+            )}
         </div>
     );
 };

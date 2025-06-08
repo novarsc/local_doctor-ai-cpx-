@@ -5,10 +5,15 @@
 
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { authService } from '../../services/authService';
+import { useDispatch, useSelector } from 'react-redux';
+import { registerUser } from '../../store/slices/authSlice';
 
 const RegisterPage = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  const { isLoading, error: reduxError } = useSelector((state) => state.auth);
+
   const [formData, setFormData] = useState({
     fullName: '',
     nickname: '',
@@ -16,8 +21,7 @@ const RegisterPage = () => {
     password: '',
     confirmPassword: '',
   });
-  const [error, setError] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
+  const [formError, setFormError] = useState(null);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -26,24 +30,24 @@ const RegisterPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError(null);
+    setFormError(null);
 
     if (formData.password !== formData.confirmPassword) {
-      setError('비밀번호가 일치하지 않습니다.');
+      setFormError('비밀번호가 일치하지 않습니다.');
       return;
     }
 
-    setIsLoading(true);
-    try {
-      const { fullName, nickname, email, password } = formData;
-      await authService.register({ fullName, nickname, email, password });
-      alert('회원가입이 성공적으로 완료되었습니다. 로그인 페이지로 이동합니다.');
-      navigate('/login');
-    } catch (err) {
-      setError(err.message || '회원가입 중 오류가 발생했습니다.');
-    } finally {
-      setIsLoading(false);
-    }
+    const { fullName, nickname, email, password } = formData;
+    dispatch(registerUser({ fullName, nickname, email, password }))
+      .unwrap()
+      .then(() => {
+        alert('회원가입이 성공적으로 완료되었습니다. 로그인 페이지로 이동합니다.');
+        navigate('/login');
+      })
+      .catch((err) => {
+        // 에러는 reduxError 상태로 자동 처리되므로, 콘솔에만 기록합니다.
+        console.error('Registration failed:', err);
+      });
   };
 
   return (
@@ -54,31 +58,34 @@ const RegisterPage = () => {
           <p className="text-gray-500 mt-2">새 계정을 생성하세요</p>
         </div>
         <form onSubmit={handleSubmit}>
-          {error && <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">{error}</div>}
+          {/* 폼 자체 유효성 검사 에러 (예: 비밀번호 불일치) */}
+          {formError && <div className="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded relative mb-4" role="alert">{formError}</div>}
+          {/* API 요청 후 Redux를 통해 전달된 에러 (예: 이메일 중복) */}
+          {reduxError && <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">{reduxError}</div>}
           
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="fullName">이름</label>
-            <input id="fullName" name="fullName" type="text" onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" required />
+            <input id="fullName" name="fullName" type="text" onChange={handleChange} value={formData.fullName} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" required />
           </div>
 
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="nickname">닉네임</label>
-            <input id="nickname" name="nickname" type="text" onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" required />
+            <input id="nickname" name="nickname" type="text" onChange={handleChange} value={formData.nickname} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" required />
           </div>
 
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">이메일</label>
-            <input id="email" name="email" type="email" onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" required />
+            <input id="email" name="email" type="email" onChange={handleChange} value={formData.email} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" required />
           </div>
 
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">비밀번호</label>
-            <input id="password" name="password" type="password" onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" required />
+            <input id="password" name="password" type="password" onChange={handleChange} value={formData.password} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" required />
           </div>
 
           <div className="mb-6">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="confirmPassword">비밀번호 확인</label>
-            <input id="confirmPassword" name="confirmPassword" type="password" onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" required />
+            <input id="confirmPassword" name="confirmPassword" type="password" onChange={handleChange} value={formData.confirmPassword} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" required />
           </div>
           
           <div className="flex items-center justify-between">

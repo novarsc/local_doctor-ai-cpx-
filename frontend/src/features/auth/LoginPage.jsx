@@ -3,31 +3,31 @@
  * @description The user login page component.
  */
 
-import React, { useState } from 'react';
-// Assuming react-router-dom is used for navigation
+import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { authService } from '../../services/authService';
+import { useDispatch, useSelector } from 'react-redux';
+import { loginUser } from '../../store/slices/authSlice';
+import Button from '../../components/common/Button'; // Button 컴포넌트 사용
 
 const LoginPage = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  const { isLoading, isAuthenticated, error } = useSelector((state) => state.auth);
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setError(null);
-    setIsLoading(true);
-
-    try {
-      await authService.login(email, password);
-      navigate('/dashboard'); // Redirect to dashboard on successful login
-    } catch (err) {
-      setError(err.message || '로그인에 실패했습니다. 이메일과 비밀번호를 확인해주세요.');
-    } finally {
-      setIsLoading(false);
+  // 로그인 상태가 변경되면(성공하면) 자동으로 페이지를 이동시키는 핵심 로직
+  useEffect(() => {
+    if (isAuthenticated) {
+      navigate('/cases');
     }
+  }, [isAuthenticated, navigate]);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    dispatch(loginUser({ email, password }));
   };
 
   return (
@@ -48,7 +48,7 @@ const LoginPage = () => {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="input-base" // 공통 스타일 적용
               required
               placeholder="user@example.com"
             />
@@ -62,24 +62,25 @@ const LoginPage = () => {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+              className="input-base" // 공통 스타일 적용
               required
               placeholder="********"
             />
           </div>
           <div className="flex items-center justify-between">
-            <button
+            <Button
               type="submit"
               disabled={isLoading}
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full disabled:bg-blue-300"
+              variant="primary"
+              className="w-full" // 공통 Button 컴포넌트 사용
             >
               {isLoading ? '로그인 중...' : '로그인'}
-            </button>
+            </Button>
           </div>
           <div className="text-center mt-6">
             <p className="text-gray-600">
               계정이 없으신가요?{' '}
-              <Link to="/register" className="font-bold text-blue-500 hover:text-blue-800">
+              <Link to="/register" className="font-bold text-primary hover:text-primary-dark">
                 회원가입
               </Link>
             </p>

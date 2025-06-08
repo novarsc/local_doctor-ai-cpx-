@@ -13,8 +13,8 @@ const MockExamResultPage = () => {
     const { mockExamSessionId } = useParams();
     const { currentSession, status, error } = useSelector(state => state.mockExam);
 
+    // 사용자가 이 결과 페이지를 떠날 때, Redux의 현재 모의고사 상태를 초기화합니다.
     useEffect(() => {
-        // Clean up the session data when the user navigates away from the results.
         return () => {
             dispatch(clearCurrentMockExam());
         }
@@ -22,11 +22,17 @@ const MockExamResultPage = () => {
 
 
     if (status === 'loading') {
-        return <div className="p-8 text-center">결과를 불러오는 중입니다...</div>;
+        return <div className="p-8 text-center text-xl">결과를 불러오는 중입니다...</div>;
     }
 
-    if (status === 'error' || !currentSession) {
-        return <div className="p-8 text-center text-red-500">결과를 표시하는 중 오류가 발생했습니다: {error || '세션 정보를 찾을 수 없습니다.'}</div>;
+    if (error || !currentSession) {
+        return (
+            <div className="p-8 text-center text-red-500">
+                <h1 className="text-2xl font-bold mb-4">오류</h1>
+                <p>결과를 표시하는 중 오류가 발생했습니다: {error || '세션 정보를 찾을 수 없습니다.'}</p>
+                <Link to="/mock-exam" className="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-lg">모의고사 홈으로 돌아가기</Link>
+            </div>
+        );
     }
     
     return (
@@ -45,16 +51,16 @@ const MockExamResultPage = () => {
                 </div>
 
                 {/* Score by Case */}
-                <div className="bg-white p-6 rounded-xl shadow-lg">
-                    <h3 className="text-2xl font-semibold mb-4 text-gray-800">증례별 점수 상세</h3>
+                <div className="bg-white p-8 rounded-xl shadow-lg">
+                    <h3 className="text-2xl font-semibold mb-6 text-gray-800 border-b pb-4">증례별 점수 상세</h3>
                     <div className="space-y-4">
                         {currentSession.selectedScenariosDetails.map((scenario, index) => (
-                            <div key={scenario.scenarioId} className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                            <div key={scenario.scenarioId} className="flex justify-between items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition">
                                 <div>
                                     <p className="font-bold text-gray-800">증례 {index + 1}: {scenario.name}</p>
                                     <p className="text-sm text-gray-600">{scenario.primaryCategory} &gt; {scenario.secondaryCategory}</p>
                                 </div>
-                                <div className="text-xl font-bold text-blue-600">
+                                <div className="text-2xl font-bold text-blue-600">
                                     {scenario.score ?? 'N/A'} 점
                                 </div>
                             </div>
@@ -62,8 +68,8 @@ const MockExamResultPage = () => {
                     </div>
                 </div>
 
-                <div className="text-center mt-10">
-                    <Link to="/mock-exam" className="px-8 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition shadow-md">
+                <div className="text-center mt-12">
+                    <Link to="/mock-exam" className="px-10 py-4 bg-blue-600 text-white font-bold text-lg rounded-lg hover:bg-blue-700 transition shadow-md">
                         모의고사 홈으로 돌아가기
                     </Link>
                 </div>

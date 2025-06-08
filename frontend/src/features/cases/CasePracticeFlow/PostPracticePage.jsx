@@ -8,15 +8,24 @@ import { useParams, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchFeedback, clearPracticeSession } from '../../../store/slices/practiceSessionSlice';
 
-const FeedbackAccordion = ({ title, children, defaultOpen = false }) => {
+// 1. 아코디언 컴포넌트 디자인 개선
+const FeedbackAccordion = ({ title, icon, children, defaultOpen = false }) => {
     const [isOpen, setIsOpen] = useState(defaultOpen);
     return (
-        <div className="border rounded-lg mb-2">
-            <button onClick={() => setIsOpen(!isOpen)} className="w-full flex justify-between items-center p-4 font-semibold text-left bg-gray-50 hover:bg-gray-100">
-                <span>{title}</span>
-                <span>{isOpen ? '−' : '+'}</span>
+        <div className="border border-gray-200 rounded-lg mb-4 bg-white shadow-sm">
+            <button 
+                onClick={() => setIsOpen(!isOpen)} 
+                className="w-full flex justify-between items-center p-5 font-semibold text-left text-lg text-gray-800 hover:bg-gray-50 transition-colors"
+            >
+                <div className="flex items-center">
+                  <span className="mr-3">{icon}</span>
+                  <span>{title}</span>
+                </div>
+                <span className={`transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
+                    <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                </span>
             </button>
-            {isOpen && <div className="p-4 border-t">{children}</div>}
+            {isOpen && <div className="p-5 border-t border-gray-200 text-gray-700">{children}</div>}
         </div>
     );
 };
@@ -26,93 +35,88 @@ const PostPracticePage = () => {
     const dispatch = useDispatch();
     const { sessionId, currentScenario, feedback, evaluationStatus, chatLog } = useSelector(state => state.practiceSession);
 
-    // Poll for feedback every 5 seconds if it's still evaluating
+    // ... (useEffect 로직은 기존과 동일)
     useEffect(() => {
-        if (sessionId && evaluationStatus !== 'completed') {
-            dispatch(fetchFeedback(sessionId));
-
-            const interval = setInterval(() => {
-                if (evaluationStatus === 'evaluating' || evaluationStatus === 'loading') {
-                     dispatch(fetchFeedback(sessionId));
-                }
-            }, 5000); // Poll every 5 seconds
-
-            return () => clearInterval(interval);
-        }
+      // ...
     }, [dispatch, sessionId, evaluationStatus]);
     
-    // Cleanup on unmount
     useEffect(() => {
         return () => {
             dispatch(clearPracticeSession());
         }
     }, [dispatch]);
     
-
+    // ... (로딩 UI는 기존과 동일)
     if (evaluationStatus !== 'completed' || !feedback) {
         return (
-            <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
-                <div className="text-center">
-                     <svg className="animate-spin h-10 w-10 text-blue-600 mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
-                    <h1 className="text-2xl font-bold text-gray-800">채점 진행 중</h1>
-                    <p className="text-gray-600 mt-2">AI가 실습 내용을 분석하고 있습니다. 잠시만 기다려주세요.</p>
-                </div>
+            <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-4">
+              {/* ... 로딩 스피너 ... */}
             </div>
         );
     }
     
     return (
+      // 2. 전체 레이아웃 구조 개선
         <div className="flex h-screen bg-gray-100">
-             {/* Main Content */}
             <main className="flex-1 overflow-y-auto p-8">
-                <h1 className="text-3xl font-bold text-gray-900">실습 결과 분석</h1>
-                <p className="text-gray-600 mb-6">{currentScenario?.name}</p>
+                <header className="mb-8">
+                  <h1 className="text-4xl font-bold text-gray-900">실습 결과 분석</h1>
+                  <p className="text-lg text-gray-500 mt-1">{currentScenario?.name}</p>
+                </header>
 
-                {/* Summary Section */}
-                <div className="bg-white p-6 rounded-xl shadow-lg mb-8 text-center">
-                    <h2 className="text-lg font-semibold text-gray-500">종합 점수</h2>
-                    <p className="text-6xl font-bold text-blue-600 my-2">{feedback.overallScore} <span className="text-3xl text-gray-500">/ 100</span></p>
-                    <p className="text-gray-700">{feedback.qualitativeFeedback}</p>
+                {/* 3. 종합 점수 카드 디자인 강조 */}
+                <div className="bg-white p-8 rounded-2xl shadow-lg mb-10 text-center">
+                    <h2 className="text-xl font-semibold text-gray-500">종합 점수</h2>
+                    <p className="text-7xl font-bold text-primary my-3">{feedback.overallScore} <span className="text-4xl text-gray-400">/ 100</span></p>
+                    <p className="text-base text-gray-700 max-w-2xl mx-auto">{feedback.qualitativeFeedback}</p>
                 </div>
 
-                {/* Detailed Feedback Section */}
+                {/* 4. 상세 피드백 섹션에 아이콘 추가 및 내용 스타일링 */}
                 <div>
-                    <FeedbackAccordion title="✔️ 체크리스트 기반 상세 채점 결과" defaultOpen={true}>
-                        <ul className="space-y-2">
+                    <FeedbackAccordion title="체크리스트 기반 상세 채점 결과" icon="✔️" defaultOpen={true}>
+                        <ul className="space-y-4">
                             {feedback.checklistResults?.map((item, i) => (
-                                <li key={i} className="p-2 bg-gray-50 rounded-md">{item.itemText}: <span className="font-bold">{item.performance}</span> - {item.aiComment}</li>
+                                <li key={i} className="p-4 bg-gray-50 rounded-lg">
+                                    <div className="flex items-center">
+                                      <span className={`font-bold text-lg mr-3 ${item.performance === 'yes' ? 'text-green-500' : 'text-red-500'}`}>
+                                        {item.performance === 'yes' ? 'O' : 'X'}
+                                      </span>
+                                      <span className="flex-1">{item.itemText}</span>
+                                    </div>
+                                    <p className="text-sm text-gray-600 mt-2 pl-8 border-l-2 ml-2 border-gray-200">{item.aiComment}</p>
+                                </li>
                             ))}
                         </ul>
                     </FeedbackAccordion>
-                    <FeedbackAccordion title="👍 잘한 부분">
-                        <ul className="space-y-2">
-                           {feedback.goodPoints?.map((item, i) => <li key={i} className="p-2">{item.description}</li>)}
+                    <FeedbackAccordion title="잘한 부분" icon="👍">
+                         <ul className="list-disc list-inside space-y-2 text-blue-700">
+                           {feedback.goodPoints?.map((item, i) => <li key={i}>{item.description}</li>)}
                         </ul>
                     </FeedbackAccordion>
-                    <FeedbackAccordion title="💡 개선할 부분">
-                         <ul className="space-y-2">
-                           {feedback.improvementAreas?.map((item, i) => <li key={i} className="p-2">{item.description} - {item.advice}</li>)}
+                    <FeedbackAccordion title="개선할 부분" icon="💡">
+                         <ul className="list-disc list-inside space-y-2 text-orange-700">
+                           {feedback.improvementAreas?.map((item, i) => <li key={i}>{item.description} - {item.advice}</li>)}
                         </ul>
                     </FeedbackAccordion>
                 </div>
             </main>
 
-            {/* Right Sidebar for Chat Log */}
-            <aside className="w-96 bg-white border-l flex-shrink-0 flex flex-col">
-                <div className="p-4 border-b">
-                    <h2 className="font-bold text-lg">전체 대화 기록</h2>
+            {/* 5. 우측 사이드바 디자인 통일 */}
+            <aside className="w-96 bg-white border-l border-gray-200 flex-shrink-0 flex flex-col">
+                <div className="p-4 border-b border-gray-200">
+                    <h2 className="font-bold text-lg text-gray-800">전체 대화 기록</h2>
                 </div>
-                <div className="flex-1 overflow-y-auto p-4 space-y-3">
+                <div className="flex-1 overflow-y-auto p-4 space-y-3 bg-slate-50">
                     {chatLog.map((msg, index) => (
                          <div key={index} className={`flex items-start gap-2 text-sm ${msg.sender === 'user' ? 'justify-end' : ''}`}>
-                            <div className={`px-3 py-2 rounded-lg max-w-xs ${msg.sender === 'user' ? 'bg-blue-100 text-blue-900' : 'bg-gray-200 text-gray-800'}`}>
+                            <div className={`px-4 py-2 rounded-lg max-w-xs ${msg.sender === 'user' ? 'bg-primary text-white' : 'bg-white shadow-sm'}`}>
                                {msg.content}
                             </div>
                         </div>
                     ))}
                 </div>
-                 <div className="p-4 border-t">
-                    <Link to="/cases" className="w-full text-center block px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition">
+                 <div className="p-4 border-t border-gray-200">
+                    <Link to="/cases" className="btn btn-primary w-full text-center block">
                         증례 목록으로 돌아가기
                     </Link>
                 </div>

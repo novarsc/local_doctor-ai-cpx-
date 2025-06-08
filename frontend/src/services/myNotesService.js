@@ -44,9 +44,40 @@ const getLearningHistory = async () => {
     }
 };
 
+/**
+ * 특정 증례를 북마크에 추가합니다.
+ * @param {string} scenarioId - 북마크할 증례의 ID
+ * @returns {Promise<object>} 생성된 북마크 정보
+ */
+const addBookmark = async (scenarioId) => {
+  try {
+    // API 명세서 2.3.5.
+    const response = await apiClient.post(`/scenarios/${scenarioId}/bookmark`);
+    return response.data;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('북마크 추가에 실패했습니다.');
+  }
+};
+
+/**
+ * 특정 증례를 북마크에서 삭제합니다.
+ * @param {string} scenarioId - 북마크 해제할 증례의 ID
+ * @returns {Promise<void>}
+ */
+const removeBookmark = async (scenarioId) => {
+  try {
+    // API 명세서 2.3.5.
+    await apiClient.delete(`/scenarios/${scenarioId}/bookmark`);
+  } catch (error) {
+    throw error.response?.data?.error || new Error('북마크 삭제에 실패했습니다.');
+  }
+};
+
 export const myNotesService = {
   getBookmarks,
   getIncorrectNotes,
   saveIncorrectNoteMemo,
   getLearningHistory,
+  addBookmark,    // export에 추가
+  removeBookmark, // export에 추가
 };
