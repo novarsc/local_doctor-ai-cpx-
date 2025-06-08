@@ -1,0 +1,84 @@
+case_id: "checklist_01_acute_abdominal_pain"
+title: "급성 복통 채점표 예시"
+source_page: 4
+sections:
+  - name: "병력 청취 (History Taking)"
+    subsections:
+      - name: "주제 관련 (Topic-Related)"
+        items:
+          - "복통이 시작된 시점을 확인하였다."
+          - "복통의 위치와 이동 양상, 방사통, 빈도를 확인하였다."
+          - "통증의 양상(찌르는, 조이는, 쥐어짜는, 지속적 or 간헐적)에 대해서 구체적으로 질문하였다."
+          - "복통의 강도를 확인하였다."
+          - "복통의 악화 및 완화 인자(식사, 자세, 배뇨, 배변)를 확인하였다."
+          - "소화기 증상에 대해서 질문하였다(식욕부진, 구역질, 구토, 변비, 설사, 혈변, 황달 등)."
+          - "환자의 산부인과적 병력(월경력, 성관계, 질출혈)을 확인하였다."
+          - "순환기(가슴 통증, 호흡곤란) 증상에 대해서 물어보았다."
+      - name: "기본 (Basic)"
+        items:
+          - "현재 복용 중인 약물에 대해서 확인하였다(소염진통제, 소화제)."
+          - "질환의 가족력에 대해서 물어보았다."
+          - "복부 외상력 및 수술력에 대해서 질문하였다."
+          - "환자의 과거 소화기 질환 여부를 확인하였다."
+          - "환자의 식습관 및 운동 여부에 대해서 물어보았다."
+
+  - name: "신체 검진 (Physical Examination)"
+    items:
+      - "환자의 생체 징후를 확인하였다."
+      - "눈 진찰을 통해 황달, 빈혈 유무를 확인하였다."
+      - "복부 진찰을 위해 환자를 바로 눕히고 양쪽 무릎을 세웠다."
+      - "배를 만지기 전에 청진을 복부 5군데에서 3초 이상 실시하였다."
+      - "복부 시진 - 청진 - 타진 촉진의 순서대로 진찰을 시행하였다."
+      - "통증이 심한 부위를 마지막으로 촉진하며, 반발통 여부를 확인하였다."
+      - "진찰 시 늑골 척추각 압통(CVAT) 여부를 확인하였다."
+
+  - name: "환자 교육 (Patient Education)"
+    items:
+      - "가능한 진단을 설명하고 필요한 검사 계획에 대해서 설명하였다."
+      - "수술적 치료가 필요한 경우 이에 대해서 설명하였다."
+      - "내시경 등의 검사가 필요한 경우 금식을 하도록 지도하였다."
+
+  - name: "증례별 알고리즘 (Case-specific Algorithm)"
+    description: "급성 복통의 원인을 감별하기 위한 진단적 사고 흐름입니다."
+    branches:
+      - condition: "상복부 통증 (Upper Abdominal Pain)"
+        sub_branches:
+          - type: "Parietal (벽측)"
+            diagnoses:
+              - "식도/위궤양 출혈/천공"
+              - "급성 담낭염"
+              - "급성 췌장염"
+              - "장천공"
+              - "Ectopic pregnancy"
+              - "Ovarian torsion"
+              - "Fitz-Hugh-Curtis syndrome"
+              - "Ureter stone, APN"
+              - "심근경색"
+              - "AAA rupture"
+          - type: "Visceral (내장측)"
+            diagnoses:
+              - "식도/위궤양"
+              - "간농양"
+              - "담석증"
+              - "Obstruction (장폐쇄)"
+              - "Mesenteric ischemia (장간막 허혈)"
+              - "IBD (염증성 장질환)"
+      - condition: "하복부 통증 (Lower Abdominal Pain)"
+        sub_branches:
+          - type: "Parietal (벽측)"
+            diagnoses:
+              - "Appendicitis (충수염)"
+              - "Diverticulitis (게실염)"
+              - "Ectopic pregnancy"
+              - "Ovarian torsion/Cyst rupture"
+              - "Tubo-ovarian abscess"
+              - "Ureter stone, APN"
+              - "AAA rupture"
+          - type: "Visceral (내장측)"
+            diagnoses:
+              - "초기 appendicitis/diverticulitis"
+              - "Mesenteric adenitis"
+              - "Mesenteric ischemia"
+              - "AGE (급성 위장염)"
+              - "염증/감염"
+              - "폐쇄 (수술 후 유착, Hernia, Neoplasm)"
