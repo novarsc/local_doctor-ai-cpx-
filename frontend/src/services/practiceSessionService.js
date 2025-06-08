@@ -4,6 +4,7 @@
  */
 
 import apiClient from './apiClient';
+import { getToken } from '../utils/localStorageHelper'; // <--- 이 줄을 추가하세요!
 
 /**
  * Starts a new practice session.
@@ -25,17 +26,24 @@ const startPracticeSession = async (sessionConfig) => {
  */
 const sendChatMessageAndStream = async ({ sessionId, messageContent, onData, onEnd, onError }) => {
   try {
-    const response = await fetch(`${apiClient.defaults.baseURL}/practice-sessions/${sessionId}/chat-messages`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${localStorage.getItem('aichpx_access_token')}`,
-      },
-      body: JSON.stringify({ messageContent }),
-    });
+     // 1. (추가된 부분) 스트리밍 요청 전에 간단한 인증 API를 호출하여 토큰을 갱신합니다.
+    // 이렇게 하면 apiClient의 인터셉터가 동작하여 토큰이 만료된 경우 새로 발급받습니다.
+    await apiClient.get('/users/me'); // 내 정보 조회 API를 사용
+
+   const response = await fetch(
+  // 반드시 키보드 숫자 1 왼쪽에 있는 백틱(`)을 사용해야 합니다.
+  `${apiClient.defaults.baseURL}/practice-sessions/${sessionId}/chat-messages`, 
+  {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${getToken()}`,
+    },
+    body: JSON.stringify({ messageContent }),
+  }
+);
 
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-
     const reader = response.body.getReader();
     const decoder = new TextDecoder();
 
