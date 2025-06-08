@@ -13,7 +13,7 @@ import apiClient from './apiClient';
  */
 const getScenarios = async (params) => {
   try {
-    const response = await apiClient.get('/scenarios', { params });
+    const response = await apiClient.get('/cases', { params });
     return response.data;
   } catch (error) {
     // Re-throw the error to be handled by the component/hook
@@ -28,7 +28,7 @@ const getScenarios = async (params) => {
  */
 const getScenarioById = async (scenarioId) => {
   try {
-    const response = await apiClient.get(`/scenarios/${scenarioId}`);
+    const response = await apiClient.get(`/cases/${scenarioId}`);
     return response.data;
   } catch (error) {
     throw error.response?.data?.error || new Error('Failed to fetch scenario details.');
