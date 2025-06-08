@@ -1,0 +1,57 @@
+chapter: "01 급성 복통"
+case_number_in_chapter: "사용자 제공 01"
+title: "실전 모의 증례"
+patient_info:
+  name: "김민준"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "배가 아파 응급실에 내원하였다."
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "92회/분"
+  respiration: "20회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 담낭염"
+    - "급성 담도염"
+    - "소화성 궤양"
+  necessary_tests:
+    - "복부 초음파"
+    - "혈액 검사(CBC, LFT, Amylase/Lipase 등)"
+    - "복부 CT"
+  necessary_treatments:
+    - "금식(NPO)"
+    - "수액 공급"
+    - "진통제 및 항생제 투여"
+    - "담낭 절제술 고려"
+history:
+  sex_age: "남성/45세"
+  chief_complaint_verbatim: "배가 너무 아파서 왔어요."
+  onset: "이틀 전 저녁 식사 후"
+  location: "명치 부근에서 시작하여 현재는 오른쪽 윗배(RUQ)"
+  duration: "오늘 점심 식사 후부터 지속, 최근 1시간 전부터 악화"
+  course: "점점 심해짐"
+  experience_prev_episodes: "수개월 전부터 과식/기름진 음식 섭취 후 소화불량, 더부룩함"
+  character_of_symptom: "쥐어짜는 듯, 찌르는 듯한 통증. NRS 6~8점. 우측 어깨로 방사통(+)"
+  associated_symptoms:
+    - "[전신] 발열/오한/피로/체중 감소(+/+/+/-)"
+    - "[소화기] A/N/V/C/D(+/+/-/-/-), 속쓰림(+), 소변색 변화(+)"
+    - "[탈수] 어지럼/갈증/소변량 감소(-/+/ -)"
+  factors_aggravating_alleviating: "악화: 기름진 음식, 심호흡, 움직일 때 / 완화: 불명확"
+  event_prev_health_check_hospitalization: "2년 전 건강검진 위내시경에서 경미한 위염 소견. B형 간염 예방접종력 모름."
+  trauma_history: null
+  past_medical_history: "특이 기저질환(-), 알레르기(-)"
+  medication_history: "소화제, 진통제(자가 복용, 효과 미미)"
+  social_history: "직업: 사무직, 스트레스(+, 야근 잦음), 음주(+, 주 2-3회, 소주 1병), 흡연(-, 1년 전 금연), 운동(-), 최근 체중 증가(+)"
+  family_history: "특이 가족력 없음"
+  female_history: null
+physical_exam:
+  general: "급성 병색(acute ill-looking appearance)"
+  heent: "공막 황달(Scleral icterus)(+), 구강 점막 건조(+)"
+  chest: "시/청/타/촉 특이소견 없음"
+  abdomen: "시진: 특이소견 없음 / 청진: 장음 감소 / 타진: 우상복부 불편감 / 촉진: RUQ Td/rTd(+/+), Murphy's sign(+), Epigastric Td(+). 간/비장/종괴 촉진 안됨. CVAT(-/-)"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "너무 아파요. 빨리 좀 어떻게 해주세요. 이거 심각한 병인가요?"
+specific_remarks: "응급실 상황. 통증으로 얼굴을 찡그리고 초조, 불안한 모습. 담낭(쓸개)에 대해 '소화기관의 일부'로만 알고 있음."

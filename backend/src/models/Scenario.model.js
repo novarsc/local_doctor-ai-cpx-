@@ -57,6 +57,16 @@ module.exports = (sequelize) => {
       allowNull: true,
       comment: 'An array of keywords for search functionality',
     },
+    caseFilePath: {
+        type: DataTypes.STRING,
+        allowNull: true, // 나중에 필수로 변경 가능합니다.
+        comment: 'Path to the YAML file containing the case details',
+    },
+      checklistFilePath: {
+        type: DataTypes.STRING,
+        allowNull: true, // 나중에 필수로 변경 가능합니다.
+        comment: 'Path to the YAML file for the evaluation checklist',
+    },
   }, {
     sequelize,
     modelName: 'Scenario',
