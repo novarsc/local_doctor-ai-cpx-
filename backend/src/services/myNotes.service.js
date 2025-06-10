@@ -5,11 +5,15 @@
 
 const { UserBookmarkedScenario, Scenario, IncorrectAnswerNote, EvaluationResult, PracticeSession, MockExamSession } = require('../models');
 
-// getBookmarkedScenarios, getIncorrectNotesForScenario, upsertUserIncorrectNote functions remain unchanged...
 const getBookmarkedScenarios = async (userId) => {
-    const bookmarks = await UserBookmarkedScenario.findAll({ where: { userId }, include: [{ model: Scenario, required: true }], order: [['createdAt', 'DESC']] });
-    return bookmarks.map(bookmark => bookmark.Scenario.toJSON());
+    const bookmarks = await UserBookmarkedScenario.findAll({
+        where: { userId },
+        include: [{ model: Scenario, as: 'scenario', required: true }],
+        order: [['createdAt', 'DESC']]
+    });
+    return bookmarks.map(bookmark => bookmark.scenario.toJSON());
 };
+
 const getIncorrectNotesForScenario = async (userId, scenarioId) => {
     const practiceSessions = await PracticeSession.findAll({ where: { userId, scenarioId, status: 'completed' }, attributes: ['practiceSessionId']});
     const sessionIds = practiceSessions.map(s => s.practiceSessionId);
@@ -18,41 +22,34 @@ const getIncorrectNotesForScenario = async (userId, scenarioId) => {
     const userNote = await IncorrectAnswerNote.findOne({ where: { userId, scenarioId } });
     return { aiGeneratedFeedback: aiFeedback, userMemo: userNote ? userNote.userMemo : '' };
 };
+
 const upsertUserIncorrectNote = async (userId, scenarioId, userMemo) => {
     const [note] = await IncorrectAnswerNote.upsert({ userId, scenarioId, userMemo });
     return note.toJSON();
 };
 
-/**
- * Fetches the learning history for a user, combining case practices and mock exams.
- * @param {string} userId - The ID of the user.
- * @returns {Promise<Array<object>>} A sorted list of learning activities.
- */
 const getLearningHistory = async (userId) => {
-    // 1. Fetch all completed individual practice sessions
     const casePractices = await PracticeSession.findAll({
         where: {
             userId,
             status: 'completed',
-            // Exclude sessions that are part of a mock exam if they are linked
         },
-        include: [{ model: Scenario, attributes: ['name'] }],
-        order: [['completedAt', 'DESC']],
+        include: [{ model: Scenario, as: 'scenario', attributes: ['name'] }],
+        // 1. 정렬 기준 컬럼을 'completedAt'에서 'endTime'으로 수정합니다.
+        order: [['endTime', 'DESC']],
     });
 
-    // 2. Fetch all completed mock exam sessions
     const mockExams = await MockExamSession.findAll({
         where: { userId, status: 'completed' },
         order: [['endTime', 'DESC']],
     });
 
-    // 3. Format and combine the two lists
     const formattedPractices = casePractices.map(p => ({
         type: '증례 실습',
         id: p.practiceSessionId,
         scenarioId: p.scenarioId,
-        name: p.Scenario.name,
-        completedAt: p.endTime,
+        name: p.scenario.name, 
+        completedAt: p.endTime, // 여기는 p.endTime을 사용하는 것이 맞습니다.
         score: p.finalScore,
     }));
     
@@ -66,7 +63,6 @@ const getLearningHistory = async (userId) => {
     
     const combinedHistory = [...formattedPractices, ...formattedMockExams];
 
-    // 4. Sort the combined list by completion date
     combinedHistory.sort((a, b) => new Date(b.completedAt) - new Date(a.completedAt));
 
     return combinedHistory;

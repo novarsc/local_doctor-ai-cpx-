@@ -26,7 +26,7 @@ const initialState = {
   error: null,
 };
 
-// Existing async thunks (fetchScenarioForPractice, startNewPracticeSession) ...
+// Existing async thunks
 export const fetchScenarioForPractice = createAsyncThunk('practiceSession/fetchScenario', async (id, { rejectWithValue }) => { try { return await caseService.getScenarioById(id); } catch (e) { return rejectWithValue(e.message); }});
 export const startNewPracticeSession = createAsyncThunk('practiceSession/startNew', async (config, { rejectWithValue }) => { try { return await practiceSessionService.startPracticeSession(config); } catch (e) { return rejectWithValue(e.message); }});
 
@@ -42,18 +42,15 @@ export const completeSession = createAsyncThunk(
   }
 );
 
-// Async thunk for fetching feedback
-export const fetchFeedback = createAsyncThunk(
+// --- 여기가 수정된 부분입니다 ---
+// 기존 fetchFeedback 함수의 이름을 PostPracticePage.jsx가 사용하는 이름으로 변경합니다.
+export const fetchFeedbackForSession = createAsyncThunk(
   'practiceSession/fetchFeedback',
   async (sessionId, { rejectWithValue }) => {
     try {
-      // Polling logic can be added here if needed, but for now, a single fetch
       const result = await practiceSessionService.getFeedback(sessionId);
-      if (result.status === 'evaluating') {
-        // We can handle the "evaluating" state in the component
-        return result;
-      }
-      return result.data;
+      // 백엔드에서 받은 응답 전체를 반환하여 리듀서에서 상태를 처리하도록 합니다.
+      return result;
     } catch (error) {
       return rejectWithValue(error.message);
     }
@@ -85,19 +82,20 @@ const practiceSessionSlice = createSlice({
         state.status = 'completed';
         state.evaluationStatus = 'evaluating';
       })
-      .addCase(fetchFeedback.pending, (state) => {
-        state.evaluationStatus = 'loading';
-        state.feedback = null;
+      // fetchFeedbackForSession에 대한 리듀서 로직을 추가합니다.
+      .addCase(fetchFeedbackForSession.pending, (state) => {
+        // 폴링 중에는 전체 로딩 상태를 변경하지 않을 수 있습니다.
+        // 필요하다면 별도의 상태 (e.g., isFeedbackLoading)를 추가할 수 있습니다.
       })
-      .addCase(fetchFeedback.fulfilled, (state, action) => {
-        if (action.payload.status === 'evaluating') {
-            state.evaluationStatus = 'evaluating';
-        } else {
+      .addCase(fetchFeedbackForSession.fulfilled, (state, action) => {
+        state.feedback = action.payload; // 백엔드 응답을 그대로 저장
+        if (action.payload.status === 'completed') {
             state.evaluationStatus = 'completed';
-            state.feedback = action.payload;
+        } else {
+            state.evaluationStatus = 'evaluating';
         }
       })
-      .addCase(fetchFeedback.rejected, (state, action) => {
+      .addCase(fetchFeedbackForSession.rejected, (state, action) => {
         state.evaluationStatus = 'error';
         state.error = action.payload;
       });

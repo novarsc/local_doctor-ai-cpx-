@@ -1,13 +1,28 @@
-/**
- * @file PracticeSession.model.js
- * @description Defines the Sequelize model for the 'PracticeSessions' table.
- */
+// File: backend/src/models/PracticeSession.model.js
 
 const { DataTypes, Model } = require('sequelize');
 const { v4: uuidv4 } = require('uuid');
 
 module.exports = (sequelize) => {
-  class PracticeSession extends Model {}
+  class PracticeSession extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+        // 실습 세션은 하나의 사용자에게 속합니다. (N:1)
+        this.belongsTo(models.User, {
+            foreignKey: 'userId',
+            as: 'user'
+        });
+        // 실습 세션은 하나의 시나리오에 속합니다. (N:1)
+        this.belongsTo(models.Scenario, {
+            foreignKey: 'scenarioId',
+            as: 'scenario'
+        });
+    }
+  }
 
   PracticeSession.init({
     practiceSessionId: {
@@ -20,7 +35,7 @@ module.exports = (sequelize) => {
       type: DataTypes.UUID,
       allowNull: false,
       references: {
-        model: 'Users', // This should match the table name of the User model
+        model: 'Users',
         key: 'userId',
       },
     },
@@ -28,7 +43,7 @@ module.exports = (sequelize) => {
       type: DataTypes.UUID,
       allowNull: false,
       references: {
-        model: 'Scenarios', // This should match the table name of the Scenario model
+        model: 'Scenarios',
         key: 'scenarioId',
       },
     },
@@ -37,11 +52,11 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     practiceMode: {
-      type: DataTypes.STRING, // "chat" or "audio"
+      type: DataTypes.STRING,
       allowNull: false,
     },
     status: {
-      type: DataTypes.STRING, // "started", "completed", "aborted"
+      type: DataTypes.STRING,
       allowNull: false,
       defaultValue: 'started',
     },
@@ -62,7 +77,7 @@ module.exports = (sequelize) => {
     sequelize,
     modelName: 'PracticeSession',
     tableName: 'PracticeSessions',
-    timestamps: true, // This will add createdAt and updatedAt fields
+    timestamps: true,
   });
 
   return PracticeSession;

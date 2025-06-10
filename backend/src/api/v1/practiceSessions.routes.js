@@ -5,23 +5,17 @@
 
 const express = require('express');
 const practiceSessionController = require('../../controllers/practiceSession.controller');
-// const authMiddleware = require('../../middlewares/auth.middleware');
+// 1. 인증 미들웨어를 가져옵니다.
+const { verifyToken } = require('../../middlewares/auth.middleware');
 
 const router = express.Router();
 
-// All routes here should be protected
-// router.use(authMiddleware);
+// 2. 실습 세션 관련 모든 기능도 로그인 사용자만 사용 가능합니다.
+router.use(verifyToken);
 
-// POST /api/v1/practice-sessions - Start a new practice session
 router.post('/', practiceSessionController.createSession);
-
-// POST /api/v1/practice-sessions/:sessionId/chat-messages - Send a message and get a stream response
 router.post('/:sessionId/chat-messages', practiceSessionController.handleChatMessage);
-
-// POST /api/v1/practice-sessions/:sessionId/complete - Complete a session and trigger evaluation
 router.post('/:sessionId/complete', practiceSessionController.completeSession);
-
-// GET /api/v1/practice-sessions/:sessionId/feedback - Get evaluation results for a session
 router.get('/:sessionId/feedback', practiceSessionController.getFeedback);
 
 module.exports = router;

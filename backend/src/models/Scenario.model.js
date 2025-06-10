@@ -1,13 +1,28 @@
-/**
- * @file Scenario.model.js
- * @description Defines the Sequelize model for the 'Scenarios' table.
- */
+// File: backend/src/models/Scenario.model.js
 
 const { DataTypes, Model } = require('sequelize');
 const { v4: uuidv4 } = require('uuid');
 
 module.exports = (sequelize) => {
-  class Scenario extends Model {}
+  class Scenario extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+        // 시나리오는 여러 실습 세션을 가질 수 있습니다 (1:N)
+        this.hasMany(models.PracticeSession, {
+            foreignKey: 'scenarioId',
+            as: 'practiceSessions'
+        });
+        // 시나리오는 여러 사용자에게 북마크될 수 있습니다 (1:N)
+        this.hasMany(models.UserBookmarkedScenario, {
+            foreignKey: 'scenarioId',
+            as: 'bookmarks'
+        });
+    }
+  }
 
   Scenario.init({
     scenarioId: {
@@ -15,57 +30,70 @@ module.exports = (sequelize) => {
       defaultValue: () => uuidv4(),
       primaryKey: true,
       allowNull: false,
-      comment: 'Unique identifier for the scenario (UUID v4)',
     },
     name: {
       type: DataTypes.STRING,
       allowNull: false,
-      comment: 'The name or title of the scenario (e.g., 급성 복통 환자)',
     },
     shortDescription: {
       type: DataTypes.STRING,
       allowNull: true,
-      comment: 'A brief, one-line description of the patient\'s chief complaint',
     },
     description: {
       type: DataTypes.TEXT,
       allowNull: true,
-      comment: 'A more detailed description of the scenario situation',
     },
     primaryCategory: {
       type: DataTypes.STRING,
       allowNull: false,
-      comment: 'The main medical category (e.g., 소화기, 순환기)',
     },
     secondaryCategory: {
       type: DataTypes.STRING,
       allowNull: false,
-      comment: 'The sub-category within the main category (e.g., 급성 복통)',
     },
-    patientInfo: {
-      type: DataTypes.JSON, // Use JSONB in PostgreSQL for better performance
+    age: {
+      type: DataTypes.INTEGER,
       allowNull: true,
-      comment: 'Structured patient data including demographics, history, and vital signs',
+    },
+    sex: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    presentingComplaint: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+    },
+    bloodPressure: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    pulse: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    respiration: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    temperature: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
     defaultAiPersonalityId: {
       type: DataTypes.UUID,
       allowNull: true,
-      comment: 'FK to the default AI personality for this scenario',
     },
     keywords: {
       type: DataTypes.ARRAY(DataTypes.STRING),
       allowNull: true,
-      comment: 'An array of keywords for search functionality',
     },
     caseFilePath: {
         type: DataTypes.STRING,
-        allowNull: true, // 나중에 필수로 변경 가능합니다.
-        comment: 'Path to the YAML file containing the case details',
+        allowNull: true,
     },
-      checklistFilePath: {
+    checklistFilePath: {
         type: DataTypes.STRING,
-        allowNull: true, // 나중에 필수로 변경 가능합니다.
-        comment: 'Path to the YAML file for the evaluation checklist',
+        allowNull: true,
     },
   }, {
     sequelize,

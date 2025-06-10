@@ -6,18 +6,30 @@
 const myNotesService = require('../services/myNotes.service');
 const asyncHandler = require('../middlewares/asyncHandler.middleware');
 
-// getBookmarks, getIncorrectNotes, saveIncorrectNoteMemo functions remain unchanged...
-const getBookmarks = asyncHandler(async (req, res) => { const userId = 'a1b2c3d4-e5f6-7890-1234-567890abcdef'; const bookmarkedScenarios = await myNotesService.getBookmarkedScenarios(userId); res.status(200).json({ data: bookmarkedScenarios }); });
-const getIncorrectNotes = asyncHandler(async (req, res) => { const { scenarioId } = req.params; const userId = 'a1b2c3d4-e5f6-7890-1234-567890abcdef'; const notes = await myNotesService.getIncorrectNotesForScenario(userId, scenarioId); res.status(200).json(notes); });
-const saveIncorrectNoteMemo = asyncHandler(async (req, res) => { const { scenarioId } = req.params; const { userMemo } = req.body; const userId = 'a1b2c3d4-e5f6-7890-1234-567890abcdef'; const savedNote = await myNotesService.upsertUserIncorrectNote(userId, scenarioId, userMemo); res.status(200).json(savedNote); });
+const getBookmarks = asyncHandler(async (req, res) => {
+    // 하드코딩된 ID 대신, 미들웨어가 넣어준 실제 사용자 ID를 사용합니다.
+    const userId = req.user.userId;
+    const bookmarkedScenarios = await myNotesService.getBookmarkedScenarios(userId);
+    res.status(200).json({ data: bookmarkedScenarios });
+});
 
-/**
- * Handles the request to get the user's learning history.
- * @param {object} req - Express request object.
- * @param {object} res - Express response object.
- */
+const getIncorrectNotes = asyncHandler(async (req, res) => {
+    const { scenarioId } = req.params;
+    const userId = req.user.userId; // 실제 사용자 ID 사용
+    const notes = await myNotesService.getIncorrectNotesForScenario(userId, scenarioId);
+    res.status(200).json(notes);
+});
+
+const saveIncorrectNoteMemo = asyncHandler(async (req, res) => {
+    const { scenarioId } = req.params;
+    const { userMemo } = req.body;
+    const userId = req.user.userId; // 실제 사용자 ID 사용
+    const savedNote = await myNotesService.upsertUserIncorrectNote(userId, scenarioId, userMemo);
+    res.status(200).json(savedNote);
+});
+
 const getHistory = asyncHandler(async (req, res) => {
-    const userId = 'a1b2c3d4-e5f6-7890-1234-567890abcdef'; // Placeholder User ID
+    const userId = req.user.userId; // 실제 사용자 ID 사용
     const history = await myNotesService.getLearningHistory(userId);
     res.status(200).json({ data: history });
 });

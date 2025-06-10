@@ -1,8 +1,5 @@
-/**
- * @file User.model.js
- * @description Defines the Sequelize model for the 'Users' table.
- * This model represents a user in the system, storing credentials and profile information.
- */
+// File: backend/src/models/User.model.js
+
 'use strict';
 const { Model, DataTypes } = require('sequelize');
 const { v4: uuidv4 } = require('uuid');
@@ -10,9 +7,22 @@ const { USER_ROLE_ENUM, USER_ROLE } = require('../enums/UserRole.enum');
 
 module.exports = (sequelize) => {
   class User extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
     static associate(models) {
-        // 여기에 다른 모델과의 관계를 정의합니다.
-        // 예: this.hasMany(models.PracticeSession, { foreignKey: 'userId' });
+      // 사용자는 여러 개의 실습 세션을 가질 수 있습니다 (1:N)
+      this.hasMany(models.PracticeSession, {
+        foreignKey: 'userId',
+        as: 'practiceSessions'
+      });
+      // 사용자는 여러 개의 북마크를 가질 수 있습니다 (1:N)
+      this.hasMany(models.UserBookmarkedScenario, {
+        foreignKey: 'userId',
+        as: 'bookmarks'
+      });
     }
   }
 
@@ -22,39 +32,27 @@ module.exports = (sequelize) => {
       defaultValue: () => uuidv4(),
       primaryKey: true,
       allowNull: false,
-      comment: 'Unique identifier for the user (UUID v4)',
     },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
-      // [변경됨] unique 옵션을 여기서 직접 정의하지 않습니다.
-      // unique: true,
-      validate: {
-        isEmail: true,
-      },
-      comment: 'User\'s email address, used for login',
+      validate: { isEmail: true, },
     },
     password: {
       type: DataTypes.STRING,
       allowNull: false,
-      comment: 'Hashed password for the user',
     },
     fullName: {
       type: DataTypes.STRING,
       allowNull: false,
-      comment: 'User\'s full name',
     },
     nickname: {
       type: DataTypes.STRING,
       allowNull: false,
-      // [변경됨] unique 옵션을 여기서 직접 정의하지 않습니다.
-      // unique: true,
-      comment: 'User\'s display name, must be unique',
     },
     profileImagePath: {
-      type: DataTypes.STRING,
-      allowNull: true,
-      comment: 'URL path to the user\'s profile image',
+        type: DataTypes.STRING,
+        allowNull: true,
     },
     role: {
       type: DataTypes.ENUM(...USER_ROLE_ENUM),
@@ -62,27 +60,18 @@ module.exports = (sequelize) => {
       defaultValue: USER_ROLE.USER,
     },
     emailVerified: {
-      type: DataTypes.BOOLEAN,
-      allowNull: false,
-      defaultValue: false,
-      comment: 'Flag indicating if the user has verified their email address',
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
+        defaultValue: false,
     },
   }, {
     sequelize,
     modelName: 'User',
     tableName: 'Users',
     timestamps: true,
-    paranoid: false,
-    // [추가됨] unique 제약 조건을 indexes 옵션을 통해 별도로 정의합니다.
     indexes: [
-      {
-        unique: true,
-        fields: ['email']
-      },
-      {
-        unique: true,
-        fields: ['nickname']
-      }
+      { unique: true, fields: ['email'] },
+      { unique: true, fields: ['nickname'] }
     ]
   });
 
