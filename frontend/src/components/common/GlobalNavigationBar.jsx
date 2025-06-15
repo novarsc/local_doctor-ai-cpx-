@@ -26,12 +26,16 @@ const GlobalNavigationBar = () => {
 
     return (
         <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-slate-200 px-6 sm:px-10 py-3 bg-white shadow-sm sticky top-0 z-50">
-            <NavLink to="/cases" className="flex items-center gap-3 text-slate-900">
+            <NavLink to="/dashboard" className="flex items-center gap-3 text-slate-900">
                 <Logo className="h-8 w-8 text-primary" />
                 <h2 className="text-xl font-bold leading-tight tracking-tight hidden sm:block">AI CPX Tutor</h2>
             </NavLink>
 
             <nav className="flex items-center gap-6">
+                {/* '대시보드' 메뉴 추가 */}
+                <NavLink to="/dashboard" className="text-gray-600 hover:text-primary text-base font-medium transition-colors" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>
+                    대시보드
+                </NavLink>
                 <NavLink to="/cases" className="text-gray-600 hover:text-primary text-base font-medium transition-colors" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>
                     증례 라이브러리
                 </NavLink>

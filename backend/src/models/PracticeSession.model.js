@@ -5,11 +5,6 @@ const { v4: uuidv4 } = require('uuid');
 
 module.exports = (sequelize) => {
   class PracticeSession extends Model {
-    /**
-     * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
-     */
     static associate(models) {
         // 실습 세션은 하나의 사용자에게 속합니다. (N:1)
         this.belongsTo(models.User, {
@@ -20,6 +15,13 @@ module.exports = (sequelize) => {
         this.belongsTo(models.Scenario, {
             foreignKey: 'scenarioId',
             as: 'scenario'
+        });
+        
+        // --- 이 부분을 추가하세요 ---
+        // PracticeSession은 하나의 EvaluationResult를 가집니다 (hasOne 관계)
+        this.hasOne(models.EvaluationResult, {
+          foreignKey: 'practiceSessionId',
+          as: 'evaluationResult' // 이 관계에서 사용할 별칭
         });
     }
   }

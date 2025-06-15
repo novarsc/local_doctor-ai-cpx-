@@ -39,7 +39,7 @@ async function seedDatabase() {
       shortDescription: caseData.examinee_instructions, // 지시사항을 짧은 설명으로 활용
       // description 필드는 요청에 따라 비워둡니다.
       description: null, 
-      primaryCategory: '소화기', // YAML의 chapter 필드 사용
+      primaryCategory: caseData.chapter, // YAML의 chapter 필드 사용
       secondaryCategory: '급성 복통', // 중분류는 직접 지정
       
       // 환자 정보 매핑

@@ -182,7 +182,8 @@ const evaluatePracticeSession = async (practiceSessionData) => {
           { "description": "환자 교육 시, 가능한 진단명을 한 가지만 언급하여 다른 가능성을 배제하는 인상을 줄 수 있습니다.", "advice": "환자에게는 가장 가능성 높은 진단을 중심으로 설명하되, 추가 검사가 필요한 이유를 다른 감별 진단과 연관지어 설명하는 것이 좋습니다." }
         ]
       }
-      \`\`\`
+
+     **주의: 다른 어떤 텍스트(설명, 인사 등)나 Markdown 코드 블록도 절대 포함하지 말고, 오직 순수한 JSON 객체만 출력해야 합니다.**
     `;
 
     // --- 평가용 LLM에 전달되는 내용 확인 로그 ---
@@ -194,13 +195,22 @@ const evaluatePracticeSession = async (practiceSessionData) => {
         const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-latest" });
         const result = await model.generateContent(evaluationPrompt);
         const responseText = result.response.text();
-        
+        let jsonString = responseText;
+
+        // 1. AI가 Markdown 코드 블록을 사용했는지 먼저 확인합니다.
         const jsonMatch = responseText.match(/```json\n([\s\S]*?)\n```/);
         if (jsonMatch && jsonMatch[1]) {
-            return JSON.parse(jsonMatch[1]);
-        } else {
-            console.error("AI did not return valid JSON for evaluation:", responseText);
-            throw new Error('Failed to parse evaluation result from AI.');
+          // 코드 블록이 있다면, 그 안의 내용만 추출합니다.
+          jsonString = jsonMatch[1];
+        }
+
+        // 2. 추출된 문자열(또는 원본 문자열)에 대해 JSON 파싱을 시도합니다.
+        try {
+          return JSON.parse(jsonString);
+        } catch (parseError) {
+          // 최종적으로 파싱에 실패하면, 원본 응답을 로그로 남기고 오류를 던집니다.
+          console.error("Ultimately failed to parse JSON. AI raw response:", responseText);
+          throw new Error('Failed to parse evaluation result from AI.');
         }
 
     } catch (error) {

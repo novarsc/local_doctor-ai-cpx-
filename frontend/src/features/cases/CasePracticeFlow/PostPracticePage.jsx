@@ -19,10 +19,10 @@ const getScoreColor = (score) => {
 };
 
 const PostPracticePage = () => {
-  const { scenarioId, sessionId } = useParams();
+  const { scenarioId } = useParams();
   const dispatch = useDispatch();
 
-  const { feedback, isLoading, error } = useSelector((state) => state.practiceSession);
+  const { sessionId, feedback, isLoading, error } = useSelector((state) => state.practiceSession);
 
   // 평가가 진행 중일 때, 5초마다 피드백을 다시 요청하기 위한 폴링 설정
   useEffect(() => {

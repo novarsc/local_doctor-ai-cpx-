@@ -13,6 +13,7 @@ const myNotesRoutes = require('./myNotes.routes.js');
 const practiceSessionsRoutes = require('./practiceSessions.routes.js');
 // 1. 새로 만든 사용자 라우트 모듈을 가져옵니다.
 const userRoutes = require('./user.routes.js');
+const dashboardRoutes = require('./dashboard.routes'); // 1. 이 줄을 추가하세요.
 
 const router = express.Router();
 
@@ -24,5 +25,6 @@ router.use('/my-notes', myNotesRoutes);
 router.use('/practice-sessions', practiceSessionsRoutes);
 // 2. /users 경로로 오는 요청은 userRoutes가 처리하도록 등록합니다.
 router.use('/users', userRoutes);
+router.use('/dashboard', dashboardRoutes); // 2. 이 줄을 추가하세요.
 
 module.exports = router;

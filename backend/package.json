@@ -5,7 +5,9 @@
     "main": "src/server.js",
     "scripts": {
         "start": "node src/server.js",
-        "dev": "nodemon src/server.js"
+        "dev": "nodemon src/server.js",
+        "db:reset": "node -e \"require('./src/models').sequelize.sync({ force: true }).then(() => { console.log('Database synchronized.'); process.exit(0); }).catch(err => { console.error('Failed to sync database:', err); process.exit(1); })\"",
+        "db:seed": "node seed.js"
     },
     "keywords": [],
     "author": "",

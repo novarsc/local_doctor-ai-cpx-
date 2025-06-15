@@ -20,6 +20,7 @@ import IncorrectAnswersPage from './features/my-notes/IncorrectAnswersPage';
 import LearningHistoryPage from './features/my-notes/LearningHistoryPage';
 import MyPage from './features/my-page/MyPage';
 import MainLayout from './components/layout/MainLayout'; // MainLayout import
+import DashboardPage from './features/dashboard/DashboardPage'; // 새로 추가
 
 const PrivateRoute = ({ children }) => {
   const isAuthenticated = !!localStorage.getItem('aichpx_access_token');
@@ -44,6 +45,7 @@ const AppRouter = () => {
         {/* 1. 부모 Route가 PrivateRoute와 MainLayout을 책임집니다. */}
         <Route element={<PrivateRoute><MainLayout /></PrivateRoute>}>
             {/* 2. 이 안에 있는 자식 Route들은 MainLayout의 <Outlet> 부분에 렌더링됩니다. */}
+            <Route path="/dashboard" element={<DashboardPage />} /> // 새로 추가
             <Route path="/cases" element={<CaseListPage />} />
             <Route path="/cases/:scenarioId/practice" element={<PrePracticePage />} />
             <Route path="/cases/:scenarioId/practice/during" element={<DuringPracticePage />} />
