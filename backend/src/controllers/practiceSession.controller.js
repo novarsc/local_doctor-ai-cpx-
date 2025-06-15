@@ -34,13 +34,11 @@ const handleChatMessage = asyncHandler(async (req, res) => {
       res.write(`data: ${JSON.stringify({ chunk: text })}\n\n`);
     }
     
-    // AI의 응답이 모두 끝난 후, 전체 메시지를 DB에 저장합니다.
     if (completeAiMessage) {
-        // --- 여기가 수정된 부분입니다 ---
         await ChatLog.create({ 
             practiceSessionId: sessionId, 
-            sender: 'AI', // 대문자로 수정
-            message: completeAiMessage, // 올바른 필드 이름으로 수정
+            sender: 'AI',
+            message: completeAiMessage,
         });
     }
     res.write('data: [DONE]\n\n');
@@ -70,9 +68,20 @@ const getFeedback = asyncHandler(async (req, res) => {
     res.status(200).json(result);
 });
 
+// --- 이 함수를 새로 추가합니다 ---
+const getChatHistory = asyncHandler(async (req, res) => {
+  const { sessionId } = req.params;
+  const chatHistory = await practiceSessionService.getChatHistory(sessionId, req.user.userId);
+  res.status(200).json(chatHistory);
+});
+// --- 여기까지 ---
+
+
+// module.exports에 getChatHistory를 추가합니다.
 module.exports = {
   createSession,
   handleChatMessage,
   completeSession,
   getFeedback,
+  getChatHistory, // 새로 추가
 };

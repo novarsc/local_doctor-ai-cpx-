@@ -3,6 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../../../components/common/Button';
+import { MaterialIcon } from './MaterialIcon'; // 이 줄이 추가되었습니다.
 
 const PrimaryAction = ({ ongoingCase }) => {
   if (ongoingCase) {
@@ -20,8 +21,9 @@ const PrimaryAction = ({ ongoingCase }) => {
             <img src={ongoingCase.img} alt={ongoingCase.title} className="w-full h-auto object-cover rounded-lg shadow-md aspect-video" />
           </div>
         </div>
-        <Link to={`/cases/${ongoingCase.id}/practice`}>
-          <Button className="mt-6 w-full sm:w-auto">사례 계속하기</Button>
+        <Link to={`/cases/${ongoingCase.scenarioId}/practice/during/${ongoingCase.practiceSessionId}`}>
+          <Button className="mt-6 w-full sm:w-auto flex items-center justify-center gap-2">
+            <MaterialIcon iconName="play_arrow" /> 사례 계속하기</Button>
         </Link>
       </section>
     );

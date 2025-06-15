@@ -26,11 +26,30 @@ const initialState = {
   error: null,
 };
 
-// Existing async thunks
-export const fetchScenarioForPractice = createAsyncThunk('practiceSession/fetchScenario', async (id, { rejectWithValue }) => { try { return await caseService.getScenarioById(id); } catch (e) { return rejectWithValue(e.message); }});
-export const startNewPracticeSession = createAsyncThunk('practiceSession/startNew', async (config, { rejectWithValue }) => { try { return await practiceSessionService.startPracticeSession(config); } catch (e) { return rejectWithValue(e.message); }});
+// --- Async Thunks ---
 
-// Async thunk for completing a session
+export const fetchScenarioForPractice = createAsyncThunk(
+  'practiceSession/fetchScenario', 
+  async (id, { rejectWithValue }) => { 
+    try { 
+      return await caseService.getScenarioById(id); 
+    } catch (e) { 
+      return rejectWithValue(e.message); 
+    }
+  }
+);
+
+export const startNewPracticeSession = createAsyncThunk(
+  'practiceSession/startNew', 
+  async (config, { rejectWithValue }) => { 
+    try { 
+      return await practiceSessionService.startPracticeSession(config); 
+    } catch (e) { 
+      return rejectWithValue(e.message); 
+    }
+  }
+);
+
 export const completeSession = createAsyncThunk(
   'practiceSession/complete',
   async (sessionId, { rejectWithValue }) => {
@@ -42,14 +61,11 @@ export const completeSession = createAsyncThunk(
   }
 );
 
-// --- 여기가 수정된 부분입니다 ---
-// 기존 fetchFeedback 함수의 이름을 PostPracticePage.jsx가 사용하는 이름으로 변경합니다.
 export const fetchFeedbackForSession = createAsyncThunk(
   'practiceSession/fetchFeedback',
   async (sessionId, { rejectWithValue }) => {
     try {
       const result = await practiceSessionService.getFeedback(sessionId);
-      // 백엔드에서 받은 응답 전체를 반환하여 리듀서에서 상태를 처리하도록 합니다.
       return result;
     } catch (error) {
       return rejectWithValue(error.message);
@@ -57,39 +73,82 @@ export const fetchFeedbackForSession = createAsyncThunk(
   }
 );
 
+/** ▼▼▼ [새로 추가] 이어하기를 위한 비동기 Thunk ▼▼▼ */
+export const resumePracticeSession = createAsyncThunk(
+  'practiceSession/resume',
+  async (sessionId, { rejectWithValue }) => {
+    try {
+      const [sessionDetails, chatHistory] = await Promise.all([
+        practiceSessionService.getPracticeSession(sessionId),
+        practiceSessionService.getChatLogs(sessionId)
+      ]);
+      
+      const scenario = await caseService.getScenarioById(sessionDetails.scenarioId);
+
+      return {
+        sessionDetails,
+        chatHistory: chatHistory.data,
+        scenario,
+      };
+    } catch (error) {
+      return rejectWithValue(error.message || '세션을 이어오는 데 실패했습니다.');
+    }
+  }
+);
+
+
 const practiceSessionSlice = createSlice({
   name: 'practiceSession',
   initialState,
   reducers: {
-    addUserMessage: (state, action) => { state.chatLog.push({ id: Date.now(), sender: 'user', content: action.payload }); state.isAiResponding = true; },
-    appendAiMessageChunk: (state, action) => { const last = state.chatLog[state.chatLog.length - 1]; if (last?.sender === 'ai') { last.content += action.payload.chunk; } else { state.chatLog.push({ id: Date.now(), sender: 'ai', content: action.payload.chunk }); } },
+    addUserMessage: (state, action) => { 
+      state.chatLog.push({ id: `user-${Date.now()}`, sender: 'user', content: action.payload }); 
+      state.isAiResponding = true; 
+    },
+    appendAiMessageChunk: (state, action) => { 
+      const last = state.chatLog[state.chatLog.length - 1]; 
+      if (last?.sender === 'ai') { 
+        last.content += action.payload.chunk; 
+      } else { 
+        state.chatLog.push({ id: `ai-${Date.now()}`, sender: 'ai', content: action.payload.chunk }); 
+      } 
+    },
     endAiResponse: (state) => { state.isAiResponding = false; },
-    setPracticeError: (state, action) => { state.isAiResponding = false; state.error = action.payload; },
+    setPracticeError: (state, action) => { 
+      state.isAiResponding = false; 
+      state.error = action.payload; 
+    },
     clearPracticeSession: () => initialState,
   },
   extraReducers: (builder) => {
     builder
-      // Existing extra reducers...
+      // Fetch Scenario
       .addCase(fetchScenarioForPractice.pending, (state) => { state.isLoading = true; state.currentScenario = null; })
       .addCase(fetchScenarioForPractice.fulfilled, (state, action) => { state.isLoading = false; state.currentScenario = action.payload; })
       .addCase(fetchScenarioForPractice.rejected, (state, action) => { state.isLoading = false; state.error = action.payload; })
+      
+      // Start New Session (중복 제거 후 최종 버전)
       .addCase(startNewPracticeSession.pending, (state) => { state.isLoading = true; })
-      .addCase(startNewPracticeSession.fulfilled, (state, action) => { state.isLoading = false; state.status = 'active'; state.sessionId = action.payload.practiceSessionId; state.chatLog = [action.payload.aiPatientInitialInteraction.data]; })
+      .addCase(startNewPracticeSession.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.status = 'active';
+        state.sessionId = action.payload.practiceSessionId;
+        state.chatLog = [action.payload.aiPatientInitialInteraction.data];
+        state.currentScenario = action.payload.scenarioDetails;
+      })
       .addCase(startNewPracticeSession.rejected, (state, action) => { state.isLoading = false; state.status = 'error'; state.error = action.payload; })
 
-      // New extra reducers for session completion and feedback
+      // Complete Session & Fetch Feedback
       .addCase(completeSession.fulfilled, (state) => {
         state.status = 'completed';
         state.evaluationStatus = 'evaluating';
       })
-      // fetchFeedbackForSession에 대한 리듀서 로직을 추가합니다.
       .addCase(fetchFeedbackForSession.pending, (state) => {
-        // 폴링 중에는 전체 로딩 상태를 변경하지 않을 수 있습니다.
-        // 필요하다면 별도의 상태 (e.g., isFeedbackLoading)를 추가할 수 있습니다.
+        // Polling 중에는 별도 로딩 상태를 표시하지 않음
       })
       .addCase(fetchFeedbackForSession.fulfilled, (state, action) => {
-        state.feedback = action.payload; // 백엔드 응답을 그대로 저장
-        if (action.payload.status === 'completed') {
+        state.feedback = action.payload;
+        if (action.payload.status === 'completed_evaluation') {
             state.evaluationStatus = 'completed';
         } else {
             state.evaluationStatus = 'evaluating';
@@ -97,6 +156,28 @@ const practiceSessionSlice = createSlice({
       })
       .addCase(fetchFeedbackForSession.rejected, (state, action) => {
         state.evaluationStatus = 'error';
+        state.error = action.payload;
+      })
+      
+      // ▼▼▼ [새로 추가] Resume Session 라이프사이클 로직 ▼▼▼
+      .addCase(resumePracticeSession.pending, (state) => {
+        state.isLoading = true;
+        state.error = null;
+      })
+      .addCase(resumePracticeSession.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.status = 'active';
+        state.sessionId = action.payload.sessionDetails.practiceSessionId;
+        state.currentScenario = action.payload.scenario;
+        state.chatLog = action.payload.chatHistory.map(log => ({
+            id: log.messageId,
+            sender: log.sender,
+            content: log.content
+        }));
+      })
+      .addCase(resumePracticeSession.rejected, (state, action) => {
+        state.isLoading = false;
+        state.status = 'error';
         state.error = action.payload;
       });
   },

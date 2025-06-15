@@ -41,9 +41,9 @@ const PrePracticePage = () => {
     };
     dispatch(startNewPracticeSession(sessionConfig))
       .unwrap()
-      .then(() => {
-        // 세션이 성공적으로 생성되면 실습 페이지로 이동합니다.
-        navigate(`/cases/${scenarioId}/practice/during`);
+      .then((newSession) => { // action.payload가 newSession 객체입니다.
+        // 세션이 성공적으로 생성되면 올바른 URL로 이동합니다.
+        navigate(`/cases/${scenarioId}/practice/during/${newSession.practiceSessionId}`);
       })
       .catch((err) => {
         console.error("Failed to start practice session:", err);

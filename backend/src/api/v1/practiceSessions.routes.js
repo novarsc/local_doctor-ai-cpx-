@@ -17,5 +17,7 @@ router.post('/', practiceSessionController.createSession);
 router.post('/:sessionId/chat-messages', practiceSessionController.handleChatMessage);
 router.post('/:sessionId/complete', practiceSessionController.completeSession);
 router.get('/:sessionId/feedback', practiceSessionController.getFeedback);
+router.get('/:sessionId/history', practiceSessionController.getChatHistory);
+
 
 module.exports = router;

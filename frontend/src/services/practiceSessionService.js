@@ -99,9 +99,24 @@ const getFeedback = async (sessionId) => {
     }
 };
 
+/**
+ * 특정 세션의 채팅 기록 전체를 조회합니다.
+ * @param {string} sessionId - 조회할 실습 세션의 ID
+ * @returns {Promise<object>} 채팅 로그 데이터와 페이징 정보
+ */
+const getChatLogs = async (sessionId) => {
+  try {
+    const response = await apiClient.get(`/practice-sessions/${sessionId}/chat-messages`);
+    return response.data; // { data: [...], pagination: {...} } 형태를 반환
+  } catch (error) {
+    throw error.response?.data?.error || new Error('채팅 기록을 불러오는데 실패했습니다.');
+  }
+};
+
 export const practiceSessionService = {
   startPracticeSession,
   sendChatMessageAndStream,
   completePracticeSession,
   getFeedback,
+  getChatLogs,
 };

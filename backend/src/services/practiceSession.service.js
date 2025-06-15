@@ -1,7 +1,4 @@
-/**
- * @file practiceSession.service.js
- * @description Business logic for managing practice sessions. This is a stateful service.
- */
+// backend/src/services/practiceSession.service.js
 
 const { PracticeSession, Scenario, AIPatientPersonality, ChatLog, EvaluationResult } = require('../models');
 const ApiError = require('../utils/ApiError');
@@ -11,12 +8,24 @@ const activeChatHistories = new Map();
 
 const startPracticeSession = async (sessionData, userId) => {
     const { scenarioId, selectedAiPersonalityId, practiceMode } = sessionData;
+
+    // --- 이 부분이 새로 추가된 핵심 로직입니다 ---
+    // 새로운 세션을 시작하기 전에, 이전에 완료되지 않은 세션이 있다면 'abandoned'(중단됨)으로 상태를 변경합니다.
+    await PracticeSession.update(
+      { status: 'abandoned', endTime: new Date() },
+      { where: { userId: userId, status: 'started' } }
+    );
+    // --- 여기까지 ---
+
     const scenario = await Scenario.findByPk(scenarioId);
     if (!scenario) throw new ApiError(404, 'S001_SCENARIO_NOT_FOUND', 'Scenario not found.');
+    
     const personalityId = selectedAiPersonalityId || scenario.defaultAiPersonalityId;
     const personality = await AIPatientPersonality.findByPk(personalityId);
     if (!personality) throw new ApiError(404, 'P005_PERSONALITY_NOT_FOUND', 'AI personality not found.');
+
     const { history, aiPatientInitialInteraction } = await aiService.initializeChat(scenario, personality);
+    
     const newSession = await PracticeSession.create({
       userId,
       scenarioId,
@@ -24,7 +33,9 @@ const startPracticeSession = async (sessionData, userId) => {
       practiceMode,
       status: 'started',
     });
+
     activeChatHistories.set(newSession.practiceSessionId, history);
+
     return {
       practiceSessionId: newSession.practiceSessionId,
       userId: newSession.userId,
@@ -34,6 +45,7 @@ const startPracticeSession = async (sessionData, userId) => {
       aiPatientInitialInteraction: aiPatientInitialInteraction,
     };
 };
+
 
 const sendMessageAndGetResponse = async (sessionId, userId, messageContent) => {
     const history = activeChatHistories.get(sessionId);
@@ -121,9 +133,35 @@ const getPracticeSessionFeedback = async (sessionId, userId) => {
     return { status: 'completed', data: result.toJSON() };
 };
 
+const getChatHistory = async (sessionId, userId) => {
+  // 1. 요청한 사용자의 세션이 맞는지 먼저 확인합니다.
+  const session = await PracticeSession.findOne({ where: { practiceSessionId: sessionId, userId } });
+  if (!session) {
+    throw new ApiError(404, 'P001_SESSION_NOT_FOUND', 'Session not found or you do not have permission to access it.');
+  }
+
+  // 2. 해당 세션의 모든 채팅 기록을 시간 순으로 DB에서 조회합니다.
+  const chatLogs = await ChatLog.findAll({
+    where: { practiceSessionId: sessionId },
+    order: [['createdAt', 'ASC']],
+  });
+
+  // 3. 메모리에 대화 기록을 다시 로드하여 AI가 대화의 맥락을 기억하도록 합니다.
+  const history = chatLogs.map(log => ({
+    role: log.sender === 'USER' ? 'user' : 'model',
+    parts: [{ text: log.message }],
+  }));
+  activeChatHistories.set(sessionId, history);
+
+  // 4. 프론트엔드에 채팅 기록을 반환합니다.
+  return chatLogs;
+};
+// --- 여기까지 ---
+
 module.exports = {
   startPracticeSession,
   sendMessageAndGetResponse,
   completePracticeSession,
   getPracticeSessionFeedback,
+  getChatHistory, // 새로 추가
 };

@@ -13,8 +13,10 @@ import {
   endAiResponse,
   setPracticeError,
   completeSession,
+  resumePracticeSession, // 새로 추가: 이어하기 액션
 } from '../../../store/slices/practiceSessionSlice';
 import Button from '../../../components/common/Button';
+import LoadingSpinner from '../../../components/common/LoadingSpinner';
 
 // 타이머 컴포넌트
 const TimerDisplay = ({ initialMinutes = 12 }) => {
@@ -31,34 +33,50 @@ const TimerDisplay = ({ initialMinutes = 12 }) => {
 const DuringPracticePage = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
-    const { scenarioId } = useParams();
+    const { scenarioId, sessionId } = useParams(); // URL에서 scenarioId와 sessionId를 모두 가져옵니다.
     
-    const { sessionId, currentScenario, chatLog, isAiResponding, error } = useSelector(state => state.practiceSession);
+    // Redux 스토어에서 현재 세션 ID도 가져와서 비교용으로 사용합니다.
+    const { currentSessionId, currentScenario, chatLog, isAiResponding, isLoading, error } = useSelector(state => ({
+        currentSessionId: state.practiceSession.sessionId,
+        currentScenario: state.practiceSession.currentScenario,
+        chatLog: state.practiceSession.chatLog,
+        isAiResponding: state.practiceSession.isAiResponding,
+        isLoading: state.practiceSession.isLoading,
+        error: state.practiceSession.error,
+    }));
     
     const [userInput, setUserInput] = useState('');
     const chatEndRef = useRef(null);
+
+    // --- 이 useEffect 로직이 핵심적인 수정사항입니다 ---
+    useEffect(() => {
+        // URL에 sessionId가 있고, 현재 Redux 스토어의 세션 ID와 다르거나 채팅 기록이 비어있다면
+        // '이어하기'로 간주하고 대화 기록을 불러옵니다.
+        if (sessionId && (sessionId !== currentSessionId || chatLog.length === 0)) {
+            dispatch(resumePracticeSession(sessionId));
+        } else if (!sessionId && !currentSessionId) {
+            // URL에도, 스토어에도 세션 ID가 없는 비정상적인 접근일 경우
+            alert('실습 세션 정보가 없습니다. 증례 목록으로 돌아갑니다.');
+            navigate('/cases');
+        }
+    }, [sessionId, currentSessionId, dispatch, navigate, chatLog.length]);
+
 
     // 새 메시지가 추가될 때마다 채팅창을 맨 아래로 스크롤합니다.
     useEffect(() => { 
         chatEndRef.current?.scrollIntoView({ behavior: 'smooth' }); 
     }, [chatLog]);
 
-    // sessionId가 없으면(예: 페이지 새로고침) 이전 페이지로 리디렉션합니다.
-    useEffect(() => {
-      if (!sessionId) {
-        alert('실습 세션 정보가 없습니다. 증례 목록으로 돌아갑니다.');
-        navigate('/cases');
-      }
-    }, [sessionId, navigate]);
-
     const handleSendMessage = (e) => {
         e.preventDefault();
         if (!userInput.trim() || isAiResponding) return;
         
+        const currentSessionToUse = sessionId || currentSessionId;
+        
         dispatch(addUserMessage(userInput));
         
         practiceSessionService.sendChatMessageAndStream({
-            sessionId,
+            sessionId: currentSessionToUse,
             messageContent: userInput,
             onData: (data) => {
                 if (data.chunk) {
@@ -90,6 +108,10 @@ const DuringPracticePage = () => {
                 });
         }
     };
+
+    if (isLoading && chatLog.length === 0) {
+        return <div className="flex justify-center items-center h-screen"><LoadingSpinner text="실습 기록을 불러오는 중..."/></div>;
+    }
 
     return (
         <div className="flex h-screen bg-slate-100 font-sans">

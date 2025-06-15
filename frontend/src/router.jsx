@@ -48,8 +48,9 @@ const AppRouter = () => {
             <Route path="/dashboard" element={<DashboardPage />} /> // 새로 추가
             <Route path="/cases" element={<CaseListPage />} />
             <Route path="/cases/:scenarioId/practice" element={<PrePracticePage />} />
-            <Route path="/cases/:scenarioId/practice/during" element={<DuringPracticePage />} />
+            <Route path="/cases/:scenarioId/practice/during/:sessionId" element={<DuringPracticePage />} />
             <Route path="/cases/:scenarioId/practice/result" element={<PostPracticePage />} />
+            
 
             <Route path="/mock-exam" element={<MockExamMainPage />} />
             <Route path="/mock-exam/:mockExamSessionId/case/:caseNumber" element={<MockExamInProgressPage />} />
@@ -61,6 +62,7 @@ const AppRouter = () => {
             <Route path="/my-notes/history" element={<LearningHistoryPage />} />
 
             <Route path="/my-page" element={<MyPage />} />
+            
         </Route>
         
         <Route path="*" element={<Navigate to="/" />} />
