@@ -3,8 +3,8 @@
  * @description Global error handling middleware for the Express application.
  */
 
-// ▼▼▼ 이 부분의 코드를 수정합니다. { }를 추가합니다. ▼▼▼
-const { ApiError } = require('../utils/ApiError');
+// ▼▼▼ 이 부분의 코드를 수정합니다. { }가 없는 것이 올바른 방식입니다. ▼▼▼
+const ApiError = require('../utils/ApiError');
 
 // eslint-disable-next-line no-unused-vars
 const errorHandler = (err, req, res, next) => {

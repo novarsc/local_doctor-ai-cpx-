@@ -5,8 +5,13 @@
 
 const { Scenario, MockExamSession, PracticeSession } = require('../models');
 const { fn, col } = require('sequelize');
-// ▼▼▼ 이 부분의 코드를 수정합니다. { }를 추가하여 ApiError 클래스만 정확히 가져옵니다. ▼▼▼
-const { ApiError } = require('../utils/ApiError');
+// ▼▼▼ 이 부분의 코드를 수정합니다. { } 삭제. ▼▼▼
+const ApiError = require('../utils/ApiError');
+
+// ▼▼▼ 디버깅을 위해 이 두 줄을 추가합니다 ▼▼▼
+console.log('--- 디버깅: ApiError 변수의 내용물 ---');
+console.log(ApiError);
+// ▲▲▲ 여기까지 추가 ▲▲▲
 
 const startMockExamSession = async (userId, examType, specifiedCategories = []) => {
     const scenarios = await Scenario.findAll();
