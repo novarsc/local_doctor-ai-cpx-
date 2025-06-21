@@ -10,7 +10,7 @@ const LearningHistoryPage = () => {
 
     useEffect(() => {
         if (status.learningHistory !== 'succeeded') {
-            dispatch(fetchLearningHistory());
+        dispatch(fetchLearningHistory());
         }
     }, [dispatch, status.learningHistory]);
 
@@ -51,20 +51,20 @@ const LearningHistoryPage = () => {
 
                                 return (
                                     <tr key={item.id} className="hover:bg-gray-50">
-                                        <td className="px-6 py-4 whitespace-nowrap">
+                                <td className="px-6 py-4 whitespace-nowrap">
                                             <span className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${type === '모의고사' ? 'bg-green-100 text-green-800' : 'bg-blue-100 text-blue-800'}`}>
                                                 {type}
-                                            </span>
-                                        </td>
+                                    </span>
+                                </td>
                                         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{title}</td>
                                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{date}</td>
                                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-800 font-bold">{typeof score === 'number' ? `${score}점` : score}</td>
-                                        <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                                            <Link to={getResultLink(item)} className="text-indigo-600 hover:text-indigo-900">
-                                                결과 보기
-                                            </Link>
-                                        </td>
-                                    </tr>
+                                <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                    <Link to={getResultLink(item)} className="text-indigo-600 hover:text-indigo-900">
+                                        결과 보기
+                                    </Link>
+                                </td>
+                            </tr>
                                 )
                             })
                         )}

@@ -15,40 +15,54 @@ const BookmarksPage = () => {
     useEffect(() => {
         dispatch(fetchBookmarks());
     }, [dispatch]);
-
+    
     return (
         <div>
-            <h1 className="text-3xl font-bold mb-6 text-gray-800">즐겨찾는 증례</h1>
+            <h1 className="text-3xl font-bold mb-6 text-gray-800">즐겨찾기</h1>
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+                {status.bookmarks === 'loading' && <p className="p-6 text-center text-gray-500">즐겨찾기 목록을 불러오는 중...</p>}
+                {status.bookmarks === 'failed' && <p className="p-6 text-center text-red-500">즐겨찾기 목록을 불러오는 데 실패했습니다.</p>}
             
-            {status.bookmarks === 'loading' && <p>즐겨찾기 목록을 불러오는 중...</p>}
-            {error && <p className="text-red-500">오류가 발생했습니다: {error}</p>}
-            
-            {status.bookmarks === 'succeeded' && bookmarks.length === 0 && (
-                <div className="text-center py-20 bg-white rounded-lg shadow">
-                    <p className="text-gray-500 text-lg">아직 즐겨찾기한 증례가 없습니다.</p>
-                    <p className="text-sm text-gray-400 mt-2">증례 목록에서 별표를 눌러 중요한 증례를 추가해보세요.</p>
-                </div>
-            )}
+                {status.bookmarks === 'succeeded' && bookmarks.length === 0 && (
+                    <p className="p-6 text-center text-gray-500">아직 즐겨찾기한 증례가 없습니다.</p>
+                )}
 
-            {status.bookmarks === 'succeeded' && bookmarks.length > 0 && (
-                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {bookmarks.map(scenario => (
-                        <div key={scenario.scenarioId} className="bg-white rounded-xl shadow-lg p-6 flex flex-col justify-between transition hover:shadow-xl hover:-translate-y-1">
-                            <div>
-                                <p className="text-sm text-blue-600 font-semibold">{scenario.primaryCategory} &gt; {scenario.secondaryCategory}</p>
-                                <h2 className="font-bold text-xl my-2 text-gray-900">{scenario.name}</h2>
-                                <p className="text-gray-600 line-clamp-3">{scenario.shortDescription}</p>
+                {status.bookmarks === 'succeeded' && bookmarks.length > 0 && (
+                    <div className="divide-y divide-gray-200">
+                        {bookmarks.map((scenario) => (
+                            <div key={scenario.scenarioId} className="p-6 hover:bg-gray-50 transition-colors">
+                                <div className="flex justify-between items-start">
+                                    <div className="flex-grow">
+                                        <div className="flex items-center gap-2 mb-2">
+                                            <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded-full">
+                                                {scenario.primaryCategory}
+                                            </span>
+                                            <span className="px-2 py-1 bg-gray-100 text-gray-600 text-xs font-semibold rounded-full">
+                                                {scenario.secondaryCategory}
+                                            </span>
+                                        </div>
+                                        <h3 className="text-lg font-semibold text-gray-900 mb-2">{scenario.name}</h3>
+                                        <p className="text-sm text-gray-600 mb-2">
+                                            <strong>환자 정보:</strong> {scenario.age}세 {scenario.sex}, {scenario.presentingComplaint}
+                                        </p>
+                                        <p className="text-xs text-gray-500">
+                                            즐겨찾기 추가일: {new Date(scenario.bookmarkedAt).toLocaleDateString()}
+                                        </p>
+                                    </div>
+                                    <div className="ml-4 flex flex-col items-end gap-2">
+                                        <Link to={`/cases/practice/${scenario.scenarioId}`} className="font-semibold text-blue-600 hover:text-blue-800 flex items-center justify-end">
+                                            실습하기 →
+                                        </Link>
+                                        <button className="text-xs text-red-600 hover:text-red-800">
+                                            즐겨찾기 해제
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="mt-6 pt-4 border-t border-gray-200">
-                                <Link to={`/cases/${scenario.scenarioId}/practice`} className="font-semibold text-blue-600 hover:text-blue-800 flex items-center justify-end">
-                                    학습하러 가기
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5-5 5M6 12h12" /></svg>
-                                </Link>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            )}
+                        ))}
+                    </div>
+                )}
+            </div>
         </div>
     );
 };
