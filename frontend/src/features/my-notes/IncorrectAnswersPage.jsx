@@ -115,26 +115,34 @@ const IncorrectAnswersPageContent = () => {
                         </div>
                     </div>
                 )}
-            </div>
 
-            {/* 사용자 메모 입력 */}
-            <div className="bg-white rounded-lg shadow-md p-6">
-                <h2 className="text-xl font-semibold mb-4 text-gray-800">나의 메모</h2>
-                <textarea
-                    value={userMemo}
-                    onChange={(e) => setUserMemo(e.target.value)}
-                    placeholder="이 문제에 대한 개인적인 메모를 작성하세요..."
-                    className="w-full h-32 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-                />
-                <button
-                    onClick={handleSaveMemo}
-                    disabled={status.incorrectNotes === 'saving'}
-                    className="mt-4 px-4 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:bg-gray-400"
-                >
-                    {status.incorrectNotes === 'saving' ? '저장 중...' : '메모 저장'}
-                </button>
-            </div>
+                {/* 사용자 메모 입력 */}
+                <div className="bg-white rounded-lg shadow-md p-6 mt-6">
+                    <h2 className="text-xl font-semibold mb-4 text-gray-800">나의 메모</h2>
+                    <textarea
+                        value={userMemo}
+                        onChange={(e) => setUserMemo(e.target.value)}
+                        placeholder="이 문제에 대한 개인적인 메모를 작성하세요..."
+                        className="w-full h-32 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                    />
+                    <button
+                        onClick={handleSaveMemo}
+                        disabled={status.incorrectNotes === 'saving'}
+                        className="mt-4 px-4 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:bg-gray-400"
+                    >
+                        {status.incorrectNotes === 'saving' ? '저장 중...' : '메모 저장'}
+                    </button>
+                </div>
+            </main>
         </div>
+    );
+};
+
+const IncorrectAnswersPage = () => {
+    return (
+        <MyNotesLayout>
+            <IncorrectAnswersPageContent />
+        </MyNotesLayout>
     );
 };
 
