@@ -6,17 +6,31 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { caseService } from '../../services/caseService';
 import { myNotesService } from '../../services/myNotesService';
-// 1. myNotesSlice에서 fetchBookmarks 액션을 추가로 import 합니다.
 import { fetchBookmarks } from './myNotesSlice';
 
 const initialState = {
   scenarios: [],
   pagination: null,
+  categories: [], // 기존 카테고리 상태 유지
+  currentScenario: null, // [추가] 현재 선택된 단일 증례 정보
   isLoading: false,
   error: null,
 };
 
-// Async thunk for fetching scenarios
+// [추가] 단일 증례 정보를 가져오는 Thunk
+export const fetchScenarioById = createAsyncThunk(
+  'cases/fetchById',
+  async (scenarioId, { rejectWithValue }) => {
+    try {
+      const data = await caseService.getScenarioById(scenarioId);
+      return data;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
+// 기존 Thunk 함수들 (변경 없음)
 export const fetchScenarios = createAsyncThunk(
   'cases/fetchScenarios',
   async (params, { rejectWithValue }) => {
@@ -29,14 +43,23 @@ export const fetchScenarios = createAsyncThunk(
   }
 );
 
-// 북마크 추가 Thunk
+export const fetchCategories = createAsyncThunk(
+  'cases/fetchCategories',
+  async (_, { rejectWithValue }) => {
+    try {
+      const response = await caseService.getCaseCategories();
+      return response.data;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
 export const addBookmark = createAsyncThunk(
   'cases/addBookmark',
-  // 2. 두 번째 인자로 dispatch를 포함한 thunkAPI 객체를 받습니다.
   async (scenarioId, { dispatch, rejectWithValue }) => {
     try {
       await myNotesService.addBookmark(scenarioId);
-      // 3. 북마크 추가 성공 후, 최신 북마크 목록을 다시 불러오는 액션을 실행합니다.
       dispatch(fetchBookmarks());
       return scenarioId;
     } catch (error) {
@@ -45,14 +68,11 @@ export const addBookmark = createAsyncThunk(
   }
 );
 
-// 북마크 삭제 Thunk
 export const removeBookmark = createAsyncThunk(
   'cases/removeBookmark',
-  // 4. 여기에도 thunkAPI 객체를 받습니다.
   async (scenarioId, { dispatch, rejectWithValue }) => {
     try {
       await myNotesService.removeBookmark(scenarioId);
-      // 5. 북마크 삭제 성공 후, 최신 북마크 목록을 다시 불러오는 액션을 실행합니다.
       dispatch(fetchBookmarks());
       return scenarioId;
     } catch (error) {
@@ -67,9 +87,9 @@ const caseSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
+      // 목록 조회
       .addCase(fetchScenarios.pending, (state) => {
         state.isLoading = true;
-        state.error = null;
       })
       .addCase(fetchScenarios.fulfilled, (state, action) => {
         state.isLoading = false;
@@ -80,18 +100,36 @@ const caseSlice = createSlice({
         state.isLoading = false;
         state.error = action.payload;
       })
-      // 이 부분은 즉각적인 UI 반응을 위해 그대로 둡니다.
-      // (실제 데이터 소스는 fetchBookmarks를 통해 갱신됩니다)
+      // [추가] 단일 증례 조회 로직
+      .addCase(fetchScenarioById.pending, (state) => {
+        state.isLoading = true;
+        state.currentScenario = null;
+        state.error = null;
+      })
+      .addCase(fetchScenarioById.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.currentScenario = action.payload;
+      })
+      .addCase(fetchScenarioById.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.payload;
+      })
+      // 카테고리 (기존 코드 유지)
+      .addCase(fetchCategories.fulfilled, (state, action) => {
+        state.categories = action.payload;
+      })
+      .addCase(fetchCategories.rejected, (state, action) => {
+        console.error('Failed to fetch categories:', action.payload);
+      })
+      // 북마크 (기존 코드 유지)
       .addCase(addBookmark.fulfilled, (state, action) => {
-        const scenarioId = action.payload;
-        const scenario = state.scenarios.find(s => s.id === scenarioId);
+        const scenario = state.scenarios.find(s => s.id === action.payload);
         if (scenario) {
           scenario.isBookmarked = true;
         }
       })
       .addCase(removeBookmark.fulfilled, (state, action) => {
-        const scenarioId = action.payload;
-        const scenario = state.scenarios.find(s => s.id === scenarioId);
+        const scenario = state.scenarios.find(s => s.id === action.payload);
         if (scenario) {
           scenario.isBookmarked = false;
         }

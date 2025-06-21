@@ -10,6 +10,10 @@ const { verifyToken } = require('../../middlewares/auth.middleware');
 
 const router = express.Router();
 
+// [추가] 카테고리 목록을 가져오는 API 라우트
+router.get('/categories', caseController.getCaseCategories);
+
+
 // 'GET' 요청은 로그아웃 상태에서도 볼 수 있으므로 미들웨어를 적용하지 않습니다.
 router.get('/', caseController.getAllScenarios);
 router.get('/:scenarioId', caseController.getScenarioById);

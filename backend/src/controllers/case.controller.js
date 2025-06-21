@@ -21,6 +21,15 @@ const getScenarioById = asyncHandler(async (req, res) => {
   res.status(200).json(scenarioDetails);
 });
 
+// [추가] 카테고리 목록 조회를 위한 컨트롤러 함수
+const getCaseCategories = asyncHandler(async (req, res) => {
+  const categories = await caseService.fetchDistinctCategories();
+  res.status(200).json({
+    message: '성공적으로 카테고리 목록을 조회했습니다.',
+    data: categories,
+  });
+});
+
 /**
  * Handles the request to add a bookmark.
  */
@@ -49,6 +58,7 @@ const removeBookmark = asyncHandler(async (req, res) => {
 module.exports = {
   getAllScenarios,
   getScenarioById,
+  getCaseCategories,
   addBookmark,
   removeBookmark,
 };

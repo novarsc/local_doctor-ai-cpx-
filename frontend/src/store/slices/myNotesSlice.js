@@ -6,14 +6,25 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { myNotesService } from '../../services/myNotesService';
 
-// 1. 학습 기록 조회 Thunk: 백엔드 API를 호출합니다.
+// 학습 완료된 증례 목록 조회 Thunk
+export const fetchPracticedScenarios = createAsyncThunk(
+  'myNotes/fetchPracticedScenarios',
+  async (_, { rejectWithValue }) => {
+    try {
+      const scenarios = await myNotesService.getPracticedScenarios();
+      return scenarios;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
+// 학습 기록 조회 Thunk
 export const fetchLearningHistory = createAsyncThunk(
   'myNotes/fetchLearningHistory',
   async (_, { rejectWithValue }) => {
     try {
-      // myNotesService를 통해 백엔드에서 데이터를 가져옵니다.
       const response = await myNotesService.getLearningHistory();
-      // 성공하면 응답 데이터 전체를 반환합니다. (응답은 { data: [...] } 형태일 수 있음)
       return response; 
     } catch (error) {
       return rejectWithValue(error.response?.data || { message: 'Unknown error' });
@@ -21,7 +32,7 @@ export const fetchLearningHistory = createAsyncThunk(
   }
 );
 
-// 2. 즐겨찾기 조회 Thunk
+// 즐겨찾기 조회 Thunk
 export const fetchBookmarks = createAsyncThunk(
   'myNotes/fetchBookmarks',
   async (_, { rejectWithValue }) => {
@@ -34,7 +45,7 @@ export const fetchBookmarks = createAsyncThunk(
   }
 );
 
-// 3. 오답노트 조회 Thunk
+// 오답노트 조회 Thunk
 export const fetchIncorrectNotes = createAsyncThunk(
   'myNotes/fetchIncorrectNotes',
   async (scenarioId, { rejectWithValue }) => {
@@ -47,7 +58,7 @@ export const fetchIncorrectNotes = createAsyncThunk(
   }
 );
 
-// 4. 사용자 메모 저장 Thunk
+// 사용자 메모 저장 Thunk
 export const saveUserMemo = createAsyncThunk(
   'myNotes/saveUserMemo',
   async ({ scenarioId, memo }, { rejectWithValue }) => {
@@ -65,10 +76,12 @@ const initialState = {
   learningHistory: [],
   bookmarks: [],
   incorrectNotes: {},
+  practicedScenarios: [],
   status: {
-    learningHistory: 'idle', // 'idle' | 'loading' | 'succeeded' | 'failed'
+    learningHistory: 'idle',
     bookmarks: 'idle',
     incorrectNotes: 'idle',
+    practicedScenarios: 'idle',
   },
   error: null,
 };
@@ -79,27 +92,39 @@ const myNotesSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
-      // 학습 기록 로딩 상태 처리
+      // 학습 완료된 증례 목록 상태 처리
+      .addCase(fetchPracticedScenarios.pending, (state) => {
+        state.status.practicedScenarios = 'loading';
+      })
+      .addCase(fetchPracticedScenarios.fulfilled, (state, action) => {
+        state.status.practicedScenarios = 'succeeded';
+        if (Array.isArray(action.payload)) {
+          state.practicedScenarios = action.payload;
+        } else if (action.payload && Array.isArray(action.payload.data)) {
+          state.practicedScenarios = action.payload.data;
+        } else {
+          state.practicedScenarios = [];
+        }
+      })
+      .addCase(fetchPracticedScenarios.rejected, (state, action) => {
+        state.status.practicedScenarios = 'failed';
+        state.error = action.payload?.message || 'Failed to fetch practiced scenarios';
+      })
+      
+      // 학습 기록 상태 처리
       .addCase(fetchLearningHistory.pending, (state) => {
         state.status.learningHistory = 'loading';
       })
-      // 학습 기록 로딩 성공 상태 처리
       .addCase(fetchLearningHistory.fulfilled, (state, action) => {
         state.status.learningHistory = 'succeeded';
-        // 2. [핵심 수정] 백엔드 응답 데이터 구조에 맞게 상태를 업데이트합니다.
-        // API가 { data: [...] } 형태로 응답할 가능성이 높으므로, action.payload.data를 저장합니다.
-        // 만약 배열을 직접 반환한다면 action.payload를 사용합니다.
-        // Array.isArray로 확인하여 두 경우 모두 안전하게 처리합니다.
         if (Array.isArray(action.payload)) {
           state.learningHistory = action.payload;
         } else if (action.payload && Array.isArray(action.payload.data)) {
           state.learningHistory = action.payload.data;
         } else {
-          console.error("Received unexpected data structure for learning history:", action.payload);
-          state.learningHistory = []; // 예상치 못한 구조일 경우 비워줍니다.
+          state.learningHistory = [];
         }
       })
-      // 학습 기록 로딩 실패 상태 처리
       .addCase(fetchLearningHistory.rejected, (state, action) => {
         state.status.learningHistory = 'failed';
         state.error = action.payload?.message || 'Failed to fetch learning history';
@@ -116,7 +141,6 @@ const myNotesSlice = createSlice({
         } else if (action.payload && Array.isArray(action.payload.data)) {
           state.bookmarks = action.payload.data;
         } else {
-          console.error("Received unexpected data structure for bookmarks:", action.payload);
           state.bookmarks = [];
         }
       })

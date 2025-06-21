@@ -1,13 +1,12 @@
 /**
  * @file CaseListPage.jsx
- * @description Page component for displaying a personalized list of all scenarios.
+ * @description Page component for displaying a personalized list of all scenarios with filtering and dynamic categories.
  */
 
 import React, { useEffect, useState, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchScenarios, addBookmark, removeBookmark } from '../../store/slices/caseSlice';
-// 1. 개인화 정보를 가져오기 위한 액션을 myNotesSlice에서 가져옵니다.
+import { fetchScenarios, fetchCategories, addBookmark, removeBookmark } from '../../store/slices/caseSlice';
 import { fetchBookmarks, fetchLearningHistory } from '../../store/slices/myNotesSlice';
 import Button from '../../components/common/Button';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
@@ -26,31 +25,42 @@ const BookmarkIcon = ({ isBookmarked, onClick, isLoading }) => {
 
 const CaseListPage = () => {
     const dispatch = useDispatch();
-    const { scenarios, pagination, isLoading, error } = useSelector((state) => state.cases);
-    // 2. Redux store에서 사용자의 북마크와 학습 기록 데이터를 가져옵니다.
-    const { bookmarks, learningHistory } = useSelector((state) => state.myNotes);
+    const { scenarios, pagination, categories, isLoading, error } = useSelector((state) => state.cases);
+    const { bookmarks, learningHistory: history } = useSelector((state) => state.myNotes);
 
-    const [searchTerm, setSearchTerm] = useState('');
     const [currentPage, setCurrentPage] = useState(1);
+    const [searchTerm, setSearchTerm] = useState('');
+    const [selectedCategory, setSelectedCategory] = useState(''); 
+    const [completionStatus, setCompletionStatus] = useState('all');
 
     useEffect(() => {
-        // 3. 페이지 로드 시, 공용 증례 목록과 함께 개인화 정보(북마크, 학습기록)를 모두 불러옵니다.
-        dispatch(fetchScenarios({ page: currentPage, limit: 9, keyword: searchTerm }));
+        const handler = setTimeout(() => {
+            setCurrentPage(1);
+            dispatch(fetchScenarios({ page: 1, search: searchTerm, category: selectedCategory, status: completionStatus }));
+        }, 500);
+        return () => clearTimeout(handler);
+    }, [searchTerm]);
+    
+    useEffect(() => {
+        dispatch(fetchScenarios({ page: currentPage, search: searchTerm, category: selectedCategory, status: completionStatus }));
+    }, [dispatch, currentPage, selectedCategory, completionStatus]);
+
+    useEffect(() => {
+        dispatch(fetchCategories());
         dispatch(fetchBookmarks());
         dispatch(fetchLearningHistory());
-    }, [dispatch, currentPage, searchTerm]);
+    }, [dispatch]);
 
-    const handleSearch = (e) => {
-        e.preventDefault();
-        setCurrentPage(1);
+    const handleSearchChange = (e) => {
+        setSearchTerm(e.target.value);
     };
-
+    
     const handlePageChange = (newPage) => {
         if (pagination && newPage > 0 && newPage <= pagination.totalPages) {
             setCurrentPage(newPage);
         }
     };
-
+    
     const handleBookmarkToggle = (scenarioId, isBookmarked) => {
         if (isBookmarked) {
             dispatch(removeBookmark(scenarioId));
@@ -59,78 +69,82 @@ const CaseListPage = () => {
         }
     };
     
-    // 4. 공용 증례 데이터와 개인화 데이터를 조합(merge)하는 로직입니다.
-    // useMemo를 사용해 불필요한 재연산을 방지합니다.
-    const scenariosWithUserData = useMemo(() => {
-        const bookmarkedIds = new Set(bookmarks.map(b => b.scenarioId));
-        const historyMap = new Map();
+    const personalizedScenarios = useMemo(() => {
+        const bookmarkSet = new Set((bookmarks || []).map(b => b.scenarioId));
+        const historySet = new Set((history || []).map(h => h.scenarioId));
 
-        // 가장 높은 점수 기록을 찾기 위해 학습 기록을 순회합니다.
-        learningHistory.forEach(h => {
-            if (h.scenarioId) {
-                const existing = historyMap.get(h.scenarioId);
-                if (!existing || h.score > existing.score) {
-                    historyMap.set(h.scenarioId, h);
-                }
-            }
-        });
-
-        return scenarios.map(scenario => {
-            const userHistory = historyMap.get(scenario.scenarioId);
-            return {
-                ...scenario,
-                isBookmarked: bookmarkedIds.has(scenario.scenarioId),
-                highestScore: userHistory ? userHistory.score : null,
-            };
-        });
-    }, [scenarios, bookmarks, learningHistory]);
-
+        return (scenarios || []).map(scenario => ({
+            ...scenario,
+            isBookmarked: bookmarkSet.has(scenario.scenarioId),
+            isCompleted: historySet.has(scenario.scenarioId),
+        }));
+    }, [scenarios, bookmarks, history]);
 
     return (
-        <div className="container mx-auto p-4 sm:p-6 lg:p-8">
-            <header className="mb-8 text-center">
-                <h1 className="text-4xl font-bold text-gray-800">증례 라이브러리</h1>
-                <p className="text-lg text-gray-600 mt-2">다양한 임상 증례를 통해 실전 감각을 키워보세요.</p>
-            </header>
-
-            <div className="bg-white p-6 rounded-lg shadow-md mb-8">
-                {/* ... 검색 폼은 동일 ... */}
-                <form onSubmit={handleSearch} className="flex items-center space-x-4">
-                    <input type="text" placeholder="증상, 질환명, 키워드로 증례 검색" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className="input-base flex-grow"/>
-                    <Button type="submit" variant="primary">검색</Button>
-                </form>
+        <div className="container mx-auto p-4 md:p-8">
+            <h1 className="text-3xl font-bold mb-4">전체 증례 목록</h1>
+            <p className="text-gray-600 mb-8">다양한 임상 증례를 통해 CPX 실습 능력을 향상시켜 보세요.</p>
+            
+            <div className="mb-6 flex flex-col md:flex-row gap-4 items-center p-4 bg-gray-50 rounded-lg shadow-sm">
+                <input
+                    type="text"
+                    placeholder="증례 검색 (예: 복통, 두통)"
+                    value={searchTerm}
+                    onChange={handleSearchChange}
+                    className="flex-grow w-full md:w-1/3 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                />
+                <select 
+                    value={selectedCategory} 
+                    onChange={e => {
+                        setCurrentPage(1);
+                        setSelectedCategory(e.target.value);
+                    }}
+                    className="px-4 py-2 border border-gray-300 rounded-md w-full md:w-auto bg-white"
+                >
+                    <option value="">전체 카테고리</option>
+                    {(categories || []).map(cat => <option key={cat} value={cat}>{cat}</option>)}
+                </select>
+                <div className="flex space-x-2">
+                    <Button 
+                        variant={completionStatus === 'all' ? 'primary' : 'secondary'}
+                        onClick={() => { setCurrentPage(1); setCompletionStatus('all'); }}
+                    >
+                        전체
+                    </Button>
+                    <Button 
+                        variant={completionStatus === 'completed' ? 'primary' : 'secondary'}
+                        onClick={() => { setCurrentPage(1); setCompletionStatus('completed'); }}
+                    >
+                        실습 완료
+                    </Button>
+                    <Button 
+                        variant={completionStatus === 'incomplete' ? 'primary' : 'secondary'}
+                        onClick={() => { setCurrentPage(1); setCompletionStatus('incomplete'); }}
+                    >
+                        미완료
+                    </Button>
+                </div>
             </div>
+
+            {isLoading && <div className="flex justify-center p-20"><LoadingSpinner /></div>}
             
-            {isLoading && <LoadingSpinner text="증례 목록을 불러오는 중..." />}
-            {error && <div className="text-center p-10 text-red-500">오류가 발생했습니다: {error}</div>}
+            {error && <div className="text-center p-20 bg-red-50 text-red-600 rounded-lg shadow"><p>오류가 발생했습니다: {error}</p></div>}
             
-            {!isLoading && !error && (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {/* 5. 조합된 'scenariosWithUserData'를 사용해 화면을 그립니다. */}
-                    {scenariosWithUserData.map((scenario) => (
-                        <div key={scenario.scenarioId} className="bg-white rounded-xl shadow-lg flex flex-col transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 relative">
-                            <div className="absolute top-4 right-4 z-10">
-                                <BookmarkIcon 
-                                    isBookmarked={scenario.isBookmarked} 
-                                    onClick={() => handleBookmarkToggle(scenario.scenarioId, scenario.isBookmarked)}
-                                />
-                            </div>
-                            
+            {!isLoading && !error && (scenarios || []).length > 0 && (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {personalizedScenarios.map((scenario) => (
+                        <div key={scenario.scenarioId} className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between">
                             <div className="p-6">
-                                <p className="text-sm font-semibold text-primary">{scenario.primaryCategory} &gt; {scenario.secondaryCategory}</p>
-                                <h2 className="text-xl font-bold my-1 text-gray-900 truncate">{scenario.name}</h2>
-                                <p className="text-sm text-gray-500 mb-2">{scenario.age}세 / {scenario.sex}</p>
-                                <p className="text-gray-600 h-20 line-clamp-3">{scenario.shortDescription}</p>
+                                <div className="flex justify-between items-start mb-2">
+                                    <span className="text-sm font-semibold bg-blue-100 text-blue-800 px-2 py-1 rounded-full">{scenario.primaryCategory}</span>
+                                    <BookmarkIcon isBookmarked={scenario.isBookmarked} onClick={() => handleBookmarkToggle(scenario.scenarioId, scenario.isBookmarked)} isLoading={isLoading} />
+                                </div>
+                                <h3 className="text-xl font-bold mb-2">{scenario.name}</h3>
+                                <p className="text-gray-600 text-sm mb-4 h-10 overflow-hidden">{scenario.shortDescription}</p>
                             </div>
-                            <div className="mt-auto bg-gray-50 p-4 border-t flex justify-between items-center">
-                                <div className="flex items-center">
-                                    {scenario.highestScore !== null ? (
-                                        <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-1 rounded-full">
-                                            최고 {scenario.highestScore}점
-                                        </span>
-                                    ) : (
-                                        <span className="text-gray-400 text-xs font-semibold">미학습</span>
-                                    )}
+                            <div className="bg-gray-50 px-6 py-4 flex justify-between items-center rounded-b-lg">
+                                <div>
+                                    {scenario.isCompleted && <span className="text-sm font-semibold text-green-600">실습 완료</span>}
                                 </div>
                                 <Link to={`/cases/practice/${scenario.scenarioId}`}>
                                     <Button variant="secondary" className="!py-1.5 !px-4 text-sm">
@@ -143,12 +157,11 @@ const CaseListPage = () => {
                 </div>
             )}
             
-            {!isLoading && !error && scenarios.length === 0 && (
-                <div className="text-center p-20 bg-white rounded-lg shadow"><p className="text-gray-500">표시할 증례가 없습니다.</p></div>
+            {!isLoading && !error && (!scenarios || scenarios.length === 0) && (
+                <div className="text-center p-20 bg-white rounded-lg shadow"><p className="text-gray-500">표시할 증례가 없습니다. 다른 검색어나 필터를 사용해 보세요.</p></div>
             )}
             
-            {/* ... 페이지네이션은 동일 ... */}
-             <div className="mt-8 flex justify-center">
+            <div className="mt-8 flex justify-center">
                 {pagination && pagination.totalPages > 1 && (
                     <nav className="flex items-center space-x-2">
                         <Button onClick={() => handlePageChange(currentPage - 1)} disabled={!pagination.hasPrevPage || isLoading} variant="secondary">이전</Button>

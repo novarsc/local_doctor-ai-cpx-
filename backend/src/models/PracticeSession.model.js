@@ -16,13 +16,6 @@ module.exports = (sequelize) => {
             foreignKey: 'scenarioId',
             as: 'scenario'
         });
-
-        // --- 이 부분을 추가하세요 ---
-        this.belongsTo(models.AIPatientPersonality, {
-            foreignKey: 'selectedAiPersonalityId',
-            as: 'personality'
-        });
-        // --- 여기까지 추가 ---
         
         // --- 이 부분을 추가하세요 ---
         // PracticeSession은 하나의 EvaluationResult를 가집니다 (hasOne 관계)

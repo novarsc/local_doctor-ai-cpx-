@@ -4,13 +4,13 @@
  */
 
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { caseService } from '../../services/caseService';
+// [수정] caseService import 제거
 import { practiceSessionService } from '../../services/practiceSessionService';
 
 const initialState = {
   // Session info
   sessionId: null,
-  currentScenario: null,
+  // [제거] currentScenario 상태 제거
   status: 'idle', // 'idle' | 'active' | 'completed' | 'error'
   
   // Chat state
@@ -26,18 +26,9 @@ const initialState = {
   error: null,
 };
 
-// --- Async Thunks ---
+// --- [제거] fetchScenarioForPractice Thunk 전체 제거 ---
 
-export const fetchScenarioForPractice = createAsyncThunk(
-  'practiceSession/fetchScenario', 
-  async (id, { rejectWithValue }) => { 
-    try { 
-      return await caseService.getScenarioById(id); 
-    } catch (e) { 
-      return rejectWithValue(e.message); 
-    }
-  }
-);
+// --- Async Thunks ---
 
 export const startNewPracticeSession = createAsyncThunk(
   'practiceSession/startNew', 
@@ -73,17 +64,16 @@ export const fetchFeedbackForSession = createAsyncThunk(
   }
 );
 
-/** ▼▼▼ [새로 추가] 이어하기를 위한 비동기 Thunk ▼▼▼ */
 export const resumePracticeSession = createAsyncThunk(
   'practiceSession/resume',
   async (sessionId, { rejectWithValue }) => {
     try {
       const [sessionDetails, chatHistory] = await Promise.all([
-        practiceSessionService.getPracticeSession(sessionId),
+        practiceSessionService.getSessionDetails(sessionId), // [수정] getPracticeSession -> getSessionDetails
         practiceSessionService.getChatLogs(sessionId)
       ]);
       
-      const scenario = await caseService.getScenarioById(sessionDetails.scenarioId);
+      const scenario = sessionDetails.scenario;
 
       return {
         sessionDetails,
@@ -122,19 +112,16 @@ const practiceSessionSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder
-      // Fetch Scenario
-      .addCase(fetchScenarioForPractice.pending, (state) => { state.isLoading = true; state.currentScenario = null; })
-      .addCase(fetchScenarioForPractice.fulfilled, (state, action) => { state.isLoading = false; state.currentScenario = action.payload; })
-      .addCase(fetchScenarioForPractice.rejected, (state, action) => { state.isLoading = false; state.error = action.payload; })
+      // --- [제거] fetchScenarioForPractice 관련 Reducer 로직 전체 제거 ---
       
-      // Start New Session (중복 제거 후 최종 버전)
+      // Start New Session
       .addCase(startNewPracticeSession.pending, (state) => { state.isLoading = true; })
       .addCase(startNewPracticeSession.fulfilled, (state, action) => {
         state.isLoading = false;
         state.status = 'active';
         state.sessionId = action.payload.practiceSessionId;
         state.chatLog = [action.payload.aiPatientInitialInteraction.data];
-        state.currentScenario = action.payload.scenarioDetails;
+        // [제거] 여기서 currentScenario를 설정하지 않음
       })
       .addCase(startNewPracticeSession.rejected, (state, action) => { state.isLoading = false; state.status = 'error'; state.error = action.payload; })
 
@@ -159,7 +146,7 @@ const practiceSessionSlice = createSlice({
         state.error = action.payload;
       })
       
-      // ▼▼▼ [새로 추가] Resume Session 라이프사이클 로직 ▼▼▼
+      // Resume Session
       .addCase(resumePracticeSession.pending, (state) => {
         state.isLoading = true;
         state.error = null;
@@ -168,10 +155,11 @@ const practiceSessionSlice = createSlice({
         state.isLoading = false;
         state.status = 'active';
         state.sessionId = action.payload.sessionDetails.practiceSessionId;
-        state.currentScenario = action.payload.scenario;
+        // [제거] 여기서 currentScenario를 설정하지 않음
         state.chatLog = action.payload.chatHistory.map(log => ({
             id: log.messageId,
             sender: log.sender,
+
             content: log.content
         }));
       })
