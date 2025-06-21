@@ -20,7 +20,7 @@ const MockExamMainPage = () => {
             .then((session) => {
                 // 세션이 성공적으로 생성되면, 해당 세션의 첫 번째 증례 페이지로 이동합니다.
                 if (session && session.mockExamSessionId) {
-                    navigate(`/mock-exam/${session.mockExamSessionId}/case/1`);
+                    navigate(`/mock-exams/live/${session.mockExamSessionId}`);
                 } else {
                     // 비정상적인 응답에 대한 방어 코드
                     console.error("Mock exam session ID not found in response.");

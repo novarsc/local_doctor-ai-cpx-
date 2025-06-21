@@ -17,7 +17,7 @@ const Footer = () => {
                         <h3 className="text-lg font-semibold text-white mb-4">빠른 링크</h3>
                         <ul className="space-y-2 text-sm">
                             <li><Link className="hover:text-white transition-colors" to="/cases">증례 라이브러리</Link></li>
-                            <li><Link className="hover:text-white transition-colors" to="/mock-exam">모의고사</Link></li>
+                            <li><Link className="hover:text-white transition-colors" to="/mock-exams">모의고사</Link></li>
                             <li><Link className="hover:text-white transition-colors" to="/my-notes">MY 노트</Link></li>
                         </ul>
                     </div>

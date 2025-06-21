@@ -146,8 +146,7 @@ const CaseListPage = () => {
                                 <div>
                                     {scenario.isCompleted && <span className="text-sm font-semibold text-green-600">실습 완료</span>}
                                 </div>
-                                {/* [수정] Link의 to 속성을 router.jsx와 일치하는 올바른 경로로 수정합니다. */}
-                                <Link to={`/cases/${scenario.scenarioId}/practice`}>
+                                <Link to={`/cases/practice/${scenario.scenarioId}`}>
                                     <Button variant="secondary" className="!py-1.5 !px-4 text-sm">
                                       실습 시작
                                     </Button>

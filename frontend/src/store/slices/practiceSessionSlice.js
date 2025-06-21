@@ -135,7 +135,7 @@ const practiceSessionSlice = createSlice({
       })
       .addCase(fetchFeedbackForSession.fulfilled, (state, action) => {
         state.feedback = action.payload;
-        if (action.payload.status === 'completed_evaluation') {
+        if (action.payload.status === 'completed') {
             state.evaluationStatus = 'completed';
         } else {
             state.evaluationStatus = 'evaluating';

@@ -22,9 +22,8 @@ const IncorrectAnswersPage = () => {
     }, [status.practicedScenarios, practicedScenarios, selectedScenarioId]);
 
     useEffect(() => {
-        if (selectedScenarioId) {
-            dispatch(fetchIncorrectNotes(selectedScenarioId));
-        }
+        // 선택된 시나리오의 오답노트를 불러옵니다.
+        dispatch(fetchIncorrectNotes(selectedScenarioId));
     }, [dispatch, selectedScenarioId]);
 
     useEffect(() => {
@@ -36,8 +35,10 @@ const IncorrectAnswersPage = () => {
     }, [currentNoteData]);
 
     const handleSaveMemo = () => {
-        if (!selectedScenarioId) return;
-        dispatch(saveUserMemo({ scenarioId: selectedScenarioId, memo: userMemo }));
+        dispatch(saveUserMemo({
+            scenarioId: selectedScenarioId,
+            memo: userMemo
+        }));
     };
 
     return (
@@ -83,23 +84,29 @@ const IncorrectAnswersPage = () => {
                             </div>
                         </div>
                         <div>
-                            <h3 className="font-semibold text-lg mb-2 text-blue-600">나의 메모</h3>
-                            <textarea
-                                value={userMemo}
-                                onChange={(e) => setUserMemo(e.target.value)}
-                                placeholder="이 증례에 대해 배운 점, 실수한 점, 앞으로 주의할 점 등을 자유롭게 기록해보세요."
-                                className="w-full h-64 p-4 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
-                            />
-                            <button
-                                onClick={handleSaveMemo}
-                                disabled={status.incorrectNotes === 'saving'}
-                                className="mt-4 px-8 py-2 bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 disabled:bg-gray-400 transition-all"
-                            >
-                                {status.incorrectNotes === 'saving' ? '저장 중...' : '메모 저장'}
-                            </button>
+                            <h3 className="font-semibold text-gray-700">해설</h3>
+                            <p className="text-gray-600 bg-gray-50 p-3 rounded-md">{currentNoteData.explanation}</p>
                         </div>
                     </div>
                 )}
+
+                {/* 사용자 메모 입력 */}
+                <div className="bg-white rounded-lg shadow-md p-6 mt-6">
+                    <h2 className="text-xl font-semibold mb-4 text-gray-800">나의 메모</h2>
+                    <textarea
+                        value={userMemo}
+                        onChange={(e) => setUserMemo(e.target.value)}
+                        placeholder="이 문제에 대한 개인적인 메모를 작성하세요..."
+                        className="w-full h-32 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                    />
+                    <button
+                        onClick={handleSaveMemo}
+                        disabled={status.incorrectNotes === 'saving'}
+                        className="mt-4 px-4 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:bg-gray-400"
+                    >
+                        {status.incorrectNotes === 'saving' ? '저장 중...' : '메모 저장'}
+                    </button>
+                </div>
             </main>
         </div>
     );

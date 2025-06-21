@@ -1,12 +1,12 @@
 /**
  * @file myNotesSlice.js
- * @description Redux Toolkit slice for managing "MY 노트" state.
+ * @description Redux slice for managing state related to the 'MY 노트' feature.
  */
 
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { myNotesService } from '../../services/myNotesService';
 
-// --- [추가된 Thunk] ---
+// 학습 완료된 증례 목록 조회 Thunk
 export const fetchPracticedScenarios = createAsyncThunk(
   'myNotes/fetchPracticedScenarios',
   async (_, { rejectWithValue }) => {
@@ -18,28 +18,73 @@ export const fetchPracticedScenarios = createAsyncThunk(
     }
   }
 );
-// --- [여기까지 추가] ---
 
+// 학습 기록 조회 Thunk
+export const fetchLearningHistory = createAsyncThunk(
+  'myNotes/fetchLearningHistory',
+  async (_, { rejectWithValue }) => {
+    try {
+      const response = await myNotesService.getLearningHistory();
+      return response; 
+    } catch (error) {
+      return rejectWithValue(error.response?.data || { message: 'Unknown error' });
+    }
+  }
+);
+
+// 즐겨찾기 조회 Thunk
+export const fetchBookmarks = createAsyncThunk(
+  'myNotes/fetchBookmarks',
+  async (_, { rejectWithValue }) => {
+    try {
+      const response = await myNotesService.getBookmarks();
+      return response;
+    } catch (error) {
+      return rejectWithValue(error.response?.data || { message: 'Unknown error' });
+    }
+  }
+);
+
+// 오답노트 조회 Thunk
+export const fetchIncorrectNotes = createAsyncThunk(
+  'myNotes/fetchIncorrectNotes',
+  async (scenarioId, { rejectWithValue }) => {
+    try {
+      const response = await myNotesService.getIncorrectNotes(scenarioId);
+      return { scenarioId, data: response };
+    } catch (error) {
+      return rejectWithValue(error.response?.data || { message: 'Unknown error' });
+    }
+  }
+);
+
+// 사용자 메모 저장 Thunk
+export const saveUserMemo = createAsyncThunk(
+  'myNotes/saveUserMemo',
+  async ({ scenarioId, memo }, { rejectWithValue }) => {
+    try {
+      const response = await myNotesService.saveIncorrectNoteMemo(scenarioId, memo);
+      return { scenarioId, data: response };
+    } catch (error) {
+      return rejectWithValue(error.response?.data || { message: 'Unknown error' });
+    }
+  }
+);
+
+// 초기 상태 정의
 const initialState = {
+  learningHistory: [],
   bookmarks: [],
   incorrectNotes: {},
-  learningHistory: [],
-  practicedScenarios: [], // 추가
+  practicedScenarios: [],
   status: {
+    learningHistory: 'idle',
     bookmarks: 'idle',
     incorrectNotes: 'idle',
-    learningHistory: 'idle',
-    practicedScenarios: 'idle', // 추가
+    practicedScenarios: 'idle',
   },
   error: null,
 };
-
-// ... (기존의 다른 Thunk들)
-export const fetchBookmarks = createAsyncThunk('myNotes/fetchBookmarks', async (_, { rejectWithValue }) => { try { return await myNotesService.getBookmarks(); } catch (e) { return rejectWithValue(e.message); }});
-export const fetchIncorrectNotes = createAsyncThunk('myNotes/fetchIncorrectNotes', async (id, { rejectWithValue }) => { try { const d = await myNotesService.getIncorrectNotes(id); return { scenarioId: id, data: d }; } catch (e) { return rejectWithValue(e.message); }});
-export const saveUserMemo = createAsyncThunk('myNotes/saveUserMemo', async ({ id, memo }, { rejectWithValue }) => { try { const d = await myNotesService.saveIncorrectNoteMemo(id, memo); return { scenarioId: id, data: d }; } catch (e) { return rejectWithValue(e.message); }});
-export const fetchLearningHistory = createAsyncThunk('myNotes/fetchLearningHistory', async (_, { rejectWithValue }) => { try { return await myNotesService.getLearningHistory(); } catch (error) { return rejectWithValue(error.message); } } );
-
 
 const myNotesSlice = createSlice({
   name: 'myNotes',
@@ -47,31 +92,90 @@ const myNotesSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
-      // [추가된 Reducer 로직]
+      // 학습 완료된 증례 목록 상태 처리
       .addCase(fetchPracticedScenarios.pending, (state) => {
         state.status.practicedScenarios = 'loading';
       })
       .addCase(fetchPracticedScenarios.fulfilled, (state, action) => {
         state.status.practicedScenarios = 'succeeded';
-        state.practicedScenarios = action.payload;
+        if (Array.isArray(action.payload)) {
+          state.practicedScenarios = action.payload;
+        } else if (action.payload && Array.isArray(action.payload.data)) {
+          state.practicedScenarios = action.payload.data;
+        } else {
+          state.practicedScenarios = [];
+        }
       })
       .addCase(fetchPracticedScenarios.rejected, (state, action) => {
         state.status.practicedScenarios = 'failed';
-        state.error = action.payload;
+        state.error = action.payload?.message || 'Failed to fetch practiced scenarios';
       })
-      // 기존 Reducer 로직
-      .addCase(fetchBookmarks.pending, (state) => { state.status.bookmarks = 'loading'; })
-      .addCase(fetchBookmarks.fulfilled, (state, action) => { state.status.bookmarks = 'succeeded'; state.bookmarks = action.payload; })
-      .addCase(fetchBookmarks.rejected, (state, action) => { state.status.bookmarks = 'failed'; state.error = action.payload; })
-      .addCase(fetchIncorrectNotes.pending, (state) => { state.status.incorrectNotes = 'loading'; })
-      .addCase(fetchIncorrectNotes.fulfilled, (state, action) => { state.status.incorrectNotes = 'succeeded'; state.incorrectNotes[action.payload.scenarioId] = action.payload.data; })
-      .addCase(fetchIncorrectNotes.rejected, (state, action) => { state.status.incorrectNotes = 'failed'; state.error = action.payload; })
-      .addCase(saveUserMemo.pending, (state) => { state.status.incorrectNotes = 'saving'; })
-      .addCase(saveUserMemo.fulfilled, (state, action) => { state.status.incorrectNotes = 'succeeded'; if(state.incorrectNotes[action.payload.scenarioId]) { state.incorrectNotes[action.payload.scenarioId].userMemo = action.payload.data.userMemo; } })
-      .addCase(saveUserMemo.rejected, (state, action) => { state.status.incorrectNotes = 'failed'; state.error = action.payload; })
-      .addCase(fetchLearningHistory.pending, (state) => { state.status.learningHistory = 'loading'; })
-      .addCase(fetchLearningHistory.fulfilled, (state, action) => { state.status.learningHistory = 'succeeded'; state.learningHistory = action.payload; })
-      .addCase(fetchLearningHistory.rejected, (state, action) => { state.status.learningHistory = 'failed'; state.error = action.payload; });
+      
+      // 학습 기록 상태 처리
+      .addCase(fetchLearningHistory.pending, (state) => {
+        state.status.learningHistory = 'loading';
+      })
+      .addCase(fetchLearningHistory.fulfilled, (state, action) => {
+        state.status.learningHistory = 'succeeded';
+        if (Array.isArray(action.payload)) {
+          state.learningHistory = action.payload;
+        } else if (action.payload && Array.isArray(action.payload.data)) {
+          state.learningHistory = action.payload.data;
+        } else {
+          state.learningHistory = [];
+        }
+      })
+      .addCase(fetchLearningHistory.rejected, (state, action) => {
+        state.status.learningHistory = 'failed';
+        state.error = action.payload?.message || 'Failed to fetch learning history';
+      })
+      
+      // 즐겨찾기 상태 처리
+      .addCase(fetchBookmarks.pending, (state) => {
+        state.status.bookmarks = 'loading';
+      })
+      .addCase(fetchBookmarks.fulfilled, (state, action) => {
+        state.status.bookmarks = 'succeeded';
+        if (Array.isArray(action.payload)) {
+          state.bookmarks = action.payload;
+        } else if (action.payload && Array.isArray(action.payload.data)) {
+          state.bookmarks = action.payload.data;
+        } else {
+          state.bookmarks = [];
+        }
+      })
+      .addCase(fetchBookmarks.rejected, (state, action) => {
+        state.status.bookmarks = 'failed';
+        state.error = action.payload?.message || 'Failed to fetch bookmarks';
+      })
+      
+      // 오답노트 상태 처리
+      .addCase(fetchIncorrectNotes.pending, (state) => {
+        state.status.incorrectNotes = 'loading';
+      })
+      .addCase(fetchIncorrectNotes.fulfilled, (state, action) => {
+        state.status.incorrectNotes = 'succeeded';
+        state.incorrectNotes[action.payload.scenarioId] = action.payload.data;
+      })
+      .addCase(fetchIncorrectNotes.rejected, (state, action) => {
+        state.status.incorrectNotes = 'failed';
+        state.error = action.payload?.message || 'Failed to fetch incorrect notes';
+      })
+      
+      // 사용자 메모 저장 상태 처리
+      .addCase(saveUserMemo.pending, (state) => {
+        state.status.incorrectNotes = 'saving';
+      })
+      .addCase(saveUserMemo.fulfilled, (state, action) => {
+        state.status.incorrectNotes = 'succeeded';
+        if (state.incorrectNotes[action.payload.scenarioId]) {
+          state.incorrectNotes[action.payload.scenarioId].userMemo = action.payload.data.userMemo;
+        }
+      })
+      .addCase(saveUserMemo.rejected, (state, action) => {
+        state.status.incorrectNotes = 'failed';
+        state.error = action.payload?.message || 'Failed to save user memo';
+      });
   },
 });
 

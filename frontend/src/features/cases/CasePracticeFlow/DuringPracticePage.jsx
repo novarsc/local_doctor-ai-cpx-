@@ -33,17 +33,15 @@ const TimerDisplay = ({ initialMinutes = 12 }) => {
 const DuringPracticePage = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
-    const { scenarioId, sessionId } = useParams(); // URL에서 scenarioId와 sessionId를 모두 가져옵니다.
+    const { sessionId } = useParams(); // URL에서 sessionId를 가져옵니다.
     
     // Redux 스토어에서 현재 세션 ID도 가져와서 비교용으로 사용합니다.
-    const { currentSessionId, currentScenario, chatLog, isAiResponding, isLoading, error } = useSelector(state => ({
-        currentSessionId: state.practiceSession.sessionId,
-        currentScenario: state.practiceSession.currentScenario,
-        chatLog: state.practiceSession.chatLog,
-        isAiResponding: state.practiceSession.isAiResponding,
-        isLoading: state.practiceSession.isLoading,
-        error: state.practiceSession.error,
-    }));
+    const currentSessionId = useSelector(state => state.practiceSession.sessionId);
+    const currentScenario = useSelector(state => state.practiceSession.currentScenario);
+    const chatLog = useSelector(state => state.practiceSession.chatLog);
+    const isAiResponding = useSelector(state => state.practiceSession.isAiResponding);
+    const isLoading = useSelector(state => state.practiceSession.isLoading);
+    const error = useSelector(state => state.practiceSession.error);
     
     const [userInput, setUserInput] = useState('');
     const chatEndRef = useRef(null);
@@ -101,7 +99,7 @@ const DuringPracticePage = () => {
             dispatch(completeSession(sessionId))
                 .unwrap()
                 .then(() => {
-                    navigate(`/cases/${scenarioId}/practice/result`);
+                    navigate(`/cases/results/${sessionId}`);
                 })
                 .catch(err => {
                     alert(`세션 종료에 실패했습니다: ${err.message}`);

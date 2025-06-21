@@ -16,7 +16,7 @@ const Recommendations = ({ cases }) => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {cases.map(recCase => (
-          <Link to={`/cases/${recCase.id}/practice`} key={recCase.id} className="flex flex-col gap-3 rounded-xl border border-slate-200 bg-white p-4 shadow-sm hover:shadow-lg transition-shadow cursor-pointer group">
+                      <Link to={`/cases/practice/${recCase.id}`} key={recCase.id} className="flex flex-col gap-3 rounded-xl border border-slate-200 bg-white p-4 shadow-sm hover:shadow-lg transition-shadow cursor-pointer group">
             <img src={recCase.img} alt={recCase.title} className="w-full h-40 object-cover rounded-lg mb-2" />
             <div>
               <p className="text-lg font-semibold text-slate-800 group-hover:text-primary transition-colors mb-1">{recCase.title}</p>
