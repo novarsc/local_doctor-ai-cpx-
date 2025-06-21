@@ -5,9 +5,9 @@
 
 const { Scenario, MockExamSession, PracticeSession } = require('../models');
 const { fn, col } = require('sequelize');
-const ApiError = require('../utils/ApiError');
+// ▼▼▼ 이 부분의 코드를 수정합니다. { }를 추가하여 ApiError 클래스만 정확히 가져옵니다. ▼▼▼
+const { ApiError } = require('../utils/ApiError');
 
-// startMockExamSession and getMockExamSession functions remain unchanged...
 const startMockExamSession = async (userId, examType, specifiedCategories = []) => {
     const scenarios = await Scenario.findAll();
     const scenariosByPrimaryCategory = scenarios.reduce((acc, scenario) => {
@@ -28,19 +28,13 @@ const startMockExamSession = async (userId, examType, specifiedCategories = []) 
     const newMockExamSession = await MockExamSession.create({ userId, examType, status: 'started', selectedScenariosDetails });
     return newMockExamSession.toJSON();
 };
+
 const getMockExamSession = async (mockExamSessionId, userId) => {
     const session = await MockExamSession.findOne({ where: { mockExamSessionId, userId } });
     if (!session) throw new ApiError(404, 'M002_MOCK_EXAM_SESSION_NOT_FOUND', 'Mock exam session not found or access denied.');
     return session.toJSON();
 };
 
-/**
- * Completes a mock exam session.
- * This might involve calculating the final overall score.
- * @param {string} mockExamSessionId - The ID of the mock exam session.
- * @param {string} userId - The ID of the user.
- * @returns {Promise<object>} The completed mock exam session object.
- */
 const completeMockExamSession = async (mockExamSessionId, userId) => {
     const session = await MockExamSession.findOne({ where: { mockExamSessionId, userId } });
     if (!session) throw new ApiError(404, 'M002_MOCK_EXAM_SESSION_NOT_FOUND', 'Mock exam session not found.');

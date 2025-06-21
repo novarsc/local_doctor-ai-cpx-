@@ -6,28 +6,26 @@
 const mockExamService = require('../services/mockExam.service');
 const asyncHandler = require('../middlewares/asyncHandler.middleware');
 
-// startSession and getSession functions remain unchanged...
 const startSession = asyncHandler(async (req, res) => {
-    const userId = 'a1b2c3d4-e5f6-7890-1234-567890abcdef';
+    // 1. 하드코딩된 ID를 삭제하고, req.user 객체에서 실제 사용자 ID를 가져옵니다.
+    const userId = req.user.userId;
     const { examType, specifiedCategories } = req.body;
     const result = await mockExamService.startMockExamSession(userId, examType, specifiedCategories);
     res.status(201).json(result);
 });
+
 const getSession = asyncHandler(async (req, res) => {
     const { mockExamSessionId } = req.params;
-    const userId = 'a1b2c3d4-e5f6-7890-1234-567890abcdef';
+    // 2. 이 부분도 실제 사용자 ID를 사용하도록 변경합니다.
+    const userId = req.user.userId;
     const result = await mockExamService.getMockExamSession(mockExamSessionId, userId);
     res.status(200).json(result);
 });
 
-/**
- * Handles the request to complete a mock exam session.
- * @param {object} req - Express request object.
- * @param {object} res - Express response object.
- */
 const completeSession = asyncHandler(async (req, res) => {
     const { mockExamSessionId } = req.params;
-    const userId = 'a1b2c3d4-e5f6-7890-1234-567890abcdef'; // Placeholder User ID
+    // 3. 이 부분도 실제 사용자 ID를 사용하도록 변경합니다.
+    const userId = req.user.userId;
 
     const result = await mockExamService.completeMockExamSession(mockExamSessionId, userId);
 

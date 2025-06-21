@@ -1,8 +1,3 @@
-/**
- * @file LearningHistoryPage.jsx
- * @description Page component to display the user's complete learning history.
- */
-
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -29,15 +24,6 @@ const LearningHistoryPage = () => {
         }
         return '#';
     };
-
-    if (status.learningHistory === 'loading') {
-        return <div className="p-6 text-center"><LoadingSpinner /></div>;
-    }
-    if (status.learningHistory === 'failed') {
-        return <div className="p-6 text-center text-red-500">오류가 발생했습니다: {error}</div>;
-    }
-
-
 
     return (
         <div>

@@ -34,9 +34,9 @@ const DashboardPage = () => {
     <main className="flex-1 px-6 md:px-10 lg:px-16 py-10 bg-slate-100">
       <div className="mx-auto flex max-w-7xl flex-col gap-10">
         <Greeting user={summary.user} insights={summary.insights} />
+        <StatsSummary stats={summary.stats} />
         <PrimaryAction ongoingCase={summary.ongoingCase} />
         <SecondaryInfo weeklyGoal={summary.weeklyGoal} lastActivity={summary.lastActivity} />
-        <StatsSummary stats={summary.stats} />
         <LearningCharts 
           scoreTrend={summary.scoreTrendData} 
           completionTrend={summary.monthlyCompletionData}

@@ -21,10 +21,19 @@ import PostPracticePage from './features/cases/CasePracticeFlow/PostPracticePage
 import MockExamMainPage from './features/mock-exam/MockExamMainPage';
 import MockExamInProgressPage from './features/mock-exam/MockExamInProgressPage';
 import MockExamResultPage from './features/mock-exam/MockExamResultPage';
+import MyPage from './features/my-page/MyPage';
+import MainLayout from './components/layout/MainLayout';
+import DashboardPage from './features/dashboard/DashboardPage';
+
+// --- 변경된 부분 시작 ---
+// 'MY 노트' 관련 컴포넌트들을 모두 import 합니다.
+import MyNotesLayout from './features/my-notes/MyNotesLayout';
 import BookmarksPage from './features/my-notes/BookmarksPage';
 import IncorrectAnswersPage from './features/my-notes/IncorrectAnswersPage';
 import LearningHistoryPage from './features/my-notes/LearningHistoryPage';
-import MyPage from './features/my-page/MyPage';
+import LearningStatisticsPage from './features/my-notes/LearningStatisticsPage';
+// --- 변경된 부분 끝 ---
+
 
 // 2. 인증 관련 컴포넌트는 그대로 사용합니다.
 const PrivateRoute = ({ children }) => {
@@ -98,7 +107,46 @@ const router = createBrowserRouter([
 ]);
 
 const AppRouter = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <BrowserRouter>
+      <Routes>
+        {/* 공용 및 로그아웃 상태 전용 라우트 */}
+        <Route path="/" element={<OnboardingPage />} />
+        <Route path="/login" element={<PublicRoute><LoginPage /></PublicRoute>} />
+        <Route path="/register" element={<PublicRoute><RegisterPage /></PublicRoute>} />
+        
+        {/* MainLayout을 사용하는 인증된 사용자 전용 라우트 */}
+        <Route element={<PrivateRoute><MainLayout /></PrivateRoute>}>
+            <Route path="/dashboard" element={<DashboardPage />} />
+            <Route path="/cases" element={<CaseListPage />} />
+            <Route path="/cases/:scenarioId/practice" element={<PrePracticePage />} />
+            <Route path="/cases/:scenarioId/practice/during/:sessionId" element={<DuringPracticePage />} />
+            <Route path="/cases/:scenarioId/practice/result" element={<PostPracticePage />} />
+            
+            <Route path="/mock-exam" element={<MockExamMainPage />} />
+            <Route path="/mock-exam/:mockExamSessionId/case/:caseNumber" element={<MockExamInProgressPage />} />
+            <Route path="/mock-exam/:mockExamSessionId/result" element={<MockExamResultPage />} />
+            
+            {/* --- 변경된 부분 시작 --- */}
+            {/* 'MY 노트' 라우팅을 MyNotesLayout을 사용하는 중첩 구조로 변경합니다 */}
+            <Route path="/my-notes" element={<MyNotesLayout />}>
+                {/* /my-notes 접속 시 기본으로 bookmarks 페이지로 이동시킵니다. */}
+                <Route index element={<Navigate to="bookmarks" replace />} /> 
+                <Route path="bookmarks" element={<BookmarksPage />} />
+                <Route path="incorrect" element={<IncorrectAnswersPage />} />
+                <Route path="history" element={<LearningHistoryPage />} />
+                <Route path="statistics" element={<LearningStatisticsPage />} />
+            </Route>
+            {/* --- 변경된 부분 끝 --- */}
+
+            <Route path="/my-page" element={<MyPage />} />
+            
+        </Route>
+        
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 export default AppRouter;
