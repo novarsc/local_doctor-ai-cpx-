@@ -166,12 +166,12 @@ const PostPracticePage = () => {
             <>
               <Link to={`/cases/practice/${scenarioId}`}>
                 <Button variant="secondary" size="lg">다시 실습하기</Button>
-              </Link>
-              <Link to="/cases">
+            </Link>
+            <Link to="/cases">
                 <Button variant="primary" size="lg" className="flex items-center">
-                  증례 목록으로 돌아가기 <ArrowRight className="h-5 w-5 ml-2" />
+                    증례 목록으로 돌아가기 <ArrowRight className="h-5 w-5 ml-2" />
                 </Button>
-              </Link>
+            </Link>
             </>
           )}
         </div>
