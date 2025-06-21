@@ -5,12 +5,14 @@
 
 const express = require('express');
 const mockExamController = require('../../controllers/mockExam.controller');
-// const authMiddleware = require('../../middlewares/auth.middleware');
+// 1. 인증 미들웨어를 가져옵니다.
+const { verifyToken } = require('../../middlewares/auth.middleware');
 
 const router = express.Router();
 
-// All routes here should be protected
-// router.use(authMiddleware);
+// 2. 이 파일의 모든 라우트에 verifyToken 미들웨어를 적용하여,
+// 이후의 모든 요청(req)에 사용자 정보(req.user)가 포함되도록 합니다.
+router.use(verifyToken);
 
 // POST /api/v1/mock-exams - Start a new mock exam session
 router.post('/', mockExamController.startSession);

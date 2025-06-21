@@ -1,31 +1,9 @@
-/**
- * @file LearningHistoryPage.jsx
- * @description Page component to display the user's complete learning history.
- */
-
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { fetchLearningHistory } from '../../store/slices/myNotesSlice';
 
-// MyNotesLayout 컴포넌트 (재사용)
-const MyNotesLayout = ({ children }) => (
-    <div className="flex min-h-screen bg-gray-100">
-        <aside className="w-64 bg-white p-6 shadow-md flex-shrink-0">
-            <h2 className="text-2xl font-bold mb-6">MY 노트</h2>
-            <nav className="space-y-2">
-                <NavLink to="/my-notes/bookmarks" className={({ isActive }) => `block py-2 px-4 rounded-md text-lg ${isActive ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'}`}>즐겨찾기</NavLink>
-                <NavLink to="/my-notes/incorrect" className={({ isActive }) => `block py-2 px-4 rounded-md text-lg ${isActive ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'}`}>오답노트</NavLink>
-                <NavLink to="/my-notes/history" className={({ isActive }) => `block py-2 px-4 rounded-md text-lg ${isActive ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'}`}>학습 기록</NavLink>
-            </nav>
-        </aside>
-        <main className="flex-grow p-8">
-            {children}
-        </main>
-    </div>
-);
-
-const LearningHistoryPageContent = () => {
+const LearningHistoryPage = () => {
     const dispatch = useDispatch();
     const { learningHistory, status, error } = useSelector((state) => state.myNotes);
 
@@ -33,7 +11,6 @@ const LearningHistoryPageContent = () => {
         dispatch(fetchLearningHistory());
     }, [dispatch]);
 
-    // 학습 기록 유형에 따라 올바른 결과 페이지 경로를 반환하는 함수
     const getResultLink = (item) => {
         if (item.type === '증례 실습') {
             return `/cases/${item.scenarioId}/practice/result`;
@@ -41,7 +18,7 @@ const LearningHistoryPageContent = () => {
         if (item.type === '모의고사') {
             return `/mock-exam/${item.id}/result`;
         }
-        return '#'; // 해당하는 경로가 없는 경우
+        return '#';
     };
 
     return (
@@ -85,14 +62,6 @@ const LearningHistoryPageContent = () => {
                 </table>
             </div>
         </div>
-    );
-};
-
-const LearningHistoryPage = () => {
-    return (
-        <MyNotesLayout>
-            <LearningHistoryPageContent />
-        </MyNotesLayout>
     );
 };
 
