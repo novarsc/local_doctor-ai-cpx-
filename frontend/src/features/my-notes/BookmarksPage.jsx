@@ -10,7 +10,7 @@ import { fetchBookmarks } from '../../store/slices/myNotesSlice';
 
 const BookmarksPage = () => {
     const dispatch = useDispatch();
-    const { bookmarks, status } = useSelector(state => state.myNotes);
+    const { bookmarks, status, error } = useSelector((state) => state.myNotes);
 
     useEffect(() => {
         dispatch(fetchBookmarks());
@@ -23,11 +23,11 @@ const BookmarksPage = () => {
                 {status.bookmarks === 'loading' && <p className="p-6 text-center text-gray-500">즐겨찾기 목록을 불러오는 중...</p>}
                 {status.bookmarks === 'failed' && <p className="p-6 text-center text-red-500">즐겨찾기 목록을 불러오는 데 실패했습니다.</p>}
             
-            {status.bookmarks === 'succeeded' && bookmarks.length === 0 && (
+                {status.bookmarks === 'succeeded' && bookmarks.length === 0 && (
                     <p className="p-6 text-center text-gray-500">아직 즐겨찾기한 증례가 없습니다.</p>
-            )}
+                )}
 
-            {status.bookmarks === 'succeeded' && bookmarks.length > 0 && (
+                {status.bookmarks === 'succeeded' && bookmarks.length > 0 && (
                     <div className="divide-y divide-gray-200">
                         {bookmarks.map((scenario) => (
                             <div key={scenario.scenarioId} className="p-6 hover:bg-gray-50 transition-colors">
@@ -48,21 +48,21 @@ const BookmarksPage = () => {
                                         <p className="text-xs text-gray-500">
                                             즐겨찾기 추가일: {new Date(scenario.bookmarkedAt).toLocaleDateString()}
                                         </p>
-                            </div>
+                                    </div>
                                     <div className="ml-4 flex flex-col items-end gap-2">
                                         <Link to={`/cases/practice/${scenario.scenarioId}`} className="font-semibold text-blue-600 hover:text-blue-800 flex items-center justify-end">
                                             실습하기 →
-                                </Link>
+                                        </Link>
                                         <button className="text-xs text-red-600 hover:text-red-800">
                                             즐겨찾기 해제
                                         </button>
                                     </div>
+                                </div>
                             </div>
-                        </div>
-                    ))}
-                </div>
-            )}
-        </div>
+                        ))}
+                    </div>
+                )}
+            </div>
         </div>
     );
 };

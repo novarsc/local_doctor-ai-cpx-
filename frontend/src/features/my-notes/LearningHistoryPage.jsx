@@ -1,8 +1,3 @@
-/**
- * @file LearningHistoryPage.jsx
- * @description Page component to display the user's complete learning history.
- */
-
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
