@@ -30,7 +30,7 @@ const MockExamResultPage = () => {
             <div className="p-8 text-center text-red-500">
                 <h1 className="text-2xl font-bold mb-4">오류</h1>
                 <p>결과를 표시하는 중 오류가 발생했습니다: {error || '세션 정보를 찾을 수 없습니다.'}</p>
-                <Link to="/mock-exam" className="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-lg">모의고사 홈으로 돌아가기</Link>
+                <Link to="/mock-exams" className="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-lg">모의고사 홈으로 돌아가기</Link>
             </div>
         );
     }
@@ -69,7 +69,7 @@ const MockExamResultPage = () => {
                 </div>
 
                 <div className="text-center mt-12">
-                    <Link to="/mock-exam" className="px-10 py-4 bg-blue-600 text-white font-bold text-lg rounded-lg hover:bg-blue-700 transition shadow-md">
+                    <Link to="/mock-exams" className="px-10 py-4 bg-blue-600 text-white font-bold text-lg rounded-lg hover:bg-blue-700 transition shadow-md">
                         모의고사 홈으로 돌아가기
                     </Link>
                 </div>

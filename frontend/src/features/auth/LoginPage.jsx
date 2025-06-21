@@ -21,7 +21,7 @@ const LoginPage = () => {
   // 로그인 상태가 변경되면(성공하면) 자동으로 페이지를 이동시키는 핵심 로직
   useEffect(() => {
     if (isAuthenticated) {
-      navigate('/cases');
+      navigate('/dashboard');
     }
   }, [isAuthenticated, navigate]);
 

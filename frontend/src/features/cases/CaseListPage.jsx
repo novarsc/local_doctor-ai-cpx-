@@ -132,7 +132,7 @@ const CaseListPage = () => {
                                         <span className="text-gray-400 text-xs font-semibold">미학습</span>
                                     )}
                                 </div>
-                                <Link to={`/cases/${scenario.scenarioId}/practice`}>
+                                <Link to={`/cases/practice/${scenario.scenarioId}`}>
                                     <Button variant="secondary" className="!py-1.5 !px-4 text-sm">
                                       실습 시작
                                     </Button>

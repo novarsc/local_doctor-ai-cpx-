@@ -19,22 +19,25 @@ const getScoreColor = (score) => {
 };
 
 const PostPracticePage = () => {
-  const { scenarioId } = useParams();
+  const { scenarioId, sessionId: urlSessionId } = useParams();
   const dispatch = useDispatch();
 
-  const { sessionId, feedback, isLoading, error } = useSelector((state) => state.practiceSession);
+  const { sessionId: storeSessionId, feedback, isLoading, error } = useSelector((state) => state.practiceSession);
+
+  // URL에서 온 sessionId를 우선 사용하고, 없으면 store의 sessionId 사용
+  const currentSessionId = urlSessionId || storeSessionId;
 
   // 평가가 진행 중일 때, 5초마다 피드백을 다시 요청하기 위한 폴링 설정
   useEffect(() => {
     let intervalId;
     
-    if (sessionId) {
-      dispatch(fetchFeedbackForSession(sessionId));
+    if (currentSessionId) {
+      dispatch(fetchFeedbackForSession(currentSessionId));
 
       // 피드백 상태가 'evaluating'일 때만 폴링 시작
       if (feedback?.status === 'evaluating') {
         intervalId = setInterval(() => {
-          dispatch(fetchFeedbackForSession(sessionId));
+          dispatch(fetchFeedbackForSession(currentSessionId));
         }, 5000); // 5초마다 반복
       }
     }
@@ -45,7 +48,7 @@ const PostPracticePage = () => {
         clearInterval(intervalId);
       }
     };
-  }, [dispatch, sessionId, feedback?.status]);
+  }, [dispatch, currentSessionId, feedback?.status]);
 
   if (isLoading || !feedback || feedback.status === 'evaluating') {
     return (
@@ -150,14 +153,27 @@ const PostPracticePage = () => {
         
         {/* 하단 버튼 */}
         <div className="mt-12 flex flex-col sm:flex-row justify-center items-center gap-4">
-            <Link to={`/cases/${scenarioId}/practice`}>
+          {/* MY 노트에서 온 경우와 일반 실습에서 온 경우를 구분 */}
+          {urlSessionId ? (
+            // MY 노트에서 온 경우
+            <Link to="/my-notes/history">
+              <Button variant="primary" size="lg" className="flex items-center">
+                학습 기록으로 돌아가기 <ArrowRight className="h-5 w-5 ml-2" />
+              </Button>
+            </Link>
+          ) : (
+            // 일반 실습에서 온 경우
+            <>
+              <Link to={`/cases/practice/${scenarioId}`}>
                 <Button variant="secondary" size="lg">다시 실습하기</Button>
-            </Link>
-            <Link to="/cases">
+              </Link>
+              <Link to="/cases">
                 <Button variant="primary" size="lg" className="flex items-center">
-                    증례 목록으로 돌아가기 <ArrowRight className="h-5 w-5 ml-2" />
+                  증례 목록으로 돌아가기 <ArrowRight className="h-5 w-5 ml-2" />
                 </Button>
-            </Link>
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </div>

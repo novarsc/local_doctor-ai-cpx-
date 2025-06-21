@@ -21,7 +21,7 @@ const PrimaryAction = ({ ongoingCase }) => {
             <img src={ongoingCase.img} alt={ongoingCase.title} className="w-full h-auto object-cover rounded-lg shadow-md aspect-video" />
           </div>
         </div>
-        <Link to={`/cases/${ongoingCase.scenarioId}/practice/during/${ongoingCase.practiceSessionId}`}>
+                        <Link to={`/cases/practice/during/${ongoingCase.practiceSessionId}`}>
           <Button className="mt-6 w-full sm:w-auto flex items-center justify-center gap-2">
             <MaterialIcon iconName="play_arrow" /> 사례 계속하기</Button>
         </Link>
@@ -34,7 +34,7 @@ const PrimaryAction = ({ ongoingCase }) => {
     <section className="bg-white p-6 sm:p-8 rounded-xl shadow-lg text-center border-2 border-dashed border-sky-400">
       <h3 className="text-2xl font-bold text-slate-800 mb-2">새로운 도전 시작하기</h3>
       <p className="text-slate-600 mb-6">다양한 임상 사례를 통해 실력을 향상시켜 보세요.</p>
-      <Link to="/mock-exam">
+                  <Link to="/mock-exams">
         <Button>새 모의고사 시작</Button>
       </Link>
     </section>

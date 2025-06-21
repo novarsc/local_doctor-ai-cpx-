@@ -32,7 +32,7 @@ const MockExamInProgressPage = () => {
                 setCurrentCase(caseDetails);
             } else {
                 // 유효하지 않은 caseNumber일 경우 모의고사 메인으로 이동
-                navigate('/mock-exam');
+                navigate('/mock-exams');
             }
         }
     }, [currentSession, caseIndex, navigate]);
@@ -49,14 +49,14 @@ const MockExamInProgressPage = () => {
             dispatch(completeMockExam(mockExamSessionId))
                 .unwrap()
                 .then(() => {
-                    navigate(`/mock-exam/${mockExamSessionId}/result`);
+                    navigate(`/mock-exams/results/${mockExamSessionId}`);
                 })
                 .catch((err) => {
                     alert(`모의고사 완료에 실패했습니다: ${err.message}`);
                 });
         } else {
             // 다음 증례 페이지로 이동합니다.
-            navigate(`/mock-exam/${mockExamSessionId}/case/${nextCaseNumber}`);
+            navigate(`/mock-exams/live/${mockExamSessionId}`);
         }
     };
 

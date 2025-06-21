@@ -10,13 +10,13 @@ const QuickActions = () => (
   <div className="lg:col-span-1 bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
     <h3 className="text-xl font-semibold text-slate-700 mb-4">빠른 실행 ⚡</h3>
     <div className="space-y-3">
-      <Link to="/mock-exam" className="w-full flex items-center justify-center gap-2 rounded-lg h-11 px-4 bg-purple-500 text-white text-sm font-medium hover:bg-purple-600 transition-colors">
+              <Link to="/mock-exams" className="w-full flex items-center justify-center gap-2 rounded-lg h-11 px-4 bg-purple-500 text-white text-sm font-medium hover:bg-purple-600 transition-colors">
         <MaterialIcon iconName="quiz" className="text-base" /> 모의고사 시작
       </Link>
       <Link to="/cases" className="w-full flex items-center justify-center gap-2 rounded-lg h-11 px-4 bg-sky-500 text-white text-sm font-medium hover:bg-sky-600 transition-colors">
         <MaterialIcon iconName="add_circle_outline" className="text-base" /> 새 시뮬레이션 시작
       </Link>
-      <Link to="/my-notes/bookmarks" className="w-full flex items-center justify-center gap-2 rounded-lg h-11 px-4 bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300 transition-colors">
+              <Link to="/my-notes" className="w-full flex items-center justify-center gap-2 rounded-lg h-11 px-4 bg-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-300 transition-colors">
         <MaterialIcon iconName="bookmarks" className="text-base" /> 북마크한 사례 보기
       </Link>
     </div>
