@@ -1,14 +1,10 @@
-/**
- * @file IncorrectAnswersPage.jsx
- * @description Page for viewing and editing incorrect answer notes.
- */
-
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import { fetchIncorrectNotes, saveUserMemo } from '../../store/slices/myNotesSlice';
+import { fetchIncorrectNotes, saveUserMemo, fetchPracticedScenarios } from '../../store/slices/myNotesSlice';
+import LoadingSpinner from '../../components/common/LoadingSpinner'; // 로딩 스피너 import
 
-// MyNotesLayout 컴포넌트 (BookmarksPage에서 가져와 재사용)
+// MyNotesLayout 컴포넌트 (변경 없음)
 const MyNotesLayout = ({ children }) => (
     <div className="flex min-h-screen bg-gray-100">
         <aside className="w-64 bg-white p-6 shadow-md flex-shrink-0">
@@ -25,20 +21,28 @@ const MyNotesLayout = ({ children }) => (
     </div>
 );
 
-// TODO: 이 목업 데이터는 추후 API를 통해 '오답노트를 작성할 수 있는 증례 목록'을 불러오는 로직으로 대체되어야 합니다.
-const MOCK_PRACTICED_SCENARIOS = [
-    { scenarioId: 's1-uuid-gastric', name: '급성 복통 환자' },
-    { scenarioId: 's2-uuid-headache', name: '만성 두통 환자' },
-    // 사용자가 실습을 완료한 다른 증례들이 여기에 동적으로 추가될 것입니다.
-];
+// MOCK 데이터 제거
+// const MOCK_PRACTICED_SCENARIOS = [ ... ];
 
 const IncorrectAnswersPageContent = () => {
     const dispatch = useDispatch();
-    const [selectedScenarioId, setSelectedScenarioId] = useState(MOCK_PRACTICED_SCENARIOS[0]?.scenarioId);
+    const [selectedScenarioId, setSelectedScenarioId] = useState(null);
     const [userMemo, setUserMemo] = useState('');
 
-    const { incorrectNotes, status } = useSelector(state => state.myNotes);
-    const currentNoteData = incorrectNotes[selectedScenarioId];
+    const { practicedScenarios, status, incorrectNotes, error } = useSelector(state => state.myNotes);
+    const currentNoteData = selectedScenarioId ? incorrectNotes[selectedScenarioId] : null;
+
+    // 컴포넌트 마운트 시, 학습 완료된 증례 목록을 불러옵니다.
+    useEffect(() => {
+        dispatch(fetchPracticedScenarios());
+    }, [dispatch]);
+    
+    // 증례 목록 로딩이 끝나면, 첫 번째 증례를 자동으로 선택합니다.
+    useEffect(() => {
+        if (status.practicedScenarios === 'succeeded' && practicedScenarios.length > 0 && !selectedScenarioId) {
+            setSelectedScenarioId(practicedScenarios[0].scenarioId);
+        }
+    }, [status.practicedScenarios, practicedScenarios, selectedScenarioId]);
 
     // 선택된 증례가 바뀔 때마다 해당 증례의 오답노트 데이터를 불러옵니다.
     useEffect(() => {
@@ -51,6 +55,8 @@ const IncorrectAnswersPageContent = () => {
     useEffect(() => {
         if (currentNoteData) {
             setUserMemo(currentNoteData.userMemo || '');
+        } else {
+            setUserMemo(''); // 다른 증례 선택 시 메모 초기화
         }
     }, [currentNoteData]);
 
@@ -65,30 +71,38 @@ const IncorrectAnswersPageContent = () => {
             <aside className="w-1/3 bg-white p-4 rounded-lg shadow-md flex-shrink-0">
                 <h2 className="font-bold text-xl mb-4 border-b pb-2">증례 목록</h2>
                 <div className="space-y-1">
-                    {MOCK_PRACTICED_SCENARIOS.map(scenario => (
-                        <button 
-                            key={scenario.scenarioId}
-                            onClick={() => setSelectedScenarioId(scenario.scenarioId)}
-                            className={`w-full text-left p-3 rounded-md transition-colors ${selectedScenarioId === scenario.scenarioId ? 'bg-blue-600 text-white font-bold shadow' : 'hover:bg-gray-100'}`}
-                        >
-                            {scenario.name}
-                        </button>
-                    ))}
+                    {status.practicedScenarios === 'loading' && <LoadingSpinner />}
+                    {status.practicedScenarios === 'failed' && <p className="text-red-500">목록을 불러오는데 실패했습니다.</p>}
+                    {status.practicedScenarios === 'succeeded' && (
+                        practicedScenarios.length > 0 ? (
+                            practicedScenarios.map(scenario => (
+                                <button
+                                    key={scenario.scenarioId}
+                                    onClick={() => setSelectedScenarioId(scenario.scenarioId)}
+                                    className={`w-full text-left p-3 rounded-md transition-colors ${selectedScenarioId === scenario.scenarioId ? 'bg-blue-600 text-white font-bold shadow' : 'hover:bg-gray-100'}`}
+                                >
+                                    {scenario.name}
+                                </button>
+                            ))
+                        ) : (
+                            <p className="text-gray-500 text-sm p-3">아직 학습을 완료한 증례가 없습니다.</p>
+                        )
+                    )}
                 </div>
             </aside>
 
             {/* Right Panel: Note content */}
             <main className="w-2/3 bg-white p-6 rounded-lg shadow-md">
                 <h1 className="text-3xl font-bold mb-6 text-gray-800">오답노트</h1>
-                {status.incorrectNotes === 'loading' && <p>노트 내용을 불러오는 중...</p>}
                 {!selectedScenarioId && <p>왼쪽에서 증례를 선택해주세요.</p>}
-                
+                {selectedScenarioId && status.incorrectNotes === 'loading' && <LoadingSpinner text="노트 내용을 불러오는 중..." />}
+
                 {currentNoteData && status.incorrectNotes !== 'loading' && (
                     <div>
                         <div className="mb-8">
                             <h3 className="font-semibold text-lg mb-2 text-red-600">AI의 개선 피드백</h3>
                             <div className="bg-red-50 p-4 rounded-md space-y-2 text-red-900 border border-red-200">
-                                {currentNoteData.aiGeneratedFeedback && currentNoteData.aiGeneratedFeedback.length > 0 ? 
+                                {currentNoteData.aiGeneratedFeedback && currentNoteData.aiGeneratedFeedback.length > 0 ?
                                     <ul className="list-disc list-inside">
                                         {currentNoteData.aiGeneratedFeedback.map((fb, i) => <li key={i}>{fb.description}</li>)}
                                     </ul> :

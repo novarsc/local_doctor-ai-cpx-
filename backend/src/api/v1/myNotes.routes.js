@@ -14,6 +14,15 @@ const router = express.Router();
 // router.use()를 사용해 이 파일의 모든 라우트에 미들웨어를 일괄 적용합니다.
 router.use(verifyToken);
 
+// --- [추가된 부분] ---
+/**
+ * @route   GET /api/v1/my-notes/practiced-scenarios
+ * @desc    Get a list of scenarios the user has practiced
+ * @access  Private
+ */
+router.get('/practiced-scenarios', myNotesController.getPracticedScenarios);
+// --- [여기까지 추가] ---
+
 router.get('/bookmarks', myNotesController.getBookmarks);
 router.get('/incorrect-notes/:scenarioId', myNotesController.getIncorrectNotes);
 router.put('/incorrect-notes/:scenarioId', myNotesController.saveIncorrectNoteMemo);

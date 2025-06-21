@@ -35,8 +35,19 @@ const getScenarioById = async (scenarioId) => {
   }
 };
 
+// [추가] 카테고리 목록을 가져오는 서비스 함수
+const getCaseCategories = async () => {
+  try {
+    const response = await apiClient.get('/cases/categories');
+    return response.data; // API 응답 전체를 반환 (e.g., { message: "...", data: [...] })
+  } catch (error) {
+    throw error.response?.data?.error || new Error('Failed to fetch categories.');
+  }
+};
+
 
 export const caseService = {
   getScenarios,
   getScenarioById,
+  getCaseCategories, // [추가]
 };

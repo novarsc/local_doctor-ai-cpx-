@@ -4,7 +4,7 @@
  */
 
 const { Scenario, UserBookmarkedScenario } = require('../models');
-const { Op } = require('sequelize');
+const { Op, Sequelize } = require('sequelize');
 
 const listScenarios = async (queryParams) => {
   // ... (이 함수는 기존과 동일합니다)
@@ -46,6 +46,28 @@ const getScenarioById = async (scenarioId) => {
   }
   return scenario.toJSON();
 };
+
+// [추가] 중복 없는 카테고리 목록을 조회하는 서비스 함수
+const fetchDistinctCategories = async () => {
+  const categories = await Scenario.findAll({
+    attributes: [
+      // 'primaryCategory' 컬럼에서 중복을 제거하고 오름차순으로 정렬하여 가져옵니다.
+      [Sequelize.fn('DISTINCT', Sequelize.col('primaryCategory')), 'category']
+    ],
+    where: {
+      primaryCategory: {
+        [Op.ne]: null // NULL 값은 제외합니다.
+      }
+    },
+    order: [[Sequelize.col('category'), 'ASC']],
+  });
+
+  // [{ category: '내과' }, { category: '외과' }] 형태의 배열을
+  // ['내과', '외과'] 형태로 변환하여 반환합니다.
+  return categories.map(item => item.get('category'));
+};
+
+
 
 /**
  * 북마크 추가를 위한 서비스 함수입니다.
@@ -90,6 +112,7 @@ const removeBookmark = async (userId, scenarioId) => {
 module.exports = {
   listScenarios,
   getScenarioById,
+  fetchDistinctCategories,
   addBookmark,
   removeBookmark,
 };
