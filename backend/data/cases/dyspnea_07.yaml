@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (특발성 폐섬유증)"
+patient_info:
+  name: "최상길"
+  age: 67
+  sex: "남성"
+  presenting_complaint: "1년 전부터 서서히 숨이 차기 시작했고, 마른기침이 계속 남"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "88회/분"
+  respiration: "20회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "특발성 폐섬유증 (Idiopathic pulmonary fibrosis)"
+    - "만성 과민성 폐렴"
+    - "결합조직질환 관련 간질성 폐질환"
+  necessary_tests:
+    - "고해상도 흉부 CT (HRCT)"
+    - "폐기능 검사 (폐확산능 포함)"
+    - "6분 보행 검사"
+    - "기관지 폐포 세척술 및 조직검사 (필요시)"
+  necessary_treatments:
+    - "항섬유화 약물 (피르페니돈, 닌테다닙)"
+    - "산소 치료"
+    - "호흡 재활 치료"
+    - "폐 이식 고려"
+history:
+  sex_age: "남성/67"
+  chief_complaint_verbatim: "언덕길 오를 때 전에는 안 그랬는데, 작년부터 숨이 차기 시작하더니 이젠 평지를 걸어도 숨이 차요. 가래도 없는 마른기침이 계속 나오고요."
+  onset: "약 1년 전부터 서서히 시작됨"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "매우 서서히 발생 (insidious onset)"
+    recent_course: "점진적으로 악화됨 (progressively worsening)"
+  course: "1년 전 동네 뒷산을 오를 때 숨이 차다고 느낌. 6개월 전부터는 평지를 조금만 빨리 걸어도 숨이 찼음. 1개월 전부터는 일상적인 활동에도 호흡곤란을 느끼고, 마른기침이 잦아짐. 동네 의원에서 감기약만 처방받았으나 호전 없음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "숨을 깊게 들이쉬기 힘든 뻣뻣한 느낌"
+    nrs_score: "4 (활동 시 7)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: "지난 6개월간 4kg 감소"
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "운동, 계단 오르기"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "위식도 역류질환 소견 (5년 전)"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "위식도 역류질환"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "은퇴 (전직: 목수)"
+    stress: "없음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연 (15갑년 흡연력)"
+    exercise: "숨차서 거의 못함"
+    recent_weight_change: "지난 6개월간 4kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색. 안정 시에는 호흡이 괜찮아 보이나, 약간의 청색증이 입술 주변에 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진 시 양쪽 폐저부에서 흡기 말기에 '벨크로 찍찍이 떼는 소리' 같은 건성 수포음(dry, velcro-like crackles)이 들림."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양쪽 손가락 끝이 둥글게 뭉툭해져 있음 (곤봉지, clubbing finger)."
+standardized_patient_questions: "폐가 굳어가는 병이라던데, 제가 그런 건가요? 치료하면 나을 수 있는 병인가요? 왜 이런 병에 걸리는 거죠?"
+specific_remarks: "느리고 힘없는 목소리로 말함. 진찰 시 의사가 손가락을 보면 '손톱이 이상하게 둥그래졌어요'라고 말할 수 있음. 마른기침을 간헐적으로 할 것. 전반적으로 기운이 없고 우울해 보이는 모습을 연기."

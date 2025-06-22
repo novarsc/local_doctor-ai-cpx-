@@ -1,0 +1,116 @@
+---
+chapter: "전신"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (알코올성 간경변)"
+patient_info:
+  name: "최경호"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "최근 들어 멍이 잘 들고 배에 복수가 차는 것 같음"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올성 간경변 (Alcoholic Liver Cirrhosis)"
+    - "만성 B형 또는 C형 간염에 의한 간경변"
+    - "간세포암"
+  necessary_tests:
+    - "간기능 검사 (AST/ALT, Bilirubin, Albumin)"
+    - "전혈구 검사 (혈소판 감소 확인)"
+    - "혈액응고 검사 (PT 연장 확인)"
+    - "복부 초음파"
+  necessary_treatments:
+    - "절대적 금주"
+    - "영양 공급 및 이뇨제를 사용한 복수 조절"
+    - "정맥류 출혈 예방 (베타차단제, 내시경적 결찰술)"
+    - "간 이식 고려"
+history:
+  sex_age: "남성/52세"
+  chief_complaint_verbatim: "언제부턴가 조금만 스쳐도 시퍼렇게 멍이 들고, 소화도 안되고 배가 자꾸 불러와요. 얼굴도 노래진 것 같고요."
+  onset: "수개월 전부터 서서히"
+  location:
+    initial: "전신 쇠약감, 소화불량"
+    current: "황달, 복부 팽만, 멍"
+  duration:
+    onset_pattern: "만성적, 점진적 악화"
+    recent_course: "최근 한 달 사이 복부 팽만이 눈에 띄게 심해지고 황달이 나타남"
+  course: "작년부터 피로감이 심했고 소화가 잘 안되었음. 3개월 전부터는 피부에 거미줄 같은 혈관이 보이기 시작했고, 최근에는 멍이 잘 들고 코피가 가끔 남. 배가 불러와 바지가 맞지 않음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "통증 없는 멍, 복부 팽만감, 전신 쇠약감"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음주 후 다음 날 증상 심해지는 느낌"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없다고 생각함"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "건설 현장 일용직"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 2병 이상"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일"
+      cessation_period: ""
+    exercise: "따로 하지 않음"
+    recent_weight_change: "체중은 3kg 늘었으나 팔다리는 가늘어짐"
+  family_history: "아버지가 간 질환으로 돌아가심"
+  female_history: ""
+physical_exam:
+  general: "만성 병색. 의식은 명료하나 다소 지쳐 보임."
+  heent:
+    sclera: "공막에 뚜렷한 황달(icteric sclera) 관찰됨."
+    oral_mucosa: "정상"
+  chest: "가슴 부위에 거미혈관종(spider angioma) 여러 개 관찰됨. 여성형 유방(gynecomastia) 소견 보임."
+  abdomen:
+    inspection: "복부 팽만, 배꼽 주변으로 확장된 정맥(caput medusae) 관찰됨."
+    auscultation: "장음 감소"
+    percussion: "옆구리 쪽 둔탁음(shifting dullness) 양성."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"간이 단단하게 촉진되나 크기는 작음. 비장은 촉진되지 않음. 파동(fluid wave) 양성.\""
+  cvat: "좌우 음성"
+  extremity: "양 손바닥에 홍반(palmar erythema) 관찰됨. 양쪽 발목에 오목부종(pitting edema) 있음. 팔다리에 자색반 수 개 있음."
+standardized_patient_questions: "술 때문에 간이 안 좋아진 건가요? 배에 물 찬 건 어떻게 빼나요? 앞으로 술을 끊으면 나을 수 있는 병인가요?"
+specific_remarks: "환자는 오랜 음주력에 대해 처음에는 축소하여 말하려 하지만, 재차 질문하면 사실대로 답한다. 간경변의 신체진찰 소견(황달, 거미혈관종, 복수, 손바닥 홍반 등)을 명확하게 연기해야 한다."

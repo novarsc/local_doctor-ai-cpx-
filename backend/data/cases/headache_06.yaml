@@ -1,0 +1,112 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (지주막하 출혈)"
+patient_info:
+  name: "오세현"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "대변을 보다 갑자기 발생한, 망치로 맞은 듯한 극심한 두통"
+vital_signs:
+  blood_pressure: "180/100mmHg"
+  pulse: "60회/분"
+  respiration: "18회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "지주막하 출혈 (Subarachnoid Hemorrhage, SAH)"
+    - "급성 고혈압성 뇌출혈"
+    - "뇌수막염"
+  necessary_tests:
+    - "즉시 비조영 뇌 CT 촬영"
+    - "CT에서 정상이지만 임상적으로 강력히 의심될 경우, 뇌척수액 검사 (요추 천자)"
+    - "뇌혈관 조영술 (CTA 또는 MRA) 또는 혈관 조영술(TFCA)로 출혈 원인(주로 뇌동맥류) 확인"
+  necessary_treatments:
+    - "응급실로 즉시 전원 및 신경외과 협진"
+    - "혈압 조절, 진통제 및 진정제 투여"
+    - "뇌동맥류 파열이 원인일 경우, 재출혈 방지를 위한 코일 색전술 또는 클립 결찰술 시행"
+history:
+  sex_age: "남성/55"
+  chief_complaint_verbatim: "오늘 아침 화장실에서 큰일을 보다가 갑자기 뒷머리를 망치로 세게 맞은 것처럼 '퍽'하는 느낌과 함께 생전 처음 겪는 극심한 두통이 생겼어요."
+  onset: "내원 2시간 전"
+  location:
+    initial: "후두부 (뒷머리)"
+    current: "머리 전체"
+  duration:
+    onset_pattern: "벼락두통 (Thunderclap headache). 수 초 내에 최고조 통증 도달."
+    recent_course: "지속적으로 극심한 통증"
+  course: "두통 발생 직후 잠깐 의식을 잃었다가 깼다고 함. 이후 오심, 구토 동반."
+  experience_prev_episodes:
+    frequency: "없음. 이런 두통은 처음."
+    trigger: "발살바 수기 (대변 볼 때 힘주기)"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "터질 듯한, 벼락 치는 듯한 통증"
+    nrs_score: "10"
+    radiation: "목 뒤쪽으로 뻣뻣한 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "내원 전 2회, 분출성으로 구토함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    neurological:
+      loss_of_consciousness: "두통 발생 직후 약 1분간 있었다고 함"
+      photophobia: true
+      neck_stiffness: true
+  factors:
+    aggravating:
+      - "모든 움직임"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전. 혈압이 높다는 이야기를 들었으나 병원에 가지 않음."
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (진단받았으나 치료 안 함)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "개인 사업"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 4-5회"
+      amount: "소주 1병 이상"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑 반 (30년)"
+      cessation_period: "해당 없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "아버지가 60대에 뇌졸중으로 돌아가심"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색. 매우 고통스러워하며 식은땀을 흘림. 의식은 명료하나 불안해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "심음은 규칙적이나 강하게 들림. 호흡음 정상."
+  abdomen: "정상"
+  neurology:
+    mental_status: "Alert, but agitated. 지남력 정상."
+    nuchal_rigidity: "양성 (Positive)"
+    cranial_nerves: "경미한 동안신경(CN III) 마비 소견 (우측 눈꺼풀 처짐, 동공 산대) 보일 수 있음. 여기서는 정상으로 설정."
+    motor_sensory: "뚜렷한 국소 신경학적 결손 없음"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "이렇게 아픈 건 처음이에요. 머릿속에서 뭐가 터진 것 같아요. 저 죽는 거 아니죠? 빨리 안 아프게 해주세요."
+specific_remarks: "환자는 극심한 고통을 호소하며, '생애 최악의 두통'임을 반복적으로 강조한다. 뒷목을 만지며 뻣뻣하다고 말한다. 진찰 중에도 계속 신음 소리를 낼 수 있다. 혈압이 높고 맥박이 느린 Cushing's reflex가 나타날 수 있음을 염두에 둔다."

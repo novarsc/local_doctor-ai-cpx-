@@ -1,0 +1,113 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "17/24"
+title: "실전 모의 증례 (주두 점액낭염)"
+patient_info:
+  name: "권혁민"
+  age: 20
+  sex: "남성"
+  presenting_complaint: "팔꿈치 뒤쪽에 생긴 물렁한 혹"
+vital_signs:
+  blood_pressure: "120/70mmHg"
+  pulse: "65회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "주두 점액낭염"
+    - "류마티스 결절"
+    - "감염성 점액낭염 (현재는 가능성 낮음)"
+  necessary_tests:
+    - "대부분 임상 진단으로 충분함"
+    - "감염이 의심될 경우 점액낭 천자 및 검사"
+    - "팔꿈치 X-ray (골극 등 확인)"
+  necessary_treatments:
+    - "원인 교정 (팔꿈치 괴는 습관 피하기)"
+    - "압박 붕대, 소염제"
+    - "증상이 심하거나 지속되면 점액낭액 흡인 및 스테로이드 주사"
+history:
+  sex_age: "남성/20세"
+  chief_complaint_verbatim: "한 달 전부터 왼쪽 팔꿈치 끝에 물혹 같은 게 생겼어요. 아프진 않은데 점점 커지는 것 같아서요. 책상에 팔꿈치를 괴면 물컹하게 느껴져서 이상해요."
+  onset: "약 1개월 전"
+  location:
+    initial: "왼쪽 팔꿈치 뾰족한 뼈 부위"
+    current: "왼쪽 팔꿈치 뾰족한 뼈 부위"
+  duration:
+    onset_pattern: "모르는 사이에 서서히 생김"
+    recent_course: "크기가 약간 커짐"
+  course: "통증이나 다른 불편감은 전혀 없이, 우연히 팔꿈치에 물혹이 있는 것을 발견함. 크기가 골프공만 해져서 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "증상 없음 (무증상)"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "고등학교 때"
+    endoscopy_finding: ""
+  trauma_history: "넘어지거나 부딪힌 적 없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생 (수험생)"
+    stress: "시험 스트레스 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "건강해 보임"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "왼쪽 팔꿈치 주두(olecranon) 돌기 위에 경계가 명확한 약 4cm 크기의 낭성 종물이 촉진됨. 파동(fluctuation)이 느껴지며, 피부의 발적이나 열감은 없음. 압통도 없음. 팔꿈치 관절의 운동 범위는 정상임."
+standardized_patient_questions: "공부할 때 책상에 팔을 자주 괴는데 그것 때문에 생길 수 있나요? 그냥 둬도 괜찮나요? 수술해야 없앨 수 있나요?"
+specific_remarks: "환자는 통증이 전혀 없다는 점을 강조해야 함. 혹의 미용적인 문제와 원인에 대해 궁금해한다. '학생병'이라는 말을 들으면 안도하는 반응을 보인다. 책상에 팔꿈치를 괴는 습관이 있음을 의사의 질문에 답한다."

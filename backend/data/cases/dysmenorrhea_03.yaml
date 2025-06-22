@@ -1,0 +1,123 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (다낭성난소증후군)"
+patient_info:
+  name: "박서연"
+  age: 24
+  sex: "여성"
+  presenting_complaint: "생리를 1년에 두세 번밖에 안 해요."
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "다낭성난소증후군 (PCOS)"
+    - "시상하부성 무월경 (스트레스, 체중감소 등)"
+    - "고프로락틴혈증"
+  necessary_tests:
+    - "혈액검사 (FSH, LH, Testosterone, Prolactin, TSH)"
+    - "경질 초음파 (난소 형태 확인)"
+    - "경구 당부하 검사 (인슐린 저항성 확인)"
+  necessary_treatments:
+    - "생활 습관 교정 (체중 감량, 운동)"
+    - "주기적인 프로게스틴 요법 또는 경구 피임약 (자궁내막 보호 및 주기 회복)"
+    - "인슐린 저항성 개선제 (메트포르민) 고려"
+    - "임신 원할 경우 배란 유도"
+history:
+  sex_age: "여성/24"
+  chief_complaint_verbatim: "생리를 거의 안 해요. 마지막으로 한 게 5개월 전이에요. 살도 찌고 얼굴에 털도 나는 것 같아요."
+  onset: "고등학교 졸업 후 20세 무렵부터 생리 주기가 불규칙해짐"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점차 생리 주기가 길어지더니 최근 1-2년 사이에는 4-6개월에 한 번씩 함"
+    recent_course: "증상이 지속되고 있음"
+  course: "수년에 걸쳐 월경 주기가 점차 길어지는 양상"
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "없음"
+    symptoms: "무월경"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0점"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    other:
+      hirsutism: "입 주변, 턱 밑에 굵은 털이 남"
+      acne: "턱과 등에 여드름이 자주 남"
+      galactorrhea: false
+  factors:
+    aggravating:
+      - "체중이 늘면 더 불규칙해지는 것 같음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "취업준비생"
+    stress: "취업 스트레스가 많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 2년간 10kg 증가 (BMI 27.5 kg/m2)"
+  family_history: "어머니가 당뇨병으로 약물 치료 중"
+  female_history:
+    menarche: "13세"
+    lmp: "5개월 전"
+    cycle: "매우 불규칙 (연 2-3회)"
+    duration: "한 번 하면 4-5일"
+    amount: "보통"
+    dysmenorrhea: "거의 없음"
+    menopause_age: "해당 없음"
+    obgyn_visits: "이번이 처음"
+    sexual_history: "성경험 없음"
+physical_exam:
+  general: "경도의 비만 소견. 얼굴과 등에 여드름이 관찰됨"
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+    other: "Mild hirsutism on upper lip and chin"
+  neck: "No thyromegaly. Acanthosis nigricans noted on posterior neck."
+  chest: "Clear to auscultation"
+  abdomen:
+    inspection: "Obese abdomen, no striae"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation: "Soft and non-tender"
+  cvat: "양측 음성"
+  extremity: "No edema"
+standardized_patient_questions: "생리를 안 하면 몸에 안 좋은 거 아닌가요? 나중에 결혼해서 아기는 낳을 수 있을까요? 살 빼면 생리가 다시 돌아오나요?"
+specific_remarks: "자신의 외모 변화(여드름, 털, 체중 증가)에 대해 부끄러워하고 자신감 없는 태도를 보인다. 특히 임신 가능성에 대해 물을 때 목소리가 작아지고 걱정스러운 표정을 짓는다."

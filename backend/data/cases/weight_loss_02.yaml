@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (위암)"
+patient_info:
+  name: "김철수"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "6개월간 10kg의 의도치 않은 체중 감소 및 상복부 불쾌감"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "위암"
+    - "소화성 궤양"
+    - "만성 위축성 위염"
+  necessary_tests:
+    - "위내시경 및 조직검사"
+    - "복부 CT"
+    - "혈액검사 (전혈구검사, 종양표지자검사)"
+  necessary_treatments:
+    - "조직검사 결과에 따른 치료 계획 수립"
+    - "내시경적 절제술, 수술, 항암화학요법, 방사선 치료 등 고려"
+    - "영양 상태 개선을 위한 상담 및 지원"
+history:
+  sex_age: "남/65"
+  chief_complaint_verbatim: "요즘 통 입맛이 없고 소화도 안 돼서 살이 10kg나 빠졌어요. 명치끝이 늘 더부룩하고 불편해요."
+  onset: "약 6개월 전"
+  location:
+    initial: "상복부"
+    current: "상복부"
+  duration:
+    onset_pattern: "서서히 시작됨"
+    recent_course: "점점 심해짐"
+  course: "처음엔 소화불량인 줄 알고 소화제만 먹었으나, 점점 식사량이 줄고 체중이 감소함. 최근에는 조금만 먹어도 배가 부른 느낌이 듦."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "명치 부위가 더부룩하고 답답한 느낌"
+    nrs_score: "3-4점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔 소량의 음식물을 구토함"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식후"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "5년 전, 위염 진단"
+    endoscopy_finding: "5년 전 위내시경에서 만성 표재성 위염 진단받았으나 이후 추적검사 안 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (10년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀 5mg"
+      - "시중에서 파는 소화제 (간헐적으로)"
+    source: "내과 의원 / 약국"
+    effect: "혈압은 조절되나 소화불량은 큰 효과 없음"
+  social_history:
+    job: "은퇴 후 무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "45년간 흡연 중"
+    exercise: "거의 안 함"
+    recent_weight_change: "6개월간 10kg 감소 (75kg -> 65kg)"
+  family_history: "아버지가 60대 후반에 위암으로 사망"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적으로 기운이 없고 만성 병색을 띰. 다소 수척해 보임."
+  heent:
+    sclera: "결막이 약간 창백함 (pale conjunctiva)."
+    oral_mucosa: "약간 건조함"
+  chest: "특이소견 없음"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 상복부(epigastric area)에 경미한 압통이 있음. 만져지는 종괴는 없음.
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "그냥 나이 들어서 소화가 안되는 거 아닌가요? 꼭 내시경을 해야 하나요?", "암이면 어떡하죠? 많이 아픈가요?"
+specific_remarks: "환자는 기운이 없는 목소리로 느리게 대답하며, 표정이 어둡다. 자신의 증상을 대수롭지 않게 여기려는 태도를 보이다가도, '암'이라는 단어에 민감하게 반응한다."

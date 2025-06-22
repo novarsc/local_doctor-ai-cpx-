@@ -1,0 +1,112 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (지역사회획득 폐렴)"
+patient_info:
+  name: "김영호"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "4일 전부터 열나고 기침하더니 어제부터 숨이 참"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "112회/분"
+  respiration: "25회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "지역사회획득 폐렴"
+    - "급성 기관지염"
+    - "폐농양"
+  necessary_tests:
+    - "흉부 X선 검사"
+    - "객담 그람 염색 및 배양 검사"
+    - "일반혈액검사 (CBC with differential) 및 CRP 검사"
+    - "혈액 배양 검사 (입원 시)"
+  necessary_treatments:
+    - "경험적 항생제 치료"
+    - "해열제, 진해거담제 등 대증 치료"
+    - "수액 공급 및 산소 치료 (필요시)"
+    - "입원 치료 고려 (중증도에 따라)"
+history:
+  sex_age: "남성/45"
+  chief_complaint_verbatim: "감기인 줄 알았는데, 열이 안 떨어지고 가래 끓는 기침에 숨까지 차네요. 오른쪽 가슴도 아파요."
+  onset: "4일 전"
+  location:
+    initial: "전신"
+    current: "가슴"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점점 심해짐"
+  course: "4일 전 오한과 함께 39도까지 열이 나고 근육통이 시작됨. 이틀 전부터는 기침과 누런 가래가 나오기 시작했고, 어제부터는 가만히 있어도 숨이 가쁘고 기침할 때마다 오른쪽 가슴이 결리는 통증이 생김."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "기침할 때 오른쪽 가슴이 칼로 베는 듯 아픔"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "한 차례"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+  factors:
+    aggravating:
+      - "기침"
+      - "심호흡"
+    alleviating: "진통제 복용 시 일시적 완화"
+  health_check_history:
+    last_checkup: "2년 전 회사 건강검진"
+    endoscopy_finding: "시행 안 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 전단계"
+    allergies: "페니실린 계열 약물에 두드러기"
+  medication_history:
+    taken:
+      - "타이레놀"
+    source: "약국 구매"
+    effect: "복용 후 2-3시간 정도 열이 약간 내리고 통증이 줄어듦"
+  social_history:
+    job: "사무직 (과장)"
+    stress: "최근 프로젝트 때문에 야근이 잦고 스트레스 많았음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1-2병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑 (25갑년)"
+      cessation_period: ""
+    exercise: "거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 고혈압, 당뇨"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색. 열이 나고 힘들어 보이며, 얕고 빠른 호흡을 함."
+  heent:
+    sclera: "약간 충혈됨"
+    oral_mucosa: "건조함"
+  chest: "시진 시 정상. 촉진 시 오른쪽 폐 하부에서 진탕음(fremitus) 증가. 타진 시 오른쪽 폐 하부에서 둔탁음(dullness). 청진 시 오른쪽 폐 하부에서 기관지 호흡음(bronchial breath sound)과 악설음(crackle)이 들림. 왼쪽은 깨끗함."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "독감인 줄 알았는데 폐렴인가요? 이렇게 아픈 건 처음이에요. 입원해야 하나요? 회사에 중요한 일이 있는데..."
+specific_remarks: "기침을 자주 하고, 기침할 때마다 오른쪽 가슴을 부여잡으며 아픈 표정을 지을 것. 목소리가 잠겨 있고 힘이 없음. 전반적으로 아파 보이는 연기를 해야 함."

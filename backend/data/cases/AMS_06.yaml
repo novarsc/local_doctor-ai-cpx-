@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (섬망, Delirium)"
+patient_info:
+  name: "정순자"
+  age: 81
+  sex: "여성"
+  presenting_complaint: "수술 후 갑자기 사람을 못 알아보고 헛소리를 함"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "섬망 (수술 후 발생)"
+    - "감염 (요로 감염, 폐렴 등)"
+    - "뇌졸중"
+  necessary_tests:
+    - "혈액 검사 (CBC, 전해질, 신기능, 간기능)"
+    - "소변 검사 및 배양 검사"
+    - "흉부 X-ray"
+  necessary_treatments:
+    - "유발 요인 교정 (감염, 탈수, 전해질 불균형 등)"
+    - "비약물적 치료 (안정적 환경 제공, 재활치료)"
+    - "필요시 소량의 항정신병 약물 사용"
+history:
+  sex_age: "여성/81세"
+  chief_complaint_verbatim: "어머니가 고관절 수술하고 이틀째부터 갑자기 이상해졌어요. 밤에 잠도 안자고, 돌아가신 아버지를 찾고, 간호사한테 소리를 질러요."
+  onset: "3일 전 (수술 후 2일째)"
+  location:
+    initial: "정신 상태"
+    current: "정신 상태"
+  duration:
+    onset_pattern: "수술 후 급격히 발생"
+    recent_course: "증상이 시간에 따라 변동이 심함 (fluctuation)"
+  course: "5일 전 넘어져 대퇴 경부 골절로 수술 받음. 수술 후 첫날은 괜찮았으나, 이틀째 밤부터 갑자기 불안해하며 "집에 가야한다"고 소리치기 시작함. 어제는 없는 벌레가 보인다고 허공에 손짓을 하고, 오늘은 아들을 못 알아봄. 낮에는 비교적 조용히 졸다가 밤만 되면 증상이 심해짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "주의력 결핍, 지남력 상실, 환시, 초조"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "밤"
+      - "낯선 환경 (병원)"
+    alleviating: "가족이 옆에 있을 때 약간 진정됨"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "위축성 위염"
+  trauma_history: "5일 전 낙상으로 인한 대퇴 경부 골절"
+  past_medical_history:
+    underlying_disease: "고혈압, 골다공증, 경도인지장애"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Amlodipine, Alendronate"
+      - "수술 후 진통제(Opioid), 항생제 투여 중"
+    source: "정형외과 입원 처방"
+    effect: "진통제 투여 후 더 졸려하고 헛소리하는 경향 있음"
+  social_history:
+    job: "무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "피운 적 없음"
+    exercise: "낙상 전까지 매일 30분 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "병실 침상에 누워있으며, 불안한 표정으로 주위를 두리번거림. 대화에 집중하지 못하고 쉽게 산만해짐. 시간, 장소 지남력 없음."
+  heent:
+    sclera: "정상."
+    oral_mucosa: "건조함."
+  chest: "청진 시 좌하엽에서 수포음(crackle) 들림."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소."
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "우측 다리에 수술 부위 드레싱 적용됨. 유치 도뇨관(Foley catheter) 삽입 상태."
+standardized_patient_questions: "어머니가 왜 갑자기 치매 환자처럼 변한 건가요? 수술이 잘못된 건가요? 다시 예전처럼 돌아오실 수 있나요?"
+specific_remarks: "환자는 면담 도중에도 계속 "집에 보내달라"고 하거나, "저기 벌레 좀 잡아달라"는 등 횡설수설한다. 주의력결핍을 표현하기 위해 질문을 여러 번 다시 묻게 하거나, 대화 도중 갑자기 다른 곳을 쳐다보며 딴소리를 한다."

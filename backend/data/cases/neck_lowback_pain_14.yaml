@@ -1,0 +1,118 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (경추 척수증)"
+patient_info:
+  name: "박상철"
+  age: 63
+  sex: "남성"
+  presenting_complaint: "수개월에 걸쳐 심해지는 손놀림 장애와 보행 장애"
+vital_signs:
+  blood_pressure: "145/85mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "경추 척수증 (Cervical myelopathy)"
+    - "뇌졸중 (다발성 뇌경색)"
+    - "운동신경원 질환 (루게릭병 등)"
+  necessary_tests:
+    - "경추 자기공명영상 (MRI)"
+    - "신경전도 검사 및 근전도 검사 (EMG/NCS)"
+    - "필요시 뇌 MRI (감별 진단 위해)"
+  necessary_treatments:
+    - "수술적 치료 (척수 감압술)"
+    - "보존적 치료는 병의 진행을 막지 못함"
+    - "수술 후 재활 치료"
+history:
+  sex_age: "남성/63세"
+  chief_complaint_verbatim: "언제부턴가 손으로 글씨 쓰거나 젓가락질하기가 힘들어지고, 걸을 때 다리가 내 맘대로 안 움직이고 휘청거려요."
+  onset: "약 1년 전부터 서서히"
+  location:
+    initial: "손의 어색함"
+    current: "양손, 양다리"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점점 악화됨"
+  course: "처음에는 손에 힘이 빠지고 글씨가 삐뚤어지는 정도였음. 6개월 전부터는 단추 잠그기가 어려워졌고, 걸을 때 술 취한 사람처럼 비틀거림. 최근에는 다리가 뻣뻣하고 계단 내려가기가 무서움. 목 뒤가 뻐근한 통증이 있긴 하지만 심하지는 않음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "손의 둔함, 다리의 뻣뻣함 및 휘청거림"
+    nrs_score: "2 (목 통증)"
+    radiation: "가끔 양팔이 저릿한 느낌이 있음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "미세한 손동작을 할 때"
+      - "좁은 길을 걷거나 방향을 바꿀 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전, 고혈압, 고지혈증 진단"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Amlodipine, Atorvastatin"
+    source: "내과"
+    effect: "잘 복용 중"
+  social_history:
+    job: "자영업 (서예가)"
+    stress: "증상 때문에 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "보행이 불안정하며, 손놀림이 서툴러 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      neck_exam: "경추 운동 범위 약간 감소"
+      gait: "넓은 보폭의 불안정한 보행 (wide-based, spastic gait)"
+      romberg_test: "양성"
+  cvat: "좌우 음성"
+  extremity: "양손의 미세 운동 장애(grip and release test, finger tapping test에서 속도 저하). 상지 및 하지의 심부건 반사 항진(hyperreflexia). Hoffmann's sign 양성. Babinski sign 양성. 발목 간대성 경련(ankle clonus) 관찰됨."
+standardized_patient_questions: "나이가 들어서 손발이 마음대로 안 움직이는 건가요? 중풍은 아니겠죠? 왜 목이 별로 안 아픈데 이런 증상이 생기나요? 수술하면 바로 좋아질 수 있나요?"
+specific_remarks: "목 통증보다는 손의 서툰 움직임(clumsy hand)과 보행 장애(gait disturbance)를 주 증상으로 호소해야 함. '젓가락질이 안된다', '단추를 못 잠근다', '땅이 울퉁불퉁하게 느껴져서 걷기 불안하다' 등 구체적인 기능 저하를 설명해야 함. 신체 진찰 시 보행이 불안정하고, 손가락을 빨리 쥐었다 폈다 하는 동작이 서툰 모습을 보여야 함."

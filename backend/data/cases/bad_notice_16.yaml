@@ -1,0 +1,107 @@
+---
+chapter: "상담"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (수술 불가능한 폐암)"
+patient_info:
+  name: "김광석"
+  age: 70
+  sex: "남성"
+  presenting_complaint: "기침과 객혈에 대한 검사 결과 문의"
+vital_signs:
+  blood_pressure: "140/80mmHg"
+  pulse: "88회/분"
+  respiration: "20회/분"
+  temperature: "36.9℃"
+examinee_instructions: "환자는 2개월간의 기침, 객혈, 쉰 목소리로 내원하여 흉부 CT와 기관지내시경 조직검사를 시행했습니다. 첨부된 결과지(좌측 폐문부 중심성 편평세포암, 종격동 림프절 침범 및 상대정맥 압박 소견)를 바탕으로, 환자에게 3기 폐암 진단을 알리고, 수술이 어려우며 항암방사선 병용요법이 필요함을 설명하십시오."
+patient_education:
+  probable_diagnoses:
+    - "편평세포 폐암 (3B기)"
+    - "소세포 폐암"
+    - "결핵"
+  necessary_tests:
+    - "PET-CT (원격 전이 여부 최종 확인)"
+    - "뇌 MRI (뇌 전이 확인)"
+    - "PD-L1 등 면역관문억제제 관련 바이오마커 검사"
+  necessary_treatments:
+    - "동시적 항암화학-방사선요법 (CCRT)"
+    - "이후 면역항암제 유지 요법 고려"
+    - "상대정맥 증후군에 대한 방사선 치료 또는 스텐트 삽입"
+history:
+  sex_age: "남성/70세"
+  chief_complaint_verbatim: "기침이 안 떨어지고 피까지 나와서 검사했는데, 결과가 많이 안 좋은가요?"
+  onset: "2개월 전"
+  location:
+    initial: "없음 (기침)"
+    current: "없음 (기침, 쉰 목소리)"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 심해짐"
+  course: "두 달 전부터 마른기침이 시작되었는데, 담배 때문인 줄 알았습니다. 그런데 점점 심해지고 가래에 피가 섞여 나왔습니다. 최근에는 목소리도 쉬고 얼굴과 팔이 붓는 느낌이 듭니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "지속적인 기침, 쉰 목소리"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "누워있을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "10년 전"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (최근 복용 안 함)"
+    source: "의원"
+    effect: ""
+  social_history:
+    job: "경비원"
+    stress: "없음"
+    alcohol:
+      is_drinker: true
+      frequency: "매일"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑 반"
+      cessation_period: "50년 흡연"
+    exercise: "안 함"
+    recent_weight_change: "최근 3개월간 6kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색. 목소리가 쉬어 있음(hoarseness)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "좌측 폐에서 국소적인 천명음(wheezing) 청진. 얼굴과 목, 양팔이 부어있고 목의 정맥이 확장되어 있음 (상대정맥 증후군 소견)."
+  abdomen: "정상"
+  cvat: "양측 음성"
+  extremity: "곤봉지 있음"
+standardized_patient_questions: "폐암인 건 각오했습니다. 담배를 그렇게 피웠는데... 그런데 수술을 못 한다고요? 그럼 그냥 죽으란 말입니까? 치료를 하나 마나 한 거 아닌가요?"
+specific_remarks: "환자는 오랜 흡연력 때문에 폐암 가능성을 어느 정도 예상하고 있었다. 그러나 '수술 불가'라는 말에 모든 희망을 잃은 듯 크게 좌절한다. 환자에게 '수술=완치', '수술 불가=사망 선고'라는 인식이 강하게 박혀 있다. 항암방사선 치료가 완치를 목표로 한다는 설명을 잘 믿지 않으려 하며, "그냥 이대로 살다 죽겠다"며 치료를 포기하려는 태도를 보인다."

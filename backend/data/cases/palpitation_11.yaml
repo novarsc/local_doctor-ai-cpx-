@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (심방조기수축)"
+patient_info:
+  name: "조은정"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "가슴이 철렁하고 한번씩 건너뛰는 느낌"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "72회/분 (가끔 불규칙)"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "심방조기수축 (APC, Atrial Premature Contraction)"
+    - "심실조기수축 (PVC, Premature Ventricular Contraction)"
+    - "갱년기 증상과 관련된 불안"
+  necessary_tests:
+    - "심전도 (EKG)"
+    - "24시간 활동 심전도 검사 (Holter monitoring)"
+    - "혈액 검사 (전해질, 갑상선 기능)"
+  necessary_treatments:
+    - "대부분의 경우 양성 경과를 보이므로 안심 및 경과 관찰"
+    - "생활 습관 교정 (스트레스 관리, 카페인/알코올 섭취 줄이기)"
+    - "증상이 일상생활에 지장을 줄 정도로 심하면 베타차단제 등 약물 치료 고려"
+history:
+  sex_age: "여/52"
+  chief_complaint_verbatim: "가슴이 한 번씩 '철렁' 하면서 맥이 건너뛰는 것 같아요. 깜짝깜짝 놀라요."
+  onset: "약 1년 전부터. 최근 몇 달 사이 더 자주 느껴짐"
+  location:
+    initial: "가슴 중앙"
+    current: "가슴 중앙"
+  duration:
+    onset_pattern: "불규칙하게, 예측 없이 나타남"
+    recent_course: "특히 밤에 자려고 누우면 더 잘 느껴져서 잠들기 어려울 때가 있음"
+  course: "하루에도 수십 번씩 느껴짐. 어떤 날은 괜찮고 어떤 날은 심함"
+  experience_prev_episodes:
+    frequency: "거의 매일"
+    trigger: "피곤할 때, 커피 마신 후, 조용한 환경에 있을 때"
+    symptoms: "오늘과 동일한 '철렁'하는 느낌"
+  character_of_symptom:
+    quality: "심장이 한번 덜컹거리거나, 작은 새가 가슴에서 푸드덕하는 가벼운 느낌"
+    nrs_score: "2"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "피로, 스트레스"
+      - "카페인 섭취"
+      - "밤에 누워 있을 때"
+    alleviating: "바쁘게 움직일 때는 잘 못 느낌"
+  health_check_history:
+    last_checkup: "1년 전 국가검진, 골감소증 외 특이사항 없음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "여성 갱년기 영양제"
+    source: "홈쇼핑"
+    effect: "잘 모르겠음"
+  social_history:
+    job: "주부"
+    stress: "자녀 진로 문제로 스트레스 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "요가 주 3회"
+    recent_weight_change: "없음"
+  family_history: "친언니가 부정맥 시술을 받았다고 함"
+  female_history: "폐경 (1년 전). 안면홍조, 발한 등 갱년기 증상 동반됨."
+physical_exam:
+  general: "약간의 피로감을 보이나 전반적인 상태 양호."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 청진 시 간헐적으로 조기 박동(premature beat)이 들림."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "부종 없음. 맥박 촉진 시 간헐적으로 한 박자 빨리 나오는 맥이 느껴짐."
+standardized_patient_questions: "이것도 갱년기 증상 중 하나인가요? 심장이 멎을 수도 있는 건가요? 언니도 부정맥이 있는데 저도 그런 건 아닌지 걱정돼요."
+specific_remarks: "환자는 심실조기수축(PVC) 환자보다 증상을 덜 위협적으로, '철렁' 또는 '푸드덕' 같은 가벼운 느낌으로 표현한다. 갱년기 증상과 연관 지으려는 경향을 보인다. 가족력 때문에 불안해하면서도, 의사의 안심시키는 설명에 긍정적으로 반응한다."

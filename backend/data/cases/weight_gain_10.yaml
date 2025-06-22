@@ -1,0 +1,113 @@
+---
+chapter: "전신"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (만성 신부전)"
+patient_info:
+  name: "박종길"
+  age: 62
+  sex: "남성"
+  presenting_complaint: "몸이 붓고 체중이 늘며, 소변이 잘 안 나와서 내원함"
+vital_signs:
+  blood_pressure: "170/100mmHg"
+  pulse: "90회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 신부전으로 인한 체액 과다"
+    - "울혈성 심부전"
+    - "간경변"
+  necessary_tests:
+    - "신기능 검사 (BUN/Cr, GFR)"
+    - "전해질 검사 (특히 칼륨)"
+    - "신장 초음파"
+  necessary_treatments:
+    - "이뇨제를 이용한 부종 및 혈압 조절"
+    - "신기능 저하의 원인 질환(당뇨, 고혈압) 관리"
+    - "식이요법 (저염, 저단백, 저칼륨) 및 투석 준비"
+history:
+  sex_age: "남성/62세"
+  chief_complaint_verbatim: "몇 달 전부터 계속 피곤하고 입맛도 없는데 몸은 자꾸 부어요. 특히 소변 양이 눈에 띄게 줄었고, 살도 5kg이나 늘었어요. 숨도 약간 차는 것 같아요."
+  onset: "수개월 전부터 서서히"
+  location:
+    initial: "피로감, 식욕부진"
+    current: "전신 부종, 소변량 감소"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 1개월 사이 증상 심해짐"
+  course: "오래된 당뇨병으로 신장이 안 좋다는 말은 들었으나 병원에 잘 가지 않았다. 최근 들어 소변량이 하루 500cc도 안 되는 것 같고, 전신이 부으며 체중이 증가했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "몸이 붓고 무거우며, 전반적인 컨디션 저하"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔 아침에 구역질을 함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "수분 섭취 시"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "20년 된 제2형 당뇨병, 15년 된 고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약과 당뇨약 (이름 모름)"
+    source: "동네 의원"
+    effect: "최근 1-2년간 약을 불규칙적으로 복용함"
+  social_history:
+    job: "택시 운전사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 반병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "10년 전 금연"
+    exercise: "거의 못함"
+    recent_weight_change: "최근 2개월간 5kg 증가"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색. 피부가 건조하고 창백하며, 흙빛을 띰. 약간의 암모니아 냄새가 남."
+  heent:
+    sclera: "not icteric, 결막 창백"
+    oral_mucosa: "건조함"
+  chest: "양쪽 폐하부에서 수포음(crackle) 청진됨."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양쪽 하지에 함요 부종(pitting edema, ++) 관찰됨. 피부에 긁은 자국(요독성 소양증)이 있음."
+standardized_patient_questions: "콩팥이 나빠져서 몸이 붓는 건가요? 이제 투석해야 하는 건가요?", "음식은 어떻게 조절해야 하나요?"
+specific_remarks: "환자는 자신의 병 상태에 대해 어느 정도 인지하고 있으며, 앞으로의 치료(특히 투석)에 대해 불안감과 막막함을 느낀다. 무기력하고 피곤한 모습을 보인다."

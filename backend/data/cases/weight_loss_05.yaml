@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (주요우울장애)"
+patient_info:
+  name: "정수진"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "4개월간의 지속적인 우울감과 함께 8kg의 체중 감소, 불면, 무기력감 호소"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "주요우울장애"
+    - "갑상선기능저하증"
+    - "숨겨진 악성 종양 (Occult malignancy)"
+  necessary_tests:
+    - "혈액검사 (전혈구검사, 갑상선 기능 검사, 비타민 D)"
+    - "우울증 선별 척도 검사 (PHQ-9, BDI)"
+    - "기질적 원인 배제를 위한 기본 건강검진"
+  necessary_treatments:
+    - "정신건강의학과 전문의 상담 및 면담 치료"
+    - "필요시 항우울제 등 약물 치료"
+    - "규칙적인 생활 습관 및 운동 권장"
+history:
+  sex_age: "여/45"
+  chief_complaint_verbatim: "아무것도 하기가 싫고 재미가 없어요. 밥맛도 없고 잠도 안 와서 살만 자꾸 빠지네요. 제가 쓸모없는 사람 같아요."
+  onset: "약 4개월 전"
+  location:
+    initial: "정신, 전신"
+    current: "정신, 전신"
+  duration:
+    onset_pattern: "서서히 시작됨"
+    recent_course: "점점 더 심해지고 있음"
+  course: "남편의 사업 실패 후 기분이 계속 가라앉았다. 예전에 즐겁던 일들(친구 모임, 드라마 시청)에 흥미를 잃었다. 입맛이 전혀 없어 식사를 거의 못하고, 밤에 잠들기 어렵고 새벽에 일찍 깬다. 집중력이 떨어져 집안일도 제대로 못한다."
+  experience_prev_episodes:
+    frequency: "10년 전 산후우울증 경험 있음"
+    trigger: "출산"
+    symptoms: "우울감, 무기력감"
+  character_of_symptom:
+    quality: "지속적인 슬픔, 공허함, 무가치함"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "혼자 있을 때"
+      - "아침에 일어났을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "주부"
+    stress: "최근 남편의 사업 실패로 경제적, 정신적 스트레스 극심함"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "전혀 안 함"
+    recent_weight_change: "4개월간 8kg 감소 (58kg -> 50kg)"
+  family_history: "친언니가 우울증 치료를 받은 적 있음"
+  female_history: "폐경 이행기 (perimenopause), 월경 주기가 불규칙함"
+physical_exam:
+  general: "전반적으로 위축되어 보이고, 표정이 없으며(flat affect) 말수가 적음. 정신운동 지체(psychomotor retardation) 소견 보임."
+  heent:
+    sclera: "특이소견 없음"
+    oral_mucosa: "정상"
+  chest: "특이소견 없음"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 감소"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 특이소견 없음.
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "제가 이상한가요? 정신과에 가야 하나요?", "이게 병이라면 약 먹으면 나을 수 있는 건가요? 가족들은 그냥 의지가 약해서 그렇다고 해요."
+specific_remarks: "환자는 시선을 잘 맞추지 못하고, 질문에 단답형으로 느리게 대답한다. 대화 도중 눈물을 보이거나 한숨을 자주 쉰다. 자살 사고에 대한 질문에는 '그런 생각은 해본 적 없다'고 마지못해 대답한다."

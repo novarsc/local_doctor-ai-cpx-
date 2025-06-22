@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (바이러스성 위장염)"
+patient_info:
+  name: "이수진"
+  age: 24
+  sex: "여성"
+  presenting_complaint: "하루 전부터 시작된 구토와 설사"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "98회/분"
+  respiration: "18회/분"
+  temperature: "37.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "바이러스성 위장염 (장염)"
+    - "세균성 위장염 (식중독)"
+    - "초기 급성 충수염"
+  necessary_tests:
+    - "필요시 대변 검사 (잠혈, 백혈구)"
+    - "전해질 및 탈수 확인을 위한 혈액 검사"
+    - "복부 X-ray 촬영 (다른 질환 감별 목적)"
+  necessary_treatments:
+    - "충분한 수분 및 전해질 보충 (경구 또는 정맥 주사)"
+    - "증상 완화를 위한 대증요법 (진토제, 지사제 등)"
+    - "충분한 휴식 및 부드러운 음식 섭취"
+history:
+  sex_age: "여성/24"
+  chief_complaint_verbatim: "어제 점심 먹고 나서부터 속이 메슥거리더니 저녁부터 토하고 물 같은 설사를 계속해요."
+  onset: "내원 1일 전"
+  location:
+    initial: "명치 부위의 불편감"
+    current: "복부 전반의 불편감"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "구토와 설사 횟수가 점차 증가함"
+  course: "내원 1일 전 점심 식사 후 속이 더부룩하고 메슥거리기 시작함. 저녁부터 구토 5-6회, 물 같은 설사 10회 이상 함. 구토물에는 음식물이 섞여 나왔으나 피는 보이지 않았음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "뒤틀리는 듯한 복통 동반"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "섭취한 음식물과 위액, 담즙이 섞여 나옴"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "음식 섭취"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 국가검진, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학원생"
+    stress: "논문 때문에 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "3일 전 남동생이 비슷한 증상 있었음"
+  female_history: "LMP: 2주 전, 주기 규칙적"
+physical_exam:
+  general: "전반적으로 지쳐 보이나 의식은 명료함."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "약간 건조함"
+  chest: "청진상 특이 소견 없음"
+  abdomen:
+    inspection: "편평하고 흉터 없음"
+    auscultation: "장음이 항진되어 있음 (Hyperactive bowel sound)"
+    percussion: "고창음 (Tympany) 소견 보임"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      tenderness_diffuse: true # 전반적인 압통
+  cvat: "양측 음성"
+  extremity: "피부 긴장도 약간 감소"
+standardized_patient_questions: "이거 혹시 식중독인가요? 어제 먹은 회 때문일까요? 링거 하나 맞고 가면 안 될까요?"
+specific_remarks: "탈수 증상(약간의 어지러움, 구강 건조)을 실감 나게 연기함. 복부 진찰 시 배 전체가 살살 아프다고 표현하지만 특정 부위에 국한된 심한 통증은 호소하지 않음."

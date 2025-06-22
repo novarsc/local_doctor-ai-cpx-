@@ -1,0 +1,118 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (경추성 두통)"
+patient_info:
+  name: "최민준"
+  age: 29
+  sex: "남성"
+  presenting_complaint: "목 통증과 함께 발생하는 편측 두통"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "70회/분"
+  respiration: "14회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "경추성 두통 (Cervicogenic headache)"
+    - "긴장성 두통"
+    - "편두통"
+  necessary_tests:
+    - "경추 X선 검사"
+    - "진단을 위한 특수 검사는 없으며, 임상적 진단이 중요"
+    - "필요시 경추 MRI 또는 진단적 신경차단술"
+  necessary_treatments:
+    - "자세 교정 및 스트레칭"
+    - "도수치료 또는 물리치료"
+    - "후두신경 차단술 또는 경추 후관절 차단술"
+history:
+  sex_age: "남성/29세"
+  chief_complaint_verbatim: "목이 뻐근해지기 시작하면 꼭 오른쪽 머리랑 눈 뒤쪽이 아파요. 목을 움직이면 머리가 더 아파요."
+  onset: "약 1년 전"
+  location:
+    initial: "오른쪽 목 뒤"
+    current: "오른쪽 목 뒤, 뒤통수, 관자놀이, 눈 주변"
+  duration:
+    onset_pattern: "간헐적 발생"
+    recent_course: "최근 발생 빈도가 잦아짐 (주 2-3회)"
+  course: "항상 목 뒤쪽이 먼저 뻣뻣해지고, 이후 같은 쪽 머리로 통증이 퍼져나가는 양상. 두통은 수 시간에서 수 일간 지속됨. 구역감은 있으나 구토는 없음."
+  experience_prev_episodes:
+    frequency: "주 2-3회"
+    trigger: "장시간 컴퓨터 사용, 고개를 숙이고 스마트폰 볼 때"
+    symptoms: "항상 같은 양상"
+  character_of_symptom:
+    quality: "지속적이고 욱신거리는, 비박동성 통증"
+    nrs_score: "6"
+    radiation: "목에서 시작하여 뒤통수를 거쳐 눈 주변까지"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "목을 특정 방향으로 움직일 때"
+      - "목 윗부분을 누를 때"
+    alleviating: "휴식, 진통제 복용"
+  health_check_history:
+    last_checkup: "기억 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "타이레놀"
+    source: "약국"
+    effect: "다소 호전됨"
+  social_history:
+    job: "프로그래머"
+    stress: "많은 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "어머니가 편두통이 있으심."
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적으로 건강해 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      neck_motion: "오른쪽으로 고개를 돌리거나 뒤로 젖힐 때 목 통증과 함께 두통이 유발됨"
+      tenderness: "오른쪽 상부 경추(C1-C3) 후관절 및 후두하근(suboccipital m.) 부위에 심한 압통"
+      cervical_flexion_rotation_test: "양성 (오른쪽 회전 제한 및 통증 유발)"
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 모두 정상."
+standardized_patient_questions: "그냥 두통인 줄 알았는데 왜 목이 아플 때만 머리가 아픈가요? 이거 혹시 뇌에 문제가 있는 건 아닐까요? 자세만 바르게 하면 낫나요?"
+specific_remarks: "두통이 목의 움직임이나 특정 지점의 압박에 의해 '재현'되는 것을 명확하게 연기해야 함. 의사가 목을 진찰할 때 '그렇게 움직이니까 머리가 울려요' 또는 '거기를 누르니 아픈 쪽 머리가 지끈거려요'라고 구체적으로 반응해야 함. 편두통과의 감별을 위해 빛 공포증이나 소리 공포증은 없다고 말해야 함."

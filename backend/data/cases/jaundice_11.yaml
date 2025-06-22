@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (유전성 구상적혈구증, Hereditary Spherocytosis)"
+patient_info:
+  name: "김민서"
+  age: 18
+  sex: "여성"
+  presenting_complaint: "반복되는 황달과 빈혈, 최근 담석 진단"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "유전성 구상적혈구증"
+    - "다른 유전성 용혈성 빈혈 (예: G6PD 결핍증)"
+    - "만성 간질환"
+  necessary_tests:
+    - "혈액 검사 (전혈구, MCHC, 망상적혈구, 빌리루빈)"
+    - "말초혈액 도말 검사 (구상적혈구 확인)"
+    - "삼투압 취약성 검사"
+  necessary_treatments:
+    - "엽산 보충"
+    - "증상이 심한 경우 비장 절제술 고려"
+    - "담석에 대한 치료 (담낭 절제술 등)"
+history:
+  sex_age: "여성/18세"
+  chief_complaint_verbatim: "어릴 때부터 피곤하면 얼굴이 노랗다는 말을 자주 들었어요. 최근에 감기 앓고 나서 황달이 심해졌고, 배가 아파서 병원에 갔더니 담석이 있다고 해서 큰 병원 가보라고 했어요."
+  onset: "어릴 때부터 간헐적 발생"
+  location:
+    initial: "전신"
+    current: "전신, 우상복부 통증 간헐적 동반"
+  duration:
+    onset_pattern: "감염, 피로 시 악화"
+    recent_course: "최근 1주간 황달 및 피로감 악화"
+  course: "어릴 때부터 친구들보다 창백하고 황달이 자주 나타났다. 감기 같은 감염성 질환을 앓고 나면 증상이 심해지는 경향이 있었다. 일주일 전 심한 감기를 앓은 후 황달이 심해지고 피로감이 커졌다. 며칠 전부터는 우상복부 통증이 간헐적으로 생겨 동네 병원 초음파에서 담석(색소성 담석)을 진단받았다."
+  experience_prev_episodes:
+    frequency: "수회/년"
+    trigger: "감염, 피로"
+    symptoms: "황달, 피로감, 빈혈"
+  character_of_symptom:
+    quality: "만성적인 피로감. 우상복부 통증은 쥐어짜는 듯."
+    nrs_score: "통증 발생 시 6점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: "감기 때문에 약간"
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "진해짐"
+      stool_color_change: "정상"
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "감염, 스트레스"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "학교 신체검사에서 항상 경미한 빈혈 소견"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "만성 빈혈"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "철분제 (효과 없었음)"
+    source: "개인 의원"
+    effect: "빈혈 호전 안 됨"
+  social_history:
+    job: "고등학생"
+    stress: "학업 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "체육 시간 외 없음"
+    recent_weight_change: "없음"
+  family_history: "아버지께서 젊은 나이에 비장 절제술을 받으셨고, 할머니도 빈혈이 심하셨다고 들음."
+  female_history: "LMP: 1주 전. 불규칙적."
+physical_exam:
+  general: "만성적인 빈혈 및 황달 소견. 또래보다 체격이 약간 작음."
+  heent:
+    sclera: "뚜렷한 황달. 결막은 창백함."
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "정상"
+    percussion: "Traube's space 둔탁음"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      splenomegaly: "좌상복부에서 비장이 단단하게 4cm 가량 촉진됨"
+  cvat: "좌/우 음성"
+  extremity: "피부 황달 및 창백함."
+standardized_patient_questions: "왜 저는 어릴 때부터 계속 아픈 건가요? 담석은 왜 어린 나이에 생긴 건가요? 아빠도 수술하셨다는데 저도 수술해야 하나요?"
+specific_remarks: "환자는 만성 용혈의 특징을 연기한다. 어린 나이부터의 병력, 감염 시 악화, 철분제에 반응 없는 빈혈, 젊은 나이의 담석 발생, 그리고 결정적으로 '아버지가 비장 절제술을 받았다'는 가족력을 명확히 전달한다. 신체 진찰 시 비장 비대가 뚜렷하게 연기되어야 한다."

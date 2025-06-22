@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (비강 내 반전성 유두종)"
+patient_info:
+  name: "최종길"
+  age: 62
+  sex: "남성"
+  presenting_complaint: "점점 심해지는 한쪽 코막힘"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "74회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비강 내 반전성 유두종 (Inverted papilloma)"
+    - "만성 부비동염 (일측성)"
+    - "비강 내 악성 종양 (편평상피세포암 등)"
+  necessary_tests:
+    - "비강 내시경 및 조직 검사 (확진)"
+    - "부비동 CT 및 MRI (종양의 범위 및 부착 부위 확인)"
+    - "알레르기 검사 (감별진단 목적)"
+  necessary_treatments:
+    - "수술적 완전 절제 (내시경적 또는 개방적 접근)"
+    - "재발이 잦으므로 정기적인 추적 관찰 필수"
+    - "악성 종양으로의 전환 가능성에 대한 설명"
+history:
+  sex_age: "남성/62"
+  chief_complaint_verbatim: "오른쪽 코가 1년 전부터 계속 막히는데, 요즘 들어 점점 더 심해져서 이제는 숨쉬기가 너무 힘들어요. 가끔 코피도 조금씩 나요."
+  onset: "약 1년 전"
+  location:
+    initial: "우측 코"
+    current: "우측 코"
+  duration:
+    onset_pattern: "서서히 발생하여 점진적으로 악화"
+    recent_course: "최근 2-3개월간 코막힘이 급격히 심해짐"
+  course: "초기에는 가벼운 코막힘이었으나, 시간이 지나면서 비강을 완전히 막는 느낌으로 발전함. 맑은 콧물과 간헐적인 소량의 코피가 동반됨. 후각도 오른쪽은 거의 못 맡음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "진행성의 일측성 코막힘, 종괴감"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별한 요인 없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "비염약(약국 구매) 간헐적 복용"
+    source: "약국"
+    effect: "전혀 효과 없음"
+  social_history:
+    job: "은퇴 후 소일거리 (농사)"
+    stress: "적음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: ""
+    exercise: "농사일 외 따로 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성적인 불편감을 호소하나 급성 병색은 없음"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 추가 소견: 우측 비강을 완전히 채우고 있는 연분홍색의 불규칙한 표면을 가진 종괴가 관찰됨. 종괴는 중비도에서 기원하는 것으로 보임. 좌측 비강은 정상.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "코에 혹이 생긴 건가요? 이거 암인가요? 수술하면 없어지나요? 왜 한쪽에만 이런 게 생기죠?"
+specific_remarks: "환자는 일측성 증상이 오래 지속된 것에 대해 무심코 넘겼으나, 최근 급격히 악화되자 불안감을 느껴 내원했다. '암'일 가능성에 대해 매우 두려워한다."

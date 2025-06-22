@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (고칼슘혈증)"
+patient_info:
+  name: "김영철"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "소변이 자주 마렵고 온몸에 힘이 없음"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "악성 종양에 의한 고칼슘혈증"
+    - "부갑상선 기능 항진증"
+    - "만성 신부전"
+  necessary_tests:
+    - "혈액 검사 (전해질 포함 칼슘, 인, 알부민, 신장기능, PTH)"
+    - "소변 검사"
+    - "흉부 X-ray 및 추가적인 영상 검사 (종양 표지자, 단백 전기영동 등)"
+  necessary_treatments:
+    - "수액 치료 (정맥 주사)를 통한 수분 공급 및 칼슘 배설 촉진"
+    - "칼시토닌, 비스포스포네이트 등 약물 치료"
+    - "원인 질환(악성 종양 등)에 대한 정밀 검사 및 치료"
+history:
+  sex_age: "남성/68"
+  chief_complaint_verbatim: "몇 달 전부터 소변을 자주 보고, 변비도 심해졌어요. 무엇보다 온몸에 기운이 하나도 없고, 밥맛도 없고, 최근엔 등도 쑤시고 아프네요."
+  onset: "약 3개월 전"
+  location:
+    initial: "전신 증상"
+    current: "전신 증상, 등 통증"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "점차 심해지는 양상"
+  course: "처음에는 나이 탓인가 했으나, 피로감과 식욕부진이 심해지고 체중이 줄어듦. 최근에는 변비가 심해지고 가끔 속이 메스꺼움. 허리 위쪽으로 둔한 통증이 생김."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "소변량이 많아진 느낌. 등 통증은 둔하고 지속적임."
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "활동 시 피로감 심해짐"
+      - ""
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 진단 받았으나 치료하지 않음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "무직 (퇴직)"
+    stress: "특별한 스트레스 없음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "50년 흡연력"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 3개월간 6kg 감소"
+  family_history: "특이 사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색, 전반적으로 기운이 없어 보이고 의욕 저하 소견"
+  heent:
+    sclera: "비황달성"
+    oral_mucosa: "건조함"
+  chest: "호흡음 감소 (우하엽), 심음 정상"
+  abdomen:
+    inspection: "특이 소견 없음"
+    auscultation: "장음 감소"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 흉추-요추 이행부 압통 호소"
+  extremity: "근력 저하 (G4/G4), 부종 없음"
+standardized_patient_questions: "왜 이렇게 온몸에 힘이 없을까요? 그냥 늙어서 그런 건가요? 변비랑 소변 자주 보는 게 무슨 상관이 있나요?"
+specific_remarks: "전신 쇠약감, 피로감, 식욕 부진을 주로 호소할 것. 다뇨 증상 외에도 변비, 구역감, 뼈 통증 등 다양한 증상을 일관되게 진술. 장기 흡연력을 명확히 밝힐 것. 전반적으로 무기력한 모습을 연기."

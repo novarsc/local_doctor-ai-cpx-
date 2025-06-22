@@ -1,0 +1,113 @@
+---
+chapter: "상담"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (주요 우울장애)"
+patient_info:
+  name: "박선영"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "몇 달째 기운이 없고 아무것도 하기 싫음"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "주요 우울장애 (Major depressive disorder)"
+    - "적응 장애 (Adjustment disorder)"
+    - "만성 피로 증후군 (Chronic fatigue syndrome)"
+  necessary_tests:
+    - "정신건강의학과적 면담 및 평가 (PHQ-9 등 척도 검사)"
+    - "갑상선 기능 검사, 비타민D 검사"
+    - "일반혈액검사 및 염증 수치(ESR, CRP) 검사"
+  necessary_treatments:
+    - "가정폭력으로부터의 분리 및 안전 확보 (가장 중요)"
+    - "정신치료 (지지 정신치료, 인지행동치료)"
+    - "약물치료 (항우울제 등)"
+history:
+  sex_age: "여성/35"
+  chief_complaint_verbatim: "몇 달째 계속 우울하고 아무 의욕이 없어요. 아침에 눈 뜨는 것 자체가 고통스러워요."
+  onset: "약 3개월 전"
+  location:
+    initial: "전신적, 정신적 증상"
+    current: "전신적, 정신적 증상"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "지속됨"
+  course: "3개월 전부터 기분이 계속 가라앉고, 예전에 즐거웠던 일들(친구 만나기, 드라마 보기)에 전혀 흥미를 느끼지 못한다. 입맛이 없어 식사를 거의 못해 체중이 많이 줄었고, 밤에 잠들기 어렵고 새벽에 일찍 깬다. 자신이 무가치하게 느껴지고, '차라리 없어졌으면 좋겠다'는 생각을 가끔 한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "공허하고 슬픈 기분, 무기력감"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "남편이 집에 있을 때"
+      - "저녁 시간이 될 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "결혼 생활 내내 남편의 언어적, 정서적, 신체적 폭력이 지속되었음. 최근 3개월 전 경제적 문제로 다투다 심하게 폭행당함."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "주부"
+    stress: "극심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "3개월간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "LMP 1주 전, 주기 불규칙해짐"
+physical_exam:
+  general: "전반적으로 기운이 없고 표정이 어두움. 시선을 잘 맞추지 못하고 말수가 적음."
+  heent:
+    sclera: "이상 없음"
+    oral_mucosa: "다소 건조함"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "왼쪽 팔뚝에 손으로 잡힌 모양의 오래된 멍 자국이 보임."
+standardized_patient_questions: "제가 그냥 게으른 거 아닐까요? 남편은 의지가 약해서 그렇다고 해요. 이런 것도 병인가요? 아이 때문에 어떻게 해야 할지 모르겠어요."
+specific_remarks: "전반적으로 느리고 힘없는 말투를 사용한다. 가정폭력에 대해 직접적으로 말하기를 꺼리며, '남편과 사이가 좋지 않다', '좀 다툼이 있었다' 정도로 표현한다. 의사가 자살 사고에 대해 질문하면 '가끔 그런 생각을 하지만 아이 때문에 안된다'고 대답한다."

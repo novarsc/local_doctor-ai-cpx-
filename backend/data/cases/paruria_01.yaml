@@ -1,0 +1,121 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (전립선비대증)"
+patient_info:
+  name: "김철수"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "소변 줄기가 약해지고 밤에 자주 깨는 증상"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "76회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전립선비대증 (Benign Prostatic Hyperplasia)"
+    - "전립선암 (Prostate Cancer)"
+    - "요도 협착 (Urethral Stricture)"
+  necessary_tests:
+    - "직장수지검사 (Digital Rectal Examination)"
+    - "소변검사 및 소변배양검사 (Urinalysis & Urine Culture)"
+    - "전립선특이항원 혈액검사 (Prostate-Specific Antigen, PSA)"
+    - "요속검사 및 잔뇨량 측정 (Uroflowmetry & Post-void Residual Volume)"
+  necessary_treatments:
+    - "알파차단제 등 약물 치료"
+    - "생활 습관 개선 (수분 섭취 조절, 카페인 제한)"
+    - "필요시 경요도 전립선 절제술 등 수술적 치료 고려"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "소변 보기가 영 시원찮아졌어요. 한참 힘을 줘야 나오고, 다 눠도 개운치가 않아요. 밤에도 두세 번은 꼭 깨고요."
+  onset: "약 1년 전부터 서서히 시작됨"
+  location:
+    initial: "하복부 불편감, 요도"
+    current: "동일함"
+  duration:
+    onset_pattern: "점진적 (Insidious)"
+    recent_course: "최근 3개월 사이 증상이 더 심해짐"
+  course: "처음에는 소변 줄기가 가늘어지는 정도였으나, 점차 소변을 보기 위해 힘을 주어야 하는 배뇨 지연(hesitancy), 소변을 본 후에도 남아있는 듯한 잔뇨감, 밤에 깨는 야간뇨(nocturia)가 뚜렷해짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "배뇨 곤란, 약한 소변 줄기, 잔뇨감"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "저녁에 물을 많이 마시는 경우"
+      - "오래 앉아 있다가 일어날 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 국가건강검진"
+    endoscopy_finding: "특이 소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (5년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀 5mg"
+    source: "내과 의원 처방"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "은퇴 후 자영업 (가게 운영)"
+    stress: "보통 수준"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 반 병 정도"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "주 2회 가벼운 산책"
+    recent_weight_change: "없음"
+  family_history: "부친, 전립선 질환으로 치료받은 병력 있음 (정확한 진단명 모름)"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 양호한 모습. 급성 병색은 보이지 않음."
+  heent:
+    sclera: "Icteric sclera 없음"
+    oral_mucosa: "점막 건조하지 않음"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평하고 흉터 없음."
+    auscultation: "장음 정상."
+    percussion: "고창음. 방광 팽만 소견 없음."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # DRE (Digital Rectal Examination)
+      prostate_size: "Symmetrically enlarged (Grade II)"
+      prostate_consistency: "Firm, elastic"
+      prostate_surface: "Smooth"
+      prostate_tenderness: "No tenderness"
+      median_sulcus: "Palpable"
+  cvat: "좌/우 음성"
+  extremity: "함몰 부종 없음"
+standardized_patient_questions: "나이가 들면 다 이런 건가요? 혹시 암은 아닐까요? 약 먹으면 바로 좋아지나요?"
+specific_remarks: "소변 문제로 삶의 질이 떨어진 것에 대한 불편함과 약간의 불안감을 표현한다. 직장수지검사 시 약간의 불쾌감을 표현하지만 잘 협조한다."

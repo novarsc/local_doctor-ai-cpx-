@@ -1,0 +1,119 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (요추 추간판 탈출증)"
+patient_info:
+  name: "김철수"
+  age: 42
+  sex: "남성"
+  presenting_complaint: "5일 전부터 갑자기 발생한 허리 통증과 우측 다리 저림"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "요추 추간판 탈출증 (허리 디스크)"
+    - "요추 염좌"
+    - "척추관 협착증"
+  necessary_tests:
+    - "요추 X선 검사"
+    - "요추 자기공명영상 (MRI)"
+    - "혈액 검사 (염증 수치 확인)"
+  necessary_treatments:
+    - "안정 및 약물 치료 (소염진통제, 근이완제)"
+    - "물리치료 및 재활 운동"
+    - "증상 심할 시 신경 차단술 또는 수술적 치료 고려"
+history:
+  sex_age: "남성/42세"
+  chief_complaint_verbatim: "닷새 전에 무거운 걸 들다가 허리를 삐끗했는데, 이젠 오른쪽 엉덩이부터 다리까지 저리고 아파요."
+  onset: "5일 전"
+  location:
+    initial: "허리 중앙 부위"
+    current: "허리 중앙 및 오른쪽 엉덩이, 허벅지 뒤쪽, 종아리 바깥쪽"
+  duration:
+    onset_pattern: "갑자기 발생 (acute onset)"
+    recent_course: "점점 심해짐"
+  course: "처음에는 허리만 아팠으나 2일 전부터 오른쪽 다리로 통증과 저린감이 뻗치기 시작했으며, 기침할 때 통증이 더 심해짐."
+  experience_prev_episodes:
+    frequency: "1년에 한두 번 가벼운 허리 통증 있었음"
+    trigger: "오래 앉아 있거나 무리했을 때"
+    symptoms: "이번처럼 다리가 저리지는 않았음"
+  character_of_symptom:
+    quality: "허리는 뻐근하고 묵직한 통증, 다리는 전기가 오듯 찌릿하고 저린 느낌"
+    nrs_score: "7"
+    radiation: "오른쪽 엉덩이, 허벅지 뒤쪽, 종아리 바깥쪽으로 뻗치는 양상"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 앉아 있을 때"
+      - "기침이나 재채기할 때"
+      - "허리를 앞으로 숙일 때"
+    alleviating: "누워서 무릎을 구부리고 있을 때"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "5일 전 무거운 물건을 들다가 허리를 삐끗한 것 외 특이 외상력 없음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "약국에서 산 진통제"
+    source: "일반의약품"
+    effect: "복용할 때만 약간 나아지는 정도"
+  social_history:
+    job: "택배 기사"
+    stress: "업무량 때문에 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "아버지가 허리 디스크로 수술 받으신 적 있음."
+  female_history: "해당 없음"
+physical_exam:
+  general: "통증으로 허리를 약간 숙인 자세를 취하고 있으며, 안색은 양호함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds without rale or wheezing."
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      tenderness_epigastrium: false
+      # 필요한 신체진찰 소견을 추가
+      tenderness_l_spine: "L4-5, L5-S1 부위 압통 있음"
+      straight_leg_raising_test: "오른쪽 30도에서 양성, 왼쪽은 음성"
+  cvat: "좌우 음성"
+  extremity: "오른쪽 발목 및 엄지발가락 신전(dorsiflexion) 시 근력 저하 (Grade 4/5). 우측 종아리 외측 감각 저하 소견 보임. Deep tendon reflex: 양쪽 무릎 반사 정상, 양쪽 발목 반사 정상."
+standardized_patient_questions: "이거 혹시 허리 디스크인가요? 꼭 수술해야만 낫는 건가요? 일을 계속 할 수 있을까요?"
+specific_remarks: "신체 진찰 시 SLR test를 할 때 오른쪽 다리를 들어올리면 엉덩이와 다리가 심하게 당긴다며 인상을 찌푸리고 아파하는 모습을 연기해야 함. 기침을 유도하면 허리가 울린다고 말해야 함."

@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (전정신경염, Vestibular Neuritis)"
+patient_info:
+  name: "김철수"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "어제부터 갑자기 어지럽고 구토가 나서 응급실에 갈까 하다가 왔어요."
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전정신경염"
+    - "소뇌 뇌졸중"
+    - "미로염"
+  necessary_tests:
+    - "신경학적 진찰 (특히 안진, HINTS 검사)"
+    - "청력 검사"
+    - "뇌 MRI (소뇌 병변 감별을 위해)"
+  necessary_treatments:
+    - "수액 공급 및 전해질 교정"
+    - "전정 억제제 및 항구토제 (초기 증상 조절)"
+    - "스테로이드 (발병 초기 염증 감소 목적)"
+    - "전정 재활 치료 (급성기 이후)"
+history:
+  sex_age: "남성/45세"
+  chief_complaint_verbatim: "어제 오후부터 갑자기 세상이 빙빙 돌고, 토할 것 같고, 걸을 수가 없어요."
+  onset: "약 24시간 전"
+  location:
+    initial: "머릿속 전체"
+    current: "머릿속 전체"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "점점 심해지다가 지금은 조금 나아졌지만 여전히 지속됨"
+  course: "어제 발생한 어지럼증이 가만히 있어도 호전되지 않고 하루 종일 지속되었습니다. 구토도 여러 번 했습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "세상이 한쪽으로 도는 듯한 극심한 회전성 어지럼"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "5회 이상, 물만 마셔도 구토함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "머리를 조금이라도 움직이는 것"
+      - "눈을 뜨는 것"
+    alleviating: "눈을 감고 가만히 누워있는 것 (하지만 완전히 사라지진 않음)"
+  health_check_history:
+    last_checkup: "3년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "2주 전 감기 앓았음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "최근 프로젝트 때문에 스트레스가 많았음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2~3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색, 창백하고 식은땀을 흘리며 눈을 감고 있으려 함. 부축 없이는 제대로 서거나 걷기 힘들어함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "다소 건조함"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 약간 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "부종 없음, 근력 정상"
+standardized_patient_questions: "이러다 큰일 나는 거 아니죠? 왜 이렇게 어지러운 건가요? 언제쯤 괜찮아질까요?"
+specific_remarks: "환자는 눈을 뜨면 어지럼이 심해진다며 계속 눈을 감으려고 한다. 의사가 눈을 뜨게 하고 안구 운동을 시키면 수평-회전성의 자발 안진을 보인다 (연기). Romberg test나 보행 시 한쪽으로 심하게 넘어지려는 모습을 보인다. 청력 저하, 복시, 구음장애 등의 다른 신경학적 증상은 없다고 명확히 말해야 한다."

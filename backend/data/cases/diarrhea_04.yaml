@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (궤양성 대장염)"
+patient_info:
+  name: "이현우"
+  age: 30
+  sex: "남성"
+  presenting_complaint: "점액과 피가 섞인 설사"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "염증성 장질환 (궤양성 대장염 의심)"
+    - "감염성 대장염 (세균성, 아메바성 등)"
+    - "허혈성 대장염"
+  necessary_tests:
+    - "대장 내시경 및 조직 검사 (진단을 위해 필수적)"
+    - "혈액 검사 (빈혈, 염증 수치 확인)"
+    - "대변 검사 (감염성 원인 배제)"
+  necessary_treatments:
+    - "항염증제 (5-ASA, 스테로이드)"
+    - "면역 조절제 또는 생물학적 제제 (질병 활성도에 따라)"
+    - "증상 조절 및 영양 지원"
+history:
+  sex_age: "남/30"
+  chief_complaint_verbatim: "한 달 전부터 설사를 하는데, 변에 끈적한 점액이랑 피가 계속 섞여 나와요. 화장실을 다녀와도 시원하지 않아요."
+  onset: "약 1달 전"
+  location:
+    initial: "아랫배"
+    current: "주로 왼쪽 아랫배"
+  duration:
+    onset_pattern: "서서히 발생하여 악화와 호전을 반복"
+    recent_course: "최근 1주일간 증상 악화"
+  course: "한 달 전부터 하루 3-4회 묽은 변을 보기 시작함. 2주 전부터 변에 점액과 선홍색 피가 묻어 나오기 시작했고, 복통이 동반됨. 특히 변을 보고 나서도 계속 변이 마려운 느낌(후중감)이 심함. 최근에는 밤에도 설사 때문에 1-2번씩 깸."
+  experience_prev_episodes:
+    frequency: "없음. 처음 겪는 증상임"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "뒤틀리는 듯한 아랫배 통증과 변의"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3년 전, 특이사항 없음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "마감 스트레스가 잦음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 한 달간 3kg 감소"
+  family_history: "외사촌이 크론병 진단받음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색, 약간 창백해 보임"
+  heent:
+    sclera: "결막 창백 (pale conjunctiva)"
+    oral_mucosa: "정상"
+  chest: "특이사항 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # LLQ에 뚜렷한 압통(definite tenderness)
+  cvat: "음성"
+  extremity: "곤봉지(clubbing) 없음"
+standardized_patient_questions: "왜 피가 멈추지 않는 거죠? 암 같은 나쁜 병일 수도 있나요? 이 병은 평생 가지고 가야 하나요?"
+specific_remarks: "피로하고 기운 없는 모습을 보인다. 후중감(tenesmus)을 설명할 때 '변을 봐도 계속 덜 본 것 같아 불편하다'고 구체적으로 표현한다. 창백한 안색을 연기한다."

@@ -1,0 +1,119 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (대상포진 후 신경통)"
+patient_info:
+  name: "이정숙"
+  age: 72
+  sex: "여성"
+  presenting_complaint: "3개월 전부터 지속되는 우측 옆구리와 등의 타는 듯한 통증"
+vital_signs:
+  blood_pressure: "135/80mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대상포진 후 신경통 (Postherpetic neuralgia)"
+    - "늑간 신경통"
+    - "추간판 탈출증 (흉추)"
+  necessary_tests:
+    - "진단을 위한 특이 검사는 없으며 병력 청취가 가장 중요"
+    - "다른 질환 감별을 위해 흉추 X선 또는 MRI 고려"
+    - "없음"
+  necessary_treatments:
+    - "신경병성 통증 조절 약물 (항경련제, 항우울제)"
+    - "국소 마취제 또는 캡사이신 패치"
+    - "신경 차단술"
+history:
+  sex_age: "여성/72세"
+  chief_complaint_verbatim: "석 달 전에 옆구리에 대상포진 앓았는데, 물집은 다 나았는데도 거기가 계속 불에 데인 것처럼 아파요. 옷만 스쳐도 깜짝 놀라요."
+  onset: "약 3개월 전 (대상포진 발진 소실 후)"
+  location:
+    initial: "오른쪽 등에서 옆구리, 가슴 앞쪽"
+    current: "오른쪽 등에서 옆구리 (피부 분절을 따라)"
+  duration:
+    onset_pattern: "대상포진 회복 후 통증 지속"
+    recent_course: "강도의 변화 없이 지속됨"
+  course: "4개월 전 오른쪽 옆구리에 물집이 생기면서 아파서 피부과에서 대상포진 진단받고 항바이러스제 치료함. 물집과 딱지는 1개월 내에 사라졌으나, 통증은 사라지지 않고 현재까지 계속됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "타는 듯한, 칼로 베는 듯한, 전기가 오는 듯한 통증"
+    nrs_score: "8"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "옷이 스칠 때 (이질통, allodynia)"
+      - "가벼운 접촉에도 통증"
+      - "밤에 더 심해져 수면 장애 유발"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전, 고혈압 진단"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 당뇨약"
+      - "진통제 (효과 없음)"
+    source: "내과"
+    effect: "혈압, 혈당 조절 중"
+  social_history:
+    job: "무직"
+    stress: "통증 때문에 심함"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "통증 때문에 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "20년 전 폐경"
+physical_exam:
+  general: "만성 통증으로 지쳐 보이며, 표정이 어둡고 예민해 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "오른쪽 흉추 8번(T8) 피부 분절을 따라 색소 침착 및 흉터가 관찰됨."
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      allodynia: "해당 피부 분절을 솜으로 가볍게 문지르자 환자가 극심한 통증을 호소함."
+      hyperalgesia: "가벼운 꼬집음에도 과도한 통증 반응을 보임."
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 정상."
+standardized_patient_questions: "병은 다 나았다는데 왜 계속 아픈가요? 언제쯤 안 아파지나요? 밤에 잠을 잘 수가 없어서 너무 힘들어요."
+specific_remarks: "대상포진을 앓았던 병력을 명확하게 이야기해야 함. 가장 중요한 특징인 '이질통(allodynia)'을 잘 연기해야 함. 의사가 진찰을 위해 옷을 걷거나 피부를 만지려고 할 때, '아이고, 스치기만 해도 아파요!'라며 손을 피하거나 깜짝 놀라는 모습을 보여야 함. 통증 때문에 삶의 질이 매우 떨어졌다는 점(수면 장애, 우울감 등)을 호소해야 함."

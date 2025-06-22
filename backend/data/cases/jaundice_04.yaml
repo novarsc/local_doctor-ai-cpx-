@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (알코올성 간염, Alcoholic Hepatitis)"
+patient_info:
+  name: "박상철"
+  age: 49
+  sex: "남성"
+  presenting_complaint: "최근 심해진 황달과 복부 팽만"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "110회/분"
+  respiration: "22회/분"
+  temperature: "38.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올성 간염"
+    - "알코올성 간경변증의 급성 악화"
+    - "자발성 세균성 복막염 동반 가능성"
+  necessary_tests:
+    - "혈액 검사 (간기능, 신장기능, 전해질, 혈액응고, 암모니아)"
+    - "복수 천자 검사 (세포수, 단백질, 배양)"
+    - "복부 초음파"
+  necessary_treatments:
+    - "절대적 금주"
+    - "영양 공급 및 수액 치료"
+    - "필요시 스테로이드 치료 고려"
+    - "이뇨제를 사용한 복수 조절"
+history:
+  sex_age: "남성/49세"
+  chief_complaint_verbatim: "일주일 전부터 눈이랑 피부가 노래지고, 배에 물이 차는 것 같아요. 열도 좀 나고 기운이 하나도 없어요."
+  onset: "약 1주일 전"
+  location:
+    initial: "전신"
+    current: "복부 전반"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "급격히 악화"
+  course: "평소에도 피곤하면 얼굴이 노랗다는 말을 가끔 들었다. 1주일 전부터 황달이 눈에 띄게 심해지고 복수가 차오르기 시작했으며, 미열과 전신 쇠약감이 동반되었다. 최근 2주간 사업 스트레스로 거의 매일 과음하였다."
+  experience_prev_episodes:
+    frequency: "수년 전부터 간수치가 높다는 이야기를 들었음."
+    trigger: "음주 후"
+    symptoms: "피로감, 황달"
+  character_of_symptom:
+    quality: "복부 팽만감과 우상복부의 둔한 통증"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: "체중은 복수 때문에 오히려 늘었음"
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: "진한 갈색"
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "음주"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "알코올성 지방간 진단받았으나 금주 실패"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "자영업 (식당 운영)"
+    stress: "매우 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 2-3병/일"
+    smoking:
+      is_smoker: true
+      amount: "25갑년"
+      cessation_period: ""
+    exercise: "전혀 안 함"
+    recent_weight_change: "근육량 감소, 복수로 인한 체중 증가"
+  family_history: "아버지 간경화로 사망"
+  female_history: ""
+physical_exam:
+  general: "급성 병색. 의식이 다소 처지는 경향(drowsy). 숨을 가쁘게 쉼."
+  heent:
+    sclera: "심한 황달"
+    oral_mucosa: "건조함"
+  chest: "양쪽 가슴에 거미상 혈관종(spider angioma) 3-4개 관찰. 여성형 유방(gynecomastia) 소견."
+  abdomen:
+    inspection: "복부 팽만, 배꼽 주변 정맥 확장(caput medusae) 관찰됨."
+    auscultation: "장음 감소"
+    percussion: "옆구리 쪽으로 이동성 둔탁음(shifting dullness) 양성"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      hepatomegaly: "간이 단단하게 촉진되며 압통 있음."
+  cvat: "좌/우 음성"
+  extremity: "양손에 손바닥 홍반(palmar erythema). 양쪽 발목에 오목 부종(pitting edema) 관찰."
+standardized_patient_questions: "제가 지금 많이 위험한 상태인가요? 술 때문에 이렇게 된 건가요? 이제 술 끊으면 다시 좋아질 수 있을까요?"
+specific_remarks: "만성 간질환의 급성 악화 소견을 명확히 연기한다. 약간 졸린 듯한 모습을 보이고, 질문에 느리게 대답한다. 복수가 찬 것처럼 배를 내밀고 있고, 신체 진찰 시 만성 간질환의 피부 소견(거미상 혈관종, 손바닥 홍반 등)이 나타나도록 분장한다."

@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (폐쇄성 수면 무호흡증)"
+patient_info:
+  name: "최강민"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "심한 코골이와 주간 졸림"
+vital_signs:
+  blood_pressure: "148/94mmHg"
+  pulse: "76회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐쇄성 수면 무호흡증 (Obstructive Sleep Apnea)"
+    - "기면증"
+    - "만성피로증후군"
+  necessary_tests:
+    - "수면다원검사 (Polysomnography)"
+    - "갑상선 기능 검사, 혈당 검사"
+    - "심전도 및 심장초음파"
+  necessary_treatments:
+    - "체중 감량 및 생활습관 교정 (금주, 금연)"
+    - "양압기(CPAP) 치료"
+    - "고혈압 관리"
+history:
+  sex_age: "남성/52"
+  chief_complaint_verbatim: "아내가 제가 자다가 숨을 멈춘다고 해서 걱정이 돼서 왔어요. 낮에는 너무 졸려서 운전하다가도 깜빡 졸아요."
+  onset: "수년 전부터 코골이는 있었으나, 주간 졸림은 1-2년 전부터 심해짐"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 6개월간 주간 졸림이 매우 심해짐"
+  course: "젊을 때부터 코를 골았지만, 체중이 늘면서 소리가 더 커지고 '컥컥'거리다가 숨을 안 쉬는 것 같다는 말을 아내에게 자주 들음. 아침에 일어나도 개운하지 않고 머리가 아픔."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "참을 수 없는 주간 졸림, 아침 두통, 집중력 저하"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음주 후 취침"
+      - "바로 누워 잘 때"
+    alleviating: "옆으로 누워 잘 때 (아내의 말에 의하면)"
+  health_check_history:
+    last_checkup: "3년 전, 고혈압 전단계, 고지혈증 소견"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (약물 복용 중단 상태)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "과거 혈압약 복용했으나, 증상 없어 자의로 중단함"
+    source: "내과"
+    effect: "복용 당시 혈압 조절되었음"
+  social_history:
+    job: "개인택시 기사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일 (30갑년)"
+      cessation_period: "해당 없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 5년간 15kg 증가"
+  family_history: "아버지가 고혈압, 당뇨로 치료받으셨음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "비만한 체형 (BMI 31kg/m²), 목이 짧고 굵음"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "구강 인두 시진 시 연구개가 늘어져 있고 편도가 비대함 (Mallampati class IV)"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "복부 비만"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "경미한 족부 함요 부종 (pitting edema grade 1)"
+standardized_patient_questions: "코골이가 그렇게 위험한 건가요? 수술하면 안되나요? 양압기는 평생 써야 하나요?"
+specific_remarks: "환자는 목소리가 다소 잠겨있고, 대화 중 하품을 자주 하는 등 피곤한 모습을 연기한다. 아내가 '숨을 멈춘다'고 한 말을 매우 중요하게 전달한다."

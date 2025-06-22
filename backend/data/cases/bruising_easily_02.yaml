@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (재생불량성 빈혈)"
+patient_info:
+  name: "이현우"
+  age: 24
+  sex: "남성"
+  presenting_complaint: "한 달 전부터 쉽게 피곤하고 어지러우며 멍이 잘 듦"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "재생불량성 빈혈 (Aplastic Anemia)"
+    - "급성 백혈병"
+    - "골수이형성증후군"
+  necessary_tests:
+    - "전혈구 검사 및 말초혈액 도말 검사 (범혈구감소증 확인)"
+    - "망상적혈구 수 측정"
+    - "골수 생검 및 흡인"
+  necessary_treatments:
+    - "면역억제 치료 (항흉선세포글로불린, 사이클로스포린)"
+    - "조혈모세포 이식"
+    - "수혈 등 보존적 치료"
+history:
+  sex_age: "남성/24세"
+  chief_complaint_verbatim: "한 달 넘게 너무 피곤하고 계단만 올라도 숨이 차요. 별로 부딪힌 것 같지도 않은데 팔다리에 자꾸 멍이 생깁니다."
+  onset: "약 1~2개월 전"
+  location:
+    initial: "전신 피로감, 팔다리 멍"
+    current: "전신 증상 지속"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 일주일 사이 어지럼증이 심해지고 잇몸 출혈도 생김"
+  course: "초기에는 피로감만 있었으나, 점차 어지럼증, 숨찬 증상이 동반되었고, 2주 전부터는 멍이 쉽게 들기 시작함. 최근에는 감기에도 자주 걸리는 것 같음."
+  experience_prev_episodes:
+    frequency: "처음 겪는 일"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "창백함, 활동 시 호흡곤란, 통증 없는 멍, 점상출혈"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "계단 오르기 등 신체 활동"
+    alleviating: "휴식 (피로감만 약간 호전)"
+  health_check_history:
+    last_checkup: "군 입대 신체검사 (4년 전), 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "페니실린 알러지 (두드러기)"
+  medication_history:
+    taken:
+      - "최근 감기 기운이 있어 약국에서 종합감기약 며칠 복용"
+    source: "약국"
+    effect: "별 효과 없었음"
+  social_history:
+    job: "대학생 (휴학 중)"
+    stress: "취업 문제로 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2~3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: ""
+    exercise: "최근 피곤해서 거의 못 함"
+    recent_weight_change: "2kg 감소 (식욕 부진으로)"
+  family_history: "특이 가족력 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 창백하고, 기운 없어 보이는 모습."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "창백함. 잇몸에 경미한 출혈 소견 보임."
+  chest: "호흡음 정상. 심계항진 (tachycardia) 소견. 심잡음 없음."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"간, 비장, 림프절 촉진되지 않음.\""
+  cvat: "좌우 음성"
+  extremity: "양 팔과 다리에 여러 개의 오래된 듯한, 새로운 듯한 자색반이 혼재함. 손톱 밑에 선상출혈(splinter hemorrhage) 관찰됨. 부종 없음."
+standardized_patient_questions: "이렇게 피곤하고 멍드는 게 그냥 빈혈 때문인가요? 아니면 더 큰 병일 수도 있나요? 치료하면 괜찮아지나요?"
+specific_remarks: "환자는 힘이 없고 목소리가 작다. 질문에 느리게 대답하며, 병이 심각할까봐 걱정하는 기색이 역력하다. 림프절 비대나 간/비장 비대가 없다는 점을 명확히 연기해야 한다."

@@ -1,0 +1,117 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (과민성 장 증후군 - 변비형)"
+patient_info:
+  name: "최민준"
+  age: 32
+  sex: "남성"
+  presenting_complaint: "배변과 연관된 복통과 변비"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "76회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "과민성 장 증후군 - 변비형 (IBS-C)"
+    - "기능성 변비"
+    - "염증성 장질환 초기"
+  necessary_tests:
+    - "혈액검사 (CBC, 염증 수치)"
+    - "대변 검사 (잠혈, 칼프로텍틴)"
+    - "필요시 대장 내시경"
+  necessary_treatments:
+    - "스트레스 관리 및 심리적 안정"
+    - "저포드맵(Low-FODMAP) 식이요법 시도"
+    - "증상 조절을 위한 약물 치료 (진경제, 하제 등)"
+history:
+  sex_age: "남/32"
+  chief_complaint_verbatim: "몇 년 전부터 아랫배가 살살 아프고 변비가 있어요. 꼭 중요한 일이 있을 때 더 심해져요. 변을 보고 나면 통증은 좀 나아져요."
+  onset: "약 3년 전"
+  location:
+    initial: "하복부"
+    current: "하복부"
+  duration:
+    onset_pattern: "간헐적 발생"
+    recent_course: "최근 프로젝트 때문에 스트레스 받으면서 악화됨"
+  course: "3년 전부터 하복부 통증과 변비가 반복되었다. 통증은 쥐어짜는 듯한 양상으로, 배변 후에는 완화되는 특징이 있다. 평소에는 3~4일에 한 번 변을 보며, 스트레스를 받으면 일주일까지 길어진다. 변비와 설사가 번갈아 나타나지는 않는다."
+  experience_prev_episodes:
+    frequency: "월 2-3회 악화"
+    trigger: "스트레스, 시험, 중요한 발표"
+    symptoms: "복통, 변비, 잔변감"
+  character_of_symptom:
+    quality: "쥐어짜는 듯한 통증"
+    nrs_score: "5-6 (악화 시)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "기름진 음식 섭취"
+    alleviating: "배변 후"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "편두통"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "금융업"
+    stress: "업무 강도 높고 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: ""
+    exercise: "주 1회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "다소 불안해 보임"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      diffuse_mild_tenderness: true
+      no_palpable_mass: true
+  cvat: "좌우 음성"
+  extremity: "정상"
+standardized_patient_questions: "이거 신경성인가요? 왜 스트레스만 받으면 배가 아프고 화장실을 못 갈까요? 완치는 안되는 병인가요?"
+specific_remarks: "환자는 자신의 증상이 스트레스와 관련 있다는 것을 인지하고 있으며, 이로 인해 업무에 지장을 받는 것에 대해 좌절감을 표현한다. 질문에 답할 때 말을 빨리 하는 경향이 있다."

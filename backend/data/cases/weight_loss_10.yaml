@@ -1,0 +1,116 @@
+---
+chapter: "전신"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (악성 림프종)"
+patient_info:
+  name: "윤태현"
+  age: 29
+  sex: "남성"
+  presenting_complaint: "3개월간의 원인 불명 발열, 야간 발한, 그리고 8kg의 체중 감소"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "98회/분"
+  respiration: "18회/분"
+  temperature: "38.3℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "악성 림프종"
+    - "전신성 결핵 (속립성 결핵)"
+    - "아급성 심내막염"
+    - "성인형 스틸병"
+  necessary_tests:
+    - "림프절 조직검사 (절제생검)"
+    - "흉부 및 복부 CT, PET-CT"
+    - "골수 검사"
+    - "혈액검사 (LDH, ESR, CRP)"
+  necessary_treatments:
+    - "조직검사 결과 및 병기에 따른 항암화학요법"
+    - "필요시 방사선 치료 병행"
+    - "치료 부작용 관리에 대한 교육"
+history:
+  sex_age: "남/29"
+  chief_complaint_verbatim: "몇 달째 이유 없이 열이 나고 밤에 식은땀을 너무 흘려서 잠을 못 자요. 살도 많이 빠지고 온몸이 가려워요."
+  onset: "약 3개월 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "악화"
+  course: "3개월 전부터 감기처럼 열이 나기 시작했는데, 해열제를 먹으면 잠시 떨어졌다가 다시 올랐다. 특히 밤에 옷이 흠뻑 젖을 정도로 식은땀을 흘렸다. 입맛이 없어 체중이 줄었고, 최근에는 특별한 피부 발진 없이 온몸이 가려운 증상이 생겼다. 얼마 전부터 목에 멍울이 만져진다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "B증상 (발열, 야간발한, 체중감소) 및 전신 소양증"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음주 후 림프절 통증 (드물지만 특징적)"
+    alleviating: "해열제 복용 시 일시적 해열"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "타이레놀 (필요시)"
+    source: "약국"
+    effect: "일시적으로 열만 떨어짐"
+  social_history:
+    job: "대학원생"
+    stress: "높음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 1-2캔. 최근 마신 후 목의 멍울이 아파서 안 마심."
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 못함"
+    recent_weight_change: "3개월간 8kg 감소 (75kg -> 67kg)"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "열이 있어 보이고 지쳐 보임. 전반적으로 창백함."
+  heent:
+    sclera: "결막 창백함."
+    oral_mucosa: "정상"
+  chest: "특이소견 없음"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 좌상복부에서 비장(spleen)이 2cm 정도 촉지되고 약간의 압통이 있음 (splenomegaly).
+  cvat: "좌우 음성"
+  extremity: "좌측 쇄골상부(supraclavicular)와 양측 경부(cervical)에 2-3cm 크기의, 단단하고 고무 같으며(rubbery), 움직이지 않는 림프절이 여러 개 만져짐. 압통은 없음."
+standardized_patient_questions: "단순한 염증 아니에요? 왜 조직검사까지 해야 하나요?", "림프종이면 혈액암인가요? 치료는 많이 힘든가요?"
+specific_remarks: "환자는 지속되는 증상에 대해 지쳐있으며, '암'일 가능성에 대해 두려워한다. 음주 후 목의 멍울이 아팠던 경험을 구체적으로 질문하면 대답해준다. 림프절 촉진 시 여러 곳에서 만져지는 것을 확인시켜 주는 것이 중요하다."

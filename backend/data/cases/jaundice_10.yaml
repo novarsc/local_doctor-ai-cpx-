@@ -1,0 +1,112 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (급성 B형 간염, Acute Hepatitis B)"
+patient_info:
+  name: "최민규"
+  age: 30
+  sex: "남성"
+  presenting_complaint: "황달과 극심한 피로감"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 B형 간염"
+    - "급성 A형 또는 C형 간염"
+    - "약물 유인성 간손상"
+  necessary_tests:
+    - "혈액 검사 (간기능, B형 간염 표지자 HBsAg/anti-HBc IgM)"
+    - "다른 간염 바이러스 표지자 검사"
+    - "혈액응고 검사 (PT/INR)"
+  necessary_treatments:
+    - "대부분 대증 요법으로 호전되므로 휴식과 영양 공급이 중요"
+    - "전격성 간염으로 진행 시 항바이러스제 치료 및 간이식 고려"
+    - "전파 방지를 위한 교육 (혈액, 체액 접촉 주의)"
+history:
+  sex_age: "남성/30세"
+  chief_complaint_verbatim: "2주 전부터 너무 피곤하고 입맛이 없더니, 며칠 전부터 소변이 진해지고 눈이 노래졌어요. 온몸에 힘이 하나도 없어요."
+  onset: "피로감은 2주 전, 황달은 4일 전"
+  location:
+    initial: "전신"
+    current: "전신, 우상복부 불편감"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "황달이 발생하며 증상 심화"
+  course: "특별한 이유 없이 2주 전부터 극심한 피로감과 식욕부진, 구역감이 시작되었다. 4일 전 황달과 진한 소변이 나타났고, 관절통과 피부 발진이 동반되었다가 사라졌다. B형 간염 예방접종 여부는 잘 모른다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "우상복부의 뻐근한 느낌"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "간헐적"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "진한 노란색"
+    other: "황달 발생 전, 양쪽 무릎과 손목에 관절통과 함께 붉은 피부 발진이 며칠간 있다가 사라짐"
+  factors:
+    aggravating:
+      - "활동 시"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "기억 없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "헬스 트레이너"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "매일"
+    recent_weight_change: "없음"
+    sexual_history: "최근 3개월 내 새로운 파트너와 성관계 있었음. 콘돔은 사용하지 않음."
+  family_history: "어머니가 B형 간염 보균자"
+  female_history: ""
+physical_exam:
+  general: "급성 병색, 피곤해 보임"
+  heent:
+    sclera: "뚜렷한 황달"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "정상"
+    percussion: "간 타진 시 압통"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      hepatomegaly: "간이 부드럽게 2cm 촉진됨"
+  cvat: "좌/우 음성"
+  extremity: "피부 황달 외 특이 소견 없음."
+standardized_patient_questions: "B형 간염은 어떻게 걸리는 건가요? 저 때문에 다른 사람한테 옮길 수도 있나요? 앞으로 만성으로 남게 되나요?"
+specific_remarks: "A형 간염과 유사하지만, 전구 증상으로 '관절통과 피부 발진'이 있었음을 강조한다. 문진 시 '어머니가 B형 간염 보균자'라는 가족력과 '최근 안전하지 않은 성관계'라는 위험 요인을 자연스럽게 말한다. 이는 수직감염 또는 성접촉 감염 가능성을 시사한다."

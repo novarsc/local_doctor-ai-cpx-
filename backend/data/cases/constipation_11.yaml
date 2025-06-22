@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (당뇨병성 자율신경병증)"
+patient_info:
+  name: "이순자"
+  age: 68
+  sex: "여성"
+  presenting_complaint: "오래된 당뇨와 조절되지 않는 변비"
+vital_signs:
+  blood_pressure: "130/80mmHg (앉아서), 105/70mmHg (일어서서)"
+  pulse: "88회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "당뇨병성 자율신경병증으로 인한 위장관 운동장애"
+    - "기능성 변비"
+    - "약물 부작용"
+  necessary_tests:
+    - "혈액검사 (HbA1c, 신기능, 전해질)"
+    - "자율신경 기능 검사 (기립성 저혈압 등)"
+    - "위 배출 시간 검사 또는 대장 통과 시간 검사"
+  necessary_treatments:
+    - "엄격한 혈당 조절"
+    - "변비에 대한 단계적 약물 치료 (하제, 위장관 운동 촉진제)"
+    - "기립성 저혈압에 대한 교육 및 관리"
+history:
+  sex_age: "여/68"
+  chief_complaint_verbatim: "당뇨 앓은 지 20년이 넘었는데, 몇 년 전부터 변비가 너무 심해서 약을 먹어도 시원찮아요. 가끔은 속이 더부룩하고 토할 것 같고, 일어설 때 핑 돌기도 해요."
+  onset: "약 3-4년 전"
+  location:
+    initial: "복부, 전신"
+    current: "복부, 전신"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점차 악화"
+  course: "20년 전 진단받은 제2형 당뇨병 환자로, 혈당 조절이 잘 되지 않았다. 3-4년 전부터 변비가 시작되어 현재는 1주일에 한 번 정도 간신히 변을 본다. 변비와 함께 식후 복부 팽만감, 조기 포만감, 오심이 자주 동반된다. 최근에는 앉았다 일어설 때 눈앞이 캄캄해지는 어지럼증을 자주 느낀다."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "더부룩함, 어지러움"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔 소화 안 된 음식물 구토"
+      constipation: true
+      diarrhea: "가끔 변비 후 설사가 나타남"
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후 (더부룩함)"
+      - "자세 변경 시 (어지럼증)"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3개월 전 내분비내과"
+    endoscopy_finding: "2년 전 위내시경: 만성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "제2형 당뇨병, 고혈압, 당뇨병성 망막병증, 당뇨병성 신증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "메트포르민, DPP-4 억제제, 인슐린 주사"
+      - "ARB (혈압약)"
+      - "스타틴"
+    source: "내분비내과 처방"
+    effect: "HbA1c 최근 8.5%로 조절 불량"
+  social_history:
+    job: "주부"
+    stress: "적음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "매일 30분 걷기"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "만성 병색"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      no_tenderness: true
+  cvat: "좌우 음성"
+  extremity: "양쪽 발의 진동 및 온도 감각 저하. 발에 상처나 궤양 없음."
+  # 자율신경 검사
+  orthostatic_vitals: "기립 시 수축기 혈압 25mmHg, 이완기 혈압 10mmHg 감소하며 어지럼증 호소"
+standardized_patient_questions: "당뇨 합병증이 이렇게 무서운 건가요? 변비도 당뇨 때문이라니... 평생 이렇게 살아야 하나요? 방법이 없나요?"
+specific_remarks: "환자는 오랜 투병 생활에 지친 기색이 역력하다. 자신의 여러 증상들이 모두 당뇨와 관련이 있다는 사실에 좌절감과 무력감을 느낀다. 기립성 저혈압 측정 시 실제로 어지러워하며 잠시 주저앉는다."

@@ -1,0 +1,115 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (임신 오조)"
+patient_info:
+  name: "최유리"
+  age: 24
+  sex: "여성"
+  presenting_complaint: "계속되는 구토와 체중 감소"
+vital_signs:
+  blood_pressure: "90/60mmHg"
+  pulse: "110회/분"
+  respiration: "20회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "임신 오조 (Hyperemesis Gravidarum)"
+    - "바이러스성 위장관염"
+    - "갑상선 기능 항진증"
+  necessary_tests:
+    - "소변 케톤 검사"
+    - "전해질 및 신기능 검사"
+    - "갑상선 기능 검사 (TSH, free T4)"
+  necessary_treatments:
+    - "수액 및 전해질 공급 (정맥 주사)"
+    - "비타민 보충 (특히 티아민)"
+    - "진토제 투여 및 입원 치료"
+history:
+  sex_age: "여성/24세"
+  chief_complaint_verbatim: "임신 9주차인데, 입덧이 너무 심해서 물만 마셔도 토해요. 살도 계속 빠지고 너무 힘들어서 왔어요."
+  onset: "임신 6주차부터 시작되어 1주 전부터 급격히 악화"
+  location:
+    initial: "위장관"
+    current: "위장관, 전신"
+  duration:
+    onset_pattern: "점진적 시작 후 급격한 악화"
+    recent_course: "지난 1주일간 하루에 10번 이상 구토함"
+  course: "처음에는 일반적인 입덧인 줄 알고 참았으나, 점점 심해져 아무것도 먹지 못하고 체중이 줄어들어 탈수 증상이 나타나 내원함."
+  experience_prev_episodes:
+    frequency: "없음 (첫 임신)"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "음식 냄새만 맡아도 발생하는 심한 구역감과 멈추지 않는 구토"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true # 임신 전보다 4kg 감소
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "섭취하는 모든 것을 토함. 때로는 위액까지 토함."
+      constipation: true # 며칠간 변을 못 봄
+      diarrhea: false
+      heartburn: true
+      urine_color_change: true # 소변 색이 진해짐
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "모든 음식 섭취 시도"
+      - "특정 냄새 (음식, 향수)"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "임신 6주차 확인"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "-"
+    effect: "-"
+  social_history:
+    job: "대학생"
+    stress: "증상으로 인한 스트레스 극심"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "전혀 못함"
+    recent_weight_change: "최근 3주간 4kg 감소"
+  family_history: "언니가 첫째 임신 때 입덧으로 입원한 적 있음"
+  female_history: "G1P0, LMP: 약 2개월 전, EDC: 31주 후, 임신 9주. 초음파상 단태아 확인됨."
+physical_exam:
+  general: "매우 지쳐 보이고 쇠약함. 급성 병색."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "very dry" # 구강 점막 매우 건조
+  chest: "Tachycardia. 호흡음 정상."
+  abdomen:
+    inspection: "배가 약간 들어가 보임"
+    auscultation: "장음 감소"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 전반적으로 부드러우나 상복부 불편감 호소
+  cvat: "음성/음성"
+  extremity: "피부 탄력성 감소 (skin turgor 감소). 부종 없음."
+standardized_patient_questions: "이거 그냥 입덧 아닌가요? 왜 이렇게까지 심한 거죠? 아기는 괜찮을까요? 언제쯤 나아지나요?"
+specific_remarks: "환자는 매우 힘들어하며, 말하는 중간에도 구역질을 하는 시늉을 한다. 탈수 증상(건조한 입술, 기운 없는 목소리)을 명확히 표현한다. 체중이 감소한 것에 대해 큰 불안감을 나타낸다."

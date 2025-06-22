@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (폐경 증후군)"
+patient_info:
+  name: "오미숙"
+  age: 51
+  sex: "여성"
+  presenting_complaint: "얼굴이 갑자기 화끈거리고 불안해요."
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐경 증후군 (갱년기 증상)"
+    - "불안장애"
+    - "갑상선기능항진증"
+  necessary_tests:
+    - "혈중 FSH, LH, 에스트라디올 농도 측정"
+    - "갑상선 기능 검사 (TFT)"
+    - "불안/우울 척도 검사"
+  necessary_treatments:
+    - "생활 습관 개선 (운동, 식이요법)"
+    - "호르몬 대체 요법 (HRT) 상담 및 고려"
+    - "비호르몬성 약물 치료 (SSRI 등)"
+history:
+  sex_age: "여성/51"
+  chief_complaint_verbatim: "요즘 하루에도 몇 번씩 갑자기 얼굴이 확 달아오르면서 땀이 나요. 그럴 때마다 심장도 두근거리고 괜히 불안해져요. 밤에도 더워서 자꾸 깨니까 너무 피곤해요."
+  onset: "약 6개월 전"
+  location:
+    initial: "얼굴, 상체"
+    current: "얼굴, 상체 및 전신적 불안감"
+  duration:
+    onset_pattern: "하루 수 회, 불규칙적으로 발생"
+    recent_course: "빈도와 강도가 증가하는 추세"
+  course: "6개월 전부터 가끔 얼굴이 화끈거리는 증상(안면홍조)이 있었음. 최근 3개월 사이 증상이 심해져 밤에 식은땀을 흘리며 잠에서 깨는 일이 잦아짐(야간 발한). 이로 인해 수면의 질이 저하되고, 낮 동안 피로감과 함께 감정 기복이 심해지고 불안감을 자주 느낌."
+  experience_prev_episodes:
+    frequency: "하루 5-10회"
+    trigger: "스트레스, 더운 환경, 매운 음식"
+    symptoms: "안면홍조, 발한, 심계항진"
+  character_of_symptom:
+    quality: "갑자기 몸에서 열이 치솟는 느낌, 이와 동반되는 불안감"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "긴장할 때"
+      - "따뜻한 실내에 있을 때"
+    alleviating: "찬 바람을 쐬거나 시원한 물을 마시면 조금 나아짐"
+  health_check_history:
+    last_checkup: "1년 전 국가검진, 골감소증 소견 들음"
+    endoscopy_finding: "2년 전 위내시경, 위염 소견"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "골감소증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합비타민, 칼슘제"
+    source: "자비 구매"
+    effect: "잘 모르겠음"
+  social_history:
+    job: "식당 운영"
+    stress: "있는 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 1병"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "따로 하지 않음"
+    recent_weight_change: "최근 1년간 3kg 증가"
+  family_history: "어머니가 갱년기 증상으로 고생하셨음"
+  female_history: "LMP 8개월 전. 지난 2년간 생리 주기가 매우 불규칙했음."
+physical_exam:
+  general: "다소 지쳐 보이며, 면담 중 얼굴이 붉어지는 모습이 관찰됨."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds, regular heart beat"
+  abdomen:
+    inspection: "soft, obese"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+standardized_patient_questions: "제가 왜 이러는 걸까요? 나이 먹어서 그런 건가요? 이걸 갱년기라고 하나요? 치료하면 좋아질 수 있나요?"
+specific_remarks: "환자는 자신의 증상이 '갱년기'일 것이라고 어렴풋이 짐작하고 있지만, 동시에 불안 증상 때문에 다른 심각한 병이 아닐까 걱정한다. 안면홍조가 나타날 때의 불편함과 당혹스러움을 생생하게 표현한다. 호르몬 치료의 부작용에 대해 막연한 두려움을 가지고 있다."

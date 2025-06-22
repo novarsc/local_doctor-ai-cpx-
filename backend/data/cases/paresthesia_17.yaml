@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "17"
+title: "실전 모의 증례 (근위축성 측삭 경화증)"
+patient_info:
+  name: "이상현"
+  age: 56
+  sex: "남성"
+  presenting_complaint: "1년 전부터 손에 힘이 빠지고 말이 어눌해짐"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "78회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "근위축성 측삭 경화증 (Amyotrophic lateral sclerosis, ALS)"
+    - "다초점성 운동 신경병증 (Multifocal motor neuropathy)"
+    - "경추 척수증 (Cervical myelopathy)"
+  necessary_tests:
+    - "근전도/신경전도검사 (상위/하위 운동신경세포 손상 증거 확인)"
+    - "뇌 및 척추 MRI (다른 질환 배제 목적)"
+    - "폐기능 검사"
+  necessary_treatments:
+    - "릴루졸(Riluzole) 투여"
+    - "대증적 치료 (물리치료, 언어치료, 영양관리)"
+    - "호흡 보조 및 위루관 삽입술 (진행 시)"
+history:
+  sex_age: "남성/56"
+  chief_complaint_verbatim: "1년 전부터 왼손에 힘이 빠져서 젓가락질이 안되더니, 이젠 양쪽 팔다리에 힘이 없고 근육이 실룩거려요. 말도 자꾸 혀가 꼬이고 어눌해집니다."
+  onset: "약 1년 전"
+  location:
+    initial: "왼손"
+    current: "양팔, 양다리, 혀, 목"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "지속적으로 악화"
+  course: "1년 전 왼손의 힘이 약해져 글씨 쓰기가 어려워짐. 6개월 전부터는 오른손과 양쪽 다리에도 힘이 빠지기 시작했고, 팔과 다리 근육이 저절로 꿈틀거리는 것이 보임. 3개월 전부터 발음이 어눌해지고 음식을 삼킬 때 사레가 자주 들림. 감각은 멀쩡한데 힘만 계속 빠짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "근육이 마르고 힘이 빠지는 느낌"
+    nrs_score: "0 (통증 없음)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "모든 움직임"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "고등학교 교사"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "등산이 취미였으나 최근엔 못 함"
+    recent_weight_change: "지난 1년간 7kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적인 근위축으로 수척해 보임. 구음장애(dysarthria)가 있어 말이 어눌함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+    # 추가 진찰: 혀의 근위축과 근섬유다발수축(fasciculation) 관찰됨. 연구개 상승 약화.
+  chest: "호흡이 얕음. 청진상 특이소견 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "상하지 전반에 걸쳐 근위축과 근섬유다발수축 관찰. 상지 근력 현저히 저하(MRC 2-3/5), 하지 근력 저하(MRC 4/5). 심부건반사 전반적으로 항진. 양측 바빈스키 징후 양성. 감각 검사는 모든 양상에서 정상."
+standardized_patient_questions: "왜 감각은 멀쩡한데 힘만 빠지는 건가요? 인터넷에서 찾아보니 루게릭병 증상이랑 비슷한 것 같은데, 맞나요? 치료 방법이 없는 병인가요?"
+specific_remarks: "환자는 병에 대해 스스로 많이 찾아본 상태로, '루게릭병'이라는 단어를 직접 언급하며 의사의 반응을 살핀다. 말이 어눌하지만 자신의 상태를 논리적으로 설명하려고 노력한다. 팔, 다리, 혀 등에서 근육이 꿈틀거리는 것을 직접 보여준다. 예후에 대한 두려움과 절망감을 내비치지만, 겉으로는 담담한 척 행동한다."

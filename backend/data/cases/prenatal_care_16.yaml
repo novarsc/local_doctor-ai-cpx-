@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (임신성 급성 지방간)"
+patient_info:
+  name: "안지혜"
+  age: 29
+  sex: "여성"
+  presenting_complaint: "심한 구역, 구토 및 황달"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "임신성 급성 지방간 (Acute Fatty Liver of Pregnancy, AFLP)"
+    - "HELLP 증후군"
+    - "바이러스성 간염"
+  necessary_tests:
+    - "간기능 검사, 신기능 검사, 혈액응고 검사(PT/aPTT)"
+    - "혈당 검사, 혈중 암모니아 검사"
+    - "바이러스성 간염 표지자 검사"
+  necessary_treatments:
+    - "응급 입원 및 중환자실 치료 고려"
+    - "즉각적인 분만 결정 (가장 중요한 치료)"
+    - "저혈당, 응고장애, 신부전에 대한 보존적 치료"
+history:
+  sex_age: "여성/29세"
+  chief_complaint_verbatim: "임신 36주차인데, 며칠 전부터 속이 너무 안 좋고 토하더니, 어제부터는 눈 흰자위랑 얼굴이 노랗게 변했어요."
+  onset: "약 5일 전부터 구역, 구토 시작, 황달은 1일 전 발생"
+  location:
+    initial: "상복부, 전신"
+    current: "상복부, 전신"
+  duration:
+    onset_pattern: "점진적으로 시작하여 급격히 악화"
+    recent_course: "지난 24시간 동안 증상이 매우 심해짐"
+  course: "처음에는 소화불량이나 입덧이 다시 시작된 줄 알았다. 하지만 구역, 구토가 멈추지 않고, 극심한 피로감과 명치 통증이 동반되었다. 어제 아침 남편이 얼굴과 눈이 노랗다고 해서 거울을 보고 놀라 병원에 왔다. 소변 색도 콜라색처럼 진해졌다."
+  experience_prev_episodes:
+    frequency: "없음 (초산)"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "지속적인 구역, 구토, 상복부 통증, 심한 피로감, 황달"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "하루 5-6회, 담즙 섞인 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: true # 짙은 갈색 또는 콜라색
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+    other: "전신 소양감, 두통 동반"
+  factors:
+    aggravating:
+      - "음식 섭취 시"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2주 전, 특이사항 없었음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "-"
+    effect: "-"
+  social_history:
+    job: "디자이너 (휴직 중)"
+    stress: "증상으로 인한 극심한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "못함"
+    recent_weight_change: "임신 후 11kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "G1P0, LMP: 약 9개월 전, EDC: 4주 후, 임신 36주"
+physical_exam:
+  general: "급성 병색. 매우 지쳐 보이며, 의식이 약간 처지는 경향을 보임 (drowsy)."
+  heent:
+    sclera: "icteric" # 공막 황달
+    oral_mucosa: "dry"
+  chest: "Tachycardia. 호흡음 정상."
+  abdomen:
+    inspection: "임신 36주에 합당한 크기. 피부에 황달 소견 보임."
+    auscultation: "장음 감소"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: true # 상복부 및 우상복부 압통
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "pitting edema (1+) on ankles. 피부에 황달 소견."
+standardized_patient_questions: "제가 왜 갑자기 이렇게 된 건가요? 간이 나빠진 건가요? 지금 바로 아기를 낳아야 한다고요? 아기와 저, 둘 다 무사할 수 있을까요?"
+specific_remarks: "환자는 심각한 상태임을 연기해야 한다. 목소리에 힘이 없고, 질문에 대한 반응이 약간 느리며, 혼란스러워하는 모습을 보인다. 황달(노란 피부와 눈)과 짙은 소변색을 명확히 진술한다. 상복부 통증을 호소하며, 의사가 진단의 심각성과 응급 분만의 필요성을 설명할 때 큰 충격과 불안감을 표현해야 한다."

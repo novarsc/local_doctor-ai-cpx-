@@ -1,0 +1,118 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "32"
+title: "실전 모의 증례 (디스크 내장증)"
+patient_info:
+  name: "윤성호"
+  age: 35
+  sex: "남성"
+  presenting_complaint: "오래 앉아 있으면 심해지는 만성적인 허리 통증"
+vital_signs:
+  blood_pressure: "125/75mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "디스크 내장증 (Internal disc disruption)"
+    - "만성 요추 염좌"
+    - "초기 후관절 증후군"
+  necessary_tests:
+    - "요추 MRI (퇴행성 변화, high intensity zone 등 관찰)"
+    - "진단적 디스크 조영술 (Provocative discography)"
+    - "없음"
+  necessary_treatments:
+    - "자세 교정 및 코어 근육 강화 운동"
+    - "약물 치료"
+    - "보존적 치료 실패 시 경막외 스테로이드 주사, 디스크 내 고주파 열치료, 수술적 유합술 고려"
+history:
+  sex_age: "남성/35세"
+  chief_complaint_verbatim: "허리가 끊어질 것처럼 아파요. 특히 의자에 30분만 앉아 있어도 엉덩이까지 뻐근해서 일어서야 해요."
+  onset: "약 2년 전"
+  location:
+    initial: "허리 중앙"
+    current: "허리 중앙 깊은 곳"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "지속적으로 삶의 질을 저하시킴"
+  course: "특별한 계기 없이 시작된 허리 통증. 다리로 뻗치는 방사통은 없으나, 허리 중앙의 깊은 통증이 매우 심함. 여러 병원에서 진찰받았으나 뚜렷한 진단을 받지 못함."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: "앉아있는 자세"
+    symptoms: "비슷한 양상"
+  character_of_symptom:
+    quality: "쑤시고 묵직한 축성 통증 (axial pain)"
+    nrs_score: "7 (앉아 있을 때)"
+    radiation: "없음. 가끔 엉덩이가 뻐근한 느낌은 있음."
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 앉아 있기"
+      - "허리를 앞으로 숙일 때"
+      - "운전할 때"
+    alleviating: "서거나 걸을 때, 누워있을 때"
+  health_check_history:
+    last_checkup: "1년 전, MRI 찍었으나 '약간의 퇴행성 변화 외 특이 소견 없음'이라고 들음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제"
+    source: "의원"
+    effect: "별 효과 없음"
+  social_history:
+    job: "은행원"
+    stress: "많은 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "없음"
+    exercise: "헬스 (통증으로 쉬는 중)"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강해 보이나, 앉아있는 자세를 불편해 함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      spinal_exam: "요추 중앙 부위에 깊은 압통이 있으나, 신경학적 검사는 모두 정상임. 허리를 앞으로 숙이는 동작에서 통증이 심해짐."
+      straight_leg_raising_test: "음성"
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 (근력, 감각, 반사) 모두 정상."
+standardized_patient_questions: "MRI에서도 괜찮다는데 왜 이렇게 앉아있기가 힘들죠? 허리 디스크랑은 다른 건가요? 평생 이렇게 살아야 하나요?"
+specific_remarks: "전형적인 디스크 탈출증과 달리, 다리 방사통이나 신경학적 결손이 없다는 점을 강조해야 함. 오직 '앉는 행위'에 의해 유발되는 극심한 축성 통증(axial pain)이 핵심 증상임을 명확히 전달해야 함. 신체 진찰 소견이 환자가 호소하는 통증의 강도에 비해 매우 경미하다는 불일치를 보여야 함. '차라리 서서 일하고 싶다'고 말하는 등 앉는 것에 대한 고통을 구체적으로 표현해야 함."

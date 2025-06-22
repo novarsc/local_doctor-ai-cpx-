@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (요로결석)"
+patient_info:
+  name: "이수진"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "3시간 전부터 갑자기 시작된 극심한 좌측 옆구리 통증과 혈뇨"
+vital_signs:
+  blood_pressure: "145/95mmHg"
+  pulse: "110회/분"
+  respiration: "24회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "요로결석 (가장 의심)"
+    - "급성 신우신염"
+    - "난소 낭종 염전 또는 파열 (감별 필요)"
+  necessary_tests:
+    - "소변 검사 (혈뇨 확인)"
+    - "복부 X-ray (KUB) 및 비조영 복부 CT (결석 위치 및 크기 확인)"
+    - "혈액 검사 (신기능, 염증 수치 확인)"
+  necessary_treatments:
+    - "통증 조절 (비스테로이드성 소염진통제 주사)"
+    - "수분 공급 (수액 치료)"
+    - "결석 크기 및 위치에 따른 치료 (자연 배출 유도, 체외충격파쇄석술, 요관경하배석술 등)"
+history:
+  sex_age: "여성/35세"
+  chief_complaint_verbatim: "자다가 갑자기 왼쪽 옆구리가 칼로 찌르는 것처럼 아파서 깼어요. 화장실 가니 소변에서 피가 나와서 너무 놀라서 응급실로 왔어요."
+  onset: "3시간 전"
+  location:
+    initial: "왼쪽 옆구리"
+    current: "왼쪽 옆구리에서 사타구니 쪽으로 뻗치는 느낌"
+  duration:
+    onset_pattern: "갑자기 발생 (abrupt onset)"
+    recent_course: "통증이 아주 심했다가 약간 나아지는 듯하다가 다시 심해지는 것이 반복됨"
+  course: "자다가 갑자기 통증으로 깼으며, 통증 때문에 가만히 있을 수가 없어 계속 몸을 뒤척이게 됩니다. 메스꺼운 느낌도 동반됩니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "칼로 찌르는 듯한, 쥐어짜는 듯한 통증 (colicky pain)"
+    nrs_score: "9-10/10"
+    radiation: "왼쪽 아랫배와 사타구니 쪽으로 방사"
+  associated_symptoms:
+    systemic:
+      fever: true # 미열
+      chills: true
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "한 번 구토함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true # 선홍색
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "가만히 있어도 아픔"
+    alleviating: "없음. 자세를 바꿔도 호전되지 않음."
+  health_check_history:
+    last_checkup: "1년 전 직장 검진, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "필라테스 주 2회"
+    recent_weight_change: "없음"
+  family_history: "아버지가 요로결석으로 치료받은 적 있음"
+  female_history: "LMP: 2주 전, 규칙적"
+physical_exam:
+  general: "통증으로 안절부절못하며 식은땀을 흘리고 있음 (in acute distress)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 정상. 빈호흡 보임."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 감소"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # Left flank and left lower quadrant tenderness 있음, 반발 압통은 없음
+  cvat: "좌측 양성 (left side positive), 우측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "왜 이렇게 아픈 건가요? 빨리 안 아프게 해주세요. 돌이 있다는데 수술해야 하나요?"
+specific_remarks: "통증이 너무 심해서 말을 길게 하기 힘들어한다. 옆구리를 붙잡고 계속 자세를 바꾸려고 시도한다. 진찰 시 왼쪽 옆구리를 건드리면 비명을 지를 정도로 아파한다."

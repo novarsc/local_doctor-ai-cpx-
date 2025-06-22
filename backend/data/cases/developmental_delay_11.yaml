@@ -1,0 +1,116 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (취약 X 증후군)"
+patient_info:
+  name: "한지훈"
+  age: 8
+  sex: "남성"
+  presenting_complaint: "말이 어눌하고 산만하며 학습이 부진함"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "85회/분"
+  respiration: "20회/분"
+  temperature: "36.6℃"
+examinee_instructions: "아이가 학습 능력이 떨어지고 행동 문제가 있다는 주소로 내원한 보호자의 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "취약 X 증후군"
+    - "주의력결핍 과잉행동장애(ADHD) 및 지적 장애"
+    - "자폐 스펙트럼 장애"
+  necessary_tests:
+    - "유전자 검사 (FMR1 유전자 반복 서열 분석)"
+    - "지능 검사 및 발달 평가"
+    - "가족(특히 어머니)에 대한 유전 상담 및 검사 고려"
+  necessary_treatments:
+    - "특수 교육 및 개별화 교육 계획(IEP) 수립"
+    - "언어 치료, 작업 치료, 행동 치료"
+    - "ADHD, 불안 등 동반 증상에 대한 약물 치료 고려"
+history:
+  sex_age: "남성/8세"
+  chief_complaint_verbatim: "(보호자) 아이가 학교 수업을 전혀 따라가지 못해요. 가만히 앉아 있지를 못하고, 친구들과 자주 다퉈요. 말도 빠르고 횡설수설하는 경향이 있어요."
+  onset: "유아기부터 발달이 전반적으로 늦었음"
+  location:
+    initial: "인지, 언어, 사회성"
+    current: "인지, 언어, 사회성"
+  duration:
+    onset_pattern: "지속적"
+    recent_course: "초등학교 입학 후 학습 부진과 행동 문제가 더욱 두드러짐"
+  course: "걸음마나 말문이 트이는 것이 또래보다 1년 가까이 늦었다. 유치원 때부터 산만하고 충동적인 모습을 보였다. 사람들과 눈을 잘 마주치지 않고, 낯선 상황을 매우 불안해한다. 손을 흔들거나 물어뜯는 등 반복적인 행동을 보이기도 한다. 현재 한글도 제대로 읽고 쓰지 못한다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "새롭거나 시끄러운 환경"
+    alleviating: "익숙한 환경, 혼자 있을 때"
+  health_check_history:
+    last_checkup: "1년 전 학교 건강검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "재발성 중이염, 편평족"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "초등학생"
+    stress: "사회적 상황에서 불안감 높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "운동 협응력 부족"
+    recent_weight_change: "없음"
+  family_history: "외삼촌이 어릴 때부터 학습이 부진하고 사회성이 부족했다고 함."
+  female_history: "해당 없음"
+physical_exam:
+  general: "키는 큰 편이나, 마른 체형. 진료 중 눈맞춤을 피하고 안절부절못하는 모습을 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    face: "길고 좁은 얼굴, 돌출된 턱과 이마"
+    ears: "크고 돌출된 귀 (prominent ears)"
+  chest: "청진상 특이 소견 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "관절의 과신전(joint hyperextensibility) 관찰됨. 편평족(flat feet)."
+  genitalia: "나이에 비해 고환이 커 보임 (macroorchidism)."
+standardized_patient_questions: "취약 X 증후군이 뭔가요? 유전병이면 동생한테도 영향이 있을까요? 앞으로 학교 생활은 어떻게 해야 하죠? 완치는 안 되나요?"
+specific_remarks: "보호자는 아이의 문제가 단순히 산만해서가 아니라 병일 수 있다는 사실에 놀라면서도, 한편으로는 그동안의 어려움에 대한 설명을 듣는 듯한 반응을 보인다. 유전 질환이라는 설명에 가족력과 연관지어 생각하며 걱정한다."

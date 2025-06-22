@@ -1,0 +1,110 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "7/24"
+title: "실전 모의 증례 (반응성 관절염)"
+patient_info:
+  name: "김민재"
+  age: 25
+  sex: "남성"
+  presenting_complaint: "무릎, 발목 통증과 눈의 충혈, 소변 볼 때 불편감"
+vital_signs:
+  blood_pressure: "120/70mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "반응성 관절염"
+    - "임질성 관절염"
+    - "강직성 척추염 초기"
+  necessary_tests:
+    - "소변 검사 (소변 PCR 검사 - 클라미디아 등)"
+    - "혈액 검사 (ESR, CRP, HLA-B27)"
+    - "안과 검진, 관절액 검사 (필요시)"
+  necessary_treatments:
+    - "원인균에 대한 항생제 치료"
+    - "관절염에 대한 비스테로이드성 소염제"
+    - "증상이 심할 경우 스테로이드나 항류마티스 약제 고려"
+history:
+  sex_age: "남성/25세"
+  chief_complaint_verbatim: "2주 전부터 무릎이랑 발목이 붓고 아파요. 며칠 전부터는 눈도 빨갛고, 소변 볼 때 요도 끝이 좀 아픈 것 같아요. 얼마 전에 장염도 심하게 앓았어요."
+  onset: "관절통은 2주 전, 다른 증상은 1주 전부터"
+  location:
+    initial: "오른쪽 무릎"
+    current: "오른쪽 무릎, 왼쪽 발목"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "다른 관절로 옮겨가는 양상"
+  course: "3주 전 설사를 심하게 한 이후, 일주일쯤 지나 갑자기 무릎이 아프기 시작했고, 이후 발목 통증, 눈 충혈, 배뇨통이 차례로 나타남."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "욱신거리고 붓는 느낌"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "걷거나 움직일 때"
+    alleviating: "휴식"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제"
+    source: "약국"
+    effect: "별 효과 없음"
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "농구 동아리 활동"
+    recent_weight_change: "설사로 2kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "미열이 있고 불편해 보임"
+  heent:
+    sclera: "양쪽 눈 결막 충혈(conjunctivitis) 관찰됨"
+    oral_mucosa: "혀에 지도 모양의 병변(geographic tongue) 약간 보임"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 약간 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "오른쪽 무릎과 왼쪽 발목에 부종, 압통, 열감 있음 (비대칭적 소수 관절염). 관절 운동 제한됨. 오른쪽 아킬레스건 부착 부위에도 약간의 압통 있음."
+standardized_patient_questions: "장염 때문에 관절염이 생길 수도 있나요? 눈병에 소변 문제까지... 무슨 큰 병에 걸린 건 아닌지 걱정돼요."
+specific_remarks: "환자는 선행 감염(설사)과 현재 증상들(관절염, 결막염, 요도염)의 연관성을 전혀 인지하지 못하고, 각각 다른 문제라고 생각해야 함. 여러 곳이 동시다발적으로 아픈 것에 대한 불안감을 표현한다."

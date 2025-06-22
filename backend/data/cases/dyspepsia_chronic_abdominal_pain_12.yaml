@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (전신경화증)"
+patient_info:
+  name: "이지현"
+  age: 49
+  sex: "여성"
+  presenting_complaint: "오래된 속쓰림과 음식물 삼키기 어려움"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전신경화증 (Systemic sclerosis)에 의한 위장관 침범"
+    - "위식도 역류질환 (중증)"
+    - "식도이완불능증 (Achalasia)"
+  necessary_tests:
+    - "류마티스 인자 및 항핵항체(ANA), 항-Scl-70 항체 등 자가항체 검사"
+    - "식도 내압 검사 (Esophageal manometry)"
+    - "상부위장관 내시경"
+  necessary_treatments:
+    - "류마티스내과 협진 및 면역억제제 치료 고려"
+    - "위식도 역류 증상 조절 (고용량 양성자 펌프 억제제)"
+    - "피부, 폐, 신장 등 다른 장기 침범 여부 평가 및 관리"
+history:
+  sex_age: "여성/49"
+  chief_complaint_verbatim: "몇 년째 속이 너무 쓰리고 신물이 넘어와요. 요즘엔 음식을 삼키면 목에 걸리는 느낌이 들고, 손가락 끝이 딱딱해지고 하얗게 변해요."
+  onset: "소화불량은 5-6년 전부터, 삼킴곤란은 1년 전, 손가락 증상은 2년 전부터"
+  location:
+    initial: "상복부, 가슴"
+    current: "가슴, 목, 손가락"
+  duration:
+    onset_pattern: "점진적 발병 및 악화"
+    recent_course: "모든 증상이 점점 심해지는 추세"
+  course: "만성 진행성"
+  experience_prev_episodes:
+    frequency: "거의 매일"
+    trigger: "음식 섭취, 추운 날씨(손가락 증상)"
+    symptoms: "속쓰림, 삼킴곤란, 레이노 현상"
+  character_of_symptom:
+    quality: "타는 듯한 속쓰림, 음식이 걸리는 느낌"
+    nrs_score: "7 (속쓰림)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "눕는 자세 (속쓰림)"
+      - "고형식 (삼킴곤란)"
+      - "추위 노출 (손가락)"
+    alleviating: "제산제 (일시적 효과)"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "당시 역류성 식도염이 심하다고 들었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "양성자 펌프 억제제 (PPI), 혈압약"
+    source: "동네 내과"
+    effect: "PPI를 먹어도 속쓰림이 완전히 조절되지 않음"
+  social_history:
+    job: "꽃집 운영"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 1년 전"
+physical_exam:
+  general: "표정이 다소 굳어있고, 입 주변에 미세한 주름이 보임"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "fine crackles at both lung bases"
+  abdomen:
+    inspection: "flat, symmetric"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      no_specific_tenderness: true
+  cvat: "좌/우 음성"
+  extremity: "skin thickening and tightening of the fingers (sclerodactyly), small ulcers on fingertips, telangiectasias on hands and face"
+standardized_patient_questions: "그냥 위가 안 좋은 줄 알았는데, 왜 손가락까지 이상한가요? 이 병들이 다 관련이 있는 건가요? 치료는 가능한가요?"
+specific_remarks: "환자는 소화기 증상(심한 GERD, 삼킴곤란)과 함께 전신 질환을 시사하는 단서를 제공한다. 특히 추위에 노출 시 손가락이 하얗게, 파랗게, 빨갛게 변하는 레이노 현상(Raynaud's phenomenon)을 명확히 설명해야 한다. 신체 진찰 시 손가락 피부가 두꺼워지고 뻣뻣한 소견(sclerodactyly), 모세혈관확장증(telangiectasia), 폐 기저부의 수포음(fine crackles) 등 전신경화증의 특징적인 소견을 보인다."

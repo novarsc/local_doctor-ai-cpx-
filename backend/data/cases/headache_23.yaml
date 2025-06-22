@@ -1,0 +1,112 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "23"
+title: "실전 모의 증례 (원발 찌름 두통)"
+patient_info:
+  name: "조은지"
+  age: 36
+  sex: "여성"
+  presenting_complaint: "머리를 송곳으로 찌르는 듯한 순간적인 통증이 반복됨"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "72회/분"
+  respiration: "14회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "원발 찌름 두통 (Primary Stabbing Headache, '송곳 두통')"
+    - "삼차신경통"
+    - "두피 신경의 신경병성 통증"
+  necessary_tests:
+    - "대부분 임상 진단으로 충분함"
+    - "다른 두통(특히 편두통) 동반 여부 확인"
+    - "증상이 한 부위에만 고정되어 나타나거나 신경학적 이상 동반 시, 해당 부위의 구조적 이상 감별 위해 뇌 MRI 고려"
+  necessary_treatments:
+    - "통증이 짧고 예측 불가능해 급성기 치료는 비효과적임. 환자 안심이 중요."
+    - "발작이 매우 빈번할 경우 예방적 약물 치료 (인도메타신 등) 시도"
+    - "기저 질환인 편두통이 있다면, 이를 잘 조절하는 것이 중요"
+history:
+  sex_age: "여성/36"
+  chief_complaint_verbatim: "가만히 있다가도 갑자기 머리 한 군데를 송곳으로 푹 찌르는 것처럼 아파요. 정말 깜짝 놀랄 정도로 아픈데, 금방 사라져요. 이게 하루에도 몇 번씩 그래요."
+  onset: "약 2개월 전"
+  location:
+    initial: "머리 여기저기"
+    current: "주로 오른쪽 눈 주변이나 정수리 부근. 통증 부위가 계속 바뀜."
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "불규칙하게, 하루에도 여러 번 나타남"
+  course: "예고 없이 갑자기 찌르는 통증이 1~3초간 지속되다 완전히 사라짐. 하루에 1번에서 많게는 10번 이상 발생."
+  experience_prev_episodes:
+    frequency: "불규칙적"
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "현재와 동일"
+  character_of_symptom:
+    quality: "송곳이나 얼음송곳으로 찌르는 듯한 날카로운 통증"
+    nrs_score: "순간적으로 8-9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    neurological:
+      autonomic_symptoms: "없음"
+      background_headache: "원래 편두통이 가끔 있음. 이 찌르는 통증은 편두통과는 전혀 다른 양상임."
+  factors:
+    aggravating:
+      - "없음. 완전히 예측 불가능함."
+    alleviating: "없음. 통증이 너무 짧아서 대처할 시간이 없음."
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "편두통 (1년에 3-4회)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "편두통 발작 시 수마트립탄 복용"
+    source: "신경과 처방"
+    effect: "찌르는 두통에는 효과 없음"
+  social_history:
+    job: "은행원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 2회 수영"
+    recent_weight_change: "없음"
+  family_history: "어머니 편두통"
+  female_history: "LMP: 1주 전, 규칙적"
+physical_exam:
+  general: "급성 병색 없음. 통증 발작에 대한 불안감을 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  neurology:
+    # Neurological exam is entirely normal
+    mental_status: "Alert and oriented"
+    cranial_nerves: "정상"
+    motor_sensory_reflexes: "정상"
+    scalp_sensation: "통증 부위를 포함하여 두피 감각 정상"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "이렇게 갑자기 찌르는 건 뇌혈관에 문제가 있는 신호인가요? 너무 아파서 깜짝깜짝 놀라는데, 이거 위험한 병은 아닌가요? 왜 이런 통증이 생기는 거죠?"
+specific_remarks: "환자는 통증의 '순간적인' 특성과 '찌르는' 양상을 강조한다. 통증이 너무 짧아서 약을 먹을 수도 없다고 말한다. 통증이 나타나는 위치가 매번 조금씩 다르다는 것을 설명한다. 진찰 중에는 증상이 없으며, 신체 진찰 및 신경학적 검사는 완전히 정상이다. 질병 자체의 위험성보다 통증이 갑자기 나타나는 것에 대한 불안감이 크다."

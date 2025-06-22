@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (주요우울장애, 불안형 동반)"
+patient_info:
+  name: "강지수"
+  age: 48
+  sex: "여성"
+  presenting_complaint: "모든 게 불안하고 기운이 하나도 없어요."
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "84회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "주요우울장애 (불안형 동반)"
+    - "범불안장애"
+    - "갑상선기능저하증"
+  necessary_tests:
+    - "정신건강의학과적 심층 면담"
+    - "우울/불안 척도 검사 (PHQ-9, GAD-7)"
+    - "갑상선 기능 검사, 비타민D, B12 검사"
+  necessary_treatments:
+    - "약물 치료 (SSRI 또는 SNRI)"
+    - "정신치료 (지지적 정신치료, 인지행동치료)"
+    - "환경 조정 및 지지체계 강화"
+history:
+  sex_age: "여성/48"
+  chief_complaint_verbatim: "두어 달 전부터 괜히 불안하고 초조해요. 예전엔 즐거웠던 일도 다 재미없고, 밥맛도 없고, 기운이 하나도 없어서 하루 종일 누워만 있고 싶어요. 내가 뭘 잘못하고 있나, 앞으로 어떻게 살아야 하나 걱정만 돼요."
+  onset: "약 2개월 전"
+  location:
+    initial: "정신적 (우울감, 불안감)"
+    current: "전신적 (무기력감, 흥미 상실)"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 2주간 특히 심해짐"
+  course: "두 달 전부터 매사에 의욕이 없고 즐거움을 느끼지 못함(anhedonia). 잠들기 어렵고 새벽에 일찍 깨서 다시 잠들지 못함. 식욕이 떨어져 밥을 거의 먹지 못해 체중이 감소함. 사소한 일에도 불안하고, 집중력이 떨어져 드라마 내용도 눈에 들어오지 않음. 최근에는 '내가 없어져야 가족들이 편할 텐데'라는 생각까지 듦."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "바닥으로 가라앉는 듯한 우울감, 안절부절못하는 불안감"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "false"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "혼자 있을 때"
+      - "아침에 일어났을 때 (일중 변동)"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "주부"
+    stress: "최근 자녀의 대학 입시 문제로 스트레스가 많았음."
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "예전엔 주 3회 수영을 했으나, 최근 두 달간 가지 못함"
+    recent_weight_change: "최근 2개월간 4kg 감소"
+  family_history: "언니가 우울증으로 치료받은 적 있음"
+  female_history: "폐경 1년 전 (Menopause, 47세)"
+physical_exam:
+  general: "우울한 표정, 기운 없어 보임. 정신운동 지체(psychomotor retardation) 소견 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat and scaphoid"
+    auscultation: "hypoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+standardized_patient_questions: "제가 왜 이렇게 무기력할까요? 나이 탓인가요? 이 불안감은 없어질 수 있을까요? 혹시 죽고 싶다는 생각이 드는 것도 병인가요?"
+specific_remarks: "환자는 목소리가 작고 말이 느리며, 시선을 잘 마주치지 않는다. 표정이 거의 없고 감정 표현이 억제되어 보인다. 자살 사고에 대해 질문하면, 처음에는 망설이다가 '그런 생각을 한 적이 있다'고 조심스럽게 털어놓는다. 자신의 상태를 질병으로 인식하기보다는 의지박약이나 성격 문제로 자책하는 경향을 보인다."

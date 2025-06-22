@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (외상 후 스트레스 장애)"
+patient_info:
+  name: "최현우"
+  age: 30
+  sex: "남성"
+  presenting_complaint: "교통사고 이후 불안하고 잠을 못 자요."
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "92회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "외상 후 스트레스 장애 (PTSD)"
+    - "급성 스트레스 장애 (증상 기간 고려)"
+    - "범불안장애"
+  necessary_tests:
+    - "정신건강의학과적 심층 면담"
+    - "PTSD 평가 척도 (CAPS 등)"
+    - "수면다원검사 (필요시)"
+  necessary_treatments:
+    - "정신치료 (지속적 노출 치료, 안구운동 민감소실 및 재처리 요법(EMDR))"
+    - "약물 치료 (SSRI, Prazosin 등)"
+    - "지지 집단 참여 권유"
+history:
+  sex_age: "남성/30"
+  chief_complaint_verbatim: "두 달 전에 빗길에 차가 미끄러지는 사고를 당했어요. 다행히 크게 다치진 않았는데, 그날 이후로 운전대만 잡으면 사고 장면이 자꾸 떠올라서 불안하고, 밤에는 악몽 때문에 계속 깨요."
+  onset: "2개월 전 교통사고 직후"
+  location:
+    initial: "정신적"
+    current: "정신적, 행동적"
+  duration:
+    onset_pattern: "사고 후 수일 내 시작"
+    recent_course: "증상이 호전되지 않고 지속됨"
+  course: "사고 후 1-2주간은 괜찮을 거라 생각했으나, 사고 장면이 의지와 상관없이 불쑥 떠오르는 '플래시백' 현상이 생김. 자동차 경적 소리만 들어도 깜짝 놀라며 심장이 뜀. 사고와 관련된 생각이나 장소를 피하려고 노력하게 됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "사고 장면의 재경험, 극심한 불안, 과도한 각성 상태"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "운전하려고 할 때"
+      - "TV에서 교통사고 장면을 볼 때"
+      - "자동차 경적 소리를 들을 때"
+    alleviating: "집에 혼자 조용히 있을 때. 하지만 그때도 문득문득 생각이 남."
+  health_check_history:
+    last_checkup: "1년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "2개월 전 교통사고 (빗길 단독사고, 차량 반파, 본인은 경추 염좌 진단)"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "사고 후 2주간 근이완제, 소염진통제 복용"
+    source: "정형외과 처방"
+    effect: "목 통증은 호전됨"
+  social_history:
+    job: "영업직 (운전 필수)"
+    stress: "사고 이후 업무 수행에 어려움을 겪어 스트레스가 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "과거 주 2-3회, 사고 후 잠들기 위해 거의 매일 소주 반 병씩 마심"
+      amount: "소주 0.5병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "N/A"
+    exercise: "사고 후 거의 못함"
+    recent_weight_change: "최근 2개월간 2kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "전반적으로 지쳐 보이고 긴장된 모습. 면담 중 가끔 먼 곳을 응시함."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and pink"
+  chest: "clear breath sounds without wheezing or rale"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no pitting edema or tremor"
+standardized_patient_questions: "다친 곳도 없는데 왜 이럴까요? 제 의지가 약해서 그런 건가요? 다시는 운전 못하게 될까 봐 무서워요."
+specific_remarks: "환자는 사고에 대한 이야기를 할 때 목소리가 떨리거나 잠시 말을 멈춘다. 감정적으로 둔감해진 듯한 모습을 보이다가도, 특정 단어(예: 빗길, 브레이크)에 과민하게 반응하며 깜짝 놀라는 모습을 연기한다. 술에 의존하게 된 것에 대해 죄책감을 표현한다."

@@ -1,0 +1,109 @@
+---
+chapter: "상담"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (태아 알코올 증후군 상담)"
+patient_info:
+  name: "이수진"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "임신 중 음주에 대한 상담"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "환자는 임신 8주차 산모입니다. 임신 사실을 모르고 마신 술 때문에 태아에게 문제가 생길까 걱정되어 내원했습니다. 환자의 불안에 공감하며 병력을 청취하고, 임신 중 음주의 위험성과 향후 관리(완전한 금주)에 대해 교육하고 상담하시오."
+patient_education:
+  probable_diagnoses:
+    - "임신 초기 음주 노출에 대한 불안"
+    - "고위험 임신 (음주력으로 인한)"
+    - "(진단명이 아닌 상담 주제) 태아 알코올 증후군 예방"
+  necessary_tests:
+    - "정밀 초음파 등 정기적인 산전 기형아 검사"
+    - "산모의 알코올 문제에 대한 선별 검사 (CAGE 등)"
+    - "산모 영양 상태 평가"
+  necessary_treatments:
+    - "임신 기간 전체에 걸친 완전한 금주 (가장 중요)"
+    - "임신 중 음주 문제에 대한 지속적인 상담 및 지지"
+    - "균형 잡힌 영양 섭취 및 엽산 등 필수 영양제 복용"
+history:
+  sex_age: "여성/31세"
+  chief_complaint_verbatim: "제가 임신인 줄 모르고 술을 좀 마셨는데... 혹시 아기한테 문제가 생길까 봐 너무 걱정돼서 왔어요."
+  onset: "1주 전 임신 확인 후"
+  location:
+    initial: "정신적 불안"
+    current: "정신적 불안"
+  duration:
+    onset_pattern: "지속적"
+    recent_course: "인터넷을 찾아보고 불안감이 더 커짐"
+  course: "생리가 늦어져 테스트기로 확인해보니 임신이었고, 병원에서 8주차 진단을 받음. 그런데 임신 4주에서 6주차 사이에 직장 회식과 친구 모임에서 와인과 맥주를 여러 차례 마신 것이 생각나 죄책감과 불안감에 잠을 못 이룰 정도임."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "불안, 죄책감"
+    nrs_score: "없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "입덧 있음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+  factors:
+    aggravating:
+      - "혼자 있을 때"
+      - "인터넷 검색"
+    alleviating: "남편과 대화할 때"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "특이사항 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "디자이너"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "와인 1-2잔 또는 맥주 2-3캔 (임신 전)"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가 (임신 전)"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "초산, LMP 8주 전. 임신 8주 1일."
+physical_exam:
+  general: "매우 불안해 보이며, 눈물을 글썽임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "제가 마신 술 때문에 우리 아기가 기형아가 되는 건가요? 얼마나 마셔야 위험한가요? 지금부터라도 술을 완전히 끊으면 괜찮을까요?"
+specific_remarks: "환자는 극심한 죄책감과 불안을 호소하며 감정적인 모습을 보임. 의사는 환자의 감정을 먼저 공감하고 지지해주는 것이 중요함. '안전한 음주량은 없다'는 사실과 지금부터라도 완전한 금주를 하는 것이 태아에게 할 수 있는 최선임을 명확하고 희망적으로 전달해야 함. 과거의 음주를 비난하기보다 미래의 건강한 임신 유지에 초점을 맞춰 상담을 진행해야 함."

@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (크론병)"
+patient_info:
+  name: "송지훈"
+  age: 26
+  sex: "남성"
+  presenting_complaint: "반복되는 복통과 설사, 체중 감소"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.3℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "염증성 장질환 (크론병 의심)"
+    - "장결핵"
+    - "만성 감염성 장염"
+  necessary_tests:
+    - "대장 내시경 및 조직 검사 (소장 침범 확인 위해 소장 검사도 고려)"
+    - "혈액 검사 (빈혈, 염증, 영양 상태 평가)"
+    - "영상 검사 (복부 CT 또는 MR enterography)"
+  necessary_treatments:
+    - "5-ASA, 스테로이드, 면역 조절제 등 약물 치료"
+    - "영양 요법 (필요시 경장 영양)"
+    - "합병증(협착, 누공 등) 발생 시 수술적 치료 고려"
+history:
+  sex_age: "남/26"
+  chief_complaint_verbatim: "몇 달 전부터 계속 배가 아프고 설사를 해요. 살도 자꾸 빠지고, 최근에는 항문 쪽도 아파요."
+  onset: "약 6개월 전"
+  location:
+    initial: "배꼽 주변"
+    current: "오른쪽 아랫배"
+  duration:
+    onset_pattern: "점진적으로 발생하여 좋아졌다 나빠졌다를 반복"
+    recent_course: "최근 한 달간 복통과 설사 심해짐"
+  course: "6개월 전부터 간헐적으로 배꼽 주변이 아프고 하루 2-3회 묽은 변을 봄. 3개월 전부터는 복통이 주로 오른쪽 아랫배에 국한되고, 식후에 더 심해지는 양상. 설사는 피가 섞이지 않은 물 설사 혹은 묽은 변으로 하루 4-6회 정도. 최근에는 항문 주변에 통증이 있는 작은 종기가 생겼다 없어지기를 반복함."
+  experience_prev_episodes:
+    frequency: "수개월간 지속"
+    trigger: "기름진 음식, 스트레스"
+    symptoms: "복통, 설사, 피로감"
+  character_of_symptom:
+    quality: "쥐어짜는 듯한 통증"
+    nrs_score: "7-8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "가끔 복통 심할 때"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후 (특히 1-2시간 뒤)"
+    alleviating: "자세를 웅크리면 약간 나아짐"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제 (필요시)"
+    source: "약국 구매"
+    effect: "일시적인 통증 완화"
+  social_history:
+    job: "취업준비생"
+    stress: "취업 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 1갑"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "지난 6개월간 8kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색, 체중 감소로 인해 야위어 보임"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "구강 내 아프타성 궤양 2개 발견"
+  chest: "특이사항 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # RLQ에 국한된 압통(localized tenderness)과 함께 약간의 종괴감(slight fullness)이 만져짐
+  cvat: "음성"
+  extremity: "특이사항 없음"
+standardized_patient_questions: "왜 이렇게 살이 빠지는 건가요? 항문이 아픈 거랑 배 아픈 거랑 관련이 있는 건가요? 취업해야 하는데 큰 병이면 어떡하죠?"
+specific_remarks: "오른쪽 아랫배 통증을 구체적으로 표현한다. 의사가 입 안을 볼 때 아프타성 궤양에 대해 언급한다. 체중 감소와 미래에 대한 불안감을 드러낸다. 흡연력을 솔직하게 말한다."

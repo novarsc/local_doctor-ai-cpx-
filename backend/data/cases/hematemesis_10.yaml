@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (유전성 출혈성 모세혈관확장증)"
+patient_info:
+  name: "한지민"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "반복적인 토혈과 어지러움"
+vital_signs:
+  blood_pressure: "100/65mmHg"
+  pulse: "105회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "유전성 출혈성 모세혈관확장증 (HHT, Osler-Weber-Rendu syndrome)에 의한 위장관 출혈"
+    - "원인 불명의 만성 위장관 출혈"
+    - "혈관 이형성증 (Angiodysplasia)"
+  necessary_tests:
+    - "상부위장관 내시경 및 대장 내시경 (모세혈관확장 병변 확인)"
+    - "캡슐 내시경 (소장 병변 확인)"
+    - "유전자 검사 (HHT 확진)"
+  necessary_treatments:
+    - "철분제 투여 및 필요시 수혈을 통한 빈혈 교정"
+    - "활동성 출혈 시 내시경적 아르곤 플라즈마 응고술(APC)"
+    - "베바시주맙 등 표적 치료 고려, 유전 상담"
+history:
+  sex_age: "여성/35세"
+  chief_complaint_verbatim: "어렸을 때부터 코피가 자주 났는데, 몇 년 전부터는 가끔 피를 토하거나 검은 변을 봐요. 오늘은 아침에 피를 좀 토하고 나서 많이 어지러워요."
+  onset: "코피는 어릴 때부터, 토혈 및 흑색변은 3년 전부터"
+  location:
+    initial: "특정 부위 통증 없음"
+    current: "통증 없음"
+  duration:
+    onset_pattern: "간헐적으로 반복"
+    recent_course: "최근 빈도가 잦아짐"
+  course: "어릴 때부터 작은 자극에도 코피가 심하게 났고, 3년 전부터 1년에 2-3번씩 소량의 토혈이나 흑색변을 보는 증상이 나타났다. 그때마다 동네 병원에서 위염이나 스트레스성 출혈이라는 말을 듣고 약을 먹으면 며칠 내로 괜찮아졌다. 오늘은 평소보다 어지럼증이 심해서 내원했다."
+  experience_prev_episodes:
+    frequency: "수차례"
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "코피, 토혈, 흑색변, 어지럼증"
+  character_of_symptom:
+    quality: "통증은 없음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "소량의 선홍색 혈액 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "위내시경에서 '특이 소견 없음' 또는 '경미한 위염' 소견 들음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "만성 철결핍성 빈혈"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "철분제 (간헐적으로 복용)"
+    source: "내과"
+    effect: "먹을 때만 빈혈 수치가 조금 오름"
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "어머니와 언니도 코피를 자주 흘리고 빈혈이 심하다고 함"
+  female_history: "월경량은 보통 수준"
+physical_exam:
+  general: "만성 병색, 피부와 점막이 매우 창백함"
+  heent:
+    sclera: "매우 창백함"
+    oral_mucosa: "입술과 혀에 여러 개의 작고 붉은 반점(모세혈관확장)이 관찰됨"
+  chest: "심박출성 잡음(systolic flow murmur) 청진됨"
+  abdomen:
+    inspection: "이상 없음"
+    auscultation: "장음 정상"
+    percussion: "이상 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: false
+      epigastric_rebound_tenderness: false
+  cvat: "좌우 음성"
+  extremity: "손가락 끝에 여러 개의 붉은 반점(모세혈관확장)이 관찰됨. 곤봉지(clubbing)는 없음."
+standardized_patient_questions: "왜 저는 계속 피가 나는 걸까요? 위내시경은 괜찮다는데... 이게 유전인가요? 제 아이에게도 생길 수 있나요? 완치는 안 되나요?"
+specific_remarks: "환자는 자신의 증상이 단순한 빈혈이나 위염이 아닐 것이라는 의심을 가지고 있다. 의사가 가족력을 물어볼 때 '어머니와 언니도 그렇다'고 중요한 단서를 제공한다. 신체 진찰 시 입술과 손가락의 반점에 대해 질문하면 '어릴 때부터 있었다'고 대답한다. 진단과 유전에 대한 불안감을 표현한다."

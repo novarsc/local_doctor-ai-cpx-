@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (알코올 금단 섬망, Delirium Tremens)"
+patient_info:
+  name: "김철민"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "잠을 못자고 헛것을 보며 난동을 부림"
+vital_signs:
+  blood_pressure: "160/100mmHg"
+  pulse: "130회/분"
+  respiration: "24회/분"
+  temperature: "38.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자 및 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올 금단 섬망 (진전섬망)"
+    - "베르니케 뇌병증"
+    - "패혈증"
+  necessary_tests:
+    - "혈액 검사 (CBC, 전해질, 간기능, 암모니아, 혈중 알코올 농도)"
+    - "심전도"
+    - "독성 물질 스크리닝 검사"
+  necessary_treatments:
+    - "벤조디아제핀(Benzodiazepine) 투여 (예: Lorazepam)"
+    - "수액 및 전해질 보충 (특히 마그네슘, 칼륨)"
+    - "티아민(Thiamine) 예방적 투여"
+history:
+  sex_age: "남성/55세"
+  chief_complaint_verbatim: "남편이 3일 전부터 술을 끊었는데, 어젯밤부터 잠 한숨 안자고 벽에 벌레가 기어다닌다며 소리를 지르고 난리예요."
+  onset: "어젯밤"
+  location:
+    initial: "정신 상태"
+    current: "정신 상태"
+  duration:
+    onset_pattern: "금주 후 급격히 발생"
+    recent_course: "점점 악화"
+  course: "만성 음주자로, 3일 전 심한 복통으로 병원 방문 후 췌장염 진단받고 금주 시작함. 금주 첫날에는 손떨림, 불안, 식은땀 정도만 있었음. 어젯밤부터 잠을 전혀 자지 못하고, 안절부절못하며, "벌레가 온몸을 기어다닌다"고 소리치기 시작함(환촉, 환시). 오늘 아침에는 누가 자기를 죽이려 한다며(피해망상) 문을 잠그고 난동을 부려 119에 신고해 내원."
+  experience_prev_episodes:
+    frequency: "수 년 전 금주 시도 시 비슷한 경험 있었다고 함"
+    trigger: "금주"
+    symptoms: "손떨림, 환각"
+  character_of_symptom:
+    quality: "초조, 환각, 지남력 상실"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밤"
+      - "주변의 자극"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3일 전 내과 방문"
+    endoscopy_finding: "모름"
+  trauma_history: "난동 중 벽에 부딪혀 이마에 멍이 듦"
+  past_medical_history:
+    underlying_disease: "알코올 의존증, 급성 췌장염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "췌장염 관련 약 (진통제 등)"
+    source: "내과 의원"
+    effect: "약을 제대로 복용하지 못함"
+  social_history:
+    job: "자영업"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "매일"
+      amount: "소주 2병 이상"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일"
+      cessation_period: ""
+    exercise: "전혀 안함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "매우 초조하고(agitated) 안절부절못하는 모습. 의사에게 적대적이며, 대화에 집중하지 못함. 시간, 장소 지남력 상실. 전신에 땀을 심하게 흘리고 있음."
+  heent:
+    sclera: "충혈됨"
+    oral_mucosa: "건조함"
+  chest: "심박동과 호흡이 매우 빠름."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "양 손을 앞으로 내밀게 했을 때 심한 진전(tremor) 관찰됨. 사지에 특별한 마비 소견은 없음."
+standardized_patient_questions: "제 남편 왜 이러는 건가요? 술 끊으라고 해서 끊었는데 왜 더 이상해지는 거죠? 이거 위험한 거 아닌가요?"
+specific_remarks: "환자는 극도로 불안하고, 경계심이 많으며, 공격적인 태도를 보인다. 면담 중에도 계속 "저기 벌레 지나간다!", "누가 날 쳐다보고 있어!" 라고 소리친다. 신체 진찰에 비협조적이며, 특히 손떨림이 매우 심한 것을 명확히 연기해야 한다. 보호자인 부인이 주로 대화에 참여한다."

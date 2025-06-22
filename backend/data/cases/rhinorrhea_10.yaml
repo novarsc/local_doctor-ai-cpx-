@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (위축성 비염)"
+patient_info:
+  name: "박끝순"
+  age: 72
+  sex: "여성"
+  presenting_complaint: "코에서 냄새나는 딱지가 생기고 코가 답답함"
+vital_signs:
+  blood_pressure: "140/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "위축성 비염 (오제나)"
+    - "만성 부비동염"
+    - "비강 내 진균 감염"
+  necessary_tests:
+    - "비강 내시경 검사"
+    - "필요 시 세균 및 진균 배양 검사"
+    - "부비동 CT (비강 및 부비동의 구조적 변화 확인)"
+  necessary_treatments:
+    - "주기적인 비강 세척 및 딱지 제거"
+    - "비강 점막의 습도 유지를 위한 글리세린 등 보습제 사용"
+    - "필요 시 국소 또는 전신 항생제 치료"
+history:
+  sex_age: "여성/72"
+  chief_complaint_verbatim: "코 안에 자꾸 마른 코딱지가 크게 생겨. 그걸 파내면 냄새가 너무 심하고 가끔 피도 나. 코는 뻥 뚫린 것 같은데 숨쉬기는 답답해."
+  onset: "수년 전부터"
+  location:
+    initial: "양측 코"
+    current: "양측 코"
+  duration:
+    onset_pattern: "서서히 발생하여 지속됨"
+    recent_course: "겨울철에 건조해서 그런지 더 심해진 것 같음"
+  course: "코가 매우 건조하고, 녹황색의 두꺼운 딱지가 형성됨. 딱지를 제거하면 악취가 나고, 본인은 냄새를 잘 못 맡지만 주변 사람들이 냄새난다고 함. 코막힘을 느끼지만 실제로는 비강이 넓음."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "건조한 환경"
+    symptoms: "코 건조감, 악취나는 가피(딱지), 후각 소실, 코막힘"
+  character_of_symptom:
+    quality: "악취를 동반한 크고 두꺼운 코딱지, 역설적인 코막힘"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "건조한 날씨"
+    alleviating: "생리식염수로 코를 세척하고 딱지를 불려서 제거하면 일시적으로 편안함"
+  health_check_history:
+    last_checkup: "1년 전, 고혈압, 당뇨"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨병"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 당뇨약"
+    source: "내과"
+    effect: "잘 조절 중"
+  social_history:
+    job: "무직"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "매일 30분 걷기"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 20년 전"
+physical_exam:
+  general: "전반적으로 양호한 상태. 환자 주변에서 약간의 불쾌한 냄새가 날 수 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+    # 추가 소견: 비강 내시경 상 양측 비강이 매우 넓어져 있고, 하비갑개가 심하게 위축되어 있음. 비강 점막은 창백하고 건조하며, 점막을 덮고 있는 녹황색의 두껍고 마른 가피(crust)가 관찰됨.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "코에서 왜 이렇게 냄새가 나는 건가요? 저는 냄새를 전혀 못 맡겠는데... 이거 무슨 큰 병은 아닌가요? 완치가 되나요?"
+specific_remarks: "환자는 자신이 냄새를 못 맡는다는 사실을 인지하고 있으며, 주변 사람들의 반응 때문에 위축되어 있다. 코가 답답하다고 호소하지만, 의사가 보기에는 비강이 매우 넓다는 점을 인지하고 있어야 한다."

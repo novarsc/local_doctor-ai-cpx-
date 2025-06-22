@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (당뇨병성 케톤산증, Diabetic Ketoacidosis)"
+patient_info:
+  name: "이수진"
+  age: 22
+  sex: "여성"
+  presenting_complaint: "며칠 전부터 토하고 배가 아프더니 정신을 못 차림"
+vital_signs:
+  blood_pressure: "90/50mmHg"
+  pulse: "125회/분"
+  respiration: "28회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "당뇨병성 케톤산증 (DKA)"
+    - "급성 위장염으로 인한 탈수"
+    - "패혈증"
+  necessary_tests:
+    - "응급 혈당 측정 및 소변 케톤 검사"
+    - "동맥혈가스분석 (ABGA)"
+    - "혈액 검사 (전해질, BUN/Cr)"
+  necessary_treatments:
+    - "신속한 수액 공급 (생리식염수)"
+    - "인슐린 정맥 주사"
+    - "전해질 (특히 칼륨) 보충"
+history:
+  sex_age: "여성/22세"
+  chief_complaint_verbatim: "친구가 3일 전부터 감기몸살인 줄 알고 약을 먹었는데, 어제부터 계속 토하고 배가 아프다고 하더니 오늘은 거의 의식이 없어요."
+  onset: "3일 전"
+  location:
+    initial: "전신, 복부"
+    current: "전신, 복부"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "급격히 악화"
+  course: "3일 전부터 전신 쇠약감과 근육통 시작. 다음, 다뇨 증상 심해짐. 어제부터는 복통과 함께 구토가 심해져 음식, 물 섭취를 거의 못함. 오늘 아침, 룸메이트가 깨웠을 때 의식이 거의 없고 숨을 가쁘게 몰아쉬는 것을 발견하고 119 신고."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "의식 저하, 심한 탈수"
+    nrs_score: 8
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "10회 이상"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "시간 경과"
+      - "음식 섭취"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "모름"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "1년 전 제1형 당뇨병 진단"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "인슐린 주사 (하루 4회)"
+    source: "대학병원 내분비내과"
+    effect: "최근 감기 기운으로 입맛이 없어 식사를 거르면서 인슐린 주사도 맞지 않았다고 함."
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "최근 한달간 4kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 3주 전"
+physical_exam:
+  general: "의식은 혼미(stupor) 상태. 매우 힘겹고 깊고 빠른 호흡(Kussmaul breathing)을 하고 있음. 심한 탈수 소견 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "매우 건조함. 혀가 말라있음."
+    # 호흡 시 과일향/아세톤 냄새가 남.
+  chest: "호흡음은 깨끗하나 호흡이 매우 깊고 빠름. 심박동 빠름."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # 전반적인 복부 압통(diffuse abdominal tenderness)이 있으나 복막 자극 징후는 없음.
+  cvat: "좌/우 음성"
+  extremity: "피부 긴장도(turgor) 매우 저하. 사지 냉감."
+standardized_patient_questions: "친구가 왜 갑자기 이렇게 된 건가요? 당뇨 때문인가요? 인슐린을 안 맞아서 그런 건가요? 위험한 건가요?"
+specific_remarks: "환자는 거의 반응이 없고, 깊고 빠른 숨을 몰아쉬는 것을 연기하는 것이 핵심. 입에서 아세톤 냄새가 나는 것을 표현한다. 심한 탈수 상태(건조한 혀, 움푹 들어간 눈 등)를 보여준다. 룸메이트가 옆에서 병력 진술을 한다."

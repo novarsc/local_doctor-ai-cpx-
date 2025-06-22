@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (급성 부비동염)"
+patient_info:
+  name: "최민수"
+  age: 29
+  sex: "남성"
+  presenting_complaint: "얼굴 앞쪽 통증을 동반한 두통과 누런 콧물"
+vital_signs:
+  blood_pressure: "125/75mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 세균성 부비동염"
+    - "바이러스성 상기도 감염 (감기)"
+    - "긴장형 두통"
+  necessary_tests:
+    - "대부분 임상 증상으로 진단 가능"
+    - "부비동 X-ray 또는 안면부 CT (진단이 불확실하거나 합병증 의심 시)"
+    - "비강 내시경 검사 (농성 분비물 확인)"
+  necessary_treatments:
+    - "항생제 치료 (아목시실린/클라불란산 등)"
+    - "대증 치료: 비강 스테로이드 스프레이, 비충혈 제거제, 진통제"
+    - "생리식염수를 이용한 비강 세척"
+history:
+  sex_age: "남성/29"
+  chief_complaint_verbatim: "일주일 전부터 감기 기운이 있었는데, 며칠 전부터는 양쪽 뺨이랑 이마가 너무 아프고 머리까지 띵해요. 고개를 숙이면 얼굴이 터질 것 같아요."
+  onset: "감기 증상은 1주일 전, 안면통과 두통은 3일 전"
+  location:
+    initial: "코, 목"
+    current: "양측 뺨(상악동), 이마(전두동), 머리 앞부분"
+  duration:
+    onset_pattern: "감기 증상 이후 이차적으로 발생"
+    recent_course: "점점 악화되는 양상"
+  course: "초기 맑은 콧물, 기침에서 누런 콧물, 코막힘, 안면통으로 진행됨"
+  experience_prev_episodes:
+    frequency: "1-2년에 한 번씩 감기 심하게 앓을 때 비슷하게 겪음"
+    trigger: "감기"
+    symptoms: "유사한 안면통 및 두통"
+  character_of_symptom:
+    quality: "얼굴 안쪽이 꽉 찬 듯한 압박감과 둔한 통증"
+    nrs_score: "6"
+    radiation: "윗니까지 뻐근한 느낌이 들 때가 있음"
+  associated_symptoms:
+    systemic:
+      fever: true # 미열
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    # ENT symptoms are key
+    nasal_symptoms:
+      nasal_congestion: true
+      purulent_rhinorrhea: "누렇고 끈적한 콧물"
+      postnasal_drip: "목뒤로 콧물이 넘어가는 느낌"
+      hyposmia: "냄새를 잘 못 맡음"
+    other:
+      cough: "가래 기침"
+      toothache: "윗니 쪽 치통"
+  factors:
+    aggravating:
+      - "고개를 앞으로 숙일 때"
+      - "누울 때"
+    alleviating: "코가 뚫리면 조금 나아지는 느낌"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "알레르기 비염"
+    allergies: "집먼지 진드기"
+  medication_history:
+    taken:
+      - "종합감기약"
+    source: "약국"
+    effect: "별로 효과 없음"
+  social_history:
+    job: "대학원생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 2회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "목소리에 비음이 섞여 있음 (nasal voice). 약간의 미열 있음."
+  heent:
+    # Key ENT findings
+    inspection: "비강 내 점막의 발적 및 부종, 중비도에서 농성 분비물 관찰됨."
+    palpation: "전두동(이마) 및 상악동(뺨) 부위 촉진 시 압통 호소."
+    percussion: "부비동 부위 타진 시 둔탁음 및 통증 유발."
+    oral_mucosa: "인두 후벽에 후비루(postnasal drip) 소견 관찰됨."
+  chest: "호흡음 정상"
+  abdomen: "정상"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "감기가 왜 이렇게 오래가고 머리까지 아플까요? 축농증인가요? 꼭 항생제를 먹어야 하나요? 그냥 두면 저절로 안 낫나요?"
+specific_remarks: "환자는 계속 코를 훌쩍이거나 킁킁거린다. 말을 할 때 코맹맹이 소리를 낸다. 의사가 얼굴(뺨, 이마)을 누를 때 아프다고 반응한다. 고개를 숙여보라고 하면 얼굴에 압력이 차는 것 같다며 불편감을 호소한다. '누런 코'가 나온다는 점을 명확히 말한다."

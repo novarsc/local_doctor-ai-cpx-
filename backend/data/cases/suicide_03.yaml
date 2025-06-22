@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (외상후스트레스장애)"
+patient_info:
+  name: "박준영"
+  age: 35
+  sex: "남성"
+  presenting_complaint: "끔찍한 기억이 자꾸 떠오르고, 살고 싶지 않음"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "외상후스트레스장애 (Post-Traumatic Stress Disorder, PTSD)"
+    - "주요우울장애 (Major Depressive Disorder)"
+    - "범불안장애 (Generalized Anxiety Disorder)"
+  necessary_tests:
+    - "외상후스트레스장애 평가 척도 (CAPS 등)"
+    - "알코올 사용장애 선별검사 (AUDIT-K)"
+    - "수면다원검사 (불면, 악몽 평가)"
+  necessary_treatments:
+    - "안구운동 민감소실 및 재처리 요법(EMDR) 또는 지속노출치료(Prolonged Exposure Therapy)"
+    - "선택적 세로토닌 재흡수 억제제(SSRI) 약물치료"
+    - "자살사고 및 충동 조절을 위한 위기 개입 및 안전 계획 수립"
+history:
+  sex_age: "남성/35세"
+  chief_complaint_verbatim: "1년 전 교통사고 이후로 매일 밤 악몽을 꿔요. 길에서 사이렌 소리만 들어도 심장이 뛰고... 제가 왜 살아야 하는지 모르겠어요. 그냥 그 때 같이 죽었어야 했는데..."
+  onset: "약 1년 전 교통사고 직후부터 서서히 시작"
+  location:
+    initial: "정신적인 고통"
+    current: "정신적인 고통"
+  duration:
+    onset_pattern: "외상 사건 후 발병"
+    recent_course: "악화"
+  course: "1년 전, 동승했던 친구가 사망한 큰 교통사고를 겪음. 이후 사고 장면이 반복적으로 떠오르는 '플래시백'과 악몽에 시달림. 사고를 떠올리게 하는 운전이나 뉴스 시청을 극도로 회피함. 항상 주변을 경계하고 작은 소리에도 깜짝 놀람. 죄책감과 우울감에 시달리다 최근에는 구체적인 자살 방법까지 생각함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "사고 장면에 대한 재경험, 죄책감, 불안, 공포"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "사이렌 소리, 자동차 경적 소리"
+      - "교통사고 관련 뉴스나 영화를 볼 때"
+      - "혼자 있을 때"
+    alleviating: "술을 마실 때 잠시 잊을 수 있음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "1년 전 동승자 사망한 교통사고"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "수면제 (Zolpidem)"
+    source: "개인 의원"
+    effect: "잠은 드는데 악몽은 계속 꿈"
+  social_history:
+    job: "사무직"
+    stress: "극심함"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1-2병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일 (사고 후 늘었음)"
+      cessation_period: ""
+    exercise: "하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "불안해 보이고, 계속 주위를 두리번거림. 대화 중 작은 소음에도 깜짝 놀라는 모습(startle response) 보임."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear breath sounds, tachycardia"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "No edema, sweaty palms"
+standardized_patient_questions: "제가 미친 건가요? 왜 아직도 이런 거죠? 이 기억을 없앨 수는 없나요? 술 없이는 잠을 잘 수가 없는데, 계속 마셔도 되나요?"
+specific_remarks: "과각성 상태를 표현. 질문에 답하다가도 갑자기 먼 곳을 응시하며 사고를 회상하는 듯한 모습을 보임. 죄책감을 표현하며 눈물을 보이고, 자살에 대한 생각을 '친구 곁으로 가고 싶다'는 식으로 표현함."

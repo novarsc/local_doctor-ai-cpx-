@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (불면장애, 정신생리성)"
+patient_info:
+  name: "이가은"
+  age: 34
+  sex: "여성"
+  presenting_complaint: "잠들기가 어렵고 자다가 자주 깸"
+vital_signs:
+  blood_pressure: "128/82mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "불면장애 (Psychophysiological Insomnia)"
+    - "불안장애에 동반된 불면"
+    - "갑상선기능항진증"
+  necessary_tests:
+    - "수면일지 작성"
+    - "갑상선 기능 검사 (TSH, free T4)"
+    - "필요시 수면다원검사"
+  necessary_treatments:
+    - "수면 위생 교육"
+    - "인지행동치료 (CBT-I)"
+    - "단기간 수면제 사용 고려"
+history:
+  sex_age: "여성/34"
+  chief_complaint_verbatim: "밤에 잠을 잘 수가 없어요. 누우면 정신이 더 또렷해지고, 겨우 잠들어도 한두 시간마다 깨요."
+  onset: "약 1년 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 3개월간 거의 매일 밤"
+  course: "처음에는 일주일에 한두 번 그러더니, 점점 심해져서 이제는 잠자는 날을 세는 게 더 빠를 정도예요. 잠자리에 들 시간이 되면 불안해져요."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "잠들기 어렵고(입면 장애), 중간에 자주 깨며(수면 유지 장애), 아침에 너무 일찍 깸"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "잠자리에 누워 잠을 자려고 노력하는 것"
+      - "다음 날 중요한 일이 있을 때"
+    alleviating: "소파에서 TV를 보다가 깜빡 잠들 때"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "약국에서 산 수면유도제 (독실아민)"
+    source: "약국"
+    effect: "처음엔 효과가 좀 있었으나 지금은 거의 없음"
+  social_history:
+    job: "회계사"
+    stress: "업무 스트레스가 많은 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "어머니가 가끔 잠을 잘 못 주무신다고 함"
+  female_history: "LMP: 2주 전, 주기 규칙적"
+physical_exam:
+  general: "다소 피곤하고 불안해 보이는 인상"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조하지 않음"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "제가 불면증이 맞나요? 약 없이도 치료할 수 있나요? 평생 이렇게 살아야 하나요?"
+specific_remarks: "환자는 대화 내내 피곤함을 호소하며, 잠에 대한 걱정과 불안감을 표현한다. 잠 이야기를 할 때면 한숨을 쉬거나 미간을 찌푸리는 모습을 연기한다."

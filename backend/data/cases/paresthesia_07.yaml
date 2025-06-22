@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (다발성 경화증)"
+patient_info:
+  name: "윤세아"
+  age: 29
+  sex: "여성"
+  presenting_complaint: "일주일 전부터 왼쪽 다리에 힘이 빠지고 감각이 둔함"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "다발성 경화증 (Multiple sclerosis)"
+    - "횡단성 척수염 (Transverse myelitis)"
+    - "척수 종양 (Spinal cord tumor)"
+  necessary_tests:
+    - "뇌 및 척수 MRI (조영제 사용)"
+    - "뇌척수액 검사 (Oligoclonal band 확인)"
+    - "시유발전위 검사 (Visual evoked potential)"
+  necessary_treatments:
+    - "급성기 고용량 스테로이드 정맥 주사"
+    - "질병 조절 약물 (인터페론 등) 장기 투여"
+    - "증상 조절 및 재활 치료"
+history:
+  sex_age: "여성/29"
+  chief_complaint_verbatim: "일주일 전부터 갑자기 왼쪽 다리에 힘이 빠져서 절뚝거리게 돼요. 다리 감각도 남의 살 같고, 전기가 오는 것처럼 찌릿해요."
+  onset: "1주일 전"
+  location:
+    initial: "왼쪽 발"
+    current: "왼쪽 다리 전체"
+  duration:
+    onset_pattern: "아급성"
+    recent_course: "지난 며칠간 서서히 악화되다 현재는 정체 상태"
+  course: "일주일 전 아침에 일어났을 때 왼쪽 발이 저리고 무거운 느낌이 들었음. 시간이 지나면서 증상이 허벅지까지 올라왔고, 계단을 오르기 힘들어짐. 며칠 전부터는 샤워할 때 왼쪽 다리에 뜨거운 물이 닿아도 미지근하게 느껴짐. 고개를 숙이면 등 뒤로 전기가 찌릿하고 내려가는 느낌이 있음."
+  experience_prev_episodes:
+    frequency: "1년 전 비슷한 경험 있음"
+    trigger: "없음"
+    symptoms: "1년 전, 오른쪽 눈이 갑자기 침침해지고 아팠다가 한 달 정도 뒤에 저절로 좋아진 적이 있음. 당시 안과에서는 특별한 이상이 없다고 했음."
+  character_of_symptom:
+    quality: "다리가 무겁고 뻣뻣한 느낌, 저리고 둔한 감각"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "피곤할 때"
+      - "뜨거운 물로 샤워할 때"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "웹툰 작가"
+    stress: "많은 편"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "불안한 표정으로, 걸을 때 왼쪽 다리를 약간 끄는 모습(circumduction gait)을 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+    # 추가 진찰: 상대적 구심동공결손(RAPD) 검사에서 오른쪽 양성. 시야 검사에서 중심 암점 의심.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "왼쪽 하지 근력 저하(MRC 4/5). 왼쪽 무릎 및 발목 반사 항진. 왼쪽 바빈스키 징후 양성. 왼쪽 다리 전체의 진동 및 위치 감각 저하. Lhermitte 징후(목 굽힘 시 전기 충격) 양성."
+standardized_patient_questions: "왜 자꾸 이런 증상이 재발하는 건가요? 큰 병인가요? 앞으로 계속 더 나빠지나요?"
+specific_remarks: "환자는 1년 전 눈 증상과 현재 다리 증상의 연관성을 궁금해한다. Lhermitte 징후 검사 시 목을 숙이면 등이 찌릿하다고 명확하게 반응한다. 뜨거운 물로 샤워하면 증상이 심해진다고 구체적으로 설명한다. 자신의 병이 무엇인지에 대해 매우 불안해하고 걱정스러운 태도를 보인다."

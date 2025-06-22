@@ -1,0 +1,114 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "18/24"
+title: "실전 모의 증례 (드퀘르벵 힘줄윤활막염)"
+patient_info:
+  name: "한가은"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "아기를 안을 때 심해지는 엄지손가락 쪽 손목 통증"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "드퀘르벵 힘줄윤활막염"
+    - "손목 관절염"
+    - "손목터널 증후군 (감별 필요)"
+  necessary_tests:
+    - "핑켈스타인 검사 (Finkelstein's test)"
+    - "대부분 임상 진단으로 충분"
+    - "필요시 초음파 검사 (힘줄 부종 확인)"
+  necessary_treatments:
+    - "휴식 및 손목 사용 자제, 보조기 착용"
+    - "비스테로이드성 소염제"
+    - "국소 스테로이드 주사"
+history:
+  sex_age: "여성/31세"
+  chief_complaint_verbatim: "두 달 전 출산했는데, 한 달 전부터 오른쪽 손목의 엄지손가락 쪽이 너무 아파요. 특히 아기 머리를 받쳐주거나 물건을 들 때 찌릿해서 아기를 떨어뜨릴 뻔한 적도 있어요."
+  onset: "약 1개월 전"
+  location:
+    initial: "오른쪽 손목 (엄지 쪽)"
+    current: "오른쪽 손목 (엄지 쪽), 엄지손가락으로 뻗침"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 심해짐"
+  course: "출산 후 아기를 돌보면서 손목을 많이 쓰게 된 이후로 통증이 시작됨. 처음에는 시큰거리는 정도였으나 이제는 젓가락질이나 글씨 쓰기도 힘듦."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "날카롭고 찌르는 듯한 통증"
+    nrs_score: "특정 동작 시 8"
+    radiation: "엄지손가락과 팔뚝으로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아기 안기, 손수건 짜기"
+      - "엄지손가락을 구부리거나 손목을 비틀 때"
+    alleviating: "손목을 쓰지 않을 때"
+  health_check_history:
+    last_checkup: "임신 전"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음 (모유수유 중이라)"
+    source: ""
+    effect: ""
+  social_history:
+    job: "육아휴직 중 (원래는 웹디자이너)"
+    stress: "육아 스트레스 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "못함"
+    recent_weight_change: "출산 후 체중 회복 중"
+  family_history: "특이사항 없음"
+  female_history: "2개월 전 출산, 현재 모유수유 중"
+physical_exam:
+  general: "육아로 인해 다소 지쳐 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "오른쪽 손목의 요골경상돌기(radial styloid process) 부위에 국소적인 압통과 약간의 부종이 관찰됨. 환자에게 엄지손가락을 나머지 손가락으로 감싸 주먹을 쥐게 한 후, 손목을 새끼손가락 방향으로 꺾게 했을 때(Finkelstein's test) 해당 부위에 극심한 통증을 호소함."
+standardized_patient_questions: "손목에 힘줄이 늘어난 건가요? 아기를 안 봐야 낫는다는데 그럴 수가 없잖아요. 어떻게 해야 하죠? 약은 먹어도 되나요?"
+specific_remarks: "환자는 출산 및 육아와 증상 발생 시점이 명확하게 연관되어 있음을 설명해야 한다. Finkelstein 검사를 시행할 때 매우 아픈 반응을 보여야 한다. 모유수유 중이라 약물 치료에 대한 걱정이 크다는 점을 표현한다."

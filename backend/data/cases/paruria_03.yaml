@@ -1,0 +1,117 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (과민성 방광)"
+patient_info:
+  name: "박지영"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "소변을 참기 힘들고 화장실을 너무 자주 가는 증상"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "과민성 방광 (Overactive Bladder)"
+    - "간질성 방광염 (Interstitial Cystitis)"
+    - "요로감염 (Urinary Tract Infection)"
+  necessary_tests:
+    - "소변검사 (Urinalysis)"
+    - "배뇨일지 작성 (Voiding Diary)"
+    - "요속검사 및 잔뇨량 측정 (Uroflowmetry & PVR)"
+    - "필요시 방광내시경 또는 요역동학검사"
+  necessary_treatments:
+    - "행동 치료 (방광 훈련, 케겔 운동)"
+    - "생활 습관 교정 (카페인, 알코올, 자극적 음식 제한)"
+    - "항콜린제 등 약물 치료"
+history:
+  sex_age: "여성/45세"
+  chief_complaint_verbatim: "소변이 마렵다는 생각이 들면 참지를 못하겠어요. 당장 화장실에 가지 않으면 옷에 실수할 것 같아요. 그래서 외출하기가 겁나요."
+  onset: "6개월 전부터"
+  location:
+    initial: "방광 부위"
+    current: "동일함"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 한 달 사이 더 심해짐"
+  course: "초기에는 화장실을 가는 횟수가 늘어난 정도였으나, 점차 요의를 느끼면 참기 힘든 절박뇨(urgency)가 주 증상이 되었다. 하루에 10-12회 정도 소변을 보고, 밤에도 2-3회 깬다. 가끔 화장실에 가는 도중에 소변이 조금 새는 절박성 요실금도 경험했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "강하고 갑작스러운 요의 (배뇨통은 없음)"
+    nrs_score: "불편감 5점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "찬물 소리를 들을 때"
+      - "커피나 녹차를 마셨을 때"
+      - "긴장할 때"
+    alleviating: "화장실에 다녀오면 일시적으로 괜찮아짐"
+  health_check_history:
+    last_checkup: "2년 전 국가건강검진"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "주부"
+    stress: "자녀 교육 문제로 약간의 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 요가"
+    recent_weight_change: "없음"
+  family_history: "어머니가 비슷한 증상 있었던 것 같음"
+  female_history: "자연분만 2회. LMP: 1주 전. 폐경 전(premenopause)."
+physical_exam:
+  general: "불안해 보이지만 전반적인 상태 양호."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평함."
+    auscultation: "장음 정상."
+    percussion: "고창음."
+    palpation:
+      suprapubic_tenderness: false
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "함몰 부종 없음"
+standardized_patient_questions: "이게 무슨 병인가요? 점점 더 심해질까요? 창피해서 어디 다니지를 못하겠어요."
+specific_remarks: "증상에 대해 이야기할 때 약간 수치스러워하고 불안한 모습을 보인다. 특히 요실금 경험에 대해 말할 때는 목소리가 작아진다. 사회생활의 어려움을 강조한다."

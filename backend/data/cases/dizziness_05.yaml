@@ -1,0 +1,117 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (척추뇌저동맥 기능부전, Vertebrobasilar Insufficiency)"
+patient_info:
+  name: "김영호"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "고개를 뒤로 젖힐 때마다 어지러워요."
+vital_signs:
+  blood_pressure: "150/90mmHg"
+  pulse: "82회/분 (불규칙)"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "일과성 허혈 발작 (척추뇌저동맥 기능부전)"
+    - "양성 돌발성 체위성 현훈"
+    - "경추성 어지럼"
+  necessary_tests:
+    - "뇌 MRA 또는 CT 혈관조영술 (뇌혈관 협착 확인)"
+    - "뇌 MRI (급성 뇌경색 유무 확인)"
+    - "심전도 및 24시간 홀터 모니터링 (심방세동 등 색전 원인 감별)"
+  necessary_treatments:
+    - "항혈소판제 (아스피린, 클로피도그렐)"
+    - "위험인자 관리 (고혈압, 당뇨, 고지혈증 조절)"
+    - "필요시 항응고 요법 (심방세동이 원인일 경우)"
+    - "위험한 자세(고개 젖히기) 회피 교육"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "높은 곳에 있는 물건을 꺼내려고 고개를 뒤로 젖혔는데, 갑자기 핑 돌면서 눈앞에 물체가 두 개로 보이고 말이 어눌해졌어요. 몇 분 있다가 괜찮아졌는데 너무 놀랐습니다."
+  onset: "1주일 전"
+  location:
+    initial: "머릿속"
+    current: "고개를 젖힐 때마다 재현됨"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "증상은 5분 이내에 완전히 소실됨. 지난 주 이후 2번 더 경험함."
+  course: "미용실에서 머리를 감으려고 뒤로 누웠을 때, 그리고 천장 형광등을 갈려고 올려다볼 때 비슷한 증상이 나타났다가 금방 사라졌습니다."
+  experience_prev_episodes:
+    frequency: "지난 주 포함 총 3회"
+    trigger: "고개를 뒤로 젖히는 자세"
+    symptoms: "어지럼증, 복시(diplopia), 구음장애(dysarthria), 비틀거림"
+  character_of_symptom:
+    quality: "회전성 또는 붕 뜨는 듯한 어지럼"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "고개를 뒤로 젖히기"
+      - "고개를 한쪽으로 돌리고 오래 있기"
+    alleviating: "고개를 바로 하는 것"
+  health_check_history:
+    last_checkup: "1년 전, 고혈압 및 당뇨 진단"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 제2형 당뇨, 고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "메트포르민"
+      - "로수바스타틴"
+      - "(혈압약은 처방받았으나 잘 챙겨먹지 않음)"
+    source: "내과"
+    effect: "혈당은 조절되는 편"
+  social_history:
+    job: "자영업 (전기용품점)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1~2회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 1갑"
+      cessation_period: ""
+    exercise: "거의 안함"
+    recent_weight_change: "없음"
+  family_history: "부친 뇌졸중으로 사망"
+  female_history: ""
+physical_exam:
+  general: "만성 병색. 현재 증상은 없으나 불안한 기색."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "심음 청진 시 불규칙한 리듬 (Irregularly irregular)"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "말초 맥박 잘 촉지됨"
+standardized_patient_questions: "이것도 이석증 같은 건가요? 왜 고개를 들 때만 이런 거죠? 뇌졸중이 올 수도 있다던데 사실인가요?"
+specific_remarks: "환자는 증상이 없을 때 내원했으므로 신경학적 진찰은 정상이다. 그러나 병력 청취 시 '어지럼증' 외에 '복시', '발음 이상', '휘청거림' 같은 뇌간 허혈 증상이 동반되었다가 사라졌다는 점을 명확히 진술해야 한다. 이는 중추성 어지럼을 시사하는 핵심 단서이다. 심방세동을 암시하는 불규칙한 맥박을 연기한다."

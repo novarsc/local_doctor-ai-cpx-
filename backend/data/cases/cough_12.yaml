@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (울혈성 심부전)"
+patient_info:
+  name: "오정숙"
+  age: 75
+  sex: "여성"
+  presenting_complaint: "밤에 누우면 심해지는 기침과 숨찬 증상"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "100회/분"
+  respiration: "22회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "울혈성 심부전 (Congestive heart failure)"
+    - "만성 폐쇄성 폐질환 (COPD)"
+    - "기침형 천식 (Cough-variant asthma)"
+  necessary_tests:
+    - "심장 초음파"
+    - "혈액 검사 (BNP 수치 확인)"
+    - "흉부 X선 촬영 (심비대, 폐부종 확인)"
+  necessary_treatments:
+    - "이뇨제 투여 (체액 과다 조절)"
+    - "혈관확장제, 안지오텐신 전환효소 억제제 등 심부전 치료제"
+    - "저염식 및 수분 섭취 제한"
+history:
+  sex_age: "여성/75세"
+  chief_complaint_verbatim: "밤에 자려고 눕기만 하면 기침이 나고 숨이 차서 잠을 잘 수가 없어요. 일어나 앉으면 좀 괜찮아져요. 다리도 붓는 것 같아요."
+  onset: "약 2개월 전부터 서서히"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 2주 사이 밤에 깨는 횟수가 늘어남"
+  course: "처음에는 마른 기침만 가끔 하다가, 점점 숨찬 증상이 동반됨. 특히 밤에 누우면 증상이 심해져서 베개를 2-3개씩 받치고 자야 겨우 잠이 든다. 낮에 조금만 걸어도 숨이 찬다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "분홍색 거품 가래가 섞인 기침 (간헐적), 누우면 심해지는 호흡곤란 (기좌호흡)"
+    nrs_score: "7 (누웠을 때)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "눕는 자세 (orthopnea)"
+      - "활동 시 (dyspnea on exertion)"
+    alleviating: "앉거나 상체를 높이는 자세"
+  health_check_history:
+    last_checkup: "1년 전 내과 진료"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 10년 전 심근경색"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 아스피린"
+    source: "내과"
+    effect: "최근 혈압이 조절이 잘 안 되는 것 같다고 함"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "최근 한 달간 3kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "만성 병색. 안정 시에도 약간의 호흡곤란 관찰. 경정맥 팽대(jugular vein distention) 소견 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "양쪽 폐 하부에서 흡기 시 악설음(crackle)이 청진됨. 심첨박동이 좌측 쇄골중앙선 바깥쪽에서 촉지됨. 심음 청진 시 S3 gallop rhythm이 들림."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "양쪽 정강이 부위에 함요 부종(pitting edema, 2+) 관찰됨."
+standardized_patient_questions: "왜 심장이 안 좋은데 기침이 나나요? 폐 사진만 찍으면 안 되나요? 앞으로 계속 이렇게 숨차게 살아야 하나요?"
+specific_remarks: "진찰대에 누울 때 힘들어하며, 상체를 약간 세워달라고 요청한다. 다리가 붓는 것에 대해 '나이 들어서 그런 줄 알았다'고 말한다."

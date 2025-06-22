@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (골반저 기능장애)"
+patient_info:
+  name: "윤혜정"
+  age: 62
+  sex: "여성"
+  presenting_complaint: "힘을 줘도 변이 나오지 않는 증상"
+vital_signs:
+  blood_pressure: "135/80mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "골반저 기능장애 (배변장애형 변비)"
+    - "직장류 (Rectocele)"
+    - "서행성 변비"
+  necessary_tests:
+    - "직장 수지 검사 및 항문 내압 검사"
+    - "배변 조영술"
+    - "대장 통과 시간 검사"
+  necessary_treatments:
+    - "바이오피드백 치료"
+    - "골반저 근육 이완 훈련"
+    - "생활 습관 교정 및 하제 사용"
+history:
+  sex_age: "여/62"
+  chief_complaint_verbatim: "화장실에 가서 변을 보고 싶은데, 아무리 힘을 줘도 나오지를 않아요. 꼭 뭔가 꽉 막고 있는 것 같고... 결국 손으로 파내야 할 때도 있어요. 너무 창피하고 힘드네요."
+  onset: "수년 전부터 서서히"
+  location:
+    initial: "항문/직장 부위"
+    current: "항문/직장 부위"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "최근 1년 사이 악화"
+  course: "수년 전부터 변비가 있었으나, 최근 1년간 증상이 심해졌다. 매일 배변 욕구를 느껴 화장실에 가지만, 30분 이상 힘을 줘야 겨우 조금 나오거나 아예 나오지 않는다. 변이 항문 입구에 걸려있는 느낌이 들고, 잔변감이 매우 심하다. 회음부를 누르거나 손가락을 이용해 변을 파내야만 배변이 가능한 경우가 잦다."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: "특별히 없음"
+    symptoms: "현재와 동일"
+  character_of_symptom:
+    quality: "막힌 느낌, 과도한 힘주기"
+    nrs_score: "3-4 (불편감)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 앉아 있을 때"
+    alleviating: "손가락으로 변을 파낼 때 (일시적)"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "3년 전 대장 내시경: 특이 소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "내과"
+    effect: "조절 잘 됨"
+  social_history:
+    job: "퇴직"
+    stress: "적음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "자연분만 2회, 15년 전 폐경"
+physical_exam:
+  general: "특이 소견 없음"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      no_tenderness: true
+  cvat: "좌우 음성"
+  extremity: "정상"
+  anorectal_exam:
+    inspection: "정상"
+    palpation: "환자에게 배변 시처럼 힘을 주도록 했을 때, 항문 괄약근이 이완되지 않고 오히려 수축하는 양상이 관찰됨 (paradoxical contraction). 직장 수지 검사 시 직장 내에 단단한 변이 만져짐."
+standardized_patient_questions: "제 몸에 무슨 문제가 생긴 건가요? 왜 힘을 줘도 변이 안 나올까요? 손가락을 쓰는 게 너무 부끄러운데, 다른 방법은 없나요?"
+specific_remarks: "환자는 증상에 대해 이야기하는 것을 매우 부끄러워하며, 특히 '손가락을 사용한다'는 말을 할 때 목소리가 작아지고 눈을 잘 마주치지 못한다. 의사가 공감적인 태도를 보일 때 안도하는 모습을 보인다."

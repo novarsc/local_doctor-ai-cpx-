@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (예방접종 후 열성 경련)"
+patient_info:
+  name: "박시우"
+  age: 1
+  sex: "남성"
+  presenting_complaint: "열이 나면서 경련을 했어요"
+vital_signs:
+  blood_pressure: "90/60mmHg"
+  pulse: "120회/분"
+  respiration: "25회/분"
+  temperature: "38.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환아의 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "단순 열성 경련 (Simple febrile seizure)"
+    - "복합 열성 경련 (Complex febrile seizure)"
+    - "뇌수막염 또는 뇌염"
+  necessary_tests:
+    - "다른 원인 감별을 위한 철저한 신체 진찰 및 신경학적 진찰"
+    - "뇌수막염이 의심될 경우 혈액검사, 뇌척수액 검사 시행"
+    - "경련 양상이 비전형적이거나 반복될 경우 뇌파 검사 고려"
+  necessary_treatments:
+    - "열 조절 (해열제 사용, 미온수 마사지)"
+    - "열성 경련의 재발 가능성 및 양호한 예후에 대한 교육"
+    - "경련 시 대처 요령 교육 (기도 확보, 주변 위험물 제거 등)"
+history:
+  sex_age: "남아/13개월"
+  chief_complaint_verbatim: "어젯밤에 갑자기 눈이 돌아가고 온몸을 뻣뻣하게 떨었어요. 너무 놀라서 응급실에 다녀왔어요. 어제 오전에 예방접종을 맞았는데 그것 때문인가요?"
+  onset: "어젯밤 11시경"
+  location:
+    initial: "전신"
+    current: "증상 없음"
+  duration:
+    onset_pattern: "갑자기"
+    recent_course: "경련 후 깊은 잠에 들었고 현재는 정상"
+  course: "어제 오전 10시경 MMR, 수두 예방접종을 하였다. 저녁부터 미열이 있기 시작했다. 밤 11시경, 자던 아이가 갑자기 '흐응'하는 소리를 내서 보니, 눈을 위로 치켜뜨고 입술이 파래지면서 양 팔다리를 뻣뻣하게 떨고 있었다. 경련은 약 2분간 지속되었고, 이후 축 늘어지면서 깊은 잠에 빠졌다. 보호자는 너무 놀라 119에 신고하여 대학병원 응급실에 내원했다. 응급실에서 체온은 39.5도였고, 기본적인 검사 후 '열성 경련'으로 설명을 듣고 해열제 처방받아 귀가했다. 오늘 아침 외래로 다시 확인차 내원했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "전신 강직간대 발작 (Generalized tonic-clonic seizure)"
+    nrs_score: "해당 없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "고열"
+    alleviating: "자연 소실"
+  health_check_history:
+    last_checkup: "12개월 영유아 검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "이부프로펜 시럽 (어젯밤 응급실에서)"
+    source: "대학병원 응급실"
+    effect: "체온 하강"
+  social_history:
+    job: "해당 없음"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "해당 없음"
+    recent_weight_change: "없음"
+  family_history: "아빠가 어릴 때 열성 경련을 앓은 적이 있음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "활기차고 잘 놀며, 의식 명료함. 경련 후 상태(postictal state) 아님."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+    # 경부 강직(neck stiffness) 없음, Brudzinski/Kernig 징후 음성
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "신경학적 국소 이상 소견 없음."
+standardized_patient_questions: "경련하는 걸 보니 애가 잘못되는 줄 알았어요. 혹시 뇌에 문제가 생긴 건 아닐까요? 앞으로 예방접종은 어떻게 해야 하나요? 또 경련하면 어떡하죠?"
+specific_remarks: "보호자(아빠) 역할. 어젯밤의 충격에서 아직 벗어나지 못한 모습. 아이가 경련하던 상황을 설명하며 목소리가 떨리는 등 불안감을 표현. 열성 경련이 비교적 흔하고 예후가 좋다는 설명에 점차 안도함."

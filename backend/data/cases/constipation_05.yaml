@@ -1,0 +1,118 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (갑상선 기능 저하증)"
+patient_info:
+  name: "정수진"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "변비와 심한 피로감"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "56회/분"
+  respiration: "14회/분"
+  temperature: "36.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갑상선 기능 저하증에 의한 이차성 변비"
+    - "기능성 변비"
+    - "우울증"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4)"
+    - "자가항체 검사 (Anti-TPO Ab)"
+    - "기본 혈액 검사 및 전해질 검사"
+  necessary_treatments:
+    - "갑상선 호르몬제 (씬지로이드) 투여"
+    - "변비에 대한 대증 치료 (생활 습관 교정, 필요시 하제)"
+    - "정기적인 갑상선 기능 추적 관찰"
+history:
+  sex_age: "여/45"
+  chief_complaint_verbatim: "언제부턴가 변비가 생기고 너무 피곤해요. 아침에 일어나기도 힘들고, 온몸이 붓는 느낌이에요. 추위도 남들보다 훨씬 많이 타고요."
+  onset: "약 6개월 전"
+  location:
+    initial: "전신 증상"
+    current: "전신 증상"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점차 심해짐"
+  course: "6개월 전부터 변비가 생겨 4-5일에 한 번 변을 본다. 변비와 함께 아침에 얼굴과 손발이 붓는 증상이 나타났고, 만성적인 피로감과 무기력감을 느낀다. 예전과 달리 추위를 매우 심하게 타게 되었고, 피부가 건조하고 거칠어졌다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "전반적인 무기력함과 팽만감"
+    nrs_score: "2"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "추운 환경"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합 비타민"
+    source: "자가 구매"
+    effect: "효과 없음"
+  social_history:
+    job: "학원 강사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1회"
+      amount: "와인 1잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못 함"
+    recent_weight_change: "식사량은 줄었는데 3kg 증가"
+  family_history: "언니가 갑상선 질환 있음"
+  female_history: "LMP: 1주 전, 최근 생리량이 늘고 주기가 불규칙해짐"
+physical_exam:
+  general: "전반적으로 부어있는 듯한 인상(puffy face), 행동이 느림"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 필요한 신체진찰 소견 추가
+    thyroid: "만져지지 않음, 압통 없음"
+    hair: "거칠고 약간의 탈모 소견"
+  chest: "심음 감소, 서맥"
+  abdomen:
+    inspection: "약간 팽만"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      no_tenderness: true
+  cvat: "좌우 음성"
+  extremity: "경도의 함요 부종(pitting edema), 피부 건조, 발목 반사(ankle jerk)의 이완기 지연"
+standardized_patient_questions: "제가 왜 이렇게 피곤하고 붓는 걸까요? 그냥 나이 들어서 그런 건가요? 변비도 이것 때문일 수 있나요?"
+specific_remarks: "환자는 말이 느리고 무기력한 모습을 보인다. 질문에 대한 반응이 한 박자씩 늦다. 신체 진찰 시 추위를 타는 듯 몸을 약간 떤다."

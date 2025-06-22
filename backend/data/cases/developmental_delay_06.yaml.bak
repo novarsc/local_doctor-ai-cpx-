@@ -1,0 +1,113 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (뇌성마비)"
+patient_info:
+  name: "정하윤"
+  age: 18
+  sex: "여성"
+  presenting_complaint: "아직 혼자 서거나 걷지 못함"
+vital_signs:
+  blood_pressure: "88/50mmHg"
+  pulse: "110회/분"
+  respiration: "28회/분"
+  temperature: "36.8℃"
+examinee_instructions: "아이가 발달이 늦다는 주소로 내원한 보호자의 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "뇌성마비 (특히 경직형 양측마비)"
+    - "전반적 발달 지연"
+    - "유전성 신경근육질환"
+  necessary_tests:
+    - "뇌 자기공명영상(MRI) 촬영"
+    - "고관절 탈구 확인을 위한 골반 X-선 검사"
+    - "발달 평가 및 재활의학과 협진"
+  necessary_treatments:
+    - "재활 치료 (물리치료, 작업치료)"
+    - "경직 조절을 위한 약물 치료 또는 보툴리눔 독소 주사"
+    - "정기적인 추적 관찰 및 다학제적 관리"
+history:
+  sex_age: "여성/18개월"
+  chief_complaint_verbatim: "(보호자) 다른 애들은 다 걷는데, 우리 애는 아직 잡고 서지도 못해요. 다리에 힘이 너무 뻣뻣하게 들어가는 것 같아요."
+  onset: "출생 후부터 지속됨"
+  location:
+    initial: "주로 양쪽 다리"
+    current: "주로 양쪽 다리"
+  duration:
+    onset_pattern: "지속적"
+    recent_course: "개월 수에 맞는 대근육 발달이 계속 지연됨. 10개월에 겨우 혼자 앉았고, 배밀이만 가능함."
+  course: "임신 30주에 조산하였고, 출생 체중은 1.4kg이었다. 출생 후 신생아 집중치료실에 한 달간 입원했으며, 당시 뇌초음파에서 뇌실주위백질연화증(PVL) 소견이 있었다고 들었다. 이후 퇴원하여 지켜보았으나 목 가누기, 뒤집기, 앉기 등 모든 대근육 발달이 현저히 늦었다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "뻣뻣함, 경직"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아이를 세우려고 할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "12개월 영유아 검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "주산기 뇌손상 (뇌실주위백질연화증)"
+  past_medical_history:
+    underlying_disease: "미숙아, 저체중 출생아, 뇌실주위백질연화증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "철분제"
+    source: "소아청소년과"
+    effect: "빈혈 예방"
+  social_history:
+    job: "영아"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "운동 발달 지연"
+    recent_weight_change: "없음"
+  family_history: "특이 가족력 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "인지나 사회성 발달은 나이에 비해 양호해 보임. 엄마와 눈을 잘 맞추고 옹알이를 함. 그러나 운동 발달이 현저히 지연됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 특이 소견 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "해당 없음"
+  extremity: "상지 근력 및 긴장도는 비교적 정상. 양측 하지의 근긴장도 항진(spasticity) 관찰됨. 발목을 꺾으면 강한 저항이 느껴지고 까치발(equinus) 자세를 보임. 심부건반사 항진. 바빈스키 징후 양성."
+standardized_patient_questions: "뇌성마비라는 게 맞나요? 그럼 평생 못 걷는 건가요? 치료하면 좋아질 수 있나요? 다 저희 탓인 것만 같아 너무 힘들어요."
+specific_remarks: "보호자는 '뇌성마비'라는 말을 듣는 순간 눈물을 보이며, 큰 죄책감과 절망감을 표현한다. 아이가 조산한 것과 연관지어 자책하는 말을 할 수 있다."

@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (폐색전증)"
+patient_info:
+  name: "배수진"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "어제 갑자기 발생한 흉통과 기침"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "120회/분"
+  respiration: "28회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐색전증 (Pulmonary embolism)"
+    - "급성 심근경색 (Acute myocardial infarction)"
+    - "기흉 (Pneumothorax)"
+  necessary_tests:
+    - "흉부 CT 혈관조영술 (CT pulmonary angiography)"
+    - "혈액 검사 (D-dimer)"
+    - "심전도 및 심장 효소 검사"
+  necessary_treatments:
+    - "항응고제 (헤파린 등) 즉시 투여"
+    - "필요시 혈전용해술 또는 색전제거술"
+    - "산소 공급 및 활력징후 모니터링"
+history:
+  sex_age: "여성/42세"
+  chief_complaint_verbatim: "어젯밤 자려고 눕는데 갑자기 가슴이 찢어질 듯이 아프고 숨을 쉴 수가 없었어요. 마른 기침도 나고, 피가 살짝 섞인 가래도 나왔어요."
+  onset: "약 12시간 전, 갑자기 발생"
+  location:
+    initial: "왼쪽 가슴"
+    current: "왼쪽 가슴"
+  duration:
+    onset_pattern: "돌발성 (Sudden)"
+    recent_course: "지속적"
+  course: "아무런 전조 증상 없이 갑자기 발생했다. 숨을 깊게 들이쉬면 칼로 찌르는 듯한 통증이 악화된다. 너무 놀라서 응급실에 왔다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "날카롭고 찌르는 듯한 흉통 (pleuritic chest pain), 마른 기침, 객혈"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "심호흡"
+      - "기침"
+    alleviating: "얕게 숨 쉬면 조금 덜함"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음. 하지만 2주 전 스키 타다 넘어져 왼쪽 다리 골절로 깁스 함."
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "경구 피임약 복용 중 (5년간)"
+      - "골절 후 진통제"
+    source: "산부인과, 정형외과"
+    effect: ""
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "부상 전에는 주 3회 운동"
+    recent_weight_change: "없음"
+  family_history: "어머니가 뇌경색 병력 있음"
+  female_history: "경구 피임약 복용 중"
+physical_exam:
+  general: "급성 병색. 불안해하며 안절부절못하는 모습. 호흡이 얕고 빠름."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음은 대부분 정상이나, 왼쪽 폐 하부에서 국소적으로 마찰음(pleural friction rub)이 청진될 수 있음. 청진상 특이소견 없을 수도 있음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "왼쪽 종아리가 오른쪽보다 부어있고, 만지면 통증을 호소함 (Homan's sign 양성)."
+standardized_patient_questions: "제가 왜 갑자기 이런 건가요? 심장마비는 아니죠? 이거 위험한 건가요?"
+specific_remarks: "매우 불안해하며, 죽을 것 같은 공포감을 표현한다. 숨을 쉴 때마다 아파서 가슴을 부여잡는다. 다리 깁스를 하고 있으며, 의사가 다리 상태를 물어보면 '다리도 좀 붓고 아픈 것 같다'고 대답한다."

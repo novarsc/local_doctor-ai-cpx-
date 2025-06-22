@@ -1,0 +1,116 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (HELLP 증후군)"
+patient_info:
+  name: "오지민"
+  age: 34
+  sex: "여성"
+  presenting_complaint: "심한 명치 통증과 구토"
+vital_signs:
+  blood_pressure: "165/105mmHg"
+  pulse: "115회/분"
+  respiration: "22회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "HELLP 증후군"
+    - "중증 전자간증"
+    - "급성 담낭염 또는 간염"
+  necessary_tests:
+    - "일반 혈액 검사 (용혈, 혈소판 감소 확인)"
+    - "간기능 검사 (LDH, AST/ALT 상승 확인)"
+    - "말초 혈액 도말 검사 (파쇄적혈구 확인)"
+  necessary_treatments:
+    - "즉각적인 입원 및 응급 분만 결정"
+    - "혈압 조절 및 경련 예방 (황산마그네슘)"
+    - "필요시 혈소판 수혈"
+history:
+  sex_age: "여성/34세"
+  chief_complaint_verbatim: "임신 35주차인데, 어젯밤부터 갑자기 명치끝이 체한 것처럼 너무 아프고 계속 토했어요. 머리도 깨질 것 같아요."
+  onset: "12시간 전"
+  location:
+    initial: "명치 (상복부)"
+    current: "오른쪽 윗배 전체 및 등"
+  duration:
+    onset_pattern: "갑작스럽게 발생하여 급격히 악화"
+    recent_course: "통증이 전혀 호전되지 않고 지속됨"
+  course: "처음에는 급체인 줄 알고 소화제를 먹었으나 효과가 전혀 없었다. 통증이 등 쪽으로 뻗치고, 구토와 심한 두통, 시야 흐림 증상이 동반되어 응급실로 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "찌르는 듯하고 쥐어짜는 듯한 심한 통증"
+    nrs_score: "10"
+    radiation: "오른쪽 등과 어깨"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "5회 이상, 음식물 섞이지 않은 위액 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true
+    other: "시야 흐림, 두통 동반"
+  factors:
+    aggravating:
+      - "숨을 깊게 쉴 때"
+      - "자세 변경 시"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1주 전, 당시 혈압 145/95mmHg로 약간 높다는 이야기 들음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "소화제 (어젯밤)"
+    source: "약국"
+    effect: "없었음"
+  social_history:
+    job: "주부"
+    stress: "증상으로 인한 극심한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "못함"
+    recent_weight_change: "임신 후 12kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "G2P1 (첫째 정상분만), LMP: 약 8.5개월 전, EDC: 5주 후, 임신 35주"
+physical_exam:
+  general: "급성 병색이 완연함. 통증으로 식은땀을 흘리며 매우 힘들어하는 모습."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "Tachycardia. 호흡음 정상."
+  abdomen:
+    inspection: "임신 35주에 합당한 크기"
+    auscultation: "장음 감소"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: true # RUQ에 심한 압통
+      rebound_tenderness_rlq: false
+      # 상복부 전반에 걸쳐 압통 및 자발통 호소
+  cvat: "음성/음성"
+  extremity: "pitting edema (2+) on both ankles"
+standardized_patient_questions: "제가 왜 이렇게 아픈 건가요? 단순한 위경련이 아닌가요? 아기는 괜찮은 건지 너무 걱정돼요. 빨리 안 아프게 해주세요."
+specific_remarks: "환자는 극심한 통증을 연기해야 하며, 특히 오른쪽 윗배(RUQ) 통증을 명확하게 호소해야 한다. 의사가 해당 부위를 촉진할 때 강한 압통 반응을 보여야 한다. 두통, 시야 흐림 등 전자간증 관련 증상도 함께 진술한다. 상황의 심각성을 인지하지 못하고 '체한 것 같다'고 말하지만, 표정이나 행동은 매우 고통스러워야 한다."

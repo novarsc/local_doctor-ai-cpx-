@@ -3,23 +3,74 @@
  * @description Business logic for handling scenarios (cases).
  */
 
-const { Scenario, UserBookmarkedScenario } = require('../models');
+const { Scenario, UserBookmarkedScenario, UserPracticeHistory } = require('../models');
 const { Op, Sequelize } = require('sequelize');
 
-const listScenarios = async (queryParams) => {
-  // ... (이 함수는 기존과 동일합니다)
-  const { page = 1, limit = 9, keyword, sortBy = 'createdAt_desc' } = queryParams;
+const listScenarios = async (queryParams, userId = null) => {
+  const { page = 1, limit = 9, search, category, status, sortBy = 'createdAt_desc' } = queryParams;
   const offset = (page - 1) * limit;
   let where = {};
-  if (keyword) {
+  
+  console.log('[DEBUG] listScenarios called with:', { queryParams, userId });
+  
+  // 검색어 필터링 (search 파라미터)
+  if (search) {
     where[Op.or] = [
-      { name: { [Op.iLike]: `%${keyword}%` } },
-      { primaryCategory: { [Op.iLike]: `%${keyword}%` } },
-      { secondaryCategory: { [Op.iLike]: `%${keyword}%` } },
+      { name: { [Op.iLike]: `%${search}%` } },
+      { primaryCategory: { [Op.iLike]: `%${search}%` } },
+      { secondaryCategory: { [Op.iLike]: `%${search}%` } },
+      { shortDescription: { [Op.iLike]: `%${search}%` } },
     ];
   }
+  
+  // 카테고리 필터링 (category 파라미터)
+  if (category) {
+    where.primaryCategory = category;
+  }
+  
   const [sortField, sortOrder] = sortBy.split('_');
   const order = [[sortField, sortOrder.toUpperCase()]];
+  
+  // 상태 필터링 (status 파라미터) - 사용자 ID가 있을 때만 적용
+  if (userId && status && status !== 'all') {
+    console.log('[DEBUG] Applying status filter:', { status, userId });
+    
+    if (status === 'completed') {
+      // 완료된 증례만: UserPracticeHistory에 기록이 있는 증례
+      const completedScenarioIds = await UserPracticeHistory.findAll({
+        where: { userId },
+        attributes: ['scenarioId'],
+        raw: true
+      });
+      
+      const completedIds = completedScenarioIds.map(item => item.scenarioId);
+      console.log('[DEBUG] Completed scenario IDs:', completedIds);
+      
+      if (completedIds.length > 0) {
+        where.scenarioId = { [Op.in]: completedIds };
+      } else {
+        // 완료된 증례가 없으면 빈 결과 반환
+        where.scenarioId = { [Op.in]: [] };
+      }
+    } else if (status === 'incomplete') {
+      // 미완료 증례만: UserPracticeHistory에 기록이 없는 증례
+      const completedScenarioIds = await UserPracticeHistory.findAll({
+        where: { userId },
+        attributes: ['scenarioId'],
+        raw: true
+      });
+      
+      const completedIds = completedScenarioIds.map(item => item.scenarioId);
+      console.log('[DEBUG] Completed scenario IDs:', completedIds);
+      
+      if (completedIds.length > 0) {
+        where.scenarioId = { [Op.notIn]: completedIds };
+      }
+    }
+  }
+  
+  console.log('[DEBUG] Final query options:', { where });
+  
   const { count, rows } = await Scenario.findAndCountAll({
     where,
     limit,
@@ -29,11 +80,19 @@ const listScenarios = async (queryParams) => {
     ],
     order,
   });
+  
+  console.log('[DEBUG] Query result:', { count, rowsCount: rows.length });
+  
   const totalPages = Math.ceil(count / limit);
   return {
     data: rows,
     pagination: {
-      totalItems: count, totalPages, currentPage: parseInt(page, 10), pageSize: parseInt(limit, 10), hasNextPage: page < totalPages, hasPrevPage: page > 1,
+      totalItems: count, 
+      totalPages, 
+      currentPage: parseInt(page, 10), 
+      pageSize: parseInt(limit, 10), 
+      hasNextPage: page < totalPages, 
+      hasPrevPage: page > 1,
     }
   };
 };

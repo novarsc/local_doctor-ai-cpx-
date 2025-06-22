@@ -1,0 +1,120 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (위축성 질염)"
+patient_info:
+  name: "최은숙"
+  age: 58
+  sex: "여성"
+  presenting_complaint: "질이 건조하고 성관계 시 통증이 있으며 소량의 출혈이 있음"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "위축성 질염 (Atrophic vaginitis)"
+    - "자궁경부 또는 자궁내막의 악성 신생물 의심"
+    - "감염성 질염"
+  necessary_tests:
+    - "질경 검사 및 내진"
+    - "자궁경부암 검사 (Pap smear)"
+    - "질산도 검사 (Vaginal pH test)"
+  necessary_treatments:
+    - "국소 에스트로겐 질정 또는 크림 사용"
+    - "질 보습제 및 윤활제 사용"
+    - "필요시 전신 호르몬 대체 요법 고려"
+history:
+  sex_age: "여성/58"
+  chief_complaint_verbatim: "몇 달 전부터 부부관계 하기가 너무 힘들어요. 아프고 화끈거리고, 끝나고 나면 꼭 피가 조금씩 묻어 나와요. 평소에도 질이 너무 건조한 느낌이에요."
+  onset: "약 6개월 전부터 서서히"
+  location:
+    initial: "질"
+    current: "질"
+  duration:
+    onset_pattern: "만성적, 점진적 악화"
+    recent_course: "최근 들어 성교통이 심해져 관계를 피하게 됨"
+  course: "처음에는 그냥 건조하다고만 느꼈는데, 3개월 전부터는 성관계 시 통증이 생겼고, 최근 한 달 사이에는 관계 후 휴지에 피가 묻어 나올 때가 잦아졌습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "질 건조감, 성교통 (화끈거리는 느낌), 성교 후 소량의 선홍색 출혈"
+    nrs_score: "6 (성교 시)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "성관계"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전 국가검진"
+    endoscopy_finding: "자궁경부암 검사 정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (5년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀 5mg"
+    source: "내과 처방"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "주부"
+    stress: "자녀 결혼 문제로 약간 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 동네 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "14세"
+    menopause: "51세에 완경"
+    gpa: "2-0-0-2"
+    sexual_partner: "배우자 1명"
+    contraception: ""
+physical_exam:
+  general: "만성 병색 없음. 의식 명료함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "slightly dry"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 시진 시: 외음부 피부 및 음모 소실, 창백해 보임.
+      # 질경 검사 시: 질 점막이 창백하고 얇아져 있으며 주름이 소실됨. 질경 삽입 시 통증 호소. 소량의 장액혈성 분비물 관찰. 자궁경부 위축 소견.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "나이가 들어서 그런 건가요? 무슨 큰 병은 아니겠죠? 치료하면 다시 예전처럼 괜찮아질 수 있나요?"
+specific_remarks: "증상에 대해 이야기하는 것을 수줍어하고, 특히 성생활 관련 질문에는 목소리가 작아진다. 암일 가능성에 대한 두려움을 내비친다."

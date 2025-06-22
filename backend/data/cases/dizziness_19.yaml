@@ -1,0 +1,106 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "19"
+title: "실전 모의 증례 (다발성 경화증, Multiple Sclerosis)"
+patient_info:
+  name: "한선화"
+  age: 29
+  sex: "여성"
+  presenting_complaint: "며칠 전부터 어지럽고 물체가 두 개로 보여요."
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "다발성 경화증"
+    - "시신경척수염"
+    - "뇌간 뇌졸중"
+  necessary_tests:
+    - "조영제를 이용한 뇌 및 척수 MRI"
+    - "뇌척수액 검사 (Oligoclonal band 확인)"
+    - "유발전위검사 (VEP, BAEP, SSEP)"
+  necessary_treatments:
+    - "급성기 고용량 스테로이드 정맥 주사"
+    - "재발 방지를 위한 질병 조절 약물 (인터페론 등)"
+    - "증상 조절을 위한 물리치료, 재활치료"
+history:
+  sex_age: "여성/29세"
+  chief_complaint_verbatim: "갑자기 어지러워서 비틀거리고, 옆을 보면 물체가 둘로 겹쳐 보여요. 오른쪽 다리에 힘도 좀 빠지는 것 같아요."
+  onset: "4일 전"
+  location:
+    initial: "머리, 눈, 오른쪽 다리"
+    current: "동일"
+  duration:
+    onset_pattern: "아급성 (수일에 걸쳐 발생 및 악화)"
+    recent_course: "점점 심해지는 양상"
+  course: "4일 전부터 어지럽기 시작했고, 이틀 전부터는 물체가 두 개로 보이고 오른쪽 다리에 감각이 둔해지면서 힘이 빠지는 느낌이 듭니다."
+  experience_prev_episodes:
+    frequency: "1년 전"
+    trigger: "없음"
+    symptoms: "왼쪽 눈이 갑자기 잘 안 보이고 눈을 움직일 때 아팠다가 한 달 정도 뒤에 저절로 좋아진 적이 있음 (시신경염 의심)."
+  character_of_symptom:
+    quality: "균형 잡기 힘든 어지럼, 복시"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "더운물로 샤워할 때 (우토프 현상)"
+    alleviating: "쉬는 것"
+  health_check_history:
+    last_checkup: "회사 건강검진, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "regular"
+physical_exam:
+  general: "불안해하며, 걸음걸이가 다소 부자연스러움."
+  heent: "좌측을 주시할 때 우안의 내전 제한과 좌안의 안진이 관찰됨 (핵간 안구운동마비, INO)."
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "우측 하지 근력 저하 (Grade 4/5), 우측 발바닥에 바빈스키 징후 양성."
+standardized_patient_questions: "제 몸에 왜 자꾸 이런 이상한 증상이 생기는 거죠? 작년엔 눈이 안 보이더니... 뇌에 큰 문제가 생긴 건가요?"
+specific_remarks: "환자는 '시간에 따른 파종(dissemination in time)'과 '공간에 따른 파종(dissemination in space)'을 시사하는 병력을 제공해야 한다. 즉, 과거에 다른 신경학적 증상(시신경염)이 있다가 호전되었고, 현재는 다른 부위(뇌간, 척수)와 관련된 새로운 증상(어지럼, 복시, 편마비)이 나타났음을 명확히 진술한다. 신체 진찰에서 INO, 바빈스키 징후 등 다발성 병변을 시사하는 소견을 연기해야 한다."

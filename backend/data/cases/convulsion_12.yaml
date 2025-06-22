@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (고혈압성 뇌병증에 의한 발작)"
+patient_info:
+  name: "이강석"
+  age: 62
+  sex: "남성"
+  presenting_complaint: "심한 두통과 함께 발생한 경련"
+vital_signs:
+  blood_pressure: "220/130mmHg"
+  pulse: "70회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "고혈압성 뇌병증 (Hypertensive encephalopathy)"
+    - "뇌출혈 (ICH) 또는 지주막하 출혈 (SAH)"
+    - "급성 허혈성 뇌졸중"
+  necessary_tests:
+    - "뇌 CT 또는 MRI (뇌부종 및 출혈 감별)"
+    - "안저 검사 (유두부종 확인)"
+    - "혈액 및 소변 검사 (신기능 평가 등)"
+  necessary_treatments:
+    - "응급 혈압 강하 치료 (정맥 주사 약물 사용)"
+    - "항경련제 투여"
+    - "면밀한 혈압 및 신경학적 상태 모니터링"
+history:
+  sex_age: "남성/62"
+  chief_complaint_verbatim: "아버지가 며칠 전부터 머리가 너무 아프다고 하셨는데, 오늘 갑자기 눈이 안 보인다고 하시다가 경련을 했어요."
+  onset: "오늘 오후 2시경"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑작스럽게"
+    recent_course: "전신 경련이 2분간 있었고, 이후 의식이 혼미한 상태."
+  course: "수일 전부터 박동성 두통과 어지럼증을 호소했다. 오늘 오후 갑자기 '눈앞이 뿌옇게 보인다'고 하다가, 전신을 떨며 경련을 시작했다. 발작 이후에도 계속 졸려하고 헛소리를 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "고혈압 약 임의 중단"
+    symptoms: ""
+  character_of_symptom:
+    quality: "심한 두통, 시력 저하, 의식 변화 후 발생한 전신 발작"
+    nrs_score: "두통 NRS 9점 (발작 전)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "오늘 아침 한 차례"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "고혈압"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전 내과"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (10년), 만성 신부전 (초기)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "고혈압약 (종류 모름)"
+    source: "내과 의원"
+    effect: "환자가 한 달 전부터 '약을 먹어도 똑같다'며 임의로 중단함."
+  social_history:
+    job: "은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 고혈압으로 돌아가심"
+  female_history: ""
+physical_exam:
+  general: "의식이 혼미하고 불안정해 보임 (lethargic to obtunded). 지남력 장애 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음 S4 gallop 청진됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "뚜렷한 편측 마비는 관찰되지 않음. 양측 심부건반사 항진. 안저 검사상 양측 유두부종(papilledema)과 망막 출혈 관찰됨."
+standardized_patient_questions: "아버지가 왜 이러시는 건가요? 혈압 약을 안 드셔서 그런가요? 생명에 지장은 없나요?"
+specific_remarks: "환자는 의식이 저하되어 문진이 어렵다. 보호자인 아들이 대신 대답하며, 아버지가 약을 임의로 중단한 것에 대해 죄책감을 느낀다. 안저 검사 소견이 진단에 중요한 단서가 되므로, 시험관은 이 부분을 명확하게 수행해야 한다. 고혈압성 응급상황의 심각성을 설명하고 즉각적인 치료의 필요성을 강조해야 한다."

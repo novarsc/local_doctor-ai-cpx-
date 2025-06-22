@@ -1,0 +1,116 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (아스피린 과민성 호흡기 질환, 삼터씨 병)"
+patient_info:
+  name: "나선희"
+  age: 46
+  sex: "여성"
+  presenting_complaint: "진통제 복용 후 심해지는 코막힘과 기침"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "88회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "아스피린 과민성 호흡기 질환 (AERD, Samter's triad)"
+    - "만성 비용종성 부비동염 및 천식"
+    - "알레르기 비염 및 천식"
+  necessary_tests:
+    - "비강 내시경 검사 (다발성 비용종 확인)"
+    - "폐기능 검사 (천식 진단)"
+    - "아스피린 유발 검사 (진단이 불확실할 경우 입원 하에 신중히 시행)"
+  necessary_treatments:
+    - "아스피린 및 모든 NSAIDs 계열 진통소염제 회피"
+    - "비용종 및 부비동염에 대한 수술적 치료 (필요 시)"
+    - "류코트리엔 조절제 및 스테로이드 등을 이용한 적극적인 천식/비염 조절"
+    - "아스피린 탈감작 치료 (장기적인 조절을 위해 고려)"
+history:
+  sex_age: "여성/46"
+  chief_complaint_verbatim: "코에 물혹이 있어서 계속 치료 중인데, 얼마 전에 머리가 아파서 진통제를 먹었더니 갑자기 숨이 차고 코가 꽉 막혀서 응급실에 갈 뻔했어요."
+  onset: "약물 복용 관련 급성 악화는 2주 전. 기저 비염/천식은 수년 전부터."
+  location:
+    initial: "코, 가슴"
+    current: "코, 가슴"
+  duration:
+    onset_pattern: "특정 약물 복용 후 1-2시간 내에 급격히 악화"
+    recent_course: "이후 진통제를 피하고 있으며, 평소의 코막힘과 쌕쌕거림은 지속됨"
+  course: "수년 전부터 천식과 비용종(코 물혹)을 진단받고 치료 중이었음. 냄새를 거의 못 맡은 지 오래됨. 2주 전 두통으로 아스피린 복용 후 1시간 만에 극심한 코막힘, 콧물, 호흡곤란, 안면홍조가 발생함."
+  experience_prev_episodes:
+    frequency: "이전에도 진통소염제(NSAIDs) 복용 후 비슷하게 불편했던 경험이 몇 번 있었으나, 이번처럼 심하지는 않았음."
+    trigger: "아스피린, 이부프로펜 등 소염진통제"
+    symptoms: "호흡곤란, 코막힘, 콧물"
+  character_of_symptom:
+    quality: "만성적인 코막힘과 후각소실, 그리고 특정 약물에 의해 유발되는 급성 호흡기 증상 악화"
+    nrs_score: "평소 5점, 약물 복용 후 9점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아스피린, NSAIDs 계열 진통제"
+      - "운동, 찬 공기 (천식 증상)"
+    alleviating: "벤토린(속효성 기관지확장제) 사용, 원인 약물 회피"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "이비인후과에서 다발성 비용종 진단 받음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "천식, 만성 비용종성 부비동염"
+    allergies: "없음 (약물 과민성)"
+  medication_history:
+    taken:
+      - "흡입 스테로이드제, 류코트리엔 조절제, 비강 스테로이드"
+    source: "호흡기내과, 이비인후과"
+    effect: "평소 증상은 어느 정도 조절되나 완벽하지 않음"
+  social_history:
+    job: "교사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1회 (마시면 숨이 더 찬 느낌)"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "숨이 차서 하기 어려움"
+    recent_weight_change: "스테로이드 사용으로 약간 체중 증가"
+  family_history: "특이사항 없음"
+  female_history: "LMP 1주 전, 규칙적"
+physical_exam:
+  general: "만성적인 호흡기 질환자의 모습을 보이며, 대화 중 약간의 호흡 불편감을 보일 수 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 추가 소견: 비강 내시경 상 양측 비강을 가득 채우는 포도송이 모양의 창백한 비용종이 관찰됨.
+  chest: "호기 시 전반적인 천명음(wheezing) 청진됨"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "왜 저는 진통제만 먹으면 이렇게 힘든가요? 이건 알레르기인가요? 앞으로 머리 아프면 무슨 약을 먹어야 하죠? 이 병은 완치가 안 되나요?"
+specific_remarks: "환자는 천식, 비용종, 아스피린 과민성이라는 세 가지 특징을 모두 가지고 있음을 명확히 인지하고 있거나, 혹은 경험을 통해 설명할 수 있어야 한다. 약물 복용 후의 급성 악화 경험을 생생하게 묘사한다."

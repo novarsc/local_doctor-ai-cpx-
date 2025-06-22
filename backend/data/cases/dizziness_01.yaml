@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (양성 돌발성 체위성 현훈, BPPV)"
+patient_info:
+  name: "박선영"
+  age: 58
+  sex: "여성"
+  presenting_complaint: "며칠 전부터 아침에 일어날 때 세상이 빙빙 돌아요."
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "양성 돌발성 체위성 현훈 (이석증)"
+    - "전정신경염"
+    - "메니에르병"
+  necessary_tests:
+    - "딕스-홀파이크 검사 (Dix-Hallpike test)"
+    - "신경학적 진찰"
+    - "청력 검사 (감별진단을 위해)"
+  necessary_treatments:
+    - "이석정복술 (Canalith repositioning procedure, 예: 에플리 법)"
+    - "전정 억제제 (단기간 증상 조절용)"
+    - "자세 변화 시 주의 교육 및 재발 가능성 설명"
+history:
+  sex_age: "여성/58세"
+  chief_complaint_verbatim: "오늘 아침에 침대에서 일어나는데 갑자기 세상이 빙빙 돌고 속이 울렁거렸어요."
+  onset: "3일 전 아침"
+  location:
+    initial: "머릿속 전체"
+    current: "머리를 특정 방향으로 움직일 때"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "아침에 일어나거나 누울 때, 고개를 돌릴 때마다 반복됨"
+  course: "어지럼증 자체는 1분 내에 가라앉지만, 자세를 바꿀 때마다 비슷한 양상으로 반복됩니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "주변이나 내가 빙빙 도는 느낌 (회전성 어지럼)"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "한 번 했음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "침대에서 일어날 때"
+      - "누울 때"
+      - "자다가 옆으로 돌아누울 때"
+    alleviating: "가만히 움직이지 않고 있을 때"
+  health_check_history:
+    last_checkup: "2년 전 국가건강검진, 특이소견 없음"
+    endoscopy_finding: "정상"
+  trauma_history: "1달 전 버스에서 가벼운 접촉 사고가 있었으나 다친 곳은 없었음"
+  past_medical_history:
+    underlying_disease: "고혈압 (5년 전 진단, 약물 복용 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀 5mg"
+    source: "내과 의원"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "주부"
+    stress: "최근 특별한 스트레스 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 요가"
+    recent_weight_change: "없음"
+  family_history: "어머니 고혈압"
+  female_history: "10년 전 폐경"
+physical_exam:
+  general: "급성 병색은 보이지 않으나, 어지럼 재발에 대해 불안해하는 모습"
+  heent:
+    sclera: "결막 창백하지 않고, 공막에 황달 없음"
+    oral_mucosa: "건조하지 않음"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 정상"
+    percussion: "고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "부종 없음, 근력 정상"
+standardized_patient_questions: "이거 뇌에 문제 있는 거 아니에요? 중풍 같은 거요. 자꾸 어지러우니 무서워요."
+specific_remarks: "환자는 가만히 앉아있을 때는 괜찮다. 하지만 의사가 딕스-홀파이크 검사를 위해 머리를 돌리고 눕힐 때, 극심한 어지럼을 호소하며 눈을 질끈 감고 식은땀을 흘리는 연기를 한다. 실제 안진이 나타날 필요는 없으나, 어지럼을 느끼는 모습을 명확히 보여준다."

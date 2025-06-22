@@ -1,0 +1,118 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (간질성 방광염/방광통증증후군)"
+patient_info:
+  name: "오세라"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "소변이 차면 아랫배가 아프고 화장실을 너무 자주 감"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "간질성 방광염/방광통증증후군 (IC/BPS)"
+    - "만성 재발성 요로감염"
+    - "과민성 방광"
+  necessary_tests:
+    - "소변검사 및 소변배양검사 (감염 배제 목적)"
+    - "배뇨일지 작성"
+    - "수압확장술을 동반한 방광내시경 (진단 및 치료 목적)"
+    - "칼륨 민감도 검사 (PST, 필요시)"
+  necessary_treatments:
+    - "식이요법 (산성 음식, 카페인 등 자극적인 음식 회피)"
+    - "행동 치료 및 스트레스 관리"
+    - "경구 약물 치료 (항우울제, 항히스타민제, 펜토산 폴리설페이트 등)"
+    - "방광내 약물 주입술"
+history:
+  sex_age: "여성/38세"
+  chief_complaint_verbatim: "소변이 조금만 차도 아랫배가 터질 것처럼 아파요. 그래서 아프기 전에 화장실을 가야 해서, 거의 30분에 한 번씩은 가는 것 같아요. 병원 여러 군데 다녔는데 방광염이라는데 약 먹어도 그때뿐이에요."
+  onset: "2년 전부터"
+  location:
+    initial: "치골 상부 (아랫배)"
+    current: "동일함"
+  duration:
+    onset_pattern: "간헐적으로 시작하여 만성적으로 지속됨"
+    recent_course: "최근 스트레스 받으면서 더 심해짐"
+  course: "2년 전부터 간헐적으로 방광염과 유사한 증상(빈뇨, 절박뇨, 아랫배 통증)이 시작됨. 여러 병원에서 소변검사를 했지만 '염증은 없는데 깨끗하다'는 말을 자주 들었음. 특징적으로 소변이 방광에 차오를수록 통증이 심해지고, 소변을 보고 나면 통증이 일시적으로 완화됨. 하루에 20번 이상 화장실을 가며 야간뇨도 4-5회 있음."
+  experience_prev_episodes:
+    frequency: "만성적으로 지속"
+    trigger: "스트레스, 특정 음식(커피, 오렌지주스, 매운 음식), 성관계 후"
+    symptoms: "동일함"
+  character_of_symptom:
+    quality: "압박감, 뻐근함, 타는 듯한 통증 (방광이 찰 때)"
+    nrs_score: "평상시 3-4, 악화 시 7-8"
+    radiation: "요도나 질 쪽으로 뻗치기도 함"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true # 야간뇨로 인한 수면 부족
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "방광에 소변이 찰 때"
+      - "커피, 탄산음료, 매운 음식을 먹었을 때"
+      - "스트레스, 생리 주기"
+    alleviating: "소변을 보고 나면 일시적으로 완화됨"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "과민성 대장 증후군"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "여러 병원에서 항생제, 과민성방광 약 처방받았었음"
+    source: "의원"
+    effect: "효과 거의 없었음"
+  social_history:
+    job: "프리랜서 번역가"
+    stress: "높음"
+    alcohol:
+      is_drinker: false # 마시면 증상 악화되어 끊음
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "통증 때문에 하기 힘듦"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "LMP: 1주 전. 통증은 생리 전에 심해지는 경향. 성교통(dyspareunia) 있음."
+physical_exam:
+  general: "만성 통증으로 인해 불안하고 지쳐 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "고창음"
+    palpation:
+      suprapubic_tenderness: true # 방광 부위 압통
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "제 병은 도대체 뭔가요? 왜 병원마다 말이 다른가요? 이거 평생 이렇게 살아야 하나요? 너무 우울해요."
+specific_remarks: "의료 쇼핑 경험에 대한 좌절감과 불신을 표현한다. 자신의 고통을 아무도 이해해주지 못한다는 느낌을 호소한다. 증상에 대해 매우 상세하고 예민하게 설명하며, 삶의 질 저하를 강조한다."

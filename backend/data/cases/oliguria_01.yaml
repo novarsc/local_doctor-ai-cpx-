@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (급성 세뇨관 괴사)"
+patient_info:
+  name: "김철수"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "이틀 전부터 소변 양이 눈에 띄게 줄어듦"
+vital_signs:
+  blood_pressure: "95/60mmHg"
+  pulse: "110회/분"
+  respiration: "22회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "허혈성 급성 세뇨관 괴사 (패혈증에 의한)"
+    - "신전성 급성 신손상"
+    - "약물 유발성 급성 사이질콩팥염"
+  necessary_tests:
+    - "일반 혈액 검사 및 혈액 배양 검사"
+    - "혈청 생화학 검사 (BUN/Cr, 전해질)"
+    - "소변 검사 및 소변 현미경 검사"
+  necessary_treatments:
+    - "수액 요법을 통한 혈압 안정"
+    - "경험적 항생제 투여"
+    - "신기능 모니터링 및 필요시 투석 고려"
+history:
+  sex_age: "남성/68"
+  chief_complaint_verbatim: "이틀 전부터 소변이 거의 안 나와요. 하루에 한두 번 가는데, 양도 종이컵 반 컵도 안 되는 것 같아요."
+  onset: "이틀 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "점점 더 악화됨"
+  course: "5일 전부터 기침, 가래, 고열 증상으로 동네 의원에서 감기약 처방받아 복용함. 3일 전부터 전신 무력감 심해지고 어지러워 거의 누워 지냈고, 이틀 전부터 소변량이 급격히 줄어든 것을 인지함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "소변이 마려운 느낌은 있으나 나오지 않음"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "한 차례 구역감만 있었음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "기립 시 어지러움"
+    alleviating: "누워있으면 조금 나음"
+  health_check_history:
+    last_checkup: "1년 전, 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨병 (10년 전 진단, 약물 복용 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (Amlodipine)"
+      - "당뇨약 (Metformin)"
+      - "3일 전부터 동네 의원 처방 감기약 (NSAIDs 포함된 것으로 추정)"
+    source: "고혈압, 당뇨약은 대학병원 내과, 감기약은 개인 의원"
+    effect: "감기 증상 호전 없음"
+  social_history:
+    job: "은퇴 후 무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: "없음"
+    exercise: "주 2회 가벼운 산책"
+    recent_weight_change: "최근 5일간 2kg 감소"
+  family_history: "부친: 고혈압, 모친: 당뇨병"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색, 의식 명료하나 기운 없어 보임. 전신적으로 처진 모습."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "건조함"
+  chest: "양쪽 폐하부에서 미세한 수포음(crackle) 청진됨"
+  abdomen:
+    inspection: "편평하고 정상"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양쪽 발목에 약간의 오목 부종 (pitting edema 1+)"
+standardized_patient_questions: "제가 폐렴 때문에 콩팥까지 나빠진 건가요? 투석을 해야 할 수도 있나요? 다시 좋아질 수 있는 건가요?"
+specific_remarks: "환자는 힘이 없고 약간의 호흡곤란을 느끼는 듯 짧은 문장으로 대답한다. 어지럽다며 앉아있는 것을 힘들어하는 모습을 보인다. 피부 탄력도가 감소한 상태를 연기한다."

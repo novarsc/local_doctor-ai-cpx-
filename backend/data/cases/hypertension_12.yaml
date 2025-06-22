@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (약물 유발성 고혈압)"
+patient_info:
+  name: "강하나"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "무릎 통증과 최근 발견된 고혈압"
+vital_signs:
+  blood_pressure: "156/96mmHg"
+  pulse: "84회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비스테로이드성 소염제(NSAIDs)에 의한 약물 유발성 고혈압"
+    - "본태성 고혈압"
+    - "퇴행성 관절염"
+  necessary_tests:
+    - "혈액 검사 (신장 기능, 전해질)"
+    - "소변 검사"
+    - "진통제 중단 후 혈압 변화 추이 관찰"
+  necessary_treatments:
+    - "원인 약물(NSAIDs) 중단 또는 변경 (예: Acetaminophen)"
+    - "생활 습관 교정"
+    - "필요 시 항고혈압제 투여 고려"
+history:
+  sex_age: "여성/55"
+  chief_complaint_verbatim: "무릎이 아파서 약을 먹고 있는데, 얼마 전부터 머리도 띵하고 혈압을 재보니 높게 나와서 걱정돼요."
+  onset: "혈압이 높다는 것은 1달 전 가정의학과 방문 시 처음 알게 됨"
+  location:
+    initial: "없음"
+    current: "경미한 두통"
+  duration:
+    onset_pattern: "불명확함"
+    recent_course: "계속 150/90mmHg 이상으로 측정됨"
+  course: "3개월 전부터 무릎 통증으로 정형외과에서 약을 타서 복용 중. 한 달 전 감기 기운으로 내과에 갔다가 우연히 고혈압을 발견함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "가벼운 두통"
+    nrs_score: "2"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 서 있거나 걸을 때 (무릎 통증)"
+    alleviating: "진통제 복용 (무릎 통증)"
+  health_check_history:
+    last_checkup: "1년 전, 혈압 정상이었음"
+    endoscopy_finding: "위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "퇴행성 관절염 (3개월 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Celecoxib 200mg"
+      - "PPI (위장약)"
+    source: "정형외과 의원"
+    effect: "무릎 통증은 조절 잘 됨"
+  social_history:
+    job: "식당 운영"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "무릎이 아파서 못함"
+    recent_weight_change: "없음"
+  family_history: "모친: 고혈압"
+  female_history: "5년 전 폐경"
+physical_exam:
+  general: "과체중의 중년 여성"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양측 무릎 관절의 가벼운 부종 및 압통, 운동 범위 제한. 함요 부종은 없음."
+standardized_patient_questions: "무릎 아픈 약 때문에 혈압이 오를 수도 있나요? 그럼 이제 무릎 아파도 약을 못 먹는 건가요? 혈압약을 또 먹어야 하나요?"
+specific_remarks: "환자는 고혈압 자체보다 무릎 통증에 대한 걱정이 더 크다. 의사가 현재 복용 중인 약에 대해 자세히 물어보는지, 그리고 그 약이 혈압에 미치는 영향에 대해 설명하는지를 중요하게 생각한다. 진통제를 끊어야 한다는 말에 강한 저항감을 보인다."

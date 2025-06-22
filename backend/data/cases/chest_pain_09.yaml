@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (공황장애, Panic Disorder)"
+patient_info:
+  name: "정불안"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "갑자기 죽을 것 같은 느낌과 함께 나타나는 가슴 통증"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "110회/분"
+  respiration: "26회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "공황장애"
+    - "심실상성 빈맥 등 부정맥"
+    - "갑상선 기능 항진증"
+  necessary_tests:
+    - "심장질환 감별을 위한 심전도, 심장초음파"
+    - "갑상선 기능 검사를 포함한 혈액검사"
+    - "필요시 24시간 홀터 모니터링"
+  necessary_treatments:
+    - "정신건강의학과적 평가 및 상담"
+    - "선택적 세로토닌 재흡수 억제제(SSRI) 등 약물치료"
+    - "인지행동치료, 호흡 훈련"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "한 달 전부터 갑자기 심장이 미친 듯이 뛰고 숨이 안 쉬어지면서 가슴이 답답하고 아파요. 이러다 죽는구나 싶은 공포감이 밀려와요."
+  onset: "1개월 전"
+  location:
+    initial: "가슴 전체"
+    current: "가슴 전체적인 답답함"
+  duration:
+    onset_pattern: "예측 불가능하게 갑자기"
+    recent_course: "최근 일주일에 두 번이나 발생함"
+  course: "주로 지하철이나 사람 많은 마트에서 발생. 10분 정도 최고조에 달했다가 20~30분 지나면 서서히 가라앉음. 증상이 사라진 후에도 기운이 없고 불안함."
+  experience_prev_episodes:
+    frequency: "지난 한 달간 4차례"
+    trigger: "뚜렷한 유발 요인 없음. 주로 폐쇄된 공간이나 사람이 많은 곳."
+    symptoms: "가슴 두근거림, 숨 막힘, 가슴 통증, 어지러움, 손발 저림, 죽을 것 같은 공포"
+  character_of_symptom:
+    quality: "답답한, 조이는 듯한"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: "증상 발생 시 오한 느낌 있음"
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "지하철, 엘리베이터, 마트 등 특정 장소"
+    alleviating: "시간이 지나면 저절로 호전됨. 밖으로 나와 신선한 공기를 쐬면 좀 나아지는 기분."
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "증상 있을 때마다 우황청심원 복용"
+    source: "약국"
+    effect: "별 효과 없음"
+  social_history:
+    job: "회사원"
+    stress: "업무 강도가 높고 실적 압박이 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "못하고 있음"
+    recent_weight_change: "없음"
+  family_history: "어머니가 불안증이 있으심"
+  female_history: "LMP: 1주 전, 규칙적"
+physical_exam:
+  general: "매우 불안해하며 손을 떨고 있음. 호흡이 얕고 빠름."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "심음은 빠르지만 규칙적(sinus tachycardia). 호흡음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "손에 땀이 많고 약간 차가움. 부종 없음."
+standardized_patient_questions: "제가 심장병에 걸린 게 확실하죠? 이러다 또 증상이 나타날까 봐 무서워서 밖에 나가지를 못하겠어요."
+specific_remarks: "불안하고 초조한 모습을 보인다. 말을 빨리 하고, 질문에 답하면서도 계속해서 증상을 호소한다 ('지금도 심장이 뛰는 것 같아요'). 신체 검사 상으로는 특이 소견이 없다는 점을 인지하고 연기한다."

@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (대장암)"
+patient_info:
+  name: "최정호"
+  age: 67
+  sex: "남성"
+  presenting_complaint: "변에 피가 섞여 나오고 변이 가늘어짐"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대장암"
+    - "대장 용종"
+    - "염증성 장질환"
+  necessary_tests:
+    - "직장수지검사"
+    - "대장내시경 및 조직검사"
+    - "종양표지자검사(CEA), 복부-골반 CT"
+  necessary_treatments:
+    - "진단 확정 후 병기 설정"
+    - "수술적 절제"
+    - "필요에 따라 항암화학요법 및 방사선 치료"
+history:
+  sex_age: "남성/67세"
+  chief_complaint_verbatim: "한 서너 달 전부터 변에 검붉은 피가 섞여 나오고, 변이 연필처럼 가늘어졌어요. 시원하게 보지도 못하겠고요."
+  onset: "약 4개월 전"
+  location:
+    initial: "특정 부위 없음"
+    current: "하복부 불편감"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "증상이 점점 심해짐"
+  course: "처음에는 피곤해서 그런가 했는데, 변에 피가 섞여 나오는 날이 잦아지고 변 굵기가 눈에 띄게 가늘어졌다. 최근에는 배변 후에도 변이 남아있는 느낌(잔변감)이 계속된다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "NA"
+    symptoms: "NA"
+  character_of_symptom:
+    quality: "변과 섞여 나오는 검붉은 색의 혈액, 점액이 섞여 나올 때도 있음."
+    nrs_score: 2
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 전단계"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "NA"
+    effect: "NA"
+  social_history:
+    job: "은퇴 후 소일거리 (농사)"
+    stress: "별로 없음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "막걸리 1-2병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "NA"
+    exercise: "농사일로 몸을 움직임"
+    recent_weight_change: "지난 6개월간 7kg 감소"
+  family_history: "형님이 위암으로 돌아가심"
+  female_history: "NA"
+physical_exam:
+  general: "만성 병색을 띠고 다소 야위어 보임."
+  heent:
+    sclera: "결막 약간 창백함"
+    oral_mucosa: "건조하지 않음"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상 공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 좌하복부에서 경계가 불분명한 단단한 종괴가 만져짐 (mass palpated in LLQ)
+  cvat: "좌우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "요즘 밥맛도 없고 살도 빠지는데, 나쁜 병인가요? 그냥 치질은 아닌 것 같아서 걱정돼요."
+specific_remarks: "환자는 자신의 증상을 덤덤하게 말하지만, 체중 감소와 식욕 부진을 언급하며 암에 대한 불안감을 내비친다. 의사의 설명에 집중하며 심각한 표정을 유지한다."

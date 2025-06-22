@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (장폐색)"
+patient_info:
+  name: "오길수"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "배가 아프고 토하는데 방귀도 안 나와요"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "110회/분"
+  respiration: "22회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "장폐색 (특히 유착성)"
+    - "마비성 장폐색"
+    - "교액성 탈장"
+  necessary_tests:
+    - "복부 X-ray (기립, 와위 촬영)"
+    - "복부 CT"
+    - "혈액검사 (전해질 불균형, 탈수 확인)"
+  necessary_treatments:
+    - "입원 치료"
+    - "금식 및 비위관 삽입을 통한 감압"
+    - "수액 및 전해질 교정"
+    - "교액(strangulation) 의심 시 응급수술"
+history:
+  sex_age: "남성/72"
+  chief_complaint_verbatim: "이틀 전부터 배가 전체적으로 쥐어짜듯이 아프고, 어제부터는 뭘 먹지 않아도 계속 토해요. 방귀랑 대변도 전혀 못 봤어요."
+  onset: "내원 2일 전"
+  location:
+    initial: "배꼽 주변"
+    current: "복부 전체"
+  duration:
+    onset_pattern: "간헐적인 통증으로 시작하여 지속적으로 바뀜"
+    recent_course: "통증의 간격이 짧아지고 강도가 심해짐. 배가 점점 불러옴."
+  course: "이틀 전부터 배꼽 주변이 쥐어짜듯이 아팠다 괜찮아졌다를 반복함. 어제부터는 통증이 계속되고, 구토 시작. 처음에는 음식물을 토하다가 나중에는 노란 물, 오늘은 약간 갈색의 냄새나는 것을 토함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쥐어짜는 듯한 산통 (colicky pain)"
+    nrs_score: "8-9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "초기 음식물, 이후 담즙성, 현재 분변성(feculent) 구토"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "시간이 지날수록"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨, 고혈압"
+    allergies: "없음"
+    previous_surgery: "10년 전 대장암 초기 진단으로 우측 결장 절제술 받음"
+  medication_history:
+    taken:
+      - "혈압약, 당뇨약"
+    source: "동네 의원"
+    effect: "꾸준히 복용 중"
+  social_history:
+    job: "무직 (은퇴)"
+    stress: "별로 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "매일 1시간 공원 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "매우 지치고 힘들어 보임. 탈수 소견이 명확함."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "매우 건조함"
+  chest: "특이 소견 없음"
+  abdomen:
+    inspection: "전반적으로 팽만되어 있으며, 과거 수술 흉터가 우측 복부에 보임."
+    auscultation: "초기에는 항진된 금속성 장음(metallic sound), 현재는 장음 감소"
+    percussion: "전반적인 고창음 (tympany)"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      tenderness_diffuse: true # 전반적인 압통
+  cvat: "양측 음성"
+  extremity: "피부 긴장도 저하"
+standardized_patient_questions: "나이가 많아서 그런가요? 왜 방귀도 안 나오죠? 수술 말고는 방법이 없나요? 예전에 수술한 것 때문에 이런 건가요?"
+specific_remarks: "환자는 매우 기운이 없는 모습을 연기한다. 구토물 양상에 대해 물으면 '더러운 이야기지만, 꼭 대변 같은 냄새가 나는 것을 토했다'고 구체적으로 답한다. 복부 청진 시 '꾸르륵'하는 소리가 들리다가 조용해지는 양상을 보일 수 있다."

@@ -1,0 +1,107 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "23"
+title: "실전 모의 증례 (외림프 누공, Perilymphatic Fistula)"
+patient_info:
+  name: "안재현"
+  age: 34
+  sex: "남성"
+  presenting_complaint: "스쿠버 다이빙을 한 후부터 어지럽고 귀가 먹먹해요."
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "75회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "외림프 누공"
+    - "감압병 (잠수병)"
+    - "외상 후 메니에르병"
+  necessary_tests:
+    - "누공 검사 (Fistula test)"
+    - "전기 와우도 검사 (ECoG)"
+    - "고해상도 측두골 CT"
+    - "필요시 탐색적 고실개방술"
+  necessary_treatments:
+    - "절대 안정 (침상 안정)"
+    - "복압을 높이는 행위 금지 (기침, 코 풀기, 무거운 것 들기 금지)"
+    - "보존적 치료에 반응 없을 시 수술적 치료 (누공 폐쇄)"
+history:
+  sex_age: "남성/34세"
+  chief_complaint_verbatim: "일주일 전에 스쿠버 다이빙을 하고 나왔는데, 그 직후부터 계속 어지럽고 오른쪽 귀가 잘 안 들려요."
+  onset: "1주일 전"
+  location:
+    initial: "머릿속, 오른쪽 귀"
+    current: "지속됨"
+  duration:
+    onset_pattern: "갑작스럽게 발생"
+    recent_course: "증상이 좋아졌다 나빠졌다를 반복함"
+  course: "다이빙 후 배에 올라왔을 때 '퍽'하는 느낌과 함께 갑자기 어지럽고 귀가 먹먹해졌습니다. 증상은 자세를 바꿀 때나 활동할 때 더 심해집니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "스쿠버 다이빙 (급격한 압력 변화)"
+    symptoms: ""
+  character_of_symptom:
+    quality: "회전성 어지럼과 불균형감이 섞여 있음"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "활동, 움직임"
+      - "기침, 재채기"
+    alleviating: "머리를 높이고 가만히 누워있는 것"
+  health_check_history:
+    last_checkup: "정상"
+    endoscopy_finding: ""
+  trauma_history: "1주일 전 스쿠버 다이빙 (압력 외상)"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원 (취미: 스쿠버 다이빙)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "불편해 보이나 급성 병색은 아님."
+  heent: "외이도에 압력을 가하면(누공 검사) 안진과 어지럼이 유발될 수 있음."
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "Romberg test 양성."
+standardized_patient_questions: "다이빙하다가 귀에 문제가 생긴 걸까요? 쉬면 저절로 나을 수 있나요? 앞으로 다이빙은 못하게 되는 건가요?"
+specific_remarks: "환자는 증상이 '급격한 압력 변화(다이빙)' 이후에 발생했다는 점을 명확히 진술해야 한다. 어지럼증과 함께 청력 저하, 이명이 동반되며, 특히 활동하거나 복압이 올라갈 때 증상이 악화된다는 점을 강조한다. 이는 진단의 핵심적인 병력이다. 의사가 누공 검사를 시행하는 척 할 때 어지럽다고 반응해야 한다."

@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (동기능부전 증후군)"
+patient_info:
+  name: "박종팔"
+  age: 78
+  sex: "남성"
+  presenting_complaint: "어지러워서 쓰러질 뻔 하다가도, 가슴이 뛸 때도 있어요"
+vital_signs:
+  blood_pressure: "130/70mmHg"
+  pulse: "45회/분 (규칙적)"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "동기능부전 증후군 (Tachy-brady syndrome)"
+    - "고도의 방실차단 (High-degree AV block)"
+    - "미주신경성 실신 (Vasovagal syncope)"
+  necessary_tests:
+    - "24시간 활동 심전도 검사 (Holter monitoring)"
+    - "심전도 (EKG)"
+    - "심장 초음파"
+    - "필요시 사건 기록 심전도 (Event recorder)"
+  necessary_treatments:
+    - "증상이 있는 서맥에 대한 영구형 인공심박동기 삽입술"
+    - "심박동기 삽입 후 빈맥에 대한 약물 치료"
+    - "어지러움, 실신 예방 교육"
+history:
+  sex_age: "남/78"
+  chief_complaint_verbatim: "정신이 아득해지면서 쓰러질 뻔 할 때가 있고, 어떤 때는 또 가슴이 막 뛰고 그래. 아주 변덕스러워."
+  onset: "약 1년 전부터"
+  location:
+    initial: "머리(어지러움), 가슴(두근거림)"
+    current: "동일"
+  duration:
+    onset_pattern: "예측 불가능하게 발생함"
+    recent_course: "최근 들어 어지러운 증상이 더 심해짐. 며칠 전에는 길을 걷다가 주저앉았음."
+  course: "두근거리는 증상과 어지러운 증상이 번갈아 가며 나타남"
+  experience_prev_episodes:
+    frequency: "어지러움은 주 2-3회, 두근거림은 월 1-2회"
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "어지러울 때는 눈앞이 캄캄해지고, 두근거릴 때는 가슴이 답답함"
+  character_of_symptom:
+    quality: "두근거림은 불규칙하게 빨리 뛰고, 어지러움은 맥이 탁 풀리면서 정신을 잃을 것 같은 느낌"
+    nrs_score: "7 (어지러울 때)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "가만히 앉아 있거나 누우면 어지러움은 호전됨. 두근거림은 저절로 멈춤."
+  health_check_history:
+    last_checkup: "1년 전, '맥이 좀 느리다'는 얘기를 들음"
+    endoscopy_finding: "5년 전, 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "아스피린, 혈압약, 고지혈증약"
+    source: "내과 의원"
+    effect: "잘 모르겠음"
+  social_history:
+    job: "은퇴"
+    stress: "거의 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "매일 1시간씩 공원에서 산책"
+    recent_weight_change: "없음"
+  family_history: "특이 가족력 없음"
+physical_exam:
+  general: "전반적으로 기력이 없어 보임. 느린 거동."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음이 느리고 규칙적으로 들림 (서맥)."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "부종 없음. 맥박이 매우 느리게 촉지됨."
+standardized_patient_questions: "나이가 들어서 기력이 쇠해서 그런 건가요? 자꾸 쓰러질 것 같아서 겁나서 밖에를 못 나가겠어요. 치료 방법은 있나요?"
+specific_remarks: "환자는 노인 역할을 하며, 느리고 힘없는 말투를 사용한다. '어지럽다'와 '두근거린다'는 상반된 증상을 명확하게 구분하여 설명한다. 진찰 시 맥박이 느리다는 사실에 대해 '원래 맥이 좀 느리다고 하더라'며 대수롭지 않게 반응하지만, 쓰러질 뻔한 경험에 대해서는 큰 불안감을 보인다."

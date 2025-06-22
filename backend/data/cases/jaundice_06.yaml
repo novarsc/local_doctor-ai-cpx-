@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (길랑-바레 증후군 아님, 길버트 증후군, Gilbert's Syndrome)"
+patient_info:
+  name: "강민준"
+  age: 21
+  sex: "남성"
+  presenting_complaint: "피곤할 때마다 경미하게 나타나는 황달"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "길버트 증후군"
+    - "경미한 용혈성 빈혈"
+    - "만성 간염 초기"
+  necessary_tests:
+    - "혈액 검사 (전혈구, 망상적혈구, 간기능, 총/직접 빌리루빈)"
+    - "소변 검사 (유로빌리노겐)"
+    - "유전자 검사 (UGT1A1 유전자 다형성, 확진 필요한 경우)"
+  necessary_treatments:
+    - "특별한 치료가 필요 없는 양성 질환임을 설명"
+    - "과로, 스트레스, 금식 시 황달이 나타날 수 있음을 교육"
+    - "정기적인 건강검진 외 추가적인 추적 관찰은 불필요"
+history:
+  sex_age: "남성/21세"
+  chief_complaint_verbatim: "대학교 시험 기간처럼 좀 무리하고 피곤하면 눈 흰자위가 약간 노래지는 것 같아요. 푹 쉬면 또 괜찮아지고요. 이번에도 기말고사 준비하느라 며칠 밤샜더니 또 그래서 걱정돼서 와봤어요."
+  onset: "수년 전부터 간헐적으로 발생"
+  location:
+    initial: "눈 흰자위"
+    current: "눈 흰자위"
+  duration:
+    onset_pattern: "피로, 스트레스 시 유발"
+    recent_course: "3일 전부터 지속"
+  course: "고등학생 때부터 시험 기간이나 운동을 심하게 한 다음 날 아침에 가족들이 눈이 노랗다고 말해준 적이 몇 번 있었다. 보통 2-3일 푹 쉬고 나면 다시 원래대로 돌아왔다. 다른 불편한 증상은 전혀 없다."
+  experience_prev_episodes:
+    frequency: "1년에 2-3회"
+    trigger: "스트레스, 수면 부족, 금식"
+    symptoms: "경미한 황달"
+  character_of_symptom:
+    quality: "증상 없음. 황달만 관찰됨."
+    nrs_score: "0"
+    radiation: ""
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: "시험 기간이라 피곤함"
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+      stool_color_change: "정상"
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스, 피로, 금식"
+    alleviating: "충분한 휴식"
+  health_check_history:
+    last_checkup: "작년 대학교 입학 신체검사"
+    endoscopy_finding: "시행 안 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "시험 기간이라 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 농구"
+    recent_weight_change: "없음"
+  family_history: "아버지도 피곤하면 눈이 약간 노래진다고 함"
+  female_history: ""
+physical_exam:
+  general: "건강해 보이는 젊은 남성. 약간 피곤해 보임."
+  heent:
+    sclera: "경미한 황달 (mildly icteric)"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평하고 흉터 없음."
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"간, 비장 촉진되지 않음\""
+  cvat: "좌/우 음성"
+  extremity: "정상"
+standardized_patient_questions: "이거 위험한 병인가요? 왜 피곤할 때만 이러는 거죠? 계속 이렇게 살아도 괜찮은 건가요?"
+specific_remarks: "환자는 황달 외에는 어떤 신체적 불편감도 호소하지 않는다. 건강하고 활동적인 대학생의 모습을 연기한다. '아버지도 피곤하면 그렇다'는 가족력을 자연스럽게 언급하여 유전 질환의 가능성을 암시한다. 전반적으로 병에 대한 걱정은 있지만, 심각한 상태는 아닌 것으로 인지하고 있다."

@@ -12,6 +12,8 @@ import MyNotesLayout from './features/my-notes/MyNotesLayout';
 import OnboardingPage from './features/onboarding/OnboardingPage';
 import LoginPage from './features/auth/LoginPage';
 import RegisterPage from './features/auth/RegisterPage';
+import SocialCallbackPage from './features/auth/SocialCallbackPage';
+import ResetPasswordPage from './features/auth/ResetPasswordPage';
 import DashboardPage from './features/dashboard/DashboardPage';
 import CaseListPage from './features/cases/CaseListPage';
 import PrePracticePage from './features/cases/CasePracticeFlow/PrePracticePage';
@@ -52,6 +54,14 @@ const router = createBrowserRouter([
         path: 'register',
         element: <PublicRoute><RegisterPage /></PublicRoute>,
       },
+      {
+        path: 'auth/callback',
+        element: <PublicRoute><SocialCallbackPage /></PublicRoute>,
+      },
+      {
+        path: 'auth/reset-password',
+        element: <PublicRoute><ResetPasswordPage /></PublicRoute>,
+      },
     ]
   },
   {
@@ -68,7 +78,7 @@ const router = createBrowserRouter([
       { path: 'cases/results/:sessionId', element: <PostPracticePage /> },
 
       { path: 'mock-exams', element: <MockExamMainPage /> },
-      { path: 'mock-exams/live/:mockExamSessionId', element: <MockExamInProgressPage /> },
+      { path: 'mock-exams/live/:mockExamSessionId/:caseNumber', element: <MockExamInProgressPage /> },
       { path: 'mock-exams/results/:mockExamSessionId', element: <MockExamResultPage /> },
 
       {

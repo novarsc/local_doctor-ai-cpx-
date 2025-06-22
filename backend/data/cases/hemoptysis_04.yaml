@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (폐색전증)"
+patient_info:
+  name: "김수현"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "갑자기 발생한 호흡곤란, 흉통, 객혈"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "110회/분"
+  respiration: "24회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐색전증"
+    - "급성 심근경색"
+    - "폐렴"
+  necessary_tests:
+    - "흉부 CT 혈관조영술 (CT pulmonary angiography)"
+    - "D-dimer 혈액 검사"
+    - "심전도 및 심장 효소 검사"
+  necessary_treatments:
+    - "항응고제 치료 (헤파린, 와파린 등)"
+    - "산소 공급"
+    - "필요시 혈전용해술 또는 색전제거술"
+history:
+  sex_age: "여성/35"
+  chief_complaint_verbatim: "오늘 아침에 갑자기 숨이 턱 막히고 가슴이 칼로 찌르는 것처럼 아팠어요. 기침을 하니 피가 조금 나오네요."
+  onset: "3시간 전"
+  location:
+    initial: "왼쪽 가슴"
+    current: "왼쪽 가슴"
+  duration:
+    onset_pattern: "매우 갑작스럽게 발생 (abrupt onset)"
+    recent_course: "증상이 지속되고 있음"
+  course: "아침에 일어나서 활동을 시작하자마자 갑자기 숨이 차고 왼쪽 가슴에 날카로운 통증이 발생함. 숨을 깊게 들이쉬면 통증이 더 심해짐. 이후 기침을 몇 번 하다가 소량의 객혈이 있었음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "기침 시 소량의 선홍색 피"
+    nrs_score: 7
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "깊은 숨을 쉴 때"
+      - "움직일 때"
+    alleviating: "가만히 있을 때 약간 덜함"
+  health_check_history:
+    last_checkup: "1년 전 직장 검진"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "경구 피임약 (야스민)"
+    source: "산부인과"
+    effect: "피임 효과"
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "와인 1~2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "필라테스 주 2회"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 1주 전. 경구 피임약 5년간 복용 중"
+physical_exam:
+  general: "불안해하며 안절부절못하는 모습. 얕고 빠른 호흡을 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "흉부 청진상 특이 소견 없음 (Clear breath sounds bilaterally). 흉막 마찰음은 들리지 않음."
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "왼쪽 종아리에 약간의 부종과 압통이 관찰됨 (Homan's sign 양성 가능성). 양쪽 다리 둘레 차이 있음."
+standardized_patient_questions: "저 왜 이렇게 숨이 차고 아픈가요? 심장에 문제 생긴 건 아니겠죠? 너무 무서워요."
+specific_remarks: "급성 통증과 호흡곤란으로 매우 불안한 상태를 연기. 말을 길게 하기 어려워하며 숨을 헐떡이는 모습을 보일 것. 왼쪽 다리 진찰 시 아프다고 표현할 것."

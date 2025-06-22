@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (대장암)"
+patient_info:
+  name: "김철수"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "최근 심해진 변비와 혈변"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대장암"
+    - "게실 질환 합병증"
+    - "허혈성 대장염"
+  necessary_tests:
+    - "혈액검사 (CBC, 화학검사, 종양표지자 CEA)"
+    - "대장 내시경 및 조직검사"
+    - "복부 및 흉부 CT (병기 설정을 위해)"
+  necessary_treatments:
+    - "진단 결과에 따른 수술적 치료"
+    - "필요시 항암화학요법 또는 방사선 치료"
+    - "빈혈 교정 및 영양 지원"
+history:
+  sex_age: "남/65"
+  chief_complaint_verbatim: "한 서너 달 전부터 변 보기가 너무 힘들어졌어요. 변이 가늘어지고, 닦고 나면 검붉은 피가 섞여 나와서 걱정돼서 왔습니다. 살도 좀 빠진 것 같고요."
+  onset: "약 3-4개월 전"
+  location:
+    initial: "하복부 불편감"
+    current: "하복부 불편감"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점차 악화"
+  course: "평생 변비 없이 지냈으나 3-4개월 전부터 변비가 시작되었다. 처음에는 2-3일에 한 번 변을 보다가 최근에는 4-5일에 한 번 간신히 본다. 변의 굵기가 연필처럼 가늘어졌고, 검붉은 색의 피가 변과 섞여 나오는 것을 확인했다. 힘을 줘도 시원하게 나오지 않는다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "묵직한 불편감"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "10년 전"
+    endoscopy_finding: "대장 내시경 받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (Amlodipine)"
+    source: "내과 처방"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "은퇴 후 소일거리"
+    stress: "적음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "20년 전 금연"
+    exercise: "가벼운 산책"
+    recent_weight_change: "최근 4개월간 5kg 감소"
+  family_history: "아버지가 60대에 대장암으로 사망함"
+  female_history: ""
+physical_exam:
+  general: "만성 병색, 다소 창백해 보임"
+  heent:
+    sclera: "공막은 황달 없으나 결막이 창백함"
+    oral_mucosa: "약간 건조함"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      tenderness_llq: true
+      firm_nontender_mass_palpable_in_llq: true
+  cvat: "좌우 음성"
+  extremity: "정상"
+standardized_patient_questions: "나이가 들어서 그냥 변비가 생긴 줄 알았는데... 혹시 큰 병인가요? 우리 아버님도 대장암으로 고생하셨는데..."
+specific_remarks: "환자는 불안해하며, 특히 체중 감소와 가족력에 대해 말할 때 목소리가 떨린다. '암'이라는 단어에 민감하게 반응하며 의사의 표정을 살핀다."

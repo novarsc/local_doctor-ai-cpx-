@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (대동맥판막 협착증, Aortic Stenosis)"
+patient_info:
+  name: "권칠성"
+  age: 78
+  sex: "남성"
+  presenting_complaint: "운동 시 발생하는 가슴 통증과 어지러움"
+vital_signs:
+  blood_pressure: "110/85mmHg"
+  pulse: "60회/분 (느리고 약함)"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대동맥판막 협착증에 의한 협심증"
+    - "안정형 협심증 (관상동맥 질환)"
+    - "기립성 저혈압"
+  necessary_tests:
+    - "심장초음파 (확진 검사)"
+    - "심전도 및 흉부 방사선 촬영"
+    - "필요시 수술 전 평가를 위한 관상동맥 조영술"
+  necessary_treatments:
+    - "증상이 있는 중증 대동맥판막 협착증은 수술적 치료 대상"
+    - "대동맥판막 치환술 (수술적 또는 경피적 시술 TAVI/TAVR)"
+    - "수술 전까지 무리한 활동 제한"
+history:
+  sex_age: "남성/78세"
+  chief_complaint_verbatim: "작년부터 시장에 걸어갈 때면 가슴이 답답하고 아파요. 그러다 어지러워서 주저앉은 적도 몇 번 있습니다. 숨도 차고요."
+  onset: "약 1년 전"
+  location:
+    initial: "가슴 중앙"
+    current: "가슴 중앙"
+  duration:
+    onset_pattern: "운동이나 활동 시 발생"
+    recent_course: "점점 더 적은 활동에도 증상이 나타남"
+  course: "처음에는 20분 정도 걸어야 아팠는데, 요즘은 5분만 걸어도 가슴이 조여오고 숨이 참. 쉬면 나아짐."
+  experience_prev_episodes:
+    frequency: "활동할 때마다"
+    trigger: "걷기, 계단 오르기"
+    symptoms: "가슴 통증, 호흡 곤란, 어지러움 (실신 전 단계)"
+  character_of_symptom:
+    quality: "압박감, 뻐근함"
+    nrs_score: "5"
+    radiation: "목으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "모든 종류의 신체 활동"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "모름"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "보건소"
+    effect: "그럭저럭 조절됨"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "증상 때문에 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "노쇠해 보임. 느리게 행동함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진 시 우상부 흉골연(right upper sternal border)에서 수축기 분출성 잡음(systolic ejection murmur)이 들리며, 이 잡음은 경동맥으로 방사됨. 심첨박동(PMI)이 지속적이고 강하게 촉지됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "부종 없음. 말초 맥박이 약하고 느리게 상승함 (pulsus parvus et tardus)."
+standardized_patient_questions: "나이가 들어서 기력이 없는 줄 알았는데, 심장에 문제가 있는 건가요? 수술해야 한다면 제가 견딜 수 있을까요?"
+specific_remarks: "가슴 통증, 호흡 곤란, 어지러움(실신)의 세 가지 대표 증상을 모두 호소한다. 의사가 심장 청진을 꼼꼼하게 하는지, 특히 목(경동맥) 쪽으로 청진기를 대 보는지 유심히 본다. 맥박을 촉진할 때 느리고 약하다는 점을 인지한다."

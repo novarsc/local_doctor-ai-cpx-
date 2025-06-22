@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (기관지확장증)"
+patient_info:
+  name: "나미경"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "수년간 반복되는 다량의 가래와 기침"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기관지확장증 (Bronchiectasis)"
+    - "만성 기관지염 (Chronic bronchitis)"
+    - "비결핵 항산균 폐질환 (NTM lung disease)"
+  necessary_tests:
+    - "고해상도 흉부 CT (HRCT) (확진)"
+    - "객담 검사 (세균 배양 및 항산균 검사)"
+    - "폐기능 검사"
+  necessary_treatments:
+    - "객담 배출을 위한 물리 요법 (체위 배농 등)"
+    - "급성 악화 시 항생제 치료"
+    - "필요 시 기관지 확장제 사용"
+history:
+  sex_age: "여성/55세"
+  chief_complaint_verbatim: "거의 매일 기침을 하고 가래가 많이 나와요. 특히 아침에 일어나면 한 컵 정도 뱉어내야 속이 시원해요. 가끔 피도 섞여 나와요."
+  onset: "약 10년 전부터 서서히 시작"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "만성적, 반복적"
+    recent_course: "최근 감기 후에 가래 양이 더 늘고 색이 진해짐"
+  course: "젊었을 때 폐렴을 심하게 앓은 후부터 기침, 가래가 잦았다. 10년 전부터는 거의 매일 다량의 가래가 나오고, 1년에 몇 번씩은 감기처럼 열나고 더 심해져서 항생제를 먹곤 한다."
+  experience_prev_episodes:
+    frequency: "거의 매일 증상 있음. 연 2-3회 악화"
+    trigger: "감기, 피로"
+    symptoms: "다량의 화농성 객담, 기침, 객혈, 호흡곤란"
+  character_of_symptom:
+    quality: "다량의 화농성 객담을 동반한 만성 기침"
+    nrs_score: "5 (평상시), 8 (악화 시)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "심한 기침 후 가끔"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침 기상 시"
+      - "감염 시"
+    alleviating: "가래를 모두 뱉어낸 후"
+  health_check_history:
+    last_checkup: "지역 병원에서 매년 흉부 X선 촬영"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "20대 때 결핵성 폐렴 앓음 (치료 완료)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "증상 악화 시 항생제, 거담제 복용"
+    source: "동네 의원"
+    effect: "일시적 호전"
+  social_history:
+    job: "가정 주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "숨이 차서 잘 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "3년 전 폐경"
+physical_exam:
+  general: "만성 병색. 경도의 호흡곤란 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "양쪽 폐 하엽에 국한된 조악음(coarse crackle)이 흡기 시 청진됨. 기침 후에도 소실되지 않음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "양손에 곤봉지(clubbing finger) 소견 관찰됨."
+standardized_patient_questions: "이 병은 완치가 안 되나요? 평생 이렇게 가래를 뱉으며 살아야 하나요? 왜 자꾸 피가 나오는 건가요?"
+specific_remarks: "휴지를 항상 소지하고 있으며, 진찰 중에도 가래를 동반한 깊은 기침을 하고 휴지에 뱉는다. 과거 병력에 대해 담담하게 설명한다."

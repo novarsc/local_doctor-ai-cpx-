@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (심부 정맥 혈전증)"
+patient_info:
+  name: "배서아"
+  age: 36
+  sex: "여성"
+  presenting_complaint: "왼쪽 종아리가 붓고 아픔"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "98회/분"
+  respiration: "20회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "심부 정맥 혈전증 (Deep Vein Thrombosis, DVT)"
+    - "근육통 또는 근육 파열"
+    - "봉와직염 (Cellulitis)"
+  necessary_tests:
+    - "도플러 초음파 (하지 정맥)"
+    - "D-dimer 혈액 검사"
+    - "필요시 CT 혈관 조영술 또는 MRI"
+  necessary_treatments:
+    - "입원 치료"
+    - "항응고제(헤파린 등) 치료"
+    - "다리 거상 및 압박 스타킹 착용"
+history:
+  sex_age: "여성/36세"
+  chief_complaint_verbatim: "임신 29주차인데, 며칠 전부터 왼쪽 다리만 퉁퉁 붓고 종아리가 아파요. 걸을 때 더 심해져요."
+  onset: "3일 전"
+  location:
+    initial: "왼쪽 종아리"
+    current: "왼쪽 종아리 및 허벅지 일부"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점점 더 붓고 통증이 심해짐"
+  course: "처음에는 쥐가 난 후유증인가 싶었다. 하지만 붓기가 빠지지 않고 통증이 지속되며, 오른쪽 다리와 비교했을 때 눈에 띄게 부어서 이상하다고 생각해 내원함. 다리에 열감도 느껴짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "쥐어짜는 듯하고 뻐근한 통증 (cramping, aching)"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false # 미열(37.2도)은 있을 수 있음
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "걷거나 서 있을 때"
+      - "다리를 만질 때"
+    alleviating: "다리를 올리고 있으면 약간 덜함"
+  health_check_history:
+    last_checkup: "4주 전 산전 진찰"
+    endoscopy_finding: "없음"
+  trauma_history: "최근 1주일 전 제주도 여행으로 장시간 비행기 탑승함"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "-"
+    effect: "-"
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "최근 여행 후 거의 못함"
+    recent_weight_change: "임신 후 8kg 증가"
+  family_history: "친언니가 혈전증으로 치료받은 적 있음"
+  female_history: "G1P0, LMP: 약 7개월 전, EDC: 11주 후, 임신 29주"
+physical_exam:
+  general: "통증으로 인해 약간 불편해 보이나 전반적인 상태는 양호."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심잡음 없음."
+  abdomen:
+    inspection: "임신 29주에 합당한 크기"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "왼쪽 다리가 오른쪽 다리에 비해 눈에 띄게 부어 있음 (pitting edema 2+ on left, 0 on right). 왼쪽 종아리에 압통 및 열감 있음. 피부색은 약간 붉게 보임. Homan's sign 양성 (왼쪽)."
+standardized_patient_questions: "왜 한쪽 다리만 이렇게 붓고 아픈가요? 임신하면 원래 다리가 붓는 거 아니에요? 위험한 병인가요? 치료는 어떻게 해야 하나요?"
+specific_remarks: "환자는 왼쪽 다리와 오른쪽 다리의 차이점을 명확하게 설명해야 한다. '한쪽만' 그렇다는 점을 강조한다. 신체 진찰 시 왼쪽 종아리를 만지면 아파하고, 발목을 젖힐 때(Homan's sign 검사) 종아리 통증을 호소해야 한다. 최근 장시간 비행기 탑승력과 가족력을 중요한 단서로 제공한다."

@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (유관 확장증)"
+patient_info:
+  name: "오미숙"
+  age: 48
+  sex: "여성"
+  presenting_complaint: "왼쪽 유두에서 녹색 분비물이 나오고 주변이 간헐적으로 아픔"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "68회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "유관 확장증"
+    - "관내 유두종"
+    - "섬유낭성 변화"
+  necessary_tests:
+    - "유방 촬영술"
+    - "유방 초음파"
+    - "유두 분비물 세포 검사"
+  necessary_treatments:
+    - "대부분 특별한 치료 없이 경과 관찰"
+    - "증상이 심할 경우, 해당 유관을 제거하는 수술적 치료 고려"
+    - "금연 등 생활습관 개선"
+history:
+  sex_age: "여성/48"
+  chief_complaint_verbatim: "몇 달 전부터 왼쪽 속옷에 자꾸 뭐가 묻어나서 보니까 유두에서 끈적한 녹색 분비물이 나오더라고요. 양은 많지 않은데 가끔 유두 주변이 콕콕 쑤시고 아파요."
+  onset: "약 4개월 전"
+  location:
+    initial: "왼쪽 유두"
+    current: "왼쪽 유두 및 유륜 주위"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "지속적이지만 분비물 양은 매일 다름"
+  course: "유두 분비물이 간헐적으로 나오고, 가끔 욱신거리는 통증이 동반됨"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "통증은 콕콕 쑤시는 느낌. 분비물은 끈적하고 녹색을 띰."
+    nrs_score: "통증 있을 때 2-3점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "유두 주변을 누를 때 통증이 약간 더 느껴짐"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 국가건강검진 (유방 촬영술 포함), 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "식당 운영"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "해당 없음"
+    exercise: "거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "언니가 갑상선 질환 있음"
+  female_history: "LMP: 3개월 전. 최근 생리 주기가 2-3개월로 불규칙해짐. 2-0-1-2. 폐경 이행기인 것 같음."
+physical_exam:
+  general: "약간 피곤해 보이는 중년 여성."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  breast_exam: "시진 상 특이 소견 없음. 유두를 부드럽게 압박하자 왼쪽 유두의 여러 유관에서 소량의 녹색을 띤 끈적한 분비물이 나옴. 유륜 하부에 경계가 불분명한 약간 단단한 부위가 만져지며 가벼운 압통이 있음. 명확한 덩이는 만져지지 않음. 겨드랑이 림프절 촉진되지 않음."
+standardized_patient_questions: "가슴에서 피가 나오는 건 아니지만 그래도 걱정돼요. 나쁜 병일 수도 있나요? 담배 피우는 거랑 관련이 있나요?"
+specific_remarks: "환자는 분비물의 색깔에 대해 구체적으로 설명함. 통증보다는 분비물 자체에 대해 더 걱정함. 폐경기가 가까워지면서 몸에 변화가 오는 것 같아 불안하다고 말함."

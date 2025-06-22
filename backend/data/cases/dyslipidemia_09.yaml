@@ -1,0 +1,106 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (일과성 뇌허혈발작 - 경동맥 협착)"
+patient_info:
+  name: "장석현"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "어제 갑자기 한쪽 눈이 안 보이고 팔에 힘이 빠졌던 증상"
+vital_signs:
+  blood_pressure: "150/90mmHg"
+  pulse: "85회/분 (불규칙)"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "일과성 뇌허혈발작 (TIA)"
+    - "편두통의 조짐 (Aura)"
+    - "부분 발작 (Focal seizure)"
+  necessary_tests:
+    - "뇌 MRI 및 MRA (뇌혈관 촬영)"
+    - "경동맥 도플러 초음파"
+    - "심전도 및 24시간 홀터 모니터링, 심장초음파 (색전 원인 감별)"
+  necessary_treatments:
+    - "뇌졸중 예방을 위한 즉각적인 치료 시작 (항혈소판제, 고용량 스타틴)"
+    - "위험인자(고혈압, 당뇨, 심방세동)의 적극적인 관리"
+    - "경동맥 협착 정도에 따라 경동맥내막절제술 또는 스텐트 삽입술 고려"
+history:
+  sex_age: "남성/68"
+  chief_complaint_verbatim: "어제 아침에 TV를 보는데 갑자기 오른쪽 눈에 커튼을 친 것처럼 깜깜해지면서 말이 어눌해지고 오른팔에 힘이 쑥 빠졌어요. 너무 놀랐는데 한 10분 정도 지나니까 완전히 정상으로 돌아왔어요."
+  onset: "내원 전일 오전 10시경"
+  location:
+    initial: "우측 시야, 우측 팔, 언어"
+    current: "현재 증상 없음"
+  duration:
+    onset_pattern: "초급성"
+    recent_course: "약 10분간 지속 후 완전 회복"
+  course: "증상 발생 후 10분 만에 모든 증상이 거짓말처럼 사라짐. 현재는 아무런 이상 없음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "시야 소실(amaurosis fugax), 편측 마비(hemiparesis), 실어증(aphasia)"
+    nrs_score: "0 (통증 없음)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: "증상 발생 시 약간 어지러웠음"
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "시간이 지나면서 저절로 호전됨"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "고혈압, 고지혈증 진단받았으나 증상이 없어 약을 잘 먹지 않음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 고지혈증약"
+    source: "의원"
+    effect: "처방은 받았으나 거의 복용하지 않음"
+  social_history:
+    job: "자영업 (식당 운영)"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 반병/회"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "없음"
+  family_history: "형님이 뇌졸중으로 쓰러진 적 있음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "불안해 보이지만, 급성 병색은 없음. 신경학적 이상 소견 현재는 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음이 불규칙하게 들림 (irregularly irregular) -> 심방세동 의심."
+  abdomen: "부드럽고 압통 없음"
+  cvat: "좌/우 음성"
+  extremity: "함몰 부종 없음. 근력 및 감각 정상."
+  # 양쪽 경동맥 청진 시 왼쪽에서 혈관 잡음(carotid bruit)이 들림.
+standardized_patient_questions: "지금은 멀쩡한데 병원에 꼭 와야 했나요? 그냥 피곤해서 그랬던 거 아닐까요? 이게 뇌졸중의 신호라는데, 정말인가요?"
+specific_remarks: "증상이 완전히 사라졌다는 점을 강조하며 대수롭지 않게 여기려는 태도를 보이지만, 내심 불안해하는 모습을 보인다. 의사가 경동맥을 청진할 때 '거기는 왜 들어보세요?'라고 질문할 수 있다."

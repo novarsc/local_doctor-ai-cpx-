@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (아급성 연합성 퇴행 (비타민 B12 결핍))"
+patient_info:
+  name: "채송화"
+  age: 62
+  sex: "여성"
+  presenting_complaint: "몇 달에 걸쳐 양쪽 다리 감각이 이상하고 걷기가 힘듦"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "95회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "아급성 연합성 퇴행 (Subacute combined degeneration, Vit B12 결핍)"
+    - "경추 척수증 (Cervical myelopathy)"
+    - "당뇨병성 신경병증 (Diabetic neuropathy)"
+  necessary_tests:
+    - "혈액 검사 (CBC, 혈중 비타민 B12 및 엽산 농도, MMA, homocysteine)"
+    - "척추 MRI"
+    - "신경전도검사/근전도검사"
+  necessary_treatments:
+    - "비타민 B12 근육 주사"
+    - "보행 보조 및 재활 치료"
+    - "원인 질환(예: 위축성 위염)에 대한 평가"
+history:
+  sex_age: "여성/62"
+  chief_complaint_verbatim: "한 반년 전부터 손발 끝이 저리기 시작하더니, 이젠 다리 감각이 완전히 둔해져서 걷는 게 불안해요. 꼭 구름 위를 걷는 것 같고, 밤에는 더 중심을 못 잡겠어요."
+  onset: "약 6개월 전"
+  location:
+    initial: "양쪽 손끝, 발끝"
+    current: "양쪽 다리, 양쪽 손"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "서서히 악화"
+  course: "6개월 전부터 양쪽 손발이 대칭적으로 저리고 따끔거리는 증상이 시작됨. 3개월 전부터는 걸을 때 균형 잡기가 어려워졌고, 특히 어두운 곳에서 더 심하게 비틀거림. 최근에는 다리에 힘이 빠지는 느낌도 들고, 젓가락질이 서툴러지고 글씨 쓰기도 힘들어짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "저리고 둔한 느낌, 균형 장애"
+    nrs_score: "2"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "눈을 감고 서 있을 때"
+      - "어두운 곳에서 걸을 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "5년 전 위내시경에서 위축성 위염 진단"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "위축성 위염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "증상 발생 후 거의 못함"
+    recent_weight_change: "지난 6개월간 4kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "10년 전 폐경"
+physical_exam:
+  general: "안색이 창백하고 약간의 황달기가 있음. 걸을 때 보폭이 넓고 불안정함(ataxic gait)."
+  heent:
+    sclera: "약간의 황달(icteric)"
+    oral_mucosa: "창백함. 혀가 매끈하고 붉게 보임(glossitis)."
+  chest: "호흡음 정상, 심박수 약간 빠름."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양하지 근력 경미한 저하(MRC 4+/5). 양측 무릎 및 발목 반사 항진. 양측 바빈스키 징후 양성. 양측 손과 발에 진동 및 위치 감각 현저히 소실. Romberg 검사 양성 (눈 뜨고는 서 있으나 감으면 바로 넘어짐)."
+standardized_patient_questions: "나이가 들어서 그런 건 줄 알았는데, 왜 이렇게 몸이 마음대로 안 움직일까요? 영양제 같은 걸 먹으면 나아질까요? 치료는 가능한 병인가요?"
+specific_remarks: "환자는 걸음걸이가 매우 불안정하며, 의사의 부축을 필요로 한다. Romberg 검사를 할 때 눈을 감으면 즉시 균형을 잃고 쓰러지려고 하므로 안전에 유의해야 한다. 혀를 내밀어 보라고 할 때 매끈하고 반질반질한 혀의 모습을 보여준다. 자신의 증상이 점점 나빠지는 것에 대해 우울감과 무력감을 표현한다."

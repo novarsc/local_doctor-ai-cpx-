@@ -1,0 +1,106 @@
+---
+chapter: "상담"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (노인 학대 및 방임)"
+patient_info:
+  name: "이말순"
+  age: 78
+  sex: "여성"
+  presenting_complaint: "기운이 없고 어지러움"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "100회/분"
+  respiration: "20회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "노인 방임에 의한 탈수 및 영양실조"
+    - "욕창 감염"
+    - "흡인성 폐렴"
+  necessary_tests:
+    - "일반혈액검사, 전해질 및 신기능 검사, 알부민 검사"
+    - "흉부 X-ray"
+    - "소변 검사 및 배양 검사"
+  necessary_treatments:
+    - "즉각적인 입원 치료 (수액 공급, 영양 공급, 항생제 치료)"
+    - "노인보호전문기관 연계 및 사회복지 상담"
+    - "보호자(아들)의 방임 문제에 대한 조사 및 개입"
+history:
+  sex_age: "여성/78"
+  chief_complaint_verbatim: "(같이 온 아들이 말함) 어머니가 며칠 전부터 기운을 못 차리시고 자꾸 헛소리를 하세요."
+  onset: "약 3-4일 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점점 심해짐"
+  course: "환자는 거동이 불편하여 대부분 누워서 지낸다. 3-4일 전부터 식사량이 급격히 줄고, 불러도 반응이 느려졌다. 어제부터는 사람을 잘 알아보지 못하고 횡설수설하는 모습(섬망)을 보였다. 아들은 '어머니가 원래 치매 기운이 좀 있으시다'고 말한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "전신 쇠약, 의식 저하"
+    nrs_score: "N/A"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "진한 소변색"
+    dehydration:
+      dizziness: true
+      thirst: "의사 표현 불가능"
+      decreased_urine_output: true
+  factors:
+    aggravating: []
+    alleviating: ""
+  health_check_history:
+    last_checkup: "모름"
+    endoscopy_finding: ""
+  trauma_history: "없다고 함"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨, 5년 전 뇌경색으로 좌측 편마비"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 당뇨약"
+    source: "의원 처방"
+    effect: "아들이 '가끔 빼먹고 드린다'고 말함."
+  social_history:
+    job: "없음"
+    stress: "아들과 단둘이 거주. 아들은 일용직 노동자로 낮에는 집을 비움."
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못 함 (와상 상태)"
+    recent_weight_change: "최근 수개월간 지속적으로 감소"
+  family_history: "특이사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "의식이 명료하지 않고 혼돈 상태(drowsy to confused). 전반적으로 매우 마르고 위생 상태가 불량하며, 옷에서 소변 냄새가 남."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "매우 건조함 (Dry oral mucosa)"
+  chest: "우하엽에서 수포음(crackles) 청진됨."
+  abdomen: "정상"
+  cvat: "음성/음성"
+  extremity: "좌측 상하지 근력 저하(Grade 2/5). 피부 탄력도 저하(Poor skin turgor). 천골 부위에 악취가 나는 3단계 욕창(stage 3 pressure ulcer)이 관찰됨."
+standardized_patient_questions: "(아들) 나이 드셔서 그런 거 아니에요? 병원에 꼭 입원해야 하나요? 입원비도 부담스러운데..."
+specific_remarks: "환자는 질문에 거의 대답하지 못하고 신음 소리만 낸다. 보호자인 아들은 환자의 상태에 대해 잘 모르는 눈치이며, 귀찮아하는 기색이 역력하다. 환자의 욕창이나 위생 상태에 대해 질문하면 '제가 일하느라 바빠서 잘 챙기지 못했다'며 변명한다."

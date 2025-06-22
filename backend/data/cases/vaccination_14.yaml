@@ -1,0 +1,113 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (예방접종 당일 발열이 있는 경우의 상담)"
+patient_info:
+  name: "문채원"
+  age: 6
+  sex: "여성"
+  presenting_complaint: "예방접종 날인데 아침부터 열이 약간 있어요"
+vital_signs:
+  blood_pressure: "90/60mmHg"
+  pulse: "125회/분"
+  respiration: "28회/분"
+  temperature: "37.8℃"
+examinee_instructions: "환아의 상태를 진찰하여 발열의 원인을 파악하고, 예방접종을 오늘 시행할지 연기할지에 대해 의학적 판단을 내린 후 보호자와 상의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 비인두염 (Common cold)에 의한 발열"
+    - "예방접종 시행 여부 결정 필요"
+    - "급성 중이염 또는 부비동염 감별 필요"
+  necessary_tests:
+    - "정확한 원인 감별을 위한 이비인후과적 진찰"
+    - "필요 시 인플루엔자/코로나19 등 호흡기 바이러스 신속항원검사"
+  necessary_treatments:
+    - "오늘 예방접종은 연기하고, 현재 앓고 있는 질환의 치료가 우선임을 설명"
+    - "급성 비인두염에 대한 대증요법 (충분한 휴식, 수분 섭취, 필요시 해열제/콧물약 처방)"
+    - "컨디션이 완전히 회복된 후 다시 내원하여 예방접종을 시행하도록 안내"
+history:
+  sex_age: "여아/6개월"
+  chief_complaint_verbatim: "오늘 폐렴구균 3차 접종일이라서 왔는데, 아침부터 애가 칭얼거리고 열이 좀 있어요. 주사 맞아도 될까요?"
+  onset: "오늘 아침"
+  location:
+    initial: "전신, 코"
+    current: "전신, 코"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "계속 칭얼거림"
+  course: "오늘 오전 폐렴구균 3차 예방접종이 예약되어 있었다. 어젯밤부터 아이가 약간 칭얼거리며 잠을 설치는 듯했고, 오늘 아침에 보니 맑은 콧물이 흐르고 체온이 37.8도로 측정되었다. 아이는 평소보다 보채기는 하지만 젖은 먹는 편이다. 보호자는 예약된 날짜라 우선 병원에 왔으나, 이 상태로 접종을 해도 될지 걱정되어 의사와 상의하기를 원한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "미열과 콧물"
+    nrs_score: "해당 없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "4개월 영유아 검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "해당 없음"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "해당 없음"
+    recent_weight_change: "없음"
+  family_history: "오빠가 3일 전부터 감기 증상이 있었음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "보채고 약간 처져 보임. 급성 병색."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+    # 맑은 콧물(clear rhinorrhea) 관찰됨. 양쪽 고막은 함몰이나 발적 없이 정상. 인두 발적은 경미함.
+  chest: "호흡음 깨끗함, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "주사 오늘 맞으면 안 되나요? 그럼 언제 다시 와야 해요? 약은 안 먹어도 될까요? 그냥 감기 같은데 주사 맞아도 된다는 얘기도 들은 것 같아서요."
+specific_remarks: "보호자(엄마) 역할. 예약 날짜를 지키고 싶어 하는 마음과 아이의 컨디션에 대한 걱정이 공존하는 상태. 접종을 연기하자는 의사의 권고에 처음에는 아쉬워하지만, 그 이유(이상반응과의 감별 문제, 아이의 컨디션 등)를 듣고 수긍하는 모습을 보임."

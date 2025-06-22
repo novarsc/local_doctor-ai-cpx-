@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (자간증, Eclampsia)"
+patient_info:
+  name: "최지아"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "임신 중 발생한 전신 경련"
+vital_signs:
+  blood_pressure: "180/110mmHg"
+  pulse: "115회/분"
+  respiration: "22회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자간증 (Eclampsia)"
+    - "뇌출혈"
+    - "임신과 무관한 첫 뇌전증 발작"
+  necessary_tests:
+    - "소변 단백뇨 검사 (Urine protein)"
+    - "혈액 검사 (혈소판, 간기능, 신기능)"
+    - "태아 상태 평가 (NST, 초음파)"
+  necessary_treatments:
+    - "황산마그네슘 (Magnesium sulfate) 정맥 투여 (경련 예방 및 치료)"
+    - "항고혈압제 투여 (혈압 조절)"
+    - "응급 분만 고려 (가장 근본적인 치료)"
+history:
+  sex_age: "여성/32"
+  chief_complaint_verbatim: "아내가 갑자기 머리가 아프다고 하더니, 눈앞이 안 보인다고 하다가 경련을 일으켰어요. 지금 임신 중이에요."
+  onset: "내원 30분 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑작스럽게"
+    recent_course: "약 1분간 전신 강직-간대 발작 후, 현재 발작 후 혼돈 상태"
+  course: "며칠 전부터 손발이 붓고 머리가 아프다고 했다. 오늘 아침, 갑자기 '눈앞이 번쩍거리고 잘 안 보인다'고 호소하며 심한 두통을 호소하더니, 직후에 전신을 떨며 경련을 시작했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "고혈압, 두통, 시야 장애를 동반한 전신 발작"
+    nrs_score: "두통 NRS 10점 (발작 전)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "임신 상태"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1주 전 산부인과 정기 검진"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "철분제, 엽산"
+    source: "산부인과"
+    effect: ""
+  social_history:
+    job: "휴직 중 (출산 휴가)"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "가벼운 산책"
+    recent_weight_change: "임신으로 인한 체중 증가"
+  family_history: "특이 사항 없음"
+  female_history: "현재 임신 35주, 초산. 최근 산전 검진에서 혈압이 약간 높고 단백뇨가 조금 나온다고 들었음."
+physical_exam:
+  general: "발작 후 혼돈 상태(postictal confusion). 전반적인 부종이 심함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심박수 빠름."
+  abdomen:
+    inspection: "임신 35주에 합당하게 팽만된 자궁. 선상흔(striae gravidarum) 보임."
+    auscultation: "태아 심음 청진됨 (FHR 약 150회/분)"
+    percussion: "해당 없음"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # 상복부 압통 호소
+  cvat: "좌우 음성"
+  extremity: "양쪽 다리에 현저한 함요 부종 (pitting edema +3). 심부건반사 항진됨 (Hyperreflexia)."
+standardized_patient_questions: "아내와 아이는 괜찮은 건가요? 왜 갑자기 이런 일이 생긴 거죠? 앞으로 어떻게 해야 하나요?"
+specific_remarks: "환자는 의식이 불명료하므로, 남편이 모든 질문에 대답한다. 남편은 매우 불안해하며 아내와 뱃속의 아기 상태를 계속해서 묻는다. 산모와 태아 모두에게 위험한 응급상황임을 인지시키고, 신속한 조치의 필요성을 설명해야 한다."

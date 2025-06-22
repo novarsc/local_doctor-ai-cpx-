@@ -1,0 +1,111 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (수면위상전진증후군)"
+patient_info:
+  name: "윤정숙"
+  age: 72
+  sex: "여성"
+  presenting_complaint: "너무 일찍 잠이 오고 새벽에 깸"
+vital_signs:
+  blood_pressure: "135/80mmHg"
+  pulse: "74회/분"
+  respiration: "18회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "수면위상전진증후군 (Advanced Sleep-Wake Phase Disorder)"
+    - "노인성 불면증"
+    - "우울증에 의한 조기 각성"
+  necessary_tests:
+    - "수면일지 작성"
+    - "활동기록기(Actigraphy) 검사"
+    - "우울증 척도 검사"
+  necessary_treatments:
+    - "저녁 시간대 광치료"
+    - "아침 시간 멜라토닌 복용 고려"
+    - "저녁 시간 활동 늘리기 등 행동요법"
+history:
+  sex_age: "여성/72"
+  chief_complaint_verbatim: "저녁 8시만 되면 졸려서 견딜 수가 없어요. 그래서 일찍 자면 꼭 새벽 3-4시에 깨서 다시 잠이 안 와요. 가족들하고 생활 시간이 안 맞아서 답답해요."
+  onset: "60대 중반부터 서서히"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 1-2년간 패턴이 고정됨"
+  course: "나이가 들면서 아침잠이 없어진다고만 생각했음. 저녁 식사 후 TV를 보다가 8시쯤 되면 꾸벅꾸벅 졸기 시작해서 어쩔 수 없이 잠자리에 듦. 총 수면 시간은 7-8시간 정도로 부족하지 않은 것 같은데, 너무 일찍 깨니 새벽부터 할 일이 없어 외롭고, 저녁에는 가족들과 어울리지 못하고 먼저 자게 되어 속상함. 억지로 늦게까지 깨어 있으려고 하면 매우 피곤하고 힘듦."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "사회적으로 용인되는 시간보다 2시간 이상 일찍 잠들고 일찍 깨는 패턴"
+    nrs_score: "해당 없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "억지로 늦게 자려고 버틸 때"
+    alleviating: "자신의 리듬대로 일찍 자고 일찍 일어날 때"
+  health_check_history:
+    last_checkup: "6개월 전, 골다공증, 고혈압"
+    endoscopy_finding: "위축성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀, 알렌드론산, 칼슘/비타민D 복합제"
+    source: "내과"
+    effect: "혈압 조절 및 골밀도 유지"
+  social_history:
+    job: "은퇴 (주부)"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 3회 노인정에서 체조"
+    recent_weight_change: "없음"
+  family_history: "친정어머니도 일찍 주무시고 일찍 일어나셨음"
+  female_history: "20년 전 폐경"
+physical_exam:
+  general: "나이에 비해 정정한 모습의 노년 여성"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "나이 들면 다 이런 거 아닌가요? 이게 병이에요? 좀 더 늦게 자고 늦게 일어날 수는 없나요?"
+specific_remarks: "환자는 자신의 수면 패턴으로 인한 사회적 고립감과 불편함을 호소한다. 총 수면 시간은 충분하며, 낮에 졸리지도 않는다는 점을 명확히 한다. '불면증'으로 오해하는 의사에게, '잠드는 것이나 잠을 유지하는 것 자체는 어렵지 않다, 다만 그 시간이 너무 이를 뿐이다'라고 정정해줄 수 있다."

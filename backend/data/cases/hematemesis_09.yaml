@@ -1,0 +1,118 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (보르하브 증후군)"
+patient_info:
+  name: "오세훈"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "회식 후 심하게 토한 뒤 발생한 극심한 가슴 통증과 토혈"
+vital_signs:
+  blood_pressure: "95/60mmHg"
+  pulse: "135회/분"
+  respiration: "28회/분 (얕고 빠름)"
+  temperature: "38.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "보르하브 증후군 (Boerhaave syndrome, 식도 파열)"
+    - "급성 심근경색"
+    - "말로리-바이스 찢어짐"
+  necessary_tests:
+    - "흉부 X-ray 및 수용성 조영제를 이용한 식도 조영술"
+    - "응급 흉부 CT"
+    - "심전도 및 심장 효소 검사 (심근경색 감별)"
+  necessary_treatments:
+    - "즉각적인 금식 및 정맥 수액 공급"
+    - "광범위 항생제 투여"
+    - "응급 수술 (파열 부위 봉합 및 흉강 세척)"
+    - "쇼크에 대한 집중 치료"
+history:
+  sex_age: "남성/48세"
+  chief_complaint_verbatim: "회식에서 술 마시고 억지로 토하는데, 갑자기 가슴이 찢어질 듯이 아프고 피가 조금 나왔어요. 숨쉬기가 힘들어요."
+  onset: "3시간 전"
+  location:
+    initial: "가슴 중앙"
+    current: "가슴 중앙, 등, 명치"
+  duration:
+    onset_pattern: "심한 구토 중 갑자기 발생"
+    recent_course: "통증이 전혀 완화되지 않고 점점 더 심해짐"
+  course: "3시간 전 회사 회식에서 과음 후 일부러 구토를 유발했다. 세 번째 심하게 구역질을 하는 순간 갑자기 '뚝'하는 느낌과 함께 가슴을 칼로 찌르는 듯한 극심한 통증이 발생했다. 이후 소량의 피가 섞인 침을 뱉었고, 통증은 등과 어깨로 뻗치며 숨쉬기조차 어렵다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "찢어지는 듯한, 터질 듯한 통증"
+    nrs_score: "10"
+    radiation: "등과 왼쪽 어깨로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "초기 음식물 구토, 이후 소량의 혈액 섞인 침"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "숨 쉴 때"
+      - "몸을 움직일 때"
+      - "침 삼킬 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "영업직"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 4-5회"
+      amount: "소주 1-2병/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "없음"
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색, 식은땀을 흘리며 고통스러운 표정으로 얕고 빠른 호흡을 함"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "왼쪽 흉부의 호흡음 감소. 목과 앞가슴을 촉진 시 바삭거리는 느낌(피하 기종, subcutaneous emphysema)이 만져짐."
+  abdomen:
+    inspection: "상복부가 단단하게 경직되어 있음"
+    auscultation: "장음 감소"
+    percussion: "이상 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: true
+      epigastric_rebound_tenderness: true
+  cvat: "좌우 음성"
+  extremity: "손발이 차고 축축함"
+standardized_patient_questions: "가슴이 너무 아파서 죽을 것 같아요. 심장마비인가요? 왜 목에서 이상한 소리가 나죠? 제발 좀 어떻게 해주세요."
+specific_remarks: "말로리-바이스 찢어짐과 달리, 토혈보다는 극심한 흉통이 주 증상임을 강조한다. 환자는 숨쉬기 힘들어하며, 말을 길게 잇지 못한다. 신체 진찰 시 목 주위를 만지면 '바삭거리는 느낌이 든다'고 표현하며 불안해한다."

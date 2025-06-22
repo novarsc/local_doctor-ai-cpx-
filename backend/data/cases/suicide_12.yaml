@@ -1,0 +1,116 @@
+---
+chapter: "상담"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (말기 암)"
+patient_info:
+  name: "박영철"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "암 진단 후 통증이 심하고, 더 이상 살 의미를 못 느끼겠음"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "말기 암 환자의 우울장애 (Depressive disorder due to another medical condition)"
+    - "암성 통증 (Cancer pain)"
+    - "적응장애 (Adjustment Disorder)"
+  necessary_tests:
+    - "통증 평가 (NRS 점수, 양상, 방사통 등)"
+    - "우울증 선별 검사 (PHQ-9)"
+    - "섬망 여부 평가 (CAM)"
+  necessary_treatments:
+    - "적극적인 통증 조절 (마약성 진통제 포함)"
+    - "항우울제 치료 및 정신종양학적 접근"
+    - "완화의료 상담 및 호스피스 케어 연계"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "췌장암 말기래요. 배가 너무 아파서 잠도 못 자겠고, 진통제도 소용없어요. 어차피 죽을 거, 이렇게 고통스럽게 사느니 내 손으로 끝내고 싶습니다."
+  onset: "3개월 전 췌장암 4기 진단, 자살 생각은 2주 전부터"
+  location:
+    initial: "복부 통증"
+    current: "복부 통증 및 전반적 절망감"
+  duration:
+    onset_pattern: "진단 후 점진적 악화"
+    recent_course: "통증 조절 실패 후 급격히 악화"
+  course: "3개월 전부터 시작된 복통과 황달로 병원 방문 후 췌장암 4기(간 전이) 진단받음. 항암치료를 시작했으나 효과가 미미하고 부작용만 심해 중단함. 최근 복부와 등으로 뻗치는 통증이 극심해졌으며, 처방받은 진통제로는 조절이 되지 않음. 밤에 통증으로 잠을 못 이루고, 식사도 거의 하지 못하는 상태. 가족에게 짐이 되는 것 같고, 존엄성을 잃어간다는 생각에 절망하여 자살을 결심함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "통증: 쥐어짜고 뚫는 듯한 느낌 / 기분: 절망감, 무력감"
+    nrs_score: "통증 9, 기분 8"
+    radiation: "등으로 뻗치는 통증"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "밤 시간"
+      - "움직일 때"
+    alleviating: "진통제 맞고 한두 시간 정도"
+  health_check_history:
+    last_checkup: "3개월 전 진단 시"
+    endoscopy_finding: "췌장암 진단됨"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "췌장암 4기, 당뇨"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "경구용 진통제 (효과 미미)"
+      - "인슐린"
+    source: "대학병원 종양내과"
+    effect: "통증 조절 안됨"
+  social_history:
+    job: "은퇴"
+    stress: "질병으로 인한 스트레스 극심"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "20년 전 금연"
+    exercise: "전혀 못함"
+    recent_weight_change: "최근 3개월간 12kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "악액질(cachectic) 소견. 통증으로 얼굴을 찡그리고 있음. 전반적으로 매우 지쳐 보임."
+  heent:
+    sclera: "Icteric"
+    oral_mucosa: "Dry"
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "Distended"
+    auscultation: "Hypoactive bowel sounds"
+    percussion: "Dullness over RUQ"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # Murphy's sign 음성, Courvoisier's sign 양성
+  cvat: "좌/우 음성"
+  extremity: "Pitting edema on both legs (+1)"
+standardized_patient_questions: "이 통증 좀 어떻게 해주세요. 정말 너무 아파요. 마약성 진통제는 중독된다던데 괜찮나요? 그냥 편하게 죽게 해줄 수는 없나요?"
+specific_remarks: "통증을 가장 중요한 문제로 호소함. 신체 검사 시 복부 압통에 예민하게 반응함. 자살에 대한 생각을 삶의 고통을 끝내기 위한 합리적인 선택으로 여기는 태도를 보임. 완화의료나 호스피스에 대한 거부감을 보일 수 있음 ('죽으러 들어가는 곳 아니냐')."

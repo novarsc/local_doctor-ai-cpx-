@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (외상 후 스트레스 장애)"
+patient_info:
+  name: "강사고"
+  age: 29
+  sex: "남성"
+  presenting_complaint: "교통사고 이후 악몽을 꾸고 예민해짐"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "100회/분"
+  respiration: "20회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "외상 후 스트레스 장애 (Post-traumatic Stress Disorder, PTSD)"
+    - "급성 스트레스 장애 (Acute Stress Disorder) - 증상 기간 고려"
+    - "주요우울장애"
+  necessary_tests:
+    - "외상 관련 심리 척도 (CAPS, PCL-5)"
+    - "약물 남용 여부 확인 (알코올 등)"
+    - "신경학적 검사 (외상성 뇌손상 감별)"
+  necessary_treatments:
+    - "정신치료 (지속노출치료, 안구운동 민감소실 및 재처리 요법(EMDR))"
+    - "약물 치료 (SSRI 등 항우울제, 악몽 조절을 위한 Prazosin 등)"
+    - "회피 행동을 줄이고 일상 기능 회복을 위한 지지"
+history:
+  sex_age: "남성/29세"
+  chief_complaint_verbatim: "넉 달 전에 큰 교통사고가 났어요. 그 뒤로 매일 밤 사고 장면이 꿈에 나오고, 운전은 생각도 못 해요. 작은 소리에도 깜짝깜짝 놀라고, 사람이 변한 것 같아요."
+  onset: "4개월 전 교통사고 이후"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "외상 사건 직후 발생하여 지속됨"
+    recent_course: "호전 없이 계속됨"
+  course: "4개월 전, 퇴근길에 큰 트럭과 충돌하는 교통사고를 당했다(본인 과실 없음). 신체적으로는 경미한 타박상만 입었으나, 그 이후 사고 장면이 반복적으로 떠오르거나(flashback) 악몽을 꾸는 증상이 시작되었다. 사고를 떠올리게 하는 운전이나 뉴스 시청을 극도로 회피한다. 항상 경계 태세를 유지하고, 작은 소리에도 심하게 놀란다. 감정적으로 무뎌지고, 사람들을 만나는 것을 피하게 되었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "사고 장면의 재경험, 과도한 경계, 감정 마비, 회피"
+    nrs_score: "8"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "자동차 경적 소리를 들을 때"
+      - "사고와 관련된 이야기를 할 때"
+      - "밤에 혼자 있을 때"
+    alleviating: "술을 마시면 잠시 잊는 것 같음"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "N/A"
+  trauma_history: "4개월 전 교통사고"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "사고 직후 2주간 진통제, 근이완제 복용"
+    source: "정형외과"
+    effect: "통증은 호전됨"
+  social_history:
+    job: "영업직 (현재 휴직 중)"
+    stress: "사고로 인한 스트레스가 극심함"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1병 이상 (사고 후 잠을 자기 위해 마시기 시작)"
+    smoking:
+      is_smoker: true
+      amount: "하루 1갑 반 (사고 후 늘었음)"
+      cessation_period: "N/A"
+    exercise: "사고 이후 전혀 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "매우 긴장하고 경계하는 모습. 문진 중 갑작스러운 소리(예: 밖에서 나는 소음)에 움찔하며 놀라는(exaggerated startle response) 모습을 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 특이 소견 없으나 호흡이 빠르고 얕음. 빈맥 소견."
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "몸은 다 나았다는데 왜 아직도 이렇게 힘들죠? 이건 제 정신력 문제인가요? 언제쯤 운전을 다시 할 수 있을까요?"
+specific_remarks: "사고에 대한 질문을 받으면 회피하거나 짧게 대답하려 함. 때로는 사고 순간을 이야기하다가 갑자기 말을 멈추고 멍해지는 모습을 보임(해리 증상). 감정적으로 메말라 보이기도 하고, 갑자기 분노를 표출하는 등 감정 조절의 어려움을 나타냄."

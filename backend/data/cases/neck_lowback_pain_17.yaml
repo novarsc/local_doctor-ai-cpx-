@@ -1,0 +1,119 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "17"
+title: "실전 모의 증례 (췌장염에 의한 연관통)"
+patient_info:
+  name: "최판식"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "갑자기 발생한 심한 윗배 통증과 등 통증"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "120회/분"
+  respiration: "26회/분"
+  temperature: "37.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 췌장염"
+    - "소화성 궤양 천공"
+    - "급성 담낭염"
+  necessary_tests:
+    - "혈액 검사 (Amylase, Lipase, CBC, LFT, CRP)"
+    - "복부 CT (조영제 사용)"
+    - "복부 초음파"
+  necessary_treatments:
+    - "금식(NPO) 및 정맥 수액 공급"
+    - "통증 조절 (마약성 진통제)"
+    - "원인 치료 (담석 제거, 금주 등)"
+    - "중증일 경우 중환자실 치료"
+history:
+  sex_age: "남성/48세"
+  chief_complaint_verbatim: "어젯밤부터 윗배가 칼로 찌르는 것처럼 아프고 등이랑 허리까지 아파요. 숨도 제대로 못 쉬겠어요."
+  onset: "12시간 전"
+  location:
+    initial: "명치"
+    current: "윗배 전체와 등"
+  duration:
+    onset_pattern: "급성 발생"
+    recent_course: "점점 심해짐"
+  course: "어제 저녁 회식에서 과음한 후 잠들었는데, 새벽에 극심한 복통으로 잠에서 깸. 통증이 등 쪽으로 뻗치면서 허리를 펴기 힘든 상태. 구역질과 구토를 여러 번 함."
+  experience_prev_episodes:
+    frequency: "몇 년 전 비슷한 경험 있음"
+    trigger: "과음 후"
+    symptoms: "이번보다는 덜 심했음"
+  character_of_symptom:
+    quality: "칼로 찌르는 듯한, 꿰뚫는 듯한 통증"
+    nrs_score: "10"
+    radiation: "등으로 띠를 두르듯이 뻗침 (band-like radiation)"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "음식물 섞인 구토 수차례"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "누워있을 때"
+      - "음식 섭취 시"
+    alleviating: "새우처럼 등을 구부리고 앉아 있을 때"
+  health_check_history:
+    last_checkup: "5년 전, 지방간 소견"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증, 담석증 진단받은 적 있음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "영업직"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 2병 이상"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "없음"
+    exercise: "하지 않음"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색, 식은땀을 흘리며 침대에서 등을 구부린 채로 힘들어함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "Tachycardia, shallow respiration. Clear breath sounds."
+  abdomen:
+    inspection: "mildly distended"
+    auscultation: "hypoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      tenderness_epigastrium: "심한 압통 (epigastric tenderness)"
+      rebound_tenderness_epigastrium: "있음"
+      # 필요한 신체진찰 소견을 추가
+      back_exam: "CVAT는 음성이나, 허리를 펴려고 하면 복통이 심해진다고 함"
+  cvat: "좌우 음성"
+  extremity: "특이 소견 없음."
+standardized_patient_questions: "허리가 너무 아파서 왔는데 왜 배를 자꾸 만져보시나요? 체한 건가요? 왜 이렇게 아프죠?"
+specific_remarks: "등 통증을 호소하지만, 주된 통증의 근원이 복부임을 명확히 해야 함. 상복부 통증이 등으로 뻗치는 양상을 구체적으로 설명해야 함. '새우등' 자세를 취하면 통증이 조금 낫는다는 특징을 강조할 것. 과음이라는 명확한 유발 요인을 제시해야 함. 진찰 시 상복부를 누르면 극심한 통증을 호소하며, 자신도 모르게 손으로 막는 '가딩(guarding)' 자세를 취해야 함."

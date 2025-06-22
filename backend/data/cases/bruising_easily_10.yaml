@@ -1,0 +1,116 @@
+---
+chapter: "전신"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (약물 유발성 혈소판감소증)"
+patient_info:
+  name: "이정훈"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "무릎 통증으로 약을 바꾼 뒤부터 멍이 잘 듦"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비스테로이드성 소염진통제(NSAIDs)에 의한 혈소판 기능 장애"
+    - "약물 유발성 면역 혈소판감소증"
+    - "노인성 자색반"
+  necessary_tests:
+    - "전혈구 검사 (혈소판 수 및 기능 확인)"
+    - "혈액응고 검사"
+    - "의심 약물 중단 후 경과 관찰"
+  necessary_treatments:
+    - "원인 약물 즉시 중단"
+    - "대증 요법 및 경과 관찰"
+    - "필요시 혈소판 수혈 (심한 출혈 시)"
+history:
+  sex_age: "남성/65세"
+  chief_complaint_verbatim: "한 달 전부터 무릎 아파서 약을 새로 타 먹고 있는데, 그 뒤로 다리에 시퍼런 멍이 자꾸 생겨요."
+  onset: "약 3-4주 전"
+  location:
+    initial: "양쪽 다리"
+    current: "팔, 다리"
+  duration:
+    onset_pattern: "특정 약물 복용 시작 후 발생"
+    recent_course: "약을 계속 먹으면서 멍이 더 자주 생김"
+  course: "한 달 전부터 퇴행성 관절염으로 정형외과에서 처방받은 약을 복용하기 시작했다. 복용 후 1주일 정도 지나니 정강이에 멍이 한두 개씩 생기기 시작했고, 지금은 팔에도 여러 개 생겼다. 무릎 통증은 많이 좋아졌다고 한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "통증 없는 자색반"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "소염진통제 복용"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "3년 전, 위염 소견"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "퇴행성 관절염, 고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (Losartan)"
+      - "나프록센 (Naproxen)"
+      - "위장약 (이름 모름)"
+    source: "내과, 정형외과"
+    effect: "무릎 통증과 혈압 조절은 잘 됨"
+  social_history:
+    job: "은퇴"
+    stress: "적음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "20년 전 금연"
+    exercise: "무릎 통증으로 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 건강해 보임. 급성 병색 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"명치 부위에 경미한 압통 있음.\""
+  cvat: "좌우 음성"
+  extremity: "양쪽 정강이와 팔뚝에 직경 2-3cm 크기의 자색반이 5-6개 관찰됨. 점상출혈이나 관절 출혈 소견은 없음."
+standardized_patient_questions: "무릎 아파서 먹는 약 때문에 멍이 들 수도 있나요? 그럼 통증은 어떻게 참아야 하죠? 다른 약으로 바꾸면 괜찮아질까요?"
+specific_remarks: "환자는 약물 복용과 증상 발생의 시간적 연관성을 명확하게 인지하고 있다. 문진 시 복용하고 있는 약의 종류(특히 NSAIDs)를 정확히 파악하는 것이 중요하다. 환자는 통증 조절에 대한 걱정이 크다."

@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (반복적 고립성 수면마비)"
+patient_info:
+  name: "송혜린"
+  age: 22
+  sex: "여성"
+  presenting_complaint: "잠들거나 깰 때 몸을 못 움직이고 환각을 봄"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "반복적 고립성 수면마비 (Recurrent Isolated Sleep Paralysis)"
+    - "기면증 (주간 졸림증 등 다른 증상 확인 필요)"
+    - "불안장애 또는 공황발작"
+  necessary_tests:
+    - "수면일지 작성 및 수면 습관 평가"
+    - "기면증 감별을 위한 엡워스 졸림 척도(ESS) 등 설문"
+    - "증상이 매우 심하거나 다른 증상 동반 시 수면다원검사 고려"
+  necessary_treatments:
+    - "수면 위생 교육 및 스트레스 관리"
+    - "증상에 대한 reassurance 및 교육"
+    - "증상이 심할 경우 항우울제(SSRI) 소량 사용 고려"
+history:
+  sex_age: "여성/22"
+  chief_complaint_verbatim: "가위에 너무 자주 눌려요. 잠이 들려고 하거나 막 깼을 때, 의식은 있는데 몸이 전혀 안 움직여요. 귀신을 보는 것 같기도 하고 너무 무서워요."
+  onset: "고등학생 때부터 간헐적으로"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "간헐적"
+    recent_course: "시험 기간 등 스트레스가 심할 때 한 달에 2-3번 발생"
+  course: "주로 피곤한 날 밤에 잠들 무렵이나 아침에 잠에서 깰 무렵에 발생함. 정신은 멀쩡한데 눈을 제외한 온몸이 굳어서 움직일 수 없음. 몇 초에서 몇 분간 지속되며, 누군가 옆에 있는 것 같은 느낌이나, 방에 검은 형체가 보이는 듯한 환각을 동반하기도 함. 극심한 공포를 느끼며, 억지로 손가락 끝이라도 움직이려고 애쓰다 보면 갑자기 풀림. 낮에 갑자기 졸린 증상(주간 졸림증)이나 웃을 때 힘이 빠지는 증상(탈력발작)은 없음."
+  experience_prev_episodes:
+    frequency: "고등학생 때부터"
+    trigger: "피로, 스트레스, 불규칙한 수면"
+    symptoms: "동일함"
+  character_of_symptom:
+    quality: "수면-각성 전환기에 발생하는 일시적인 전신 근육 마비, 생생한 환각 동반 가능"
+    nrs_score: "9 (공포감의 정도)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "과도한 스트레스 (시험 기간)"
+      - "수면 부족"
+      - "바로 누워 잘 때"
+    alleviating: "옆으로 누워 자거나, 충분한 수면을 취할 때"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "대학생"
+    stress: "학점과 취업 준비로 스트레스가 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "어머니도 가끔 가위에 눌린다고 함"
+  female_history: "LMP: 2주 전, 규칙적"
+physical_exam:
+  general: "건강해 보이나 불안한 기색을 보임"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "제가 귀신에 씐 건가요? 왜 몸이 안 움직이는 거죠? 이거 병인가요? 치료해야 하나요?"
+specific_remarks: "환자는 '가위눌림'이라는 현상을 매우 공포스럽게 느끼며, 초자연적인 현상으로 오해하고 있을 수 있다. 기면증과의 감별을 위해, 의사가 주간 졸림증이나 탈력발작에 대해 물을 때 '그런 증상은 없다'고 명확히 답해야 한다. 증상이 의학적인 현상이라는 설명을 들었을 때 안도하는 모습을 보인다."

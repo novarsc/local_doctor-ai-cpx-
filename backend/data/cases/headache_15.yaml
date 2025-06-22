@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (뇌정맥동 혈전증)"
+patient_info:
+  name: "송보람"
+  age: 33
+  sex: "여성"
+  presenting_complaint: "출산 후 발생한 점진적인 두통과 시야 흐림"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "뇌정맥동 혈전증 (Cerebral Venous Sinus Thrombosis, CVST)"
+    - "산후 자간전증"
+    - "특발성 두개내압 상승증"
+  necessary_tests:
+    - "뇌 MRI 및 MRV(정맥조영술) (혈전으로 막힌 정맥동 확인, 진단에 필수적)"
+    - "혈액 검사 (D-dimer 상승, 응고인자 이상 유무 확인)"
+    - "안저 검사 (유두부종 확인)"
+  necessary_treatments:
+    - "신경과 입원 치료"
+    - "항응고 요법 (헤파린 정주 후 경구 항응고제 전환)"
+    - "뇌압 상승이 심할 경우, 뇌압 강하 치료"
+    - "경련 발생 시 항경련제 투여"
+history:
+  sex_age: "여성/33"
+  chief_complaint_verbatim: "2주 전에 아기를 낳았는데, 일주일 전부터 머리가 계속 아파요. 처음엔 그냥 피곤해서 그런가 했는데 점점 심해지고 눈도 침침해지는 것 같아요."
+  onset: "산후 1주일 경"
+  location:
+    initial: "머리 전체가 무거운 느낌"
+    current: "머리 전체, 특히 정수리 부근"
+  duration:
+    onset_pattern: "아급성으로 발생하여 점진적으로 악화"
+    recent_course: "지난 이틀간 두통이 매우 심해지고 구역질이 남"
+  course: "지속적인 두통. 진통제를 먹어도 크게 호전되지 않음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "출산 (과응고 상태 유발)"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "터질 듯한 압박감"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "내원일 아침 1회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    neurological:
+      blurred_vision: "시야가 뿌옇게 보임"
+      seizure: "내원 전날 밤, 자다가 오른쪽 팔다리가 저절로 뻣뻣해지면서 떨리는 증상이 1분 정도 있었음 (focal seizure)"
+      papilledema: true # PE finding
+  factors:
+    aggravating:
+      - "눕거나 몸을 숙일 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "산전 검사"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "임신 중 특이사항 없었음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "철분제, 비타민"
+      - "진통제 (아세트아미노펜)"
+    source: "산부인과 처방 / 약국"
+    effect: "진통제 효과 미미"
+  social_history:
+    job: "육아휴직 중 (회사원)"
+    stress: "육아로 인한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "임신 전 주 2회 필라테스"
+    recent_weight_change: "출산 후 정상적인 체중 감소 중"
+  family_history: "친언니가 유전성 혈전 성향(Protein S 결핍증) 진단 받음"
+  female_history: "G1P1. 2주 전 정상 질식 분만(NSVD)으로 출산. 모유 수유 중."
+physical_exam:
+  general: "지쳐 보이고 불안한 기색. 급성 병색은 뚜렷하지 않음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    fundoscopy: "양측 유두부종 (Bilateral papilledema) 관찰됨"
+  chest: "정상"
+  abdomen: "정상"
+  neurology:
+    mental_status: "Alert and oriented"
+    cranial_nerves: "정상"
+    motor_sensory_reflexes: "뚜렷한 국소 신경학적 결손은 없으나, 전반적으로 반응이 느림"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "출산하고 피곤해서 그런 줄 알았는데, 왜 이렇게 머리가 아플까요? 아기 낳고 이런 병이 생길 수도 있나요? 제가 경련까지 했다는데, 뇌에 큰 문제가 생긴 건가요?"
+specific_remarks: "환자는 산후조리 중으로, 피곤하고 지친 모습을 보인다. 두통과 함께 시야가 흐려진다는 점을 걱정스럽게 이야기한다. 전날 밤 있었던 경련에 대해 남편에게 들어서 알고 있으며, 이에 대한 불안감을 표현한다. 가족력(언니의 혈전 성향)에 대해 물어보면 '그런 병이 있다고 들었다'고 대답한다."

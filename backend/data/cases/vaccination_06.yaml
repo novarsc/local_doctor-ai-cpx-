@@ -1,0 +1,113 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (예방접종에 대한 주저/거부 상담)"
+patient_info:
+  name: "정하은"
+  age: 2
+  sex: "여성"
+  presenting_complaint: "예방접종을 계속 맞혀야 할지 고민돼서 왔어요"
+vital_signs:
+  blood_pressure: "85/55mmHg"
+  pulse: "135회/분"
+  respiration: "38회/분"
+  temperature: "36.9℃"
+examinee_instructions: "예방접종에 대한 보호자의 우려를 경청하고, 의학적 근거에 기반하여 상담을 진행한 후, 향후 접종 계획에 대해 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "예방접종 주저(Vaccine hesitancy) 상태"
+    - "예방접종의 이득과 위험에 대한 정보 부족"
+    - "보호자 불안"
+  necessary_tests:
+    - "아이의 건강 상태 확인을 위한 기본적인 신체 진찰"
+    - "필요 시 누락된 접종에 대한 항체 검사(권장되지 않음)"
+  necessary_treatments:
+    - "공감적이고 비판적이지 않은 태도로 보호자의 우려 경청"
+    - "예방접종의 필요성, 안전성, 이상반응에 대한 정확하고 이해하기 쉬운 정보 제공"
+    - "인터넷 정보의 허와 실에 대해 설명하고 신뢰할 수 있는 정보 출처 안내"
+history:
+  sex_age: "여아/2개월"
+  chief_complaint_verbatim: "이제 2개월 접종을 시작해야 하는데, 인터넷 맘카페 같은데 보니까 예방접종 부작용이 너무 무서운 게 많더라고요. 꼭 맞혀야 하나 싶어서요."
+  onset: "N/A (상담 목적 내원)"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "N/A"
+    recent_course: "N/A"
+  course: "환아는 출생 후 B형 간염 1차, BCG 접종만 완료한 상태이다. 2개월 접종 시기가 되어 예약을 하려던 중, 인터넷 커뮤니티에서 예방접종 후 자폐증이 생겼다거나, 심각한 신경학적 후유증을 앓게 되었다는 글들을 접하고 큰 불안감을 느끼게 되었다. 주변에서도 '요즘 애들은 너무 많은 주사를 맞는다'는 이야기를 듣고 예방접종 자체에 대한 회의감을 갖게 되어 상담을 위해 내원했다."
+  experience_prev_episodes:
+    frequency: "N/A"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "N/A"
+    nrs_score: "N/A"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "인터넷 정보"
+      - "주변 사람들의 이야기"
+    alleviating: "N/A"
+  health_check_history:
+    last_checkup: "신생아 검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "해당 없음"
+    stress: "높음 (육아 및 아이 건강 관련)"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "해당 없음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강하고 잘 발달된 영아의 모습."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "백신이랑 자폐증은 정말 상관 없는 거 맞나요? 다른 나라에서도 이렇게 많이 맞히나요? 부작용이 생기면 나라에서 보상해주나요?"
+specific_remarks: "보호자(엄마) 역할. 불안하고 방어적인 태도를 보이지만, 의사가 자신의 걱정을 진지하게 들어주면 점차 마음을 여는 모습을 연기. 인터넷에서 본 구체적인 부작용 사례(예: MMR과 자폐증)를 언급하며 질문할 것."

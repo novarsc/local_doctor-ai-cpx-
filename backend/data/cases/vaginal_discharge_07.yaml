@@ -1,0 +1,123 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (자궁외임신)"
+patient_info:
+  name: "김나리"
+  age: 26
+  sex: "여성"
+  presenting_complaint: "소량의 질출혈과 아랫배 통증"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁외임신 (Ectopic pregnancy)"
+    - "절박유산 (Threatened abortion)"
+    - "난소 낭종 파열 또는 염전 (Ovarian cyst rupture or torsion)"
+  necessary_tests:
+    - "혈중 베타 인간융모성성선자극호르몬 정량검사 (Quantitative serum beta-hCG)"
+    - "질식 초음파 (Transvaginal ultrasonography)"
+    - "일반 혈액 검사 (CBC) 및 혈액형 검사"
+  necessary_treatments:
+    - "응급 상황이므로 즉각적인 입원 고려"
+    - "환자 상태에 따라 약물 치료(메토트렉세이트) 또는 수술적 치료(복강경)"
+    - "활력징후가 불안정할 시 즉각적인 수술 및 수혈"
+history:
+  sex_age: "여성/26"
+  chief_complaint_verbatim: "생리가 늦어져서 임신인 줄 알았는데, 어제부터 갈색 피가 조금씩 비치고 오른쪽 아랫배가 콕콕 쑤셔요."
+  onset: "출혈은 1일 전, 통증은 6시간 전"
+  location:
+    initial: "우측 하복부"
+    current: "우측 하복부"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "통증이 점점 뚜렷해짐"
+  course: "생리 예정일이 2주 지났습니다. 1주 전에 임신 테스트기로 확인하니 두 줄이 나와서 임신인 줄 알았습니다. 어제부터 팬티에 갈색 피가 묻어나오기 시작했고, 오늘 아침부터는 오른쪽 아랫배가 콕콕 찌르듯이 아픕니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "소량의 암갈색 질출혈, 날카롭게 찌르는 듯한 우측 하복부 통증"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "몸을 움직일 때"
+    alleviating: "가만히 누워있을 때"
+  health_check_history:
+    last_checkup: "해당 없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "2년 전 골반염으로 입원 치료 받은 적 있음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학원생"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "13세"
+    menstrual_cycle: "30일 주기, 규칙적"
+    duration: "6일"
+    amount: "보통"
+    lmp: "6주 전"
+    gpa: "0-0-0-0"
+    sexual_partner: "1명 (남자친구)"
+    contraception: "최근 임신 준비로 피임 안 함"
+physical_exam:
+  general: "안색이 창백하고 식은땀을 흘리며 불안해 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "호흡음 정상. 심박수 약간 빠름."
+  abdomen:
+    inspection: "편평하나, 약간의 팽만감 있음"
+    auscultation: "장음 감소"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: true
+      # 우측 하복부에 국소적인 압통 및 반발 압통이 뚜렷함.
+      # 내진 시: 자궁경부 이동 시 심한 통증 호소 (positive CMT). 우측 자궁 부속기에서 압통과 함께 희미한 종괴가 만져짐. 소량의 암갈색 혈액이 묻어 나옴.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음, 말초 시원함"
+standardized_patient_questions: "임신인 줄 알았는데, 왜 피가 나고 배가 아픈가요? 아기는 괜찮은 건가요? 혹시 유산인가요?"
+specific_remarks: "복통으로 인해 허리를 약간 숙인 자세를 취한다. 신체 진찰 시, 특히 복부 촉진과 내진 시에 통증을 심하게 호소하며 얼굴을 찡그린다. '자궁외임신'이라는 진단 가능성에 대해 매우 놀라고 두려워하는 반응을 보인다."

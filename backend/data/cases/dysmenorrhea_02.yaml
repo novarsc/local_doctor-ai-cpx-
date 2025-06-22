@@ -1,0 +1,132 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (자궁내막증)"
+patient_info:
+  name: "이수진"
+  age: 29
+  sex: "여성"
+  presenting_complaint: "점점 심해지는 생리통과 성교통"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁내막증"
+    - "자궁선근증"
+    - "만성 골반염"
+  necessary_tests:
+    - "골반 내진 (자궁후벽 압통, 결절 유무 확인)"
+    - "질식 초음파 (자궁내막종 등 확인)"
+    - "혈액검사 (CA-125 수치 확인)"
+    - "필요시 진단적 복강경"
+  necessary_treatments:
+    - "통증 조절 (비스테로이드성 소염제)"
+    - "호르몬 치료 (경구피임약, 프로게스틴, GnRH agonist)"
+    - "수술적 치료 (복강경을 통한 병변 제거)"
+history:
+  sex_age: "여성/29"
+  chief_complaint_verbatim: "몇 년 전부터 생리통이 너무 심해졌고, 최근에는 부부관계 할 때도 아파서 힘들어요."
+  onset: "약 4-5년 전부터 생리통이 심해지기 시작함"
+  location:
+    initial: "아랫배"
+    current: "골반 깊숙한 곳, 허리, 항문 쪽"
+  duration:
+    onset_pattern: "생리 시작 며칠 전부터 시작되어 생리가 끝난 후에도 며칠간 지속됨"
+    recent_course: "해마다 통증의 강도와 기간이 점차 심해짐"
+  course: "수년에 걸쳐 서서히 악화되는 양상"
+  experience_prev_episodes:
+    frequency: "매달"
+    trigger: "생리"
+    symptoms: "심한 월경통, 성교통, 배변통"
+  character_of_symptom:
+    quality: "골반을 쥐어짜고 묵직하게 누르는 듯한 통증"
+    nrs_score: "생리 시 9점, 평소 3-4점"
+    radiation: "항문과 직장 쪽으로 뻗치는 통증 (배변 시 악화)"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "생리 기간"
+      - "성관계 시 (특히 깊게 삽입할 때)"
+      - "배변 시"
+    alleviating: "강력한 진통제, 휴식"
+  health_check_history:
+    last_checkup: "2년 전 회사 건강검진"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "약국에서 파는 여러 종류의 진통제"
+    source: "약국"
+    effect: "최근에는 잘 듣지 않음"
+  social_history:
+    job: "사무직"
+    stress: "업무 스트레스 보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "필라테스 주 1회"
+    recent_weight_change: "없음"
+  family_history: "언니가 자궁내막증으로 수술받은 적 있음"
+  female_history:
+    menarche: "14세"
+    lmp: "2주 전"
+    cycle: "28일 주기, 규칙적"
+    duration: "7일"
+    amount: "많음 (특히 첫 2-3일)"
+    dysmenorrhea: "매우 심함"
+    dyspareunia: "최근 1년간 심해짐 (deep dyspareunia)"
+    menopause_age: "해당 없음"
+    obgyn_visits: "1년 전 동네 산부인과에서 단순 생리통 진단받음"
+    sexual_history: "기혼, 남편과 관계 중"
+    pregnancy_history: "G0P0, 1년 전부터 임신 시도 중이나 잘 안됨"
+physical_exam:
+  general: "만성적인 통증으로 지쳐 보이나, 전반적인 상태는 안정적"
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "Flat, midline infraumbilical scar (from a past appendectomy) 없음"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      tenderness_suprapubic: true
+      tenderness_llq: true
+  pelvic_exam:
+    speculum: "Cervix and vagina look normal"
+    bimanual: "Uterus is fixed, retroverted. Tenderness on posterior fornix. Nodularity felt on uterosacral ligaments."
+  cvat: "양측 음성"
+  extremity: "No edema"
+standardized_patient_questions: "이게 무슨 병인가요? 왜 이렇게 아픈 거죠? 아이를 못 가질 수도 있나요? 수술해야 하나요?"
+specific_remarks: "진찰 시, 특히 골반 내진 시 통증을 심하게 호소한다. 특히 자궁 경부를 움직이거나 후벽을 누를 때 '악' 소리를 내며 인상을 찌푸린다. 임신 문제에 대해 매우 불안해하며 걱정스러운 표정으로 질문한다."

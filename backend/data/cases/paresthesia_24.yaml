@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "24"
+title: "실전 모의 증례 (만성 염증성 탈수초성 다발신경병증)"
+patient_info:
+  name: "송미경"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "수개월에 걸쳐 팔다리 힘이 빠지고 감각이 둔해짐"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 염증성 탈수초성 다발신경병증 (CIDP)"
+    - "길랭-바레 증후군 (만성형)"
+    - "운동신경세포 질환 (감별 필요)"
+  necessary_tests:
+    - "신경전도검사/근전도검사 (탈수초성 변화 확인)"
+    - "뇌척수액 검사 (알부민-세포 해리)"
+    - "혈액검사 (자가항체 등 감별진단 목적)"
+  necessary_treatments:
+    - "스테로이드 치료"
+    - "정맥 내 면역글로불린(IVIG) 또는 혈장 교환술"
+    - "장기적인 면역억제제 및 재활 치료"
+history:
+  sex_age: "여성/42"
+  chief_complaint_verbatim: "넉 달 전부터 다리에 힘이 빠져서 자꾸 넘어질 뻔하더니, 이젠 팔에도 힘이 없고 손끝 발끝 감각이 무뎌요. 좋아졌다가 나빠졌다가를 반복하는 것 같아요."
+  onset: "4개월 전"
+  location:
+    initial: "양쪽 다리"
+    current: "양쪽 팔, 다리 (원위부 및 근위부 모두)"
+  duration:
+    onset_pattern: "아급성, 파동성 경과"
+    recent_course: "악화와 완화를 반복하며 전반적으로는 악화 추세"
+  course: "4개월 전, 계단을 오를 때 다리가 무겁고 힘이 빠지는 것을 느낌. 증상이 몇 주에 걸쳐 서서히 심해져 걷기가 힘들어졌다가, 특별한 치료 없이 약간 호전되는 듯했음. 그러나 한 달 전부터 다시 악화되어 팔의 힘도 빠지기 시작함. 병뚜껑을 따거나 단추를 채우는 것이 어려워짐. 양쪽 손끝과 발끝이 저리고 둔한 느낌이 계속됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "근력 약화, 저리고 둔한 감각"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 걷거나 서 있을 때"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "피아노 강사"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "따로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "전반적으로 힘이 없어 보이나, 의식은 명료함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "상하지의 근위부 및 원위부 근력 대칭적 저하(MRC 3-4/5). 심부건반사 전반적으로 소실(areflexia). 양쪽 손과 발에 장갑-양말 형태의 감각 저하(특히 진동 및 위치 감각). 보행 시 비틀거림."
+standardized_patient_questions: "왜 몸이 좋아졌다가 나빠졌다가 하나요? 길랭-바레 증후군이랑은 다른 건가요? 피아노를 계속 칠 수 있을지 걱정돼요."
+specific_remarks: "환자는 증상이 2개월 이상에 걸쳐 점진적으로 진행되었으며, 중간에 약간의 호전기가 있었음을 명확히 진술한다(CIDP의 특징). GBS와 달리 급성으로 발병하지 않았음을 강조한다. 신체 진찰에서 근위부와 원위부 모두의 근력 약화와 심부건반사 소실이 뚜렷하게 나타난다. 자신의 직업과 관련하여 손의 기능 저하에 대해 매우 우려하는 모습을 보인다."

@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (자발성 두개내 저혈압)"
+patient_info:
+  name: "이수진"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "일어서면 심해지고 누우면 호전되는 두통"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자발성 두개내 저혈압 (뇌척수액 누출)"
+    - "기립성 저혈압 관련 두통"
+    - "경추성 두통"
+  necessary_tests:
+    - "조영 증강 뇌 MRI (경막 조영 증강, 뇌하수체 비대 등 간접 소견 확인)"
+    - "척추 MRI 또는 CT 척수조영술 (뇌척수액 누출 부위 확인)"
+    - "요추 천자 및 뇌척수액 압력 측정 (압력 저하 확인, <60mmH2O)"
+  necessary_treatments:
+    - "보존적 치료: 충분한 수분 섭취, 카페인 섭취, 침상 안정"
+    - "보존적 치료에 반응이 없을 경우, 경막외 자가혈액 봉합술 (Epidural blood patch, EBP)"
+    - "누출 부위가 명확할 경우, 수술적 치료 고려"
+history:
+  sex_age: "여성/42"
+  chief_complaint_verbatim: "일주일 전부터 갑자기 두통이 생겼는데 이상하게 서 있거나 앉아있으면 머리가 터질 것 같고, 누우면 몇 분 안에 싹 괜찮아져요."
+  onset: "1주일 전, 특별한 계기 없이"
+  location:
+    initial: "뒷목과 후두부"
+    current: "머리 전체로 퍼짐"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "매일 동일한 양상 반복"
+  course: "기립 후 수 분 내에 두통이 시작되어 계속 악화되고, 누우면 10-15분 내에 현저히 호전됨. 하루 종일 누워있으면 거의 아프지 않음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "기립 자세"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "머리 전체가 아래로 당겨지는 듯한, 둔하고 압박하는 통증"
+    nrs_score: "서 있을 때 8, 누워 있을 때 1"
+    radiation: "어깨와 목덜미로 뻗치는 뻣뻣함"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true # 서 있을 때
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    neurological:
+      phonophobia: true
+      tinnitus: "귀가 먹먹한 느낌"
+      neck_stiffness: true
+  factors:
+    aggravating:
+      - "서 있는 자세, 앉아 있는 자세"
+      - "기침, 재채기, 힘주기"
+    alleviating: "수평으로 눕는 것"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음. 최근 무리한 요가 동작을 한 기억은 있음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제"
+    source: "약국"
+    effect: "거의 효과 없음"
+  social_history:
+    job: "초등학교 교사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 3회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "LMP: 1주 전, 규칙적"
+physical_exam:
+  general: "누워있을 때는 편안해 보이나, 앉거나 서게 하면 불편감을 호소함. 급성 병색은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  neurology:
+    mental_status: "Alert and oriented"
+    cranial_nerves: "정상"
+    motor_sensory_reflexes: "정상"
+    nuchal_rigidity: "경미한 목 뻣뻣함 호소하나, 수막자극징후는 음성"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "왜 누우면 괜찮고 서면 아픈 건가요? 이런 병도 있나요? 뇌에 문제가 생긴 건가요? 계속 누워만 있어야 하나요?"
+specific_remarks: "환자는 기립성 두통의 특징을 명확하게 설명한다. '누우면 천국, 서면 지옥'과 같이 극적인 표현을 사용할 수 있다. 진료를 위해 앉아있는 동안 이마를 짚으며 불편한 기색을 보인다. 의사가 눕도록 권유하면 안도하는 표정을 짓는다."

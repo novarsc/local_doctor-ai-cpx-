@@ -1,0 +1,113 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (척수 손상 후 신경인성 방광)"
+patient_info:
+  name: "이강인"
+  age: 25
+  sex: "남성"
+  presenting_complaint: "소변이 마려운 느낌 없이 옷에 지리는 증상"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "70회/분"
+  respiration: "14회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "척수 손상 후 신경인성 방광 (반사성 요실금)"
+    - "자율신경 반사부전증 (Autonomic Dysreflexia) 동반 가능성"
+    - "요로감염"
+  necessary_tests:
+    - "요류역학검사 (Urodynamic study)"
+    - "방광경 검사 및 잔뇨량 측정"
+    - "신장-방광 초음파"
+  necessary_treatments:
+    - "간헐적 청결 도뇨법 (Clean Intermittent Catheterization, CIC)"
+    - "항콜린제 등 약물 치료"
+    - "정기적인 신장 기능 및 요로 감염 추적 관찰"
+history:
+  sex_age: "남성/25세"
+  chief_complaint_verbatim: "제가 사고로 하반신 마비가 온 뒤로 소변을 제대로 못 봐요. 마려운 느낌도 없는데 갑자기 소변이 왈칵 나오고, 평소엔 소변줄을 차고 있어요."
+  onset: "2년 전 오토바이 사고 후"
+  location:
+    initial: "방광, 요도"
+    current: "방광, 요도"
+  duration:
+    onset_pattern: "사고 후 즉시 발생"
+    recent_course: "지속적"
+  course: "2년 전 오토바이 사고로 흉추 8번(T8)에 완전 척수 손상을 입었다. 사고 직후부터 방광 감각을 완전히 잃었고 소변을 스스로 볼 수 없게 되었다. 초기에는 유치도뇨관을 유지했고, 현재는 간헐적 도뇨를 교육받았으나 잘 안될 때가 많아 콘돔 카테터를 주로 사용한다."
+  experience_prev_episodes:
+    frequency: "매일"
+    trigger: "방광이 일정 수준 이상 찼을 때, 아랫배를 두드릴 때"
+    symptoms: "요의 없이 갑자기 많은 양의 소변이 배출됨"
+  character_of_symptom:
+    quality: "방광의 수축을 전혀 인지하지 못한 채 반사적으로 소변이 배출됨"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false # 때때로 요로감염 시 발생
+      chills: false # 때때로 요로감염 시 발생
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true # 신경인성 장
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "도뇨 시간을 놓쳤을 때"
+    alleviating: "규칙적인 간헐적 도뇨"
+  health_check_history:
+    last_checkup: "재활의학과에서 정기적으로 진료 중"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "2년 전 오토바이 사고로 T8 척수 손상 (하반신 마비)"
+  past_medical_history:
+    underlying_disease: "척수 손상"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "바클로펜 (근이완제)"
+      - "변비약 (마그밀 등)"
+    source: "재활의학과"
+    effect: "증상 조절에 도움이 됨"
+  social_history:
+    job: "무직 (사고 전 대학생)"
+    stress: "매우 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "휠체어 상체 운동"
+    recent_weight_change: "사고 후 근육량 감소로 체중 감소"
+  family_history: "특이사항 없음"
+physical_exam:
+  general: "휠체어에 앉아 있으며, 상체는 잘 발달되어 있음"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "양쪽 하지의 근위축, 감각 소실, 심부건반사 항진, 바빈스키 징후 양성"
+standardized_patient_questions: "평생 이렇게 소변줄을 차고 살아야 하나요? 제 방광은 이제 완전히 망가진 건가요? 콩팥까지 나빠질 수 있다고 하던데 사실인가요?"
+specific_remarks: "환자는 자신의 장애에 대해 비교적 담담하게 이야기하지만, 배뇨 문제로 인한 삶의 질 저하와 사회생활의 어려움에 대해 깊은 좌절감을 표현한다. 간헐적 도뇨의 어려움과 반복되는 요로감염에 대한 걱정을 토로한다."

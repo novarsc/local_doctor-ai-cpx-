@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (경련 후 상태, Postictal state)"
+patient_info:
+  name: "김민재"
+  age: 25
+  sex: "남성"
+  presenting_complaint: "갑자기 쓰러져 몸을 떨고 나서 멍하게 있음"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "110회/분"
+  respiration: "20회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "경련 후 상태 (첫 발작)"
+    - "뇌종양 또는 뇌혈관 기형"
+    - "전해질 불균형 또는 약물 중독"
+  necessary_tests:
+    - "뇌파 검사 (EEG)"
+    - "뇌 MRI"
+    - "혈액 검사 (CBC, 전해질, 독성 물질 검사)"
+  necessary_treatments:
+    - "기도 확보 및 산소 공급"
+    - "항경련제 투여 (재발 시)"
+    - "발작 원인에 대한 치료"
+history:
+  sex_age: "남성/25세"
+  chief_complaint_verbatim: "같이 게임하던 친구가 갑자기 '억' 소리를 내면서 쓰러지더니, 온몸을 뻣뻣하게 떨었어요. 지금은 깨어났는데 멍하니 사람을 못 알아봐요."
+  onset: "30분 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "경련은 멈췄으나 의식 혼돈 지속"
+  course: "30분 전 PC방에서 게임을 하던 중, 갑자기 소리를 지르며 의자를 뒤로 넘어뜨림. 이후 약 1-2분간 눈을 뒤집고 온몸이 뻣뻣해지면서 팔다리를 규칙적으로 떠는 모습(전신 강직-간대 발작)을 보임. 입에 거품을 물고 혀를 깨물었으며, 소변을 지렸음. 경련이 멈춘 후 10분 정도 깊은 잠에 빠졌다가 깨어났으나, 현재 여기가 어딘지, 본인이 누군지 모르는 상태."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "최근 시험 준비로 며칠간 밤샘"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "경련 후 의식 혼돈"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "질문"
+    alleviating: "가만히 두는 것"
+  health_check_history:
+    last_checkup: "대학 입학 신체검사"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "경련 중 머리를 바닥에 부딪혔을 가능성 있음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음 (에너지 드링크를 많이 마셨다고 함)"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생 (시험 기간)"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "최근 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "의식은 혼돈 상태. 졸려하며, 질문에 단답형으로 느리게 대답함. 지남력(시간, 장소, 사람) 없음."
+  heent:
+    sclera: "정상."
+    oral_mucosa: "혀의 우측 가장자리에 찢어진 상처(laceration) 관찰됨."
+    # 두피에 타박상이나 혈종이 있는지 확인 필요.
+  chest: "호흡음은 약간 거칠고, 심박수 빠름."
+  abdomen:
+    inspection: "바지에 소변으로 젖은 흔적 보임."
+    auscultation: "장음 정상."
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "근육통 호소. 신경학적 국소 결손(focal deficit)은 명확하지 않음. Todd's palsy 없음."
+standardized_patient_questions: "제가 왜 쓰러졌던 거죠? 기억이 하나도 안 나요. 머리가 너무 아프고 온몸이 쑤셔요. 저 혹시 큰 병에 걸린 건가요?"
+specific_remarks: "환자는 매우 피곤해하며, 대화에 잘 집중하지 못한다. 본인이 쓰러졌던 사실을 전혀 기억하지 못한다. 혀를 깨문 상처와 소변 실금을 명확히 표현한다. 친구가 옆에서 당시 상황을 설명해준다."

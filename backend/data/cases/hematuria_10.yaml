@@ -1,0 +1,116 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (급성 세균성 전립선염)"
+patient_info:
+  name: "이현우"
+  age: 38
+  sex: "남성"
+  presenting_complaint: "고열과 배뇨통, 소변 끝에 피가 비침"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "115회/분"
+  respiration: "22회/분"
+  temperature: "39.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 세균성 전립선염 (가장 의심)"
+    - "급성 신우신염"
+    - "요도염 및 부고환염"
+  necessary_tests:
+    - "소변 검사 및 배양 검사"
+    - "혈액 검사 및 배양 검사 (패혈증 감별)"
+    - "직장수지검사 (매우 부드럽게 시행)"
+  necessary_treatments:
+    - "입원 치료"
+    - "정맥 항생제 투여"
+    - "수액 공급 및 해열, 진통 등 대증 치료"
+history:
+  sex_age: "남성/38세"
+  chief_complaint_verbatim: "이틀 전부터 온몸이 쑤시고 열이 나더니, 어제부터는 소변 볼 때 너무 아프고 회음부가 뻐근해요. 소변 끝에 피도 좀 나와요."
+  onset: "전신 증상은 2일 전, 비뇨기 증상은 1일 전"
+  location:
+    initial: "전신, 회음부"
+    current: "전신, 회음부, 요도"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "점점 악화됨"
+  course: "이틀 전부터 몸살감기처럼 온몸이 춥고 떨리면서 열이 났습니다. 어제부터는 소변이 자주 마렵고, 소변 볼 때 요도가 타는 듯 아프며, 다 보고 나서도 시원하지 않았습니다. 앉아 있으면 고환과 항문 사이가 묵직하게 아픕니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "배뇨 시 타는 듯한 통증, 회음부의 묵직한 압박통"
+    nrs_score: "7-8/10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "소변 볼 때"
+      - "앉아 있을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "이틀 전 해열진통제 (약국 구매)"
+    source: "약국"
+    effect: "복용 시 잠시 열이 내렸다가 다시 오름"
+  social_history:
+    job: "회사원"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색. 열이 나고 식은땀을 흘리며 매우 힘들어 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "빈호흡, 빈맥. 호흡음은 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 치골 상부 압통 있음
+  cvat: "좌우 음성"
+  extremity: "말초 혈관 따뜻함"
+  # DRE: 전립선이 뜨겁고(hot), 물컹하며(boggy), 극심한 압통(exquisite tenderness)을 보임.
+standardized_patient_questions: "몸살인 줄 알았는데 왜 소변까지 아픈가요? 너무 아프고 힘든데, 입원해야 하나요?"
+specific_remarks: "환자는 고열과 오한으로 인해 몸을 떨고 있으며, 전신 근육통을 호소한다. 회음부 통증 때문에 앉아 있는 것을 불편해한다. 직장수지검사 시 매우 조심스럽게 시행해야 하며, 환자는 극심한 통증을 호소할 것이다."

@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (총담관담석증, Choledocholithiasis)"
+patient_info:
+  name: "최미영"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "갑자기 발생한 우상복부 통증과 발열, 황달"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "38.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "총담관담석증에 의한 급성 담관염"
+    - "급성 담낭염"
+    - "급성 간염"
+  necessary_tests:
+    - "혈액 검사 (전혈구, 간기능, 염증수치)"
+    - "복부 초음파"
+    - "내시경 역행 췌담관 조영술 (ERCP) 또는 자기공명 췌담관 조영술 (MRCP)"
+  necessary_treatments:
+    - "금식, 수액 및 항생제 치료"
+    - "내시경을 이용한 담석 제거술"
+    - "추후 담낭 절제술 고려"
+history:
+  sex_age: "여성/52세"
+  chief_complaint_verbatim: "어젯밤부터 갑자기 오른쪽 윗배가 너무 아프고 열이 나면서 오한이 들더니, 오늘 아침에는 눈이랑 피부가 노래졌어요."
+  onset: "내원 1일 전 저녁"
+  location:
+    initial: "우상복부"
+    current: "우상복부"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "점점 심해지는 양상"
+  course: "어젯밤 10시경 갑자기 우상복부 통증이 시작되었고, 1-2시간 뒤부터 오한과 함께 열이 나기 시작했다. 오늘 아침 거울을 보니 눈 흰자위가 노랗게 변해있어 병원에 왔다."
+  experience_prev_episodes:
+    frequency: "수년 전부터 가끔씩 기름진 음식을 먹고 나면 소화가 안되고 윗배가 더부룩한 느낌이 있었음."
+    trigger: "기름진 음식 섭취 후"
+    symptoms: "소화불량, 더부룩함"
+  character_of_symptom:
+    quality: "쥐어짜는 듯한, 산통성의 통증 (colicky pain)"
+    nrs_score: "8"
+    radiation: "오른쪽 어깨 및 등 쪽으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "내원일 오전 1회, 음식물 섞인 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "콜라색 소변"
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "몸을 움직일 때"
+      - "숨을 깊게 쉴 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 국가검진"
+    endoscopy_finding: "특이 소견 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증 진단받았으나 약물 복용은 하지 않음. 5년 전 건강검진 복부 초음파에서 담낭 담석 진단받음."
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "어머니 담낭 담석으로 수술"
+  female_history: "5년 전 폐경. G2P2"
+physical_exam:
+  general: "급성 병색. 통증으로 안절부절못하는 모습."
+  heent:
+    sclera: "뚜렷한 황달 (icteric)"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 정상. 심음 규칙적이고 빈맥 소견."
+  abdomen:
+    inspection: "편평하고 흉터 없음."
+    auscultation: "장음 감소"
+    percussion: "전반적인 고창음. 간 타진 시 둔탁음."
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      murphy_sign: "양성"
+  cvat: "좌/우 음성"
+  extremity: "피부 황달 소견. 부종 없음."
+standardized_patient_questions: "왜 이렇게 아프고 열이 나는 건가요? 큰 병인가요? 바로 입원해야 하나요?"
+specific_remarks: "우상복부 통증을 심하게 호소하며, 질문에 답할 때 간간이 얼굴을 찡그린다. 오한이 있다는 듯 몸을 약간씩 떤다. 샤르코 3대 징후(Charcot's triad)를 명확히 연기한다."

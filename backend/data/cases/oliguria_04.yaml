@@ -1,0 +1,113 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (횡문근융해증)"
+patient_info:
+  name: "최건강"
+  age: 25
+  sex: "남성"
+  presenting_complaint: "운동 후 발생한 심한 근육통과 검붉은 소변"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "105회/분"
+  respiration: "18회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "운동 유발성 횡문근융해증에 의한 급성 신손상"
+    - "심한 탈수"
+    - "약물 유발성 근병증"
+  necessary_tests:
+    - "혈액 검사 (CK, Myoglobin, BUN/Cr, 전해질)"
+    - "소변 검사 (Urine myoglobin)"
+    - "심전도 검사 (고칼륨혈증 확인)"
+  necessary_treatments:
+    - "대량의 수액 요법 (강제 이뇨)"
+    - "소변 알칼리화 (중탄산나트륨 투여)"
+    - "전해질 교정 및 신기능 모니터링"
+history:
+  sex_age: "남성/25"
+  chief_complaint_verbatim: "이틀 전에 헬스하고 나서부터 허벅지랑 엉덩이가 너무 아프고, 어제부터는 소변이 콜라색보다 더 진하게 나와요. 양도 확 줄었어요."
+  onset: "근육통은 2일 전, 소변 변화는 1일 전"
+  location:
+    initial: "양측 허벅지, 엉덩이"
+    current: "근육통은 지속, 전신 무력감 동반"
+  duration:
+    onset_pattern: "운동 후 서서히 발생"
+    recent_course: "점점 악화"
+  course: "평소 운동을 안 하다가 이틀 전 친구를 따라 크로스핏 체험 수업에 참여하여 2시간가량 고강도 하체 운동(스쿼트, 런지 등)을 무리하게 시행함. 운동 직후부터 극심한 근육통이 발생했고, 계단을 오르내리기 힘들 정도였음. 어제 아침부터 소변이 검붉은 색으로 나오는 것을 발견했고, 소변 횟수와 양이 현저히 줄어들어 걱정되어 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "근육이 찢어질 듯한 통증, 검붉은 소변"
+    nrs_score: 7
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "움직일 때 근육통 심해짐"
+    alleviating: "가만히 있으면 근육통은 좀 나음"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "운동 후 단백질 보충제 1회 섭취"
+    source: "헬스장"
+    effect: "특이사항 없음"
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "최근 거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "근육통으로 인해 걷는 자세가 부자연스러움. 전반적으로 지쳐 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양측 허벅지와 둔부 근육이 단단하게 뭉쳐있고, 압통이 매우 심함. 부종은 명확하지 않음."
+standardized_patient_questions: "운동 좀 무리했다고 콩팥이 망가질 수도 있나요? 그냥 근육통인 줄 알았는데... 입원해야 하나요? 앞으로 운동 못하는 건가요?"
+specific_remarks: "환자는 허벅지를 만지기만 해도 아프다며 인상을 찌푸린다. 자리에 앉거나 일어설 때 '아이고' 소리를 내며 매우 힘들어하는 모습을 연기한다. 자신의 증상에 대해 매우 놀라고 걱정하는 태도를 보인다."

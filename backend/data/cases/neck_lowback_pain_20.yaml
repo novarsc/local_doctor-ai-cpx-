@@ -1,0 +1,116 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "20"
+title: "실전 모의 증례 (척추 압박에 의한 마미 증후군)"
+patient_info:
+  name: "장현성"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "3일 전부터 급격히 악화된 허리 통증과 양쪽 다리 위약감"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "100회/분"
+  respiration: "20회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "마미 증후군 (Cauda equina syndrome)"
+    - "심한 요추 추간판 탈출증"
+    - "척수 종양"
+  necessary_tests:
+    - "응급 요추 자기공명영상 (MRI)"
+    - "필요시 척추 CT"
+    - "없음"
+  necessary_treatments:
+    - "응급 수술적 감압술"
+    - "수술 후 재활 치료"
+    - "도뇨관 삽입 등 보존적 처치"
+history:
+  sex_age: "남성/45세"
+  chief_complaint_verbatim: "허리가 끊어질 듯이 아프고 양쪽 다리에 힘이 빠져서 걷기가 힘들어요. 그리고 어제부터 소변이 잘 안 나오고 감각이 이상해요."
+  onset: "3일 전"
+  location:
+    initial: "허리"
+    current: "허리, 양쪽 엉덩이, 다리, 회음부"
+  duration:
+    onset_pattern: "급성 발생"
+    recent_course: "빠르게 악화됨"
+  course: "3일 전 무거운 짐을 옮긴 후 허리에 극심한 통증이 발생. 이후 양쪽 다리가 저리고 힘이 빠지기 시작함. 어제부터는 엉덩이와 항문 주변 감각이 둔해지고(마취된 느낌), 소변을 보려고 해도 잘 나오지 않으며 나도 모르게 속옷에 소변을 지리는 증상이 발생함."
+  experience_prev_episodes:
+    frequency: "간혹 허리 통증 있었음"
+    trigger: "무리했을 때"
+    symptoms: "이번처럼 심하지 않았음"
+  character_of_symptom:
+    quality: "극심한 허리 통증과 양 다리의 저림, 엉덩이 부위의 감각 없음"
+    nrs_score: "9"
+    radiation: "양쪽 다리로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "모든 움직임"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "3일 전 무거운 물건 들었음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "가구점 직원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "없음"
+    exercise: "하지 않음"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "통증으로 매우 고통스러워하며, 불안한 기색이 역력함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "방광 부위 탁음 (dullness) - 소변 정체 암시"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      tenderness_l_spine: "요추 하부 압통"
+      straight_leg_raising_test: "양쪽 모두 양성"
+  cvat: "좌우 음성"
+  extremity: "양쪽 하지 근력 저하 (발목 굴곡 및 신전 Grade 3/5). 양쪽 발목 반사 소실. 항문 주변 및 회음부 감각 저하 (Saddle anesthesia). 항문 괄약근 긴장도 저하."
+standardized_patient_questions: "왜 갑자기 소변보기가 힘든가요? 다리가 마비될 수도 있나요? 빨리 수술해야 하나요?"
+specific_remarks: "마미 증후군의 RED FLAG signs (양측성 하지 증상, 안장 마취, 대소변 기능 장애)를 명확하고 구체적으로 설명해야 함. '엉덩이에 주사를 맞아도 느낌이 없을 것 같다', '소변이 마려운데 나오질 않는다' 와 같이 표현할 것. 응급 상황임을 인지하고 불안해하며 다급한 태도를 보여야 함."

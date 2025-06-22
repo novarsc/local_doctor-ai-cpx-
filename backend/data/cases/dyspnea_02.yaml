@@ -1,0 +1,117 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (만성 폐쇄성 폐질환의 급성 악화)"
+patient_info:
+  name: "박철수"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "5일 전부터 기침, 가래가 심해지더니 2일 전부터는 조금만 걸어도 숨이 참"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "98회/분"
+  respiration: "24회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 폐쇄성 폐질환(COPD)의 급성 악화"
+    - "지역사회획득 폐렴"
+    - "울혈성 심부전"
+  necessary_tests:
+    - "흉부 X선 검사"
+    - "폐기능 검사"
+    - "객담 검사 (그람 염색 및 배양)"
+    - "심전도 및 심장초음파"
+  necessary_treatments:
+    - "기관지 확장제 (흡입기)"
+    - "항생제 치료 (감염이 의심될 경우)"
+    - "전신 스테로이드 투여"
+    - "산소 치료 (저산소혈증 시)"
+history:
+  sex_age: "남성/68"
+  chief_complaint_verbatim: "원래도 숨이 좀 찼는데, 며칠 전부터 감기 기운이 있더니 이젠 집 안에서 화장실 가는 것도 숨이 차서 힘드네요. 가래도 누렇게 나오고..."
+  onset: "5일 전 기침, 가래 악화. 2일 전 호흡곤란 악화."
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "점진적 발생 (gradual onset)"
+    recent_course: "점점 심해짐 (progressively worsening)"
+  course: "평소에도 계단을 오르면 숨이 찼으나 일상생활은 가능했음. 5일 전부터 감기 기운과 함께 기침과 가래가 심해졌고, 가래 색이 누렇게 변함. 2일 전부터는 평지를 걷는 것도 힘들어짐."
+  experience_prev_episodes:
+    frequency: "1년에 1-2번씩, 주로 겨울철에"
+    trigger: "감기"
+    symptoms: "비슷하게 기침, 가래, 호흡곤란이 심해져서 동네 의원에서 주사 맞고 약 먹으면 며칠 뒤에 나아졌음."
+  character_of_symptom:
+    quality: "숨을 끝까지 내쉬기 힘든 답답함"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "누울 때"
+    alleviating: "가만히 앉아 있을 때"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "시행 안 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 만성 기관지염 (10년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (amlodipine)"
+      - "가끔 숨찰 때 쓰는 흡입기 (ventolin, 처방 없이 약국 구매)"
+    source: "고혈압약은 내과, 흡입기는 약국"
+    effect: "혈압약은 꾸준히 복용 중. 흡입기는 사용하면 조금 나아짐."
+  social_history:
+    job: "은퇴 (전직: 버스 운전기사)"
+    stress: "없음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑 (45갑년)"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 1년간 3kg 감소"
+  family_history: "아버지가 폐암으로 돌아가심"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색. 입술을 오므리고 숨을 내쉬는 모습(pursed-lip breathing) 관찰됨. 경정맥 확장 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "시진 시 술통형 가슴(barrel chest) 소견. 타진 시 과공명음(hyperresonance). 청진 시 양쪽 폐에서 호흡음이 전반적으로 감소되어 있고, 호기 시간이 연장되어 있음. 간간이 거친 수포음(coarse crackle) 들림."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "부종 없음. 곤봉지(clubbing finger) 없음."
+standardized_patient_questions: "이게 그냥 감기가 아니라 폐렴 같은 건가요? 담배 때문에 이렇게 된 건지... 이제 담배 끊으면 좀 나아질 수 있을까요?"
+specific_remarks: "숨이 차서 천천히 말하고, 문장 중간에 숨을 고름. 진찰 시 입술을 오므리고 '푸- 푸-' 하고 숨을 내쉬는 모습을 연기할 것."

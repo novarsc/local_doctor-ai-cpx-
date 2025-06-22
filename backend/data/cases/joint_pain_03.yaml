@@ -1,0 +1,115 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "3/24"
+title: "실전 모의 증례 (화농성 관절염)"
+patient_info:
+  name: "박준형"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "3일 전부터 갑자기 심해진 왼쪽 무릎 통증과 오한"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "110회/분"
+  respiration: "20회/분"
+  temperature: "39.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "화농성 관절염"
+    - "통풍 또는 가성통풍"
+    - "외상 후 혈관절증"
+  necessary_tests:
+    - "관절액 천자 및 검사 (세균 배양, 그람 염색, 백혈구 수)"
+    - "혈액 검사 (백혈구 수, ESR, CRP, 혈액 배양 검사)"
+    - "무릎 X-ray 및 초음파"
+  necessary_treatments:
+    - "즉각적인 항생제 정맥 주사"
+    - "응급 관절 세척술 또는 반복적 관절 천자"
+    - "적절한 부목 고정 후 조기 운동"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "며칠 전부터 왼쪽 무릎이 붓고 아프기 시작하더니, 어제부터는 열이 펄펄 나고 온몸이 덜덜 떨려요. 무릎을 아예 굽힐 수가 없어요."
+  onset: "3일 전"
+  location:
+    initial: "왼쪽 무릎"
+    current: "왼쪽 무릎"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "급격히 악화됨"
+  course: "처음엔 그냥 좀 쑤시는가 했는데, 하루 사이에 걷지 못할 정도로 심해지고 열까지 나기 시작했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "찢어질 듯한 극심한 통증"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "무릎을 조금이라도 움직이려고 할 때"
+      - "서 있으려고 할 때"
+    alleviating: "없음. 가만히 있어도 아픔"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: ""
+  trauma_history: "1주일 전 등산하다가 나뭇가지에 왼쪽 정강이를 살짝 긁혔음."
+  past_medical_history:
+    underlying_disease: "당뇨병 (10년 전 진단, 인슐린 주사 치료 중)"
+    allergies: "페니실린 계열 약물에 두드러기"
+  medication_history:
+    taken:
+      - "인슐린 주사"
+      - "타이레놀"
+    source: "내과, 약국"
+    effect: "타이레놀 먹어도 통증이 전혀 가라앉지 않음"
+  social_history:
+    job: "은퇴 후 소일거리로 텃밭 가꾸기"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "매일 텃밭 관리, 가끔 등산"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "고열과 통증으로 매우 힘들어하며 식은땀을 흘리고 있음. 전반적으로 아파 보임(ill-looking appearance)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 깨끗하나 호흡수가 약간 빠름"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "왼쪽 무릎 관절에 심한 부종, 발적, 열감이 관찰됨. 관절 주변을 가볍게 만지기만 해도 극심한 압통을 호소함. 수동적, 능동적 관절 운동이 통증으로 인해 거의 불가능함. 왼쪽 정강이 앞쪽에 긁힌 상처 자국이 보임."
+standardized_patient_questions: "무릎에 물이 찬 건가요? 왜 이렇게 갑자기 심해진 거죠? 수술해야 하나요?"
+specific_remarks: "환자는 고열과 탈수 소견을 동반한 급성 병색을 보여야 함. 진찰 시 무릎을 건드리면 비명을 지를 정도로 아픈 반응을 보여야 하며, 질병의 심각성에 대해 매우 불안해하는 모습을 연기한다."

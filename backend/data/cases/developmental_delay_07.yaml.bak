@@ -1,0 +1,117 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (다운 증후군)"
+patient_info:
+  name: "윤지호"
+  age: 6
+  sex: "남성"
+  presenting_complaint: "발달이 느리고 자주 아픔"
+vital_signs:
+  blood_pressure: "85/45mmHg"
+  pulse: "130회/분"
+  respiration: "40회/분"
+  temperature: "37.1℃"
+examinee_instructions: "아이가 발달이 늦고 숨쉬기 힘들어한다는 주소로 내원한 보호자의 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "다운 증후군"
+    - "선천성 심장 질환 (방실중격결손 등)"
+    - "전반적 발달 지연"
+  necessary_tests:
+    - "염색체 검사"
+    - "심장 초음파"
+    - "갑상선 기능 검사 및 청력 검사"
+  necessary_treatments:
+    - "심장 질환에 대한 내과적 또는 외과적 치료"
+    - "발달 증진을 위한 재활 치료 (물리, 작업, 언어)"
+    - "동반될 수 있는 문제(갑상선, 청력, 시력 등)에 대한 정기 검진"
+history:
+  sex_age: "남성/생후 6개월"
+  chief_complaint_verbatim: "(보호자) 애가 목도 잘 못 가누고, 젖 먹을 때마다 숨이 차서 힘들어해요. 감기도 너무 자주 걸리고요."
+  onset: "출생 후부터 지속됨"
+  location:
+    initial: "전신 발달 및 호흡"
+    current: "전신 발달 및 호흡"
+  duration:
+    onset_pattern: "지속적"
+    recent_course: "최근 감기에 걸린 후 숨찬 증상이 더 심해지고 수유량이 많이 줄었음"
+  course: "임신 중 산전 기형아 검사는 받지 않았다. 만삭 제왕절개로 3.0kg에 태어났다. 출생 시부터 아이 근육에 힘이 없고 축 처지는 느낌이 있었다. 수유 시 땀을 많이 흘리고 숨이 가빠서 자주 쉬면서 먹어야 했다. 체중이 잘 늘지 않고, 또래에 비해 목 가누기나 뒤집기 등 발달이 모두 늦다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "수유 시"
+      - "울 때"
+    alleviating: "안정 시"
+  health_check_history:
+    last_checkup: "4개월 영유아 검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "산모가 고령(41세)이었음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "영아"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "운동 발달 지연"
+    recent_weight_change: "체중 증가 부진"
+  family_history: "특이 가족력 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적인 근긴장도 저하(hypotonia). 약간의 호흡곤란 관찰됨. 특징적인 얼굴 모양."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    face: "납작한 얼굴, 낮은 콧대, 눈꼬리가 위로 올라감(upslanting palpebral fissures), 내안각췌피(epicanthal folds)."
+    ears: "귀가 작고 모양이 비정상적임."
+    mouth: "혀를 약간 내밀고 있음."
+  chest: "흉골 좌측 하연에서 범수축기 심잡음(pansystolic murmur) 청진됨. 호흡음은 양호."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "해당 없음"
+  extremity: "손바닥에 단일 손금(single palmar crease) 관찰됨. 새끼손가락이 짧고 안으로 휘어짐(clinodactyly). 첫째와 둘째 발가락 사이가 넓음(sandal gap)."
+standardized_patient_questions: "우리 아기, 심장에 문제가 있는 건가요? 다운 증후군이라니요, 그게 무슨 병인가요? 앞으로 어떻게 키워야 할지 막막해요."
+specific_remarks: "보호자는 아이의 특징적인 외모에 대해 어렴풋이 짐작하고 있었을 수 있으며, 진단명을 듣고 담담하게 받아들이려 노력하지만 눈물을 보인다. 아이의 건강 문제, 특히 심장 문제에 대해 매우 걱정한다."

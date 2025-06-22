@@ -1,0 +1,119 @@
+---
+chapter: "상담"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (다약제 남용)"
+patient_info:
+  name: "조현우"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "만성 통증과 불면"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "환자의 만성 통증과 불면 문제에 대해 병력을 청취하시오. 특히, 현재 복용 중인 모든 약물(처방약, 비처방약 포함)의 종류, 용량, 처방 출처 등을 매우 상세하게 파악해야 합니다. 다약제 남용과 의존의 악순환을 설명하고, 통합적인 통증 관리 및 약물 감량 계획에 대해 상담하시오."
+patient_education:
+  probable_diagnoses:
+    - "다약제 남용 (Poly-substance abuse)"
+    - "아편유사제 및 진정/수면제 사용장애"
+    - "만성 통증 증후군"
+  necessary_tests:
+    - "혈액/소변 약물 정밀검사 (복용 약물 확인)"
+    - "DUR(의약품안전사용서비스) 점검을 통한 처방 내역 확인"
+    - "통증 및 우울/불안 척도 검사"
+  necessary_treatments:
+    - "통증 클리닉 및 정신건강의학과 협진을 통한 다학제적 접근"
+    - "안전한 약물 감량 계획 수립 및 모니터링"
+    - "비약물적 통증 관리 교육 (물리치료, 인지행동치료, 명상 등)"
+history:
+  sex_age: "남성/45세"
+  chief_complaint_verbatim: "허리가 너무 아파서 잠을 잘 수가 없어요. 여러 병원에서 약을 타 먹는데도 통증이 조절이 안돼요. 더 강한 진통제는 없나요?"
+  onset: "5년 전 교통사고 후 시작"
+  location:
+    initial: "허리"
+    current: "허리, 양쪽 다리"
+  duration:
+    onset_pattern: "만성적"
+    recent_course: "최근 1년간 통증이 더 심해지고, 약을 먹어도 효과가 별로 없는 것 같음."
+  course: "5년 전 교통사고로 허리 디스크 수술을 받았으나 통증이 계속됨. 처음에는 일반 진통제로 조절되었으나, 점차 효과가 없어 마약성 진통제(옥시코돈)를 처방받게 됨. 통증으로 인한 불면증이 심해져 수면제(졸피뎀)도 함께 복용 시작. 약에 내성이 생기면서 여러 병원을 돌며 약을 타는 'doctor shopping'을 하게 됨. 현재는 마약성 진통제, 수면제, 신경안정제, 근이완제 등을 뒤섞어 복용 중이며, 약 없이는 하루도 견디기 힘든 상태."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쑤시고 저린 통증"
+    nrs_score: "7-8"
+    radiation: "양쪽 다리로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    psychiatric:
+      depressed_mood: true
+      anxiety: true
+      insomnia: true
+  factors:
+    aggravating:
+      - "오래 앉아 있거나 서 있을 때"
+      - "날씨가 궂을 때"
+    alleviating: "약을 먹으면 잠시 나아지나, 효과가 길지 않음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: ""
+  trauma_history: "5년 전 교통사고"
+  past_medical_history:
+    underlying_disease: "요추 추간판 탈출증 (수술 후 상태)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Oxycodone (마약성 진통제)"
+      - "Pregabalin (신경병성 통증약)"
+      - "Diazepam (신경안정제)"
+      - "Zolpidem (수면제)"
+      - "Eperisone (근이완제)"
+    source: "여러 정형외과, 신경외과, 내과를 다니며 처방받음"
+    effect: "초기에는 효과 있었으나 현재는 내성으로 효과 미미"
+  social_history:
+    job: "택시 기사 (현재 통증으로 휴직 중)"
+    stress: "경제적 문제와 건강 문제로 스트레스 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병 (약을 먹기 위해 술은 줄임)"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "없음"
+    exercise: "거의 못 함"
+    recent_weight_change: "최근 1년간 10kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 통증과 약물 부작용으로 지쳐있고 우울해 보임. 움직임이 느리고 부자연스러움."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "근력 저하(G4/G4) 및 감각 저하 소견 있음."
+  back: "요추 부위에 수술 흉터 관찰됨. L-spine ROM 제한."
+standardized_patient_questions: "선생님, 제발 아프지 않게만 해주세요. 이 약들 없으면 전 고통스러워서 죽을지도 몰라요. 약을 줄이라니요? 지금도 아파서 죽겠는데 어떻게 줄여요?"
+specific_remarks: "환자는 오로지 '더 강한 진통제'를 처방받는 것에만 관심이 있음. 약물 의존 상태에 대해 언급하면 강하게 부정하며, 자신은 아파서 먹는 것일 뿐 중독이 아니라고 항변함. 의사가 환자의 고통에 깊이 공감해주면서, 현재의 치료 방식이 오히려 통증을 악화시키는 악순환임을 차분히 설명할 때, 조금씩 치료의 필요성을 받아들이기 시작함."

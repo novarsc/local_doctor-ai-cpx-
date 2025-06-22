@@ -1,0 +1,108 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (하지불안 증후군)"
+patient_info:
+  name: "이민정"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "밤만 되면 다리가 불편해서 잠을 잘 수 없음"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "하지불안 증후군"
+    - "말초 신경병증"
+    - "야간 다리 경련"
+  necessary_tests:
+    - "혈액 검사 (페리틴, 철분, 신장 기능 포함)"
+    - "신경 전도 검사/근전도 검사 (다른 질환 감별)"
+    - "수면다원검사 (주기성 사지 운동증 동반 확인)"
+  necessary_treatments:
+    - "철분 보충 (철분 결핍 시)"
+    - "생활 습관 개선 (카페인/알코올 제한, 규칙적 수면)"
+    - "약물 치료 (도파민 작용제, 가바펜틴 등)"
+history:
+  sex_age: "여성/45세"
+  chief_complaint_verbatim: "저녁에 TV를 보려고 앉아 있거나 자려고 누우면 다리, 특히 종아리 깊은 곳이 벌레가 기어가는 것처럼 근질거리고 불편해서 가만히 있을 수가 없어요. 다리를 움직여야만 좀 나아져요."
+  onset: "약 2년 전"
+  location:
+    initial: "양쪽 종아리"
+    current: "양쪽 종아리 및 허벅지"
+  duration:
+    onset_pattern: "간헐적이었으나 최근 거의 매일 발생"
+    recent_course: "악화"
+  course: "불편한 느낌 때문에 잠들기 어렵고, 자다가도 깨는 일이 잦아 낮에 매우 피곤함"
+  experience_prev_episodes:
+    frequency: "주 5회 이상"
+    trigger: "저녁이나 밤에 쉬고 있을 때"
+    symptoms: "다리를 움직이고 싶은 충동"
+  character_of_symptom:
+    quality: "벌레가 기어가는 느낌, 저리고 쑤시는 느낌"
+    nrs_score: "불편감 7점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "저녁 시간"
+      - "가만히 앉아 있거나 누워 있을 때"
+    alleviating: "다리를 뻗거나, 걷거나, 주무르면 일시적으로 호전"
+  health_check_history:
+    last_checkup: "1년 전, 빈혈 소견 있었음"
+    endoscopy_finding: "특이사항 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "철 결핍성 빈혈 (치료 완료 후 추적 관찰 중단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 수면유도제 복용"
+    source: "약국"
+    effect: "잠은 드나, 다리 불편감은 여전함"
+  social_history:
+    job: "사무직"
+    stress: "업무 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "어머니께서 비슷한 증상을 호소하셨음"
+  female_history: "월경량 많은 편, 주기는 규칙적"
+physical_exam:
+  general: "만성 피로감 호소하나 전반적 상태 양호"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 창백함"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "사지의 근력, 감각, 심부건반사 모두 정상. 시진 상 특이 소견 없음. 환자에게 의자에 편안히 앉아있도록 했을 때, 간헐적으로 다리를 꼬거나 움직이는 모습 관찰됨."
+standardized_patient_questions: "이게 혈액순환이 안돼서 그런 건가요? 다리에 벌레가 있는 것도 아닌데 왜 이런 느낌이 들죠? 잠을 못 자서 너무 힘든데 어떻게 해야 하나요?"
+specific_remarks: "환자는 피곤하고 짜증 섞인 말투로 증상을 설명한다. 특히 '다리를 움직이고 싶은 참을 수 없는 충동'이라는 점을 강조한다. 진찰 중에도 다리를 계속 꼼지락거리거나 자세를 바꾸는 모습을 자연스럽게 연기해야 한다."

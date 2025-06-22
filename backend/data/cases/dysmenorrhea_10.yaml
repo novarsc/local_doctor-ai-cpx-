@@ -1,0 +1,115 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (고프로락틴혈증)"
+patient_info:
+  name: "한소라"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "생리가 불규칙하고 가슴에서 젖이 나와요."
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "고프로락틴혈증 (뇌하수체 선종 의심)"
+    - "다낭성난소증후군"
+    - "갑상선기능저하증"
+  necessary_tests:
+    - "혈액검사 (Prolactin, TSH, hCG)"
+    - "혈중 프로락틴 수치가 높을 경우 뇌 MRI (뇌하수체 이상 확인)"
+    - "시야 검사 (시신경 압박 유무 확인)"
+  necessary_treatments:
+    - "도파민 작용제 (카버골린, 브로모크립틴) 약물 치료"
+    - "약물 치료로 호전되지 않거나 종양이 클 경우 수술 고려"
+    - "정기적인 프로락틴 수치 및 MRI 추적 관찰"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "생리 주기가 점점 길어지더니 몇 달째 안 하고 있어요. 이상하게 샤워할 때 가슴을 누르면 우윳빛 액체가 조금씩 나와요. 두통도 잦고요."
+  onset: "약 1년 전부터 생리 주기 불규칙, 유즙 분비는 3개월 전 발견"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "증상 지속"
+  course: "지난 1년간 월경 이상이 지속되면서 새로운 증상들이 동반됨"
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: ""
+    symptoms: "무월경, 유즙분비"
+  character_of_symptom:
+    quality: "두통은 욱신거리는 양상"
+    nrs_score: "두통 3-4점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    other:
+      galactorrhea: "양쪽 유방에서 소량의 유백색 분비물 (bilateral milky discharge)"
+      headache: "최근 잦아짐"
+      visual_disturbance: "가끔 시야가 흐릿해지는 느낌이 있음"
+      decreased_libido: true
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "위염으로 가끔 약 복용"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 위장약 (소화불량 시)"
+    source: "내과"
+    effect: "소화는 잘 됨"
+  social_history:
+    job: "어린이집 교사"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+    smoking:
+      is_smoker: false
+    exercise: "숨쉬기 운동"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "13세"
+    lmp: "5개월 전"
+    cycle: "과거 30일 주기 -> 최근 3-6개월 주기"
+    duration: "4-5일"
+    amount: "보통"
+    dysmenorrhea: "경미"
+    menopause_age: "해당 없음"
+    obgyn_visits: "처음"
+    sexual_history: "결혼 1년차, 임신 시도 중"
+physical_exam:
+  general: "불안해하는 기색 외 특이소견 없음"
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  breast: "Symmetric, no masses. On gentle pressure, a drop of milky fluid expressed from both nipples."
+  visual_field: "Bitemporal hemianopsia 의심됨 (confrontation test)"
+  chest: "Clear"
+  abdomen: "Soft and non-tender"
+  cvat: "양측 음성"
+  extremity: "No edema"
+standardized_patient_questions: "임신도 안 했는데 왜 젖이 나오죠? 머리가 아픈 거랑도 관련이 있나요? 뇌에 무슨 혹이 있는 건 아닐지 무서워요. 아기는 가질 수 있는 건가요?"
+specific_remarks: "유즙 분비에 대해 말할 때 매우 당황스럽고 부끄러워한다. '뇌하수체 종양'이나 '뇌 MRI' 같은 말을 들으면 극도로 불안해하며, 눈물을 글썽일 수 있다. 임신에 대한 걱정을 강하게 표현한다."

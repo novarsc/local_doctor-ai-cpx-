@@ -1,0 +1,124 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (세균성 질염)"
+patient_info:
+  name: "김민지"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "질 분비물에서 생선 썩는 냄새가 나고 양이 늘어남"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "세균성 질염 (Bacterial vaginosis)"
+    - "트리코모나스 질염 (Trichomonas vaginitis)"
+    - "칸디다 질염 (Candida vaginitis)"
+  necessary_tests:
+    - "질 분비물 현미경 검사 (Wet mount microscopy)"
+    - "질 분비물 도말 검사 (Gram stain)"
+    - "질산도 검사 (Vaginal pH test)"
+  necessary_treatments:
+    - "항생제(메트로니다졸) 복용 또는 질정 사용"
+    - "증상 호전될 때까지 성관계 피하기"
+    - "재발 방지를 위한 생활 습관 교육 (질 세정제 사용 자제 등)"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "일주일 전부터 밑에서 생선 비린내 같은 냄새가 나고, 속옷이 축축하게 젖을 정도로 분비물이 많아졌어요."
+  onset: "약 1주일 전"
+  location:
+    initial: "질"
+    current: "질"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점점 심해짐"
+  course: "처음에는 약간 냄새만 나는 듯했는데, 3일 전부터는 분비물 양도 늘고 냄새가 확실히 심해졌습니다."
+  experience_prev_episodes:
+    frequency: "6개월 전 한 번"
+    trigger: "특별한 계기는 없었음"
+    symptoms: "비슷하게 냄새가 났었음"
+  character_of_symptom:
+    quality: "묽고 회백색의 분비물, 생선 썩는 냄새"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "생리 직후"
+      - "성관계 후"
+    alleviating: "샤워 직후 잠시"
+  health_check_history:
+    last_checkup: "1년 전 자궁경부암 검사"
+    endoscopy_finding: "정상 소견"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 (두드러기)"
+  medication_history:
+    taken:
+      - "복용약 없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "업무 스트레스 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 1회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "14세"
+    menstrual_cycle: "28-30일 주기, 규칙적"
+    duration: "5일"
+    amount: "보통"
+    lmp: "2주 전"
+    gpa: "0-0-0-0"
+    sexual_partner: "1명 (남자친구)"
+    contraception: "콘돔 사용"
+physical_exam:
+  general: "급성 병색 없음. 의식 명료함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평함. 특이 소견 없음."
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 질경 검사 시: 질벽에 얇고 균일하게 덮인 회백색 분비물 관찰. 자궁경부는 정상.
+      # 내진 시: 자궁경부 압통(CMT) 없음. 자궁 및 자궁 부속기 압통 없음.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "이거 성병인가요? 남자친구도 치료받아야 하나요? 왜 자꾸 재발하죠?"
+specific_remarks: "불쾌한 냄새에 대해 이야기할 때 부끄러워하는 모습을 보인다. 성병에 대한 걱정을 많이 표현한다."

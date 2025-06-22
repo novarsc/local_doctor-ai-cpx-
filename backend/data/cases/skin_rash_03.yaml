@@ -1,0 +1,114 @@
+---
+chapter: "관절.근골격.피부"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (알레르기성 접촉 피부염)"
+patient_info:
+  name: "박지민"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "귀걸이를 한 부위의 발진과 가려움"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알레르기성 접촉 피부염 (니켈 알레르기 의심)"
+    - "자극성 접촉 피부염"
+    - "국소 감염 (예: 봉와직염 초기)"
+  necessary_tests:
+    - "첩포 검사 (Patch test)"
+    - "필요시 KOH 도말 검사 (진균 감염 감별)"
+  necessary_treatments:
+    - "원인 물질(의심되는 귀걸이) 회피"
+    - "국소 스테로이드 연고 도포"
+    - "가려움증 조절을 위한 경구 항히스타민제"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "일주일 전에 새로 산 귀걸이를 하고 잤는데, 이틀 전부터 귓불이 빨개지고 너무 가려워요. 진물도 조금 나는 것 같아요."
+  onset: "2일 전"
+  location:
+    initial: "양쪽 귓불"
+    current: "양쪽 귓불"
+  duration:
+    onset_pattern: "서서히"
+    recent_course: "점점 심해짐"
+  course: "새 귀걸이를 착용한 지 약 4-5일 후부터 가렵기 시작했고, 이후 붉어지고 부어올랐다."
+  experience_prev_episodes:
+    frequency: "가끔"
+    trigger: "금속 액세서리 (주로 저렴한 것)"
+    symptoms: "비슷하게 가렵고 붉어짐"
+  character_of_symptom:
+    quality: "매우 가려움"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "긁을 때"
+      - "귀걸이가 닿을 때"
+    alleviating: "귀걸이를 빼고 있을 때"
+  health_check_history:
+    last_checkup: "작년, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "보통 수준"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 1주 전, 주기: 30일, 규칙적"
+physical_exam:
+  general: "의식 명료하고 안정된 상태. 불편한 듯 귓가를 만지작거림."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and clear"
+    # 양쪽 귓불에 귀걸이 구멍을 중심으로 홍반, 부종, 작은 수포 및 진물이 관찰됨. 긁은 자국이 있음.
+  chest: "clear breath sounds bilaterally"
+  abdomen:
+    inspection: "특이 소견 없음"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "왜 그런 건가요? 이 귀걸이가 문제인가요? 앞으로 액세서리는 못하나요? 약 바르면 금방 낫나요?"
+specific_remarks: "환자는 특정 물건(새로 산 귀걸이)과의 연관성을 강하게 의심하고 있음을 표현한다. 병변 부위가 가려워서 대화에 집중하지 못하는 모습을 보인다."

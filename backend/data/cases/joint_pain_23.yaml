@@ -1,0 +1,113 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "23/24"
+title: "실전 모의 증례 (재발성 류마티즘)"
+patient_info:
+  name: "조민희"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "몇 달 간격으로 갑자기 발생했다가 사라지는 관절통"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "37.3℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "재발성 류마티즘"
+    - "류마티스 관절염 초기"
+    - "결정 유발성 관절염 (통풍, 가성통풍)"
+  necessary_tests:
+    - "급성기 혈액 검사 (ESR, CRP, 류마티스 인자, 항CCP항체)"
+    - "증상이 없을 때(무증상기) 혈액 검사와 비교"
+    - "관절 초음파 (급성기 활막염 확인)"
+  necessary_treatments:
+    - "급성 발작 시 비스테로이드성 소염제 또는 저용량 스테로이드"
+    - "발작이 잦거나 심할 경우 항류마티스 약제 (하이드록시클로로퀸 등) 고려"
+    - "류마티스 관절염으로 진행될 가능성에 대한 교육 및 정기적 추적 관찰"
+history:
+  sex_age: "여성/38세"
+  chief_complaint_verbatim: "1년 전부터 몇 달에 한 번씩 손목이나 손가락이 갑자기 퉁퉁 붓고 아파요. 며칠 앓고 나면 언제 그랬냐는 듯이 씻은 듯이 나아요. 그러다 또 갑자기 다른 관절이 아프고요."
+  onset: "약 1년 전"
+  location:
+    initial: "오른쪽 손목"
+    current: "왼쪽 두 번째 손가락 몸쪽 관절 (PIP joint). 통증 부위가 매번 다름"
+  duration:
+    onset_pattern: "급성, 간헐적 발생"
+    recent_course: "현재는 왼쪽 손가락에 급성 발작이 와 있는 상태"
+  course: "지난 1년간 총 4번의 발작이 있었음. 한번 아프면 2-3일에서 길게는 일주일 정도 지속됨. 발작 사이의 기간(무증상기)에는 어떤 관절에도 통증이나 불편감이 전혀 없음. 관절이 변형되지는 않음."
+  experience_prev_episodes:
+    frequency: "3-4개월에 한 번꼴"
+    trigger: "피곤하거나 스트레스 받을 때"
+    symptoms: "손목, 손가락, 어깨 등 한두 개 관절의 갑작스런 부종과 통증"
+  character_of_symptom:
+    quality: "욱신거리고 쑤시는 통증"
+    nrs_score: "발작 시 7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "관절을 움직일 때"
+    alleviating: "진통제 복용"
+  health_check_history:
+    last_checkup: "6개월 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통소염제 (아플 때만)"
+    source: "약국"
+    effect: "먹으면 통증이 줄어듦"
+  social_history:
+    job: "고등학교 교사"
+    stress: "학생 지도 등으로 스트레스 많은 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "어머니 (류마티스 관절염)"
+  female_history: "LMP 1주 전, 규칙적"
+physical_exam:
+  general: "급성 통증으로 불편해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "왼쪽 두 번째 몸쪽손가락뼈사이관절(PIP joint)에 뚜렷한 부종, 발적, 압통이 관찰됨. 다른 관절들은 현재 이상 소견 없음. 관절 변형이나 류마티스 결절 등은 관찰되지 않음."
+standardized_patient_questions: "왜 이렇게 아팠다 안 아팠다 하는 거죠? 이게 나중에 류마티스 관절염으로 발전할 수도 있나요? 저희 어머니가 고생하셔서 너무 걱정돼요."
+specific_remarks: "환자는 증상의 '재발성'과 '이동성', 그리고 발작 사이에는 완전히 정상이라는 '무증상기'의 특징을 명확히 설명해야 한다. 류마티스 관절염 가족력 때문에 이 병이 류마티스로 진행될까 봐 매우 불안해하는 모습을 보여야 한다."

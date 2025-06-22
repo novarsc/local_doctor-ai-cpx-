@@ -1,0 +1,118 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (심실 중격 결손)"
+patient_info:
+  name: "백서아"
+  age: 5
+  sex: "여성"
+  presenting_complaint: "젖을 잘 안 먹고 체중이 늘지 않음"
+vital_signs:
+  blood_pressure: "85/50mmHg"
+  pulse: "150회/분"
+  respiration: "55회/분"
+  temperature: "37.0℃"
+examinee_instructions: "아이가 잘 먹지 못하고 숨을 가쁘게 쉰다는 주소로 내원한 보호자의 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "선천성 심장 질환 (큰 심실 중격 결손)"
+    - "폐렴"
+    - "패혈증"
+  necessary_tests:
+    - "심장 초음파"
+    - "흉부 X-선 촬영"
+    - "심전도(EKG) 검사"
+  necessary_treatments:
+    - "심부전 증상 조절 (이뇨제, 강심제 등)"
+    - "고칼로리 분유를 통한 영양 공급"
+    - "수술적 교정"
+history:
+  sex_age: "여성/생후 5개월"
+  chief_complaint_verbatim: "(보호자) 애가 젖을 먹을 때마다 땀을 뻘뻘 흘리고 숨을 헐떡여요. 먹는 양도 적고, 그래서 그런지 살이 안 쪄요."
+  onset: "생후 1-2개월 경부터 증상이 나타나기 시작함"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 감기에 걸린 후 호흡곤란이 더 심해지고, 수유량이 절반으로 줄었음"
+  course: "만삭 자연분만으로 2.9kg에 태어났다. 신생아 시기에는 특별한 문제를 몰랐으나, 생후 1개월이 지나면서 수유 시 숨차하는 모습이 보이기 시작했다. 수유 시간이 30분 이상 걸리고, 먹다가 지쳐서 잠드는 일이 잦았다. 체중이 개월 수에 맞게 늘지 않고, 다른 아이들에 비해 감기에 자주 걸리고 오래 간다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "수유"
+      - "감기 등 감염"
+    alleviating: "안정 시"
+  health_check_history:
+    last_checkup: "4개월 영유아 검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "신생아 검진 시 심장에서 잡음이 들린다고 했으나, 추적검사는 하지 않음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "영아"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "활동량 저하"
+    recent_weight_change: "체중 증가 부진 (성장 부전)"
+  family_history: "특이 가족력 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "체구가 작고 말라 있음. 안정 시에도 빠른 호흡(tachypnea)과 흉곽 함몰이 관찰됨. 전반적으로 보채는 모습."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest:
+    inspection: "심첨박동이 활발하게 관찰됨(hyperdynamic precordium)."
+    palpation: "흉골 좌하연에서 떨림(thrill)이 만져짐."
+    auscultation: "흉골 좌하연에서 제 3/6도의 거친 범수축기 심잡음(harsh pansystolic murmur)이 청진됨. 폐동맥 판막 영역에서 제2심음 항진."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      liver: "간이 늑골 하 3cm 촉지됨 (hepatomegaly)."
+  cvat: "해당 없음"
+  extremity: "사지 말단이 약간 차가움. 부종은 없음."
+standardized_patient_questions: "우리 아기 심장에 구멍이 뚫렸다니요? 그래서 숨차고 안 컸던 건가요? 수술해야 하나요? 위험하지는 않나요?"
+specific_remarks: "보호자는 '심장병'이라는 말에 매우 놀라고 불안해한다. 신생아 때 들었던 '심잡음'을 대수롭지 않게 여겼던 것을 자책할 수 있다. 수술의 필요성과 위험성에 대해 반복적으로 질문한다."

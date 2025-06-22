@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (자발성 기흉)"
+patient_info:
+  name: "최현우"
+  age: 19
+  sex: "남성"
+  presenting_complaint: "오늘 아침에 갑자기 왼쪽 가슴이 아프면서 숨쉬기가 힘들어짐"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "105회/분"
+  respiration: "22회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자발성 기흉 (Spontaneous pneumothorax)"
+    - "흉막염"
+    - "근골격계 통증"
+  necessary_tests:
+    - "흉부 X선 검사 (기립 및 호기 시 촬영)"
+    - "흉부 CT (필요시)"
+    - "동맥혈가스분석 검사"
+  necessary_treatments:
+    - "고농도 산소 요법"
+    - "흉관 삽입술 (Chest tube insertion)"
+    - "안정 및 경과 관찰 (크기가 작은 경우)"
+    - "재발 방지를 위한 흉막 유착술 또는 수술 고려"
+history:
+  sex_age: "남성/19"
+  chief_complaint_verbatim: "자고 일어났는데 갑자기 왼쪽 가슴이 찢어질 듯이 아프고 숨을 못 쉬겠어요."
+  onset: "4시간 전"
+  location:
+    initial: "왼쪽 가슴"
+    current: "왼쪽 가슴과 등으로 뻗치는 느낌"
+  duration:
+    onset_pattern: "갑자기 발생 (abrupt onset)"
+    recent_course: "통증과 호흡곤란이 계속 비슷하게 유지됨"
+  course: "아침에 침대에서 일어나 기지개를 켜는 순간 '뚝'하는 느낌과 함께 왼쪽 가슴에 극심한 통증이 발생함. 이후 숨쉬기가 힘들어지고 통증이 지속되어 응급실 방문함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "날카롭고 찌르는 듯한 통증"
+    nrs_score: "8"
+    radiation: "왼쪽 어깨와 등"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "숨을 들이쉴 때"
+      - "자세 바꿀 때"
+    alleviating: "가만히 있으면 조금 덜함"
+  health_check_history:
+    last_checkup: "1년 전 학교 신체검사"
+    endoscopy_finding: "시행 안 함"
+  trauma_history: "없음. 넘어지거나 부딪힌 적 없음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "고등학교 3학년"
+    stress: "수능 때문에 많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "하루 5-10개피 (1년째)"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 3개월간 5kg 감소 (스트레스성)"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "키가 크고 마른 체형(185cm, 60kg). 통증으로 얼굴을 찡그리고 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "시진 시 왼쪽 흉곽의 호흡 운동이 감소됨. 타진 시 왼쪽 폐 상부에서 과공명음(hyperresonance)이 들림. 청진 시 왼쪽 폐에서 호흡음이 현저히 감소되어 있음. 오른쪽은 정상."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "폐에 구멍이 난 건가요? 수술해야 하나요? 담배 피워서 그런 거예요? 대학 가야 하는데 입원해야 하나요?"
+specific_remarks: "키 크고 마른 체형을 강조. 진찰 시 왼쪽 가슴 통증을 계속 호소하며, 의사가 청진이나 타진을 위해 몸을 만질 때 아픈 표정을 지을 것. 숨을 크게 쉬어보라는 지시에 잘 따르지 못하고 '아, 아파서요'라고 말함."

@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (메니에르병, Meniere's Disease)"
+patient_info:
+  name: "이수진"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "몇 달 전부터 가끔씩 심하게 어지럽고 귀가 먹먹해요."
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "메니에르병"
+    - "전정 편두통"
+    - "재발성 전정병증"
+  necessary_tests:
+    - "순음청력검사 (저주파수 영역 감각신경성 난청 확인)"
+    - "전기 와우도 검사 (ECOG)"
+    - "전정기능검사 (VNG)"
+  necessary_treatments:
+    - "저염식 교육"
+    - "이뇨제 (hydrochlorothiazide 등)"
+    - "급성 발작 시 전정 억제제 및 항구토제 사용"
+    - "생활 습관 교정 (스트레스, 과로, 카페인 회피)"
+history:
+  sex_age: "여성/42세"
+  chief_complaint_verbatim: "몇 달에 한 번씩 갑자기 세상이 빙빙 돌고, 그럴 때마다 왼쪽 귀가 꽉 찬 느낌이 들면서 '윙'하는 소리가 나요."
+  onset: "6개월 전"
+  location:
+    initial: "머릿속, 왼쪽 귀"
+    current: "증상 발생 시 동일"
+  duration:
+    onset_pattern: "예고 없이 갑자기 발생"
+    recent_course: "3~4개월에 한 번 꼴로 발생하며, 한 번 생기면 2~3시간 지속됨"
+  course: "어지럼증이 발생하면 구역감과 함께 왼쪽 귀가 먹먹해지고 이명이 동반됩니다. 몇 시간이 지나면 증상이 완전히 사라지고 다음 발작 전까지는 괜찮습니다."
+  experience_prev_episodes:
+    frequency: "지난 6개월간 2번"
+    trigger: "정확히는 모르겠으나, 피곤할 때 더 심한 것 같음"
+    symptoms: "심한 회전성 어지럼, 좌측 이명, 좌측 귀 먹먹함(이충만감), 구역감"
+  character_of_symptom:
+    quality: "회전성 어지럼"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "가끔 동반됨"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "과로, 스트레스"
+      - "짠 음식 섭취 후 (환자는 잘 인지 못할 수 있음)"
+    alleviating: "조용한 곳에 가만히 누워있는 것"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "마감 기한 때문에 스트레스가 심한 편"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "필라테스 주 2회"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, regular cycle"
+physical_exam:
+  general: "증상이 없는 시기라 전반적으로 건강해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "정상"
+standardized_patient_questions: "이게 무슨 병인가요? 자꾸 재발하는데 완치는 안 되나요? 앞으로 어떻게 해야 하죠?"
+specific_remarks: "환자는 현재 증상이 없는 상태(interictal phase)이므로 신체 진찰에서 특이 소견을 보이지 않는다. 그러나 병력 청취 시, 어지럼증과 함께 귀 증상(난청, 이명, 이충만감)이 동반된다는 점을 명확하고 일관되게 진술해야 한다. 특히 어지럼이 수십 분에서 수 시간 지속된다는 점을 강조한다."

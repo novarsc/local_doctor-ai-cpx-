@@ -1,0 +1,118 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (범불안장애)"
+patient_info:
+  name: "염려인"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "거의 매일 온갖 걱정 때문에 불안하고 긴장됨"
+vital_signs:
+  blood_pressure: "135/88mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "범불안장애 (Generalized Anxiety Disorder)"
+    - "적응장애 (불안형)"
+    - "갑상선기능항진증 등 내과적 질환"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4), 전해질 검사"
+    - "심전도 검사 (EKG)"
+    - "불안 척도 검사 (BAI, GAD-7)"
+  necessary_treatments:
+    - "항우울제(SSRI/SNRI) 또는 Buspirone 약물 치료"
+    - "인지행동치료 (걱정 조절 훈련)"
+    - "이완 기법 및 스트레스 관리 교육"
+history:
+  sex_age: "여성/42세"
+  chief_complaint_verbatim: "걱정이 너무 많아서 살 수가 없어요. 자식들 걱정, 남편 건강 걱정, 제 건강 걱정, 심지어 뉴스에 나오는 사건 사고까지 다 제 일처럼 걱정돼요. 걱정 때문에 늘 긴장되고 몸도 아픈 것 같아요."
+  onset: "1년 이상 지속됨"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 더욱 심해짐"
+  course: "오래 전부터 걱정이 많은 성격이었으나, 1년 전부터는 사소한 일에도 과도하게 걱정하는 일이 거의 매일 지속되고 있다. 걱정을 스스로 통제하기 어렵다고 느끼며, 이로 인해 항상 긴장되어 있고 쉽게 피로해진다. 근육통, 두통, 수면장애도 동반된다."
+  experience_prev_episodes:
+    frequency: "없음. 만성적임"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "통제되지 않는 과도한 걱정, 안절부절못함, 근육 긴장"
+    nrs_score: "7"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "새로운 일을 시작할 때"
+      - "뉴스 시청"
+    alleviating: "매우 드물게 잠시 괜찮을 때가 있지만, 금방 다른 걱정이 시작됨"
+  health_check_history:
+    last_checkup: "6개월 전 내과 방문, '신경성'이라는 말 들음"
+    endoscopy_finding: "과민성 대장 증후군 의심"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "과민성 대장 증후군"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 신경안정제(알프라졸람)를 동네 의원에서 처방받아 복용"
+    source: "의원"
+    effect: "복용 시 일시적으로 불안감이 줄어듦"
+  social_history:
+    job: "주부"
+    stress: "스스로 스트레스가 매우 높다고 느낌"
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "어머니가 불안 증세가 심하셨음"
+  female_history:
+    lmp: "2주 전"
+    cycle: "규칙적"
+    menarche: "14세"
+    menopause: "N/A"
+physical_exam:
+  general: "전반적으로 불안정해 보이고, 쉴 새 없이 걱정을 늘어놓음. 미간을 찌푸리고 있는 모습. 목과 어깨 근육이 경직되어 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "다소 건조함"
+  chest: "호흡이 얕고 빠름. 심계항진 호소하나 청진상 부정맥은 없음."
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 다소 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "손에 땀이 많고, 미세한 떨림 관찰됨."
+standardized_patient_questions: "저는 그냥 걱정이 많은 성격인 줄 알았는데, 이것도 병인가요? 몸도 여기저기 아픈데 이게 다 걱정 때문일 수 있나요?"
+specific_remarks: "다양한 주제(건강, 가족, 재정, 세상사)에 대해 끊임없이 걱정하는 모습을 보임. '만약 ~하면 어떡하지?' 와 같은 말을 자주 사용함. 근육 긴장으로 인해 목, 어깨 통증을 호소함. 쉽게 안심하지 못하고 계속 질문함."

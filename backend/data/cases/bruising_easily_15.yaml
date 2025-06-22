@@ -1,0 +1,116 @@
+---
+chapter: "전신"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (골수이형성증후군)"
+patient_info:
+  name: "나예후"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "몇 달 전부터 어지럽고 숨이 차며, 가끔 코피가 남"
+vital_signs:
+  blood_pressure: "125/75mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "골수이형성증후군 (Myelodysplastic Syndrome, MDS)"
+    - "재생불량성 빈혈"
+    - "만성 백혈병"
+    - "비타민 B12 또는 엽산 결핍성 빈혈"
+  necessary_tests:
+    - "전혈구 검사 및 말초혈액 도말 검사 (범혈구감소증, 이형성 세포 확인)"
+    - "골수 검사 (형태, 세포유전학 검사)"
+    - "혈중 비타민 B12/엽산, 페리틴 수치 측정"
+  necessary_treatments:
+    - "위험도에 따른 맞춤형 치료"
+    - "수혈 등 보존적 치료"
+    - "저메틸화 약물 (Azacitidine 등)"
+    - "동종 조혈모세포 이식 (젊고 고위험군인 경우)"
+history:
+  sex_age: "남성/72세"
+  chief_complaint_verbatim: "나이가 들어서 그런지 영 기운이 없고 어지러워요. 조금만 걸어도 숨이 턱까지 차고, 한 달에 한두 번은 코피가 나는데 잘 멎지도 않네요."
+  onset: "약 6개월 전부터 서서히"
+  location:
+    initial: "전신 피로감, 어지럼증"
+    current: "호흡곤란, 출혈 경향 동반"
+  duration:
+    onset_pattern: "만성적, 점진적 악화"
+    recent_course: "최근 한 달 사이 증상이 눈에 띄게 심해짐"
+  course: "6개월 전부터 시작된 피로감과 어지럼증을 노화 현상으로 생각했다. 3개월 전부터는 시장에 가는 짧은 거리에도 숨이 차서 중간에 쉬어야 했다. 한 달 전부터는 코피가 나거나 멍이 드는 일이 생기기 시작했다. 가끔 열이 나는 것 같은 느낌도 있었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "만성 빈혈 증상(피로, 호흡곤란), 혈소판 감소 증상(코피, 멍)"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "신체 활동"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "2년 전, 빈혈기가 약간 있다고 들음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "보건소"
+    effect: "혈압 조절 보통"
+  social_history:
+    job: "은퇴 (과거 인쇄소 근무)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 6개월간 3kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색을 띠며, 피부와 결막이 창백함."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "창백함. 다른 출혈 소견 없음."
+  chest: "호흡음 정상. 심계항진 소견."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"간, 비장은 촉진되지 않음. 림프절 비대 없음.\""
+  cvat: "좌우 음성"
+  extremity: "양쪽 팔다리에 오래된 듯한 옅은 자색반이 몇 개 관찰됨. 부종 없음."
+standardized_patient_questions: "그냥 늙어서 생긴 빈혈인 줄 알았는데, 병원에 가보라고 해서 와봤어요. 이게 무슨 병인가요? 백혈병 같은 무서운 병으로 될 수도 있나요?"
+specific_remarks: "환자는 자신의 증상이 심각하지 않다고 생각하려는 경향이 있다. 급성 백혈병과 달리 전신 상태가 비교적 양호하고, 간/비장 비대나 림프절 비대가 없다는 점이 중요하다. 과거 직업력(인쇄소 근무, 벤젠 등 유기용제 노출 가능성)을 문진으로 확인하는 것이 감별에 도움이 될 수 있다."

@@ -1,0 +1,117 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (쿠싱 증후군)"
+patient_info:
+  name: "오달덩"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "최근 몇 달간 살이 찌고 감정 기복이 심해짐"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "쿠싱 증후군 (Cushing's Syndrome)에 의한 기분 및 신체 변화"
+    - "다낭성 난소 증후군 (PCOS)"
+    - "특발성 고혈압 및 대사 증후군을 동반한 우울장애"
+  necessary_tests:
+    - "24시간 소변 유리 코르티솔 검사 또는 저용량 덱사메타손 억제 검사"
+    - "혈중 ACTH 농도 측정"
+    - "복부/뇌하수체 영상 검사 (CT 또는 MRI) - 원인 감별"
+  necessary_treatments:
+    - "원인에 따른 치료 (예: 뇌하수체 종양 절제, 부신 종양 절제)"
+    - "혈압, 혈당 등 동반된 대사 이상 관리"
+    - "정신과적 증상에 대한 지지적 치료"
+history:
+  sex_age: "여성/38세"
+  chief_complaint_verbatim: "몇 달 새 얼굴이랑 배에만 살이 자꾸 쪄요. 팔다리는 오히려 가늘어지는 것 같고요. 그리고 별일 아닌데 화가 났다가 금방 우울해졌다가 감정 조절이 너무 힘들어요."
+  onset: "약 8개월 전부터 서서히"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "증상이 점점 뚜렷해짐"
+  course: "8개월 전부터 특별한 이유 없이 체중이 7kg 가량 증가했다. 특히 얼굴이 달덩이처럼 둥글어지고(moon face), 배에 살이 집중되며, 목 뒤에 지방이 쌓이는(buffalo hump) 양상을 보였다. 반면 팔다리는 가늘어졌다. 쉽게 멍이 들고, 배에 붉은색 살트임(striae)이 생겼다. 감정적으로 매우 불안정해져서 사소한 일에 쉽게 짜증을 내거나 눈물을 흘린다. 생리도 불규칙해졌다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "중심성 비만, 감정 기복, 피부 변화"
+    nrs_score: "N/A"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "N/A"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "3개월 전부터 혈압이 높다는 이야기 들음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "은행원"
+    stress: "높은 편"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "피곤해서 거의 못 함"
+    recent_weight_change: "최근 8개월간 7kg 증가"
+  family_history: "아버지가 고혈압, 당뇨 앓고 계심"
+  female_history:
+    lmp: "2개월 전"
+    cycle: "불규칙적 (원래는 규칙적이었음)"
+    menarche: "14세"
+    menopause: "N/A"
+physical_exam:
+  general: "중심성 비만(central obesity) 소견. 얼굴이 둥글고 붉음(moon face, plethora). 목 뒤에 지방 축적(buffalo hump)이 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "복부 비만, 넓고 자줏빛을 띤 복부 선조(purplish abdominal striae) 관찰됨."
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "사지 근육 위축 및 얇아짐. 팔에 여러 개의 멍자국(ecchymosis)이 보임."
+standardized_patient_questions: "제가 왜 이렇게 변하는 걸까요? 그냥 살이 찐 게 아닌 것 같아요. 우울증 약을 먹어야 하나요, 아니면 살을 빼야 하나요?"
+specific_remarks: "환자는 자신의 외모 변화에 대해 매우 스트레스를 받고 우울해함. 감정 기복이 심한 모습을 연기해야 하며, 의사의 질문에 짜증 섞인 반응을 보일 수 있음. 신체 진찰 시 복부의 선조나 팔의 멍을 보여주며 걱정스럽게 질문함."

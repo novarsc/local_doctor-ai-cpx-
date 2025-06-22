@@ -1,0 +1,117 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (저혈당성 발작)"
+patient_info:
+  name: "이수진"
+  age: 68
+  sex: "여성"
+  presenting_complaint: "새벽에 식은땀을 흘리며 경련"
+vital_signs:
+  blood_pressure: "130/70mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "저혈당에 의한 발작"
+    - "뇌전증의 첫 발현"
+    - "뇌졸중 후 발작"
+  necessary_tests:
+    - "응급 혈당 검사"
+    - "혈중 인슐린/C-peptide 검사 (원인 감별)"
+    - "뇌파 검사 (EEG)"
+  necessary_treatments:
+    - "급성기: 포도당 주사 투여"
+    - "당뇨병 약물 용량 및 종류 조절"
+    - "저혈당 증상 및 대처법에 대한 환자 교육"
+history:
+  sex_age: "여성/68"
+  chief_complaint_verbatim: "새벽에 남편이 깨워보니 제가 온몸을 떨면서 식은땀을 흠뻑 흘리고 있었다고 해요. 저는 아무 기억이 없어요."
+  onset: "오늘 새벽 4시경"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑작스럽게"
+    recent_course: "남편이 사탕을 입에 넣어준 후 증상이 점차 호전되었다고 함. 응급실 도착 시 의식은 명료함."
+  course: "수면 중 발생. 남편의 말에 따르면, 끙끙 앓는 소리를 내며 온몸을 떨었고, 식은땀으로 옷이 다 젖어 있었다고 함. 약 5분 정도 지속되었다고 함."
+  experience_prev_episodes:
+    frequency: "최근 1개월 사이 어지럽고 식은땀이 나는 증상이 두어 번 있었음. 그때마다 사탕을 먹으면 나아졌음."
+    trigger: "저녁 식사를 평소보다 적게 함."
+    symptoms: "어지럼증, 식은땀, 심계항진"
+  character_of_symptom:
+    quality: "의식 혼미를 동반한 발작 유사 증상"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "공복"
+      - "적은 식사량"
+    alleviating: "당분 섭취"
+  health_check_history:
+    last_checkup: "6개월 전 내과"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "제2형 당뇨병 (10년 전 진단), 고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Metformin 1000mg"
+      - "Glimepiride 4mg"
+      - "Atorvastatin 10mg"
+    source: "내과 의원"
+    effect: "최근 혈당 조절이 잘 안된다고 느낌"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "매일 30분씩 걷기"
+    recent_weight_change: "최근 3개월간 3kg 감소"
+  family_history: "친정어머니, 언니가 당뇨병"
+  female_history: "7년 전 폐경"
+physical_exam:
+  general: "의식 명료하나 기운이 없어 보임. 약간의 식은땀이 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조하지 않음"
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 전반적으로 부드러움
+  cvat: "좌우 음성"
+  extremity: "신경학적 국소 소견 없음. 양손에 미세한 떨림 관찰됨."
+standardized_patient_questions: "제가 왜 이런 증상이 생긴 건가요? 당뇨약 때문에 그런가요? 앞으로 약을 어떻게 먹어야 하죠?"
+specific_remarks: "환자는 자신이 겪은 증상이 매우 무서웠다고 표현한다. 저혈당 증상에 대해 잘 모르고 있었으며, 약 복용에 대한 불안감을 나타낸다. 남편이 옆에서 걱정스럽게 지켜보는 상황을 연출할 수 있다."

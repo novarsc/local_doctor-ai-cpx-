@@ -1,0 +1,112 @@
+---
+chapter: "상담"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (대마 사용장애)"
+patient_info:
+  name: "최지훈"
+  age: 24
+  sex: "남성"
+  presenting_complaint: "의욕 저하 및 무기력감 상담"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "환자가 호소하는 무기력감과 관련된 생활 습관, 대인관계, 학업 문제 등을 청취하시오. 물질 사용력을 조심스럽게 탐색하고, 대마 사용과 현재 증상의 연관성을 설명한 후 치료 계획에 대해 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대마 사용장애 (Cannabis Use Disorder)"
+    - "동기저하 증후군 (Amotivational syndrome)"
+    - "주요우울장애"
+  necessary_tests:
+    - "소변 약물 선별검사 (Urine drug screening)"
+    - "우울증 선별검사 (PHQ-9)"
+    - "기본 혈액검사 (다른 신체적 원인 감별)"
+  necessary_treatments:
+    - "정신건강의학과 연계 및 동기강화상담"
+    - "인지행동치료를 통해 대마 사용 갈망 대처 기술 훈련"
+    - "학업 및 진로 상담 연계"
+history:
+  sex_age: "남성/24세"
+  chief_complaint_verbatim: "요즘 아무것도 하기가 싫고, 학교도 가기 싫어서 휴학했어요. 부모님이 정신과라도 가보라고 하셔서 일단 가까운 병원에 와봤어요."
+  onset: "약 1년 전부터 서서히 시작"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 3개월간 증상이 심해져 대부분의 시간을 집에서만 보냄."
+  course: "대학교 2학년 때 캐나다로 어학연수를 다녀온 후, 한국에 돌아와서도 계속 대마를 하게 됨. 처음에는 주말에 친구들과 가끔 했으나, 점차 혼자서 매일 하는 습관으로 바뀜. 대마를 하고 나면 기분이 좋아지고 걱정이 없어지는 것 같았지만, 점점 아무것에도 흥미를 느끼지 못하게 되고 학업 성적이 크게 떨어짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "전반적인 무기력, 의욕 상실"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    cognitive:
+      concentration_difficulty: true
+      memory_impairment: true
+  factors:
+    aggravating:
+      - "특별한 계획이나 할 일이 없을 때"
+    alleviating: "대마 사용 (일시적으로)"
+  health_check_history:
+    last_checkup: "2년 전 군 입대 신체검사"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생 (현재 휴학 중)"
+    stress: "미래에 대한 막연한 불안감"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2병"
+    smoking:
+      is_smoker: true
+      amount: "하루 5개비"
+      cessation_period: "없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 6개월간 5kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적으로 무표정하고 위생 상태가 다소 불량함. 느린 말투와 행동을 보임."
+  heent:
+    sclera: "양쪽 결막이 만성적으로 충혈되어 있음 (chronic conjunctival injection)"
+    oral_mucosa: "정상"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "정상"
+standardized_patient_questions: "제가 그냥 우울증에 걸린 거 아닌가요? 대마초는 중독성도 별로 없고 안전하다고 들었는데요. 이걸 끊는다고 제 생활이 나아질까요?"
+specific_remarks: "처음에는 대마 사용에 대해 부인하거나 축소하여 이야기함. 의사가 비난하지 않고 신뢰 관계를 형성하면 마지못해 사용 사실을 털어놓음. 대마의 유해성에 대해 강한 불신을 보이며, 자신의 문제가 대마 때문이 아닐 것이라고 주장하려는 경향이 있음."

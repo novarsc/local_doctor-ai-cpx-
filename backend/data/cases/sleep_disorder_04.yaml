@@ -1,0 +1,112 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (기면증 1형)"
+patient_info:
+  name: "김민준"
+  age: 21
+  sex: "남성"
+  presenting_complaint: "시도 때도 없이 졸리고 웃을 때 몸에 힘이 빠짐"
+vital_signs:
+  blood_pressure: "118/76mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기면증 1형 (Narcolepsy type 1)"
+    - "기면증 2형 (Narcolepsy type 2)"
+    - "간질 (특히 무긴장 발작)"
+  necessary_tests:
+    - "수면다원검사 (PSG) 및 다중수면잠복기검사 (MSLT)"
+    - "뇌파 검사 (EEG)"
+    - "HLA-DQB1*0602 유전자형 검사"
+  necessary_treatments:
+    - "생활습관 관리 (규칙적인 수면, 계획된 낮잠)"
+    - "정신자극제 (모다피닐 등) 복용"
+    - "탈력발작에 대한 항우울제 (SSRI, SNRI) 사용"
+history:
+  sex_age: "남성/21"
+  chief_complaint_verbatim: "수업 중에 저도 모르게 잠이 들어요. 그리고 친구들이랑 웃고 떠들다 보면 갑자기 몸에 힘이 쭉 빠지면서 주저앉을 뻔한 적도 있어요."
+  onset: "고등학교 3학년 때부터"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "대학 입학 후 증상이 더 뚜렷해짐"
+  course: "고3 때 피곤해서 그런 줄 알았는데, 충분히 자도 낮에 너무 졸림. 특히 점심 식사 후나 조용한 강의 시간에 참을 수 없이 졸려서 10-15분 정도 잠이 들고 나면 잠시 개운해짐. 최근에는 친구와 농담하다가 갑자기 턱이나 목에 힘이 빠지는 느낌이 들고, 심할 때는 무릎에 힘이 풀려 넘어질 뻔함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "저항할 수 없는 주간 졸림, 강한 감정(특히 웃음)에 의해 유발되는 근육 긴장도 소실(탈력발작)"
+    nrs_score: "9 (졸림의 심한 정도)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "단조로운 상황 (강의, 운전)"
+      - "크게 웃거나 화를 낼 때 (힘 빠짐 증상)"
+    alleviating: "짧은 낮잠 (15-20분)"
+  health_check_history:
+    last_checkup: "대학 신입생 검진, 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "대학생"
+    stress: "학업 및 대인관계에 대한 스트레스 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 1-2회 농구"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "앳된 외모의 남학생, 문진 중 약간 졸려 보임"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 (근력, 감각, 반사) 모두 정상"
+standardized_patient_questions: "제가 왜 이렇게 졸린 거죠? 게으른 사람처럼 보일까 봐 걱정돼요. 이거 치료하면 군대 갈 수 있나요?"
+specific_remarks: "환자는 '탈력발작'이라는 용어는 모르지만, '웃을 때 힘이 빠진다'는 증상을 명확하게 설명할 수 있어야 한다. 의사가 이 증상에 대해 자세히 물어볼 때, 당황하지 않고 구체적인 경험(턱이 떨리거나, 고개가 떨어지거나, 무릎이 풀리는 느낌)을 이야기한다."

@@ -1,0 +1,114 @@
+---
+chapter: "상담"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (알코올 사용 장애)"
+patient_info:
+  name: "김철수"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "아내가 병원에 가보라고 해서 옴"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "105회/분"
+  respiration: "18회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올 사용 장애 (Alcohol use disorder)"
+    - "알코올성 간염 (Alcoholic hepatitis)"
+    - "가정폭력 (가해자)"
+  necessary_tests:
+    - "혈액검사 (간기능검사 AST/ALT, GGT, MCV 등)"
+    - "알코올 사용 장애 선별 검사 (AUDIT-K)"
+    - "복부 초음파 검사"
+  necessary_treatments:
+    - "해독 치료 및 금단 증상 관리 (필요시 입원)"
+    - "정신치료 및 자조 모임 (AA) 연계"
+    - "가정폭력 문제에 대한 개입 및 부부 상담 연계"
+history:
+  sex_age: "남성/45"
+  chief_complaint_verbatim: "아내가 자꾸 술 좀 그만 마시고 병원에 가보라고 해서 억지로 왔어요. 저는 아무 문제 없다고 생각하는데요."
+  onset: "수년 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "음주량 및 빈도 증가"
+  course: "매일 저녁 소주 1-2병을 마셔야 잠이 온다. 주말에는 낮부터 마시기 시작한다. 술을 마시지 않으면 손이 떨리고 불안하며 식은땀이 나서 일을 할 수가 없다(금단). 술 때문에 아내와 자주 다투고, 최근에는 다툼 중 아내를 밀쳐 넘어뜨린 적도 있다. 다음날 후회하지만 술을 마시면 조절이 안 된다. 회사에서도 술 냄새 때문에 지적을 받은 적이 있다."
+  experience_prev_episodes:
+    frequency: "거의 매일"
+    trigger: "스트레스, 저녁 시간"
+    symptoms: "음주 충동"
+  character_of_symptom:
+    quality: "음주에 대한 갈망"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "아침에 구역질을 자주 함"
+      constipation: false
+      diarrhea: true
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "직장 스트레스"
+      - "아내와의 다툼"
+    alleviating: "술을 마실 때"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "모름"
+  trauma_history: "어린 시절 아버지에게 자주 맞고 자람."
+  past_medical_history:
+    underlying_disease: "고혈압 (약 복용 안 함)"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "중소기업 부장"
+    stress: "높음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1-2병/일"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "복부 비만 심해짐"
+  family_history: "아버지 알코올 의존"
+  female_history: ""
+physical_exam:
+  general: "안면 홍조 및 비만 관찰됨. 약간의 손 떨림이 있음. 대화 시 술 냄새가 남."
+  heent:
+    sclera: "약간의 황달(icteric) 소견"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "복부 팽만"
+    auscultation: "정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # 간 비대(Hepatomegaly) 촉진됨
+  cvat: "음성/음성"
+  extremity: "거미 혈관종(spider angioma)이 가슴에 몇 개 보임."
+standardized_patient_questions: "제가 정말 알코올 중독인가요? 그냥 남들 마시는 만큼 마시는 것 같은데요. 술 끊으라는 말은 하지 마세요, 사회생활 하려면 어쩔 수 없어요."
+specific_remarks: "환자는 자신의 음주 문제를 부정하거나 최소화하려는 경향(denial)을 보인다. 폭력에 대해 질문하면 '부부싸움은 다 하는 것 아니냐', '때린 건 아니고 그냥 밀친 것뿐'이라며 대수롭지 않게 반응한다. 비협조적이고 방어적인 태도를 유지한다."

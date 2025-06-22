@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (만성 경막하 혈종)"
+patient_info:
+  name: "정진규"
+  age: 80
+  sex: "남성"
+  presenting_complaint: "한 달 전부터 심해지는 두통과 기억력 저하"
+vital_signs:
+  blood_pressure: "145/80mmHg"
+  pulse: "70회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자(보호자)와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 경막하 혈종 (Chronic subdural hematoma, cSDH)"
+    - "뇌종양"
+    - "혈관성 치매"
+  necessary_tests:
+    - "뇌 CT"
+    - "혈액검사 (혈액 응고 검사 포함)"
+    - "필요시 뇌 MRI"
+  necessary_treatments:
+    - "천두술을 통한 혈종 배액술"
+    - "경과 관찰 또는 약물 치료 (상황에 따라)"
+    - "수술 후 재활"
+history:
+  sex_age: "남성/80세"
+  chief_complaint_verbatim: "머리가 계속 아프고, 정신이 맑지 않아요. 자꾸 졸리고 사람 이름도 기억이 안 나네요."
+  onset: "약 1개월 전"
+  location:
+    initial: "머리 전체"
+    current: "머리 전체"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 악화되며, 의식이 명료했다 흐렸다를 반복함"
+  course: "한 달 전부터 머리가 띵하게 아프기 시작함. 처음에는 나이 탓인가 했지만, 점점 심해지고 기억력도 눈에 띄게 나빠짐. 최근 일주일 사이에는 하루 종일 졸려하고, 대화 중에도 멍한 모습을 자주 보임. 이틀 전부터는 왼쪽 다리에 힘이 약간 빠지는 느낌이 듦."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "둔하고 지속적인 두통. 인지기능의 변동성."
+    nrs_score: 5
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "자세 변경 시"
+    alleviating: "진통제 복용 시 일시적 완화"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "두 달 전 화장실에서 미끄러지면서 머리를 가볍게 부딪혔으나, 괜찮아서 병원에는 가지 않았음."
+  past_medical_history:
+    underlying_disease: "심방세동"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "와파린"
+    source: "순환기내과"
+    effect: "꾸준히 복용 중"
+  social_history:
+    job: "농업 은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "과거 매일 마셨으나 최근 10년간 거의 안 마심"
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "매일 30분씩 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "졸려 보이고(drowsy) 질문에 대한 반응이 느림. 시간, 장소, 사람에 대한 지남력 저하."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat, soft"
+    auscultation: "normoactive"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "좌측 하지 근력 저하 (G4/5). 좌측 Babinski sign 양성. 보행 시 좌측 다리를 약간 끄는 모습."
+standardized_patient_questions: "머리가 왜 이렇게 아픈가요? 수술해야 하나요? 그냥 약 먹고는 안 되나요? 이대로 정신이 계속 오락가락하는 건가요?"
+specific_remarks: "가벼운 두부 외상력(환자 본인은 잊고 있을 수 있음)과 항응고제 복용력이 중요한 단서. 인지기능 저하가 두통, 의식 수준의 변동, 국소 신경학적 결손과 함께 나타나는 점을 강조해야 함. 진찰 시 졸려하는 모습과 느린 반응, 좌측의 미세한 운동 약화를 표현하는 것이 핵심."

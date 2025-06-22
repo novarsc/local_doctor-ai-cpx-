@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (외상 후 발작)"
+patient_info:
+  name: "강태현"
+  age: 25
+  sex: "남성"
+  presenting_complaint: "교통사고로 머리를 다친 후 발생한 경련"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "100회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "외상 후 발작 (Post-traumatic seizure)"
+    - "외상성 뇌출혈 (경막하 또는 경막외)"
+    - "뇌좌상 (Cerebral contusion)"
+  necessary_tests:
+    - "뇌 컴퓨터 단층촬영 (Brain CT)"
+    - "경추 X-ray 또는 CT"
+    - "혈액 검사 (기본 혈액 검사, 혈중 알코올 농도)"
+  necessary_treatments:
+    - "항경련제 투여"
+    - "필요시 신경외과적 수술 (출혈 제거)"
+    - "환자 안정 및 활력 징후 모니터링"
+history:
+  sex_age: "남성/25"
+  chief_complaint_verbatim: "오토바이를 타다 넘어졌는데, 구급차를 기다리는 동안 갑자기 온몸을 떨었어요."
+  onset: "사고는 30분 전, 경련은 15분 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "사고 후 의식 저하 상태에서 발생"
+    recent_course: "목격자에 따르면 약 1-2분간 전신 경련. 이후 의식이 더 처지는 양상."
+  course: "오토바이를 타고 가다 승용차와 부딪혀 넘어졌다. 헬멧은 쓰고 있었으나, 머리를 땅에 부딪혔다. 사고 직후에는 의식이 있었으나 점차 멍해졌고, 구급대원이 도착했을 때 전신 경련을 시작했다고 한다. 경련 당시 의식 소실이 있었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "두부 외상"
+    symptoms: ""
+  character_of_symptom:
+    quality: "두부 외상 직후 발생한 전신 발작"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "사고 현장에서 한 차례 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "두부 외상"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "군 입대 신체검사"
+    endoscopy_finding: "없음"
+  trauma_history: "금일 발생한 교통사고. 사고 전 외상력 없음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "배달원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: ""
+    exercise: "없음"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: ""
+physical_exam:
+  general: "의식이 저하된 상태 (stuporous). 통증 자극에만 반응함. GCS E2V2M4=8. 넥칼라(neck collar)를 하고 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 오른쪽 측두부에 찰과상과 부종 관찰됨. 오른쪽 귀에서 혈성 분비물(hemotympanum) 의심됨.
+  chest: "호흡음 정상, 심박수 빠름."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "통증 자극에 사지 모두 움직임 보이나, 왼쪽보다 오른쪽의 움직임이 둔함. 왼쪽 동공이 오른쪽보다 확장되어 있음 (anisocoria)."
+standardized_patient_questions: "환자가 의식이 없어 문진 불가. 동행한 구급대원이나 목격자에게 사고 상황을 들어야 함."
+specific_remarks: "환자는 의식이 저하된 상태로 연기해야 한다. 통증 자극(예: nail bed pressure)에만 얼굴을 찡그리거나 신음 소리를 내는 정도. 학생은 신속하게 ABC를 평가하고, 신경학적 검사를 시행하여 뇌 손상 징후(동공 비대칭, 편측 마비)를 발견해야 한다. 응급 상황임을 인지하고 신속한 영상 검사의 필요성을 강조해야 한다."

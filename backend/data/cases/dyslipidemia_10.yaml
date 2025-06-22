@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (발진성 황색종 - 고중성지방혈증)"
+patient_info:
+  name: "최유리"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "등과 엉덩이에 생긴 노란 뾰루지"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "발진성 황색종 (Eruptive xanthomas) - 심각한 고중성지방혈증 의심"
+    - "모낭염"
+    - "알레르기성 피부 발진"
+  necessary_tests:
+    - "혈액검사 (공복 지질 프로필, 특히 중성지방 수치 확인)"
+    - "공복 혈당 및 당화혈색소 검사 (조절되지 않는 당뇨 확인)"
+    - "복부 통증 여부 확인 및 췌장염 감별"
+  necessary_treatments:
+    - "즉각적인 중성지방 강하 치료 (Fibrate 계열 약물 등)"
+    - "엄격한 저지방, 저탄수화물 식이요법 및 금주"
+    - "기저 원인(당뇨 등)의 적극적인 관리"
+history:
+  sex_age: "여성/38"
+  chief_complaint_verbatim: "몇 주 전부터 등, 엉덩이, 팔꿈치 같은 곳에 노란색 뾰루지 같은 게 막 나기 시작했어요. 가렵기도 하고, 없어지질 않네요."
+  onset: "약 3주 전"
+  location:
+    initial: "등, 엉덩이"
+    current: "팔꿈치, 무릎 등 펴지는 부위로 확산"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "개수가 점점 늘어남"
+  course: "처음엔 몇 개 없었는데 계속 번지고 있음"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "노란색의 작은 구진(papule), 때때로 가려움"
+    nrs_score: "2 (가려움증 점수)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+      # 가끔 명치 부위가 뻐근하게 아플 때가 있음
+    dehydration:
+      dizziness: false
+      thirst: "최근 갈증이 심하고 물을 많이 마심"
+      decreased_urine_output: false # 오히려 소변을 자주 봄
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 (5년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Metformin"
+    source: "개인 의원"
+    effect: "최근 바쁘다는 핑계로 약을 잘 챙겨 먹지 못했음"
+  social_history:
+    job: "프리랜서 번역가"
+    stress: "마감 스트레스가 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "최근 1년간 8kg 증가"
+  family_history: "아버지가 당뇨 합병증으로 고생하심"
+  female_history: "LMP: 2주 전, 규칙적"
+physical_exam:
+  general: "비만 체형의 여성, 급성 병색은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 명치 부위에 약간의 압통이 있을 수 있음
+  cvat: "좌/우 음성"
+  extremity: "등, 엉덩이, 팔꿈치의 폄쪽(extensor surface)에 홍반성 기저부를 가진 황색 구진들이 다수 분포함 (eruptive xanthomas)."
+standardized_patient_questions: "이거 그냥 피부병 아닌가요? 피부과 약 바르면 안 되나요? 당뇨약 안 먹어서 그런 건가요? 이게 그렇게 위험한 건가요?"
+specific_remarks: "피부 병변이 미용적으로 매우 신경 쓰인다고 호소한다. 당뇨 약 복용을 소홀히 했다는 사실을 마지못해 시인한다. '급성 췌장염'과 같은 무서운 합병증 가능성을 설명하면 매우 놀라는 반응을 보인다."

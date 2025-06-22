@@ -1,0 +1,113 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (예방접종 후 국소 이상반응)"
+patient_info:
+  name: "김민준"
+  age: 4
+  sex: "남성"
+  presenting_complaint: "예방접종 맞은 부위가 붓고 아파함"
+vital_signs:
+  blood_pressure: "90/60mmHg"
+  pulse: "130회/분"
+  respiration: "35회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환아의 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "예방접종 후 국소 이상반응 (경결 포함)"
+    - "연조직염 (Cellulitis)"
+    - "주사 부위 농양"
+  necessary_tests:
+    - "대부분의 경우 특별한 검사는 불필요하며 경과 관찰이 우선입니다."
+    - "증상이 악화되거나 전신 증상이 동반될 경우 혈액검사(백혈구 수치, 염증 수치)를 고려할 수 있습니다."
+    - "농양 형성이 강하게 의심될 경우 주사 부위 초음파를 시행할 수 있습니다."
+  necessary_treatments:
+    - "붓고 아픈 부위에 대한 냉찜질"
+    - "필요 시 아세트아미노펜 성분의 해열진통제 복용"
+    - "2-3일 내 호전되지 않거나 발적, 부종이 심해지면 반드시 재내원"
+history:
+  sex_age: "남아/4개월"
+  chief_complaint_verbatim: "어제 예방접종을 맞았는데, 주사 맞은 다리가 퉁퉁 붓고 애가 자꾸 보채요. 만지면 아픈지 더 울고요."
+  onset: "어제 오후 (예방접종 후 약 6시간 뒤)"
+  location:
+    initial: "왼쪽 허벅지 바깥쪽"
+    current: "왼쪽 허벅지 바깥쪽"
+  duration:
+    onset_pattern: "갑자기"
+    recent_course: "점점 더 붓는 것 같음"
+  course: "어제 오전 10시경, 소아과에서 DTaP-IPV/Hib 2차 접종을 왼쪽 허벅지에 맞았다. 오후 4시경부터 아기가 보채기 시작했고, 저녁에 기저귀를 갈 때 보니 접종 부위가 빨갛게 부어있는 것을 발견했다. 오늘 아침에 보니 더 부어있고 단단하게 만져져서 내원했다."
+  experience_prev_episodes:
+    frequency: "없음 (이전 접종 시에는 괜찮았음)"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "부어있고 단단하며 만지면 아파함"
+    nrs_score: "측정 불가 (자극 시 심하게 움)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "다리를 만지거나 기저귀를 갈 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2개월 전 영유아 검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "해당 없음"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "해당 없음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "보채는 모습이나, 의식은 명료하고 전반적인 상태는 양호함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "왼쪽 허벅지 전외측에 약 5x5cm 크기의 발적, 부종, 압통 관찰됨. 만졌을 때 단단하게 뭉쳐진 느낌(경결)이 있으나, 파동(fluctuation)은 없음. 국소적 열감 있음."
+standardized_patient_questions: "이거 괜찮은 건가요? 다음 예방접종은 어떻게 하죠? 약은 안 먹여도 되나요?"
+specific_remarks: "보호자(엄마) 역할. 아기가 걱정되어 불안해하는 모습을 연기. 의사의 설명에 안도하지만, 다음 접종에 대한 우려를 표현."

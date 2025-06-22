@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "19"
+title: "실전 모의 증례 (갈색세포종)"
+patient_info:
+  name: "박성호"
+  age: 40
+  sex: "남성"
+  presenting_complaint: "발작적으로 불안하고 머리가 아파요."
+vital_signs:
+  blood_pressure: "190/110mmHg (증상 발생 시), 140/90mmHg (평상시)"
+  pulse: "130회/분 (증상 발생 시), 90회/분 (평상시)"
+  respiration: "22회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갈색세포종 (Pheochromocytoma)"
+    - "공황장애"
+    - "본태성 고혈압의 급격한 악화"
+  necessary_tests:
+    - "24시간 소변 메타네프린 및 카테콜아민 검사"
+    - "혈장 메타네프린 검사"
+    - "복부 CT 또는 MRI (부신 종양 확인)"
+  necessary_treatments:
+    - "알파차단제를 이용한 혈압 조절"
+    - "수술 전 충분한 수액 공급"
+    - "수술적 종양 제거"
+history:
+  sex_age: "남성/40"
+  chief_complaint_verbatim: "몇 달 전부터 한 번씩 갑자기 심장이 미친 듯이 뛰고, 머리가 깨질 것처럼 아프면서 온몸에 땀이 나요. 그럴 때마다 곧 죽을 것 같은 공포감이 밀려와요."
+  onset: "약 5개월 전"
+  location:
+    initial: "가슴, 머리"
+    current: "전신"
+  duration:
+    onset_pattern: "한 달에 2-3회, 발작적으로 발생"
+    recent_course: "증상 지속 시간과 강도가 점차 증가함"
+  course: "예측할 수 없이 갑자기 증상이 시작됨. 극심한 두통, 심계항진, 발한의 3대 증상(classic triad)이 뚜렷하게 나타남. 증상은 15분에서 30분 정도 지속되다가 서서히 사라짐. 증상이 있을 때 얼굴이 매우 창백해짐. 최근에는 배를 누르거나 힘든 운동을 할 때 증상이 유발되는 것 같기도 함."
+  experience_prev_episodes:
+    frequency: "월 2-3회"
+    trigger: "예측 불가능하지만, 가끔 복압이 증가하는 상황에서 유발됨"
+    symptoms: "두통, 심계항진, 발한, 창백함, 극심한 불안감"
+  character_of_symptom:
+    quality: "벼락이 치는 듯한 두통(thunderclap headache), 터질 듯한 심계항진, 죽음에 대한 공포"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특정 자세 변화"
+      - "정서적 스트레스"
+    alleviating: "시간이 지나면 저절로 사라짐"
+  health_check_history:
+    last_checkup: "1년 전, 혈압이 약간 높다는 말을 들었으나 치료받지는 않음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (미치료)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "건축 설계사"
+    stress: "심한 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "N/A"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 5개월간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "매우 불안해하며, 증상이 없는 현재에도 혈압과 맥박이 다소 높음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "tachycardia, regular heart beat, clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "deep palpation of abdomen may provoke symptoms (caution needed)"
+  cvat: "좌/우 음성"
+  extremity: "no edema, fine tremor of hands"
+standardized_patient_questions: "이거 그냥 공황장애 아닌가요? 왜 이렇게 머리가 아프고 혈압이 오르는 거죠? 치료는 가능한가요?"
+specific_remarks: "환자는 자신의 증상이 발작적이고 극심하다는 점을 강조한다. 특히 두통, 심계항진, 발한의 세 가지 증상이 동시에 나타나는 것을 명확히 설명한다. 증상이 없을 때는 비교적 괜찮지만, 언제 다시 발작이 올지 모른다는 예기불안을 가지고 있다. 의사가 호르몬 문제나 종양 가능성을 조심스럽게 언급하면 매우 놀라며 걱정하는 모습을 보인다."

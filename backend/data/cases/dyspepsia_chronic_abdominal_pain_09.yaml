@@ -1,0 +1,117 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (당뇨병성 위마비)"
+patient_info:
+  name: "오미숙"
+  age: 62
+  sex: "여성"
+  presenting_complaint: "조금만 먹어도 배가 부르고, 식후 구역감과 구토"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "당뇨병성 위마비 (Diabetic gastroparesis)"
+    - "위 출구 폐쇄 (Gastric outlet obstruction)"
+    - "기능성 소화불량증"
+  necessary_tests:
+    - "위 배출 시간 검사 (Gastric emptying scan) - 확진 검사"
+    - "상부위장관 내시경 (기계적 폐쇄 감별)"
+    - "혈당 조절 상태 평가 (HbA1c)"
+  necessary_treatments:
+    - "엄격한 혈당 조절"
+    - "소량씩 자주 식사하는 식이요법 (저지방, 저섬유소)"
+    - "위장관 운동 촉진제 (Metoclopramide, Domperidone 등)"
+    - "증상 조절을 위한 약물 치료 (항구토제)"
+history:
+  sex_age: "여성/62"
+  chief_complaint_verbatim: "밥을 한두 숟갈만 떠도 배가 꽉 찬 느낌이에요. 식사하고 나면 속이 메슥거리고 몇 시간 전에 먹은 음식이 그대로 올라올 때도 있어요."
+  onset: "약 1년 전부터 서서히 시작되어 6개월 전부터 심해짐"
+  location:
+    initial: "상복부"
+    current: "상복부"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근에는 식사하기가 두려울 정도임"
+  course: "지속적이며, 혈당 조절이 잘 안될 때 더 심해지는 것 같음"
+  experience_prev_episodes:
+    frequency: "거의 매 식사 시"
+    trigger: "식사"
+    symptoms: "조기 포만감, 식후 팽만감, 구역, 구토"
+  character_of_symptom:
+    quality: "꽉 찬 듯한 불편함 (fullness)"
+    nrs_score: "6 (불편감 점수)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "소화되지 않은 음식물, 식후 수 시간 뒤에 발생"
+      constipation: true
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "일반적인 양의 식사"
+      - "고형식"
+    alleviating: "유동식을 먹거나 식사를 거르면 덜함"
+  health_check_history:
+    last_checkup: "6개월 전 당뇨 합병증 검사"
+    endoscopy_finding: "1년 전 내시경에서 '만성 위염' 소견, 위 내에 음식물이 저류되어 있었다고 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "20년 전 진단받은 제2형 당뇨병 (인슐린 치료 중), 당뇨병성 망막병증, 신경병증 있음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Insulin glargine, Metformin"
+      - "Pregabalin"
+    source: "내분비내과"
+    effect: "혈당 조절이 잘 안 됨 (식후 혈당 변동이 심함)"
+  social_history:
+    job: "주부"
+    stress: "질병으로 인한 스트레스가 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "매일 30분 걷기"
+    recent_weight_change: "최근 6개월간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "폐경 10년 전"
+physical_exam:
+  general: "만성 병색을 띠고 있으며, 다소 지쳐 보임"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "mildly distended"
+    auscultation: "normoactive bowel sounds, succussion splash(+) "
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_fullness: true
+  cvat: "좌/우 음성"
+  extremity: "decreased sensation on both feet (stocking-glove pattern)"
+standardized_patient_questions: "위가 막힌 건가요? 왜 소화가 전혀 안 될까요? 당뇨 때문에 이런 병도 생기나요?"
+specific_remarks: "환자는 오랜 당뇨 병력을 가지고 있으며, 이미 다른 합병증(망막병증, 신경병증)이 있음을 명확히 진술한다. 식후 몇 시간이 지나도 소화되지 않은 음식을 토하는 것이 특징이다. 신체 진찰에서 상복부를 흔들었을 때 출렁이는 소리(succussion splash)가 들리는 것이 중요한 단서이다. 혈당 조절의 어려움을 호소한다."

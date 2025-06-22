@@ -1,0 +1,112 @@
+---
+chapter: "상담"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (조현병)"
+patient_info:
+  name: "정진우"
+  age: 26
+  sex: "남성"
+  presenting_complaint: "누군가 나를 조종하고 죽으라고 명령함"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "조현병 (Schizophrenia)"
+    - "조현정동장애 (Schizoaffective Disorder)"
+    - "약물 유발성 정신병적 장애 (Substance-induced Psychotic Disorder)"
+  necessary_tests:
+    - "정신상태 검사 (MSE) 및 사고 내용에 대한 상세한 평가"
+    - "뇌 MRI 등 기질적 원인 감별을 위한 영상 검사"
+    - "소변 약물 선별 검사"
+  necessary_treatments:
+    - "항정신병 약물 치료"
+    - "환청 및 망상으로 인한 자살/타해 위험이 높아 급성기 입원치료 필수"
+    - "안정 후 재활치료 및 사회기술훈련"
+history:
+  sex_age: "남성/26세"
+  chief_complaint_verbatim: "제 머릿속에 누가 들어와 있어요. 그 목소리가 저한테 '너는 쓸모없으니 죽어라'고 계속 시켜요. 너무 괴로워요."
+  onset: "약 1년 전부터 이상한 생각이 들기 시작, 환청은 3개월 전부터"
+  location:
+    initial: "머릿속"
+    current: "머릿속"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "환청의 내용이 더 구체적이고 위협적으로 변함"
+  course: "1년 전부터 사람들이 나를 감시하고 해치려 한다는 피해망상이 생김. 3개월 전부터는 자신을 비난하고 명령하는 내용의 환청이 들리기 시작. 최근 일주일간 환청이 '옥상에서 뛰어내려라' 와 같이 구체적인 자살을 지시하여 두려움에 휩싸여 가족에 의해 병원에 옴. 혼자 중얼거리거나 갑자기 웃는 등 기이한 행동을 보임."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "명령하는 내용의 환청 (command hallucination), 피해망상"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "혼자 있을 때"
+    alleviating: "음악을 크게 틀어놓을 때 잠시 잊음"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "무직 (대학 졸업 후 구직 실패)"
+    stress: "스스로는 없다고 하나 주변 상황 상 심할 것으로 추정"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일"
+      cessation_period: ""
+    exercise: "전혀 하지 않음. 방에만 틀어박혀 있음."
+    recent_weight_change: "최근 6개월간 8kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "위생 상태가 좋지 않고(poor hygiene), 감정이 무뎌 보임(blunted affect). 면담 중 허공을 보며 혼잣말을 하기도 함."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Dry"
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "No edema or cyanosis"
+standardized_patient_questions: "이 목소리를 없애주세요. 진짜 있는 목소리예요. 선생님도 저를 감시하는 사람 중 한 명인가요? 저를 해치려는 거 아니죠? 제가 정말 그 목소리대로 할까 봐 무서워요."
+specific_remarks: "대화의 맥락이 끊기고 비논리적인 사고의 비약을 보임 (e.g., 의사의 펜 색깔을 보고 '빨간색은 피를 의미하니 나를 죽이려는 신호다'라고 생각). 환청에 반응하는 듯한 모습을 보이며, 의사를 의심하고 경계하는 태도를 유지함."

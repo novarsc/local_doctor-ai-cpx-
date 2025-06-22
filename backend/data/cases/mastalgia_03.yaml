@@ -1,0 +1,115 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (산욕기 유선염)"
+patient_info:
+  name: "최수진"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "모유 수유 중 왼쪽 가슴이 붓고 아프며 열이 남"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "수유기 유선염 (유방염)"
+    - "유방 농양 (감별 필요)"
+    - "염증성 유방암 (가능성 매우 낮음)"
+  necessary_tests:
+    - "혈액 검사 (CBC, CRP)"
+    - "유방 초음파 (농양 형성 여부 확인)"
+    - "유즙 배양 검사 (필요시)"
+  necessary_treatments:
+    - "항생제 치료"
+    - "수유 지속 또는 유축기를 이용한 유즙 배출 권장"
+    - "냉찜질 및 진통소염제 복용"
+history:
+  sex_age: "여성/31"
+  chief_complaint_verbatim: "이틀 전부터 왼쪽 가슴이 너무 아프고 딴딴하게 부었어요. 몸살 기운도 있고 열도 나는 것 같아요. 아기한테 젖 물리기도 너무 아파요."
+  onset: "2일 전"
+  location:
+    initial: "왼쪽 유방 전체"
+    current: "왼쪽 유방 바깥쪽"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "점점 더 심해짐"
+  course: "처음에는 뭉친 느낌만 있다가, 하루 지나면서 통증과 함께 붉게 변하고 열감이 생김."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "쑤시고 욱신거리는 통증"
+    nrs_score: "8점"
+    radiation: "왼쪽 겨드랑이 쪽으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아기에게 젖을 물릴 때"
+      - "조금만 스쳐도 아픔"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "산후 검진 시 특이사항 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "최근에 아기가 머리로 가슴을 받은 적이 있음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 계열 항생제에 두드러기"
+  medication_history:
+    taken:
+      - "아세트아미노펜"
+    source: "집에 있던 상비약"
+    effect: "열이 약간 내렸다가 다시 오름. 통증은 거의 그대로임"
+  social_history:
+    job: "육아휴직 중"
+    stress: "육아로 인한 스트레스가 많음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 못 함"
+    recent_weight_change: "출산 후 체중 감소 중"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 출산 후 무월경 상태. 1-0-0-1 (8주 전 자연분만). 현재 완전 모유 수유 중."
+physical_exam:
+  general: "통증으로 얼굴을 찡그리고 있으며, 전반적으로 지쳐 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "slightly dry"
+  chest: "호흡음 정상. 심음 약간 빠름."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  breast_exam: "왼쪽 유방 상외측에 걸쳐 쐐기 모양(wedge-shaped)의 발적, 부종, 심한 압통이 관찰됨. 만졌을 때 피부가 뜨겁게 느껴짐. 명확한 파동(fluctuation)은 없음. 오른쪽 유방은 부드러우며 특이소견 없음. 왼쪽 겨드랑이에 반응성 림프절이 촉진됨."
+standardized_patient_questions: "이거 젖몸살 맞죠? 약 먹으면 금방 괜찮아지나요? 아기한테 계속 젖 물려도 되나요, 혹시 아기한테 안 좋을까 봐 걱정돼요."
+specific_remarks: "환자는 고열과 통증으로 매우 힘들어하는 모습을 연기함. 신체 진찰 시 왼쪽 가슴을 만지면 '악' 소리를 내며 아파함. 아기에 대한 걱정을 많이 표현함."

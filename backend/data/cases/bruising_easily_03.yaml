@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (급성 골수성 백혈병)"
+patient_info:
+  name: "박철수"
+  age: 67
+  sex: "남성"
+  presenting_complaint: "2주 전부터 시작된 고열과 전신 쇠약감, 그리고 쉽게 드는 멍"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "110회/분"
+  respiration: "22회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 골수성 백혈병 (Acute Myeloid Leukemia, AML)"
+    - "재생불량성 빈혈"
+    - "패혈증으로 인한 파종성 혈관내응고증 (DIC)"
+  necessary_tests:
+    - "전혈구 검사 및 말초혈액 도말 검사 (아세포 확인)"
+    - "골수 검사 (형태, 면역표현형, 세포유전학 검사)"
+    - "혈액응고 검사 및 혈액화학 검사"
+  necessary_treatments:
+    - "유도 화학요법 (관해 유도 항암치료)"
+    - "공고 화학요법"
+    - "동종 조혈모세포 이식 (필요시)"
+history:
+  sex_age: "남성/67세"
+  chief_complaint_verbatim: "요 몇 주 계속 감기몸살처럼 열나고 기운이 하나도 없어요. 잇몸도 붓고 피가 나고, 여기저기 멍투성입니다."
+  onset: "약 2~3주 전"
+  location:
+    initial: "전신 쇠약감, 발열"
+    current: "전신 증상과 함께 피부, 잇몸 출혈"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "증상이 빠르게 악화됨"
+  course: "초기에는 몸살 기운으로 생각했으나 해열제를 먹어도 열이 계속되었고, 기운이 없어 일상생활이 어려워졌다. 일주일 전부터 잇몸이 붓고 피가 나며, 부딪히지 않은 곳에도 멍이 생기기 시작했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "고열, 극심한 피로, 뼈 통증(vague), 통증 없는 멍"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "모든 활동"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 전, 고혈압 진단"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (Amlodipine)"
+    source: "내과 의원"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "은퇴 후 소일거리 (농사)"
+    stress: "적음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "농사일 외에는 안 함"
+    recent_weight_change: "최근 한 달간 5kg 감소"
+  family_history: "특이 암 가족력 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색이 완연함. 의식은 명료하나 기력이 매우 없음."
+  heent:
+    sclera: "황달 없음. 결막 창백함."
+    oral_mucosa: "잇몸이 전반적으로 부어 있고(gingival hypertrophy) 출혈 소견 있음."
+  chest: "호흡음 약간 거칠게 들림. 심음 빠르고 규칙적."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"복장뼈(sternum)에 압통 호소. 간 비대(hepatomegaly) 2cm, 비장 비대(splenomegaly) 1cm 촉진됨.\""
+  cvat: "좌우 음성"
+  extremity: "팔다리에 여러 개의 자색반이 관찰됨. 정강이 부위에 작은 결절성 병변 있음."
+standardized_patient_questions: "나이가 들어서 기력이 없어진 줄 알았는데, 이렇게 아플 수가 있나요? 백혈병 같은 무서운 병은 아니겠죠?"
+specific_remarks: "환자는 매우 아파 보이며, 문진 중에도 힘들어한다. 특히 복장뼈 압통과 잇몸 비대 소견을 명확히 표현해야 한다. 급성 백혈병의 심각성을 암시하는 연기가 필요하다."

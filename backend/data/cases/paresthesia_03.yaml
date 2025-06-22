@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (목 디스크 탈출증)"
+patient_info:
+  name: "최경호"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "오른쪽 어깨와 팔이 저리고 힘이 빠짐"
+vital_signs:
+  blood_pressure: "135/80mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "경추 추간판 탈출증 (Cervical HNP)"
+    - "회전근개 증후군 (Rotator cuff syndrome)"
+    - "흉곽 출구 증후군 (Thoracic outlet syndrome)"
+  necessary_tests:
+    - "경추 X-ray 및 MRI"
+    - "근전도/신경전도검사 (EMG/NCS)"
+    - "어깨 초음파"
+  necessary_treatments:
+    - "약물 치료 (소염진통제, 근이완제)"
+    - "물리 치료 및 운동 치료"
+    - "신경 차단술 또는 수술적 치료 (필요시)"
+history:
+  sex_age: "남성/48"
+  chief_complaint_verbatim: "한 달 전부터 뒷목이 뻐근하더니, 이제는 오른쪽 어깨부터 팔을 타고 엄지손가락까지 저리고 아파요. 팔에 힘도 잘 안 들어가고요."
+  onset: "약 1개월 전"
+  location:
+    initial: "뒷목, 오른쪽 어깨"
+    current: "오른쪽 목, 어깨, 팔, 엄지손가락"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점차 악화"
+  course: "한 달 전부터 운전을 오래 하면 뒷목이 뻐근했음. 2주 전부터 오른쪽 어깨와 팔 바깥쪽으로 뻗치는 통증과 저린 감각이 발생함. 며칠 전부터는 물건을 들 때 오른팔에 힘이 잘 들어가지 않는 것을 느낌."
+  experience_prev_episodes:
+    frequency: "처음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "전기가 오듯 찌릿하고 저린 통증"
+    nrs_score: "7"
+    radiation: "오른쪽 목에서 어깨를 거쳐 팔 바깥쪽, 엄지손가락으로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "고개를 뒤로 젖히거나 오른쪽으로 돌릴 때"
+      - "기침할 때"
+    alleviating: "팔을 머리 위로 올리고 있을 때"
+  health_check_history:
+    last_checkup: "6개월 전, 고혈압 전단계"
+    endoscopy_finding: "만성 표재성 위염"
+  trauma_history: "10년 전 가벼운 접촉사고 있었으나 후유증 없었음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "약국에서 산 진통제"
+    source: "약국"
+    effect: "먹을 때만 약간 나아짐"
+  social_history:
+    job: "택시 기사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 허리 디스크로 수술 받으심"
+  female_history: ""
+physical_exam:
+  general: "통증으로 인해 인상을 약간 찌푸리고 있으나, 전반적인 상태는 양호함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상, 잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "오른쪽 상완이두근(biceps) 및 손목 신전근(wrist extensor) 근력 저하(MRC 4/5). 오른쪽 상완이두근 반사(biceps reflex) 감소. 오른쪽 팔 바깥쪽과 엄지손가락 부위 감각 저하. Spurling 검사 시 양성."
+standardized_patient_questions: "이거 혹시 목 디스크인가요? 수술해야 하나요? 운전을 계속 해도 괜찮을까요?"
+specific_remarks: "환자는 오른쪽 팔을 약간 구부린 채로 통증 부위를 만지작거린다. 의사가 Spurling 검사(머리를 아픈 쪽으로 돌리고 압박)를 시행하면 목에서부터 팔로 뻗치는 통증을 명확하게 호소한다. 팔을 머리 위로 올리면 편안해지는 모습을 보여준다."

@@ -1,0 +1,110 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (급성 폐쇄각 녹내장)"
+patient_info:
+  name: "정미숙"
+  age: 58
+  sex: "여성"
+  presenting_complaint: "갑자기 시작된 심한 안구 통증과 두통, 시력 저하"
+vital_signs:
+  blood_pressure: "150/90mmHg"
+  pulse: "100회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 폐쇄각 녹내장"
+    - "편두통 (자율신경증상 동반)"
+    - "군발두통"
+  necessary_tests:
+    - "안압 측정 (안압 상승 확인)"
+    - "세극등 현미경 검사 (얕은 전방, 각막 부종, 충혈 등 확인)"
+    - "전방각경 검사 (방수 유출로의 폐쇄 확인)"
+  necessary_treatments:
+    - "즉시 안과 응급 진료 필요"
+    - "안압 강하를 위한 약물 치료 (경구 아세타졸아마이드, 국소 베타차단제, 필로카르핀 등)"
+    - "안압 안정 후, 레이저 홍채 절개술 또는 백내장 수술 시행으로 재발 방지"
+history:
+  sex_age: "여성/58"
+  chief_complaint_verbatim: "저녁에 TV를 보다가 갑자기 오른쪽 눈이 빠질 듯이 아프고 머리까지 깨질 것 같아요. 눈이 잘 안 보이고 불빛을 보면 달무리가 껴 보여요. 속도 너무 메스꺼워요."
+  onset: "내원 3시간 전"
+  location:
+    initial: "오른쪽 눈"
+    current: "오른쪽 눈과 동측의 이마, 관자놀이"
+  duration:
+    onset_pattern: "갑자기 발생하여 급격히 악화"
+    recent_course: "점점 심해지며 시야가 뿌옇게 변함"
+  course: "지속적인 극심한 통증. 어두운 곳에서 증상이 시작됨."
+  experience_prev_episodes:
+    frequency: "없음. 하지만 가끔 영화관 같은 어두운 곳에 가면 눈이 뻐근했던 적은 있음."
+    trigger: "어두운 환경 (TV 시청)"
+    symptoms: "이 정도로 심한 것은 처음"
+  character_of_symptom:
+    quality: "터질 듯한, 쑤시는 안구 통증 및 두통"
+    nrs_score: "9"
+    radiation: "오른쪽 이마와 머리 쪽으로"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "내원 전 1회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    ophthalmologic:
+      blurred_vision: true
+      halos_around_lights: true
+      red_eye: true
+  factors:
+    aggravating:
+      - "밝은 빛을 볼 때 눈이 부심"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전, 원시가 있다는 말을 들음"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "원시 (hyperopia)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "최근 감기 기운이 있어 종합감기약을 복용함" # 항히스타민제, 항콜린제 성분이 유발요인 가능
+    source: "약국"
+    effect: "효과 없음"
+  social_history:
+    job: "식당 운영"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "언니가 녹내장으로 치료 중"
+  female_history: "폐경 5년 전"
+physical_exam:
+  general: "급성 병색. 안구 통증으로 매우 고통스러워함."
+  heent:
+    # Key ophthalmologic findings
+    inspection: "오른쪽 눈의 심한 결막 충혈 (ciliary injection) 관찰됨. 각막이 부종으로 인해 흐릿하게 보임."
+    pupil: "오른쪽 동공이 중간 정도로 산대되어 있고(mid-dilated), 빛에 대한 반응이 거의 없음 (fixed)."
+    palpation: "양쪽 눈을 감게 하고 안구를 촉진했을 때, 오른쪽 안구가 돌처럼 단단하게 느껴짐 (increased intraocular pressure)."
+    visual_acuity: "오른쪽 눈의 시력 현저히 저하 (안전수지 수준)."
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "눈이 너무 아파서 머리까지 울려요. 왜 갑자기 이렇게 된 거죠? 이러다 눈이 머는 건 아닌가요? 빨리 치료받으면 괜찮아질 수 있나요?"
+specific_remarks: "환자는 오른쪽 눈을 감싸 쥐고 고통을 호소한다. 메스꺼움을 표현하며 구역질을 할 수 있다. 의사가 눈에 불빛을 비추면 눈이 부시다며 강하게 거부한다. '눈알이 빠질 것 같다'는 표현을 반복한다. 시력 저하와 달무리 현상을 구체적으로 설명한다."

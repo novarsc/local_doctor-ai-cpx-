@@ -1,0 +1,113 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (기관지 유암종)"
+patient_info:
+  name: "윤세아"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "반복되는 객혈과 얼굴 화끈거림"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "84회/분"
+  respiration: "17회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기관지 유암종 (Bronchial carcinoid tumor)"
+    - "기관지 내 결핵"
+    - "기관지 내 이물질"
+  necessary_tests:
+    - "흉부 CT"
+    - "기관지 내시경 및 조직검사"
+    - "소변 5-HIAA 검사"
+  necessary_treatments:
+    - "외과적 절제술 (Surgical resection)"
+    - "내시경적 절제"
+    - "필요시 소마토스타틴 유사체 (Somatostatin analogues) 사용"
+history:
+  sex_age: "여성/38"
+  chief_complaint_verbatim: "몇 달 전부터 계속 마른기침을 하고 가끔 피가 섞여 나와요. 가끔 얼굴이 갑자기 확 달아오르기도 해요."
+  onset: "약 6개월 전"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "간헐적, 반복적"
+    recent_course: "증상 빈도가 약간 잦아짐"
+  course: "6개월 전부터 마른기침이 지속되고, 한 달에 한두 번씩 가래에 피가 섞여 나옴. 객혈 양은 많지 않음. 3개월 전부터는 하루에 한두 번씩 이유 없이 얼굴과 상체가 갑자기 붉어지면서 화끈거리는 증상(flushing)이 5~10분간 지속됨. 가끔 설사를 하기도 함."
+  experience_prev_episodes:
+    frequency: "객혈은 월 1~2회, 얼굴 화끈거림은 매일"
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "마른기침, 객혈, 얼굴 화끈거림, 설사"
+  character_of_symptom:
+    quality: "소량의 선홍색 피가 섞여 나옴"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "시간이 지나면 저절로 호전됨"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "은행원"
+    stress: "높은 편"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1~2회"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "필라테스 주 2회"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 1주 전, 규칙적"
+physical_exam:
+  general: "전반적인 상태는 양호함."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "오른쪽 주기관지(Right main bronchus) 부위에서 국소적인 쌕쌕거림(localized wheezing)이 지속적으로 청진됨. 그 외 폐야는 깨끗함."
+  abdomen:
+    inspection: "flat"
+    auscultation: "hyperactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "갱년기 증상인가 했는데 피까지 나와서 걱정돼요. 기침이랑 얼굴 화끈거리는 게 무슨 상관이 있나요? 암 같은 건가요?"
+specific_remarks: "객혈과 함께 나타나는 전신 증상(얼굴 화끈거림, 설사)을 명확히 설명할 것. 흡연력도 없고 젊은 나이라 폐암은 아닐 것이라 생각하면서도, 종양일 가능성에 대해 걱정하는 모습을 보일 것. 흉부 청진 시 특정 부위에서 소리가 난다는 의사의 설명에 관심을 보일 것."

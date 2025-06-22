@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "19"
+title: "실전 모의 증례 (뇌수막종)"
+patient_info:
+  name: "윤지숙"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "6개월 전부터 왼쪽 다리에 힘이 빠지고 가끔 경련이 있음"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "뇌종양 (Brain tumor, 예: 뇌수막종)"
+    - "만성 뇌졸중 (Chronic stroke)"
+    - "국소 간질 (Focal epilepsy)"
+  necessary_tests:
+    - "조영 증강 뇌 MRI"
+    - "뇌파 검사 (EEG)"
+    - "신경인지기능 검사"
+  necessary_treatments:
+    - "수술적 종양 제거"
+    - "방사선 치료 (감마나이프 등)"
+    - "항경련제 투여"
+history:
+  sex_age: "여성/55"
+  chief_complaint_verbatim: "몇 달 전부터 왼쪽 다리에 기운이 없어서 절뚝거리게 되고, 가끔씩 왼쪽 발이 저절로 뻣뻣해지면서 떨리는 증상이 있어요. 두통도 잦아졌고요."
+  onset: "약 6개월 전"
+  location:
+    initial: "왼쪽 다리"
+    current: "왼쪽 다리, 머리"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "서서히 악화"
+  course: "6개월 전부터 계단을 오를 때 왼쪽 다리가 무겁게 느껴지기 시작함. 3개월 전부터는 평지를 걸을 때도 다리를 약간 끌게 됨. 한 달 전부터는 아침에 일어날 때 머리가 띵하게 아픈 두통이 생겼고, 진통제를 먹어도 잘 낫지 않음. 2주 전에는 자려고 누워 있는데 왼쪽 발이 갑자기 뻣뻣해지면서 몇 분간 경련하는 증상을 처음 경험함."
+  experience_prev_episodes:
+    frequency: "경련은 2주 전 1회"
+    trigger: "없음"
+    symptoms: "왼쪽 발의 국소 경련"
+  character_of_symptom:
+    quality: "다리에 힘이 빠지는 느낌, 둔하고 욱신거리는 두통"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "아침에 두통 심할 때 1회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침 기상 시 (두통)"
+      - "오래 걸을 때 (다리 위약감)"
+    alleviating: "진통제 (두통에 약간 효과)"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "타이레놀"
+    source: "약국"
+    effect: "두통이 약간 완화됨"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 동네 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "3년 전 폐경"
+physical_exam:
+  general: "약간 불안한 표정 외 전반적인 상태 양호함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+    # 추가 진찰: 시야 검사, 안저 검사 정상.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "왼쪽 하지 근력 경미하게 저하 (MRC 4/5), 특히 발목 족배굴곡근. 왼쪽 발목 반사 항진. 왼쪽 바빈스키 징후 양성. 상지 및 오른쪽 하지의 근력, 반사, 감각은 정상."
+standardized_patient_questions: "나이가 들어서 다리에 힘이 없는 줄 알았는데, 왜 경련까지 하는 걸까요? 머리 아픈 거랑 관련이 있나요? 혹시 뇌에 무슨 문제가 생긴 건 아닐까요?"
+specific_remarks: "환자는 증상을 겪으며 점차 커지는 불안감을 표현한다. 특히 '경련'이라는 증상에 대해 매우 놀랐으며, 뇌에 문제가 있을까 봐 걱정하는 모습을 보인다. 신체 진찰 시 왼쪽 다리의 근력 약화와 반사 항진이 일관되게 나타난다. 두통이 아침에 심하고 구역질을 동반한다는 점을 명확히 진술한다."

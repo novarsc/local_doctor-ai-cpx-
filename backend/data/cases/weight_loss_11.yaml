@@ -1,0 +1,116 @@
+---
+chapter: "전신"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (만성 췌장염)"
+patient_info:
+  name: "오정식"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "수년간 반복되는 상복부 통증과 함께 최근 1년간 15kg의 체중 감소 및 기름진 변"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 췌장염"
+    - "췌장암"
+    - "소화성 궤양"
+  necessary_tests:
+    - "복부 CT 또는 MRCP"
+    - "내시경 초음파 (EUS)"
+    - "대변 지방 정량 검사"
+    - "혈액검사 (Amylase/Lipase는 정상이거나 약간 증가할 수 있음)"
+  necessary_treatments:
+    - "절대적인 금주"
+    - "췌장 효소 보충제 복용"
+    - "통증 조절 및 지방 섭취 제한 식이요법"
+history:
+  sex_age: "남/52"
+  chief_complaint_verbatim: "명치가 계속 아파요. 등까지 쑤시고, 요즘엔 기름기 둥둥 뜨는 설사를 하고 살이 너무 많이 빠졌어요."
+  onset: "통증은 수년 전부터, 체중감소와 지방변은 1년 전부터"
+  location:
+    initial: "상복부"
+    current: "상복부, 등"
+  duration:
+    onset_pattern: "간헐적 통증이 지속적으로 변함"
+    recent_course: "통증은 비슷하나, 흡수장애 증상이 심해짐"
+  course: "10여 년 전부터 과음한 다음 날이면 명치 부위가 심하게 아팠다. 응급실에 몇 번 갔는데 급성 췌장염이라고 했다. 1년 전부터는 통증이 거의 매일 있고, 대변을 보면 변기 물 위에 기름이 뜨고 양이 많으며 냄새가 고약하다(steatorrhea). 식사량은 비슷한데 체중이 계속 빠진다."
+  experience_prev_episodes:
+    frequency: "수차례 급성 췌장염으로 입원 치료함"
+    trigger: "음주"
+    symptoms: "상복부 통증, 구토"
+  character_of_symptom:
+    quality: "상복부를 찌르는 듯한 통증이 등으로 방사됨"
+    nrs_score: "5-8점"
+    radiation: "등으로 방사됨"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "가끔"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음주"
+      - "기름진 음식 섭취 후"
+    alleviating: "몸을 앞으로 구부리면 약간 완화"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "급성 췌장염 (수차례), 알코올 의존"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제 (필요시)"
+    source: "약국"
+    effect: "일시적 효과"
+  social_history:
+    job: "일용직 노동자"
+    stress: "높음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 2-3병/일. 최근 줄이려고 노력 중."
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "30년간 흡연 중"
+    exercise: "노동이 운동임"
+    recent_weight_change: "1년간 15kg 감소 (85kg -> 70kg)"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색을 띠고, 영양 상태가 불량해 보임. 다소 수척함."
+  heent:
+    sclera: "황달 없음."
+    oral_mucosa: "정상"
+  chest: "특이소견 없음"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 상복부(epigastric area)에 깊은 압통(deep tenderness)이 있음.
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "이거 그냥 술병 아닌가요? 술만 끊으면 괜찮아지는 거 아니에요?", "왜 밥을 먹는데도 살이 빠지나요? 약 먹으면 통증이 없어질까요?"
+specific_remarks: "환자는 자신의 알코올 문제에 대해 축소하거나 정당화하려는 경향을 보인다. 통증으로 인해 인상을 쓰고 있으며, '기름진 변'에 대해 묘사하기를 꺼려한다. 금주의 중요성을 강조할 때 저항적인 태도를 보인다."

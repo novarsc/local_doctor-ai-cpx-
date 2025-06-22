@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (일과성 완전 기억상실)"
+patient_info:
+  name: "박지현"
+  age: 62
+  sex: "여성"
+  presenting_complaint: "오늘 아침부터 갑자기 발생한 기억 상실"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "일과성 완전 기억상실 (Transient global amnesia, TGA)"
+    - "일과성 허혈 발작 (Transient ischemic attack, TIA)"
+    - "뇌전증 발작 (특히 복합부분발작 후 상태)"
+  necessary_tests:
+    - "뇌 MRI (특히 확산강조영상, DWI)"
+    - "뇌파 검사 (EEG)"
+    - "혈액검사 및 심전도 등 뇌졸중 위험인자 평가"
+  necessary_treatments:
+    - "대부분 자연적으로 호전되므로 경과 관찰"
+    - "유발 요인 회피 교육"
+    - "뇌졸중 등 다른 질환이 의심될 경우 해당 치료"
+history:
+  sex_age: "여성/62세"
+  chief_complaint_verbatim: "여기가 어디죠? 제가 왜 여기에 와 있는 거죠? 오늘이 며칠이에요?"
+  onset: "3시간 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "급성 발병 (Abrupt onset)"
+    recent_course: "증상 지속 중"
+  course: "오늘 아침, 남편과 부부싸움을 한 후 갑자기 멍한 표정으로 '여기가 어디냐'고 반복적으로 묻기 시작함. 자신의 이름, 나이 등은 알고 있으나 현재 상황과 장소, 여기까지 오게 된 경위를 전혀 기억하지 못함. 몇 분 전에 나눈 대화 내용도 기억하지 못하고 같은 질문을 계속 반복함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "다른 신경학적 증상 없이 순수한 선행성 기억상실"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "질문을 받을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "6개월 전, 특이소견 없음"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "편두통"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "피아노 학원 원장"
+    stress: "최근 자녀 결혼 문제로 스트레스가 많았음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "G2P2, Menopause at 52세"
+physical_exam:
+  general: "매우 불안해하며 혼란스러워하는 모습. 자신의 신원에 대한 지남력은 있으나(oriented to person), 시간과 장소에 대한 지남력은 없음. 의식은 명료함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "근력, 감각, 반사 등 모든 신경학적 검사 정상. 소뇌기능검사 정상."
+standardized_patient_questions: "(반복적으로) 제가 왜 여기 와 있는지 모르겠어요. 설명 좀 다시 해주세요. 저한테 무슨 큰 병이 생긴 건가요? 뇌졸중 같은 거 아니에요?"
+specific_remarks: "환자는 자신의 이름은 기억하지만, 현재 상황을 전혀 파악하지 못하는 상태를 연기해야 함. 불안하고 당황스러운 표정으로, 몇 분 전에 들은 설명도 기억하지 못하고 똑같은 질문을 계속 반복하는 것이 핵심. '여기가 어디죠?', '제가 어떻게 왔죠?' 등의 질문을 5분 간격으로 계속 해야 함. 다른 신경학적 이상 소견은 전혀 없어야 함."

@@ -1,0 +1,114 @@
+---
+chapter: "관절.근골격.피부"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (스티븐스-존슨 증후군)"
+patient_info:
+  name: "강지훈"
+  age: 42
+  sex: "남성"
+  presenting_complaint: "고열과 함께 온몸에 생긴 통증을 동반한 수포"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "120회/분"
+  respiration: "22회/분"
+  temperature: "39.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "스티븐스-존슨 증후군 (SJS)"
+    - "독성표피괴사용해 (TEN)"
+    - "포도알균열상피부증후군 (SSSS)"
+  necessary_tests:
+    - "응급 입원 치료 필요성 설명"
+    - "피부 조직 검사 (동결절편 포함)"
+    - "전해질, 단백질, CBC, 혈액 배양 등 전신 상태 평가를 위한 혈액 검사"
+  necessary_treatments:
+    - "원인 의심 약물 즉시 중단"
+    - "화상 센터 또는 중환자실에서의 집중 치료 (수액 및 전해질 공급, 영양 지원)"
+    - "안과, 이비인후과 등 다학제 협진"
+history:
+  sex_age: "남성/42"
+  chief_complaint_verbatim: "며칠 전부터 감기몸살처럼 아프더니 어제부터 온몸에 붉은 반점이 생기고 물집이 잡혀요. 입 안도 다 헐고 눈도 아파서 못 뜨겠어요. 피부가 스치기만 해도 너무 아파요."
+  onset: "4일 전 전구 증상, 2일 전 피부 병변"
+  location:
+    initial: "얼굴, 몸통"
+    current: "전신, 점막 (눈, 입, 생식기)"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "급격히 악화됨"
+  course: "고열, 두통, 근육통 등 감기몸살 증상이 며칠간 지속되다가, 얼굴과 몸통에 통증을 동반한 붉은 반점이 나타났다. 반점들은 빠르게 융합되고 그 위에 수포가 형성되었으며, 피부가 벗겨지기 시작했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "피부가 타는 듯한 극심한 통증"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "구토 양상 또는 false"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "모든 접촉"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "뇌전증 (1개월 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "라모트리진 (Lamotrigine) 25mg"
+    source: "3주 전부터 신경과에서 처방받아 복용 시작"
+    effect: "경련은 없었음"
+  social_history:
+    job: "프로그래머"
+    stress: "많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "고열과 통증으로 매우 고통스러워하며, 전신적으로 아파 보임 (toxic appearance). 탈수 소견 보임."
+  heent:
+    sclera: "심한 결막 충혈 및 삼출물 (결막염)"
+    oral_mucosa: "입술과 구강 점막에 광범위한 출혈성 가피와 미란이 관찰됨."
+  chest: "호흡이 얕고 빠름. clear breath sounds bilaterally."
+  abdomen:
+    inspection: "몸통에 광범위하게 융합된 암적색 반점과 이완성 수포가 관찰됨. 가벼운 압력에도 피부가 벗겨지는 양성 니콜스키 징후(Nikolsky sign)가 나타남."
+    auscultation: "장음 감소"
+    percussion: "전반적인 압통 호소"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 전반적인 압통(diffuse tenderness)
+  cvat: "음성/음성"
+  extremity: "사지에도 광범위한 피부 병변이 관찰됨. 체표면적의 약 10% 미만이 박리된 상태."
+standardized_patient_questions: "제가 죽을 수도 있나요? 왜 이렇게 된 건가요? 새로 먹기 시작한 간질약 때문인가요? 치료는 어떻게 하나요?"
+specific_remarks: "이 증례는 응급 상황임을 인지하는 것이 핵심. 환자는 극심한 통증, 고열, 전신 쇠약감을 연기해야 한다. 피부 병변뿐 아니라 눈, 입 등 점막 침범 소견을 명확히 진술해야 한다. 새로 복용한 약물(라모트리진)이 강력한 원인임을 암시해야 한다. 니콜스키 징후는 '살짝 밀기만 해도 피부가 종이처럼 벗겨진다'고 설명한다."

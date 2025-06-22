@@ -1,0 +1,117 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (약물 유발성 변비 - 오피오이드)"
+patient_info:
+  name: "이영희"
+  age: 58
+  sex: "여성"
+  presenting_complaint: "진통제 복용 후 생긴 변비"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "오피오이드 유발성 변비"
+    - "기능성 변비"
+    - "활동 감소로 인한 변비"
+  necessary_tests:
+    - "신기능/전해질 포함한 기본 혈액검사"
+    - "필요시 복부 X-선 촬영"
+    - "다른 원인 배제를 위한 검사 고려"
+  necessary_treatments:
+    - "변비 유발 가능성이 적은 진통제로 변경 고려"
+    - "삼투성 하제 및 자극성 하제 병용"
+    - "생활 습관 교정 (수분 및 섬유소 섭취 증가)"
+history:
+  sex_age: "여/58"
+  chief_complaint_verbatim: "허리가 아파서 먹기 시작한 진통제 때문인지 변을 거의 못 봐요. 돌덩이처럼 딱딱하고 힘을 줘도 안 나와서 너무 고통스러워요."
+  onset: "약 2개월 전, 진통제 복용 시작 후"
+  location:
+    initial: "복부 전반"
+    current: "복부 전반"
+  duration:
+    onset_pattern: "급성 발생"
+    recent_course: "지속됨"
+  course: "3개월 전 허리 디스크 시술 후 통증이 지속되어 2개월 전부터 마약성 진통제를 처방받아 복용하기 시작했다. 약 복용 며칠 후부터 변비가 시작되어 현재는 5~7일에 한 번씩 매우 힘들게 변을 본다. 변이 매우 단단하고, 배변 시 항문 통증이 동반되기도 한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "배가 꽉 찬 느낌, 복부 팽만감"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직임이 적을 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "5년 전 위/대장 내시경 정상"
+  trauma_history: "없음 (만성 허리 통증)"
+  past_medical_history:
+    underlying_disease: "요추 추간판 탈출증"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "타진 서방정 (옥시코돈/날록손)"
+      - "필요시 트라마돌"
+    source: "정형외과 처방"
+    effect: "통증은 조절되나 변비 발생"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "허리 통증으로 거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "10년 전 폐경"
+physical_exam:
+  general: "특이 소견 없음"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "약간 팽만되어 있음"
+    auscultation: "장음 현저히 감소"
+    percussion: "전반적인 고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      diffuse_mild_tenderness: true
+      hard_stool_palpable_throughout_colon: true
+  cvat: "좌우 음성"
+  extremity: "정상"
+standardized_patient_questions: "허리가 아파서 진통제를 안 먹을 수도 없는데, 변비는 너무 괴로워요. 어떻게 해야 하나요? 이 약을 끊어야 하나요?"
+specific_remarks: "환자는 허리 통증과 변비라는 두 가지 문제 사이에서 고통스러워하는 모습을 보인다. 진통제 부작용에 대한 걱정이 크다."

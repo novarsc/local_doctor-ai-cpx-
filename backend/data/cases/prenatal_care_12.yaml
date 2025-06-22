@@ -1,0 +1,112 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (주산기 심근병증)"
+patient_info:
+  name: "고은별"
+  age: 33
+  sex: "여성"
+  presenting_complaint: "점점 심해지는 숨가쁨"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "110회/분"
+  respiration: "26회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "주산기 심근병증 (Peripartum Cardiomyopathy)"
+    - "임신성 빈혈"
+    - "폐렴 또는 폐색전증"
+  necessary_tests:
+    - "심장 초음파"
+    - "심전도(EKG) 및 흉부 X-선 검사"
+    - "BNP (B-type Natriuretic Peptide) 혈액 검사"
+  necessary_treatments:
+    - "심부전 치료 (이뇨제, 혈관확장제 등 임산부에게 안전한 약물)"
+    - "산소 공급 및 절대 안정"
+    - "분만 시기 및 방법 결정 (심장내과, 산부인과 협진)"
+history:
+  sex_age: "여성/33세"
+  chief_complaint_verbatim: "임신 37주인데, 숨이 너무 차서 밤에 누워서 잠을 잘 수가 없어요. 기침도 계속 나고요."
+  onset: "약 2주 전부터 서서히 시작"
+  location:
+    initial: "흉부"
+    current: "흉부"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 3-4일 사이 급격히 악화되어, 앉아있어도 숨이 참"
+  course: "처음에는 임신 막달이라 배가 불러서 숨이 찬 줄 알았다. 하지만 점점 심해져서 몇 걸음만 걸어도 숨이 차고, 특히 밤에 누우면 숨이 막혀서 앉아서 밤을 새우는 날이 많아졌다. 마른기침과 함께 가슴이 두근거리는 증상도 동반되어 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "호흡곤란(dyspnea), 특히 누웠을 때 심해짐(orthopnea), 심계항진"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    other: "마른 기침, 밤에 갑자기 숨이 차서 깨는 증상(PND) 1-2회 경험"
+  factors:
+    aggravating:
+      - "누운 자세 (supine position)"
+      - "신체 활동"
+    alleviating: "앉거나 상체를 높이고 있을 때"
+  health_check_history:
+    last_checkup: "2주 전 산전 진찰"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "-"
+    effect: "-"
+  social_history:
+    job: "플로리스트"
+    stress: "증상으로 인한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "최근 증상으로 중단"
+    recent_weight_change: "임신 후 13kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "G1P0, LMP: 약 9개월 전, EDC: 3주 후, 임신 37주"
+physical_exam:
+  general: "호흡이 가쁘고 불안해 보임. 앉은 자세를 유지하려고 함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+    # 경정맥 팽창(jugular vein distention) 관찰됨
+  chest: "Tachycardia. 양쪽 폐하부에서 수포음(crackles) 청진됨. S3 gallop 청진 가능."
+  abdomen:
+    inspection: "임신 37주에 합당한 크기"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "양쪽 발목에 심한 함요 부종 (pitting edema 3+)"
+standardized_patient_questions: "배가 불러서 그런 게 아닌가요? 심장에 문제가 있을 수도 있나요? 곧 출산해야 하는데, 아기는 건강하게 낳을 수 있을까요?"
+specific_remarks: "환자는 숨이 차서 말을 길게 잇지 못하고 중간중간 숨을 고르는 모습을 연기해야 한다. 특히 '누우면 숨이 차다'는 점(orthopnea)을 명확히 호소해야 한다. 신체 진찰 시 의사가 청진할 때 협조하며, 자신의 증상에 대해 매우 불안해하는 태도를 보인다."

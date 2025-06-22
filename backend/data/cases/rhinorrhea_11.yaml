@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (비강 골절)"
+patient_info:
+  name: "김철수"
+  age: 21
+  sex: "남성"
+  presenting_complaint: "넘어진 후 코피가 나고 코가 막힘"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "90회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비골 골절"
+    - "비중격 혈종"
+    - "안와 골절 또는 두개저 골절 동반 가능성"
+  necessary_tests:
+    - "안면부 X-ray (nasal bone series)"
+    - "안면부 CT (동반 골절 및 비중격 상태 평가)"
+    - "비강 내시경 검사 (비중격 혈종 유무 확인)"
+  necessary_treatments:
+    - "초기 냉찜질 및 지혈"
+    - "비골 골절에 대한 정복술 (보통 부종이 가라앉은 후 5-10일 이내 시행)"
+    - "비중격 혈종이 있을 경우 즉각적인 절개 및 배농술"
+history:
+  sex_age: "남성/21"
+  chief_complaint_verbatim: "어젯밤에 술 마시고 계단에서 굴렀는데, 그 뒤로 코피가 멈추지 않고 코가 붓고 아파요. 코 모양도 이상해진 것 같아요."
+  onset: "12시간 전"
+  location:
+    initial: "코, 얼굴"
+    current: "코, 얼굴"
+  duration:
+    onset_pattern: "외상 후 급성 발생"
+    recent_course: "자고 일어났더니 눈 주위까지 멍이 들고 코가 더 많이 부었음"
+  course: "외상 직후 다량의 코피가 있었고, 현재는 소량씩 나옴. 코 주위 통증과 압통이 심하며, 코로 숨쉬기가 힘듦."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "심한 통증, 코막힘, 외형 변화"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "코를 만질 때"
+    alleviating: "가만히 있을 때"
+  health_check_history:
+    last_checkup: "군 입대 신체검사 (1년 전)"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "12시간 전 계단에서 구르는 외상력"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3회"
+      amount: "소주 1-2병 (어제 과음함)"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: ""
+    exercise: "주 3회 농구"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "통증으로 인상을 찡그리고 있으며, 안절부절못하는 모습."
+  heent:
+    sclera: "정상, 결막하 출혈은 없음"
+    oral_mucosa: "정상"
+    # 추가 소견: 코와 눈 주위에 심한 부종과 반상출혈(멍). 코뼈를 촉진 시 심한 압통과 함께 뼈의 움직임(mobility) 및 염발음(crepitus)이 느껴짐. 외형상 코가 주저앉고 C자 형태로 휘어 보임.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "코뼈가 부러진 건가요? 코 모양이 원래대로 돌아올 수 있나요? 지금 당장 수술해야 하는 거 아닌가요? 혹시 뇌는 괜찮을까요?"
+specific_remarks: "환자는 통증을 심하게 호소하며, 자신의 얼굴이 변형된 것에 대해 매우 불안해한다. 의사가 코를 만지려고 하면 아파하며 피한다."

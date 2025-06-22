@@ -1,0 +1,116 @@
+---
+chapter: "상담"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (케타민 사용장애)"
+patient_info:
+  name: "오세영"
+  age: 22
+  sex: "여성"
+  presenting_complaint: "소변 볼 때 아프고 피가 나와요"
+vital_signs:
+  blood_pressure: "128/85mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "37.0℃"
+examinee_instructions: "환자의 배뇨 증상에 대한 병력을 상세히 청취하시오. 일반적인 방광염과 감별하면서, 난치성, 만성적인 경과를 보일 경우 약물 남용, 특히 케타민 사용력을 조심스럽게 문진해야 합니다. 케타민 유발성 방광염의 심각성과 비가역적인 손상 가능성에 대해 설명하고 치료를 권유하시오."
+patient_education:
+  probable_diagnoses:
+    - "케타민 유발성 방광염 (Ketamine-induced cystitis)"
+    - "간질성 방광염"
+    - "재발성 요로감염"
+  necessary_tests:
+    - "소변검사 및 소변 배양검사"
+    - "소변 약물 정밀검사"
+    - "방광경 검사 및 조직검사, 방광 초음파"
+  necessary_treatments:
+    - "즉각적인 케타민 사용 중단"
+    - "비뇨의학과 및 정신건강의학과 협진"
+    - "방광 기능 보존을 위한 치료 및 통증 조절"
+history:
+  sex_age: "여성/22세"
+  chief_complaint_verbatim: "소변이 너무 자주 마렵고, 볼 때마다 아랫배가 찢어질 듯이 아파요. 소변에 피가 섞여 나올 때도 있어요."
+  onset: "약 4개월 전부터"
+  location:
+    initial: "아랫배, 요도"
+    current: "아랫배, 요도"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "여러 병원에서 방광염 약을 먹어도 전혀 낫지 않고 점점 심해짐. 지금은 30분에 한 번씩 화장실에 가야 함."
+  course: "클럽에서 만난 친구들을 통해 약 1년 전부터 케타민(K, 스페셜 K)을 흡입하기 시작함. 'K-hole'이라 불리는 해리성 환각 상태를 즐기기 위해 점차 사용 빈도와 양이 늘어남. 4개월 전부터 배뇨통과 빈뇨가 시작되었으나, 대수롭지 않게 생각하고 케타민을 계속 사용함. 통증이 너무 심해져 일상생활이 불가능할 정도가 되어 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "칼로 베는 듯한 날카로운 통증 (배뇨 시)"
+    nrs_score: "8-9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    urinary:
+      frequency: true
+      urgency: true
+      dysuria: true
+      hematuria: true
+      incontinence: true
+  factors:
+    aggravating:
+      - "소변 볼 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "기억 안남"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "여러 병원에서 처방받은 항생제, 진경제"
+    source: "의원"
+    effect: "효과 없었음"
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: "없음"
+    exercise: "안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 3주 전. 증상으로 인해 성생활 불가능"
+physical_exam:
+  general: "통증으로 인해 안색이 좋지 않고 불안해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      suprapubic_tenderness: "치골 상부 압통이 매우 심함"
+  cvat: "좌/우 음성"
+  extremity: "정상"
+standardized_patient_questions: "왜 약을 먹어도 낫지를 않는 걸까요? 혹시 방광암 같은 나쁜 병인가요? 평생 이렇게 아프면서 살아야 하나요? 제발 안 아프게만 해주세요."
+specific_remarks: "만성적인 통증으로 인해 매우 지치고 우울한 상태를 보임. 자신의 증상이 약물 때문일 것이라고는 전혀 생각하지 못함. 의사가 난치성 방광염의 원인 중 하나로 케타민을 언급하며 조심스럽게 물어볼 때, 깜짝 놀라며 부인하다가 결국 연관성을 깨닫고 절망적인 반응을 보임. 방광이 영구적으로 손상될 수 있다는 설명에 큰 충격을 받음."

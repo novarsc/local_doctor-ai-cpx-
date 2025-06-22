@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (만성 췌장염)"
+patient_info:
+  name: "오태식"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "지속적인 복통과 기름진 변"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 치료(절대적 금주 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 췌장염"
+    - "소화성 궤양"
+    - "담도계 질환"
+  necessary_tests:
+    - "복부 CT"
+    - "혈액 검사 (Amylase/Lipase, 혈당, 영양상태 평가)"
+    - "대변 지방 정량 검사"
+  necessary_treatments:
+    - "절대적인 금주 (재발 방지의 핵심)"
+    - "저지방 식이요법"
+    - "췌장 효소 보충제 복용 및 통증 조절"
+history:
+  sex_age: "남성/45세"
+  chief_complaint_verbatim: "몇 년째 배가 계속 아프고, 요즘은 기름진 음식을 먹으면 설사를 하고 변에 기름이 둥둥 떠요. 살도 계속 빠지고요."
+  onset: "수년 전부터 간헐적 복통 시작, 최근 6개월간 증상 악화"
+  location:
+    initial: "명치"
+    current: "명치, 등 쪽으로 뻗침"
+  duration:
+    onset_pattern: "지속적, 식후 악화"
+    recent_course: "점점 심해짐"
+  course: "5년 전 급성 췌장염으로 입원한 적이 있음. 그 후로도 음주하면 명치가 심하게 아팠음. 최근에는 통증이 거의 매일 있고, 소화가 안 되며 기름진 변을 보기 시작함."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "음주, 기름진 음식"
+    symptoms: "심한 복통"
+  character_of_symptom:
+    quality: "칼로 찌르는 듯, 쥐어짜는 듯한 통증"
+    nrs_score: "7-8"
+    radiation: "등으로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔 있음"
+      constipation: false
+      diarrhea: true
+      steatorrhea: "기름진 변(지방변)"
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 (특히 기름진 음식)"
+      - "음주"
+    alleviating: "몸을 앞으로 웅크리면 약간 나아짐"
+  health_check_history:
+    last_checkup: "5년 전 입원 당시"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "급성 췌장염 (5년 전, 음주 원인)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제 (필요시)"
+    source: "약국"
+    effect: "일시적 완화"
+  social_history:
+    job: "자영업 (식당 운영)"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 4-5회"
+      amount: "소주 1-2병/회 (끊으려 했으나 실패)"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "지난 1년간 10kg 감소"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "만성 병색, 마른 체형"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "복부 편평함"
+    auscultation: "장음 약간 증가"
+    percussion: "정상"
+    palpation:
+      epigastric_tenderness: "심한 압통"
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "근육 위축 관찰됨"
+standardized_patient_questions: "이 통증은 평생 가는 건가요? 밥 먹기가 무서워요. 술을 한 잔도 마시면 안 되나요? 사회생활 때문에 힘든데..."
+specific_remarks: "환자는 고통스러운 표정을 지으며 복통을 호소함. 특히 '절대적 금주'에 대해 강한 거부감을 보이며, 사회생활 핑계를 댐. 췌장 기능이 더 손상되면 당뇨병이 생길 수 있고 통증이 조절되지 않을 수 있다는 구체적인 설명에 심각성을 인지하고 절망적인 모습을 보임. 이때 의사의 공감과 지지가 중요함."

@@ -1,0 +1,116 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (조영제 유발 신독성)"
+patient_info:
+  name: "조영남"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "검사 후 3일째부터 소변이 거의 나오지 않음"
+vital_signs:
+  blood_pressure: "150/85mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "조영제 유발 신병증 (Contrast-Induced Nephropathy)"
+    - "콜레스테롤 색전증"
+    - "신전성 급성 신손상"
+  necessary_tests:
+    - "혈액 검사 (BUN/Cr 추적 검사, 전해질)"
+    - "소변 검사 (Fractional excretion of sodium, FENa)"
+    - "신장 초음파"
+  necessary_treatments:
+    - "충분한 수액 공급"
+    - "신기능 모니터링"
+    - "필요시 일시적 투석 고려"
+history:
+  sex_age: "남성/65"
+  chief_complaint_verbatim: "심장 스텐트 시술 받고 퇴원했는데, 그저께부터 소변이 거의 안 나와요. 하루에 한 번 갈까 말까 해요."
+  onset: "3일 전"
+  location:
+    initial: "없음"
+    current: "핍뇨"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "지속"
+  course: "평소 당뇨와 고혈압이 있었음. 5일 전, 가슴 통증으로 응급실 내원하여 관상동맥 조영술 및 스텐트 삽입술을 받음. 시술 후 증상 호전되어 4일 전에 퇴원함. 퇴원 다음 날(3일 전)부터 소변량이 눈에 띄게 줄어든 것을 인지했고, 오늘은 거의 소변을 보지 못하여 외래로 다시 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "소변 마려운 느낌 없이 그냥 소변이 안 나옴"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5일 전 입원 당시 검사"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 (15년), 고혈압 (15년), 만성 신부전 (stage 3, 기저 Cr 1.8mg/dL)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Metformin (시술 전후로 중단함)"
+      - "Losartan"
+      - "Aspirin"
+      - "Clopidogrel"
+    source: "대학병원 내과"
+    effect: "잘 유지되어 왔음"
+  social_history:
+    job: "자영업"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "20년 전 금연"
+    exercise: "주 3회 걷기"
+    recent_weight_change: "없음"
+  family_history: "부친: 심근경색"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색. 특별히 불편해 보이지는 않으나 다소 불안한 기색."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양 발등에 경미한 오목 부종(pitting edema 1+) 관찰됨. 시술 부위인 우측 서혜부에 멍 자국 있음."
+standardized_patient_questions: "심장 시술은 잘 됐다고 했는데 왜 소변이 안 나오나요? 검사할 때 쓴 약 때문일 수 있다던데, 그럼 콩팥이 영구적으로 나빠진 건가요?"
+specific_remarks: "환자는 비교적 차분한 편이다. 자신의 기저질환(당뇨, 고혈압, 만성 신부전)에 대해 잘 알고 있으며, 이번 증상이 기존의 신장 기능 저하와 관련 있을까 봐 걱정하는 모습을 보인다."

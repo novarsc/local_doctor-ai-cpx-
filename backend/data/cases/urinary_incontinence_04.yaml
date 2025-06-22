@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (급성 방광염에 의한 일시적 요실금)"
+patient_info:
+  name: "최유진"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "소변볼 때 통증이 있고 소변이 급하게 새는 증상"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 방광염 (Acute Cystitis)에 동반된 요실금"
+    - "급성 신우신염 (Acute Pyelonephritis)"
+    - "과민성 방광 (Overactive Bladder)"
+  necessary_tests:
+    - "요검사 (urinalysis) 및 요배양 검사"
+    - "필요시 혈액검사 (CBC, CRP)"
+    - "필요시 복부 초음파"
+  necessary_treatments:
+    - "경구 항생제 투여"
+    - "충분한 수분 섭취"
+    - "증상 완화를 위한 진통제"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "이틀 전부터 갑자기 소변이 자주 마렵고, 볼 때마다 아파요. 그리고 화장실 가기 전에 참지 못하고 속옷에 찔끔 지렸어요."
+  onset: "2일 전"
+  location:
+    initial: "아랫배, 요도"
+    current: "아랫배, 요도"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "증상 지속"
+  course: "이틀 전 아침부터 소변이 자주 마렵고 찌릿한 통증이 시작되었다. 어제부터는 소변을 봐도 시원하지 않은 잔뇨감이 생겼고, 오늘 아침에는 소변이 너무 급해 화장실에 가다가 속옷을 적셨다."
+  experience_prev_episodes:
+    frequency: "1년 전 1회"
+    trigger: "피곤할 때"
+    symptoms: "비슷한 배뇨통, 빈뇨 증상 있었음"
+  character_of_symptom:
+    quality: "소변 볼 때 타는 듯한 통증(dysuria), 갑자기 참을 수 없는 요의(urgency), 소변이 찔끔 새는 느낌"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true # 소변색이 탁함
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "소변 볼 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전, 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원 (사무직)"
+    stress: "최근 프로젝트 때문에 야근이 잦고 스트레스 많았음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "최근 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "G0-P0-A0-L0, LMP: 2주 전, 성생활 활발함"
+physical_exam:
+  general: "미열과 통증으로 인해 다소 힘들어 보임"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # suprapubic tenderness 양성
+  cvat: "좌/우 음성"
+  extremity: "no pitting edema"
+standardized_patient_questions: "왜 갑자기 이런 건가요? 큰 병은 아니겠죠? 남자친구에게 옮길 수도 있나요?"
+specific_remarks: "환자는 아랫배를 감싸 쥔 채로 통증을 호소한다. 열이 나고 으슬으슬 춥다고 표현한다. 요실금 증상에 대해 당혹스러워하며, 빨리 치료받고 싶어 한다."

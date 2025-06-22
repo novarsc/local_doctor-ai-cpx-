@@ -1,0 +1,117 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (기능성 변비 - 서행성)"
+patient_info:
+  name: "박서연"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "만성적인 변비와 복부 팽만감"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "68회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기능성 변비 (서행성 변비 의심)"
+    - "과민성 장 증후군 - 변비형"
+    - "약물 유발성 변비"
+  necessary_tests:
+    - "혈액검사 (갑상선 기능 포함)"
+    - "대장 통과 시간 검사"
+    - "필요시 대장 내시경"
+  necessary_treatments:
+    - "생활 습관 교정 (고섬유식이, 수분 섭취, 운동)"
+    - "팽창성 또는 삼투성 하제 사용"
+    - "위장관 운동 촉진제 고려"
+history:
+  sex_age: "여/28"
+  chief_complaint_verbatim: "대학생 때부터 변을 일주일에 한두 번밖에 못 봐요. 배는 항상 더부룩하고 가스가 차는 느낌이에요."
+  onset: "약 10년 전"
+  location:
+    initial: "하복부 전반"
+    current: "하복부 전반"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "비슷하게 유지됨"
+  course: "10대 후반부터 배변 횟수가 주 2회 미만으로 감소했다. 배변 욕구 자체가 잘 생기지 않으며, 변을 보더라도 딱딱하고 양이 적어 시원하지 않다. 복통이 주 증상은 아니지만, 항상 배가 더부룩하고 팽만감이 있다."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: "스트레스, 여행 시 악화"
+    symptoms: "현재와 동일한 증상"
+  character_of_symptom:
+    quality: "더부룩하고 팽만한 느낌"
+    nrs_score: "2-3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "활동량이 적을 때"
+      - "육류 위주 식사 시"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전 국가검진"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 시중에서 변비약(비사코딜 성분) 구매하여 복용"
+    source: "약국 구매"
+    effect: "복용 시에만 일시적으로 효과 있으나 복통 동반"
+  social_history:
+    job: "사무직"
+    stress: "업무 스트레스 보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "어머니가 변비가 있으심"
+  female_history: "LMP: 2주 전, 주기 및 양상 규칙적"
+physical_exam:
+  general: "특이 소견 없음"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조하지 않음"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "편평하고 흉터 없음"
+    auscultation: "장음 감소 (분당 3회)"
+    percussion: "고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      diffuse_mild_tenderness: true
+      palpable_stool_in_llq: true
+  cvat: "좌우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "제 장이 아예 안 움직이는 건가요? 평생 약을 먹고 살아야 하나요?"
+specific_remarks: "환자는 자신의 증상을 담담하게 설명하지만, 오랜 기간 지속된 불편함에 대해 체념한 듯한 태도를 보인다. 복부 진찰 시 약간의 불편감을 표현한다."

@@ -1,0 +1,123 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (트리코모나스 질염)"
+patient_info:
+  name: "이수진"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "누런색 질 분비물과 악취, 외음부 따가움"
+vital_signs:
+  blood_pressure: "125/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "트리코모나스 질염 (Trichomonas vaginitis)"
+    - "세균성 질염 (Bacterial vaginosis)"
+    - "임균성 또는 클라미디아 자궁경부염 (Gonococcal or Chlamydial cervicitis)"
+  necessary_tests:
+    - "질 분비물 현미경 검사 (Wet mount microscopy)"
+    - "성매개감염병 핵산증폭검사 (STD NAAT)"
+    - "자궁경부암 검사 (Pap smear)"
+  necessary_treatments:
+    - "항생제(메트로니다졸) 복용"
+    - "배우자 또는 성 파트너와 함께 치료"
+    - "완치 판정 전까지 성관계 금지"
+history:
+  sex_age: "여성/32"
+  chief_complaint_verbatim: "열흘 전부터 속옷에 노랗고 거품 섞인 분비물이 묻어 나오고, 냄새도 심해요. 성관계할 때 아프고, 소변볼 때도 따끔거려요."
+  onset: "약 10일 전"
+  location:
+    initial: "질"
+    current: "질, 외음부"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "증상이 계속됨"
+  course: "처음에는 분비물만 조금 나오다가, 일주일 전부터는 냄새도 심해지고 가렵고 따가운 증상이 추가되었습니다."
+  experience_prev_episodes:
+    frequency: "처음임"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "녹황색의, 약간 거품이 있는 물 같은 분비물, 악취"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "성관계 시 통증 (Dyspareunia)"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 자궁경부암 검사"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "숨쉬기 운동"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "15세"
+    menstrual_cycle: "28일 주기, 규칙적"
+    duration: "5일"
+    amount: "보통"
+    lmp: "2주 전"
+    gpa: "1-0-1-1 (1년 전 인공유산)"
+    sexual_partner: "3개월 전 새로운 파트너 만남"
+    contraception: "피임약을 복용하다가 최근 중단함. 관계 시 콘돔은 사용하지 않음."
+physical_exam:
+  general: "불편한 기색이 있으나 전신 상태는 양호함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 질경 검사 시: 질 후방원에 고여있는 다량의 화농성, 거품 섞인 분비물 관찰. 자궁경부에 딸기 모양의 반점(strawberry cervix)이 보임.
+      # 내진 시: 약간의 자궁경부 압통(CMT) 있음.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "이게 무슨 병인가요? 왜 걸리는 거예요? 치료하면 깨끗이 낫나요? 남자친구도 검사받아야 하나요?"
+specific_remarks: "성 파트너에 대한 질문에 약간 방어적인 태도를 보이며, 최근 파트너가 바뀐 사실을 마지못해 이야기한다. 성병일 가능성에 대해 매우 불안해한다."

@@ -1,0 +1,124 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (자궁경부암)"
+patient_info:
+  name: "강미영"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "성관계 후 질출혈"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁경부암 (Cervical cancer)"
+    - "자궁경부 용종 (Cervical polyp)"
+    - "위축성 질염 또는 자궁경부염"
+  necessary_tests:
+    - "자궁경부 세포검사 (Pap smear)"
+    - "질확대경 검사 (Colposcopy)"
+    - "자궁경부 조직검사 (Cervical biopsy)"
+  necessary_treatments:
+    - "조직검사 결과에 따라 치료 방침 결정"
+    - "초기인 경우 원추절제술 또는 자궁절제술"
+    - "진행된 경우 방사선 치료 및 항암화학요법 병행"
+history:
+  sex_age: "여성/45"
+  chief_complaint_verbatim: "두 달 전부터 남편이랑 잠자리를 하고 나면 꼭 피가 나와요. 처음엔 조금 묻어나는 정도였는데, 저번 주에는 양이 꽤 많았어요. 악취나는 분비물도 있고요."
+  onset: "약 2개월 전"
+  location:
+    initial: "질"
+    current: "질"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "출혈 빈도와 양이 증가함"
+  course: "두 달 전 처음 성교 후 출혈을 경험했고, 이후 관계 시마다 반복되었습니다. 2주 전부터는 성관계와 상관없이 소량의 혈성 분비물이 속옷에 묻어 나올 때도 있습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "성교 후 출혈 (선홍색), 혈성 및 악취나는 질 분비물"
+    nrs_score: "2 (경미한 골반통)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "성관계"
+      - "심한 활동"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "식당 운영"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑 (25년)"
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "지난 3개월간 4kg 감소"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "16세"
+    menstrual_cycle: "불규칙적"
+    duration: "4-5일"
+    amount: "보통"
+    lmp: "3주 전"
+    gpa: "3-0-1-2"
+    sexual_partner: "배우자 1명 (과거 여러 명)"
+    contraception: "해당 없음"
+physical_exam:
+  general: "다소 지쳐 보이며, 불안한 기색을 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 질경 검사 시: 자궁경부에서 쉽게 출혈하는 양배추 모양(exophytic)의 종괴가 관찰됨. 악취를 동반한 혈성 분비물이 있음.
+      # 내진 시: 자궁경부가 단단하게 만져지고, 자궁 주변 조직(parametrium) 침범 의심됨.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "그냥 염증인 줄 알았는데, 왜 피가 나는 건가요? 혹시 나쁜 병인가요? 검사하면 바로 알 수 있어요?"
+specific_remarks: "오랫동안 병원에 오지 않은 것에 대해 후회와 자책감을 내비친다. '암'이라는 단어에 매우 민감하게 반응하며 눈물을 보일 수 있다."

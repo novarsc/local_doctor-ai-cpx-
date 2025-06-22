@@ -1,0 +1,116 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (방광류 동반된 골반장기탈출증)"
+patient_info:
+  name: "오정숙"
+  age: 65
+  sex: "여성"
+  presenting_complaint: "밑이 빠지는 느낌과 함께 소변이 시원하지 않고 샘"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "방광류(Cystocele)를 동반한 골반장기탈출증"
+    - "복압성 요실금"
+    - "자궁탈출증"
+  necessary_tests:
+    - "골반 내진 (Pelvic exam)"
+    - "요류역학검사"
+    - "필요시 골반 초음파 또는 MRI"
+  necessary_treatments:
+    - "골반저근운동"
+    - "페서리(Pessary) 삽입 등 보존적 치료"
+    - "전질벽봉합술(anterior colporrhaphy) 등 수술적 교정"
+history:
+  sex_age: "여성/65세"
+  chief_complaint_verbatim: "오래 서 있거나 힘을 주면 밑이 묵직하고 뭔가 빠지는 느낌이 들어요. 소변을 봐도 시원하지 않고, 웃거나 기침하면 소변이 찔끔 나와요."
+  onset: "수년 전부터 서서히"
+  location:
+    initial: "질, 하복부"
+    current: "질, 하복부"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 1년간 악화"
+  course: "몇 년 전부터 아래가 묵직한 느낌이 있었는데, 최근에는 오래 서 있으면 주먹만 한 게 만져지기도 한다. 소변을 볼 때 손으로 질 쪽을 받쳐야 잘 나온다. 기침할 때 소변이 새는 증상도 심해졌다."
+  experience_prev_episodes:
+    frequency: "지속적, 특히 오후에 심해짐"
+    trigger: "오래 서 있기, 무거운 물건 들기, 배에 힘주기"
+    symptoms: "질 쪽의 덩어리 만져짐, 압박감, 잔뇨감, 복압성 요실금"
+  character_of_symptom:
+    quality: "질을 통해 무언가 튀어나오는 느낌, 소변을 눌러서 짜내야 하는 느낌"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오후 시간"
+      - "기침, 변비"
+      - "서 있는 자세"
+    alleviating: "누워 있거나 아침에 일어났을 때"
+  health_check_history:
+    last_checkup: "2년 전, 특이사항 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "농업"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "밭일이 운동임"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "G4-P4-A0-L4, 4회 모두 자연분만, 48세 완경"
+physical_exam:
+  general: "건강해 보이는 노년 여성, 증상 설명 시 민망해함"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 환자에게 발살바 수기(힘주기)를 시키면 질 입구로 부드러운 덩이가 돌출되는 것을 시진으로 확인 가능함을 암시
+  cvat: "좌/우 음성"
+  extremity: "no pitting edema"
+standardized_patient_questions: "밑이 빠지는 것 같은데 이게 병인가요? 수술 말고는 방법이 없나요? 너무 창피해서 병원에 오기까지 오래 걸렸어요."
+specific_remarks: "환자는 증상에 대해 말하기 매우 부끄러워하며, 특히 '밑이 빠진다'는 표현을 자주 사용한다. 소변을 볼 때 손으로 질 부위를 눌러야 편하다는 점을 조심스럽게 이야기한다. 힘을 줄 때 증상이 심해지는 것을 재현하는 것을 꺼린다."

@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "24"
+title: "실전 모의 증례 (갑상선 중독 발작, Thyrotoxic Crisis)"
+patient_info:
+  name: "백선아"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "가슴이 두근거리고 열이 나면서 헛소리를 함"
+vital_signs:
+  blood_pressure: "150/70mmHg"
+  pulse: "160회/분 (불규칙)"
+  respiration: "28회/분"
+  temperature: "40.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갑상선 중독 발작 (Thyroid storm)"
+    - "패혈증"
+    - "악성 고열증"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4, T3)"
+    - "심전도"
+    - "혈액 검사 (CBC, 전해질, 간기능)"
+  necessary_treatments:
+    - "베타차단제 (Propranolol) 정맥 주사"
+    - "항갑상선제 (PTU 또는 Methimazole) 투여"
+    - "요오드 용액, 스테로이드 투여"
+    - "적극적인 체온 강하 및 수액 공급"
+history:
+  sex_age: "여성/31세"
+  chief_complaint_verbatim: "친구가 갑자기 심장이 터질 것 같다고 소리를 지르고 열이 펄펄 끓어요. 지금은 정신이 오락가락해요."
+  onset: "오늘 오후"
+  location:
+    initial: "가슴, 전신"
+    current: "전신"
+  duration:
+    onset_pattern: "급격히 발생"
+    recent_course: "급속도로 악화"
+  course: "1년 전 그레이브스병을 진단받았으나, 최근 증상이 호전된 것 같아 2개월 전부터 자의로 약을 끊었음. 3일 전부터 다시 손떨림과 가슴 두근거림이 심해짐. 오늘 오후, 갑자기 극심한 불안감과 함께 심장이 터질 것 같다고 호소하며 안절부절못함. 고열과 함께 땀을 비 오듯 흘리고, 점차 의식이 흐려지며 횡설수설하기 시작하여 친구가 119에 신고."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "항갑상선제 중단, 스트레스"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "극심한 빈맥, 고열, 정신 상태 변화"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "1회"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3개월 전 내분비내과"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "그레이브스병"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Methimazole (2개월 전 자의로 중단)"
+    source: "내분비내과"
+    effect: "-"
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안함"
+    recent_weight_change: "최근 2개월간 7kg 감소"
+  family_history: "어머니가 갑상선기능항진증"
+  female_history: "LMP: 2주 전"
+physical_exam:
+  general: "매우 초조하고(agitated) 불안해하며, 의식은 혼돈 상태. 땀으로 온몸이 흠뻑 젖어 있음. 피부가 따뜻하고 축축함."
+  heent:
+    sclera: "Icteric sclera (황달) 관찰됨."
+    oral_mucosa: "건조함."
+    # 안구 돌출(exophthalmos) 및 안검 후퇴(lid lag) 관찰됨.
+  chest: "심박동이 매우 빠르고 불규칙함(심방세동). 호흡 빠름."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "미세한 진전(fine tremor)이 심하게 관찰됨. 심부건반사 항진."
+standardized_patient_questions: "친구가 왜 이러는 거죠? 갑상선 약 끊어서 그런가요? 심장이 너무 빨리 뛰는데, 위험한 거 아닌가요?"
+specific_remarks: "환자는 극심한 불안과 초조함을 연기한다. 안절부절못하며 침대에서 내려오려고 하는 등 통제가 어려운 모습을 보인다. 고열, 빈맥, 정신 상태 변화라는 갑상선 중독 발작의 3대 증상을 명확히 표현한다. 신체 진찰 시 안구 돌출, 갑상선 종대, 손떨림 등 갑상선 기능 항진증의 소견을 보여준다. 함께 온 친구가 병력을 진술한다."

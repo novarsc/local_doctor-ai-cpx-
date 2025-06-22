@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (척수 신경 손상 - 마미 증후군)"
+patient_info:
+  name: "강민호"
+  age: 42
+  sex: "남성"
+  presenting_complaint: "갑자기 발생한 허리 통증과 변비, 소변 문제"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "마미 증후군 (Cauda equina syndrome)"
+    - "급성 추간판 탈출증"
+    - "척추 감염 또는 종양"
+  necessary_tests:
+    - "응급 요추 MRI"
+    - "신경학적 진찰 (항문 괄약근 긴장도, 감각 검사)"
+    - "배뇨 후 잔뇨량 측정"
+  necessary_treatments:
+    - "응급 수술적 감압술"
+    - "통증 조절"
+    - "수술 후 재활 치료"
+history:
+  sex_age: "남/42"
+  chief_complaint_verbatim: "어제 무거운 걸 들다가 허리를 삐끗했는데, 갑자기 다리에 힘이 빠지고 엉덩이 쪽 감각이 이상해요. 변도 안 나오고 소변이 마려운데 나오질 않아요."
+  onset: "1일 전"
+  location:
+    initial: "허리"
+    current: "허리, 양측 다리, 회음부"
+  duration:
+    onset_pattern: "초급성 발생"
+    recent_course: "급격히 악화"
+  course: "어제 오후, 이삿짐을 나르다 허리에서 '뚝'하는 느낌과 함께 극심한 통증이 발생했다. 이후 양측 다리로 뻗치는 방사통과 함께 다리에 힘이 빠지는 느낌이 들었다. 오늘 아침부터는 엉덩이와 항문 주변, 성기 부위가 남의 살처럼 느껴지고(saddle anesthesia), 변의가 있는데도 변이 나오지 않으며, 소변이 마려워도 잘 나오지 않는다(urinary retention)."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "극심한 통증, 저림, 감각 저하"
+    nrs_score: "9-10"
+    radiation: "양측 다리 후면으로"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "허리를 굽힐 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "어제 무거운 물건을 든 병력"
+  past_medical_history:
+    underlying_disease: "간헐적인 허리 통증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "인테리어업"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: ""
+    exercise: "직업상 활동량 많음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "통증으로 매우 고통스러워하며 안절부절못함"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "하복부 탁음 (방광 팽창 의심)"
+    palpation:
+      suprapubic_tenderness: true
+  cvat: "좌우 음성"
+  extremity: "양측 발목 및 발가락 신전 근력 저하 (Grade 3/5). 양측 아킬레스건 반사 소실."
+  # 신경학적 검사 추가
+  sensory_exam: "엉덩이, 회음부, 대퇴부 내측의 감각 저하 (Saddle anesthesia)"
+  anorectal_exam: "항문 괄약근 긴장도 현저히 감소 (decreased anal sphincter tone)."
+standardized_patient_questions: "허리 좀 삔 줄 알았는데 왜 이렇게까지 아프죠? 다리가 마비되는 건 아니겠죠? 빨리 어떻게 좀 해주세요!"
+specific_remarks: "환자는 응급 상황임을 인지하고 매우 불안해하며, 극심한 통증을 호소한다. 진찰 시 통증으로 인해 비명을 지르거나 인상을 쓴다. 신속한 조치를 계속해서 요구한다."

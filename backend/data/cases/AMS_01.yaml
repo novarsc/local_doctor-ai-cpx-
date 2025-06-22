@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (저혈당증, Hypoglycemia)"
+patient_info:
+  name: "김영철"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "의식이 흐리고 횡설수설함"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "98회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "저혈당증"
+    - "뇌졸중"
+    - "전신 감염(패혈증)"
+  necessary_tests:
+    - "응급 혈당 측정 (Finger-stick blood test)"
+    - "전혈구 검사 및 혈액화학 검사"
+    - "뇌 CT 또는 MRI (의식 회복되지 않을 시)"
+  necessary_treatments:
+    - "정맥 내 포도당 주사"
+    - "경구 당분 섭취 (의식 명료해진 후)"
+    - "당뇨병 약물 용량 조절 교육"
+history:
+  sex_age: "남성/72세"
+  chief_complaint_verbatim: "아버지가 아침부터 계속 잠꼬대 같은 소리를 하시고 사람을 못 알아봐요."
+  onset: "오늘 아침 8시경"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "점점 더 심해짐"
+  course: "아침 식사 시간에 아들이 방문했을 때부터 횡설수설하고 기운이 없는 모습을 보였고, 시간이 지나면서 의식이 더 흐려지고 식은땀을 흘림."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "의식 저하 및 혼돈 상태"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "6개월 전"
+    endoscopy_finding: "특이 소견 없음"
+  trauma_history: "최근 1개월 내 없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 제2형 당뇨병 (10년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Metformin"
+      - "Gliclazide"
+      - "Losartan"
+    source: "내과 의원 처방"
+    effect: "어제 저녁 식사를 거르셨으나 약은 복용한 것 같다고 아들이 진술함."
+  social_history:
+    job: "무직 (은퇴)"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "매일 30분씩 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "의식이 기면 상태(drowsy)이며, 질문에 적절히 대답하지 못하고 횡설수설함. 전신에 식은땀이 관찰됨."
+  heent:
+    sclera: "Icteric sclera 없음."
+    oral_mucosa: "점막은 촉촉함."
+  chest: "호흡음은 깨끗하며, 심음은 규칙적임."
+  abdomen:
+    inspection: "복부 팽만 없음."
+    auscultation: "장음 정상."
+    percussion: "Tympany."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "사지에 부종이나 청색증 없음. 미세한 손떨림 관찰됨."
+standardized_patient_questions: "아버지가 왜 갑자기 이러시는 건가요? 당뇨 때문에 그런 건가요? 위험한 상태인가요?"
+specific_remarks: "환자는 의사소통이 거의 불가능한 상태를 연기한다. 보호자인 아들이 옆에서 병력을 대신 진술한다. 신체 진찰 시 약간의 저항을 보일 수 있다. 전신이 축축한 느낌을 준다."

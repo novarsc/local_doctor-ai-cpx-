@@ -1,0 +1,118 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (갑상선기능저하증)"
+patient_info:
+  name: "김무력"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "6개월 전부터 기운이 없고 우울하며 살이 찜"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "55회/분"
+  respiration: "14회/분"
+  temperature: "36.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갑상선기능저하증 (Hypothyroidism)에 의한 기분 증상"
+    - "주요우울장애"
+    - "갱년기 증후군"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4, anti-TPO Ab)"
+    - "기본 혈액 검사 (CBC, Lipid profile, 전해질)"
+    - "심전도 검사 (EKG)"
+  necessary_treatments:
+    - "갑상선 호르몬제 (Levothyroxine) 보충 요법"
+    - "증상 호전 여부 정기적 추적 관찰"
+    - "고지혈증 등 동반 문제에 대한 관리"
+history:
+  sex_age: "여성/55세"
+  chief_complaint_verbatim: "요즘 부쩍 기운도 없고, 자꾸 우울한 생각이 들어요. 입맛도 없는데 살은 계속 찌고, 추위도 너무 심하게 타요. 나이가 들어서 그런가 봐요."
+  onset: "약 6개월 전부터 서서히"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 더 심해짐"
+  course: "6개월 전부터 만성적인 피로감과 무기력감을 느꼈다. 기분도 계속 가라앉고, 예전에 즐기던 모임에도 나가기 싫어졌다. 식사량은 줄었는데 체중은 5kg 늘었고, 남들보다 추위를 유독 심하게 타게 되었다. 변비가 심해지고 피부가 건조하고 거칠어지는 증상도 동반되었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "무기력감, 우울감, 피로, 추위 민감성"
+    nrs_score: "7"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "추운 날씨"
+      - "아침에 일어날 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3년 전, 특이소견 없음"
+    endoscopy_finding: "N/A"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "고지혈증 약 (스타틴 계열, 현재는 잘 안 챙겨 먹음)"
+    source: "내과"
+    effect: "모르겠음"
+  social_history:
+    job: "가정 주부"
+    stress: "보통 수준"
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 6개월간 5kg 증가"
+  family_history: "언니가 갑상선 질환으로 약 복용 중"
+  female_history:
+    lmp: "50세에 폐경"
+    cycle: "N/A"
+    menarche: "15세"
+    menopause: "50세"
+physical_exam:
+  general: "전반적으로 기운이 없고 말이 느림(slow mentation). 얼굴과 손발이 약간 부어있는 듯한 인상(non-pitting edema). 목소리가 쉬어있음(hoarse voice)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "다소 건조함"
+  chest: "호흡음 정상, 심음 정상이나 서맥(bradycardia) 소견 보임."
+  abdomen:
+    inspection: "약간 팽만되어 있음"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "피부가 차고 건조함. 아킬레스건 반사 시 이완기 지연(delayed relaxation phase) 관찰됨."
+standardized_patient_questions: "제가 우울증인가요? 아니면 그냥 갱년기라서 그런 걸까요? 왜 이렇게 몸이 무겁고 힘든지 모르겠어요."
+specific_remarks: "정신과적 증상(우울감, 무기력)과 함께 신체 증상(체중 증가, 추위 민감, 변비, 피부 변화)을 일관되게 호소함. 신체 진찰 시 특징적인 소견(서맥, 부종, 아킬레스건 반사 지연)을 잘 연기해야 함. 모든 것을 '나이 탓'이나 '갱년기 탓'으로 돌리려는 경향을 보임."

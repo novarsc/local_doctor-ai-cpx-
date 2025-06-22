@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (대상포진, Herpes Zoster)"
+patient_info:
+  name: "오미자"
+  age: 65
+  sex: "여성"
+  presenting_complaint: "왼쪽 가슴의 타는 듯한 통증"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대상포진"
+    - "근골격계 통증 (늑간 신경통)"
+    - "협심증"
+  necessary_tests:
+    - "대부분 임상적 진단으로 충분함"
+    - "필요시 바이러스 검사 (Tzanck smear)"
+    - "심장 질환 감별 위한 심전도"
+  necessary_treatments:
+    - "항바이러스제 복용 (72시간 이내 시작이 중요)"
+    - "신경통 조절을 위한 진통제"
+    - "대상포진 후 신경통 예방을 위한 관리"
+history:
+  sex_age: "여성/65세"
+  chief_complaint_verbatim: "사흘 전부터 왼쪽 가슴이랑 등이 불에 데인 것처럼 화끈거리고 아파요. 옷만 스쳐도 깜짝 놀랄 정도로 아파요."
+  onset: "3일 전"
+  location:
+    initial: "왼쪽 등"
+    current: "왼쪽 등에서 시작해서 옆구리를 거쳐 앞가슴까지"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "통증 범위가 넓어지고 강도도 심해짐"
+  course: "처음엔 몸살처럼 으슬으슬 춥고 쑤시다가, 왼쪽 등에 벌레가 기어가는 듯한 이상한 감각이 생겼고, 이후 타는 듯한 통증으로 변함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "타는 듯한, 화끈거리는, 칼로 긋는 듯한"
+    nrs_score: "8"
+    radiation: "없음 (해당 부위 전반이 아픔)"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "옷이 스칠 때"
+      - "움직일 때"
+    alleviating: "가만히 있어도 계속 아픔"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "위축성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "비스포스포네이트, 비타민D"
+    source: "정형외과"
+    effect: "잘 복용 중"
+  social_history:
+    job: "은퇴 (전직: 초등학교 교사)"
+    stress: "최근 손주를 돌보느라 피곤했음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 아파트 단지 걷기"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "20년 전 폐경"
+physical_exam:
+  general: "통증으로 얼굴을 찡그리고 있음. 옷이 닿지 않게 조심하는 모습."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "왼쪽 가슴 부위(T4-T5 피부 분절)를 따라 붉은 반점 위에 여러 개의 작은 수포(vesicle)가 띠 모양으로 분포함. 정중선을 넘지 않음. 병변 부위에 심한 이질통(allodynia)을 호소함."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "심장병인 줄 알고 무서워서 왔는데, 피부에 뭐가 나네요. 이게 뭔가요? 왜 이렇게 아프죠?"
+specific_remarks: "의사가 진찰을 위해 상의를 들어 올리고 병변을 확인하는지 유심히 본다. 병변 부위를 건드리면 '악' 소리를 내며 아파한다. 통증의 양상(타는 듯한, 옷 스치면 아픈)을 구체적으로 설명한다."

@@ -1,0 +1,115 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "30"
+title: "실전 모의 증례 (퇴행성 척추 측만증)"
+patient_info:
+  name: "박춘자"
+  age: 69
+  sex: "여성"
+  presenting_complaint: "수년간 지속된 허리 통증과 최근 악화된 다리 통증"
+vital_signs:
+  blood_pressure: "145/85mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "퇴행성 척추 측만증 (Degenerative scoliosis)"
+    - "척추관 협착증"
+    - "요추 추간판 탈출증"
+  necessary_tests:
+    - "전척추 기립 X선 검사"
+    - "요추 MRI"
+    - "필요시 척추 CT"
+  necessary_treatments:
+    - "보존적 치료: 물리치료, 운동치료, 약물치료, 주사치료"
+    - "보존적 치료 실패, 측만 진행, 심한 신경 증상 시 교정 유합술 고려"
+    - "골다공증 관리"
+history:
+  sex_age: "여성/69세"
+  chief_complaint_verbatim: "허리가 계속 아프고, 오른쪽으로 기우는 것 같아요. 요즘엔 오른쪽 다리가 너무 저려서 걷기가 힘들어요."
+  onset: "허리 통증은 오래되었고, 다리 통증은 1-2년 전부터"
+  location:
+    initial: "허리"
+    current: "허리, 오른쪽 옆구리, 오른쪽 다리"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점점 악화"
+  course: "젊었을 때는 괜찮았는데, 폐경 이후부터 허리가 아프기 시작함. 시간이 지나면서 몸이 한쪽으로 기우는 느낌이 들고, 키도 줄어든 것 같음. 1-2년 전부터는 오래 걸으면 오른쪽 엉덩이부터 발까지 저리고 아파서 쉬었다 가야 함."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "허리는 뻐근하고, 다리는 저리고 터질 듯한 통증"
+    nrs_score: "7"
+    radiation: "오른쪽 다리로"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 서 있거나 걸을 때"
+    alleviating: "앉거나, 쇼핑 카트에 기댈 때"
+  health_check_history:
+    last_checkup: "1년 전, 골다공증 진단"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 골다공증약"
+    source: "내과"
+    effect: "복용 중"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "15년 전 폐경"
+physical_exam:
+  general: "서 있을 때 몸통이 오른쪽으로 기울어져 있고, 골반이 비대칭적으로 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      spinal_alignment: "허리를 숙였을 때(Adam's forward bend test), 오른쪽 등이 더 튀어나오는 늑골 융기(rib hump) 관찰됨. 요추 부위가 왼쪽으로 휘어 있음(관상면 불균형)."
+  cvat: "좌우 음성"
+  extremity: "오른쪽 하지의 신경학적 증상(신경성 파행)을 호소하나, 진찰 시 명확한 근력 약화나 감각 저하는 뚜렷하지 않음."
+standardized_patient_questions: "젊었을 땐 안 그랬는데 왜 나이 들어서 허리가 휘나요? 몸이 자꾸 기울어지는 것 같아 불안해요. 치료하면 다시 똑바로 설 수 있나요?"
+specific_remarks: "이전에는 없었던 측만증이 나이가 들어 발생한 'de novo' 측만증임을 강조해야 함. 몸의 불균형 ('어깨 높이가 다르다', '한쪽으로 기운다')과 신경성 파행 증상을 함께 호소해야 함. 신체 진찰 시, 허리를 숙였을 때 등의 비대칭이 명확히 관찰되는 상황을 가정하고 연기해야 함."

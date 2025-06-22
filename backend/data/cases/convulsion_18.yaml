@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "18"
+title: "실전 모의 증례 (신경낭미충증)"
+patient_info:
+  name: "앙헬"
+  age: 42
+  sex: "남성"
+  presenting_complaint: "처음으로 발생한 경련"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "90회/분"
+  respiration: "16회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신경낭미충증 (Neurocysticercosis)"
+    - "뇌종양"
+    - "뇌농양"
+  necessary_tests:
+    - "뇌 CT 및 MRI (낭종 및 염증 확인)"
+    - "혈액 검사 (낭미충 항체 검사)"
+    - "뇌파 검사"
+  necessary_treatments:
+    - "항경련제 투여"
+    - "구충제 (Albendazole) 및 스테로이드 치료 고려"
+    - "필요시 수술적 제거 (수두증 등 합병증 발생 시)"
+history:
+  sex_age: "남성/42"
+  chief_complaint_verbatim: "공장에서 일하다가 갑자기 쓰러져서 경련을 했어요. 이런 적은 처음이에요."
+  onset: "내원 3시간 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑작스럽게"
+    recent_course: "동료에 따르면 2분 가량 전신 발작 후 20분 정도 멍한 상태였다고 함. 현재는 두통 호소."
+  course: "특별한 전조 증상 없이 작업장에서 갑자기 의식을 잃고 전신 강직-간대 발작을 함. 발작 후 깨어났을 때 상황을 기억하지 못하고 머리가 아프다고 함."
+  experience_prev_episodes:
+    frequency: "없음. 하지만 간헐적으로 두통은 있었다고 함."
+    trigger: "없음"
+    symptoms: ""
+  character_of_symptom:
+    quality: "새롭게 발생한 전신 발작"
+    nrs_score: "두통 NRS 5점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "시간 경과"
+  health_check_history:
+    last_checkup: "기록 없음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "공장 노동자 (외국인 근로자)"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "노동"
+    recent_weight_change: "없음"
+  family_history: "모름"
+  female_history: ""
+  # 추가 병력: 2년 전 필리핀에서 한국으로 옴. 현지에서 돼지고기를 날 것으로 먹는 식습관이 있었음.
+physical_exam:
+  general: "의식 명료. 약간의 두통 호소. 불안해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "신경학적 국소 소견 없음. 근력, 감각, 반사 모두 정상."
+standardized_patient_questions: "왜 갑자기 이런 일이 생긴 건가요? 뇌에 무슨 문제가 있는 건가요? 계속 일할 수 있을까요?"
+specific_remarks: "환자는 외국인 근로자로, 의사소통이 다소 원활하지 않을 수 있다 (쉬운 단어 사용 필요). 자신의 증상에 대해 매우 불안해하며, 치료 비용이나 직장 생활에 대한 걱정을 내비친다. 낭미충증의 위험 요인인 출신 지역 및 식습관에 대한 문진이 진단에 결정적인 단서가 된다."

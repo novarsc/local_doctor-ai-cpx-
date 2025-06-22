@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (셀리악병)"
+patient_info:
+  name: "박서준"
+  age: 30
+  sex: "남성"
+  presenting_complaint: "수년간 지속된 만성 설사와 복부 팽만감, 그리고 8kg의 체중 감소"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "셀리악병 (Celiac disease)"
+    - "과민성 장증후군"
+    - "염증성 장질환 (크론병)"
+  necessary_tests:
+    - "셀리악병 혈청검사 (tTG-IgA, EMA-IgA)"
+    - "상부위장관내시경 및 십이지장 조직검사"
+    - "혈액검사 (철분, 엽산, 비타민 B12, 비타민 D 등 영양 상태 평가)"
+  necessary_treatments:
+    - "평생 글루텐 프리 식이요법"
+    - "영양사 상담을 통한 식단 교육"
+    - "부족한 영양소 보충"
+history:
+  sex_age: "남/30"
+  chief_complaint_verbatim: "몇 년째 배에 가스가 차고 설사를 자주 해요. 특히 빵이나 면 같은 거 먹고 나면 더 심해져요. 살도 자꾸 빠지고요."
+  onset: "수년 전"
+  location:
+    initial: "복부"
+    current: "복부"
+  duration:
+    onset_pattern: "간헐적으로 시작하여 점차 지속적으로 변함"
+    recent_course: "최근 증상에 대한 패턴을 스스로 인지함"
+  course: "오래전부터 소화가 잘 안되고 설사를 자주 했다. 과민성 장증후군인 줄 알았다. 최근 식단 일기를 쓰면서 밀가루 음식을 먹는 날 유독 배가 더부룩하고 설사가 심해지는 것을 발견했다. 식사를 해도 영양 흡수가 안되는 느낌이고, 피로하며 체중이 계속 준다."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "밀, 보리 등 글루텐 함유 음식 섭취"
+    symptoms: "복부 팽만, 설사, 복통"
+  character_of_symptom:
+    quality: "양이 많고 냄새가 고약하며 변기 물에 뜨는 변 (지방변), 복부 팽만감"
+    nrs_score: "3-4점 (복부 불편감)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "빵, 파스타, 라면 등 밀가루 음식 섭취"
+    alleviating: "밀가루 음식을 피했을 때"
+  health_check_history:
+    last_checkup: "2년 전, 철결핍성 빈혈 진단받음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "철결핍성 빈혈"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "철분제 (간헐적으로)"
+    source: "내과 의원"
+    effect: "복용하면 빈혈 수치가 잠시 호전되나, 중단하면 다시 나빠짐"
+  social_history:
+    job: "IT 개발자"
+    stress: "높음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3캔 (마시면 다음날 속이 더 안 좋음)"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 1회 헬스"
+    recent_weight_change: "지난 2년간 8kg 점진적 감소 (75kg -> 67kg)"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "다소 마른 체형이며, 약간 창백해 보임."
+  heent:
+    sclera: "결막이 창백함."
+    oral_mucosa: "구각염(angular cheilitis) 소견 있음."
+  chest: "특이소견 없음"
+  abdomen:
+    inspection: "전반적으로 팽만되어 있음 (distended)."
+    auscultation: "장음 항진"
+    percussion: "고장음 (tympany)을 보임"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 전반적인 경미한 압통 외 특이소견 없음.
+  cvat: "좌우 음성"
+  extremity: "팔꿈치와 무릎에 가렵고 수포가 있는 피부 발진(포진성 피부염, dermatitis herpetiformis)이 몇 개 관찰됨."
+standardized_patient_questions: "밀가루 알레르기 같은 건가요? 평생 빵이랑 면을 못 먹고 살아야 하나요?", "그냥 장이 안 좋은 건데 조직검사까지 해야 하나요?"
+specific_remarks: "환자는 자신의 증상 원인을 어느 정도 짐작하고 있으나, 진단명과 생활 방식의 변화에 대해 불안해한다. 한국인에게 드문 질환이라는 점에 대해 의문을 제기할 수 있다. 포진성 피부염은 셀리악병의 특징적인 피부 소견이므로, 이를 잘 연기하는 것이 중요하다."

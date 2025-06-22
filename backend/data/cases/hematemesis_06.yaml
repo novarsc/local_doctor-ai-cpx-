@@ -1,0 +1,118 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (NSAIDs 유발 출혈성 위염)"
+patient_info:
+  name: "윤정임"
+  age: 68
+  sex: "여성"
+  presenting_complaint: "며칠 전부터 속이 쓰리고 검은 피를 조금 토함"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "88회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비스테로이드성 소염제(NSAIDs)에 의한 급성 출혈성 위염"
+    - "소화성 궤양 출혈"
+    - "위암"
+  necessary_tests:
+    - "상부위장관 내시경"
+    - "일반 혈액 검사"
+    - "헬리코박터 파일로리 검사"
+  necessary_treatments:
+    - "원인 약물(NSAIDs) 즉시 중단"
+    - "양성자 펌프 억제제(PPI) 또는 H2 수용체 차단제 투여"
+    - "향후 통증 조절을 위해 대체 약물(아세트아미노펜 등) 고려"
+history:
+  sex_age: "여성/68세"
+  chief_complaint_verbatim: "무릎이 아파서 약을 먹고 있는데, 며칠 전부터 속이 계속 쓰렸어요. 오늘 아침에 구역질이 나서 웩 했는데 커피가루 같은 게 조금 나왔어요."
+  onset: "속쓰림은 1주일 전, 토혈은 오늘 아침"
+  location:
+    initial: "명치"
+    current: "명치"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "속쓰림이 점점 심해짐"
+  course: "2주 전부터 무릎 통증으로 정형외과에서 처방받은 약을 복용 시작함. 1주일 전부터 명치 부위가 쓰리고 아프기 시작했으며, 오늘 아침 구역질과 함께 소량의 흑색 구토를 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "아리고 쓰린 통증"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "소량의 커피 가루 양상 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후"
+      - "진통제 복용 후"
+    alleviating: "제산제 복용 시 잠시 호전"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "만성 위축성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "퇴행성 관절염, 고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (로사르탄)"
+      - "관절염 약 (나프록센)"
+      - "위장약 (이름 모름, 관절염약과 같이 처방)"
+    source: "내과, 정형외과"
+    effect: "무릎 통증은 좀 나아졌는데 속이 아픔"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "무릎 아파서 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "15년 전 폐경"
+physical_exam:
+  general: "전반적인 상태는 양호하나, 통증으로 미간을 찌푸림"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "이상 없음"
+  abdomen:
+    inspection: "이상 없음"
+    auscultation: "장음 정상"
+    percussion: "이상 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: true
+      epigastric_rebound_tenderness: false
+  cvat: "좌우 음성"
+  extremity: "양쪽 무릎에 경도의 부종 및 압통"
+standardized_patient_questions: "무릎 아파서 먹는 약 때문에 속이 이렇게 아플 수도 있나요? 그럼 이제 무릎 약은 못 먹는 건가요? 다른 방법은 없나요?"
+specific_remarks: "속쓰림과 무릎 통증을 동시에 호소한다. 자신이 복용하는 약에 대한 정보를 정확히 모르며, 약 봉지를 들고 와서 보여주려 한다. 약물 부작용에 대한 걱정을 많이 표현한다."

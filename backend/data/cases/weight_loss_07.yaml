@@ -1,0 +1,116 @@
+---
+chapter: "전신"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (크론병)"
+patient_info:
+  name: "한지훈"
+  age: 22
+  sex: "남성"
+  presenting_complaint: "1년간 지속된 만성 설사와 복통, 그리고 10kg의 체중 감소"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "88회/분"
+  respiration: "16회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "염증성 장질환 (크론병)"
+    - "염증성 장질환 (궤양성 대장염)"
+    - "과민성 장증후군"
+    - "장결핵"
+  necessary_tests:
+    - "대장내시경 및 조직검사"
+    - "혈액검사 (염증 수치, 빈혈, 영양 상태 평가)"
+    - "복부 CT 또는 MRI"
+  necessary_treatments:
+    - "생활 습관 교정 및 증상 조절"
+    - "항염증제, 면역조절제, 생물학적 제제 등 약물 치료"
+    - "정기적인 내시경 추적 검사"
+history:
+  sex_age: "남/22"
+  chief_complaint_verbatim: "배가 계속 아프고 설사를 너무 자주 해요. 1년 동안 살이 10kg나 빠졌어요. 이제는 너무 지쳐요."
+  onset: "약 1년 전"
+  location:
+    initial: "하복부, 특히 우하복부"
+    current: "하복부, 특히 우하복부"
+  duration:
+    onset_pattern: "간헐적으로 시작하여 점차 빈번해짐"
+    recent_course: "최근 3개월간 증상 악화"
+  course: "1년 전부터 간헐적으로 배가 아프고 무른 변을 봤다. 6개월 전부터는 설사가 하루 4-5회로 늘고 복통도 심해졌다. 식사를 하면 복통이 심해질까 봐 식사량이 줄었고 체중이 계속 감소했다. 최근에는 항문 주위에 통증이 있는 종기가 생겼다 없어지기를 반복한다."
+  experience_prev_episodes:
+    frequency: "지속적임"
+    trigger: "스트레스, 기름진 음식"
+    symptoms: "복통, 설사"
+  character_of_symptom:
+    quality: "쥐어짜는 듯한 복통, 점액변은 없으나 혈변은 가끔 보임"
+    nrs_score: "4-7점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식후"
+      - "스트레스"
+    alleviating: "대변을 보고 나면 일시적으로 완화"
+  health_check_history:
+    last_checkup: "군 입대 신체검사 (3년 전), 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "지사제, 진경제 (간헐적으로)"
+    source: "약국"
+    effect: "일시적인 효과만 있음"
+  social_history:
+    job: "대학생"
+    stress: "높음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 못함"
+    recent_weight_change: "1년간 10kg 감소 (72kg -> 62kg)"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "다소 마르고 창백해 보이며, 복통으로 인해 불편한 기색을 보임."
+  heent:
+    sclera: "결막 창백함."
+    oral_mucosa: "구강 내 아프타성 궤양(aphthous ulcer)이 2개 관찰됨."
+  chest: "특이소견 없음"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 항진"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: true
+      # 우하복부(RLQ)에 뚜렷한 압통과 반사 압통이 있음. 만져지는 종괴는 없음.
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "그냥 장이 예민해서 그런 거 아닌가요? 왜 이렇게 오래 아픈 걸까요?", "이 병은 평생 가지고 가야 하나요? 완치는 안 되나요?"
+specific_remarks: "환자는 젊은 나이에 만성적인 질환을 앓는 것에 대한 좌절감과 불안감을 표현한다. 복부 진찰 시 우하복부를 누르면 아프다고 인상을 찌푸린다."

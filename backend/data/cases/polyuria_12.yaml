@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (과도한 알코올 섭취)"
+patient_info:
+  name: "최민수"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "소변을 너무 자주 봐요"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올 섭취와 관련된 다뇨"
+    - "조절되지 않는 고혈압"
+    - "알코올성 간질환 초기"
+  necessary_tests:
+    - "음주 습관에 대한 심층 문진"
+    - "혈액 검사 (간기능 검사, 전해질, 혈당)"
+    - "소변 검사"
+  necessary_treatments:
+    - "금주 또는 절주 교육"
+    - "생활 습관 교정 (식이, 운동)"
+    - "필요시 알코올 의존에 대한 전문적인 상담 및 치료 연계"
+history:
+  sex_age: "남성/48"
+  chief_complaint_verbatim: "언제부턴가 화장실을 너무 자주 가요. 특히 술 마신 다음 날은 하루 종일 화장실을 들락날락해요. 밤에도 깨고요."
+  onset: "약 6개월 전"
+  location:
+    initial: "전신 증상"
+    current: "전신 증상"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "음주 빈도 늘면서 더 심해짐"
+  course: "사업상 스트레스로 인해 거의 매일 저녁 술을 마심. 술을 마시는 날이나 그 다음 날 유독 소변량이 늘고 자주 마려운 것을 느낌. 술을 마시지 않는 날은 증상이 덜함. 최근에는 아침에 얼굴이 잘 붓고 피로감이 심함."
+  experience_prev_episodes:
+    frequency: "음주 시마다 반복"
+    trigger: "음주"
+    symptoms: "다뇨, 다음"
+  character_of_symptom:
+    quality: "소변 양이 많고 잦음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "가끔 아침에"
+      constipation: false
+      diarrhea: true
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음주"
+      - ""
+    alleviating: "술을 마시지 않을 때"
+  health_check_history:
+    last_checkup: "5년 전. 지방간 소견 들었음."
+    endoscopy_finding: "3년 전, 역류성 식도염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "고지혈증 약 (로수바스타틴)"
+    source: "내과"
+    effect: "먹다 말다 함"
+  social_history:
+    job: "개인 사업"
+    stress: "매우 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 5-6회"
+      amount: "소주 2병 이상/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "최근 1년간 10kg 증가 (복부 위주)"
+  family_history: "아버지가 간경화로 사망"
+  female_history: ""
+physical_exam:
+  general: "중등도 비만 체형, 얼굴에 홍조 및 모세혈관 확장 소견"
+  heent:
+    sclera: "경미한 황달 의심 (scleral icterus)"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "복부 팽만 (복부 비만)"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # 간이 약간 촉지되며 둔한 압통 호소 (hepatomegaly with tenderness)
+  cvat: "양측 음성"
+  extremity: "손바닥 홍반 (palmar erythema) 관찰됨, 부종 없음"
+standardized_patient_questions: "술 마시면 소변 자주 보는 게 정상 아닌가요? 왜 병원에 와야 하죠? 간이 안 좋아서 그럴 수도 있나요?"
+specific_remarks: "본인의 증상이 음주와 명확한 관련이 있음을 인지하고 진술할 것. 음주량에 대해서는 축소해서 말하려는 경향을 보이다가, 의사가 구체적으로 물으면 마지못해 사실대로 이야기함. 알코올 의존 가능성을 시사하는 행동(아침 구토, 설사 등)을 표현. 아버지의 간경화 가족력에 대한 질문에 걱정스러운 반응을 보임."

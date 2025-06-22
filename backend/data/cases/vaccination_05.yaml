@@ -1,0 +1,113 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (BCG 접종 후 겨드랑이 림프절염)"
+patient_info:
+  name: "윤지우"
+  age: 3
+  sex: "남성"
+  presenting_complaint: "왼쪽 겨드랑이에 멍울이 만져져요"
+vital_signs:
+  blood_pressure: "88/58mmHg"
+  pulse: "125회/분"
+  respiration: "32회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환아의 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "BCG 접종 후 비화농성 림프절염"
+    - "화농성 림프절염"
+    - "기쿠치병 또는 기타 반응성 림프절염"
+  necessary_tests:
+    - "대부분의 경우 추가 검사 없이 경과 관찰합니다."
+    - "멍울이 매우 크거나(3cm 이상) 피부 변화가 동반되면 초음파 검사를 시행할 수 있습니다."
+    - "화농성 변화가 의심되면 세침흡인검사 또는 조직검사를 고려할 수 있습니다."
+  necessary_treatments:
+    - "자연적으로 호전되는 경우가 많아 경과 관찰이 원칙입니다."
+    - "항결핵제 치료는 일반적으로 권장되지 않으나, 화농성으로 진행될 경우 고려할 수 있습니다."
+    - "농양이 형성되면 배농술이 필요할 수 있습니다."
+history:
+  sex_age: "남아/3개월"
+  chief_complaint_verbatim: "일주일 전부터 왼쪽 겨드랑이에 동그란 게 만져져요. 아파 보이지는 않는데 없어지지 않네요."
+  onset: "약 1주일 전"
+  location:
+    initial: "왼쪽 겨드랑이"
+    current: "왼쪽 겨드랑이"
+  duration:
+    onset_pattern: "우연히 발견"
+    recent_course: "크기 변화는 없는 것 같음"
+  course: "환아는 생후 4주 이내에 보건소에서 BCG(피내용)를 왼쪽 팔에 접종했다. 약 1주일 전, 목욕을 시키다가 보호자가 우연히 왼쪽 겨드랑이에서 작은 멍울을 발견했다. 멍울을 만져도 아기가 아파하거나 보채지는 않았다. 크기가 줄어들지 않고 계속 만져져서 걱정이 되어 내원했다. 아이는 잘 먹고 잘 자며, 열도 없다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "통증 없는 둥근 멍울"
+    nrs_score: "0점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2개월 영유아 검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "해당 없음"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "해당 없음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강하고 편안해 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "왼쪽 상완 삼각근 부위에 정상적인 BCG 접종 반흔 관찰됨. 왼쪽 겨드랑이(axilla)에 약 1.5cm 크기의 단단하고 움직임이 있는 림프절이 촉진됨. 압통, 발적, 열감은 없음."
+standardized_patient_questions: "이거 혹시 암 같은 나쁜 건 아닐까요? 당장 검사나 치료를 해야 하는 거 아닌가요? 왜 생긴 건가요?"
+specific_remarks: "보호자(아빠) 역할. 겉으로는 침착해 보이지만, 아이의 멍울에 대해 심각한 질병일 가능성을 우려하고 있음. BCG 접종과의 연관성에 대해 설명해주면 안도하는 모습을 보임."

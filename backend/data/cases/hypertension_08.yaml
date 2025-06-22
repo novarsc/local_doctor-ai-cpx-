@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (갑상선기능항진증)"
+patient_info:
+  name: "윤세아"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "가슴 두근거림과 손 떨림"
+vital_signs:
+  blood_pressure: "152/80mmHg"
+  pulse: "110회/분"
+  respiration: "20회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갑상선기능항진증 (그레이브스병 의심)"
+    - "불안장애"
+    - "본태성 진전"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4, T3)"
+    - "갑상선 자가항체 검사 (TSI, a-TPO Ab)"
+    - "갑상선 초음파 및 스캔"
+  necessary_treatments:
+    - "항갑상선제 (메티마졸 등)"
+    - "증상 조절을 위한 베타 차단제"
+    - "방사성 요오드 치료 또는 갑상선 절제술 고려"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "가만히 있어도 심장이 뛰고 손이 떨려서 글씨 쓰기가 힘들어요. 밥은 잘 먹는데 살은 자꾸 빠져요."
+  onset: "약 3개월 전"
+  location:
+    initial: "가슴, 양손"
+    current: "가슴, 양손"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 들어 증상이 거의 하루 종일 지속됨"
+  course: "처음엔 피곤해서 그런가 했는데, 더위를 못 참고 땀도 많이 나면서 체중까지 줄어 병원에 옴. 최근 건강검진에서 혈압이 높다고 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "빠르게 쿵쿵거리는 느낌, 미세한 떨림"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "긴장할 때"
+      - "더운 곳에 있을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1달 전, 수축기 고혈압 소견 들음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "마감 스트레스가 잦음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "숨이 차서 최근엔 못함"
+    recent_weight_change: "최근 3개월간 식욕은 좋은데 5kg 감소"
+  family_history: "어머니: 갑상선기능저하증"
+  female_history: "LMP: 3주 전, 최근 주기가 짧아지고 양이 줄어듦"
+physical_exam:
+  general: "불안해 보이고 안절부절 못하는 모습, 약간 마른 체형"
+  heent:
+    sclera: "정상, 안구 돌출은 명확하지 않으나 눈꺼풀 후퇴(lid lag) 소견 보임"
+    oral_mucosa: "정상"
+  chest: "청진상 빈맥, 호흡음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양손의 미세 진전, 피부가 따뜻하고 촉촉함"
+standardized_patient_questions: "심장이 너무 빨리 뛰는데 심장병인가요? 왜 이렇게 살이 빠지죠? 스트레스 때문일까요?"
+specific_remarks: "환자는 불안하고 말이 빠르며, 계속 손을 만지작거리는 등 갑상선기능항진증의 전형적인 모습을 연기한다. 의사가 목을 만져보려고 하면(갑상선 촉진) 순순히 응한다. 갑상선은 부드럽고 미만성으로 커져 있으나 압통은 없다."

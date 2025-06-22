@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (조절되지 않는 제2형 당뇨병)"
+patient_info:
+  name: "최경희"
+  age: 62
+  sex: "여성"
+  presenting_complaint: "소변을 너무 자주 보고 기운이 없음"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "84회/분"
+  respiration: "18회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "고혈당성 고삼투압 증후군(HHS) 초기 또는 조절되지 않는 제2형 당뇨병"
+    - "만성 신부전"
+    - "요로 감염"
+  necessary_tests:
+    - "혈당 검사 및 당화혈색소(HbA1c) 검사"
+    - "전해질 및 신장 기능 검사 (BUN/Cr)"
+    - "소변 검사 (요당, 단백뇨, 케톤)"
+  necessary_treatments:
+    - "적극적인 혈당 조절 (경구 혈당강하제 조정 또는 인슐린 치료 시작)"
+    - "고혈압 관리 강화"
+    - "생활 습관 교정 (식이, 운동) 재교육"
+history:
+  sex_age: "여성/62"
+  chief_complaint_verbatim: "당뇨 약을 먹고 있는데도 요즘 들어 자꾸 목이 마르고 화장실을 들락날락해요. 밤에도 소변 보려고 두세 번은 꼭 깨고, 손발도 좀 저린 것 같고... 눈도 침침해요."
+  onset: "약 2개월 전부터 서서히"
+  location:
+    initial: "전신 증상"
+    current: "전신 증상"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 2주간 증상이 더 심해짐"
+  course: "10년 전 당뇨 진단 후 약을 먹다 말다 했음. 최근 1년간은 거의 약을 챙겨 먹지 못했음. 2달 전부터 다음, 다뇨 증상이 다시 나타났고 피로감이 심해짐. 시야가 흐려지는 증상도 동반됨."
+  experience_prev_episodes:
+    frequency: "과거 혈당 조절 안될 때마다 유사 경험 있음"
+    trigger: "약물 복용 중단, 식이 조절 실패"
+    symptoms: "다음, 다뇨, 피로감"
+  character_of_symptom:
+    quality: "소변 양이 많아지고 거품이 생기는 것 같음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식후 (특히 밥, 빵 등 탄수화물 섭취 후)"
+      - "약을 거를 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (15년 전 진단), 제2형 당뇨병 (10년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "메트포르민, 글리메피리드, 로사르탄"
+    source: "동네 의원"
+    effect: "최근 1년간 약을 제대로 복용하지 않아 효과를 모르겠음"
+  social_history:
+    job: "주부"
+    stress: "자녀 문제로 스트레스가 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "숨이 차서 거의 못함"
+    recent_weight_change: "오히려 약간 증가함 (2kg)"
+  family_history: "친정어머니, 오빠가 당뇨병 있음"
+  female_history: "20년 전 폐경"
+physical_exam:
+  general: "경증의 비만 체형, 만성 병색을 보임"
+  heent:
+    sclera: "비황달성"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "복부 비만"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양쪽 발에 경도의 함몰 부종 (pitting edema) 관찰됨. 족부 감각 저하 의심됨."
+standardized_patient_questions: "약을 먹는데도 왜 이래요? 이제 약도 소용없는 건가요? 눈이 침침한 것도 당뇨 때문인가요?"
+specific_remarks: "약물 순응도가 매우 낮았다는 점을 솔직하게 이야기할 것. 증상에 대해 무기력하고 체념적인 태도를 보임. 손발 저림과 시야 흐림 같은 합병증 의심 증상을 구체적으로 언급할 것."

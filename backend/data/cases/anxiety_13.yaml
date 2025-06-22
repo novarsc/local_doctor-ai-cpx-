@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (조정장애, 불안감정 동반)"
+patient_info:
+  name: "김진아"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "최근 이혼 후 너무 불안하고 힘들어요."
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "조정장애 (불안 감정 동반)"
+    - "주요우울장애 (감별 필요)"
+    - "범불안장애"
+  necessary_tests:
+    - "정신건강의학과적 심층 면담"
+    - "스트레스 평가 척도, 불안/우울 척도"
+    - "기본 혈액 검사 (신체적 원인 감별)"
+  necessary_treatments:
+    - "지지적 정신치료 및 위기 개입"
+    - "단기적인 약물치료 (필요시 항불안제 또는 수면제)"
+    - "스트레스 대처 기술 훈련"
+history:
+  sex_age: "여성/35"
+  chief_complaint_verbatim: "한 달 전에 이혼 서류에 도장을 찍었어요. 그 이후로 마음이 너무 불안하고, 앞으로 어떻게 살아야 할지 막막해서 밤에 잠도 잘 안 와요. 일에도 집중이 안 되고 자꾸 눈물만 나요."
+  onset: "1개월 전"
+  location:
+    initial: "정신적 (불안, 우울)"
+    current: "정신적, 신체적 (불면, 피로)"
+  duration:
+    onset_pattern: "명확한 스트레스 사건(이혼) 후 발생"
+    recent_course: "지속됨"
+  course: "이혼이라는 명확한 스트레스 사건 이후 불안, 우울, 불면 등의 증상이 발생함. 증상으로 인해 직장 생활과 자녀 양육에 어려움을 느끼고 있음. 사회적으로 고립된 느낌과 미래에 대한 과도한 걱정을 호소함. 주요우울장애의 진단 기준(5가지 이상 증상, 2주 이상 지속)은 모두 만족하지는 않음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "특정 스트레스 요인과 관련된 과도한 감정적 고통"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "혼자 있을 때"
+      - "아이를 볼 때"
+    alleviating: "친구와 통화하며 하소연할 때 잠시 나아짐"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "회사원"
+    stress: "이혼으로 인한 스트레스가 극심함"
+    alcohol:
+      is_drinker: true
+      frequency: "과거 월 1-2회, 최근 잠들기 위해 와인 1-2잔씩 마심"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "최근 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "슬프고 지쳐 보이는 표정. 면담 중 눈물을 글썽임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+standardized_patient_questions: "시간이 지나면 괜찮아질까요? 제가 너무 나약한가요? 아이를 위해서라도 빨리 괜찮아져야 하는데, 어떻게 해야 할지 모르겠어요."
+specific_remarks: "환자는 명확한 스트레스원(이혼)과 증상의 시작 시점을 분명하게 연결하여 말한다. 감정적으로 불안정하며 면담 중 눈물을 보인다. 자신의 고통이 사회적 기능(직장, 육아)에 미치는 영향에 대해 구체적으로 설명한다. 치료에 대한 의지가 있으나, 동시에 무력감을 느낀다."

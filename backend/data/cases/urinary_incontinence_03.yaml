@@ -1,0 +1,113 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (전립선비대증에 의한 범람성 요실금)"
+patient_info:
+  name: "이철수"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "소변을 봐도 시원하지 않고 계속 찔끔거리는 증상"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전립선비대증(BPH)에 의한 범람성 요실금 (Overflow Incontinence)"
+    - "전립선암 (Prostate Cancer)"
+    - "신경인성 방광 (Neurogenic Bladder)"
+  necessary_tests:
+    - "직장수지검사 (DRE)"
+    - "요검사, 전립선특이항원(PSA) 혈액검사"
+    - "경직장 초음파(TRUS), 잔뇨량 측정"
+  necessary_treatments:
+    - "알파차단제, 5-알파 환원효소 억제제 등 약물 치료"
+    - "생활 습관 개선 (야간 수분 섭취 제한)"
+    - "경요도 전립선 절제술(TURP) 등 수술적 치료"
+history:
+  sex_age: "남성/72세"
+  chief_complaint_verbatim: "소변 줄기가 약해진 지는 꽤 됐는데, 요즘은 소변을 다 보고 나서도 속옷에 소변이 계속 묻어나와요. 밤에도 몇 번씩 깨고요."
+  onset: "소변 줄기 약화는 5-6년 전부터, 소변이 새는 증상은 1년 전부터"
+  location:
+    initial: "요도 부위"
+    current: "요도 부위"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점차 악화"
+  course: "수년 전부터 소변볼 때 한참 기다려야 나오고 줄기도 약해졌다. 1년 전부터는 소변 후에도 방울방울 떨어지는 증상이 생겼고, 최근에는 자기도 모르게 속옷이 축축하게 젖어있을 때가 많다."
+  experience_prev_episodes:
+    frequency: "매일, 지속적으로"
+    trigger: "특별한 유발 요인 없이 지속됨"
+    symptoms: "소변이 방울방울 계속 떨어지는 느낌, 복부에 힘을 주면 더 나옴"
+  character_of_symptom:
+    quality: "방광이 꽉 찬 느낌과 함께, 의지와 상관없이 소변이 '줄줄' 새는 느낌"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 앉아 있다가 일어날 때"
+    alleviating: "아랫배를 누르면서 소변을 보면 조금 시원함"
+  health_check_history:
+    last_checkup: "2년 전, 전립선 비대 소견 들었으나 치료 권유받지 않음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증"
+    allergies: "페니실린 알러지 (두드러기)"
+  medication_history:
+    taken:
+      - "로수바스타틴 10mg"
+    source: "내과"
+    effect: "꾸준히 복용"
+  social_history:
+    job: "은퇴 (전직 공무원)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "변화 없음"
+  family_history: "아버지가 전립선 문제로 고생하셨음"
+physical_exam:
+  general: "전반적으로 건강해 보이나, 약간 피곤한 기색"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "soft and slightly distended in suprapubic area"
+    auscultation: "normoactive bowel sounds"
+    percussion: "Dullness on suprapubic area"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 방광 팽만으로 인한 하복부 팽만감 및 압통 약간 있음
+  cvat: "좌/우 음성"
+  extremity: "no pitting edema"
+standardized_patient_questions: "나이가 들면 다 이런 건가요? 전립선암은 아닌지 걱정됩니다. 약으로 치료가 가능한가요?"
+specific_remarks: "환자는 자신의 증상을 담담하게 설명하지만, 밤에 잠을 설치는 것과 냄새 때문에 외출이 꺼려지는 것에 대한 불편함을 토로한다. 전립선암 가능성에 대해 걱정하는 모습을 보인다."

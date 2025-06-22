@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (저칼슘혈증에 의한 발작)"
+patient_info:
+  name: "윤혜선"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "손발이 저리다가 발생한 경련"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "저칼슘혈증에 의한 강직(Tetany) 및 발작"
+    - "과호흡 증후군"
+    - "국소 발작"
+  necessary_tests:
+    - "혈액 검사 (칼슘, 인, 마그네슘, 부갑상선 호르몬(PTH))"
+    - "심전도 (QT 간격 연장 확인)"
+    - "뇌파 검사"
+  necessary_treatments:
+    - "칼슘 정맥 주사"
+    - "경구 칼슘 및 비타민 D 보충"
+    - "정기적인 전해질 추적 검사"
+history:
+  sex_age: "여성/52"
+  chief_complaint_verbatim: "갑상선 수술받고 퇴원했는데, 갑자기 손발이 뒤틀리면서 뻣뻣해지고 경련을 했어요."
+  onset: "내원 2시간 전"
+  location:
+    initial: "손, 발, 입 주위"
+    current: "전신"
+  duration:
+    onset_pattern: "감각 이상 후 경련 발생"
+    recent_course: "입 주위와 손끝이 저릿저릿하고 뻣뻣해지는 느낌이 심해지더니, 손이 발작적으로 오그라드는 증상(carpopedal spasm)이 나타났다. 이후 의식을 잃고 전신 경련을 1분간 함."
+  course: "일주일 전 갑상선암으로 갑상선 전절제술을 받았다. 어제 퇴원 후 집에서 쉬던 중, 입술 주변과 양손 끝에 저리고 찌릿한 감각 이상이 발생했다. 점차 증상이 심해지더니 양손이 오그라들고 전신 경련으로 이어졌다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "갑상선 수술"
+    symptoms: ""
+  character_of_symptom:
+    quality: "감각 이상 및 강직(tetany)에 뒤이은 전신 발작"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "최근 수술 전 검사"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "갑상선 유두암 (1주 전 수술)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Levothyroxine"
+      - "진통제"
+    source: "대학병원 이비인후과"
+    effect: "수술 후 통증 조절"
+  social_history:
+    job: "주부"
+    stress: "수술로 인한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "수술 후 휴식 중"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "3년 전 폐경"
+physical_exam:
+  general: "의식 명료. 불안해 보이며, 손발 저림 증상 호소."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 목 부위에 수술 상처(well-healed scar) 관찰됨.
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "신경학적 국소 소견 없음. 혈압계 커프를 팔에 감고 압력을 가하자 손목과 손가락이 오그라드는 Trousseau's sign 양성. 안면 신경을 가볍게 두드리자 입꼬리가 움찔거리는 Chvostek's sign 양성."
+standardized_patient_questions: "수술이 잘못된 건가요? 왜 이런 증상이 생기는 거죠? 앞으로도 계속 이럴 수 있나요?"
+specific_remarks: "환자는 수술 합병증에 대한 두려움이 크다. 저칼슘혈증의 특징적인 신체 진찰 소견(Trousseau's sign, Chvostek's sign)을 정확히 시행하고 양성 소견을 확인하는 것이 매우 중요하다. 수술 후 부갑상선 기능 저하가 원인일 수 있음을 차분하게 설명하고, 치료 가능성에 대해 안심시켜야 한다."

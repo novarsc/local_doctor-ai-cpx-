@@ -1,0 +1,113 @@
+---
+chapter: "상담"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (안정형 협심증)"
+patient_info:
+  name: "이현우"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "운동 시 발생하는 흉통"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "84회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 생활습관 교정(금연, 금주 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "안정형 협심증 (Stable angina)"
+    - "위식도 역류질환 (GERD)"
+    - "근골격계 통증"
+  necessary_tests:
+    - "심전도 (EKG)"
+    - "운동 부하 검사 (Treadmill test)"
+    - "심장 초음파 및 혈액 검사 (심근효소, 콜레스테롤 수치)"
+  necessary_treatments:
+    - "생활습관 개선 (금연, 금주, 저염식, 운동)"
+    - "항혈소판제 (아스피린 등), 베타차단제, 니트로글리세린 등 약물 치료"
+    - "필요시 관상동맥 조영술 및 스텐트 시술 고려"
+history:
+  sex_age: "남성/58세"
+  chief_complaint_verbatim: "한 달 전부터 빨리 걷거나 언덕을 오르면 왼쪽 가슴이 뻐근하게 아픕니다. 쉬면 괜찮아지고요."
+  onset: "약 1개월 전"
+  location:
+    initial: "왼쪽 가슴"
+    current: "왼쪽 가슴"
+  duration:
+    onset_pattern: "간헐적으로 발생"
+    recent_course: "통증 발생 빈도가 약간 늘어난 것 같음"
+  course: "언덕길을 오를 때 처음 느꼈고, 5분 정도 쉬면 사라짐. 최근에는 출근길에 버스를 타려고 뛸 때도 비슷한 통증이 나타남."
+  experience_prev_episodes:
+    frequency: "주 2-3회"
+    trigger: "빠르게 걷기, 언덕 오르기, 무거운 물건 들기"
+    symptoms: "가슴을 쥐어짜는 듯한 통증"
+  character_of_symptom:
+    quality: "쥐어짜는 듯, 뻐근한 느낌"
+    nrs_score: "5"
+    radiation: "왼쪽 어깨와 팔 안쪽으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "신체 활동"
+      - "스트레스"
+    alleviating: "휴식 (5분 이내 호전)"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "고혈압, 고지혈증 진단받았으나 관리 안 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증 (진단만 받고 치료 안함)"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "개인 사업"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일 (40년간)"
+      cessation_period: "없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 1년간 5kg 증가"
+  family_history: "아버지가 60대에 심근경색으로 사망"
+  female_history: null
+physical_exam:
+  general: "체격이 다소 비만해 보임 (BMI 28)"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음 청진 시 S4 gallop 청취될 수 있음 (비특이적)."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "부종 없음, 말초 맥박 정상"
+standardized_patient_questions: "그냥 좀 무리해서 그런 거 아닌가요? 심장에 문제가 있는 건가요? 담배랑 술을 끊는 게 정말 도움이 되나요?"
+specific_remarks: "환자는 자신의 증상을 대수롭지 않게 여기려는 경향을 보임. 심장 문제일 수 있다는 설명에 놀라며 불안해하는 모습을 연기함. 생활습관 교정의 중요성을 강조할 때 설득당하는 모습을 보여야 함."

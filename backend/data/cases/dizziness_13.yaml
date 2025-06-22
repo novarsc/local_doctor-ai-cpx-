@@ -1,0 +1,110 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (약물 유발성 어지럼, Drug-induced Dizziness)"
+patient_info:
+  name: "윤석준"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "최근 들어 자꾸 어질어질하고 기운이 없어요."
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "52회/분"
+  respiration: "14회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "약물 유발성 어지럼 (항고혈압제 과다)"
+    - "동기능부전증후군 (Sick Sinus Syndrome)"
+    - "기립성 저혈압"
+  necessary_tests:
+    - "복용 약물 검토"
+    - "심전도 및 24시간 홀터 모니터링"
+    - "기립 혈압 측정"
+    - "기본 혈액 검사 (신기능, 전해질 포함)"
+  necessary_treatments:
+    - "원인 가능성이 있는 약물 감량 또는 변경"
+    - "환자 교육 (어지럼 유발 가능성, 대처법)"
+    - "서맥이 지속될 경우 심장박동기 삽입 고려"
+history:
+  sex_age: "남성/72세"
+  chief_complaint_verbatim: "한 달 전부터 계속 머리가 맑지 않고 어질어질해요. 특히 움직일 때 더 그런 것 같아요."
+  onset: "약 1개월 전"
+  location:
+    initial: "머릿속"
+    current: "머릿속"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "계속 비슷한 정도로 지속됨"
+  course: "한 달 전부터 혈압이 좀 높다고 해서 약을 추가했는데, 그 후로 계속 기운이 없고 어지러운 느낌이 듭니다. 빙빙 도는 건 아닌데, 그냥 멍하고 아찔합니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "비회전성 어지럼, 멍한 느낌"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "아침에"
+    alleviating: "가만히 누워있을 때"
+  health_check_history:
+    last_checkup: "1개월 전 내과 방문"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 협심증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀 5mg (기존 복용)"
+      - "아스피린 100mg (기존 복용)"
+      - "딜티아젬 90mg (1개월 전 추가됨)"
+      - "니트로글리세린 (필요시)"
+    source: "내과"
+    effect: "혈압은 110/70 정도로 조절됨"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "40년 전 금연"
+    exercise: "매일 1시간 걷기 (최근 어지러워서 잘 못함)"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 기운이 없어 보이고 움직임이 느림."
+  heent: "정상"
+  chest: "심음이 느리게 들림 (bradycardia)."
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "부종 없음."
+standardized_patient_questions: "나이가 들어서 그런가요? 아니면 이 약 때문에 그런 건가요? 약을 계속 먹어야 하나요?"
+specific_remarks: "환자는 '새로운 약(딜티아젬)을 추가한 시점'과 '어지럼증이 시작된 시점'이 일치한다는 것을 명확히 진술해야 한다. 어지럼의 양상은 비회전성이고 전반적인 기력 저하를 동반함을 강조한다. 신체 진찰 시 저혈압과 서맥 소견이 확인되도록 연기한다. 이는 약물 부작용(과도한 혈압 강하 및 심박수 감소)을 시사하는 핵심 단서이다."

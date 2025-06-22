@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (캄필로박터 장염)"
+patient_info:
+  name: "박준서"
+  age: 24
+  sex: "남성"
+  presenting_complaint: "피가 섞인 설사와 복통"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "38.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "세균성 장염 (캄필로박터 감염 의심)"
+    - "염증성 장질환의 급성 악화"
+    - "아메바성 대장염"
+  necessary_tests:
+    - "대변 검사 (배양 검사, 현미경 검사)"
+    - "혈액 검사 (CBC, CRP, 전해질)"
+    - "필요시 대장 내시경"
+  necessary_treatments:
+    - "수액 요법을 통한 수분 및 전해질 공급"
+    - "필요시 항생제 치료 (Azithromycin 등)"
+    - "해열진통제 등 대증 요법"
+history:
+  sex_age: "남/24"
+  chief_complaint_verbatim: "이틀 전부터 배가 아프고 설사를 하는데, 어제부터는 피가 섞여 나와서 무서워서 왔어요."
+  onset: "내원 2일 전"
+  location:
+    initial: "배꼽 주변"
+    current: "아랫배, 특히 오른쪽 아래"
+  duration:
+    onset_pattern: "서서히 시작되어 점차 심해짐"
+    recent_course: "어제부터 혈변 양상 보임"
+  course: "내원 3일 전 캠핑 가서 닭고기를 구워 먹었음. 내원 2일 전부터 배가 살살 아프고 묽은 변을 보기 시작함. 어제부터 복통이 심해지고 설사 횟수가 하루 10회 이상으로 늘었으며, 변에 혈액과 점액이 섞여 나옴."
+  experience_prev_episodes:
+    frequency: "처음 겪는 증상임"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쥐어짜는 듯한 통증 (cramping pain)"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "없음"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후"
+      - "배를 누를 때"
+    alleviating: "화장실을 다녀온 후 잠시 완화됨"
+  health_check_history:
+    last_checkup: "2년 전 군입대 신체검사, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 알러지"
+  medication_history:
+    taken:
+      - "타이레놀 1정 (어제 저녁)"
+    source: "자가 구매"
+    effect: "열이 약간 내렸으나 복통은 그대로임"
+  social_history:
+    job: "대학생"
+    stress: "시험 기간이라 스트레스 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "맥주 2000cc"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 농구"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색, 열이 나고 힘들어 보임"
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 정상, 심계항진 있음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: true
+      # RLQ tenderness & rebound tenderness
+  cvat: "음성"
+  extremity: "특이사항 없음"
+standardized_patient_questions: "왜 피가 나오는 건가요? 큰 병은 아닌가요? 충수염(맹장염)일 수도 있나요?"
+specific_remarks: "신체 진찰 시 RLQ를 누를 때 통증을 강하게 호소하며, 손을 뗄 때 더 아프다고 표현한다. 열 때문에 약간 멍한 표정을 짓는다."

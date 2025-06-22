@@ -1,0 +1,113 @@
+---
+chapter: "전신"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (임신)"
+patient_info:
+  name: "최보람"
+  age: 30
+  sex: "여성"
+  presenting_complaint: "최근 입맛이 변하고 살이 쪄서 내원함"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "86회/분"
+  respiration: "18회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "임신"
+    - "가상 월경 증후군 (Pseudocyesis)"
+    - "갑상선 기능 이상"
+  necessary_tests:
+    - "소변 임신 반응 검사 (hCG)"
+    - "혈액 임신 반응 검사 (beta-hCG)"
+    - "골반 초음파"
+  necessary_treatments:
+    - "임신 확인 시 산과 진료 연계"
+    - "임산부에게 필요한 영양 및 생활습관 교육 (엽산 복용 등)"
+    - "정기적인 산전 진찰 계획 수립"
+history:
+  sex_age: "여성/30세"
+  chief_complaint_verbatim: "두 달 정도 생리가 없고, 속이 좀 메스꺼워요. 피곤하고 자꾸 잠이 오고... 입맛도 이상하게 변하고 살도 좀 찐 것 같아요. 혹시 몸에 무슨 문제가 생긴 건 아닌지 걱정돼요."
+  onset: "약 2개월 전"
+  location:
+    initial: "생리 중단"
+    current: "피로감, 오심, 체중 증가"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "증상 지속됨"
+  course: "원래 규칙적이던 생리가 두 달째 없다. 아침에 일어날 때 속이 울렁거리는 증상이 생겼고, 평소 안 먹던 신 과일이 당긴다. 체중은 2-3kg 정도 늘었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "전반적인 신체 변화"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "가끔 아침에"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침 공복 시"
+    alleviating: "비스킷 등 간단한 음식 섭취 시 오심 완화"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1-2잔 (최근 2개월간 마시지 않음)"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2-3회 필라테스"
+    recent_weight_change: "최근 2개월간 3kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 2개월 전. 평소 월경 주기 28-30일로 규칙적. 1년 전 결혼. 피임은 하고 있지 않음."
+physical_exam:
+  general: "건강해 보임. 특별한 급성 병색 없음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "양쪽 유방이 약간 팽만되어 있고 압통이 있음. 유륜이 검게 착색됨."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      mass_palpable: "치골 상부에서 약간 커진 자궁이 촉진될 수 있음 (Hegar's sign)"
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "제가 왜 생리도 안 하고 몸이 이럴까요? 어디 안 좋은 데가 있는 건 아니겠죠?", "혹시... 임신일 수도 있을까요?"
+specific_remarks: "환자는 임신 가능성을 염두에 두고 있지만, 확실하지 않아 불안해하며 병원을 찾았다. 의사가 임신 가능성에 대해 질문하면 수줍어하며 긍정한다. 자신의 신체 변화에 대해 조심스럽게 이야기한다."

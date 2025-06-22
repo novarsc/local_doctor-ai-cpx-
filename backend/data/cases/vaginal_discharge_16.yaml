@@ -1,0 +1,124 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (질 내 이물질 - 탐폰)"
+patient_info:
+  name: "김유정"
+  age: 21
+  sex: "여성"
+  presenting_complaint: "악취가 심한 질 분비물과 미열"
+vital_signs:
+  blood_pressure: "110/60mmHg"
+  pulse: "98회/분"
+  respiration: "20회/분"
+  temperature: "38.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "질 내 이물질 (Vaginal foreign body, retained tampon)"
+    - "골반염 (Pelvic Inflammatory Disease)"
+    - "심한 감염성 질염"
+  necessary_tests:
+    - "질경 검사 (Speculum examination)"
+    - "일반 혈액 검사 (CBC with differential) 및 염증 수치 검사 (ESR/CRP)"
+    - "필요시 질 분비물 배양 검사"
+  necessary_treatments:
+    - "즉각적인 이물질(탐폰) 제거"
+    - "질 세척 및 소독"
+    - "2차 감염 예방을 위한 항생제 처방 (독성쇼크증후군 가능성 염두)"
+history:
+  sex_age: "여성/21"
+  chief_complaint_verbatim: "일주일 전부터 냉에서 아주 심한 냄새가 나요. 생선 썩는 냄새보다 훨씬 심하고, 누런 분비물이 계속 나와요. 어제부터는 열도 좀 나는 것 같아요."
+  onset: "약 1주일 전"
+  location:
+    initial: "질"
+    current: "질, 하복부"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "냄새가 점점 참을 수 없을 정도로 심해지고 열이 나기 시작함"
+  course: "지난 생리가 끝난 직후부터 분비물에서 냄새가 나기 시작했습니다. 처음에는 그냥 질염인 줄 알았는데, 냄새가 너무 지독해지고 분비물도 고름처럼 변했습니다. 하복부도 묵직하게 아프고, 어제부터는 으슬으슬 춥고 열도 납니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "극심한 악취를 동반한 다량의 화농성 질 분비물 (황갈색)"
+    nrs_score: "3 (하복부 통증)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "13세"
+    menstrual_cycle: "28일 주기, 규칙적"
+    duration: "5일"
+    amount: "보통, 탐폰과 생리대 혼용"
+    lmp: "2주 전"
+    gpa: "0-0-0-0"
+    sexual_partner: "1명"
+    contraception: "콘돔"
+physical_exam:
+  general: "불안해하며 힘들어하는 모습. 진찰실에 들어올 때부터 악취가 느껴짐."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "호흡음 정상. 빈맥."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 하복부 중앙에 경미한 압통 있음.
+      # 질경 검사 시: 다량의 악취나는 화농성 분비물로 시야 확보 어려움. 질 점막은 심하게 충혈되어 있음. 질 상부에서 이물질(탐폰의 일부)이 관찰됨.
+      # 내진 시: 자궁 및 부속기 압통 있을 수 있음.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "무슨 냄새가 이렇게 심한가요? 암 같은 큰 병일까요? 왜 열까지 나는 거죠? 치료는 어떻게 하나요?"
+specific_remarks: "자신의 몸에서 나는 심한 악취 때문에 매우 위축되어 있고 창피해한다. 의사가 지난 생리 때 탐폰 사용에 대해 구체적으로 묻기 전까지는 탐폰을 빼지 않았을 가능성을 전혀 인지하지 못한다. 의사가 '탐폰이 안에 남아있는 것 같다'고 설명하면 매우 당황하고 놀라는 반응을 보인다."

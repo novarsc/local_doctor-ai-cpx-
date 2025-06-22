@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (심인성 비뇌전증 발작, PNES)"
+patient_info:
+  name: "정유미"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "스트레스를 받으면 온몸을 비트는 발작"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "심인성 비뇌전증 발작 (PNES)"
+    - "전두엽 뇌전증 (atypical motor seizure)"
+    - "불안장애의 신체 증상"
+  necessary_tests:
+    - "비디오 뇌파 검사 (Video-EEG monitoring)"
+    - "정신건강의학과적 평가 및 상담"
+    - "뇌 자기공명영상 (Brain MRI) (기질적 원인 배제 목적)"
+  necessary_treatments:
+    - "인지행동치료 (CBT)"
+    - "정신건강의학과적 상담 및 치료"
+    - "스트레스 관리 교육"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "화나거나 힘든 일이 있으면 갑자기 팔다리가 제멋대로 움직이고 몸이 뒤틀려요. 거의 매일 그래요."
+  onset: "3개월 전부터"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "스트레스 상황에서 갑자기"
+    recent_course: "증상은 수 분에서 길게는 30분 이상 지속되기도 함. 증상이 있을 때 주변 상황을 어렴풋이 인지함."
+  course: "주로 감정적으로 격해지는 상황에서 발생. 눈을 감은 채로 머리를 좌우로 흔들거나, 팔다리를 비규칙적으로 허우적거림. 때로는 골반을 들썩이는 움직임도 보임. 증상 중에 말을 걸면 중얼거리듯 대답을 하기도 함. 증상이 끝나고 나서 특별히 졸리거나 혼란스럽지는 않음."
+  experience_prev_episodes:
+    frequency: "최근 한 달간 거의 매일"
+    trigger: "직장 상사와의 갈등, 남자친구와의 다툼 등"
+    symptoms: "비규칙적인 몸의 움직임, 눈 감고 있기"
+  character_of_symptom:
+    quality: "비동기적, 비규칙적 움직임을 보이는 발작"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "감정적 스트레스"
+      - "다른 사람과의 언쟁"
+    alleviating: "주변 사람들이 관심을 보이지 않으면 더 빨리 멈추는 경향이 있음"
+  health_check_history:
+    last_checkup: "1년 전 직장 검진, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "타 의원에서 항경련제(levetiracetam)를 처방받아 복용했으나 효과 없었음"
+    source: "신경과 의원"
+    effect: "효과 없음"
+  social_history:
+    job: "회사원"
+    stress: "직장 내 대인관계로 스트레스 매우 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "월경 주기 규칙적, LMP: 2주 전"
+physical_exam:
+  general: "의식 명료. 면담 중 간헐적으로 한숨을 쉬며 불안한 모습 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "혀 깨문 상처나 외상 없음. 정상."
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사상 국소 소견 없음. 사지 근력, 감각, 반사 모두 정상."
+standardized_patient_questions: "이거 뇌전증(간질) 맞죠? 왜 약을 먹어도 소용이 없을까요? 회사는 계속 다닐 수 있을까요?"
+specific_remarks: "환자는 자신의 증상이 심각한 신경계 질환일 것이라고 굳게 믿고 있다. '심인성' 또는 '스트레스성'이라는 설명에 대해 강한 거부감을 보일 수 있다. 면담 중 감정적으로 변하며 눈물을 글썽일 수 있다."

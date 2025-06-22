@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (대동맥 축착)"
+patient_info:
+  name: "정진우"
+  age: 19
+  sex: "남성"
+  presenting_complaint: "두통과 운동 시 다리 통증"
+vital_signs:
+  blood_pressure: "170/95mmHg (양팔), 100/60mmHg (양다리)"
+  pulse: "85회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대동맥 축착 (Coarctation of the aorta)"
+    - "본태성 고혈압"
+    - "운동 유발성 근육통"
+  necessary_tests:
+    - "심장 초음파"
+    - "흉부 X-ray (rib notching 확인)"
+    - "CT 또는 MR 혈관조영술"
+  necessary_treatments:
+    - "혈압 조절"
+    - "수술적 교정 또는 풍선 혈관성형술/스텐트 삽입술"
+    - "심내막염 예방"
+history:
+  sex_age: "남성/19"
+  chief_complaint_verbatim: "농구 같은 운동만 하면 다리가 너무 아프고 힘이 빠져요. 평소엔 머리도 자주 아프고요."
+  onset: "고등학교 입학 후부터 증상 느낌"
+  location:
+    initial: "양측 종아리, 머리"
+    current: "양측 종아리, 머리"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 운동 강도를 높이면서 증상이 더 심해짐"
+  course: "운동할 때만 다리가 아팠는데, 최근엔 조금만 걸어도 피로감을 느낌. 두통도 빈번해짐. 신체검사에서 혈압이 높다고 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "다리가 터질 듯한 통증(파행), 박동성 두통"
+    nrs_score: "7 (운동 시)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "달리기, 계단 오르기 등 운동"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "3개월 전 대학 입학 신체검사에서 고혈압 처음 발견"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "어릴 때 심잡음이 들린다고 들었으나, 특별한 검사 없이 지냄"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "학업 스트레스 보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2-3회 농구"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강해 보이는 젊은 남성"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 좌측 쇄골하 부위와 등쪽 견갑골 사이에서 수축기 잡음 청취됨"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "상지 맥박은 강하게 촉지되나, 대퇴동맥 맥박이 요골동맥 맥박에 비해 약하고 지연됨 (radio-femoral delay)"
+standardized_patient_questions: "혈압이 높다는데 왜 다리는 아픈 거죠? 젊은데 혈압이 왜 이렇게 높아요? 그냥 운동을 쉬면 안 되나요?"
+specific_remarks: "환자는 자신의 증상을 운동 부족이나 성장통 정도로 가볍게 생각한다. 의사가 팔과 다리의 혈압을 모두 측정하는지, 대퇴동맥 맥박을 촉지하는지 유심히 관찰한다. 이학적 검사 소견(잡음, 맥박 차이)은 환자가 먼저 말하지 않고, 의사의 진찰 행위에 따라 정보를 제공한다."

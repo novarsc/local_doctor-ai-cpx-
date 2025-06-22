@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (위식도 역류질환)"
+patient_info:
+  name: "박선영"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "가슴이 쓰리고 신물이 넘어와요"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "위식도 역류질환 (GERD)"
+    - "소화성 궤양"
+    - "기능성 소화불량"
+  necessary_tests:
+    - "증상에 기반한 경험적 치료 우선 시도"
+    - "치료 반응 없을 시 24시간 식도 산도 검사"
+    - "경고 증상(삼킴곤란, 체중감소 등) 동반 시 위내시경"
+  necessary_treatments:
+    - "생활 습관 개선 (식후 바로 눕지 않기, 체중 감량, 금주, 금연 등)"
+    - "위산분비 억제제 (PPI) 복용"
+    - "취침 시 상체 올리고 자기"
+history:
+  sex_age: "여성/35"
+  chief_complaint_verbatim: "몇 달 전부터 자꾸 가슴이 타는 것처럼 쓰리고, 자려고 누우면 신물이 목으로 넘어와서 기침하다가 토할 때도 있어요."
+  onset: "약 6개월 전"
+  location:
+    initial: "가슴 중앙 (명치 위쪽)"
+    current: "가슴 중앙, 목"
+  duration:
+    onset_pattern: "간헐적"
+    recent_course: "최근 야근이 잦아지면서 거의 매일 증상이 나타남"
+  course: "6개월 전부터 가끔 식후에 가슴이 쓰린 증상이 있었음. 최근 1달 사이에는 증상이 심해져 밤에 자려고 누우면 위산이 역류하는 느낌과 함께 쓴 물이 올라옴. 이 때문에 마른기침을 하다가 구역질을 하고 소량 구토하기도 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "타는 듯한 느낌 (burning sensation)"
+    nrs_score: "6"
+    radiation: "목구멍으로 치밀어 오르는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "구역질 끝에 소량의 위액, 음식물 없음"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    other: # 비전형적 증상
+      chronic_cough: true
+      hoarseness: true
+  factors:
+    aggravating:
+      - "과식 후, 특히 야식"
+      - "자려고 누울 때"
+      - "커피나 탄산음료 마실 때"
+    alleviating: "물을 마시거나 상체를 일으키면 호전"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "IT 회사 근무 (프로그래머)"
+    stress: "프로젝트 마감 때문에 최근 매우 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못 함"
+    recent_weight_change: "최근 6개월간 4kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 1주 전, 주기 규칙적"
+physical_exam:
+  general: "특이 소견 없음. 만성적인 피로감 호소."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    pharynx: "약간의 발적 소견"
+  chest: "청진상 심음 및 호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "정상 장음"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      tenderness_epigastrium: true # 경미한 명치 압통
+  cvat: "양측 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "이거 심장병은 아니죠? 가슴이 아파서 걱정됐어요. 목소리가 자꾸 쉬는 것도 이것 때문인가요? 약 먹으면 바로 낫나요?"
+specific_remarks: "환자는 구토 자체보다는 역류와 구역질을 주로 호소함. '토한다'는 표현은 역류로 인한 기침 끝에 나오는 것을 의미함을 설명함. 생활 습관(야식, 식후 바로 눕기, 체중 증가)에 대한 질문에 솔직하게 대답함."

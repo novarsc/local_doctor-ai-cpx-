@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (급성 췌장염)"
+patient_info:
+  name: "김영호"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "윗배가 너무 아프고 계속 토해요"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "115회/분"
+  respiration: "24회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 췌장염"
+    - "소화성 궤양 천공"
+    - "급성 담낭염"
+  necessary_tests:
+    - "혈액검사 (췌장효소 Amylase/Lipase, 염증 수치, 전해질 확인)"
+    - "복부 CT 촬영 (췌장의 염증 및 괴사 정도 평가)"
+    - "복부 초음파 (담석 유무 확인)"
+  necessary_treatments:
+    - "입원 치료"
+    - "금식 및 정맥을 통한 적극적인 수액 공급"
+    - "정맥 주사를 통한 통증 조절"
+history:
+  sex_age: "남성/52"
+  chief_complaint_verbatim: "어젯밤 회식하고 나서부터 갑자기 윗배가 칼로 찌르는 것처럼 아프고, 허리까지 아파요. 계속 토해서 탈진할 것 같아요."
+  onset: "내원 10시간 전"
+  location:
+    initial: "명치 바로 아래"
+    current: "윗배 전체와 등"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "시간이 지날수록 통증이 전혀 호전 없이 극심하게 지속됨"
+  course: "어제 저녁 과음 후 새벽부터 갑자기 윗배에 극심한 통증이 시작됨. 통증은 벨트처럼 등까지 뻗치는 양상이었음. 통증 시작 후 구토가 시작되었고 10회 이상 지속적으로 구토함. 뭘 마시기만 해도 바로 토함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "칼로 찌르는 듯, 쥐어짜는 듯한 통증"
+    nrs_score: "10"
+    radiation: "등으로 뻗치는 양상"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "처음엔 음식물, 나중엔 노란 물(담즙)"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "바로 누우면 더 아픔"
+      - "숨을 깊게 쉴 때"
+    alleviating: "몸을 새우처럼 구부리고 있으면 약간 나음"
+  health_check_history:
+    last_checkup: "5년 전, 이후 받은 적 없음"
+    endoscopy_finding: "기억나지 않음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증 진단받았으나 약은 먹지 않음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "건설 현장 관리직"
+    stress: "많은 편"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1-2병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색, 식은땀을 흘리며 매우 고통스러워함. 무릎을 가슴 쪽으로 당긴 자세를 취하고 있음."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "매우 건조함"
+  chest: "호흡이 얕고 빠름. 청진상 특이 소견 없음."
+  abdomen:
+    inspection: "전반적으로 팽만되어 있음"
+    auscultation: "장음 소실 (Ileus)"
+    percussion: "전반적인 고창음"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      tenderness_epigastrium: true # 명치 부위에 심한 압통
+      guarding_epigastrium: true # 명치 부위 근성 방어
+  cvat: "양측 음성"
+  extremity: "차가고 축축함"
+standardized_patient_questions: "제가 왜 이렇게 아픈 건가요? 무슨 큰 병에 걸린 건가요? 죽을 것처럼 아픈데 괜찮아질 수 있나요?"
+specific_remarks: "극심한 통증을 호소하며 말하는 중간중간 숨을 몰아쉼. 진찰 시 배에 손대는 것을 매우 꺼려하며, 특히 윗배를 누를 때 비명을 지름. 음주력에 대해 물으면 '남들 마시는 만큼 마신다'고 애매하게 답하므로 구체적인 질문이 필요함."

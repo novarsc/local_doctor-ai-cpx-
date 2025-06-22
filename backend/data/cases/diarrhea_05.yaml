@@ -1,0 +1,117 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (항생제 연관 설사, C. difficile 감염)"
+patient_info:
+  name: "정영숙"
+  age: 68
+  sex: "여성"
+  presenting_complaint: "냄새가 심한 물 설사"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "100회/분"
+  respiration: "20회/분"
+  temperature: "38.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "항생제 연관 설사 (클로스트리듐 디피실 감염 의심)"
+    - "다른 원인의 감염성 장염"
+    - "허혈성 대장염"
+  necessary_tests:
+    - "대변 검사 (C. difficile 독소 검사)"
+    - "혈액 검사 (백혈구 수, 전해질, 신장 기능)"
+    - "복부 CT (합병증 유무 확인)"
+  necessary_treatments:
+    - "원인 항생제 중단"
+    - "경구 메트로니다졸 또는 반코마이신 투여"
+    - "수액 요법 및 격리 조치"
+history:
+  sex_age: "여/68"
+  chief_complaint_verbatim: "퇴원하고 며칠 뒤부터 설사를 하는데, 횟수도 너무 잦고 냄새가 역해서 힘들어요."
+  onset: "내원 4일 전"
+  location:
+    initial: "아랫배"
+    current: "아랫배 전체"
+  duration:
+    onset_pattern: "갑자기 시작됨"
+    recent_course: "점점 심해짐. 하루 10회 이상 설사함."
+  course: "2주 전 폐렴으로 타 병원에 입원하여 1주일간 항생제 주사 치료를 받고 퇴원했음. 퇴원 후 3일 뒤부터 묽은 변을 보기 시작하더니, 내원 4일 전부터는 걷잡을 수 없이 물 설사를 함. 설사는 쌀뜨물 같고, 시큼하고 역한 냄새가 남. 복통과 미열이 동반됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쥐어짜는 듯한 복통"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "없음"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "움직일 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "6개월 전, 고혈압 외 특이소견 없음"
+    endoscopy_finding: "1년 전 대장내시경, 용종 1개 제거"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨병, 골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (아모디핀)"
+      - "당뇨약 (메트포르민)"
+      - "골다공증약"
+      - "폐렴 치료를 위해 2주 전부터 1주간 세프트리악손 주사 맞음"
+    source: "대학병원 및 개인병원 처방"
+    effect: "기저질환은 잘 조절되고 있었음"
+  social_history:
+    job: "무직 (주부)"
+    stress: "최근 입원으로 인한 스트레스 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 경로당에서 체조"
+    recent_weight_change: "입원 기간 동안 2kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "폐경 15년 전"
+physical_exam:
+  general: "급성 병색, 탈수와 전신 쇠약감이 뚜렷함"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "매우 건조함 (very dry)"
+  chest: "호흡음 정상, 심박수 빠름"
+  abdomen:
+    inspection: "약간 팽만되어 있음 (mildly distended)"
+    auscultation: "장음 항진"
+    percussion: "고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 복부 전반에 걸친 압통 (diffuse abdominal tenderness)
+  cvat: "음성"
+  extremity: "피부 긴장도 저하"
+standardized_patient_questions: "폐렴은 다 나았다는데 왜 또 이러는 건가요? 병원에서 다른 병이 옮은 건가요? 입원해야 하나요?"
+specific_remarks: "매우 지치고 힘들어하는 모습을 연기한다. 설사 냄새가 매우 고약했다고 여러 번 강조한다. 최근 항생제 치료력을 명확하게 진술한다."

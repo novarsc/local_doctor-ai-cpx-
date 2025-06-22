@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (과도한 카페인 섭취)"
+patient_info:
+  name: "김지훈"
+  age: 31
+  sex: "남성"
+  presenting_complaint: "소변을 자주 보고 가슴이 두근거림"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "과도한 카페인 섭취로 인한 증상"
+    - "불안장애, 공황발작"
+    - "갑상선 기능 항진증"
+  necessary_tests:
+    - "기본적인 혈액검사 및 소변검사 (기질적 원인 배제 목적)"
+    - "심전도 검사"
+    - "필요시 갑상선 기능 검사"
+  necessary_treatments:
+    - "카페인 섭취 중단 또는 제한 교육"
+    - "수분 섭취 권장 및 생활 습관 상담"
+    - "증상 지속 시 추가적인 평가"
+history:
+  sex_age: "남성/31"
+  chief_complaint_verbatim: "요즘 프로젝트 때문에 야근이 잦은데, 그때마다 커피나 에너지 드링크를 마셨더니 화장실을 너무 자주 가요. 잠도 잘 안 오고, 가슴이 막 뛰고 불안해요."
+  onset: "약 2주 전"
+  location:
+    initial: "전신 증상"
+    current: "전신 증상"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 며칠간 더 심해짐"
+  course: "마감을 앞두고 2주 전부터 거의 매일 밤샘 작업을 함. 잠을 깨기 위해 하루에 커피를 5잔 이상, 에너지 드링크를 2-3캔씩 마시기 시작함. 이후 다뇨, 심계항진, 불면, 손떨림 증상이 나타남."
+  experience_prev_episodes:
+    frequency: "과거에도 피곤할 때 커피 많이 마시면 비슷한 경험 있음"
+    trigger: "과도한 카페인 섭취"
+    symptoms: "가슴 두근거림, 불면"
+  character_of_symptom:
+    quality: "소변을 자주 보나 양이 아주 많은지는 모르겠음. 가슴이 불규칙하게 뛰는 느낌."
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "커피나 에너지 드링크 섭취 후"
+      - "저녁 시간"
+    alleviating: "음료를 마시지 않고 쉬면 조금 나아짐"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "위염 소견"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "IT 개발자"
+    stress: "업무 스트레스 매우 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: ""
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "변화 없음"
+  family_history: "특이 사항 없음"
+  female_history: ""
+physical_exam:
+  general: "다소 불안해 보이고 안절부절 못하는 모습. 피곤한 기색이 역력함."
+  heent:
+    sclera: "양안 충혈"
+    oral_mucosa: "정상"
+  chest: "심계항진, 분당 105회의 규칙적인 빈맥. 호흡음 정상."
+  abdomen:
+    inspection: "특이 소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "미세한 양손 떨림 관찰됨. 부종 없음."
+standardized_patient_questions: "심장에 문제 있는 거 아닌가요? 커피 몇 잔 마셨다고 이렇게 될 수 있나요? 혹시 공황장애 같은 건가요?"
+specific_remarks: "다뇨 증상과 함께 심계항진, 불안감, 손떨림을 주요 증상으로 호소. 최근 생활 패턴의 변화(야근, 과도한 카페인 섭취)를 명확하게 설명. 본인의 증상이 심각한 질병일까 봐 걱정하는 모습을 보일 것."

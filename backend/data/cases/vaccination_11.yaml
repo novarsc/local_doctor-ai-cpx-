@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (예방접종 후 저긴장-저반응 증후군, HHE)"
+patient_info:
+  name: "송하준"
+  age: 4
+  sex: "남성"
+  presenting_complaint: "예방접종 후에 애가 축 늘어지고 창백해졌어요"
+vital_signs:
+  blood_pressure: "85/50mmHg"
+  pulse: "110회/분"
+  respiration: "30회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환아의 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "저긴장-저반응 증후군 (Hypotonic-Hyporesponsive Episode, HHE)"
+    - "패혈증 초기 소견"
+    - "심장 질환 또는 대사 이상"
+  necessary_tests:
+    - "다른 심각한 질환을 감별하기 위한 혈액검사 (CBC, CRP, 혈당, 전해질 등)"
+    - "필요 시 심전도, 심장 초음파"
+    - "신경학적 이상이 의심될 경우 뇌 초음파 또는 기타 영상 검사"
+  necessary_treatments:
+    - "대부분 특별한 치료 없이 완전히 회복됨을 설명"
+    - "HHE 자체는 장기적인 후유증을 남기지 않음을 안심시킴"
+    - "향후 DTaP 백신 접종 시 전문가와의 상담 및 주의 깊은 관찰이 필요함을 교육"
+history:
+  sex_age: "남아/4개월"
+  chief_complaint_verbatim: "오늘 오전에 주사를 맞았는데, 갑자기 애가 인형처럼 축 늘어지고 얼굴이 새하얘졌어요. 불러도 반응이 거의 없어요."
+  onset: "30분 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑자기"
+    recent_course: "지속되고 있음"
+  course: "오늘 오전 10시경, DTaP-IPV/Hib 2차 접종을 하였다. 접종 후 집에 돌아와 2시간 정도 지난 오후 12시 30분경, 자고 있던 아이를 깨우려는데 아이가 몸에 힘이 하나도 없고 축 늘어져 있는 것을 발견했다. 얼굴과 입술이 창백했으며, 흔들어도 눈만 겨우 뜰 뿐 울거나 보채지도 않고 반응이 매우 약했다. 호흡은 하는 것 같았으나 평소와 다른 모습에 너무 놀라 즉시 병원으로 다시 데리고 왔다. 열은 없고 경련도 없었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "전신 근긴장도 저하, 반응성 저하, 창백함"
+    nrs_score: "해당 없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2개월 영유아 검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "해당 없음"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "해당 없음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "의식은 있으나 기면 상태(lethargic). 전반적인 근긴장도가 심하게 저하되어 있음 (floppy infant). 창백한 안색."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+    anterior fontanelle: "flat and soft"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "사지 근긴장도 현저히 감소. 심부건반사 저하. 모세혈관 재충혈 시간 정상."
+standardized_patient_questions: "우리 아이 왜 이러나요? 혹시 뇌손상 같은 게 온 건 아닐까요? 이거 회복은 되는 건가요? 다음 주사는 어떻게 해야 해요?"
+specific_remarks: "보호자(아빠) 역할. 아이의 갑작스러운 변화에 매우 놀라고 불안해하는 상태. 아이가 죽을지도 모른다는 공포감을 표현. HHE라는 진단명과 예후에 대해 설명하면 여러 번 되물으며 확인하려고 함."

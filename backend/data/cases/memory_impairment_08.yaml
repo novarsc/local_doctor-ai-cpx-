@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (갑상선 기능 저하증)"
+patient_info:
+  name: "오미숙"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "최근 부쩍 심해진 기억력 저하 및 피로감"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "54회/분"
+  respiration: "14회/분"
+  temperature: "36.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갑상선 기능 저하증에 의한 인지기능 저하"
+    - "갱년기 증상"
+    - "우울증에 의한 가성치매"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4)"
+    - "갑상선 자가항체 검사 (Anti-TPO Ab)"
+    - "혈액검사 (빈혈, 전해질 등)"
+  necessary_treatments:
+    - "갑상선 호르몬제 (Levothyroxine) 투여"
+    - "증상 호전 여부 추적 관찰"
+    - "생활 습관 교육"
+history:
+  sex_age: "여성/52세"
+  chief_complaint_verbatim: "머리가 안개가 낀 것처럼 멍하고, 자꾸 깜빡깜빡해요. 아침에 일어나기도 너무 힘들고 하루 종일 피곤해요."
+  onset: "약 6개월 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 심해짐"
+  course: "반 년 전부터 집중력이 떨어지고 말이 어눌해지는 느낌이 들었음. 식사량은 줄었는데 오히려 체중은 늘고 얼굴과 손발이 붓는 느낌이 듦. 남들보다 추위를 훨씬 심하게 타고, 변비도 심해짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "전반적인 사고 속도 저하, 기억력 감퇴"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "추운 환경"
+      - "아침"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "피곤해서 거의 못함"
+    recent_weight_change: "지난 6개월간 4kg 증가"
+  family_history: "어머니가 갑상선 질환 앓으셨음"
+  female_history: "G2P2, 최근 생리 주기가 불규칙해지고 양이 많아짐 (폐경 이행기)"
+physical_exam:
+  general: "전반적으로 부어있는 듯한 인상. 행동과 말이 느림. 목소리가 쉬어 있음."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+    face: "puffy face, periorbital edema"
+    neck: "no palpable thyroid gland enlargement"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat, soft"
+    auscultation: "hypoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "non-pitting edema on both shins, skin is dry and cool. Delayed relaxation phase of ankle jerk reflex."
+standardized_patient_questions: "제가 벌써 치매가 온 건가요? 나이 탓인가요? 왜 이렇게 춥고 붓는지 모르겠어요. 치료하면 괜찮아질 수 있나요?"
+specific_remarks: "기억력 저하 외에 갑상선 기능 저하증의 전신 증상(피로, 체중 증가, 추위 민감성, 변비, 부종 등)을 적극적으로 호소해야 함. 신체 진찰 시, 특징적인 소견(부은 얼굴, 건조한 피부, 느린 심박수, 지연된 건반사)을 연기자가 인지하고 있어야 함. 말이 느리고 목소리가 쉰 듯한 느낌을 표현하는 것이 중요."

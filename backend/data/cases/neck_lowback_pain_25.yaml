@@ -1,0 +1,116 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "25"
+title: "실전 모의 증례 (척추 분쇄 골절)"
+patient_info:
+  name: "최강산"
+  age: 25
+  sex: "남성"
+  presenting_complaint: "높은 곳에서 떨어진 후 발생한 극심한 등 통증과 다리 감각 이상"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "110회/분"
+  respiration: "22회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "척추 분쇄 골절 (Burst fracture)과 척수 손상"
+    - "척추 탈구"
+    - "경막외 혈종"
+  necessary_tests:
+    - "응급 척추 CT"
+    - "응급 척추 MRI (신경 손상 평가)"
+    - "전신 외상 평가를 위한 추가 영상 검사 (ATLS 프로토콜에 따라)"
+  necessary_treatments:
+    - "척추 고정 및 안정화 (경추 보호대, 척추보드)"
+    - "응급 수술적 감압 및 기기고정술"
+    - "고용량 스테로이드 치료 (논란의 여지 있음)"
+    - "중환자실 집중 치료 및 재활 치료"
+history:
+  sex_age: "남성/25세"
+  chief_complaint_verbatim: "공사장에서 발을 헛디뎌서 3미터 아래로 떨어졌어요. 등이 너무 아파서 못 움직이겠고, 다리에 감각이 없어요."
+  onset: "1시간 전"
+  location:
+    initial: "등 중앙"
+    current: "등 중앙, 양쪽 다리"
+  duration:
+    onset_pattern: "급성 발생 (외상 직후)"
+    recent_course: "지속적으로 극심함"
+  course: "3층 높이의 건설 현장에서 발을 헛디뎌 수직으로 떨어지면서 엉덩방아를 찧음. 낙상 직후 등에 극심한 통증을 느꼈고, 다리를 움직일 수 없었음. 의식 소실은 없었음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "극심한 통증, 다리의 마비감"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아주 작은 움직임에도 악화"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "군 입대 신체검사"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "1시간 전 추락사고 (3m 높이)"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "건설 노동자"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "없음"
+    exercise: "노동이 운동임"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "척추보드에 고정된 상태. 극심한 통증을 호소하며 식은땀을 흘리고 있음."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds, 흉곽의 외상 흔적 없음."
+  abdomen:
+    inspection: "soft, flat, 외상 흔적 없음."
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      spinal_exam: "흉요추 접합부(T12-L1)에 국소적인 압통, 부종, 피하 출혈 관찰됨. 촉진 시 틈(gap)이 느껴질 수 있음."
+  cvat: "좌우 음성"
+  extremity: "양쪽 하지의 근력 저하 (고관절 굴곡 Grade 2/5, 무릎 신전 Grade 2/5). 발목 이하 근력 Grade 0/5. 배꼽 아래 부위의 감각 저하. 항문 괄약근 긴장도 저하. 심부건 반사 소실."
+standardized_patient_questions: "다시 걸을 수 있는 건가요? 평생 이렇게 살아야 하나요? 너무 무서워요."
+specific_remarks: "고에너지 외상 병력을 명확하게 전달해야 함. 환자는 이미 척추보드에 고정된 상태로 들어오는 상황을 연출할 수 있음. 신경학적 손상에 대한 극도의 불안감과 공포를 표현해야 함. 진찰 시 등을 만지려고 하면 극심한 통증을 호소하고, 다리의 감각이나 움직임을 확인하려 할 때 반응이 없음을 보여줘야 함. 응급 상황임을 인지하고 다급한 태도를 보여야 함."

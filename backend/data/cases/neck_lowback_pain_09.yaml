@@ -1,0 +1,115 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (대동맥 박리)"
+patient_info:
+  name: "김영철"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "갑자기 발생한 찢어지는 듯한 등 통증"
+vital_signs:
+  blood_pressure: "오른팔 180/100mmHg, 왼팔 110/70mmHg"
+  pulse: "110회/분"
+  respiration: "24회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대동맥 박리 (Aortic dissection)"
+    - "급성 심근경색"
+    - "척추 골절"
+  necessary_tests:
+    - "흉부 CT 혈관조영술 (Chest CT angiography)"
+    - "심전도 (EKG)"
+    - "심장 효소 검사 (CK-MB, Troponin)"
+  necessary_treatments:
+    - "응급 상황으로 즉각적인 입원 및 중환자실 모니터링"
+    - "혈압 및 심박수 조절 (베타차단제, 혈관확장제)"
+    - "응급 수술 또는 스텐트-그라프트 삽입술"
+history:
+  sex_age: "남성/65세"
+  chief_complaint_verbatim: "갑자기 등이 칼로 찢어지는 것처럼 아파요! 숨도 차고... 죽을 것 같아요."
+  onset: "30분 전"
+  location:
+    initial: "가슴"
+    current: "날개뼈 사이 등 쪽으로 이동"
+  duration:
+    onset_pattern: "매우 갑작스럽게, 최고 강도로 시작 (thunderclap onset)"
+    recent_course: "지속적으로 극심함"
+  course: "특별한 활동 없이 TV를 보던 중 갑자기 가슴을 쥐어짜는 통증이 시작되었고, 몇 분 뒤 통증이 등 쪽으로 이동하면서 찢어지는 양상으로 변함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "칼로 찢는 듯한, 찢어발기는 듯한 통증 (Tearing, ripping pain)"
+    nrs_score: "10"
+    radiation: "가슴에서 시작하여 등(견갑골 사이)으로 이동함"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음 (지속적)"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 전, 고혈압 진단"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (약물 복용 불규칙)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "의원"
+    effect: "생각날 때만 복용함"
+  social_history:
+    job: "은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "없음"
+    exercise: "하지 않음"
+    recent_weight_change: "없음"
+  family_history: "아버지가 심장병으로 돌아가심."
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색, 식은땀을 흘리며 안절부절못하는 모습. 호흡이 가쁨."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "양쪽 폐 하부에서 약간의 악설음(crackles) 청진. 심잡음 청진 (Aortic regurgitation murmur)."
+  abdomen:
+    inspection: "soft, non-distended"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      back_palpation: "등을 만지는 것 자체에 통증을 호소하나, 특정 압통점은 없음"
+  cvat: "좌우 음성"
+  extremity: "양쪽 요골 동맥 맥박의 강도 차이 있음 (오른쪽 > 왼쪽). 양쪽 하지 감각 및 운동 기능 정상."
+standardized_patient_questions: "왜 이렇게 아픈가요? 심장에 문제 생긴 거 아닌가요? 빨리 좀 어떻게 해주세요."
+specific_remarks: "매우 위급하고 고통스러운 상황을 연기해야 함. 안절부절못하며 식은땀을 흘리는 모습을 보여줄 것. 통증의 특징('찢어지는 듯한')과 위치 이동('가슴에서 등쪽으로')을 명확히 설명해야 함. 의사가 양팔의 혈압을 재거나 맥박을 확인할 때까지 이 정보를 먼저 말하지 않도록 주의. 질문에 짧고 다급하게 대답해야 함."

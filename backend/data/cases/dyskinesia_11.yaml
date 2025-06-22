@@ -1,0 +1,109 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (항진된 생리적 떨림)"
+patient_info:
+  name: "윤지혜"
+  age: 21
+  sex: "여성"
+  presenting_complaint: "손이 떨려서 발표하기가 두려움"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "98회/분"
+  respiration: "20회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "항진된 생리적 떨림"
+    - "본태성 떨림 초기"
+    - "갑상선 기능 항진증"
+  necessary_tests:
+    - "혈액 검사 (갑상선 기능 검사, 전해질 등)"
+    - "복용 약물 및 카페인 섭취량 확인"
+    - "불안 척도 등 심리 평가"
+  necessary_treatments:
+    - "원인 요인 제거 또는 조절 (스트레스 관리, 카페인 중단)"
+    - "이완 요법, 인지행동치료"
+    - "증상이 심할 경우 베타차단제 단기 사용"
+history:
+  sex_age: "여성/21세"
+  chief_complaint_verbatim: "원래 긴장하면 손을 조금 떨었는데, 요즘은 시험이나 발표처럼 중요한 상황에서 손이 너무 심하게 떨려서 글씨를 못 쓸 정도예요. 심장도 빨리 뛰고요."
+  onset: "고등학생 때부터 있었으나, 대학 입학 후 심해짐"
+  location:
+    initial: "양손"
+    current: "양손"
+  duration:
+    onset_pattern: "특정 상황에서만 발생"
+    recent_course: "중요한 발표를 앞두고 증상 악화"
+  course: "평소에는 괜찮다가 긴장되는 상황에 처하면 갑자기 떨림이 시작되고, 상황이 끝나면 가라앉음"
+  experience_prev_episodes:
+    frequency: "긴장할 때마다"
+    trigger: "발표, 시험, 면접"
+    symptoms: "손떨림, 가슴 두근거림, 식은땀"
+  character_of_symptom:
+    quality: "가늘고 빠른 떨림"
+    nrs_score: "불편감 6점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "카페인 음료 섭취 (커피, 에너지 드링크)"
+      - "수면 부족"
+      - "사람들 앞에서 주목받는 상황"
+    alleviating: "안정된 환경에서 쉬는 것"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "학업 및 취업 준비로 스트레스 매우 높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "월경 주기 규칙적"
+physical_exam:
+  general: "다소 불안해 보이며 안절부절못하는 모습. 진찰 중에도 손을 만지작거림."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "심박수 약간 빠르나 규칙적이며, 심잡음 없음."
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "안정 시에는 떨림이 거의 없으나, 양팔을 앞으로 쭉 뻗게 하자 양손 끝에서 미세하고 빠른(10-12Hz) 자세 떨림이 관찰됨. 근력 및 감각 정상. 다른 신경학적 이상 없음."
+standardized_patient_questions: "제가 왜 이렇게 유난히 떠는 걸까요? 큰 병은 아니겠죠? 곧 중요한 면접이 있는데, 그때 안 떨 수 있는 약 같은 건 없나요?"
+specific_remarks: "환자는 불안하고 초조한 모습을 연기한다. 의사에게 자신의 증상이 다른 사람에게 어떻게 보일지 매우 신경 쓰는 태도를 보인다. 신체 진찰 시, 팔을 뻗으라는 지시에 긴장하며 떨림이 더 명확해지도록 연기한다. 카페인 섭취(시험 기간에 에너지 드링크를 하루 3캔씩 마신다)와 수면 부족을 스스로 이야기하는 것이 중요하다."

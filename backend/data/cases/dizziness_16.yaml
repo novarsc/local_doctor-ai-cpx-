@@ -1,0 +1,107 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (부정맥, Arrhythmia)"
+patient_info:
+  name: "정진태"
+  age: 66
+  sex: "남성"
+  presenting_complaint: "가끔씩 갑자기 어지럽고 가슴이 두근거려요."
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "88회/분 (불규칙)"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "발작성 심방세동에 의한 어지럼"
+    - "발작성 상심실성 빈맥"
+    - "미주신경성 실신"
+  necessary_tests:
+    - "심전도"
+    - "24시간 홀터 모니터링 또는 사건기록 심전도"
+    - "심장 초음파"
+  necessary_treatments:
+    - "항응고 요법 (뇌졸중 예방)"
+    - "심박수 조절 (베타차단제, 칼슘채널차단제 등)"
+    - "리듬 조절 (항부정맥제, 전기적 동율동 전환 등)"
+    - "생활 습관 교정 (금주, 금연)"
+history:
+  sex_age: "남성/66세"
+  chief_complaint_verbatim: "몇 달 전부터 예측 없이 갑자기 가슴이 막 불규칙하게 뛰면서 어지럽고 식은땀이 나요. 그러다 저절로 괜찮아져요."
+  onset: "3개월 전"
+  location:
+    initial: "가슴, 머리"
+    current: "증상 발생 시 동일"
+  duration:
+    onset_pattern: "갑자기"
+    recent_course: "한 번 발생하면 수 분에서 길게는 한 시간 정도 지속됨. 월 2-3회 발생."
+  course: "주로 피곤하거나 술을 마신 다음 날 더 잘 생기는 것 같습니다. 증상이 있을 땐 숨도 약간 차고, 금방이라도 쓰러질 것처럼 아찔합니다."
+  experience_prev_episodes:
+    frequency: "월 2-3회"
+    trigger: "과로, 음주"
+    symptoms: "불규칙한 심계항진, 실신할 듯한 어지럼, 경미한 호흡곤란, 전신 쇠약감"
+  character_of_symptom:
+    quality: "빙빙 도는 느낌이 아니라 아찔하고 쓰러질 것 같은 느낌(presyncope)"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음주"
+      - "피로"
+    alleviating: "시간이 지나면 저절로 멈춤"
+  health_check_history:
+    last_checkup: "1년 전, 고혈압 진단"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "로사르탄 50mg"
+    source: "내과"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "가끔 등산"
+    recent_weight_change: "없음"
+  family_history: "형님이 심장병으로 스텐트 시술 받음"
+  female_history: ""
+physical_exam:
+  general: "현재 증상은 없으나, 혈색이 좋지 않음."
+  heent: "정상"
+  chest: "심음이 불규칙하게 들림 (irregularly irregular rhythm)."
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "말초 맥박 촉지 시 맥박 결손(pulse deficit)이 느껴질 수 있음."
+standardized_patient_questions: "이게 심장 때문에 어지러운 건가요? 협심증이나 심근경색 같은 위험한 병은 아닌가요?"
+specific_remarks: "환자는 어지럼증이 '가슴 두근거림'과 동시에 시작되고 끝난다는 점을 강조해야 한다. 어지럼의 성격이 비회전성(presyncope)임을 명확히 한다. 현재 증상이 없는 상태(발작 사이)에 내원했지만, 신체 진찰에서 의사가 청진이나 맥박 촉진 시 '불규칙한 리듬'을 발견할 수 있도록 연기해야 한다. 이는 심방세동을 시사하는 결정적 단서이다."

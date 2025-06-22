@@ -1,0 +1,108 @@
+---
+chapter: "상담"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (헌팅턴병)"
+patient_info:
+  name: "이정민"
+  age: 42
+  sex: "남성"
+  presenting_complaint: "유전자 검사 결과 문의"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "75회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "환자는 1년 전부터 시작된 이상 운동 증상과 감정 기복으로 내원했습니다. 10년 전 헌팅턴병으로 진단받은 아버지를 둔 가족력이 있어 유전자 검사를 시행했습니다. 첨부된 검사 결과지(HTT 유전자 CAG 반복 서열 45회로 확장)를 바탕으로, 환자에게 헌팅턴병 확진 사실을 알리고 향후 관리 계획에 대해 논의하십시오."
+patient_education:
+  probable_diagnoses:
+    - "헌팅턴병"
+    - "지연성 운동장애 (Tardive dyskinesia)"
+    - "윌슨병"
+  necessary_tests:
+    - "신경인지기능 평가 (인지 저하 정도 파악)"
+    - "정신건강의학과 협진 (우울, 불안 등 정신 증상 평가 및 관리)"
+    - "배우자 및 자녀에 대한 유전 상담"
+  necessary_treatments:
+    - "무도증 조절을 위한 약물 치료 (테트라베나진 등)"
+    - "우울, 불안, 정신증에 대한 약물 치료"
+    - "물리치료, 작업치료, 언어치료를 통한 기능 유지"
+history:
+  sex_age: "남성/42세"
+  chief_complaint_verbatim: "아버지 때문에 혹시나 해서 받아본 유전자 검사... 결과가 나왔다고 해서 왔습니다."
+  onset: "약 1년 전"
+  location:
+    initial: "손, 얼굴"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 뚜렷해짐"
+  course: "1년 전부터 저도 모르게 얼굴을 찡긋거리거나 손가락을 까딱거리는 버릇이 생겼습니다. 최근에는 걸을 때 몸이 흐느적거리는 것 같고, 별일 아닌데 화를 참지 못하는 일이 잦아졌습니다. 아버지가 돌아가시기 전 모습과 비슷한 것 같아 불안합니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "의지와 상관없이 몸이 움직임. 감정 조절이 안 됨."
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스 받을 때"
+      - "집중하려고 할 때"
+    alleviating: "잠잘 때"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "은행원"
+    stress: "증상으로 인해 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "과거 5년 흡연 후 금연 15년"
+    exercise: "주 2회 헬스"
+    recent_weight_change: "없음"
+  family_history: "아버지가 헌팅턴병으로 55세에 사망"
+  female_history: "해당 없음"
+physical_exam:
+  general: "불안한 표정. 진찰 중에도 지속적인 무도성 운동(chorea) 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "양측 음성"
+  extremity: "사지에서 불수의적이고 춤추는 듯한 움직임(무도증) 보임. 근긴장도 저하."
+standardized_patient_questions: "결국 아버지와 같은 병이군요... 저도 결국 아버지처럼 될까요? 제 아이들에게도 유전될 수 있는 거죠? 그걸 어떻게 이야기해야 할지..."
+specific_remarks: "환자는 이미 진단을 예감하고 있어 비교적 담담하게 결과를 받아들이지만, 깊은 절망감을 내비친다. 자신의 미래가 아버지처럼 될 것이라는 공포와 함께, 자녀에게 병을 대물림했을 수 있다는 죄책감을 강하게 표현한다. 치료가 증상 완화일 뿐 근본적인 해결책이 아니라는 점에 대해 허탈해한다. 직장 생활을 계속할 수 있을지에 대한 현실적인 고민을 토로한다."

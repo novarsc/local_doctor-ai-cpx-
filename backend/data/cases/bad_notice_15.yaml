@@ -1,0 +1,105 @@
+---
+chapter: "상담"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (뒤셴 근이영양증, DMD)"
+patient_info:
+  name: "박민준 (보호자: 어머니 김지현, 32세)"
+  age: 5
+  sex: "남성"
+  presenting_complaint: "아이의 발달 지연에 대한 검사 결과 문의"
+vital_signs:
+  blood_pressure: "90/60mmHg"
+  pulse: "100회/분"
+  respiration: "22회/분"
+  temperature: "36.8℃"
+examinee_instructions: "5세 남자 환아의 보호자인 어머니가, 아이가 자주 넘어지고 계단을 오르기 힘들어하여 시행한 혈액검사 및 유전자 검사 결과를 듣기 위해 내원했습니다. 첨부된 결과지(혈중 CK 수치 현저한 증가, 디스트로핀 유전자 결손 확인)를 바탕으로, 보호자에게 뒤셴 근이영양증 진단을 알리고 향후 관리 계획에 대해 논의하십시오. 환아는 진료실에 함께 있습니다."
+patient_education:
+  probable_diagnoses:
+    - "뒤셴 근이영양증 (Duchenne Muscular Dystrophy)"
+    - "베커 근이영양증 (Becker Muscular Dystrophy)"
+    - "지대형 근이영양증 (Limb-girdle Muscular Dystrophy)"
+  necessary_tests:
+    - "심장 초음파 및 심전도 (심근병증 평가)"
+    - "폐기능 검사 (성장하면서 정기적으로)"
+    - "가족(어머니) 보인자 검사 및 유전 상담"
+  necessary_treatments:
+    - "스테로이드 치료 (근력 유지 및 진행 지연)"
+    - "물리치료 및 재활치료 (관절 구축 예방)"
+    - "보조기 사용 및 휠체어 준비"
+history:
+  sex_age: "남성/5세 (보호자 진술)"
+  chief_complaint_verbatim: "우리 아이가 자꾸 넘어져서 검사했는데, 결과가 어떻게 나왔나요?"
+  onset: "걷기 시작할 때부터"
+  location:
+    initial: "다리"
+    current: "다리"
+  duration:
+    onset_pattern: "점진적 발현"
+    recent_course: "점점 더 힘들어함"
+  course: "또래보다 걷는 것이 늦었고, 걸음걸이가 뒤뚱거립니다. 일어날 때 손으로 바닥과 다리를 짚고 일어나고(가워 사인), 계단 오르기를 매우 힘들어합니다. 유치원에서 친구들과 뛰어놀지 못하고 자주 넘어집니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "근력 약화"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "뛰거나 계단을 오를 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "영유아 검진"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: ""
+    stress: ""
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: ""
+    recent_weight_change: "정상적 성장"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "환아는 진료실을 돌아다니려 함. 걸음걸이가 불안정함."
+  heent: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "양측 음성"
+  extremity: "장딴지 근육이 비대해 보임(가성비대). 엎드린 자세에서 일어날 때 손으로 다리를 짚고 일어남(Gower's sign 양성)."
+standardized_patient_questions: "(보호자) 그게 희귀병인가요? 근육에 힘이 점점 빠지는 병이라고요? 그럼 나중에는 걷지 못하게 될 수도 있나요? 제 잘못인가요? 제가 뭘 잘못해서 아이가 이런 병에 걸린 건가요?"
+specific_remarks: "표준화 환자는 환아의 어머니다. 진단명을 듣고 믿을 수 없다는 표정으로 의사를 쳐다본다. 아이의 미래에 대한 절망감과 함께, 유전 질환이라는 설명에 극심한 죄책감을 느낀다 ('내 탓인가'라고 반복). 옆에서 천진난만하게 놀고 있는 아이를 보며 눈물을 흘린다. 치료가 완치가 아님을 이해하고 깊이 절망한다."

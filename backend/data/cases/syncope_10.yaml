@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (긴 QT 증후군)"
+patient_info:
+  name: "한소리"
+  age: 17
+  sex: "여성"
+  presenting_complaint: "친구와 다투고 소리를 지르다가 갑자기 쓰러졌어요."
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "긴 QT 증후군 (Long QT syndrome)에 의한 다형성 심실 빈맥(Torsades de Pointes)"
+    - "혈관미주신경성 실신"
+    - "과호흡 증후군"
+  necessary_tests:
+    - "12유도 심전도 검사 (QT 간격 확인)"
+    - "24시간 홀터 모니터링"
+    - "가족력 청취 및 가족 구성원 심전도 검사 권유"
+  necessary_treatments:
+    - "QT 간격을 늘릴 수 있는 약물 회피 교육"
+    - "격렬한 운동 및 감정적 스트레스 유발 상황 회피"
+    - "베타 차단제 약물 치료 및 필요 시 삽입형 제세동기(ICD) 고려"
+history:
+  sex_age: "여성/17"
+  chief_complaint_verbatim: "어제 학교에서 친한 친구랑 크게 싸웠어요. 너무 화가 나서 소리를 막 지르는데, 갑자기 심장이 막 뛰는 것 같더니 눈앞이 캄캄해지면서 쓰러졌어요."
+  onset: "어제 오후 4시"
+  location:
+    initial: "학교 복도"
+    current: "진료실"
+  duration:
+    onset_pattern: "극심한 감정적 스트레스 상황에서 발생"
+    recent_course: "친구가 말하길, 쓰러져서 몸을 살짝 떠는 것 같았다고 함(경련 양상). 1분 안에 저절로 깨어났고, 이후 특별한 증상은 없었음."
+  course: "초등학교 때 운동회날 달리기하다가 어지러워서 주저앉은 적이 있음. 그 외에는 특이사항 없었음."
+  experience_prev_episodes:
+    frequency: "초등학교 때 1회 비슷한 경험 (의식 소실은 없었음)"
+    trigger: "격렬한 운동"
+    symptoms: "어지럼증, 심계항진"
+  character_of_symptom:
+    quality: "의식 소실"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "감정적 격앙 (분노, 놀람)"
+      - "격렬한 운동"
+    alleviating: "저절로 회복"
+  health_check_history:
+    last_checkup: "학생 건강검진 (매년)"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "어릴 때부터 선천성 난청으로 한쪽 귀가 잘 안 들림"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "고등학생"
+    stress: "학업 스트레스 많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "체육 시간 외에는 거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "어머니의 여동생(이모)이 젊은 나이에 주무시다가 돌아가셨다고 들음 (돌연사)"
+  female_history: "LMP: 1주 전, 주기 불규칙"
+physical_exam:
+  general: "앳된 외모의 여학생. 불안한 기색 없이 담담하게 이야기함. 의식 명료."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상. 심잡음 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이사항 없음."
+standardized_patient_questions: "그냥 화가 나서 혈압이 올라서 그런 거 아니에요? 제 친구는 제가 간질(뇌전증)인 것 같다고 하는데, 그런가요? 앞으로 조심해야 할 게 있나요?"
+specific_remarks: "환자는 (보호자와 동반 내원함) 증상의 심각성을 잘 인지하지 못하고, 친구와 싸운 일에 대해 더 신경 쓰는 모습을 보인다. 의사가 가족력이나 난청에 대해 질문할 때 '그게 이거랑 상관이 있나요?'라며 의아해한다. 전반적으로 차분한 태도를 유지한다."

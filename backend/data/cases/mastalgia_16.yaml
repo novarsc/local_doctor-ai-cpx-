@@ -1,0 +1,115 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (염증성 유방암)"
+patient_info:
+  name: "최명희"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "한 달 사이 왼쪽 가슴 전체가 갑자기 붉어지고 부어오름"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "염증성 유방암"
+    - "유방염 또는 유방 농양"
+    - "림프관 폐쇄로 인한 피부 변화"
+  necessary_tests:
+    - "진단적 유방 촬영술 및 유방 초음파"
+    - "피부 펀치 생검 및 유방 종괴에 대한 중심부바늘생검"
+    - "전신 전이 여부 확인을 위한 PET-CT"
+  necessary_treatments:
+    - "선행 항암화학요법"
+    - "수술 (변형 근치 유방절제술)"
+    - "방사선 치료"
+    - "빠르고 공격적인 암이므로 즉각적인 치료가 필요함을 강조"
+history:
+  sex_age: "여성/55"
+  chief_complaint_verbatim: "한 달 전부터 왼쪽 가슴이 갑자기 붓고 빨개지기 시작했어요. 근처 병원에서 유선염 같다고 항생제를 일주일 먹었는데 전혀 소용이 없고 점점 더 심해져요. 가슴이 뜨끈뜨끈하고 아파요."
+  onset: "약 1개월 전"
+  location:
+    initial: "왼쪽 유방 일부"
+    current: "왼쪽 유방 전체"
+  duration:
+    onset_pattern: "비교적 급격히 발생"
+    recent_course: "매우 빠르게 악화됨"
+  course: "발적과 부종으로 시작하여, 항생제 치료에도 반응 없이 유방 전체로 퍼지고 피부가 두꺼워지는 등 증상이 급격히 진행됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "화끈거리고 쑤시는 통증, 팽팽하게 부어있는 느낌"
+    nrs_score: "7점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 국가건강검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "아목시실린/클라불란산 (타병원 처방)"
+    source: "타병원 처방 (10일 전)"
+    effect: "전혀 효과 없었음"
+  social_history:
+    job: "자영업 (꽃집)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 4년 전 (폐경). 2-0-0-2."
+physical_exam:
+  general: "급성 병색을 보이며, 통증과 불안감으로 안절부절못하는 모습."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  breast_exam: "왼쪽 유방이 오른쪽 유방에 비해 현저하게 커져 있으며, 유방 전체에 걸쳐 경계가 불분명한 발적과 부종이 관찰됨. 피부를 만졌을 때 온열감이 있고, 피부가 두꺼워져 모공이 두드러져 보이는 '오렌지 껍질 모양(peau d'orange)'의 변화가 뚜렷함. 유두 함몰이 관찰됨. 유방 전체가 단단하게 만져지나 명확한 경계의 덩이는 촉진되지 않음. 왼쪽 겨드랑이에 크고 단단한 림프절이 만져짐."
+standardized_patient_questions: "염증이라고 해서 약을 먹었는데 왜 낫지를 않을까요? 염증성 '유방암'이라고요? 염증인데 암일 수가 있어요? 이렇게 빨리 나빠지는데, 치료는 가능한가요?"
+specific_remarks: "환자는 항생제 치료에 실패한 경험을 강조하며 답답함과 불안감을 호소함. 신체 진찰에서 나타나는 '오렌지 껍질' 같은 피부 변화에 대해 의아해하고 걱정스러워함. '염증성 유방암'이라는 진단명에 대해, 염증과 암이 어떻게 연관되는지 혼란스러워하며 예후에 대해 매우 두려워하는 모습을 연기함."

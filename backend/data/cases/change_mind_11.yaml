@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (알코올 사용 장애)"
+patient_info:
+  name: "주취객"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "술만 마시면 감정 조절이 안 되고 다음날 너무 힘듦"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "98회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올 사용 장애 (Alcohol Use Disorder)"
+    - "알코올 유발성 우울장애"
+    - "기저의 우울장애 또는 불안장애"
+  necessary_tests:
+    - "혈액 검사 (GGT, AST/ALT, MCV 상승 확인)"
+    - "알코올 선별 검사 (AUDIT-K)"
+    - "동반 정신과적 문제 및 내과적 합병증 평가"
+  necessary_treatments:
+    - "해독 치료 및 금단 증상 관리"
+    - "약물 치료 (Naltrexone, Acamprosate 등 갈망 조절제)"
+    - "동기 강화 치료 및 인지행동치료, 자조 모임(AA) 연계"
+history:
+  sex_age: "남성/48세"
+  chief_complaint_verbatim: "술을 끊어야겠는데 잘 안돼요. 술만 마시면 필름도 끊기고, 화도 잘 내고... 다음날이면 후회되고 죽고 싶고 그래요. 아내가 제발 병원 좀 가보라고 해서 왔습니다."
+  onset: "음주 문제는 10년 이상 되었으나, 최근 1-2년간 악화됨"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "만성적"
+    recent_course: "점점 음주량이 늘고 문제 행동이 잦아짐"
+  course: "사회생활을 시작하며 술을 마시기 시작했고, 10년 전부터는 거의 매일 마셨다. 처음엔 퇴근 후 스트레스를 풀기 위해 한두 잔 마셨지만, 점점 양이 늘어 이제는 소주 2병 이상 마시지 않으면 잠을 잘 수 없다(내성). 술을 마시지 않으려고 하면 손이 떨리고 불안해서(금단) 결국 다시 마시게 된다. 음주 후 폭력적인 언행으로 인해 아내와 갈등이 잦고, 직장에서도 지각이 잦아 경고를 받았다. 술이 깨면 심한 우울감과 죄책감에 시달린다."
+  experience_prev_episodes:
+    frequency: "반복적"
+    trigger: "스트레스, 음주 갈망"
+    symptoms: "과음, 기억 상실(blackout), 음주 후 우울감"
+  character_of_symptom:
+    quality: "음주에 대한 통제력 상실, 금단 증상, 사회적/직업적 기능 저하"
+    nrs_score: "N/A"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "아침에 구역질을 자주 함"
+      constipation: false
+      diarrhea: true
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "저녁 시간"
+    alleviating: "음주"
+  health_check_history:
+    last_checkup: "2년 전, 지방간과 고혈압 소견"
+    endoscopy_finding: "역류성 식도염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 지방간, 역류성 식도염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (가끔 복용)"
+    source: "내과"
+    effect: "모르겠음"
+  social_history:
+    job: "건설 현장 관리직"
+    stress: "높음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 2-3병"
+    smoking:
+      is_smoker: true
+      amount: "하루 1갑"
+      cessation_period: "N/A"
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "아버지가 알코올 문제로 간경화 진단 받으셨음"
+  female_history: "N/A"
+physical_exam:
+  general: "전반적으로 지쳐 보이며, 얼굴에 홍조와 모세혈관확장증(telangiectasia)이 보임. 약간의 손 떨림(tremor)이 관찰됨."
+  heent:
+    sclera: "경미한 황달(icteric sclera) 소견"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "복부 팽만"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "제가 정말 알코올 중독인가요? 그냥 남들처럼 사회생활 하는 것뿐인데... 약 먹으면 술 생각이 안 나나요?"
+specific_remarks: "자신의 음주 문제를 인정하면서도, 한편으로는 변명하거나 축소하려는 양가적인 태도를 보임. 술을 끊고 싶다는 마음과 술 없이는 살 수 없다는 절망감을 동시에 표현함. 신체 진찰 시 RUQ 압통에 인상을 찌푸림. 질문에 따라 수치심이나 죄책감을 드러냄."

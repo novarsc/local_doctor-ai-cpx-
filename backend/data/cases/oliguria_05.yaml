@@ -1,0 +1,119 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (심부전 악화)"
+patient_info:
+  name: "나심장"
+  age: 76
+  sex: "여성"
+  presenting_complaint: "숨이 차고 다리가 부으며 소변 양이 줄어듦"
+vital_signs:
+  blood_pressure: "100/70mmHg"
+  pulse: "115회/분 (불규칙)"
+  respiration: "26회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 악화된 심부전 (심장성 신증후군)"
+    - "폐렴"
+    - "신증후군"
+  necessary_tests:
+    - "흉부 X-ray"
+    - "심전도"
+    - "혈액 검사 (BNP, Troponin, BUN/Cr)"
+  necessary_treatments:
+    - "산소 공급"
+    - "이뇨제 정맥 주사"
+    - "혈관확장제 및 강심제 사용 고려"
+history:
+  sex_age: "여성/76"
+  chief_complaint_verbatim: "며칠 전부터 조금만 걸어도 숨이 턱까지 차고, 밤에 누우면 더 심해져서 앉아서 자요. 다리도 코끼리 다리처럼 퉁퉁 붓고 소변도 잘 안 나와요."
+  onset: "5일 전"
+  location:
+    initial: "호흡곤란"
+    current: "호흡곤란, 전신 부종"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "지난 이틀간 급격히 악화"
+  course: "10년 전 심부전 진단받고 약물치료 중임. 평소에도 계단 오를 때 약간 숨찬 증상은 있었음. 5일 전 감기 기운이 있은 후부터 기침이 심해지고 숨찬 증상이 악화됨. 특히 밤에 누우면 기침과 함께 숨이 차서 잠을 잘 수 없었음. 3일 전부터 소변량이 줄고 발목부터 붓기 시작해 지금은 허벅지까지 부었음."
+  experience_prev_episodes:
+    frequency: "1년에 1-2회 비슷한 증상으로 입원한 경험 있음"
+    trigger: "감기, 약물 복용 불규칙"
+    symptoms: "호흡곤란, 부종"
+  character_of_symptom:
+    quality: "가만히 있어도 숨이 가쁨. 발작성 야간 호흡곤란, 기좌호흡."
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "누운 자세 (기좌호흡)"
+      - "움직일 때"
+    alleviating: "상체를 세우고 앉아있으면 조금 편함"
+  health_check_history:
+    last_checkup: "3개월 전 심장내과 외래"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "울혈성 심부전, 심방세동, 고혈압"
+    allergies: "페니실린 (두드러기)"
+  medication_history:
+    taken:
+      - "Furosemide"
+      - "Lisinopril"
+      - "Carvedilol"
+      - "Rivaroxaban"
+    source: "대학병원 심장내과"
+    effect: "최근 감기 걸린 후 약을 며칠 건너뛰었음"
+  social_history:
+    job: "무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못 함"
+    recent_weight_change: "일주일간 4kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "70년 전 초경, 50세 폐경"
+physical_exam:
+  general: "급성 병색. 앉은 자세에서 가쁘게 숨을 몰아쉼. 보조호흡근 사용."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 신체진찰 소견 추가
+    jugular_vein_distention: true
+  chest: "양쪽 폐 전반에 걸쳐 수포음(crackle) 청진됨. 심음은 불규칙하고 빠르게 들리며 S3 gallop 청진됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양측 하지에 심한 오목 부종 (pitting edema 3+)"
+standardized_patient_questions: "숨이 너무 차서 죽을 것 같아요. 이번에도 입원해야 하나요? 심장이 나빠서 소변도 안 나오는 건가요?"
+specific_remarks: "환자는 숨이 차서 긴 문장으로 말하기 어려워한다. 말을 하다가 중간에 숨을 고른다. 앉은 자세를 유지하려고 하며, 눕히려고 하면 불안해하며 거부한다."

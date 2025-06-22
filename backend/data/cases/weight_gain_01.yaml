@@ -1,0 +1,112 @@
+---
+chapter: "전신"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (쿠싱 증후군)"
+patient_info:
+  name: "박은혜"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "최근 몇 달간 얼굴이 붓고 배만 나오는 것 같아 내원함"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "쿠싱 증후군"
+    - "갑상선 기능 저하증"
+    - "단순 비만"
+  necessary_tests:
+    - "24시간 소변 유리 코르티솔 검사"
+    - "저용량 덱사메타손 억제 검사"
+    - "혈중 부신피질자극호르몬(ACTH) 농도 측정"
+  necessary_treatments:
+    - "원인에 따른 치료 (수술, 방사선, 약물)"
+    - "고혈압 및 혈당 조절"
+    - "생활습관 교정"
+history:
+  sex_age: "여성/38세"
+  chief_complaint_verbatim: "한 6개월 전부터 살이 찌는데 이상해요. 팔다리는 가늘어지는데 얼굴이랑 배만 볼록하게 나오고... 배에 보라색 튼살도 생겼어요."
+  onset: "약 6개월 전부터 서서히"
+  location:
+    initial: "전반적인 체중 증가"
+    current: "얼굴, 목, 복부에 집중된 비만"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 심해지는 양상"
+  course: "6개월간 약 8kg의 체중이 증가했으며, 특히 얼굴과 복부에 살이 집중됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "체중 증가와 함께 외모의 변화가 동반됨"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "최근 고혈압, 당뇨 전단계 진단받음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "외모 변화로 인해 스트레스가 많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 6개월간 8kg 증가"
+  family_history: "어머니 (고혈압)"
+  female_history: "생리 주기가 불규칙해지고 양이 줄어듦 (최근 4-5개월간)"
+physical_exam:
+  general: "중심성 비만, 만월상 얼굴(moon face), 물소혹(buffalo hump) 관찰됨."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and clear"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "복부 비만과 함께 넓고 뚜렷한 자색 선조(purple striae) 관찰됨."
+    auscultation: "장음 정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "사지 가늘어짐 및 근위부 근력 저하 소견 보임. 경미한 발목 부종 관찰됨."
+standardized_patient_questions: "제 얼굴이 왜 이렇게 달덩이처럼 붓는 건가요? 이거 위험한 병인가요? 치료는 되나요?"
+specific_remarks: "환자는 자신의 외모 변화에 대해 매우 우울해하며, 감정적으로 불안정한 모습을 보인다. 병력 청취 중 쉽게 눈물을 글썽일 수 있다."

@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (발작성 상심실성 빈맥)"
+patient_info:
+  name: "김민지"
+  age: 24
+  sex: "여성"
+  presenting_complaint: "갑자기 시작되고 갑자기 멎는 두근거림"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "170회/분 (규칙적)"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "발작성 상심실성 빈맥 (PSVT)"
+    - "불안장애 또는 공황발작"
+    - "갑상선기능항진증에 의한 동성 빈맥"
+  necessary_tests:
+    - "심전도 (EKG)"
+    - "갑상선 기능 검사 (TSH, free T4)"
+    - "필요시 24시간 활동 혈압 및 심전도 검사 (Holter monitoring)"
+  necessary_treatments:
+    - "우선 발작을 멈추기 위한 응급 처치 (미주신경 자극법, 아데노신 주사)"
+    - "증상 조절을 위한 약물 치료 (베타차단제, 칼슘채널차단제 등)"
+    - "재발 방지를 위한 전극도자 절제술 고려"
+history:
+  sex_age: "여/24"
+  chief_complaint_verbatim: "갑자기 심장이 미친 듯이 빨리 뛰어요. 이러다 죽을 것 같아요."
+  onset: "1년 전부터 가끔씩, 오늘은 30분 전 카페에서 갑자기 시작됨"
+  location:
+    initial: "가슴 전체"
+    current: "가슴 전체"
+  duration:
+    onset_pattern: "아무런 예고 없이 갑자기 시작됨 (on-off가 명확함)"
+    recent_course: "한 번 시작되면 10분에서 길게는 1시간까지 지속되다가 갑자기 멎음"
+  course: "지난 1년간 3-4번 정도 경험했으며, 빈도가 잦아지는 것 같음"
+  experience_prev_episodes:
+    frequency: "3-4개월에 한 번"
+    trigger: "피곤하거나 커피를 마신 날"
+    symptoms: "오늘과 동일하게 갑자기 심장이 빨리 뛰고 어지러웠음"
+  character_of_symptom:
+    quality: "심장이 목구멍까지 올라와서 규칙적으로 '두두두두' 하고 매우 빠르게 뛰는 느낌"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "피로"
+      - "카페인 섭취"
+    alleviating: "가만히 있거나, 숨을 참고 배에 힘을 주면 가끔 멎을 때가 있었음"
+  health_check_history:
+    last_checkup: "2년 전 학생 검진, 특이소견 없었음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학원생"
+    stress: "논문 때문에 스트레스가 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 고혈압으로 약물 복용 중"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "불안한 표정으로 가슴을 부여잡고 있음. 급성 병색."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 깨끗함"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "말초 부종 없음, 맥박 매우 빠르나 규칙적임"
+standardized_patient_questions: "이거 위험한 병인가요? 왜 저한테만 이런 일이 생기죠? 치료하면 괜찮아지나요?"
+specific_remarks: "환자는 매우 불안해하며, 질문에 답할 때 숨이 차는 듯한 모습을 보인다. 실제 심박수가 매우 빠른 것처럼 목의 맥박이 눈에 띄게 보이도록 연기한다."

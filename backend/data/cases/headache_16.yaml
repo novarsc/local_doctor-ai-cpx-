@@ -1,0 +1,118 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (일산화탄소 중독)"
+patient_info:
+  name: "박철민"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "두통, 어지럼증, 구역감 (함께 온 아내와 아들도 비슷한 증상 호소)"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "98회/분"
+  respiration: "20회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "일산화탄소 중독"
+    - "바이러스성 위장염 (집단 발병)"
+    - "식중독"
+  necessary_tests:
+    - "동맥혈가스분석(ABGA) 또는 정맥혈 검사에서 일산화탄소-헤모글로빈(CO-Hb) 농도 측정"
+    - "심전도 및 심장 효소 검사 (심근 손상 확인)"
+    - "필요시 뇌 CT 또는 MRI (특히 의식 저하 환자)"
+  necessary_treatments:
+    - "즉시 100% 고농도 산소 공급"
+    - "의식 저하, 임산부, 심근 허혈 소견 등 중증 중독의 경우 고압산소치료 고려"
+    - "함께 거주하는 가족 모두 검사 및 치료 필요"
+history:
+  sex_age: "남성/45"
+  chief_complaint_verbatim: "어젯밤부터 온 가족이 머리가 띵하게 아프고 어지러워요. 속도 메슥거리고 영 기운이 없네요. 꼭 심한 몸살감기 같아요."
+  onset: "내원일 아침, 자고 일어난 후부터"
+  location:
+    initial: "머리 전체"
+    current: "머리 전체"
+  duration:
+    onset_pattern: "자고 일어난 후부터 지속됨"
+    recent_course: "집에서 나오니 조금 나아지는 것 같기도 함"
+  course: "지속적인 둔한 두통과 어지럼증"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "둔하고 띵한 두통"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "아들이 아침에 1회 구토함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+    neurological:
+      confusion: "약간 멍한 느낌"
+      syncope: "없음"
+  factors:
+    aggravating:
+      - "집 안에 있을 때"
+    alleviating: "창문을 열고 환기시키거나 밖에 나오니 약간 호전됨"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "자영업"
+    stress: "보통"
+    # Key history points
+    living_situation: "단독 주택, 최근 날씨가 추워져서 창문을 닫고 오래된 가스보일러를 계속 틀고 잤음."
+    recent_events: "어제 저녁 온 가족이 집에서 같은 음식을 먹었음 (식중독과 감별점)."
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "해당 없음"
+    exercise: "별로 안 함"
+    recent_weight_change: "없음"
+  family_history: "아내(42세), 아들(15세)도 동일한 시간대에 비슷한 증상(두통, 어지럼증, 구역감) 호소"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적으로 지쳐 보이고, 약간의 혼동 상태를 보일 수 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "점막이 선홍색(cherry-red color)을 띨 수 있으나, 드묾. 여기서는 정상으로 설정."
+  chest: "빈호흡, 빈맥. 호흡음은 깨끗함."
+  abdomen: "정상"
+  neurology:
+    mental_status: "Alert, but slightly confused and slow to answer."
+    cranial_nerves: "정상"
+    motor_sensory_reflexes: "정상"
+    cerebellar_function: "Tandem gait 시 약간 비틀거림 (ataxia)"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "온 가족이 갑자기 왜 이러죠? 어제 저녁에 먹은 음식이 잘못됐을까요? 보일러 때문에 이럴 수도 있나요? 저희 괜찮은 건가요?"
+specific_remarks: "환자는 본인뿐만 아니라 함께 온 가족(SP 배우가 연기)도 비슷한 증상을 겪고 있음을 강조한다. 언제부터, 어디서 증상이 시작되었는지 물어볼 때 '어젯밤 집에서 자고 일어난 후부터'라고 명확히 대답한다. '오래된 가스보일러'에 대한 단서를 제공한다. 집단 발병 양상에 초점을 맞춰 연기한다."

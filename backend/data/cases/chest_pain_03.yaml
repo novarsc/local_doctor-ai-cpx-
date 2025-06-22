@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (대동맥 박리, Aortic Dissection)"
+patient_info:
+  name: "박종팔"
+  age: 67
+  sex: "남성"
+  presenting_complaint: "등으로 뻗치는 찢어지는 듯한 가슴 통증"
+vital_signs:
+  blood_pressure: "오른팔 170/100mmHg, 왼팔 130/80mmHg"
+  pulse: "110회/분"
+  respiration: "24회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 대동맥 박리"
+    - "급성 심근경색"
+    - "폐색전증"
+  necessary_tests:
+    - "흉부 CT 조영술 (Chest CT angiography)"
+    - "심전도 검사"
+    - "경식도 심장초음파"
+  necessary_treatments:
+    - "응급실로 즉시 전원하여 혈압 및 통증 조절"
+    - "응급 수술 또는 스텐트 시술"
+    - "중환자실 집중 치료"
+history:
+  sex_age: "남성/67세"
+  chief_complaint_verbatim: "1시간 전 갑자기 가슴이 찢어지는 것처럼 아프기 시작했어요. 통증이 등 쪽으로 쫙 뻗쳐요. 생전 처음 겪는 통증이에요."
+  onset: "1시간 전"
+  location:
+    initial: "앞가슴"
+    current: "앞가슴에서 등, 견갑골 사이로 이동"
+  duration:
+    onset_pattern: "번개가 치듯 갑자기"
+    recent_course: "최고 강도의 통증이 지속됨"
+  course: "화장실에서 대변을 보다가 갑자기 발생하여 119에 신고함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "찢어지는 듯한, 칼로 찌르는 듯한"
+    nrs_score: "10"
+    radiation: "등과 양쪽 견갑골 사이로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "1회 구토함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직이면 더 심해지는 느낌"
+    alleviating: "없음. 어떤 자세를 취해도 통증이 줄어들지 않음"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: "모름"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (15년 전 진단받았으나 치료하지 않음)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "은퇴 (전직: 건설업)"
+    stress: "별다른 스트레스 없음"
+    alcohol:
+      is_drinker: true
+      frequency: "매일"
+      amount: "소주 반 병/일"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "없음"
+    exercise: "하지 않음"
+    recent_weight_change: "없음"
+  family_history: "형이 뇌출혈로 사망함"
+  female_history: "해당 없음"
+physical_exam:
+  general: "극심한 통증으로 식은땀을 흘리며 매우 고통스러워 보임"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진 시 대동맥 판막 부위에서 이완기 잡음(diastolic murmur)이 약하게 들릴 수 있음. 폐음은 깨끗함."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양쪽 요골동맥(radial artery)의 맥박 강도가 비대칭적임 (오른쪽 > 왼쪽)."
+standardized_patient_questions: "너무 아파서 죽을 것 같아요. 진통제 좀 빨리 놔주세요. 이게 무슨 병인가요?"
+specific_remarks: "진찰 내내 고통스러운 표정과 신음을 낸다. 양팔 혈압과 맥박을 꼼꼼히 측정하는지 유심히 본다. 통증이 너무 심해서 길게 대답하기 어려워한다."

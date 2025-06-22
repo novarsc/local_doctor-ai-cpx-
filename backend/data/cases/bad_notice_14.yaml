@@ -1,0 +1,107 @@
+---
+chapter: "상담"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (망막색소변성증, Retinitis Pigmentosa)"
+patient_info:
+  name: "한승우"
+  age: 25
+  sex: "남성"
+  presenting_complaint: "야맹증 및 시야 협착에 대한 검사 결과 문의"
+vital_signs:
+  blood_pressure: "120/70mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "환자는 수년 전부터 지속된 야맹증과 최근 주변 시야가 좁아지는 느낌으로 내원하여 정밀 안저 검사 및 망막전위도(ERG), 시야 검사를 시행했습니다. 첨부된 결과지(망막의 골소체성 색소 침착, ERG상 간상세포 및 원뿔세포 기능 소실, 동심원적 시야 협착)를 바탕으로, 환자에게 망막색소변성증 진단을 알리고, 질병의 진행성 경과와 향후 관리에 대해 설명하십시오."
+patient_education:
+  probable_diagnoses:
+    - "망막색소변성증 (Retinitis Pigmentosa)"
+    - "비타민 A 결핍에 의한 야맹증"
+    - "맥락막결손 (Choroideremia)"
+  necessary_tests:
+    - "유전자 검사 (원인 유전자 확인 및 유전 양상 파악)"
+    - "정기적인 시야 검사 및 망막전위도 검사 (진행 속도 평가)"
+    - "색각 검사"
+  necessary_treatments:
+    - "현재까지 확립된 완치법 없음"
+    - "비타민 A, 루테인 등 보조제 복용 (진행 늦출 가능성)"
+    - "저시력 재활 및 보조기구 사용 교육, 유전 상담"
+history:
+  sex_age: "남성/25세"
+  chief_complaint_verbatim: "밤에 잘 안 보이고 시야가 좁아진 것 같아서 검사했는데, 눈에 큰 문제 있는 건가요?"
+  onset: "고등학생 때부터"
+  location:
+    initial: "없음 (야맹증)"
+    current: "없음 (시야 협착 추가)"
+  duration:
+    onset_pattern: "매우 서서히 진행"
+    recent_course: "최근 1~2년 사이 시야가 좁아지는 것을 느낌"
+  course: "고등학생 때부터 어두운 곳에 들어가면 다른 사람들보다 적응이 훨씬 느렸습니다. 최근에는 옆에서 다가오는 사람이나 물건을 잘 못 보고 부딪히는 일이 잦아졌습니다. 마치 터널 속에서 세상을 보는 것 같습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "야간 시력 저하 및 주변부 시야 소실"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "어두운 환경"
+    alleviating: "밝은 조명"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생 (컴퓨터공학)"
+    stress: "증상 때문에 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 헬스"
+    recent_weight_change: "없음"
+  family_history: "외삼촌이 비슷한 증상으로 시력이 좋지 않으심"
+  female_history: "해당 없음"
+physical_exam:
+  general: "안경 착용. 불안한 모습."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "망막색소변성증이요? 그게 뭔가요? 그럼... 점점 안 보이게 돼서 나중에는 실명할 수도 있다는 뜻인가요? 치료할 수 있는 방법은 정말 하나도 없나요? 제가 앞으로 어떻게 살아야 하죠?"
+specific_remarks: "환자는 젊은 나이에 시력을 잃을 수 있다는 사실에 엄청난 충격과 절망을 느낀다. 진단명을 들은 후 한동안 말을 잇지 못하고 멍한 표정을 짓는다. '실명'이라는 단어에 매우 민감하게 반응하며, 자신의 꿈(프로그래머)과 미래 전체를 포기해야 할지도 모른다는 생각에 괴로워한다. 치료법이 없다는 사실을 받아들이기 힘들어하며, 작은 가능성이라도 있는지 반복해서 묻는다."

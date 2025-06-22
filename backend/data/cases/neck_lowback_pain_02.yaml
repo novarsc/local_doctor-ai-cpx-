@@ -1,0 +1,118 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (강직성 척추염)"
+patient_info:
+  name: "박준서"
+  age: 28
+  sex: "남성"
+  presenting_complaint: "6개월 전부터 시작된 아침 허리 통증 및 뻣뻣함"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "강직성 척추염"
+    - "기계적 요통 (만성 염좌)"
+    - "미분화 척추관절병증"
+  necessary_tests:
+    - "천장관절 및 척추 X선 검사"
+    - "혈액 검사 (ESR, CRP, HLA-B27)"
+    - "필요시 천장관절 MRI"
+  necessary_treatments:
+    - "비스테로이드성 소염제 (NSAIDs)"
+    - "운동 치료 및 스트레칭 (자세 교정)"
+    - "TNF-알파 억제제 등 생물학적 제제 치료 고려"
+history:
+  sex_age: "남성/28세"
+  chief_complaint_verbatim: "아침에 일어나면 허리가 너무 뻣뻣하고 아파서 움직이기가 힘들어요. 그런데 움직이다 보면 좀 풀려요."
+  onset: "약 6개월 전"
+  location:
+    initial: "엉덩이 부위"
+    current: "양쪽 엉덩이와 허리 전체"
+  duration:
+    onset_pattern: "점진적 발생 (insidious onset)"
+    recent_course: "점점 심해지고, 통증 부위가 위로 올라오는 느낌"
+  course: "처음에는 엉덩이 쪽만 뻐근했는데, 수개월에 걸쳐 허리 전체로 통증이 퍼졌음. 아침에 1시간 이상 뻣뻣함이 지속됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "쑤시고 뻣뻣한 통증"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침 기상 직후"
+      - "오랫동안 가만히 있을 때"
+    alleviating: "움직이거나 운동을 하면 호전됨, 온수 샤워"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "3개월 전 오른쪽 눈이 충혈되고 아파서 안과에서 포도막염 진단받고 치료함."
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "대학원생"
+    stress: "논문 때문에 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "최근에는 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적으로 건강해 보이나, 약간 경직된 자세를 보임."
+  heent:
+    sclera: "anicteric, ciliary injection 없음"
+    oral_mucosa: "moist"
+  chest: "Chest expansion 감소 소견 (3cm)."
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      sacroiliac_joint_compression_test: "양쪽 천장관절 부위 압박 시 통증 유발"
+      # 필요한 신체진찰 소견을 추가
+      schober_test: "양성 (10cm에서 13cm로, 5cm 미만 증가)"
+      lumbar_flexion_extension: "움직임 범위 감소"
+  cvat: "좌우 음성"
+  extremity: "말초 관절의 부종이나 압통 없음."
+standardized_patient_questions: "왜 아침에만 이렇게 아픈가요? 젊은 나이에 왜 허리가 아프죠? 이거 완치가 되나요?"
+specific_remarks: "허리를 숙이거나 돌리는 동작을 요청받을 때, 통나무처럼 뻣뻣하게 움직이는 모습을 보여야 함. 아침에 뻣뻣한 증상(morning stiffness)과 활동 시 완화되는 양상을 구체적으로 강조해서 설명해야 함."

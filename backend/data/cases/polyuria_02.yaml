@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (중추성 요붕증)"
+patient_info:
+  name: "박서준"
+  age: 34
+  sex: "남성"
+  presenting_complaint: "소변을 너무 많이 보고 갈증이 심함"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "88회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "중추성 요붕증"
+    - "신성 요붕증"
+    - "정신성 다음증"
+  necessary_tests:
+    - "혈액 검사 (전해질, 혈장 삼투압)"
+    - "소변 검사 (요비중, 소변 삼투압)"
+    - "수분 제한 검사 및 바소프레신 투여 검사"
+  necessary_treatments:
+    - "데스모프레신(DDAVP) 비강 스프레이 또는 경구 투여"
+    - "충분한 수분 섭취"
+    - "원인 감별을 위한 뇌하수체 MRI 고려"
+history:
+  sex_age: "남성/34"
+  chief_complaint_verbatim: "6개월 전에 교통사고로 머리를 다친 이후부터인지... 물을 하루에 5리터 이상 마시는데도 계속 목이 말라요. 소변도 거의 물처럼 나옵니다."
+  onset: "약 6개월 전"
+  location:
+    initial: "전신 증상"
+    current: "전신 증상"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "증상이 지속됨"
+  course: "교통사고로 입원 치료 후 퇴원했을 때부터 증상을 인지함. 특히 밤에 잠을 자다가도 갈증 때문에 깨서 물을 마시고 화장실을 가야 해서 수면의 질이 매우 떨어짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "소변 양이 매우 많고 색이 거의 없음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "물을 마시지 않으면 갈증이 극심해짐"
+      - "더운 날씨"
+    alleviating: "찬물을 마실 때 잠시 호전됨"
+  health_check_history:
+    last_checkup: "1년 전 직장 건강검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "6개월 전 교통사고로 인한 두부 외상 및 뇌진탕 진단"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "증상으로 인한 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "변화 없음"
+  family_history: "특이 사항 없음"
+  female_history: ""
+physical_exam:
+  general: "의식 명료하며, 대화 중에도 계속 물을 마시려는 모습을 보임"
+  heent:
+    sclera: "비황달성"
+    oral_mucosa: "건조함"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "특이 소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "피부 긴장도 정상"
+standardized_patient_questions: "머리를 다친 것 때문에 이런 건가요? 치료하면 나을 수 있는 병인가요? 평생 물을 이렇게 마셔야 하나요?"
+specific_remarks: "극심한 갈증을 호소하며, 면담 중에도 준비된 물을 계속 마시는 연기를 할 것. 특히 찬물을 선호한다고 말할 것. 두부 외상과 증상 발생 시점의 연관성을 명확히 진술."

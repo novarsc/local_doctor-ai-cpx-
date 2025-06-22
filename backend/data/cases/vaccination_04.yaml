@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (로타바이러스 예방접종 후 장중첩증)"
+patient_info:
+  name: "최지안"
+  age: 3
+  sex: "여성"
+  presenting_complaint: "아기가 갑자기 심하게 울고 토해요"
+vital_signs:
+  blood_pressure: "90/60mmHg"
+  pulse: "160회/분"
+  respiration: "40회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환아의 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "장중첩증 (Intussusception)"
+    - "급성 위장관염"
+    - "감돈 탈장 (Incarcerated hernia)"
+  necessary_tests:
+    - "복부 초음파 (진단을 위한 최우선 검사)"
+    - "단순 복부 X-선 촬영"
+    - "혈액검사 (전해질 불균형 및 탈수 평가)"
+  necessary_treatments:
+    - "즉시 상급병원 응급실로 전원"
+    - "금식 및 수액 요법"
+    - "공기 또는 조영제를 이용한 정복술 시도, 실패 시 수술적 치료"
+history:
+  sex_age: "여아/3개월"
+  chief_complaint_verbatim: "오늘 아침부터 애가 10분 간격으로 자지러지게 울어요. 얼굴이 새하얘졌다가 좀 괜찮아졌다가를 반복하고, 방금은 먹은 젖을 다 토했어요."
+  onset: "오늘 아침 8시경"
+  location:
+    initial: "복부 전반"
+    current: "복부 전반"
+  duration:
+    onset_pattern: "갑자기, 주기적으로"
+    recent_course: "우는 간격이 짧아지고 강도가 심해짐"
+  course: "5일 전, 2개월 예방접종(DTaP, PCV, Rotavirus)을 하였다. 당시에는 별다른 증상이 없었다. 오늘 아침 8시경부터 갑자기 아이가 다리를 배 쪽으로 끌어당기며 비명을 지르듯 울기 시작했다. 약 5분간 울다가 지쳐서 잠잠해지기를 10-15분 간격으로 반복했다. 30분 전에는 수유 후 얼마 안 되어 분수처럼 토했다. 아직 혈변은 보지 못했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "매우 심하게 쥐어짜는 듯한 통증 (주기적)"
+    nrs_score: "측정 불가 (통증 발생 시 극심하게 고통스러워함)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "비담즙성 구토, 1회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음 (주기적으로 발생)"
+    alleviating: "통증이 없는 시기에는 비교적 편안해 보임"
+  health_check_history:
+    last_checkup: "2개월 영유아 검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "해당 없음"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "해당 없음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "주기적인 통증으로 인해 매우 보채고 고통스러워 보임. 통증이 없는 시기에는 창백하고 축 처져 있음."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "호흡음 정상, 빈맥 소견"
+  abdomen:
+    inspection: "약간 팽만되어 보임"
+    auscultation: "장음 감소"
+    percussion: "전반적 고창음"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # RUQ에서 소시지 모양의 종물이 만져짐 (Sausage-shaped mass)
+  cvat: "음성/음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "애가 왜 이렇게 아파하나요? 그냥 배앓이 아닌가요? 지금 당장 어떻게 해야 해요?"
+specific_remarks: "보호자(엄마) 역할. 아이의 극심한 고통에 안절부절못하며 매우 불안해하는 모습을 연기. 응급 상황임을 인지하고 빠른 조치를 요구함."

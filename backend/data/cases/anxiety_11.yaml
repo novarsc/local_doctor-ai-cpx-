@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (발작성 상심실성 빈맥)"
+patient_info:
+  name: "최민준"
+  age: 26
+  sex: "남성"
+  presenting_complaint: "갑자기 심장이 미친 듯이 뛰고 불안해요."
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "170회/분 (narrow QRS tachycardia)"
+  respiration: "22회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "발작성 상심실성 빈맥 (PSVT)"
+    - "공황 발작"
+    - "불안을 동반한 다른 부정맥"
+  necessary_tests:
+    - "즉각적인 심전도(EKG) 확인"
+    - "미주신경 자극법 (Valsalva maneuver, Carotid sinus massage) 시도"
+    - "아데노신(Adenosine) 정맥 투여 (진단 및 치료 목적)"
+  necessary_treatments:
+    - "급성기 치료 (미주신경 자극법, 약물 치료)"
+    - "재발 방지를 위한 약물 치료 (베타차단제, 칼슘채널차단제)"
+    - "전극도자 절제술 (Catheter ablation) 고려"
+history:
+  sex_age: "남성/26"
+  chief_complaint_verbatim: "갑자기 아무 이유 없이 심장이 목구멍까지 올라와서 쿵쿵쿵 하고 뛰어요. 한 1초에 서너 번은 뛰는 것 같아요. 너무 빠르니까 어지럽고 불안해서 곧 쓰러질 것 같아요."
+  onset: "내원 30분 전"
+  location:
+    initial: "가슴"
+    current: "가슴, 목"
+  duration:
+    onset_pattern: "스위치를 켜듯 갑자기 시작됨 (abrupt onset)"
+    recent_course: "30분째 지속 중"
+  course: "평소처럼 컴퓨터 게임을 하던 중 갑자기 심장이 매우 빠르고 규칙적으로 뛰기 시작함. 숨이 차거나 가슴이 아프지는 않으나, 극심한 두근거림과 함께 불안감, 어지러움이 동반됨. 이런 증상이 1년 전부터 가끔 있었는데, 전에는 몇 분 안에 저절로 멈췄지만 오늘은 멈추지 않아 내원함."
+  experience_prev_episodes:
+    frequency: "지난 1년간 3-4회"
+    trigger: "피곤할 때, 갑자기 자세를 바꿀 때 등. 특별한 유발 요인 없을 때도 있음"
+    symptoms: "매우 빠른 심계항진. 스위치를 끄듯 갑자기 멈춤 (abrupt termination)."
+  character_of_symptom:
+    quality: "규칙적이고(regular) 매우 빠른(rapid) 심계항진"
+    nrs_score: "9"
+    radiation: "목으로 뛰는 느낌이 전달됨"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "과거에는 기침을 세게 하거나 찬물로 세수하면 멈춘 적이 있음."
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "대학생 (휴학 중)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: "N/A"
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "창백하고 불안해 보임. 가슴을 움켜쥐고 있음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+    neck vein: "Cannon 'a' waves may be visible"
+  chest: "Extremely rapid regular tachycardia. Clear breath sounds."
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema, peripheral pulses are weak but palpable"
+standardized_patient_questions: "제 심장이 왜 이러는 건가요? 이러다 심장이 멎는 거 아니에요? 너무 무서워요."
+specific_remarks: "환자는 현재 증상이 진행 중인 상태로, 매우 불안해하며 의사의 질문에 짧게 대답한다. '쿵쿵쿵'하는 심장박동을 손으로 흉내 내며 그 빠름을 강조한다. 증상이 '갑자기 시작되고 갑자기 멈춘다'는 점을 명확히 표현한다. 과거에 찬물 세수 등으로 증상이 멈췄던 경험을 이야기할 수 있다."

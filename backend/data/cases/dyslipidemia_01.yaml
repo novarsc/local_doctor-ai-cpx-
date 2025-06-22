@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (안정형 협심증)"
+patient_info:
+  name: "김철수"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "운동 시 발생하는 쥐어짜는 듯한 가슴 통증"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "76회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "안정형 협심증 (관상동맥질환)"
+    - "위식도 역류질환"
+    - "근골격계 통증"
+  necessary_tests:
+    - "혈액검사 (심근효소수치, 지질 프로필 포함)"
+    - "심전도"
+    - "운동부하검사 또는 관상동맥 CT"
+  necessary_treatments:
+    - "생활습관 개선 (금연, 절주, 저지방 식이, 운동)"
+    - "약물치료 (항혈소판제, 스타틴, 베타차단제, 니트로글리세린)"
+    - "필요시 관상동맥 중재술 고려"
+history:
+  sex_age: "남성/58"
+  chief_complaint_verbatim: "3개월 전부터 빨리 걷거나 계단을 오르면 가슴 한가운데가 뻐근하고 쥐어짜는 것 같아요. 한 5분 쉬면 괜찮아져요."
+  onset: "3개월 전"
+  location:
+    initial: "가슴 중앙"
+    current: "가슴 중앙"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 들어 증상 발생하는 빈도가 조금씩 늘어나는 것 같음"
+  course: "특정 수준 이상의 신체 활동 시에만 발생하고, 휴식 시에는 완전히 사라짐"
+  experience_prev_episodes:
+    frequency: "일주일에 2-3회"
+    trigger: "빠르게 걷기, 계단 오르기"
+    symptoms: "현재와 동일한 양상의 가슴 통증"
+  character_of_symptom:
+    quality: "쥐어짜는 듯, 뻐근함"
+    nrs_score: "5"
+    radiation: "왼쪽 어깨로 약간 뻗치는 느낌이 있음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "신체 활동 (빠르게 걷기, 언덕 오르기)"
+      - "스트레스 받는 상황"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "특이소견 없음 (5년 전)"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (5년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Amlodipine 5mg"
+    source: "개인 의원"
+    effect: "혈압은 잘 조절되는 편이라고 들음"
+  social_history:
+    job: "사무직"
+    stress: "업무 관련 스트레스가 좀 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "아버지가 65세에 심근경색으로 시술 받으심"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색은 보이지 않음. 의식 명료함."
+  heent:
+    sclera: "황달 없음 (anicteric)"
+    oral_mucosa: "건조하지 않음"
+  chest: "호흡음 깨끗함. 심음 정상, 잡음 없음."
+  abdomen:
+    inspection: "편평하고 흉터 없음"
+    auscultation: "장음 정상"
+    percussion: "고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 전반적으로 부드럽고 압통 없음
+  cvat: "좌/우 음성"
+  extremity: "함몰 부종 없음. 말초 맥박 양호."
+standardized_patient_questions: "이거 혹시 심장병인가요? 심각한 건가요? 앞으로 운동은 아예 못하는 건가요?"
+specific_remarks: "진찰 중에는 통증이 전혀 없음을 강조한다. 운동할 때만 아프고 쉬면 괜찮아진다는 점을 반복해서 이야기한다."

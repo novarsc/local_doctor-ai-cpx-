@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (심방세동)"
+patient_info:
+  name: "이영철"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "불규칙하게 뛰는 가슴과 숨참"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "118회/분 (불규칙적)"
+  respiration: "22회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "심방세동 (Atrial fibrillation)"
+    - "다소성 심방 빈맥 (Multifocal atrial tachycardia)"
+    - "잦은 심실조기수축 (Frequent PVCs)"
+  necessary_tests:
+    - "심전도 (EKG)"
+    - "심장 초음파 (Echocardiography)"
+    - "혈액 검사 (CBC, 전해질, 신장/간 기능, 갑상선 기능)"
+    - "뇌졸중 위험도 평가 (CHA2DS2-VASc score)"
+  necessary_treatments:
+    - "심박수 조절 치료 (베타차단제 등)"
+    - "혈전 예방을 위한 항응고제 치료"
+    - "필요시 리듬 조절 치료 (항부정맥제, 전기적 동율동 전환술) 고려"
+history:
+  sex_age: "남/68"
+  chief_complaint_verbatim: "가슴이 막 제멋대로 뛰고, 조금만 걸어도 숨이 차요."
+  onset: "약 3개월 전부터 간헐적으로 발생, 1주일 전부터 거의 계속됨"
+  location:
+    initial: "가슴 중앙"
+    current: "가슴 중앙"
+  duration:
+    onset_pattern: "언제 시작되는지 모르게 스멀스멀 시작됨"
+    recent_course: "최근 1주일간 증상이 거의 하루 종일 지속되고 점점 심해짐"
+  course: "처음에는 잠깐 그러다 말았는데, 이제는 계단 오르기도 힘들어짐"
+  experience_prev_episodes:
+    frequency: "3개월 전부터"
+    trigger: "딱히 없는 것 같음. 음주 다음날 더 심한 것 같기도 함."
+    symptoms: "비슷했으나 지금처럼 숨이 차지는 않았음"
+  character_of_symptom:
+    quality: "물고기가 가슴 안에서 파닥거리는 것처럼 불규칙하고 빠르게 뜀"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "계단 오르기 등 신체 활동"
+      - "과음"
+    alleviating: "가만히 쉬면 조금 나음"
+  health_check_history:
+    last_checkup: "5년 전, 혈압이 높다고 들었음"
+    endoscopy_finding: "10년 전 위내시경, 위염 소견"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (진단받았으나 약은 먹지 않음), 당뇨병 전단계"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "은퇴 후 소일거리 (경비원)"
+    stress: "자식들 걱정 등"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "40년째 흡연 중"
+    exercise: "숨차서 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "형님이 뇌경색으로 치료받은 적 있음"
+physical_exam:
+  general: "경미한 호흡곤란 보임. 만성 병색."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "slightly dry"
+  chest: "양쪽 폐하부에서 미세한 수포음(crackles) 청진됨"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양쪽 발목에 경미한 오목부종 (pitting edema) 관찰됨. 맥박이 불규칙하고 강약이 느껴짐 (irregularly irregular)."
+standardized_patient_questions: "나이 먹어서 그런 건가요? 이거 놔두면 중풍(뇌졸중) 온다던데 사실인가요? 술 담배 다 끊어야 하나요?"
+specific_remarks: "환자는 약간 지쳐 보이고 숨이 찬 목소리로 말한다. 맥박을 짚을 때 불규칙하다는 점을 명확히 인지할 수 있도록 연기한다. 발목 부종을 스스로 보여주며 '다리도 붓는 것 같다'고 말할 수 있다."

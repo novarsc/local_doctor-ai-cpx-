@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "24"
+title: "실전 모의 증례 (하지불안 증후군)"
+patient_info:
+  name: "윤혜경"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "밤마다 다리가 불편하고 불안해서 잠을 잘 수 없어요."
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "하지불안 증후군 (Restless Legs Syndrome)"
+    - "말초신경병증 (Peripheral Neuropathy)"
+    - "야간 다리 경련"
+  necessary_tests:
+    - "혈중 페리틴(ferritin) 및 철분 관련 검사"
+    - "기본 혈액검사 (신장기능, 혈당 포함)"
+    - "수면다원검사 (주기성 사지 운동증 동반 확인)"
+  necessary_treatments:
+    - "철분 보충 (철 결핍 시)"
+    - "도파민 작용제 또는 알파-2-델타 리간드(가바펜틴 등) 약물 치료"
+    - "수면 위생 교육 및 카페인/알코올 회피"
+history:
+  sex_age: "여성/55"
+  chief_complaint_verbatim: "저녁에 가만히 앉아 있거나 자려고 누우면 다리, 특히 종아리 깊은 곳이 벌레가 기어가는 것처럼 근질거리고 불편해서 견딜 수가 없어요. 다리를 움직여야만 괜찮아져서 밤새 뒤척이느라 잠을 못 자니 너무 불안하고 피곤해요."
+  onset: "약 1년 전부터"
+  location:
+    initial: "양쪽 종아리"
+    current: "양쪽 종아리, 허벅지"
+  duration:
+    onset_pattern: "주로 저녁이나 밤에, 쉬고 있을 때 발생"
+    recent_course: "점점 심해짐"
+  course: "1년 전부터 저녁 시간에 TV를 보거나 잠자리에 누울 때 다리에 불편한 감각이 시작됨. 이 감각은 통증이라기보다는 '벌레가 기어가는 느낌', '전기가 오는 느낌', '말로 표현하기 힘든 불편감' 등으로 표현됨. 다리를 움직이고 싶은 강한 충동을 느끼며, 실제로 다리를 주무르거나 걸어 다니면 증상이 일시적으로 완화됨. 이로 인해 입면이 어렵고 수면 유지가 힘들어 만성적인 수면 부족과 주간 졸림을 겪고 있음. 잠을 제대로 못 잘 거라는 생각에 저녁만 되면 불안해짐."
+  experience_prev_episodes:
+    frequency: "거의 매일 밤"
+    trigger: "가만히 있거나 쉴 때"
+    symptoms: "다리의 불쾌한 감각, 다리를 움직이고 싶은 충동"
+  character_of_symptom:
+    quality: "말로 표현하기 힘든 다리의 불쾌감과 이를 해소하기 위한 움직임 충동"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "저녁이나 밤 시간"
+      - "가만히 앉아 있거나 누워 있을 때"
+    alleviating: "다리를 움직이거나, 걷거나, 주무르는 것"
+  health_check_history:
+    last_checkup: "1년 전, 빈혈기가 있다는 말을 들었으나 치료받지는 않음"
+    endoscopy_finding: "3년 전, 특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "철결핍성 빈혈 (미치료)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "가정주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "주 2회 동네 산책"
+    recent_weight_change: "없음"
+  family_history: "어머니도 밤에 다리가 불편해서 잠을 잘 못 주무셨다고 함"
+  female_history: "LMP 5년 전 (폐경)"
+physical_exam:
+  general: "만성적으로 피곤해 보이며, 다리 증상에 대한 불편감을 강하게 호소함."
+  heent:
+    sclera: "not icteric"
+    conjunctiva: "pale"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema, no varicosity"
+  neurologic_exam: "Motor, sensory (light touch, pinprick, vibration), and reflexes are all normal in lower extremities."
+standardized_patient_questions: "제 다리에 왜 이런 이상한 느낌이 드는 걸까요? 혈액순환이 안돼서 그런가요? 밤이 오는 게 무서워요. 이것 때문에 불안해서 살 수가 없어요."
+specific_remarks: "환자는 자신의 증상을 정확히 표현하기 어려워하며 '벌레가 기어가는 것 같다', '뭐라고 콕 집어 말할 수 없이 이상하다' 등으로 설명한다. 진단 기준의 4가지 핵심 특징 (1.움직이고 싶은 충동, 2.쉴 때 악화, 3.움직이면 완화, 4.저녁/밤에 악화)을 명확하게 호소한다. 의사가 신경학적 검진을 했을 때 아무 이상이 없다고 하면, '그럼 도대체 왜 아픈 거냐'며 답답해하고 불안해한다."

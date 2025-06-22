@@ -1,0 +1,116 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (기관지 천식 급성 악화)"
+patient_info:
+  name: "김민준"
+  age: 22
+  sex: "남성"
+  presenting_complaint: "한 시간 전부터 갑자기 숨이 차고 가슴이 답답하며 쌕쌕거리는 소리가 남"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "110회/분"
+  respiration: "28회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기관지 천식 급성 악화"
+    - "아나필락시스"
+    - "상기도 폐쇄"
+  necessary_tests:
+    - "폐기능 검사 (기관지확장제 반응 검사 포함)"
+    - "흉부 X선 검사"
+    - "동맥혈가스분석 검사 (필요시)"
+    - "알레르기 검사"
+  necessary_treatments:
+    - "속효성 기관지 확장제 흡입 치료"
+    - "전신 스테로이드 투여"
+    - "장기적인 조절제(흡입 스테로이드 등) 사용 교육 및 처방"
+    - "유발 요인 회피 교육"
+history:
+  sex_age: "남성/22"
+  chief_complaint_verbatim: "숨쉬기가 너무 힘들고, 숨 쉴 때마다 쌕쌕거리는 소리가 들려요."
+  onset: "1시간 전"
+  location:
+    initial: "가슴 전체"
+    current: "가슴 전체"
+  duration:
+    onset_pattern: "갑자기 발생 (abrupt onset)"
+    recent_course: "점점 심해짐 (progressively worsening)"
+  course: "대청소를 하던 중 갑자기 가슴이 답답해지기 시작했고, 30분 전부터는 숨쉬기가 힘들어지고 쌕쌕거리는 소리가 들리기 시작함."
+  experience_prev_episodes:
+    frequency: "어릴 때 몇 번 있었음"
+    trigger: "감기, 먼지"
+    symptoms: "비슷하게 숨이 차고 쌕쌕거렸으나, 이 정도로 심하진 않았음. 고등학생 이후로는 증상이 없었음."
+  character_of_symptom:
+    quality: "가슴을 꽉 조이는 느낌"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "숨을 깊게 쉴 때"
+      - "말을 할 때"
+    alleviating: "앉아서 앞으로 숙이면 약간 나은 것 같음"
+  health_check_history:
+    last_checkup: "2년 전 대학 입학 건강검진"
+    endoscopy_finding: "시행 안 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "어릴 때 천식 진단받았으나, 최근 5년간 병원 방문이나 약물 사용 없었음"
+    allergies: "집먼지진드기 알레르기"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "시험 기간이라 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 농구"
+    recent_weight_change: "없음"
+  family_history: "어머니가 알레르기 비염 있음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "불안한 표정으로 앉아 있으며, 호흡 시 보조호흡근을 사용하고 있음. 약간의 청색증 관찰됨."
+  heent:
+    sclera: "결막 창백하지 않음"
+    oral_mucosa: "건조하지 않음"
+  chest: "양쪽 폐에서 호기 시 전반적인 천명음(wheezing)이 들림. 타진 시 정상 공명음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "부종 없음, 손톱 밑 청색증 없음"
+standardized_patient_questions: "이거 어릴 때 앓던 천식이 다시 심해진 건가요? 앞으로 계속 약을 먹고 살아야 하나요? 죽을 수도 있는 건가요?"
+specific_remarks: "말을 할 때 숨이 차서 끊어서 말하는 모습을 연기. 앉아서 몸을 앞으로 숙이는 자세를 취하고 있음. 불안해하는 기색을 명확히 표현할 것."

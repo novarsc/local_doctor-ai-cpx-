@@ -8,7 +8,8 @@ const asyncHandler = require('../middlewares/asyncHandler.middleware');
 
 // getAllScenarios, getScenarioById 함수는 기존과 동일합니다.
 const getAllScenarios = asyncHandler(async (req, res) => {
-  const result = await caseService.listScenarios(req.query);
+  const userId = req.user?.userId || null; // 사용자가 로그인되어 있으면 userId, 아니면 null
+  const result = await caseService.listScenarios(req.query, userId);
   res.status(200).json(result);
 });
 

@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "17"
+title: "실전 모의 증례 (간성 뇌병증에 의한 자세 유지 불능)"
+patient_info:
+  name: "김광석"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "최근 며칠간 사람을 잘 못 알아보고 손을 텀"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "105회/분"
+  respiration: "22회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자(보호자)와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "간성 뇌병증 (Hepatic Encephalopathy)"
+    - "경막하 출혈"
+    - "섬망"
+  necessary_tests:
+    - "혈액 검사 (암모니아, 간 기능, 전해질, 혈액응고 검사)"
+    - "복부 초음파 또는 CT"
+    - "뇌 CT (다른 원인 배제)"
+  necessary_treatments:
+    - "유발 요인 교정 (변비, 감염, 위장관 출혈 등)"
+    - "락툴로오스 및 리팍시민 투여"
+    - "수액 및 전해질 보충"
+history:
+  sex_age: "남성/58세"
+  chief_complaint_verbatim: "(보호자) 저희 아버지가 알코올성 간경화가 있으신데, 며칠 전부터 밤낮이 바뀌고 사람을 잘 못 알아보세요. 그리고 손을 자꾸 툭툭 터는 것처럼 움직이세요."
+  onset: "약 3일 전"
+  location:
+    initial: "정신 상태 변화"
+    current: "정신 상태 변화 및 손떨림"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "점점 악화"
+  course: "3일 전부터 잠만 자려고 하고, 깨워도 멍한 상태가 지속됨. 날짜, 장소 개념이 없어지고, 이상한 행동을 함. 어제부터는 손을 허공에 대고 툭툭 터는 듯한 움직임이 보임."
+  experience_prev_episodes:
+    frequency: "1년 전 비슷한 증상으로 입원한 적 있음"
+    trigger: "변비가 심해지거나 감기 앓은 후"
+    symptoms: "의식 저하"
+  character_of_symptom:
+    quality: "날갯짓하듯 손목이 꺾이는 움직임 (자세 유지 불능, Asterixis)"
+    nrs_score: "환자는 인지 못함, 보호자 걱정 10점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "시간이 지날수록"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전 퇴원 후 외래 방문 안 함"
+    endoscopy_finding: "위 정맥류 관찰됨"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "알코올성 간경변 (5년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "이뇨제, 락툴로오스 (최근 임의로 중단)"
+    source: "대학병원 소화기내과"
+    effect: "복용 시에는 괜찮았음"
+  social_history:
+    job: "무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "최근 다시 마시기 시작함"
+      amount: "소주 1병/일"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "전혀 안 함"
+    recent_weight_change: "모름"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "의식 상태 기면(drowsy) 상태. 지남력 장애(시간, 장소) 보임. 대화에 집중하지 못함. 복수가 차 있어 배가 불러 보임."
+  heent:
+    sclera: "공막 황달 (scleral icterus) 관찰됨"
+    oral_mucosa: "건조함"
+  chest: "거미 혈관종(spider angioma)이 앞가슴에 여러 개 관찰됨."
+  abdomen:
+    inspection: "복부 팽만, 배꼽 주변 정맥 확장(caput medusae) 관찰됨"
+    auscultation: "장음 감소"
+    percussion: "옆구리 쪽 둔탁음 (shifting dullness) 양성"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양쪽 다리에 함요 부종(pitting edema) 관찰됨. 환자에게 양팔을 앞으로 뻗고 손목을 뒤로 젖히게 하자, 손목과 손가락이 불규칙적으로 툭툭 꺾이는 자세 유지 불능(asterixis)이 양측에서 뚜렷하게 관찰됨."
+standardized_patient_questions: "(환자는 질문 어려움, 보호자) 아빠가 왜 갑자기 이러시는 거죠? 약을 마음대로 안 드셔서 그런가요? 다시 괜찮아질 수 있을까요? 지금 당장 뭘 해야 하나요?"
+specific_remarks: "환자는 의식이 저하된 상태를 연기해야 한다. 질문에 엉뚱한 대답을 하거나, 졸린 듯한 모습을 보인다. 이 증례의 핵심은 신체 진찰에서 '자세 유지 불능(Asterixis)'을 명확하게 보여주는 것이다. 검사자가 팔을 뻗고 손목을 꺾어보라고 했을 때, 자세를 유지하지 못하고 손목이 툭 떨어지는 움직임을 반복적으로 연기해야 한다. 황달, 복수, 거미 혈관종 등 만성 간질환의 신체 소견을 함께 표현하는 것이 중요하다."

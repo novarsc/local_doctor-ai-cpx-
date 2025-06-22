@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (급성 사이질콩팥염)"
+patient_info:
+  name: "김민정"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "발열, 피부 발진과 함께 소변 양이 줄어듦"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "약물 유발성 급성 사이질콩팥염 (Acute Interstitial Nephritis, AIN)"
+    - "바이러스 감염에 의한 급성 신손상"
+    - "전신성 홍반성 루푸스(SLE) 악화"
+  necessary_tests:
+    - "혈액 검사 (BUN/Cr, 전해질, 호산구 수치)"
+    - "소변 검사 (소변 현미경 검사에서 백혈구, 백혈구 원주, 호산구 확인)"
+    - "필요시 신장 조직검사"
+  necessary_treatments:
+    - "원인 약물 즉시 중단"
+    - "수액 요법 및 보존적 치료"
+    - "필요시 스테로이드 치료 고려"
+history:
+  sex_age: "여성/45"
+  chief_complaint_verbatim: "일주일 전부터 열나고 온몸에 뭐가 나더니, 며칠 전부터는 소변도 잘 안 나오는 것 같아요."
+  onset: "약 1주일 전"
+  location:
+    initial: "발열, 피부 발진"
+    current: "전신 증상 및 핍뇨"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "지속"
+  course: "2주 전, 허리 통증으로 정형외과에서 비스테로이드성 소염제(NSAIDs)를 처방받아 복용하기 시작함. 일주일 전부터 38도 이상의 고열이 발생하고, 몸통과 팔다리에 붉은 반점이 퍼지기 시작함. 3일 전부터 소변량이 줄어든 것을 인지하였고, 옆구리가 뻐근한 느낌도 들어 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "고열, 가려움증을 동반한 피부 발진, 옆구리 통증"
+    nrs_score: 4
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "비스테로이드성 소염제 (NSAIDs)"
+      - "근이완제"
+    source: "정형외과 의원 (2주 전부터 복용)"
+    effect: "허리 통증은 호전됨"
+  social_history:
+    job: "사무직"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "모친: 류마티스 관절염"
+  female_history: "32년 전 초경, 월경 주기 규칙적"
+physical_exam:
+  general: "급성 병색, 열감 있음. 전반적으로 발진이 퍼져있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 양성"
+  extremity: "몸통과 사지에 융합되는 양상의 홍반성 반구진 발진(maculopapular rash)이 퍼져있음. 부종 없음."
+standardized_patient_questions: "허리 아파서 먹은 약 때문에 이렇게 된 건가요? 열도 나고 온몸이 이상한데, 큰 병은 아닌가요? 콩팥은 다시 괜찮아지는 거죠?"
+specific_remarks: "환자는 열 때문에 힘들어하고, 발진 부위가 가렵다며 간간이 긁는 시늉을 한다. 옆구리 통증을 호소하며, 특히 CVA 타진 시 통증을 표현한다. 약물 부작용 가능성에 대해 불안해하는 모습을 보인다."

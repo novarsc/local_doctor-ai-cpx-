@@ -1,0 +1,108 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (진행성 핵상 마비)"
+patient_info:
+  name: "최정길"
+  age: 69
+  sex: "남성"
+  presenting_complaint: "자주 넘어지고 눈동자를 움직이기 힘듦"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "진행성 핵상 마비 (Progressive Supranuclear Palsy, PSP)"
+    - "파킨슨병"
+    - "다계통 위축증"
+  necessary_tests:
+    - "신경학적 진찰 (특히 안구 운동)"
+    - "뇌 MRI ('hummingbird sign' 확인)"
+    - "신경심리검사"
+  necessary_treatments:
+    - "대증 치료 (파킨슨 증상, 연하곤란 등)"
+    - "레보도파 시도 (효과는 거의 없음)"
+    - "재활 치료 (낙상 방지, 연하 치료)"
+history:
+  sex_age: "남성/69세"
+  chief_complaint_verbatim: "2년 전부터 자꾸 뒤로 벌러덩 넘어지는 일이 잦아요. 몸이 나무토막처럼 뻣뻣하고, 특히 아래를 쳐다보기가 힘들어서 밥 먹을 때 음식이 잘 안 보여요."
+  onset: "약 2년 전"
+  location:
+    initial: "보행 불안정"
+    current: "전신 뻣뻣함, 안구 운동 장애, 발음 문제"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "빠르게 악화"
+  course: "초기에는 원인 모르게 자주 넘어짐. 이후 목과 몸통이 뻣뻣해지고, 얼굴 표정이 놀란 듯이 굳어짐. 아래쪽을 보려고 하면 눈동자가 잘 내려가지 않는 증상이 발생함. 파킨슨병 약을 먹어도 효과가 없었음."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "없음"
+    symptoms: "낙상, 뻣뻣함"
+  character_of_symptom:
+    quality: "목이 뒤로 젖혀지는 경향, 뻣뻣한 자세, 수직 안구 운동 장애"
+    nrs_score: "불편감 9점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "계단 내려가기"
+      - "식사하기"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: ""
+  trauma_history: "넘어져서 머리를 여러 번 다침"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "레보도파 (6개월 복용 후 효과 없어 중단)"
+    source: "타병원 신경과"
+    effect: "효과 없음"
+  social_history:
+    job: "은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: "20년 전 금연"
+      cessation_period: "20년"
+    exercise: "불가능"
+    recent_weight_change: "음식 삼키기 힘들어 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "얼굴 표정이 놀란 듯 굳어있고(astonished face), 눈을 잘 깜빡이지 않음. 목이 뒤로 젖혀져 있는 자세(neck hyperextension)를 취함. 말이 느리고 폭발적인 양상(spastic dysarthria)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "안정 시 떨림은 없음. 목과 몸통의 축성 경직(axial rigidity)이 사지 경직보다 두드러짐. 의사의 손가락을 따라보게 했을 때, 수평 안구 운동은 가능하나 아래쪽을 보는 수직 안구 운동에 현저한 제한을 보임(vertical gaze palsy). 보행 시 몸을 꼿꼿이 세운 채 불안정하게 걸으며 뒤로 넘어지려는 경향을 보임."
+standardized_patient_questions: "왜 이렇게 자꾸 넘어지는 건가요? 눈이 내 맘대로 안 움직여서 밥 먹기도 힘들어요. 이거 고칠 수 있는 병인가요? 파킨슨병이 아니면 도대체 무슨 병이죠?"
+specific_remarks: "환자는 놀란 듯한 표정을 유지하며, 목을 뻣뻣하게 뒤로 젖히는 자세를 취해야 한다. 신체 진찰 시, 특히 안구 운동을 검사할 때 아래를 보라는 지시에 눈동자가 움직이지 않고 머리를 숙여서 보려고 하는 모습을 보여주는 것이 핵심이다. 초기부터 '이유 없이 뒤로 넘어지는' 증상이 두드러졌음을 강조한다."

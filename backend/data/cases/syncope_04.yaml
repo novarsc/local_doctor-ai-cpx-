@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (대동맥판막 협착증)"
+patient_info:
+  name: "박철민"
+  age: 76
+  sex: "남성"
+  presenting_complaint: "운동 중에 잠깐 정신을 잃었어요."
+vital_signs:
+  blood_pressure: "110/80mmHg"
+  pulse: "68회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대동맥판막 협착증 (Aortic stenosis)에 의한 운동 유발성 실신"
+    - "비후성 심근병증"
+    - "운동 유발성 부정맥"
+  necessary_tests:
+    - "심장 초음파 검사"
+    - "심전도 검사"
+    - "흉부 X-선 검사"
+  necessary_treatments:
+    - "정밀 검사 결과에 따른 치료 계획 수립"
+    - "증상을 유발하는 과격한 운동 즉시 중단"
+    - "필요 시 수술적 치료 (대동맥판막 치환술) 가능성 설명"
+history:
+  sex_age: "남성/76"
+  chief_complaint_verbatim: "얼마 전에 공원에서 좀 빨리 걷다가 갑자기 가슴이 답답해지면서 눈앞이 캄캄해지더니 쓰러졌습니다. 한 10초? 정도 정신이 없었던 것 같아요."
+  onset: "2주 전"
+  location:
+    initial: "공원 산책 중"
+    current: "진료실"
+  duration:
+    onset_pattern: "운동 시 갑자기 발생"
+    recent_course: "쓰러진 후 저절로 의식을 회복했으며, 깨어난 후에는 가슴 답답함도 사라졌음."
+  course: "수개월 전부터 계단을 오르거나 빨리 걸으면 숨이 차고 가슴이 뻐근한 증상이 있었음. 의식을 잃은 것은 이번이 처음."
+  experience_prev_episodes:
+    frequency: "의식 소실은 처음. 운동 시 흉통 및 호흡곤란은 수개월간 간헐적으로 발생."
+    trigger: "신체 활동"
+    symptoms: "가슴 답답함, 숨참"
+  character_of_symptom:
+    quality: "의식 소실"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "빠르게 걷기"
+      - "계단 오르기"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "3년 전, 심장에서 잡음이 들린다고 했으나 대수롭지 않게 여김"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "의원"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: true
+      amount: "과거 50갑년"
+      cessation_period: "5년 전 금연"
+    exercise: "매일 1시간 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "만성 병색은 없으나, 전반적으로 활력이 떨어져 보임. 의식 명료."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음은 정상. 심장 청진 시 우상흉골연(RUSB)에서 경동맥으로 방사되는 수축기 분출성 심잡음(systolic ejection murmur)이 청진됨. 맥박이 느리고 약함(pulsus parvus et tardus)."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "부종 없음."
+standardized_patient_questions: "이거 그냥 나이 들어서 그런 거 아닌가요? 꼭 큰 검사를 해야 하나요? 수술까지 해야 할 수도 있다니 덜컥 겁이 나네요."
+specific_remarks: "환자는 자신의 증상을 노화와 연관 지으려 하며, 운동과의 관련성을 구체적으로 질문할 때만 관련 정보를 자세히 이야기한다. 의사가 심장 청진을 하려고 하면 협조적으로 상의를 올린다."

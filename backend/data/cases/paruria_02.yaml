@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (급성 방광염)"
+patient_info:
+  name: "이수진"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "갑자기 소변이 자주 마렵고 볼 때 아픈 증상"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 방광염 (Acute Cystitis)"
+    - "급성 신우신염 (Acute Pyelonephritis)"
+    - "요도염 (Urethritis)"
+  necessary_tests:
+    - "소변검사 (Urinalysis with microscopy)"
+    - "소변배양검사 (Urine Culture)"
+    - "필요시 복부 초음파 (Abdominal Ultrasonography)"
+  necessary_treatments:
+    - "경구 항생제 치료 (3-5일)"
+    - "충분한 수분 섭취"
+    - "배뇨 관련 위생 교육"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "어제 저녁부터 갑자기 화장실을 계속 가게 돼요. 소변 볼 때 끝이 찌릿하고 아프고, 봐도 시원하지가 않아요."
+  onset: "1일 전"
+  location:
+    initial: "아랫배, 요도"
+    current: "동일함"
+  duration:
+    onset_pattern: "급성 (Acute)"
+    recent_course: "점점 심해짐"
+  course: "어제 저녁부터 갑자기 시작된 빈뇨, 요의 절박, 배뇨통이 주 증상. 소변을 본 후에도 바로 다시 마려운 잔뇨감이 동반됨. 소변 색이 약간 탁해진 것 같음."
+  experience_prev_episodes:
+    frequency: "1년 전 한 번 경험"
+    trigger: "피곤할 때"
+    symptoms: "비슷한 증상으로 동네 의원에서 약 먹고 호전됨"
+  character_of_symptom:
+    quality: "찌르는 듯한, 타는 듯한 통증 (배뇨 시)"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true # 37.5C
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true # 약간 혼탁
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "소변 볼 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전 직장건강검진"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "페니실린 계열 약물에 두드러기"
+  medication_history:
+    taken:
+      - "종합 비타민"
+    source: "직접 구매"
+    effect: "잘 모름"
+  social_history:
+    job: "사무직 (웹디자이너)"
+    stress: "최근 프로젝트 마감으로 스트레스 많았음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 못함"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "LMP: 2주 전. 주기 규칙적. 최근 성관계: 3일 전. 피임: 콘돔 사용."
+physical_exam:
+  general: "다소 지쳐 보이나, 대화는 명료함. 급성 병색은 뚜렷하지 않음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평함."
+    auscultation: "장음 정상."
+    percussion: "고창음."
+    palpation:
+      # Suprapubic tenderness
+      suprapubic_tenderness: true
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "함몰 부종 없음"
+standardized_patient_questions: "왜 이렇게 갑자기 아픈 건가요? 남자친구한테 옮는 병인가요? 약 먹으면 금방 낫나요?"
+specific_remarks: "아랫배 통증과 배뇨 시 불편감을 호소하며 약간 불안해한다. 의사가 아랫배를 누를 때(suprapubic tenderness) '아야'하며 불편감을 표현한다."

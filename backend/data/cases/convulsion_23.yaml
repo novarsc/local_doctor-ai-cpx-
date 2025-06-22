@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "23"
+title: "실전 모의 증례 (패혈증에 의한 발작)"
+patient_info:
+  name: "정명숙"
+  age: 82
+  sex: "여성"
+  presenting_complaint: "열이 나고 의식이 흐려지면서 경련"
+vital_signs:
+  blood_pressure: "90/50mmHg"
+  pulse: "130회/분"
+  respiration: "28회/분"
+  temperature: "39.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "패혈증 및 패혈성 쇼크에 의한 발작"
+    - "요로감염에서 기인한 패혈증 의심"
+    - "뇌수막염"
+  necessary_tests:
+    - "혈액 배양 검사, 일반 혈액 검사, 염증 수치 (CRP, procalcitonin)"
+    - "소변 검사 및 배양 검사"
+    - "흉부 X-ray"
+  necessary_treatments:
+    - "즉각적인 수액 소생 및 승압제 사용"
+    - "광범위 항생제 경험적 투여"
+    - "항경련제 및 해열제 투여"
+history:
+  sex_age: "여성/82"
+  chief_complaint_verbatim: "어머니가 어제부터 열이 나고 소변볼 때 아파하시더니, 오늘 갑자기 정신을 못 차리고 경련을 했어요."
+  onset: "발열은 어제부터, 경련 및 의식 저하는 오늘"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "감염 증상 악화 후 발생"
+    recent_course: "전신 경련이 2분간 있었고, 이후 의식이 회복되지 않고 계속 처져 있음."
+  course: "이틀 전부터 소변을 자주 보고, 소변 볼 때 통증을 호소했다. 어제부터는 39도 이상의 고열과 오한이 있었다. 오늘 아침부터는 사람을 잘 못 알아보고 횡설수설 하다가, 갑자기 전신 경련을 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "전신 감염 징후(고열, 배뇨통)와 함께 발생한 발작"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "소변 색이 탁하고 냄새가 남"
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "감염"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "6개월 전"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병, 고관절 골절로 거동 불편"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Metformin"
+    source: "내과"
+    effect: "혈당 조절"
+  social_history:
+    job: "무직 (요양원 거주)"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "의식이 저하된 상태(lethargic). 전반적으로 축 처져 있고, 피부는 뜨겁고 건조함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "매우 건조함."
+  chest: "호흡이 얕고 빠름. 청진상 특이 소견 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 치골 상부 압통(suprapubic tenderness) 호소
+  cvat: "좌우 양성"
+  extremity: "사지 말단이 차고 축축함. 모세혈관 재충전 시간 지연 (>2초)."
+standardized_patient_questions: "어머니가 왜 이러시는 거죠? 단순 요로감염 아니었나요? 생명이 위험한가요?"
+specific_remarks: "환자는 의식이 저하되어 문진이 어렵다. 보호자인 아들과 대화한다. 패혈성 쇼크의 징후(저혈압, 빈맥, 빈호흡, 체온 이상, 의식 변화)를 신속하게 파악하는 것이 중요하다. CVAT와 치골 상부 압통을 통해 감염의 원인으로 요로감염을 의심할 수 있어야 한다. 상황의 위급성을 설명하고 즉각적인 항생제 투여와 수액 소생의 중요성을 강조해야 한다."

@@ -1,0 +1,117 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (골다공증성 척추 압박골절)"
+patient_info:
+  name: "박말순"
+  age: 76
+  sex: "여성"
+  presenting_complaint: "일주일 전 넘어지고 나서 발생한 급성 등 통증"
+vital_signs:
+  blood_pressure: "130/75mmHg"
+  pulse: "85회/분"
+  respiration: "20회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "골다공증성 척추 압박골절"
+    - "급성 요추 염좌"
+    - "척추 전이암 (병적 골절)"
+  necessary_tests:
+    - "흉요추부 X선 검사"
+    - "골밀도 검사 (BMD)"
+    - "필요시 척추 MRI 또는 CT"
+  necessary_treatments:
+    - "침상 안정 및 보조기 착용"
+    - "통증 조절 (진통제)"
+    - "골다공증 치료 (칼슘, 비타민D, 비스포스포네이트 등)"
+    - "통증이 심하고 조절되지 않을 경우 척추체성형술 고려"
+history:
+  sex_age: "여성/76세"
+  chief_complaint_verbatim: "일주일 전에 화장실에서 엉덩방아를 찧었는데, 그 뒤로 등이 너무 아파서 돌아눕기도 힘들어요."
+  onset: "1주일 전"
+  location:
+    initial: "등과 허리 사이"
+    current: "등과 허리 사이 특정 부위"
+  duration:
+    onset_pattern: "급성 발생 (acute onset)"
+    recent_course: "지속적으로 심함"
+  course: "넘어진 직후부터 발생한 통증으로, 움직일 때마다 '억' 소리가 날 정도로 아픔. 특히 앉았다 일어서거나 돌아누울 때 통증이 극심함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "칼로 찌르는 듯한, 날카로운 통증"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때 (특히 몸을 돌리거나 일어설 때)"
+      - "기침하거나 힘을 줄 때"
+    alleviating: "가만히 누워있을 때"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "1주일 전 낙상 (엉덩방아)"
+  past_medical_history:
+    underlying_disease: "골다공증 진단받았으나 치료는 제대로 하지 않음."
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "무직"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "45세에 폐경"
+physical_exam:
+  general: "통증으로 인해 매우 조심스럽게 움직이며, 침대에서 일어날 때 힘들어 함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, non-distended"
+    auscultation: "hypoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      percussion_tenderness: "흉추 12번(T12) 또는 요추 1번(L1) 부위를 가볍게 두드릴 때 심한 통증 호소"
+  cvat: "좌우 음성"
+  extremity: "신경학적 이상 소견 없음. 다리 저림이나 근력 약화 없음."
+standardized_patient_questions: "그냥 좀 삔 줄 알았는데 왜 이렇게 아픈가요? 뼈에 금이 간 건가요? 앞으로 계속 누워만 있어야 하나요?"
+specific_remarks: "넘어진 병력을 명확히 제시해야 함. 진찰 시 등을 가볍게 두드리기만 해도 깜짝 놀라며 아파하는 모습을 보여야 함. 돌아눕거나 일어서는 동작을 할 때 통증이 극심하다는 점을 강조해야 함. '키가 줄어든 것 같다'고 추가로 말할 수 있음."

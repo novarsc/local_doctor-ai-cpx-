@@ -46,6 +46,94 @@ const login = async (email, password) => {
 };
 
 /**
+ * 소셜 로그인 (네이버)
+ * @param {string} code - 네이버 인증 코드
+ * @returns {Promise<object>} The user object from the API response.
+ */
+const naverLogin = async (code) => {
+  try {
+    const response = await apiClient.post('/auth/naver', { code });
+    const { accessToken, refreshToken, user } = response.data;
+
+    // Store tokens and user info in local storage
+    setToken(accessToken);
+    setRefreshToken(refreshToken);
+    setUser(user);
+
+    return user;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('네이버 로그인에 실패했습니다.');
+  }
+};
+
+/**
+ * 소셜 로그인 (카카오)
+ * @param {string} code - 카카오 인증 코드
+ * @returns {Promise<object>} The user object from the API response.
+ */
+const kakaoLogin = async (code) => {
+  try {
+    const response = await apiClient.post('/auth/kakao', { code });
+    const { accessToken, refreshToken, user } = response.data;
+
+    // Store tokens and user info in local storage
+    setToken(accessToken);
+    setRefreshToken(refreshToken);
+    setUser(user);
+
+    return user;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('카카오 로그인에 실패했습니다.');
+  }
+};
+
+/**
+ * 아이디 찾기
+ * @param {string} email - 사용자 이메일
+ * @returns {Promise<object>} 응답 데이터
+ */
+const findId = async (email) => {
+  try {
+    const response = await apiClient.post('/auth/find-id', { email });
+    return response.data;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('아이디 찾기에 실패했습니다.');
+  }
+};
+
+/**
+ * 비밀번호 찾기 (재설정 링크 발송)
+ * @param {string} email - 사용자 이메일
+ * @returns {Promise<object>} 응답 데이터
+ */
+const findPassword = async (email) => {
+  try {
+    const response = await apiClient.post('/auth/find-password', { email });
+    return response.data;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('비밀번호 찾기에 실패했습니다.');
+  }
+};
+
+/**
+ * 비밀번호 재설정
+ * @param {string} token - 재설정 토큰
+ * @param {string} newPassword - 새 비밀번호
+ * @returns {Promise<object>} 응답 데이터
+ */
+const resetPassword = async (token, newPassword) => {
+  try {
+    const response = await apiClient.post('/auth/reset-password', { 
+      token, 
+      newPassword 
+    });
+    return response.data;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('비밀번호 재설정에 실패했습니다.');
+  }
+};
+
+/**
  * Logs out the current user.
  */
 const logout = () => {
@@ -109,6 +197,11 @@ const deleteAccount = async (password) => {
 export const authService = {
   register,
   login,
+  naverLogin,
+  kakaoLogin,
+  findId,
+  findPassword,
+  resetPassword,
   logout,
   updateProfile,    // export 객체에 추가
   updatePassword,   // export 객체에 추가

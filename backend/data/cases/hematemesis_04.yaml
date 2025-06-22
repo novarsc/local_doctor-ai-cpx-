@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (진행성 위암)"
+patient_info:
+  name: "최성국"
+  age: 71
+  sex: "남성"
+  presenting_complaint: "한 달 전부터 소화가 안되고 검은 피를 토함"
+vital_signs:
+  blood_pressure: "105/70mmHg"
+  pulse: "100회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "진행성 위암에 의한 출혈"
+    - "출혈성 위궤양"
+    - "위 림프종"
+  necessary_tests:
+    - "상부위장관 내시경 및 조직검사"
+    - "복부 CT (암 병기 설정을 위해)"
+    - "종양 표지자 검사 (CEA, CA19-9)"
+  necessary_treatments:
+    - "출혈에 대한 보존적 치료 (수액, 수혈)"
+    - "위암 병기에 따른 치료 계획 수립 (수술, 항암화학요법, 방사선 치료)"
+    - "영양 상태 개선을 위한 상담"
+history:
+  sex_age: "남성/71세"
+  chief_complaint_verbatim: "몇 달 전부터 밥맛도 없고 소화도 안됐어요. 어제 저녁 먹고 체한 것 같아 토했는데 짜장면 같은 검은 덩어리가 나왔어요."
+  onset: "소화불량은 3개월 전, 토혈은 1일 전"
+  location:
+    initial: "상복부 전반적인 불편감"
+    current: "상복부 통증"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 악화됨"
+  course: "3개월 전부터 식후 포만감이 심하고 소화가 안 되었다. 최근 한 달간은 음식을 조금만 먹어도 배가 부르고 구역질이 났다. 어제는 저녁 식사 후 상복부 통증과 함께 흑색의 구토를 소량 하였다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "지속적인 둔통, 더부룩함"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: "지난 3개월간 8kg 감소"
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "커피 가루 또는 짜장면 같은 흑색 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 약국에서 소화제 사 먹음"
+    source: "약국"
+    effect: "효과 거의 없음"
+  social_history:
+    job: "은퇴 (전직 농업)"
+    stress: "없음"
+    alcohol:
+      is_drinker: true
+      frequency: "과거 매일 막걸리 1-2병, 최근 입맛 없어 거의 안 마심"
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "1갑/일 (40년)"
+      cessation_period: "없음"
+    exercise: "안 함"
+    recent_weight_change: "8kg 감소"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색, 전반적으로 쇠약하고 피부가 창백함"
+  heent:
+    sclera: "창백함"
+    oral_mucosa: "건조함"
+  chest: "이상 없음"
+  abdomen:
+    inspection: "상복부가 약간 융기되어 보임"
+    auscultation: "장음 감소"
+    percussion: "이상 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_palpable_mass: "명치 부위에서 딱딱하고 불규칙한 표면의 종괴가 만져짐"
+  cvat: "좌우 음성"
+  extremity: "근육 위축 관찰됨"
+  lymph_node: "왼쪽 쇄골상부 림프절(Virchow's node)이 만져짐"
+standardized_patient_questions: "나이 들어서 소화가 안되는 줄 알았는데... 혹시 큰 병인가요? 암 같은 거요. 치료하면 살 수 있습니까?"
+specific_remarks: "전반적으로 기운이 없고 무기력한 모습을 보인다. 의사의 질문에 힘겹게 대답하며, 자신의 증상을 대수롭지 않게 여기려 했으나 내심 크게 걱정하는 기색을 보인다. 진단에 대한 두려움을 표현한다."

@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (급성 심낭염, Acute Pericarditis)"
+patient_info:
+  name: "이수진"
+  age: 29
+  sex: "여성"
+  presenting_complaint: "숨 쉴 때 심해지는 날카로운 가슴 통증"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "105회/분"
+  respiration: "22회/분"
+  temperature: "37.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 심낭염"
+    - "폐색전증"
+    - "급성 심근염"
+  necessary_tests:
+    - "심전도 검사"
+    - "흉부 방사선 촬영"
+    - "혈액 검사 (염증 수치, 심근효소 포함)"
+  necessary_treatments:
+    - "소염진통제 (NSAIDs), 콜히친 등 약물 치료"
+    - "증상 완화를 위한 안정"
+    - "원인 질환에 대한 감별 및 치료"
+history:
+  sex_age: "여성/29세"
+  chief_complaint_verbatim: "이틀 전부터 가슴이 칼로 베는 것처럼 아파요. 숨을 깊게 쉬거나 누우면 더 아프고, 앉아서 몸을 앞으로 숙이면 좀 나아요."
+  onset: "이틀 전 아침"
+  location:
+    initial: "가슴 중앙에서 약간 왼쪽"
+    current: "가슴 중앙에서 약간 왼쪽"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "점점 더 아파짐"
+  course: "감기 기운이 있었고, 이후 가슴 통증이 시작되어 지속되고 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "날카로운, 칼로 찌르는 듯한"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "숨을 깊게 들이쉴 때"
+      - "기침할 때"
+      - "똑바로 누울 때"
+    alleviating: "앉아서 상체를 앞으로 숙일 때"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "페니실린 알러지 (두드러기)"
+  medication_history:
+    taken:
+      - "이틀 전부터 종합감기약"
+    source: "약국"
+    effect: "콧물, 기침은 조금 나아졌으나 가슴 통증은 그대로임"
+  social_history:
+    job: "대학원생"
+    stress: "논문 때문에 스트레스 많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이 가족력 없음"
+  female_history: "LMP: 2주 전, 주기 규칙적"
+physical_exam:
+  general: "미열이 있고, 얕고 빠른 호흡을 보임"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "환자가 상체를 앞으로 숙인 채 앉아 있음. 청진 시 심첨부에서 심장 수축기 및 이완기 전반에 걸쳐 '스치는 듯한' 마찰음(friction rub)이 들림. 폐음은 깨끗함."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "제가 왜 이렇게 아픈 건가요? 심장에 큰 문제 생긴 거 아니에요?"
+specific_remarks: "의사가 눕혀서 신체 진찰을 하려고 하면 통증을 호소하며 힘들어한다. 상체를 앞으로 숙이면 편안해하는 모습을 보인다. 숨을 얕게 쉰다."

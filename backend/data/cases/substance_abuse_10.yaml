@@ -1,0 +1,110 @@
+---
+chapter: "상담"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (아나볼릭 스테로이드 사용장애)"
+patient_info:
+  name: "최건우"
+  age: 29
+  sex: "남성"
+  presenting_complaint: "여드름과 감정 기복 문제"
+vital_signs:
+  blood_pressure: "145/92mmHg"
+  pulse: "65회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "환자의 피부 문제와 감정 변화에 대한 병력을 청취하시오. 환자의 신체적 특징(과도한 근육)과 병력을 종합하여 아나볼릭 스테로이드 사용 가능성을 염두에 두고 문진해야 합니다. 스테로이드 남용의 위험성을 설명하고 중단 및 회복 계획을 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기타 (또는 불명확한) 물질 관련 장애 (아나볼릭-안드로게닉 스테로이드)"
+    - "약물 유발성 여드름"
+    - "약물 유발성 양극성 및 관련 장애"
+  necessary_tests:
+    - "혈액검사 (간기능, 지질, 남성호르몬-Testosterone, LH, FSH 수치)"
+    - "심장 초음파 (심근 비대 확인)"
+    - "정액 검사 (생식 능력 확인)"
+  necessary_treatments:
+    - "즉각적인 스테로이드 사용 중단"
+    - "정신건강의학과 및 내분비내과 협진을 통한 금단 증상 관리 및 호르몬 불균형 교정"
+    - "신체이형장애(body dysmorphic disorder) 여부 평가 및 상담"
+history:
+  sex_age: "남성/29세"
+  chief_complaint_verbatim: "등이랑 가슴에 여드름이 너무 심하게 나고, 별것도 아닌 일에 화가 주체가 안돼서 여자친구랑도 헤어졌어요. 상담 좀 받고 싶어서요."
+  onset: "약 6개월 전부터"
+  location:
+    initial: "등, 가슴, 얼굴"
+    current: "등, 가슴, 얼굴"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 들어 사소한 자극에도 극심한 분노를 표출하는 일이 잦아짐."
+  course: "헬스 트레이너로 일하면서 몸을 키우기 위해 약 1년 전부터 지인의 권유로 '아나볼릭 스테로이드'를 사용하기 시작함(자가 주사). 처음에는 근육이 빠르게 성장하고 자신감이 생겨 만족했으나, 점차 공격성이 증가하고 감정 조절이 어려워짐. 등과 가슴에 염증성 여드름이 심하게 발생하고, 최근에는 성욕 감퇴와 발기부전 증상도 나타남."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "낭종성 여드름, 충동적인 분노 폭발(roid rage)"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    endocrine:
+      gynecomastia: true
+      testicular_atrophy: true
+      libido_decrease: true
+  factors:
+    aggravating:
+      - "스테로이드 주사 주기(cycle) 동안 증상 심해짐"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Testosterone enanthate, Dianabol 등 (불법 유통)"
+    source: "헬스장 지인"
+    effect: "근육량 증가, 공격성 증가"
+  social_history:
+    job: "헬스 트레이너"
+    stress: "외모와 신체에 대한 과도한 집착"
+    alcohol:
+      is_drinker: false
+    smoking:
+      is_smoker: false
+    exercise: "매일 2-3시간 고강도 웨이트 트레이닝"
+    recent_weight_change: "최근 1년간 근육량 15kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "키에 비해 매우 과도한 근육질의 체격. 목소리가 다소 굵고 허스키함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "양쪽 유방이 여성처럼 약간 부풀어 있음(gynecomastia). 가슴과 등에 다수의 낭종성 여드름과 흉터 관찰됨."
+  abdomen:
+    inspection: "복근이 매우 발달되어 있음"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "상완과 허벅지에 주사 자국으로 의심되는 작은 흉터들이 여러 개 보임."
+  genitalia: "고환 크기가 정상보다 작게 촉진됨 (testicular atrophy)."
+standardized_patient_questions: "이게 다 약 때문이라고요? 다들 몸 만들려고 이 정도는 쓰는데 저만 이런 건가요? 이거 끊으면 근육 다 빠지는 거 아니에요? 그럼 저는 어떻게 먹고살아요?"
+specific_remarks: "처음에는 스테로이드 사용 사실을 숨기려 함. 의사가 구체적인 신체 증상(여성형 유방, 고환 위축)을 언급하며 조심스럽게 물어보면 마지못해 시인함. 약물 중단 시 근육 손실과 직업에 대한 불안감을 강하게 호소하며, 치료에 저항적인 태도를 보임."

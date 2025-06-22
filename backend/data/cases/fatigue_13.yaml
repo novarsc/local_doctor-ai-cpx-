@@ -1,0 +1,113 @@
+---
+chapter: "전신"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (급성 골수성 백혈병)"
+patient_info:
+  name: "이하준"
+  age: 32
+  sex: "남성"
+  presenting_complaint: "급격히 발생한 피로감과 잦은 코피"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "110회/분"
+  respiration: "20회/분"
+  temperature: "38.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 백혈병"
+    - "재생불량성 빈혈"
+    - "패혈증"
+  necessary_tests:
+    - "말초혈액 도말검사를 포함한 일반혈액검사 (CBC with PBS)"
+    - "골수 검사 (Bone marrow aspiration and biopsy)"
+    - "혈액응고 검사 (PT/aPTT, Fibrinogen)"
+  necessary_treatments:
+    - "즉시 혈액종양내과 전문의에게 의뢰 및 입원"
+    - "관해 유도 항암화학요법"
+    - "수혈 및 항생제 등 보존적 치료"
+history:
+  sex_age: "남성/32"
+  chief_complaint_verbatim: "한 달 전부터 너무 피곤해서 이상하다 싶었는데, 며칠 전부터는 잇몸에서 피가 나고 코피가 멎질 않아요. 어제부터는 열도 나고요."
+  onset: "피로감은 1개월 전, 출혈 경향은 1주일 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "급성 발병 및 빠른 악화"
+    recent_course: "최근 1주일 사이 급격히 악화"
+  course: "한 달 전부터 감기처럼 시작된 피로감이 회복되지 않고 계속 심해졌다. 일주일 전부터 양치질할 때 잇몸에서 피가 나기 시작했고, 3일 전에는 코피가 30분 이상 멎지 않아 응급실에 갈까 고민했다. 어제부터는 오한과 함께 열이 나기 시작했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "일상생활이 불가능할 정도의 극심한 피로감"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "모든 활동"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "작년"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "-"
+    effect: "-"
+  social_history:
+    job: "건축 설계사"
+    stress: "프로젝트 때문에 최근 야근이 잦았음"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "못 함"
+    recent_weight_change: "한 달간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "-"
+physical_exam:
+  general: "급성 병색이 완연함. 안색이 매우 창백하고 식은땀을 흘림. 의식은 명료하나 기력이 없음."
+  heent:
+    sclera: "매우 창백함"
+    oral_mucosa: "잇몸이 부어있고 출혈 흔적이 보임. 인두에 특이소견 없음."
+  chest: "호흡음 정상. 심음은 빠르고 규칙적."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "팔과 다리에 여러 개의 자잘한 점상 출혈(petechiae)과 다양한 크기의 멍(ecchymosis)이 산재해 있음. 흉골 압통(sternal tenderness) 호소."
+standardized_patient_questions: "제가 왜 이렇게 아픈 건가요? 그냥 과로해서 그런 줄 알았는데... 백혈병이라니, 영화에서나 보던 병 아닌가요? 저 살 수 있는 거죠?"
+specific_remarks: "매우 불안하고 겁에 질린 모습을 보인다. 출혈 증상에 대해 이야기할 때 목소리가 떨린다. 의사가 '백혈병'과 같은 심각한 진단명을 조심스럽게 언급하면 충격을 받은 표정을 지으며 예후에 대해 절박하게 질문한다."

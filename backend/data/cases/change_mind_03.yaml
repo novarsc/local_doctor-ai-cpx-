@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (지속성 우울장애)"
+patient_info:
+  name: "최장수"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "수년간 계속 기분이 별로고 재미있는 일이 없음"
+vital_signs:
+  blood_pressure: "128/84mmHg"
+  pulse: "72회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "지속성 우울장애 (Persistent Depressive Disorder, Dysthymia)"
+    - "주요우울장애, 만성형"
+    - "성격장애 (예: 회피성, 의존성)"
+  necessary_tests:
+    - "기본 혈액 검사 및 갑상선 기능 검사"
+    - "심리 척도 검사 (BDI, HAM-D)"
+    - "필요 시 성격 검사 (MMPI 등)"
+  necessary_treatments:
+    - "항우울제 약물 치료와 정신치료의 병행"
+    - "대인관계 기술 훈련 및 사회적 지지 강화"
+    - "장기적인 치료 계획의 중요성 교육"
+history:
+  sex_age: "남성/45세"
+  chief_complaint_verbatim: "언제부터인지도 잘 모르겠어요. 그냥 늘 이랬던 것 같아요. 사는 게 재미도 없고, 기분 좋은 날이 거의 없어요. 남들은 다 잘 사는 것 같은데 저만 이런가 싶네요."
+  onset: "정확히 기억하기는 어렵지만 최소 5-6년 이상 지속됨"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "만성적"
+    recent_course: "항상 비슷한 상태를 유지함"
+  course: "오랫동안 만성적으로 기분이 저하되어 있고, 스스로를 비관적으로 생각하는 경향이 있다. 직장 생활이나 가정 생활을 그럭저럭 유지하고는 있지만, 즐거움이나 성취감을 거의 느끼지 못한다. 최근 아내가 '당신은 늘 부정적이다'라고 말하는 것에 상처를 받아 내원 결심."
+  experience_prev_episodes:
+    frequency: "없음, 증상이 거의 매일 지속됨"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "공허하고 우울한 기분, 낮은 자존감, 비관적인 생각"
+    nrs_score: "5-6"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "다른 사람과 자신을 비교할 때"
+      - "비판을 받을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전, '스트레스성 위염' 소견 들음"
+    endoscopy_finding: "만성 표재성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 소화제 복용"
+    source: "약국"
+    effect: "일시적 효과"
+  social_history:
+    job: "공무원"
+    stress: "만성적인 스트레스가 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "큰 변화 없음"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "다소 지쳐 보이고 표정이 적음. 전반적으로 기운이 없어 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "이것도 병인가요? 그냥 제 성격이 원래 이런 것 같은데요. 치료하면 좀 나아질 수 있을까요?"
+specific_remarks: "자신을 '원래 이런 사람'이라고 표현하며 증상을 대수롭지 않게 여기려는 태도를 보임. 희망이 없다고 느끼는 듯한 비관적인 언어를 주로 사용함. 감정 표현이 적고 목소리가 단조로움."

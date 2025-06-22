@@ -1,0 +1,119 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (신경인성 방광)"
+patient_info:
+  name: "강희숙"
+  age: 62
+  sex: "여성"
+  presenting_complaint: "소변이 시원하게 나오지 않고 옷에 찔끔찔끔 새는 증상"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신경인성 방광 (Neurogenic Bladder), 당뇨병성 방광병증"
+    - "복압성 요실금 (Stress Urinary Incontinence)"
+    - "전립선비대증에 의한 만성 요폐 (여성이므로 감별 제외, 남성이라면 고려)"
+  necessary_tests:
+    - "소변검사 (감염 배제)"
+    - "요속검사 및 잔뇨량 측정 (매우 중요)"
+    - "요역동학검사 (Urodynamic study)"
+    - "당화혈색소(HbA1c) 검사 등 혈당 조절 상태 평가"
+  necessary_treatments:
+    - "기저 질환(당뇨)의 적극적인 조절"
+    - "청결 간헐적 도뇨법 (Clean Intermittent Catheterization, CIC) 교육"
+    - "방광 기능 개선을 위한 약물 치료 (콜린 작용제 등)"
+history:
+  sex_age: "여성/62세"
+  chief_complaint_verbatim: "소변을 보고 싶다는 생각도 별로 안 드는데, 아랫배가 묵직하고... 힘을 줘도 소변이 졸졸 나오다 말아요. 그러다 저도 모르게 속옷이 젖을 때가 많아요."
+  onset: "약 2년 전부터 서서히"
+  location:
+    initial: "하복부"
+    current: "하복부"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "6개월 전부터 속옷을 적시는 횟수가 늘어남"
+  course: "처음에는 소변 줄기가 약해진 느낌 정도였음. 점차 소변 마려운 느낌(요의) 자체가 둔해지고, 배에 힘을 줘야만 소변이 나오기 시작함. 소변을 봐도 전혀 개운하지 않고 아랫배가 묵직함. 최근에는 기침하거나 배에 힘을 줄 때 뿐만 아니라 가만히 있어도 소변이 조금씩 새어 나와 패드를 착용하고 있음 (범람성 요실금, overflow incontinence)."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "배뇨 곤란, 잔뇨감, 요의 둔화, 범람성 요실금"
+    nrs_score: "불편감 6점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true # 자율신경계 이상 소견
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true # 당뇨 증상
+      decreased_urine_output: false # 역설적으로 총량은 많을 수 있음
+  factors:
+    aggravating:
+      - "오래 참고 있을 때 (요의를 못 느껴서)"
+    alleviating: "아랫배를 손으로 누르면서 소변을 보면 조금 더 나옴"
+  health_check_history:
+    last_checkup: "6개월 전 내과"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 (20년 전 진단), 당뇨병성 말초신경병증 (양쪽 발 저림), 고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "메트포르민, 다파글리플로진 (당뇨약)"
+      - "로사르탄 (혈압약)"
+      - "가바펜틴 (신경병증약)"
+    source: "내과 처방"
+    effect: "혈당 조절이 잘 안되는 편 (최근 HbA1c 8.5%)"
+  social_history:
+    job: "은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "발이 저려서 잘 못함"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "55세 폐경. 자연분만 1회."
+physical_exam:
+  general: "만성 질환을 가진 모습. 약간 지쳐 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "치골 상부에서 둔탁음 (dullness) 촉지됨 (방광 팽만)"
+    palpation:
+      # Palpable, distended bladder
+      distended_bladder: true
+      suprapubic_tenderness: false # 만성이라 압통은 없을 수 있음
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "양쪽 발에 함몰 부종 없음. 양쪽 발의 감각 및 진동 감각 저하 (diabetic neuropathy)."
+standardized_patient_questions: "당뇨 때문에 소변도 이렇게 되나요? 이거 고칠 수 있는 병인가요? 평생 기저귀 차고 살아야 하나요?"
+specific_remarks: "자신의 증상을 설명할 때 체념한 듯하고 우울한 모습을 보인다. 소변이 새는 것에 대해 수치심을 느낀다. 의사가 아랫배를 촉진할 때 팽만감을 호소한다. 발 감각 저하에 대한 질문에 '네, 발이 늘 나무토막 같아요'라고 대답한다."

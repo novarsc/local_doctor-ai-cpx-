@@ -1,0 +1,115 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (임신성 당뇨병)"
+patient_info:
+  name: "김민지"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "최근 부쩍 피곤하고 갈증이 심해짐"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "임신성 당뇨병"
+    - "정상적인 임신 과정 중 피로감"
+    - "임신성 빈혈"
+  necessary_tests:
+    - "100g 경구 당부하 검사 (확진 검사)"
+    - "일반 혈액 검사 (빈혈 감별)"
+    - "소변 검사 (케톤, 당뇨 확인)"
+  necessary_treatments:
+    - "식이요법 및 운동 교육"
+    - "자가 혈당 측정 교육"
+    - "필요시 인슐린 주사 치료"
+history:
+  sex_age: "여성/32세"
+  chief_complaint_verbatim: "선생님, 요즘 너무 피곤하고 목이 자꾸 말라요. 임신 26주차인데, 원래 이런 건가요?"
+  onset: "약 2주 전 (임신 24주차 경)"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점점 심해지는 양상"
+  course: "처음에는 임신해서 그런가보다 했는데, 물을 마셔도 갈증이 쉽게 해소되지 않고 소변도 자주 보는 것 같아 걱정되어 내원함."
+  experience_prev_episodes:
+    frequency: "없음 (첫 임신)"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "일상생활에 지장을 줄 정도의 피로감과 지속적인 갈증"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false # 오히려 소변을 더 자주 봄
+  factors:
+    aggravating:
+      - "활동 시"
+      - "단 음식 섭취 후"
+    alleviating: "휴식 시 약간 호전"
+  health_check_history:
+    last_checkup: "임신 초기 검사 (8주차)"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "임산부용 종합 비타민 (철분 포함)"
+    source: "약국 구매"
+    effect: "잘 모르겠음"
+  social_history:
+    job: "사무직 (최근 휴직)"
+    stress: "임신에 대한 약간의 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "주 2회 가벼운 산책"
+    recent_weight_change: "임신 후 8kg 증가"
+  family_history: "어머니 (제2형 당뇨병)"
+  female_history: "G1P0, LMP: 약 6개월 전, EDC: 14주 후, 임신 26주. 임신 초기 50g 당부하 검사에서 135mg/dL로 정상 범위였음."
+physical_exam:
+  general: "약간 피로해 보이나 의식 명료하고 안정된 모습."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "slightly dry"
+  chest: "호흡음 정상, 심잡음 없음."
+  abdomen:
+    inspection: "임신 26주에 합당한 크기, linea nigra 관찰됨. striae gravidarum 있음."
+    auscultation: "장음 정상."
+    percussion: "특이 소견 없음."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 자궁저부 높이: 28cm (임신 주수에 비해 다소 큼)
+  cvat: "음성/음성"
+  extremity: "pitting edema 없음."
+standardized_patient_questions: "제가 정말 당뇨병인가요? 아기한테 문제가 생길 수 있나요? 앞으로 어떻게 관리해야 하나요?"
+specific_remarks: "환자는 자신의 증상이 정상적인 임신 반응인지 질병인지에 대해 불안해한다. 특히 가족력 때문에 당뇨병에 대한 걱정이 많음을 표현한다. 갈증과 피로감을 자주 호소한다."

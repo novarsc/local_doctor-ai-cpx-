@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (길랭-바레 증후군)"
+patient_info:
+  name: "김민준"
+  age: 28
+  sex: "남성"
+  presenting_complaint: "며칠 전부터 양쪽 다리에 힘이 빠지고 감각이 이상함"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "98회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "길랭-바레 증후군 (Guillain-Barré syndrome)"
+    - "횡단성 척수염 (Transverse myelitis)"
+    - "급성 척수 압박 (Acute spinal cord compression)"
+  necessary_tests:
+    - "신경전도검사 및 근전도검사 (NCS/EMG)"
+    - "뇌척수액 검사 (CSF study)"
+    - "폐기능 검사 (Pulmonary function test)"
+  necessary_treatments:
+    - "정맥 내 면역글로불린(IVIG) 투여 또는 혈장 교환술"
+    - "호흡 보조 치료 (필요시)"
+    - "재활 치료"
+history:
+  sex_age: "남성/28"
+  chief_complaint_verbatim: "한 3일 전부터 다리에 힘이 쭉 빠지는 것 같더니, 이젠 팔까지 힘이 없어요. 발끝 감각도 둔해진 것 같고요."
+  onset: "3일 전"
+  location:
+    initial: "양쪽 발끝"
+    current: "양쪽 다리 전체, 양쪽 팔"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "빠르게 악화"
+  course: "일주일 전쯤 가벼운 감기 증상(인후통, 콧물)이 있었고, 호전된 후 3일 전부터 양쪽 발끝이 저리기 시작하면서 점차 위로 올라오며 힘이 빠지는 증상이 발생함. 오늘은 팔에도 힘이 빠지기 시작함."
+  experience_prev_episodes:
+    frequency: "처음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "힘이 빠지는 느낌, 저리고 둔한 느낌"
+    nrs_score: "4"
+    radiation: "발끝에서 시작하여 무릎, 허벅지, 팔로 올라오는 양상"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "계단 오르기"
+      - "오래 서 있기"
+    alleviating: "누워 있기"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "1주 전 종합감기약 (약국 구매)"
+    source: "약국"
+    effect: "감기 증상 호전됨"
+  social_history:
+    job: "대학원생"
+    stress: "논문 때문에 다소 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2-3회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "불안해 보이나 의식은 명료함. 호흡은 편안해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상, 잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양쪽 하지 근위부 및 원위부 근력 저하(MRC 3/5), 상지 원위부 근력 저하(MRC 4/5). 심부건반사 양쪽 무릎 및 발목에서 소실됨. 장갑-양말 형태의 감각 저하(진동, 위치 감각) 관찰됨."
+standardized_patient_questions: "제가 아예 못 걷게 되는 건가요? 평생 이렇게 살아야 하나요? 숨쉬는 것도 힘들어질 수 있나요?"
+specific_remarks: "환자는 점차 심해지는 증상에 대해 매우 불안해하며, 자신의 상태에 대해 계속 질문한다. 전반적으로 힘이 없고 축 처진 모습을 연기한다."

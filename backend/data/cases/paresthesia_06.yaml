@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (당뇨병성 다발신경병증)"
+patient_info:
+  name: "김철수"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "양쪽 발이 화끈거리고 저려서 밤에 잠을 잘 못 잠"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "당뇨병성 다발신경병증 (Diabetic polyneuropathy)"
+    - "척추관 협착증 (Spinal stenosis)"
+    - "알코올성 신경병증 (Alcoholic neuropathy)"
+  necessary_tests:
+    - "당화혈색소(HbA1c) 포함 혈액검사"
+    - "신경전도검사/근전도검사"
+    - "모노필라멘트 검사 등 감각기능 평가"
+  necessary_treatments:
+    - "엄격한 혈당 조절"
+    - "신경병증성 통증 약물 치료 (가바펜틴, 프레가발린 등)"
+    - "발 관리 교육"
+history:
+  sex_age: "남성/65"
+  chief_complaint_verbatim: "몇 년째 양쪽 발바닥이 화끈거리고 바늘로 찌르는 것처럼 아파요. 특히 밤에 더 심해서 이불이 닿기만 해도 아파서 잠을 설치기 일쑤입니다. 발 감각도 무뎌진 것 같아요."
+  onset: "약 3년 전"
+  location:
+    initial: "양쪽 발가락 끝"
+    current: "양쪽 발 전체, 발목까지 올라옴"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "서서히 악화"
+  course: "3년 전부터 발끝이 저리기 시작했고, 1년 전부터는 발바닥 전체가 화끈거리고 쑤시는 통증이 생김. 최근에는 통증이 발목까지 올라왔고, 작은 상처가 나도 잘 느끼지 못함. 걸을 때 마치 모래 위를 걷는 것처럼 감각이 이상함."
+  experience_prev_episodes:
+    frequency: "거의 매일, 특히 밤에 심함"
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "화끈거림, 찌르는 통증, 감각 저하"
+  character_of_symptom:
+    quality: "화끈거리고(burning), 찌르고(stabbing), 저린(numbness) 느낌"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밤 시간"
+      - "이불 등 가벼운 접촉"
+    alleviating: "찬물에 발 담그기"
+  health_check_history:
+    last_checkup: "3개월 전 내과 방문"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "모르는 사이 발에 상처가 나 있었던 적이 몇 번 있음"
+  past_medical_history:
+    underlying_disease: "당뇨병 (15년 전 진단), 고혈압 (10년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Metformin"
+      - "Gliclazide"
+      - "Amlodipine"
+    source: "내과 처방"
+    effect: "혈당 조절이 잘 안된다고 들음"
+  social_history:
+    job: "은퇴 후 무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "막걸리 1-2병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: ""
+    exercise: "무릎이 아파서 거의 못함"
+    recent_weight_change: "최근 1년간 5kg 감소"
+  family_history: "형이 당뇨병 합병증으로 신장 투석 중"
+  female_history: ""
+physical_exam:
+  general: "만성 통증과 수면 부족으로 지쳐 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 감소"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양쪽 발목 아래로 장갑-양말 형태의 감각 저하(통각, 온도감각, 진동감각 모두 저하). 10g 모노필라멘트 검사에서 양쪽 발바닥 대부분 감지 못함. 양측 발목 반사(ankle jerk) 소실. 발가락 근력 약간 저하. 양쪽 엄지발가락에 굳은살 및 작은 궤양 관찰됨."
+standardized_patient_questions: "이 통증 때문에 잠을 잘 수가 없는데, 어떻게 안 될까요? 약을 먹어도 혈당 조절이 잘 안되는데 괜찮을까요? 저도 형처럼 신장이 나빠지는 건 아닌지 걱정돼요."
+specific_remarks: "환자는 진찰 내내 발이 아프다며 인상을 쓴다. 의사가 모노필라멘트로 발바닥을 검사할 때, 닿는 느낌이 거의 없다고 말한다. 발에 생긴 상처를 보여주며 언제 생겼는지도 몰랐다고 얘기한다. 전반적으로 자신의 건강 관리에 대해 비관적이고 무력한 태도를 보인다."

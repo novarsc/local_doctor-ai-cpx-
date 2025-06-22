@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (미세 현미경적 대장염)"
+patient_info:
+  name: "오미자"
+  age: 65
+  sex: "여성"
+  presenting_complaint: "만성적인 물 설사"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "미세 현미경적 대장염 (교원성 또는 림프구성)"
+    - "과민성 대장 증후군"
+    - "담즙산 설사"
+  necessary_tests:
+    - "대장 내시경 및 다발성 조직 검사 (진단에 필수)"
+    - "혈액 검사 (염증 수치, 자가면역질환 관련 항체)"
+    - "대변 검사 (감염성 원인 배제)"
+  necessary_treatments:
+    - "원인 가능 약물 중단 (예: NSAIDs, PPI)"
+    - "Budesonide 경구 투여"
+    - "지사제 등 대증 요법"
+history:
+  sex_age: "여/65"
+  chief_complaint_verbatim: "작년부터 이유 없이 물 설사를 계속해요. 내시경은 깨끗하다는데 왜 이러는지 모르겠어요."
+  onset: "약 1년 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "서서히 시작되어 지속적임"
+    recent_course: "최근에도 하루 5-6회 설사함"
+  course: "작년 봄부터 갑자기 시작된 만성적인 물 설사. 복통은 거의 없거나 경미함. 혈변이나 점액변은 없음. 밤에도 설사 때문에 깨는 경우가 종종 있음. 6개월 전 동네 병원에서 대장 내시경을 받았는데, 의사가 '장은 깨끗하다'고 하며 과민성 대장 증후군 같다고 약을 줬지만 효과가 없었음."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "뚜렷한 유발 요인 없음"
+    symptoms: "물 설사"
+  character_of_symptom:
+    quality: "복통 없는 다량의 물 설사"
+    nrs_score: "1-2 (복통)"
+    radiation: ""
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "뚜렷한 요인 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전, 골관절염, 역류성 식도염 진단"
+    endoscopy_finding: "6개월 전 대장내시경, 육안적 특이 소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 퇴행성 무릎 관절염, 역류성 식도염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+      - "비스테로이드성 소염진통제(NSAIDs) - 무릎 통증 시 간헐적 복용"
+      - "프로톤 펌프 억제제(PPI) - 식도염약"
+    source: "정형외과, 내과 처방"
+    effect: "각 질환은 조절되고 있으나 설사는 지속됨"
+  social_history:
+    job: "은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "무릎 통증으로 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 10년 이상"
+physical_exam:
+  general: "급성 또는 만성 병색 없음. 전반적인 상태 양호"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "특이사항 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 압통 없음
+  cvat: "음성"
+  extremity: "양측 무릎에 약간의 부종 및 운동 제한"
+standardized_patient_questions: "내시경이 깨끗하다는데 왜 설사를 계속하나요? 더 정밀한 검사를 받아야 하나요? 신경성인가요?"
+specific_remarks: "증상은 뚜렷하지만 전신 상태는 양호한 모습을 보인다. 과거 대장 내시경 결과가 '정상'이었다는 점을 강조하며 답답함을 표현한다. 복용 중인 약물(특히 NSAIDs, PPI)에 대해 정확히 진술한다."

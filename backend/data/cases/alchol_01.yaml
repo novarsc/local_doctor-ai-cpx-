@@ -1,0 +1,114 @@
+---
+chapter: "상담"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (알코올성 간염)"
+patient_info:
+  name: "김영철"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "최근 심해진 피로감과 황달"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "92회/분"
+  respiration: "18회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 치료(금주 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올성 간염"
+    - "급성 바이러스성 간염"
+    - "담도계 질환 (담석증 등)"
+  necessary_tests:
+    - "혈액 검사 (간기능 검사, 전해질, 혈구 수치, 바이러스 표지자)"
+    - "복부 초음파"
+    - "혈액응고 검사"
+  necessary_treatments:
+    - "절대적인 금주 (가장 중요)"
+    - "충분한 영양 공급 (고칼로리, 고단백 식이)"
+    - "필요시 입원하여 수액 치료 및 약물 치료"
+history:
+  sex_age: "남성/52세"
+  chief_complaint_verbatim: "일주일 전부터 너무 피곤하고 밥맛도 없고, 소변 색이 진해졌어요. 아내가 얼굴이랑 눈이 노래 보인다고 해서 걱정돼서 왔습니다."
+  onset: "약 1주일 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 심해짐"
+  course: "처음에는 그냥 피곤한 줄 알았는데, 2-3일 전부터 소화도 안 되고 오른쪽 윗배가 뻐근하게 아프기 시작했고, 황달이 나타나 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "뻐근한 통증 (우상복부)"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "기름진 음식 섭취"
+      - "음주 후"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "당시 위염 소견"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (5년 전 진단, 약 복용 안함), 지방간 (5년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "중소기업 부장"
+    stress: "업무상 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1-2병/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 3개월간 5kg 감소"
+  family_history: "아버지가 간경화로 돌아가심"
+  female_history: null
+physical_exam:
+  general: "전반적으로 지쳐 보이고, 경미한 황달 관찰됨"
+  heent:
+    sclera: "경도의 공막 황달(mild icteric sclera)"
+    oral_mucosa: "다소 건조함"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "복부 팽만 없음, 거미혈관종(spider angioma) 2-3개 관찰됨"
+    auscultation: "장음 정상"
+    percussion: "복수 없음, 간 타진 시 탁음 범위 증가 (liver span 15cm)"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      hepatomegaly: "부드러운 간 비대 촉진됨"
+  cvat: "양측 음성"
+  extremity: "부종 없음, 수장홍반(palmar erythema) 관찰됨"
+standardized_patient_questions: "제가 그렇게 심각한가요? 술을 꼭 끊어야만 하나요? 조금씩 마시는 건 괜찮지 않나요?"
+specific_remarks: "환자는 자신의 음주 문제에 대해 이야기할 때 방어적인 태도를 보임. 의사가 단호하고 공감적으로 금주의 필요성을 설명하면 점차 수긍하는 모습을 연기함."

@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (파킨슨병에 의한 요실금)"
+patient_info:
+  name: "김종필"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "소변이 자주 마렵고 가끔 지리는 증상"
+vital_signs:
+  blood_pressure: "135/80mmHg"
+  pulse: "68회/분"
+  respiration: "18회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "파킨슨병에 동반된 과민성 방광 및 절박성 요실금"
+    - "전립선비대증"
+    - "정상압 수두증 (Normal Pressure Hydrocephalus)"
+  necessary_tests:
+    - "신경학적 진찰"
+    - "뇌 MRI"
+    - "DAT-scan (도파민 운반체 영상)"
+    - "요류역학검사"
+  necessary_treatments:
+    - "레보도파 등 항파킨슨 약물 치료"
+    - "방광 증상 조절을 위한 약물 치료"
+    - "물리치료 및 작업치료"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "화장실을 너무 자주 가요. 밤에도 서너 번은 깨고, 가끔은 화장실에 가다가 속옷에 실수를 합니다. 손도 떨리고 행동도 느려져서 힘드네요."
+  onset: "행동이 느려진 것은 2년 전, 소변 증상은 1년 전부터"
+  location:
+    initial: "전신, 방광"
+    current: "전신, 방광"
+  duration:
+    onset_pattern: "점진적, 서서히 진행"
+    recent_course: "모든 증상이 점차 악화"
+  course: "2년 전부터 걸음이 느려지고 표정이 무뚝뚝해졌다는 말을 들었다. 오른손이 가만히 있을 때 떨리기 시작했다. 1년 전부터 소변이 급하고 자주 마려운 증상이 생겼고, 최근에는 밤에 잠을 설치고 가끔 소변을 지리는 일까지 생겼다."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "안정 시 진전, 서동, 야간뇨, 절박뇨"
+  character_of_symptom:
+    quality: "소변이 갑자기 마려워 참기 힘듦, 몸이 둔하고 뻣뻣한 느낌"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true # 기립성 저혈압 증상
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "가만히 있을 때 손떨림이 심해짐"
+      - "밤에 소변 증상이 더 심함"
+    alleviating: "움직이면 손떨림이 약간 줄어듦"
+  health_check_history:
+    last_checkup: "1년 전, 특이소견 없었음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "은퇴"
+    stress: "몸이 마음대로 움직이지 않아 스트레스 받음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: "과거 30갑년, 10년 전 금연"
+      cessation_period: "10년"
+    exercise: "걷는 것이 힘들어져서 잘 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+physical_exam:
+  general: "무표정한 얼굴(masked face), 말소리가 작고 단조로움. 안정 시 오른손에 환약말이 진전(pill-rolling tremor) 관찰."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "전반적인 서동(bradykinesia) 및 사지의 경직(rigidity) 관찰. 자세 불안정성 보임."
+standardized_patient_questions: "이게 다 나이 탓인가요? 왜 손도 떨리고 소변도 자주 마려운 거죠? 치매로 가는 건 아닌지 걱정됩니다."
+specific_remarks: "환자는 말이 느리고 목소리가 작다. 질문에 대한 반응이 한 박자씩 늦다. 진찰 시 수동적 움직임에 저항(cogwheel rigidity)을 보인다. 자신의 신체 변화에 대해 우울감과 무력감을 표현한다."

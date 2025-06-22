@@ -1,0 +1,117 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (근막 통증 증후군)"
+patient_info:
+  name: "이현주"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "수개월간 지속된 목, 어깨, 등 위쪽의 뻐근한 통증"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "근막 통증 증후군 (Myofascial pain syndrome)"
+    - "경추 염좌 (만성)"
+    - "섬유근육통"
+  necessary_tests:
+    - "기본적인 경추 X선 검사 (다른 질환 배제 목적)"
+    - "혈액 검사 (염증 수치 확인)"
+    - "진단을 위한 특이 검사는 없음"
+  necessary_treatments:
+    - "유발점 주사 (Trigger point injection)"
+    - "물리치료, 스트레칭, 자세 교정"
+    - "소염진통제, 근이완제 복용"
+history:
+  sex_age: "여성/35세"
+  chief_complaint_verbatim: "목이랑 어깨가 항상 돌덩이처럼 뭉쳐있고 아파요. 가끔은 머리까지 아프고 팔도 저릿해요."
+  onset: "약 4-5개월 전"
+  location:
+    initial: "목, 양쪽 어깨"
+    current: "목, 양쪽 어깨, 날개뼈 안쪽"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "최근 업무량이 늘면서 더 심해짐"
+  course: "처음에는 피곤할 때만 아팠는데, 이제는 거의 매일 뻐근하고 묵직한 통증이 있음. 특정 부위를 누르면 더 아프고 다른 곳까지 통증이 퍼지는 느낌이 듦."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "뻐근하고 묵직하며, 뭉친 듯한 통증"
+    nrs_score: "5"
+    radiation: "어깨 통증 시 팔 바깥쪽으로 저릿한 느낌이 동반되기도 함. 목 통증 시 관자놀이 쪽으로 두통 발생."
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "컴퓨터 작업 오래 할 때"
+      - "스트레스 받을 때"
+      - "나쁜 자세로 있을 때"
+    alleviating: "마사지나 찜질을 하면 일시적으로 호전됨"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "사무직 (디자이너)"
+    stress: "프로젝트 마감 때 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "LMP 1주 전, regular cycle"
+physical_exam:
+  general: "전반적으로 건강해 보이나, 약간 피로한 기색."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      trigger_points: "양쪽 승모근(trapezius), 견갑거근(levator scapulae)에 여러 개의 압통 유발점(trigger points) 촉진됨. 유발점 압박 시 국소적인 근육 연축(twitch response) 및 특징적인 연관통(referred pain) 유발됨."
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 (근력, 감각, 반사) 모두 정상."
+standardized_patient_questions: "근육이 뭉친 것뿐인데 왜 이렇게 오래 아픈가요? 디스크는 아닌가요? 주사 맞으면 바로 좋아지나요?"
+specific_remarks: "진찰 시 의사가 특정 부위(유발점)를 누를 때, '아, 거기요!'라고 말하며 그 부위뿐만 아니라 팔이나 머리 쪽으로 통증이 퍼지는 '연관통'을 구체적으로 표현해야 함. 예를 들어, 어깨를 눌렀을 때 '팔 쪽으로 저릿한 느낌이 들어요'라고 말해야 함. 전반적으로 만성 통증과 피로감에 지친 모습을 보여야 함."

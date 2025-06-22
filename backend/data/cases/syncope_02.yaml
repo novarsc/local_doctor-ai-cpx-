@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (기립성 저혈압)"
+patient_info:
+  name: "최정숙"
+  age: 78
+  sex: "여성"
+  presenting_complaint: "아침에 침대에서 일어나다가 핑 돌면서 쓰러졌어요."
+vital_signs:
+  blood_pressure: "105/65mmHg (누워서 측정)"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기립성 저혈압 (Orthostatic hypotension)"
+    - "약물 부작용에 의한 실신"
+    - "심인성 부정맥"
+  necessary_tests:
+    - "기립 혈압 측정 (누운 상태와 일어선 직후, 3분 후 혈압 비교)"
+    - "심전도 검사"
+    - "전해질 및 혈액 검사 (탈수 여부 확인)"
+  necessary_treatments:
+    - "복용 중인 약물 검토 및 조절"
+    - "자세 변경 시 천천히 움직이도록 교육"
+    - "충분한 수분 섭취 및 압박 스타킹 착용 권유"
+history:
+  sex_age: "여성/78"
+  chief_complaint_verbatim: "요 며칠 계속 좀 어지럽다 싶었는데, 오늘 아침에는 침대에서 일어나 부엌으로 가려는데 갑자기 눈앞이 캄캄해지면서 그대로 주저앉았어요. 정신은 바로 들었고요."
+  onset: "금일 오전 7시"
+  location:
+    initial: "침실"
+    current: "진료실"
+  duration:
+    onset_pattern: "자세 변화 시 갑자기 발생"
+    recent_course: "의식 소실은 없거나 수 초 이내였음. 넘어진 후 바로 정신은 들었으나 한동안 어지러워서 일어서지 못함."
+  course: "최근 일주일간 아침에 일어날 때 비슷한 어지럼증을 자주 경험함. 오늘은 증상이 가장 심했음."
+  experience_prev_episodes:
+    frequency: "지난 주부터 거의 매일 아침"
+    trigger: "누워있거나 앉아있다가 일어날 때"
+    symptoms: "어지럼증, 눈앞이 캄캄해지는 느낌"
+  character_of_symptom:
+    quality: "어지럼증 후 의식 소실 (presyncope/syncope)"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "아침에 갑자기 일어나는 것"
+      - "더운 날씨"
+    alleviating: "다시 앉거나 눕는 것"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "만성 위축성 위염"
+  trauma_history: "넘어지면서 엉덩방아를 찧었으나 큰 부상은 없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (이뇨제 포함)"
+      - "당뇨약"
+    source: "내과 의원"
+    effect: "혈압과 혈당은 잘 조절되는 편이었음"
+  social_history:
+    job: "무직 (주부)"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "매일 30분 동네 산책, 최근 더워서 잘 못함"
+    recent_weight_change: "최근 입맛이 없어 2kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "폐경 25년 전"
+physical_exam:
+  general: "다소 기운이 없어 보이는 모습. 의식 명료."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "dry"
+  chest: "호흡음 깨끗함. 심음 정상. 심잡음 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "피부 긴장도 감소. 부종 없음."
+standardized_patient_questions: "나이가 들어서 기력이 없어서 그런 건가요? 혈압약을 계속 먹어도 괜찮을까요?"
+specific_remarks: "환자는 본인의 증상을 노화 탓으로 돌리려는 경향이 있다. 의사가 기립 시 혈압을 측정하려고 하면 '어지러울까봐 무섭다'며 주저하는 모습을 보인다."

@@ -1,0 +1,109 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (지연성 운동이상증)"
+patient_info:
+  name: "강희숙"
+  age: 62
+  sex: "여성"
+  presenting_complaint: "입맛을 계속 다시고 얼굴을 찡그림"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "지연성 운동이상증 (Tardive Dyskinesia)"
+    - "특발성 구강안면 운동이상증"
+    - "헌팅턴병 (매우 드묾)"
+  necessary_tests:
+    - "자세한 약물 복용력 확인"
+    - "신경학적 진찰 (AIMS 척도 등)"
+    - "혈액 검사 (다른 원인 배제)"
+  necessary_treatments:
+    - "원인 약물 중단 또는 변경 (가능한 경우)"
+    - "증상 조절을 위한 약물 치료 (VMAT2 억제제 등)"
+    - "정기적인 경과 관찰"
+history:
+  sex_age: "여성/62세"
+  chief_complaint_verbatim: "제가 원하지 않는데도 자꾸 입을 오물거리거나 혀를 날름거리게 돼요. 가족들이 얼굴 표정도 이상하다고 하고요. 멈추려고 해도 잘 안돼서 너무 창피해요."
+  onset: "약 6개월 전"
+  location:
+    initial: "입 주변"
+    current: "입, 혀, 얼굴 전체"
+  duration:
+    onset_pattern: "서서히"
+    recent_course: "점점 뚜렷해짐"
+  course: "처음에는 피곤해서 그런가 했는데, 이제는 깨어있는 동안 거의 계속 나타남. 잘 때는 괜찮음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "입맛 다시기, 혀 내밀기, 얼굴 찡그리기 등 반복적인 불수의적 운동"
+    nrs_score: "사회적 불편감 8점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "긴장할 때"
+      - "다른 사람과 이야기할 때"
+    alleviating: "잠을 잘 때, 의식적으로 입에 무언가를 물고 있을 때"
+  health_check_history:
+    last_checkup: "1년 전, 특이사항 없음"
+    endoscopy_finding: "특이사항 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "조현병 (20년 전 진단받고 꾸준히 약물 치료 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "할로페리돌"
+      - "벤즈트로핀"
+    source: "정신건강의학과"
+    effect: "정신과적 증상은 잘 조절되고 있음"
+  social_history:
+    job: "무직"
+    stress: "증상으로 인한 스트레스 높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "지난 몇 년간 약간의 체중 증가"
+  family_history: "특이사항 없음"
+  female_history: "폐경 52세"
+physical_exam:
+  general: "대화 중 지속적으로 입술을 오므리거나 혀를 날름거리는 등 구강-안면부의 불수의적 움직임 관찰됨 (orofacial dyskinesia). 때때로 몸통을 비트는 듯한 움직임도 동반됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "근력 및 감각 정상. 안정 시 떨림이나 경직은 관찰되지 않음. 의도하지 않은 무도성, 근긴장이상성 움직임이 얼굴과 입 주변에 집중되어 나타남."
+standardized_patient_questions: "제 얼굴이 왜 제 마음대로 안 움직일까요? 제가 먹는 정신과 약이랑 관련이 있는 건가요? 이 약을 끊어야 하나요? 그럼 병이 다시 심해질까 봐 무서워요."
+specific_remarks: "환자는 대화 내내 불수의적인 얼굴 움직임을 연기해야 한다. 입맛 다시기, 입술 빨기, 뺨 부풀리기, 혀 내밀기 등을 조합하여 자연스럽게 표현한다. 자신의 증상을 매우 부끄러워하며, 사람들을 만나는 것을 꺼리게 되었다는 점을 호소한다. 정신과 약물 복용력을 숨기려 하지 않고 솔직하게 이야기한다."

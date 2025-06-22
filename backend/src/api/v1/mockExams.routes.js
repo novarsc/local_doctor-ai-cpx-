@@ -23,4 +23,7 @@ router.get('/:mockExamSessionId', mockExamController.getSession);
 // POST /api/v1/mock-exams/:mockExamSessionId/complete - Complete a mock exam session
 router.post('/:mockExamSessionId/complete', mockExamController.completeSession);
 
+// POST /api/v1/mock-exams/:mockExamSessionId/cases/:caseNumber/start-practice - Start practice session for a specific case in mock exam
+router.post('/:mockExamSessionId/cases/:caseNumber/start-practice', mockExamController.startCasePractice);
+
 module.exports = router;

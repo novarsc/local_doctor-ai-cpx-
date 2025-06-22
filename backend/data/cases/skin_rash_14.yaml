@@ -1,0 +1,113 @@
+---
+chapter: "관절.근골격.피부"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (농가진)"
+patient_info:
+  name: "이로운"
+  age: 7
+  sex: "남성"
+  presenting_complaint: "코와 입 주변에 생긴 진물과 딱지"
+vital_signs:
+  blood_pressure: "100/65mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "농가진 (접촉전염 농가진)"
+    - "단순 포진 감염"
+    - "아토피 피부염의 이차 감염"
+  necessary_tests:
+    - "대부분 임상 진단으로 충분"
+    - "필요시 그람 염색 및 세균 배양 검사"
+  necessary_treatments:
+    - "국소 항생제 연고 (무피로신 등) 도포"
+    - "병변 부위 청결 유지 및 딱지 제거"
+    - "전염 방지를 위한 위생 교육 (격리, 수건 따로 사용 등)"
+history:
+  sex_age: "남성/7"
+  chief_complaint_verbatim: "(보호자) 며칠 전에 코 밑에 모기 물린 것처럼 빨갛게 되더니, 그걸 긁어서 그런지 진물이 나고 노란 딱지가 앉았어요. 그게 자꾸 주변으로 번져요."
+  onset: "4일 전"
+  location:
+    initial: "코 밑 (인중)"
+    current: "코와 입 주변"
+  duration:
+    onset_pattern: "서서히"
+    recent_course: "점점 번짐"
+  course: "작은 붉은 반점으로 시작하여 수포나 농포로 변했고, 이것이 터지면서 생긴 분비물이 마르면서 특징적인 노란색 딱지를 형성했다. 아이가 긁으면서 주변으로 번져나갔다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "경미한 가려움증"
+    nrs_score: "2"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "긁거나 만질 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "영유아 검진"
+    endoscopy_finding: ""
+  trauma_history: "최근 얼굴에 모기 물린 자국이 있었음"
+  past_medical_history:
+    underlying_disease: "경미한 아토피 피부염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "초등학생"
+    stress: ""
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: ""
+    recent_weight_change: "없음"
+  family_history: "동생도 어제부터 비슷한 병변이 생기기 시작함"
+  female_history: ""
+physical_exam:
+  general: "전신 상태 양호하며, 활발한 모습. 무의식적으로 코 주변을 만지려 함."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and clear"
+    # 코와 입 주변에 특징적인 벌꿀색(honey-colored) 가피가 덮인 미란성 병변이 여러 개 관찰됨. 주변부에는 작은 수포와 홍반이 있음.
+  chest: "clear breath sounds bilaterally"
+  abdomen:
+    inspection: "특이 소견 없음"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "(보호자) 이게 뭔가요? 왜 노란 딱지가 생기죠? 전염성이 강하다던데 동생한테 옮은 걸까요? 학교는 보내도 되나요?"
+specific_remarks: "보호자는 병변의 특징적인 '벌꿀색 딱지'를 묘사해야 한다. 아이가 병변을 긁어서 번졌다는 점과, 다른 형제에게도 비슷한 증상이 나타났다는 '전염성'에 대한 단서를 제공하는 것이 중요하다. 기존에 있던 아토피 피부염이나 벌레 물린 상처가 유발 요인이었을 수 있음을 암시한다."

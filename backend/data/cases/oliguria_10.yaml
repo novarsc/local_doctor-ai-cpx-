@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (심한 탈수)"
+patient_info:
+  name: "박설사"
+  age: 34
+  sex: "여성"
+  presenting_complaint: "심한 구토와 설사 후 소변이 나오지 않음"
+vital_signs:
+  blood_pressure: "80/50mmHg"
+  pulse: "130회/분"
+  respiration: "22회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 위장염에 의한 심한 탈수 (신전성 급성 신손상)"
+    - "패혈성 쇼크"
+    - "식중독"
+  necessary_tests:
+    - "혈액 검사 (BUN/Cr, 전해질, Lactate)"
+    - "대변 검사 (세균 배양 및 바이러스 검사)"
+    - "소변 검사 (소변 전해질, 비중)"
+  necessary_treatments:
+    - "신속한 정맥 수액 공급"
+    - "전해질 교정"
+    - "증상 조절 (지사제, 항구토제)"
+history:
+  sex_age: "여성/34"
+  chief_complaint_verbatim: "이틀 동안 토하고 설사하느라 거의 죽다 살아났어요. 어지러워서 일어설 수가 없고, 어제부터 소변은 한 번도 못 봤어요."
+  onset: "2일 전"
+  location:
+    initial: "복통, 구토, 설사"
+    current: "전신 무력감, 어지럼증, 핍뇨"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "구토, 설사는 약간 줄었으나 전신 증상 악화"
+  course: "3일 전 저녁, 굴을 포함한 해산물을 먹음. 다음 날 아침부터 복통과 함께 물 같은 설사를 10회 이상 하고, 음식 냄새만 맡아도 구역질이 나며 5차례 이상 구토함. 물도 마시기 힘든 상태로 이틀을 보냄. 어제부터는 소변을 전혀 보지 못했고, 오늘 아침에는 일어나려다 눈앞이 캄캄해지며 쓰러질 뻔해서 119를 불러 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "기운이 하나도 없고, 어지럽고, 목이 매우 마름"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "10회 이상"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "일어서려고 할 때 (기립성 저혈압)"
+    alleviating: "누워있으면 그나마 나음"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 1-2회 필라테스"
+    recent_weight_change: "이틀간 4kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "30년 전 초경, 월경 주기 규칙적"
+physical_exam:
+  general: "급성 병색. 침대에 축 늘어져 있음. 의식은 명료하나 매우 지쳐 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "매우 건조함, 혀가 말라있음"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "편평하고 부드러움"
+    auscultation: "장음 항진 (hyperactive)"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 신체진찰 소견 추가
+      diffuse_mild_tenderness: true
+  cvat: "양측 음성"
+  extremity: "피부 탄력도 저하 (skin turgor 감소). 손발이 차가움."
+standardized_patient_questions: "저 괜찮은 건가요? 어지러워서 눈을 못 뜨겠어요. 소변이 안 나오면 콩팥이 망가진 건가요? 투석해야 해요?"
+specific_remarks: "환자는 목소리에 힘이 없고, 눈을 자주 감는다. 질문에 느리게 대답한다. 피부를 집었다 놓았을 때 천천히 돌아가는 모습을 보여주어 탈수 상태를 강조한다. 기립성 저혈압을 확인하기 위해 앉히려고 하면 심하게 어지럽다고 호소한다."

@@ -1,0 +1,115 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "29"
+title: "실전 모의 증례 (척추 동정맥 기형)"
+patient_info:
+  name: "이수진"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "운동 후 갑자기 발생한 등 통증과 다리 위약감"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "척추 동정맥 기형 (Spinal AVM) 파열에 의한 혈종"
+    - "급성 횡단성 척수염"
+    - "급성 추간판 탈출증"
+  necessary_tests:
+    - "응급 척추 MRI 및 MRA"
+    - "척추 혈관 조영술 (Spinal angiography)"
+    - "없음"
+  necessary_treatments:
+    - "색전술 (Endovascular embolization)"
+    - "수술적 제거"
+    - "신경학적 손상에 대한 재활 치료"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "어제 크로스핏 운동을 하다가 갑자기 등이 끊어질 것처럼 아프더니, 다리에 힘이 빠지고 저리기 시작했어요."
+  onset: "어제 저녁 (약 18시간 전)"
+  location:
+    initial: "등 중앙 (견갑골 사이)"
+    current: "등 중앙, 양쪽 다리"
+  duration:
+    onset_pattern: "급성 발생 (운동 중)"
+    recent_course: "신경 증상이 점차 진행됨"
+  course: "어제 저녁 크로스핏 운동 중 무거운 것을 들어 올리는 순간 등에 '퍽'하는 느낌과 함께 극심한 통증이 발생함. 그 후 몇 시간에 걸쳐 양쪽 발부터 시작된 저림과 이상 감각이 점차 위로 올라와 허벅지까지 퍼짐. 현재는 다리에 힘이 빠져 걷기가 힘든 상태."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "칼로 베는 듯한 등 통증, 다리의 저림과 먹먹함"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직임"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음. 운동 중 발살바 수기(Valsalva maneuver)와 유사한 상황 발생."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "마케터"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 3회 크로스핏"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "LMP 2주 전, regular"
+physical_exam:
+  general: "젊고 건강해 보이나, 통증과 신경 증상으로 불안해함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      spinal_exam: "흉추 중앙 부위에 압통이 있으나, 명확한 국소 압통은 아님. 청진 시 척추 주변에서 혈관 잡음(bruit)이 들릴 수 있음."
+  cvat: "좌우 음성"
+  extremity: "양쪽 하지의 근위부 근력은 정상이지만, 발목 이하 근력 저하(Grade 3/5). 양쪽 무릎 반사 항진. 바빈스키 징후 양성. 흉추 중간 부위 이하로 통증 및 온도 감각 저하, 진동 감각은 유지됨 (전척수 증후군 양상)."
+standardized_patient_questions: "운동하다가 삐끗한 줄 알았는데 왜 다리가 마비되는 느낌이 들죠? 디스크가 터진 건가요? 젊은데 왜 이런 일이 생기죠?"
+specific_remarks: "젊고 건강한 환자에게 운동과 같은 특정 행위 후 갑자기 발생한 척수 증상임을 강조해야 함. 통증의 발생이 매우 급작스럽고 극적이었음을('퍽'하는 느낌) 표현해야 함. 점차 진행되는 신경학적 결손을 시간 순서에 따라 구체적으로 설명해야 함. 심부건 반사 항진 등 상위운동신경원 징후를 보일 수 있다는 점을 인지할 것."

@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (섬유선종)"
+patient_info:
+  name: "박서연"
+  age: 21
+  sex: "여성"
+  presenting_complaint: "오른쪽 가슴에 아프지 않은 멍울이 만져짐"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "76회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "섬유선종"
+    - "유방 낭종"
+    - "엽상종 (가능성 낮음)"
+  necessary_tests:
+    - "유방 초음파"
+    - "세침흡인세포검사 또는 중심부바늘생검"
+    - "필요시 맘모톰을 이용한 제거 및 조직검사"
+  necessary_treatments:
+    - "정기적인 추적 관찰 (크기 변화 없을 시)"
+    - "외과적 절제 (크기가 크거나 빠르게 자랄 경우, 또는 환자가 원할 경우)"
+    - "양성 종양이므로 전이나 생명에 지장을 주지 않음을 교육"
+history:
+  sex_age: "여성/21"
+  chief_complaint_verbatim: "한 달 전쯤 샤워하다가 우연히 오른쪽 가슴에 멍울이 있는 걸 알게 됐어요. 아프지는 않은데 계속 만져져서 걱정이 돼서 왔어요."
+  onset: "약 1개월 전 자가 인지"
+  location:
+    initial: "오른쪽 유방"
+    current: "오른쪽 유방 상외측"
+  duration:
+    onset_pattern: "우연히 발견"
+    recent_course: "크기나 모양에 큰 변화는 없는 것 같음"
+  course: "발견 이후 특별한 변화 없이 지속됨"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "만져지는 덩이 느낌. 통증 없음."
+    nrs_score: "0점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "대학 입학 시 건강검진, 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "대학생"
+    stress: "학업 스트레스 보통 수준"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 1-2회 조깅"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 1주 전, 주기: 30일, 규칙적. 0-0-0-0. 성경험 없음."
+physical_exam:
+  general: "앳된 외모의 여성. 차분한 모습."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "양측 유방 대칭적. 피부 함몰이나 유두 함몰 없음. 유두 분비물 없음."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no specific findings"
+  breast_exam: "오른쪽 유방 2시 방향에서 약 1.5cm 크기의 경계가 명확하고 단단하며 고무 같은 질감의 덩이가 촉진됨. 표면은 매끄럽고, 주변 조직과 유착 없이 매우 잘 움직임. 압통 없음. 왼쪽 유방 및 양측 겨드랑이 림프절 촉진되지 않음."
+standardized_patient_questions: "혹 같은데, 꼭 떼어내야 하나요? 암으로 변할 수도 있나요? 검사는 많이 아픈가요?"
+specific_remarks: "환자는 통증이 없는 멍울이라는 점을 강조함. 진찰 시 의사가 멍울을 이리저리 움직여보는 것에 대해 신기하다는 듯 반응함 ('어, 그게 그렇게 움직여요?'). 암에 대한 걱정을 조심스럽게 내비침."

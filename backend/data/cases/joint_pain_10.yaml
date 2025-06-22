@@ -1,0 +1,115 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "10/24"
+title: "실전 모의 증례 (가성통풍, CPPD)"
+patient_info:
+  name: "박순자"
+  age: 75
+  sex: "여성"
+  presenting_complaint: "하루 전부터 갑자기 붓고 아픈 오른쪽 무릎"
+vital_signs:
+  blood_pressure: "140/80mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "가성통풍 (칼슘인산염결정 침착질환)"
+    - "화농성 관절염"
+    - "통풍"
+  necessary_tests:
+    - "관절액 천자 및 편광현미경 검사 (약한 양성 복굴절의 마름모꼴 결정 확인)"
+    - "무릎 X-ray (연골 석회화 확인)"
+    - "혈액 검사 (ESR, CRP, 전해질, 갑상선 기능 검사)"
+  necessary_treatments:
+    - "급성기 염증 조절 (비스테로이드성 소염제, 관절강내 스테로이드 주사)"
+    - "유발 요인 교정"
+    - "재발 방지를 위한 저용량 콜히친 고려"
+history:
+  sex_age: "여성/75세"
+  chief_complaint_verbatim: "어제 아침부터 갑자기 오른쪽 무릎이 퉁퉁 붓고 아파서 걷지를 못하겠어요. 열도 나는 것 같고요. 몇 년에 한 번씩 이렇게 아플 때가 있었어요."
+  onset: "내원 1일 전"
+  location:
+    initial: "오른쪽 무릎"
+    current: "오른쪽 무릎"
+  duration:
+    onset_pattern: "급성으로 발생"
+    recent_course: "점점 더 붓고 아파짐"
+  course: "아침에 일어났을 때부터 무릎이 뻣뻣하고 아프기 시작하더니, 오후가 되면서 급격히 붓고 통증이 심해짐."
+  experience_prev_episodes:
+    frequency: "3-4년 전, 1년 전에도 비슷하게 아팠다가 며칠 앓고 나아짐"
+    trigger: "정확히 모르겠음. 피곤할 때 그랬던 것 같음"
+    symptoms: "오른쪽 무릎이나 왼쪽 손목이 갑자기 붓고 아팠음"
+  character_of_symptom:
+    quality: "욱신거리고 쑤시는 통증"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "체중을 실을 때"
+    alleviating: "가만히 있으면 조금 덜함"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "골관절염 (무릎), 갑상선기능저하증으로 신지로이드 복용 중"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "신지로이드"
+      - "가끔 진통제"
+    source: "내과"
+    effect: "진통제 먹어도 이번에는 효과가 없음"
+  social_history:
+    job: "무직"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "경로당에서 가벼운 체조"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 30년 전"
+physical_exam:
+  general: "통증으로 인해 걷는 것을 힘들어함. 급성 병색."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "오른쪽 무릎에 심한 부종, 발적, 열감이 관찰됨. 무릎 전반에 걸쳐 뚜렷한 압통이 있음. 관절 삼출액이 만져짐(fluctuation). 통증으로 인해 관절 운동이 심하게 제한됨. 양쪽 무릎에서 뼈가 삐걱거리는 느낌(crepitus)이 있음."
+standardized_patient_questions: "나이 들어서 그런가요? 왜 이렇게 갑자기 아픈 거죠? 통풍이랑은 다른 건가요?"
+specific_remarks: "환자는 급성 단일 관절염의 양상을 보여야 함. 과거에도 비슷한 증상이 있었지만, 저절로 좋아졌던 경험을 이야기해야 함. 기저 질환으로 골관절염이 있다는 것을 인지하고 있어야 한다. 통풍과 어떻게 다른지 궁금해한다."

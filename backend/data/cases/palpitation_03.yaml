@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (심실조기수축)"
+patient_info:
+  name: "박서준"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "가슴이 쿵 내려앉는 느낌"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "76회/분 (규칙적이나 가끔 건너뜀)"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "심실조기수축 (PVC, Premature Ventricular Contraction)"
+    - "심방조기수축 (APC, Atrial Premature Contraction)"
+    - "스트레스 관련 신체형 증상"
+  necessary_tests:
+    - "심전도 (EKG)"
+    - "24시간 활동 심전도 검사 (Holter monitoring)"
+    - "혈액 검사 (전해질, 갑상선 기능 등)"
+    - "심장 초음파 (구조적 이상 확인 위해)"
+  necessary_treatments:
+    - "증상이 심하지 않고 심장 기능이 정상이면 경과 관찰 및 안심"
+    - "생활 습관 교정 (카페인, 술, 스트레스 줄이기)"
+    - "증상이 매우 불편할 경우 베타차단제 등 약물 치료 고려"
+history:
+  sex_age: "남/45"
+  chief_complaint_verbatim: "가만히 있을 때 가슴이 '쿵' 하고 내려앉으면서 한 박자 쉬는 느낌이 들어요."
+  onset: "6개월 전"
+  location:
+    initial: "명치와 가슴 사이"
+    current: "명치와 가슴 사이"
+  duration:
+    onset_pattern: "불규칙적으로, 예측할 수 없이 나타남"
+    recent_course: "최근 프로젝트 마감 때문에 스트레스를 많이 받으면서 더 자주 느껴짐"
+  course: "하루에 수십 번씩 느껴질 때도 있고, 며칠 잠잠할 때도 있음"
+  experience_prev_episodes:
+    frequency: "거의 매일"
+    trigger: "가만히 앉아 있거나 누워 있을 때, 스트레스 받을 때"
+    symptoms: "오늘과 동일한 '쿵'하는 느낌"
+  character_of_symptom:
+    quality: "심장이 한 번 덜컹거리고, 잠시 멎었다가 다음 박자가 유난히 세게 뛰는 느낌"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "저녁에 커피를 마셨을 때"
+      - "가만히 누워있을 때"
+    alleviating: "바쁘게 움직이거나 운동할 때는 잘 못 느낌"
+  health_check_history:
+    last_checkup: "1년 전 직장 검진, 경미한 지방간 외 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 두통약 (타이레놀) 복용"
+    source: "약국 구매"
+    effect: "두통에만 효과 있음"
+  social_history:
+    job: "IT 회사 팀장"
+    stress: "매우 높음 (프로젝트 마감 압박)"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "10년 전 금연"
+    exercise: "주말에 등산 가려고 노력함"
+    recent_weight_change: "최근 3kg 증가"
+  family_history: "특이 가족력 없음"
+physical_exam:
+  general: "약간 피로해 보이나 전반적으로 건강해 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "부종 없음, 맥박 촉진 시 가끔 한 박자 건너뛰는 느낌이 있음."
+standardized_patient_questions: "이거 심각한 심장병의 전조증상 아닌가요? 돌연사 할 수도 있나요? 커피도 끊어야 해요?"
+specific_remarks: "환자는 자신의 증상을 설명할 때 손으로 가슴을 '쿵' 치는 시늉을 한다. 전반적으로 불안해하지만, 급성 통증이나 호흡곤란을 호소하지는 않는다. 의사의 설명에 매우 집중하며 안심을 구하려는 태도를 보인다."

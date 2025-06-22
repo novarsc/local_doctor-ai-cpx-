@@ -6,7 +6,9 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { registerUser } from '../../store/slices/authSlice';
+import { registerUser, naverLogin, kakaoLogin } from '../../store/slices/authSlice';
+import SocialLogin from '../../components/common/SocialLogin';
+import { getNaverLoginUrl, getKakaoLoginUrl } from '../../utils/socialLogin';
 
 const RegisterPage = () => {
   const navigate = useNavigate();
@@ -50,6 +52,16 @@ const RegisterPage = () => {
       });
   };
 
+  const handleNaverLogin = () => {
+    const naverUrl = getNaverLoginUrl();
+    window.location.href = naverUrl;
+  };
+
+  const handleKakaoLogin = () => {
+    const kakaoUrl = getKakaoLoginUrl();
+    window.location.href = kakaoUrl;
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center py-12">
       <div className="max-w-md w-full mx-auto p-8 bg-white shadow-lg rounded-lg">
@@ -57,6 +69,7 @@ const RegisterPage = () => {
           <h1 className="text-3xl font-bold text-gray-800">AI CPX Tutor</h1>
           <p className="text-gray-500 mt-2">새 계정을 생성하세요</p>
         </div>
+        
         <form onSubmit={handleSubmit}>
           {/* 폼 자체 유효성 검사 에러 (예: 비밀번호 불일치) */}
           {formError && <div className="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded relative mb-4" role="alert">{formError}</div>}
@@ -88,20 +101,28 @@ const RegisterPage = () => {
             <input id="confirmPassword" name="confirmPassword" type="password" onChange={handleChange} value={formData.confirmPassword} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" required />
           </div>
           
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between mb-6">
             <button type="submit" disabled={isLoading} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full disabled:bg-blue-300">
               {isLoading ? '가입 진행 중...' : '회원가입'}
             </button>
           </div>
-          <div className="text-center mt-6">
-            <p className="text-gray-600">
-              이미 계정이 있으신가요?{' '}
-              <Link to="/login" className="font-bold text-blue-500 hover:text-blue-800">
-                로그인
-              </Link>
-            </p>
-          </div>
         </form>
+
+        {/* 소셜 로그인 */}
+        <SocialLogin
+          onNaverLogin={handleNaverLogin}
+          onKakaoLogin={handleKakaoLogin}
+          isLoading={isLoading}
+        />
+
+        <div className="text-center mt-6">
+          <p className="text-gray-600">
+            이미 계정이 있으신가요?{' '}
+            <Link to="/login" className="font-bold text-blue-500 hover:text-blue-800">
+              로그인
+            </Link>
+          </p>
+        </div>
       </div>
     </div>
   );

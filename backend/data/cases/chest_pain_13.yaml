@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (변이형 협심증, Prinzmetal's Angina)"
+patient_info:
+  name: "박새벽"
+  age: 49
+  sex: "여성"
+  presenting_complaint: "주로 새벽에 발생하는 가슴 통증"
+vital_signs:
+  blood_pressure: "120/70mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "변이형 협심증 (혈관경련성 협심증)"
+    - "위식도 역류질환"
+    - "불안장애"
+  necessary_tests:
+    - "24시간 홀터 모니터링 (증상 발생 시 ST 분절 변화 확인)"
+    - "에르고노빈 유발검사 (Ergonovine provocation test) - 확진 검사"
+    - "관상동맥 조영술 (기질적 협착 배제)"
+  necessary_treatments:
+    - "칼슘채널차단제 또는 질산염 제제 복용"
+    - "금연 등 위험인자 교정"
+    - "비상시를 대비한 니트로글리세린 설하정 처방"
+history:
+  sex_age: "여성/49세"
+  chief_complaint_verbatim: "한 달 전부터 주로 새벽녘에 잠이 깰 정도로 가슴이 조여오고 아파요. 낮에 활동할 때는 전혀 안 그래요."
+  onset: "1개월 전"
+  location:
+    initial: "가슴 중앙"
+    current: "가슴 중앙"
+  duration:
+    onset_pattern: "안정 시, 주로 새벽이나 이른 아침에 발생"
+    recent_course: "주 2~3회 정도로 비슷한 양상 반복"
+  course: "새벽 4~5시경 자다가 가슴 통증으로 깸. 5~10분 정도 지속되다가 저절로 좋아짐. 음주한 다음 날 새벽에 더 잘 생기는 것 같음."
+  experience_prev_episodes:
+    frequency: "주 2~3회"
+    trigger: "주로 새벽 시간대, 가끔 음주 후"
+    symptoms: "가슴을 쥐어짜는 통증"
+  character_of_symptom:
+    quality: "쥐어짜는, 압박하는"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "새벽 시간"
+      - "음주"
+    alleviating: "시간이 지나면 저절로 좋아짐"
+  health_check_history:
+    last_checkup: "작년 국가검진"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "편의점 야간 근무"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1~2회"
+      amount: "맥주 2캔 정도"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "별로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "생리 주기가 불규칙해짐 (폐경 이행기)"
+physical_exam:
+  general: "진찰실에서는 특이 소견 없음. 편안해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "심음 및 호흡음 정상. 흉벽 압통 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "운동할 땐 괜찮은데 왜 가만히 있을 때, 특히 잘 때 아픈가요? 일반 협심증이랑은 다른 건가요?"
+specific_remarks: "통증이 활동과 무관하고, 특정 시간대(새벽)에 발생한다는 점을 일관되게 진술한다. 흡연, 음주가 위험인자임을 인지하고 관련 질문에 대답한다. 병원 방문 시점에는 증상이 전혀 없음을 연기한다."

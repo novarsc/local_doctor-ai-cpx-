@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "21"
+title: "실전 모의 증례 (물질 유도 불안장애 - 필로폰)"
+patient_info:
+  name: "강민수"
+  age: 29
+  sex: "남성"
+  presenting_complaint: "누가 나를 해치려 하는 것 같아 불안해요."
+vital_signs:
+  blood_pressure: "160/100mmHg"
+  pulse: "125회/분"
+  respiration: "24회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "물질/약물 유도 불안장애 (암페타민 계열)"
+    - "물질/약물 유도 정신병적 장애"
+    - "조현병 또는 망상장애 (감별 필요)"
+  necessary_tests:
+    - "소변 약물 스크리닝 검사"
+    - "기본 혈액검사, 전해질, CPK(횡문근융해증 감별)"
+    - "심전도 (EKG)"
+  necessary_treatments:
+    - "안전한 환경 확보 및 정신과적 입원 치료"
+    - "증상 조절을 위한 항정신병약물 또는 벤조디아제핀 투여"
+    - "중독 치료 프로그램 연계"
+history:
+  sex_age: "남성/29"
+  chief_complaint_verbatim: "며칠 전부터 사람들이 나를 감시하고 해치려는 것 같아요. 집 밖으로 나갈 수가 없어요. 가만히 있어도 심장이 뛰고, 불안해서 미칠 것 같아요."
+  onset: "약 3일 전"
+  location:
+    initial: "정신적 (피해망상)"
+    current: "정신적, 신체적 (불안, 불면)"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "악화됨"
+  course: "환자는 3일 전부터 극심한 불안과 함께 '누군가 자신을 미행하고 도청한다'는 피해망상을 보임. 잠을 거의 자지 못하고, 안절부절못하며 방 안을 서성임. 식사도 제대로 하지 않음. 친구의 설득으로 마지못해 병원에 왔으나, 병원 직원들도 자신을 감시하는 사람이라고 의심하며 경계함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "환자는 스트레스 때문이라고 주장함"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "심한 불안과 편집적인 사고, 과도한 경계심"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "낯선 사람을 보거나 소리를 들을 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "무직"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "자주"
+      amount: "기억 안남"
+    smoking:
+      is_smoker: true
+      amount: "2갑/일"
+      cessation_period: "N/A"
+    substance_use: "질문 시 강하게 부인하나, 회피적인 태도를 보임. (실제로는 일주일 전 친구와 함께 필로폰을 투약함)"
+    recent_weight_change: "최근 몇 주간 눈에 띄게 마름"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "정신운동 초조(psychomotor agitation) 상태. 과잉 각성되어 주위를 계속 경계하며, 땀을 많이 흘림."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "dry"
+    pupils: "bilaterally dilated and reactive"
+  chest: "tachycardia, clear breath sounds"
+  abdomen:
+    inspection: "flat and scaphoid"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema, fine tremor of hands. skin picking lesions on arms."
+standardized_patient_questions: "당신도 저 사람들하고 한패죠? 나한테 뭘 하려는 거예요? 여긴 왜 이렇게 불안하죠? 당장 나갈래요."
+specific_remarks: "환자는 극도로 의심이 많고 적대적인 태도를 보인다. 의사의 질문에 동문서답을 하거나, 질문의 의도를 의심한다. 눈을 크게 뜨고 주변을 두리번거리며, 작은 소리에도 깜짝 놀란다. 약물 사용에 대한 질문을 받으면 화를 내며 강력하게 부인한다. 팔에 있는 피부 병변(벌레가 기어가는 환촉으로 인한)에 대해 물으면 '벌레에 물렸다'고 둘러댄다."

@@ -1,0 +1,107 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (말초동맥질환)"
+patient_info:
+  name: "최경식"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "걸을 때마다 왼쪽 종아리가 터질 듯이 아픔"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "말초동맥질환 (간헐적 파행증)"
+    - "척추관 협착증"
+    - "심부정맥 혈전증 (가능성 낮음)"
+  necessary_tests:
+    - "발목-위팔 지수 (ABI) 측정"
+    - "혈액검사 (당뇨, 지질 프로필 포함)"
+    - "도플러 초음파 또는 혈관 CT"
+  necessary_treatments:
+    - "위험인자 관리 (금연, 혈압/혈당 조절, 고지혈증 치료)"
+    - "항혈소판제 및 혈관확장제 (Cilostazol) 투여"
+    - "감독 하 운동요법 및 필요시 혈관 중재술"
+history:
+  sex_age: "남성/65"
+  chief_complaint_verbatim: "6개월쯤 전부터 한 200미터 정도 걸으면 왼쪽 종아리가 터질 것처럼 아파서 쉬었다 가야 해요. 쉬면 또 괜찮아져서 걷고, 그럼 또 아프고... 이걸 반복해요."
+  onset: "약 6개월 전"
+  location:
+    initial: "왼쪽 종아리"
+    current: "왼쪽 종아리"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "통증 없이 걸을 수 있는 거리가 점점 짧아짐"
+  course: "일정한 거리를 걸으면 거의 항상 발생하며, 휴식 시 2-3분 내에 사라짐"
+  experience_prev_episodes:
+    frequency: "걸을 때마다 발생"
+    trigger: "걷기"
+    symptoms: "현재와 동일"
+  character_of_symptom:
+    quality: "터질 듯한, 쥐어짜는 듯한 통증"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "걷기 (특히 오르막길)"
+    alleviating: "멈춰서 쉬는 것"
+  health_check_history:
+    last_checkup: "10년 전"
+    endoscopy_finding: "10년 전 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨병 (10년 전 진단), 고지혈증 (5년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 당뇨약, 고지혈증약"
+    source: "동네 의원"
+    effect: "약을 꾸준히 챙겨 먹지는 못함"
+  social_history:
+    job: "은퇴 후 소일거리 (경비)"
+    stress: "적음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "막걸리 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑 (45년째)"
+      cessation_period: "없음"
+    exercise: "별로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색. 나이에 비해 다소 나이 들어 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen: "부드럽고 압통 없음"
+  cvat: "좌/우 음성"
+  extremity: "왼쪽 발이 오른쪽 발에 비해 창백하고 차갑게 느껴짐. 왼쪽 발등 동맥(dorsalis pedis artery) 및 뒤정강 동맥(posterior tibial artery)의 맥박이 약하게 촉지됨. 왼쪽 다리에 체모 소실 관찰됨. 부종은 없음."
+standardized_patient_questions: "나이가 들어서 그런 거 아닌가요? 그냥 혈액순환제만 먹으면 안 될까요? 담배는 끊기 너무 힘든데 꼭 끊어야 하나요?"
+specific_remarks: "약을 잘 챙겨 먹지 않았다는 점을 부끄럽게 인정한다. 걷지 않을 때는 전혀 아프지 않다는 점을 강조한다. 척추관 협착증과의 감별을 위해 허리 통증 여부를 물으면 '허리는 괜찮다'고 명확히 대답한다."

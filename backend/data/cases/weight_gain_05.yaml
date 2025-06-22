@@ -1,0 +1,113 @@
+---
+chapter: "전신"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (간경변증과 복수)"
+patient_info:
+  name: "나중배"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "배가 불러오고 숨이 차서 내원함"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "95회/분"
+  respiration: "22회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "간경변증에 의한 복수"
+    - "울혈성 심부전"
+    - "복강 내 종양"
+  necessary_tests:
+    - "복부 초음파"
+    - "혈액 검사 (간기능, 혈액응고, 알부민)"
+    - "진단적 복수 천자 및 검사"
+  necessary_treatments:
+    - "이뇨제를 이용한 복수 조절"
+    - "저염식이 및 수분 제한"
+    - "간경변증 원인 치료 (금주, 항바이러스제 등)"
+history:
+  sex_age: "남성/55세"
+  chief_complaint_verbatim: "한 두 달 전부터 배가 남산만 하게 불러오고 체중도 늘었어요. 예전엔 맞던 바지가 안 맞고, 숨도 차고... 소화도 잘 안 되는 것 같아요."
+  onset: "약 2개월 전"
+  location:
+    initial: "복부 팽만감"
+    current: "심한 복부 팽만, 양측 하지 부종"
+  duration:
+    onset_pattern: "서서히 진행"
+    recent_course: "최근 2주간 급격히 악화됨"
+  course: "체중은 7kg 늘었지만, 팔다리는 오히려 가늘어지는 느낌. 최근 들어 소변 색이 진해지고 눈 흰자위가 노랗게 보임."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "배가 터질 듯이 부르고 답답함"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "식사 후"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "B형 간염 보균자였으나 치료받지 않음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "일용직 노동자"
+    stress: "생활고로 인해 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 2병 이상"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일"
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "최근 2개월간 7kg 증가"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색. 야위어 보이나 복부만 팽만되어 있음. 공막 황달 관찰됨."
+  heent:
+    sclera: "icteric"
+    oral_mucosa: "건조함"
+  chest: "여성형 유방(gynecomastia) 관찰됨. 호흡음은 폐하부에서 감소됨."
+  abdomen:
+    inspection: "복부 정맥 확장(caput medusae), 팽만된 복부. 배꼽 탈장 소견 보임."
+    auscultation: "장음 감소"
+    percussion: "이동 타진음(shifting dullness) 및 파동(fluid wave) 양성"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      liver_and_spleen_palpable: "간과 비장은 복수로 인해 촉진되지 않음"
+  cvat: "좌우 음성"
+  extremity: "양측 하지 함요 부종(pitting edema, ++) 및 손바닥 홍반(palmar erythema), 거미혈관종(spider angioma) 관찰됨."
+standardized_patient_questions: "배에 왜 이렇게 물이 차는 건가요? 간이 많이 안 좋은 건가요?", "이거 빼낼 수 있나요? 너무 답답하고 힘들어요."
+specific_remarks: "환자는 피곤하고 힘없는 모습을 보이며, 복부 팽만으로 인해 앉아 있는 자세도 힘들어한다. 자신의 오랜 음주 습관에 대해 후회하는 듯한 말을 할 수 있다."

@@ -1,0 +1,116 @@
+---
+chapter: "전신"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (갑상선기능항진증)"
+patient_info:
+  name: "박서연"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "최근 3개월간 7kg의 체중 감소와 함께 가슴 두근거림 및 손떨림을 호소함."
+vital_signs:
+  blood_pressure: "140/80mmHg"
+  pulse: "110회/분"
+  respiration: "20회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갑상선기능항진증 (그레이브스병 의심)"
+    - "불안장애"
+    - "갈색세포종"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4, T3)"
+    - "갑상선 자가항체 검사"
+    - "갑상선 초음파"
+    - "심전도"
+  necessary_treatments:
+    - "항갑상선제 약물 치료"
+    - "증상 조절을 위한 베타차단제 복용"
+    - "방사성 요오드 치료 또는 수술적 치료 고려"
+history:
+  sex_age: "여/32"
+  chief_complaint_verbatim: "밥은 예전보다 더 먹는데 살이 쭉쭉 빠져요. 가만히 있어도 심장이 뛰고 손도 떨려서 걱정돼요."
+  onset: "3개월 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 한 달 사이 증상이 더 심해짐"
+  course: "처음에는 피곤하고 더위를 많이 타는 정도였으나, 점차 체중이 눈에 띄게 줄고 가슴 두근거림과 손떨림이 동반됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "식욕은 증가했으나 체중은 감소함"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "활동 시"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "사무직"
+    stress: "최근 업무량이 많아 스트레스가 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "3개월간 7kg 감소 (60kg -> 53kg)"
+  family_history: "어머니가 갑상선기능저하증으로 약물 복용 중"
+  female_history: "월경 주기 규칙적, 특이사항 없음"
+physical_exam:
+  general: "다소 불안해 보이며 약간 마른 체형. 대화 시 숨이 차 보임."
+  heent:
+    sclera: "결막 창백하지 않음. 안구 돌출은 명확하지 않으나 눈꺼풀 후퇴(lid lag) 소견 보임."
+    oral_mucosa: "촉촉함"
+  chest: "청진 시 빈맥(tachycardia) 소견. 심잡음은 들리지 않음."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음이 약간 항진되어 있음."
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 갑상선 촉진 시 부드럽고 미만성으로 커져 있음 (diffuse goiter). 압통은 없음. 청진 시 혈관 잡음(bruit) 들림.
+  cvat: "좌우 음성"
+  extremity: "사지 말단이 따뜻하고 촉촉함. 양손에 미세한 떨림(fine tremor) 관찰됨."
+standardized_patient_questions: "제가 왜 이렇게 살이 빠지는 건가요? 혹시 큰 병은 아닐까요?", "이거 치료하면 원래대로 돌아올 수 있나요?"
+specific_remarks: "환자는 전반적으로 불안해하고, 말을 조금 빠르게 하는 모습을 연기한다. 손을 가만히 두지 못하고 미세하게 떠는 모습을 보여준다."

@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (급성 담낭염)"
+patient_info:
+  name: "정미숙"
+  age: 49
+  sex: "여성"
+  presenting_complaint: "체한 것 같이 윗배가 아프고 토했어요"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "102회/분"
+  respiration: "20회/분"
+  temperature: "38.3℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 담낭염"
+    - "담석 산통"
+    - "소화성 궤양"
+  necessary_tests:
+    - "복부 초음파"
+    - "혈액검사 (백혈구, 염증 수치, 간 기능 검사)"
+    - "필요시 복부 CT"
+  necessary_treatments:
+    - "입원 치료"
+    - "금식, 수액 공급, 항생제 투여"
+    - "담낭 절제술 (필요시)"
+history:
+  sex_age: "여성/49"
+  chief_complaint_verbatim: "어제 저녁에 고기 먹고 체한 줄 알았는데, 밤새 오른쪽 윗배가 너무 아프고 열도 나고 토했어요."
+  onset: "내원 12시간 전"
+  location:
+    initial: "명치"
+    current: "오른쪽 윗배"
+  duration:
+    onset_pattern: "점진적으로 발생하여 지속됨"
+    recent_course: "점점 더 심해지고, 오른쪽 어깨까지 아프기 시작함"
+  course: "어제 저녁 삼겹살로 과식 후 명치 부위가 더부룩하고 답답하기 시작함. 자정 무렵부터 통증이 오른쪽 윗배로 옮겨가면서 쥐어짜듯이 아프고, 구토 3회 함. 오한과 함께 열이 나는 것을 느낌."
+  experience_prev_episodes:
+    frequency: "한두 달에 한 번씩 기름진 음식을 먹고 나면 비슷하게 체한 느낌이 있었음"
+    trigger: "기름진 음식"
+    symptoms: "소화불량, 윗배 통증"
+  character_of_symptom:
+    quality: "쥐어짜는 듯한 지속적인 통증"
+    nrs_score: "8"
+    radiation: "오른쪽 어깨와 등으로 뻗치는 양상"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "섭취한 음식물과 노란 물"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "숨을 깊게 들이쉴 때"
+      - "몸을 움직일 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전 국가검진, 지방간 소견"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증, 비만"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "고지혈증 약 (간헐적으로 복용)"
+    source: "내과"
+    effect: "잘 모르겠음"
+  social_history:
+    job: "주부"
+    stress: "자녀 문제로 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "숨쉬기 운동"
+    recent_weight_change: "최근 1년간 5kg 증가"
+  family_history: "어머니가 담석증으로 수술받으심"
+  female_history: "LMP: 3개월 전 (폐경 이행기)"
+physical_exam:
+  general: "급성 병색. 통증으로 인해 편안한 자세를 취하지 못함."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "약간 건조함"
+  chest: "청진상 특이 소견 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 감소"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      murphy_sign: true # 머피 징후 양성
+  cvat: "우측 양성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "그냥 심하게 체한 거 아니에요? 왜 어깨까지 아프죠? 꼭 입원해야 하나요? 집에 가면 안될까요?"
+specific_remarks: "오른쪽 윗배를 매우 아파하며, 의사가 해당 부위를 누른 상태에서 숨을 들이쉬어 보라고 할 때 통증 때문에 숨을 멈춤 (Murphy's sign). 방사통으로 오른쪽 어깨가 결린다고 표현함."

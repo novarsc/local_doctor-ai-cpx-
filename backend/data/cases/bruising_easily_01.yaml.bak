@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (면역 혈소판감소자색반증)"
+patient_info:
+  name: "김민지"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "최근 들어 몸에 멍이 잘 들고 양치할 때 잇몸에서 피가 나는 증상"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "면역 혈소판감소자색반증 (Immune Thrombocytopenic Purpura, ITP)"
+    - "재생불량성 빈혈"
+    - "약물 유발성 혈소판감소증"
+  necessary_tests:
+    - "전혈구 검사 및 말초혈액 도말 검사 (CBC with PBS)"
+    - "혈액응고 검사 (PT/aPTT)"
+    - "골수 검사 (필요시)"
+  necessary_treatments:
+    - "경과 관찰 또는 스테로이드 치료"
+    - "면역글로불린 정맥 주사"
+    - "비장 절제술 (불응성인 경우)"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "한 3주 전부터인가... 조금만 부딪혀도 크게 멍이 들고, 요즘은 양치만 해도 잇몸에서 피가 자꾸 나요."
+  onset: "약 3주 전"
+  location:
+    initial: "주로 팔, 다리"
+    current: "전신에 산발적으로 나타남"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 1주일 사이 멍의 개수가 늘고 잇몸 출혈이 시작됨"
+  course: "처음에는 한두 개 보이던 멍이 점점 쉽게, 그리고 여러 개 생기는 양상임. 최근에는 잇몸 출혈, 코피 등 점막 출혈도 동반됨."
+  experience_prev_episodes:
+    frequency: "처음 겪는 일"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "통증 없는 보라색 멍(자색반)과 작은 점 모양 출혈(점상출혈)"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "가벼운 외상"
+      - "특별한 요인 없음 (저절로 생기기도 함)"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "최근 심한 외상 없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "복용 중인 약 없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "보통 수준"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1~2회"
+      amount: "맥주 1캔 정도"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "혈액 질환이나 암 가족력 없음"
+  female_history: "월경 주기 규칙적이며, 월경량 변화 없음"
+physical_exam:
+  general: "의식 명료함. 급성 병색은 보이지 않음."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "잇몸에 소수의 점상출혈 관찰됨. 구강 내 다른 출혈 소견 없음."
+  chest: "호흡음 정상. 심음 정상. 잡음 없음."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "고창음. 복수 소견 없음."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"간, 비장 촉진되지 않음.\""
+  cvat: "좌우 음성"
+  extremity: "양 팔과 다리에 다양한 크기의 자색반 및 점상출혈이 산재해 있음. 압력을 가해도 사라지지 않음. 부종 없음."
+standardized_patient_questions: "그냥 멍드는 건 줄 알았는데, 피검사를 해야 하나요? 심각한 병은 아니겠죠?"
+specific_remarks: "환자는 자신의 증상에 대해 불안해하지만, 통증이나 다른 심각한 전신 증상은 호소하지 않는다. 최근 감기 등 바이러스 질환을 앓은 적은 없다고 명확히 말한다."

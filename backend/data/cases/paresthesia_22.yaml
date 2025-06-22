@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "22"
+title: "실전 모의 증례 (피부근육염)"
+patient_info:
+  name: "나혜진"
+  age: 48
+  sex: "여성"
+  presenting_complaint: "팔다리 힘이 빠지고 얼굴과 손에 피부 발진이 생김"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "86회/분"
+  respiration: "16회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "피부근육염 (Dermatomyositis)"
+    - "전신 홍반 루푸스 (Systemic lupus erythematosus, SLE)"
+    - "다발근육염 (Polymyositis)"
+  necessary_tests:
+    - "혈액검사 (CK, aldolase, 항핵항체 포함한 자가항체)"
+    - "근전도검사 (EMG)"
+    - "피부 및 근육 조직검사"
+    - "암 선별 검사 (CT 등)"
+  necessary_treatments:
+    - "고용량 스테로이드 치료"
+    - "면역억제제 (MTX, Azathioprine 등)"
+    - "피부 증상 관리 및 재활 치료"
+history:
+  sex_age: "여성/48"
+  chief_complaint_verbatim: "몇 달 전부터 몸에 힘이 없어서 계단 오르기가 힘들어요. 그리고 한 달 전부터 눈두덩이랑 손등에 자꾸 뭐가 나고 가려워요. 햇빛 쬐면 더 심해져요."
+  onset: "근력 약화 (3개월 전), 피부 발진 (1개월 전)"
+  location:
+    initial: "양쪽 허벅지, 눈꺼풀"
+    current: "양쪽 어깨, 팔, 허벅지, 눈꺼풀, 손등, 목"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "서서히 악화"
+  course: "3개월 전부터 앉았다 일어서거나 계단을 오를 때 다리에 힘이 부치는 것을 느낌. 점차 팔을 들어 올리는 것도 힘들어짐. 한 달 전부터 양쪽 눈꺼풀이 붓고 보랏빛으로 변하며, 손등 마디에 붉은 발진이 생김. 목과 가슴 윗부분도 붉어지며 햇빛을 보면 더 심해지고 가려움. 음식을 삼키기 약간 힘든 느낌도 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "햇빛 노출 (피부 증상)"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "근력 약화, 가려움을 동반한 피부 발진"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "계단 오르기"
+      - "햇빛 노출"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "피부과 연고 (이름 모름)"
+    source: "동네 피부과"
+    effect: "별 효과 없었음"
+  social_history:
+    job: "꽃집 운영"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "따로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 1년 전, 폐경 이행기"
+physical_exam:
+  general: "피곤해 보이며, 얼굴과 손의 특징적인 피부 병변이 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+    # 추가 진찰: 양쪽 눈꺼풀에 부종과 함께 보랏빛 발진(Heliotrope rash) 관찰됨.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양측 상하지의 근위부 근력 대칭적 저하 (MRC 4/5). 원위부 근력은 정상. 손등의 손가락 관절 부위에 붉고 인설이 있는 구진(Gottron's papules) 관찰됨. 목과 앞가슴에 V-sign, 어깨와 등 위쪽에 Shawl-sign 형태의 홍반 보임. 감각 및 반사는 정상."
+standardized_patient_questions: "피부병인 줄 알았는데 왜 근육에 힘까지 빠지는 건가요? 두 가지가 관련 있는 병인가요? 혹시 나쁜 병(암)이랑 관련된 건 아닌지 걱정돼요."
+specific_remarks: "환자는 특징적인 피부 병변(Heliotrope rash, Gottron's papules)을 명확히 보여준다. 근력 약화와 피부 증상이 동시에 나타난 점을 강조하며 불안감을 표현한다. 의사가 햇빛 노출과의 연관성을 물으면, 가게 일 때문에 햇빛을 쬔 날 더 심해진다고 구체적으로 대답한다. 삼킴 곤란 증상에 대해 묻는 경우, '목에 뭔가 걸린 듯한 느낌'이라고 설명한다."

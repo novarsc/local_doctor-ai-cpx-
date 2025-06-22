@@ -1,0 +1,116 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (혈관운동성 비염)"
+patient_info:
+  name: "정다혜"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "온도 변화에 민감한 콧물과 코막힘"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "혈관운동성 비염"
+    - "알레르기 비염"
+    - "비특이적 비염"
+  necessary_tests:
+    - "알레르기 검사 (알레르기 비염을 배제하기 위함)"
+    - "비강 내시경 검사 (구조적 이상 확인)"
+    - "필요 시 갑상선 기능 검사 (다른 원인 감별)"
+  necessary_treatments:
+    - "유발 요인 회피 (급격한 온도 변화, 특정 냄새 등)"
+    - "비강 내 항콜린성 분무제 (이프라트로피움) 또는 스테로이드 분무제"
+    - "생리식염수 코 세척"
+history:
+  sex_age: "여성/35"
+  chief_complaint_verbatim: "뜨거운 음식을 먹거나, 춥거나 더운 곳에 가면 갑자기 콧물이 주르륵 흐르고 코가 막혀요."
+  onset: "수년 전부터"
+  location:
+    initial: "코"
+    current: "코"
+  duration:
+    onset_pattern: "특정 상황에서 갑자기 발생했다가 상황이 지나면 호전됨"
+    recent_course: "겨울철에 실내외 온도차가 커지면서 증상이 더 잦아짐"
+  course: "재채기나 눈 가려움증은 별로 없는데, 유독 콧물과 코막힘만 특정 상황에서 심하게 나타남"
+  experience_prev_episodes:
+    frequency: "수년 전부터 계속"
+    trigger: "뜨겁거나 매운 음식 섭취, 급격한 온도 변화, 강한 향수 냄새, 음주"
+    symptoms: "맑은 콧물, 코막힘"
+  character_of_symptom:
+    quality: "물처럼 흐르는 맑은 콧물"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "뜨거운 국물 먹을 때"
+      - "겨울철 실외에서 실내로 들어올 때"
+      - "향수나 담배연기"
+    alleviating: "유발 요인이 사라지면 저절로 호전됨"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "백화점 판매원"
+    stress: "적음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1-2잔 (마시면 코가 더 막힘)"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "전반적으로 건강해 보임"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 추가 소견: 비강 내시경 상 비점막이 전반적으로 부어있으나, 알레르기 비염에서 보이는 특징적인 창백한 소견은 아님. 맑은 분비물이 관찰됨.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "저는 알레르기는 아닌 것 같은데 왜 이러는 걸까요? 혹시 몸에 다른 큰 병이 있는 건 아닐까요? 치료하면 완치가 가능한가요?"
+specific_remarks: "환자는 증상에 대해 담담하게 설명하며, 알레르기가 아님을 강조한다. '남들은 안 그러는데 저만 유별난 것 같다'고 말한다."

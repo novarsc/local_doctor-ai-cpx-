@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "23"
+title: "실전 모의 증례 (오피오이드 과다복용, Opioid Overdose)"
+patient_info:
+  name: "신지영"
+  age: 44
+  sex: "여성"
+  presenting_complaint: "의식이 없고 숨을 쉬지 않음"
+vital_signs:
+  blood_pressure: "100/65mmHg"
+  pulse: "55회/분"
+  respiration: "6회/분"
+  temperature: "35.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "오피오이드 과다복용"
+    - "뇌간 뇌졸중"
+    - "심각한 저체온증"
+  necessary_tests:
+    - "동맥혈가스분석"
+    - "약물 스크리닝 검사 (소변, 혈액)"
+    - "심전도"
+  necessary_treatments:
+    - "즉각적인 기도 확보 및 인공호흡 (앰부 배깅)"
+    - "날록손(Naloxone) 정맥 또는 근육 주사"
+    - "보존적 치료 및 활력징후 감시"
+history:
+  sex_age: "여성/44세"
+  chief_complaint_verbatim: "아내가 허리가 너무 아프다고 진통제 패치를 붙이고 잠들었는데, 깨워도 일어나지 않고 숨을 안 쉬는 것 같아요."
+  onset: "밤 사이"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "불명"
+    recent_course: "무호흡에 가까운 상태"
+  course: "만성 허리 통증으로 고생하던 환자. 어제 통증이 너무 심하다며 평소 붙이던 진통제 패치(Fentanyl patch) 위에 새것을 여러 개 덧붙이는 것을 남편이 목격함. 이후 잠이 들었고, 오늘 아침 남편이 깨웠을 때 의식이 전혀 없고, 숨을 거의 쉬지 않으며, 입술이 파래져 있는 것을 발견하고 119 신고."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "의식 소실, 호흡 정지, 축동"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "약물 과다"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "6개월 전"
+    endoscopy_finding: "모름"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "만성 요통, 척추관 협착증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Fentanyl patch, Oxycodone, Pregabalin"
+    source: "마취통증의학과"
+    effect: "최근 약효가 떨어진다고 자주 말했다고 함."
+  social_history:
+    job: "주부"
+    stress: "통증으로 인해 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "전혀 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "혼수(coma) 상태. 무호흡에 가까운 매우 느리고 얕은 호흡. 입술과 손끝에 청색증 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 양쪽 동공이 바늘구멍처럼 축소되어 있음 (pinpoint pupil). 빛 반사 거의 없음.
+  chest: "호흡음이 거의 들리지 않음. 심박동 느림."
+  abdomen:
+    inspection: "등과 허리에 진통제 패치가 여러 장 붙어있음."
+    auscultation: "장음 소실"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "전신 근 긴장도 저하. 심부건반사 소실."
+standardized_patient_questions: "아내가 숨을 안 쉬어요. 죽는 건가요? 진통제 때문인가요? 제가 어젯밤에 말렸어야 했는데..."
+specific_remarks: "환자는 의식 소실, 호흡 억제, 축동이라는 오피오이드 중독의 전형적인 3대 증상을 명확히 연기한다. 특히, 숨을 거의 쉬지 않는 모습과 바늘구멍 동공이 핵심이다. 신체 진찰 시 등에 붙어있는 여러 개의 패치를 발견하는 것이 중요하다. 보호자인 남편이 매우 당황하고 죄책감을 느끼는 태도를 보인다."

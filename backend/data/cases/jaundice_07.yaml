@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (자가면역성 용혈성 빈혈, AIHA)"
+patient_info:
+  name: "윤지혜"
+  age: 34
+  sex: "여성"
+  presenting_complaint: "급격히 발생한 황달과 심한 어지러움"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "115회/분"
+  respiration: "22회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자가면역성 용혈성 빈혈"
+    - "급성 간염 (비정형적)"
+    - "유전성 용혈성 빈혈의 첫 발현"
+  necessary_tests:
+    - "혈액 검사 (전혈구, 망상적혈구, 빌리루빈, LDH, 합토글로빈)"
+    - "직접/간접 쿰스 검사 (Direct/Indirect Coombs test)"
+    - "말초혈액 도말 검사 (PBS)"
+  necessary_treatments:
+    - "입원 치료"
+    - "고용량 스테로이드 치료"
+    - "필요시 수혈 (교차반응검사 신중히 시행)"
+    - "면역억제제 또는 비장 절제술 고려 (불응성인 경우)"
+history:
+  sex_age: "여성/34세"
+  chief_complaint_verbatim: "며칠 전부터 갑자기 너무 어지럽고 숨이 차더니, 어제부터는 소변이 콜라색으로 나오고 눈이랑 피부가 노래졌어요. 심장이 막 두근거려요."
+  onset: "어지럼증은 4일 전, 황달은 1일 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "급성 발생"
+    recent_course: "빠르게 악화"
+  course: "평소 건강하던 중 4일 전부터 계단을 오를 때 숨이 차고 어지러움을 느꼈다. 어제 아침부터는 황달이 관찰되고 소변 색이 매우 진해졌으며, 가만히 있어도 심장이 빨리 뛰는 것을 느껴 병원에 왔다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "어지러움, 심계항진"
+    nrs_score: "7 (어지럼증)"
+    radiation: ""
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "콜라색"
+      stool_color_change: "정상"
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+    alleviating: "가만히 누워 있을 때"
+  health_check_history:
+    last_checkup: "2년 전 직장검진, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "은행원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 1-2회 조깅"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 2주 전. 규칙적. G0"
+physical_exam:
+  general: "급성 병색. 창백하고 숨 가빠 보임."
+  heent:
+    sclera: "뚜렷한 황달. 결막은 매우 창백함 (pale conjunctiva)."
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심계항진 (tachycardia) 및 수축기 심잡음(systolic murmur) 청진."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      splenomegaly: "좌상복부에서 비장이 2cm 가량 촉진됨 (부드러움)"
+  cvat: "좌/우 음성"
+  extremity: "피부 황달. 손톱 밑 창백함."
+standardized_patient_questions: "갑자기 왜 이런 병이 생긴 건가요? 빈혈이랑 황달이 같이 올 수도 있나요? 심각한 건가요?"
+specific_remarks: "환자는 빈혈 증상(어지러움, 숨참, 창백함)과 간외성 황달(정상 대변색, 진한 소변색)의 특징을 명확히 연기한다. 학생의사가 결막을 확인하면 매우 창백하게 분장되어 있어야 한다. 좌상복부 촉진 시 비장비대에 대한 단서를 제공한다."

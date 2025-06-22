@@ -1,0 +1,111 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (불완전한 예방접종력에 대한 상담 및 따라잡기 접종)"
+patient_info:
+  name: "박서준"
+  age: 3
+  sex: "남성"
+  presenting_complaint: "어린이집 입소를 위해 예방접종 기록 확인차 왔어요"
+vital_signs:
+  blood_pressure: "95/65mmHg"
+  pulse: "100회/분"
+  respiration: "22회/분"
+  temperature: "36.8℃"
+examinee_instructions: "환아의 예방접종 기록을 확인하고, 누락된 접종에 대한 따라잡기 접종 계획을 세운 후, 보호자와 향후 일정에 대해 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "불완전한 예방접종력 (Incomplete immunization status)"
+    - "따라잡기 예방접종 계획 수립 필요"
+    - "예방접종의 중요성에 대한 교육 필요"
+  necessary_tests:
+    - "예방접종도우미 사이트 또는 아기수첩을 통한 정확한 접종력 확인"
+    - "필요 시 특정 질환(B형 간염, 수두 등)에 대한 항체 검사"
+  necessary_treatments:
+    - "질병관리청 예방접종 따라잡기 일정표에 따른 접종 계획 수립"
+    - "오늘 가능한 백신 우선 접종"
+    - "향후 내원 일정 및 접종할 백신 종류 안내"
+history:
+  sex_age: "남아/3세"
+  chief_complaint_verbatim: "다음 달에 어린이집에 가야 해서 서류를 떼러 왔어요. 저희가 좀 바빠서 예방접종을 제때 못 챙긴 것 같은데 확인 좀 해주세요."
+  onset: "N/A (상담 목적 내원)"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "N/A"
+    recent_course: "N/A"
+  course: "환아는 출생 후 2개월까지의 예방접종은 완료했으나, 보호자의 개인적인 사정으로 해외에 1년 정도 거주했고, 귀국 후 바쁜 생활로 인해 이후의 접종을 챙기지 못했다. 최근 어린이집 입소를 준비하며 예방접종 확인서가 필요하여 내원함."
+  experience_prev_episodes:
+    frequency: "N/A"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "N/A"
+    nrs_score: "N/A"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating: []
+    alleviating: "N/A"
+  health_check_history:
+    last_checkup: "생후 6개월 영유아검진 이후 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "해당 없음"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "활동적인 편"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강하고 활발해 보임. 진찰에 협조적이지 않고 돌아다니려고 함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "이렇게 많이 밀렸는데 괜찮을까요? 한꺼번에 다 맞아도 되나요? 앞으로 몇 번이나 더 와야 하나요?"
+specific_remarks: "보호자(엄마) 역할. 예방접종을 제때 챙기지 못한 것에 대해 미안하고 멋쩍은 태도를 보임. 의사가 제시하는 접종 계획을 잘 이해하려고 노력함. (수험생에게 아기수첩이나 가상의 전산 기록을 제시해야 함)"

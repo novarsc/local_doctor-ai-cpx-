@@ -1,0 +1,117 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (소화성 궤양)"
+patient_info:
+  name: "최강민"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "속이 쓰리고 토해서 왔어요"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "소화성 궤양 (위궤양 또는 십이지장궤양)"
+    - "위식도 역류질환"
+    - "기능성 소화불량"
+  necessary_tests:
+    - "상부위장관 내시경 (위내시경)"
+    - "헬리코박터 파일로리균 검사"
+    - "혈액검사 (빈혈 여부 확인)"
+  necessary_treatments:
+    - "위산분비 억제제 (양성자 펌프 억제제 등) 투여"
+    - "헬리코박터균 양성 시 제균 치료"
+    - "생활 습관 교정 (금연, 금주, 자극적인 음식 피하기)"
+history:
+  sex_age: "남성/48"
+  chief_complaint_verbatim: "요즘 계속 명치가 쓰리고 아픈데, 어젯밤에는 저녁 먹은 걸 다 토했어요."
+  onset: "약 2개월 전"
+  location:
+    initial: "명치"
+    current: "명치"
+  duration:
+    onset_pattern: "간헐적으로 발생"
+    recent_course: "최근 1-2주 사이 통증 빈도와 강도가 심해짐"
+  course: "2개월 전부터 식후 1-2시간 뒤에 명치 부위가 쓰리고 아팠다 괜찮아졌다를 반복함. 최근에는 통증이 더 심해지고 오래 감. 어젯밤에는 통증이 극심하여 저녁 식사 후 3시간 뒤 구토함. 구토 후 속쓰림은 약간 완화됨."
+  experience_prev_episodes:
+    frequency: "작년에도 비슷하게 아파서 약국 약 먹고 괜찮아졌었음"
+    trigger: "자극적인 음식, 과식, 스트레스"
+    symptoms: "속쓰림"
+  character_of_symptom:
+    quality: "타는 듯하고 쓰린 느낌"
+    nrs_score: "평소 4점, 어젯밤 8점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "어젯밤 1회, 소화되지 않은 음식물"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "맵고 짠 음식 섭취"
+      - "공복 시"
+    alleviating: "제산제 복용, 우유 마시기"
+  health_check_history:
+    last_checkup: "3년 전 직장 검진, 경미한 위염 소견"
+    endoscopy_finding: "3년 전 위내시경에서 만성 표재성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (약물 복용 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "고혈압약 (아침마다)"
+      - "약국에서 산 제산제 (속 쓰릴 때마다)"
+      - "최근 무릎이 아파서 정형외과에서 처방받은 진통소염제(NSAIDs) 2주간 복용"
+    source: "내과, 약국, 정형외과"
+    effect: "제산제 복용 시 일시적으로 호전됨"
+  social_history:
+    job: "개인 사업"
+    stress: "거래처 문제로 최근 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 위암으로 돌아가심"
+  female_history: ""
+physical_exam:
+  general: "만성적인 피로감을 보이나, 급성 병색은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "특이 소견 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "정상 장음"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      tenderness_epigastrium: true # 명치 부위 압통
+  cvat: "양측 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "이거 혹시 위암은 아니겠죠? 아버지가 위암이셨어서 걱정돼요. 약만 먹으면 안 되나요? 꼭 내시경 해야 하나요?"
+specific_remarks: "진통소염제 복용력을 의사가 먼저 묻기 전에는 스스로 말하지 않음. 가족력에 대한 불안감을 표현하며 내시경 검사에 대한 두려움을 보임."

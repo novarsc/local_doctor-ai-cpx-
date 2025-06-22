@@ -1,0 +1,116 @@
+---
+chapter: "전신"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (폰빌레브란트병)"
+patient_info:
+  name: "박지민"
+  age: 19
+  sex: "여성"
+  presenting_complaint: "월경과다와 함께 평소에도 멍이 잘 들고 코피가 자주 남"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "88회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폰빌레브란트병 (von Willebrand Disease, vWD)"
+    - "경증 혈우병 보인자"
+    - "혈소판 기능 장애"
+  necessary_tests:
+    - "전혈구 검사, 혈액응고 검사 (aPTT 경도 연장 가능)"
+    - "폰빌레브란트 인자(vWF) 항원 및 활성도 검사"
+    - "리코세틴 보조인자 활성도 검사(Ristocetin cofactor activity)"
+  necessary_treatments:
+    - "데스모프레신(DDAVP) 투여 (경증 출혈 시)"
+    - "폰빌레브란트 인자 농축액 투여 (중증 출혈 또는 수술 시)"
+    - "월경과다 조절을 위한 경구 피임약"
+history:
+  sex_age: "여성/19세"
+  chief_complaint_verbatim: "생리 양이 너무 많아서 힘들어요. 그리고 어릴 때부터 남들보다 멍이 잘 들고 코피도 자주 났어요."
+  onset: "초경 시작 무렵부터 인지함"
+  location:
+    initial: "전신 피부, 코, 자궁"
+    current: "동일함"
+  duration:
+    onset_pattern: "어릴 때부터 지속됨"
+    recent_course: "최근 증상 변화는 없음. 대학 입학 후 건강 상담 차 방문."
+  course: "초등학생 때부터 코피가 한 번 나면 10분 이상 지속되는 경우가 잦았고, 팔다리에 늘 멍이 있었다. 중학교 때 초경 시작 후 월경량이 많아 항상 빈혈기가 있었다. 치과 치료 시 출혈이 잘 멈추지 않았던 경험도 있다."
+  experience_prev_episodes:
+    frequency: "지속적으로"
+    trigger: "월경, 발치, 작은 외상"
+    symptoms: "과다출혈, 멍, 코피"
+  character_of_symptom:
+    quality: "점막피부 출혈 경향, 월경과다"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "월경 기간"
+      - "아스피린 계열 진통제 복용 시"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "고등학교 신체검사, 빈혈 소견"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "철결핍성 빈혈"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "철분제 (가끔 복용)"
+    source: "약국"
+    effect: "복용 시 어지럼증 약간 호전"
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+
+  family_history: "어머니도 젊었을 때 월경량이 많고 멍이 잘 들었다고 하심."
+  female_history: "초경 13세. 주기 28-30일, 규칙적. 기간 7-8일. 양이 매우 많아 1-2시간마다 대형 생리대 교체. 핏덩어리 동반."
+physical_exam:
+  general: "전반적으로 창백해 보이나, 급성 병색은 없음."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "창백함. 다른 출혈 소견 없음."
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"간, 비장 촉진되지 않음.\""
+  cvat: "좌우 음성"
+  extremity: "양 팔과 다리에 옅은 자색반이 서너 개 관찰됨. 관절 부종이나 변형 없음."
+standardized_patient_questions: "그냥 체질인 줄 알았는데, 이것도 병인가요? 엄마도 저랑 비슷했는데 괜찮을까요? 치료가 필요한가요?"
+specific_remarks: "환자는 자신의 증상을 대수롭지 않게 여기는 경향이 있다. 하지만 월경과다에 대해서는 불편감을 뚜렷하게 호소한다. 가족력을 물었을 때, 어머니의 증상에 대해 구체적으로 답변한다. 관절 출혈은 없었음을 명확히 해야 한다."

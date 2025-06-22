@@ -1,0 +1,114 @@
+---
+chapter: "상담"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (강간 후유증 - 골반 염증성 질환)"
+patient_info:
+  name: "강민희"
+  age: 19
+  sex: "여성"
+  presenting_complaint: "아랫배가 아프고 열이 남"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "110회/분"
+  respiration: "20회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "골반 염증성 질환 (Pelvic inflammatory disease, PID)"
+    - "급성 충수염 (Acute appendicitis)"
+    - "자궁외 임신 (Ectopic pregnancy)"
+  necessary_tests:
+    - "골반 내진 및 자궁경부 압통(CMT) 확인"
+    - "질 분비물 검사 및 성병(STD) 검사"
+    - "혈액검사 (백혈구, CRP), 소변 임신반응검사(hCG)"
+    - "골반 초음파"
+  necessary_treatments:
+    - "입원 후 광범위 항생제 정맥 주사"
+    - "성폭력 피해 사실에 대한 상담 및 지원 (해바라기센터 연계)"
+    - "필요시 법적 절차 안내"
+history:
+  sex_age: "여성/19"
+  chief_complaint_verbatim: "며칠 전부터 아랫배가 너무 아프고 열이 나요. 냉도 많아졌어요."
+  onset: "3일 전"
+  location:
+    initial: "하복부 전반"
+    current: "하복부 전반"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점점 심해짐"
+  course: "3일 전부터 아랫배가 쑤시듯이 아프기 시작했고, 어제부터는 열감과 오한이 동반되었다. 노란색의 냄새나는 냉(질 분비물)이 많아졌다. 통증 때문에 허리를 펴고 걷기가 힘들다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쑤시고 묵직한 통증"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "성관계 시 (최근 없음)"
+    alleviating: "누워서 웅크리고 있을 때"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: ""
+  trauma_history: "2주 전 아는 선배에게 성폭행을 당함. 당시에는 너무 무서워서 아무에게도 말하지 못하고 신고도 하지 않음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "타이레놀"
+    source: "약국"
+    effect: "일시적 해열 효과만 있음"
+  social_history:
+    job: "재수생"
+    stress: "매우 높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "최근 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 3주 전, 주기 규칙적. 성관계 경험 있음."
+physical_exam:
+  general: "통증으로 얼굴을 찡그리고 있으며, 식은땀을 흘림. 힘겹게 걸어 들어옴."
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "하복부 타진 시 압통"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: true
+      # 양측 하복부에 심한 압통(Lower abdominal tenderness) 및 반발 압통(rebound tenderness) 관찰됨.
+  cvat: "음성/음성"
+  extremity: "정상"
+standardized_patient_questions: "제가 왜 이렇게 아픈 건가요? 무슨 큰 병에 걸린 건가요? 입원해야 하나요? 엄마한테는 뭐라고 말씀드려야 할지 모르겠어요."
+specific_remarks: "환자는 성관계력이나 성폭행 사실에 대해 물으면 매우 당황하며 대답을 회피한다. 의사가 안전한 환경을 보장하고 비밀 유지를 약속한 후에야 울면서 사실을 털어놓는다. 신체 진찰 시, 특히 복부 촉진 시 매우 고통스러워하는 모습을 연기한다. 골반 내진이 필요함을 설명 들어야 한다."

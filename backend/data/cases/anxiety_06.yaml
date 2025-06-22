@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (사회불안장애)"
+patient_info:
+  name: "정다은"
+  age: 22
+  sex: "여성"
+  presenting_complaint: "사람들 앞에서 발표만 하려면 너무 불안하고 떨려요."
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "사회불안장애 (수행형)"
+    - "정상적인 무대 공포증 (감별 필요)"
+    - "범불안장애"
+  necessary_tests:
+    - "정신건강의학과적 심층 면담"
+    - "사회불안 척도 검사 (LSAS 등)"
+    - "갑상선 기능 검사 (불안의 신체적 원인 감별)"
+  necessary_treatments:
+    - "인지행동치료 (사회 기술 훈련, 노출 치료)"
+    - "약물 치료 (필요시 SSRI 또는 베타차단제)"
+    - "집단 치료"
+history:
+  sex_age: "여성/22"
+  chief_complaint_verbatim: "대학교에서 발표 수업이 많은데, 제 차례가 다가오면 심장이 너무 뛰고 얼굴이 빨개져서 말을 제대로 못 하겠어요. 남들이 저를 바보 같다고 비웃을 것 같아요. 그래서 요즘은 발표 있는 수업은 자꾸 피하게 돼요."
+  onset: "고등학교 때부터 있었으나 대학교 입학 후 심해짐"
+  location:
+    initial: "특정 상황 (발표, 대중 앞)"
+    current: "특정 상황 (발표, 대중 앞)"
+  duration:
+    onset_pattern: "특정 상황에만 나타남"
+    recent_course: "발표가 예정되기 며칠 전부터 불안이 시작됨 (예기불안)"
+  course: "고등학교 때부터 남들 앞에 나서는 것을 두려워했음. 대학교에 와서 전공 특성상 발표와 팀 프로젝트가 많아지면서 증상이 악화됨. 최근에는 발표 생각만 해도 며칠 전부터 잠을 설치고 식은땀이 남. 결국 지난 학기에는 발표 과목 하나를 수강 철회했음."
+  experience_prev_episodes:
+    frequency: "발표나 주목받는 상황마다"
+    trigger: "대중 앞에서의 발표, 모르는 사람과의 대화, 교수님과의 면담"
+    symptoms: "심계항진, 안면홍조, 발한, 목소리 떨림, 머릿속이 하얘짐"
+  character_of_symptom:
+    quality: "다른 사람에게 부정적으로 평가받을 것에 대한 극심한 두려움과 불안"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "발표 직전"
+      - "사람들의 시선이 집중될 때"
+    alleviating: "상황이 끝나거나, 그 상황을 회피하면 즉시 편안해짐."
+  health_check_history:
+    last_checkup: "1년 전 학생 검진, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "어릴 적 웅변대회에서 실수를 하여 친구들에게 놀림받은 경험이 있음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "발표 전에 약국에서 산 우황청심원을 먹어본 적 있음"
+    source: "약국"
+    effect: "별 효과를 느끼지 못함"
+  social_history:
+    job: "대학생"
+    stress: "학업 및 대인관계에서 스트레스를 받음"
+    alcohol:
+      is_drinker: true
+      frequency: "모임이 있을 때만"
+      amount: "맥주 1-2잔 (술자리에서도 긴장해서 잘 마시지 못함)"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "주 1회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "아버지가 낯을 많이 가리는 성격임."
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "수줍어하며 시선을 잘 맞추지 못함. 목소리가 작은 편."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and pink"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema, hands are slightly cool and clammy"
+standardized_patient_questions: "원래 다들 발표할 때 떨리는 거 아닌가요? 제가 유난스러운 건가요? 약 먹으면 바로 좋아질 수 있나요?"
+specific_remarks: "환자는 의사의 눈을 잘 마주치지 못하고, 대답할 때 목소리가 기어들어 간다. 사회적 상황에 대한 질문을 하면 얼굴이 약간 붉어지며 불편해하는 기색을 보인다. 자신의 문제를 '성격' 탓으로 돌리려는 경향이 있다."

@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (만성 통증)"
+patient_info:
+  name: "오미숙"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "몇 년째 계속되는 통증 때문에 우울하고 죽고 싶은 마음이 듦"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 통증 증후군에 동반된 주요우울장애"
+    - "섬유근육통 (Fibromyalgia)"
+    - "신체증상장애 (Somatic Symptom Disorder)"
+  necessary_tests:
+    - "류마티스 인자, ESR, CRP 등 염증 및 자가면역질환 관련 혈액검사"
+    - "통증 및 우울증에 대한 심층 평가"
+    - "신경전도/근전도 검사 (다른 신경병증 감별)"
+  necessary_treatments:
+    - "다학제적 통증 관리 (재활의학과, 정신건강의학과 협진)"
+    - "통증 및 우울증 조절을 위한 약물치료 (SNRI, TCA 등)"
+    - "인지행동치료, 단계적 운동치료"
+history:
+  sex_age: "여성/55세"
+  chief_complaint_verbatim: "온몸이 안 아픈 데가 없어요. 병원마다 다녀도 뾰족한 답도 없고... 이 고통을 평생 안고 살아야 한다니, 차라리 죽는 게 낫겠어요."
+  onset: "약 3년 전부터 서서히 시작"
+  location:
+    initial: "어깨, 등"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점차 통증 부위가 넓어지고 강도가 심해짐"
+  course: "3년 전 특별한 이유 없이 목과 어깨가 아프기 시작했다. 여러 병원에서 검사(X-ray, MRI)를 받았지만 '특별한 이상은 없다'는 말만 들었다. 시간이 지나며 통증은 팔, 다리, 허리 등 온몸으로 퍼져나갔다. 통증 때문에 수면장애, 만성피로에 시달리며, 좋아하던 등산이나 친구 모임도 나가지 못하게 되었다. 삶의 질이 현저히 떨어지고, 아무도 자신의 고통을 이해해주지 못한다는 생각에 고립감과 우울감이 깊어졌다. 최근에는 '언제 끝날지 모르는 이 고통을 끝낼 방법은 죽음뿐'이라는 생각을 자주 한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쑤시고, 저리고, 아린 듯한 통증"
+    nrs_score: "평균 7, 심할 때 9"
+    radiation: "전신적으로 돌아다니는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "날씨가 궂을 때"
+      - "스트레스 받을 때"
+      - "잠을 설쳤을 때"
+    alleviating: "따뜻한 물로 샤워할 때 잠시"
+  health_check_history:
+    last_checkup: "최근까지 여러 병원 방문"
+    endoscopy_finding: "특이 소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "소염진통제, 근이완제, 신경병성 통증 약물 등"
+    source: "여러 의원 전전함"
+    effect: "효과가 거의 없거나 일시적임"
+  social_history:
+    job: "주부"
+    stress: "통증으로 인한 스트레스 극심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "통증 때문에 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "5년 전 폐경"
+physical_exam:
+  general: "만성 통증으로 지쳐 보이고 우울한 표정. 움직임이 조심스러움."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "특이 소견 없음. 관절 부종이나 변형 없음. 섬유근육통 압통점(Tender points) 여러 곳에서 압통 호소."
+standardized_patient_questions: "제 몸에 정말 아무 이상이 없는 건가요? 왜 이렇게 아픈 거죠? 이 통증, 정말 좋아질 수 있긴 한가요? 이렇게 살 바에야..."
+specific_remarks: "의료 쇼핑 경험을 상세히 설명하며 의료진에 대한 불신을 약간 내비침 ('다들 이상 없다고만 해요'). 자신의 통증을 아무도 믿어주지 않는다는 좌절감을 표현함. 자살 사고가 충동적이기보다는 만성적인 고통에서 비롯된 체념에 가까운 형태로 나타남."

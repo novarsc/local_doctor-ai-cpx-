@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (알레르기성 진균성 부비동염)"
+patient_info:
+  name: "강유라"
+  age: 29
+  sex: "여성"
+  presenting_complaint: "끈적한 코딱지와 코막힘, 안구 돌출감"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알레르기성 진균성 부비동염 (AFRS)"
+    - "만성 비용종성 부비동염"
+    - "부비동 종양"
+  necessary_tests:
+    - "부비동 CT (부비동 내 고밀도 음영, 골미란 등 확인)"
+    - "혈액 검사 (총 IgE, 진균 특이 IgE, 호산구 수치)"
+    - "비강 내시경 및 조직/분비물 검사 (진균 및 알레르기성 점액 확인)"
+  necessary_treatments:
+    - "수술적 치료 (부비동 내시경 수술을 통한 진균성 점액 및 비용종 제거)"
+    - "수술 후 스테로이드 치료 (경구 및 비강 분무제)"
+    - "필요 시 항진균제 또는 면역 치료 고려"
+history:
+  sex_age: "여성/29"
+  chief_complaint_verbatim: "오래된 비염이 있는데, 몇 달 전부터 코에서 땅콩버터 같은 끈적한 코딱지가 나와요. 코도 꽉 막히고, 오른쪽 눈이 약간 튀어나온 것 같아요."
+  onset: "수개월 전"
+  location:
+    initial: "양측 코"
+    current: "양측 코, 우측 눈"
+  duration:
+    onset_pattern: "기존의 만성 비염 증상이 악화되는 양상"
+    recent_course: "최근 한 달 사이 코막힘이 더 심해지고, 오른쪽 뺨이 뻐근하며 눈이 앞으로 밀리는 느낌이 듦."
+  course: "수년간 알레르기 비염과 비용종으로 치료받아 옴. 최근 들어 갈색의 끈적한 분비물이 코에서 나오고, 후각이 완전히 소실됨."
+  experience_prev_episodes:
+    frequency: "수년간 알레르기 비염, 비용종 병력 있음"
+    trigger: "먼지, 곰팡이"
+    symptoms: "코막힘, 콧물, 재채기"
+  character_of_symptom:
+    quality: "땅콩버터 또는 고무 찰흙 같은 질감의 갈색 분비물, 심한 코막힘, 안구 압박감"
+    nrs_score: "7"
+    radiation: "우측 안와 부위로 뻐근한 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "습한 환경"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: "수년 전 비용종 진단 받음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "천식, 알레르기 비염, 비용종"
+    allergies: "집먼지진드기, 곰팡이"
+  medication_history:
+    taken:
+      - "싱귤레어, 비강 스테로이드 분무제, 항히스타민제"
+    source: "이비인후과"
+    effect: "최근에는 약물 효과가 거의 없음"
+  social_history:
+    job: "웹디자이너 (재택근무)"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "숨이 차서 잘 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "만성적인 코막힘으로 인한 구호흡. 약간의 안구돌출이 의심됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 추가 소견: 양측 비강을 가득 채운 다발성 비용종 관찰됨. 비용종 사이로 갈색의 끈적한 알레르기성 점액(allergic mucin)이 보임. 우측 안구가 좌측에 비해 경미하게 돌출되어 있음 (proptosis). 안구 운동 정상.
+  chest: "청진 시 경미한 천명음(wheezing)이 들릴 수 있음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "코에 곰팡이가 폈다는 게 무슨 말인가요? 제 몸에 곰팡이가 자라는 건가요? 눈은 왜 튀어나오는 거죠? 실명할 수도 있나요?"
+specific_remarks: "환자는 오랜 기간 비염, 천식을 앓아왔으며, 최근 증상 악화와 특히 '눈이 밀리는 느낌'에 대해 큰 불안감을 가지고 있다. '알레르기성 점액'의 특징적인 양상을 구체적으로 설명한다."

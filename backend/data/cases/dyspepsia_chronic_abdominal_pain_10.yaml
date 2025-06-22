@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (만성 장간막 허혈)"
+patient_info:
+  name: "윤석호"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "식후에 반복되는 극심한 복통과 체중 감소"
+vital_signs:
+  blood_pressure: "150/80mmHg"
+  pulse: "90회/분 (irregular)"
+  respiration: "20회/분"
+  temperature: "36.3℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 장간막 허혈 (Chronic mesenteric ischemia)"
+    - "소화성 궤양"
+    - "췌장암"
+  necessary_tests:
+    - "복부 혈관 CT (CT angiography) 또는 MRA (장간막 동맥 협착 확인)"
+    - "도플러 초음파"
+    - "상하부 내시경 (다른 원인 배제)"
+  necessary_treatments:
+    - "혈관 중재 시술 (스텐트 삽입) 또는 수술적 혈관 재개통술"
+    - "위험인자 관리 (금연, 항혈소판제, 고혈압/고지혈증 치료)"
+    - "영양 지원"
+history:
+  sex_age: "남성/72"
+  chief_complaint_verbatim: "밥만 먹으면 배를 쥐어짜는 것처럼 아파서 밥 먹기가 무서워요. 그래서 살이 자꾸 빠집니다."
+  onset: "약 8개월 전부터"
+  location:
+    initial: "배꼽 주변"
+    current: "배 전체적으로 쥐어짜는 듯"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근에는 죽을 조금만 먹어도 아파서 식사를 거의 못 함"
+  course: "식후 30분경 시작되어 1-2시간 지속되는 통증이 반복됨"
+  experience_prev_episodes:
+    frequency: "매 식사 시"
+    trigger: "식사"
+    symptoms: "극심한 복통"
+  character_of_symptom:
+    quality: "쥐어짜는 듯한, 경련성 통증 (cramping, severe)"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사"
+    alleviating: "식사를 하지 않는 것"
+  health_check_history:
+    last_checkup: "수년 전"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증, 심방세동 (약물 복용 중), 5년 전 뇌경색"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Aspirin, Atorvastatin, Valsartan, Warfarin"
+    source: "신경과, 순환기내과"
+    effect: "꾸준히 복용 중"
+  social_history:
+    job: "은퇴"
+    stress: "질병으로 인한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "20년 전 금연 (과거 30년간 1갑/일)"
+    exercise: "거동이 불편하여 거의 못함"
+    recent_weight_change: "지난 8개월간 10kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "매우 마르고 쇠약해 보임 (cachectic appearance)"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "irregularly irregular heart beat, clear breath sound"
+  abdomen:
+    inspection: "scaphoid, no scars"
+    auscultation: "normoactive bowel sounds, epigastric bruit (+)"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      diffuse_mild_tenderness: "통증의 정도에 비해 압통은 심하지 않음"
+  cvat: "좌/우 음성"
+  extremity: "weak pedal pulses bilaterally"
+standardized_patient_questions: "왜 밥만 먹으면 이렇게 아픈가요? 장이 썩는 건 아닌지 무서워요. 이대로 굶어 죽는 건 아닌가요?"
+specific_remarks: "환자는 '식사에 대한 두려움(food fear)'을 강하게 호소한다. 심혈관계 위험인자(고령, 남성, 흡연력, 고혈압, 고지혈증, 심방세동, 뇌경색 과거력)를 많이 가지고 있다. 통증의 극심함에 비해 신체 진찰에서 압통이 경미한 것이 중요한 특징이다. 청진 시 상복부에서 혈관 잡음(epigastric bruit)이 들릴 수 있다."

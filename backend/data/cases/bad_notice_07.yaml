@@ -1,0 +1,90 @@
+---
+chapter: "상담"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (전이성 유방암)"
+patient_info:
+  name: "윤혜선"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "허리 통증으로 찍은 검사 결과 문의"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "환자는 5년 전 유방암 2기로 수술 및 항암, 방사선 치료를 받은 병력이 있습니다. 한 달 전부터 시작된 심한 허리 통증으로 내원하여 척추 MRI 및 PET-CT를 촬영했습니다. 첨부된 결과지(요추 3번 뼈 전이 및 다발성 간 전이)를 바탕으로, 환자에게 유방암 재발 및 원격 전이 사실을 알리고 향후 치료 계획에 대해 논의하십시오."
+patient_education:
+  probable_diagnoses:
+    - "유방암의 뼈 및 간 전이 (재발)"
+    - "새로운 원발성 암 (예: 척추 종양)"
+    - "퇴행성 척추 질환"
+  necessary_tests:
+    - "뼈 전이 부위 조직검사 (재발암의 호르몬/HER2 수용체 상태 재확인)"
+    - "종양표지자검사 (CA15-3, CEA)"
+    - "심장 기능 평가 (과거 항암제 독성 고려)"
+  necessary_treatments:
+    - "전신 항암화학요법 또는 표적 치료"
+    - "뼈 전이로 인한 통증 조절을 위한 방사선 치료"
+    - "골격계 합병증 예방을 위한 약물 치료 (비스포스포네이트 등)"
+history:
+  sex_age: "여성/52세"
+  chief_complaint_verbatim: "허리가 너무 아파서 검사했는데, 결과가 어떻게 나왔나요? 디스크는 아니겠죠?"
+  onset: "1개월 전"
+  location:
+    initial: "허리"
+    current: "허리"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 심해짐, 특히 밤에"
+  course: "한 달 전부터 허리가 뻐근하게 아프기 시작했는데, 파스를 붙여도 소용이 없었습니다. 특히 밤에 자려고 누우면 더 아파서 잠을 설칩니다. 최근에는 기운도 없고 입맛도 없습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "뼈 속이 쑤시는 듯한 깊은 통증"
+    nrs_score: "7"
+    radiation: "없음"
+  factors:
+    aggravating:
+      - "밤에 누워있을 때"
+      - "자세를 바꿀 때"
+    alleviating: "진통제 복용 시 잠시"
+  health_check_history:
+    last_checkup: "6개월마다 유방암 재발 추적 관찰 중"
+    endoscopy_finding: "특이사항 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "좌측 유방암 (5년 전, Stage II, ER+/PR+, HER2-)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "타목시펜 (최근까지 복용)"
+    source: "유방외과"
+    effect: "재발 방지 목적"
+  social_history:
+    job: "회사원"
+    stress: "업무 스트레스 보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스 (최근 통증으로 중단)"
+    recent_weight_change: "최근 2달간 4kg 감소"
+  family_history: "이모 유방암 병력"
+  female_history: "1년 전 폐경"
+physical_exam:
+  general: "통증으로 미간을 찌푸리고 있음. 다소 창백해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "좌측 유방 수술 흉터. 호흡음 정상."
+  abdomen: "우상복부에 경도의 압통"
+  cvat: "양측 음성"
+  extremity: "요추 3번 부위에 척추 압통(spinal tenderness) 있음."
+standardized_patient_questions: "재발이라니요? 전이가 된 거라고요? 이제 완치된 줄 알았는데... 그럼 이제 치료해도 소용없는 건가요? 왜 저한테 또 이런 일이 생기는 거죠?"
+specific_remarks: "처음에는 단순한 허리 디스크일 것으로 기대한다. '재발'과 '전이'라는 말에 극도의 배신감과 분노를 표현한다. '왜 나에게만'이라는 말을 반복하며 치료 과정의 고통을 다시 겪어야 한다는 사실에 절망한다. 완치가 불가능하고 고식적 치료를 해야 한다는 점을 받아들이기 힘들어하며, 의사의 설명을 믿지 않으려는 모습을 보인다."

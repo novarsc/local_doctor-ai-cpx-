@@ -1,0 +1,113 @@
+---
+chapter: "상담"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (만성 폐쇄성 폐질환)"
+patient_info:
+  name: "박종수"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "점점 심해지는 운동 시 호흡곤란"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "88회/분"
+  respiration: "22회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 치료(금연 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 폐쇄성 폐질환 (COPD)"
+    - "울혈성 심부전"
+    - "간질성 폐질환"
+  necessary_tests:
+    - "흉부 X-ray"
+    - "폐기능 검사 (PFT)"
+    - "심전도 및 심장 초음파"
+  necessary_treatments:
+    - "금연 (가장 중요)"
+    - "흡입용 기관지 확장제 사용"
+    - "호흡 재활 치료 및 독감/폐렴구균 예방접종"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "몇 년 전부터 계단 오를 때 숨이 찼는데, 요즘은 조금만 걸어도 숨이 차서 힘듭니다. 가래도 계속 끓고요."
+  onset: "수년 전부터 서서히 시작됨"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "지난 1년간 급격히 악화됨"
+  course: "처음에는 나이 탓인 줄 알았으나, 점차 평지를 걷는 것도 힘들어지고 아침에 기침과 가래가 심해져서 내원함."
+  experience_prev_episodes:
+    frequency: "매년 겨울철에 감기처럼 심해지는 경향이 있었음"
+    trigger: "감기, 추운 날씨, 미세먼지"
+    symptoms: "기침, 가래, 호흡곤란 악화"
+  character_of_symptom:
+    quality: "가슴이 답답하고 공기가 부족한 느낌"
+    nrs_score: "운동 시 6-7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "걷거나 계단 오르기"
+      - "아침 기상 시"
+    alleviating: "가만히 앉아 있을 때"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "은퇴 (전직: 버스 운전기사)"
+    stress: "별로 없음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "막걸리 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일 (50년간)"
+      cessation_period: "없음"
+    exercise: "거의 못함 (숨이 차서)"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "만성 병색, 안정 시에도 입술을 오므리고 숨을 쉬는 모습(pursed-lip breathing) 관찰됨"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "시진 시 술통형 가슴(barrel chest) 관찰. 타진 시 과공명음(hyperresonance). 청진 시 호흡음 감소 및 호기 시 전반적인 쌕쌕거림(wheezing) 청취됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "곤봉지(clubbing finger) 없음, 청색증 없음"
+standardized_patient_questions: "이게 다 담배 때문인가요? 지금 끊어도 소용이 있을까요? 숨 찬 건 약 먹으면 바로 좋아지나요?"
+specific_remarks: "환자는 숨이 차서 말하기 힘들어하며, 문장 중간중간 숨을 고르는 모습을 연기함. 금연에 대해 체념적인 태도를 보이지만, 건강을 되찾고 싶다는 마음을 내비침."

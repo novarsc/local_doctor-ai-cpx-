@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (식도 경련, Esophageal Spasm)"
+patient_info:
+  name: "조여정"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "음식 삼킬 때 발생하는 가슴 통증"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "미만성 식도 경련 (Diffuse Esophageal Spasm)"
+    - "협심증 (특히 변이형 협심증)"
+    - "위식도 역류질환"
+  necessary_tests:
+    - "심장질환 감별 위한 심전도, 운동부하검사"
+    - "식도내압검사 (Esophageal manometry)"
+    - "상부위장관 조영술 및 위내시경"
+  necessary_treatments:
+    - "칼슘채널차단제, 질산염 제제 등 약물치료"
+    - "증상 유발 음식(뜨겁거나 찬 음식) 피하기"
+    - "스트레스 관리 및 이완 요법"
+history:
+  sex_age: "여성/52세"
+  chief_complaint_verbatim: "몇 달 전부터 밥 먹을 때, 특히 물 마실 때 가슴이 갑자기 꽉 조이면서 너무 아파요. 체한 것 같기도 하고 심장이 아픈 것 같기도 해요."
+  onset: "3개월 전"
+  location:
+    initial: "가슴 중앙"
+    current: "가슴 중앙"
+  duration:
+    onset_pattern: "간헐적으로, 예측 불가능하게"
+    recent_course: "최근 들어 빈도가 잦아짐"
+  course: "주로 음식을 삼킬 때 발생하지만, 가끔은 아무 상관 없이 쉬고 있을 때도 발생함. 통증은 몇 분에서 몇십 분까지 지속되다 저절로 사라짐."
+  experience_prev_episodes:
+    frequency: "주 1~2회"
+    trigger: "음식 삼키기 (특히 뜨겁거나 찬 액체), 스트레스"
+    symptoms: "가슴을 쥐어짜는 통증, 음식이 목에 걸린 느낌 (삼킴곤란)"
+  character_of_symptom:
+    quality: "쥐어짜는, 압박하는"
+    nrs_score: "8"
+    radiation: "등이나 턱으로 뻗치기도 함"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: "통증 때문에 식사량이 줄어 2kg 감소"
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음식물 삼키기"
+      - "스트레스"
+    alleviating: "가끔 트림을 하면 좀 나아지는 것 같기도 함. 저절로 좋아짐."
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "피아노 학원 원장"
+    stress: "예민하고 완벽주의적인 성격으로 스트레스 잘 받음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 3개월간 2kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "1년 전 폐경"
+physical_exam:
+  general: "불안한 기색이 보임. 현재 통증은 없는 상태."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "심음 및 호흡음 정상. 흉벽 압통 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "이거 협심증 아닌가요? 통증이 너무 심해서 응급실에도 몇 번 갔는데 심전도는 괜찮다고만 해요. 답답해 죽겠어요."
+specific_remarks: "통증이 삼킴 행위와 관련이 있다는 점을 강조한다. 심장병과 증상이 매우 유사하여 불안해하는 모습을 보인다. 체중 감소가 악성 질환에 대한 공포 때문이 아니라 식사에 대한 두려움 때문임을 표현한다."

@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (벨 마비)"
+patient_info:
+  name: "정다혜"
+  age: 25
+  sex: "여성"
+  presenting_complaint: "어제 아침부터 갑자기 오른쪽 얼굴에 마비가 옴"
+vital_signs:
+  blood_pressure: "120/70mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "벨 마비 (Bell's palsy)"
+    - "람세이-헌트 증후군 (Ramsay-Hunt syndrome)"
+    - "뇌졸중 (Stroke)"
+  necessary_tests:
+    - "신경학적 진찰 (뇌졸중 감별)"
+    - "필요시 신경전도검사/근전도 검사"
+    - "필요시 뇌 MRI/MRA (다른 원인 배제 목적)"
+  necessary_treatments:
+    - "고용량 경구 스테로이드 치료"
+    - "항바이러스제 투여 (고려)"
+    - "인공 눈물 및 안대 (눈 보호)"
+history:
+  sex_age: "여성/25"
+  chief_complaint_verbatim: "어제 자고 일어났더니 오른쪽 얼굴이 하나도 안 움직여요. 눈도 안 감기고, 물 마시면 입 옆으로 흘러요. 오른쪽 귀 뒤도 좀 아파요."
+  onset: "1일 전"
+  location:
+    initial: "오른쪽 얼굴 전체"
+    current: "오른쪽 얼굴 전체"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "어제와 비슷함, 호전 없음"
+  course: "3일 전부터 과로와 스트레스로 피곤함을 느낌. 이틀 전 오른쪽 귀 뒤쪽으로 욱신거리는 통증이 있었음. 어제 아침 양치질을 하려는데 입에 머금은 물이 오른쪽으로 새어 나와 거울을 보니 얼굴 오른쪽이 마비된 것을 발견함."
+  experience_prev_episodes:
+    frequency: "처음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "얼굴 근육이 내 마음대로 안 움직이는 느낌"
+    nrs_score: "2 (통증은 경미)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음식 먹거나 말하려고 할 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "취업 준비생"
+    stress: "매우 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 1주 전, 주기 규칙적"
+physical_exam:
+  general: "얼굴 마비로 인해 불안해하며, 발음에 약간 어려움이 있음."
+  heent:
+    sclera: "오른쪽 눈 충혈 약간 있음 (눈 깜빡임 저하로 인한 건조)"
+    oral_mucosa: "촉촉함"
+    # 추가 진찰: 오른쪽 얼굴 전체의 표정근 마비. 눈썹을 들어 올리거나 눈을 꽉 감지 못함. 이마에 주름이 잡히지 않음. '이' 하고 웃을 때 입꼬리가 왼쪽으로만 올라감. 오른쪽 귀 뒤 압통. 외이도에 수포 없음.
+  chest: "호흡음 정상, 잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "사지 근력, 감각, 심부건반사 모두 정상."
+standardized_patient_questions: "이거 중풍(뇌졸중)은 아닌가요? 얼굴이 평생 이렇게 굳어버리는 건 아니겠죠? 치료하면 원래대로 돌아올 수 있나요?"
+specific_remarks: "환자는 오른쪽 얼굴을 가리려고 애쓰며 말한다. 발음이 약간 새는 것을 연기한다 ('ㅍ', 'ㅂ' 발음 어려움). 의사가 이마 주름을 만들어보라고 할 때, 오른쪽 이마에 주름이 전혀 잡히지 않는 것이 명확히 관찰되도록 한다. 눈이 잘 감기지 않아 불편해하는 모습을 보인다."

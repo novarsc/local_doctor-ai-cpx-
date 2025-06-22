@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (노인성 자색반)"
+patient_info:
+  name: "최영감"
+  age: 85
+  sex: "남성"
+  presenting_complaint: "팔다리에 저절로 멍이 생겼다 없어졌다 함"
+vital_signs:
+  blood_pressure: "135/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "노인성 자색반 (Senile Purpura)"
+    - "약물 부작용 (항혈전제 등)"
+    - "다른 원인에 의한 혈소판 또는 응고 장애 (감별 필요)"
+  necessary_tests:
+    - "전혈구 검사 및 혈액응고 검사 (정상임을 확인하여 다른 질환 배제)"
+    - "복용 약물 검토"
+    - "임상적 진단"
+  necessary_treatments:
+    - "특별한 치료는 필요하지 않으며 양성 질환임을 설명"
+    - "피부 보호 (긴 옷 착용, 보습제 사용)"
+    - "외상 방지 교육"
+history:
+  sex_age: "남성/85세"
+  chief_complaint_verbatim: "나이가 들어서 그런가, 이 팔뚝 같은 데에 시퍼런 멍이 저절로 생겨. 아프지도 않은데 보기가 흉하네."
+  onset: "1-2년 전부터"
+  location:
+    initial: "손등, 팔뚝"
+    current: "손등, 팔뚝 (햇빛 노출 부위)"
+  duration:
+    onset_pattern: "점진적 발현"
+    recent_course: "비슷한 상태 유지"
+  course: "언제부턴가 손등과 팔뚝에 짙은 보라색 멍이 생기기 시작했다. 특별히 부딪힌 기억은 없는데 생겨 있으며, 통증은 없다. 한 번 생기면 꽤 오래가다가 옅은 갈색 흔적을 남기고 사라진다. 다른 곳에는 잘 생기지 않는다."
+  experience_prev_episodes:
+    frequency: "수시로"
+    trigger: "가벼운 스침, 혹은 저절로"
+    symptoms: "동일한 양상의 멍"
+  character_of_symptom:
+    quality: "경계가 명확하고 통증 없는, 비대칭적인 자색반"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "가벼운 외상"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "6개월 전, 심방세동으로 내과 진료 중"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "심방세동, 고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "아스피린"
+      - "혈압약"
+    source: "내과"
+    effect: "잘 조절되고 있음"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: "40년 전 금연"
+      cessation_period: ""
+    exercise: "매일 30분 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "나이에 비해 정정해 보임. 급성 병색 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "잇몸 출혈이나 점상출혈 없음."
+  chest: "정상"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      other: "\"압통 없음.\""
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양쪽 손등과 팔뚝 바깥쪽에 경계가 명확한 1-4cm 크기의 짙은 보라색 반상출혈이 여러 개 관찰됨. 주변부 염증이나 부종은 없음. 피부가 매우 얇고 위축되어 있음."
+standardized_patient_questions: "이거 놔두면 저절로 없어지나요? 무슨 큰 병의 신호는 아닌지 걱정이 돼서요. 먹는 약 때문은 아닐까요?"
+specific_remarks: "환자는 다른 전신 증상이 전혀 없으며, 오직 햇빛 노출 부위인 팔뚝과 손등에만 국한된 멍에 대해서만 호소한다. 피부가 얇고 주름진 노인성 피부의 특징을 잘 연기해야 한다. 아스피린 복용력을 언급하지만, 증상은 약 복용과 무관하게 오래전부터 있었다고 진술한다."

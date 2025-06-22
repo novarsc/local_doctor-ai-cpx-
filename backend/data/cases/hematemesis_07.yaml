@@ -1,0 +1,117 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (부식성 식도염)"
+patient_info:
+  name: "김영철"
+  age: 38
+  sex: "남성"
+  presenting_complaint: "음독 후 가슴 통증과 피 토함"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "115회/분"
+  respiration: "24회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "부식성 물질 섭취에 의한 식도 및 위 손상"
+    - "식도 천공"
+    - "흡인성 폐렴"
+  necessary_tests:
+    - "응급 상부위장관 내시경 (단, 천공 위험이 낮을 때 조심스럽게 시행)"
+    - "흉부 및 복부 X-ray, 필요시 CT (천공 여부 확인)"
+    - "동맥혈 가스 분석 (ABGA), 전해질 검사"
+  necessary_treatments:
+    - "기도 확보 및 호흡 보조"
+    - "정맥 수액 공급 및 금식 유지"
+    - "광범위 항생제 및 양성자 펌프 억제제 투여. 구토 유발 금지."
+    - "정신건강의학과 협진"
+history:
+  sex_age: "남성/38세"
+  chief_complaint_verbatim: "너무 힘들어서... 화장실에 있던 락스를 한 모금 마셨어요. 바로 뱉었는데, 그 뒤로 가슴이 타는 것 같고 목에서 피가 나와요."
+  onset: "약 2시간 전"
+  location:
+    initial: "입, 목, 가슴"
+    current: "가슴, 명치"
+  duration:
+    onset_pattern: "음독 직후 갑자기 발생"
+    recent_course: "통증이 점점 심해짐"
+  course: "2시간 전, 사업 실패를 비관하여 자택 화장실의 세척용 락스를 한 모금 마셨다. 직후 너무 고통스러워서 뱉어내고 수차례 구토를 했다. 구토물에 피가 섞여 나왔고, 현재는 가슴과 명치에 타는 듯한 극심한 통증이 있다. 침을 삼키기 어렵다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "타는 듯한, 찢어지는 듯한 극심한 통증"
+    nrs_score: "10"
+    radiation: "등으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "피가 섞인 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "침 삼킬 때"
+      - "숨 쉴 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "이상 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "우울증으로 정신과 진료 본 적 있으나 최근엔 다니지 않음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "자영업 (최근 폐업)"
+    stress: "극심함"
+    alcohol:
+      is_drinker: true
+      frequency: "최근 매일"
+      amount: "소주 2병/일"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일"
+      cessation_period: "없음"
+    exercise: "안 함"
+    recent_weight_change: "최근 한 달간 4kg 감소"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "매우 고통스러워하며 안절부절못함. 목소리가 쉬어있음."
+  heent:
+    sclera: "충혈됨"
+    oral_mucosa: "입술과 구강 내 점막에 발적과 궤양이 관찰됨"
+  chest: "청진 시 양쪽 폐 하부에서 수포음(crackle) 들림. 흉골 압박 시 심한 통증 호소."
+  abdomen:
+    inspection: "이상 없음"
+    auscultation: "장음 감소"
+    percussion: "이상 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: true
+      epigastric_rebound_tenderness: true
+  cvat: "좌우 음성"
+  extremity: "이상 없음"
+standardized_patient_questions: "제가 죽나요? 너무 아파요. 제발 안 아프게 해주세요. 식도가 다 녹아버린 건가요? 앞으로 밥은 먹을 수 있어요?"
+specific_remarks: "극심한 통증을 호소하며, 의료진의 접촉에도 예민하게 반응한다. 자신의 행동에 대한 후회와 죽음에 대한 공포를 동시에 표현한다. 말을 할 때마다 목과 가슴 통증으로 인상을 찌푸린다."

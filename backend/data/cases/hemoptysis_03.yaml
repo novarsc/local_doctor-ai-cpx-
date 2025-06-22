@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (폐암)"
+patient_info:
+  name: "최경식"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "한 달 전부터 심해진 기침과 객혈"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐암 (특히 편평세포암)"
+    - "폐결핵"
+    - "만성 기관지염의 악화"
+  necessary_tests:
+    - "흉부 X-ray 및 흉부 CT"
+    - "객담 세포 검사"
+    - "기관지 내시경 및 조직검사"
+  necessary_treatments:
+    - "조직검사 결과에 따른 항암 치료 계획 수립 (수술, 항암화학요법, 방사선 치료 등)"
+    - "대증 치료 (진해제, 지혈제 등)"
+    - "금연"
+history:
+  sex_age: "남성/65"
+  chief_complaint_verbatim: "담배를 오래 펴서 기침은 원래 좀 했는데, 한 달 전부터 기침이 심해지고 피가 섞여 나와서요. 목소리도 쉬었어요."
+  onset: "약 1개월 전"
+  location:
+    initial: "가슴 중앙"
+    current: "가슴 중앙"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "기침 횟수와 객혈 양이 모두 증가하고 있음"
+  course: "평소 만성적인 기침이 있었으나 한 달 전부터 기침의 양상이 바뀌고 컹컹 울리는 소리가 남. 2주 전부터는 가래에 검붉은 피가 섞여 나오고, 목소리가 쉬어서 잘 나오지 않음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "소량의 검붉은 피가 가래에 섞여 나옴"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "말을 많이 할 때"
+      - "누워 있을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀"
+      - "아토르바스타틴"
+    source: "내과 의원"
+    effect: "혈압, 콜레스테롤 조절 잘 됨"
+  social_history:
+    job: "은퇴 후 소일거리 (건물 경비)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3~4회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "45갑년 (하루 한 갑씩 45년)"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 3개월간 5kg 감소"
+  family_history: "아버지가 폐암으로 돌아가심"
+  female_history: ""
+physical_exam:
+  general: "만성 병색. 목소리가 쉬어 있음(hoarseness)."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "왼쪽 폐 상엽에서 국소적인 쌕쌕거림(localized wheezing)이 청진됨. 호흡음은 전반적으로 감소됨."
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "양손 손가락에 곤봉지(clubbing) 관찰됨."
+standardized_patient_questions: "나이가 드니 여기저기 아프네요. 그냥 담배 때문에 그런 거겠죠? 큰 병은 아니겠죠, 선생님?"
+specific_remarks: "오랜 흡연력에 대해 대수롭지 않게 이야기하나, 내심 불안감을 가지고 있음. '폐암'이라는 단어에 민감하게 반응하며 걱정하는 모습을 보일 것. 쉰 목소리를 유지할 것."

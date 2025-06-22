@@ -1,0 +1,114 @@
+---
+chapter: "상담"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (양극성장애 I형, 최근 삽화 우울)"
+patient_info:
+  name: "이수진"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "최근 극심한 우울감과 함께 자살 충동이 듦"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "양극성장애 I형, 최근 삽화 우울 (Bipolar I Disorder, current episode depressed)"
+    - "주요우울장애, 재발성 (Major Depressive Disorder, recurrent)"
+    - "경계성 인격장애 (Borderline Personality Disorder)"
+  necessary_tests:
+    - "혈액검사 (전혈구, 전해질, 갑상선 기능)"
+    - "기분장애 질문지(MDQ) 등 선별 검사"
+    - "정신건강의학과 전문의 심층 면담"
+  necessary_treatments:
+    - "기분조절제(Mood stabilizer) 투여"
+    - "필요시 비정형 항정신병 약물 병용"
+    - "급성기 자살 사고 조절을 위한 입원 치료 고려"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "미친 듯이 좋았다가 땅 끝까지 꺼지는 기분이 반복돼요. 지금은 너무 우울해서 죽고 싶은 생각밖에 안 들어요."
+  onset: "현재 우울 삽화는 2개월 전 시작"
+  location:
+    initial: "전반적인 기분"
+    current: "전반적인 기분"
+  duration:
+    onset_pattern: "삽화적 발병"
+    recent_course: "우울 증상 악화"
+  course: "2개월 전부터 무기력, 우울감이 심해져 회사도 그만둠. 그런데 약 6개월 전에는 2주 정도 잠도 안 자고 아이디어가 넘쳐서 큰 프로젝트를 여러 개 벌이고 돈을 마구 썼던 시기가 있었음. 당시에는 자신이 뭐든 할 수 있을 것 같았다고 함."
+  experience_prev_episodes:
+    frequency: "수 차례 경험"
+    trigger: "불분명"
+    symptoms: "기분이 매우 들뜨거나, 매우 우울한 시기가 반복됨"
+  character_of_symptom:
+    quality: "극심한 절망감, 무가치함"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "과거 조증 시기에 했던 행동을 후회할 때"
+      - "혼자 있을 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "특이 소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "타 의원에서 2주 전 우울증으로 진단받고 항우울제(SSRI) 처방받아 복용 시작"
+    source: "개인 의원"
+    effect: "복용 후 오히려 더 불안하고 초조해진 느낌이 들었음."
+  social_history:
+    job: "무직 (최근 퇴사)"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1병 이상"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: ""
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "변화 없음"
+  family_history: "외삼촌이 조울증으로 진단받음"
+  female_history: "LMP: 2주 전, regular cycle"
+physical_exam:
+  general: "불안정해 보이며 눈물을 글썽임. 전반적으로 지쳐 보이나, 간혹 초조하게 손을 만지작거리는 모습 관찰됨."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "Fine tremor on both hands"
+standardized_patient_questions: "전 그냥 우울증 아니에요? 왜 저번 병원에서 준 약은 효과가 없고 더 이상해졌을까요? 입원해야 하나요? 제 인생은 이제 끝난 건가요?"
+specific_remarks: "감정 기복이 큰 모습을 연기. 우울감을 호소하다가도 과거 조증 시기에 대해 이야기할 때는 말이 약간 빨라지고 과대적인 모습을 살짝 보임. 항우울제 복용 후 증상 변화를 명확히 설명함."

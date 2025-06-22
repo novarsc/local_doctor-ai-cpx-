@@ -1,0 +1,118 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (두개 내압 상승)"
+patient_info:
+  name: "강민준"
+  age: 38
+  sex: "남성"
+  presenting_complaint: "아침에 머리가 아프고 갑자기 토해요"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "55회/분"
+  respiration: "14회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "두개 내압 상승 (뇌종양, 뇌출혈 등 감별 필요)"
+    - "편두통"
+    - "소화기 질환 (가능성 낮음)"
+  necessary_tests:
+    - "뇌 CT 또는 MRI"
+    - "신경학적 검진 및 안저 검사"
+    - "혈액검사"
+  necessary_treatments:
+    - "원인에 따른 치료 (수술, 방사선 치료 등)"
+    - "두개 내압 강하 치료 (만니톨, 스테로이드 등)"
+    - "즉각적인 상급병원 전원 및 신경외과 협진"
+history:
+  sex_age: "남성/38"
+  chief_complaint_verbatim: "한 달 전부터 아침에 일어날 때 머리가 깨질 듯이 아파요. 그리고 속이 메슥거리지도 않는데 갑자기 확 토해요."
+  onset: "약 1개월 전"
+  location:
+    initial: "머리 전체"
+    current: "머리 전체"
+  duration:
+    onset_pattern: "점진적으로 심해짐"
+    recent_course: "최근에는 두통의 강도와 구토 빈도가 증가함"
+  course: "한 달 전부터 아침에 잠에서 깰 때 두통이 심해짐. 처음에는 일주일에 한두 번 그러다 최근에는 거의 매일 아침 아픔. 2주 전부터는 두통과 함께 갑자기 구토를 하는 증상이 생김. 구토는 메슥거리는 전조증상 없이 분출성으로 나타남. 최근 물체가 둘로 겹쳐 보일 때가 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "분출성(projectile) 구토, 박동성 두통"
+    nrs_score: "두통 8점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "메스꺼움 없이 갑자기 분출하는 양상"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    neurologic: # 신경학적 증상
+      headache: true
+      diplopia: true # 복시
+      gait_disturbance: false
+  factors:
+    aggravating:
+      - "아침에 일어날 때"
+      - "기침하거나 용변 볼 때"
+    alleviating: "구토하고 나면 두통이 약간 완화됨"
+  health_check_history:
+    last_checkup: "5년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "두통약 (게보린, 펜잘 등)"
+    source: "약국"
+    effect: "거의 효과 없음"
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 건강해 보이나, 질문에 답할 때 눈을 자주 깜빡임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    fundoscopy: "양측 시신경 유두부종 (papilledema)" # 안저검사 소견
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 복부 진찰 완전 정상
+  neurologic_exam: # 신경학적 검진
+    cranial_nerve_exam: "제6뇌신경(외전신경) 마비 소견 보임"
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "소화가 안돼서 토하는 게 아닌가요? 왜 머리가 아픈데 토를 하죠? 신경과를 가봐야 하나요? 큰 병일까요?"
+specific_remarks: "환자는 자신의 주 증상이 '구토'라고 생각하여 소화기내과에 왔지만, 병력 청취 시 두통, 복시 등 신경학적 증상을 더 자세히 설명한다. 메스꺼움이 없는 '분출성 구토'의 특징을 강조해서 연기한다. 안저 검사나 신경학적 검진 시 협조적이다."

@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (급성 충수염)"
+patient_info:
+  name: "박준서"
+  age: 19
+  sex: "남성"
+  presenting_complaint: "토할 것 같고 배가 아파요"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "92회/분"
+  respiration: "20회/분"
+  temperature: "38.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 충수염 (맹장염)"
+    - "급성 위장염"
+    - "게실염"
+  necessary_tests:
+    - "혈액검사 (백혈구 수치 및 염증 수치 확인)"
+    - "복부 CT 촬영 (충수염 확진)"
+    - "소변검사 (요로계 질환 감별)"
+  necessary_treatments:
+    - "수술적 치료 (충수 절제술)"
+    - "수술 전후 항생제 투여"
+    - "금식 및 수액 요법"
+history:
+  sex_age: "남성/19"
+  chief_complaint_verbatim: "어제 저녁부터 체한 것처럼 속이 안 좋고 토했는데, 오늘 아침부터는 오른쪽 아랫배가 너무 아파요."
+  onset: "내원 15시간 전"
+  location:
+    initial: "명치 주변"
+    current: "오른쪽 아랫배"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "통증이 오른쪽 아래로 옮겨가면서 더 심해짐"
+  course: "어제 저녁 식사 후 소화가 안되고 메슥거리는 느낌이 시작됨. 밤에 2차례 구토함. 오늘 아침부터 통증이 오른쪽 아랫배로 옮겨가면서 걷거나 뛸 때 울리는 통증이 생김."
+  experience_prev_episodes:
+    frequency: "처음 겪는 증상"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "콕콕 쑤시고, 걸을 때 울리는 양상"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "저녁에 먹은 음식물, 이후로는 위액"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때, 기침할 때"
+      - "오른쪽 아랫배를 누를 때"
+    alleviating: "가만히 누워있으면 약간 덜함"
+  health_check_history:
+    last_checkup: "고등학교 신체검사 외 없음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 의심 (어릴 때 발진)"
+  medication_history:
+    taken:
+      - "타이레놀 1알 (아침에)"
+    source: "집에 있던 약"
+    effect: "별 효과 없었음"
+  social_history:
+    job: "재수생"
+    stress: "심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색, 통증으로 인상을 찌푸리고 있음. 걸을 때 오른쪽 다리를 약간 저는 모습을 보임."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "정상"
+  chest: "청진상 특이 소견 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 감소"
+    percussion: "RLQ에 타진 압통"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: true # McBurney's point에 반발통 양성
+      tenderness_rlq: true # McBurney's point에 압통 양성
+  cvat: "양측 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "이거 그냥 장염 아니에요? 꼭 수술해야 하나요? 수술하면 흉터 많이 남나요?"
+specific_remarks: "의사가 오른쪽 아랫배를 누를 때 아픈 표정을 짓고, 뗄 때 '악' 소리를 내며 반발통을 표현함. 걸을 때 오른쪽 배를 감싸며 조심스럽게 걷는 모습을 연기함."

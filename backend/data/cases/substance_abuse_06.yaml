@@ -1,0 +1,107 @@
+---
+chapter: "상담"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (아편유사제 사용장애 - 펜타닐)"
+patient_info:
+  name: "윤나라"
+  age: 19
+  sex: "여성"
+  presenting_complaint: "친구와 함께 응급실 내원 (의식 저하)"
+vital_signs:
+  blood_pressure: "90/50mmHg"
+  pulse: "50회/분"
+  respiration: "8회/분"
+  temperature: "35.8℃"
+examinee_instructions: "환자는 현재 의식이 저하된 상태로, 보호자인 친구를 통해 병력을 청취해야 합니다. 급성 아편유사제 중독을 의심하고, 즉각적인 응급처치(기도확보, Naloxone 투여)를 시행해야 합니다. 이후 환자의 의식이 회복되면 중독의 심각성과 치료의 필요성에 대해 상담을 시작해야 합니다."
+patient_education:
+  probable_diagnoses:
+    - "아편유사제(펜타닐) 중독 및 과다복용 (Opioid Overdose)"
+    - "아편유사제 사용장애 (Opioid Use Disorder)"
+    - "저산소성 뇌손상 가능성"
+  necessary_tests:
+    - "동맥혈가스분석 (ABGA)"
+    - "소변 및 혈액 약물 정밀검사"
+    - "심전도, 흉부 X-ray"
+  necessary_treatments:
+    - "즉각적인 길항제(Naloxone) 정맥 투여"
+    - "기관 삽관 및 기계 환기 고려"
+    - "안정화 후 중독 전문 병동 입원 및 약물대체요법(메타돈, 부프레노르핀) 상담"
+history:
+  sex_age: "여성/19세"
+  chief_complaint_verbatim: "(보호자인 친구) 같이 파티하다가 갑자기 숨을 잘 못 쉬고 쓰러졌어요! 깨워도 반응이 없어요!"
+  onset: "내원 30분 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "점점 숨 쉬는 횟수가 줄어들고 입술이 파래짐."
+  course: "(친구의 진술에 의하면) 환자는 약 6개월 전부터 호기심에 '나비약'(디에타민)을 인터넷에서 구해 먹기 시작. 이후 텔레그램을 통해 다양한 약물을 접하게 되었고, 최근 '펜타닐 패치'를 구해 사용하기 시작함. 오늘도 파티 중에 화장실에서 패치를 흡입하는 것을 보았다고 함."
+  experience_prev_episodes:
+    frequency: "최근 들어 약에 취해 정신을 잃는 경우가 몇 번 있었다고 함"
+    trigger: "약물 과다 사용"
+    symptoms: "의식 소실"
+  character_of_symptom:
+    quality: "의식 저하, 호흡 억제"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    neurologic:
+      mental_change: true
+      consciousness_loss: true
+    respiratory:
+      respiratory_depression: true
+  factors:
+    aggravating:
+      - "펜타닐 사용"
+    alleviating: "해당 없음"
+  health_check_history:
+    last_checkup: "알 수 없음"
+    endoscopy_finding: ""
+  trauma_history: "쓰러지면서 머리를 부딪혔을 가능성 있음"
+  past_medical_history:
+    underlying_disease: "우울증 진단받았으나 치료는 받지 않음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "펜타닐 패치 (남용)"
+    source: "불법적인 경로"
+    effect: "환각, 진정"
+  social_history:
+    job: "무직"
+    stress: "가정 불화 및 교우 관계로 인한 스트레스"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병 이상"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: "없음"
+    exercise: "안 함"
+    recent_weight_change: "최근 6개월간 8kg 감소"
+  family_history: "부모님 이혼, 현재 아버지와 함께 살고 있으나 관계 소원함"
+  female_history: "불규칙한 월경"
+physical_exam:
+  general: "깊은 혼수 상태(deep stupor). 통증 자극에 약한 신음 소리만 냄. 전신이 축 늘어져 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "청색증 보임"
+    pupil: "양쪽 동공이 바늘처럼 축소되어 있음 (pinpoint pupil)"
+  chest: "호흡이 매우 얕고 느림. 청진상 호흡음 거의 들리지 않음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "전신에 청색증(cyanosis) 관찰됨. 팔 안쪽에 주사 자국은 명확하지 않으나, 은박지 등을 사용한 흡입 흔적 가능성 있음."
+standardized_patient_questions: "(의식이 회복된 후) 여긴 어디에요? 무슨 일이에요? 그냥 좀 피곤해서 잠든 건데 왜 이렇게 호들갑이에요? 퇴원할래요."
+specific_remarks: "초기에는 SP가 연기할 수 없으므로, 보호자인 친구가 불안에 떨며 상황을 설명하는 역할을 수행함. Naloxone 투여 후 의식이 회복되면 환자는 혼란스러워하고, 자신이 처한 상황의 심각성을 인지하지 못하며 병원을 떠나려 함. 금단 증상(하품, 눈물, 콧물, 근육통)이 나타나기 시작하면 매우 고통스러워하며 약을 갈구하는 모습을 보임."

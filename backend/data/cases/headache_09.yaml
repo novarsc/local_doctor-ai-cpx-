@@ -1,0 +1,117 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (삼차신경통)"
+patient_info:
+  name: "김정임"
+  age: 68
+  sex: "여성"
+  presenting_complaint: "오른쪽 얼굴에 갑자기 발생하는, 전기가 오는 듯한 극심한 통증"
+vital_signs:
+  blood_pressure: "130/75mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "삼차신경통 (Trigeminal Neuralgia)"
+    - "비정형 안면통"
+    - "치통 (치과적 문제)"
+  necessary_tests:
+    - "뇌 MRI 및 MRA (뇌혈관이 삼차신경을 누르는지 확인, 다른 뇌 병변 감별)"
+    - "치과 진료 (치아 문제 감별)"
+    - "신경학적 진찰이 가장 중요함"
+  necessary_treatments:
+    - "약물 치료: 카바마제핀(Carbamazepine) 또는 옥스카바제핀(Oxcarbazepine)이 일차 선택 약물"
+    - "약물로 조절되지 않을 경우, 미세혈관 감압술(MVD) 등 수술적 치료 고려"
+    - "감마나이프 방사선 수술"
+history:
+  sex_age: "여성/68"
+  chief_complaint_verbatim: "한 달 전부터 오른쪽 뺨이랑 잇몸 쪽으로 갑자기 전기가 찌릿하고 오듯이 아파요. 몇 초만 그런데 너무 아파서 말도 못하고 세수도 못하겠어요."
+  onset: "약 1개월 전"
+  location:
+    initial: "오른쪽 뺨 (광대뼈 부근)"
+    current: "오른쪽 뺨, 윗잇몸, 코 옆"
+  duration:
+    onset_pattern: "갑자기 발생 (paroxysmal)"
+    recent_course: "점점 통증 발생 빈도가 잦아짐"
+  course: "수 초에서 길어야 1-2분 이내의 짧은 통증이 하루에도 수십 번씩 반복됨. 통증이 없는 시기에는 완전히 정상."
+  experience_prev_episodes:
+    frequency: "없음. 처음 겪는 증상."
+    trigger: "세수할 때, 양치질할 때, 음식을 씹을 때, 바람이 불 때, 말할 때"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "전기 충격 같은, 칼로 찌르는 듯한 날카로운 통증"
+    nrs_score: "10"
+    radiation: "오른쪽 삼차신경 제 2, 3분지 영역을 따라"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false # 통증으로 식사를 잘 못해 체중이 약간 줄 수 있음
+    gastrointestinal:
+      anorexia: true # 통증 때문에 식사 기피
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    neurological:
+      facial_sensory_loss: false # 통증 사이 기간에는 감각 저하 없음
+      autonomic_symptoms: "통증 시 얼굴이 약간 붉어지거나 눈물이 날 수 있음"
+  factors:
+    aggravating:
+      - "얼굴 특정 부위(trigger zone)를 건드리는 것"
+      - "양치질, 세수, 식사, 말하기"
+    alleviating: "얼굴을 만지지 않고 가만히 있는 것"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "비스포스포네이트"
+      - "진통제 (치통인 줄 알고 먹음)"
+    source: "정형외과 / 약국"
+    effect: "진통제 전혀 효과 없음"
+  social_history:
+    job: "주부"
+    stress: "통증 때문에 스트레스가 심함"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 3회 동네 산책"
+    recent_weight_change: "최근 1개월 간 1kg 감소"
+  family_history: "특이 사항 없음"
+  female_history: "폐경 15년 전"
+physical_exam:
+  general: "통증에 대한 두려움으로 조심스럽게 말하고 움직임. 급성 병색은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 치과적 문제 없음 확인 필요
+  chest: "정상"
+  abdomen: "정상"
+  neurology:
+    mental_status: "Alert and oriented"
+    cranial_nerves:
+      trigeminal_nerve_sensory: "통증이 없는 시기에는 얼굴 감각 정상 (V1, V2, V3 분지 모두)"
+      trigeminal_nerve_motor: "저작근 근력 정상"
+      other_cranial_nerves: "정상"
+    # Specific Test
+    trigger_zone_test: "오른쪽 코 옆(비순구)을 가볍게 건드리자 환자가 극심한 통증을 호소하며 얼굴을 찡그림."
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "이게 무슨 병인가요? 왜 이렇게 아픈 거죠? 치과에 갔더니 이는 괜찮다고 하는데 왜 잇몸이 아플까요? 완치가 가능한가요?"
+specific_remarks: "환자는 말을 할 때나 얼굴 표정을 지을 때 통증이 유발될까 봐 매우 조심스러워한다. 오른쪽 얼굴을 만지려는 시늉만 해도 기겁하며 피한다. 통증의 양상을 설명할 때 '찌릿', '칼로 벤다', '전기 온다'는 표현을 사용한다. 통증이 없는 간격에는 완전히 정상임을 강조한다."

@@ -1,0 +1,111 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (원발성 담즙성 담관염, PBC)"
+patient_info:
+  name: "오선희"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "수년간 지속된 피로감과 가려움증, 최근 발생한 황달"
+vital_signs:
+  blood_pressure: "135/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "원발성 담즙성 담관염 (Primary Biliary Cholangitis)"
+    - "만성 간염"
+    - "담관 폐쇄성 질환 (초기)"
+  necessary_tests:
+    - "혈액 검사 (간기능, 특히 ALP/GGT, 빌리루빈, 지질)"
+    - "자가항체 검사 (AMA, ANA)"
+    - "복부 초음파 및 필요시 간 조직검사"
+  necessary_treatments:
+    - "우르소데옥시콜산(UDCA) 약물 치료"
+    - "가려움증, 고지혈증, 골다공증 등 합병증 관리"
+    - "정기적인 간기능 추적 관찰 및 간암 감시 검사"
+history:
+  sex_age: "여성/55세"
+  chief_complaint_verbatim: "몇 년 전부터 계속 피곤하고 피부가 가려웠는데, 그냥 갱년기려니 했어요. 그런데 한 달 전부터 눈이 노랗게 변하고 더 심해져서 왔어요."
+  onset: "피로감/가려움증은 수년 전, 황달은 1개월 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "서서히, 점진적으로 발생"
+    recent_course: "최근 황달이 나타나면서 증상 악화"
+  course: "약 3년 전부터 특별한 이유 없이 심한 피로감을 느꼈고, 1-2년 전부터는 손바닥, 발바닥을 중심으로 가려움증이 시작되어 전신으로 퍼졌다. 대수롭지 않게 여기다 한 달 전 황달이 뚜렷해져 병원에 왔다."
+  experience_prev_episodes:
+    frequency: "지속적이었음"
+    trigger: ""
+    symptoms: "피로, 소양증"
+  character_of_symptom:
+    quality: "심한 피로감, 밤에 악화되는 가려움증"
+    nrs_score: "피로감 8점, 가려움증 7점"
+    radiation: ""
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "최근 진해짐"
+    other: "눈과 입이 뻑뻑하고 마르는 느낌이 있음 (건조 증후군 의심)"
+  factors:
+    aggravating:
+      - "가려움증은 밤에 악화"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전, 콜레스테롤이 약간 높다고 들음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "류마티스 관절염으로 5년간 간헐적 치료"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "비스테로이드성 소염제 (필요시)"
+    source: "정형외과"
+    effect: "통증 완화"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 수영"
+    recent_weight_change: "없음"
+  family_history: "여동생이 갑상선 질환 앓고 있음"
+  female_history: "49세에 폐경. G2P2."
+physical_exam:
+  general: "만성 병색. 피곤해 보이며 피부에 긁은 자국이 많음."
+  heent:
+    sclera: "뚜렷한 황달"
+    oral_mucosa: "약간 건조함"
+  chest: "정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      hepatomegaly: "간이 약 3cm 촉진되며, 단단하고 표면은 매끄러움"
+  cvat: "좌/우 음성"
+  extremity: "손등과 눈꺼풀 주변에 황색판종(xanthelasma) 관찰. 피부 황달 및 긁은 상처 다수."
+standardized_patient_questions: "피곤하고 가려운 게 몇 년이나 됐는데, 왜 이제야 황달이 온 건가요? 자가면역질환이라던데, 류마티스랑 관련이 있나요? 완치는 안 되는 병인가요?"
+specific_remarks: "환자는 황달보다 수년간 지속된 피로감과 가려움증을 먼저 강조하여 병의 만성적 경과를 드러낸다. 류마티스 관절염, 가족력 등 다른 자가면역질환과의 연관성을 암시하는 병력을 제공한다. 신체 진찰 시 눈꺼풀의 황색판종 분장이 되어 있어야 한다."

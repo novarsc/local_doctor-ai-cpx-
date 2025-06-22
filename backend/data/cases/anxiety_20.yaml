@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "20"
+title: "실전 모의 증례 (신경성 식욕부진증)"
+patient_info:
+  name: "최유리"
+  age: 18
+  sex: "여성"
+  presenting_complaint: "자꾸 불안하고 어지러워요."
+vital_signs:
+  blood_pressure: "85/55mmHg"
+  pulse: "50회/분"
+  respiration: "14회/분"
+  temperature: "35.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신경성 식욕부진증 (Anorexia Nervosa)"
+    - "주요우울장애"
+    - "신체이형장애"
+  necessary_tests:
+    - "신체 계측 (체중, 키, BMI 계산)"
+    - "전해질, 간기능, 갑상선기능 포함한 전반적 혈액검사"
+    - "심전도 (EKG, 서맥 및 QT 연장 확인)"
+  necessary_treatments:
+    - "영양 재활 및 체중 회복 (필요시 입원 치료)"
+    - "정신치료 (인지행동치료, 가족 치료)"
+    - "동반된 불안/우울 증상에 대한 약물 치료 고려"
+history:
+  sex_age: "여성/18"
+  chief_complaint_verbatim: "요즘 계속 불안하고 기운이 없어요. 앉았다 일어설 때 핑 돌면서 어지럽고, 집중도 잘 안돼요. 살찌는 게 너무 무서워서 밥도 잘 못 먹겠어요."
+  onset: "약 6개월 전"
+  location:
+    initial: "정신적 (체중에 대한 걱정)"
+    current: "전신적 증상 (어지럼증, 무기력, 불안)"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "체중 감소가 심해지면서 신체 증상 발생"
+  course: "6개월 전 친구들에게 '통통하다'는 놀림을 받은 후 다이어트를 시작함. 처음에는 식사량을 줄이는 수준이었으나, 점차 체중과 체형에 대한 집착이 심해짐. 현재는 하루 500kcal 미만으로 섭취를 제한하고, 매일 2시간 이상 운동함. 체중이 10kg 이상 빠졌음에도 불구하고, 여전히 자신이 뚱뚱하다고 느낌 (체중/체형 왜곡). 체중이 조금이라도 늘어날까 봐 극심한 불안감을 느낌."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "살이 찌는 것에 대한 강렬한 두려움과 이로 인한 불안"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "false"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "음식을 먹어야 하는 상황"
+      - "체중을 재고 난 후"
+    alleviating: "음식을 먹지 않거나 운동을 하면 일시적으로 안도감을 느낌"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "인터넷에서 구매한 다이어트 보조제 (성분 불명)"
+    source: "인터넷"
+    effect: "잘 모르겠음"
+  social_history:
+    job: "고등학생 (수험생)"
+    stress: "학업 스트레스가 심함"
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "매일 2시간 이상 줄넘기, 홈트레이닝"
+    recent_weight_change: "최근 6개월간 12kg 감소 (현재 키 165cm, 체중 40kg, BMI 14.7)"
+  family_history: "특이사항 없음"
+  female_history: "무월경 (Amenorrhea) 4개월째"
+physical_exam:
+  general: "매우 마르고 쇠약해 보이는 모습 (emaciated). 창백하고, 헐렁한 옷으로 몸을 가리고 있음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "dry"
+    hair: "dry and brittle"
+    parotid gland: "not swollen"
+  chest: "bradycardia, clear breath sounds"
+  abdomen:
+    inspection: "scaphoid"
+    auscultation: "hypoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "cold extremities, no pitting edema, lanugo-like fine hair on back and arms"
+standardized_patient_questions: "저는 그냥 다이어트 하는 건데, 이게 문제인가요? 어지러운 건 그냥 기운이 없어서 그런 거 아니에요? 살만 안 찌면 괜찮을 것 같아요."
+specific_remarks: "환자는 부모님에 의해 마지못해 병원에 온 상태이다. 자신의 체중 문제의 심각성을 부정하고, 병적인 상태임을 인정하지 않으려 한다 (poor insight). 음식과 칼로리에 대한 질문에 매우 민감하게 반응하며, 정확한 섭취량을 숨기려 한다. '불안하다'고 호소하지만, 그 불안의 핵심이 '체중 증가에 대한 두려움'임을 드러낸다."

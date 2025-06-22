@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "24"
+title: "실전 모의 증례 (전이성 뇌종양에 의한 발작)"
+patient_info:
+  name: "김미영"
+  age: 60
+  sex: "여성"
+  presenting_complaint: "기침이 심해지더니 갑자기 경련"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전이성 뇌종양에 의한 발작 (원발암: 폐암 의심)"
+    - "원발성 뇌종양"
+    - "뇌졸중"
+  necessary_tests:
+    - "조영 증강 뇌 MRI"
+    - "흉부 CT"
+    - "필요시 조직검사"
+  necessary_treatments:
+    - "항경련제 투여"
+    - "뇌부종 조절을 위한 스테로이드"
+    - "원발암 및 전이암에 대한 치료 (방사선 치료, 항암 화학 요법 등)"
+history:
+  sex_age: "여성/60"
+  chief_complaint_verbatim: "두 달 전부터 기침이 멎질 않고 두통이 있었는데, 오늘 아침에 갑자기 온몸을 떨며 쓰러졌어요."
+  onset: "호흡기 증상은 2개월 전, 발작은 오늘"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "만성 증상 악화 후 발작"
+    recent_course: "전신 강직-간대 발작이 약 2분간 있었고, 이후 혼란 상태를 보임."
+  course: "두 달 전부터 마른 기침이 시작되어 멈추지 않았다. 한 달 전부터는 아침에 일어날 때 머리가 아프고 메스꺼운 증상이 동반되었다. 최근에는 객혈도 한두 번 있었다고 한다. 오늘 아침 갑자기 전신 경련을 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "만성 기침, 두통, 객혈 등 전신 증상과 함께 발생한 첫 발작"
+    nrs_score: "두통 NRS 6점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: "최근 3개월간 8kg 감소"
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침에 두통 심해짐"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 전, 그 후 받은 적 없음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "기침약 (약국 구입)"
+    source: "약국"
+    effect: "효과 없었음"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "1갑/일, 40년간"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 3개월간 8kg 감소"
+  family_history: "특이 사항 없음"
+  female_history: "8년 전 폐경"
+physical_exam:
+  general: "의식은 명료하나 발작 후 상태로 지쳐 보임. 만성 병색. 대화 중 간간이 기침."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "오른쪽 폐 상엽에서 호흡음 감소 및 국소적인 wheezing 청진됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "신경학적 국소 소견은 명확하지 않음. 양쪽 손가락 끝이 곤봉 모양으로 변해 있음 (clubbing)."
+standardized_patient_questions: "단순히 감기인 줄 알았는데, 왜 경련까지 하는 거죠? 제 몸에 무슨 큰 병이 생긴 건가요? 치료할 수 있나요?"
+specific_remarks: "환자는 자신의 증상이 심각하다는 것을 어렴풋이 느끼고 있으며, 매우 불안해한다. 장기간의 흡연력, 만성 기침, 객혈, 체중 감소, 곤봉지 등의 단서를 통해 폐암을 강력하게 의심하고, 이것이 뇌로 전이되어 발작을 일으켰을 가능성을 염두에 두어야 한다. 진단 계획을 설명하며 나쁜 소식을 전해야 할 가능성에 대해 조심스럽게 접근해야 한다."

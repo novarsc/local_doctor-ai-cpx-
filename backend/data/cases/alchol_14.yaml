@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (심방세동)"
+patient_info:
+  name: "권오중"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "갑자기 발생한 두근거림"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "130회/분 (irregularly irregular)"
+  respiration: "20회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 치료(금주 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "심방세동 (발작성, 'Holiday Heart Syndrome' 가능성)"
+    - "발작성 상심실성 빈맥 (PSVT)"
+    - "불안장애로 인한 심계항진"
+  necessary_tests:
+    - "심전도 (EKG)"
+    - "혈액 검사 (갑상선 기능, 전해질, 심근효소)"
+    - "심장 초음파"
+    - "24시간 홀터 모니터링 (필요시)"
+  necessary_treatments:
+    - "생활습관 교정 (과음, 과로, 스트레스 회피)"
+    - "심박수 조절 (Rate control) 또는 율동 전환 (Rhythm control) 약물 치료"
+    - "뇌졸중 예방을 위한 항응고제 치료 (CHA2DS2-VASc 점수 기반)"
+history:
+  sex_age: "남성/55세"
+  chief_complaint_verbatim: "어제 저녁부터 갑자기 가슴이 막 두근거리고 어지러워요. 심장이 멋대로 뛰는 것 같아요."
+  onset: "내원 전날 저녁"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "갑자기 발생하여 지속됨"
+    recent_course: "호전 없이 지속됨"
+  course: "어제 동창회에서 과음하고 늦게 귀가했다. 잠자리에 들려는데 갑자기 심장이 빠르고 불규칙하게 뛰기 시작했고, 가슴이 답답하고 어지러웠다. 조금 쉬면 괜찮아질 줄 알았는데 아침까지 계속되어서 내원함."
+  experience_prev_episodes:
+    frequency: "2-3년 전 한 번 비슷한 경험 있음"
+    trigger: "과음 후"
+    symptoms: "두근거림, 저절로 호전됨"
+  character_of_symptom:
+    quality: "심장이 빠르고 불규칙하게, 제멋대로 뛰는 느낌"
+    nrs_score: "없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+    other: "가슴 답답함, 숨이 약간 참"
+  factors:
+    aggravating:
+      - "움직이면 더 심해짐"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "고혈압, 당뇨 전단계"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "고혈압 약"
+    source: "내과"
+    effect: "대체로 조절 잘 됨"
+  social_history:
+    job: "사무 관리직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "평소 주 1-2회, 가끔 폭음"
+      amount: "어제는 소주 2병 이상 마심"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: "없음"
+    exercise: "주 1회 등산"
+    recent_weight_change: "없음"
+  family_history: "형이 부정맥 시술을 받음"
+  female_history: null
+physical_exam:
+  general: "불안한 기색, 가슴을 만지며 불편감 호소."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음 청진 시 불규칙하고 빠른 심박(irregularly irregular rhythm)이 청취됨. S1 강도 다양함."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "말초 맥박 약하고 불규칙함 (pulse deficit 가능)."
+standardized_patient_questions: "심장이 왜 이러는 건가요? 이러다 심장이 멎는 건 아닌가요? 과음한 것 때문에 이럴 수도 있나요? 앞으로 술 마시면 안 되는 건가요?"
+specific_remarks: "환자는 심장이 불규칙하게 뛰는 것에 대해 극심한 불안감과 공포를 느낌. 'Holiday Heart Syndrome'처럼 과음이 부정맥을 유발할 수 있다는 설명을 듣고 자신의 음주 습관을 되돌아봄. 심방세동이 뇌졸중(중풍)의 위험을 높인다는 사실을 설명하면 매우 심각하게 받아들임. 재발 방지와 합병증 예방을 위해 절주 또는 금주가 필수적임을 강조하면 적극적으로 따르겠다는 태도를 보임."

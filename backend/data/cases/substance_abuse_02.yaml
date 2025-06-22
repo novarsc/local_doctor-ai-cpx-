@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (니코틴 사용장애)"
+patient_info:
+  name: "이수진"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "금연 상담"
+vital_signs:
+  blood_pressure: "118/75mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "환자의 흡연력과 금연 시도 경험, 금연 동기 등을 상세히 청취하시오. 니코틴 의존도를 평가하고, 금연의 어려움과 대처 방안을 포함한 구체적인 금연 계획을 세워 환자에게 교육하시오."
+patient_education:
+  probable_diagnoses:
+    - "니코틴 사용장애 (Nicotine Use Disorder)"
+    - "스트레스 관련 장애"
+    - "임신 준비 전 상담"
+  necessary_tests:
+    - "니코틴 의존도 평가 설문 (FTND-K)"
+    - "호기 일산화탄소(CO) 측정"
+    - "기본적인 폐기능 검사"
+  necessary_treatments:
+    - "금연 상담 및 행동요법 지도 (금연일 설정, 스트레스 관리법)"
+    - "니코틴 대체요법 (패치, 껌, 사탕 등) 또는 약물요법 (바레니클린, 부프로피온) 고려"
+    - "금단 증상에 대한 이해 및 대처법 교육"
+history:
+  sex_age: "여성/31세"
+  chief_complaint_verbatim: "결혼한 지 1년 됐는데, 이제 임신 준비를 하려고요. 담배를 끊어야 할 것 같아서 상담받으러 왔어요."
+  onset: "대학교 1학년 때 호기심으로 시작"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 10년간 꾸준히 비슷한 양을 피웠음."
+  course: "처음엔 친구들과 어울릴 때만 피웠으나, 점차 습관이 되어 혼자 있을 때나 스트레스 받을 때 더 찾게 됨. 아침에 일어나자마자 피우는 담배가 가장 중요하다고 느낌."
+  experience_prev_episodes:
+    frequency: "2-3번 시도했으나 모두 1주일을 넘기지 못함"
+    trigger: "개인적인 결심"
+    symptoms: "금연 시 짜증, 불안, 집중력 저하, 식욕 증가 등을 심하게 겪음"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    respiratory:
+      cough: "아침에 가벼운 기침과 가래"
+      sputum: "옅은 노란색"
+      dyspnea: "계단을 오를 때 약간 숨이 참"
+  factors:
+    aggravating:
+      - "아침 기상 후"
+      - "식사 후, 커피 마실 때"
+      - "스트레스 받을 때"
+    alleviating: "흡연"
+  health_check_history:
+    last_checkup: "1년 전 직장 검진"
+    endoscopy_finding: "특이소견 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "디자이너"
+    stress: "마감 기한에 대한 스트레스가 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑 (10개비)"
+      cessation_period: "없음"
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 2주 전, 주기: 28-30일, 규칙적. 임신 경험 없음."
+physical_exam:
+  general: "건강해 보이는 젊은 여성. 손가락 끝이 약간 노랗게 착색되어 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 호흡음 깨끗함"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "부종 및 청색증 없음. 양손 검지와 중지 손톱에 니코틴 착색 보임."
+standardized_patient_questions: "이번에는 정말 끊고 싶은데, 또 실패할까 봐 두려워요. 약을 먹으면 금단 증상이 정말 줄어드나요? 약 부작용은 없나요?"
+specific_remarks: "금연에 대한 의지는 강하지만, 과거 실패 경험 때문에 자신감이 부족한 모습을 보임. 금단 증상에 대한 두려움을 여러 번 표현함. 의사가 구체적이고 현실적인 계획을 제시하며 지지해줄 때 안도감을 느낌."

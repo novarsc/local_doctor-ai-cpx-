@@ -1,0 +1,116 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (위식도 역류질환, GERD)"
+patient_info:
+  name: "나성실"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "식후에 심해지는 가슴쓰림"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "위식도 역류질환"
+    - "협심증"
+    - "소화성 궤양"
+  necessary_tests:
+    - "심장 질환 감별을 위한 심전도"
+    - "위내시경 검사"
+    - "필요시 24시간 식도 산도 검사"
+  necessary_treatments:
+    - "생활습관 개선 (식습관 조절, 체중 감량, 금연/금주)"
+    - "양성자펌프억제제(PPI) 등 위산분비 억제제 복용"
+    - "취침 시 상체 올리기"
+history:
+  sex_age: "남성/48세"
+  chief_complaint_verbatim: "요즘 저녁 먹고 나면 가슴이 타는 것처럼 쓰리고 아파요. 특히 밤에 누우면 신물이 목구멍으로 올라오는 느낌이 들어요."
+  onset: "2개월 전"
+  location:
+    initial: "명치"
+    current: "가슴 중앙부, 목 쪽으로 올라옴"
+  duration:
+    onset_pattern: "식후 30분~1시간 이내 발생"
+    recent_course: "점점 더 자주 발생함"
+  course: "과식하거나 기름진 음식을 먹은 날, 회식 다음 날 더 심해짐. 한 번 시작되면 1~2시간 지속됨."
+  experience_prev_episodes:
+    frequency: "주 3~4회"
+    trigger: "과식, 야식, 음주, 커피"
+    symptoms: "가슴 쓰림, 신물 역류"
+  character_of_symptom:
+    quality: "타는 듯한, 쓰린"
+    nrs_score: "5"
+    radiation: "목구멍 쪽으로 치밀어 오르는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후 바로 눕는 것"
+      - "과식, 기름진 음식, 커피, 술"
+      - "몸을 앞으로 숙일 때"
+    alleviating: "물을 마시거나 제산제를 먹으면 조금 나음"
+  health_check_history:
+    last_checkup: "작년"
+    endoscopy_finding: "만성 표재성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 약국에서 산 제산제"
+    source: "약국"
+    effect: "일시적으로 효과 있음"
+  social_history:
+    job: "IT 회사 팀장"
+    stress: "프로젝트 마감 때문에 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2~3회"
+      amount: "맥주 2000cc 이상"
+    smoking:
+      is_smoker: true
+      amount: "하루 1갑"
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "최근 6개월간 8kg 증가"
+  family_history: "아버지가 위암으로 치료받으심"
+  female_history: "해당 없음"
+physical_exam:
+  general: "과체중 양상. 진찰 시 특이 소견 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상. 인후두 발적 없음."
+  chest: "심음 및 호흡음 정상. 흉벽 압통 없음."
+  abdomen:
+    inspection: "복부 팽만 약간 있음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: true
+  cvat: "양측 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "자꾸 가슴이 아파서 심장병일까 봐 걱정돼요. 위가 안 좋아서도 가슴이 아플 수 있나요?"
+specific_remarks: "통증이 식사와 자세에 따라 변하는 양상을 명확히 설명한다. 체중 증가, 음주, 흡연, 스트레스 등 생활 습관에 대한 질문에 솔직하게 대답한다."

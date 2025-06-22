@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (비강 이물)"
+patient_info:
+  name: "김하준"
+  age: 4
+  sex: "남성"
+  presenting_complaint: "한쪽 코에서만 노란 콧물이 나고 냄새가 남"
+vital_signs:
+  blood_pressure: "95/60mmHg"
+  pulse: "110회/분"
+  respiration: "24회/분"
+  temperature: "37.2℃"
+examinee_instructions: "보호자로부터 증상과 관련된 병력을 청취하고, 아이의 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비강 이물"
+    - "일측성 부비동염"
+    - "비강 종양 (드묾)"
+  necessary_tests:
+    - "비강 내시경 또는 이경을 이용한 비강 내부 관찰"
+    - "필요 시 이물 제거 시도"
+    - "이물 제거가 어렵거나 의심될 경우 측두골 또는 안면부 X-ray/CT"
+  necessary_treatments:
+    - "비강 내 이물 제거"
+    - "이물 제거 후 필요 시 항생제 연고 도포 또는 경구 항생제 복용"
+    - "이물 흡인 방지에 대한 보호자 교육"
+history:
+  sex_age: "남성/4"
+  chief_complaint_verbatim: "(보호자) 일주일 전부터 애 오른쪽 코에서만 누런 콧물이 계속 나와요. 닦아줘도 계속 나오고, 코에서 이상한 냄새도 나는 것 같아요."
+  onset: "약 1주일 전"
+  location:
+    initial: "우측 코"
+    current: "우측 코"
+  duration:
+    onset_pattern: "정확히 언제부터인지 모름. 1주일 전부터 콧물을 인지함."
+    recent_course: "점점 콧물 색이 진해지고 냄새가 심해지는 것 같음. 아이가 코를 만지면 아파함."
+  course: "다른 감기 증상 없이 유독 한쪽 코에서만 농성 비루가 지속됨. 간혹 코피가 조금 섞여 나옴."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "끈적한 노란색 콧물, 악취, 간헐적인 소량의 코피"
+    nrs_score: "모름"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "코를 만질 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "6개월 전 영유아 검진, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "어린이집 다님"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: ""
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "아이가 진찰을 거부하며 칭얼거림. 오른쪽 코 주변을 만지려 하지 않음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 추가 소견: 우측 비강 입구에서 악취가 나는 농성 분비물이 관찰됨. 이경으로 조심스럽게 관찰 시, 우측 비강 내부에 회색빛의 둥근 이물질이 보임. 좌측 비강은 깨끗함.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "(보호자) 왜 한쪽 코에서만 콧물이 나나요? 감기 아닌가요? 코에 뭐가 들어갔을 수도 있나요? 집에서 빼주면 안 되나요?"
+specific_remarks: "보호자가 주된 병력 청취 대상자. 아이(SP)는 낯을 가리며 불안해하고, 의사가 코를 보려고 하면 울면서 고개를 돌리며 저항한다."

@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (뇌수막염)"
+patient_info:
+  name: "김민준"
+  age: 21
+  sex: "남성"
+  presenting_complaint: "갑자기 발생한 심한 두통과 고열, 구토"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "110회/분"
+  respiration: "22회/분"
+  temperature: "39.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "세균성 또는 바이러스성 뇌수막염"
+    - "뇌염"
+    - "지주막하 출혈 (SAH)"
+  necessary_tests:
+    - "즉각적인 혈액 배양 검사 및 경험적 항생제 투여"
+    - "뇌압 상승 소견 없을 시, 즉시 뇌척수액 검사 (요추 천자)"
+    - "필요시 뇌 CT 촬영 (뇌압 상승, 다른 병변 감별)"
+  necessary_treatments:
+    - "응급실로 즉시 전원하여 입원 치료"
+    - "세균성 뇌수막염 의심 하에 경험적 항생제 및 스테로이드 정맥 주사"
+    - "수액 공급 및 대증 치료"
+history:
+  sex_age: "남성/21"
+  chief_complaint_verbatim: "어제 저녁부터 갑자기 머리가 깨질 듯이 아프고 열이 펄펄 나요. 속이 울렁거려서 몇 번 토했고, 목을 숙이기가 힘들어요."
+  onset: "내원 1일 전 저녁"
+  location:
+    initial: "머리 전체"
+    current: "머리 전체 및 뒷목"
+  duration:
+    onset_pattern: "수 시간 내에 급격히 발생"
+    recent_course: "시간이 갈수록 점점 악화됨. 정신도 약간 흐려지는 것 같음."
+  course: "지속적인 극심한 통증"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "터질 듯한 통증"
+    nrs_score: "9"
+    radiation: "뒷목으로 뻗치는 뻣뻣함"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "내원 전 3회, 분출성 구토 양상"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    neurological:
+      photophobia: true
+      phonophobia: true
+      altered_mentality: "약간의 혼동 상태 (drowsy)"
+  factors:
+    aggravating:
+      - "머리를 움직이거나 숙일 때"
+      - "밝은 빛"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전 군입대 신체검사"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 알러지 의심 (어릴 때 발진 경험)"
+  medication_history:
+    taken:
+      - "해열진통제"
+    source: "집 상비약"
+    effect: "복용 후 1-2시간 정도만 약간 열이 내리고 효과 거의 없음"
+  social_history:
+    job: "대학생 (기숙사 생활)"
+    stress: "시험 기간으로 스트레스 많았음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "맥주 2000cc"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 2-3회 농구"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색. 의식 상태가 명료하지 않고 졸려하는 모습 (drowsy). 전반적으로 힘이 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "빈호흡 및 빈맥. 호흡음은 깨끗함."
+  abdomen: "정상"
+  # Neurological exam is critical
+  neurology:
+    mental_status: "Drowsy, but arousable to verbal stimuli. GCS E4V4M6"
+    nuchal_rigidity: "양성 (Positive)"
+    kernig_sign: "양성 (Positive)"
+    brudzinski_sign: "양성 (Positive)"
+    cranial_nerves: "Grossly intact"
+  cvat: "음성"
+  extremity: "특이 소견 없음. 피부에 발진(rash)은 보이지 않음."
+standardized_patient_questions: "제가 왜 이렇게 아픈 건가요? 그냥 심한 감기몸살 아닌가요? 뇌수막염이면 위험한 병인가요? 친구한테 옮길 수도 있나요?"
+specific_remarks: "환자는 매우 아파 보이고, 진료 중에도 계속해서 고통을 호소한다. 질문에 대한 대답이 느리고 짧다. 의사가 목을 숙여보라고 할 때 심한 통증을 호소하며 거부한다. 진료실 불빛이 너무 밝다고 이야기하며 눈을 찡그린다."

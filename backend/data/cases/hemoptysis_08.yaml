@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (폐농양)"
+patient_info:
+  name: "홍길동"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "고열과 악취나는 가래, 객혈"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "115회/분"
+  respiration: "24회/분"
+  temperature: "39.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐농양"
+    - "괴사성 폐렴"
+    - "결핵 공동을 동반한 폐결핵"
+  necessary_tests:
+    - "흉부 X-ray 및 흉부 CT (공동 및 공기-액체층 확인)"
+    - "객담 그람 염색 및 배양 검사 (특히 혐기성균)"
+    - "혈액 배양 검사"
+  necessary_treatments:
+    - "장기간의 항생제 치료 (보통 4-6주)"
+    - "체위 배농"
+    - "항생제 반응 없을 시 경피적 배농술 또는 수술 고려"
+history:
+  sex_age: "남성/68"
+  chief_complaint_verbatim: "열흘 전부터 열이 펄펄 나고 기침이 심해요. 3일 전부터는 기침할 때마다 시궁창 냄새가 나는 고름 같은 가래랑 피가 같이 나와요."
+  onset: "약 10일 전"
+  location:
+    initial: "전신"
+    current: "오른쪽 가슴 통증"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "점점 악화"
+  course: "열흘 전부터 오한과 고열, 전신 근육통이 시작됨. 처음에는 마른기침을 하다가 점차 누렇고 양이 많은 가래로 바뀜. 3일 전부터 가래에서 심한 악취가 나고, 검붉은 피가 섞여 나옴. 숨 쉴 때 오른쪽 가슴에 통증이 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "양이 많고 악취가 심한 화농성 객담에 검붉은 피가 섞여 나옴"
+    nrs_score: 5
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "진한 소변"
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "기침할 때"
+      - "숨을 깊게 쉴 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 (관리 잘 안됨), 뇌경색 후유증 (경미한 우측 편마비)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "메트포르민"
+      - "아스피린"
+    source: "보건소"
+    effect: "약을 잘 챙겨 먹지 못함"
+  social_history:
+    job: "무직"
+    stress: "높음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1병 이상"
+    smoking:
+      is_smoker: true
+      amount: "50갑년"
+      cessation_period: ""
+    exercise: "거동이 불편하여 거의 못 함"
+    recent_weight_change: "최근 열흘간 4kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색이 완연하며, 탈수 소견 보임. 대화 중 심한 악취가 남. 의식은 명료하나 기력이 매우 없음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "very dry. 치아 상태 불량 (poor dental hygiene)."
+  chest: "오른쪽 폐 상엽 후분절(posterior segment of RUL) 부위에서 호흡음이 현저히 감소되어 있고, 수포음(crackles)과 함께 기관지 호흡음(bronchial breath sounds)이 청진됨. 해당 부위 타진 시 둔탁음(dullness)."
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이소견 없음. 경미한 우측 위약감."
+standardized_patient_questions: "숨 쉴 때마다 나는 이 냄새는 뭔가요? 이러다 죽는 건 아닌지 걱정됩니다. 당장 입원해야 하는 거 아닌가요?"
+specific_remarks: "고열과 탈수로 인해 매우 힘들어하는 모습을 연기. 가래의 '악취'를 반복적으로 강조할 것. 뇌경색 병력으로 인해 발음이 약간 어눌하고, 치아 상태가 좋지 않은 인상을 줄 것."

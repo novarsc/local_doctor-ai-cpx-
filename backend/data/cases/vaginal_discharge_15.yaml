@@ -1,0 +1,122 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (자궁내막증)"
+patient_info:
+  name: "신혜선"
+  age: 29
+  sex: "여성"
+  presenting_complaint: "심한 생리통과 생리 전후의 갈색 출혈"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁내막증 (Endometriosis)"
+    - "자궁선근증 (Adenomyosis)"
+    - "만성 골반염 (Chronic PID)"
+  necessary_tests:
+    - "골반 초음파 (Pelvic ultrasonography), 특히 질식 초음파"
+    - "혈액 검사 (CA-125, 참고용)"
+    - "진단적 복강경 (Diagnostic laparoscopy, 확진을 위해 필요시)"
+  necessary_treatments:
+    - "통증 조절을 위한 비스테로이드성 소염제(NSAIDs)"
+    - "경구 피임약 또는 호르몬 치료"
+    - "임신 계획 및 증상에 따른 수술적 치료 (복강경)"
+history:
+  sex_age: "여성/29"
+  chief_complaint_verbatim: "몇 년 전부터 생리통이 너무 심해서 진통제 없이는 견딜 수가 없어요. 요즘엔 생리 시작하기 며칠 전부터 갈색 피가 비치고, 성관계 할 때도 아파요."
+  onset: "수년 전부터, 최근 1년간 악화"
+  location:
+    initial: "하복부"
+    current: "하복부 및 골반 깊숙한 곳"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "통증과 부정출혈 증상이 더 심해짐"
+  course: "고등학생 때부터 생리통이 있었지만, 최근 2-3년 사이에는 일상생활이 어려울 정도로 심해졌습니다. 1년 전부터는 생리 시작 2-3일 전부터 끝난 후 1-2일까지 갈색 출혈이 있고, 성교통과 배변통도 생겼습니다."
+  experience_prev_episodes:
+    frequency: "매 생리 주기마다"
+    trigger: "생리"
+    symptoms: "심한 월경통, 성교통, 배변통, 생리 전후 출혈"
+  character_of_symptom:
+    quality: "골반을 쥐어짜는 듯한 심한 통증 (월경통), 생리 전후 소량의 갈색 출혈"
+    nrs_score: "9 (생리 시)"
+    radiation: "항문, 허리 쪽으로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+  factors:
+    aggravating:
+      - "생리 기간"
+      - "성관계 (특히 깊게 삽입 시)"
+      - "배변 시"
+    alleviating: "진통제 복용"
+  health_check_history:
+    last_checkup: "2년 전 자궁경부암 검사"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "나프록센 (생리 때마다 4-5알)"
+    source: "약국 구매"
+    effect: "효과가 점점 떨어지는 것 같음"
+  social_history:
+    job: "연구원"
+    stress: "많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "언니가 자궁내막증으로 치료받음"
+  female_history:
+    menarche: "12세"
+    menstrual_cycle: "28일 주기, 규칙적"
+    duration: "7일"
+    amount: "많은 편"
+    lmp: "1주 전"
+    gpa: "0-0-0-0"
+    sexual_partner: "배우자 (결혼 1년, 임신 계획 중)"
+    contraception: "해당 없음"
+physical_exam:
+  general: "만성적인 통증으로 지쳐 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 하복부 압통은 뚜렷하지 않음.
+      # 질경 검사 시: 질 후방원에 푸른색 결절이 보일 수 있음.
+      # 내진 시: 자궁은 정상 크기이고 움직임이 제한됨 (fixed retroverted uterus). 자궁천골인대(uterosacral ligament)에서 결절과 압통이 만져짐. 부속기 압통 있을 수 있음.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "원래 생리통이 심한 체질인 줄 알았는데, 병인가요? 왜 점점 더 아파지죠? 결혼했는데 임신이 잘 안되는 것과 관련이 있을까요?"
+specific_remarks: "통증에 대해 설명할 때 매우 구체적이고 상세하게 묘사한다. 진통제를 먹어도 소용없다는 무력감을 표현한다. 불임 가능성에 대해 매우 걱정하고 불안해한다. 내진 시 자궁천골인대를 누를 때 '악' 소리를 내며 아파한다."

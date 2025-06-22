@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (패혈증, Sepsis)"
+patient_info:
+  name: "송영희"
+  age: 76
+  sex: "여성"
+  presenting_complaint: "어제부터 열이 나고 정신을 못 차림"
+vital_signs:
+  blood_pressure: "80/40mmHg"
+  pulse: "130회/분"
+  respiration: "26회/분"
+  temperature: "39.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "패혈성 쇼크 (폐렴 의심)"
+    - "급성 심근경색"
+    - "뇌졸중"
+  necessary_tests:
+    - "혈액 배양 검사 및 객담 배양 검사"
+    - "혈액 검사 (CBC, CRP, procalcitonin, 혈액가스분석, 젖산)"
+    - "흉부 X-ray 및 심전도"
+  necessary_treatments:
+    - "신속한 수액 소생술"
+    - "광범위 항생제 정맥 투여 (1시간 이내)"
+    - "혈압 유지를 위한 승압제(vasopressor) 사용"
+history:
+  sex_age: "여성/76세"
+  chief_complaint_verbatim: "할머니가 며칠 기침하시더니 어제 저녁부터 갑자기 열이 펄펄 나고, 오늘 아침에는 사람을 전혀 못 알아보세요."
+  onset: "어제 저녁"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "급격히 발생"
+    recent_course: "급속도로 악화"
+  course: "약 5일 전부터 기침, 가래, 콧물 등 감기 증상 있었음. 어제 저녁부터 갑자기 오한과 함께 39도 이상의 고열이 발생. 오늘 아침부터 의식이 흐려지고, 숨쉬기 힘들어하며, 불러도 눈만 겨우 뜨는 상태가 됨. 피부가 차고 축축해지며 소변을 거의 보지 않아 응급실 내원."
+  experience_prev_episodes:
+    frequency: "1년 전 요로감염으로 입원한 적 있음"
+    trigger: "-"
+    symptoms: "당시에도 열나고 의식이 흐려졌었음"
+  character_of_symptom:
+    quality: "의식 저하, 쇼크 상태"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "6개월 전"
+    endoscopy_finding: "특이 소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨, 류마티스 관절염 (스테로이드 복용 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Metformin, Losartan, Prednisolone"
+    source: "내과, 류마티스내과"
+    effect: "최근 감기 기운으로 약 복용 불규칙"
+  social_history:
+    job: "무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "관절 통증으로 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "의식은 혼미(stupor) 상태. 전반적으로 창백하고, 식은땀을 흘리며, 사지가 차갑고 축축함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "호흡이 얕고 매우 빠름. 좌측 폐저부에서 수포음(crackle)과 기관지 호흡음(bronchial sound) 청진됨. 심박동이 매우 빠르고 약함."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "사지 말단이 차갑고 청색증 보임. 모세혈관 재충전 시간(capillary refilling time)이 3초 이상으로 지연됨."
+standardized_patient_questions: "할머니가 왜 이러시는 거예요? 그냥 감기인 줄 알았는데 갑자기 쇼크가 온 건가요? 스테로이드 드시는 거랑 관련이 있나요?"
+specific_remarks: "환자는 거의 반응이 없고, 얕고 빠른 숨을 힘겹게 내쉰다. 저혈압, 빈맥, 빠른 호흡, 고열/저체온 등 패혈증의 전신 염증 반응 증후군(SIRS) 기준에 부합하는 활력징후를 명확히 인지시킨다. 사지가 차갑고 축축한 'cold shock' 상태를 연기한다. 보호자인 손녀가 옆에서 대화한다."

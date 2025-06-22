@@ -1,0 +1,113 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (조기 진통)"
+patient_info:
+  name: "송하윤"
+  age: 29
+  sex: "여성"
+  presenting_complaint: "배가 규칙적으로 뭉치고 아픔"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "조기 진통 (Preterm labor)"
+    - "가진통 (Braxton Hicks contractions)"
+    - "요로 감염"
+  necessary_tests:
+    - "태동 검사 (NST) 및 자궁 수축 검사"
+    - "질 분비물 이용한 태아 파이브로넥틴(fFN) 검사"
+    - "경질 초음파를 통한 자궁 경부 길이 측정"
+  necessary_treatments:
+    - "입원하여 수액 공급 및 안정"
+    - "자궁 수축 억제제 (Tocolytics) 투여"
+    - "태아 폐성숙을 위한 스테로이드 주사 고려"
+history:
+  sex_age: "여성/29세"
+  chief_complaint_verbatim: "임신 31주인데요, 오늘 오후부터 배가 생리통처럼 싸하게 아프면서 딴딴하게 뭉치는 게 반복돼요."
+  onset: "6시간 전"
+  location:
+    initial: "아랫배 전체"
+    current: "아랫배와 허리"
+  duration:
+    onset_pattern: "갑자기 시작됨"
+    recent_course: "점점 간격이 짧아지고 강도가 세지는 느낌"
+  course: "처음에는 그냥 배가 뭉치는 건가 했는데, 쉬어도 나아지지 않고 10분에 한 번 꼴로 규칙적으로 아파서 병원에 옴. 약간의 이슬 같은 분비물도 보임."
+  experience_prev_episodes:
+    frequency: "없음 (초산)"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "배가 단단하게 뭉치면서 생리통처럼 싸하게 아픈 통증"
+    nrs_score: "5"
+    radiation: "허리 쪽으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    # 질 분비물 증가 및 약간의 혈성 분비물(bloody show) 동반
+    other: "점액성 질 분비물 증가, 약간의 핑크빛 분비물 관찰됨"
+  factors:
+    aggravating:
+      - "움직일 때"
+    alleviating: "없음. 쉬어도 통증은 계속됨."
+  health_check_history:
+    last_checkup: "3주 전 산전 진찰"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합 비타민"
+    source: "약국"
+    effect: "-"
+  social_history:
+    job: "회사원 (최근 프로젝트로 야근 잦았음)"
+    stress: "최근 스트레스 많았음"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "거의 못함"
+    recent_weight_change: "임신 후 9kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "G1P0, LMP: 약 7.5개월 전, EDC: 9주 후, 임신 31주."
+physical_exam:
+  general: "불안한 표정. 통증이 올 때마다 인상을 찡그림."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심잡음 없음."
+  abdomen:
+    inspection: "임신 31주에 합당한 크기"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      # 촉진 시 10분 간격으로 약 40초간 지속되는 자궁 수축 관찰됨.
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 수축이 없을 때는 자궁이 부드러움
+  cvat: "음성/음성"
+  extremity: "부종 없음."
+standardized_patient_questions: "이거 진통 맞나요? 혹시 지금 아기가 나오는 건가요? 아기가 너무 일찍 나오면 위험하잖아요. 막을 수 있는 방법은 없나요?"
+specific_remarks: "환자는 규칙적인 통증을 호소하며, 문진 중에도 배를 감싸 쥐며 아파하는 모습을 1-2회 연기한다. 가진통이 아니고 진짜 진통일까 봐 매우 불안해하는 모습을 보인다. 분비물에 대해서도 명확하게 설명한다."

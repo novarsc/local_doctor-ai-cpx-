@@ -1,0 +1,125 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (기능성 자궁출혈)"
+patient_info:
+  name: "이혜민"
+  age: 17
+  sex: "여성"
+  presenting_complaint: "생리가 불규칙하고 출혈이 멈추지 않음"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기능성 자궁출혈 (Dysfunctional Uterine Bleeding), 주로 무배란성"
+    - "혈액응고장애 (Coagulopathy)"
+    - "다낭성 난소 증후군 (Polycystic Ovary Syndrome)"
+  necessary_tests:
+    - "일반 혈액 검사 (CBC) 및 혈액응고 검사 (PT/aPTT)"
+    - "혈중 호르몬 검사 (FSH, LH, TSH, prolactin)"
+    - "골반 초음파 검사 (Pelvic ultrasonography)"
+    - "소변 임신반응검사 (Urine hCG)"
+  necessary_treatments:
+    - "경구 피임약 또는 프로게스틴 제제를 이용한 호르몬 치료"
+    - "출혈량 조절을 위한 지혈제 사용"
+    - "빈혈이 심할 경우 철분제 처방"
+history:
+  sex_age: "여성/17"
+  chief_complaint_verbatim: "두 달 전에 생리를 한 번 건너뛰더니, 3주 전부터 피가 나오기 시작해서 아직까지 멈추질 않아요. 양도 많았다가 적었다가 해요."
+  onset: "3주 전"
+  location:
+    initial: "질"
+    current: "질"
+  duration:
+    onset_pattern: "지속적"
+    recent_course: "출혈이 계속됨"
+  course: "초경 이후로 생리가 항상 불규칙했습니다. 두 달 전에는 생리가 없었고, 3주 전부터 출혈이 시작되어 현재까지 지속되고 있습니다. 처음 며칠은 양이 많다가, 지금은 조금씩 계속 묻어나는 정도입니다."
+  experience_prev_episodes:
+    frequency: "자주 있음 (생리를 2-3달 건너뛰거나, 2주 이상 하거나)"
+    trigger: "시험 기간 등 스트레스 받을 때"
+    symptoms: "불규칙한 출혈"
+  character_of_symptom:
+    quality: "불규칙하고 예측할 수 없는 양상의 자궁출혈"
+    nrs_score: "1 (경미한 복부 불편감)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "고등학생 (고3)"
+    stress: "매우 심함 (입시 스트레스)"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "최근 3개월간 5kg 증가"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "14세"
+    menstrual_cycle: "매우 불규칙적 (30-90일)"
+    duration: "불규칙적 (5-15일)"
+    amount: "불규칙적"
+    lmp: "3주 전 시작하여 지속 중"
+    gpa: "성경험 없음"
+    sexual_partner: ""
+    contraception: ""
+physical_exam:
+  general: "피곤해 보이고 안색이 창백함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "pale"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평함. 경미한 여드름 관찰됨."
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 복부 압통 없음.
+      # (성경험이 없으므로 내진 대신) 직장-복부 검사 시 특이 소견 없음.
+      # 질경 검사 시 (필요하다면): 구조적 이상 없이 자궁경부에서 소량의 출혈이 관찰됨.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "왜 피가 멈추지 않는 건가요? 제 몸에 무슨 큰 문제가 있는 건 아니겠죠? 앞으로 계속 이럴까요?"
+specific_remarks: "어머니와 함께 내원했다. 산부인과 진료를 받는 것 자체를 부끄러워하고, 질문에 소극적으로 대답한다. 의사가 학업 스트레스에 대해 물어보면 감정이 북받쳐 울음을 터뜨릴 수 있다."

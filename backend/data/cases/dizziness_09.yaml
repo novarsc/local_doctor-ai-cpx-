@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (철결핍성 빈혈, Iron Deficiency Anemia)"
+patient_info:
+  name: "김민지"
+  age: 24
+  sex: "여성"
+  presenting_complaint: "요즘 계속 어지럽고 피곤해요."
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "98회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "철결핍성 빈혈"
+    - "기립성 저혈압"
+    - "만성 피로 증후군"
+  necessary_tests:
+    - "일반혈액검사 (CBC, Hb/Hct 확인)"
+    - "철분 관련 검사 (Serum iron, TIBC, ferritin)"
+    - "필요시 대변 잠혈 검사"
+  necessary_treatments:
+    - "경구 철분제 복용"
+    - "철분이 풍부한 식이 교육"
+    - "월경 과다에 대한 산부인과적 평가 및 조절"
+    - "철분제 복용 시 위장장애, 변비 등 부작용 설명"
+history:
+  sex_age: "여성/24세"
+  chief_complaint_verbatim: "한 달 전부터 계단을 오르거나 좀 빨리 걸으면 숨이 차고 어지러워요. 앉았다 일어날 때도 핑 돌고요."
+  onset: "약 1-2개월 전부터 서서히"
+  location:
+    initial: "머릿속"
+    current: "머릿속"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점점 더 피곤하고 어지러운 횟수가 늘어남"
+  course: "처음엔 그냥 피곤해서 그런가 했는데, 요즘은 가만히 있어도 멍하고 집중이 잘 안됩니다. 친구들이 얼굴이 하얗다고 해요."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "빙빙 도는 느낌보다는 아찔하고 붕 뜨는 느낌. 눈앞이 깜깜해지는 느낌."
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "운동이나 활동 시"
+      - "앉았다 일어설 때"
+    alleviating: "가만히 쉬는 것"
+  health_check_history:
+    last_checkup: "대학 입학 때, 당시엔 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "학업 스트레스 보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안함"
+    recent_weight_change: "최근 다이어트로 3kg 감량"
+  family_history: "특이사항 없음"
+  female_history: "생리량이 많은 편 (하루에 대형 패드 5-6개 이상 사용, 7일 이상 지속)"
+physical_exam:
+  general: "다소 창백해 보이고 피곤한 기색이 역력함."
+  heent:
+    sclera: "결막이 창백함 (pale conjunctiva)"
+    oral_mucosa: "정상"
+  chest: "심박동이 약간 빠르나 잡음은 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "손톱이 얇고 잘 부서지는 느낌 (koilonychia 암시)"
+standardized_patient_questions: "제가 왜 이렇게 어지러운 걸까요? 그냥 피곤해서 그런 줄 알았는데... 큰 병은 아니겠죠?"
+specific_remarks: "환자는 비회전성 어지럼과 함께 만성적인 피로감, 운동 시 호흡곤란을 호소해야 한다. 의사가 식습관(다이어트)과 여성력(월경 과다)에 대해 질문하면, 관련된 정보를 명확하게 제공해야 한다. 신체 진찰 시, 의사가 눈꺼풀을 뒤집어보면 창백한 결막을 확인할 수 있도록 협조한다. 전반적으로 기운 없고 힘없는 모습을 연기한다."

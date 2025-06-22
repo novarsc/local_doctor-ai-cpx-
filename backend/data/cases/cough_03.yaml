@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (천식)"
+patient_info:
+  name: "이하나"
+  age: 24
+  sex: "여성"
+  presenting_complaint: "밤에 심해지는 기침과 숨찬 증상"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "85회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "천식 (Asthma)"
+    - "알레르기 비염과 동반된 기침"
+    - "위식도 역류 질환 (GERD)"
+  necessary_tests:
+    - "폐기능 검사 (기관지 확장제 반응 검사 포함)"
+    - "알레르기 피부반응 검사 또는 혈청 특이 IgE 검사"
+    - "흉부 X선 촬영 (다른 질환 감별)"
+  necessary_treatments:
+    - "증상 완화제 (속효성 베타-2 항진제 흡입기)"
+    - "질병 조절제 (흡입 스테로이드제)"
+    - "유발 요인 회피 교육"
+history:
+  sex_age: "여성/24세"
+  chief_complaint_verbatim: "한 달 전부터 밤에 자려고 누우면 기침이 나고 숨이 답답해서 잠을 깨요. 숨 쉴 때 '쌕쌕'거리는 소리도 들리는 것 같아요."
+  onset: "약 1개월 전"
+  location:
+    initial: "목구멍"
+    current: "가슴 전체"
+  duration:
+    onset_pattern: "간헐적"
+    recent_course: "최근 일주일간 빈도와 강도가 증가함"
+  course: "주로 밤이나 새벽에 악화되며, 낮에는 비교적 괜찮다. 최근 미세먼지가 심한 날 외출 후 증상이 더 심해졌다."
+  experience_prev_episodes:
+    frequency: "어릴 때 비슷한 증상이 있었으나 성장하며 호전됨"
+    trigger: "감기, 먼지"
+    symptoms: "기침, 쌕쌕거림"
+  character_of_symptom:
+    quality: "발작적이고 마른 기침, 숨을 내쉴 때 쌕쌕거리는 소리(천명음)"
+    nrs_score: "6 (증상 발생 시)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "누운 자세, 특히 밤"
+      - "찬 공기, 먼지"
+      - "운동"
+    alleviating: "상체를 세우고 앉아 있으면 조금 나아짐"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "알레르기 비염, 아토피 피부염"
+    allergies: "집먼지진드기, 고양이 털"
+  medication_history:
+    taken:
+      - "항히스타민제 (필요시 복용)"
+    source: "이비인후과"
+    effect: "콧물, 재채기에는 효과 있으나 기침에는 별 효과 없음"
+  social_history:
+    job: "대학원생"
+    stress: "논문 준비로 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "어머니가 천식을 앓고 있음"
+  female_history: "월경 주기 규칙적"
+physical_exam:
+  general: "만성 병색은 없으나, 대화 중 가끔 숨을 깊게 들이쉬는 모습 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호기 시 양쪽 폐 전반에 걸쳐 천명음(wheezing)이 청진됨. 강제 호기 시 더 뚜렷해짐. 수포음(crackle)은 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "특이 소견 없음."
+standardized_patient_questions: "이거 그냥 감기 오래 가는 거 아닌가요? 평생 약을 먹어야 하나요? 운동은 하면 안되나요?"
+specific_remarks: "진찰실에 있는 동안에는 증상이 심하지 않을 수 있다. 하지만 의사가 심호흡을 시키거나 강제 호기를 유도하면 기침을 하거나 천명음이 뚜렷해진다."

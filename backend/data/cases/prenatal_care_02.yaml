@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (전자간증/자간전증)"
+patient_info:
+  name: "이수현"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "머리가 아프고 눈이 침침함"
+vital_signs:
+  blood_pressure: "150/100mmHg"
+  pulse: "92회/분"
+  respiration: "20회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전자간증 (자간전증)"
+    - "임신성 고혈압"
+    - "만성 고혈압의 악화"
+  necessary_tests:
+    - "24시간 소변 단백 정량 검사"
+    - "일반 혈액 검사 (혈소판 수치 확인)"
+    - "간기능 검사 및 신기능 검사"
+  necessary_treatments:
+    - "절대 안정 및 입원 치료"
+    - "혈압 강하제 투여"
+    - "경련 예방을 위한 황산마그네슘(MgSO4) 정맥 주사 고려"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "어제부터 갑자기 머리가 띵하게 아프고, 눈앞이 가끔 번쩍거리는 것 같아요. 임신 32주차인데 괜찮은 건가요?"
+  onset: "1일 전"
+  location:
+    initial: "머리 전체, 눈"
+    current: "머리 전체, 눈"
+  duration:
+    onset_pattern: "갑작스럽게 발생"
+    recent_course: "지속됨"
+  course: "정기진찰 예약일이 다음주인데, 두통이 진통제를 먹어도 나아지지 않고 시야 증상이 동반되어 불안한 마음에 병원에 방문함."
+  experience_prev_episodes:
+    frequency: "없음 (초산)"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "지끈거리는 두통, 눈앞에서 불빛이 번쩍이는 느낌(photopsia)"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "1회 있었음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true # 소변량이 줄어든 것 같다고 느낌
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "밝은 빛을 볼 때"
+    alleviating: "누워있으면 약간 덜함"
+  health_check_history:
+    last_checkup: "4주 전 산전 진찰 (당시 혈압 120/75mmHg, 소변검사 정상)"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 알러지"
+  medication_history:
+    taken:
+      - "타이레놀 1알 (어젯밤)"
+    source: "자가 복용"
+    effect: "별다른 효과 없었음"
+  social_history:
+    job: "교사"
+    stress: "업무 스트레스 다소 있음"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "임신 후 중단"
+    recent_weight_change: "최근 1주간 2kg 급격히 증가"
+  family_history: "특이사항 없음"
+  female_history: "G1P0, LMP: 약 8개월 전, EDC: 8주 후, 임신 32주"
+physical_exam:
+  general: "급성 병색, 불안한 표정."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심잡음 없음."
+  abdomen:
+    inspection: "임신 32주에 합당한 크기"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: true # 명치 부위 통증 호소
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "양쪽 다리에 pitting edema (2+)"
+standardized_patient_questions: "제가 왜 이렇게 아픈 건가요? 혈압이 높다는데, 약을 먹어야 하나요? 아기한테는 괜찮을까요?"
+specific_remarks: "환자는 두통과 시야 이상을 명확하게 호소하며, 명치 통증을 누를 때 '윽' 소리를 내며 아파한다. 최근 체중 증가와 부종에 대해 언급하며 걱정스러운 모습을 연기한다. 의사의 설명에 집중하며 불안해하는 태도를 보인다."

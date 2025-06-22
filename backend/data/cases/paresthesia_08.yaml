@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (일과성 뇌허혈 발작)"
+patient_info:
+  name: "이강민"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "오늘 아침 30분 동안 오른쪽 팔다리에 마비가 왔다가 풀림"
+vital_signs:
+  blood_pressure: "160/95mmHg"
+  pulse: "92회/분, 불규칙함"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "일과성 뇌허혈 발작 (Transient ischemic attack, TIA)"
+    - "복합 부분 발작 (Complex partial seizure)"
+    - "편두통 조짐 (Migraine aura)"
+  necessary_tests:
+    - "뇌 MRI 및 MRA (확산강조영상 포함)"
+    - "심전도 및 24시간 홀터 모니터링"
+    - "심장 초음파"
+  necessary_treatments:
+    - "즉시 입원하여 뇌졸중 위험 평가"
+    - "항혈소판제 또는 항응고제 투여"
+    - "기저질환(고혈압, 심방세동) 적극적 관리"
+history:
+  sex_age: "남성/68"
+  chief_complaint_verbatim: "오늘 아침에 신문을 보는데 갑자기 오른쪽 팔다리에 힘이 쭉 빠지면서 감각이 없어졌어요. 말도 어눌하게 나왔고요. 그런데 한 30분 지나니까 거짓말처럼 다 괜찮아졌습니다. 지금은 멀쩡해요."
+  onset: "4시간 전"
+  location:
+    initial: "오른쪽 팔, 다리, 입 주변"
+    current: "증상 없음"
+  duration:
+    onset_pattern: "매우 급성"
+    recent_course: "약 30분 지속 후 완전 회복"
+  course: "오늘 아침 8시경, 소파에 앉아 신문을 보던 중 갑자기 발생. 오른쪽 팔을 들 수 없었고, 다리도 움직일 수 없었음. 아내에게 말을 하려는데 발음이 뭉개져서 제대로 말이 나오지 않음. 오른쪽 입 주변 감각도 둔해짐. 당황해서 119를 부르려던 차에 서서히 증상이 풀리기 시작하여 8시 30분경에는 완전히 정상으로 돌아옴. 지금은 아무렇지도 않지만 걱정되어 병원에 옴."
+  experience_prev_episodes:
+    frequency: "처음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "힘이 빠지고 감각이 마비되는 느낌"
+    nrs_score: "0 (현재 증상 없음)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "시간이 지나면서 저절로 호전됨"
+  health_check_history:
+    last_checkup: "1년 전, 고혈압, 고지혈증"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증, 심방세동 (진단만 받고 약물 복용은 간헐적으로 함)"
+    allergies: "페니실린 알러지"
+  medication_history:
+    taken:
+      - "고혈압약, 고지혈증약"
+    source: "내과"
+    effect: "혈압이 괜찮은 것 같아서 요즘은 잘 안 챙겨 먹었음"
+  social_history:
+    job: "은퇴"
+    stress: "적음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "20년 전 금연"
+    exercise: "매일 30분씩 산책"
+    recent_weight_change: "없음"
+  family_history: "아버지가 뇌졸중으로 돌아가심"
+  female_history: ""
+physical_exam:
+  general: "불안해 보이지만, 현재 신경학적 이상은 관찰되지 않음. 의식 명료."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "심음이 불규칙하게 들림 (irregularly irregular). 호흡음은 깨끗함."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "사지 근력, 감각, 심부건반사, 소뇌기능 검사 모두 정상. 양측 바빈스키 징후 음성."
+standardized_patient_questions: "지금은 완전히 괜찮은데, 꼭 병원에 입원해야 하나요? 그냥 약만 타가면 안 될까요? 이게 진짜 뇌졸중의 전조증상인가요?"
+specific_remarks: "환자는 현재 증상이 전혀 없다는 점을 계속 강조하며, 입원이나 정밀 검사의 필요성에 대해 회의적인 태도를 보인다. '별일 아니었는데 괜히 왔다'는 식의 말을 하지만, 아버지가 뇌졸중으로 돌아가셨다는 얘기를 할 때는 목소리가 약간 떨리며 불안감을 내비친다. 의사가 뇌졸중의 위험성을 설명하면 심각하게 받아들이는 모습을 연기한다."

@@ -1,0 +1,117 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (항문 열창)"
+patient_info:
+  name: "오지현"
+  age: 25
+  sex: "여성"
+  presenting_complaint: "배변 시의 심한 통증과 출혈"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "항문 열창 (Anal fissure)"
+    - "혈전성 외치핵"
+    - "항문 주위 농양"
+  necessary_tests:
+    - "항문 시진 및 조심스러운 직장 수지 검사"
+    - "필요시 항문경 검사"
+    - "만성적인 경우 내압 검사 고려"
+  necessary_treatments:
+    - "온수 좌욕"
+    - "고섬유 식이 및 수분 섭취"
+    - "국소 연고(혈관확장제 또는 스테로이드) 도포"
+history:
+  sex_age: "여/25"
+  chief_complaint_verbatim: "화장실 가는 게 너무 무서워요. 변 볼 때마다 항문이 찢어지는 것처럼 아프고 휴지에 피가 묻어 나와요. 변비도 더 심해졌어요."
+  onset: "약 1개월 전"
+  location:
+    initial: "항문"
+    current: "항문"
+  duration:
+    onset_pattern: "급성 발생"
+    recent_course: "악화와 호전 반복"
+  course: "한 달 전 다이어트를 시작하며 식사량을 줄인 후 변비가 생겼다. 억지로 딱딱한 변을 보다가 항문이 찢어지는 듯한 날카로운 통증을 느꼈고, 이후 배변 시마다 통증과 함께 휴지에 선홍색 피가 묻어 나왔다. 통증 때문에 배변을 참게 되어 변비가 더 심해지는 악순환이 반복되고 있다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "날카롭게 찢어지는 듯한 통증"
+    nrs_score: "8-9 (배변 시)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "배변 시, 특히 딱딱한 변을 볼 때"
+    alleviating: "배변 후 시간이 지나면"
+  health_check_history:
+    last_checkup: "해당 없음"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학원생"
+    stress: "논문 스트레스 많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "잘 하지 않음"
+    recent_weight_change: "최근 한 달간 3kg 감량"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "불안해 보이며 통증에 대해 걱정함"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      no_tenderness: true
+  cvat: "좌우 음성"
+  extremity: "정상"
+  # 항문 검사 파트 추가
+  anorectal_exam:
+    inspection: "환자를 좌측위로 눕히고 엉덩이를 벌렸을 때, 후방 정중선(posterior midline)에 선상의 궤양이 관찰됨. 주변 피부에 피부 꼬리(sentinel pile) 관찰됨."
+    palpation: "통증이 심하여 직장 수지 검사는 시행하지 않음."
+standardized_patient_questions: "항문이 찢어진 건가요? 이거 수술해야 하나요? 앞으로 계속 이럴까 봐 너무 무서워요."
+specific_remarks: "환자는 배변에 대한 공포심을 강하게 표현한다. 항문 부위 진찰을 매우 두려워하며, 의사가 진찰을 시도할 때 통증을 호소하며 몸을 움츠린다."

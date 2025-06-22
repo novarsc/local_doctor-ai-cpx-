@@ -1,0 +1,116 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (알레르기 비염)"
+patient_info:
+  name: "박지수"
+  age: 24
+  sex: "여성"
+  presenting_complaint: "봄만 되면 콧물, 재채기, 코막힘이 심해짐"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "76회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알레르기 비염 (계절성)"
+    - "혈관운동성 비염"
+    - "만성 부비동염의 급성 악화"
+  necessary_tests:
+    - "알레르기 항원 검사 (피부반응검사 또는 혈액검사)"
+    - "비강 내시경 검사"
+    - "필요 시 부비동 X-ray 또는 CT"
+  necessary_treatments:
+    - "항원 회피 요법 (예: 마스크 착용, 공기청정기 사용)"
+    - "약물 치료 (경구 항히스타민제, 비강 내 스테로이드 분무제)"
+    - "면역 치료 (장기적인 관리가 필요할 경우 고려)"
+history:
+  sex_age: "여성/24"
+  chief_complaint_verbatim: "매년 4-5월만 되면 미치겠어요. 콧물이 물처럼 흐르고 재채기가 연달아 나와요. 눈도 너무 가렵고요."
+  onset: "약 2주 전부터"
+  location:
+    initial: "코, 눈"
+    current: "코, 눈"
+  duration:
+    onset_pattern: "매년 봄철에 반복적으로 발생"
+    recent_course: "최근 며칠간 꽃가루가 많이 날려서인지 증상이 더 심해짐"
+  course: "아침에 일어났을 때 특히 심하며, 야외 활동 시 악화됨"
+  experience_prev_episodes:
+    frequency: "고등학생 때부터 매년 봄마다 경험"
+    trigger: "꽃가루, 먼지"
+    symptoms: "맑은 콧물, 발작적인 재채기, 코막힘, 눈/코 가려움증"
+  character_of_symptom:
+    quality: "발작적으로 연달아 하는 재채기, 주체할 수 없는 맑은 콧물"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "야외 활동"
+      - "아침 기상 시"
+      - "창문을 열 때"
+    alleviating: "실내에 있거나 샤워 후"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "어릴 때 아토피 피부염 앓았었음"
+    allergies: "복숭아 알레르기"
+  medication_history:
+    taken:
+      - "지르텍 (Cetirizine)"
+    source: "약국에서 구매"
+    effect: "복용하면 2-3시간 정도는 괜찮아짐"
+  social_history:
+    job: "대학생"
+    stress: "시험 기간이라 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "어머니가 비염이 있으심"
+  female_history: "LMP 1주 전, 주기 규칙적"
+physical_exam:
+  general: "코와 눈 주변을 자주 만지는 모습. 피곤해 보임."
+  heent:
+    sclera: "양안 충혈 소견"
+    oral_mucosa: "정상"
+    # 추가 소견: Allergic shiner(눈 밑 다크서클), 비강 내시경 상 창백하고 부어있는 하비갑개 점막 관찰됨
+  chest: "청진상 호흡음 깨끗함"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "이거 평생 이렇게 살아야 하나요? 약 말고 다른 치료법은 없나요? 왜 저만 이렇게 유난히 심한 것 같죠?"
+specific_remarks: "환자는 대화 중 코를 킁킁거리거나 재채기를 1-2회 할 수 있다. 눈이 가려운 듯 자주 비빈다."

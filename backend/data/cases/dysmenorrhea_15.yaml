@@ -1,0 +1,112 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (자궁내막증식증)"
+patient_info:
+  name: "송미란"
+  age: 51
+  sex: "여성"
+  presenting_complaint: "생리가 불규칙하고 양이 많아요."
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁내막증식증 (Endometrial Hyperplasia)"
+    - "비정상 자궁출혈 (폐경이행기)"
+    - "자궁내막암"
+  necessary_tests:
+    - "질식 초음파 (자궁내막 두께 측정)"
+    - "자궁내막 조직검사 (흡인생검 또는 소파술)"
+    - "혈액검사 (CBC, 빈혈 유무 확인)"
+  necessary_treatments:
+    - "프로게스틴 요법 (경구 또는 자궁 내 장치)"
+    - "비정형 세포 동반 시 자궁절제술 고려"
+    - "정기적인 추적 조직검사"
+history:
+  sex_age: "여성/51"
+  chief_complaint_verbatim: "폐경이 되려는지 생리를 두세 달에 한 번씩 하는데, 한 번 시작하면 열흘 넘게 하고 양도 엄청 많아요."
+  onset: "약 1년 전부터"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "생리 주기가 불규칙해짐"
+    recent_course: "최근 출혈 양과 기간이 더 늘어남"
+  course: "희발월경과 월경과다가 동반된 양상"
+  experience_prev_episodes:
+    frequency: "2-3개월에 한 번"
+    trigger: ""
+    symptoms: "불규칙 과다 자궁출혈"
+  character_of_symptom:
+    quality: "해당 없음. 통증은 별로 없음."
+    nrs_score: "1-2점"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 전단계, 비만"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "주부"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+    smoking:
+      is_smoker: false
+    exercise: "거의 안함"
+    recent_weight_change: "최근 몇 년간 10kg 증가 (BMI 31)"
+  family_history: "어머니 유방암, 언니 자궁내막암 병력 있음"
+  female_history:
+    menarche: "12세"
+    lmp: "2개월 전"
+    cycle: "불규칙 (2-3개월 주기)"
+    duration: "10-14일"
+    amount: "매우 많음"
+    dysmenorrhea: "없음"
+    menopause_age: "해당 없음 (폐경이행기)"
+    obgyn_visits: "오래됨"
+    sexual_history: "기혼"
+    pregnancy_history: "G0P0 (불임)"
+physical_exam:
+  general: "비만 체형. 안색이 다소 창백함."
+  heent:
+    sclera: "Anicteric"
+    conjunctiva: "Pale"
+  chest: "Clear"
+  abdomen: "Obese, soft, non-tender"
+  pelvic_exam:
+    speculum: "Normal cervix and vagina"
+    bimanual: "Uterus is normal size, mobile, non-tender. Adnexa are non-palpable."
+  cvat: "양측 음성"
+  extremity: "No edema"
+standardized_patient_questions: "나이가 들어서 그냥 이러는 거 아닌가요? 폐경 전에는 다들 이렇다고 하던데. 암 가족력이 있는데 저도 암일 가능성이 높을까요? 꼭 조직검사를 해야 하나요? 아플 것 같아요."
+specific_remarks: "폐경이행기의 자연스러운 증상으로 치부하려는 경향을 보인다. 하지만 가족력 때문에内心으로는 암에 대한 두려움이 크다. 조직검사에 대한 두려움과 통증에 대한 걱정을 표현한다."

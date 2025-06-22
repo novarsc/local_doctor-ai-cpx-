@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "18"
+title: "실전 모의 증례 (만성 경막하 출혈, Chronic Subdural Hematoma)"
+patient_info:
+  name: "이강산"
+  age: 85
+  sex: "남성"
+  presenting_complaint: "한 달 전부터 자꾸 졸려하고 걸음걸이가 이상해짐"
+vital_signs:
+  blood_pressure: "140/80mmHg"
+  pulse: "75회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 경막하 출혈"
+    - "정상압 수두증"
+    - "뇌종양"
+  necessary_tests:
+    - "뇌 CT 또는 MRI"
+    - "혈액 검사 (혈액 응고 검사 포함)"
+    - "신경학적 정밀 검진"
+  necessary_treatments:
+    - "수술적 치료 (천두술을 통한 혈종 배액술)"
+    - "필요시 항경련제 사용"
+    - "재활 치료"
+history:
+  sex_age: "남성/85세"
+  chief_complaint_verbatim: "아버님이 한 달 전쯤부터 계속 졸려만 하시고, 말씀도 어눌해지셨어요. 최근엔 자꾸 한쪽으로 넘어지려고 하세요."
+  onset: "약 1개월 전"
+  location:
+    initial: "머리"
+    current: "머리, 전신"
+  duration:
+    onset_pattern: "수 주에 걸쳐 서서히 진행"
+    recent_course: "점점 악화"
+  course: "한 달 전부터 낮잠 자는 시간이 늘고, 밤에도 일찍 주무시는 등 수면 시간이 늘어남. 2주 전부터 두통을 간헐적으로 호소하고, 성격이 온순했는데 짜증이 늘어남. 1주 전부터는 걸을 때 좌측으로 자꾸 기울고, 오른손으로 물건을 잘 떨어뜨림. 오늘 아침에는 불러도 멍하니 있다가 다시 잠드는 모습이 심해져 내원."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "기면, 인지기능 저하, 편측 위약감"
+    nrs_score: 3
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "6개월 전"
+    endoscopy_finding: "특이 소견 없음"
+  trauma_history: "한 달 반 전, 화장실에서 미끄러져 머리를 가볍게 부딪힌 적이 있으나 당시에는 괜찮았다고 함."
+  past_medical_history:
+    underlying_disease: "고혈압, 심방세동"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Aspirin, Warfarin"
+    source: "순환기내과"
+    effect: "꾸준히 복용 중"
+  social_history:
+    job: "무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "거의 안함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "의식은 기면 상태. 반응이 느리고, 시간, 장소 지남력 저하됨. 뇌 위축으로 인한 노인성 외모."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "심음 불규칙. 호흡음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "우측 상하지 근력 저하 (Grade 4/5). 우측 Pronator drift 양성. 우측 Babinski's sign 양성."
+standardized_patient_questions: "아버님이 왜 갑자기 치매 증상처럼 변하신 건가요? 한 달 전에 머리 부딪힌 거랑 관련이 있을까요? 항응고제 먹는 것도 영향이 있나요?"
+specific_remarks: "환자는 졸려하고, 반응이 매우 느린 모습을 연기한다. 우측 편마비가 명확하지는 않지만 미세하게 나타나는 것을 보여줘야 한다 (예: 팔 들어올리기 검사에서 우측 팔이 서서히 내려감). 한 달 반 전의 경미한 두부 외상력을 보호자가 기억해내서 말하는 것이 중요한 단서가 된다."

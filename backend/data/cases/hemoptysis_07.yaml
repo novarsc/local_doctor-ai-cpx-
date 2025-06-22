@@ -1,0 +1,113 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (아스페르길루스종)"
+patient_info:
+  name: "강철민"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "간헐적인 다량의 객혈"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "아스페르길루스종 (Aspergilloma)"
+    - "결핵 재발"
+    - "기관지확장증"
+  necessary_tests:
+    - "흉부 X-ray 및 흉부 CT"
+    - "혈청 아스페르길루스 항체 검사 (Aspergillus precipitin test)"
+    - "객담 곰팡이 배양 검사"
+  necessary_treatments:
+    - "증상이 없거나 경미하면 경과 관찰"
+    - "객혈이 반복되거나 심하면 기관지 동맥 색전술 고려"
+    - "외과적 절제술 또는 항진균제 치료 고려"
+history:
+  sex_age: "남성/58"
+  chief_complaint_verbatim: "몇 달에 한 번씩 갑자기 피를 한 컵 정도 토해요. 평소엔 괜찮은데, 갑자기 이러니 너무 무섭습니다."
+  onset: "첫 객혈은 1년 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "간헐적, 갑작스럽게 발생"
+    recent_course: "최근 1주 전에 다량의 객혈이 있었고, 오늘은 소량의 객혈이 있었음"
+  course: "평소에는 기침이나 가래가 거의 없음. 1년 전부터 3-4개월에 한 번씩 갑자기 기침과 함께 다량의 선홍색 피를 쏟아냄. 한 번 객혈을 하고 나면 며칠간은 가래에 피가 조금 섞여 나오다가 이내 멎음."
+  experience_prev_episodes:
+    frequency: "3~4개월에 1회"
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "가슴 답답함과 함께 갑작스러운 기침, 이후 다량의 객혈"
+  character_of_symptom:
+    quality: "선홍색의 깨끗한 피를 종이컵 반 컵~한 컵 정도 쏟아냄 (massive hemoptysis)"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "안정을 취하면 멎음"
+  health_check_history:
+    last_checkup: "작년 국가검진"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "30년 전 폐결핵 진단받고 1년간 약물 치료 완료"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "자영업 (과일 가게)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: true
+      amount: "30갑년"
+      cessation_period: "결핵 치료 시 1년간 금연했다가 다시 피움"
+    exercise: "별도로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "객혈이 없는 시점이라 전반적인 상태는 양호해 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "과거 결핵을 앓았던 왼쪽 폐 상엽(Left upper lobe)에서 호흡음이 감소되어 있고, 간헐적으로 수포음이 들릴 수 있음. 그 외 특이소견 없음."
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "옛날에 앓았던 결핵이 재발한 건가요? 피를 이렇게 많이 쏟는데 괜찮을까요? 수술해야 하나요?"
+specific_remarks: "평소 증상이 없다는 점을 강조. 다량의 객혈 경험에 대해 매우 불안해하는 모습을 보일 것. '결핵' 병력을 명확하게 진술. 학생이 결핵과 현재 증상의 연관성을 물으면 '오래전 일이라 다 나은 줄 알았다'고 대답."

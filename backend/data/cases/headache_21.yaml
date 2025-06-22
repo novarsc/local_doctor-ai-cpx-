@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "21"
+title: "실전 모의 증례 (만성 긴장형 두통)"
+patient_info:
+  name: "오수정"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "거의 매일, 하루 종일 지속되는 머리가 무거운 느낌"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "74회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 긴장형 두통"
+    - "약물 과용 두통"
+    - "우울증 또는 불안장애에 동반된 신체 증상"
+  necessary_tests:
+    - "자세한 병력 청취 및 두통 일지 작성"
+    - "우울/불안 척도 검사(PHQ-9, GAD-7) 고려"
+    - "신경학적 이상이 없을 경우 영상 검사는 불필요할 수 있음"
+  necessary_treatments:
+    - "예방적 약물 치료: 아미트립틸린(Amitriptyline) 등 삼환계 항우울제가 일차 선택"
+    - "비약물적 치료: 인지행동치료, 이완 요법, 바이오피드백"
+    - "규칙적인 유산소 운동 및 스트레스 관리"
+history:
+  sex_age: "여성/52"
+  chief_complaint_verbatim: "언제부터인지도 모르겠어요. 거의 매일 머리가 안 아픈 날이 없어요. 멍하고 무겁고... 그냥 이게 제 일상이 된 것 같아요."
+  onset: "수년 전부터. 최근 1년 사이 더 심해짐."
+  location:
+    initial: "양쪽 관자놀이"
+    current: "머리띠를 두른 것처럼 머리 전체, 뒷목까지 뻐근함"
+  duration:
+    onset_pattern: "점진적으로 발생하여 만성화됨"
+    recent_course: "통증이 없는 날이 한 달에 며칠 안 됨"
+  course: "아침에 일어나면 괜찮다가도, 오후가 되면 어김없이 시작되어 하루 종일 지속됨. 강도의 변화는 있음."
+  experience_prev_episodes:
+    frequency: "월 15일 이상, 거의 매일"
+    trigger: "스트레스, 피로"
+    symptoms: "현재와 동일"
+  character_of_symptom:
+    quality: "압박감, 조이는 느낌, 머리가 무거움 (비박동성)"
+    nrs_score: "3-4"
+    radiation: "어깨, 목"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    mood:
+      depressed_mood: "요즘 계속 기분이 우울하고 아무것도 하기 싫음"
+      anhedonia: "예전에 즐겁던 일도 재미가 없음"
+      sleep_disturbance: "자주 깨고, 아침에 일찍 눈이 떠짐"
+  factors:
+    aggravating:
+      - "신경 쓰는 일이 있을 때"
+      - "오후, 저녁 시간"
+    alleviating: "크게 없음. 그냥 참고 지냄."
+  health_check_history:
+    last_checkup: "6개월 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 진통제 (타이레놀)"
+    source: "약국"
+    effect: "별 효과를 못 느낌. 한 달에 4-5번 정도만 복용 (약물과용두통 감별점)"
+  social_history:
+    job: "주부"
+    stress: "자녀 문제와 남편과의 관계로 스트레스가 많음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "3년 전 폐경"
+physical_exam:
+  general: "표정이 어둡고 전반적으로 기운이 없어 보임. 만성 피로 호소."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  neurology:
+    mental_status: "Alert. Mood is depressed. Affect is flat."
+    cranial_nerves: "정상"
+    motor_sensory_reflexes: "정상"
+  musculoskeletal:
+    pericranial_tenderness: "양측 두피, 측두근, 승모근 촉진 시 압통"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "이 두통은 평생 안고 가야 하나요? 왜 약을 먹어도 낫지를 않죠? 제가 우울해서 머리가 아픈 건가요, 머리가 아파서 우울한 건가요?"
+specific_remarks: "환자는 두통의 강도가 아주 심하지는 않지만, 거의 매일 지속된다는 점을 강조한다. 통증을 표현할 때 '아프다' 보다는 '무겁다', '답답하다', '멍하다' 등의 표현을 자주 사용한다. 두통에 대해 이야기하면서 자연스럽게 자신의 우울감, 불면, 무기력함 등 정서적인 어려움을 토로한다. 삶의 질이 매우 떨어져 있음을 표현한다."

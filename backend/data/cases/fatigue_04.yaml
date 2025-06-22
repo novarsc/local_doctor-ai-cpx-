@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (폐쇄성 수면무호흡증)"
+patient_info:
+  name: "이강민"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "만성 피로와 주간 졸림증"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐쇄성 수면무호흡증"
+    - "기면증"
+    - "만성 피로 증후군"
+  necessary_tests:
+    - "수면다원검사 (Polysomnography)"
+    - "Epworth 졸림 척도(ESS) 등 설문조사"
+    - "고혈압, 당뇨 등 동반 질환에 대한 검사"
+  necessary_treatments:
+    - "지속적 양압 환기 (CPAP) 치료"
+    - "체중 감량 및 생활 습관 교정 (금주, 옆으로 자기 등)"
+    - "필요시 구강 내 장치 또는 수술적 치료 고려"
+history:
+  sex_age: "남성/52"
+  chief_complaint_verbatim: "밤에 8시간씩 자는데도 아침에 일어나면 머리가 띵하고 낮에 너무 졸려서 힘들어요. 회의 시간에 꾸벅꾸벅 졸아서 혼난 적도 많습니다."
+  onset: "수년 전부터 그랬으나 최근 1년 사이 악화"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "서서히 악화"
+    recent_course: "최근 운전 중 졸 뻔한 적이 있어 심각성을 느낌"
+  course: "몇 년 전부터 코골이가 심하다는 얘기를 들었고, 아침에 일어나도 개운한 느낌이 없었다. 최근 체중이 늘면서 증상이 더 심해졌고, 낮 동안의 졸음 때문에 업무 집중력이 현저히 떨어졌다."
+  experience_prev_episodes:
+    frequency: "매일"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "충분히 잔 것 같지 않은 피로감, 안개가 낀 듯한 머리"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음주 후 다음 날"
+      - "바로 누워 잘 때"
+    alleviating: "옆으로 누워 자면 코골이가 좀 덜하다고 함"
+  health_check_history:
+    last_checkup: "6개월 전 직장 검진"
+    endoscopy_finding: "고혈압, 당뇨 전단계 진단받음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨 전단계"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (amlodipine)"
+    source: "내과 처방"
+    effect: "혈압 조절 중"
+  social_history:
+    job: "중소기업 부장"
+    stress: "관리자로서 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "-"
+    exercise: "거의 안 함"
+    recent_weight_change: "지난 1년간 8kg 증가"
+  family_history: "아버지가 고혈압, 뇌졸중으로 돌아가심"
+  female_history: "-"
+physical_exam:
+  general: "비만 체형 (BMI 31 kg/m²). 의식 명료하나 다소 졸려 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "입을 벌렸을 때 목젖이 잘 보이지 않고 혀가 큼 (Mallampati class IV). 편도가 비대하지는 않음."
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "복부 비만 관찰됨."
+    auscultation: "장음 정상."
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음."
+standardized_patient_questions: "저는 그냥 코 좀 고는 것뿐인데, 이게 피곤한 거랑 관련이 있나요? 병원에서 자면서 하는 검사는 꼭 해야 하나요? 좀 번거로울 것 같은데..."
+specific_remarks: "대화 도중 하품을 하거나 눈을 자주 비빈다. 배우자가 '자다가 숨을 컥 하고 멈췄다가 푸- 하고 몰아쉰다'고 말했다는 정보를 제공한다 (학생이 질문 시). 목이 짧고 굵은 체형을 연기한다."

@@ -1,0 +1,113 @@
+---
+chapter: "관절.근골격.피부"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (옴)"
+patient_info:
+  name: "최다인"
+  age: 78
+  sex: "여성"
+  presenting_complaint: "밤에 심해지는 극심한 가려움증"
+vital_signs:
+  blood_pressure: "140/80mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "옴 감염증"
+    - "노인성 소양증"
+    - "아토피 피부염"
+  necessary_tests:
+    - "현미경 검사 (피부 긁어내기)"
+    - "필요시 피부 조직 검사"
+  necessary_treatments:
+    - "퍼메트린 연고 또는 린단 로션 전신 도포"
+    - "가려움증 조절을 위한 항히스타민제"
+    - "가족 및 접촉자 동시 치료 및 환경 소독 교육"
+history:
+  sex_age: "여성/78"
+  chief_complaint_verbatim: "한 달 전부터 온몸이 미친 듯이 가려워요. 특히 밤에 이불만 덮으면 더 심해져서 잠을 한숨도 못 자요. 우리 영감도 같이 가렵다고 하네요."
+  onset: "1개월 전"
+  location:
+    initial: "손가락 사이, 겨드랑이"
+    current: "전신 (얼굴 제외)"
+  duration:
+    onset_pattern: "서서히"
+    recent_course: "점점 심해짐"
+  course: "처음에는 손가락 사이가 가렵기 시작하더니, 점차 몸 전체로 퍼져나갔다. 낮보다는 밤에 가려움증이 훨씬 심하다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "밤에 악화되는 극심한 가려움증"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밤 시간"
+      - "따뜻한 환경 (이불 속)"
+    alleviating: "긁을 때 (일시적)"
+  health_check_history:
+    last_checkup: "2년 전, 골다공증, 고혈압"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 골다공증약"
+    source: "내과 처방"
+    effect: "잘 조절됨"
+  social_history:
+    job: "무직 (노인정 자주 다님)"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "매일 30분 산책"
+    recent_weight_change: "없음"
+  family_history: "남편도 약 2주 전부터 가렵기 시작함"
+  female_history: "폐경 25년 전"
+physical_exam:
+  general: "수면 부족으로 매우 피곤하고 지쳐 보임. 온몸에 심한 긁은 자국이 있음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and clear"
+  chest: "clear breath sounds bilaterally"
+  abdomen:
+    inspection: "배꼽 주위, 서혜부에 다수의 긁은 자국과 작은 붉은 구진이 산재함."
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "손가락 사이, 손목 굽힘쪽, 겨드랑이에 특징적인 굴(burrow)이 여러 개 관찰됨. 굴 끝에는 작은 수포나 구진이 있음. 전반적으로 심한 긁은 자국과 이차적인 습진성 병변이 동반됨."
+standardized_patient_questions: "나이가 들어서 피부가 건조해서 그런 건가요? 왜 밤에만 이렇게 가려운 거죠? 남편도 같이 치료받아야 하나요? 이불이나 옷은 어떻게 해야 해요?"
+specific_remarks: "환자는 가려움으로 인한 고통이 극심함을 연기해야 함. '밤에 악화되는 가려움증'과 '가족 동반 증상'이 진단의 핵심 단서이므로 이를 명확히 진술해야 한다. 신체 진찰 시 손가락 사이의 '굴(burrow)'을 잘 관찰할 수 있도록 협조해야 한다."

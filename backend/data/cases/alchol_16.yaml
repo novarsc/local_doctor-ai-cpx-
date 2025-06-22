@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (알코올 금단)"
+patient_info:
+  name: "정재호"
+  age: 50
+  sex: "남성"
+  presenting_complaint: "손 떨림과 불안"
+vital_signs:
+  blood_pressure: "160/100mmHg"
+  pulse: "120회/분"
+  respiration: "22회/분"
+  temperature: "37.8℃"
+examinee_instructions: "환자는 어제부터 술을 끊기로 결심했다고 말합니다. 증상과 관련된 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 치료 계획(입원 치료 및 금주 유지)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올 금단 증후군"
+    - "불안장애"
+    - "갑상선 기능 항진증"
+  necessary_tests:
+    - "혈액 검사 (전해질, 간기능, 혈당, CBC)"
+    - "CIWA-Ar (Clinical Institute Withdrawal Assessment for Alcohol, revised) 척도를 이용한 평가"
+    - "심전도"
+  necessary_treatments:
+    - "입원 치료 (금단 증상 조절 및 합병증 예방)"
+    - "벤조디아제핀을 이용한 증상 조절 치료"
+    - "수액 및 티아민 등 비타민 공급"
+    - "안전하고 지속적인 금주를 위한 정신건강의학과 연계 상담"
+history:
+  sex_age: "남성/50세"
+  chief_complaint_verbatim: "어제부터 큰맘 먹고 술을 끊었는데, 손이 덜덜 떨리고 불안해서 아무것도 못 하겠어요. 식은땀도 나고 미칠 것 같아요."
+  onset: "마지막 음주 후 약 12시간 뒤"
+  location:
+    initial: "전신, 손"
+    current: "전신, 손"
+  duration:
+    onset_pattern: "서서히 시작되어 점점 심해짐"
+    recent_course: "악화"
+  course: "매일 소주 2-3병씩 마시다가, 건강이 걱정되어 어제 저녁부터 술을 마시지 않았다. 오늘 아침부터 손이 떨리기 시작하더니, 시간이 갈수록 불안감과 초조함이 심해지고 심장이 뛰어 내원함."
+  experience_prev_episodes:
+    frequency: "과거에 술을 줄이려고 할 때마다 비슷하게 경험함"
+    trigger: "금주 시도"
+    symptoms: "손떨림, 불안, 불면"
+  character_of_symptom:
+    quality: "손떨림, 불안, 심계항진, 발한"
+    nrs_score: "없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "있음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+    neurologic: "불면, 악몽"
+  factors:
+    aggravating:
+      - "시간이 지날수록"
+    alleviating: "없음 (술을 마시면 나아질 것 같다고 느낌)"
+  health_check_history:
+    last_checkup: "기억 안남"
+    endoscopy_finding: "알코올성 지방간 진단받은 적 있음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "알코올 의존증, 고혈압"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "실직 상태"
+    stress: "극심함"
+    alcohol:
+      is_drinker: true
+      frequency: "매일"
+      amount: "소주 2-3병/일"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "없음"
+    exercise: "전혀 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "매우 불안정해 보이며, 안절부절못함. 온몸이 땀에 젖어 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+    eyes: "동공 확장"
+  chest: "심한 빈맥, 호흡음은 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양손을 앞으로 뻗게 했을 때 심한 진전(tremor) 관찰됨."
+standardized_patient_questions: "술을 끊으려고 하는데 왜 몸이 더 힘든 건가요? 이거 병원에 입원까지 해야 하는 건가요? 이러다 정말 큰일 나는 거 아닌가요?"
+specific_remarks: "환자는 금단 증상으로 인해 신체적, 정신적으로 매우 고통스러워하는 모습을 연기해야 함. '술 한 잔만 마시면 괜찮아질 것 같다'는 갈망을 표현함. 의사는 현재 증상이 의학적 도움이 필요한 '알코올 금단' 상태임을 명확히 설명하고, 금단 경련이나 섬망과 같은 심각한 합병증으로 진행될 수 있어 입원 치료가 안전하고 필수적임을 강조해야 함. 환자의 금주 의지를 칭찬하고 격려하며, 전문가의 도움을 받으면 안전하게 금주를 시작할 수 있다는 믿음을 심어주는 것이 중요함."

@@ -1,0 +1,119 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (요도 협착)"
+patient_info:
+  name: "박성호"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "소변 줄기가 매우 가늘고 배뇨 시 힘이 많이 듦"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "요도 협착 (Urethral Stricture)"
+    - "전립선비대증 (BPH)"
+    - "신경인성 방광"
+  necessary_tests:
+    - "요속검사 (Uroflowmetry) 및 잔뇨량 측정"
+    - "역행성 요도조영술 (Retrograde Urethrography)"
+    - "요도 내시경 (Urethroscopy)"
+  necessary_treatments:
+    - "내시경적 요도 확장술 또는 내요도 절개술"
+    - "요도 성형술 (Urethroplasty)"
+    - "재발 방지를 위한 정기적 추적 관찰"
+history:
+  sex_age: "남성/55세"
+  chief_complaint_verbatim: "소변이 거의 한 줄기로 안 나오고 여러 갈래로 갈라져서 나와요. 줄기도 너무 가늘어서 변기에 서서 소변보기가 힘듭니다. 시간도 너무 오래 걸리고요."
+  onset: "수년 전부터 서서히 진행"
+  location:
+    initial: "요도"
+    current: "요도"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 1년 사이 급격히 악화"
+  course: "오래전부터 소변 줄기가 약하다고 느꼈지만 나이 탓이라 생각했음. 1년 전부터는 소변 줄기가 눈에 띄게 가늘어지고, 소변이 분무기처럼 흩뿌려져 나오거나 두 갈래로 나옴. 소변을 시작하기까지 시간이 오래 걸리고, 다 보고 나서도 방울방울 떨어지는 증상이 심함. 최근에는 소변을 다 못 봐서 급성 요폐가 올까 봐 걱정됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "매우 약하고 갈라지는 소변 줄기, 배뇨 곤란"
+    nrs_score: "불편감 6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: ""
+  trauma_history: "20년 전 오토바이 사고로 골반 골절 수술. 당시 소변줄(도뇨관)을 한 달가량 하고 있었음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "건설 현장 관리직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "맥주 2-3병"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: ""
+    exercise: "따로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적인 상태 양호. 만성적인 불편감에 대한 표정."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평함. 과거 수술 흉터 없음."
+    auscultation: "장음 정상."
+    percussion: "고창음."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # DRE (Digital Rectal Examination)
+      prostate_size: "Normal size"
+      prostate_consistency: "Firm"
+      prostate_surface: "Smooth"
+      prostate_tenderness: "No tenderness"
+      median_sulcus: "Palpable"
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "왜 소변이 이렇게 나오는 건가요? 전립선 문제인가요? 예전에 다쳤던 것과 관련이 있을까요?"
+specific_remarks: "소변 문제로 인한 사회적 위축감(공중화장실 사용의 어려움 등)을 표현한다. 과거 외상력에 대해 질문하면 잘 기억해서 대답한다. 직장수지검사 소견이 정상이라는 말에 의아해하며, 그럼 원인이 뭐냐고 되묻는다."

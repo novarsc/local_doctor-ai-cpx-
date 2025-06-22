@@ -1,0 +1,117 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (자궁경부암)"
+patient_info:
+  name: "나진희"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "폐경 후 출혈"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁경부암"
+    - "자궁내막암"
+    - "위축성 질염"
+  necessary_tests:
+    - "자궁경부 세포검사 (Pap smear)"
+    - "인유두종 바이러스 (HPV) 검사"
+    - "질확대경 검사 (Colposcopy) 및 조직검사"
+    - "질식 초음파 (자궁내막 두께 확인)"
+  necessary_treatments:
+    - "조직검사 결과에 따른 치료 계획 수립"
+    - "원추절제술, 자궁적출술, 방사선 치료, 항암화학요법 등 병기에 따른 치료"
+history:
+  sex_age: "여성/52"
+  chief_complaint_verbatim: "폐경된 지 2년 됐는데, 얼마 전부터 부부관계만 하면 피가 묻어 나와요. 냄새나는 분비물도 있고요."
+  onset: "약 4개월 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "성관계 후 간헐적으로 발생"
+    recent_course: "최근에는 성관계가 없어도 소량의 출혈이 매일 비침"
+  course: "성교 후 출혈에서 지속적인 부정출혈로 진행"
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "성관계"
+    symptoms: "질 출혈, 악취나는 분비물"
+  character_of_symptom:
+    quality: "통증은 없음. 출혈은 선홍색. 분비물은 묽고 피가 섞여 나옴."
+    nrs_score: "0점"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    other: "최근 들어 허리가 뻐근하고 다리가 붓는 느낌"
+  factors:
+    aggravating:
+      - "성관계"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 이상 받지 않음"
+    endoscopy_finding: "자궁경부암 검사를 한 지 오래됨"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "식당 운영"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일 (30년간)"
+      cessation_period: ""
+    exercise: "안함"
+    recent_weight_change: "최근 6개월간 의도치 않게 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "15세"
+    lmp: "2년 전"
+    cycle: ""
+    duration: ""
+    amount: ""
+    dysmenorrhea: ""
+    menopause_age: "50세"
+    obgyn_visits: "10년 전 출산 후 거의 없음"
+    sexual_history: "기혼"
+    pregnancy_history: "G3P3"
+physical_exam:
+  general: "만성 병색, 약간의 체중 감소 소견"
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear"
+  abdomen: "Soft, non-tender"
+  pelvic_exam:
+    speculum: "Cervix is friable and bleeds easily on contact with the speculum. An ulcerative, exophytic mass of approximately 3cm is noted on the posterior lip of the cervix. Malodorous, serosanguinous discharge present."
+    bimanual: "Uterus normal size. Parametrial involvement is difficult to assess, but seems to be thickened on the left side."
+  cvat: "좌측 양성"
+  extremity: "Mild pitting edema on left leg"
+standardized_patient_questions: "폐경했는데 왜 피가 나는 거죠? 그냥 염증 아닌가요? 꼭 큰 병원에 가봐야 하나요? 식당 일 때문에 바쁜데..."
+specific_remarks: "증상을 대수롭지 않게 여기려는 태도를 보인다. '나이 들면 다 그런 거 아니냐'며 병원에 오는 것을 꺼렸음을 내비친다. '암' 가능성을 암시하면 표정이 굳어지며 말을 잃는다. 5년 이상 검진을 받지 않은 것에 대해 핑계를 댄다. (예: 먹고 살기 바빠서)"

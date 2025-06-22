@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (고칼슘혈증, Hypercalcemia)"
+patient_info:
+  name: "김현숙"
+  age: 63
+  sex: "여성"
+  presenting_complaint: "기운이 없고 멍하며 변비가 심함"
+vital_signs:
+  blood_pressure: "150/90mmHg"
+  pulse: "70회/분"
+  respiration: "14회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "고칼슘혈증 (악성 종양 의심)"
+    - "우울증"
+    - "갑상선 기능 저하증"
+  necessary_tests:
+    - "혈액 검사 (칼슘, 인, PTH, PTHrP, 전해질)"
+    - "심전도 (QT 간격 단축 확인)"
+    - "전신 뼈 스캔, 종양표지자 검사"
+  necessary_treatments:
+    - "신속한 수액 공급 (생리식염수)"
+    - "칼시토닌(Calcitonin) 및 비스포스포네이트(Bisphosphonate) 투여"
+    - "원인(악성 종양 등)에 대한 항암 치료"
+history:
+  sex_age: "여성/63세"
+  chief_complaint_verbatim: "어머니가 한 달 전부터 계속 기운이 없다고만 하시고, 최근엔 멍하니 앉아만 계세요. 변비도 너무 심하고요."
+  onset: "약 1개월 전부터 점진적으로"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "수 주에 걸쳐 서서히 악화"
+    recent_course: "최근 1주일간 급격히 악화"
+  course: "한 달 전부터 피로감, 전신 쇠약감을 호소. 2주 전부터 식욕이 없고, 물을 많이 마시며 소변을 자주 봄. 변비가 심해져 일주일에 한 번도 화장실을 못 갔다고 함. 최근 일주일간은 대부분의 시간을 멍하게 있거나 잠만 자고, 대화가 잘 되지 않음. 등과 허리 통증도 호소함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "의욕 저하, 의식 혼탁, 변비, 뼈 통증"
+    nrs_score: 5
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 전 (유방암 수술 후 추적 관찰 중단)"
+    endoscopy_finding: "모름"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "7년 전 유방암 2기로 수술 및 항암치료 받음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음 (최근 2년간 병원 방문 안함)"
+    source: ""
+    effect: ""
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안함"
+    recent_weight_change: "최근 3개월간 6kg 감소"
+  family_history: "언니가 유방암"
+  female_history: "폐경"
+physical_exam:
+  general: "의식은 기면 상태. 반응이 느리고 감정 표현이 무딤(blunted affect). 전반적으로 쇠약해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "호흡음 정상. 심박수 느림."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "근력 및 심부건반사 전반적으로 저하. 척추를 따라 압통(spinal tenderness) 호소."
+standardized_patient_questions: "엄마가 왜 이렇게 축 처져 계신 건가요? 우울증인가요? 아니면 예전 암이 재발한 건가요?"
+specific_remarks: "환자는 'Bones, stones, groans, thrones, and psychiatric overtones'의 증상을 복합적으로 연기한다. 즉, 뼈 통증, (병력상) 신장 결석 가능성, 복통/변비, 다음/다뇨, 그리고 정신 증상(의식저하, 우울감)을 보인다. 반응이 매우 느리고, 질문에 한참 있다가 힘겹게 대답한다. 유방암 병력을 딸이 이야기해준다."

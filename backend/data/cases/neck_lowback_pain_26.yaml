@@ -1,0 +1,118 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "26"
+title: "실전 모의 증례 (척추 분리성 척추 전방 전위증)"
+patient_info:
+  name: "조민아"
+  age: 49
+  sex: "여성"
+  presenting_complaint: "수년간 지속된 허리 통증과 최근 심해진 다리 저림"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "척추 분리증을 동반한 척추 전방 전위증"
+    - "퇴행성 척추 전방 전위증"
+    - "척추관 협착증"
+  necessary_tests:
+    - "요추 X선 검사 (사위 촬영, 굴곡-신전 촬영)"
+    - "요추 MRI"
+    - "필요시 척추 CT (뼈 구조의 상세한 평가)"
+  necessary_treatments:
+    - "보존적 치료: 코어 근육 강화 운동, 약물 치료, 신경차단술"
+    - "보존적 치료 실패 또는 신경 증상 악화 시 수술적 치료 (감압술 및 유합술)"
+    - "체중 조절 및 생활 습관 개선"
+history:
+  sex_age: "여성/49세"
+  chief_complaint_verbatim: "허리가 오랫동안 안 좋았는데, 요즘엔 엉덩이부터 종아리까지 저리고 당겨서 오래 걷지를 못하겠어요."
+  onset: "허리 통증은 10년 이상, 다리 저림은 1년 전부터"
+  location:
+    initial: "허리"
+    current: "허리, 오른쪽 엉덩이 및 다리"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "다리 증상이 점점 심해짐"
+  course: "20대 때부터 간헐적으로 허리가 아팠음. 10년 전부터는 만성적인 요통이 있었고, 1년 전부터는 걸을 때 오른쪽 엉덩이와 허벅지 뒤쪽, 종아리가 당기고 저리는 증상이 나타남. 최근에는 10분 정도 걸으면 쉬어야 할 정도로 악화됨."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: "오래 서 있거나 걸을 때"
+    symptoms: "비슷한 양상"
+  character_of_symptom:
+    quality: "허리는 뻐근한 통증, 다리는 저리고 당기는 느낌"
+    nrs_score: "6"
+    radiation: "오른쪽 엉덩이, 허벅지 뒤쪽, 종아리"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 서 있거나 걸을 때"
+      - "허리를 뒤로 젖힐 때"
+    alleviating: "앉거나 허리를 숙일 때"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "학창 시절 체조 선수로 활동했음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "정형외과에서 처방받은 진통소염제"
+    source: "의원"
+    effect: "일시적인 효과"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "통증으로 잘 못함"
+    recent_weight_change: "최근 5년간 8kg 증가"
+  family_history: "없음"
+  female_history: "LMP 3개월 전 (폐경 이행기)"
+physical_exam:
+  general: "과체중 양상, 허리 통증으로 약간 부자연스러운 걸음걸이."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, protuberant"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      step-off: "요추 5번(L5) 극돌기 부위 촉진 시 움푹 들어간 느낌(palpable step-off)이 있음."
+      hamstring_tightness: "양쪽 햄스트링이 뻣뻣함."
+      straight_leg_raising_test: "오른쪽 60도에서 허벅지 뒤쪽 통증 유발."
+  cvat: "좌우 음성"
+  extremity: "오른쪽 발목 배측 굴곡 근력 약간 저하 (Grade 4+/5). 오른쪽 종아리 외측 감각 저하."
+standardized_patient_questions: "어릴 때 운동해서 허리가 약해졌나 봐요. 척추뼈가 어긋났다는 말을 들은 적이 있는데, 이게 더 심해진 건가요? 살 빼면 좀 나아질까요?"
+specific_remarks: "오랜 기간의 요통 병력과 최근 발생한 신경근 증상(다리 저림)을 구분하여 설명해야 함. 학창 시절 체조 선수였다는 과거력이 척추 분리증의 중요한 단서가 됨. 진찰 시 의사가 허리를 만지면서 '뼈가 약간 앞으로 밀려난 것 같다'고 설명하면, '예전에 그런 얘기를 들은 적이 있다'고 반응할 수 있음. 신경성 파행과 유사하게 걷거나 서 있으면 악화되고 앉으면 완화되는 증상을 잘 표현해야 함."

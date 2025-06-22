@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (과민성 대장 증후군)"
+patient_info:
+  name: "정다은"
+  age: 24
+  sex: "여성"
+  presenting_complaint: "만성적인 복통과 배변 습관의 변화"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "과민성 대장 증후군 (IBS)"
+    - "염증성 장질환 (초기)"
+    - "기능성 소화불량증"
+  necessary_tests:
+    - "전혈구 검사 및 염증 수치 검사 (CRP)"
+    - "대변 잠혈 검사"
+    - "필요시 대장 내시경 (경고 증상 없으나, 다른 기질적 원인 배제 위해)"
+  necessary_treatments:
+    - "환자 교육 및 안심시키기"
+    - "식이 조절 (저포드맵 식이 등 시도)"
+    - "증상에 따른 약물 치료 (진경제, 지사제/완하제 등)"
+    - "스트레스 관리"
+history:
+  sex_age: "여성/24"
+  chief_complaint_verbatim: "몇 년째 배가 아팠다 안 아팠다 해요. 스트레스 받으면 더 심하고, 화장실을 다녀오면 좀 나아져요. 어쩔 땐 설사를 하고 어쩔 땐 변비가 와요."
+  onset: "고등학생 때부터 증상이 있었고, 대학 입학 후 심해짐"
+  location:
+    initial: "배 전체가 애매하게"
+    current: "주로 아랫배 (하복부)"
+  duration:
+    onset_pattern: "만성적, 간헐적"
+    recent_course: "최근 시험 기간이라 스트레스를 많이 받아 증상이 매일 나타남"
+  course: "증상이 없는 기간도 있고, 심한 기간도 있는 등 변동이 심함"
+  experience_prev_episodes:
+    frequency: "수년간, 스트레스 상황에서 빈번"
+    trigger: "스트레스, 특정 음식 (찬 음식, 기름진 음식), 시험 기간"
+    symptoms: "복통, 복부 팽만감, 설사 또는 변비"
+  character_of_symptom:
+    quality: "아랫배가 쥐어짜는 듯 아픔 (cramping)"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스 (시험, 발표 등)"
+      - "찬 음식이나 기름진 음식 섭취"
+    alleviating: "배변 후에는 통증이 완화됨"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진경제를 가끔 복용함"
+    source: "내과 의원"
+    effect: "복용하면 통증이 조금 가라앉음"
+  social_history:
+    job: "대학생 (취업 준비생)"
+    stress: "취업 문제로 스트레스가 매우 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "필라테스 주 2회"
+    recent_weight_change: "없음"
+  family_history: "언니도 비슷한 증상이 있음"
+  female_history: "LMP 1주 전, 생리 주기에 따라 증상이 악화되는 경향 있음"
+physical_exam:
+  general: "불안해 보이나 전반적인 상태는 양호함"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat, symmetric"
+    auscultation: "hyperactive bowel sounds"
+    percussion: "generalized tympanic sound"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      lower_abdominal_tenderness: "diffuse, mild"
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+standardized_patient_questions: "제 장에 무슨 큰 문제가 있는 건가요? 왜 자꾸 아픈 거죠? 평생 이렇게 살아야 하나요?"
+specific_remarks: "환자는 '배변 후 통증 완화'라는 핵심적인 특징을 명확하게 진술한다. 설사와 변비가 번갈아 나타나는 양상(IBS-mixed type)을 설명한다. 스트레스와 증상의 연관성을 강하게 어필하며, 자신의 상태에 대해 매우 예민하고 걱정스러운 태도를 보인다."

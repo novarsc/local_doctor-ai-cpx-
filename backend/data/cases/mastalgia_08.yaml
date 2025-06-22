@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (지방 괴사)"
+patient_info:
+  name: "송혜란"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "한 달 전 부딪힌 가슴 부위에 딱딱한 멍울이 만져짐"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "지방 괴사"
+    - "유방암"
+    - "혈종"
+  necessary_tests:
+    - "유방 촬영술 및 유방 초음파"
+    - "중심부바늘생검 (암과의 감별을 위해 필수적)"
+    - "필요시 MRI"
+  necessary_treatments:
+    - "조직검사로 암이 아님을 확인하는 것이 가장 중요함"
+    - "대부분의 경우 치료 없이 경과 관찰 시 호전됨"
+    - "통증이 있거나 덩이가 불편할 경우 외과적 절제 고려"
+history:
+  sex_age: "여성/52"
+  chief_complaint_verbatim: "한 달 전쯤 집에서 넘어져서 가슴을 가구 모서리에 세게 부딪혔어요. 멍이 들었다가 빠졌는데, 그 자리에 딱딱한 멍울이 계속 남아있네요. 아프진 않은데 꼭 암 덩어리 같아서 무서워서 왔어요."
+  onset: "외상 후 약 2-3주 뒤부터 멍울 인지"
+  location:
+    initial: "오른쪽 유방 안쪽"
+    current: "오른쪽 유방 내하측"
+  duration:
+    onset_pattern: "외상 후 발생"
+    recent_course: "크기 변화는 거의 없음"
+  course: "외상으로 멍이 들었다가 사라진 후, 해당 부위에 단단한 덩이가 만져지기 시작함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "딱딱하고 울퉁불퉁한 덩이. 통증 없음."
+    nrs_score: "0점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "올해 국가건강검진. 유방촬영술에서 '치밀유방' 소견 외 특이사항 없었음."
+    endoscopy_finding: "해당 없음"
+  trauma_history: "1개월 전 우측 유방에 대한 직접적인 타박상"
+  past_medical_history:
+    underlying_disease: "당뇨병 전단계"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "전업주부"
+    stress: "적음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 3회 수영"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 2년 전 (완전 폐경). 2-0-0-2."
+physical_exam:
+  general: "건강해 보이나, 멍울에 대해 걱정이 많은 모습."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  breast_exam: "오른쪽 유방 8시 방향, 유륜에서 3cm 떨어진 곳에 약 2cm 크기의 매우 단단하고 경계가 불분명한 덩이가 촉진됨. 주변 조직에 고정된 느낌이 있음. 압통은 없음. 덩이 위쪽 피부가 약간 함몰되어 보이는 소견 있음. 겨드랑이 림프절은 촉진되지 않음."
+standardized_patient_questions: "부딪혀서 생긴 게 암이 될 수도 있나요? 만져지는 느낌이 너무 안 좋아요. 꼭 조직검사를 해야만 알 수 있는 건가요?"
+specific_remarks: "환자는 외상력을 명확하게 기억하고 설명함. 신체 진찰 소견(단단하고, 고정된 느낌, 피부 함몰)이 유방암과 유사하여 환자도, 그리고 수험생도 암을 강력히 의심하게 됨. '지방 괴사'라는 진단은 생소해하며, 암이 아니라는 확진을 받기 전까지는 안심하지 못하는 모습을 보임."

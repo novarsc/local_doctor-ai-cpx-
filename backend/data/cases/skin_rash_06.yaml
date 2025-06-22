@@ -1,0 +1,113 @@
+---
+chapter: "관절.근골격.피부"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (체부 백선)"
+patient_info:
+  name: "손흥민"
+  age: 17
+  sex: "남성"
+  presenting_complaint: "등에 생긴 동그란 모양의 발진"
+vital_signs:
+  blood_pressure: "120/70mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "체부 백선 (곰팡이 감염)"
+    - "화폐상 습진"
+    - "장미색 비강진"
+  necessary_tests:
+    - "KOH 도말 검사"
+    - "진균 배양 검사"
+    - "필요시 Wood 등 검사"
+  necessary_treatments:
+    - "항진균제 연고 도포"
+    - "병변이 넓거나 치료에 반응하지 않을 경우 경구 항진균제 복용"
+    - "전염 예방 및 위생 관리 교육"
+history:
+  sex_age: "남성/17"
+  chief_complaint_verbatim: "한 달 전부터 등에 동전 모양으로 빨갛게 뭐가 났는데, 점점 커지면서 테두리만 남고 가운데는 괜찮아지는 것 같아요. 좀 가려워요."
+  onset: "1개월 전"
+  location:
+    initial: "등 중앙"
+    current: "등과 가슴에 여러 개"
+  duration:
+    onset_pattern: "서서히"
+    recent_course: "점점 개수가 늘어나고 커짐"
+  course: "처음에는 작은 붉은 반점으로 시작하여 바깥쪽으로 퍼져나가면서 고리 모양을 형성했다. 가장자리는 붉고 약간 돋아 있으며, 중앙부는 정상 피부색에 가깝게 변했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "가려움"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "운동 후 땀 흘릴 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "올해 초 학생 건강검진, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "집에 있던 습진 연고를 며칠 발라봄"
+    source: "가정상비약"
+    effect: "효과 없었음"
+  social_history:
+    job: "고등학생 (유도부)"
+    stress: "학업 스트레스 보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "매일 유도 훈련"
+    recent_weight_change: "없음"
+  family_history: "집에 고양이를 키움"
+  female_history: ""
+physical_exam:
+  general: "건강해 보이는 청소년. 가끔 등을 긁는 모습."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and clear"
+  chest: "clear breath sounds bilaterally"
+  abdomen:
+    inspection: "등과 가슴 앞쪽에 3-4개의 고리 모양(annular) 병변이 산재함. 각 병변은 경계가 명확하며, 가장자리는 융기된 홍반과 인설, 작은 농포로 이루어져 있고 중앙부는 호전된 양상(central clearing)을 보임."
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "이게 뭔가요? 왜 반지 모양으로 생겼죠? 전염되나요? 운동 계속 해도 되나요? 고양이 때문일 수도 있나요?"
+specific_remarks: "환자는 운동선수이며, 땀을 많이 흘리는 환경에 있음을 강조. 집에 있는 반려동물(고양이)에 대한 정보를 자연스럽게 제공해야 함. 병변의 특징적인 '고리 모양'과 '중심부 치유' 양상을 정확히 설명할 수 있어야 한다."

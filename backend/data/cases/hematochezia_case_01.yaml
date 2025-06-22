@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (내치핵)"
+patient_info:
+  name: "김민준"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "배변 후 휴지에 선홍색 피가 묻어 나옴"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "내치핵 (치질)"
+    - "치열"
+    - "직장암"
+  necessary_tests:
+    - "직장수지검사"
+    - "항문경 검사"
+    - "대장내시경 검사 (연령 및 위험인자 고려)"
+  necessary_treatments:
+    - "좌욕 및 생활 습관 개선 (고섬유식이, 충분한 수분 섭취)"
+    - "필요시 약물 치료 (변비약, 국소 연고)"
+    - "증상 심할 경우 외과적 치료 고려"
+history:
+  sex_age: "남성/45세"
+  chief_complaint_verbatim: "몇 달 전부터 화장실에서 볼일을 보고 나면 휴지에 피가 묻어 나와요. 뚝뚝 떨어질 때도 있고요."
+  onset: "약 3개월 전"
+  location:
+    initial: "항문"
+    current: "항문"
+  duration:
+    onset_pattern: "간헐적"
+    recent_course: "최근 1주간 거의 매일 발생"
+  course: "처음에는 가끔 보이던 증상이 최근 들어 배변 시마다 나타나고, 때로는 변기 물이 붉게 변할 정도로 양이 늘었습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "NA"
+    symptoms: "NA"
+  character_of_symptom:
+    quality: "선홍색의 깨끗한 피가 배변의 끝에 묻어 나오거나 뚝뚝 떨어지는 양상. 통증은 없음."
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "단단한 변을 볼 때"
+      - "오래 앉아 있을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "5년 전 직장 건강검진"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "NA"
+    effect: "NA"
+  social_history:
+    job: "사무직 (프로그래머)"
+    stress: "업무 관련 스트레스 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: "NA"
+      cessation_period: "NA"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "아버지가 50대에 대장 용종 제거술 받으신 적 있음"
+  female_history: "NA"
+physical_exam:
+  general: "전반적으로 건강해 보임. 급성 병색 없음."
+  heent:
+    sclera: "결막 창백하지 않음"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평하고 흉터 없음"
+    auscultation: "장음 정상"
+    percussion: "고창음, 압통 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 전반적으로 부드럽고 압통 및 반발압통 없음
+  cvat: "좌우 음성"
+  extremity: "부종 없음, 말초 맥박 정상"
+standardized_patient_questions: "이거 혹시 암은 아닐까요? 수술을 꼭 해야 하나요?"
+specific_remarks: "환자는 자신의 증상이 암일까 봐 걱정하는 모습을 보인다. 배변 습관에 대해 이야기하는 것을 약간 부끄러워한다."

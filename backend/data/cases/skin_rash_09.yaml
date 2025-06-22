@@ -1,0 +1,115 @@
+---
+chapter: "관절.근골격.피부"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (수두)"
+patient_info:
+  name: "김민준"
+  age: 6
+  sex: "남성"
+  presenting_complaint: "열이 나면서 온몸에 물집이 잡혀요"
+vital_signs:
+  blood_pressure: "95/60mmHg"
+  pulse: "110회/분"
+  respiration: "24회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "수두"
+    - "벌레 물림"
+    - "수족구병"
+  necessary_tests:
+    - "보통 임상 진단으로 충분함"
+    - "진단이 불확실할 경우 Tzanck 도말 검사 또는 바이러스 PCR 검사"
+  necessary_treatments:
+    - "대증 치료 (해열제, 칼라민 로션 등)"
+    - "가려움증 조절 (항히스타민제)"
+    - "이차 세균 감염 예방 및 전염 관리 교육 (격리)"
+history:
+  sex_age: "남성/6"
+  chief_complaint_verbatim: "(보호자) 어제부터 열이 나고 칭얼거리더니 오늘 아침에 보니 몸에 빨갛게 뭐가 나고 물집이 생겼어요. 너무 가려워해서 계속 긁어요."
+  onset: "1일 전 발열, 12시간 전 발진"
+  location:
+    initial: "얼굴, 몸통"
+    current: "전신으로 퍼짐 (두피 포함)"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "발진의 개수가 계속 늘고 있음"
+  course: "발열과 전신 위약감이 선행된 후, 붉은 반점으로 시작하여 빠르게 물방울 모양의 수포로 변하고 있다. 오래된 병변은 농포나 가피로 변하는 중이다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "심한 가려움증"
+    nrs_score: "보호자 표현으로 매우 심함"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "긁을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "영유아 검진"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+    # 예방접종력 확인
+    # vaccination_history: "수두 예방접종을 하지 않았음"
+  medication_history:
+    taken:
+      - "해열제 (아세트아미노펜 시럽)"
+    source: "가정상비약"
+    effect: "일시적으로 열이 떨어짐"
+  social_history:
+    job: "유치원생"
+    stress: ""
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: ""
+    recent_weight_change: "없음"
+  family_history: "최근 유치원에 수두 걸린 아이가 몇 명 있었음"
+  female_history: ""
+physical_exam:
+  general: "열이 나고 보채며, 가려움으로 인해 힘들어하는 모습. 의식은 명료함."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "입안 점막에도 작은 궤양성 병변 몇 개 관찰됨."
+    # 두피에도 수포성 병변 관찰됨
+  chest: "clear breath sounds bilaterally"
+  abdomen:
+    inspection: "몸통을 중심으로 홍반, 구진, 수포, 농포, 가피 등 다양한 단계의 발진이 동시에 관찰됨 (polymorphic lesion)."
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "팔다리에도 몸통과 같은 양상의 발진이 산재해 있음. 손바닥, 발바닥에는 병변이 비교적 적음."
+standardized_patient_questions: "(보호자) 이게 수두인가요? 예방접종을 안 했는데 괜찮을까요? 유치원은 언제부터 다시 보낼 수 있나요? 흉터가 많이 남을까요?"
+specific_remarks: "환아는 어린아이로, 보호자가 주로 병력을 진술한다. 보호자는 아이의 예방접종 누락에 대해 걱정하고, 전염력과 격리 기간에 대해 궁금해한다. 진찰 시 아이가 가려움 때문에 칭얼거리고 협조가 잘 안되는 모습을 연기해야 한다. 다양한 단계의 병변이 동시에 존재하는 것이 핵심이다."

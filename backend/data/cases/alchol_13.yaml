@@ -1,0 +1,112 @@
+---
+chapter: "상담"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (말로리-바이스 증후군)"
+patient_info:
+  name: "이승준"
+  age: 28
+  sex: "남성"
+  presenting_complaint: "심한 구토 후 발생한 토혈"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "98회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 치료(절주 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "말로리-바이스 증후군 (Mallory-Weiss syndrome)"
+    - "소화성 궤양 출혈"
+    - "식도 정맥류 출혈 (병력상 가능성 낮음)"
+  necessary_tests:
+    - "응급 상부 위장관 내시경"
+    - "혈액 검사 (전혈구 검사, 혈액응고 검사)"
+    - "활력징후 지속적 감시"
+  necessary_treatments:
+    - "내시경적 지혈술 (필요시)"
+    - "수액 공급 및 위산분비 억제제 투여"
+    - "과도한 음주 습관 개선 및 절주 교육"
+history:
+  sex_age: "남성/28세"
+  chief_complaint_verbatim: "어젯밤에 술 마시고 계속 토했는데, 아침에 일어나서 또 토하다가 갑자기 피를 토했어요."
+  onset: "내원 당일 아침"
+  location:
+    initial: "위, 식도"
+    current: "위, 식도"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "피를 한 번 토하고 멈춘 상태"
+  course: "전날 밤 동료들과 과음함. 새벽부터 계속 구토를 하다가, 아침에 속이 비었는데도 헛구역질을 심하게 하던 중 마지막에 선홍색 피가 왈칵 쏟아져 나와 놀라서 응급실로 옴."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "선홍색 혈액을 토함 (hematemesis)"
+    nrs_score: "명치 부위 2-3점의 통증 동반"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "내용물 없는 구토 후 토혈"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "심한 구역질"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원 (영업팀)"
+    stress: "실적 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 2병 이상/회 (폭음하는 습관)"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "다소 창백하고 불안해 보임. 경미한 탈수 소견."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "호흡음 정상. 심계항진 호소, 빈맥 관찰됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      epigastric_tenderness: "경미한 압통"
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "제가 왜 피를 토한 건가요? 큰 병인가요? 위암 같은 건 아니겠죠? 술 때문에 그런 건가요?"
+specific_remarks: "환자는 처음 겪는 토혈에 매우 놀라고 불안해함. 심한 구토로 인해 식도와 위가 만나는 부위가 찢어져서 출혈이 발생한 것 같다고 설명하면 다소 안도함. 그러나 이것이 과도한 음주 습관이 원인임을 명확히 하고, 재발 방지를 위해 반드시 절주해야 함을 강조해야 함. 자신의 음주 습관의 위험성을 깨닫고 반성하는 태도를 보임."

@@ -1,0 +1,116 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (급성 신우신염)"
+patient_info:
+  name: "김민지"
+  age: 25
+  sex: "여성"
+  presenting_complaint: "고열과 오한, 옆구리 통증"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "120회/분"
+  respiration: "22회/분"
+  temperature: "39.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 신우신염 (Acute Pyelonephritis)"
+    - "단순 요로감염 (방광염)"
+    - "신장 농양 (Renal Abscess)"
+  necessary_tests:
+    - "소변검사 (농뇨, 세균뇨 확인)"
+    - "소변 및 혈액 배양검사"
+    - "전혈구검사 및 염증표지자검사 (CBC, CRP)"
+    - "복부 초음파 또는 CT (수신증이나 농양 등 합병증 확인)"
+  necessary_treatments:
+    - "입원 치료"
+    - "정맥 항생제 투여"
+    - "충분한 수액 공급 및 대증 치료"
+history:
+  sex_age: "여성/25세"
+  chief_complaint_verbatim: "어제부터 갑자기 춥고 떨리면서 열이 펄펄 나요. 왼쪽 등허리가 끊어질 듯이 아프고, 속도 메스꺼워요."
+  onset: "1일 전"
+  location:
+    initial: "전신, 왼쪽 등/옆구리"
+    current: "동일함"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "점점 악화"
+  course: "3일 전부터 소변 볼 때 약간 불편하고 자주 마려운 증상이 있었음 (방광염 의심 증상). 대수롭지 않게 여겼는데, 어제 오후부터 갑자기 몸이 으슬으슬 춥고 떨리더니 (chilling) 열이 39도 이상으로 치솟음. 왼쪽 옆구리와 등이 욱신거리고 아파서 허리를 펴기 힘듦."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "등/옆구리의 지속적이고 욱신거리는 통증"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true # 39.5C
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "두 차례 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true # 혼탁함
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "왼쪽 옆구리를 건드릴 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "가끔 방광염 앓음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "해열제 (약국 구매)"
+    source: "약국"
+    effect: "일시적으로만 효과 있음"
+  social_history:
+    job: "대학원생"
+    stress: "논문 준비로 스트레스 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 3주 전. 규칙적. 성관계: 1주 전."
+physical_exam:
+  general: "고열과 통증으로 매우 힘들어하며, 급성 병색이 뚜렷함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "매우 건조함"
+  chest: "호흡음 정상. 심한 빈맥 (tachycardia)."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 감소"
+    percussion: "정상 고창음"
+    palpation:
+      tenderness_luq: true
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌측 양성 (Left side positive), 우측 음성"
+  extremity: "부종 없음. 말초는 따뜻하나 피부 건조."
+standardized_patient_questions: "제가 왜 이렇게 아픈 건가요? 독감인가요? 입원해야만 하나요?"
+specific_remarks: "고통스러운 표정으로 침대에 누워있으려 한다. 오한이 있는 듯 몸을 약간 떨 수 있다. 의사가 왼쪽 등을 가볍게 칠 때(CVAT) 비명을 지르며 아파한다. 전반적으로 기운이 없고 탈수 상태임을 보인다."

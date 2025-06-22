@@ -10,7 +10,7 @@ import { practiceSessionService } from '../../services/practiceSessionService';
 const initialState = {
   // Session info
   sessionId: null,
-  // [제거] currentScenario 상태 제거
+  currentScenario: null, // 현재 시나리오 정보 추가
   status: 'idle', // 'idle' | 'active' | 'completed' | 'error'
   
   // Chat state
@@ -91,9 +91,22 @@ const practiceSessionSlice = createSlice({
   name: 'practiceSession',
   initialState,
   reducers: {
-    addUserMessage: (state, action) => { 
-      state.chatLog.push({ id: `user-${Date.now()}`, sender: 'user', content: action.payload }); 
-      state.isAiResponding = true; 
+    // 모의고사용 실습 세션 시작 액션 추가
+    startPracticeSession: (state, action) => {
+      const { sessionId, scenarioId, scenarioName } = action.payload;
+      state.sessionId = sessionId;
+      state.currentScenario = {
+        scenarioId,
+        name: scenarioName
+      };
+      state.status = 'active';
+      state.chatLog = [];
+      state.isAiResponding = false;
+      state.error = null;
+    },
+    addUserMessage: (state, action) => {
+      state.chatLog.push({ id: `user-${Date.now()}`, sender: 'user', content: action.payload });
+      state.isAiResponding = true;
     },
     appendAiMessageChunk: (state, action) => { 
       const last = state.chatLog[state.chatLog.length - 1]; 
@@ -108,41 +121,42 @@ const practiceSessionSlice = createSlice({
       state.isAiResponding = false; 
       state.error = action.payload; 
     },
-    clearPracticeSession: () => initialState,
+    clearError: (state) => {
+      state.error = null;
+    },
+    resetSession: (state) => {
+      return initialState;
+    },
   },
   extraReducers: (builder) => {
     builder
       // --- [제거] fetchScenarioForPractice 관련 Reducer 로직 전체 제거 ---
       
       // Start New Session
-      .addCase(startNewPracticeSession.pending, (state) => { state.isLoading = true; })
+      .addCase(startNewPracticeSession.pending, (state) => { state.isLoading = true; state.error = null; })
       .addCase(startNewPracticeSession.fulfilled, (state, action) => {
         state.isLoading = false;
-        state.status = 'active';
         state.sessionId = action.payload.practiceSessionId;
-        state.chatLog = [action.payload.aiPatientInitialInteraction.data];
-        // [제거] 여기서 currentScenario를 설정하지 않음
+        state.currentScenario = action.payload.scenario;
+        state.status = 'active';
+        state.chatLog = [];
       })
-      .addCase(startNewPracticeSession.rejected, (state, action) => { state.isLoading = false; state.status = 'error'; state.error = action.payload; })
+      .addCase(startNewPracticeSession.rejected, (state, action) => { state.isLoading = false; state.error = action.payload; state.status = 'error'; })
 
       // Complete Session & Fetch Feedback
-      .addCase(completeSession.fulfilled, (state) => {
-        state.status = 'completed';
+      .addCase(completeSession.pending, (state) => {
         state.evaluationStatus = 'evaluating';
+        state.isLoading = true;
       })
-      .addCase(fetchFeedbackForSession.pending, (state) => {
-        // Polling 중에는 별도 로딩 상태를 표시하지 않음
-      })
-      .addCase(fetchFeedbackForSession.fulfilled, (state, action) => {
+      .addCase(completeSession.fulfilled, (state, action) => {
+        state.evaluationStatus = 'completed';
+        state.isLoading = false;
+        state.status = 'completed';
         state.feedback = action.payload;
-        if (action.payload.status === 'completed') {
-            state.evaluationStatus = 'completed';
-        } else {
-            state.evaluationStatus = 'evaluating';
-        }
       })
-      .addCase(fetchFeedbackForSession.rejected, (state, action) => {
+      .addCase(completeSession.rejected, (state, action) => {
         state.evaluationStatus = 'error';
+        state.isLoading = false;
         state.error = action.payload;
       })
       
@@ -153,23 +167,31 @@ const practiceSessionSlice = createSlice({
       })
       .addCase(resumePracticeSession.fulfilled, (state, action) => {
         state.isLoading = false;
-        state.status = 'active';
         state.sessionId = action.payload.sessionDetails.practiceSessionId;
-        // [제거] 여기서 currentScenario를 설정하지 않음
+        state.currentScenario = action.payload.scenario;
+        state.status = 'active';
         state.chatLog = action.payload.chatHistory.map(log => ({
-            id: log.messageId,
-            sender: log.sender,
-
-            content: log.content
+          id: log.chatLogId,
+          sender: log.sender,
+          content: log.content,
+          timestamp: log.createdAt
         }));
       })
       .addCase(resumePracticeSession.rejected, (state, action) => {
         state.isLoading = false;
-        state.status = 'error';
         state.error = action.payload;
+        state.status = 'error';
       });
   },
 });
 
-export const { addUserMessage, appendAiMessageChunk, endAiResponse, setPracticeError, clearPracticeSession } = practiceSessionSlice.actions;
+export const {
+  addUserMessage,
+  appendAiMessageChunk,
+  endAiResponse,
+  setPracticeError,
+  clearError,
+  resetSession,
+  startPracticeSession,
+} = practiceSessionSlice.actions;
 export default practiceSessionSlice.reducer;

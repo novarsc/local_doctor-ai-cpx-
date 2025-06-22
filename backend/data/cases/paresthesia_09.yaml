@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (횡단성 척수염)"
+patient_info:
+  name: "한지우"
+  age: 34
+  sex: "여성"
+  presenting_complaint: "이틀 전부터 양쪽 다리가 마비되고 소변을 보기 힘듦"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "횡단성 척수염 (Transverse myelitis)"
+    - "길랭-바레 증후군 (Guillain-Barré syndrome)"
+    - "척수 압박 병변 (예: 경막외 농양, 혈종)"
+  necessary_tests:
+    - "전체 척추 MRI (조영제 사용)"
+    - "뇌척수액 검사"
+    - "혈액검사 (염증 수치, 자가항체 등)"
+  necessary_treatments:
+    - "고용량 스테로이드 정맥 주사"
+    - "혈장 교환술 (필요시)"
+    - "도뇨관 삽입 및 재활 치료"
+history:
+  sex_age: "여성/34"
+  chief_complaint_verbatim: "이틀 전부터 갑자기 허리가 너무 아프더니, 양쪽 다리에 힘이 빠져서 걷기가 힘들어요. 그리고 명치 아랫부분부터는 감각이 다 둔하고, 소변이 마려운데 잘 안 나와요."
+  onset: "2일 전"
+  location:
+    initial: "등, 허리 통증"
+    current: "양쪽 다리, 명치 아래 복부 및 등"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "빠르게 악화"
+  course: "열흘 전 인후통과 기침 등 감기 증상이 있었음. 이틀 전 갑자기 등에 격심한 통증이 발생하였고, 몇 시간 뒤 양쪽 다리가 저리고 무거워지기 시작함. 어제부터는 다리에 힘이 거의 들어가지 않아 부축 없이는 서 있기 힘들 정도가 됨. 명치 아랫부분부터 감각이 먹먹하고, 소변이 마려운 느낌은 있는데 화장실에 가도 소변이 잘 나오지 않음."
+  experience_prev_episodes:
+    frequency: "처음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "다리가 마비되는 느낌, 감각이 둔하고 먹먹함. 등에는 띠를 두른 듯한 통증."
+    nrs_score: "6 (통증), 8 (마비 심각도)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "움직이려고 할 때"
+    alleviating: "가만히 누워있기"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "초등학교 교사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 3주 전, 주기 규칙적"
+physical_exam:
+  general: "통증과 마비 증상으로 인해 매우 고통스러워하며 불안해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "하복부 팽만"
+    auscultation: "장음 감소"
+    percussion: "하복부 둔탁음(dullness)"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      suprapubic_tenderness: true
+  cvat: "양측 척추 주위 근육에 압통 있음"
+  extremity: "양쪽 하지 근력 현저히 저하(MRC 1/5). 양쪽 무릎 및 발목 반사 항진. 양측 바빈스키 징후 양성. 명치(T10 dermatome) 부위 아래로 뚜렷한 감각 경계(sensory level)를 보이며, 통각 및 온도 감각 소실."
+standardized_patient_questions: "제가 왜 갑자기 이렇게 된 건가요? 다시 걸을 수 있을까요? 소변은 왜 안 나오는 건가요?"
+specific_remarks: "환자는 침대에 누운 채로 거의 움직이지 못하는 모습을 연기한다. 의사가 감각 검사를 시행할 때, 명치 부근을 경계로 감각이 뚜렷하게 달라진다고 일관되게 진술한다. 하복부 팽만을 가리키며 소변이 마려워 죽겠는데 나오지 않아 너무 괴롭다고 호소한다. 선행 감염과 증상의 연관성에 대해 질문한다."

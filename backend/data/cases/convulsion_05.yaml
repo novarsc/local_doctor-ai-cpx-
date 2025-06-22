@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (뇌수막염에 동반된 발작)"
+patient_info:
+  name: "최서연"
+  age: 19
+  sex: "여성"
+  presenting_complaint: "고열과 두통 후 발생한 경련"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "120회/분"
+  respiration: "24회/분"
+  temperature: "39.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "세균성/바이러스성 뇌수막염"
+    - "뇌염"
+    - "전신 감염(패혈증)에 동반된 발작"
+  necessary_tests:
+    - "뇌척수액 검사 (CSF study, Lumbar puncture)"
+    - "혈액 배양 검사 및 염증 수치 검사"
+    - "뇌 컴퓨터 단층촬영 (Brain CT, 뇌압 상승 확인 목적)"
+  necessary_treatments:
+    - "경험적 항생제 및 항바이러스제 즉시 투여"
+    - "항경련제 투여"
+    - "뇌압 강하 치료 및 수액 요법"
+history:
+  sex_age: "여성/19"
+  chief_complaint_verbatim: "어제부터 열나고 머리가 깨질 듯이 아팠는데, 오늘 아침에는 갑자기 의식을 잃고 몸을 떨었어요."
+  onset: "경련은 오늘 아침 9시경, 두통과 발열은 어제 저녁부터"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑작스럽게"
+    recent_course: "보호자(어머니)에 따르면 약 2-3분간 전신 경련 후 의식이 처진 상태로 응급실 내원"
+  course: "어제 저녁부터 39도 이상의 고열과 극심한 두통, 구토 증상이 있었다. 오늘 아침, 갑자기 전신이 뻣뻣해지면서 떠는 경련을 한 차례 했다. 이후 계속 졸려하며 의식이 명료하지 않은 상태임."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "고열, 두통, 의식 저하를 동반한 전신 발작"
+    nrs_score: "9"
+    radiation: "두통이 목 뒤쪽으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "어제 3차례 분수처럼 토함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "고개를 숙이거나 움직일 때 두통 악화"
+      - "밝은 빛을 볼 때 눈이 부시고 힘듦 (광과민성)"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "고등학교 입학 신체검사"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "어제 해열진통제(acetaminophen) 2알 복용"
+    source: "약국"
+    effect: "별다른 효과 없었음"
+  social_history:
+    job: "대학생 (기숙사 생활)"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 1회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "LMP: 1주 전"
+physical_exam:
+  general: "의식이 명료하지 않고 졸려하는 모습 (drowsy mentality). 전반적으로 힘이 없고 축 처져 있음."
+  heent:
+    sclera: "결막 충혈, 공막 황달 없음"
+    oral_mucosa: "건조함"
+  chest: "호흡음은 정상이나 호흡수가 빠름. 심박수 빠름."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "사지 전반에 걸쳐 피부에 자색반(petechiae)이 몇 개 관찰됨. 목을 수동적으로 굽히려고 할 때 심한 저항과 통증을 호소함 (경부 강직, nuchal rigidity positive). Kernig's sign, Brudzinski's sign 양성."
+standardized_patient_questions: "우리 애 왜 이러나요? 그냥 심한 감기인 줄 알았는데... 괜찮아질 수 있는 건가요?"
+specific_remarks: "환자는 의식이 저하된 상태이므로, 대부분의 문진은 동행한 보호자(어머니)를 통해 이루어진다. 환자는 자극에만 간신히 눈을 뜨고 단답형으로 대답하는 정도의 상태를 연기한다. 보호자는 매우 불안해하며 울먹이는 모습을 보인다."

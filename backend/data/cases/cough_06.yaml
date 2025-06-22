@@ -1,0 +1,113 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (ACE 억제제 유발 기침)"
+patient_info:
+  name: "박선영"
+  age: 58
+  sex: "여성"
+  presenting_complaint: "2달 전부터 시작된 마른 기침"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "ACE 억제제 유발 기침 (ACE inhibitor-induced cough)"
+    - "기침형 천식 (Cough-variant asthma)"
+    - "위식도 역류 질환 (GERD)"
+  necessary_tests:
+    - "흉부 X선 촬영 (다른 원인 배제)"
+    - "원인 약물 중단 후 증상 호전 여부 관찰"
+    - "필요 시 폐기능 검사"
+  necessary_treatments:
+    - "원인 약물(ACE 억제제)을 다른 계열의 혈압약(예: ARB)으로 변경"
+    - "약물 변경 후 1-4주 내에 기침이 호전될 것임을 설명"
+    - "대증적 진해제 (단기 사용)"
+history:
+  sex_age: "여성/58세"
+  chief_complaint_verbatim: "두 달 전부터 마른 기침이 계속 나요. 감기도 아닌데 목이 간질간질하면서 한번 시작하면 멈추질 않네요."
+  onset: "약 2개월 전"
+  location:
+    initial: "목구멍"
+    current: "목구멍"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "비슷하게 지속됨"
+  course: "특별한 계기 없이 시작되어 지속됨. 가래나 열, 콧물 등 다른 증상은 전혀 없다. 밤낮을 가리지 않고 나타난다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "목이 간질거리며 시작되는 발작적인 마른 기침"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "말을 많이 할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "6개월 전, 고혈압 진단"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (페린도프릴)"
+    source: "3개월 전부터 내과에서 처방받아 복용 시작"
+    effect: "혈압은 잘 조절됨"
+  social_history:
+    job: "교사"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "5년 전 폐경"
+physical_exam:
+  general: "전반적인 상태 양호. 만성 병색 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 깨끗함. 수포음, 천명음 등 이상 소견 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "특이 소견 없음."
+standardized_patient_questions: "왜 혈압약 때문에 기침이 나나요? 그럼 혈압약 안 먹어도 되나요? 약을 바꾸면 기침은 바로 멈추나요?"
+specific_remarks: "환자는 자신의 증상이 고혈압 약과 관련 있을 것이라고는 전혀 생각하지 못한다. 진찰 중에도 간간이 마른 기침을 한다."

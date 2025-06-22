@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (승모판 협착증)"
+patient_info:
+  name: "오미자"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "움직일 때 숨이 차고, 분홍색 가래 섞인 기침"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "95회/분 (불규칙)"
+  respiration: "22회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "승모판 협착증으로 인한 폐부종"
+    - "심부전"
+    - "만성 기관지염"
+  necessary_tests:
+    - "심장초음파"
+    - "심전도"
+    - "흉부 X-ray"
+  necessary_treatments:
+    - "이뇨제를 통한 울혈 완화"
+    - "베타차단제 또는 칼슘채널차단제를 통한 심박수 조절"
+    - "필요시 항응고 요법 및 시술/수술 고려 (경피적 승모판 풍선확장술 등)"
+history:
+  sex_age: "여성/52"
+  chief_complaint_verbatim: "조금만 걸어도 숨이 차고, 밤에 자다가 숨이 막혀서 깨요. 며칠 전부터는 기침하면 분홍색 거품 같은 가래가 나와요."
+  onset: "숨찬 증상은 1년 전부터 서서히, 객혈은 3일 전부터"
+  location:
+    initial: "가슴 답답함"
+    current: "가슴 답답함"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 한 달간 숨찬 증상이 급격히 악화됨"
+  course: "1년 전부터 계단을 오를 때 숨이 차기 시작했음(DOE). 6개월 전부터는 밤에 누우면 숨이 차고(orthopnea), 자다가 숨이 막혀 깨는 증상(PND)이 생김. 3일 전부터 기침과 함께 분홍색 거품 가래가 나옴."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "분홍색 거품 양상의 가래(pink frothy sputum)"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "활동 시"
+      - "누워 있을 때"
+    alleviating: "앉아 있거나 상체를 높이면 완화됨"
+  health_check_history:
+    last_checkup: "3년 전 국가검진"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "어릴 때 류마티스열을 앓은 적이 있다고 함"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "식당 운영"
+    stress: "많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 1년 전 (폐경)"
+physical_exam:
+  general: "앉아서 약간 숨을 몰아쉬는 모습. 급성 병색."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "양쪽 폐 기저부에서 수포음(crackles) 청진됨. 심장 청진 시 심첨부(apex)에서 이완기 중기 잡음(mid-diastolic rumbling murmur)과 개방음(opening snap)이 들림. 맥박이 불규칙함(atrial fibrillation)."
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "경도의 발목 부종(pitting edema) 관찰됨."
+standardized_patient_questions: "폐가 안 좋은 줄 알았는데, 왜 앉아있어야 숨쉬기가 편한가요? 심장에 문제가 있는 건가요? 치료할 수 있는 병인가요?"
+specific_remarks: "숨이 차서 길게 말하기 어려워하는 모습을 연기. 눕는 자세를 취하게 하면 기침과 호흡곤란이 심해진다고 호소할 것. '류마티스열' 병력에 대해 질문을 받으면 '어릴 때 열나고 관절이 아팠다'고 대답."

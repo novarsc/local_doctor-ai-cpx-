@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (혼합성 요실금)"
+patient_info:
+  name: "최수현"
+  age: 58
+  sex: "여성"
+  presenting_complaint: "기침할 때도 새고, 소변이 급해서 참기 힘들 때도 샘"
+vital_signs:
+  blood_pressure: "132/84mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "혼합성 요실금 (Mixed Urinary Incontinence)"
+    - "복압성 요실금"
+    - "절박성 요실금"
+  necessary_tests:
+    - "요검사 및 요배양 검사"
+    - "배뇨일지 작성"
+    - "요류역학검사"
+  necessary_treatments:
+    - "생활 습관 교정 및 골반저근운동"
+    - "과민성 방광 증상에 대한 약물 치료 우선 고려"
+    - "약물 치료 후에도 복압성 요실금 증상이 심할 경우 수술적 치료 고려"
+history:
+  sex_age: "여성/58세"
+  chief_complaint_verbatim: "요즘 소변 때문에 살 수가 없어요. 크게 웃기만 해도 찔끔 새어 나오고, 갑자기 소변이 마려우면 화장실 갈 때까지 참지를 못하고 지릴 때도 있어요."
+  onset: "복압성 증상은 5-6년 전, 절박성 증상은 2년 전부터"
+  location:
+    initial: "요도"
+    current: "요도"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "전반적으로 악화"
+  course: "출산 후부터 기침하거나 뛸 때 소변이 조금씩 새는 증상(복압성)이 있었다. 그런데 2년 전부터는 갑자기 소변이 마려워 참기 힘든 증상(절박성)이 추가되었고, 최근에는 두 가지 증상이 모두 심해져 외출이 꺼려진다."
+  experience_prev_episodes:
+    frequency: "매일"
+    trigger: "기침, 재채기 (복압성) / 물소리 듣거나 갑자기 소변 마려울 때 (절박성)"
+    symptoms: "두 가지 양상의 요실금을 모두 경험"
+  character_of_symptom:
+    quality: "복압이 가해질 때 '찔끔' 새는 증상과, 강한 요의와 함께 '왈칵' 새는 증상이 혼재됨"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "기침, 웃음"
+      - "찬물에 손 씻기"
+      - "커피 마신 후"
+    alleviating: "미리 화장실을 자주 가는 것"
+  health_check_history:
+    last_checkup: "1년 전, 경미한 고혈압 진단"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (약 복용 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "텔미사르탄 40mg"
+    source: "내과"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "마트 계산원"
+    stress: "증상 때문에 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1회"
+      amount: "맥주 2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "따로 하지 않음"
+    recent_weight_change: "최근 3년간 5kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "G3-P3-A0-L3, 2회 자연분만, 1회 제왕절개, 50세 완경"
+physical_exam:
+  general: "약간 과체중이며, 증상에 대한 좌절감을 표현함"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no pitting edema"
+standardized_patient_questions: "제 증상은 왜 이렇게 복잡한가요? 어떤 때는 웃다가 새고 어떤 때는 참지도 못하고 새요. 치료는 어떻게 해야 하나요? 수술하면 둘 다 좋아지나요?"
+specific_remarks: "환자는 두 가지 다른 양상의 요실금 증상을 명확하게 구분하여 설명한다. 어떤 증상이 더 불편한지 물으면 '둘 다 너무 불편해서 하나를 꼽기 힘들다'고 답한다. 치료가 복잡할 것이라는 불안감을 가지고 있다."

@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "23"
+title: "실전 모의 증례 (허리 디스크 탈출증)"
+patient_info:
+  name: "박재범"
+  age: 39
+  sex: "남성"
+  presenting_complaint: "3주 전부터 허리가 아프고 왼쪽 다리가 저림"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "요추 추간판 탈출증 (Lumbar HNP, Sciatica)"
+    - "척추관 협착증 (Spinal stenosis)"
+    - "이상근 증후군 (Piriformis syndrome)"
+  necessary_tests:
+    - "요추 X-ray 및 MRI"
+    - "근전도/신경전도검사 (필요시)"
+    - "혈액검사 (염증/종양 표지자 감별)"
+  necessary_treatments:
+    - "안정 및 약물 치료 (소염진통제, 근이완제)"
+    - "물리치료 및 운동치료"
+    - "신경 차단술 또는 수술 (마비 진행 시)"
+history:
+  sex_age: "남성/39"
+  chief_complaint_verbatim: "3주 전에 무거운 걸 들다가 허리를 삐끗했는데, 그때부터 허리가 아프더니 이젠 왼쪽 엉덩이부터 발등까지 전기가 오듯이 찌릿하고 저려요. 발목에 힘도 잘 안 들어가요."
+  onset: "3주 전"
+  location:
+    initial: "허리"
+    current: "허리, 왼쪽 엉덩이, 허벅지 뒤쪽/옆쪽, 발등"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "허리 통증은 약간 줄었으나, 다리 저림과 위약감은 심해짐"
+  course: "3주 전 이삿짐을 나르다가 허리에서 '뚝'하는 느낌과 함께 극심한 통증이 발생함. 며칠간 안정을 취하니 허리 통증은 조금 나아졌으나, 왼쪽 엉덩이부터 다리 옆쪽을 타고 발등과 엄지발가락까지 뻗치는 방사통이 생김. 앉아있거나 기침하면 통증이 심해짐. 며칠 전부터는 걸을 때 왼쪽 발목에 힘이 빠져 발을 끄는 느낌이 듦."
+  experience_prev_episodes:
+    frequency: "가끔 허리가 뻐근했으나 이 정도는 처음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "찌릿하고 당기는 듯한 통증, 저림"
+    nrs_score: "8"
+    radiation: "왼쪽 엉덩이에서 허벅지 외측, 종아리 외측을 거쳐 발등, 엄지발가락으로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 앉아 있을 때"
+      - "허리를 앞으로 숙일 때"
+      - "기침이나 재채기할 때"
+    alleviating: "누워서 무릎을 구부리고 있을 때"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "3주 전 무거운 물건 들다 다침"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "동네 정형외과 약 (소염진통제)"
+    source: "의원"
+    effect: "통증이 약간 줄어듦"
+  social_history:
+    job: "택배기사"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 1갑"
+      cessation_period: ""
+    exercise: "따로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "통증으로 인해 허리를 제대로 펴지 못하고 약간 구부정한 자세를 취함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "왼쪽 요추 부위 압통"
+  extremity: "왼쪽 발목의 족배굴곡(dorsiflexion) 및 엄지발가락 신전 근력 저하(MRC 4/5). 왼쪽 종아리 외측 및 발등 부위 감각 저하. 왼쪽 하지직거상검사(SLR test) 30도에서 양성. 무릎 반사는 정상, 발목 반사는 양측 대칭적."
+standardized_patient_questions: "이거 허리 디스크 맞죠? 수술해야 하나요? 택배 일을 계속 할 수 있을까요? 다리 마비가 더 심해지면 어떡하죠?"
+specific_remarks: "환자는 앉아 있을 때 통증을 호소하며 엉덩이를 들썩인다. 하지직거상검사 시 다리를 조금만 들어도 허리부터 발끝까지 찌릿한 통증이 재현된다고 명확하게 말한다. 발목에 힘이 빠져서 운전할 때나 계단을 오를 때 불안하다고 구체적으로 설명한다. 직업을 계속 유지할 수 있을지에 대해 매우 걱정한다."

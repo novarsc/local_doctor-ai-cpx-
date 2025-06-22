@@ -47,8 +47,24 @@ const completeMockExam = async (mockExamSessionId) => {
     }
 };
 
+/**
+ * Starts a practice session for a specific case in a mock exam.
+ * @param {string} mockExamSessionId - The ID of the mock exam session.
+ * @param {number} caseNumber - The case number (1-6).
+ * @returns {Promise<object>} The practice session details.
+ */
+const startCasePractice = async (mockExamSessionId, caseNumber) => {
+    try {
+        const response = await apiClient.post(`/mock-exams/${mockExamSessionId}/cases/${caseNumber}/start-practice`);
+        return response.data;
+    } catch (error) {
+        throw error.response?.data?.error || new Error('Failed to start case practice session.');
+    }
+};
+
 export const mockExamService = {
   startMockExam,
   getMockExamSession,
   completeMockExam,
+  startCasePractice,
 };

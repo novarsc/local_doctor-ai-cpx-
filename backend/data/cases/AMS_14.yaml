@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (고삼투압성 고혈당 상태, Hyperosmolar Hyperglycemic State)"
+patient_info:
+  name: "박만수"
+  age: 80
+  sex: "남성"
+  presenting_complaint: "일주일 전부터 기운이 없더니 의식을 잃음"
+vital_signs:
+  blood_pressure: "85/45mmHg"
+  pulse: "135회/분"
+  respiration: "22회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "고삼투압성 고혈당 상태 (HHS)"
+    - "패혈증 (요로 감염 의심)"
+    - "뇌졸중"
+  necessary_tests:
+    - "응급 혈당 측정"
+    - "혈액 검사 (전해질, BUN/Cr, 혈장 삼투압)"
+    - "소변 검사 및 배양 검사, 혈액 배양 검사"
+  necessary_treatments:
+    - "매우 신속하고 많은 양의 수액 공급 (생리식염수)"
+    - "인슐린 정맥 주사 (혈압 안정 후)"
+    - "기저 감염에 대한 항생제 치료"
+history:
+  sex_age: "남성/80세"
+  chief_complaint_verbatim: "요양원에 계신 아버님이 일주일 전부터 식사도 잘 못하시고 자꾸 주무시기만 한다고 연락이 왔어요. 오늘 아침엔 불러도 전혀 반응이 없다고 해요."
+  onset: "약 1주일 전부터 점진적으로"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "수일에 걸쳐 서서히 악화"
+    recent_course: "오늘 아침 의식 소실"
+  course: "요양원에서 생활하던 환자로, 일주일 전부터 식사량이 줄고 기운이 없으며 소변을 자주 보는 모습이 관찰됨. 3일 전부터는 미열이 있고, 사람을 잘 알아보지 못하는 혼돈 상태를 보임. 간병인이 물을 마시게 하려 해도 잘 삼키지 못했다고 함. 오늘 아침 의식이 없는 상태로 발견됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "폐렴"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "점진적인 의식 저하 후 혼수"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "탈수"
+      - "감염"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "요양원 정기 검진"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "제2형 당뇨병, 고혈압, 치매"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Metformin, Glibenclamide, Amlodipine, Donepezil"
+    source: "요양원 촉탁의 처방"
+    effect: "최근 식사를 못해 경구 혈당강하제 복용이 불규칙했다고 함."
+  social_history:
+    job: "무직 (요양원 생활)"
+    stress: "-"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "50년 전 금연"
+    exercise: "거동 불편하여 거의 못함"
+    recent_weight_change: "최근 1-2주간 3-4kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "혼수(coma) 상태. 어떤 자극에도 반응 없음. 극심한 탈수 상태로 피부가 매우 건조하고 탄력이 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "혀가 바짝 말라 갈라져 있음. 안구가 함몰되어 보임."
+  chest: "호흡은 빠르나, Kussmaul 호흡은 아님. 심박동 매우 빠르고 약함."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 소실"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "우측 양성"
+  extremity: "피부 긴장도(turgor) 극심하게 저하. 사지 냉감. 국소 신경학적 결손(예: 편마비)이 의심되나, 의식 저하로 정확한 평가 어려움."
+standardized_patient_questions: "아버지가 왜 갑자기 혼수상태에 빠지신 건가요? 당뇨가 이렇게 위험한 병이었나요? 요양원에서 감기 기운이 있었다고 하던데, 그것 때문인가요?"
+specific_remarks: "환자는 완전히 의식이 없는 상태를 연기한다. 신체 진찰 시 극심한 탈수 소견(마른 혀, 피부 긴장도 저하 등)을 명확하게 표현하는 것이 중요하다. DKA와 달리 Kussmaul 호흡이나 과일향 호흡이 없는 점을 인지해야 한다. 보호자인 아들이 옆에서 병력을 제공한다."

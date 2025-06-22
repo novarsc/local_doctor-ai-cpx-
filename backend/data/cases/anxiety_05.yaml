@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (강박장애)"
+patient_info:
+  name: "윤지호"
+  age: 25
+  sex: "남성"
+  presenting_complaint: "자꾸만 반복되는 생각과 행동 때문에 너무 힘들어요."
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "강박장애 (OCD)"
+    - "범불안장애"
+    - "틱장애 (감별 필요)"
+  necessary_tests:
+    - "정신건강의학과적 심층 면담"
+    - "예일-브라운 강박척도 (Y-BOCS) 평가"
+    - "신경심리검사 (필요시)"
+  necessary_treatments:
+    - "약물 치료 (고용량의 SSRI)"
+    - "인지행동치료 (노출 및 반응 방지법)"
+    - "가족 교육 및 지지"
+history:
+  sex_age: "남성/25"
+  chief_complaint_verbatim: "손에 세균이 묻었을 거란 생각이 계속 들어요. 비합리적인 걸 알면서도, 그 생각 때문에 불안해서 하루에 수십 번씩 손을 씻어야 해요. 손을 씻지 않으면 끔찍한 병에 걸릴 것 같은 불안감에 아무것도 할 수가 없어요."
+  onset: "청소년기부터 증상이 있었으나, 1년 전부터 심해짐"
+  location:
+    initial: "정신적 (오염에 대한 생각)"
+    current: "행동적 (반복적인 손 씻기)"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 취업 준비 스트레스로 인해 증상이 매우 심해져 하루 3-4시간 이상을 강박 행동에 사용함"
+  course: "처음에는 단순히 깔끔을 떠는 수준이었음. 점차 문고리, 대중교통 손잡이 등을 만지면 병균이 옮을 것 같다는 강박사고가 심해졌고, 이를 해소하기 위해 손을 씻는 강박행동이 나타남. 지금은 손 피부가 갈라지고 피가 날 정도로 씻어야만 불안감이 잠시 해소됨."
+  experience_prev_episodes:
+    frequency: "거의 매일 지속됨"
+    trigger: "외부 물건과의 접촉, 스트레스"
+    symptoms: "오염에 대한 강박사고, 세정 행동"
+  character_of_symptom:
+    quality: "침투적이고 원치 않는 생각(강박사고)과 그로 인한 불안을 줄이기 위한 반복적인 행동(강박행동)"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "취업 면접 등 스트레스 상황"
+      - "더럽다고 생각되는 장소에 방문"
+    alleviating: "손을 꼼꼼하게, 정해진 순서와 횟수대로 씻고 나면 일시적으로 불안감이 감소함."
+  health_check_history:
+    last_checkup: "2년 전 군입대 신체검사, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "취업준비생"
+    stress: "매우 심함"
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "불안하고 위축된 모습. 면담 중에도 손을 계속 신경 씀."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and pink"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "both hands show signs of severe dryness, cracking, and erythema (contact dermatitis from excessive washing)"
+standardized_patient_questions: "제가 미친 건가요? 왜 이런 생각이 드는지 모르겠어요. 이걸 멈출 수 있을까요?"
+specific_remarks: "환자는 자신의 행동이 비합리적이라는 것을 인지하고 있으며, 이로 인해 심한 괴로움과 수치심을 느낀다. 손을 보여달라고 하면 망설이며 마지못해 보여준다. 면담 내내 불안정한 시선으로 주변을 살피는 모습을 보인다."

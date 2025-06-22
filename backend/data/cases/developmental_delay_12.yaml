@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (구루병)"
+patient_info:
+  name: "김하람"
+  age: 20
+  sex: "남성"
+  presenting_complaint: "다리가 휘고 잘 걷지 못함"
+vital_signs:
+  blood_pressure: "90/55mmHg"
+  pulse: "110회/분"
+  respiration: "26회/분"
+  temperature: "36.8℃"
+examinee_instructions: "아이가 다리가 휘고 잘 걷지 못한다는 주소로 내원한 보호자의 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "구루병 (비타민 D 결핍성)"
+    - "생리적 내반슬"
+    - "블라운트병 (Blount disease)"
+  necessary_tests:
+    - "혈액 검사 (칼슘, 인, 알칼리성 인산분해효소(ALP), 25-OH-비타민 D)"
+    - "하지 X-선 촬영 (무릎, 손목)"
+    - "부갑상선 호르몬(PTH) 검사"
+  necessary_treatments:
+    - "고용량 비타민 D 및 칼슘 보충"
+    - "식이 교육 (비타민 D 강화 식품 섭취)"
+    - "정기적인 혈액 검사 및 X-선 추적 관찰"
+history:
+  sex_age: "남성/20개월"
+  chief_complaint_verbatim: "(보호자) 애가 걸음마를 떼고 나서부터 다리가 O자로 점점 더 휘는 것 같아요. 자주 넘어지고 걷기 싫어해요."
+  onset: "15개월경 걸음마를 시작한 이후로 점차 뚜렷해짐"
+  location:
+    initial: "양쪽 다리"
+    current: "양쪽 다리, 손목"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 들어 다리 휜 정도가 심해지고, 보채는 일이 많아짐"
+  course: "완모 수유를 18개월까지 했으며, 비타민 D 보충은 하지 않았다. 이유식 시기에도 편식이 심해 잘 먹지 않았다. 키와 몸무게 성장이 더디고, 다른 아이들보다 걷는 것을 늦게 시작했으며, 걸음걸이가 불안정하다. 최근에는 손목 부위가 툭 튀어나온 것을 발견했다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "걷거나 서 있을 때"
+    alleviating: "앉아 있을 때"
+  health_check_history:
+    last_checkup: "12개월 영유아 검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "영유아"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "바깥 활동을 거의 하지 않음"
+    recent_weight_change: "성장 지연"
+  family_history: "특이 가족력 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "성장이 부진하고 다소 창백해 보임. 걸음걸이가 불안정하고 뒤뚱거림."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    head: "대천문이 아직 만져짐 (delayed fontanelle closure)."
+  chest: "늑골-연골 접합부가 구슬처럼 튀어나와 있음 (rachitic rosary)."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양쪽 다리가 O자형으로 휘어 있음 (genu varum). 양쪽 손목과 발목 부위가 넓어져 있음 (widening of wrist and ankle joints)."
+standardized_patient_questions: "우리 아이 다리가 왜 이렇게 휘었나요? 교정해야 하나요? 비타민 D가 부족해서 그렇다니요? 제가 잘못 키운 건가요? 치료하면 다리는 다시 펴지나요?"
+specific_remarks: "보호자는 아이의 휜 다리가 영구적인 변형이 될까 봐 매우 걱정한다. 비타민 D 결핍이 원인이라는 설명에, 모유 수유만 하고 보충제를 챙겨주지 않은 것에 대해 죄책감을 느낄 수 있다."

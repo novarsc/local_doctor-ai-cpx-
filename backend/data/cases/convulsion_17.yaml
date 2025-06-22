@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "17"
+title: "실전 모의 증례 (자가면역 뇌염)"
+patient_info:
+  name: "김수현"
+  age: 21
+  sex: "여성"
+  presenting_complaint: "이상 행동과 기억력 저하 후 발생한 경련"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "100회/분"
+  respiration: "18회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자가면역 뇌염 (Anti-NMDA 수용체 뇌염 등)"
+    - "바이러스성 뇌염"
+    - "첫 정신병적 삽화 또는 조현병"
+  necessary_tests:
+    - "뇌척수액 검사 (자가항체 검사 포함)"
+    - "뇌 MRI 및 뇌파 검사"
+    - "종양 표지자 검사 및 전신 CT/초음파 (기형종 등 연관 종양 확인)"
+  necessary_treatments:
+    - "면역 치료 (스테로이드, 면역글로불린, 혈장 교환술)"
+    - "항경련제 및 정신증상 조절 약물"
+    - "연관 종양 발견 시 종양 제거"
+history:
+  sex_age: "여성/21"
+  chief_complaint_verbatim: "딸 아이가 한 달 전부터 이상한 말을 하고 기억을 잘 못하더니, 오늘은 갑자기 경련을 했어요."
+  onset: "정신행동 증상은 1개월 전, 경련은 오늘"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "아급성으로 정신행동 증상 발생 후 경련"
+    recent_course: "전신 경련이 2분간 있었고, 이후 의식이 회복되지 않고 이상한 손발 움직임을 보임."
+  course: "한 달 전부터 두통과 감기몸살 같은 증상이 있었다. 이후 점차 말이 없어지고, 단기 기억력이 심하게 떨어졌다. 2주 전부터는 헛것이 보인다고 하거나 불안해하며 잠을 못 잤다. 오늘은 갑자기 전신 경련을 했고, 경련이 멎은 후에도 입을 오물거리거나 손을 허우적거리는 이상운동증(dyskinesia)을 보임."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "정신행동 변화, 기억장애, 이상운동증을 동반한 발작"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간이 지날수록 증상 악화"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "대학 입학 검진"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 조깅"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "LMP: 6주 전 (최근 불규칙해짐)"
+physical_exam:
+  general: "자극에 눈은 뜨나 의사소통이 되지 않음. 입을 오물거리거나 혀를 날름거리는 구강-안면 이상운동증 관찰됨. 간헐적으로 팔다리를 비틀거나 허우적거림."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심박수 빠름. 자율신경계 이상으로 혈압, 맥박 변동 심할 수 있음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "사지 근력, 감각 평가 어려움. 전반적으로 근긴장도 항진. 경부 강직 소견 보임."
+standardized_patient_questions: "우리 딸이 왜 갑자기 이렇게 된 거죠? 정신병인가요? 치료는 가능한 건가요?"
+specific_remarks: "환자는 대화가 불가능한 상태이므로, 보호자인 어머니와 문진을 진행한다. 환자는 특징적인 이상운동증을 계속해서 연기해야 한다. 보호자는 딸의 급격한 변화에 매우 절망적이고 불안해한다. 드문 질환이지만 특징적인 임상 양상을 통해 감별진단에 포함시키고, 필요한 검사(CSF 항체 검사)를 설명하는 것이 핵심이다."

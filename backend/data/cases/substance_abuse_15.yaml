@@ -1,0 +1,113 @@
+---
+chapter: "상담"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (GHB 사용장애)"
+patient_info:
+  name: "익명"
+  age: 23
+  sex: "여성"
+  presenting_complaint: "성폭력 피해 후 상담"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "환자는 성폭력 피해 후 경찰의 권유로 내원하였습니다. 외상 후 스트레스 증상에 대해 공감적으로 청취하고 지지적인 태도를 유지해야 합니다. 사건 당시의 기억이 없는 상황(blackout)을 바탕으로 약물(특히 GHB)에 의한 성범죄 가능성을 염두에 두고 병력을 청취하고, 필요한 검사와 향후 심리적 지원 계획에 대해 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 스트레스 장애 또는 외상후 스트레스장애"
+    - "약물(GHB)에 의한 성폭력 의심"
+    - "불안 및 우울장애"
+  necessary_tests:
+    - "혈액 및 소변 약물 검사 (가능한 빨리 시행, GHB는 체내 반감기가 매우 짧음)"
+    - "성폭력 피해자 증거 채취 키트(해바라기센터 연계)"
+    - "외상 후 스트레스 장애 척도 검사 (PCL-5)"
+  necessary_treatments:
+    - "해바라기센터 연계를 통한 법적, 의료적, 심리적 원스톱 지원 안내"
+    - "정신건강의학과적 위기 개입 및 안정화"
+    - "외상 중심 인지행동치료(TF-CBT) 또는 안구 운동 둔감화 및 재처리 요법(EMDR) 등 전문 심리치료 연계"
+history:
+  sex_age: "여성/23세"
+  chief_complaint_verbatim: "며칠 전에... 클럽에서... 기억이 끊겼는데... 깨어나 보니 모르는 곳이었어요. 무슨 일이 있었는지 잘 모르겠는데 너무 무섭고 불안해요."
+  onset: "3일 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "사건 이후 잠을 전혀 못 자고, 계속 그날 일이 떠오르려고 해서 괴로움."
+  course: "3일 전 친구와 함께 강남의 한 클럽에 감. 모르는 남성이 준 칵테일을 한 잔 마신 후, 갑자기 극심한 졸음과 함께 몸이 나른해지는 것을 느낌. 이후의 기억이 전혀 없음. 다음 날 아침, 낯선 모텔 방에서 옷이 흐트러진 채로 깨어남. 몸에 약간의 멍 자국이 있었고, 성폭력을 당한 것 같은 느낌이 들었으나 확실한 기억이 없어 경찰에 신고함. 경찰에서 약물 검사를 위해 병원 방문을 권유함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "외상성 기억의 재경험(flashback), 과각성, 회피"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    psychiatric:
+      insomnia: true
+      anxiety: true
+      fear: true
+      numbness: true
+  factors:
+    aggravating:
+      - "혼자 있을 때"
+      - "클럽이나 술과 관련된 장면을 볼 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: ""
+  trauma_history: "이번 사건"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "취업준비생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 1-2병"
+    smoking:
+      is_smoker: false
+    exercise: "주 3회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 2주 전, 규칙적"
+physical_exam:
+  general: "매우 불안해하며 눈치를 봄. 대화 중 눈물을 흘리고 말을 잇지 못함. 손을 계속 떨고 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "팔과 허벅지 안쪽에 작은 멍 자국들이 여러 개 관찰됨."
+standardized_patient_questions: "제게 무슨 일이 일어난 건가요? 기억이 안 나는데... 제가 이상한 건가요? 이건 다 제 잘못인 것 같아요. 앞으로 어떻게 살아야 할지 막막해요."
+specific_remarks: "환자는 극심한 수치심, 죄책감, 두려움을 표현함. 의사와의 눈맞춤을 피하고 목소리가 거의 들리지 않을 정도로 작게 말함. 의사가 공감적이고 비판단적인 태도로 안전한 환경을 제공하고, 환자의 잘못이 아님을 명확히 설명해줄 때 조금씩 신뢰를 보임. GHB(물뽕)와 같은 데이트 강간 약물에 대해 설명할 때 큰 충격을 받음."

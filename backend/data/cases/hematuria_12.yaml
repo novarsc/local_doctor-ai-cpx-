@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (횡문근융해증)"
+patient_info:
+  name: "김동현"
+  age: 30
+  sex: "남성"
+  presenting_complaint: "어제 고강도 운동 후 발생한 심한 근육통과 검붉은 소변"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "횡문근융해증에 의한 미오글로빈뇨증 (가장 의심)"
+    - "운동 유발성 혈뇨"
+    - "급성 신손상"
+  necessary_tests:
+    - "혈액 검사 (CK, AST/ALT, 신기능, 전해질 수치 확인)"
+    - "소변 검사 (요 잠혈 반응 양성, 현미경 검사에서 적혈구는 소수)"
+    - "심전도 검사 (고칼륨혈증 확인)"
+  necessary_treatments:
+    - "입원 치료"
+    - "공격적인 수액 요법 (정맥 주사)을 통한 신장 보호"
+    - "소변량 및 전해질 균형 집중 감시"
+history:
+  sex_age: "남성/30세"
+  chief_complaint_verbatim: "어제 헬스장에서 무리하게 운동하고 나서부터 허벅지랑 엉덩이가 터질 듯이 아프고, 오늘 아침 소변이 콜라색으로 나왔습니다."
+  onset: "근육통은 운동 직후, 소변 변화는 12시간 후"
+  location:
+    initial: "양측 허벅지, 엉덩이"
+    current: "양측 허벅지, 엉덩이, 등 근육 통증 및 소변 색 변화"
+  duration:
+    onset_pattern: "고강도 운동 후 발생"
+    recent_course: "근육통이 점점 심해져 걷기 힘듦"
+  course: "평소 운동을 안 하다가, 어제 친구와 함께 '크로스핏'을 처음 체험해봤습니다. 스쿼트와 데드리프트를 평소 능력 이상으로 무리하게 반복했습니다. 운동 직후부터 근육통이 심했고, 오늘 아침에는 근육이 붓고 만지기만 해도 아플 정도입니다. 소변 색이 이상해서 병원에 왔습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "근육이 붓고 터질 듯한 심한 통증"
+    nrs_score: "8-9/10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "한 번 구토함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true # 진한 갈색 또는 콜라색
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: true # 소변량이 줄어든 것 같음
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "근육을 만질 때"
+    alleviating: "가만히 있을 때"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "운동 후 단백질 보충제"
+    source: "인터넷 구매"
+    effect: "모름"
+  social_history:
+    job: "IT 개발자"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함 (최근 시작)"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색. 통증으로 인해 걷는 것을 힘들어함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양측 허벅지와 둔부 근육이 단단하게 부어있고(swelling and induration), 심한 압통(severe tenderness)을 보임. 피부색 변화는 없음."
+standardized_patient_questions: "운동 좀 무리했다고 이렇게 아플 수 있나요? 소변 색은 왜 이런 거죠? 콩팥에 문제가 생긴 건가요?"
+specific_remarks: "환자는 극심한 근육통을 호소하며, 앉고 일어서는 등 기본적인 움직임도 힘들어한다. 소변 색이 붉은 것이 아니라 '콜라색' 또는 '진한 갈색'이라고 구체적으로 표현한다. 자신의 증상이 급성 신부전과 같은 심각한 합병증으로 이어질 수 있다는 설명을 들으면 매우 놀라며 불안해한다."

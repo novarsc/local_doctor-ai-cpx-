@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (급성 기관지염)"
+patient_info:
+  name: "박서준"
+  age: 32
+  sex: "남성"
+  presenting_complaint: "며칠 전부터 시작된 기침"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 기관지염 (Acute bronchitis)"
+    - "폐렴 (Pneumonia)"
+    - "인플루엔자 (Influenza)"
+  necessary_tests:
+    - "흉부 X선 촬영 (폐렴 감별 목적)"
+    - "필요시 인플루엔자 신속 항원 검사"
+    - "혈액 검사 (염증 수치 확인)"
+  necessary_treatments:
+    - "대증 치료 (진해거담제, 해열제 등)"
+    - "충분한 휴식과 수분 섭취"
+    - "바이러스 감염이 대부분이므로 항생제는 일반적으로 불필요함"
+history:
+  sex_age: "남성/32세"
+  chief_complaint_verbatim: "콜록콜록... 일주일 전에 감기 기운이 있었는데, 콧물이나 목 아픈 건 괜찮아졌는데 기침만 남아서 계속 심해져요. 가래도 좀 나오고요."
+  onset: "일주일 전 감기 증상 후 4일 전부터 기침 시작됨"
+  location:
+    initial: "목"
+    current: "가슴 중앙부"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점점 심해지는 양상"
+  course: "초기 콧물, 인후통 동반되었으나 호전되었고, 이후 기침이 발생하여 지속됨. 처음에는 마른 기침이다가 이틀 전부터 가래 섞인 기침으로 변함."
+  experience_prev_episodes:
+    frequency: "1년에 1-2회 감기 후 비슷하게 앓는 경우가 있음"
+    trigger: "감기"
+    symptoms: "기침, 가래"
+  character_of_symptom:
+    quality: "가슴 깊은 곳에서 울리는 듯한 기침"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "찬 공기를 쐴 때"
+      - "말을 많이 할 때"
+    alleviating: "따뜻한 물을 마실 때"
+  health_check_history:
+    last_checkup: "1년 전, 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "3일 전부터 종합감기약 자가 복용"
+    source: "약국"
+    effect: "콧물은 좀 나아졌으나 기침에는 효과가 거의 없었음"
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색을 보이나, 의식은 명료하고 거동에 문제없음."
+  heent:
+    sclera: "황달 없음 (anicteric)"
+    oral_mucosa: "인두에 경미한 발적 소견 보임. 구강 점막은 건조하지 않음."
+  chest: "호흡음은 정상이나, 양쪽 폐 하엽에서 거친 호흡음(rhonchi)이 청진됨. 수포음(crackle)이나 천명음(wheezing)은 들리지 않음."
+  abdomen:
+    inspection: "편평하고 흉터 없음."
+    auscultation: "장음 정상."
+    percussion: "고창음 정상."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "부종이나 청색증 없음."
+standardized_patient_questions: "이거 폐렴은 아닌가요? 항생제를 꼭 먹어야 하나요?"
+specific_remarks: "기침을 할 때 가슴을 살짝 웅크리는 모습을 보인다. 진찰 중 간헐적으로 발작적인 기침을 하며, 기침 후 '가슴이 울린다'고 표현한다."

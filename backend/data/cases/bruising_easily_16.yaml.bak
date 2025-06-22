@@ -1,0 +1,116 @@
+---
+chapter: "전신"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (와파린 과다복용)"
+patient_info:
+  name: "조절실"
+  age: 75
+  sex: "여성"
+  presenting_complaint: "며칠 전부터 소변이 붉게 나오고 멍이 심하게 듦"
+vital_signs:
+  blood_pressure: "140/80mmHg"
+  pulse: "88회/분 (불규칙)"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "와파린 과다복용 (Supratherapeutic INR)"
+    - "비뇨기계 출혈 (종양, 결석, 감염)"
+    - "다른 원인의 응고 장애"
+  necessary_tests:
+    - "혈액응고 검사 (PT/INR 측정)"
+    - "전혈구 검사"
+    - "소변 검사 및 소변 배양 검사"
+    - "필요시 비뇨기계 영상 검사 (CT 등)"
+  necessary_treatments:
+    - "와파린 즉시 중단"
+    - "비타민 K 투여"
+    - "심각한 출혈 시 프로트롬빈 복합체 농축액(PCC) 또는 신선냉동혈장(FFP) 투여"
+    - "INR 수치 추적 관찰 및 와파린 용량 재조절"
+history:
+  sex_age: "여성/75세"
+  chief_complaint_verbatim: "며칠 전부터 소변 색깔이 콜라색처럼 붉게 나와요. 그리고 팔다리에 커다랗게 멍이 들어서 무서워서 왔어요."
+  onset: "약 4-5일 전"
+  location:
+    initial: "혈뇨"
+    current: "혈뇨 및 전신 반상출혈"
+  duration:
+    onset_pattern: "급성 발현"
+    recent_course: "증상 지속됨"
+  course: "5일 전부터 소변 색이 붉게 변하는 것을 인지했다. 처음에는 피곤해서 그런가 보다 했는데, 이틀 전부터는 팔과 다리에 부딪힌 적도 없는데 커다란 멍이 생기기 시작했다. 어지럽거나 다른 통증은 없다고 한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "통증 없는 육안적 혈뇨, 광범위한 반상출혈"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1개월 전 심장내과 방문"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "심방세동, 고혈압, 뇌경색 기왕력(5년 전)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "와파린, 혈압약, 고지혈증약"
+    source: "대학병원 심장내과"
+    effect: "잘 지내왔음"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "가벼운 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 25년 전"
+physical_exam:
+  general: "불안한 기색 외에는 급성 병색은 보이지 않음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "잇몸 출혈 등 특이소견 없음."
+  chest: "심음 불규칙함(irregularly irregular). 잡음 없음."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"부드러우며 압통 없음.\""
+  cvat: "좌우 음성"
+  extremity: "양쪽 팔, 허벅지, 등에 손바닥 크기의 커다란 반상출혈이 여러 개 관찰됨. 점상출혈은 없음. 관절 부종 없음."
+standardized_patient_questions: "심장약 먹고 계속 괜찮았는데 갑자기 왜 이런가요? 약을 잘못 먹은 걸까요? 소변에 피 나오는 건 괜찮아지나요?"
+specific_remarks: "환자는 자신이 복용하는 약(와파린)이 어떤 약인지 정확히 알고 있다. 최근 식단 변화(예: 건강보조식품, 녹즙 등 비타민 K가 풍부한 음식 섭취 변화)나 다른 약물(예: 항생제, 한약) 추가 복용 여부를 문진으로 확인하는 것이 중요하다. 환자는 약을 빠뜨리지 않고 잘 챙겨 먹었다고 일관되게 진술한다. (숨은 시나리오: 환자가 최근 감기몸살로 약국에서 진통소염제와 항생제를 사서 며칠간 같이 복용하여 와파린 효과가 증대됨)"

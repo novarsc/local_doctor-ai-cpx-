@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (갈색세포종)"
+patient_info:
+  name: "최민준"
+  age: 38
+  sex: "남성"
+  presenting_complaint: "갑자기 발생하는 심한 두근거림과 두통"
+vital_signs:
+  blood_pressure: "185/115mmHg (증상 발생 시 220/130mmHg까지 상승)"
+  pulse: "125회/분"
+  respiration: "24회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갈색세포종 (Pheochromocytoma)"
+    - "공황 발작"
+    - "불안정성 고혈압"
+  necessary_tests:
+    - "24시간 소변 메타네프린 및 카테콜아민 검사"
+    - "혈장 메타네프린 검사"
+    - "복부 CT 또는 MRI"
+  necessary_treatments:
+    - "알파 차단제 우선 투여 후 베타 차단제 추가"
+    - "수술 전 충분한 혈압 및 혈량 조절"
+    - "종양의 수술적 제거"
+history:
+  sex_age: "남성/38"
+  chief_complaint_verbatim: "가만히 있다가도 갑자기 심장이 터질 것처럼 뛰고 머리가 깨질 듯이 아파요. 온몸에 식은땀도 나고요."
+  onset: "6개월 전 처음 경험, 최근 한 달 사이 빈도 증가"
+  location:
+    initial: "가슴, 머리"
+    current: "가슴, 머리"
+  duration:
+    onset_pattern: "발작적, 갑작스럽게 발생"
+    recent_course: "증상 지속 시간이 10-15분에서 30분까지 길어짐"
+  course: "한 달에 한두 번이던 것이 주 1-2회로 빈도가 늘어남. 증상이 없을 때는 혈압이 정상에 가까움."
+  experience_prev_episodes:
+    frequency: "지난 6개월간 10여 차례"
+    trigger: "특별한 유발 요인을 찾지 못했으나, 긴장하거나 힘을 줄 때 더 잘 생기는 것 같음"
+    symptoms: "과거에도 동일한 양상의 증상이었음"
+  character_of_symptom:
+    quality: "심장이 쿵쾅거림, 머리가 터질 듯한 통증"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "증상 심할 때 1회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "불명확함 (스트레스, 특정 자세 변화 시 의심)"
+      - "배를 누르거나 할 때"
+    alleviating: "시간이 지나면 저절로 가라앉음"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "프로그래머"
+    stress: "마감 압박으로 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 6개월간 4kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "매우 불안해 보이며, 안색이 창백하고 손에 땀이 남"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "청진상 심계항진 (tachycardia) 외 특이소견 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 깊은 촉진 시 환자가 불편감을 호소하며 심계항진이 유발되는 경향을 보임
+  cvat: "좌우 음성"
+  extremity: "미세한 손 떨림, 말초 시원함"
+standardized_patient_questions: "제가 무슨 큰 병에 걸린 건가요? 심장병인가요? 정신과 문제일 수도 있다는 얘기도 들었는데, 맞나요?"
+specific_remarks: "환자는 증상의 발작적 성격 때문에 극심한 불안과 공포를 느낌. 의사가 복부를 깊게 촉진하려고 할 때, 증상이 유발될 것 같다며 예민하게 반응함. 갈색세포종의 5H(Hypertension, Headache, Hyperhidrosis, Hypermetabolism, Hyperglycemia)를 염두에 두고 연기할 것."

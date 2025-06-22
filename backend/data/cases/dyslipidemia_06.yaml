@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (대사 증후군)"
+patient_info:
+  name: "정민호"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "최근 건강검진 결과 상담"
+vital_signs:
+  blood_pressure: "138/88mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대사 증후군"
+    - "고혈압 전단계"
+    - "공복혈당장애"
+  necessary_tests:
+    - "추가적인 과거력 및 생활습관 문진"
+    - "허리둘레 측정"
+    - "생활습관 교정의 중요성 및 목표 설정 교육"
+  necessary_treatments:
+    - "가장 중요한 치료는 생활습관 개선 (체중 감량, 운동, 식이요법)"
+    - "필요시 각 구성요소(고혈압, 고혈당, 이상지질혈증)에 대한 약물치료 고려"
+    - "정기적인 추적 관찰 및 상담"
+history:
+  sex_age: "남성/48"
+  chief_complaint_verbatim: "얼마 전에 회사에서 건강검진을 받았는데, 결과가 안 좋게 나왔어요. 혈압도 높고, 혈당도 높고, 콜레스테롤도 높다고 해서 걱정이 돼서 왔습니다."
+  onset: "해당 없음 (검진 결과 이상)"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "해당 없음"
+    recent_course: "해당 없음"
+  course: "현재 특별히 느끼는 증상은 없음"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "없음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: "가끔 피곤하다고 느낌"
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2주 전 (회사 건강검진)"
+    endoscopy_finding: "검진 결과: 공복혈당 115 mg/dL, 중성지방 250 mg/dL, HDL 콜레스테롤 35 mg/dL"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "건설회사 부장"
+    stress: "잦은 회식과 실적 압박으로 스트레스가 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 4-5회"
+      amount: "소주 1-2병/회"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "없음"
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "5년간 10kg 증가"
+  family_history: "부모님 모두 고혈압, 당뇨병 있음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적으로 비만 체형. 특히 복부 비만이 두드러짐."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "복부 팽만, 중심성 비만 (central obesity)"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 부드럽고 압통 없음
+  cvat: "좌/우 음성"
+  extremity: "함몰 부종 없음"
+  # 허리둘레 측정 시 95cm로 측정됨
+standardized_patient_questions: "대사 증후군이 뭔가요? 암처럼 무서운 병인가요? 약부터 바로 먹어야 하는 거 아닌가요?"
+specific_remarks: "자신은 아픈 곳이 하나도 없다고 강조한다. 술, 담배, 식습관을 바꾸는 것이 어렵다고 토로하며 약물치료를 더 선호하는 듯한 태도를 보인다."

@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (말로리-바이스 찢어짐)"
+patient_info:
+  name: "박준형"
+  age: 25
+  sex: "남성"
+  presenting_complaint: "술 마시고 여러 번 토한 뒤 피가 나옴"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "말로리-바이스 찢어짐 (Mallory-Weiss tear)"
+    - "급성 출혈성 위염"
+    - "위궤양 출혈"
+  necessary_tests:
+    - "상부위장관 내시경"
+    - "일반 혈액 검사"
+    - "전해질 검사 (구토로 인한 이상 확인)"
+  necessary_treatments:
+    - "대부분 자연 지혈되므로 경과 관찰"
+    - "필요시 내시경적 지혈술 (클립 또는 주사 요법)"
+    - "구토 억제제 및 위산 억제제 투여"
+history:
+  sex_age: "남성/25세"
+  chief_complaint_verbatim: "어젯밤에 친구들이랑 술을 너무 많이 마셨어요. 새벽에 계속 토했는데, 마지막에 토할 때 피가 섞여 나왔어요."
+  onset: "약 6시간 전"
+  location:
+    initial: "명치 불편감"
+    current: "명치 약간 쓰라림"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "피가 나온 이후로는 구토 멈춤"
+  course: "어젯밤 과음 후 새벽 3시경부터 약 5-6차례 음식물을 심하게 토했다. 처음에는 음식물만 나왔는데, 마지막에 힘을 주어 토할 때 선홍색 피가 한 컵 정도 섞여 나왔다. 이후 구토는 멈췄고 속이 약간 쓰린 느낌만 남았다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "약간 쓰라린 느낌"
+    nrs_score: "2"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "초기 음식물 구토 후, 소량의 선홍색 혈액이 섞인 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "심하게 구토할 때"
+    alleviating: "구토 멈추니 완화됨"
+  health_check_history:
+    last_checkup: "2년 전 군대 신체검사"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "시험 때문에 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "어제는 소주 2병 이상 마심"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: "없음"
+    exercise: "주 2회 농구"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "약간 피곤해 보이나 전반적인 상태는 양호함"
+  heent:
+    sclera: "이상 없음"
+    oral_mucosa: "약간 건조함"
+  chest: "이상 없음"
+  abdomen:
+    inspection: "이상 없음"
+    auscultation: "장음 정상"
+    percussion: "이상 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: "경미한 압통 있음"
+      epigastric_rebound_tenderness: false
+  cvat: "좌우 음성"
+  extremity: "이상 없음"
+standardized_patient_questions: "식도가 찢어졌다고요? 큰일 나는 거 아닌가요? 수술해야 하나요? 앞으로 술 마시면 안 되나요?"
+specific_remarks: "자신의 행동(과음)을 후회하는 듯한 태도를 보인다. 비교적 젊고 건강해 보이므로, 심각한 질병에 대한 불안감보다는 앞으로의 생활 습관에 대한 질문을 주로 한다."

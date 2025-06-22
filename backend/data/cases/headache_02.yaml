@@ -1,0 +1,118 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (긴장형 두통)"
+patient_info:
+  name: "박준서"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "머리를 띠로 조이는 듯한 둔한 통증"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "긴장형 두통"
+    - "편두통 (비박동성)"
+    - "경추성 두통"
+  necessary_tests:
+    - "대부분 임상적 진단으로 충분함"
+    - "두통의 양상이 변하거나 신경학적 이상이 동반될 경우 뇌 CT 또는 MRI 고려"
+    - "경추 X-ray (목 통증 동반 시)"
+  necessary_treatments:
+    - "급성기 치료: 아세트아미노펜 또는 NSAIDs"
+    - "비약물적 치료: 스트레스 관리, 이완 요법, 마사지, 자세 교정"
+    - "예방 치료: 만성화될 경우 삼환계 항우울제(TCA) 등 고려"
+history:
+  sex_age: "남성/45"
+  chief_complaint_verbatim: "요즘 계속 머리가 무겁고, 누가 머리띠로 꽉 조이는 것처럼 멍하게 아파요. 오후만 되면 더 심해져요."
+  onset: "약 3개월 전부터"
+  location:
+    initial: "양쪽 관자놀이, 이마"
+    current: "머리 전체, 특히 뒷목과 어깨까지 뻐근함"
+  duration:
+    onset_pattern: "오후에 스멀스멀 시작되어 저녁까지 지속됨"
+    recent_course: "점점 두통이 없는 날이 줄어드는 것 같음"
+  course: "짧게는 몇 시간, 길게는 며칠씩 지속되기도 함. 통증의 강도는 변동이 있음."
+  experience_prev_episodes:
+    frequency: "주 3-4회"
+    trigger: "업무 스트레스, 장시간 컴퓨터 작업"
+    symptoms: "현재와 유사한 둔하고 조이는 통증"
+  character_of_symptom:
+    quality: "압박감, 조이는 느낌 (비박동성)"
+    nrs_score: "5"
+    radiation: "어깨와 목으로 뻐근한 느낌이 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오랜 시간 같은 자세로 앉아 있을 때"
+      - "업무 마감 압박이 심할 때"
+    alleviating: "마사지를 받거나 잠시 휴식을 취하는 것"
+  health_check_history:
+    last_checkup: "1년 전, 경미한 고지혈증 소견"
+    endoscopy_finding: "만성 표재성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 약국에서 타이레놀 구매"
+    source: "약국"
+    effect: "먹으면 조금 나아지는 것 같음"
+  social_history:
+    job: "회계사"
+    stress: "결산 시기에 매우 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병 정도"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "해당 없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 1년간 3kg 증가"
+  family_history: "아버지가 고혈압으로 약물 복용 중"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 피로감 호소. 급성 병색은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # Specific exam
+      pericranial_tenderness: "양측 측두근, 후두하근 촉진 시 압통 호소 (tenderness over pericranial muscles)"
+      neck_stiffness: "경부 강직은 없으나, 목과 어깨 근육이 뭉쳐있음"
+      rom_of_neck: "운동 범위는 정상이지만 약간의 불편감 호소"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "이거 혹시 뇌졸중 전조증상은 아닌가요? 왜 이렇게 머리가 계속 아프죠? 스트레스 때문이라고만 하기엔 너무 심한 것 같아요."
+specific_remarks: "진료 내내 어깨나 뒷목을 주무르는 시늉을 한다. 통증을 설명할 때 '욱신거린다' 보다는 '멍하다', '무겁다', '조인다' 등의 표현을 사용한다. 일상생활(걷기, 계단 오르기)에는 지장이 없다고 강조한다."

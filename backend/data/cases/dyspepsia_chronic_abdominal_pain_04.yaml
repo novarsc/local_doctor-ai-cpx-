@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (만성 췌장염)"
+patient_info:
+  name: "이강진"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "반복적인 상복부 통증과 기름진 변"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 췌장염"
+    - "소화성 궤양 (후벽 침투)"
+    - "췌장암"
+  necessary_tests:
+    - "복부 CT (췌장의 석회화, 위축 등 구조적 변화 확인)"
+    - "혈액 검사 (Amylase/Lipase - 급성 악화시 상승, 만성기엔 정상일 수 있음, 혈당 확인)"
+    - "대변 지방 정량 검사 (Steatorrhea 확인)"
+  necessary_treatments:
+    - "절대적 금주"
+    - "췌장 효소 보충제 복용"
+    - "통증 조절 (진통제)"
+    - "저지방 식이"
+history:
+  sex_age: "남성/55"
+  chief_complaint_verbatim: "기름진 음식을 먹고 나면 명치가 쥐어짜듯이 아프고 등까지 뻗쳐요. 요즘엔 대변에 기름이 둥둥 뜨고 양도 많아졌어요."
+  onset: "수년 전부터 음주 후 간헐적으로 복통이 있었고, 1년 전부터 통증이 잦아지고 변의 양상이 변함"
+  location:
+    initial: "명치"
+    current: "상복부 전체, 등"
+  duration:
+    onset_pattern: "만성 재발성"
+    recent_course: "통증이 거의 매일 지속되며, 식사 후 악화됨"
+  course: "점점 악화되는 양상, 통증이 없는 날이 거의 없음"
+  experience_prev_episodes:
+    frequency: "수년 전부터"
+    trigger: "음주, 과식(특히 기름진 음식)"
+    symptoms: "과거에는 상복부 통증만 있었음"
+  character_of_symptom:
+    quality: "깊고 둔하며, 쥐어짜는 듯한 통증"
+    nrs_score: "8"
+    radiation: "등으로 뻗침 (band-like)"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "가끔 통증이 심할 때"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 (특히 지방이 많은 음식)"
+      - "음주"
+    alleviating: "몸을 앞으로 웅크리면 약간 덜함"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "10년 전 급성 췌장염으로 입원한 적 있음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제 (약국 구매)"
+    source: "약국"
+    effect: "별로 효과 없음"
+  social_history:
+    job: "무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1-2병/일 (최근 통증 때문에 줄이려고 노력 중)"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "지난 1년간 8kg 감소"
+  family_history: "없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색, 다소 마른 체형"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat, no visible mass"
+    auscultation: "bowel sounds slightly decreased"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: "deep and severe"
+  cvat: "좌/우 음성"
+  extremity: "no edema, muscle wasting"
+standardized_patient_questions: "왜 이렇게 계속 아픈 건가요? 이거 암은 아니겠죠? 술을 끊으면 정말 괜찮아질 수 있나요?"
+specific_remarks: "환자는 통증을 호소할 때 허리를 숙이고 배를 감싸 쥐는 자세를 취한다. '기름진 변(steatorrhea)'에 대해 설명할 때, '변기 물에 기름이 무지개처럼 뜨고, 변이 물에 잘 안 씻겨 내려간다'고 구체적으로 묘사한다. 장기간의 음주력과 과거 급성 췌장염 병력을 명확히 진술한다."

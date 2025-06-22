@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (알코올 금단)"
+patient_info:
+  name: "김철민"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "손이 떨리고 불안해서 잠을 잘 수가 없어요."
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "115회/분"
+  respiration: "22회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올 금단"
+    - "불안장애"
+    - "갑상선기능항진증"
+  necessary_tests:
+    - "혈중 알코올 농도 측정, 전해질 및 혈당 검사"
+    - "간 기능 검사(LFT), 감마-GTP"
+    - "임상적 금단 평가 척도(CIWA-Ar) 적용"
+  necessary_treatments:
+    - "입원 치료 고려 (금단 섬망 예방)"
+    - "벤조디아제핀을 이용한 증상 조절"
+    - "수액 및 티아민(비타민 B1) 공급"
+history:
+  sex_age: "남성/52"
+  chief_complaint_verbatim: "이틀 전부터 갑자기 손이 심하게 떨리고, 불안해서 아무것도 못 하겠어요. 밤에 자려고 누우면 식은땀이 나고 심장이 뛰어서 한숨도 못 잤습니다."
+  onset: "2일 전"
+  location:
+    initial: "손"
+    current: "전신적 증상 (불안, 불면, 발한)"
+  duration:
+    onset_pattern: "갑작스럽게 시작됨"
+    recent_course: "점점 심해짐"
+  course: "환자는 건강이 안 좋아진 것 같아 3일 전부터 큰맘 먹고 술을 완전히 끊었다고 말함. 술을 끊은 다음 날 아침부터 손이 떨리기 시작했고, 시간이 갈수록 불안감, 초조함, 불면증이 심해짐. 오늘 아침에는 벌레가 보이는 것 같기도 했다고 함."
+  experience_prev_episodes:
+    frequency: "몇 년 전 술을 줄이려 했을 때 비슷하게 손이 떨린 적이 있었으나, 다시 술을 마시니 괜찮아졌다고 함"
+    trigger: "금주"
+    symptoms: "손떨림, 식은땀"
+  character_of_symptom:
+    quality: "극심한 초조함과 불안, 통제되지 않는 떨림"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "true"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간이 지날수록"
+    alleviating: "과거 경험상 술을 마시면 나아졌다고 함."
+  health_check_history:
+    last_checkup: "5년 전, 지방간 소견 들음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 지방간"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "고혈압약 (기억나지 않음)"
+    source: "내과"
+    effect: "꾸준히 복용하지 않음"
+  social_history:
+    job: "일용직 건설 노동자"
+    stress: "경제적 스트레스"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 2-3병/일 (지난 20년간 지속)"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일"
+      cessation_period: "N/A"
+    exercise: "노동이 운동이라고 생각함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 알코올 중독으로 고생하셨음"
+  female_history: "N/A"
+physical_exam:
+  general: "불안, 초조한 모습이며 전신적으로 땀에 젖어 있음. 지남력은 있으나 집중력이 저하된 상태."
+  heent:
+    sclera: "icteric"
+    oral_mucosa: "dry"
+    parotid gland: "bilateral swelling"
+  chest: "tachycardia, regular heart beat, clear breath sounds"
+  abdomen:
+    inspection: "slightly distended"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      hepatomegaly: "palpable 2 finger breadths below right costal margin"
+  cvat: "좌/우 음성"
+  extremity: "no pitting edema, marked postural tremor of outstretched hands"
+standardized_patient_questions: "왜 갑자기 몸이 이렇게 된 건가요? 술 끊는 게 이렇게 힘든 건가요? 그냥 다시 술 마시면 안 될까요?"
+specific_remarks: "환자는 매우 불안정해 보이며, 계속해서 손을 비비거나 몸을 움직인다. 질문에 짧게 대답하고 집중을 잘 못하는 모습을 보인다. '벌레가 보인다'는 환각 증상에 대해 물으면, '헛것을 본 것 같다'며 대수롭지 않게 넘기려 하지만 불안한 표정은 역력하다. 알코올 문제에 대해 직접적으로 질문하면 방어적인 태도를 취한다."

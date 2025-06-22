@@ -1,0 +1,118 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (담관암, Cholangiocarcinoma)"
+patient_info:
+  name: "서정호"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "황달, 전신 소양증 및 체중 감소"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "담관암 (특히 간문부 담관암, Klatskin tumor)"
+    - "췌장암"
+    - "간내 담석에 의한 만성 담관염"
+  necessary_tests:
+    - "혈액 검사 (간기능, 종양표지자 CA 19-9, CEA)"
+    - "복부 CT 또는 MRI/MRCP"
+    - "내시경 역행 췌담관 조영술(ERCP) 또는 경피경간 담관조영술(PTCS)을 통한 조직검사"
+  necessary_treatments:
+    - "정확한 병기 설정"
+    - "수술적 절제 가능성 평가 (간 절제 포함)"
+    - "수술 전/후 담즙 배액술"
+    - "수술 불가능 시 항암 또는 방사선 치료"
+history:
+  sex_age: "남성/72세"
+  chief_complaint_verbatim: "두 달 전부터 온몸이 가렵고, 한 달 전부터는 소변 색이 진해지고 피부가 노래졌어요. 입맛이 없어서 그런지 살도 5kg이나 빠졌고요."
+  onset: "소양증은 2개월, 황달은 1개월 전"
+  location:
+    initial: "전신"
+    current: "전신 및 명치 부위의 불편감"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 심해짐"
+  course: "두 달 전부터 시작된 전신 소양증으로 피부과 진료를 받았으나 호전 없었다. 한 달 전부터 황달, 진한 소변, 회색 변이 나타났다. 명치 부위의 막연한 불편감과 소화불량이 동반되었고, 최근 3개월간 5kg의 체중 감소가 있었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "명치 부위의 둔하고 막연한 불편감. 통증은 아님."
+    nrs_score: "2"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "진한 갈색"
+      stool_color_change: "회색 변"
+      pruritus: "심한 전신 소양증"
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전 국가검진"
+    endoscopy_finding: "위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨병 10년째 약물 복용 중. 20년 전 간흡충(간디스토마) 진단받고 약 먹은 적 있음."
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 당뇨약"
+    source: "내과"
+    effect: "조절 잘 됨"
+  social_history:
+    job: "은퇴 (전직 농업)"
+    stress: "없음"
+    alcohol:
+      is_drinker: true
+      frequency: "과거에 자주 마셨으나 현재는 거의 안 마심"
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "가벼운 산책"
+    recent_weight_change: "3개월간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색. 체중 감소 소견. 피부에 긁은 상처 많음."
+  heent:
+    sclera: "심한 황달"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      hepatomegaly: "우상복부에서 간이 단단하게 촉진됨"
+      gallbladder: "담낭은 촉진되지 않음"
+  cvat: "좌/우 음성"
+  extremity: "전신 피부 황달."
+standardized_patient_questions: "암인가요? 췌장암이랑은 다른 건가요? 옛날에 간디스토마 앓았던 거랑 관련이 있나요?"
+specific_remarks: "췌장암 증례와 유사하지만, 통증 없는 황달, 체중 감소, 소양증을 호소한다. 신체 진찰에서 쿠르부아지에 징후가 음성이라는 점을 명확히 한다 (간문부 담관암에서는 담낭이 팽대되지 않음). '과거 간흡충 치료력'이라는 중요한 위험인자를 제공한다."

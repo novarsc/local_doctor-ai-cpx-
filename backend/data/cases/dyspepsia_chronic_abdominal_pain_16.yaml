@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (식도이완불능증)"
+patient_info:
+  name: "송지우"
+  age: 35
+  sex: "남성"
+  presenting_complaint: "음식물이 목에 걸려 내려가지 않고, 가끔 역류함"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "식도이완불능증 (Achalasia)"
+    - "위식도 역류질환 합병증 (식도 협착)"
+    - "식도암"
+  necessary_tests:
+    - "식도 내압 검사 (Esophageal manometry) - 확진 검사"
+    - "바륨 식도 조영술 (Barium esophagography) - '새 부리 모양' 확인"
+    - "상부위장관 내시경 (가성 이완불능증 감별)"
+  necessary_treatments:
+    - "경구 내시경 근절개술 (POEM) 또는 풍선 확장술"
+    - "증상 완화를 위한 약물 치료 (질산염, 칼슘채널차단제 - 효과 제한적)"
+    - "보톡스 주입술"
+history:
+  sex_age: "남성/35"
+  chief_complaint_verbatim: "밥을 먹으면 목에 딱 걸려서 내려가질 않아요. 물을 마셔야 겨우 내려가고, 자다가 누워 있으면 먹었던 음식이 다시 올라오기도 해요."
+  onset: "약 2년 전부터 서서히 시작"
+  location:
+    initial: "가슴 중앙"
+    current: "가슴 중앙, 목"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "예전에는 고기 같은 것만 그랬는데, 요즘엔 밥이나 물도 잘 안 내려감"
+  course: "지속적으로 악화됨. 음식을 먹는 것이 고통스러움."
+  experience_prev_episodes:
+    frequency: "거의 매 식사 시"
+    trigger: "음식 섭취 (고형식 > 유동식)"
+    symptoms: "삼킴곤란, 흉통, 역류"
+  character_of_symptom:
+    quality: "음식물이 꽉 막힌 느낌, 답답한 흉통"
+    nrs_score: "6 (불편감 점수)"
+    radiation: "등 쪽으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "소화되지 않은 음식물 역류 (regurgitation)"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "빨리 먹을 때, 스트레스 받을 때"
+    alleviating: "물을 많이 마시거나, 목과 등을 쭉 펴는 자세를 취할 때"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: "1년 전 동네 병원에서 내시경을 했으나 '식도에 음식물이 많다'는 말만 들음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "프로그래머"
+    stress: "프로젝트 마감 때문에 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "지난 1년간 7kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "다소 마른 체형이며, 불안해 보임"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat and symmetric"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      no_specific_tenderness: true
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+standardized_patient_questions: "왜 음식이 내려가질 않는 건가요? 식도에 암이라도 생긴 걸까요? 평생 이렇게 살아야 하나요?"
+specific_remarks: "환자는 고형식과 유동식 모두에서 삼킴곤란을 느끼는 점을 강조한다. 이는 기계적 폐쇄가 아닌 운동성 질환을 시사한다. '역류'가 위산이 섞인 구토(vomiting)가 아닌, 소화되지 않은 음식물이 그대로 올라오는 것(regurgitation)임을 명확히 구분하여 설명한다. 식사를 편하게 하기 위해 취하는 특정 자세(목을 편다든지)를 언급할 수 있다. 체중 감소에 대한 불안감을 표현한다."

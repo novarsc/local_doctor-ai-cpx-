@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (요관 결석에 의한 폐쇄성 신손상)"
+patient_info:
+  name: "차단석"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "갑자기 발생한 옆구리 통증과 함께 소변이 안 나옴"
+vital_signs:
+  blood_pressure: "150/90mmHg"
+  pulse: "110회/분"
+  respiration: "24회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "요관 결석에 의한 폐쇄성 급성 신손상 (단일 신장 환자)"
+    - "급성 신우신염"
+    - "대동맥 박리"
+  necessary_tests:
+    - "비조영 복부 CT"
+    - "소변 검사 (혈뇨 확인)"
+    - "혈액 검사 (BUN/Cr, 전해질, 염증 수치)"
+  necessary_treatments:
+    - "통증 조절"
+    - "경피적 신루설치술 또는 요관 스텐트 삽입을 통한 긴급 폐쇄 해소"
+    - "이후 체외충격파쇄석술 등 결석 제거"
+history:
+  sex_age: "남성/48"
+  chief_complaint_verbatim: "오늘 아침부터 갑자기 왼쪽 옆구리가 칼로 찌르는 것처럼 아프고, 소변이 한 방울도 안 나와요. 아파서 죽겠습니다."
+  onset: "6시간 전"
+  location:
+    initial: "왼쪽 옆구리"
+    current: "왼쪽 옆구리에서 사타구니 쪽으로 뻗치는 통증"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "통증이 간헐적으로 극심하게 나타남"
+  course: "오늘 아침 자고 일어나서 갑자기 왼쪽 옆구리에 극심한 통증이 발생함. 통증이 너무 심해 식은땀이 나고 구역질이 남. 통증 발생 이후 화장실에 갔으나 소변이 전혀 나오지 않는 것을 확인하고 응급실로 내원함. 20년 전 교통사고로 우측 신장을 제거하는 수술을 받음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쥐어짜고 칼로 찌르는 듯한 극심한 통증 (colicky pain)"
+    nrs_score: 10
+    radiation: "왼쪽 사타구니와 고환 쪽으로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "한 차례 구토함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "자세 변경과 무관하게 지속"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전, 단일 신장 기능 정상 확인"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "20년 전 교통사고로 우측 신장 제거술 받음"
+  past_medical_history:
+    underlying_disease: "단일 신장 (Solitary kidney)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "택배 기사"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "업무 자체가 운동임"
+    recent_weight_change: "없음"
+  family_history: "부친: 요로결석"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색. 통증으로 안절부절못하며 자세를 계속 바꿈. 식은땀 흘림."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 신체진찰 소견 추가
+      left_flank_tenderness: true
+  cvat: "좌측 양성, 우측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "너무 아파요. 진통제 좀 빨리 놔주세요. 콩팥이 하나밖에 없는데, 이것마저 잘못되면 어떡하죠? 소변이 왜 아예 안 나오는 건가요?"
+specific_remarks: "환자는 극심한 통증을 연기한다. 침대에 가만히 눕지 못하고 옆으로 웅크리거나 계속 자세를 바꾼다. 왼쪽 옆구리를 감싸 쥐고 있다. CVA 타진 시 비명을 지르며 매우 아파한다."

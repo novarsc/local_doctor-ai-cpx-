@@ -1,0 +1,116 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (임신성 갑상선기능저하증)"
+patient_info:
+  name: "홍가은"
+  age: 30
+  sex: "여성"
+  presenting_complaint: "심한 피로감과 변비"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "58회/분"
+  respiration: "14회/분"
+  temperature: "36.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "임신성 갑상선 기능 저하증"
+    - "철결핍성 빈혈"
+    - "정상적인 임신 중 변화"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4)"
+    - "갑상선 자가항체 검사 (Anti-TPO Ab)"
+    - "일반 혈액 검사 (빈혈 감별)"
+  necessary_treatments:
+    - "갑상선 호르몬제 (레보티록신) 복용"
+    - "정기적인 갑상선 기능 추적 검사"
+    - "태아 발달에 미치는 영향에 대한 상담"
+history:
+  sex_age: "여성/30세"
+  chief_complaint_verbatim: "임신 14주차인데요. 다른 사람들은 입덧이 끝날 시기라는데 저는 너무 피곤하고 무기력해요. 변비도 너무 심하고요."
+  onset: "임신 초기부터 계속됨"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "호전 없이 지속되거나 약간 더 심해지는 느낌"
+  course: "임신 초기부터 피로감이 심했는데, 임신 때문이려니 생각했다. 하지만 입덧이 끝날 시기가 되어도 나아지지 않고, 오히려 더 무기력해지고 잠이 많아졌다. 추위도 남들보다 더 타는 것 같고, 변비가 심해져서 일상생활이 불편하여 상담차 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "극심한 피로감, 무기력, 변비, 추위에 대한 과민성"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false # 오히려 체중이 예상보다 더 늘어남
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+    other: "피부가 건조하고 머리카락이 많이 빠짐, 목소리가 약간 쉰 것 같음"
+  factors:
+    aggravating:
+      - "오후 시간대"
+      - "추운 환경"
+    alleviating: "충분한 수면 후에도 피로감은 여전함"
+  health_check_history:
+    last_checkup: "임신 8주차 초기 검사"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "엽산"
+    source: "처방"
+    effect: "-"
+  social_history:
+    job: "학원 강사"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "피곤해서 거의 못함"
+    recent_weight_change: "임신 14주인데 5kg 증가 (평균보다 많이 증가)"
+  family_history: "어머니, 이모가 갑상선 기능 저하증(하시모토 갑상선염)으로 약 복용 중"
+  female_history: "G1P0, LMP: 약 3.5개월 전, EDC: 26주 후, 임신 14주"
+physical_exam:
+  general: "전반적으로 기운이 없고 움직임이 둔해 보임. 말이 느림."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+    # 갑상선 촉진 시 미만성으로 약간 커져 있으나(diffuse, non-tender goiter), 결절은 만져지지 않음.
+  chest: "Bradycardia (서맥). 호흡음 정상."
+  abdomen:
+    inspection: "임신 14주에 합당한 크기"
+    auscultation: "장음 감소"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "피부가 건조하고 차가움. 심부건반사(DTR) 지연 소견 보임."
+standardized_patient_questions: "임신하면 다 이렇게 피곤한 거 아니에요? 갑상선에 문제가 있으면 아기 지능에 영향이 있다는 얘기를 들었는데 사실인가요? 약을 먹어야 하나요?"
+specific_remarks: "환자는 임신의 정상적인 증상과 질병을 구분하지 못해 혼란스러워하는 모습을 보인다. 피로감, 변비, 추위 등 비특이적인 증상들을 나열한다. 가족력을 중요한 정보로 제공한다. 신체 진찰 시, 의사가 목(갑상선)을 만지거나, 무릎 반사(DTR)를 확인할 때 왜 하는지 궁금해하는 반응을 보인다. 서맥과 느린 말투를 연기한다."

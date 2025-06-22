@@ -1,0 +1,111 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (예방접종 투여 경로 오류에 대한 상담)"
+patient_info:
+  name: "홍지민"
+  age: 2
+  sex: "여성"
+  presenting_complaint: "예방접종 주사를 잘못 맞은 것 같아요"
+vital_signs:
+  blood_pressure: "88/55mmHg"
+  pulse: "130회/분"
+  respiration: "35회/분"
+  temperature: "37.0℃"
+examinee_instructions: "상황을 정확히 파악하고, 투여 경로 오류가 백신 효과와 안전성에 미치는 영향에 대해 설명한 후, 향후 조치에 대해 보호자와 상의하시오."
+patient_education:
+  probable_diagnoses:
+    - "예방접종 투여 경로 오류 (Vaccine administration error)"
+    - "백신 효능 저하 가능성"
+    - "국소 이상반응 발생 가능성 증가"
+  necessary_tests:
+    - "추가적인 검사는 필요 없음"
+  necessary_treatments:
+    - "오류가 발생했음을 인정하고 보호자에게 솔직하게 설명 및 사과"
+    - "근육주사해야 할 백신을 피하주사 시, 항체 생성이 불충분할 수 있어 '무효 접종'으로 간주하고 재접종이 필요함을 설명"
+    - "국소 이상반응(통증, 부종, 경결)이 더 심하게 나타날 수 있음을 안내하고 대처법 교육"
+    - "적절한 간격(최소 4주)을 두고 올바른 경로로 재접종할 것을 계획"
+history:
+  sex_age: "여아/2개월"
+  chief_complaint_verbatim: "두 시간 전에 다른 병원에서 예방접종을 맞았는데, 간호사 선생님이 주사를 잘못 놓은 것 같다고 해서요. 확인 좀 받고 싶어서 왔어요."
+  onset: "2시간 전"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "N/A"
+    recent_course: "N/A"
+  course: "오늘 오전 11시, 집 근처 다른 의원에서 DTaP-IPV 1차 접종을 하였다. 보호자가 보기에 주사 바늘이 깊게 들어가지 않고 피부 바로 아래에 놓는 것처럼 보였다. 접종 직후, 해당 간호사가 동료와 이야기하며 '어머, IM인데 SC로 놓은 것 같아'라고 말하는 것을 들었다. 찝찝한 마음에 해당 병원에 문의했으나 괜찮다는 답변만 들어, 정확한 확인과 상담을 위해 다른 병원(현재 진료실)으로 내원했다."
+  experience_prev_episodes:
+    frequency: "N/A"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "N/A"
+    nrs_score: "N/A"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating: []
+    alleviating: "N/A"
+  health_check_history:
+    last_checkup: "신생아 검진"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "해당 없음"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "해당 없음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강하고 편안해 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "오른쪽 허벅지 전외측에 주사 자국 관찰됨. 주변으로 약 2x2cm 크기의 경미한 부종과 발적이 있으며, 만졌을 때 피하에 작은 몽우리가 느껴짐."
+standardized_patient_questions: "주사를 잘못 맞으면 효과가 없나요? 그럼 오늘 맞은 건 헛고생 한 건가요? 주사를 또 맞아야 한다니, 아기한테 무리가 가지는 않을까요? 원래 맞았던 병원에 가서 따져야 하는 거 아닌가요?"
+specific_remarks: "보호자(엄마) 역할. 이전 병원의 대처에 대해 불신과 불만이 있는 상태. 화가 나 있지만 차분하게 상황을 설명하려고 노력함. 재접종의 필요성에 대해 듣고 속상함과 걱정을 표현함."

@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (만성 피로 증후군)"
+patient_info:
+  name: "최유미"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "6개월 이상 지속되는 극심한 피로"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 피로 증후군 (근육통성 뇌척수염)"
+    - "섬유근육통"
+    - "가면 우울증"
+  necessary_tests:
+    - "다른 질환 배제를 위한 포괄적인 혈액 검사 (CBC, ESR/CRP, 간/신장/갑상선 기능, 자가면역질환 스크리닝 등)"
+    - "수면의 질, 우울/불안 척도 등 심리사회적 평가"
+    - "진단 기준에 따른 증상 평가"
+  necessary_treatments:
+    - "단계적 운동 치료 (Graded Exercise Therapy)"
+    - "인지 행동 치료 (Cognitive Behavioral Therapy)"
+    - "증상 조절을 위한 약물 치료 (통증, 수면장애 등)"
+history:
+  sex_age: "여성/38"
+  chief_complaint_verbatim: "작년에 독감 앓고 난 뒤부터 계속 피곤해요. 예전엔 거뜬하던 일도 조금만 하면 다음날 앓아누울 정도로 힘들어요."
+  onset: "약 8개월 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "감염성 질환 이후 갑자기 시작됨"
+    recent_course: "호전과 악화 반복, 전반적으로 호전 없음"
+  course: "8개월 전 심한 독감을 앓고 난 후부터 이전과 다른 종류의 피로가 시작되었다. 잠을 푹 자도 아침에 일어나면 개운하지 않고, 장을 보러 잠시 외출하는 등 가벼운 활동만 해도 다음 날 며칠간 몸살처럼 앓아눕게 된다 (운동 후 권태감). 집중력과 기억력도 떨어진 것 같다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "휴식으로 회복되지 않는, 심신을 고갈시키는 피로"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "신체적, 정신적 활동 (조금이라도 무리하면)"
+      - "스트레스"
+    alleviating: "없음 (쉬어도 완전히 회복되지 않음)"
+  health_check_history:
+    last_checkup: "최근 여러 병원에서 검사했음"
+    endoscopy_finding: "갑상선, 빈혈, 류마티스 등 여러 검사를 받았으나 모두 '정상'이라고 들음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "영양제, 한약"
+    source: "약국, 한의원"
+    effect: "효과 없었음"
+  social_history:
+    job: "경력 단절 주부 (이전엔 그래픽 디자이너)"
+    stress: "증상으로 인한 스트레스가 심함"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "전혀 못 함 (하면 더 아픔)"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "규칙적"
+physical_exam:
+  general: "의식은 명료하나, 매우 지쳐 보이고 대화 중에도 피로감을 드러냄. 급/만성 병색 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "전신 근육 및 관절에 미만성 압통을 호소하나, 부종이나 발적, 열감 등 객관적인 관절염 소견은 없음. 근력 저하 없음."
+standardized_patient_questions: "검사상 다 정상이라는데 저는 왜 이렇게 아픈가요? 꾀병이라고 생각하는 사람도 있어서 너무 힘들어요. 정말 병이 있는 게 맞나요? 치료할 방법은 있나요?"
+specific_remarks: "의료 쇼핑 경험을 이야기하며 좌절감을 표현한다. '운동 후 권태감(post-exertional malaise)'을 '남들은 운동하면 개운하다는데 저는 앓아눕는다'고 구체적으로 설명한다. 다른 신체검사 소견이 모두 정상이라는 점을 강조해야 한다. 진단명을 듣고 생소해하며, 병으로 인정받는다는 사실에 안도감과 막막함을 동시에 표현한다."

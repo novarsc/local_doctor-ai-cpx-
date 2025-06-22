@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (전환장애)"
+patient_info:
+  name: "김유미"
+  age: 22
+  sex: "여성"
+  presenting_complaint: "남자친구와 다툰 후 갑자기 왼쪽 다리가 마비됨"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "90회/분"
+  respiration: "20회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전환장애 (기능성 신경학적 증상 장애)"
+    - "급성 척수 병변 (예: 횡단성 척수염)"
+    - "꾀병 (Malingering, 감별 필요)"
+  necessary_tests:
+    - "정밀 신경학적 진찰"
+    - "척추 MRI (기질적 원인 배제 목적)"
+    - "정신건강의학과 협진"
+  necessary_treatments:
+    - "증상이 심리적 원인과 관련될 수 있음을 설명"
+    - "정신 치료 및 인지행동치료"
+    - "물리치료를 통한 기능 회복 격려"
+history:
+  sex_age: "여성/22"
+  chief_complaint_verbatim: "어제 남자친구랑 심하게 싸우고 나서 갑자기 왼쪽 다리에 아무 감각이 없고 움직일 수가 없어요. 제 다리가 아닌 것 같아요."
+  onset: "1일 전"
+  location:
+    initial: "왼쪽 다리 전체"
+    current: "왼쪽 다리 전체"
+  duration:
+    onset_pattern: "매우 급성"
+    recent_course: "변화 없음"
+  course: "어제 저녁 남자친구와 크게 다투고 이별 통보를 받은 직후, 갑자기 왼쪽 다리에 힘이 빠지면서 주저앉음. 그 이후로 왼쪽 다리를 전혀 움직일 수 없고 감각도 느껴지지 않음. 친구의 부축을 받아 응급실로 옴."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "고등학교 때 시험 스트레스가 심할 때 갑자기 팔이 안 움직였던 적이 있으나 하루 만에 괜찮아졌음."
+  character_of_symptom:
+    quality: "다리가 마비되고 감각이 없는 느낌"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "다리를 움직여보려고 할 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "모름"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "최근 연인 관계 및 학업 문제로 매우 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "매우 불안하고 극적인 감정 표현을 보임(la belle indifférence와는 다른 양상). 휠체어를 타고 들어옴."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "과호흡 양상 보이나 청진상 특이소견 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "왼쪽 다리의 완전 마비를 호소하나, Hoover's sign 양성 (정상측 다리를 들어올리게 할 때 마비된 다리의 뒤꿈치가 침대를 누르는 힘이 느껴짐). 심부건반사는 양측 대칭적으로 정상. 바빈스키 징후 음성. 감각 검사 시 해부학적 경계를 따르지 않는 양말 형태의 감각 소실을 호소함. 진동 감각 검사 시 한쪽 장골능에서는 느끼고 반대쪽에서는 못 느낀다고 하는 등 비일관적인 소견을 보임."
+standardized_patient_questions: "제 다리 정말 왜 이러는 거예요? 이대로 평생 못 걷는 건 아니겠죠? 남자친구 때문인 것 같아서 너무 힘들어요."
+specific_remarks: "환자는 자신의 증상에 대해 매우 고통스러워하고 불안해하며, 눈물을 흘리는 등 감정 기복을 보인다. 하지만 신체 진찰 소견은 신경해부학적 경로와 일치하지 않는 특징을 보인다. 의사가 Hoover's sign 같은 특정 검사를 할 때, 환자는 자신이 속임수를 쓰고 있다는 것을 인지하지 못하는 상태로, 진심으로 다리가 움직이지 않는다고 믿고 행동한다. 스트레스 상황에 대한 질문에 매우 민감하게 반응한다."

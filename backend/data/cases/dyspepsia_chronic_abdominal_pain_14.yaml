@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (신체증상장애)"
+patient_info:
+  name: "나예민"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "다양하고 지속적인 소화기 증상 및 건강 염려"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신체증상장애 (Somatic symptom disorder)"
+    - "기능성 소화불량증"
+    - "건강염려증 (Illness anxiety disorder)"
+  necessary_tests:
+    - "이전 검사 결과 재확인 및 불필요한 반복 검사 자제"
+    - "새로운 경고 증상 발생 시에만 선별적 검사 시행"
+    - "정신건강의학과적 평가 및 상담"
+  necessary_treatments:
+    - "환자와의 신뢰 관계 구축 및 정기적인 면담"
+    - "증상이 심리적 스트레스와 연관될 수 있음을 교육"
+    - "인지행동치료 및 스트레스 관리 기법"
+    - "필요시 항우울제/항불안제 등 정신과적 약물 치료"
+history:
+  sex_age: "여성/42"
+  chief_complaint_verbatim: "선생님, 저는 온몸이 다 아파요. 특히 속이 맨날 더부룩하고, 쓰리고, 가스 차고, 어떨 땐 설사하고... 병원을 몇 군데를 다녔는지 몰라요. 다들 신경성이래요. 근데 저는 정말 아프단 말이에요. 큰 병이 있는데 못 찾아내는 것 같아요."
+  onset: "10여 년 전부터"
+  location:
+    initial: "명치"
+    current: "상복부, 하복부, 가슴 등 여기저기 옮겨 다님"
+  duration:
+    onset_pattern: "만성적, 지속적"
+    recent_course: "최근 남편 사업이 어려워지면서 모든 증상이 다 심해짐"
+  course: "다양한 증상이 계속 나타나고 사라지기를 반복함"
+  experience_prev_episodes:
+    frequency: "거의 매일"
+    trigger: "스트레스, 사소한 신체 변화에 대한 걱정"
+    symptoms: "소화불량, 속쓰림, 복통 외에도 두통, 어지럼증, 전신 통증 등 다양함"
+  character_of_symptom:
+    quality: "매번 다르게 표현함 (타는 듯, 쥐어짜는 듯, 묵직함 등)"
+    nrs_score: "7-9 (주관적 호소)"
+    radiation: "불명확함"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "가끔"
+      constipation: true
+      diarrhea: true
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "자신의 증상에 대해 생각하는 것"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3개월 전 대학병원 소화기내과"
+    endoscopy_finding: "지난 5년간 위/대장 내시경 각각 3회 이상 시행, 모두 '가벼운 위염' 또는 '정상' 소견. 복부 CT, 초음파 등 다수 검사에서도 이상 없음."
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "편두통, 섬유근육통 (타 병원에서 추정 진단 받음)"
+    allergies: "여러 음식과 약에 부작용을 경험했다고 주장하나 명확하지 않음"
+  medication_history:
+    taken:
+      - "소화제, 진통제, 진경제 등 10가지 이상의 약을 비정기적으로 복용"
+    source: "여러 병원과 약국"
+    effect: "효과가 없거나 부작용이 나타난다고 호소함"
+  social_history:
+    job: "주부"
+    stress: "매우 심함 (가정 문제, 건강 염려)"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "아파서 못한다고 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "매우 불안해 보이며, 자신의 증상을 과장하여 표현함"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat, symmetric, 이전 검사로 인한 작은 흉터들"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      diffuse_tenderness: "가볍게 만지기만 해도 아프다고 소리침 (비일관적)"
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+standardized_patient_questions: "선생님도 제가 꾀병이라고 생각하시는 거죠? 제발 어디가 아픈 건지 찾아주세요. 어떤 검사라도 다 받을 수 있어요. 혹시 희귀병 아닐까요?"
+specific_remarks: "환자는 병력 청취 내내 매우 장황하고 감정적으로 증상을 설명한다. 수많은 병원을 다녔고(doctor shopping), 검사 결과는 정상이지만 자신은 매우 아프다는 모순을 반복적으로 호소한다. 신체 진찰 시, 진찰하는 부위마다 아프다고 하지만, 주의를 다른 곳으로 돌리고 다시 만지면 통증을 느끼지 못하는 등 비일관적인 반응을 보인다. 건강에 대한 과도한 집착과 일상생활의 기능 저하를 보인다."

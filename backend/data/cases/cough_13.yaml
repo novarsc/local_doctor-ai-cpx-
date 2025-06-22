@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (백일해)"
+patient_info:
+  name: "강민희"
+  age: 34
+  sex: "여성"
+  presenting_complaint: "2주 이상 지속되는 심한 기침"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "백일해 (Pertussis)"
+    - "마이코플라즈마 폐렴 (Mycoplasma pneumonia)"
+    - "기침형 천식 (Cough-variant asthma)"
+  necessary_tests:
+    - "비인두 면봉 채취 후 PCR 검사"
+    - "혈액 검사 (림프구 증가 확인)"
+    - "흉부 X선 촬영 (다른 원인 감별)"
+  necessary_treatments:
+    - "마크로라이드 계열 항생제 (Erythromycin, Azithromycin 등) 투여"
+    - "전염성 고려하여 격리 및 주변인 예방적 치료 권고"
+    - "대증 치료 (기침 완화, 수분 공급)"
+history:
+  sex_age: "여성/34세"
+  chief_complaint_verbatim: "기침이 너무 심해서 밤에 잠을 못 자요. 한번 시작하면 숨 쉴 틈도 없이 기침을 하다가 얼굴이 빨개지고, 기침 끝에 '흡' 하는 소리가 나기도 해요."
+  onset: "약 3주 전"
+  location:
+    initial: "목"
+    current: "가슴 전체"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "지난 1주간 기침 발작이 매우 심해짐"
+  course: "처음 일주일은 콧물, 재채기 등 가벼운 감기 증상이었다. 그 후부터 기침이 시작됐는데, 점점 심해져서 발작적인 양상을 띤다. 기침을 너무 심하게 해서 구토를 한 적도 있다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "발작적인 기침(paroxysmal cough) 후 '흡'하는 소리(whoop), 기침 후 구토"
+    nrs_score: "9 (기침 발작 시)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "기침 후에 가끔"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밤"
+      - "특별한 유발 요인 없음 (갑자기 시작)"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "기침약, 항생제(아목시실린 계열) 1주 복용"
+    source: "동네 의원"
+    effect: "전혀 효과 없었음"
+  social_history:
+    job: "어린이집 교사"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "최근 출산 (아기 3개월)"
+physical_exam:
+  general: "지쳐 보이고 피곤한 기색. 기침 발작이 없는 동안에는 정상 소견."
+  heent:
+    sclera: "결막하 출혈(subconjunctival hemorrhage) 소견 보임"
+    oral_mucosa: "정상"
+  chest: "기침 발작이 없을 때는 호흡음 깨끗함. 수포음이나 천명음 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "특이 소견 없음."
+standardized_patient_questions: "어른도 백일해에 걸리나요? 우리 아기한테 옮기면 어떡하죠? 왜 동네 병원 약은 효과가 없었을까요?"
+specific_remarks: "매우 지쳐있는 모습을 연기한다. 진찰 도중 갑자기 참을 수 없는 기침 발작을 시작하고, 10-15초간 연속으로 기침하다가 숨을 크게 들이쉬는 모습을 재현한다. 기침 때문에 눈에 실핏줄이 터졌다고 말한다."

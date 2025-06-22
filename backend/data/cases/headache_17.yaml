@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "17"
+title: "실전 모의 증례 (고혈압성 뇌병증)"
+patient_info:
+  name: "김영철"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "심한 두통과 함께 정신이 혼미해지고 시야가 흐려짐"
+vital_signs:
+  blood_pressure: "230/140mmHg"
+  pulse: "95회/분"
+  respiration: "22회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "고혈압성 응급(뇌병증)"
+    - "뇌졸중 (허혈성 또는 출혈성)"
+    - "지주막하 출혈"
+  necessary_tests:
+    - "즉각적인 혈압 모니터링 및 조절"
+    - "뇌 CT 또는 MRI (뇌부종, 후두엽의 가역적 백질 병증(PRES) 확인, 뇌출혈 감별)"
+    - "기본 혈액 검사, 소변 검사, 심전도, 흉부 X-ray (표적 장기 손상 평가)"
+  necessary_treatments:
+    - "응급실/중환자실 입원 치료"
+    - "정맥 주사용 혈압 강하제(라베타롤, 니카르디핀 등)로 점진적인 혈압 강하 (초기 1시간 내 20-25% 이내)"
+    - "경련 발생 시 항경련제 투여"
+history:
+  sex_age: "남성/65"
+  chief_complaint_verbatim: "오늘 아침부터 갑자기 머리가 터질 듯이 아프고 눈앞이 흐릿해요. 자꾸 정신이 오락가락하고 헛것이 보이는 것 같아요. 제가 혈압약을 며칠 빼먹었어요."
+  onset: "내원일 아침"
+  location:
+    initial: "머리 전체"
+    current: "머리 전체"
+  duration:
+    onset_pattern: "수 시간 내에 급격히 발생"
+    recent_course: "점점 악화되며 의식 상태가 나빠짐"
+  course: "지속적인 심한 두통과 함께 시각 이상, 의식 변화 동반"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "혈압약 임의 중단"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "매우 심한, 터질 듯한 두통"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "내원 전 2회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    neurological:
+      altered_mentality: "혼돈(confusion), 섬망(delirium)"
+      visual_disturbance: "시야 흐림, 시야 일부가 안 보임 (피질맹 가능성)"
+      seizure: "내원 직전 전신 경련 1회 있었다고 보호자가 진술"
+  factors:
+    aggravating:
+      - "시간이 지날수록 악화"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3개월 전 동네 의원"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨병, 만성 신부전"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀, 로사르탄, 메트포르민"
+    source: "내과 처방"
+    effect: "최근 1주일간 약이 떨어져 복용하지 못함."
+  social_history:
+    job: "경비원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "해당 없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색. 의식 상태가 혼미하고 불안정해 보임. 질문에 제대로 대답하지 못함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    fundoscopy: "양측 유두부종, 망막 출혈, 삼출물 등 4단계 고혈압성 망막병증 소견"
+  chest: "호흡음에서 수포음(crackle) 청진될 수 있음 (폐부종)"
+  abdomen: "정상"
+  neurology:
+    mental_status: "Lethargic and confused. 지남력 장애 (시간, 장소)."
+    cranial_nerves: "시야 검사 협조 불가. 동공 반응은 정상."
+    motor_sensory: "뚜렷한 편측 마비는 없으나, 전반적인 위약감 보임."
+    reflexes: "심부건반사 항진, 양측 바빈스키 징후 양성"
+  cvat: "음성"
+  extremity: "경미한 함요 부종"
+standardized_patient_questions: "(보호자가 대신 질문) 저희 아버지가 왜 갑자기 이러시는 건가요? 혈압약 며칠 안 먹었다고 이렇게 될 수 있나요? 뇌졸중인가요? 위험한 상태인가요?"
+specific_remarks: "환자는 의식이 혼미하여 병력 청취가 어렵다. 주로 보호자가 대답한다. 환자는 불안해하며 횡설수설하거나 질문과 상관없는 대답을 할 수 있다. 혈압이 매우 높다는 사실과 환자가 혈압약을 임의로 중단했다는 점을 보호자가 강조해서 말한다. 진찰 중 경련이 재발할 수 있음을 염두에 둔다."

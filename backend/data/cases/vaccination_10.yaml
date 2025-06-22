@@ -1,0 +1,110 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (계란 알레르기 환아의 예방접종 상담)"
+patient_info:
+  name: "조은우"
+  age: 1
+  sex: "남성"
+  presenting_complaint: "계란 알레르기가 있는데 예방접종을 해도 되는지 물어보러 왔어요"
+vital_signs:
+  blood_pressure: "95/65mmHg"
+  pulse: "105회/분"
+  respiration: "23회/분"
+  temperature: "36.7℃"
+examinee_instructions: "환아의 알레르기 병력을 자세히 청취하고, 관련 예방접종의 위험성과 안전성에 대해 설명한 후, 접종 계획을 수립하시오."
+patient_education:
+  probable_diagnoses:
+    - "계란 알레르기 환아의 예방접종 상담"
+    - "MMR 및 인플루엔자 백신 접종 관련 주의사항 교육"
+  necessary_tests:
+    - "계란 알레르기의 심각도 평가를 위한 병력 청취가 가장 중요함"
+    - "필요 시 피부반응검사 또는 혈액검사(특이 IgE 항체 검사) 결과 확인"
+  necessary_treatments:
+    - "계란 알레르기가 있어도 대부분의 MMR, 인플루엔자 백신은 안전하게 접종 가능함을 설명"
+    - "심한 아나필락시스 병력이 있는 경우, 접종 후 30분 이상 병원에서 관찰하는 등 주의 조치 안내"
+    - "접종 당일 컨디션 조절 및 이상반응 발생 시 대처법 교육"
+history:
+  sex_age: "남아/11개월"
+  chief_complaint_verbatim: "다음 달이 돌이라 MMR 주사를 맞아야 하는데, 우리 애가 계란 알레르기가 심해서요. 맞아도 괜찮을까요?"
+  onset: "N/A (상담 목적 내원)"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "N/A"
+    recent_course: "N/A"
+  course: "환아는 생후 6개월에 계란 노른자로 이유식을 시작했을 때는 괜찮았다. 8개월경 계란 흰자를 먹인 직후, 입 주변이 붓고 온몸에 두드러기가 나면서 숨쉬기 힘들어 보여 응급실에 내원한 경험이 있다. 당시 응급실에서 '계란에 의한 아나필락시스'로 진단받고 에피네프린 주사를 맞았으며, 이후 계란 성분이 포함된 음식은 철저히 피하고 있다. 곧 12개월이 되어 MMR 접종 시기가 다가오자, MMR 백신이 계란 성분으로 만들어진다는 이야기를 듣고 접종의 안전성에 대해 심각하게 우려하여 상담차 내원했다."
+  experience_prev_episodes:
+    frequency: "1회"
+    trigger: "계란 흰자 섭취"
+    symptoms: "전신 두드러기, 입술 부종, 호흡곤란"
+  character_of_symptom:
+    quality: "N/A"
+    nrs_score: "N/A"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating: []
+    alleviating: "N/A"
+  health_check_history:
+    last_checkup: "6개월 영유아 검진"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "아토피 피부염"
+    allergies: "계란 (아나필락시스 병력)"
+  medication_history:
+    taken:
+      - "없음 (필요시 휴대용 에피네프린 주사기 소지)"
+    source: "대학병원 알레르기내과"
+    effect: ""
+  social_history:
+    job: "해당 없음"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "해당 없음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강하고 발달 상태 양호함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "팔꿈치, 무릎 접히는 부위에 경미한 아토피 피부염 병변 관찰됨."
+standardized_patient_questions: "MMR 말고 독감 주사도 계란으로 만든다고 들었는데 그것도 괜찮나요? 혹시 모르니 병원에서 알레르기 반응 검사를 하고 주사를 맞으면 안될까요? 만약 주사 맞고 또 쇼크가 오면 어떡하죠?"
+specific_remarks: "보호자(엄마) 역할. 과거 아나필락시스 경험으로 인해 매우 신중하고 걱정이 많은 태도를 보임. 의사의 설명에 쉽게 안심하지 않고, 안전 조치에 대해 반복적으로 확인하고 질문함."

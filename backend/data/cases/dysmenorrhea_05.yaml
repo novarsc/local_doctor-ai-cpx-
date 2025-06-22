@@ -1,0 +1,128 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (자궁외 임신)"
+patient_info:
+  name: "정유미"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "아랫배가 아프고 피가 비쳐요."
+vital_signs:
+  blood_pressure: "95/60mmHg"
+  pulse: "110회/분"
+  respiration: "22회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁외 임신 (특히 파열 가능성)"
+    - "절박 유산 또는 불완전 유산"
+    - "난소 낭종 파열 또는 염전"
+  necessary_tests:
+    - "소변 임신 반응 검사 (hCG)"
+    - "혈청 정량 hCG 검사"
+    - "응급 질식 초음파"
+    - "혈액검사 (CBC, 혈액형 검사)"
+  necessary_treatments:
+    - "즉각적인 입원"
+    - "수액 공급 및 활력징후 모니터링"
+    - "상태에 따라 약물치료(MTX) 또는 응급 수술(복강경)"
+history:
+  sex_age: "여성/32"
+  chief_complaint_verbatim: "오늘 아침부터 갑자기 아랫배 오른쪽이 너무 아프고, 화장실에 가니 피가 조금 묻어 나왔어요. 어지럽고 식은땀도 나요."
+  onset: "오늘 아침 8시경"
+  location:
+    initial: "오른쪽 아랫배"
+    current: "오른쪽 아랫배 전체"
+  duration:
+    onset_pattern: "갑자기 시작됨 (sudden onset)"
+    recent_course: "점점 더 아파짐"
+  course: "수 시간 동안 급격히 악화"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "날카롭게 찌르는 듯한 통증"
+    nrs_score: "9점"
+    radiation: "오른쪽 어깨로 뻗치는 통증이 있음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "한 번"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "기침할 때"
+    alleviating: "가만히 누워있으면 약간 덜함"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "자궁경부암 검사 정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "2년 전 골반염으로 치료받은 적 있음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "최근 마감 때문에 스트레스가 심했음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "14세"
+    lmp: "7주 전"
+    cycle: "30-32일 주기, 비교적 규칙적"
+    duration: "5일"
+    amount: "보통"
+    dysmenorrhea: "경미"
+    menopause_age: "해당 없음"
+    obgyn_visits: "골반염 치료 외 없음"
+    sexual_history: "기혼, 피임하지 않음, 임신 계획 중"
+physical_exam:
+  general: "급성 병색, 안절부절못하며 식은땀을 흘림. 안색이 창백함."
+  heent:
+    sclera: "Anicteric"
+    conjunctiva: "Pale"
+    oral_mucosa: "Dry"
+  chest: "Tachycardia noted, but breath sounds are clear"
+  abdomen:
+    inspection: "Flat, no visible mass"
+    auscultation: "Decreased bowel sounds"
+    percussion: "Tympanic, shifting dullness 의심됨"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: true
+      tenderness_rlq: true
+      guarding: "Right lower quadrant에 자발적인 복벽 경직 관찰됨"
+  pelvic_exam:
+    speculum: "Small amount of dark blood in vaginal vault. Cervix closed."
+    bimanual: "Extreme tenderness on motion of the cervix (CMT positive). Right adnexal fullness and severe tenderness noted."
+  cvat: "양측 음성"
+  extremity: "Extremities are cool and clammy"
+standardized_patient_questions: "저 왜 이렇게 아픈가요? 임신 테스트기는 두 줄 나왔는데, 유산되는 건가요? 어깨는 왜 아프죠? 저 죽는 거 아니죠?"
+specific_remarks: "매우 고통스러워하며, 말하는 중간중간 숨을 헐떡인다. 복부 진찰, 특히 오른쪽 아랫배를 만질 때 비명을 지르며 몸을 피하려 한다. 파열 가능성을 시사하는 불안정한 활력징후와 신체 소견을 연기해야 한다. 극심한 불안감과 공포를 표현한다."

@@ -1,0 +1,115 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (인플루엔자 예방접종 후 길랭-바레 증후군 의심)"
+patient_info:
+  name: "정유나"
+  age: 7
+  sex: "여성"
+  presenting_complaint: "다리에 힘이 빠지고 잘 못 걸어요"
+vital_signs:
+  blood_pressure: "100/65mmHg"
+  pulse: "90회/분"
+  respiration: "20회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 신경학적 진찰을 포함한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환아의 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "길랭-바레 증후군 (Guillain-Barré syndrome, GBS)"
+    - "횡단성 척수염 (Transverse myelitis)"
+    - "급성 이완성 마비 (Acute flaccid paralysis)"
+  necessary_tests:
+    - "신경전도검사 및 근전도검사 (NCS/EMG)"
+    - "뇌척수액 검사 (요추 천자 시행, albuminocytologic dissociation 확인)"
+    - "척추 MRI (다른 척수 질환 감별)"
+  necessary_treatments:
+    - "즉시 상급병원 입원 치료 필요"
+    - "면역글로불린 정맥주사 (IVIG) 또는 혈장교환술"
+    - "호흡근 마비 발생 가능성에 대한 집중 감시 및 필요시 기계 환기"
+    - "재활 치료"
+history:
+  sex_age: "여아/7세"
+  chief_complaint_verbatim: "이틀 전부터 다리가 저리다고 하더니, 오늘 아침에는 혼자 일어서지를 못해요. 자꾸 넘어지고요."
+  onset: "이틀 전"
+  location:
+    initial: "양쪽 발"
+    current: "양쪽 다리 전체, 무릎 위까지"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "증상이 위로 올라오면서 점점 심해짐"
+  course: "환아는 2주 전 인플루엔자 예방접종을 하였다. 5일 전부터 가벼운 감기 증상(콧물, 기침)이 있었다. 이틀 전 저녁부터 양쪽 발이 저리고 감각이 둔하다고 호소하기 시작했다. 어제는 걸을 때 다리에 힘이 없고 비틀거리는 모습을 보였다. 오늘 아침에는 침대에서 일어나려다 다리에 힘이 풀려 주저앉았고, 부축해야 겨우 걸을 수 있는 상태가 되어 내원했다. 대소변 실수는 아직 없었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "상행성의 대칭적인 위약감 및 감각 이상"
+    nrs_score: "해당 없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "걷거나 서려고 할 때"
+    alleviating: "누워있을 때"
+  health_check_history:
+    last_checkup: "작년 학교 신체검사, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "넘어진 적은 있으나 심한 외상은 아님"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "초등학생"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "활동적이었음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "의식은 명료하나, 불안해하고 위약감으로 인해 잘 움직이려 하지 않음."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+    # 안면 근육 위약이나 안구 운동 장애는 없음.
+  chest: "호흡음 정상. 호흡 노력은 괜찮아 보임."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "양쪽 하지의 근위부 및 원위부 근력 저하(MRC grade 3/5). 상지 근력은 정상(5/5). 양쪽 무릎 및 발목의 심부건반사 소실(absent). 발가락 끝 감각 저하 소견."
+standardized_patient_questions: "애가 갑자기 왜 못 걷나요? 독감 주사 때문에 이렇게 될 수도 있나요? 평생 못 걷게 되는 건 아니겠죠? 지금 당장 어떻게 해야 하나요?"
+specific_remarks: "보호자(아빠) 역할. 건강하던 아이가 갑자기 못 걷게 된 상황에 대해 큰 충격과 혼란을 느낌. 질병의 이름과 원인, 예후에 대해 매우 걱정하며 질문함. 즉각적인 입원과 검사가 필요하다는 말에 불안해하면서도 협조적인 태도를 보임."

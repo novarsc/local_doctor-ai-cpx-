@@ -1,0 +1,107 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (뇌진탕 후 증후군, Post-concussion Syndrome)"
+patient_info:
+  name: "최강민"
+  age: 21
+  sex: "남성"
+  presenting_complaint: "머리를 다친 후로 계속 어지럽고 머리가 아파요."
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "뇌진탕 후 증후군"
+    - "외상 후성 BPPV"
+    - "만성 외상성 뇌손상"
+  necessary_tests:
+    - "상세한 신경학적 진찰"
+    - "신경인지기능 검사"
+    - "뇌 MRI (구조적 이상 배제)"
+  necessary_treatments:
+    - "충분한 휴식 (신체적, 인지적)"
+    - "증상에 따른 대증치료 (두통약, 어지럼증 약)"
+    - "점진적인 활동 복귀 계획 수립"
+    - "환자 및 보호자 교육 (증상 경과 설명)"
+history:
+  sex_age: "남성/21세"
+  chief_complaint_verbatim: "2주 전에 축구하다가 머리를 부딪혔는데, 그날 이후로 계속 어지럽고 머리가 띵해요."
+  onset: "2주 전"
+  location:
+    initial: "머리 전체"
+    current: "머리 전체"
+  duration:
+    onset_pattern: "외상 후 지속됨"
+    recent_course: "조금씩 나아지는 것 같기도 한데, 여전히 불편함"
+  course: "머리를 부딪힌 직후 잠시 정신을 잃었고, 깨어난 뒤 계속 머리가 아프고 어지러웠습니다. 집중도 잘 안되고, 쉽게 짜증이 납니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "붕 뜨는 듯한 비회전성 어지럼, 전반적인 두통"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "다친 날 한 번 함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "집중이 필요한 작업 (공부, 컴퓨터)"
+      - "밝은 빛이나 시끄러운 환경"
+    alleviating: "조용하고 어두운 곳에서 쉬는 것"
+  health_check_history:
+    last_checkup: "군 입대 신체검사, 정상"
+    endoscopy_finding: ""
+  trauma_history: "2주 전 축구 경기 중 헤딩 경합하다가 상대 선수와 머리를 부딪힘. 약 1분간 의식 소실 있었음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제"
+    source: "약국"
+    effect: "일시적으로만 효과 있음"
+  social_history:
+    job: "대학생"
+    stress: "수업을 따라가기 힘들어 스트레스 받음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회 (최근에는 안 마심)"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "축구 동아리 활동"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "피곤하고 약간 예민해 보임."
+  heent: "두피에 특별한 외상 흔적 없음."
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "신경학적 진찰 상 국소적 결손은 없으나, 집중력 저하가 의심됨."
+standardized_patient_questions: "뇌 사진을 찍어봐야 하는 거 아닌가요? 뇌출혈 같은 게 뒤늦게 생길 수도 있나요? 언제쯤 다시 축구를 할 수 있을까요?"
+specific_remarks: "환자는 '머리 외상' 이후에 발생한 다양한 증상을 호소해야 한다. 어지럼, 두통 외에도 '집중력 저하', '기억력 감퇴', '감정 기복(짜증)', '빛/소리 과민성' 등을 함께 언급하는 것이 중요하다. 외상 당시 '의식 소실'이 있었다는 점을 명확히 진술한다. 신체 진찰은 정상이지만, 문진 과정에서 집중력이 떨어지는 모습을 보여주는 것이 좋다."

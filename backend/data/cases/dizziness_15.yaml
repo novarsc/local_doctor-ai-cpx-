@@ -1,0 +1,105 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (청신경초종, Vestibular Schwannoma)"
+patient_info:
+  name: "나혜진"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "몇 년 전부터 왼쪽 귀가 잘 안 들리고 가끔 어지러워요."
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "청신경초종 (전정신경초종)"
+    - "메니에르병 (비전형적)"
+    - "만성 중이염 합병증"
+  necessary_tests:
+    - "순음청력검사 및 어음청력검사 (비대칭적 감각신경성 난청 확인)"
+    - "뇌간유발반응검사 (ABR)"
+    - "조영제를 이용한 내이도 및 뇌 MRI"
+  necessary_treatments:
+    - "정기적인 경과 관찰 (종양 크기가 작고 증상이 경미할 경우)"
+    - "수술적 제거"
+    - "방사선 수술 (감마나이프 등)"
+history:
+  sex_age: "여성/52세"
+  chief_complaint_verbatim: "오래전부터 왼쪽 귀가 잘 안 들려서 전화도 오른쪽으로만 받아요. 요즘은 걸을 때 약간 휘청거리는 느낌도 들어요."
+  onset: "수 년 전부터 서서히"
+  location:
+    initial: "왼쪽 귀"
+    current: "왼쪽 귀, 머릿속"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "청력 저하가 점점 심해지고, 이명도 계속 들림. 어지럼증은 가끔 나타남."
+  course: "처음엔 이명이 들리다가 점차 청력이 떨어졌습니다. 최근 몇 달 전부터는 걸을 때 균형이 잘 안 잡히는 느낌이 들고, 가끔 핑 도는 어지럼이 있습니다."
+  experience_prev_episodes:
+    frequency: "어지럼은 월 1-2회"
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "점진적인 좌측 청력 저하, 지속적인 좌측 이명, 간헐적인 균형장애 및 어지럼"
+  character_of_symptom:
+    quality: "균형을 잃고 흔들리는 느낌 (불균형감)"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "피곤할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3년 전 국가검진, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 수영"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "3년 전 폐경"
+physical_exam:
+  general: "특별한 이상 소견 없음."
+  heent: "Weber 검사 시 소리가 오른쪽으로 편위되고, Rinne 검사는 양측 모두 AC > BC 이나 왼쪽의 소리가 작게 들림."
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "Romberg 검사 시 눈을 감으면 왼쪽으로 기우는 경향 보임."
+standardized_patient_questions: "나이가 들어서 귀가 안 들리는 줄 알았는데, 어지럽기까지 하니 걱정돼요. 뇌에 혹이 생긴 건 아닐까요? 수술해야 하나요?"
+specific_remarks: "환자는 '일측성, 점진적'인 청력 저하와 이명이 주된 증상임을 강조해야 한다. 어지럼증은 메니에르병처럼 극심한 회전성 현기증이 아니라, '지속적인 균형장애'에 가깝게 표현하는 것이 중요하다. 의사가 소리굽쇠 검사(Weber/Rinne)를 시행하면, 감각신경성 난청에 합당한 반응을 보여야 한다. (Weber: 건측으로 편위, Rinne: 양성)"

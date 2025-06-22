@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (여행자 설사)"
+patient_info:
+  name: "차민규"
+  age: 29
+  sex: "남성"
+  presenting_complaint: "물 설사와 복통"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "여행자 설사 (장독소성 대장균 감염 의심)"
+    - "바이러스성 장염"
+    - "원충 감염 (지알디아 등)"
+  necessary_tests:
+    - "대부분 자가 호전되므로 검사 없이 경과 관찰 가능"
+    - "증상 심하거나 지속 시 대변 검사 (배양, 기생충란)"
+    - "혈액 검사 (탈수 및 전해질 평가)"
+  necessary_treatments:
+    - "충분한 수분 섭취"
+    - "필요시 지사제(로페라마이드) 및 항생제(퀴놀론, 아지스로마이신 등) 단기 사용"
+    - "안정 및 휴식"
+history:
+  sex_age: "남/29"
+  chief_complaint_verbatim: "동남아 여행 다녀온 다음 날부터 배가 아프고 물 설사를 계속해요."
+  onset: "내원 2일 전"
+  location:
+    initial: "배 전체"
+    current: "배꼽 주변"
+  duration:
+    onset_pattern: "갑자기 시작됨"
+    recent_course: "하루 5-6회 정도 설사 지속"
+  course: "일주일간 태국 여행을 다녀왔고 귀국한 것은 3일 전임. 여행 중 길거리 음식과 얼음이 든 음료를 여러 번 사 먹었음. 귀국 다음 날 아침부터 배가 부글거리며 아프기 시작했고, 곧이어 물 같은 설사를 함. 구역감은 있으나 구토는 하지 않았고, 열은 심하지 않음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쥐어짜는 듯한 통증, 꾸르륵거림"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "없음"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 시"
+    alleviating: "화장실 다녀온 후 잠시"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "약간 지쳐 보이나 급성 병색은 심하지 않음"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "특이사항 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 배꼽 주변으로 미약한 압통(mild periumbilical tenderness)
+  cvat: "음성"
+  extremity: "특이사항 없음"
+standardized_patient_questions: "현지에서 물갈이하는 것 같은데 왜 한국 와서 아픈가요? 약 안 먹고 그냥 둬도 낫나요? 같이 간 친구는 괜찮은데 왜 저만 아프죠?"
+specific_remarks: "최근 해외여행력을 명확히 진술한다. 특히 위생적이지 않은 음식 섭취 경험을 구체적으로 이야기한다. 심각한 상태는 아니지만, 반복되는 설사로 인한 불편함과 피로감을 표현한다."

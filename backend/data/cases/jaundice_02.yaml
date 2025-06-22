@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (췌장두부암, Pancreatic head cancer)"
+patient_info:
+  name: "김철수"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "통증 없이 점차 심해지는 황달"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "78회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "췌장암"
+    - "담관암"
+    - "팽대부암"
+  necessary_tests:
+    - "혈액 검사 (간기능, 종양표지자 CA 19-9)"
+    - "복부 CT (조영제 사용)"
+    - "필요시 내시경 초음파(EUS) 및 조직검사"
+  necessary_treatments:
+    - "정확한 병기 설정을 위한 추가 검사"
+    - "수술적 치료 (휘플 수술 등) 가능성 평가"
+    - "수술이 어려운 경우 항암/방사선 치료 또는 담관 배액술"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "한 달 전부터인가 소화도 안되고 기운이 없더니, 2주 전부터 눈이랑 얼굴이 노래지는 것 같아요. 통증은 전혀 없는데 살이 자꾸 빠져서 걱정돼서 왔어요."
+  onset: "황달은 약 2주 전 인지"
+  location:
+    initial: ""
+    current: ""
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "황달이 점점 뚜렷해짐"
+  course: "한 달 전부터 전신 쇠약감과 식욕부진이 있었고, 최근 6개월간 8kg의 체중 감소가 있었다. 2주 전부터 소변 색이 진해지고 피부가 가렵기 시작했으며, 주변에서 얼굴이 노랗다는 말을 들어 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "통증 없음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "진한 갈색 소변"
+      stool_color_change: "회색빛 대변"
+      pruritus: "전신 소양증 동반"
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "3개월 전 당뇨병 새로 진단받고 경구 혈당강하제 복용 중"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "메트포르민"
+    source: "내과 의원"
+    effect: "혈당 조절 중"
+  social_history:
+    job: "은퇴 (전직 공무원)"
+    stress: "적음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "30갑년 (하루 반 갑씩 40년, 10년 전 금연)"
+      cessation_period: "10년"
+    exercise: "매일 1시간 걷기"
+    recent_weight_change: "6개월간 8kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색. 전반적으로 야윈 모습. 피부에 긁은 자국 있음."
+  heent:
+    sclera: "심한 황달 (deep icterus)"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평하고 흉터 없음."
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      gallbladder: "우상복부에서 부드럽고 통증 없는 팽대된 담낭 촉진됨 (Courvoisier's sign 양성)"
+  cvat: "좌/우 음성"
+  extremity: "전신 피부 황달. 부종 없음."
+standardized_patient_questions: "아프지도 않은데 왜 황달이 생기나요? 암일 수도 있나요? 치료하면 나을 수 있는 병인가요?"
+specific_remarks: "환자는 통증을 전혀 호소하지 않으며, 차분하지만 걱정스러운 태도를 유지한다. 체중 감소와 최근 발병한 당뇨병에 대해 명확히 언급한다. 신체 진찰 시 쿠르부아지에 징후(Courvoisier's sign)를 연기할 수 있도록 복부에 힘을 빼고 협조한다."

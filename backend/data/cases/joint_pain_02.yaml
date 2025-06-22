@@ -1,0 +1,114 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "2/24"
+title: "실전 모의 증례 (류마티스 관절염)"
+patient_info:
+  name: "이수진"
+  age: 43
+  sex: "여성"
+  presenting_complaint: "수개월에 걸쳐 심해진 양손 여러 마디의 통증과 아침에 뻣뻣함"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "류마티스 관절염"
+    - "골관절염"
+    - "전신홍반루푸스"
+  necessary_tests:
+    - "혈액 검사 (류마티스 인자, 항CCP항체, ESR, CRP)"
+    - "손, 손목 X-ray 촬영"
+    - "전신 증상 감별을 위한 추가 혈액 검사 (ANA 등)"
+  necessary_treatments:
+    - "통증 및 염증 조절 (비스테로이드성 소염제, 스테로이드)"
+    - "질병 경과 조절 (항류마티스 약제, DMARDs)"
+    - "물리치료 및 작업치료를 통한 관절 기능 유지"
+history:
+  sex_age: "여성/43세"
+  chief_complaint_verbatim: "몇 달 전부터 양쪽 손가락 마디마디가 붓고 아파요. 특히 아침에 일어나면 손이 뻣뻣해서 1시간 넘게 주먹이 잘 안 쥐어져요."
+  onset: "약 4개월 전"
+  location:
+    initial: "양쪽 손의 두 번째, 세 번째 손가락 관절"
+    current: "양쪽 손목, 손허리손가락관절, 몸쪽손가락뼈사이관절"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 더 많은 관절로 퍼지고 통증도 심해짐"
+  course: "초기에는 피곤하면 좀 쑤시는 정도였으나, 최근에는 젓가락질도 힘들다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쑤시고 욱신거리는 통증"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침에 일어났을 때 (조조강직)"
+      - "찬물에 손을 담글 때"
+    alleviating: "따뜻한 찜질을 하거나 움직이고 나면 조금 부드러워짐"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "시중에서 파는 진통제 (필요시)"
+    source: "약국"
+    effect: "먹을 때만 잠깐 괜찮아짐"
+  social_history:
+    job: "주부"
+    stress: "자녀 문제로 스트레스 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "별도로 하지 않음"
+    recent_weight_change: "최근 3개월간 3kg 감소"
+  family_history: "이모 (류마티스 관절염 진단 받음)"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "만성적인 통증으로 약간 지쳐 보이는 모습"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "양측 손목, 손허리손가락관절(MCP joints), 몸쪽손가락뼈사이관절(PIP joints)에 대칭적인 부종과 압통 관찰됨. 끝마디뼈사이관절(DIP joints)은 침범 없음. 손가락을 쥘 때 통증 호소. 약간의 손가락뼈사이근 위축 관찰됨."
+standardized_patient_questions: "이거 혹시 류마티스 관절염인가요? 저희 이모가 고생하셔서요. 완치는 안되는 병이라고 들었는데 맞나요?"
+specific_remarks: "환자는 자신의 증상이 류마티스 관절염일까 봐 걱정하는 모습을 보이며, 병의 경과와 치료에 대해 불안감을 표현한다. 아침에 뻣뻣한 증상을 구체적으로 설명한다."

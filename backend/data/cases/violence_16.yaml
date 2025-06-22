@@ -1,0 +1,105 @@
+---
+chapter: "상담"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (대리인에 의한 인위성 장애 - 뮌하우젠 바이 프록시)"
+patient_info:
+  name: "박서준"
+  age: 4
+  sex: "남성"
+  presenting_complaint: "자꾸 경련을 하고 의식을 잃음 (보호자인 모친이 호소)"
+vital_signs:
+  blood_pressure: "90/55mmHg"
+  pulse: "120회/분"
+  respiration: "26회/분"
+  temperature: "36.7℃"
+examinee_instructions: "보호자로부터 증상과 관련된 병력을 청취하고 아동에 대한 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대리인에 의한 인위성 장애 (Factitious disorder imposed on another, 아동 학대)"
+    - "난치성 뇌전증 (감별 필요)"
+    - "대사성 질환 (감별 필요)"
+  necessary_tests:
+    - "24시간 비디오 뇌파 검사 (EEG monitoring)"
+    - "혈액 검사 (전해질, 혈당, 약물 농도 등)"
+    - "보호자와 아동 분리 후 아동의 상태 관찰"
+  necessary_treatments:
+    - "아동보호전문기관 신고 및 경찰 수사 의뢰"
+    - "아동의 안전 확보를 위한 즉각적인 분리 및 보호 조치"
+    - "가해자(어머니)에 대한 정신과적 평가 및 법적 조치"
+history:
+  sex_age: "남성/4"
+  chief_complaint_verbatim: "(모친) 우리 애가 원인 모를 경련을 계속해요. 여러 병원을 다녔는데도 원인을 못 찾았어요. 제발 우리 아이 좀 살려주세요."
+  onset: "약 1년 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "반복적"
+    recent_course: "보호자 주장에 따르면 빈도와 강도가 심해짐"
+  course: "모친은 1년 전부터 아이가 하루에도 수차례씩 전신이 뻣뻣해지고 눈이 돌아가는 경련을 한다고 주장한다. 이로 인해 여러 대학병원을 전전하며 입원과 퇴원을 반복했다. 하지만 입원하여 의료진이 관찰할 때에는 뚜렷한 경련이 없거나, 뇌파 검사에서도 경련파가 관찰되지 않았다. 모친은 아이의 증상을 매우 상세하고 의학적인 용어를 사용하여 설명하며, 의료진의 진단에 불신을 표하고 더 많은 검사와 치료를 요구한다. 아이는 전반적으로 발달이 지연되어 있고 위축된 모습을 보인다."
+  experience_prev_episodes:
+    frequency: "모친 주장에 따르면 매일 수차례"
+    trigger: "모친 주장에 따르면 예측 불가능"
+    symptoms: "전신 강직, 의식 소실 등"
+  character_of_symptom:
+    quality: "보호자의 설명은 매우 심각하나 객관적 증거는 부족함"
+    nrs_score: "N/A"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "모친은 경련 후 구토한다고 주장"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating: []
+    alleviating: ""
+  health_check_history:
+    last_checkup: "수시로 여러 병원에서 검사함"
+    endoscopy_finding: ""
+  trauma_history: "모친이 아이에게 몰래 약물을 투여하거나 질식시키는 등의 방법으로 증상을 유발하고 있을 가능성이 매우 높음."
+  past_medical_history:
+    underlying_disease: "진단되지 않은 경련성 질환 (Undiagnosed seizure disorder) R/O"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "여러 종류의 항경련제"
+    source: "여러 대학병원"
+    effect: "모친은 효과가 없다고 주장"
+  social_history:
+    job: "주부 (과거 간호조무사 경력 있음)"
+    stress: "매우 헌신적이고 자애로운 어머니처럼 보이나, 내면에 심각한 문제가 있을 가능성"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: ""
+    recent_weight_change: ""
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "아이는 전반적으로 기운이 없고 창백하며, 엄마 곁에서 거의 움직이지 않음. 나이에 비해 체구가 작고 발달이 늦어 보임."
+  heent: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "음성/음성"
+  extremity: "전반적인 근긴장도 저하."
+  neurologic_exam: "의식은 명료하나 자극에 대한 반응이 느림. 뚜렷한 국소 신경학적 결손은 없음."
+standardized_patient_questions: "(모친) 이번에는 꼭 원인을 찾아야 해요. 혹시 뇌에 종양이라도 있는 건 아닐까요? MRI 다시 찍어봐야 하는 거 아니에요? 왜 아무도 우리 아이 병을 못 고치죠?"
+specific_remarks: "보호자인 어머니는 매우 협조적이고 의료 지식이 풍부한 것처럼 행동한다. 아이에 대한 사랑과 걱정이 지극해 보이지만, 의료진의 결정에 사사건건 개입하고 불필요한 검사를 강하게 요구한다. 의사가 학대 가능성을 암시하거나 어머니와 아이를 분리시키려 하면 극도로 분노하며 저항한다. 아이는 엄마 앞에서는 거의 말을 하지 않고 무기력한 모습을 보인다."

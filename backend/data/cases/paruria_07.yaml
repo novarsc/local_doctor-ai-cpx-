@@ -1,0 +1,121 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (전립선암)"
+patient_info:
+  name: "윤태현"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "최근 심해진 배뇨 곤란과 허리 통증"
+vital_signs:
+  blood_pressure: "150/85mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전립선암 (Prostate Cancer)과 골 전이 의심"
+    - "전립선비대증 (Benign Prostatic Hyperplasia)"
+    - "척추 압박 골절 또는 퇴행성 척추 질환"
+  necessary_tests:
+    - "직장수지검사 (Digital Rectal Examination)"
+    - "전립선특이항원 혈액검사 (PSA)"
+    - "경직장 초음파 유도하 전립선 조직검사 (TRUS-guided biopsy)"
+    - "뼈 스캔 (Bone scan) 및 CT/MRI"
+  necessary_treatments:
+    - "조직검사 결과에 따른 병기 설정"
+    - "호르몬 치료, 방사선 치료, 수술 등 병기에 맞는 치료 계획 수립"
+    - "골 전이 통증에 대한 통증 조절"
+history:
+  sex_age: "남성/72세"
+  chief_complaint_verbatim: "몇 년 전부터 소변 보는 게 불편했는데, 최근 몇 달 새에 아주 힘들어졌어요. 그것보다 더 힘든 건 허리가 너무 아프다는 겁니다."
+  onset: "배뇨 곤란은 2-3년 전부터, 허리 통증은 3개월 전부터"
+  location:
+    initial: "배뇨 증상 / 허리"
+    current: "동일함"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "모든 증상이 최근 3개월간 급격히 악화"
+  course: "수년간 전립선비대증과 비슷한 증상(야간뇨, 약한 소변 줄기)이 있었음. 3개월 전부터는 소변 줄기가 거의 나오지 않을 정도로 심해졌고, 소변에 피가 섞여 나오기도 함. 비슷한 시기에 허리(요추 부위)에 둔하고 깊은 통증이 시작되어 진통제를 먹어도 호전되지 않고 밤에 더 심해짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "허리의 둔하고 지속적인 통증, 심한 배뇨 곤란"
+    nrs_score: "허리 통증 7점"
+    radiation: "허리 통증이 엉덩이 쪽으로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true # 6개월간 5kg 감소
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true # 육안적 혈뇨 간헐적으로 동반
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "허리 통증은 밤에, 누워있을 때 더 심함"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: ""
+  trauma_history: "허리 다친 적 없음"
+  past_medical_history:
+    underlying_disease: "고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "아토르바스타틴"
+      - "약국에서 산 진통제 (비스테로이드성 소염제)"
+    source: "내과 / 약국"
+    effect: "진통제 효과 거의 없음"
+  social_history:
+    job: "농업 (은퇴)"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "40년 전 금연"
+    exercise: "허리가 아파서 거의 못함"
+    recent_weight_change: "최근 6개월간 5kg 감소"
+  family_history: "형님이 60대에 전립선암으로 돌아가심"
+  female_history: ""
+physical_exam:
+  general: "만성 병색이 완연하며, 통증과 피로감으로 지쳐 보임."
+  heent:
+    sclera: "약간 창백함 (pale)"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "고창음. 치골 상부 팽만 소견 보임."
+    palpation:
+      # DRE (Digital Rectal Examination)
+      prostate_size: "Asymmetrically enlarged"
+      prostate_consistency: "Stony hard, nodular"
+      prostate_surface: "Irregular"
+      prostate_tenderness: "No tenderness"
+      median_sulcus: "Obliterated"
+      # Lumbar spine tenderness
+      lumbar_spine_tenderness: true
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "허리 아픈 게 전립선이랑 관련이 있을 수 있나요? 그냥 나이 들어서 아픈 게 아닌가요? 혹시 큰 병인가요?"
+specific_remarks: "전반적으로 기운이 없고, 허리 통증을 계속 호소한다. 질문에 느리게 대답하며, 미래에 대한 불안감을 내비친다. 직장수지검사 시 통증은 없으나 의사의 심각한 표정을 보고 불안해한다. 가족력에 대해 언급할 때 걱정스러운 표정을 짓는다."

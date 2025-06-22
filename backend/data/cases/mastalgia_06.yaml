@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (관내 유두종)"
+patient_info:
+  name: "이선화"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "오른쪽 유두에서 피가 섞인 분비물이 나옴"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "78회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "관내 유두종"
+    - "유방암 (관상피내암 등)"
+    - "유관 확장증"
+  necessary_tests:
+    - "유방 촬영술 및 유방 초음파"
+    - "유관 조영술 또는 유관 내시경 (필요시)"
+    - "수술적 조직검사를 통한 확진 (유관 절제술)"
+  necessary_treatments:
+    - "원인 유관을 포함한 외과적 절제"
+    - "암이 아닐 가능성이 높지만, 반드시 조직검사로 확인해야 함을 설명"
+    - "정기적인 유방암 검진의 중요성 강조"
+history:
+  sex_age: "여성/45"
+  chief_complaint_verbatim: "어제 아침에 샤워하고 나서 속옷을 입으려는데, 오른쪽 유두 끝에 피가 살짝 묻어 있었어요. 짜보니까 피가 섞인 분비물이 한 방울 나오더라고요. 아프거나 멍울이 만져지진 않는데, 피가 나니까 너무 무서워요."
+  onset: "1일 전 발견"
+  location:
+    initial: "오른쪽 유두"
+    current: "오른쪽 유두"
+  duration:
+    onset_pattern: "갑자기 발견"
+    recent_course: "어제, 오늘 두 번 확인됨"
+  course: "자연적으로 나오거나 유두를 압박했을 때 소량의 혈성 분비물이 관찰됨"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "혈성 유두 분비물. 통증 없음."
+    nrs_score: "0점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "유두를 짜볼 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "작년 국가건강검진, 유방촬영술 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (약물 복용 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "아모디핀"
+    source: "내과 처방"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "고등학교 교사"
+    stress: "학생들 때문에 스트레스가 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주말 등산"
+    recent_weight_change: "최근 2-3kg 증가"
+  family_history: "어머니 유방암 (60대 진단)"
+  female_history: "LMP: 2주 전, 주기: 28일, 규칙적. 2-0-0-2. 특이사항 없음."
+physical_exam:
+  general: "매우 불안하고 걱정스러운 표정."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  breast_exam: "시진 상 양측 유방 대칭적이며 특이 소견 없음. 오른쪽 유륜 부위를 방사상으로 촉진하며 부드럽게 압박하자, 3시 방향에서 혈성 분비물이 한 개의 유관 개구부에서만 나오는 것을 확인. 명확한 덩이는 촉진되지 않으나 해당 부위 유륜 하에 약간 단단한 느낌이 있음. 압통 없음. 양측 겨드랑이 림프절 촉진되지 않음."
+standardized_patient_questions: "피가 나면 다 암이라고 하던데, 저 암인가요? 어머니도 유방암이셨는데... 수술해야 하나요? 검사는 어떻게 진행되나요?"
+specific_remarks: "환자는 유방암 가족력 때문에 극도로 불안해함. '암'이라는 단어에 매우 민감하게 반응하며, 의사의 말 한마디 한마디에 집중함. 진찰 중 분비물이 나오는 것을 확인하면 표정이 어두워짐."

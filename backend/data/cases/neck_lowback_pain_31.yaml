@@ -1,0 +1,116 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "31"
+title: "실전 모의 증례 (심인성 요통/신체형 장애)"
+patient_info:
+  name: "나우울"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "수년간 지속되는 만성적인 허리 통증"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "심인성 요통 (신체 증상 장애)"
+    - "만성 요추 염좌"
+    - "섬유근육통"
+  necessary_tests:
+    - "다른 기질적 원인을 배제하기 위한 기본 검사 (요추 X-ray, MRI)"
+    - "정신건강의학과적 평가 (우울, 불안 척도 등)"
+    - "혈액 검사 (염증 수치 등 확인)"
+  necessary_treatments:
+    - "정신건강의학과적 접근 (항우울제, 인지행동치료)"
+    - "통증에 대한 교육 및 재활 운동"
+    - "다학제적 통증 관리 프로그램"
+history:
+  sex_age: "여성/42세"
+  chief_complaint_verbatim: "허리가 너무 아파서 아무것도 할 수가 없어요. 여기저기 병원 다 다녀보고 검사도 다 해봤는데 아무 이상이 없대요. 너무 답답해요."
+  onset: "약 3년 전"
+  location:
+    initial: "허리"
+    current: "허리 전체, 엉덩이, 다리 등 통증 부위가 모호하고 변함"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "최근 남편과의 불화 이후 극심해짐"
+  course: "3년 전 시어머니가 돌아가신 후부터 허리가 아프기 시작했음. 통증은 좋아졌다 나빠졌다를 반복하며, 스트레스를 받으면 극심해짐. 통증의 양상이나 위치가 비일관적임. 여러 병원에서 MRI까지 찍었지만 '특별한 이상이 없다'는 말만 들음."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: "스트레스, 감정적 문제"
+    symptoms: "비슷한 양상"
+  character_of_symptom:
+    quality: "표현이 모호하고 다양함 ('타는 듯', '칼로 쑤시는 듯', '무거운 돌이 누르는 듯')"
+    nrs_score: "10"
+    radiation: "온몸으로 퍼지는 것 같음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "모든 활동, 심지어 누워있을 때도"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "6개월 전, 대학병원에서 전신 검사했으나 '신경성'이라는 말만 들음"
+    endoscopy_finding: "신경성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "우울증, 불면증, 공황장애"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "다양한 종류의 진통제, 신경안정제, 수면제"
+    source: "여러 병원 전전함"
+    effect: "효과 없음"
+  social_history:
+    job: "주부"
+    stress: "매우 심함 (가정 불화, 경제적 문제)"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "아파서 전혀 못함"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "LMP 2주 전, regular"
+physical_exam:
+  general: "매우 고통스러워하고 우울한 표정. 진찰 내내 한숨을 쉬거나 눈물을 글썽임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      non-organic_signs: "Waddell's signs 양성 소견. (예: 가볍게 머리를 눌렀을 때 허리 통증 호소, 해부학적으로 일치하지 않는 광범위한 감각 저하, SLR 검사 시 일관성 없는 반응 등)"
+      pain_behavior: "과장된 통증 반응 (grimacing, sighing, verbalization)"
+  cvat: "좌우 모두 극심한 통증 호소"
+  extremity: "근력 저하를 호소하나, 검사 시 일관성 없는 'give-way' weakness 보임. 감각 검사 시 양말-장갑 형태의 감각 이상 등 비전형적 소견."
+standardized_patient_questions: "아픈 건 전데 왜 다들 꾀병이라고 하는지 모르겠어요. 정말 아픈데 왜 검사에는 안 나오죠? 선생님도 제 말을 못 믿으시는 건가요?"
+specific_remarks: "통증에 대한 호소가 매우 극적이고 감정적이어야 함. 신체 검사 결과와 환자의 주관적 통증 강도 사이에 큰 불일치를 보여야 함. 의사의 공감적인 태도에 민감하게 반응하며, 자신의 고통을 인정받고 싶어하는 모습을 보여야 함. 스트레스 요인(가정 불화 등)에 대해 물어보면 감정이 격해지며 눈물을 보일 수 있음. Waddell's sign에 해당하는 반응을 자연스럽게 연기해야 함."

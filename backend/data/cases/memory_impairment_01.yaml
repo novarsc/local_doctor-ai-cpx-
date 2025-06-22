@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (알츠하이머병)"
+patient_info:
+  name: "김영희"
+  age: 78
+  sex: "여성"
+  presenting_complaint: "수년 전부터 서서히 진행하는 기억력 저하"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "76회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자(보호자)와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알츠하이머병에 의한 치매"
+    - "혈관성 치매"
+    - "갑상선 기능 저하증에 의한 인지기능 저하"
+  necessary_tests:
+    - "신경인지기능검사 (예: MMSE, CDR)"
+    - "뇌 자기공명영상 (Brain MRI)"
+    - "혈액검사 (갑상선기능검사, 비타민 B12, 엽산 수치 등)"
+  necessary_treatments:
+    - "인지기능 개선제 (콜린에스테라아제 억제제 등) 투여"
+    - "인지 재활 치료"
+    - "가족 교육 및 지지"
+history:
+  sex_age: "여성/78세"
+  chief_complaint_verbatim: "요즘 들어 자꾸 깜빡깜빡해요. 약속도 잊어버리고, 물건 둔 곳도 기억이 안 나네요."
+  onset: "정확히는 모르겠으나 2~3년 전부터 서서히 시작됨"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적 발병 (Insidious onset)"
+    recent_course: "최근 6개월 사이 더 심해진 양상"
+  course: "좋아졌다 나빠졌다 하는 것 없이 꾸준히 나빠지는 느낌. 특히 최근 일에 대한 기억력이 많이 떨어짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "기억력 자체가 떨어지는 느낌"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "피곤할 때"
+      - "새로운 환경에 있을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "기억나지 않음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (10년 전 진단, 약물 복용 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀"
+    source: "내과 의원"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "주부"
+    stress: "자녀들이 걱정하는 것에 대한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "어머니가 노년에 기억력이 많이 안 좋으셨음 (치매 진단 여부 불확실)"
+  female_history: "G2P2, Menopause at 50세"
+physical_exam:
+  general: "전반적으로 위생 상태는 양호하나, 다소 불안하고 위축된 모습"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "pitting edema 없음, 근력 및 감각 정상"
+standardized_patient_questions: "이거 혹시 치매인가요? 약 먹으면 나을 수 있는 병인가요? 앞으로 어떻게 해야 하나요?"
+specific_remarks: "보호자인 딸과 함께 내원한 상황. 최근 일에 대한 질문(예: 어제 저녁 식사 메뉴)에 잘 대답하지 못하고 딸에게 의존하는 모습을 보임. 먼 과거(예: 고향, 결혼)에 대한 기억은 비교적 명확하게 대답함."

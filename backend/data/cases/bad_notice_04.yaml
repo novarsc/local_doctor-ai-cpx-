@@ -1,0 +1,108 @@
+---
+chapter: "상담"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (교모세포종, Glioblastoma)"
+patient_info:
+  name: "최경희"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "뇌 MRI 결과 설명 요청"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "환자는 한 달 전부터 발생한 두통과 좌측 팔다리 위약감으로 내원하여 뇌 MRI를 촬영했습니다. 보호자인 남편과 함께 결과를 듣기 위해 방문했습니다. 첨부된 MRI 결과지(우측 두정엽에 5cm 크기의 불규칙한 조영 증강을 보이는 종괴, 주변 부종 동반)를 바탕으로, 환자와 보호자에게 의심되는 진단명을 알리고 향후 계획에 대해 논의하십시오."
+patient_education:
+  probable_diagnoses:
+    - "교모세포종 (Glioblastoma) 의심"
+    - "뇌 전이암 (Brain metastasis)"
+    - "중추신경계 림프종 (CNS lymphoma)"
+  necessary_tests:
+    - "수술적 종양 제거 및 조직검사를 통한 확진"
+    - "전신 PET-CT (전이암 감별 목적)"
+    - "신경인지기능 평가"
+  necessary_treatments:
+    - "최대한의 종양 제거 수술 (Maximum safe resection)"
+    - "수술 후 방사선 치료와 항암화학요법(테모졸로마이드) 병행"
+    - "뇌부종 조절을 위한 스테로이드 치료"
+history:
+  sex_age: "여성/55세"
+  chief_complaint_verbatim: "머리가 계속 아파서 찍은 MRI 결과 들으러 남편이랑 같이 왔어요. 괜찮은 거 맞죠?"
+  onset: "1개월 전"
+  location:
+    initial: "머리 전체"
+    current: "머리 전체, 특히 오른쪽"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 심해지고 아침에 일어날 때 더 아픔"
+  course: "한 달 전부터 머리가 띵하게 아프기 시작했는데, 진통제를 먹어도 소용이 없었습니다. 최근에는 아침에 일어날 때 메슥거리면서 머리가 깨질 듯이 아픕니다. 왼쪽 팔다리에 힘이 빠져 젓가락질도 힘듭니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "박동성으로 터질 듯한 통증"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "아침에 분출성 구토 1회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침 기상 시"
+      - "기침하거나 힘을 줄 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (5년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀"
+    source: "가정의학과"
+    effect: "혈압 조절"
+  social_history:
+    job: "주부"
+    stress: "자녀 결혼 문제로 조금 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "5년 전 폐경"
+physical_exam:
+  general: "불안해 보이며, 질문에 대한 대답이 다소 느림."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "양측 음성"
+  extremity: "좌측 상하지 근력 저하 (Grade IV/V). 좌측 안면 마비 소견(central type)."
+standardized_patient_questions: "뇌종양이라고요? 악성이면 암이라는 건가요? 수술하면 완치될 수 있는 거죠? 제가 갑자기 이상해지거나 기억을 잃을 수도 있나요?"
+specific_remarks: "환자는 진단명에 큰 충격을 받지만, 함께 온 남편(보조 SP)이 더 감정적으로 반응하며 의사에게 적극적으로 질문한다. 환자는 자신의 인격이나 기억이 변할 수 있다는 점에 가장 큰 두려움을 느낀다. 남편은 치료 성공률과 예후에 대해 구체적인 수치를 요구할 수 있다."

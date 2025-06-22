@@ -1,0 +1,113 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (비기질적 성장 부전)"
+patient_info:
+  name: "박시우"
+  age: 15
+  sex: "남성"
+  presenting_complaint: "체중이 늘지 않음"
+vital_signs:
+  blood_pressure: "85/50mmHg"
+  pulse: "120회/분"
+  respiration: "30회/분"
+  temperature: "36.5℃"
+examinee_instructions: "아이가 잘 크지 않는다는 주소로 내원한 보호자의 병력을 청취하고 아이를 관찰한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "비기질적 성장 부전 (Non-organic failure to thrive)"
+    - "만성 설사에 의한 흡수 장애"
+    - "선천성 대사 이상 질환"
+  necessary_tests:
+    - "입원 후 칼로리 섭취량 및 체중 변화 관찰"
+    - "사회복지사 상담 및 가정 환경 평가"
+    - "성장 부전의 기질적 원인 감별을 위한 혈액, 소변, 대변 검사"
+  necessary_treatments:
+    - "안정적인 환경 제공 및 고칼로리 식이 공급"
+    - "부모-자녀 상호작용 교육 및 심리적 지지"
+    - "다학제적 접근 (소아과, 정신건강의학과, 사회복지팀)"
+history:
+  sex_age: "남성/15개월"
+  chief_complaint_verbatim: "(보호자) 애가 밥을 너무 안 먹어요. 억지로 먹이려고 하면 울고불고... 살이 하나도 안 쪄서 걱정이에요."
+  onset: "생후 6개월 이후부터 뚜렷해짐"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "지속적"
+    recent_course: "최근 3개월간 체중이 거의 늘지 않음"
+  course: "출생 시 3.1kg으로 정상이었다. 모유 수유를 했으나 양이 부족한 것 같아 분유와 혼합 수유를 했다. 보호자(어머니)는 아이가 어릴 때부터 젖 빠는 힘이 약하고 먹는 것에 관심이 없었다고 생각한다. 이유식 시작 후 음식을 거부하는 일이 잦았고, 식사 시간이 되면 아이와 엄마 모두 스트레스를 받는다. 현재 아이 체중은 3퍼센타일 미만이다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "억지로 먹이면 가끔"
+      constipation: false
+      diarrhea: "가끔 묽은 변"
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 시간"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "12개월 영유아 검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "영유아"
+    stress: "보호자와의 상호작용 부족"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "활동량 저하"
+    recent_weight_change: "체중 정체"
+  family_history: "보호자(어머니)는 미혼모이며, 산후 우울감을 경험했다고 함. 경제적으로 어려움이 있음."
+  female_history: "해당 없음"
+physical_exam:
+  general: "체구가 매우 작고 말라 있음. 무표정하고 주변에 관심이 없어 보임. 의사나 보호자와 눈을 잘 맞추지 않음. 경계하는 듯한 태도."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "다소 건조함"
+  chest: "청진상 특이 소견 없음."
+  abdomen:
+    inspection: "배가 홀쭉함 (scaphoid abdomen)."
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "피하 지방이 거의 없고, 피부가 이완되어 보임."
+standardized_patient_questions: "애가 어디 아픈 건 아닌가요? 검사를 다 해봐야 하는 거 아닌가요? 제가 엄마 자격이 없나 봐요... 어떻게 해야 할지 모르겠어요."
+specific_remarks: "보호자(어머니)는 20대 초반으로, 지치고 우울한 기색이 역력하다. 아이에 대한 죄책감과 양육의 어려움을 토로한다. 아이는 낯선 환경을 경계하며 보호자에게도 잘 안기려 하지 않고, 진찰 시 무표정하거나 울음을 터뜨린다."

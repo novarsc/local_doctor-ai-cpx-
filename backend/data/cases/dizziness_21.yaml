@@ -1,0 +1,106 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "21"
+title: "실전 모의 증례 (미주신경성 실신, Vasovagal Syncope)"
+patient_info:
+  name: "이하나"
+  age: 19
+  sex: "여성"
+  presenting_complaint: "피를 보거나 오래 서 있으면 어지러워요."
+vital_signs:
+  blood_pressure: "105/70mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "미주신경성 실신"
+    - "기립성 저혈압"
+    - "공황 발작"
+  necessary_tests:
+    - "자세한 병력 청취 (진단의 핵심)"
+    - "기립경사 검사 (Tilt table test, 진단이 불명확할 경우)"
+    - "심전도 (기타 심장질환 감별)"
+  necessary_treatments:
+    - "환자 교육 (질병의 양성 경과, 유발 요인 회피)"
+    - "전구 증상 인지 및 대처법 교육 (앉거나 눕기, 다리 꼬기)"
+    - "충분한 수분 및 염분 섭취"
+history:
+  sex_age: "여성/19세"
+  chief_complaint_verbatim: "오늘 아침 지하철에서 서서 가다가 갑자기 속이 안 좋아지면서 눈앞이 캄캄해지고 쓰러질 뻔했어요."
+  onset: "고등학생 때부터"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "반복적"
+    recent_course: "피곤하거나 특정 상황에서 발생함"
+  course: "쓰러질 것 같은 느낌이 들기 전에 항상 속이 메슥거리고, 식은땀이 나고, 시야가 터널처럼 좁아지는 느낌이 먼저 와요. 그럴 때 빨리 앉으면 괜찮아져요."
+  experience_prev_episodes:
+    frequency: "1년에 2-3번"
+    trigger: "오래 서 있기, 채혈할 때, 심한 통증, 감정적 스트레스"
+    symptoms: "어지럼, 식은땀, 메스꺼움, 시야 흐려짐, 이명"
+  character_of_symptom:
+    quality: "쓰러질 것 같은 아찔함 (presyncope)"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 서 있는 것 (특히 덥고 붐비는 곳)"
+      - "신체적/정신적 스트레스"
+    alleviating: "즉시 눕거나 앉는 것"
+  health_check_history:
+    last_checkup: "대학 입학 건강검진, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "학업 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "가끔 조깅"
+    recent_weight_change: "없음"
+  family_history: "어머니도 비슷한 증상이 있었다고 함"
+  female_history: "regular"
+physical_exam:
+  general: "건강해 보임."
+  heent: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "정상"
+standardized_patient_questions: "제가 왜 이러는 걸까요? 뇌나 심장에 큰 병이 있는 건 아닌지 너무 걱정돼요. 갑자기 쓰러지면 어떡하죠?"
+specific_remarks: "환자는 전형적인 미주신경성 실신의 특징을 모두 보여줘야 한다. 1) 젊은 여성, 2) 명확한 유발 요인(기립, 감정, 통증), 3) 특징적인 전구 증상(메스꺼움, 식은땀, 시야 변화), 4) 자세를 낮추면 호전됨. 이러한 병력 청취만으로 진단이 가능할 정도로 구체적이고 일관된 진술이 중요하다. 신체 진찰은 완전히 정상이다."

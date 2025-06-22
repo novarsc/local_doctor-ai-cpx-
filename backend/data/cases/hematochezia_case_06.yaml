@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (감염성 대장염)"
+patient_info:
+  name: "박서준"
+  age: 24
+  sex: "남성"
+  presenting_complaint: "열이 나면서 피 섞인 설사를 함"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "98회/분"
+  respiration: "20회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "감염성 대장염 (세균성 이질 등)"
+    - "염증성 장질환의 급성 발현"
+    - "식중독"
+  necessary_tests:
+    - "전혈구 검사 (CBC), 염증 수치 검사 (CRP)"
+    - "대변 검사 (백혈구, 잠혈, 세균 배양 검사)"
+    - "필요시 S상결장경 검사"
+  necessary_treatments:
+    - "수분 및 전해질 보충"
+    - "필요시 항생제 치료"
+    - "증상 완화를 위한 대증 요법"
+history:
+  sex_age: "남성/24세"
+  chief_complaint_verbatim: "어제 저녁부터 열나고 배가 뒤틀리듯이 아프더니, 오늘 아침부터는 설사에 피가 섞여 나와요."
+  onset: "약 24시간 전"
+  location:
+    initial: "배 전체"
+    current: "하복부"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "시간이 지날수록 복통과 설사가 심해짐"
+  course: "이틀 전 친구들과 덜 익은 조개를 넣은 해물찜을 먹었다. 어제 저녁부터 오한과 함께 열이 나고 복통이 시작되었다. 밤새 묽은 설사를 5-6회 하였고, 오늘 아침부터는 소량의 혈액과 점액이 섞인 설사를 하고 있다. 배변 후에도 계속 변을 보고 싶은 느낌이 든다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "NA"
+    symptoms: "NA"
+  character_of_symptom:
+    quality: "쥐어짜는 듯한 복통과 동반된 고열, 혈성 점액성 설사"
+    nrs_score: 7
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "어젯밤 1회"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "음식 섭취 시"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 군입대 신체검사"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "해열제(아세트아미노펜)"
+    source: "집 상비약"
+    effect: "복용 후 2-3시간 정도 열이 약간 내림"
+  social_history:
+    job: "대학생"
+    stress: "시험 기간으로 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1-2병"
+    smoking:
+      is_smoker: false
+      amount: "NA"
+      cessation_period: "NA"
+    exercise: "주 2회 농구"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "NA"
+physical_exam:
+  general: "열과 복통으로 힘들어하는 모습. 급성 병색."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "호흡음 정상, 빈맥 외 심잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 항진"
+    percussion: "정상 공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 복부 전반에 걸쳐 압통이 있으며, 특히 하복부에 더 심함. 반발압통은 없음.
+  cvat: "좌우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "같이 조개 먹은 친구는 괜찮다는데 왜 저만 이런가요? 이거 전염되는 건가요?"
+specific_remarks: "환자는 고열과 복통으로 인해 신음 소리를 내며, 탈수 증상으로 입술이 마르고 기운 없는 모습을 연기한다. 음식 섭취력에 대해 명확하게 진술한다."

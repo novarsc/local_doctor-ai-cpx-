@@ -1,0 +1,119 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (후관절 증후군)"
+patient_info:
+  name: "오미숙"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "오래 서 있거나 허리를 뒤로 젖히면 심해지는 허리 통증"
+vital_signs:
+  blood_pressure: "128/78mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "후관절 증후군 (Facet joint syndrome)"
+    - "척추관 협착증 초기"
+    - "만성 요추 염좌"
+  necessary_tests:
+    - "요추 X선 검사 (사위 촬영 포함)"
+    - "진단적 후관절 차단술 (Diagnostic facet joint block)"
+    - "필요시 척추 CT 또는 MRI"
+  necessary_treatments:
+    - "약물 치료 (소염진통제)"
+    - "물리치료 및 운동 치료 (자세 교정, 코어 근육 강화)"
+    - "후관절 내 스테로이드 주사 또는 고주파 신경 차단술"
+history:
+  sex_age: "여성/55세"
+  chief_complaint_verbatim: "아침에 일어날 때 허리가 뻣뻣하고, 오래 서서 일하면 허리 양쪽이 뻐근하게 아파요. 허리를 뒤로 젖히면 더 아프고요."
+  onset: "약 1년 전부터 서서히"
+  location:
+    initial: "허리 아래쪽"
+    current: "허리 아래쪽 양측, 엉덩이 위쪽"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "최근 마트 계산원으로 일을 시작하면서 더 심해짐"
+  course: "주로 특정 자세에서 통증이 유발되며, 쉴 때는 괜찮음. 다리로 뻗치는 통증이나 저림은 없음."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "뻐근하고 쑤시는 듯한 통증"
+    nrs_score: "4"
+    radiation: "양쪽 엉덩이와 허벅지 뒤쪽으로 약간 뻗치는 느낌은 있으나, 무릎 아래로는 내려가지 않음."
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "허리를 뒤로 젖힐 때"
+      - "오래 서 있거나 걸을 때"
+      - "아침에 일어날 때 뻣뻣함"
+    alleviating: "허리를 앞으로 숙일 때, 앉아서 쉴 때"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 파스를 붙임"
+    source: "약국"
+    effect: "일시적인 효과"
+  social_history:
+    job: "마트 계산원"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "따로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "5년 전 폐경"
+physical_exam:
+  general: "건강해 보이며, 특별한 이상 소견 없음."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      tenderness: "요추 후관절(facet joints) 부위(척추 중심에서 양쪽으로 2-3cm 떨어진 곳)에 깊은 압통"
+      kemp_test: "양성 (허리를 뒤로 젖히고 돌릴 때 국소적인 허리 통증 유발)"
+      straight_leg_raising_test: "음성"
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 (근력, 감각, 반사) 모두 정상."
+standardized_patient_questions: "디스크는 아니라는데 왜 이렇게 허리가 아픈가요? 관절염이 허리에도 오나요? 이 일 계속해도 괜찮을까요?"
+specific_remarks: "허리를 앞으로 숙이면 편하고 뒤로 젖히면 아픈 증상을 명확히 구분해서 설명해야 함. 다리가 저리거나 당기는 방사통은 없다는 점을 강조해야 함. 의사가 허리 중앙이 아닌 약간 옆쪽을 누를 때 '거기가 아파요'라고 반응해야 함."

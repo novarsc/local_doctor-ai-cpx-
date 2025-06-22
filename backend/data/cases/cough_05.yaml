@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (폐암)"
+patient_info:
+  name: "정진철"
+  age: 62
+  sex: "남성"
+  presenting_complaint: "한 달 이상 지속되는 기침과 피 섞인 가래"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐암 (Lung cancer)"
+    - "폐결핵 (Pulmonary tuberculosis)"
+    - "기관지확장증 (Bronchiectasis)"
+  necessary_tests:
+    - "흉부 X선 촬영 및 흉부 CT"
+    - "객담 세포 검사"
+    - "기관지 내시경 및 조직 검사 (확진)"
+  necessary_treatments:
+    - "조직 검사 결과에 따른 치료 계획 수립 (수술, 항암화학요법, 방사선 치료 등)"
+    - "금연"
+    - "대증 치료 (기침, 통증 조절)"
+history:
+  sex_age: "남성/62세"
+  chief_complaint_verbatim: "기침이 한 달 넘게 가는데, 약을 먹어도 소용이 없어요. 며칠 전부터는 가래에 피가 섞여 나와서 덜컥 겁이 나서 왔습니다."
+  onset: "약 2개월 전"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 객혈 발생"
+  course: "두 달 전부터 마른 기침이 시작되어 점점 심해졌다. 동네 의원에서 기관지염 약을 먹어도 호전이 없었다. 일주일 전부터 가래에 선홍색 피가 섞여 나오기 시작했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "거칠고 잦은 기침, 소량의 객혈"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음, 지속적임"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 전, 이후 받은 적 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+      - "2주 전 개인병원에서 처방받은 기침약"
+    source: "내과, 이비인후과"
+    effect: "기침약은 효과 없었음"
+  social_history:
+    job: "택시 운전"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일 (40년 이상)"
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 6개월간 7kg 감소"
+  family_history: "형님이 폐암으로 사망"
+  female_history: ""
+physical_exam:
+  general: "만성 병색. 약간 야위어 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 곤봉지 (clubbing finger)
+  chest: "좌측 폐 상엽에서 국소적으로 호흡음이 감소되어 있고, 흡기 시 수포음(crackle)이 들림. 천명음은 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "양손 손가락에 경미한 곤봉지(clubbing finger) 소견 관찰됨."
+standardized_patient_questions: "나쁜 병일 가능성이 큰가요? 담배 때문에 생긴 건가요? 치료하면 살 수 있는 거죠?"
+specific_remarks: "전반적으로 불안해하고 초조한 모습을 보인다. '피'라는 단어를 언급할 때 목소리가 떨린다. 체중 감소에 대해 물으면 '입맛이 없어서 그냥 좀 빠졌다'며 대수롭지 않게 말하려 애쓴다."

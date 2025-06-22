@@ -1,0 +1,106 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "16"
+title: "\"실전 모의 증례 (갑상선 기능 항진증에 의한 떨림)\""
+patient_info:
+  name: "배수현"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "손이 떨리고 가슴이 두근거림"
+vital_signs:
+  blood_pressure: "140/70mmHg"
+  pulse: "110회/분"
+  respiration: "22회/분"
+  temperature: "\"37.2℃\""
+examinee_instructions: "\"증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오.\""
+patient_education:
+  probable_diagnoses:
+    - "갑상선 기능 항진증 (그레이브스병 의심)"
+    - "불안장애"
+    - "항진된 생리적 떨림"
+  necessary_tests:
+    - "혈액 검사 (TSH, free T4, T3, TSH 수용체 항체)"
+    - "심전도"
+    - "갑상선 초음파 및 스캔"
+  necessary_treatments:
+    - "항갑상선제 약물 치료"
+    - "증상 조절을 위한 베타차단제"
+    - "방사성 요오드 치료 또는 수술 (필요시)"
+history:
+  sex_age: "여성/35세"
+  chief_complaint_verbatim: "\"몇 달 전부터 손이 미세하게 떨리고, 가만히 있어도 심장이 쿵쾅거려요. 더위도 못 참겠고, 밥은 많이 먹는데 살은 자꾸 빠져요.\""
+  onset: "약 3개월 전"
+  location:
+    initial: "전신 증상"
+    current: "전신 증상"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "악화"
+  course: "\"처음에는 피곤해서 그런 줄 알았으나, 손떨림, 심계항진, 체중 감소, 피로감, 설사 등의 증상이 점점 뚜렷해짐. 성격도 예민해졌다는 소리를 들음.\""
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "없음"
+    symptoms: "떨림, 심계항진"
+  character_of_symptom:
+    quality: "가늘고 빠른 손떨림"
+    nrs_score: "불편감 7점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "활동 시"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "프리랜서"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "너무 피곤해서 못함"
+    recent_weight_change: "\"최근 3개월간 6kg 감소 (식욕은 증가함)\""
+  family_history: "어머니가 갑상선 질환을 앓고 계심"
+  female_history: "최근 월경량이 줄고 주기가 불규칙해짐"
+physical_exam:
+  general: "\"불안해 보이고, 안구가 약간 돌출된 것처럼 보임. 피부가 따뜻하고 축축함.\""
+  heent:
+    sclera: "정상. 안구 돌출(exophthalmos) 및 눈꺼풀 후퇴(lid retraction) 소견 관찰됨. oral_mucosa: \"정상"
+  chest: "\"심박수 빠르고 규칙적 (tachycardia). 심잡음 없음.\""
+  abdomen: "장음 항진"
+  cvat: "좌우 음성"
+  extremity: "\"양손을 앞으로 뻗게 했을 때 미세하고 빠른 자세 떨림(fine tremor) 관찰됨. 근위부 근력 약간 저하. 심부건반사 항진.\""
+standardized_patient_questions: "\"제 몸에 왜 이렇게 많은 증상이 한꺼번에 나타나죠? 심장에 문제가 있는 건 아닐까요? 밥을 잘 먹는데도 살이 빠지는 게 이상해요. 치료받으면 괜찮아질 수 있나요?\""
+specific_remarks: "\"환자는 신경과적인 '떨림'으로 내원했지만, 병력 청취와 신체 진찰을 통해 전신적인 내분비 질환임을 암시해야 한다. 더위 불내성, 식욕 증가에도 불구한 체중 감소, 심계항진, 설사 등 특징적인 증상들을 명확히 진술한다. 신체 진찰 시 안구 돌출, 빈맥, 미세 떨림을 표현하는 것이 중요하다.\""

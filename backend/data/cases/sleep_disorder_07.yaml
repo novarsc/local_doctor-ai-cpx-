@@ -1,0 +1,112 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (수면위상지연증후군)"
+patient_info:
+  name: "최윤성"
+  age: 23
+  sex: "남성"
+  presenting_complaint: "밤에 잠이 안 오고 아침에 못 일어남"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "75회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "수면위상지연증후군 (Delayed Sleep-Wake Phase Disorder)"
+    - "불면장애"
+    - "주의력결핍 과잉행동장애(ADHD)에 동반된 수면 문제"
+  necessary_tests:
+    - "수면일지 작성 (최소 2주)"
+    - "활동기록기(Actigraphy) 검사"
+    - "필요시 수면다원검사 (다른 수면장애 감별)"
+  necessary_treatments:
+    - "아침 광치료"
+    - "저녁 시간 멜라토닌 소량 복용"
+    - "엄격한 수면-기상 시간 계획 및 실천 (Chronotherapy)"
+history:
+  sex_age: "남성/23"
+  chief_complaint_verbatim: "저는 그냥 올빼미형 인간인 줄 알았는데, 아침에 학교를 갈 수가 없어서 문제예요. 새벽 3-4시는 돼야 잠이 오고, 아침에는 누가 업어가도 몰라요."
+  onset: "청소년기부터 계속"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "사춘기 이후 지속"
+    recent_course: "대학 복학 후 F 학점을 받을 위기에 처해 심각성을 느낌"
+  course: "고등학생 때부터 늦게 자고 늦게 일어나는 습관이 있었지만, 방학 때는 별 문제가 없었음. 하지만 대학에 와서 오전 수업에 계속 지각하거나 결석하게 됨. 억지로 일찍 자려고 누워도 잠이 오지 않고, 억지로 일찍 일어나면 하루 종일 몽롱하고 피곤함. 반면, 일단 잠이 들면 깨우지 않으면 9~10시간은 푹 잘 수 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "원하는 시간보다 3-4시간 이상 수면-기상 주기가 지연되어 있음"
+    nrs_score: "해당 없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "사회적 스케줄 (오전 수업 등)을 억지로 맞추려고 할 때"
+      - "밤에 스마트폰이나 컴퓨터를 사용할 때"
+    alleviating: "자신의 생체리듬에 맞춰 늦게 자고 늦게 일어날 때"
+  health_check_history:
+    last_checkup: "군 입대 전 신체검사, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "대학생 (휴학 후 복학)"
+    stress: "학업 문제로 인한 스트레스가 높음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 늦게 주무시는 편"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강해 보이나 약간 피곤한 기색의 젊은 남성"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "이게 제 의지가 약해서 그런 게 아닌가요? 그냥 일찍 자고 일찍 일어나면 되는 거 아니에요? 약 먹으면 바로 고쳐지나요?"
+specific_remarks: "환자는 자신의 상태를 '게으름'으로 치부하는 사회적 시선에 대해 억울함을 표현한다. 자신의 생체 리듬대로 생활할 때는 아무런 문제가 없다는 점을 강조한다. 치료에 대해 설명할 때, 약물보다는 행동치료(광치료, 시간요법)에 더 큰 관심을 보인다."

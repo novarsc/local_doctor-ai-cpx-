@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (자궁경부암의 요관 침범)"
+patient_info:
+  name: "나말기"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "허리 통증과 함께 며칠째 소변 양이 줄어듦"
+vital_signs:
+  blood_pressure: "145/88mmHg"
+  pulse: "92회/분"
+  respiration: "18회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁경부암의 후복막 침범에 의한 양측성 요관 폐쇄"
+    - "방사선 치료 후 발생한 요관 협착"
+    - "종양 용해 증후군 (항암치료 중인 경우)"
+  necessary_tests:
+    - "복부-골반 CT (종양의 요관 침범 정도 확인, 수신증 유무)"
+    - "혈액 검사 (BUN/Cr, 전해질, 종양 표지자 검사)"
+    - "신장 초음파"
+  necessary_treatments:
+    - "경피적 신루설치술 또는 요관 스텐트 삽입을 통한 요로 폐쇄 해결"
+    - "신기능 안정 후 항암 또는 방사선 치료 계획 재수립"
+    - "통증 조절"
+history:
+  sex_age: "여성/52"
+  chief_complaint_verbatim: "허리가 끊어질 것처럼 아프고, 소변이 거의 안 나와요. 몸도 붓는 것 같고... 기운이 하나도 없네요."
+  onset: "약 5일 전"
+  location:
+    initial: "양측 허리 통증"
+    current: "허리 통증, 핍뇨, 전신 부종"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 악화"
+  course: "1년 전 자궁경부암 3기 진단받고 항암방사선 동시요법 치료를 완료함. 이후 추적 관찰 중이었음. 약 2주 전부터 양쪽 허리 부근이 둔하고 묵직하게 아프기 시작함. 5일 전부터는 통증이 심해지고 소변량이 눈에 띄게 줄어든 것을 느낌. 어제부터는 다리가 붓고 구역감도 심해져 병원 방문."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "양쪽 옆구리와 허리가 꽉 찬 듯한 둔한 통증"
+    nrs_score: 6
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "false"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "누워있어도 지속됨"
+    alleviating: "진통제 복용 시 일시적 완화"
+  health_check_history:
+    last_checkup: "3개월 전 산부인과 외래 (추적검사)"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "자궁경부암 (stage III)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "마약성 진통제 (Oxycodone)"
+    source: "대학병원 종양내과"
+    effect: "통증 조절이 잘 안됨"
+  social_history:
+    job: "주부"
+    stress: "질병으로 인해 많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못 함"
+    recent_weight_change: "최근 6개월간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "28년 전 초경, 1년 전 항암치료 후 폐경"
+physical_exam:
+  general: "만성 병색. 악액질(cachexia) 양상 보임. 전반적으로 피곤하고 힘들어 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "# 신체진찰 소견 추가"
+      other2: "deep_palpation_on_lower_abdomen_reveals_ill-defined_firm_mass"
+  cvat: "양측 양성"
+  extremity: "양측 하지에 오목 부종 (pitting edema 2+)"
+standardized_patient_questions: "암이 재발한 건가요? 콩팥까지 막아서 소변이 안 나오는 건가요? 옆구리에 관을 꽂아야 한다는데, 너무 무서워요. 치료를 포기해야 할까요?"
+specific_remarks: "환자는 자신의 병에 대한 두려움과 절망감을 표현한다. 목소리에 힘이 없고, 미래에 대한 부정적인 질문을 던진다. 의사의 설명에 무기력하게 반응하며, CVA 타진 시 통증을 심하게 호소한다."

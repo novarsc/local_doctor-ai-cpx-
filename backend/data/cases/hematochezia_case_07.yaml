@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (소화성 궤양 출혈)"
+patient_info:
+  name: "김영철"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "짜장면 같은 검은 변을 봤어요"
+vital_signs:
+  blood_pressure: "105/70mmHg"
+  pulse: "100회/분"
+  respiration: "18회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "소화성 궤양 출혈"
+    - "위암 출혈"
+    - "말로리-바이스 찢김"
+  necessary_tests:
+    - "전혈구 검사 (CBC), 혈액응고 검사, 요소질소/크레아티닌 검사"
+    - "응급 상부위장관 내시경 (EGD)"
+    - "헬리코박터 파일로리 검사"
+  necessary_treatments:
+    - "정맥 수액 공급 및 양성자 펌프 억제제(PPI) 정맥 주사"
+    - "내시경적 지혈술"
+    - "헬리코박터 파일로리 제균 치료"
+history:
+  sex_age: "남성/58세"
+  chief_complaint_verbatim: "어제부터 속이 쓰리고 아프더니, 오늘 아침에 변을 봤는데 새카만 짜장면 같은 변이 나왔어요. 어지럽기도 하고요."
+  onset: "흑색변은 오늘 아침 처음 인지, 속쓰림은 수개월 전부터 간헐적으로 있었음"
+  location:
+    initial: "명치 부위"
+    current: "명치 부위"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 1주일간 속쓰림이 심해짐"
+  course: "수개월 전부터 공복 시나 새벽에 명치 부위가 쓰리고 아팠다. 식사를 하면 잠시 괜찮아지곤 했다. 최근 허리 통증으로 진통제를 복용한 뒤부터 통증이 더 심해졌고, 오늘 아침에는 매우 검고 끈적끈적한 변을 보았다. 변을 본 후 어지러움을 느꼈다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "NA"
+    symptoms: "NA"
+  character_of_symptom:
+    quality: "타르 같은 양상의 흑색변. 명치 부위의 타는 듯한 통증(epigastric burning pain)."
+    nrs_score: 5
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "공복 시"
+      - "자려고 누웠을 때"
+    alleviating: "음식 섭취"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "위염 소견"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "퇴행성 관절염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "비스테로이드성 소염진통제(NSAIDs), 이름은 모름"
+    source: "동네 정형외과에서 2주 전 처방받아 복용 중"
+    effect: "허리 통증은 좀 나아졌으나 속이 더 쓰려짐"
+  social_history:
+    job: "택시 운전사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 4-5회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "NA"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "NA"
+physical_exam:
+  general: "안색이 창백하고 식은땀을 흘리고 있음."
+  heent:
+    sclera: "결막 창백함"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 정상, 심박수 빠름"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상 공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 명치 부위에 뚜렷한 압통(epigastric tenderness)이 있음. 반발압통은 없음.
+  cvat: "좌우 음성"
+  extremity: "손발이 차고 축축함"
+standardized_patient_questions: "변 색깔이 왜 이런가요? 속이 안 좋아서 그런 건가요? 어지러운데 괜찮을까요?"
+specific_remarks: "환자는 명치 통증을 호소하며 해당 부위를 손으로 가리킨다. 흑색변을 처음 보고 매우 놀랐으며, 어지럼증으로 인해 불안해하는 모습을 연기한다. 진통제 복용력을 명확히 진술한다."

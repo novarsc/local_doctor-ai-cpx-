@@ -1,0 +1,113 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (특발성 폐섬유증)"
+patient_info:
+  name: "최영감"
+  age: 71
+  sex: "남성"
+  presenting_complaint: "1년 넘게 지속되는 마른 기침과 숨찬 증상"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "85회/분"
+  respiration: "24회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "특발성 폐섬유증 (Idiopathic pulmonary fibrosis, IPF)"
+    - "과민성 폐렴 (Hypersensitivity pneumonitis)"
+    - "결합조직질환 연관 간질성 폐질환"
+  necessary_tests:
+    - "고해상도 흉부 CT (HRCT)"
+    - "폐기능 검사 (확산능 저하 확인)"
+    - "혈액 검사 (류마티스 인자 등 자가항체 검사)"
+  necessary_treatments:
+    - "항섬유화 제제 (Pirfenidone, Nintedanib) 사용 고려"
+    - "산소 치료"
+    - "폐 이식 고려"
+history:
+  sex_age: "남성/71세"
+  chief_complaint_verbatim: "숨이 점점 더 차네. 예전엔 언덕 오를 때만 그러더니 이젠 평지를 걸어도 숨이 턱까지 차. 기침도 계속 나고..."
+  onset: "약 1년 반 전"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "매우 서서히 진행"
+    recent_course: "지난 6개월간 호흡곤란이 눈에 띄게 심해짐"
+  course: "1년 반 전부터 마른 기침이 시작됐고, 조금만 움직여도 숨이 찼다. 동네 병원에서는 나이 탓, 흡연 탓이라고 했는데 점점 심해져서 큰 병원에 와봤다."
+  experience_prev_episodes:
+    frequency: "없음. 지속적인 증상임"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "마른 기침, 운동 시 악화되는 호흡곤란"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "걷기, 계단 오르기 등 모든 신체 활동"
+    alleviating: "가만히 쉬면 호전됨"
+  health_check_history:
+    last_checkup: "10년 이상 받은 적 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "농업 (은퇴)"
+    stress: "없음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일 (50년)"
+      cessation_period: ""
+    exercise: "못함"
+    recent_weight_change: "최근 1년간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색. 안정 시에도 얕고 빠른 호흡. 말초 청색증 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "양쪽 폐저부에서 흡기 시에 벨크로 찍찍이를 떼는 듯한 건성 수포음(dry, velcro-like crackle)이 청진됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "양손가락과 발가락에 뚜렷한 곤봉지(clubbing) 소견 관찰됨."
+standardized_patient_questions: "폐가 굳는 병이라니, 그게 무슨 말인가요? 치료하면 다시 좋아질 수 있는 건가요? 숨이 너무 차서 힘든데 방법이 없나요?"
+specific_remarks: "느리고 힘겹게 말하며, 문장 중간중간 숨을 고른다. 자신의 손가락 끝이 뭉툭해진 것을 보여주며 '이것도 병 때문이냐'고 묻는다."

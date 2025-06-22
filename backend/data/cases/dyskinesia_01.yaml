@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (본태성 떨림)"
+patient_info:
+  name: "김영수"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "양손이 떨려서 글씨 쓰기가 힘듦"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "본태성 떨림"
+    - "파킨슨병 초기"
+    - "항진된 생리적 떨림"
+  necessary_tests:
+    - "신경학적 진찰"
+    - "혈액 검사 (갑상선 기능 포함)"
+    - "뇌 영상 검사 (필요시)"
+  necessary_treatments:
+    - "약물 치료 (프로프라놀롤, 프리미돈 등)"
+    - "생활 습관 교정 (카페인, 스트레스 관리)"
+    - "심부뇌자극술 (약물에 반응 없는 심한 경우)"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "몇 년 전부터 손이 떨렸는데, 요즘은 컵으로 물을 마시거나 글씨를 쓰려고 하면 심하게 떨려서 일상생활이 불편해요."
+  onset: "약 10년 전부터 서서히 시작"
+  location:
+    initial: "양손"
+    current: "양손, 약간의 머리 떨림도 동반됨"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 1년 사이 악화"
+  course: "처음에는 긴장할 때만 떨리다가 점차 특정 행동을 할 때 항상 떨림이 나타남"
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "활동 시"
+    symptoms: "손떨림"
+  character_of_symptom:
+    quality: "빠르게 떠는 양상"
+    nrs_score: "불편감 5점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "글씨 쓰기"
+      - "수저 사용"
+      - "긴장하거나 피곤할 때"
+    alleviating: "소량의 음주 후 일시적으로 호전됨"
+  health_check_history:
+    last_checkup: "1년 전, 고혈압 외 특이 소견 없음"
+    endoscopy_finding: "특이사항 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (15년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀 5mg"
+    source: "내과 의원"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "은퇴 (전직 교사)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1~2회"
+      amount: "맥주 1캔 정도"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 30분씩 걷기"
+    recent_weight_change: "없음"
+  family_history: "아버님께서 연세 드시고 손을 떠셨다고 들었음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 양호한 모습. 안정 시에는 떨림이 뚜렷하지 않음"
+  heent:
+    sclera: "iicteric하지 않음"
+    oral_mucosa: "건조하지 않고 정상"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "근력 및 감각 정상. 안정 시 떨림(resting tremor)은 관찰되지 않음. 양팔을 앞으로 뻗게 하니 4-8Hz의 자세 떨림(postural tremor) 관찰됨. 손가락-코 검사 시 목표 지점 근처에서 떨림이 악화되는 활동 떨림(action tremor) 관찰됨."
+standardized_patient_questions: "이거 혹시 파킨슨병이나 중풍 초기 증상은 아닌가요? 술을 마시면 좀 괜찮아지던데, 치료를 위해 계속 마셔도 될까요?"
+specific_remarks: "환자는 자신의 손떨림 때문에 남들 앞에서 위축되는 모습을 보인다. 검사자가 팔을 뻗어보라고 하거나 글씨를 써보라고 할 때 떨림이 명확해지도록 연기한다. 가만히 앉아 이야기할 때는 떨림이 거의 보이지 않아야 한다."

@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (우울증에 의한 가성치매)"
+patient_info:
+  name: "이선아"
+  age: 58
+  sex: "여성"
+  presenting_complaint: "최근 몇 달간 심해진 기억력 저하와 무기력감"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "우울증에 의한 가성치매"
+    - "초기 알츠하이머병"
+    - "갑상선 기능 저하증"
+  necessary_tests:
+    - "우울증 선별 검사 (예: PHQ-9, GDS)"
+    - "신경인지기능검사"
+    - "혈액검사 (갑상선 기능, 비타민 B12 등)"
+  necessary_treatments:
+    - "항우울제 투여"
+    - "정신치료 및 상담"
+    - "규칙적인 생활습관 및 운동 교육"
+history:
+  sex_age: "여성/58세"
+  chief_complaint_verbatim: "요즘 아무것도 기억이 안 나요. 머리가 텅 빈 것 같고, 뭘 하려고 해도 의욕이 안 생겨요. 제가 바보가 된 것 같아요."
+  onset: "약 3개월 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "비교적 명확한 시점부터 시작"
+    recent_course: "점점 심해짐"
+  course: "3개월 전 남편과 사별한 이후로 기분이 계속 가라앉고 잠도 잘 못 잠. 그 무렵부터 기억력이 부쩍 나빠졌다고 느낌. 특히 아침에 일어났을 때 가장 심함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "자신의 기억력 저하에 대해 매우 괴로워하고 자세하게 설명함"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "혼자 있을 때"
+      - "아침에"
+    alleviating: "자녀와 함께 있을 때 잠시 괜찮아짐"
+  health_check_history:
+    last_checkup: "1년 전, 특이소견 없음"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "가정 주부"
+    stress: "최근 남편 사별로 인한 극심한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "과거에는 주 3회 등산했으나 최근 3개월간 거의 못함"
+    recent_weight_change: "최근 3개월간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "G1P1, Menopause at 51세"
+physical_exam:
+  general: "전반적으로 슬프고 우울한 표정. 말수가 적고 반응이 느림 (psychomotor retardation)."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "slightly dry"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "hypoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "제가 정말 치매인가요? 이렇게 아무것도 못하고 살아야 하나요? 너무 무서워요."
+specific_remarks: "인지기능을 묻는 질문(예: 오늘 날짜, 100-7)에 대해 노력하기보다는 '모르겠어요'라고 쉽게 대답하는 경향을 보임. 자신의 증상에 대해 과도하게 걱정하고 절망적인 태도를 유지. 대화 중 눈물을 보이거나 한숨을 자주 쉼."

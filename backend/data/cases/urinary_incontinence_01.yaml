@@ -1,0 +1,116 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (복압성 요실금)"
+patient_info:
+  name: "김영미"
+  age: 48
+  sex: "여성"
+  presenting_complaint: "기침하거나 웃을 때 소변이 새는 증상"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "복압성 요실금 (Stress Urinary Incontinence)"
+    - "혼합성 요실금 (Mixed Urinary Incontinence)"
+    - "요로감염 (Urinary Tract Infection)"
+  necessary_tests:
+    - "요검사 및 요배양 검사"
+    - "요류역학검사 (Urodynamic study)"
+    - "패드 검사 (Pad test)"
+  necessary_treatments:
+    - "골반저근운동 (케겔 운동)"
+    - "생활 습관 교정 (체중 감량, 변비 예방)"
+    - "수술적 치료 (중부요도 슬링 수술 등)"
+history:
+  sex_age: "여성/48세"
+  chief_complaint_verbatim: "선생님, 제가 몇 년 전부터 기침하거나 재채기만 해도 소변이 찔끔 나와서 너무 불편해요. 요즘은 더 심해졌어요."
+  onset: "약 3년 전 둘째 아이 출산 후부터 서서히 시작됨"
+  location:
+    initial: "요도 부위"
+    current: "요도 부위"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 6개월간 악화"
+  course: "처음에는 심하게 기침할 때만 조금 새는 정도였으나, 최근에는 가볍게 웃거나 계단을 오를 때도 소변이 새어 패드를 착용하고 있음."
+  experience_prev_episodes:
+    frequency: "거의 매일 경험"
+    trigger: "기침, 재채기, 줄넘기, 크게 웃을 때"
+    symptoms: "소변이 속옷을 적시는 느낌"
+  character_of_symptom:
+    quality: "압력이 가해질 때 나도 모르게 '찔끔' 새는 느낌"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "기침, 재채기"
+      - "줄넘기나 달리기 등 운동 시"
+      - "무거운 물건을 들 때"
+    alleviating: "소변을 본 직후에는 증상이 덜함"
+  health_check_history:
+    last_checkup: "2년 전 국가건강검진, 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (5년 전 진단, 약물 복용 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "아모디핀 5mg"
+    source: "내과 의원"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "주부"
+    stress: "증상으로 인한 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "요실금 때문에 운동을 피하게 됨"
+    recent_weight_change: "최근 5년간 8kg 증가"
+  family_history: "어머니가 비슷한 증상 있었음"
+  female_history: "G2-P2-A0-L2, 2회 모두 자연분만 (첫째 3.8kg, 둘째 4.1kg), 46세 완경"
+physical_exam:
+  general: "약간 비만한 체형의 여성, 대화 시 불편감을 표현함"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic sound"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # suprapubic tenderness 없음
+  cvat: "좌/우 음성"
+  extremity: "no pitting edema"
+standardized_patient_questions: "이거 나이 들면 다 생기는 건가요? 꼭 수술해야 하나요? 운동으로 좋아질 수는 없나요?"
+specific_remarks: "증상에 대해 이야기하는 것을 부끄러워하며 조심스럽게 말한다. 사회생활에 미치는 영향 때문에 우울감을 내비친다. 기침을 유도하면 소변이 샐까 봐 걱정하는 모습을 보인다."

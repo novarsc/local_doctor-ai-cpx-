@@ -1,0 +1,113 @@
+---
+chapter: "상담"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (적응장애)"
+patient_info:
+  name: "윤지혜"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "최근 이혼 후 모든 게 무의미하게 느껴지고 죽고 싶음"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "우울한 기분을 동반한 적응장애 (Adjustment Disorder with Depressed Mood)"
+    - "주요우울장애 (Major Depressive Disorder)"
+    - "정상적인 애도 반응 (Normal Bereavement)"
+  necessary_tests:
+    - "벡 우울 척도(BDI) 등 심리 평가"
+    - "스트레스 사건과 증상 간의 연관성에 대한 심층 면담"
+    - "기질적 원인 배제를 위한 기본 혈액 검사"
+  necessary_treatments:
+    - "지지 정신치료 및 위기 개입"
+    - "스트레스 관리 기법 교육"
+    - "단기적인 항불안제 또는 수면제 사용 고려"
+history:
+  sex_age: "여성/45세"
+  chief_complaint_verbatim: "두 달 전에 이혼했어요. 그 후로 아무것도 손에 잡히지 않고, 내가 왜 사나 싶어요. 그냥 다 끝내고 싶어요."
+  onset: "2개월 전 이혼 서류에 도장을 찍은 직후"
+  location:
+    initial: "정신적인 고통"
+    current: "정신적인 고통"
+  duration:
+    onset_pattern: "특정 스트레스 사건 후 발병"
+    recent_course: "지속"
+  course: "2개월 전, 20년간의 결혼 생활을 끝내고 합의 이혼함. 이혼 자체는 예상했던 일이었으나, 막상 혼자가 되고 나니 극심한 우울감, 불안, 허무함에 시달림. 직장 생활이나 가사 등 일상적인 기능이 현저히 저하됨. 친구들을 만나도 즐겁지 않고, 미래에 대한 희망이 없다고 느낌. 가끔 '이렇게 고통스럽게 사느니 남편을 따라갔어야 했다' (남편은 외도로 이혼)는 생각보다 '그냥 이 고통을 끝내고 싶다'는 막연한 자살 사고를 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "우울감, 눈물, 절망감"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "집에 혼자 있을 때"
+      - "주말이나 저녁 시간"
+    alleviating: "일에 몰두할 때 잠시 잊음"
+  health_check_history:
+    last_checkup: "1년 전 국가검진"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원"
+    stress: "최근 이혼으로 인한 스트레스 극심함"
+    alcohol:
+      is_drinker: true
+      frequency: "이혼 후 주 3-4회"
+      amount: "와인 1병 정도"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "이혼 후 중단"
+    recent_weight_change: "최근 2개월간 3kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 3주 전, regular"
+physical_exam:
+  general: "슬퍼 보이고, 눈시울이 붉어져 있음. 전반적으로 기운이 없는 모습."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "No edema or cyanosis"
+standardized_patient_questions: "시간이 지나면 괜찮아질까요? 제가 너무 나약한가요? 다들 이혼하고도 잘 사는 것 같은데 왜 저만 이럴까요? 이 힘든 걸 어떻게 견뎌야 할지 모르겠어요."
+specific_remarks: "주요우울장애의 진단 기준(5가지 이상 증상이 2주 이상)을 모두 충족하지는 않는 모습을 보임. 증상이 명확한 스트레스 요인(이혼)과 직접적으로 연관되어 있음을 반복적으로 강조함. 자살 사고는 구체적인 계획보다는 막연한 소망에 가까운 형태로 표현함."

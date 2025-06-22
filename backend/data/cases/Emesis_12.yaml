@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (위출구 폐쇄)"
+patient_info:
+  name: "박종철"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "먹기만 하면 토하고 살이 계속 빠져요"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "위출구 폐쇄 (악성 종양 또는 양성 궤양 흉터 감별 필요)"
+    - "위 마비"
+    - "심한 기능성 소화불량"
+  necessary_tests:
+    - "상부위장관 내시경 및 조직검사"
+    - "복부 CT (주변 장기 침범 및 전이 여부 확인)"
+    - "혈액검사 (전해질, 영양 상태, 종양표지자)"
+  necessary_treatments:
+    - "입원 치료"
+    - "금식, 비위관 삽입을 통한 감압 및 수액/영양 공급"
+    - "폐쇄 원인에 따른 치료 (내시경적 확장술, 스텐트 삽입 또는 수술)"
+history:
+  sex_age: "남성/68"
+  chief_complaint_verbatim: "두 달 전부터 소화가 안되고 더부룩하더니, 이제는 물만 마셔도 다 토해버려요. 그래서 살이 10kg이나 빠졌어요."
+  onset: "약 2개월 전"
+  location:
+    initial: "윗배"
+    current: "윗배"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "처음엔 고형식만 토하다가 최근 1주 사이엔 유동식도 토함"
+  course: "2개월 전부터 식후 조기 포만감과 상복부 불쾌감이 시작됨. 1개월 전부터 식후 몇 시간 뒤 다량의 소화 안 된 음식물을 구토하기 시작함. 구토물에서는 썩은 냄새가 났음. 증상이 점점 심해져 현재는 거의 식사를 못 하는 상태임."
+  experience_prev_episodes:
+    frequency: "20-30년 전에 위궤양으로 오랫동안 고생한 적 있음"
+    trigger: ""
+    symptoms: "당시에는 속쓰림이 주 증상이었음"
+  character_of_symptom:
+    quality: "분출성의 대량 구토"
+    nrs_score: "불쾌감 4-5점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "악취가 나는 다량의 소화되지 않은 음식물"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "음식 섭취"
+    alleviating: "구토하고 나면 일시적으로 윗배의 팽만감이 해소됨"
+  health_check_history:
+    last_checkup: "10년 이상 받은 적 없음"
+    endoscopy_finding: "20년 전 위궤양 진단 이후 추적검사 안함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "과거 위궤양 병력"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "농업 (은퇴)"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: ""
+    exercise: "텃밭 가꾸기"
+    recent_weight_change: "최근 2개월간 10kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색, 심한 체중 감소로 수척해 보임 (cachectic). 탈수 소견 명확함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "매우 건조함"
+  chest: "정상"
+  abdomen:
+    inspection: "상복부가 약간 팽창되어 보임. 위 연동운동이 관찰될 수 있음 (visible peristalsis)."
+    auscultation: "정상 장음"
+    percussion: "상복부 고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      succussion_splash: true # 진탕음 양성
+  cvat: "양측 음성"
+  extremity: "근육 소실, 피부 긴장도 저하"
+standardized_patient_questions: "나이가 들어서 그냥 소화 기능이 떨어진 거 아닌가요? 왜 이렇게 살이 빠질까요? 암은 아니겠죠? 수술해야 하나요?"
+specific_remarks: "환자는 체중 감소와 식사를 전혀 못하는 상황에 대해 매우 불안해한다. 구토물에서 '계란 썩는 냄새' 같은 나쁜 냄새가 났다고 구체적으로 표현한다. 과거 위궤양 병력을 대수롭지 않게 이야기하지만, 의사가 그 연관성을 물으면 관심을 보인다."

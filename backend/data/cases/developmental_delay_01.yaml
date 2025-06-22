@@ -1,0 +1,113 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (체질성 성장 지연)"
+patient_info:
+  name: "박서준"
+  age: 14
+  sex: "남성"
+  presenting_complaint: "또래에 비해 키가 작고 2차 성징이 나타나지 않음"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "72회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "아이가 잘 크지 않고 사춘기가 늦는 것 같다는 주소로 내원한 보호자와 환아의 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "체질성 성장 및 사춘기 지연"
+    - "성장호르몬 결핍증"
+    - "갑상선 기능 저하증"
+  necessary_tests:
+    - "골연령 측정을 위한 X-선 검사"
+    - "일반 혈액 검사 및 갑상선 기능 검사"
+    - "필요시 성장호르몬 자극 검사"
+  necessary_treatments:
+    - "정기적인 성장 속도 및 사춘기 진행 평가"
+    - "균형 잡힌 영양 섭취 및 규칙적인 운동 교육"
+    - "심리적 지지 및 안심시키기"
+history:
+  sex_age: "남성/14세"
+  chief_complaint_verbatim: "아빠, 저도 친구들처럼 빨리 크고 싶어요. 변성기도 안 오고... 애들이 놀려요."
+  onset: "초등학교 고학년 때부터 또래와 키 차이가 나기 시작함"
+  location:
+    initial: "전반적인 신체"
+    current: "전반적인 신체"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 1년간 약 4.5cm 성장하여 성장 속도는 정상 범위이나, 신장은 3퍼센타일 미만임"
+  course: "어릴 때부터 잔병치레 없이 건강했으나 항상 키는 작은 편이었다. 중학교 입학 후 친구들과의 격차가 더 벌어지면서 아이가 스트레스를 받기 시작했다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "친구들과의 비교"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전 학교 신체검사"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "중학생"
+    stress: "키와 관련된 교우관계에서 스트레스 호소"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 축구"
+    recent_weight_change: "없음"
+  family_history: "아버지도 고등학교 때 키가 늦게 자랐다고 함 (고1 때 160cm -> 고3 때 180cm)"
+  female_history: "해당 없음"
+physical_exam:
+  general: "나이에 비해 어려 보이나 전반적으로 건강한 모습. Tanner stage 1 (성기, 음모)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "청진상 특이 소견 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이 소견 없음. 신체 비율 정상."
+standardized_patient_questions: "우리 아이, 나중에 키는 다 크는 거 맞나요? 친구들처럼 클 수 있을까요? 혹시 무슨 병이 있는 건 아닌지 걱정돼요."
+specific_remarks: "환아는 진료 내내 주눅이 들어 있고, 보호자(아버지)가 주로 대화함. 아버지는 자신의 경험을 이야기하며 '나도 늦게 컸다'고 말하지만, 한편으로는 아들이 겪는 스트레스에 대해 걱정스러운 기색을 보인다."

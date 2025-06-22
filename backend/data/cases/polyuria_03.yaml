@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (정신성 다음증)"
+patient_info:
+  name: "이수진"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "물을 너무 많이 마시고 소변을 자주 봄"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "정신성 다음증 (일차성 다음증)"
+    - "중추성 요붕증"
+    - "제1형 당뇨병"
+  necessary_tests:
+    - "혈액 검사 (전해질, 혈장 삼투압)"
+    - "소변 검사 (요비중, 소변 삼투압)"
+    - "수분 제한 검사"
+  necessary_treatments:
+    - "수분 섭취 제한 교육"
+    - "행동 치료 및 정신건강의학과적 상담"
+    - "기저 정신 질환에 대한 평가 및 치료"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "언젠가부터 물을 계속 마셔야 할 것 같은 느낌이 들어요. 하루에 4-5리터는 기본으로 마시는 것 같아요. 그래서 화장실도 자주 가고요. 잠잘 때는 괜찮아요."
+  onset: "약 1년 전"
+  location:
+    initial: "전신 증상"
+    current: "전신 증상"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "비슷하게 유지됨"
+  course: "특별한 계기 없이 물을 많이 마시기 시작함. '건강에 좋다'는 생각에 시작했는데, 이제는 마시지 않으면 불안하고 입이 마르는 것 같아 멈출 수 없음. 낮에 주로 심하고 밤에는 소변 때문에 깨는 일은 거의 없음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "소변이 맑고 양이 많음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "간혹 물을 너무 많이 마시면 구역감이 있음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스를 받을 때"
+      - "혼자 있을 때"
+    alleviating: "다른 일에 집중하거나 바쁠 때"
+  health_check_history:
+    last_checkup: "2년 전 국가건강검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "불안장애로 3년 전부터 정신건강의학과 간헐적 상담"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "필요시 항불안제 (자나팜정) 복용"
+    source: "정신건강의학과 의원"
+    effect: "불안감 완화에 약간 도움됨"
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "업무 및 대인관계 스트레스가 심한 편"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 1-2회 요가"
+    recent_weight_change: "변화 없음"
+  family_history: "특이 사항 없음"
+  female_history: "LMP: 2주 전, 주기 및 양 규칙적"
+physical_exam:
+  general: "불안해 보이지 않으려 애쓰는 모습, 전반적인 상태 양호"
+  heent:
+    sclera: "비황달성"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "특이 소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "물 많이 마시는 게 건강에 좋은 거 아니었나요? 왜 문제가 되는 거죠? 제가 정신적으로 이상한 건가요?"
+specific_remarks: "갈증이 심하다고는 하지만 요붕증 환자처럼 극심하게 표현하지는 말 것. 오히려 '물을 마셔야 한다는 강박'이나 '습관'에 가깝게 진술. 밤에는 증상이 없다는 점을 명확히 할 것. 정신과 병력에 대해 질문받으면 마지못해 대답하는 등 약간의 방어적인 태도를 보일 수 있음."

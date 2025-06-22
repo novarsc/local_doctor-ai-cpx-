@@ -1,0 +1,113 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (굿파스처 증후군)"
+patient_info:
+  name: "송재익"
+  age: 24
+  sex: "남성"
+  presenting_complaint: "급격히 발생한 객혈과 혈뇨"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "98회/분"
+  respiration: "22회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "굿파스처 증후군 (Goodpasture syndrome)"
+    - "다발혈관염 육아종증 (GPA)"
+    - "급속 진행성 사구체신염"
+  necessary_tests:
+    - "혈청 항사구체기저막 항체 (Anti-GBM antibody) 검사"
+    - "소변검사 및 신장 기능 검사 (BUN/Cr)"
+    - "신장 조직검사"
+  necessary_treatments:
+    - "혈장 교환술 (Plasmapheresis)"
+    - "고용량 스테로이드 및 면역억제제 (Cyclophosphamide)"
+    - "필요시 투석"
+history:
+  sex_age: "남성/24"
+  chief_complaint_verbatim: "일주일 전부터 기침에 피가 섞여 나오더니, 어제부터는 소변이 콜라색으로 나와요. 몸도 붓고 너무 힘듭니다."
+  onset: "약 1주일 전"
+  location:
+    initial: "가슴"
+    current: "전신"
+  duration:
+    onset_pattern: "급성 발병 및 빠른 악화"
+    recent_course: "급격히 악화되는 중"
+  course: "1주일 전, 특별한 이유 없이 기침이 시작되고 소량의 객혈이 있었음. 3-4일 전부터 객혈의 양이 늘고 숨이 차기 시작함. 어제부터는 소변 양이 줄고 색깔이 콜라색으로 변했으며, 얼굴과 다리가 붓기 시작함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "선홍색 피가 섞인 가래가 점차 많아짐"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "한두 번"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "움직일 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 군입대 신체검사"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "학업 스트레스 보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: true
+      amount: "5갑년"
+      cessation_period: ""
+    exercise: "농구 동아리 활동"
+    recent_weight_change: "최근 1주간 3kg 증가 (부종으로 인한)"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색, 창백하고 부어있는 얼굴. 약간의 호흡곤란 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "양쪽 폐 전반에 걸쳐 미세한 수포음(fine crackles)이 청진됨."
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양성/양성"
+  extremity: "양쪽 다리에 현저한 함요 부종(pitting edema) 관찰됨."
+standardized_patient_questions: "갑자기 왜 이러는 걸까요? 콩팥이 망가진 건가요? 젊은 나이에 투석해야 할 수도 있나요?"
+specific_remarks: "질병의 진행이 매우 빠르다는 점을 강조. 폐 증상(객혈)과 신장 증상(혈뇨, 부종)이 거의 동시에 나타났음을 명확히 설명. 자신의 위중한 상태에 대해 매우 불안해하며, 예후에 대한 질문을 집중적으로 할 것."

@@ -1,0 +1,118 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (척추 전이암)"
+patient_info:
+  name: "최경희"
+  age: 62
+  sex: "여성"
+  presenting_complaint: "1개월 전부터 점점 심해지는 등 통증"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "90회/분"
+  respiration: "20회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "척추 전이암 (Metastatic spinal tumor)"
+    - "척추 압박 골절"
+    - "척추 감염 (척추염)"
+  necessary_tests:
+    - "전척추 X선 검사 및 MRI"
+    - "전신 뼈 스캔 (Whole body bone scan)"
+    - "혈액 검사 (CBC, ESR, CRP, 종양표지자)"
+    - "필요시 조직 검사"
+  necessary_treatments:
+    - "원발암에 대한 치료"
+    - "방사선 치료"
+    - "수술적 치료 (척수 압박이 있는 경우)"
+    - "비스포스포네이트 등 뼈 전이 치료제"
+history:
+  sex_age: "여성/62세"
+  chief_complaint_verbatim: "한 달 전부터 등이 너무 아파요. 특히 밤에 자려고 누우면 더 아파서 잠을 설쳐요. 진통제를 먹어도 소용이 없네요."
+  onset: "약 1개월 전"
+  location:
+    initial: "등 중앙 부위 (가슴 높이)"
+    current: "등 중앙 부위"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "지속적으로, 그리고 빠르게 악화됨"
+  course: "처음에는 결리는 정도였으나, 현재는 가만히 있어도 통증이 심하고 밤에 더 심해지는 양상. 최근에는 다리에 힘이 약간 빠지는 느낌도 든다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "뼈를 갉아먹는 듯한, 깊고 심한 통증"
+    nrs_score: "9"
+    radiation: "등 주변으로 띠를 두르듯 뻗치는 느낌이 가끔 있음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밤에 누워있을 때"
+      - "움직일 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "5년 전 국가검진"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "5년 전 유방암 2기로 진단받고 수술 및 항암치료, 방사선 치료 후 완치 판정 받음."
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "처방받지 않은 진통제"
+    source: "약국"
+    effect: "효과 거의 없음"
+  social_history:
+    job: "은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "지난 2개월간 5kg 감소"
+  family_history: "없음"
+  female_history: "10년 전 폐경"
+physical_exam:
+  general: "만성 병색을 띠고 있으며, 통증으로 인해 표정이 어두움."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "Clear breath sounds. 수술 흉터(우측 유방) 관찰됨."
+  abdomen:
+    inspection: "soft, non-distended"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      point_tenderness: "흉추 7번(T7) 극돌기 부위에 심한 압통"
+  cvat: "좌우 음성"
+  extremity: "양쪽 하지 근력 Grade 4+/5로 약간 저하. 감각은 정상. Deep tendon reflex: 양쪽 무릎 반사 항진(hyperreflexia)."
+standardized_patient_questions: "파스 붙이면 나을 줄 알았는데 왜 이렇게 아픈가요? 예전 암이랑 관련이 있는 건가요? 너무 무서워요."
+specific_remarks: "RED FLAG signs (야간 통증, 체중 감소, 암 병력, 진통제에 반응 없는 통증)를 명확하게 전달해야 함. 특히, 자세 변화로 완화되지 않고 밤에 더 심해지는 통증 양상을 강조해야 함. 진찰 시 특정 등 부위를 누를 때 '악' 소리를 내며 매우 아파하는 모습을 보여야 함."

@@ -1,0 +1,119 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "22"
+title: "실전 모의 증례 (이상근 증후군)"
+patient_info:
+  name: "박지영"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "오래 앉아 있으면 심해지는 오른쪽 엉덩이 통증과 다리 저림"
+vital_signs:
+  blood_pressure: "118/72mmHg"
+  pulse: "74회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "이상근 증후군 (Piriformis syndrome)"
+    - "요추 추간판 탈출증"
+    - "천장관절 증후군"
+  necessary_tests:
+    - "진단을 위한 특이 검사는 없으며 임상 진단이 중요"
+    - "요추 MRI (추간판 탈출증 배제 목적)"
+    - "진단적 이상근 내 주사"
+  necessary_treatments:
+    - "이상근 스트레칭"
+    - "물리치료 및 자세 교정"
+    - "이상근 내 스테로이드 또는 보톡스 주사"
+history:
+  sex_age: "여성/38세"
+  chief_complaint_verbatim: "오른쪽 엉덩이 깊은 곳이 너무 아파요. 오래 앉아 있다가 일어나면 다리까지 저릿저릿해요. 허리는 괜찮은데..."
+  onset: "약 3개월 전"
+  location:
+    initial: "오른쪽 엉덩이"
+    current: "오른쪽 엉덩이 깊은 곳, 허벅지 뒤쪽"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "운전하는 시간이 길어지면서 악화됨"
+  course: "처음에는 뻐근한 정도였는데, 점점 통증 강도가 심해짐. 특히 운전하거나 사무실 의자에 오래 앉아 있으면 통증이 심해져서 앉아있기 힘듦. 허리 자체의 통증은 거의 없음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "깊고 쑤시는 통증, 저릿한 느낌"
+    nrs_score: "6"
+    radiation: "오른쪽 허벅지 뒤쪽으로 뻗치나, 종아리나 발까지는 잘 내려가지 않음."
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 앉아 있을 때 (특히 딱딱한 의자)"
+      - "계단을 오를 때"
+      - "운전할 때"
+    alleviating: "서 있거나 걸을 때, 스트레칭할 때"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음. 하지만 최근 필라테스를 시작했음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "프리랜서 번역가"
+    stress: "마감 스트레스 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "와인 1잔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "LMP 2주 전, regular"
+physical_exam:
+  general: "건강해 보이며, 특별한 이상 소견 없음."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      tenderness: "오른쪽 엉덩이 깊은 곳, 이상근(piriformis muscle) 부위를 촉진 시 심한 압통 및 다리 저림 유발"
+      FAIR_test: "양성 (환자를 옆으로 눕히고 오른쪽 고관절을 굴곡, 내전, 내회전시킬 때 통증 유발)"
+      straight_leg_raising_test: "음성"
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 (근력, 감각, 반사) 모두 정상."
+standardized_patient_questions: "허리 디스크인 줄 알았는데, 왜 허리는 안 아프고 엉덩이만 아픈가요? 이 근육은 왜 아픈 건가요? 앉아서 일해야 하는데 어떡하죠?"
+specific_remarks: "허리 통증이 없다는 점을 강조해야 함. '엉덩이 깊숙한 곳'의 통증임을 명확히 표현해야 함. 진찰 시 의사가 특정 유발 동작(FAIR test 등)을 하거나 엉덩이 부위를 깊게 누를 때, 평소에 느끼던 통증과 저림이 똑같이 재현된다고 말해야 함. 앉아 있는 것이 고통스럽다는 것을 표현하기 위해 진료 중에도 가끔씩 자세를 바꾸거나 한쪽 엉덩이를 들썩이는 모습을 보일 수 있음."

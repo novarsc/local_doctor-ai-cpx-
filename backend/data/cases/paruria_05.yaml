@@ -1,0 +1,117 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (요로결석)"
+patient_info:
+  name: "정현우"
+  age: 42
+  sex: "남성"
+  presenting_complaint: "갑자기 시작된 옆구리 통증과 함께 소변이 자주 마려움"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "105회/분"
+  respiration: "22회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "요로결석 (Ureter stone), 특히 방광-요관 이행부 결석"
+    - "급성 신우신염 (Acute Pyelonephritis)"
+    - "급성 충수염 (감별 필요)"
+  necessary_tests:
+    - "소변검사 (현미경적 혈뇨 확인)"
+    - "복부 단순 촬영 (KUB)"
+    - "비조영증강 복부 CT (NCCT Abdomen) - 확진 검사"
+    - "혈액검사 (신장기능, 염증수치)"
+  necessary_treatments:
+    - "진통제 투여 (비스테로이드성 소염제 등)"
+    - "충분한 수분 섭취 및 대기 요법 (결석 크기가 작을 경우)"
+    - "체외충격파쇄석술(ESWL) 또는 내시경적 결석 제거술 고려"
+history:
+  sex_age: "남성/42세"
+  chief_complaint_verbatim: "오늘 아침에 자다 깼는데, 갑자기 오른쪽 옆구리가 칼로 찌르는 것처럼 아팠어요. 통증이 아랫배 쪽으로 내려오는 것 같고, 계속 화장실 가고 싶은 느낌이 들어요."
+  onset: "6시간 전"
+  location:
+    initial: "오른쪽 옆구리 (Right flank)"
+    current: "오른쪽 옆구리에서 아랫배, 고환 쪽으로 뻗침"
+  duration:
+    onset_pattern: "매우 급성 (Hyperacute)"
+    recent_course: "통증이 간헐적으로 매우 심해졌다 괜찮아졌다를 반복"
+  course: "수면 중 갑자기 발생한 우측 옆구리 통증으로 잠에서 깸. 통증은 어떤 자세를 취해도 호전되지 않고 안절부절못하게 만듦. 통증이 없는 시기에는 괜찮다가 수십 분 간격으로 극심한 통증이 반복됨. 1시간 전부터는 빈뇨, 잔뇨감 등 방광 자극 증상이 동반됨."
+  experience_prev_episodes:
+    frequency: "5년 전 한 번"
+    trigger: "여름에 땀 많이 흘리고 물 잘 안 마셨을 때"
+    symptoms: "왼쪽 옆구리에 비슷한 통증. 응급실에서 주사 맞고 돌이 빠졌다고 들었음."
+  character_of_symptom:
+    quality: "칼로 찌르는 듯한, 쥐어짜는 듯한 통증 (colicky pain)"
+    nrs_score: "9-10"
+    radiation: "오른쪽 하복부와 서혜부, 고환 쪽으로 방사"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "한 차례 구토함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true # 약간 붉은색 (콜라색 비슷)
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "자세 변경과 무관하게 지속됨"
+    alleviating: "없음 (진통제 외에는 효과 없음)"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "요로결석 (5년 전)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "택배 기사"
+    stress: "높음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "한 갑/일"
+      cessation_period: ""
+    exercise: "업무 자체가 고강도 운동"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: ""
+physical_exam:
+  general: "통증으로 안절부절못하며 계속 자세를 바꾸려 함. 식은땀을 흘림."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "호흡음 정상. 심박수 빠름."
+  abdomen:
+    inspection: "편평함."
+    auscultation: "장음 약간 감소."
+    percussion: "고창음."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # Right lower quadrant and flank tenderness
+      tenderness_rlq: true
+      tenderness_r_flank: true
+  cvat: "우측 양성 (Right side positive)"
+  extremity: "부종 없음"
+standardized_patient_questions: "왜 이렇게 아픈 건가요? 예전에도 이런 적이 있는데 또 재발한 건가요? 수술해야 하나요?"
+specific_remarks: "극심한 통증을 연기하는 것이 중요함. 진찰 내내 허리를 붙잡고 신음 소리를 내며 안절부절못하는 모습을 보인다. 의사가 등(CVAT)을 칠 때 '악' 소리를 내며 매우 아파한다."

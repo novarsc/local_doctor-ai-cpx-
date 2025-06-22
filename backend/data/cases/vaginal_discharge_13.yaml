@@ -1,0 +1,123 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (전치태반)"
+patient_info:
+  name: "황보라"
+  age: 34
+  sex: "여성"
+  presenting_complaint: "임신 32주, 통증 없는 질출혈"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "92회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오. (단, 내진은 절대 금기임)"
+patient_education:
+  probable_diagnoses:
+    - "전치태반 (Placenta previa)"
+    - "태반조기박리 (Abruptio placentae) - 통증이 없으므로 가능성 낮음"
+    - "국소적 원인에 의한 출혈 (자궁경부 변화 등)"
+  necessary_tests:
+    - "복부 초음파 검사 (Abdominal ultrasonography)"
+    - "태아 안녕 검사 (Non-stress test, NST)"
+    - "일반 혈액 검사 (CBC) 및 혈액형 교차반응검사"
+  necessary_treatments:
+    - "즉각적인 입원 및 침상 안정"
+    - "활력징후 및 태아 심박동 지속적 감시"
+    - "출혈이 심하거나 만삭에 가까우면 응급 제왕절개술"
+history:
+  sex_age: "여성/34"
+  chief_complaint_verbatim: "임신 32주차 산모입니다. 어젯밤에 자다가 일어났는데 속옷과 이불이 피로 흥건하게 젖어 있었어요. 배는 하나도 아프지 않았어요."
+  onset: "약 10시간 전 (어젯밤 수면 중)"
+  location:
+    initial: "질"
+    current: "질"
+  duration:
+    onset_pattern: "급성, 갑작스러움"
+    recent_course: "현재는 출혈이 멎은 상태"
+  course: "어젯밤 자다가 축축한 느낌에 깨보니 선홍색 피가 많이 나 있었습니다. 배가 아프거나 다른 증상은 전혀 없었습니다. 너무 놀라서 아침까지 기다렸다가 바로 병원에 왔습니다. 지금은 피가 멈춘 것 같습니다."
+  experience_prev_episodes:
+    frequency: "임신 28주경 소량의 출혈이 한 번 있었음"
+    trigger: "없음"
+    symptoms: "당시에도 통증 없는 출혈이었음"
+  character_of_symptom:
+    quality: "통증이 없는(painless) 갑작스러운 다량의 선홍색 질출혈"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "자연적으로 멎음"
+  health_check_history:
+    last_checkup: "2주 전 정기 산전 진찰"
+    endoscopy_finding: "특이사항 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "임산부용 종합비타민, 철분제"
+    source: "산부인과 권유"
+    effect: ""
+  social_history:
+    job: "회사 휴직 중"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "가벼운 산책"
+    recent_weight_change: "임신으로 인한 정상적 체중 증가"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "14세"
+    menstrual_cycle: "규칙적"
+    duration: "5일"
+    amount: "보통"
+    lmp: "32주 전"
+    gpa: "2-0-1-1 (첫째 아이 제왕절개로 출산)"
+    sexual_partner: "배우자 1명"
+    contraception: ""
+physical_exam:
+  general: "매우 불안해하며 안색이 창백함. 급성 병색."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "slightly dry"
+  chest: "호흡음 정상, 심박수 약간 빠름."
+  abdomen:
+    inspection: "임신 32주에 맞는 자궁 크기. 복벽 긴장 없음."
+    auscultation: "태아 심음 청취 가능 (약 140회/분)"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 자궁이 부드럽고 압통이 없음 (Uterus is soft and non-tender).
+      # 내진은 금기 (Pelvic exam is contraindicated).
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "자고 일어났는데 피가 너무 많이 나서 놀랐어요. 아기는 괜찮은 건가요? 왜 배도 안 아픈데 피가 나죠? 지금 당장 아기를 낳아야 하나요?"
+specific_remarks: "통증은 전혀 없지만, 출혈량에 대해 설명할 때 매우 놀라고 공포스러웠던 감정을 표현한다. 태아의 안위를 가장 걱정하며, 초음파 검사를 빨리 해보기를 원한다. '내진(pelvic exam)'을 시도하려고 하면 '위험하다고 들었다'며 강하게 거부해야 함."

@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (신세포암)"
+patient_info:
+  name: "정진석"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "2주 전부터 간헐적으로 보이는 혈뇨와 우측 옆구리 둔통"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신세포암 (가장 의심)"
+    - "신우암"
+    - "복잡성 신낭종 출혈"
+  necessary_tests:
+    - "복부 CT (조영제 사용)"
+    - "소변 검사 (혈뇨 확인)"
+    - "혈액 검사 (신기능, 빈혈, 칼슘 수치, 간기능 등 확인)"
+  necessary_treatments:
+    - "수술적 치료 (근치적 또는 부분 신절제술)"
+    - "병기에 따라 표적치료, 면역항암제 등 고려"
+    - "고혈압 관리"
+history:
+  sex_age: "남성/58세"
+  chief_complaint_verbatim: "소변에 피가 섞여 나오고 오른쪽 옆구리가 뻐근하게 아픕니다."
+  onset: "약 2주 전"
+  location:
+    initial: "소변, 우측 옆구리"
+    current: "소변, 우측 옆구리"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "혈뇨는 2-3일에 한 번씩 보이고, 옆구리 통증은 계속 은은하게 있음."
+  course: "처음엔 대수롭지 않게 여겼으나, 통증이 사라지지 않고 혈뇨가 반복되어 내원함. 통증이 심하진 않지만 계속 신경 쓰이는 정도임."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "묵직하고 뻐근한 통증 (dull ache)"
+    nrs_score: "3/10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true # 미열
+      chills: false
+      fatigue: true
+      weight_loss: true # 6개월간 7kg 감소
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3년 전, 고혈압 진단 받았으나 관리 안 함"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "개인 사업"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병 이상"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일 (35년)"
+      cessation_period: ""
+    exercise: "전혀 안 함"
+    recent_weight_change: "최근 6개월간 의도치 않게 7kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색. 약간 비만 체형."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "복부 팽만 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: true # deep palpation 시
+      rebound_tenderness_rlq: false
+      # 우상복부에서 단단하고 불규칙한 종괴가 만져짐 (firm, irregular mass)
+  cvat: "우측 양성 (right side positive)"
+  extremity: "부종 없음"
+standardized_patient_questions: "요즘 너무 피곤하고 살도 빠지는데, 콩팥에 문제가 생긴 건가요? 암은 아니겠죠?"
+specific_remarks: "환자는 전반적으로 기운이 없고 피곤한 모습을 보인다. 체중 감소는 사업 스트레스 때문이라고 생각한다. 신체 진찰 시 우상복부에서 만져지는 종괴에 대해 질문하면 매우 불안해한다."

@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (폐결핵)"
+patient_info:
+  name: "이진호"
+  age: 27
+  sex: "남성"
+  presenting_complaint: "2주 전부터 시작된 기침, 객혈, 미열"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "90회/분"
+  respiration: "20회/분"
+  temperature: "37.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐결핵"
+    - "폐렴"
+    - "기관지염"
+  necessary_tests:
+    - "객담 항산균 도말 및 배양 검사, 결핵균 PCR"
+    - "흉부 X-ray"
+    - "혈액검사 (인터페론감마 분비검사)"
+  necessary_treatments:
+    - "항결핵제 병합 요법 (최소 6개월)"
+    - "객담 검사 결과에 따른 격리 여부 결정"
+    - "영양 공급 및 대증 치료"
+history:
+  sex_age: "남성/27"
+  chief_complaint_verbatim: "기침을 계속 하는데, 며칠 전부터는 피가 조금씩 섞여 나와요. 밤에 식은땀도 나고 몸도 으슬으슬합니다."
+  onset: "약 2주 전"
+  location:
+    initial: "목구멍, 가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 심해지는 양상"
+  course: "2주 전부터 마른기침으로 시작하여 점차 가래 섞인 기침으로 변함. 5일 전부터 가래에 핏줄기가 비치기 시작함. 오후가 되면 미열이 있고 밤에 잘 때 식은땀을 흘려 옷이 젖을 정도임."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "가래에 선홍색 핏줄기가 서너 가닥 섞여 나옴"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밤 시간대"
+      - "깊은숨을 쉴 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 대학교 건강검진"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "타이레놀"
+    source: "약국에서 직접 구매"
+    effect: "열이 일시적으로 떨어지나 다시 오름"
+  social_history:
+    job: "취업 준비생 (고시원 생활 중)"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1~2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 한 달간 3kg 감소"
+  family_history: "할아버지가 과거 결핵 치료 받으심"
+  female_history: ""
+physical_exam:
+  general: "다소 마르고 피곤해 보이는 인상. 전반적으로 쇠약해 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "slightly dry"
+  chest: "오른쪽 폐 상엽(Right upper lobe)에서 호흡음이 다소 감소되어 있고, 거친 수포음(coarse crackles)이 청진됨."
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "이거 전염되는 병인가요? 같이 사는 친구들한테 옮길까 봐 걱정돼요. 치료는 오래 해야 하나요?"
+specific_remarks: "기운이 없고, 간간이 마른기침을 하는 모습을 연기. 야간 발한과 체중 감소에 대해 불안감을 표현. 전염성에 대한 질문을 반드시 할 것."

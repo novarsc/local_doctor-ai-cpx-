@@ -1,0 +1,112 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (렘수면 행동장애)"
+patient_info:
+  name: "이재호"
+  age: 67
+  sex: "남성"
+  presenting_complaint: "잠꼬대가 심하고 잠결에 헛손질을 함"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "렘수면 행동장애 (REM sleep behavior disorder)"
+    - "수면 중 경련 (Nocturnal seizure)"
+    - "폐쇄성 수면 무호흡증에 동반된 야간 행동"
+  necessary_tests:
+    - "비디오-수면다원검사 (Video-Polysomnography)"
+    - "신경학적 진찰 (파킨슨병 등 신경퇴행성질환 감별)"
+    - "뇌 MRI"
+  necessary_treatments:
+    - "안전한 수면 환경 조성 (침대 주변 위험물 제거)"
+    - "클로나제팜 또는 멜라토닌 복용"
+    - "향후 신경퇴행성질환 발생 가능성에 대한 정기적 추적 관찰"
+history:
+  sex_age: "남성/67"
+  chief_complaint_verbatim: "아내가 제가 자면서 소리를 지르고 팔다리를 휘둘러서 같이 못 자겠다고 해서 왔습니다. 전 전혀 기억이 안 나는데..."
+  onset: "약 3-4년 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 1년간 빈도와 강도가 심해짐"
+  course: "처음에는 잠꼬대가 좀 심하다는 정도였는데, 점점 누군가와 싸우는 것처럼 고함을 치거나 욕을 하고, 팔을 휘두르거나 발길질을 해서 옆에서 자는 아내를 때린 적도 몇 번 있음. 침대에서 떨어져 다칠 뻔한 적도 있다고 함. 본인은 아침에 일어나면 전혀 기억하지 못함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "꿈 내용을 그대로 행동으로 옮기는 양상 (주로 싸우거나 쫓기는 꿈), 잠에서 깨면 꿈 내용은 생생하게 기억함"
+    nrs_score: "해당 없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음주"
+      - "스트레스"
+    alleviating: "알 수 없음"
+  health_check_history:
+    last_checkup: "1년 전, 전립선 비대증 소견"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "잠결에 침대 모서리에 부딪혀 팔에 멍이 든 적 있음"
+  past_medical_history:
+    underlying_disease: "전립선 비대증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "탐술로신"
+    source: "비뇨의학과"
+    effect: "배뇨 증상 호전"
+  social_history:
+    job: "은퇴 (전직 공무원)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "30년 전 금연"
+    exercise: "매일 아침 1시간 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강해 보이는 노년 남성. 표정이 다소 무표정해 보임 (hypomimia)."
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "신경학적 진찰 시, 양측 상지에서 미세한 안정 시 떨림(resting tremor) 관찰. 근육 경직(rigidity)은 뚜렷하지 않음. 보행 시 팔 흔들림이 약간 감소됨."
+standardized_patient_questions: "전 아무렇지도 않은데, 왜 아내가 난리인지 모르겠어요. 이게 병이에요? 나중에 치매나 파킨슨병 같은 게 올 수도 있다는데 정말인가요?"
+specific_remarks: "환자 본인은 증상의 심각성을 인지하지 못하고, 대부분의 정보는 '아내에게 들었다'는 식으로 전달한다. 의사가 파킨슨병 관련 증상(떨림, 느린 행동, 변비 등)을 물어볼 때, '나이 들어서 그런 것'이라며 대수롭지 않게 답하지만, 사실대로 답해야 한다."

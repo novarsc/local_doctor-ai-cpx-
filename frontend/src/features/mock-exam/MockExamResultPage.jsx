@@ -6,19 +6,24 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { clearCurrentMockExam } from '../../store/slices/mockExamSlice';
+import { clearCurrentMockExam, fetchMockExamSession } from '../../store/slices/mockExamSlice';
 
 const MockExamResultPage = () => {
     const dispatch = useDispatch();
     const { mockExamSessionId } = useParams();
     const { currentSession, status, error } = useSelector(state => state.mockExam);
 
-    // 사용자가 이 결과 페이지를 떠날 때, Redux의 현재 모의고사 상태를 초기화합니다.
+    // 모의고사 세션 정보 로드
     useEffect(() => {
+        if (!currentSession || currentSession.mockExamSessionId !== mockExamSessionId) {
+            dispatch(fetchMockExamSession(mockExamSessionId));
+        }
+        
+        // 사용자가 이 결과 페이지를 떠날 때, Redux의 현재 모의고사 상태를 초기화합니다.
         return () => {
             dispatch(clearCurrentMockExam());
         }
-    }, [dispatch]);
+    }, [dispatch, mockExamSessionId, currentSession]);
 
 
     if (status === 'loading') {

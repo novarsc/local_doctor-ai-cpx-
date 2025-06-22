@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (궤양성 대장염)"
+patient_info:
+  name: "이수진"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "피가 섞인 설사를 계속해요"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "92회/분"
+  respiration: "18회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "궤양성 대장염 (염증성 장질환)"
+    - "감염성 대장염"
+    - "크론병"
+  necessary_tests:
+    - "전혈구 검사(CBC), 염증 수치 검사(ESR, CRP)"
+    - "대변 검사 (배양, 칼프로텍틴)"
+    - "S상결장경 또는 대장내시경 및 조직검사"
+  necessary_treatments:
+    - "항염증제 (5-ASA 제제)"
+    - "필요시 스테로이드 또는 면역조절제"
+    - "증상 조절 및 재발 방지를 위한 장기적인 관리"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "한 달 넘게 피랑 고름 같은 게 섞인 설사를 하루에 열 번도 더 해요. 배도 아프고 화장실 갔다 와도 시원하지가 않아요."
+  onset: "약 6주 전"
+  location:
+    initial: "하복부"
+    current: "하복부 전반, 특히 왼쪽 아래"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 2주 동안 증상이 급격히 심해짐"
+  course: "처음에는 무른 변을 보는 정도였으나, 점차 혈액과 점액이 섞여 나오기 시작했다. 하루 설사 횟수가 10회 이상으로 늘었고, 밤에도 설사 때문에 잠을 깬다. 복통과 함께 변을 참기 힘든 긴급성, 배변 후에도 변이 남은 듯한 잔변감이 심하다."
+  experience_prev_episodes:
+    frequency: "1년 전에도 비슷한 증상이 있었으나 2주 정도 지나 저절로 좋아졌음"
+    trigger: "스트레스"
+    symptoms: "혈성 설사, 복통"
+  character_of_symptom:
+    quality: "점액과 혈액이 섞인 묽은 설사. 쥐어짜는 듯한 복통 동반."
+    nrs_score: 6
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후"
+      - "스트레스 받을 때"
+    alleviating: "배변 후 일시적으로 완화"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "최근 진통제, 지사제 복용했으나 효과 없음"
+    source: "약국 구매"
+    effect: "효과 없음"
+  social_history:
+    job: "대학원생"
+    stress: "논문 준비로 스트레스 매우 심함"
+    alcohol:
+      is_drinker: false
+      frequency: "NA"
+      amount: "NA"
+    smoking:
+      is_smoker: false
+      amount: "NA"
+      cessation_period: "NA"
+    exercise: "거의 못 함"
+    recent_weight_change: "지난 2달간 4kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "LMP 3주 전, 주기 규칙적"
+physical_exam:
+  general: "지쳐 보이고 불편한 기색이 역력함. 급성 병색."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 항진"
+    percussion: "정상 공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 좌하복부에 뚜렷한 압통이 있으나 반발압통은 없음
+  cvat: "좌우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "왜 이렇게 설사를 계속하는 건가요? 장염 약을 먹어도 낫지를 않아요. 이거 평생 가는 병인가요?"
+specific_remarks: "환자는 복통으로 인해 계속 배를 움켜쥐는 시늉을 한다. 잦은 설사로 인해 지쳐있고, 병에 대한 불안감과 좌절감을 표현한다."

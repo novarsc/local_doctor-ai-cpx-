@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (급성 세균성 부비동염)"
+patient_info:
+  name: "최강민"
+  age: 42
+  sex: "남성"
+  presenting_complaint: "누런 콧물과 얼굴 통증"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "38.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 세균성 부비동염"
+    - "치성 상악동염"
+    - "급성 바이러스 비염의 후기 경과"
+  necessary_tests:
+    - "비강 내시경 검사 (중비도 농성 분비물 확인)"
+    - "부비동 X-ray 또는 안면부 CT"
+    - "필요 시 혈액검사 (CBC, CRP)"
+  necessary_treatments:
+    - "항생제 치료 (적절한 기간 동안)"
+    - "비강 내 스테로이드 분무제 및 식염수 세척"
+    - "진통소염제, 점액용해제 등 대증 치료"
+history:
+  sex_age: "남성/42"
+  chief_complaint_verbatim: "열흘 전쯤 감기 기운이 있었는데, 며칠 전부터 누런 콧물이 나오고 광대뼈 쪽이 너무 아파요."
+  onset: "감기 증상은 10일 전, 얼굴 통증과 누런 콧물은 4일 전부터"
+  location:
+    initial: "코, 목"
+    current: "양측 뺨 (광대뼈 부위), 코"
+  duration:
+    onset_pattern: "감기 증상 후 악화되는 양상"
+    recent_course: "점점 얼굴 통증이 심해지고, 고개를 숙이면 머리가 울리는 느낌"
+  course: "처음 맑은 콧물로 시작했던 감기가 좋아지는 듯 하다가, 4일 전부터 갑자기 누런 콧물, 코막힘, 안면부 통증으로 악화됨"
+  experience_prev_episodes:
+    frequency: "이 정도로 아픈 것은 처음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "뺨 부위를 누가 꽉 누르는 듯한 뻐근한 통증, 끈적하고 냄새나는 누런 콧물"
+    nrs_score: "6"
+    radiation: "가끔 윗니 쪽으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "고개를 숙일 때"
+      - "아침에 일어났을 때"
+    alleviating: "진통제 복용 시 잠시 호전"
+  health_check_history:
+    last_checkup: "2년 전, 고혈압 전단계"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 계열 약물에 피부 발진 경험 있음"
+  medication_history:
+    taken:
+      - "타이레놀"
+    source: "집에 있던 상비약"
+    effect: "복용 후 2-3시간 정도 통증 완화"
+  social_history:
+    job: "건설 현장 관리직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "따로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "아버지가 고혈압으로 약물 복용 중"
+  female_history: ""
+physical_exam:
+  general: "미열과 통증으로 인해 불편해 보이는 인상"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함, 구강 내 후비루로 인한 인두 발적 관찰됨"
+    # 추가 소견: 양측 상악동(뺨) 부위 압통(+) / 전두동(이마) 부위 압통(-). 비강 내시경에서 중비도에서 흘러나오는 농성 비루 관찰됨.
+  chest: "청진상 호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "이거 축농증 맞죠? 꼭 항생제를 먹어야 하나요? 수술해야 할 수도 있나요?"
+specific_remarks: "환자는 말할 때 코맹맹이 소리를 내며, 간간히 이마나 뺨 부위를 찡그리며 만진다."

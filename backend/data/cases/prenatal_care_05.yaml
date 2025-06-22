@@ -1,0 +1,115 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (급성 신우신염)"
+patient_info:
+  name: "정혜인"
+  age: 30
+  sex: "여성"
+  presenting_complaint: "오한과 함께 오른쪽 옆구리 통증"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "120회/분"
+  respiration: "24회/분"
+  temperature: "39.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 신우신염"
+    - "조기 진통"
+    - "요로 결석"
+  necessary_tests:
+    - "일반 혈액 검사 및 혈액 배양 검사"
+    - "소변 검사 및 소변 배양 검사"
+    - "신장 초음파 검사"
+  necessary_treatments:
+    - "입원 치료"
+    - "정맥 항생제 투여"
+    - "수액 공급 및 해열제 투여"
+history:
+  sex_age: "여성/30세"
+  chief_complaint_verbatim: "어젯밤부터 갑자기 춥고 떨리더니 열이 나고, 오른쪽 등쪽 옆구리가 너무 아파요. 임신 24주차인데 걱정돼요."
+  onset: "1일 전"
+  location:
+    initial: "오른쪽 옆구리"
+    current: "오른쪽 옆구리 및 등"
+  duration:
+    onset_pattern: "갑작스럽게 발생"
+    recent_course: "점점 더 아파지고 열이 오름"
+  course: "며칠 전부터 소변 볼 때 찌릿한 느낌이 있었는데, 괜찮아지겠지 하고 넘겼다. 어젯밤부터 갑자기 몸이 으슬으슬 춥고 떨리더니 열이 39도까지 오르고, 옆구리를 칼로 찌르는 듯한 통증이 생겨 응급실 통해 내원함."
+  experience_prev_episodes:
+    frequency: "임신 전 방광염을 몇 번 앓은 적 있음"
+    trigger: "-"
+    symptoms: "배뇨통, 빈뇨"
+  character_of_symptom:
+    quality: "쑤시고 결리는 듯한 통증(aching, colicky)"
+    nrs_score: "8"
+    radiation: "오른쪽 아랫배 쪽으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "2회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true # 소변이 탁하고 냄새가 나는 것 같음
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "기침할 때"
+    alleviating: "없음, 자세 변경으로 호전되지 않음"
+  health_check_history:
+    last_checkup: "4주 전 산전 진찰"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "재발성 방광염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "타이레놀 2알 (오늘 아침)"
+    source: "자가 복용"
+    effect: "잠깐 열이 내렸다가 다시 오름"
+  social_history:
+    job: "은행원"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "거의 못함"
+    recent_weight_change: "임신 후 7kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "G2P1, LMP: 약 6개월 전, EDC: 16주 후, 임신 24주. 첫째 아이 정상 분만."
+physical_exam:
+  general: "급성 병색. 열이 나고 힘들어하며, 통증으로 얼굴을 찡그리고 있음."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "Tachycardia, Tachypnea. 호흡음 정상."
+  abdomen:
+    inspection: "임신 24주에 합당한 크기"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 우측 하복부 압통 약간 있음
+  cvat: "음성/양성 (Right)" # 우측 늑골척추각 압통
+  extremity: "부종 없음. 전신적으로 따뜻함."
+standardized_patient_questions: "제가 왜 이렇게 아픈가요? 입원해야 하나요? 아기한테 위험한 건 아닌지 너무 걱정돼요."
+specific_remarks: "환자는 고열과 오한, 통증으로 인해 매우 힘들어하는 모습을 연기한다. CVAT 검사 시 오른쪽을 칠 때 '악!' 소리를 내며 매우 아파하는 반응을 보여야 한다. 며칠 전부터 있었던 배뇨 증상을 명확하게 진술한다."

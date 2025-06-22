@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (저나트륨혈증, Hyponatremia)"
+patient_info:
+  name: "오미숙"
+  age: 79
+  sex: "여성"
+  presenting_complaint: "하루 종일 잠만 자고 구역질을 함"
+vital_signs:
+  blood_pressure: "145/85mmHg"
+  pulse: "90회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "저나트륨혈증에 의한 뇌병증"
+    - "뇌졸중"
+    - "약물 부작용"
+  necessary_tests:
+    - "혈액 검사 (전해질, 혈장 삼투압)"
+    - "소변 검사 (전해질, 소변 삼투압)"
+    - "뇌 CT (다른 원인 배제 목적)"
+  necessary_treatments:
+    - "수분 섭취 제한"
+    - "필요시 고농도 식염수(3% Saline) 정맥 주사 (천천히)"
+    - "원인 약물 중단 또는 교체"
+history:
+  sex_age: "여성/79세"
+  chief_complaint_verbatim: "어머니가 어제부터 계속 토할 것 같다고 하시더니, 오늘 아침부터는 깨워도 일어나질 못하고 계속 잠만 주무세요."
+  onset: "어제부터"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "수일에 걸쳐 점진적 발생"
+    recent_course: "오늘 아침부터 급격히 악화"
+  course: "약 1주일 전부터 전반적인 기운 저하와 두통 호소. 3일 전부터 식욕이 급격히 떨어지고 구역질이 심해짐. 어제는 한 차례 구토도 함. 오늘 아침에는 불러도 눈만 겨우 떴다가 다시 잠드는 상태가 되어 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "의식 저하, 기면"
+    nrs_score: 4
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "어제 1회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1달 전"
+    endoscopy_finding: "특이 소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Amlodipine"
+      - "Hydrochlorothiazide (2주 전부터 추가됨)"
+    source: "내과 의원"
+    effect: "새로운 혈압약 복용 후 기운이 더 없어졌다고 함."
+  social_history:
+    job: "무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안함"
+    recent_weight_change: "최근 2kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "의식은 기면 상태. 통증 자극에 국소적인 반응을 보임. 전신적으로 약간 부어있는 느낌."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "경미한 하지 함요 부종(pitting edema) + 관찰됨. 심부건반사(DTR) 저하. 국소 신경학적 결손은 명확하지 않음."
+standardized_patient_questions: "어머니가 왜 갑자기 이러시는 거죠? 혈압약 때문일 수도 있나요? 위험한 상태인가요?"
+specific_remarks: "환자는 대부분의 시간 동안 잠을 자는 상태를 연기한다. 깨우면 잠시 눈을 뜨지만, 질문에 제대로 대답하지 못하고 다시 잠이 든다. 탈수 소견이 없는 것이 중요한 포인트. 보호자인 딸이 옆에서 병력 진술을 돕는다."

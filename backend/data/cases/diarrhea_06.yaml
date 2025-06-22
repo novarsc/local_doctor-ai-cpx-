@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (유당 불내증)"
+patient_info:
+  name: "김민지"
+  age: 22
+  sex: "여성"
+  presenting_complaint: "우유만 마시면 배가 아프고 설사를 해요"
+vital_signs:
+  blood_pressure: "118/78mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "유당 불내증"
+    - "과민성 대장 증후군"
+    - "우유 단백질 알러지"
+  necessary_tests:
+    - "유당 부하 검사 또는 호기 수소 검사"
+    - "식이 일지 작성"
+    - "알러지 반응 검사 (감별 위해)"
+  necessary_treatments:
+    - "유제품 섭취 제한 또는 회피"
+    - "락타아제(유당분해효소) 보충제 사용"
+    - "칼슘 및 비타민 D 보충 고려"
+history:
+  sex_age: "여/22"
+  chief_complaint_verbatim: "어릴 땐 괜찮았는데, 요즘 라떼나 우유를 마시면 꼭 배가 부글거리고 설사를 해서 고민이에요."
+  onset: "약 1년 전부터 자각하기 시작함"
+  location:
+    initial: "복부 전체"
+    current: "복부 전체"
+  duration:
+    onset_pattern: "특정 음식(유제품) 섭취 후 30분~2시간 내 발생"
+    recent_course: "증상 발생 패턴이 일정함"
+  course: "성인이 된 후 커피를 즐겨 마시기 시작함. 특히 카페라떼를 마신 날이면 약 1시간 뒤부터 배에서 꾸르륵 소리가 나고 가스가 차며, 복통과 함께 설사를 함. 최근에는 아침에 시리얼을 우유에 말아 먹어도 비슷한 증상이 나타남. 치즈나 요거트는 괜찮은 것 같기도 함. 우유를 마시지 않는 날은 증상이 전혀 없음."
+  experience_prev_episodes:
+    frequency: "유제품 섭취 시마다"
+    trigger: "우유, 아이스크림, 크림 파스타 등"
+    symptoms: "복부 팽만, 복통, 방귀, 설사"
+  character_of_symptom:
+    quality: "부글거리고 가스 차는 느낌"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "우유 및 유제품 섭취"
+    alleviating: "유제품 섭취 중단"
+  health_check_history:
+    last_checkup: "대학교 신입생 검진, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "고양이 털 알러지"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 500cc"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "아버지가 우유를 잘 소화시키지 못하심"
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "건강해 보임"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "특이사항 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상 (증상 없을 때 내원)"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 압통 없음
+  cvat: "음성"
+  extremity: "특이사항 없음"
+standardized_patient_questions: "왜 갑자기 이런 증상이 생긴 걸까요? 어릴 땐 우유 잘 마셨는데... 앞으로 우유는 평생 못 마시는 건가요? 칼슘은 어떻게 보충해야 하죠?"
+specific_remarks: "증상에 대해 명확하고 논리적으로 설명한다. 음식과의 연관성을 뚜렷하게 인지하고 있으며, 이에 대한 걱정을 표현한다. 신체 진찰에는 특이 소견이 없어야 한다."

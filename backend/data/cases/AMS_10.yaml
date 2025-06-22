@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (단순포진 바이러스 뇌염, Herpes Simplex Encephalitis)"
+patient_info:
+  name: "윤세아"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "열이 나면서 이상한 행동을 하고 기억을 못함"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "100회/분"
+  respiration: "20회/분"
+  temperature: "38.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "단순포진 바이러스 뇌염 (Herpes Simplex Encephalitis)"
+    - "급성 세균성 수막염"
+    - "뇌종양"
+  necessary_tests:
+    - "뇌 MRI"
+    - "뇌척수액 검사 (HSV PCR 포함)"
+    - "뇌파 검사 (EEG)"
+  necessary_treatments:
+    - "아시클로버(Acyclovir) 정맥 주사 (즉시 시작)"
+    - "항경련제 (경련 발생 시)"
+    - "뇌압 관리"
+history:
+  sex_age: "여성/42세"
+  chief_complaint_verbatim: "아내가 며칠 전부터 감기 기운이 있다더니, 어제부터 갑자기 딴 사람이 된 것처럼 이상한 행동을 해요. 방금 전엔 자기가 누군지도 모르겠다고 했어요."
+  onset: "약 3-4일 전"
+  location:
+    initial: "전신, 머리"
+    current: "전신, 머리"
+  duration:
+    onset_pattern: "수일에 걸쳐 점진적 악화"
+    recent_course: "어제부터 급격히 악화"
+  course: "4일 전 두통, 발열, 근육통 등 감기몸살 같은 증상 시작. 2일 전부터 갑자기 이상한 냄새가 난다고 하거나(후각 환각), 배우자에게 심하게 화를 내는 등 평소와 다른 성격 변화 보임. 어제 저녁 식사 중 갑자기 입맛을 다시고 멍하니 있는 부분 발작(focal seizure) 양상 보임. 오늘 아침에는 최근에 있었던 일을 전혀 기억하지 못하고(기억상실), 혼돈 상태가 심해져 내원."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "발열, 두통, 인격 변화, 기억상실"
+    nrs_score: 7
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합감기약"
+    source: "약국"
+    effect: "효과 없었음"
+  social_history:
+    job: "회사원"
+    stress: "최근 프로젝트로 인해 많았음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 2주 전"
+physical_exam:
+  general: "의식은 기면 상태. 지남력(시간, 장소, 사람) 상실. 최근 기억(short-term memory)이 심하게 저하되어 있음. 대화가 잘 이어지지 않음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+    # 입술 주변에 단순포진(herpes labialis) 병변은 관찰되지 않음.
+  chest: "호흡음 정상. 심박수 빠름."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "경미한 우측 상지 위약감(subtle right arm weakness) 보임. 명확한 마비는 없음."
+standardized_patient_questions: "아내가 왜 이러는 거죠? 그냥 감기인 줄 알았는데... 뇌에 염증이 생긴 건가요? 치료하면 원래대로 돌아올 수 있나요?"
+specific_remarks: "환자는 매우 혼란스러워하며, 방금 했던 질문도 기억하지 못하고 되묻는다. "여기가 어디에요?", "당신은 누구세요?" 와 같은 질문을 반복한다. 남편이 옆에서 병력 진술을 하며 매우 불안해한다."

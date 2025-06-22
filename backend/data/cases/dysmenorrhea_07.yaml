@@ -1,0 +1,126 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (골반염)"
+patient_info:
+  name: "강나리"
+  age: 26
+  sex: "여성"
+  presenting_complaint: "아랫배가 아프고 열이 나요."
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "골반염 (Pelvic Inflammatory Disease, PID)"
+    - "자궁외 임신"
+    - "급성 충수돌기염"
+  necessary_tests:
+    - "골반 내진 (자궁경부 압통, 부속기 압통 확인)"
+    - "자궁경부 분비물 검사 (NAAT for Gonorrhea/Chlamydia)"
+    - "혈액검사 (CBC, ESR/CRP)"
+    - "소변 임신 반응 검사"
+  necessary_treatments:
+    - "광범위 항생제 치료 (입원 또는 외래)"
+    - "통증 및 발열 조절"
+    - "성 파트너 검사 및 치료 권유"
+history:
+  sex_age: "여성/26"
+  chief_complaint_verbatim: "3일 전부터 아랫배가 욱신거리기 시작하더니 어제부터는 열도 나고 냄새나는 냉도 나와요. 생리 기간도 아닌데 피도 조금 비치네요."
+  onset: "3일 전"
+  location:
+    initial: "아랫배 전반"
+    current: "양쪽 아랫배, 특히 오른쪽"
+  duration:
+    onset_pattern: "서서히 시작되어 점차 악화됨"
+    recent_course: "어제부터 열과 오한 동반됨"
+  course: "수일에 걸쳐 악화되는 양상"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "지속적으로 욱신거리고 쑤시는 통증"
+    nrs_score: "7점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    other: "노란색의 냄새나는 질 분비물, 소량의 질 출혈"
+  factors:
+    aggravating:
+      - "걷거나 움직일 때"
+      - "성관계 시 통증 (dyspareunia)"
+    alleviating: "가만히 누워있을 때"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 알러지"
+  medication_history:
+    taken:
+      - "타이레놀"
+    source: "집 상비약"
+    effect: "열은 약간 떨어지나 통증은 그대로임"
+  social_history:
+    job: "대학원생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "안함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "14세"
+    lmp: "2주 전"
+    cycle: "30일 주기, 규칙적"
+    duration: "6일"
+    amount: "보통"
+    dysmenorrhea: "경미"
+    menopause_age: "해당 없음"
+    obgyn_visits: "없음"
+    sexual_history: "최근 1개월 전 새로운 성 파트너 생김, 콘돔 사용은 잘 안함"
+physical_exam:
+  general: "열감 있으며 통증으로 힘들어하는 모습. 급성 병색."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Slightly dry"
+  chest: "Tachycardia, clear breath sounds"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: true
+      tenderness_suprapubic: true
+      bilateral_lower_quadrant_tenderness: true
+  pelvic_exam:
+    speculum: "Purulent, yellowish discharge from cervical os."
+    bimanual: "Significant cervical motion tenderness (CMT, Chandelier sign). Bilateral adnexal tenderness, more severe on the right side."
+  cvat: "양측 음성"
+  extremity: "Warm, no edema"
+standardized_patient_questions: "무슨 병인가요? 왜 이렇게 아프고 열까지 나죠? 남자친구도 검사받아야 하나요? 나중에 임신하는 데 문제가 생길 수도 있나요?"
+specific_remarks: "전반적으로 힘이 없고 아파 보인다. 복부 진찰 시 통증을 심하게 호소하며, 특히 내진 시 자궁경부를 건드릴 때 비명을 지르며 몸을 뒤트는 '샹들리에 징후'를 연기한다. 성 파트너에 대한 질문에 약간 회피적이거나 불편한 기색을 보인다."

@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "18"
+title: "실전 모의 증례 (척수공동증)"
+patient_info:
+  name: "백선우"
+  age: 35
+  sex: "남성"
+  presenting_complaint: "오른쪽 손에 힘이 빠지고 감각이 이상함"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "75회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "척수공동증 (Syringomyelia)"
+    - "경추 추간판 탈출증 (Cervical HNP)"
+    - "말초 신경 손상 (Peripheral nerve injury)"
+  necessary_tests:
+    - "경추 및 흉추 MRI"
+    - "뇌 MRI (아놀드-키아리 기형 확인 목적)"
+    - "근전도/신경전도검사"
+  necessary_treatments:
+    - "수술적 치료 (공동-지주막하 단락술 등)"
+    - "원인 교정 (예: 키아리 기형 감압술)"
+    - "통증 관리 및 재활 치료"
+history:
+  sex_age: "남성/35"
+  chief_complaint_verbatim: "몇 년 전부터 오른쪽 손에 힘이 점점 빠져서 근육이 말라가요. 특히 뜨거운 걸 만져도 잘 못 느끼는데, 뾰족한 걸로는 아픈 걸 느껴요. 이상해요."
+  onset: "약 2년 전"
+  location:
+    initial: "오른쪽 손"
+    current: "오른쪽 어깨, 팔, 손"
+  duration:
+    onset_pattern: "매우 점진적"
+    recent_course: "서서히 악화"
+  course: "2년 전쯤 오른쪽 손으로 병뚜껑을 따기 힘들어짐을 느낌. 시간이 지나면서 손 안쪽 근육이 눈에 띄게 마르는 것을 발견. 1년 전 요리하다가 뜨거운 냄비에 손을 데었는데도 통증을 거의 느끼지 못해 심한 화상을 입은 적이 있음. 그런데 꼬집거나 뾰족한 것으로 찌르면 아픈 것은 느껴짐. 최근에는 증상이 오른쪽 어깨와 등 위쪽까지 번지는 것 같고, 목 뒤가 뻐근하게 아픔."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "힘이 빠지고 근육이 마름, 특정 감각만 소실됨"
+    nrs_score: "2 (뻐근한 통증)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "기침이나 재채기할 때 (목 통증)"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "15년 전 오토바이 사고로 목을 다친 적 있음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "요리사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "따로 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적인 상태 양호함. 오른쪽 손의 근위축이 눈에 띔."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "오른쪽 손의 내재근(intrinsic m.) 위축 현저함. 오른쪽 손의 악력 및 손가락 근력 저하(MRC 3/5). 오른쪽 상지의 상완이두근, 삼두근 반사 소실. 오른쪽 어깨, 팔, 손 부위에 '망토' 모양으로 통각 및 온도 감각 소실. 그러나 진동 및 위치 감각은 보존됨 (해리성 감각 소실). 하지의 근력 및 감각, 반사는 정상."
+standardized_patient_questions: "왜 뜨겁고 차가운 건 못 느끼는데, 뾰족한 건 아픈 건가요? 제 손이 왜 이렇게 말라가는 거죠? 수술하면 다시 좋아질 수 있나요?"
+specific_remarks: "환자는 자신의 오른쪽 손을 보여주며 왼쪽 손과 비교해 근육이 빠진 것을 명확히 지적한다. 감각 검사 시, 차가운 물체와 뜨거운 물체는 감지를 못하지만, 핀으로 찌르는 통각은 느낀다고 일관되게 대답한다. 과거 목 외상력에 대해 질문받으면, 대수롭지 않게 이야기하지만 중요한 단서임을 인지하고 진술한다."

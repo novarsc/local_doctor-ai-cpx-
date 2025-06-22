@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (울혈성 심부전)"
+patient_info:
+  name: "김철수"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "최근 들어 숨이 차고 다리가 부으면서 체중이 늘어 내원함"
+vital_signs:
+  blood_pressure: "160/90mmHg"
+  pulse: "105회/분"
+  respiration: "24회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "울혈성 심부전"
+    - "만성 신부전"
+    - "간경변"
+  necessary_tests:
+    - "흉부 X-ray"
+    - "심전도 (EKG)"
+    - "심장초음파"
+  necessary_treatments:
+    - "이뇨제를 포함한 약물 치료 (ACE 억제제, 베타차단제 등)"
+    - "저염식이 및 수분 섭취 제한"
+    - "기저 질환(고혈압, 관상동맥질환) 관리"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "한 달 전부터 조금만 걸어도 숨이 턱까지 차고, 밤에 자려고 누우면 숨이 더 차서 일어나 앉아 있어야 해요. 다리도 퉁퉁 붓고 살도 쪘어요."
+  onset: "약 1달 전"
+  location:
+    initial: "운동 시 호흡곤란"
+    current: "안정 시 호흡곤란, 양측 하지 부종"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "최근 1주 사이 급격히 악화"
+  course: "처음에는 계단 오를 때만 숨이 찼으나, 지금은 가만히 있어도 숨이 차다. 최근 2주간 체중이 4kg 증가했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "숨쉬기 힘든 느낌, 몸이 붓는 느낌"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "걷거나 활동할 때"
+      - "밤에 누울 때 (기좌호흡)"
+    alleviating: "앉거나 상체를 세우고 있을 때"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "모름"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 10년 전 심근경색으로 스텐트 시술"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "아스피린"
+      - "고혈압약 (이름 모름)"
+    source: "동네 의원"
+    effect: "최근 약을 제때 챙겨 먹지 못했음"
+  social_history:
+    job: "은퇴 후 무직"
+    stress: "거의 없음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 2주간 4kg 증가"
+  family_history: "부친 (심장병으로 60대에 사망)"
+  female_history: ""
+physical_exam:
+  general: "앉은 자세에서 가쁘게 호흡하고 있음. 전반적으로 부어 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and clear"
+  chest: "양쪽 폐하부에서 수포음(crackle) 청진됨. 심첨박동이 외측으로 이동됨. S3 gallop 청진됨."
+  abdomen:
+    inspection: "약간 팽만됨"
+    auscultation: "장음 정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양쪽 다리에 심한 함요 부종(pitting edema, +++) 관찰됨. 목정맥 확장(JVP) 소견 보임."
+standardized_patient_questions: "왜 이렇게 숨이 차고 붓는 건가요? 심장이 나빠진 건가요?", "이거 입원해야 하는 심각한 상황인가요?"
+specific_remarks: "환자는 숨이 차서 말을 길게 잇지 못하고 중간중간 숨을 고른다. 불안한 표정으로 의사를 쳐다본다."

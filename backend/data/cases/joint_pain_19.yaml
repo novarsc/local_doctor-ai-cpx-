@@ -1,0 +1,111 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "19/24"
+title: "실전 모의 증례 (헤노흐-쇤라인 자반증)"
+patient_info:
+  name: "김민준"
+  age: 7
+  sex: "남성"
+  presenting_complaint: "다리에 생긴 붉은 반점과 무릎 통증, 복통"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "105회/분"
+  respiration: "22회/분"
+  temperature: "37.7℃"
+examinee_instructions: "보호자와 환자의 증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "헤노흐-쇤라인 자반증 (HSP)"
+    - "혈소판 감소성 자반증 (ITP)"
+    - "알레르기 반응"
+  necessary_tests:
+    - "소변 검사 (혈뇨, 단백뇨 확인이 매우 중요)"
+    - "혈액 검사 (CBC, 혈소판 수, 응고 검사, IgA)"
+    - "필요시 복부 초음파 (장중첩증 감별)"
+  necessary_treatments:
+    - "대부분 보존적 치료 (수분 공급, 휴식, 통증 조절)"
+    - "심한 복통이나 신장 침범 시 스테로이드 치료 고려"
+    - "정기적인 소변 검사를 통한 신장 합병증 추적 관찰"
+history:
+  sex_age: "남성/7세"
+  chief_complaint_verbatim: "(보호자) 일주일 전부터 다리에 붉은 반점이 막 생기기 시작했어요. 어제부터는 무릎이랑 발목이 아프다고 걷기 싫어하고, 배도 아프다고 자꾸 울어요. 2주 전에 감기도 심하게 앓았어요."
+  onset: "피부 발진은 1주일 전, 관절통/복통은 2일 전"
+  location:
+    initial: "양쪽 종아리, 엉덩이의 붉은 반점"
+    current: "반점은 허벅지까지 퍼짐. 양쪽 무릎, 발목 통증. 배꼽 주변 복통"
+  duration:
+    onset_pattern: "발진 후 다른 증상 순차적 발생"
+    recent_course: "증상 악화"
+  course: "2주 전 목감기를 앓고 나아갈 무렵, 다리에 붉은 반점이 생김. 처음엔 모기 물린 줄 알았으나 점점 퍼짐. 이후 관절통과 복통이 동반됨. 복통은 아팠다 안 아팠다 반복함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "관절-욱신거림, 복통-쥐어짜는 듯함"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "한 번, 음식물"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "복통은 특정 요인 없음"
+    alleviating: "안아주면 조금 진정됨"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "감기약 (2주 전)"
+    source: "소아과"
+    effect: "감기는 호전됨"
+  social_history:
+    job: "유치원생"
+    stress: ""
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "활동적"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "아파서 보채고 있으며, 잘 걷지 않으려 함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 배꼽 주변으로 미만성 압통(diffuse tenderness) 있음
+  cvat: "좌/우 음성"
+  extremity: "양쪽 다리, 특히 종아리와 엉덩이 부위에 만져지는 자반(palpable purpura)이 다수 분포함. 자반은 압력을 가해도 색이 바라지 않음. 양쪽 무릎과 발목 관절에 부종과 압통이 있음. 발적은 뚜렷하지 않음."
+standardized_patient_questions: "(보호자) 왜 멀쩡하던 애가 갑자기 이러죠? 감기 때문인가요? 다리에 멍 같은 건 왜 생기는 거예요? 큰 병원에 입원해야 하나요?"
+specific_remarks: "환아는 복통과 관절통으로 인해 진찰에 비협조적일 수 있음. 보호자는 선행 감염과 현재 증상들의 연관성을 궁금해하며 매우 불안해하는 모습을 보여야 함. 특히 피부 발진이 '멍'처럼 보인다는 점에 대해 걱정한다."

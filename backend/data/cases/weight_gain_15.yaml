@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (시상하부성 비만)"
+patient_info:
+  name: "권도윤"
+  age: 15
+  sex: "남성"
+  presenting_complaint: "뇌종양 수술 후 식욕이 주체가 안되고 살이 너무 쪄서 내원함"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 환자에게 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "시상하부성 비만 (두개인두종 수술 후)"
+    - "수술 후 스테로이드 사용으로 인한 의인성 쿠싱 증후군"
+    - "단순 비만"
+  necessary_tests:
+    - "내분비 기능 검사 (갑상선, 성장호르몬, 성선자극호르몬, 코르티솔)"
+    - "뇌 MRI 추적 검사"
+    - "경구 당부하 검사 및 지질 검사"
+  necessary_treatments:
+    - "전문적인 영양 상담 및 엄격한 식이 조절"
+    - "행동 치료 및 규칙적인 운동 프로그램"
+    - "필요시 식욕 억제 약물 치료 고려"
+history:
+  sex_age: "남성/15세"
+  chief_complaint_verbatim: "(보호자) 1년 전에 머리에 혹이 있어서 수술을 받았어요. 그 후부터 애가 먹는 걸 멈추질 못해요. 배가 불러도 계속 먹으려고 하고, 밤에도 몰래 음식을 찾아 먹어요. 1년 만에 30kg이 쪘어요."
+  onset: "1년 전 뇌종양 수술 직후"
+  location:
+    initial: "식욕 증가"
+    current: "억제되지 않는 과식증(hyperphagia) 및 급격한 체중 증가"
+  duration:
+    onset_pattern: "수술 후 갑자기 발생"
+    recent_course: "지속적으로 악화"
+  course: "두개인두종 수술 후 퇴원하면서부터 식욕이 폭발적으로 증가함. 포만감을 느끼지 못하는 것처럼 보이며, 이로 인해 체중이 기하급수적으로 늘어남. 성격도 예민해지고 짜증이 늘었다."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "없음"
+    symptoms: "과식, 체중증가"
+  character_of_symptom:
+    quality: "병적인 식욕 증가와 그로 인한 비만"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음식에 노출될 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "대학병원에서 정기 추적 관찰 중"
+    endoscopy_finding: ""
+  trauma_history: "1년 전 두개인두종 절제술"
+  past_medical_history:
+    underlying_disease: "두개인두종 (craniopharyngioma)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "데스모프레신 (요붕증 치료제)"
+      - "레보티록신 (갑상선기능저하증 치료제)"
+    source: "대학병원"
+    effect: "호르몬 보충 중"
+  social_history:
+    job: "중학생"
+    stress: "체중 증가 및 친구 관계 문제로 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "몸이 무거워 거의 하지 못함"
+    recent_weight_change: "최근 1년간 30kg 증가"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "고도 비만(BMI 35 이상). 1년 전 수술 흉터가 머리 부위에서 관찰됨."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "심한 복부 비만. 복부 및 허벅지에 흰색 선조(striae) 관찰됨."
+    auscultation: "장음 정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음. 2차 성징 발현이 지연된 것으로 보임."
+standardized_patient_questions: "(보호자) 수술 부작용으로 이렇게 살이 찌는 건가요? 평생 이렇게 살아야 하나요?", "(환자) 친구들이 뚱뚱하다고 놀려요. 살 뺄 수 있는 약 없어요?"
+specific_remarks: "보호자(주로 어머니)가 환자와 함께 내원한다. 보호자는 아이의 상태에 대해 매우 걱정하고 죄책감을 느끼며, 의사에게 해결책을 간절히 구한다. 환자는 위축되어 있고 질문에 단답형으로 대답한다."

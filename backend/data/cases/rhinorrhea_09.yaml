@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (약물성 비염)"
+patient_info:
+  name: "송재호"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "코 스프레이 없이는 숨을 쉴 수 없음"
+vital_signs:
+  blood_pressure: "135/88mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "약물성 비염 (Rhinitis medicamentosa)"
+    - "만성 비후성 비염"
+    - "알레르기 비염"
+  necessary_tests:
+    - "상세한 약물 복용력 청취 (가장 중요)"
+    - "비강 내시경 검사 (비갑개 점막의 심한 부종 및 발적 확인)"
+    - "필요 시 알레르기 검사 (기저 질환 감별)"
+  necessary_treatments:
+    - "원인 약물(비강 혈관수축제) 즉시 중단"
+    - "중단으로 인한 반동성 코막힘을 완화하기 위한 경구 스테로이드 또는 비강 내 스테로이드 분무제 사용"
+    - "생리식염수 코 세척"
+history:
+  sex_age: "남성/48"
+  chief_complaint_verbatim: "코 막힐 때 뿌리는 약이 있는데, 이제는 그 약 없이는 단 1분도 숨을 못 쉬겠어요. 약을 뿌려도 예전처럼 시원하지도 않아요."
+  onset: "약 6개월 전"
+  location:
+    initial: "양측 코"
+    current: "양측 코"
+  duration:
+    onset_pattern: "감기 때문에 코막힘이 심해서 약국에서 코에 뿌리는 약(오트리빈)을 사서 쓰기 시작함"
+    recent_course: "처음엔 하루 1-2번만 썼는데, 점점 효과가 짧아져서 지금은 1-2시간마다 뿌려야 함. 안 뿌리면 코가 완전히 막혀버림."
+  course: "초기 감기 증상은 다 나았으나, 코막힘만 점점 더 심해지는 악순환이 반복됨. 콧물이나 재채기는 거의 없음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "심각하고 지속적인 코막힘. 약물에 대한 의존성."
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "비강 분무제를 뿌리지 않았을 때"
+    alleviating: "비강 분무제를 뿌린 직후 (효과가 점점 짧아짐)"
+  health_check_history:
+    last_checkup: "1년 전, 고혈압 경계"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 전단계"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "오트리빈 (Xylometazoline) 비강 분무제"
+    source: "약국"
+    effect: "초기에는 효과가 좋았으나 지금은 거의 효과가 없고, 안 쓰면 더 막힘."
+  social_history:
+    job: "개인 사업"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일"
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "최근 5kg 증가"
+  family_history: "부친 심근경색으로 사망"
+  female_history: ""
+physical_exam:
+  general: "대화 중 코막힘으로 인해 답답해하며, 불안한 기색을 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 추가 소견: 비강 내시경 상 양측 하비갑개 점막이 심하게 부어있고 암적색을 띠며, 접촉 시 쉽게 출혈하는 양상을 보임. 분비물은 거의 없음.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "이 약이 문제였다니요? 코 막혀서 쓴 건데 왜 코가 더 막히죠? 그럼 이제 이 약 끊으면 바로 좋아지나요? 너무 답답한데 당장 어떻게 해야 하죠?"
+specific_remarks: "환자는 주머니에서 비강 분무제를 만지작거리며 불안해한다. 약물 중단에 대한 강한 저항감과 두려움을 표현한다."

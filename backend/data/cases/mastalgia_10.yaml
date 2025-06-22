@@ -1,0 +1,115 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (몬도르병)"
+patient_info:
+  name: "조은경"
+  age: 41
+  sex: "여성"
+  presenting_complaint: "며칠 전부터 왼쪽 가슴에 팽팽한 줄 같은 것이 만져지고 아픔"
+vital_signs:
+  blood_pressure: "118/76mmHg"
+  pulse: "74회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "몬도르병 (유방의 표재성 혈전정맥염)"
+    - "림프관염"
+    - "피부 인대(쿠퍼인대)의 긴장"
+  necessary_tests:
+    - "유방 초음파 (혈전이 있는 혈관 확인)"
+    - "유방 촬영술 (동반된 다른 병변 유무 확인)"
+    - "혈액응고 관련 검사 (필요시)"
+  necessary_treatments:
+    - "대부분 저절로 호전되는 양성 질환임을 안심시킴"
+    - "온찜질"
+    - "비스테로이드성 소염제 복용으로 통증 조절"
+history:
+  sex_age: "여성/41"
+  chief_complaint_verbatim: "3일 전부터 갑자기 왼쪽 가슴 옆쪽에 팽팽한 줄 같은 게 만져져요. 팔을 들거나 움직일 때 당기면서 아파요. 멍울은 아닌 것 같은데..."
+  onset: "3일 전"
+  location:
+    initial: "왼쪽 유방 외측"
+    current: "왼쪽 유방 외측에서 겨드랑이 방향으로 이어짐"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "통증이 비슷하게 유지됨"
+  course: "갑자기 줄 같은 것이 만져지기 시작했고, 움직일 때마다 통증이 동반됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "당기는 듯한 통증, 만지면 아픈 줄(cord)이 느껴짐"
+    nrs_score: "4점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "팔을 위로 뻗을 때"
+      - "몸을 옆으로 돌릴 때"
+    alleviating: "가만히 있을 때"
+  health_check_history:
+    last_checkup: "1년 전, 특이사항 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "최근 무리하게 테니스를 쳤음. 직접적인 외상은 없었음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "프리랜서 번역가"
+    stress: "마감 스트레스가 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 2회 테니스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 1주 전, 주기: 29일, 규칙적. 1-0-0-1."
+physical_exam:
+  general: "건강해 보이며, 특정 동작에서만 불편감을 호소함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  breast_exam: "왼쪽 팔을 들어 올리자, 왼쪽 유방 외측 피부에 얕게 패인 고랑(groove)이 관찰됨. 해당 부위를 촉진 시 피부 바로 아래에서 약 5cm 길이의 단단하고 압통이 있는 줄(cord-like structure)이 만져짐. 주변부 발적이나 온열감은 없음. 다른 덩이나 겨드랑이 림프절은 촉진되지 않음."
+standardized_patient_questions: "이런 병은 처음 들어봐요. 정맥에 염증이 생긴 거라고요? 왜 생긴 건가요? 운동하다가 그럴 수도 있나요? 저절로 낫는다니 다행이긴 한데, 혹시 모르니 검사는 해봐야겠죠?"
+specific_remarks: "환자는 멍울이 아니라 '줄'이 만져진다는 점을 명확히 표현함. 팔을 들 때 피부가 당겨지는 모습을 직접 보여줌. '몬도르병'이라는 생소한 진단명에 대해 호기심과 약간의 의구심을 보임."

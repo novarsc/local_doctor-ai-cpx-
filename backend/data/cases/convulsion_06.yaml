@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (뇌종양에 의한 첫 발작)"
+patient_info:
+  name: "김영호"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "갑자기 한쪽 팔을 떨다가 의식을 잃음"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "뇌종양 (원발성 또는 전이성)"
+    - "뇌졸중 (허혈성 또는 출혈성)"
+    - "국소 발작 (Focal seizure)"
+  necessary_tests:
+    - "조영제를 사용한 뇌 자기공명영상 (Brain MRI with contrast)"
+    - "뇌파 검사 (EEG)"
+    - "필요시 흉부 X-ray 또는 CT (전이암 감별 목적)"
+  necessary_treatments:
+    - "항경련제 투여"
+    - "뇌부종 조절을 위한 스테로이드 투여"
+    - "뇌종양 확진 시 수술/방사선/항암 치료 계획"
+history:
+  sex_age: "남성/55"
+  chief_complaint_verbatim: "회의 중에 갑자기 왼쪽 팔이 저절로 툭툭 튀듯이 움직이더니, 갑자기 정신을 잃었어요. 동료들이 깨워서 일어났습니다."
+  onset: "오늘 오전 11시경"
+  location:
+    initial: "왼쪽 팔"
+    current: "전신"
+  duration:
+    onset_pattern: "갑작스럽게"
+    recent_course: "왼쪽 팔의 국소적인 경련이 약 30초간 있다가 전신 발작으로 진행하여 약 1분간 지속되었다고 함. 이후 10분 정도 혼란스러웠음."
+  course: "회의 중 갑자기 왼쪽 팔이 자신의 의지와 상관없이 씰룩거리는 느낌이 들었다. 이상하다고 느끼는 순간, 갑자기 기억이 끊겼다. 동료의 말에 따르면, 이후 전신이 뻣뻣해지며 떠는 발작을 했다고 함. (Focal onset to bilateral tonic-clonic seizure)"
+  experience_prev_episodes:
+    frequency: "이런 경련은 처음임. 하지만 최근 한 달간 아침에 일어날 때 머리가 띵하게 아픈 증상이 있었음."
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "아침 두통, 간헐적인 왼쪽 손의 감각 이상"
+  character_of_symptom:
+    quality: "국소 발작에서 시작된 전신 발작"
+    nrs_score: "두통 NRS 4점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: "최근 3개월간 4kg 감소"
+    gastrointestinal:
+      anorexia: false
+      nausea: "아침에 두통과 함께 약간의 메스꺼움 있음"
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침에 일어날 때 두통이 심해짐"
+    alleviating: "진통제를 먹으면 두통이 약간 호전"
+  health_check_history:
+    last_checkup: "3년 전, 특이사항 없음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "최근 두통 때문에 진통제(ibuprofen) 가끔 복용"
+    source: "약국"
+    effect: "일시적 효과"
+  social_history:
+    job: "회사 관리직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일, 30년간"
+      cessation_period: ""
+    exercise: "주말에 등산"
+    recent_weight_change: "최근 3개월간 4kg 감소"
+  family_history: "특이 사항 없음"
+  female_history: ""
+physical_exam:
+  general: "의식 명료. 전반적으로 괜찮아 보이나, 약간의 불안감 호소."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "왼쪽 팔의 근력이 오른쪽보다 약간 저하됨 (Motor grade 4+/5). 왼쪽 손의 미세한 감각 저하가 의심됨. Pronator drift test에서 왼쪽 팔이 약간 처짐."
+standardized_patient_questions: "단순히 피곤해서 그런 게 아닌가요? 머리에 큰 병이 있는 건 아닌지 걱정됩니다. 앞으로 어떻게 해야 하나요?"
+specific_remarks: "환자는 최근의 두통과 체중 감소를 대수롭지 않게 생각하려 하지만, 국소 신경학적 증상(왼쪽 팔의 움직임)에 대해서는 뚜렷하게 기억하고 불안해한다. 검사 결과에 대해 매우 걱정스러운 태도를 보인다."

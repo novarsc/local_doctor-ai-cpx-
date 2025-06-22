@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (미로염, Labyrinthitis)"
+patient_info:
+  name: "박준형"
+  age: 38
+  sex: "남성"
+  presenting_complaint: "갑자기 어지럽고 귀에서 소리가 나고 잘 안 들려요."
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "85회/분"
+  respiration: "16회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "미로염"
+    - "메니에르병 급성 발작"
+    - "소뇌 뇌졸중"
+  necessary_tests:
+    - "순음청력검사 (감각신경성 난청 확인)"
+    - "신경학적 진찰 (특히 HINTS 검사)"
+    - "뇌 MRI (중추성 원인 배제를 위해)"
+  necessary_treatments:
+    - "증상 조절 (전정 억제제, 항구토제)"
+    - "스테로이드 치료"
+    - "세균성 감염이 의심될 경우 항생제 투여"
+    - "충분한 휴식 및 수분 공급"
+history:
+  sex_age: "남성/38세"
+  chief_complaint_verbatim: "이틀 전부터 갑자기 세상이 빙빙 돌고, 오른쪽 귀가 잘 안 들리고 '삐-' 하는 소리가 계속 나요."
+  onset: "2일 전"
+  location:
+    initial: "머릿속, 오른쪽 귀"
+    current: "지속됨"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "발생 후 호전 없이 지속됨"
+  course: "1주일 전에 중이염을 앓았는데, 다 나은 줄 알았더니 이틀 전부터 갑자기 심하게 어지럽기 시작했습니다. 어지럼증과 함께 오른쪽 청력이 뚝 떨어졌습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "심한 회전성 어지럼"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "어제 2번 함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "머리를 움직이는 것"
+    alleviating: "가만히 누워있는 것 (완전히 사라지진 않음)"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "1주일 전 급성 중이염으로 항생제 복용했었음"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "세파클러 (중이염 약, 5일 복용 후 중단)"
+    source: "이비인후과"
+    effect: "귀 통증은 사라졌었음"
+  social_history:
+    job: "건설 현장직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 1갑"
+      cessation_period: ""
+    exercise: "일 자체가 운동임"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색. 어지럼으로 인해 힘들어하는 기색."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "정상"
+standardized_patient_questions: "중이염이 덜 나아서 그런 건가요? 귀가 안 들리는 게 너무 걱정돼요. 다시 들을 수 있을까요?"
+specific_remarks: "환자는 '지속적인 회전성 어지럼'과 함께 '동측의 청력 저하 및 이명'이 갑자기 발생했음을 명확히 진술해야 한다. 이는 전정신경염과의 핵심적인 감별점이다. 최근 중이염 병력을 강조한다. 신체 진찰 시, 자발 안진을 보이고 한쪽으로 넘어지려는 모습을 연기한다. 하지만 복시, 구음장애 등 다른 중추신경계 증상은 없다고 말해야 한다."

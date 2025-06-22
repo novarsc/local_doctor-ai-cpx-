@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (비중격 만곡증)"
+patient_info:
+  name: "윤태식"
+  age: 31
+  sex: "남성"
+  presenting_complaint: "항상 한쪽 코가 더 막힘"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "68회/분"
+  respiration: "14회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비중격 만곡증"
+    - "만성 비후성 비염"
+    - "일측성 비용종"
+  necessary_tests:
+    - "비강 내시경 검사 (비중격의 만곡 정도 및 점막 상태 확인)"
+    - "음향 비강 통기도 검사 (코막힘의 객관적 측정)"
+    - "필요 시 부비동 CT (동반된 부비동염 확인)"
+  necessary_treatments:
+    - "증상이 경미한 경우 비강 분무제 등 대증 치료"
+    - "코막힘이 심하여 삶의 질을 저하시키는 경우 수술적 교정 (비중격 교정술)"
+    - "동반된 비염이나 부비동염에 대한 약물 치료"
+history:
+  sex_age: "남성/31"
+  chief_complaint_verbatim: "왼쪽 코는 괜찮은데 오른쪽 코가 항상 막혀있어요. 잘 때도 한쪽으로만 숨 쉬는 것 같고, 입을 벌리고 자게 돼요."
+  onset: "언제부터인지 정확히 모르겠음. 성인이 된 이후로 계속 그랬던 것 같음."
+  location:
+    initial: "우측 코"
+    current: "주로 우측 코"
+  duration:
+    onset_pattern: "만성적이고 지속적임"
+    recent_course: "감기에 걸리면 오른쪽 코는 완전히 꽉 막혀서 숨을 쉴 수가 없음."
+  course: "콧물이나 재채기 같은 다른 증상은 거의 없으나, 유독 한쪽 코막힘이 지속됨. 가끔 코가 건조하고 딱지가 생김."
+  experience_prev_episodes:
+    frequency: "지속적인 증상임"
+    trigger: "감기, 피로"
+    symptoms: "코막힘"
+  character_of_symptom:
+    quality: "구조적으로 좁아져서 막힌 듯한 답답함"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "누웠을 때 (특히 막힌 쪽으로 누우면 더 심함)"
+      - "감기 걸렸을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "10대 때 친구들과 장난치다 코를 부딪혀 코피가 많이 난 적이 있음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "오트리빈 (비강 분무제) 가끔 사용"
+    source: "약국"
+    effect: "사용 직후에는 시원하게 뚫리지만, 금방 다시 막힘"
+  social_history:
+    job: "프로그래머"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "외형상 코가 휘어 보이지는 않음. 약간의 구호흡 소견."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+    # 추가 소견: 전비경 검사상 비중격이 우측으로 C자 형태로 휘어 우측 비강을 거의 막고 있는 소견 관찰됨. 좌측 하비갑개는 보상성으로 비대해져 있음.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "코가 휘었다는 게 무슨 말인가요? 어렸을 때 다친 것 때문일까요? 이건 약으로는 치료가 안되나요? 꼭 수술해야 하나요?"
+specific_remarks: "환자는 자신의 코막힘이 한쪽에 국한되어 있음을 강조한다. 코로 숨 쉬는 것이 답답한 듯 가끔 입으로 숨을 쉬는 모습을 보인다."

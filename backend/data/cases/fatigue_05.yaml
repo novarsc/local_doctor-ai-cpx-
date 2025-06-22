@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (만성 B형 간염)"
+patient_info:
+  name: "정진우"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "쉽게 피로해지고 우상복부 불편감"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 B형 간염"
+    - "비알코올성 지방간 질환"
+    - "간경변 초기"
+  necessary_tests:
+    - "간기능 검사 (AST, ALT, Bilirubin)"
+    - "B형 간염 바이러스 표지자 검사 (HBsAg, HBeAg, HBV DNA)"
+    - "복부 초음파"
+  necessary_treatments:
+    - "항바이러스제 치료 여부 결정"
+    - "정기적인 간기능 검사 및 간암 선별 검사 (초음파, AFP)"
+    - "금주 및 간에 무리를 주는 약물 회피 등 생활습관 관리"
+history:
+  sex_age: "남성/48"
+  chief_complaint_verbatim: "요새 통 기운이 없고, 술 마신 다음 날도 아닌데 오른쪽 갈비뼈 아래가 뻐근하고 더부룩해요."
+  onset: "약 3개월 전부터"
+  location:
+    initial: "전신, 우상복부"
+    current: "전신, 우상복부"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "피로감이 점점 심해지는 경향"
+  course: "특별한 계기 없이 피로감이 시작되었고, 소화도 잘 안되는 느낌이 들었다. 최근 들어서는 우상복부에 묵직한 불편감이 간헐적으로 느껴진다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "피로감은 전신이 나른한 느낌, 우상복부는 묵직하고 뻐근한 느낌"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+  dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "기름진 음식 섭취 후"
+      - "과로한 날"
+    alleviating: "휴식을 취하면 다소 호전"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "20대 때 건강검진에서 B형 간염 보균자라고 들었던 것 같음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "B형 간염 보균자 (비활동성으로 듣고 추적관찰 안 함)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 피로회복제 드링크 마심"
+    source: "편의점 구매"
+    effect: "일시적인 효과만 있음"
+  social_history:
+    job: "개인 사업"
+    stress: "사업 때문에 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: "-"
+    exercise: "바빠서 거의 못 함"
+    recent_weight_change: "변화 없음"
+  family_history: "어머니가 간 질환으로 고생하셨음"
+  female_history: "-"
+physical_exam:
+  general: "만성 피로감 호소하나 급성 병색은 없음. 의식 명료."
+  heent:
+    sclera: "황달 없음 (anicteric)"
+    oral_mucosa: "정상"
+  chest: "호흡음 및 심음 정상. 여성형 유방 없음."
+  abdomen:
+    inspection: "편평하고 정상. 거미 혈관종 없음."
+    auscultation: "장음 정상."
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # 간이 약간 촉진되며(liver edge palpable 1 FB below RCM), 약간 단단한 느낌이 있음. 비장 종대 없음.
+  cvat: "좌우 음성"
+  extremity: "수장 홍반(palmar erythema)이나 부종 없음."
+standardized_patient_questions: "보균자라고 들었는데, 그게 지금 피곤한 거랑 상관있나요? 그냥 피곤해서 그런 줄 알았는데... 술을 많이 마셔서 그런가요? 앞으로 어떻게 해야 하나요?"
+specific_remarks: "과거 B형 간염 보균자 진단 사실을 대수롭지 않게 생각하고 있다가, 의사가 그 중요성을 설명하면 점차 걱정하는 모습을 보인다. 우상복부 촉진 시 약간의 불편감을 표현한다."

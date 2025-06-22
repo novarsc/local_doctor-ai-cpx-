@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (폐쇄 후 이뇨)"
+patient_info:
+  name: "윤재성"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "소변줄을 꽂고 나서 소변이 너무 많이 나옴"
+vital_signs:
+  blood_pressure: "105/70mmHg"
+  pulse: "100회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐쇄 후 이뇨 (Post-obstructive diuresis)"
+    - "탈수"
+    - "급성 신손상"
+  necessary_tests:
+    - "시간당 소변량 측정"
+    - "혈액 검사 (전해질, BUN/Cr)"
+    - "소변 검사 (소변 전해질, 삼투압)"
+  necessary_treatments:
+    - "적극적인 수액 보충 (정맥 주사)"
+    - "전해질 교정"
+    - "활력 징후 및 소변량에 대한 면밀한 감시"
+history:
+  sex_age: "남성/72"
+  chief_complaint_verbatim: "어제 소변이 아예 안 나와서 응급실에 와서 소변줄을 꽂았어요. 그랬더니 그 뒤로 소변이 쉬지 않고 계속 나와요. 어지럽고 기운도 없고요."
+  onset: "1일 전, 유치도뇨관 삽입 후"
+  location:
+    initial: "비뇨기 증상"
+    current: "전신 증상"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "지속적"
+  course: "수년간 전립선 비대증으로 약물 치료 중이었음. 3일 전부터 소변보기가 매우 힘들었고, 어제는 아예 나오지 않아 아랫배가 터질 듯이 아파 응급실 내원. 유치도뇨관 삽입 후 처음에 혈뇨 섞인 소변이 1.5L 이상 배출되었고, 이후로도 시간당 300cc 이상 맑은 소변이 계속 나오고 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "유치도뇨관을 통해 맑은 소변이 다량으로 지속 배출됨"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+      - ""
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "전립선 비대증 (10년), 고혈압 (15년)"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "탐술로신 (Tamsulosin)"
+      - "텔미사르탄 (Telmisartan)"
+    source: "비뇨의학과 의원"
+    effect: "최근에는 약을 먹어도 효과가 별로 없었음"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "매일 30분 산책"
+    recent_weight_change: "변화 없음"
+  family_history: "특이 사항 없음"
+  female_history: ""
+physical_exam:
+  general: "침대에 누워 있으며, 매우 지치고 기운 없는 모습. 유치도뇨관 연결되어 있음."
+  heent:
+    sclera: "비황달성"
+    oral_mucosa: "매우 건조함"
+  chest: "호흡음 정상, 심음은 빈맥 소견"
+  abdomen:
+    inspection: "편평하고 부드러움"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "피부 긴장도 현저히 감소, 사지 말단이 차가움"
+standardized_patient_questions: "소변이 안 나올 땐 죽겠더니 이젠 너무 많이 나와서 걱정돼요. 이러다 탈수로 큰일 나는 거 아닌가요? 정상적인 건가요?"
+specific_remarks: "급성 요폐색 후 유치도뇨관 삽입이라는 명확한 병력을 진술. 다뇨와 함께 동반된 어지러움, 심한 갈증, 기력 저하 등 탈수 증상을 구체적으로 호소할 것. 본인은 병원 침대에 누워있는 환자임을 인지하고 연기."

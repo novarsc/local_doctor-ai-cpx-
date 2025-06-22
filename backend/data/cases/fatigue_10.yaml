@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (다발성 경화증)"
+patient_info:
+  name: "한선영"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "반복되는 시력 저하와 만성적인 피로감"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "다발성 경화증"
+    - "시신경 척수염"
+    - "전신성 홍반 루푸스 (신경계 침범)"
+  necessary_tests:
+    - "뇌 및 척수 MRI (조영제 사용)"
+    - "시유발전위검사 (VEP)"
+    - "뇌척수액 검사 (Oligoclonal band 확인)"
+  necessary_treatments:
+    - "급성기 스테로이드 충격 요법"
+    - "재발 방지를 위한 질병 조절 약물 (인터페론 등)"
+    - "증상 조절 (피로, 경직, 통증 등) 및 재활 치료"
+history:
+  sex_age: "여성/31"
+  chief_complaint_verbatim: "몇 년 전부터 가끔 눈이 흐려졌다가 괜찮아지곤 했는데, 요즘은 몸이 너무 무겁고 피곤해서 아무것도 할 수가 없어요."
+  onset: "신경학적 증상은 3년 전, 심한 피로감은 1년 전부터"
+  location:
+    initial: "눈, 다리"
+    current: "전신"
+  duration:
+    onset_pattern: "재발과 완화를 반복"
+    recent_course: "피로감은 지속적으로 악화"
+  course: "3년 전, 오른쪽 눈이 뿌옇게 보이고 눈을 움직일 때 통증이 있었으나 2주 정도 지나 저절로 좋아졌다. 작년에는 샤워 중 뜨거운 물이 닿자 갑자기 다리에 전기가 오는 듯한 느낌이 잠시 있었다. 1년 전부터는 특별한 이유 없이 온몸이 납덩이처럼 무거운 피로감이 지속되고 있다."
+  experience_prev_episodes:
+    frequency: "2-3회"
+    trigger: "뚜렷하지 않음"
+    symptoms: "시력 저하, 감각 이상"
+  character_of_symptom:
+    quality: "다른 사람들은 이해 못 하는, 모든 에너지를 소진한 듯한 피로(lassitude)"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "더운 날씨, 뜨거운 목욕 (우토프 현상)"
+      - "오후 시간"
+    alleviating: "시원한 곳에서 쉬면 조금 나음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "-"
+    effect: "-"
+  social_history:
+    job: "초등학교 교사"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "피곤해서 거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "규칙적"
+physical_exam:
+  general: "만성적인 피로감 호소. 급성 병색은 없으나 다소 힘없어 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상. 상대적 구심동공결손(RAPD) 우측에서 양성. 시야 검사 시 우안 중심 암점 의심. 안구 운동 시 미세한 안구진탕(nystagmus) 관찰됨."
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "근력은 정상이나, 심부건반사(DTR)가 양측 무릎에서 항진되어 있음. 바빈스키 징후 양성(우측)."
+standardized_patient_questions: "눈이 나빠졌다가 좋아지고, 다리가 저렸다가 괜찮아지고... 이게 다 같은 병 때문인가요? 왜 이렇게 피곤한 건지, 꾀병처럼 보일까 봐 걱정돼요. 완치는 안 되는 병인가요?"
+specific_remarks: "과거의 신경학적 증상(시력저하, 감각이상)에 대해 질문하면, '그땐 그냥 피곤해서 그런가 보다 하고 넘겼다'고 대답한다. 피로감의 특성을 '잠을 못 자서 피곤한 것과는 완전히 다른, 뼛속까지 피곤한 느낌'이라고 표현한다. 진단명을 듣고 매우 불안해하며 예후에 대해 반복적으로 질문한다."

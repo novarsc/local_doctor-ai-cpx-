@@ -1,0 +1,119 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (자궁선근증)"
+patient_info:
+  name: "윤지혜"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "생리통이 너무 심하고 생리 양이 많아졌어요."
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "88회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁선근증 (Adenomyosis)"
+    - "자궁근종 (Uterine Leiomyoma)"
+    - "자궁내막증 (Endometriosis)"
+  necessary_tests:
+    - "골반 내진"
+    - "질식 초음파 (자궁벽 비대칭, myometrial cyst 등 확인)"
+    - "필요시 MRI (진단 정확도 높임)"
+    - "혈액검사 (빈혈 유무 확인)"
+  necessary_treatments:
+    - "비스테로이드성 소염제(NSAIDs) 또는 호르몬 치료"
+    - "자궁 내 장치 (레보노르게스트렐 분비 IUS)"
+    - "수술적 치료 (자궁절제술)"
+history:
+  sex_age: "여성/45"
+  chief_complaint_verbatim: "몇 년 전부터 생리 때마다 허리가 끊어질 듯 아프고, 피도 너무 많이 쏟아져요. 진통제를 먹어도 소용이 없어요."
+  onset: "약 3년 전부터 증상 시작"
+  location:
+    initial: "아랫배"
+    current: "아랫배 전체 및 허리"
+  duration:
+    onset_pattern: "생리 시작과 함께 발생"
+    recent_course: "매달 점점 심해지는 느낌"
+  course: "수년에 걸쳐 진행되는 월경과다 및 월경통"
+  experience_prev_episodes:
+    frequency: "매달"
+    trigger: "생리"
+    symptoms: "심한 월경통, 월경과다"
+  character_of_symptom:
+    quality: "칼로 베는 듯하고 뻐근한 통증"
+    nrs_score: "생리 시 8-9점"
+    radiation: "허리로 방사"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    other: "생리 기간 외에도 골반에 묵직한 압박감이 있음"
+  factors:
+    aggravating:
+      - "생리 기간"
+    alleviating: "진통제가 거의 효과 없음"
+  health_check_history:
+    last_checkup: "2년 전 국가검진"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "각종 진통제"
+    source: "약국"
+    effect: "거의 효과 없음"
+  social_history:
+    job: "고등학교 교사"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+    smoking:
+      is_smoker: false
+    exercise: "주말에 등산"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "13세"
+    lmp: "2주 전"
+    cycle: "26-28일, 규칙적"
+    duration: "7-8일"
+    amount: "많음 (덩어리 혈액 동반)"
+    dysmenorrhea: "매우 심함"
+    dyspareunia: "없음"
+    menopause_age: "해당 없음"
+    obgyn_visits: "없음"
+    sexual_history: "기혼"
+    pregnancy_history: "G2P2 (모두 제왕절개로 분만)"
+physical_exam:
+  general: "만성 통증에 지친 기색, 전반적인 상태는 양호"
+  heent:
+    sclera: "Anicteric"
+    conjunctiva: "Slightly pale"
+  chest: "Clear"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation: "Suprapubic tenderness 있음"
+  pelvic_exam:
+    speculum: "Normal"
+    bimanual: "Uterus is symmetrically enlarged to about 10-week gestational size, boggy, and tender on palpation."
+  cvat: "양측 음성"
+  extremity: "No edema"
+standardized_patient_questions: "왜 갈수록 생리통이 심해지는 거죠? 자궁에 혹이 있는 건가요? 치료하면 나을 수 있는 병인가요? 곧 폐경될 텐데 그냥 참으면 안 되나요?"
+specific_remarks: "통증에 대해 설명할 때 매우 고통스러웠던 경험을 상세하게 묘사한다. 특히 진통제가 듣지 않는다는 점을 여러 번 강조한다. 내진 시 자궁을 누를 때 통증을 호소한다."

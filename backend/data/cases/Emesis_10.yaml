@@ -1,0 +1,121 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (당뇨병성 케톤산증)"
+patient_info:
+  name: "김민희"
+  age: 21
+  sex: "여성"
+  presenting_complaint: "계속 목이 마르고 토해서 기운이 없어요"
+vital_signs:
+  blood_pressure: "95/60mmHg"
+  pulse: "120회/분"
+  respiration: "28회/분 (깊고 빠른 호흡)"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "당뇨병성 케톤산증 (DKA)"
+    - "급성 위장염 (심한 탈수 동반)"
+    - "고삼투압성 고혈당 상태 (HHS)"
+  necessary_tests:
+    - "혈당 검사 (Finger stick & Lab)"
+    - "동맥혈가스분석 (ABGA)"
+    - "소변 케톤 검사 및 혈청 케톤 검사"
+    - "전해질 검사, 신장 기능 검사"
+  necessary_treatments:
+    - "응급 입원 치료"
+    - "적극적인 수액 공급 (생리식염수)"
+    - "인슐린 정맥 주사"
+    - "전해질 (특히 칼륨) 교정 및 모니터링"
+history:
+  sex_age: "여성/21"
+  chief_complaint_verbatim: "며칠 전부터 목이 너무 마르고 화장실을 자주 갔는데, 어제부터는 배가 아프고 계속 토해서 아무것도 못하겠어요."
+  onset: "다뇨/다음 증상은 1주 전, 구토/복통은 1일 전"
+  location:
+    initial: "전신 증상"
+    current: "복부 통증 동반"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "급격히 악화됨"
+  course: "일주일 전부터 물을 마셔도 계속 목이 마르고, 소변을 보러 화장실을 아주 자주 감. 살도 빠지는 것 같았음. 어제부터 갑자기 배가 아프기 시작하면서 메슥거리고 5-6차례 구토함. 숨쉬기가 힘든 느낌이 들고, 정신이 몽롱해짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "전반적인 복통"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "음식물, 이후 위액"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false # 초기 다뇨, 후기 핍뇨
+    other:
+      polyuria: true # 다뇨
+      polydipsia: true # 다음
+      dyspnea: true # 호흡곤란
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "기억 없음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "시험 기간이라 심했음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "최근 1-2주 사이 3kg 감소"
+  family_history: "할머니, 아버지 당뇨병"
+  female_history: "LMP: 2개월 전 (최근 불규칙)"
+physical_exam:
+  general: "의식이 처지고 졸려 보임 (drowsy). 숨을 깊고 빠르게 몰아쉼 (Kussmaul breathing)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "매우 건조함"
+    breath: "과일향, 아세톤 냄새가 남"
+  chest: "호흡음 정상이나 호흡 양상이 비정상적임"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 감소"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      tenderness_diffuse: true # 전반적 압통
+  cvat: "양측 음성"
+  extremity: "피부 긴장도 매우 저하, 손발이 차가움"
+standardized_patient_questions: "제가 왜 이렇게 숨이 차죠? 그냥 장염 아니에요? 왜 입원을 해야 하나요? 당뇨는 나이 많은 사람들만 걸리는 병 아닌가요?"
+specific_remarks: "환자는 기운이 없고 졸린 상태를 연기한다. 숨을 쉴 때마다 과일 냄새가 나는 것을 의사가 인지할 수 있도록 한다. 질문에 느릿느릿하게 대답하며, 자신이 당뇨병일 수 있다는 사실에 대해 매우 놀라고 혼란스러워하는 반응을 보인다."

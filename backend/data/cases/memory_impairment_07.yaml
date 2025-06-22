@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (루이소체 치매)"
+patient_info:
+  name: "윤상호"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "기억력 저하, 헛것이 보이고 몸이 뻣뻣해짐"
+vital_signs:
+  blood_pressure: "125/75mmHg"
+  pulse: "68회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자(보호자)와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "루이소체 치매 (Dementia with Lewy bodies, DLB)"
+    - "파킨슨병 치매 (Parkinson's disease dementia, PDD)"
+    - "알츠하이머병 (비전형적 증상 동반)"
+  necessary_tests:
+    - "신경인지기능검사"
+    - "뇌 MRI"
+    - "도파민 운반체 영상 (FP-CIT PET)"
+  necessary_treatments:
+    - "인지기능 개선제 (콜린에스테라아제 억제제)"
+    - "파킨슨 증상 조절 (레보도파, 주의해서 사용)"
+    - "환시 조절 (비정형 항정신병 약물, 매우 소량으로 주의 깊게 사용)"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "자꾸 깜빡깜빡하고, 밤에 헛것이 보여요. 돌아가신 아버지가 방에 앉아 계실 때도 있고... 몸도 예전같지 않게 뻣뻣하고 행동이 느려졌어요."
+  onset: "약 1.5년 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 악화"
+  course: "처음에는 기억력이 떨어지고 주의력이 산만해지는 증상이 시작됨. 1년 전부터는 자다가 소리를 지르거나 팔다리를 허우적거리는 행동(렘수면 행동장애)이 나타남. 6개월 전부터는 구체적인 환시(사람, 동물)를 자주 보고, 인지 기능이 하루 중에도 좋아졌다 나빠졌다를 반복함. 최근에는 걸음걸이가 느려지고 표정이 무표정해짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "인지기능의 변동성(fluctuation), 반복적인 환시, 파킨슨 증상 동반"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "저녁, 밤"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "교사 퇴직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "40년 전 금연"
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적으로 무표정한 얼굴(masked face). 행동과 말이 느림."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "사지에서 경도의 근육 경축(rigidity) 관찰됨. 안정 시 떨림은 뚜렷하지 않음. 움직임이 느리고(bradykinesia) 보행 시 팔 흔들림이 감소되어 있음."
+standardized_patient_questions: "제가 왜 헛것을 보는 건가요? 정신병에 걸린 건가요? 파킨슨병이라는데 치매도 같이 온 건가요? 치료는 가능한가요?"
+specific_remarks: "DLB의 핵심 증상 4가지(fluctuating cognition, visual hallucination, REM sleep behavior disorder, parkinsonism)를 명확하게 표현해야 함. 특히 인지기능 저하와 파킨슨 증상이 거의 동시에 (1년 이내) 시작되었음을 강조. 환시는 매우 구체적이고 생생하다고 설명. 진찰 시 미세한 파킨슨 증상(무표정, 경축, 느린 행동)을 연기해야 함."

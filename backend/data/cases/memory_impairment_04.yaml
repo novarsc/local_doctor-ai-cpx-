@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (정상압 수두증)"
+patient_info:
+  name: "최정수"
+  age: 75
+  sex: "남성"
+  presenting_complaint: "점점 심해지는 기억력 저하, 이상한 걸음걸이, 소변 실수"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "정상압 수두증 (Normal pressure hydrocephalus, NPH)"
+    - "혈관성 치매 (특히 피질하 혈관성 치매)"
+    - "파킨슨병 동반 치매"
+  necessary_tests:
+    - "뇌 CT 또는 MRI (뇌실 확장 확인)"
+    - "보행 분석"
+    - "요추 천자를 통한 뇌척수액 배액 검사 (Tap test)"
+  necessary_treatments:
+    - "뇌척수액 단락술 (Ventriculoperitoneal shunt)"
+    - "보행 재활 치료"
+    - "약물 치료는 효과가 제한적임"
+history:
+  sex_age: "남성/75세"
+  chief_complaint_verbatim: "자꾸 깜빡하고, 걸을 때 발이 땅에 붙는 것 같아요. 화장실 가기 전에 옷에 소변을 지릴 때도 있고요."
+  onset: "약 1년 전부터 서서히"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 3개월간 세 가지 증상 모두 악화"
+  course: "처음에는 걸음걸이가 부자연스러워지기 시작했고(보폭이 짧아지고 발을 끄는 양상), 몇 달 뒤부터 소변이 급하고 참기 힘들어짐. 최근에는 물건을 어디 뒀는지 자주 잊고, 전반적으로 행동이 굼떠짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "전반적인 인지기능 저하 (무관심, 계획 능력 저하)"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "방향을 전환할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "5년 전 머리를 부딪혀 잠시 의식을 잃은 적 있음 (병원 방문 안 함)"
+  past_medical_history:
+    underlying_disease: "전립선 비대증 (약물 복용 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "탐술로신"
+    source: "비뇨의학과"
+    effect: "소변 줄기는 약간 호전되었으나, 급박뇨/실금은 여전함"
+  social_history:
+    job: "공무원 퇴직"
+    stress: "거의 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "예전에는 산책을 즐겼으나 걸음걸이가 불편해진 후 거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적으로 무표정하고 행동이 느림 (psychomotor slowing)"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "근력 및 감각은 정상. Romberg test 음성. 보행 시 보폭이 매우 짧고, 발을 넓게 벌리며, 발이 땅에서 잘 떨어지지 않는 '자석보행(magnetic gait)' 양상을 보임. 방향 전환이 매우 불안정함."
+standardized_patient_questions: "이게 무슨 병인가요? 파킨슨병 같은 건가요? 치료하면 다시 잘 걸을 수 있나요? 수술을 해야 한다니 무섭네요."
+specific_remarks: "NPH의 3대 증상(cognitive impairment, gait disturbance, urinary incontinence)을 명확히 호소해야 함. 특히 보행 시 특징적인 모습을 잘 연기해야 함. 인지기능 저하는 주로 전두엽 기능 저하(무관심, 계획 능력 부재)에 초점을 맞춤."

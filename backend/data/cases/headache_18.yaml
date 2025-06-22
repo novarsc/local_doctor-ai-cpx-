@@ -1,0 +1,117 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "18"
+title: "실전 모의 증례 (경동맥 박리)"
+patient_info:
+  name: "황지훈"
+  age: 44
+  sex: "남성"
+  presenting_complaint: "갑자기 발생한 목 통증과 동측의 두통, 눈꺼풀 처짐"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "내경동맥 박리 (Internal Carotid Artery Dissection)"
+    - "군발두통"
+    - "편두통"
+  necessary_tests:
+    - "뇌 MRI/MRA 및 경부 MRA (박리된 혈관 내벽 및 혈종 확인, 진단에 가장 유용)"
+    - "경동맥 초음파"
+    - "필요시 뇌혈관 조영술 (TFCA)"
+  necessary_treatments:
+    - "신경과 입원 치료"
+    - "항혈소판제 또는 항응고제 치료 (혈전 생성 및 뇌경색 예방)"
+    - "혈압 조절"
+    - "스텐트 삽입 등 혈관 내 시술은 제한적으로 고려"
+history:
+  sex_age: "남성/44"
+  chief_complaint_verbatim: "어제 헬스장에서 무거운 거 들고 나서부터 갑자기 왼쪽 목이 찢어질 듯이 아프더니 머리까지 아파요. 그리고 오늘 아침에 보니 왼쪽 눈꺼풀이 처지고 눈동자가 작아졌어요."
+  onset: "목 통증과 두통은 1일 전, 안구 증상은 내원일 아침"
+  location:
+    initial: "왼쪽 목 측면"
+    current: "왼쪽 목, 동측의 얼굴과 머리"
+  duration:
+    onset_pattern: "갑작스럽게 발생"
+    recent_course: "통증이 지속되고 새로운 증상(안구)이 나타남"
+  course: "지속적인 통증. 통증 발생 후 약 12시간 뒤 안구 증상 발생."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "과격한 운동 (무거운 중량의 데드리프트)"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "찢어지는 듯한, 욱신거리는 통증"
+    nrs_score: "7"
+    radiation: "왼쪽 귀 뒤쪽과 관자놀이 쪽으로"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    neurological:
+      horner_syndrome: "왼쪽 눈꺼풀 처짐(ptosis), 축동(miosis), 안면부 발한 감소(anhidrosis) (부분적 호너 증후군)"
+      pulsatile_tinnitus: "왼쪽 귀에서 '슉슉'하는 소리가 들림"
+      transient_ischemic_attack_symptoms: "없음 (하지만 발생 가능성 있음)"
+  factors:
+    aggravating:
+      - "목을 움직일 때"
+    alleviating: "가만히 있으면 조금 나음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "뚜렷한 외상은 없으나, 내원 전날 헬스장에서 고중량 운동을 함."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제"
+    source: "약국"
+    effect: "별 효과 없음"
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 3-4회 헬스 (최근 고중량 운동에 집중)"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "통증으로 불편해 보이나, 급성 병색은 뚜렷하지 않음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  neurology:
+    mental_status: "Alert and oriented"
+    cranial_nerves:
+      # Key findings for Horner's syndrome
+      inspection: "왼쪽 눈의 경미한 안검하수(ptosis)와 축동(miosis) 관찰됨. 양안 동공 크기 비대칭."
+      light_reflex: "양안 모두 정상"
+      other_cranial_nerves: "정상"
+    motor_sensory_reflexes: "정상. 국소 신경학적 결손 없음."
+    auscultation: "왼쪽 경동맥 부위에서 혈관 잡음(bruit)이 청진될 수 있음."
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "운동하다가 목을 좀 삐끗한 줄 알았는데, 왜 눈까지 이상해진 거죠? 머리랑 목이 계속 아픈데 괜찮을까요? 뇌졸중 같은 무서운 병으로 진행될 수도 있나요?"
+specific_remarks: "환자는 목 통증을 호소하며 왼쪽 목을 만지는 시늉을 한다. 거울을 보고 자신의 왼쪽 눈이 이상해졌다고 걱정한다 (눈꺼풀 처짐, 작아진 눈동자). 통증이 무거운 운동 직후에 시작되었다는 점을 명확히 기억하고 진술한다. 뇌졸중 위험에 대한 설명을 듣고 매우 불안해한다."

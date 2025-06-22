@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (갑상선 기능 항진증)"
+patient_info:
+  name: "박선영"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "설사와 가슴 두근거림"
+vital_signs:
+  blood_pressure: "135/80mmHg"
+  pulse: "110회/분"
+  respiration: "20회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갑상선 기능 항진증으로 인한 이차성 설사"
+    - "과민성 대장 증후군"
+    - "불안장애의 신체 증상"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4, T3)"
+    - "갑상선 자가항체 검사"
+    - "심전도 검사"
+  necessary_treatments:
+    - "항갑상선제 치료"
+    - "베타 차단제 (증상 조절 목적)"
+    - "필요시 방사성 요오드 치료 또는 수술 고려"
+history:
+  sex_age: "여/35"
+  chief_complaint_verbatim: "두 달 전부터 자꾸 설사를 하고, 가슴이 막 뛰고 손이 떨려서 왔어요. 살도 빠지는 것 같아요."
+  onset: "약 2-3개월 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음 (전신 증상)"
+  duration:
+    onset_pattern: "서서히 발생하여 지속됨"
+    recent_course: "최근 증상들이 더 뚜렷해짐"
+  course: "3개월 전부터 이유 없이 피곤하고 더위를 참기 힘들어짐. 2개월 전부터는 하루 3-4회 묽은 변을 보는 날이 잦아짐. 복통은 심하지 않음. 한 달 전부터는 가만히 있어도 심장이 빨리 뛰는 것이 느껴지고, 컵을 들 때 손이 미세하게 떨리는 것을 자각함. 식욕은 오히려 늘었는데 체중은 4kg 정도 빠짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "복통은 거의 없는 묽은 변"
+    nrs_score: "1-2"
+    radiation: ""
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false # 식욕은 증가함
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "더운 환경"
+      - "긴장할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합비타민"
+    source: "자가 구매"
+    effect: "잘 모르겠음"
+  social_history:
+    job: "초등학교 교사"
+    stress: "학생들 때문에 스트레스가 있는 편"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "숨이 차서 최근 잘 못함"
+    recent_weight_change: "최근 3개월간 4kg 감소"
+  family_history: "어머니가 갑상선 질환으로 약 복용 중 (정확한 병명은 모름)"
+  female_history: "LMP 3주 전, 최근 생리 주기가 불규칙해지고 양이 줄었음"
+physical_exam:
+  general: "불안해 보이고 안절부절 못하는 모습. 약간 마른 체형."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 전경부 시진 및 촉진 시, 갑상선이 미만성으로 약간 커져 있음 (diffusely enlarged, non-tender goiter). 안구 돌출은 없음.
+  chest: "호흡음 정상. 심음이 빠르고 강하게 들림 (tachycardia)."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 약간 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 압통 없음
+  cvat: "음성"
+  extremity: "손을 내밀었을 때 미세한 떨림(fine tremor) 관찰됨. 손바닥이 따뜻하고 축축함."
+standardized_patient_questions: "제가 왜 이렇게 예민해지고 설사를 하는 거죠? 소화기내과가 아니라 다른 과를 가봐야 하나요? 심장병은 아닐까요?"
+specific_remarks: "말이 빠르고 약간 흥분한 듯한 톤을 유지한다. 손 떨림이나 더위를 타는 등의 증상을 실감 나게 표현한다. 목의 갑상선 촉진 시 불편감을 느끼지 않는다."

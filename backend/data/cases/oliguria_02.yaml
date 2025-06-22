@@ -1,0 +1,116 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (급성 요폐)"
+patient_info:
+  name: "박상철"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "어제 저녁부터 소변을 전혀 보지 못함"
+vital_signs:
+  blood_pressure: "160/95mmHg"
+  pulse: "98회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "양성 전립선 비대증에 의한 급성 요폐"
+    - "신경성 방광"
+    - "요도 협착"
+  necessary_tests:
+    - "직장수지검사 (DRE)"
+    - "방광 초음파 (잔뇨량 측정)"
+    - "혈청 생화학 검사 (BUN/Cr) 및 전립선 특이 항원 (PSA) 검사"
+  necessary_treatments:
+    - "즉각적인 도뇨관 삽입을 통한 소변 배출"
+    - "알파차단제 등 약물 치료 시작"
+    - "향후 경요도 전립선 절제술 등 수술적 치료 고려"
+history:
+  sex_age: "남성/72"
+  chief_complaint_verbatim: "어젯밤부터 소변이 마려워서 죽겠는데 한 방울도 안 나와요. 아랫배가 터질 것 같아요."
+  onset: "약 12시간 전"
+  location:
+    initial: "하복부"
+    current: "하복부"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "지속적으로 악화"
+  course: "수년 전부터 소변 줄기가 가늘어지고, 소변을 봐도 시원하지 않은 증상이 있었음. 어제 저녁 종합감기약을 복용한 후 3~4시간 뒤부터 갑자기 소변을 볼 수 없게 됨. 밤새 화장실을 들락거렸으나 실패했고, 하복부 통증이 심해져 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "아랫배가 빵빵하고 터질 듯한 통증"
+    nrs_score: 8
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "시간이 지날수록"
+      - "물을 마시면 더 불편함"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "6개월 전, 전립선 비대 소견 들음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "양성 전립선 비대증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "어제 저녁 복용한 종합감기약 (약국 구매)"
+    source: "약국"
+    effect: "증상 악화"
+  social_history:
+    job: "경비원"
+    stress: "적음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "안절부절못하며 통증 호소. 식은땀을 흘리고 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "하복부가 팽만되어 있음 (suprapubic distension)"
+    auscultation: "장음 정상"
+    percussion: "치골 상부에서 탁음(dullness) 확인됨"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 신체진찰 소견 추가
+      suprapubic_tenderness: true
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "아랫배가 너무 아픈데 빨리 어떻게 좀 해주세요. 왜 갑자기 소변이 안 나오는 건가요? 감기약 때문인가요?"
+specific_remarks: "환자는 계속해서 하복부를 만지며 고통스러운 표정을 짓는다. 질문에 짧게 대답하며 불안감을 표현한다. 신체 진찰 시, 하복부 촉진에 매우 예민하게 반응하며 아프다고 말한다."

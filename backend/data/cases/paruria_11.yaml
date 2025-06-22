@@ -1,0 +1,122 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (요도염)"
+patient_info:
+  name: "이동건"
+  age: 29
+  sex: "남성"
+  presenting_complaint: "소변 볼 때 따끔거리고 속옷에 노란 분비물이 묻어남"
+vital_signs:
+  blood_pressure: "125/75mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "임균성 요도염 (Gonococcal Urethritis)"
+    - "비임균성 요도염 (Nongonococcal Urethritis)"
+    - "급성 방광염 또는 전립선염 (감별 필요)"
+  necessary_tests:
+    - "요도 분비물 도말 및 그람 염색"
+    - "요도 분비물 또는 첫 소변 핵산증폭검사 (NAAT for Gonorrhea/Chlamydia)"
+    - "소변검사"
+    - "필요시 다른 성병에 대한 혈액검사 (매독, HIV 등)"
+  necessary_treatments:
+    - "항생제 치료 (주사 또는 경구)"
+    - "성 파트너도 함께 검사 및 치료 권유"
+    - "치료 기간 동안 성관계 금지 교육"
+history:
+  sex_age: "남성/29세"
+  chief_complaint_verbatim: "며칠 전부터 소변 볼 때 요도 끝이 너무 따갑고 아파요. 그리고 아침에 일어나 보면 팬티에 노란 고름 같은 게 묻어 있어요."
+  onset: "4일 전"
+  location:
+    initial: "요도 끝"
+    current: "요도"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "점점 심해짐"
+  course: "4일 전 소변 볼 때 약간의 불편감으로 시작됨. 이틀 전부터는 뚜렷한 배뇨통과 함께 요도에서 노란색의 걸쭉한 분비물이 나오기 시작함. 소변을 자주 보는 증상도 약간 동반됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "배뇨 시 타는 듯한, 날카로운 통증"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false # 미열은 있을 수 있음
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "소변 볼 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: ""
+    exercise: "주 2회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+# 성 접촉력은 필수 병력 청취 항목
+  sexual_history: "약 10일 전 새로운 파트너와 성관계. 콘돔 사용하지 않았음."
+physical_exam:
+  general: "불편하고 불안한 기색. 전반적인 상태는 양호."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평함."
+    auscultation: "장음 정상."
+    percussion: "고창음."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      suprapubic_tenderness: false
+  # Genitourinary Exam
+  genitalia:
+    urethral_meatus: "Slightly red and swollen"
+    urethral_discharge: "Purulent, yellowish discharge noted with gentle milking of the urethra"
+    testicular_tenderness: "No tenderness or swelling"
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "이거 성병인가요? 여자친구한테 옮았을까요? 치료하면 깨끗하게 낫는 건가요?"
+specific_remarks: "증상에 대해 이야기하기를 부끄러워하고, 특히 성관계력에 대한 질문에는 주저하며 대답한다. 의사가 요도를 확인할 때(urethral milking) 약간의 통증과 함께 분비물이 나오는 것을 보고 당황하고 걱정하는 모습을 보인다."

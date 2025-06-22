@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (호두까기 증후군)"
+patient_info:
+  name: "박지현"
+  age: 21
+  sex: "여성"
+  presenting_complaint: "수개월 간 반복되는 좌측 옆구리 통증과 간헐적인 혈뇨"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "호두까기 증후군 (Nutcracker syndrome) (가장 의심)"
+    - "요로결석 (간헐적)"
+    - "IgA 신병증"
+  necessary_tests:
+    - "소변 검사 (기립 전후 소변 비교)"
+    - "도플러 초음파 (좌측 신정맥 압력 및 속도 측정)"
+    - "복부 CT 또는 MR 혈관조영술 (해부학적 구조 확인)"
+  necessary_treatments:
+    - "보존적 치료 및 경과 관찰 (체중 증가 권유)"
+    - "증상이 심할 경우 혈관 내 스텐트 삽입술 고려"
+    - "매우 드물게 수술적 치료 (좌측 신정맥 전위술 등)"
+history:
+  sex_age: "여성/21세"
+  chief_complaint_verbatim: "몇 달 전부터 왼쪽 옆구리가 계속 뻐근하게 아프고, 가끔 소변에서 피가 나와요."
+  onset: "약 6개월 전"
+  location:
+    initial: "왼쪽 옆구리"
+    current: "왼쪽 옆구리"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "오래 서 있거나 운동하고 나면 통증이 더 심해짐."
+  course: "처음에는 생리통인가 했는데, 생리 주기와 상관없이 통증이 지속됩니다. 혈뇨는 매일 나오는 것은 아니고 2-3주에 한 번씩 보입니다. 최근 다이어트로 체중이 감소한 이후 증상이 더 뚜렷해진 것 같습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "뻐근하고 묵직한 통증"
+    nrs_score: "3-4/10, 심할 땐 6/10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true # 6개월간 8kg 감소
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true # 간헐적
+    dehydration:
+      dizziness: true # 오래 서 있으면 어지러움
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 서 있기"
+      - "운동 후"
+    alleviating: "누워 있으면 호전됨"
+  health_check_history:
+    last_checkup: "고등학교 때, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 진통제 (타이레놀)"
+    source: "약국"
+    effect: "별로 효과 없음"
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1회"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "다이어트를 위해 최근 헬스 시작함"
+    recent_weight_change: "최근 6개월간 다이어트로 8kg 감량"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 1주 전. 골반 통증이 가끔 있음 (pelvic congestion)."
+physical_exam:
+  general: "매우 마른 체형. 급성 병색은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "편평하고舟狀腹 (scaphoid abdomen)"
+    auscultation: "상복부에서 미약한 혈관 잡음(bruit) 청진될 수 있음"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # Left flank에 약간의 압통 있음
+  cvat: "좌측 약양성 (mildly positive on left)"
+  extremity: "특이소견 없음. (혹은 좌측 하지에 미세한 정맥류 관찰 가능)"
+standardized_patient_questions: "별 것 아닌 줄 알았는데 왜 자꾸 아프고 피가 날까요? 이름도 이상한데, 무슨 병인가요?"
+specific_remarks: "환자는 마른 체형이며, 오래 서 있으면 증상이 심해지고 누우면 편해진다는 점을 강조한다. 다이어트와 증상 발생의 연관성을 언급한다. 진단명이 생소해서 잘 이해하지 못하고 여러 번 되묻는다."

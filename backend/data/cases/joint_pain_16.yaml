@@ -1,0 +1,114 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "16/24"
+title: "실전 모의 증례 (베이커 낭종)"
+patient_info:
+  name: "조영숙"
+  age: 59
+  sex: "여성"
+  presenting_complaint: "무릎 뒤쪽에 생긴 물혹과 뻐근함"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "베이커 낭종"
+    - "심부정맥 혈전증 (감별 필요)"
+    - "연부조직 종양"
+  necessary_tests:
+    - "무릎 초음파 (낭종 확인 및 혈전증 감별)"
+    - "무릎 X-ray (동반된 관절염 확인)"
+    - "필요시 MRI (무릎 내부 구조 정밀 평가)"
+  necessary_treatments:
+    - "동반된 무릎 질환(골관절염 등) 치료가 우선"
+    - "증상이 심할 경우 주사기로 낭종액 흡인 및 스테로이드 주사"
+    - "낭종 자체보다는 원인 질환 관리가 중요함을 교육"
+history:
+  sex_age: "여성/59세"
+  chief_complaint_verbatim: "언제부턴가 오른쪽 무릎 뒤 오금에 달걀만 한 혹이 만져져요. 쪼그려 앉거나 무릎을 쭉 펴면 뻐근하고 터질 것 같아요. 가끔 종아리까지 붓는 느낌도 들어요."
+  onset: "정확히는 모르나 수개월 전 발견"
+  location:
+    initial: "오른쪽 무릎 뒤 (오금)"
+    current: "오른쪽 무릎 뒤 (오금)"
+  duration:
+    onset_pattern: "모르는 사이 서서히 생김"
+    recent_course: "크기가 커졌다 작아졌다 하는 것 같음"
+  course: "평소 무릎이 좋지 않아 퇴행성 관절염 진단을 받은 적 있음. 최근 무릎을 많이 쓴 날이면 오금의 혹이 더 단단해지고 커지는 느낌. 통증이 심하진 않지만 뻐근하고 불편함."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "뻐근하고 꽉 찬 느낌"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "무릎을 완전히 굽히거나 펼 때"
+      - "오래 서 있거나 걸을 때"
+    alleviating: "다리를 올리고 쉬면 조금 부드러워짐"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "양측 무릎 골관절염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통소염제 (필요시)"
+    source: "정형외과"
+    effect: "통증은 좀 가라앉음"
+  social_history:
+    job: "가사 도우미"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "일하는 것이 운동"
+    recent_weight_change: "없음"
+  family_history: "어머니 (무릎 관절염)"
+  female_history: "폐경 7년 전"
+physical_exam:
+  general: "별다른 특이사항 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "오른쪽 무릎 뒤 오금(popliteal fossa)의 내측에서 약 4x3cm 크기의 부드럽고 경계가 명확한 낭성 종물이 만져짐. 압통은 없음. 무릎을 펼 때 종물이 더 뚜렷해지고, 굽히면 부드러워짐. 양쪽 무릎에서 관절 마찰음(crepitus)이 있고 내측 관절면에 압통이 있음. Homan's sign 음성."
+standardized_patient_questions: "이거 암 같은 나쁜 혹은 아니겠죠? 왜 무릎 뒤에 물주머니 같은 게 생기나요? 주사로 빼면 재발 안 하나요?"
+specific_remarks: "환자는 통증보다는 무릎 뒤에 만져지는 혹 자체에 대한 걱정이 더 커야 함. 혹이 터질까 봐 무릎을 움직이는 것을 두려워하는 모습을 보인다. 기저의 무릎 관절염과 연관이 있다는 설명을 들었을 때 잘 이해하지 못하는 반응을 보인다."

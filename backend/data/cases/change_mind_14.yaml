@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (파킨슨병)"
+patient_info:
+  name: "박진전"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "1년 전부터 우울하고 몸이 뻣뻣해짐"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "파킨슨병 (Parkinson's Disease)에 동반된 우울증"
+    - "약물 유발성 파킨슨증"
+    - "노인성 우울증"
+  necessary_tests:
+    - "신경학적 진찰 (운동 기능 평가)"
+    - "뇌 MRI (다른 구조적 이상 배제)"
+    - "도파민 운반체 영상 (FP-CIT PET) - 진단 보조"
+  necessary_treatments:
+    - "레보도파 등 도파민 효능제 약물 치료"
+    - "우울 증상에 대한 항우울제(SSRI 등) 치료"
+    - "물리치료 및 재활 치료"
+history:
+  sex_age: "남성/65세"
+  chief_complaint_verbatim: "작년부터 자꾸 우울한 생각이 들고, 몸이 내 맘대로 안 움직여요. 행동이 굼떠지고, 오른쪽 손이 가만히 있을 때 자꾸 떨려요. 글씨 쓰는 것도 힘들어졌어요."
+  onset: "약 1년 전부터 서서히"
+  location:
+    initial: "우울감, 우측 손 떨림"
+    current: "전신 운동 느려짐, 우울감 지속"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 악화됨"
+  course: "1년 전, 특별한 이유 없이 기분이 우울하고 의욕이 없는 증상이 먼저 시작되었다. 몇 달 후부터 오른쪽 손에서 가만히 있을 때 떨리는 증상(안정 시 진전)이 나타났고, 점점 행동이 느려지고(서동), 몸이 뻣뻣해지는(경직) 것을 느꼈다. 걸을 때 보폭이 좁아지고 종종걸음을 치며, 표정이 점차 무표정해졌다. 냄새를 잘 못 맡게 되고, 변비가 심해지는 증상도 동반되었다."
+  experience_prev_episodes:
+    frequency: "없음, 지속적 악화"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "우울감과 함께 나타나는 운동 기능 저하 (떨림, 서동, 경직)"
+    nrs_score: "N/A"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "가만히 있을 때 (떨림)"
+      - "움직임을 시작할 때 (느려짐)"
+    alleviating: "움직이거나 행동을 취하면 떨림이 줄어듦"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "N/A"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "퇴직 (전직 공무원)"
+    stress: "질병으로 인한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "움직이기 힘들어 잘 하지 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "무표정한 얼굴(masked face). 전반적인 행동이 느림(bradykinesia). 우울한 기분과 정신운동 지체 소견이 동반됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "우측 손에서 안정 시 떨림(resting tremor, pill-rolling) 관찰됨. 팔다리에서 톱니바퀴양 경축(cogwheel rigidity) 관찰됨. 자세 불안정성은 아직 뚜렷하지 않음."
+standardized_patient_questions: "나이가 드니 우울증이 오나 했는데, 왜 몸까지 이렇게 마음대로 안 움직일까요? 이게 다 우울해서 그런 건가요? 아니면 다른 큰 병인가요?"
+specific_remarks: "환자는 우울감을 주로 호소하지만, 병력 청취를 통해 운동 증상을 이끌어내는 것이 중요함. 신체 진찰 시 파킨슨병의 특징적인 소견(안정 시 떨림, 서동, 경직)을 명확하게 연기해야 함. 글씨를 써보라고 하면 글씨가 점점 작아지는(micrographia) 모습을 보여줄 수 있음."

@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (기능성 소화불량증)"
+patient_info:
+  name: "김민지"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "수개월간 지속된 식후 상복부 불편감 및 조기 포만감"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기능성 소화불량증"
+    - "위식도 역류질환"
+    - "소화성 궤양"
+  necessary_tests:
+    - "전혈구 검사 (CBC)"
+    - "헬리코박터 파일로리 검사 (요소호기검사 또는 혈청검사)"
+    - "상부위장관 내시경 (경고 증상 없으나, 원인 감별 위해 고려)"
+  necessary_treatments:
+    - "생활 습관 교정 (규칙적인 식사, 자극적인 음식 피하기, 스트레스 관리)"
+    - "약물 치료 (위산분비억제제, 위장관 운동 촉진제)"
+    - "정기적인 경과 관찰"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "밥만 먹으면 명치가 답답하고 더부룩해요. 금방 배가 불러서 많이 먹지도 못하겠어요."
+  onset: "약 6개월 전부터 서서히 시작됨"
+  location:
+    initial: "상복부 전반"
+    current: "상복부 전반 (명치 부위)"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 업무 스트레스가 심해지면서 증상이 더 잦아짐"
+  course: "좋아졌다가 나빠지기를 반복하는 양상"
+  experience_prev_episodes:
+    frequency: "거의 매일, 특히 식후에 심함"
+    trigger: "기름진 음식, 과식, 스트레스"
+    symptoms: "현재와 유사한 상복부 불편감, 조기 포만감"
+  character_of_symptom:
+    quality: "답답하고 얹힌 듯한 느낌 (bloating, fullness)"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 (특히 기름진 음식)"
+      - "스트레스"
+    alleviating: "특별히 없음. 시간이 지나면 조금 나아지는 정도"
+  health_check_history:
+    last_checkup: "1년 전, 회사 건강검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 약국에서 소화제 사 먹음"
+    source: "약국"
+    effect: "일시적으로 효과가 있는 것 같기도 하고 아닌 것 같기도 함"
+  social_history:
+    job: "사무직 (대리)"
+    stress: "최근 승진 후 업무량이 많아져 스트레스가 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 못함"
+    recent_weight_change: "없음"
+  family_history: "어머니가 신경성 위염을 자주 앓으셨다고 함"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "전반적으로 안정적이나 다소 피로해 보임"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds without rales or wheezing"
+  abdomen:
+    inspection: "flat and symmetric, no visible mass or scar"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic sound without shifting dullness"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: "mild"
+  cvat: "좌/우 음성"
+  extremity: "no pitting edema"
+standardized_patient_questions: "이거 혹시 위암 같은 나쁜 병은 아니겠죠? 스트레스 때문인 것 같은데 회사를 그만둬야 하나요?"
+specific_remarks: "환자는 자신의 증상이 심각한 질병일까 봐 불안해하면서도, 스트레스가 주된 원인일 것이라고 생각하는 양가적인 태도를 보인다. 피로감을 호소하며 힘없이 말한다."

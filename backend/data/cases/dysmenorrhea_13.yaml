@@ -1,0 +1,118 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (절박유산)"
+patient_info:
+  name: "임선우"
+  age: 30
+  sex: "여성"
+  presenting_complaint: "임신 중인데 피가 나고 배가 아파요."
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "절박유산 (Threatened abortion)"
+    - "불가피유산 또는 불완전유산"
+    - "자궁외 임신"
+  necessary_tests:
+    - "질식 초음파 (태아 심박동, 자궁경부 상태 확인)"
+    - "혈청 정량 hCG 및 프로게스테론 검사"
+    - "골반 내진 (자궁경부 개대 유무 확인)"
+  necessary_treatments:
+    - "안정 가료 (bed rest)"
+    - "성관계 및 격렬한 활동 금지"
+    - "프로게스테론 제제 투여 고려"
+    - "지속적인 추적 관찰"
+history:
+  sex_age: "여성/30"
+  chief_complaint_verbatim: "임신 8주차인데, 어제 저녁부터 갈색 피가 조금씩 비치더니 오늘은 아랫배가 생리통처럼 아파요. 아기가 잘못될까 봐 너무 무서워요."
+  onset: "질 출혈은 어제 저녁, 복통은 오늘 아침부터"
+  location:
+    initial: "아랫배 중앙"
+    current: "아랫배 중앙"
+  duration:
+    onset_pattern: "서서히 시작됨"
+    recent_course: "출혈 양이 약간 늘고 통증이 동반됨"
+  course: "질 출혈 후 복통이 발생한 양상"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "묵직하고 당기는 듯한 통증"
+    nrs_score: "3-4점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    other: "질 출혈 (밝은 빨간색, 패드 한 장 적실 정도는 아님)"
+  factors:
+    aggravating:
+      - "움직이면 더 불편함"
+    alleviating: "누워있으면 좀 나음"
+  health_check_history:
+    last_checkup: "임신 확인 시"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "엽산"
+    source: "약국"
+    effect: ""
+  social_history:
+    job: "웹툰 작가"
+    stress: "마감 스트레스 있음"
+    alcohol:
+      is_drinker: false
+    smoking:
+      is_smoker: false
+    exercise: "안함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "14세"
+    lmp: "8주 전"
+    cycle: "28일 주기"
+    duration: "5일"
+    amount: "보통"
+    dysmenorrhea: "경미"
+    menopause_age: "해당 없음"
+    obgyn_visits: "2주 전 동네 병원에서 초음파로 아기집과 난황 확인"
+    sexual_history: "기혼"
+    pregnancy_history: "G1P0"
+physical_exam:
+  general: "매우 불안해 보이지만, 급성 병색은 없음."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive"
+    percussion: "Tympanic"
+    palpation: "Mild suprapubic tenderness, no rebound tenderness."
+  pelvic_exam:
+    speculum: "Small amount of blood in the vaginal vault, trickling from the cervical os. Cervix appears closed."
+    bimanual: "Uterus is enlarged to approximately 8-week size, soft. No adnexal masses or tenderness. No cervical motion tenderness."
+  cvat: "양측 음성"
+  extremity: "No edema"
+standardized_patient_questions: "아기는 괜찮은 건가요? 심장은 뛰고 있나요? 왜 피가 나는 거죠? 제가 뭘 잘못해서 그런가요? 유산되는 건 아닌지 너무 걱정돼요."
+specific_remarks: "매우 불안하고 금방이라도 울 것 같은 표정과 목소리로 말한다. 계속해서 아기의 상태를 묻는다. 자신이 무리해서, 혹은 스트레스를 받아서 아기에게 문제가 생긴 것은 아닌지 자책하는 모습을 보인다."

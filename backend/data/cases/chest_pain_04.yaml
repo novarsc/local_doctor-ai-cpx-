@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (폐색전증, Pulmonary Embolism)"
+patient_info:
+  name: "최미영"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "갑자기 발생한 가슴 통증과 숨가쁨"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "115회/분"
+  respiration: "28회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐색전증"
+    - "불안정 협심증 또는 심근경색"
+    - "불안장애 (공황발작)"
+  necessary_tests:
+    - "D-dimer 혈액 검사"
+    - "흉부 CT 폐혈관 조영술 (Chest CT pulmonary angiography)"
+    - "심전도 및 동맥혈가스분석"
+  necessary_treatments:
+    - "입원 치료"
+    - "항응고제 치료 (헤파린 주사 후 경구약 변경)"
+    - "산소 공급 및 보존적 치료"
+history:
+  sex_age: "여성/45세"
+  chief_complaint_verbatim: "오늘 아침에 갑자기 숨이 턱 막히면서 가슴 오른쪽이 결리고 아파요. 숨을 쉴 때마다 더 아파요."
+  onset: "2시간 전"
+  location:
+    initial: "오른쪽 가슴"
+    current: "오른쪽 가슴 옆쪽"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "증상 지속됨"
+  course: "아침에 일어나서 집안일을 하던 중 갑자기 발생함. 주저앉을 정도로 숨이 찼음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "결리는 듯한, 날카로운"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "심호흡"
+      - "움직임"
+    alleviating: "가만히 있으면 약간 덜함"
+  health_check_history:
+    last_checkup: "1년 전 국가검진"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "3주 전 스키 타다 넘어져 왼쪽 다리 정강이뼈 골절로 깁스(cast) 치료 중"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "경구 피임약 (1년간 복용 중)"
+      - "진통제 (골절 때문에)"
+    source: "산부인과, 정형외과"
+    effect: "피임 효과 및 통증 조절"
+  social_history:
+    job: "주부"
+    stress: "자녀 입시 문제로 스트레스 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "다치기 전에는 주 3회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이 가족력 없음"
+  female_history: "LMP: 1주 전. 경구피임약 복용 중."
+physical_exam:
+  general: "안절부절 못하고 호흡이 빠름. 불안해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음은 깨끗하나 호흡이 얕고 빠름. 우측 흉벽 압통 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "왼쪽 다리에 무릎 아래까지 통깁스(long leg cast)를 하고 있음. 오른쪽 다리는 정상. Homan's sign 검사 시도 시 왼쪽 종아리에 통증을 호소함."
+standardized_patient_questions: "갑자기 왜 숨이 차고 아픈 거죠? 뼈 부러진 거랑 상관있나요?"
+specific_remarks: "숨이 차서 길게 말하기 힘들어한다. 다리 골절 병력을 중요하게 언급한다. 왼쪽 다리를 만지려고 하면 아프다고 말한다."

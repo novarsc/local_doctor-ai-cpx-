@@ -1,0 +1,113 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (성장호르몬 결핍증)"
+patient_info:
+  name: "이하은"
+  age: 7
+  sex: "여성"
+  presenting_complaint: "키가 잘 자라지 않음"
+vital_signs:
+  blood_pressure: "95/60mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "아이가 키가 잘 자라지 않는 것 같다는 주소로 내원한 보호자와 아이에 대한 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "성장호르몬 결핍증"
+    - "터너 증후군"
+    - "체질성 성장 지연"
+  necessary_tests:
+    - "골연령 측정을 위한 X-선 검사"
+    - "혈액 검사 (IGF-1, 갑상선 기능 검사, 염색체 검사)"
+    - "성장호르몬 자극 검사"
+  necessary_treatments:
+    - "성장호르몬 주사 치료"
+    - "균형 잡힌 영양 섭취 및 규칙적인 운동"
+    - "정기적인 성장 평가 및 추적 관찰"
+history:
+  sex_age: "여성/7세"
+  chief_complaint_verbatim: "(보호자) 우리 애가 입학했는데 반에서 제일 작아요. 유치원 때부터 작긴 했는데, 점점 더 차이가 나는 것 같아요."
+  onset: "출생 시에는 정상 체중이었으나, 만 3세경부터 성장 속도가 둔화된 것을 느낌"
+  location:
+    initial: "전반적인 신체"
+    current: "전반적인 신체"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 1년간 3cm 밖에 크지 않음"
+  course: "출생 체중은 3.2kg으로 정상이었고, 영유아기에는 잘 먹고 잘 컸다. 하지만 3-4세 경부터 성장곡선이 3퍼센타일 아래로 떨어지기 시작해 계속 그 상태를 유지하고 있다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "6개월 전 영유아 건강검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "출생 시 특이사항 없었음. 머리 다친 적 없음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "초등학생"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "규칙적으로 하지 않음"
+    recent_weight_change: "체중은 키에 비해 약간 더 나가는 편"
+  family_history: "가족 중 키가 특별히 작은 사람 없음 (부: 178cm, 모: 165cm)"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적으로 건강해 보이나, 나이에 비해 체구가 작고 얼굴이 동글동글하며 앳된 인상(cherubic face). 복부에 지방이 약간 축적되어 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "청진상 특이 소견 없음."
+  abdomen:
+    inspection: "편평하고 부드러움"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "신체 비율 정상. 특이 소견 없음."
+standardized_patient_questions: "우리 아이한테 무슨 병이 있는 건가요? 키 크는 주사 맞으면 괜찮아지나요? 부작용은 없어요?"
+specific_remarks: "보호자(어머니)는 아이의 키에 대해 매우 걱정하며, 불안한 표정으로 질문한다. 아이는 진료에 비교적 협조적이지만 약간 주눅이 든 모습을 보인다."

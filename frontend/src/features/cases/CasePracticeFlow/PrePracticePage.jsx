@@ -65,39 +65,62 @@ const PrePracticePage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4 sm:p-6 lg:p-8">
-      <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8">
-        <header className="border-b pb-6 mb-8">
-          <p className="text-sm font-semibold text-primary mb-1">
+    <div className="min-h-screen bg-gray-50 p-4 sm:p-6 lg:p-8">
+      <div className="max-w-3xl mx-auto">
+        {/* 페이지 헤더 */}
+        <header className="mb-8 text-center">
+          <p className="text-sm font-semibold text-indigo-600 mb-2">
             {currentScenario.primaryCategory} &gt; {currentScenario.secondaryCategory}
           </p>
-          <h1 className="text-3xl font-bold text-gray-900">{currentScenario.name}</h1>
-          <p className="mt-2 text-gray-500">실습을 시작하기 전, 환자 정보를 확인하세요.</p>
+          <h1 className="text-3xl font-bold text-gray-800">
+            {currentScenario.name}
+          </h1>
+          <p className="mt-2 text-md text-gray-500">실습을 시작하기 전, 아래 내용을 확인하세요.</p>
         </header>
 
-        <div className="space-y-8">
-          <div>
-            <h2 className="text-xl font-semibold text-gray-800 mb-4">환자 정보</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-base">
-              <p><strong className="font-medium text-gray-500 w-24 inline-block">나이/성별</strong> {currentScenario.age}세 / {currentScenario.sex === 'male' ? '남성' : '여성'}</p>
-              <p><strong className="font-medium text-gray-500 w-24 inline-block">주요 호소</strong> {currentScenario.presentingComplaint}</p>
-            </div>
+        {/* 상황 지침 박스 */}
+        <div className="bg-white rounded-lg shadow-md border border-gray-200">
+          <div className="bg-gray-100 px-6 py-4 border-b border-gray-200 rounded-t-lg">
+            <h2 className="text-lg font-semibold text-gray-700">상황 지침</h2>
           </div>
           
-          <div>
-            <h2 className="text-xl font-semibold text-gray-800 mb-4">활력 징후</h2>
-            <div className="flex flex-wrap gap-3">
-              <span className="text-sm font-medium bg-blue-100 text-blue-800 px-4 py-2 rounded-full">혈압(BP): {currentScenario.bloodPressure}</span>
-              <span className="text-sm font-medium bg-green-100 text-green-800 px-4 py-2 rounded-full">심박수(HR): {currentScenario.pulse}</span>
-              <span className="text-sm font-medium bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full">호흡수(RR): {currentScenario.respiration}</span>
-              <span className="text-sm font-medium bg-red-100 text-red-800 px-4 py-2 rounded-full">체온(BT): {currentScenario.temperature}</span>
+          <div className="p-6 space-y-8">
+            {/* 환자 정보 */}
+            <div>
+              <h3 className="text-md font-semibold text-gray-800 mb-3">[환자 정보]</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong className="font-medium w-24 inline-block">나이/성별:</strong> {currentScenario.age}세 / {currentScenario.sex === 'male' ? '남자' : '여성'}</li>
+                <li><strong className="font-medium w-24 inline-block">주요 호소:</strong> {currentScenario.presentingComplaint}</li>
+              </ul>
             </div>
-          </div>
+            
+            {/* 활력 징후 */}
+            <div>
+              <h3 className="text-md font-semibold text-gray-800 mb-3">[활력 징후]</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li><span className="font-medium w-20 inline-block">혈압:</span> {currentScenario.bloodPressure} mmHg</li>
+                <li><span className="font-medium w-20 inline-block">맥박:</span> {currentScenario.pulse} 회/분</li>
+                <li><span className="font-medium w-20 inline-block">호흡:</span> {currentScenario.respiration} 회/분</li>
+                <li><span className="font-medium w-20 inline-block">체온:</span> {currentScenario.temperature} °C</li>
+              </ul>
+            </div>
 
-          <div>
-            <h2 className="text-xl font-semibold text-gray-800 mb-4">AI 환자 성격 선택</h2>
-            {/* AI 성격 선택 로직은 추후 API 연동 필요 */}
-            <div className="flex space-x-3">
+            {/* 응시자 지침 */}
+            {currentScenario.description && (
+              <div>
+                <h3 className="text-md font-semibold text-gray-800 mb-3">[응시자는 이 환자에게]</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  {currentScenario.description}
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* AI 환자 성격 선택 */}
+        <div className="mt-8">
+            <h2 className="text-xl font-semibold text-gray-800 mb-4 text-center">AI 환자 성격 선택</h2>
+            <div className="flex justify-center space-x-3">
               <button 
                 onClick={() => setSelectedPersonality('p1-uuid-default')}
                 className={`px-5 py-2 rounded-lg transition-all duration-200 ${selectedPersonality === 'p1-uuid-default' ? 'bg-primary text-white shadow-md scale-105' : 'bg-gray-200 hover:bg-gray-300'}`}>
@@ -114,16 +137,16 @@ const PrePracticePage = () => {
                 비협조적
               </button>
             </div>
-          </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t flex flex-col sm:flex-row justify-end items-center gap-4">
+        {/* 하단 버튼 영역 */}
+        <div className="mt-10 pt-6 border-t border-gray-200 flex flex-col sm:flex-row justify-end items-center gap-4">
             <div className="text-sm text-gray-600">
               <p>이번 달 남은 오디오 실습 횟수: <span className="font-bold text-green-600">48회</span></p>
             </div>
             <Button
                 onClick={handleStartPractice}
-                disabled={isStartingSession} // [수정]
+                disabled={isStartingSession}
                 className="w-full sm:w-auto text-lg px-10 py-3"
                 variant="primary"
             >

@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (선천성 갑상선 기능 저하증)"
+patient_info:
+  name: "강지우"
+  age: 4
+  sex: "여성"
+  presenting_complaint: "젖을 잘 빨지 못하고 잠만 잠"
+vital_signs:
+  blood_pressure: "80/45mmHg"
+  pulse: "100회/분"
+  respiration: "30회/분"
+  temperature: "36.2℃"
+examinee_instructions: "아이가 잘 먹지 않고 축 처진다는 주소로 내원한 보호자의 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "선천성 갑상선 기능 저하증"
+    - "패혈증"
+    - "선천성 심장 질환"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4)"
+    - "신생아 대사 이상 선별검사 결과 확인"
+    - "갑상선 스캔 또는 초음파"
+  necessary_treatments:
+    - "즉각적인 갑상선 호르몬제(levothyroxine) 투여"
+    - "수유 및 영양 지원"
+    - "장기적인 성장 및 발달 평가"
+history:
+  sex_age: "여성/생후 4개월"
+  chief_complaint_verbatim: "(보호자) 애가 젖을 빠는 힘이 없어요. 먹다 말고 계속 잠만 자고, 황달도 오래 가는 것 같아요."
+  onset: "생후 1-2개월 경부터 점차 심해짐"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 들어 수유량이 더 줄고, 거의 깨어있지 않고 잠만 자려고 함"
+  course: "만삭 자연분만으로 3.5kg으로 태어났다. 신생아 황달이 있었으나 광선치료 없이 좋아졌다고 들었다. 하지만 황달기가 계속 남아있고, 다른 아기들보다 활동성이 떨어지고 순했다. 변비도 심해서 3-4일에 한 번씩 힘들게 변을 본다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "수유 후 가끔 게워냄"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2개월 영유아 검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "신생아 대사 이상 선별검사를 받았으나 결과 확인 못함"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "영아"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "활동성 저하"
+    recent_weight_change: "체중 증가 부진"
+  family_history: "특이 가족력 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "기면 상태로 축 처져 있음. 자극에 대한 반응이 느림. 피부가 차고 건조하며 얼룩덜룩함. 전신에 경미한 황달 관찰됨."
+  heent:
+    sclera: "경미한 공막 황달(icteric sclera)"
+    oral_mucosa: "건조함. 혀가 커서 입 밖으로 약간 나와 있음(macroglossia)."
+    fontanelle: "대천문이 넓게 열려 있음."
+  chest: "청진상 호흡음 감소, 심음은 규칙적이나 약하게 들림."
+  abdomen:
+    inspection: "배가 빵빵하게 불러 있음(distended). 제대 탈장(umbilical hernia) 관찰됨."
+    auscultation: "장음 감소"
+    percussion: "전반적인 고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "해당 없음"
+  extremity: "사지 근긴장도 저하(hypotonia). 피부가 차가움."
+standardized_patient_questions: "우리 아기 왜 이런가요? 심각한 병인가요? 치료하면 괜찮아지나요? 혹시 뇌에 문제가 생긴 건 아닐까요?"
+specific_remarks: "보호자는 매우 불안해하며, 아기가 잘못될까 봐 거의 울먹이는 목소리로 말한다. 신생아 선별검사에 대해 물으면 '검사는 했는데, 병원에서 별 연락이 없어서 괜찮은 줄 알았다'고 대답한다."

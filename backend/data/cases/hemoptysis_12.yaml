@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (이물질 흡인)"
+patient_info:
+  name: "김영감"
+  age: 78
+  sex: "남성"
+  presenting_complaint: "만성 기침과 간헐적인 객혈"
+vital_signs:
+  blood_pressure: "135/80mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기관지 내 이물질로 인한 만성 염증"
+    - "폐암"
+    - "기관지확장증"
+  necessary_tests:
+    - "흉부 X-ray 및 흉부 CT"
+    - "기관지 내시경 (진단 및 치료 목적)"
+    - "객담 검사"
+  necessary_treatments:
+    - "기관지 내시경을 통한 이물질 제거"
+    - "이물질 제거 후 2차 감염에 대한 항생제 치료"
+    - "잔존 염증 및 기관지 손상에 대한 경과 관찰"
+history:
+  sex_age: "남성/78"
+  chief_complaint_verbatim: "한 반년 전부터 기침이 멎지를 않고, 가끔 가래에 피가 섞여 나와요. 폐렴인가 해서 약도 먹었는데 소용이 없네요."
+  onset: "약 6개월 전"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "증상이 호전 없이 지속됨"
+  course: "6개월 전, 식사 중에 갑자기 사레가 심하게 들린 적이 있었음. 그 이후로 마른기침이 계속되고, 3개월 전부터는 누런 가래와 함께 피가 조금씩 섞여 나옴. 동네 의원에서 폐렴으로 진단받고 항생제를 2주간 복용했으나 증상 호전이 없었음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "화농성 가래에 검붉은 피가 소량 섞여 나옴"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "파킨슨병 초기 (진단 1년 전), 치과 임플란트 시술 받음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "레보도파"
+      - "최근 2주간 항생제(목시플록사신) 복용했으나 중단"
+    source: "신경과, 지역 의원"
+    effect: "파킨슨병 증상은 조절되나 기침은 호전 없음"
+  social_history:
+    job: "은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "매일 30분씩 공원 걷기"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "나이에 비해 정정한 편이나, 약간의 안정 시 떨림(resting tremor) 관찰됨."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist. 구강 내 다수의 임플란트 관찰됨."
+  chest: "오른쪽 폐하엽(Right lower lobe)에서 호흡음이 감소되어 있고, 국소적인 쌕쌕거림(localized wheezing)과 수포음(crackles)이 청진됨. 타진 시 해당 부위 둔탁음(dullness)."
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "나이 들어서 그런가 했는데, 약을 먹어도 안 나으니 걱정이 되네요. 혹시 폐암일까요? 왜 한쪽 폐에서만 소리가 나나요?"
+specific_remarks: "6개월 전 사레가 들렸던 사건을 학생이 자세히 묻기 전에는 대수롭지 않게 '밥 먹다 그랬다' 정도로만 언급할 것. 학생이 연관성을 의심하고 질문하면 '그러고 보니 그때부터 기침이 시작된 것 같다'고 깨닫는 듯이 반응. 파킨슨병으로 인해 음식을 삼키는 것이 예전 같지 않다는 점을 덧붙여도 좋음."

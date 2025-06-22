@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (공황장애)"
+patient_info:
+  name: "박준서"
+  age: 28
+  sex: "남성"
+  presenting_complaint: "갑자기 숨이 막히고 죽을 것 같이 불안해요."
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "110회/분"
+  respiration: "24회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "공황장애"
+    - "급성 관상동맥 증후군"
+    - "부정맥 (발작성 상심실성 빈맥 등)"
+  necessary_tests:
+    - "심전도(EKG)"
+    - "심장 효소 검사 (CK-MB, Troponin)"
+    - "갑상선 기능 검사(TFT), 전해질 검사"
+  necessary_treatments:
+    - "급성기 증상 조절 (벤조디아제핀 계열 약물)"
+    - "장기적 약물 치료 (SSRI)"
+    - "인지행동치료 (증상에 대한 잘못된 생각 교정, 노출 치료)"
+history:
+  sex_age: "남성/28"
+  chief_complaint_verbatim: "한 달 전부터 갑자기 숨이 턱 막히고 심장이 터질 것처럼 뛰어요. 이러다 죽는 거 아닌가 싶어서 응급실도 몇 번 갔는데 괜찮다고만 해요. 또 그럴까 봐 무서워서 사람 많은 곳은 피하게 돼요."
+  onset: "1개월 전"
+  location:
+    initial: "가슴, 전신"
+    current: "가슴, 전신"
+  duration:
+    onset_pattern: "갑작스럽게 발생 (수 분 내 최고조)"
+    recent_course: "증상 발생 빈도가 주 2-3회로 증가함"
+  course: "한 달 전 지하철에서 처음 경험함. 10분 정도 지속되다가 저절로 사라짐. 이후 버스나 마트 등 비슷한 장소에서 증상이 반복됨. 증상이 없을 때도 또 증상이 생길까 봐 불안해짐(예기불안)."
+  experience_prev_episodes:
+    frequency: "지난 한 달간 5-6회"
+    trigger: "주로 밀폐된 공간이나 사람 많은 곳에서 발생하지만, 예측 불가능하게 발생하기도 함"
+    symptoms: "심계항진, 숨 가쁨, 가슴 답답함, 어지러움, 손발 저림, 죽을 것 같은 공포"
+  character_of_symptom:
+    quality: "극심한 공포, 심장이 터질 듯한 느낌, 질식감"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: true
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "지하철, 버스 등 대중교통 이용"
+      - "스트레스 상황"
+    alleviating: "증상이 시작되면 밖으로 뛰쳐나가 신선한 공기를 마시면 조금 나아지는 느낌. 보통 20-30분 내에 저절로 사라짐."
+  health_check_history:
+    last_checkup: "응급실 방문 시 시행한 심전도, 흉부 X-ray, 기본 혈액검사에서 특이소견 없었음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "대학원생"
+    stress: "논문 준비로 스트레스가 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: "N/A"
+    exercise: "최근 거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "매우 불안해 보이며, 안절부절못하는 모습. 호흡이 다소 빠름."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "slightly dry"
+  chest: "rapid and shallow breathing, but clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic sound"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema, hands are cool and sweaty"
+standardized_patient_questions: "이거 심장병 아닌가요? 정말 괜찮은 거 맞아요? 왜 자꾸 이런 증상이 생기는 건가요?"
+specific_remarks: "환자는 면담 중에도 금방이라도 증상이 재발할까 두려워하는 모습을 보인다. '죽을 것 같다'는 표현을 반복하며, 자신의 증상이 신체적인 문제일 것이라고 강하게 믿고 있다. 의사의 설명에 안심하기보다는 의심하는 태도를 보인다."

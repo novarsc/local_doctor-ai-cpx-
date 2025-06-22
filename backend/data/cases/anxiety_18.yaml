@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "18"
+title: "실전 모의 증례 (메니에르병)"
+patient_info:
+  name: "나혜진"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "세상이 빙빙 돌면서 불안하고 귀가 안 들려요."
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "메니에르병 (Meniere's disease)"
+    - "전정신경염 (Vestibular neuronitis)"
+    - "양성 돌발성 체위성 현훈 (BPPV)"
+  necessary_tests:
+    - "순음청력검사 (Pure tone audiometry)"
+    - "전기안진검사 (ENG), 전정유발근전위검사 (VEMP)"
+    - "뇌 MRI (청신경종 등 다른 원인 감별)"
+  necessary_treatments:
+    - "급성기 증상 조절 (진정제, 항히스타민제, 항구토제)"
+    - "저염식, 카페인/알코올 제한 등 생활 습관 개선"
+    - "이뇨제 등 약물 치료, 필요시 고실 내 약물 주입술 고려"
+history:
+  sex_age: "여성/42"
+  chief_complaint_verbatim: "몇 시간 전부터 갑자기 세상이 빙빙 돌고 속이 울렁거려서 서 있을 수가 없어요. 왼쪽 귀가 꽉 막힌 것 같고 '윙-'하는 소리가 나면서 너무 불안해요."
+  onset: "내원 2시간 전"
+  location:
+    initial: "머리, 왼쪽 귀"
+    current: "머리, 왼쪽 귀"
+  duration:
+    onset_pattern: "갑작스럽게 발생"
+    recent_course: "증상 지속 중"
+  course: "2시간 전, 설거지를 하던 중 갑자기 주변이 시계 반대 방향으로 빙빙 도는 극심한 어지럼증(현훈)이 발생함. 동시에 왼쪽 귀가 먹먹해지고(이충만감) '윙-'하는 소리(이명)가 들리기 시작함. 속이 메스꺼워 구토를 한 차례 함. 이런 증상과 함께 극심한 불안감이 동반됨. 과거에도 비슷한 증상이 몇 차례 있었으나 이번처럼 심하지는 않았음."
+  experience_prev_episodes:
+    frequency: "지난 2년간 4-5회"
+    trigger: "피곤하거나 스트레스 받을 때"
+    symptoms: "어지럼증, 이명, 청력 저하. 증상은 수 시간 지속되다 저절로 호전되었음."
+  character_of_symptom:
+    quality: "주변이 회전하는 듯한 심한 어지럼증(vertigo), 귀의 이상 증상, 이로 인한 불안감"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "true"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "머리를 움직일 때"
+    alleviating: "눈을 감고 가만히 누워 있으면 조금 덜함"
+  health_check_history:
+    last_checkup: "1년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "주부"
+    stress: "최근 자녀 문제로 스트레스가 심했음"
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "주 3회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "급성 병색. 눈을 감고 있으며, 작은 움직임에도 어지럼증을 호소함. 불안해 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+    ear drum: "both intact, no sign of infection"
+    nystagmus: "spontaneous horizontal nystagmus toward right side (away from affected ear)"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  neurologic_exam: "Romberg test cannot be performed due to severe vertigo. No other focal neurological deficits."
+standardized_patient_questions: "제가 왜 이렇게 어지러운 건가요? 뇌졸중 같은 건 아니겠죠? 귀에서 소리가 나는데, 이러다 못 듣게 되는 건 아닌지 너무 불안해요."
+specific_remarks: "환자는 현재 어지럼증이 심한 상태로, 눈을 뜨거나 머리를 움직이는 것을 극도로 꺼린다. 말할 때 메스꺼움을 호소하며, 불안정한 목소리로 말한다. 어지럼증(vertigo), 이명(tinnitus), 이충만감(aural fullness), 청력 저하의 4대 증상을 명확하게 호소한다. 특히 청력 문제에 대한 불안감을 강하게 표현한다."

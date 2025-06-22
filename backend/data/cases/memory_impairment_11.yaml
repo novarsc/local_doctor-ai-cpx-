@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (전두측두엽 치매)"
+patient_info:
+  name: "최성진"
+  age: 59
+  sex: "남성"
+  presenting_complaint: "성격 변화와 이상 행동, 최근 들어 기억력 저하"
+vital_signs:
+  blood_pressure: "128/78mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자(보호자)와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전두측두엽 치매 (행동 변이형)"
+    - "알츠하이머병 (비전형적)"
+    - "정신과적 질환 (예: 조울증, 조현병의 후기 발현)"
+  necessary_tests:
+    - "신경인지기능검사 (특히 전두엽 기능 평가)"
+    - "뇌 MRI 또는 FDG-PET (전두엽/측두엽 위축 또는 대사 저하 확인)"
+    - "가족력 확인 및 유전자 검사 (필요시)"
+  necessary_treatments:
+    - "대증적 약물 치료 (선택적 세로토닌 재흡수 억제제 등)"
+    - "행동 치료 및 환경 조절"
+    - "가족에 대한 교육과 지지가 매우 중요함"
+history:
+  sex_age: "남성/59세"
+  chief_complaint_verbatim: "(보호자-아내) 남편이 이상해졌어요. 예전엔 안 그랬는데 감정 조절도 안되고, 아무 데서나 부적절한 말을 해요. 요즘은 자꾸 깜빡하기도 하고요."
+  onset: "약 2년 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 악화"
+  course: "2년 전부터 사소한 일에 화를 잘 내고 충동적으로 변함. 다른 사람의 감정을 전혀 고려하지 않고 직설적인 말을 함 (탈억제). 위생 관념이 없어지고, 매일 같은 옷만 입으려 함. 단 음식을 폭식하는 경향이 생김. 기억력 저하는 1년 전부터 나타나기 시작했으나, 성격 변화에 비하면 심하지 않음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "기억력 저하보다 성격 및 행동 변화가 주 증상"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "자신의 뜻대로 되지 않을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원 (최근 업무 문제로 퇴사 권유 받음)"
+    stress: "본인은 느끼지 못함, 주변 스트레스 극심"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "전혀 안 함"
+    recent_weight_change: "최근 1년간 8kg 증가 (폭식으로 인해)"
+  family_history: "아버지가 60대 초반에 비슷한 증상으로 고생하셨다고 함"
+  female_history: "해당 없음"
+physical_exam:
+  general: "진찰에 비협조적이고, 자신의 문제에 대한 병식이 전혀 없음. 의사의 질문에 무관심하거나 부적절한 농담을 함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat, soft"
+    auscultation: "normoactive"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "신체 진찰 상 특이 소견 없음. 원시 반사(grasp, snout)가 나타날 수 있음."
+standardized_patient_questions: "(보호자) 이게 치매의 한 종류인가요? 왜 성격부터 변하는 건가요? (환자 본인) 난 아무 문제 없는데 왜 병원에 데려왔어요? 이 의사 양반, 나한테 관심 있나?"
+specific_remarks: "환자 본인은 병식이 전혀 없고, 보호자가 주된 정보 제공자 역할을 함. 환자는 진찰 내내 무관심하거나, 탈억제된 행동(부적절한 농담, 사회적 규범에 어긋나는 행동)을 보여야 함. 기억력 검사에서는 비교적 정상 소견을 보이지만, 유창성 검사(예: 1분간 동물 이름 대기) 등 전두엽 기능 검사에서 현저한 저하를 보임. 보호자의 고통과 좌절감을 표현하는 것이 중요."

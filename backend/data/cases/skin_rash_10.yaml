@@ -1,0 +1,115 @@
+---
+chapter: "관절.근골격.피부"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (장미색 비강진)"
+patient_info:
+  name: "윤아름"
+  age: 21
+  sex: "여성"
+  presenting_complaint: "몸통에 생긴 분홍색 타원형 발진"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "장미색 비강진"
+    - "이차 매독"
+    - "체부 백선 (광범위한 경우)"
+  necessary_tests:
+    - "대부분 임상 진단으로 충분"
+    - "이차 매독 감별을 위한 혈청 검사 (VDRL/RPR)"
+    - "필요시 KOH 도말 검사"
+  necessary_treatments:
+    - "자연 소실되는 질환임을 설명하고 안심시키기"
+    - "증상 완화를 위한 국소 스테로이드 또는 항히스타민제"
+    - "필요시 자외선 치료"
+history:
+  sex_age: "여성/21"
+  chief_complaint_verbatim: "일주일 전부터 배에 타원형으로 분홍색 반점이 생겼어요. 별로 가렵지는 않은데, 등 쪽으로 번지면서 크리스마스 트리 모양처럼 보여서 걱정돼서 왔어요."
+  onset: "약 2주 전 첫 발진, 1주 전 전신 발진"
+  location:
+    initial: "배 (하나의 큰 반점)"
+    current: "몸통, 등, 목, 팔 윗부분"
+  duration:
+    onset_pattern: "서서히"
+    recent_course: "점점 번지고 있음"
+  course: "약 2주 전에 배에 500원 동전 크기의 타원형 반점이 하나 먼저 생겼고(원발반), 일주일 정도 지나자 등과 가슴을 중심으로 더 작은 타원형 반점들이 여러 개 나타났다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "거의 가렵지 않음 (경미한 정도)"
+    nrs_score: "1"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+      # 가벼운 감기 증상이 선행되었는지 확인
+      # "발진 생기기 전에 목이 좀 아프고 콧물이 났었어요."
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "뜨거운 물로 샤워할 때 더 붉어짐"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "대학 신입생 검진, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 3주 전, 주기: 28일, 규칙적"
+physical_exam:
+  general: "건강해 보이나 피부 발진에 대해 걱정하는 모습. 의식 명료."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and clear"
+  chest: "clear breath sounds bilaterally"
+  abdomen:
+    inspection: "복부에 2-3cm 크기의 경계가 명확한 난원형의 홍반성 반점(원발반, herald patch)이 하나 관찰됨. 가장자리에 미세한 인설(collarette scale)이 있음."
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "몸통, 등, 목, 상지에 걸쳐 피부결(cleavage line)을 따라 배열된 다수의 작은 난원형의 분홍색 반점들이 관찰됨. 특히 등에서는 '크리스마스 트리' 양상을 보임. 손바닥, 발바닥은 침범하지 않음."
+standardized_patient_questions: "이거 왜 생기는 거예요? 무슨 나쁜 병은 아니죠? 전염되나요? 저절로 없어진다는데 정말인가요?"
+specific_remarks: "환자는 '원발반'이 먼저 생기고 이후에 전신 발진이 나타났다는 병력을 명확히 진술해야 한다. 또한 등에서 '크리스마스 트리' 모양으로 발진이 분포한다는 특징을 알고 있어야 한다. 가려움증은 거의 없거나 경미하다는 점을 강조한다."

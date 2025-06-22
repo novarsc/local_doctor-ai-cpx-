@@ -1,0 +1,113 @@
+---
+chapter: "상담"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (인위성 장애 - 뮌하우젠 증후군)"
+patient_info:
+  name: "장미나"
+  age: 33
+  sex: "여성"
+  presenting_complaint: "배가 너무 아프고 피를 토함"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "인위성 장애 (Factitious disorder imposed on self)"
+    - "위궤양 출혈 (감별 필요)"
+    - "식도정맥류 파열 (감별 필요)"
+  necessary_tests:
+    - "위 내시경 검사 (EGD)"
+    - "일반혈액검사 (CBC) 및 혈액응고검사 (PT/aPTT)"
+    - "환자 소지품 및 병실 환경에 대한 관찰"
+  necessary_treatments:
+    - "정신건강의학과 협진 및 정신치료"
+    - "환자와의 대립을 피하고, 지지적인 관계 형성 시도"
+    - "기저의 정서적 문제(학대 경험 등)에 대한 탐색"
+history:
+  sex_age: "여성/33"
+  chief_complaint_verbatim: "어젯밤부터 갑자기 배가 너무 아프더니, 오늘 아침에는 피를 한 사발이나 토했어요. 죽는 줄 알았어요."
+  onset: "1일 전"
+  location:
+    initial: "명치"
+    current: "명치"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "지속됨"
+  course: "환자는 여러 병원의 응급실을 전전한 기록이 있다. 매번 심한 복통, 토혈, 혈뇨 등 극적인 증상을 호소하나, 정밀 검사에서는 증상을 설명할 만한 뚜렷한 원인을 찾지 못했다. 이번에도 극심한 복통과 함께 '선홍색 피'를 토했다고 주장한다. 하지만 환자의 활력 징후는 안정적이며, 빈혈을 시사하는 창백함도 보이지 않는다. 의학 용어를 능숙하게 사용하며 자신의 상태에 대해 해박한 지식을 보인다."
+  experience_prev_episodes:
+    frequency: "지난 1년간 5회 이상"
+    trigger: "주로 남편과의 갈등 후"
+    symptoms: "복통, 토혈, 혈뇨, 경련 등 다양함"
+  character_of_symptom:
+    quality: "매우 고통스럽다고 주장"
+    nrs_score: "10"
+    radiation: "등으로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "환자는 '토혈'했다고 주장"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating: []
+    alleviating: "병원에 와서 의사의 관심을 받을 때"
+  health_check_history:
+    last_checkup: "여러 병원에서 수시로 검사함"
+    endoscopy_finding: "과거 내시경에서 경미한 위염 외 특이소견 없었음"
+  trauma_history: "어린 시절 부모에게 방임 및 정서적 학대를 당한 경험이 있음. 결혼 후 남편의 무관심과 언어폭력에 시달림."
+  past_medical_history:
+    underlying_disease: "기록상으로는 없음"
+    allergies: "여러 약물에 알러지가 있다고 주장함"
+  medication_history:
+    taken:
+      - "항응고제 (와파린) - 다른 사람의 약을 몰래 복용했을 가능성"
+    source: "불분명"
+    effect: ""
+  social_history:
+    job: "없음"
+    stress: "높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "매우 고통스러운 표정을 짓고 있으나, 활력징후는 안정적임. 의사의 관심을 끌려는 듯한 행동을 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상. 구강 내 출혈 흔적 없음."
+  chest: "정상"
+  abdomen:
+    inspection: "과거 여러 검사로 인한 흉터(laparoscopic scars)가 보임."
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 진찰자의 손길에 따라 압통의 위치와 강도가 변하는 비전형적인 양상
+  cvat: "음성/음성"
+  extremity: "정상"
+standardized_patient_questions: "이번에는 정말 심각한 것 같아요. 꼭 내시경 해주세요. 이전 병원 의사들은 실력이 없어서 원인을 못 찾았어요. 선생님은 다르시죠?"
+specific_remarks: "환자는 '환자 역할'에 매우 익숙하다. 증상을 과장되고 극적으로 표현한다. 과거 병력에 대해 질문하면 모호하게 대답하거나, 여러 병원의 기록이 일치하지 않는 모습을 보인다. 자신의 주장이 의심받는다고 느끼면 분노하거나 다른 증상을 호소한다. (예: 갑자기 팔에 마비가 온다고 주장)"

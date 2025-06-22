@@ -44,6 +44,71 @@ export const registerUser = createAsyncThunk(
   }
 );
 
+// Async thunk for Naver social login
+export const naverLogin = createAsyncThunk(
+  'auth/naverLogin',
+  async (code, { rejectWithValue }) => {
+    try {
+      const userData = await authService.naverLogin(code);
+      return userData;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
+// Async thunk for Kakao social login
+export const kakaoLogin = createAsyncThunk(
+  'auth/kakaoLogin',
+  async (code, { rejectWithValue }) => {
+    try {
+      const userData = await authService.kakaoLogin(code);
+      return userData;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
+// Async thunk for finding user ID
+export const findUserId = createAsyncThunk(
+  'auth/findId',
+  async (email, { rejectWithValue }) => {
+    try {
+      const response = await authService.findId(email);
+      return response;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
+// Async thunk for finding password
+export const findUserPassword = createAsyncThunk(
+  'auth/findPassword',
+  async (email, { rejectWithValue }) => {
+    try {
+      const response = await authService.findPassword(email);
+      return response;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
+// Async thunk for resetting password
+export const resetUserPassword = createAsyncThunk(
+  'auth/resetPassword',
+  async ({ token, newPassword }, { rejectWithValue }) => {
+    try {
+      const response = await authService.resetPassword(token, newPassword);
+      return response;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
 // Async thunk for updating user profile
 export const updateUserProfile = createAsyncThunk(
   'auth/updateProfile',
@@ -123,11 +188,74 @@ const authSlice = createSlice({
         state.isLoading = false;
         state.error = action.payload;
       })
-  
-
-
- // ... (loginUser, registerUser lifecycle은 그대로 둡니다) ...
-      
+      // Naver Login lifecycle
+      .addCase(naverLogin.pending, (state) => {
+        state.isLoading = true;
+        state.error = null;
+      })
+      .addCase(naverLogin.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.isAuthenticated = true;
+        state.user = action.payload;
+      })
+      .addCase(naverLogin.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.payload;
+        state.user = null;
+        state.isAuthenticated = false;
+      })
+      // Kakao Login lifecycle
+      .addCase(kakaoLogin.pending, (state) => {
+        state.isLoading = true;
+        state.error = null;
+      })
+      .addCase(kakaoLogin.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.isAuthenticated = true;
+        state.user = action.payload;
+      })
+      .addCase(kakaoLogin.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.payload;
+        state.user = null;
+        state.isAuthenticated = false;
+      })
+      // Find ID lifecycle
+      .addCase(findUserId.pending, (state) => {
+        state.isLoading = true;
+        state.error = null;
+      })
+      .addCase(findUserId.fulfilled, (state) => {
+        state.isLoading = false;
+      })
+      .addCase(findUserId.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.payload;
+      })
+      // Find Password lifecycle
+      .addCase(findUserPassword.pending, (state) => {
+        state.isLoading = true;
+        state.error = null;
+      })
+      .addCase(findUserPassword.fulfilled, (state) => {
+        state.isLoading = false;
+      })
+      .addCase(findUserPassword.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.payload;
+      })
+      // Reset Password lifecycle
+      .addCase(resetUserPassword.pending, (state) => {
+        state.isLoading = true;
+        state.error = null;
+      })
+      .addCase(resetUserPassword.fulfilled, (state) => {
+        state.isLoading = false;
+      })
+      .addCase(resetUserPassword.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.payload;
+      })
       // Update Profile lifecycle
       .addCase(updateUserProfile.pending, (state) => {
         state.isLoading = true; // 또는 isUpdating 같은 별도 상태 사용 가능

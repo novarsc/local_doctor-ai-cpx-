@@ -1,0 +1,111 @@
+---
+chapter: "상담"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (버거씨병)"
+patient_info:
+  name: "윤지환"
+  age: 38
+  sex: "남성"
+  presenting_complaint: "손가락과 발가락의 통증 및 색깔 변화"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 치료(절대적 금연 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "버거씨병 (Buerger's disease, 폐쇄성 혈전혈관염)"
+    - "레이노 현상 (Raynaud's phenomenon)"
+    - "죽상경화증에 의한 말초혈관질환"
+  necessary_tests:
+    - "사지 혈관 도플러 초음파"
+    - "혈관 조영술"
+    - "혈액 검사 (자가면역 항체 검사 등 감별진단 목적)"
+  necessary_treatments:
+    - "절대적인 금연 (가장 중요하며 유일한 근본 치료)"
+    - "혈관확장제, 항혈소판제 등 약물 치료"
+    - "상처 관리 및 보온, 필요시 교감신경 차단술 고려"
+history:
+  sex_age: "남성/38세"
+  chief_complaint_verbatim: "추운 날씨에 손가락 끝이 하얗게 변하면서 아파요. 최근에는 오른쪽 발가락 두 개가 까맣게 변하고 상처가 생겼는데 낫지를 않아요."
+  onset: "약 1년 전부터 손가락 증상 시작, 2개월 전 발가락 증상 발생"
+  location:
+    initial: "양손 손가락 끝"
+    current: "손가락 끝, 오른쪽 2, 3번째 발가락"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "악화됨, 발가락에 궤양이 생김"
+  course: "작년 겨울 처음 손가락이 하얗게 변하는 것을 느낌. 올해 들어서는 발을 조금만 부딪혀도 심하게 아프고 상처가 잘 낫지 않더니, 2개월 전부터 발가락 끝이 까맣게 변하고 진물이 남."
+  experience_prev_episodes:
+    frequency: "추운 날씨에 자주 발생"
+    trigger: "추위 노출, 스트레스"
+    symptoms: "손가락이 창백해졌다가 파래지고, 다시 붉어지면서 통증 발생"
+  character_of_symptom:
+    quality: "가만히 있어도 쑤시고 아픈 통증 (휴식기 통증)"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    other: "걸을 때 장딴지가 아픈 증상 (파행)"
+  factors:
+    aggravating:
+      - "추위 노출"
+      - "걷기"
+    alleviating: "온찜질, 휴식"
+  health_check_history:
+    last_checkup: "받은 적 없음"
+    endoscopy_finding: ""
+  trauma_history: "2개월 전 문턱에 발가락을 부딪힘"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제"
+    source: "약국"
+    effect: "효과 별로 없음"
+  social_history:
+    job: "택배 기사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "2갑/일 (20년간)"
+      cessation_period: "없음"
+    exercise: "업무 자체가 운동이라고 생각함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "젊은 남성으로, 통증으로 인상을 찡그리고 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "오른쪽 두 번째, 세 번째 발가락 끝이 검게 괴사되고 궤양 형성. 양측 족배동맥(dorsalis pedis) 및 후경골동맥(posterior tibial) 맥박 촉지 안됨. 손가락 끝 청색증 관찰됨. Allen's test 양성."
+standardized_patient_questions: "왜 이렇게 발가락이 썩어 들어가는 건가요? 발가락을 잘라야 할 수도 있나요? 담배를 끊으면 정말 나아지는 게 맞나요?"
+specific_remarks: "환자는 발가락을 절단할 수도 있다는 공포감에 휩싸여 있음. 흡연이 혈관을 수축시켜 병을 악화시킨다는 사실을 받아들이기 힘들어하며, '스트레스 때문에 담배를 끊기 힘들다'고 항변함. 금연이 유일한 치료법임을 단호하게 설명하고 금연 클리닉 연계 등 구체적인 방법을 제시할 때 희망을 갖는 모습을 연기함."

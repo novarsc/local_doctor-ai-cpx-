@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (중증 근무력증)"
+patient_info:
+  name: "이수진"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "오후만 되면 눈꺼풀이 처지고 물체가 둘로 보임"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "중증 근무력증 (Myasthenia gravis)"
+    - "뇌종양 (Brain tumor)"
+    - "갑상선 안병증 (Thyroid ophthalmopathy)"
+  necessary_tests:
+    - "반복신경자극검사 (Repetitive nerve stimulation test)"
+    - "아세틸콜린 수용체 항체 검사 (AChR Ab test)"
+    - "가슴 CT (흉선종 확인 목적)"
+  necessary_treatments:
+    - "아세틸콜린 분해효소 억제제 (Pyridostigmine) 투여"
+    - "면역억제제 (스테로이드 등) 치료"
+    - "흉선 절제술 (해당시)"
+history:
+  sex_age: "여성/32"
+  chief_complaint_verbatim: "아침에는 괜찮은데, 저녁때쯤 되면 눈꺼풀이 자꾸 내려오고, 물건을 보려고 하면 두 개로 겹쳐 보여요. 말하기도 힘들어져요."
+  onset: "2개월 전"
+  location:
+    initial: "양쪽 눈"
+    current: "양쪽 눈, 턱, 목"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "증상 빈도 및 강도 증가"
+  course: "2개월 전부터 오후에 피곤하면 오른쪽 눈꺼풀이 살짝 처지는 것을 느낌. 최근 한 달 전부터는 양쪽 눈꺼풀이 모두 처지고, 책을 오래 보면 글씨가 두 개로 겹쳐 보임. 음식을 씹거나 말을 오래 하면 턱이 아프고 발음이 어눌해짐. 아침에 자고 일어나면 증상이 거의 없음."
+  experience_prev_episodes:
+    frequency: "거의 매일 오후"
+    trigger: "피로, 스트레스, 긴 대화"
+    symptoms: "눈꺼풀 처짐, 복시, 저작 곤란"
+  character_of_symptom:
+    quality: "근육에 힘이 빠지는 느낌"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "반복적인 눈 깜빡임 또는 위쪽 주시"
+      - "오후 시간대"
+    alleviating: "휴식, 수면"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "디자이너"
+    stress: "마감 때문에 많은 편"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "필라테스 주 1회"
+    recent_weight_change: "없음"
+  family_history: "이모가 류마티스 관절염 진단받음"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "전반적으로 양호해 보이나 약간 피곤한 기색. 의식 명료함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+    # 추가 진찰: 위쪽을 1분간 주시하게 한 후 양측성 안검하수 뚜렷해짐. 외안근 검사에서 양안의 내전 및 상전 시 복시 호소.
+  chest: "호흡음 정상, 잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "사지 근력 및 심부건반사 정상. 감각 이상 없음."
+standardized_patient_questions: "왜 오후만 되면 이렇게 힘이 빠지는 건가요? 위험한 병인가요? 완치는 가능한가요?"
+specific_remarks: "진찰 초기에는 증상이 경미하지만, 의사가 반복적인 근육 사용을 유도하는 신체진찰(예: 위쪽 주시, 팔 들고 버티기)을 하면 증상이 명확해지는 모습을 연기한다. 말을 할 때 발음이 약간 어눌해지는 것을 표현한다."

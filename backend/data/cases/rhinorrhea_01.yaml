@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (급성 바이러스 비염, 감기)"
+patient_info:
+  name: "김민준"
+  age: 28
+  sex: "남성"
+  presenting_complaint: "3일 전부터 맑은 콧물이 나고 코가 막힘"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 바이러스 비염 (감기)"
+    - "알레르기 비염"
+    - "급성 부비동염 초기"
+  necessary_tests:
+    - "일반적으로 추가 검사는 필요하지 않습니다."
+    - "증상 지속 시 비용종 및 부비동염 감별을 위한 비강 내시경 검사"
+    - "알레르기 의심 시 알레르기 피부 반응 검사 또는 혈액 검사"
+  necessary_treatments:
+    - "충분한 휴식 및 수분 섭취"
+    - "증상 완화를 위한 대증요법 (항히스타민제, 비강 분무제 등)"
+    - "세균성 2차 감염이 의심되지 않는 한 항생제는 필요하지 않습니다."
+history:
+  sex_age: "남성/28"
+  chief_complaint_verbatim: "삼일 전부터 콧물이 줄줄 흐르고 코가 꽉 막혀서 힘들어요. 목도 약간 칼칼한 것 같아요."
+  onset: "3일 전 아침"
+  location:
+    initial: "양측 코"
+    current: "양측 코, 인후"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "어제부터 코막힘이 더 심해지고 약간의 근육통이 동반됨"
+  course: "처음에는 맑은 콧물과 재채기로 시작하여 점차 코막힘과 인후통이 동반되는 양상"
+  experience_prev_episodes:
+    frequency: "1년에 2-3회 정도 비슷한 경험 있음"
+    trigger: "주로 환절기나 피곤할 때"
+    symptoms: "콧물, 코막힘, 기침 등"
+  character_of_symptom:
+    quality: "물처럼 흐르는 맑은 콧물, 답답한 코막힘"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침, 저녁"
+      - "찬 공기"
+    alleviating: "따뜻한 음료를 마실 때"
+  health_check_history:
+    last_checkup: "1년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합감기약 (약국 구매)"
+    source: "약국"
+    effect: "먹을 때만 약간 나아지는 느낌"
+  social_history:
+    job: "사무직"
+    stress: "최근 프로젝트 때문에 야근이 잦아 피곤했음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "최근 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "경미한 피로감을 보이나 전반적으로 양호한 상태"
+  heent:
+    sclera: "충혈 없음"
+    oral_mucosa: "약간 건조함, 후비루 및 인두부 발적 소견 보임"
+    # 추가 소견: 비강 검진 시 양측 비강 점막의 발적 및 부종, 수양성 비루 관찰됨
+  chest: "청진상 호흡음 깨끗함"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "이거 그냥 감기 맞나요? 주사 한 대 맞으면 빨리 안 낫나요? 회사에 옮길 수도 있나요?"
+specific_remarks: "환자는 피곤한 기색을 보이며, 가끔 코를 훌쩍이거나 킁킁거리는 행동을 한다. 목이 약간 불편한 듯 가끔 헛기침을 한다."

@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (쿠싱 증후군)"
+patient_info:
+  name: "김민희"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "얼굴이 붓고 체중이 증가함"
+vital_signs:
+  blood_pressure: "162/102mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "쿠싱 증후군에 의한 이차성 고혈압"
+    - "대사 증후군"
+    - "단순 비만 및 본태성 고혈압"
+  necessary_tests:
+    - "24시간 소변 유리 코르티솔 검사"
+    - "저용량 덱사메타손 억제 검사"
+    - "혈중 ACTH 농도 측정, 복부/뇌하수체 영상 검사"
+  necessary_treatments:
+    - "원인에 따른 치료 (뇌하수체 종양, 부신 종양 수술 등)"
+    - "혈압 및 혈당 조절"
+    - "생활 습관 교정"
+history:
+  sex_age: "여성/42"
+  chief_complaint_verbatim: "1년 전부터 살이 찌는데 이상하게 배만 나오고 팔다리는 가늘어져요. 얼굴도 달덩이처럼 붓고, 혈압도 높아졌어요."
+  onset: "약 1년 전부터 서서히"
+  location:
+    initial: "전신"
+    current: "얼굴, 목, 복부 중심"
+  duration:
+    onset_pattern: "점진적 진행"
+    recent_course: "최근 6개월 사이 변화가 더 뚜렷해짐"
+  course: "체중이 10kg 늘었고, 쉽게 멍이 들며 피부가 얇아짐. 3개월 전부터 혈압이 높다는 얘기를 들음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "중심성 비만, 월상 안모"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음 (스테로이드 복용력 없음)"
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 1-2회 요가"
+    recent_weight_change: "지난 1년간 10kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "월경 불순 (최근 6개월간 주기가 40-60일로 길어짐)"
+physical_exam:
+  general: "중심성 비만과 월상 안모(moon face)를 보이는 여성"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상, 다모증 관찰됨"
+  chest: "정상"
+  abdomen:
+    inspection: "복부 비만, 넓고 붉은 색의 피부 선조(purplish striae) 관찰됨"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "사지 근위부 위축, 함요 부종 없음, 팔다리에 쉽게 든 멍 자국 여러 개 관찰됨"
+standardized_patient_questions: "그냥 살이 쪄서 그런 거 아닌가요? 왜 이렇게 이상하게 살이 찌죠? 호르몬에 문제가 있는 건가요?"
+specific_remarks: "환자는 자신의 외모 변화에 대해 매우 스트레스를 받고 우울감을 표현한다. 의사가 스테로이드 복용력에 대해 질문할 때, 그런 약은 먹은 적이 없다고 명확하게 대답해야 한다. 복부의 피부 선조와 팔다리의 멍을 보여주는 데 협조적이다."

@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (심인성 기침)"
+patient_info:
+  name: "김민지"
+  age: 16
+  sex: "여성"
+  presenting_complaint: "두 달간 지속되는 이상한 기침"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "심인성 기침 (Psychogenic cough) / 습관성 기침 (Habit cough)"
+    - "틱 장애 (Tic disorder)"
+    - "기침형 천식 (Cough-variant asthma)"
+  necessary_tests:
+    - "흉부 X선 촬영, 폐기능 검사 등 기질적 원인 배제를 위한 검사"
+    - "알레르기 검사"
+    - "모든 검사가 정상일 경우 진단 가능함을 설명"
+  necessary_treatments:
+    - "환자 및 보호자 안심시키기"
+    - "행동 치료, 이완 요법"
+    - "기저의 스트레스 요인 파악 및 해결을 위한 상담 (정신건강의학과 연계)"
+history:
+  sex_age: "여성/16세"
+  chief_complaint_verbatim: "콜록! 콜록! 두 달 전부터 이런 짖는 듯한 기침이 계속 나요. 수업시간에 저 때문에 방해돼서 너무 신경 쓰여요."
+  onset: "약 2개월 전"
+  location:
+    initial: "목"
+    current: "목"
+  duration:
+    onset_pattern: "갑자기 시작됨"
+    recent_course: "학교에 있거나 긴장하면 더 심해짐"
+  course: "두 달 전 가벼운 감기를 앓은 후 기침이 남았는데, 감기는 다 나았는데도 개 짖는 소리 같은 이상한 기침이 계속된다. 신기하게 잠잘 때는 전혀 하지 않고, 뭐에 집중하거나 친구랑 신나게 놀 때도 기침을 안 한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "크고 요란한, 개 짖는 듯한(barking) 또는 거위 울음소리 같은(honking) 마른 기침"
+    nrs_score: "4 (불편감보다는 창피함이 큼)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "주목받는 상황 (수업 시간, 발표)"
+      - "스트레스, 긴장"
+    alleviating: "잠잘 때, 무언가에 몰두할 때"
+  health_check_history:
+    last_checkup: "1년 전 학교 검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "여러 병원에서 처방받은 기침약, 항생제, 흡입기"
+    source: "이비인후과, 소아과"
+    effect: "전혀 효과 없었음"
+  social_history:
+    job: "고등학생 (성적 문제로 스트레스 심함)"
+    stress: "매우 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "규칙적"
+physical_exam:
+  general: "상태 양호. 면담 중에도 반복적으로 특징적인 기침을 함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 완전 정상. 청진기로 청진하는 동안에는 기침 빈도가 줄어듦. 수포음, 천명음 등 일절 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "특이 소견 없음."
+standardized_patient_questions: "제 폐에 정말 아무 문제 없는 거 맞아요? 왜 이런 소리가 나는 거죠? 친구들이 자꾸 쳐다봐서 학교 가기 싫어요."
+specific_remarks: "보호자(어머니)와 동반 내원. 환자는 위축되어 있고, 어머니가 대신 대답하려는 경향이 있다. 의사가 환자에게 직접 질문하면 마지못해 대답한다. 진찰 중 특징적인 '컹! 컹!' 하는 기침을 반복하지만, 의사가 다른 주제로 대화를 유도하거나 다른 신체 부위를 진찰하는 등 주의를 분산시키면 기침이 멎는다."

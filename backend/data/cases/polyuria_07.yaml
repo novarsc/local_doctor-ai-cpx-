@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (저칼륨혈증)"
+patient_info:
+  name: "박나리"
+  age: 25
+  sex: "여성"
+  presenting_complaint: "소변을 자주 보고 팔다리에 힘이 빠짐"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "96회/분"
+  respiration: "18회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "이뇨제 남용에 의한 저칼륨혈증"
+    - "신세관 산증 (Renal tubular acidosis)"
+    - "갑상선기능항진증"
+  necessary_tests:
+    - "혈액 검사 (전해질 포함 칼륨, 마그네슘, 신장기능)"
+    - "소변 검사 (소변 전해질)"
+    - "심전도 검사"
+  necessary_treatments:
+    - "칼륨 보충 (경구 또는 정맥)"
+    - "이뇨제 등 원인 약물 중단 교육"
+    - "필요시 섭식 장애 또는 신체이형장애에 대한 정신건강의학과적 접근"
+history:
+  sex_age: "여성/25"
+  chief_complaint_verbatim: "한 달 전부터 화장실을 너무 자주 가요. 그리고 이상하게 팔다리에 힘이 쭉 빠지는 느낌이 자주 들어요. 가끔 다리에 쥐도 나고요."
+  onset: "약 1개월 전"
+  location:
+    initial: "전신 증상"
+    current: "전신 증상"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 들어 근력 약화가 더 심해짐"
+  course: "다이어트를 시작하면서부터 증상이 생긴 것 같음. 소변량이 늘고, 쉽게 피로해짐. 계단을 오르거나 물건을 들 때 팔다리에 힘이 들어가지 않는 느낌을 자주 받음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "맑은 소변. 근력 약화는 전반적으로 나타남."
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+      - ""
+    alleviating: "가만히 있을 때"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "비타민, 다이어트 보조제"
+    source: "인터넷 구매"
+    effect: "체중 감량 효과는 약간 있으나 힘이 없음"
+  social_history:
+    job: "취업준비생"
+    stress: "취업 스트레스 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "매일 1시간 이상 PT, 유산소 운동"
+    recent_weight_change: "최근 2개월간 8kg 감소"
+  family_history: "특이 사항 없음"
+  female_history: "LMP: 6주 전, 최근 주기가 불규칙해짐"
+physical_exam:
+  general: "마른 체형으로 다소 불안해 보임"
+  heent:
+    sclera: "비황달성"
+    oral_mucosa: "건조함"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "편평하고 특이소견 없음"
+    auscultation: "장음 감소"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "사지 근력 전반적 저하 (G4/G4), 심부건반사 저하"
+standardized_patient_questions: "다이어트 때문에 그런 걸까요? 왜 이렇게 몸에 힘이 없죠? 큰 병은 아니겠죠?"
+specific_remarks: "이뇨제(다이어트 약) 복용 사실을 처음에는 숨기고, '다이어트 보조제'라고만 말할 것. 의사가 구체적으로 캐물을 때 마지못해 '붓기 빼는 약'이라고 실토. 체중과 외모에 대한 집착을 대화 중에 드러낼 수 있음. 근력 약화를 잘 표현해야 함."

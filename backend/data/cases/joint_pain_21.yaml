@@ -1,0 +1,110 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "21/24"
+title: "실전 모의 증례 (혈우병에 의한 혈관절증)"
+patient_info:
+  name: "박서준"
+  age: 15
+  sex: "남성"
+  presenting_complaint: "가벼운 외상 후 발생한 무릎의 심한 부기와 통증"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "37.2℃"
+examinee_instructions: "보호자와 환자의 증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "혈우병에 의한 혈관절증"
+    - "외상성 관절염"
+    - "인대 또는 연골 손상"
+  necessary_tests:
+    - "혈액 응고 검사 (aPTT, PT, 혈소판 수, 제8응고인자 활성도)"
+    - "관절 초음파 또는 MRI (관절 내 출혈 확인)"
+    - "관절 천자는 출혈을 악화시킬 수 있어 주의해야 함"
+  necessary_treatments:
+    - "응급: 부족한 혈액응고인자(제8인자) 정맥 주사"
+    - "안정, 냉찜질, 압박, 거상 (RICE)"
+    - "통증 조절 (아스피린, NSAIDs 계열은 금기)"
+history:
+  sex_age: "남성/15세"
+  chief_complaint_verbatim: "(환자) 어제 체육 시간에 농구공에 무릎을 살짝 부딪혔어요. 그때는 괜찮았는데, 저녁부터 무릎이 퉁퉁 붓고 너무 아파서 잠을 못 잤어요. (보호자) 얘가 어릴 때부터 혈우병이 있어서 작은 상처에도 피가 잘 안 멎어요."
+  onset: "외상 후 약 6시간 뒤부터 시작, 12시간 전"
+  location:
+    initial: "오른쪽 무릎"
+    current: "오른쪽 무릎"
+  duration:
+    onset_pattern: "경미한 외상 후 지연성으로 발생"
+    recent_course: "급격히 악화됨"
+  course: "농구공에 부딪힌 후 별 통증이 없어 그냥 지냈음. 저녁 식사 무렵부터 무릎이 뻣뻣하고 붓기 시작하더니, 밤 사이 극심한 통증과 함께 크게 부어오름. 이전에도 발목이나 팔꿈치를 다치면 비슷하게 붓고 아픈 적이 여러 번 있었음."
+  experience_prev_episodes:
+    frequency: "1년에 2-3회 정도"
+    trigger: "가벼운 외상"
+    symptoms: "관절 부종, 통증"
+  character_of_symptom:
+    quality: "터질 듯하고 욱신거리는 통증"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "무릎을 움직이는 것"
+    alleviating: "가만히 있는 것"
+  trauma_history: "상기 기술된 외상"
+  past_medical_history:
+    underlying_disease: "혈우병 A (어릴 때 진단받음)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "필요시 응고인자 제제 자가 주사"
+    source: "대학병원 혈액내과"
+    effect: "이번에는 아직 주사하지 않음"
+  social_history:
+    job: "중학생"
+    stress: ""
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "격한 운동은 피하려고 함"
+    recent_weight_change: "없음"
+  family_history: "외할아버지가 혈우병이었음"
+  female_history: ""
+physical_exam:
+  general: "통증으로 매우 고통스러워하며, 오른쪽 다리를 전혀 움직이지 않으려 함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "오른쪽 무릎이 반대쪽에 비해 둘레가 현저히 증가되어 있으며, 단단하고 심한 부종이 관찰됨. 피부는 팽팽하나 발적은 뚜렷하지 않음. 관절 전반에 걸쳐 극심한 압통이 있음. 관절 운동은 통증으로 인해 거의 불가능한 상태."
+standardized_patient_questions: "(보호자) 이번에도 관절에 피가 찬 것 같아요. 빨리 주사 맞아야겠죠? 자꾸 이러면 나중에 관절을 못 쓰게 되는 건 아닌지 걱정이에요."
+specific_remarks: "환자와 보호자는 혈우병 병력을 명확히 인지하고 있어야 함. 외상의 정도에 비해 증상이 매우 심하다는 점을 강조해야 한다. 보호자는 반복되는 관절 출혈로 인한 장기적인 관절 손상(혈우병성 관절병증)에 대한 불안감을 표현해야 한다."

@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (철결핍성 빈혈)"
+patient_info:
+  name: "박서연"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "수개월간 지속되는 피로감과 어지러움"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "92회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "철결핍성 빈혈"
+    - "만성 피로 증후군"
+    - "갑상선 기능 저하증"
+  necessary_tests:
+    - "일반혈액검사 (CBC with differential count)"
+    - "혈청 철 관련 검사 (ferritin, iron, TIBC)"
+    - "갑상선 기능 검사 (TSH, free T4)"
+  necessary_treatments:
+    - "경구 철분제 복용"
+    - "철분이 풍부한 식이요법 교육"
+    - "빈혈 원인에 대한 추가 평가 (필요시)"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "몇 달 전부터 계단만 조금 올라도 숨이 차고 너무 피곤해요. 어지럽기도 하고요."
+  onset: "약 4개월 전부터 서서히"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 들어 더 심해지는 느낌"
+  course: "처음에는 그냥 좀 피곤한가 보다 했는데, 최근에는 업무에 집중하기 어려울 정도로 피로감이 심하고, 앉았다 일어설 때 핑 도는 느낌이 자주 든다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "몸에 힘이 쭉 빠지는 느낌, 기운 없음"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "계단 오르기"
+      - "오래 서 있기"
+    alleviating: "쉬면 조금 나아짐"
+  health_check_history:
+    last_checkup: "2년 전 회사 건강검진"
+    endoscopy_finding: "특이 소견 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 종합비타민 복용"
+    source: "약국 구매"
+    effect: "별다른 효과 못 느낌"
+  social_history:
+    job: "사무직"
+    stress: "업무량 때문에 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "월경주기 28-30일로 규칙적. 월경량은 많은 편(첫 2-3일간 대형 패드 2시간마다 교체). 마지막 월경 시작일은 2주 전."
+physical_exam:
+  general: "만성적인 피로감을 보이나 의식은 명료함. 안색이 다소 창백함."
+  heent:
+    sclera: "창백함 (Pale conjunctiva)"
+    oral_mucosa: "점막이 다소 건조하고 창백함."
+  chest: "호흡음 깨끗함. 심음 규칙적이나 약간의 빈맥 소견 보임."
+  abdomen:
+    inspection: "편평하고 특이소견 없음."
+    auscultation: "장음 정상."
+    percussion: "공명음."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "함요 부종 없음. 손톱이 얇고 잘 부서지는 양상 (Koilonychia 의심)."
+standardized_patient_questions: "제가 왜 이렇게 피곤한 건가요? 큰 병은 아니겠죠? 직장 생활에 지장이 많은데 치료하면 괜찮아질까요?"
+specific_remarks: "전반적으로 기운 없는 목소리로 대화한다. 어지러움을 호소할 때 살짝 이마를 짚는 행동을 보인다. 월경량에 대한 질문에 조금 부끄러워하며 대답한다."

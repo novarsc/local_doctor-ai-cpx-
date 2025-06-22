@@ -1,0 +1,115 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (주기적 유방통)"
+patient_info:
+  name: "이하늘"
+  age: 29
+  sex: "여성"
+  presenting_complaint: "생리 전에 항상 양쪽 가슴이 아픔"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "68회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "주기적 유방통"
+    - "섬유낭성 변화 (경미)"
+    - "월경 전 증후군(PMS)의 일부"
+  necessary_tests:
+    - "자세한 병력 청취 및 유방 진찰"
+    - "유방 초음파 (기질적 원인 배제 목적)"
+    - "통증일지(Pain diary) 작성"
+  necessary_treatments:
+    - "증상이 여성호르몬 변화에 따른 자연스러운 현상일 수 있음을 안심시킴"
+    - "생활 습관 개선 (카페인 제한, 저지방 식이, 스트레스 관리)"
+    - "통증 조절을 위한 진통제, 달맞이꽃 종자유 등 고려"
+history:
+  sex_age: "여성/29"
+  chief_complaint_verbatim: "몇 년 전부터 생리 시작하기 열흘 전쯤부터 양쪽 가슴이 묵직하고 아파요. 멍울이 만져지는 건 아닌데, 전체적으로 땡땡하게 붓고 스치기만 해도 아파서 불편해요. 생리만 시작하면 거짓말처럼 괜찮아져요."
+  onset: "수년 전"
+  location:
+    initial: "양측 유방 전체"
+    current: "양측 유방 전체"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "매달 생리 주기에 따라 반복됨"
+  course: "생리 주기 후반기(황체기)에 발생하여 생리 시작과 함께 소실되는 것이 특징적임."
+  experience_prev_episodes:
+    frequency: "거의 매달"
+    trigger: "배란 후 ~ 생리 시작 전"
+    symptoms: "현재와 동일한 양측성, 비국소적 유방통"
+  character_of_symptom:
+    quality: "묵직하고 쑤시는 통증, 부어있는 느낌"
+    nrs_score: "생리 전 4-5점, 평소 0점"
+    radiation: "겨드랑이 쪽으로 약간"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "생리 시작 전"
+      - "꽉 끼는 속옷을 입을 때"
+    alleviating: "생리 시작 후"
+  health_check_history:
+    last_checkup: "회사 건강검진 (2년 전), 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "마케터"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 3주 전 (현재 생리 직전). 주기 28일. 규칙적. 0-0-0-0."
+physical_exam:
+  general: "건강해 보이며, 자신의 증상에 대해 잘 설명함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  breast_exam: "양측 유방이 전반적으로 약간 부어있는 느낌(fullness) 외에 시진 상 특이 소견 없음. 촉진 시 양측 유방이 부드러우며, 특정 덩이는 만져지지 않음. 유방 전체에 걸쳐 약간의 압통을 호소함. 유두 분비물 없음. 겨드랑이 림프절 촉진되지 않음."
+standardized_patient_questions: "매달 겪는 일이라 익숙하긴 한데, 혹시 몸에 이상이 있는 건 아닌지 걱정돼서 와봤어요. 왜 생리 전에만 아픈가요? 치료할 수 있는 방법은 없나요?"
+specific_remarks: "환자는 증상의 주기성을 매우 명확하게 인지하고 있음. '멍울'은 없다고 강조함. 통증이 심각하다기보다는 불편하고 신경 쓰이는 정도라고 표현함. 질병이라기보다는 생리적 현상이라는 설명에 안도하는 모습을 보임."

@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (진행성 췌장암)"
+patient_info:
+  name: "김철수"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "최근 검사 결과에 대한 설명 요청"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "환자는 2주 전부터 시작된 소화불량과 명치 통증, 5kg의 체중 감소로 내원하여 복부 CT 검사를 받았습니다. 오늘 그 결과에 대해 설명하기 위해 다시 내원하였습니다. 첨부된 CT 결과지(췌장 두부 종괴 및 주변 림프절 전이, 간 전이 소견)를 바탕으로 환자에게 진단명을 알리고, 향후 계획에 대해 논의하십시오."
+patient_education:
+  probable_diagnoses:
+    - "췌장암 (간 및 림프절 전이를 동반한 진행성)"
+    - "만성 췌장염"
+    - "담도암"
+  necessary_tests:
+    - "종양표지자검사 (CA19-9)"
+    - "내시경 초음파 유도하 세침흡인검사 (EUS-FNA)를 통한 조직 확진"
+    - "전신 전이 평가를 위한 PET-CT"
+  necessary_treatments:
+    - "고식적 항암화학요법 (Palliative chemotherapy)"
+    - "통증 조절을 포함한 적극적인 증상 완화 치료"
+    - "담도 폐쇄 시 내시경적 역행성 담췌관 조영술(ERCP) 및 스텐트 삽입술"
+history:
+  sex_age: "남성/65세"
+  chief_complaint_verbatim: "지난번에 찍은 CT 결과가 어떻게 나왔는지 궁금해서 왔습니다."
+  onset: "2주 전"
+  location:
+    initial: "명치 부위"
+    current: "명치와 등 쪽"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 심해짐"
+  course: "2주 전부터 소화가 잘 안 되고 명치가 답답하게 아프기 시작했습니다. 통증이 등 쪽으로 뻗치기도 하고, 최근 입맛이 없어 5kg 정도 체중이 빠졌습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "지속적으로 둔하게 누르는 듯한 통증"
+    nrs_score: "6"
+    radiation: "등으로 뻗치는 양상"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후"
+      - "누운 자세"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "특이소견 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 (10년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "메트포르민"
+    source: "내과 의원"
+    effect: "혈당 조절"
+  social_history:
+    job: "은퇴 (전직 공무원)"
+    stress: "별로 없음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2~3회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "40년 흡연"
+    exercise: "주 2회 가벼운 산책"
+    recent_weight_change: "최근 한 달간 5kg 감소"
+  family_history: "아버지가 60대 위암으로 사망"
+  female_history: "해당 없음"
+physical_exam:
+  general: "다소 지쳐 보이며, 얼굴과 피부가 약간 노랗게 보임"
+  heent:
+    sclera: "경도의 공막 황달(Icteric sclera)"
+    oral_mucosa: "건조하지 않음"
+  chest: "호흡음 깨끗함"
+  abdomen:
+    inspection: "복부 팽만 없음"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # Courvoisier's sign 양성 (촉진되는 무통성 담낭)
+  cvat: "양측 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "그럼 암이라는 말씀이신가요? 고칠 수는 있는 건가요? 제가 얼마나 더 살 수 있습니까? 가족들한테는 뭐라고 얘기해야 할지 모르겠습니다."
+specific_remarks: "처음에는 담담하게 결과를 기다리지만, '암'이라는 단어가 나온 순간부터 충격을 받은 표정으로 말을 잇지 못한다. 이후 감정이 복받쳐 눈물을 흘리며 예후에 대해 절망적으로 질문한다. 의사의 설명에 집중하지 못하고 같은 질문을 반복할 수 있다."

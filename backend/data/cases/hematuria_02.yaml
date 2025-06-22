@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (방광암)"
+patient_info:
+  name: "박철수"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "한 달 전부터 간헐적으로 나오는 통증 없는 혈뇨"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "방광암 (가장 의심)"
+    - "신세포암"
+    - "양성 전립선 비대증에 의한 출혈"
+  necessary_tests:
+    - "소변 검사 (소변세포검사 포함)"
+    - "방광경 검사 (확진 및 조직검사를 위해 필수)"
+    - "복부/골반 CT 또는 초음파 (종양의 침범 범위 평가)"
+  necessary_treatments:
+    - "경요도 방광종양절제술 (TURBT) 시행"
+    - "조직검사 결과에 따른 추가 치료 (BCG 방광 내 주입술, 방광 적출술, 항암/방사선 치료 등)"
+    - "금연 교육"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "한 달 전부터 소변에 피가 섞여 나옵니다. 아프지는 않은데... 나왔다 안 나왔다 하네요."
+  onset: "약 1개월 전"
+  location:
+    initial: "소변"
+    current: "소변"
+  duration:
+    onset_pattern: "어느 날 갑자기"
+    recent_course: "간헐적으로 발생 (intermittent). 며칠 괜찮다가 또 붉은 소변을 보는 식."
+  course: "처음에는 피곤해서 그런가 보다 하고 넘겼는데, 최근 일주일 사이 2-3번 더 붉은 소변을 봐서 병원에 왔습니다. 소변 시작부터 끝까지 전반적으로 붉은색을 띱니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "통증이 전혀 없음 (painless)"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: true # 약 3개월간 4kg 감소
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "5년 전, 혈압이 높다고 들었음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (약물 복용 안 함)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "염색 공장 은퇴 (20년 근무)"
+    stress: "적음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "막걸리 1-2병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일 (45년)"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 3개월간 4kg 감소"
+  family_history: "아버지가 위암으로 돌아가심"
+  female_history: ""
+physical_exam:
+  general: "만성 병색을 보임. 약간 마른 체형."
+  heent:
+    sclera: "빈혈 소견 없음 (not anemic)"
+    oral_mucosa: "건조하지 않음"
+  chest: "호흡음 깨끗함."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # Palpable mass 없음, suprapubic tenderness 없음
+  cvat: "좌우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "아프지도 않은데 왜 피가 나는 건가요? 혹시 암 같은 나쁜 병일 가능성이 있나요?"
+specific_remarks: "환자는 통증이 없다는 점을 여러 번 강조한다. 흡연력이나 직업력에 대해 물으면 대수롭지 않게 대답한다. 진단 계획에 암 가능성을 설명하면 표정이 어두워지며 걱정하는 모습을 보인다."

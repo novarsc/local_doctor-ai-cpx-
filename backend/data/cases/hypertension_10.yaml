@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (고혈압성 긴급증)"
+patient_info:
+  name: "장석호"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "심한 두통과 어지럼증"
+vital_signs:
+  blood_pressure: "210/125mmHg"
+  pulse: "95회/분"
+  respiration: "22회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "고혈압성 긴급증 (Hypertensive urgency)"
+    - "고혈압성 응급증 (Hypertensive emergency) - 감별 필요"
+    - "뇌졸중 전조 증상"
+  necessary_tests:
+    - "심전도"
+    - "흉부 X-ray"
+    - "혈액 검사 (CBC, 전해질, 신장 기능, 심장 효소)"
+    - "소변 검사"
+    - "뇌 CT (필요 시)"
+  necessary_treatments:
+    - "경구 혈압강하제 투여 (Captopril, Labetalol 등)"
+    - "조용하고 안정된 환경에서 수 시간 동안 혈압을 서서히 낮춤"
+    - "퇴원 후 외래에서 장기적인 혈압 조절 계획 수립"
+history:
+  sex_age: "남성/65"
+  chief_complaint_verbatim: "오늘 아침부터 머리가 깨질 듯이 아프고 세상이 핑핑 도는 것 같아요. 혈압약을 며칠 빼먹었는데 그것 때문인가 봐요."
+  onset: "금일 오전 9시경"
+  location:
+    initial: "머리 전체"
+    current: "머리 전체"
+  duration:
+    onset_pattern: "갑작스럽게 발생"
+    recent_course: "점점 더 심해짐"
+  course: "10년 전부터 고혈압으로 약물 치료 중이었으나, 최근 약이 떨어졌는데 병원 가기 귀찮아서 4일간 복용하지 않음."
+  experience_prev_episodes:
+    frequency: "가끔 혈압 조절 안 될 때 경미한 두통 있었음"
+    trigger: "약물 복용 중단"
+    symptoms: "이 정도로 심한 것은 처음임"
+  character_of_symptom:
+    quality: "터질 듯한, 압박하는 듯한 두통"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+    alleviating: "가만히 누워있으면 조금 덜함"
+  health_check_history:
+    last_checkup: "6개월 전 내과 방문"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (10년), 당뇨병 (5년)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Losartan/HCTZ, Metformin"
+    source: "내과"
+    effect: "복용 중단 전까지는 혈압, 혈당 조절 잘 되었음"
+  social_history:
+    job: "은퇴 후 소일거리"
+    stress: "적음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "20년 전 금연"
+    exercise: "매일 1시간 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색, 두통으로 인상 쓰고 있음. 의식은 명료함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 호흡음 및 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "함요 부종 없음, 신경학적 결손 소견 없음 (시야, 안면마비, 근력 등)"
+standardized_patient_questions: "머리가 너무 아픈데 뇌에 문제 생긴 거 아닌가요? 지금 당장 혈압을 뚝 떨어뜨려야 하는 거 아닌가요? 왜 약을 마음대로 끊으면 안 되는지 알려주세요."
+specific_remarks: "환자는 매우 고통스러워하며 불안해한다. 의사가 표적 장기 손상 여부를 확인하기 위해 시야 검사, 근력 검사 등 신경학적 진찰을 꼼꼼히 하는지 주시한다. 표적 장기 손상 증상(가슴 통증, 숨참, 시력 저하 등)을 물으면 없다고 명확히 대답한다."

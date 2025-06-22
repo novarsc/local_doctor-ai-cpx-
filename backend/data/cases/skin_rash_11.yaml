@@ -1,0 +1,113 @@
+---
+chapter: "관절.근골격.피부"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (다형 홍반)"
+patient_info:
+  name: "이현우"
+  age: 27
+  sex: "남성"
+  presenting_complaint: "손과 발에 생긴 과녁 모양의 발진"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "다형 홍반"
+    - "두드러기"
+    - "초기 스티븐스-존슨 증후군 (SJS 감별 필요)"
+  necessary_tests:
+    - "단순포진 바이러스(HSV) 항체 검사"
+    - "필요시 피부 조직 검사"
+    - "CBC, ESR/CRP 등 혈액검사"
+  necessary_treatments:
+    - "대증 치료 (경구 항히스타민제, 국소 스테로이드)"
+    - "원인(HSV 등)이 명확할 경우 원인 치료 (항바이러스제)"
+    - "재발 방지 교육"
+history:
+  sex_age: "남성/27"
+  chief_complaint_verbatim: "며칠 전부터 손등이랑 발등에 동그랗게 빨간 반점이 생겼어요. 자세히 보니 꼭 과녁처럼 생겼고, 조금 가렵기도 하고 따끔거리기도 해요."
+  onset: "3일 전"
+  location:
+    initial: "손등"
+    current: "손등, 발등, 팔꿈치, 무릎"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "개수가 늘어나고 있음"
+  course: "손등에 몇 개의 붉은 반점으로 시작하여 팔다리의 폄쪽으로 퍼져나갔다. 각각의 병변은 중앙이 어둡고 주변은 창백하며 가장 바깥쪽이 붉은 띠를 두른 모양이다."
+  experience_prev_episodes:
+    frequency: "작년에 한 번"
+    trigger: "피곤할 때"
+    symptoms: "비슷한 양상의 발진"
+  character_of_symptom:
+    quality: "경미한 가려움증 및 따끔거림"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "재발성 단순 포진 (입술)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학원생"
+    stress: "논문 준비로 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "비흡연"
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "다소 피곤해 보이나 전신 상태 양호. 의식 명료."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist. 입술에 최근에 아물어가는 단순포진 병변 흔적 관찰됨. 구강 점막 침범은 없음."
+  chest: "clear breath sounds bilaterally"
+  abdomen:
+    inspection: "특이 소견 없음"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "양 손등, 발등, 팔꿈치, 무릎에 대칭적으로 분포하는 다수의 전형적인 과녁 병변(target lesion)이 관찰됨. 병변은 세 개의 동심원(중심부의 암적색 반, 그 주위의 창백한 부종성 고리, 가장 바깥의 붉은 고리)으로 구성됨. 일부 비전형적인 과녁 병변도 혼재함."
+standardized_patient_questions: "이 발진은 왜 과녁 모양으로 생기나요? 피곤해서 입술에 물집이 잡혔었는데, 그것과 관련이 있나요? 위험한 병은 아닌가요?"
+specific_remarks: "환자는 '과녁 모양 병변'이라는 특징적인 형태를 정확히 묘사해야 한다. 발진이 나타나기 약 1-2주 전에 입술에 단순 포진이 있었던 병력을 진술하는 것이 핵심 단서이다. 구강 점막 등 점막 침범은 없다는 점을 명확히 하여 SJS와의 감별점을 제공해야 한다."

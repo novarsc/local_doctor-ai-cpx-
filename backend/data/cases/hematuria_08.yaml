@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (운동 유발성 혈뇨)"
+patient_info:
+  name: "오세훈"
+  age: 26
+  sex: "남성"
+  presenting_complaint: "마라톤 연습 후 발생한 검붉은 소변"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "운동 유발성 혈뇨 (가장 가능성 높음)"
+    - "횡문근융해증 (감별 필요)"
+    - "기저의 신장 질환 (IgA 신병증 등)"
+  necessary_tests:
+    - "소변 검사 (운동 직후 및 2-3일 후 반복 시행)"
+    - "혈액 검사 (신기능, CK 수치 확인)"
+    - "다른 원인을 배제하기 위한 신장 초음파"
+  necessary_treatments:
+    - "일시적인 격렬한 운동 중단 및 충분한 휴식"
+    - "운동 전후 충분한 수분 섭취 교육"
+    - "모든 검사가 정상일 경우, 안심시키고 경과 관찰"
+history:
+  sex_age: "남성/26세"
+  chief_complaint_verbatim: "어제 마라톤 풀코스 연습을 하고 나서 소변을 봤는데, 거의 간장색으로 나와서 깜짝 놀랐습니다."
+  onset: "1일 전, 운동 직후"
+  location:
+    initial: "소변"
+    current: "소변 (오늘 아침엔 색이 많이 옅어짐)"
+  duration:
+    onset_pattern: "격렬한 운동 직후 발생"
+    recent_course: "시간이 지나면서 점차 옅어짐"
+  course: "어제 약 4시간 동안 마라톤 연습을 했습니다. 운동 끝나고 1시간쯤 뒤에 본 첫 소변이 매우 검붉었습니다. 통증이나 다른 불편감은 전혀 없었고, 오늘 아침에 보니 평소 소변 색으로 거의 돌아왔습니다."
+  experience_prev_episodes:
+    frequency: "한 달 전 하프 마라톤 연습 후에도 소변색이 약간 진했던 적이 있음."
+    trigger: "장거리 달리기"
+    symptoms: "검붉은 소변"
+  character_of_symptom:
+    quality: "통증 없음."
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true # 운동으로 인한 피로감
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: true # 운동 후
+      decreased_urine_output: true # 운동 중
+  factors:
+    aggravating:
+      - "장거리 달리기 같은 격렬한 운동"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학원생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "마라톤 동호회 활동 (주 3-4회 훈련)"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "매우 건강하고 다부진 체격. 급성 병색 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 근육통 외에 특이 압통 없음
+  cvat: "좌우 음성"
+  extremity: "양측 허벅지, 종아리에 전반적인 근육통 호소"
+standardized_patient_questions: "운동하다가 콩팥이 상할 수도 있나요? 앞으로 마라톤 계속 해도 괜찮을까요?"
+specific_remarks: "환자는 자신의 증상이 운동과 관련 있다는 것을 명확히 인지하고 있다. 건강에 대한 자신감이 있으며, 질병보다는 앞으로의 운동 가능성에 대해 더 궁금해한다. 근육통은 있지만 심하지 않다고 말한다."

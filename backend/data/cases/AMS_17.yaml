@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "17"
+title: "실전 모의 증례 (점액수종 혼수, Myxedema Coma)"
+patient_info:
+  name: "장복례"
+  age: 82
+  sex: "여성"
+  presenting_complaint: "며칠 전부터 의식이 흐려지고 체온이 낮음"
+vital_signs:
+  blood_pressure: "90/60mmHg"
+  pulse: "45회/분"
+  respiration: "10회/분"
+  temperature: "34.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "점액수종 혼수 (갑상선기능저하증 악화)"
+    - "패혈증"
+    - "약물 중독 (진정제 등)"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4)"
+    - "혈액 검사 (전해질, CK, 혈액가스분석)"
+    - "심전도"
+  necessary_treatments:
+    - "갑상선 호르몬(Levothyroxine) 정맥 주사"
+    - "스트레스 용량의 스테로이드(Hydrocortisone) 투여"
+    - "점진적인 체온 상승, 호흡 보조, 전해질 교정"
+history:
+  sex_age: "여성/82세"
+  chief_complaint_verbatim: "어머니가 며칠째 거의 식사도 못하고 잠만 주무시더니, 오늘 아침에는 아무리 깨워도 일어나지 못하고 몸이 차가워요."
+  onset: "수일 전부터 점진적으로"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "서서히 악화"
+    recent_course: "오늘 아침 혼수 상태"
+  course: "수개월 전부터 추위를 매우 심하게 타고, 변비가 심하며, 피부가 푸석해지고, 말이 어눌해지는 등 전반적인 기능 저하가 있었음. 며칠 전 감기 기운이 있은 후부터 상태가 급격히 나빠짐. 식사를 전혀 못하고, 하루 종일 잠만 자는 모습 보임. 오늘 아침에는 자극에도 반응이 없고, 몸이 얼음장처럼 차가워 119 신고."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "감염 (최근 감기)"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "의식 소실, 저체온, 서맥"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "추운 환경"
+      - "감염"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "모름"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "10년 전 갑상선기능저하증 진단 받았으나, 5년 전부터 자의로 약물 복용 중단"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "최근 1년간 8kg 증가 (부종 포함)"
+  family_history: "특이사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "혼수(coma) 상태. 자극에 반응 없음. 피부는 차갑고 건조하며 창백함. 전신적인 부종 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "혀가 부어있고 큼(macroglossia). 눈 주위 부종(periorbital edema) 관찰됨. 목소리(들린다면)가 쉼."
+  chest: "호흡이 매우 느리고 얕음. 심박동이 매우 느림. 심장막 삼출(pericardial effusion)로 심음이 작게 들릴 수 있음."
+  abdomen:
+    inspection: "복부 팽만"
+    auscultation: "장음 소실"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "심한 비함요 부종(non-pitting edema) 관찰됨. 심부건반사(DTR) 소실, 특히 이완기가 지연됨(delayed relaxation phase)."
+standardized_patient_questions: "어머니가 왜 이러시는 건가요? 옛날에 갑상선 약 드시다 끊었는데 그것 때문인가요? 몸이 왜 이렇게 차가운 거죠?"
+specific_remarks: "환자는 완전한 혼수 상태를 연기한다. 저체온, 서맥, 서호흡 등 활력 징후가 핵심. 신체 진찰 시 차갑고 건조한 피부, 부은 얼굴과 혀, 비함요 부종 등 갑상선 기능 저하증의 특징적인 소견을 명확히 표현한다. 보호자인 딸이 병력 진술을 한다."

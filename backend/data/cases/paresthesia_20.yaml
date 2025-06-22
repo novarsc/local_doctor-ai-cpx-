@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "20"
+title: "실전 모의 증례 (알코올성 신경병증)"
+patient_info:
+  name: "최판석"
+  age: 59
+  sex: "남성"
+  presenting_complaint: "양쪽 발이 저리고 아프며, 걸을 때 비틀거림"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올성 신경병증 (Alcoholic neuropathy)"
+    - "비타민 결핍성 신경병증 (특히 티아민)"
+    - "당뇨병성 신경병증 (감별 필요)"
+  necessary_tests:
+    - "신경전도검사/근전도검사"
+    - "혈액검사 (간기능, 혈당, 비타민 B1/B12)"
+    - "복부 초음파"
+  necessary_treatments:
+    - "절대적 금주"
+    - "고용량 비타민 (특히 티아민) 보충"
+    - "신경병증성 통증 조절 및 재활 치료"
+history:
+  sex_age: "남성/59"
+  chief_complaint_verbatim: "한 1년 넘게 양쪽 발바닥이 너무 아프고 저려요. 감각도 둔해서 잘 다치고, 걸을 때 자꾸 휘청거려서 술 취한 사람 같다고들 해요. 술 안 마셨을 때도요."
+  onset: "약 1년 이상"
+  location:
+    initial: "양쪽 발바닥"
+    current: "양쪽 발, 종아리"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "서서히 악화"
+  course: "정확히 언제부터인지는 기억나지 않지만, 꽤 오래전부터 발바닥에 저린 감각이 있었음. 1년 전부터는 통증이 심해졌고, 최근에는 종아리까지 저리고 아픔. 발에 힘이 잘 들어가지 않아 걸음걸이가 불안정해졌고, 특히 어두운 곳에서 더 심하게 비틀거림. 손도 약간 저린 느낌이 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "찌르는 듯하고 화끈거리는 통증, 저림"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔"
+      constipation: false
+      diarrhea: true
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밤에"
+      - "오래 서 있거나 걸을 때"
+    alleviating: "딱히 없음"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "알코올성 간염으로 몇 차례 입원한 적 있음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "무직"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 2-3병"
+    smoking:
+      is_smoker: true
+      amount: "하루 1갑"
+      cessation_period: ""
+    exercise: "전혀 안 함"
+    recent_weight_change: "지난 1년간 10kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "영양 상태 불량해 보이고, 전반적인 근위축. 손떨림(tremor) 관찰됨. 눈은 약간 충혈되어 있음."
+  heent:
+    sclera: "공막 황달 없음"
+    oral_mucosa: "건조함"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "복부 팽만, 거미 혈관종(spider angioma) 여러 개 보임"
+    auscultation: "장음 정상"
+    percussion: "옆구리 둔탁음(shifting dullness) 의심"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # 간 비대(hepatomegaly) 촉진됨.
+  cvat: "양측 음성"
+  extremity: "양쪽 종아리 근육 위축. 양쪽 발목 아래로 장갑-양말 형태의 감각 저하(모든 감각 양상). 양측 발목 반사 소실. 족배굴곡 근력 저하(MRC 4/5). 보행 시 보폭이 넓고 불안정한 실조성 보행(ataxic gait) 관찰. Romberg 검사 양성."
+standardized_patient_questions: "발이 너무 아파서 술이라도 마셔야 잠을 잘 수 있는데, 의사 선생님은 자꾸 술 끊으라고만 하니 답답해요. 이 통증을 없앨 방법은 정말 없나요? 이대로는 걷지도 못할 것 같아요."
+specific_remarks: "환자는 자신의 음주 문제에 대해 방어적인 태도를 보인다. '술 때문이 아니라 다른 병일 것'이라고 주장한다. 진찰 시 알코올 중독의 신체적 징후(손떨림, 거미 혈관종, 근위축)를 명확히 연기한다. 통증이 매우 심하다고 과장되게 표현하며, 진통제 처방을 강하게 요구한다. 금주와 영양 개선의 중요성을 설명할 때 회의적인 반응을 보인다."

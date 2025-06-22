@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (셀리악병)"
+patient_info:
+  name: "강세라"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "만성 설사와 피로감"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "85회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "흡수장애 증후군 (셀리악병 의심)"
+    - "과민성 대장 증후군"
+    - "만성 췌장염"
+  necessary_tests:
+    - "셀리악병 혈청 검사 (tTG-IgA, EMA-IgA)"
+    - "상부위장관 내시경 및 십이지장 조직 검사"
+    - "혈액 검사 (빈혈, 비타민, 미네랄 수치 확인)"
+  necessary_treatments:
+    - "평생 글루텐 프리 식이요법"
+    - "영양 결핍에 대한 보충 (철분, 엽산, 비타민 등)"
+    - "영양사 상담"
+history:
+  sex_age: "여/38"
+  chief_complaint_verbatim: "몇 년째인지 모르게 계속 설사를 하고 기운이 없어요. 변 냄새도 아주 고약하고 기름이 둥둥 떠요."
+  onset: "수년 전부터 서서히"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "만성적, 지속적"
+    recent_course: "최근 피로감이 더 심해지고 어지러움"
+  course: "수년 전부터 소화가 잘 안되고 변이 묽었음. 1-2년 전부터는 설사가 잦아지고, 대변 양이 많고 옅은 색이며, 변기 물에 기름기가 뜨고 냄새가 매우 고약함 (지방변). 배에 가스가 많이 차고 더부룩함. 최근에는 조금만 움직여도 숨이 차고 어지러우며, 팔다리에 가려운 물집이 잡혔다 사라지기를 반복함."
+  experience_prev_episodes:
+    frequency: "거의 매일"
+    trigger: "특히 빵이나 파스타 같은 밀가루 음식을 먹으면 더 심해지는 것 같음"
+    symptoms: "지방변, 복부 팽만, 피로감"
+  character_of_symptom:
+    quality: "지방변 (steatorrhea)"
+    nrs_score: "3 (복통은 심하지 않음)"
+    radiation: ""
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: true
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밀가루 음식 섭취"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3년 전, 철 결핍성 빈혈 소견"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "철 결핍성 빈혈 (철분제 복용해도 잘 교정되지 않음)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "훼로바 (철분제)"
+    source: "내과 처방"
+    effect: "빈혈 수치가 잘 오르지 않음"
+  social_history:
+    job: "주부"
+    stress: "만성적인 증상으로 인한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "기운이 없어 거의 못함"
+    recent_weight_change: "지난 1년간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "만성 병색, 창백하고 야위어 보임"
+  heent:
+    sclera: "결막 창백"
+    oral_mucosa: "구각염 소견 (angular cheilitis)"
+  chest: "특이사항 없음"
+  abdomen:
+    inspection: "약간 팽만되어 있음"
+    auscultation: "장음 정상"
+    percussion: "고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 전반적으로 부드러우나 압통 없음
+  cvat: "음성"
+  extremity: "피부 건조, 팔꿈치와 무릎에 소양감을 동반한 수포성 발진 (dermatitis herpetiformis) 흔적"
+standardized_patient_questions: "왜 이렇게 변이 이상하고 살이 빠질까요? 빈혈약 먹어도 소용이 없는데 이유가 뭔가요? 평생 이렇게 살아야 하나요?"
+specific_remarks: "만성적인 증상으로 인한 무력감과 우울감을 표현한다. 지방변의 특징(기름기, 냄새, 색깔)을 구체적으로 묘사한다. 피부 발진에 대해서도 의사가 물어보면 설명한다."

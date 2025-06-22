@@ -1,0 +1,109 @@
+---
+chapter: "상담"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (전환 장애)"
+patient_info:
+  name: "이수진"
+  age: 17
+  sex: "여성"
+  presenting_complaint: "어제부터 갑자기 목소리가 안 나옴"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "84회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전환 장애 (실성증) (Conversion disorder, aphonia)"
+    - "기질적 원인에 의한 발성 장애 (예: 급성 후두염)"
+    - "함구증 (Mutism)"
+  necessary_tests:
+    - "이비인후과적 진찰 (후두내시경 검사)"
+    - "신경학적 진찰"
+    - "정신건강의학과적 면담"
+  necessary_treatments:
+    - "환자를 안심시키고 증상이 심리적 원인과 관련될 수 있음을 설명"
+    - "정신치료 (특히 가족치료가 중요할 수 있음)"
+    - "발성 치료 등 이비인후과적 치료 병행"
+history:
+  sex_age: "여성/17"
+  chief_complaint_verbatim: "(보호자인 어머니가 대신 말함) 어제 저녁부터 갑자기 애가 말을 못 해요. 목소리가 아예 안 나와요."
+  onset: "내원 1일 전 저녁"
+  location:
+    initial: "목"
+    current: "목"
+  duration:
+    onset_pattern: "매우 급성"
+    recent_course: "지속됨"
+  course: "어제 저녁, 아버지가 술에 취해 어머니와 크게 다투는 모습을 목격했다. 아버지가 고함을 치고 물건을 던지는 상황이었고 환자는 방에서 울고 있었다. 다툼이 끝난 후 어머니가 방에 들어갔을 때, 환자가 입을 뻥긋거리기만 할 뿐 목소리를 내지 못하는 것을 발견했다. 목 통증이나 감기 증상은 전혀 없었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "소리가 나오지 않음"
+    nrs_score: "0 (통증 없음)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "말을 하려고 시도할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전 학생 검진"
+    endoscopy_finding: ""
+  trauma_history: "아버지의 상습적인 음주 및 가정 폭력에 노출됨."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "고등학생"
+    stress: "매우 높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회"
+    recent_weight_change: "없음"
+  family_history: "아버지(50세) 알코올 의존 및 폭력 성향"
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "불안한 표정으로 어머니 옆에 앉아 있음. 질문에 입 모양으로 대답하거나 고개를 끄덕임. 기침을 시키면 '큽' 하는 소리를 낼 수 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    pharynx injection: 없음
+    neck: 림프절 비대 없음.
+  chest: "호흡음 정상"
+  abdomen: "정상"
+  cvat: "음성/음성"
+  extremity: "정상"
+  neurologic_exam: "뇌신경 검사 정상. 사지 근력 및 감각 정상."
+standardized_patient_questions: "(필담으로) 저는 왜 말을 못하나요? 다시는 말을 못하게 되는 건가요? 목에 큰 병이 생긴 건가요?"
+specific_remarks: "환자는 절대 목소리를 내지 않는다. 하지만 의사가 기침을 유도하면 소리를 낼 수 있다. (이는 성대가 정상적으로 기능함을 시사한다.) 아버지에 대한 질문이 나오면 눈물을 글썽이며 매우 불안해하는 모습을 보인다. 어머니는 '아빠가 술만 안 마시면 착한 사람'이라며 상황을 축소하려는 경향을 보인다."

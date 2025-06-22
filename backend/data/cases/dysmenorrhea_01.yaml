@@ -1,0 +1,125 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (원발성 월경통)"
+patient_info:
+  name: "김민아"
+  age: 18
+  sex: "여성"
+  presenting_complaint: "생리 때마다 아랫배가 너무 아파요."
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "원발성 월경통"
+    - "자궁내막증 (초기)"
+    - "골반염"
+  necessary_tests:
+    - "골반 내진 및 신체검사"
+    - "골반 초음파 검사 (기질적 원인 배제 목적)"
+    - "필요시 혈액검사 (염증 수치 확인)"
+  necessary_treatments:
+    - "비스테로이드성 소염제(NSAIDs) 복용"
+    - "경구 피임약 복용 고려"
+    - "생활 습관 개선 (규칙적 운동, 온찜질)"
+history:
+  sex_age: "여성/18"
+  chief_complaint_verbatim: "생리만 시작하면 아랫배가 쥐어짜듯이 아파서 학교도 가기 힘들어요."
+  onset: "초경 1년 후인 14세부터"
+  location:
+    initial: "아랫배 중앙"
+    current: "아랫배 중앙, 허리"
+  duration:
+    onset_pattern: "생리 시작 직전 또는 직후에 발생하여 2-3일간 지속됨"
+    recent_course: "매달 비슷하게 반복됨, 강도는 변하지 않음"
+  course: "수년간 매달 생리주기에 맞춰 반복적으로 발생"
+  experience_prev_episodes:
+    frequency: "매달"
+    trigger: "생리 시작"
+    symptoms: "아랫배 통증, 허리 통증, 메스꺼움"
+  character_of_symptom:
+    quality: "쥐어짜는 듯한, 경련성 통증"
+    nrs_score: "7-8점"
+    radiation: "허리와 허벅지 안쪽으로 뻗치는 느낌이 있음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "가끔 심할 때 한두 번"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "생리혈이 많이 나올 때"
+      - "스트레스 받을 때"
+    alleviating: "진통제 복용, 배를 따뜻하게 하는 것"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "타이레놀, 이지엔6 (필요시)"
+    source: "약국"
+    effect: "먹으면 조금 나아지나 완전히 없어지지는 않음"
+  social_history:
+    job: "고등학생"
+    stress: "학업 스트레스가 좀 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "별로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "어머니도 젊었을 때 생리통이 심했다고 들었음"
+  female_history:
+    menarche: "13세"
+    lmp: "3일 전 시작"
+    cycle: "28-30일 주기, 규칙적"
+    duration: "5-6일"
+    amount: "보통 (첫 2-3일간 패드 4-5개 사용)"
+    dysmenorrhea: "심함"
+    menopause_age: "해당 없음"
+    obgyn_visits: "이번이 처음"
+    sexual_history: "성경험 없음"
+physical_exam:
+  general: "급성 병색은 보이지 않으나 통증으로 다소 힘들어하는 모습"
+  heent:
+    sclera: "Icteric sclera 없음"
+    oral_mucosa: "Pink and moist"
+  chest: "Clear to auscultation bilaterally"
+  abdomen:
+    inspection: "Flat, no visible mass or scar"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic sound, no shifting dullness"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      tenderness_suprapubic: true
+      rebound_tenderness_suprapubic: false
+  cvat: "양측 음성"
+  extremity: "No pitting edema, peripheral pulses intact"
+standardized_patient_questions: "이거 원래 다들 이렇게 아픈 건가요? 혹시 제 몸에 무슨 큰 병이 있는 건 아닐까요? 약 말고 다른 방법은 없나요?"
+specific_remarks: "아랫배를 감싸 쥔 채 약간 허리를 숙인 자세를 유지한다. 질문에 대답할 때는 통증 때문에 조금 힘겹게 말한다. 성경험에 대한 질문에는 부끄러워하며 '없다'고 명확히 대답한다."

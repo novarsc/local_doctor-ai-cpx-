@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (급성 심근경색증의 비전형적 발현)"
+patient_info:
+  name: "이복순"
+  age: 68
+  sex: "여성"
+  presenting_complaint: "속이 메슥거리면서 어지럽더니 정신을 잃었어요."
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "55회/분"
+  respiration: "20회/분"
+  temperature: "36.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 심근경색증 (비전형적 증상으로 발현)"
+    - "소화불량 및 탈수를 동반한 미주신경성 실신"
+    - "서맥성 부정맥"
+  necessary_tests:
+    - "즉각적인 12유도 심전도 검사 (특히 하벽도 확인)"
+    - "혈액 검사 (심장 효소 연쇄 검사)"
+    - "응급 심장 초음파 검사"
+  necessary_treatments:
+    - "응급실로 즉시 전원 또는 심장내과 협진"
+    - "산소 공급, 정맥로 확보, 모니터링"
+    - "관상동맥중재술 또는 혈전용해술 고려"
+history:
+  sex_age: "여성/68"
+  chief_complaint_verbatim: "어제 저녁부터 체한 것처럼 속이 더부룩하고 메슥거리더니, 오늘 아침에는 갑자기 식은땀이 비 오듯 나면서 어지러워 화장실에 가다가 쓰러졌어요."
+  onset: "어제 저녁부터 증상 시작, 실신은 금일 아침"
+  location:
+    initial: "자택"
+    current: "진료실"
+  duration:
+    onset_pattern: "점진적인 소화기 증상 악화 후 갑작스런 실신"
+    recent_course: "의식은 수십 초 내에 회복했으나, 일어난 후에도 계속 어지럽고 속이 울렁거림. 명치 부위가 얹힌 것처럼 답답함."
+  course: "전형적인 쥐어짜는 듯한 흉통은 없었으나, 어깨 쪽으로 뻐근한 느낌이 동반됨. 소화제를 먹어도 효과가 없었음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "의식 소실"
+    nrs_score: 3
+    radiation: "좌측 어깨"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "구토 1회 (음식물)"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직임"
+    alleviating: "가만히 있으면 조금 나음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨, 고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "당뇨약, 고지혈증약"
+    source: "내과 의원"
+    effect: "혈당 조절이 잘 안되는 편"
+  social_history:
+    job: "주부"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "잘 하지 않음"
+    recent_weight_change: "최근 3kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "폐경 15년 전"
+physical_exam:
+  general: "식은땀을 흘리며 매우 힘들어하는 모습. 의식은 명료하나 기력이 없음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음은 깨끗함. 심음 청진 시 서맥(bradycardia) 소견. S3 gallop이 청진될 수 있음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 감소"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 상복부 압통(epigastric tenderness)이 약간 있을 수 있음.
+  cvat: "좌우 음성"
+  extremity: "손발이 차갑고 축축함."
+standardized_patient_questions: "나이가 드니 소화도 안되고 큰일이네요. 위 내시경을 한번 해봐야 할까요? 왜 이렇게 식은땀이 나고 기운이 없죠?"
+specific_remarks: "환자는 자신의 증상이 모두 소화기 문제(급체)라고 굳게 믿고 있다. 가슴 통증은 없다고 부인하지만, 명치 답답함과 어깨 통증은 인정한다. 의사가 심장 문제를 의심하는 질문을 하면 '가슴은 하나도 안 아픈데요?'라며 의아해한다."

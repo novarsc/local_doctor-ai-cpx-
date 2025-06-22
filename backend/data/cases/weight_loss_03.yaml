@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (당뇨병)"
+patient_info:
+  name: "최민준"
+  age: 24
+  sex: "남성"
+  presenting_complaint: "최근 2개월간 약 8kg의 체중 감소와 함께 심한 갈증과 잦은 소변을 호소함."
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "제1형 당뇨병"
+    - "제2형 당뇨병"
+    - "요붕증"
+  necessary_tests:
+    - "혈당 검사 (공복, 식후 2시간, 당화혈색소)"
+    - "소변 검사 (케톤, 당)"
+    - "C-펩타이드 및 자가항체 검사"
+  necessary_treatments:
+    - "인슐린 주사 치료 시작"
+    - "당뇨병 교육 (혈당 자가 측정, 식단 관리, 운동 요법)"
+    - "합병증 예방을 위한 정기적인 검진 계획"
+history:
+  sex_age: "남/24"
+  chief_complaint_verbatim: "물을 마셔도 계속 목이 마르고 화장실을 너무 자주 가요. 밥은 잘 먹는데 살은 계속 빠지네요."
+  onset: "약 2개월 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 2주 사이 증상이 급격히 심해짐"
+  course: "처음엔 피곤해서 그런 줄 알았는데, 갈증이 너무 심해져서 하루에 물을 3-4리터씩 마심. 밤에도 소변 때문에 3-4번씩 깸. 잘 먹는데도 체중이 계속 줄고 기운이 없음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "다음, 다뇨, 다식과 동반된 체중 감소"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "물을 마시면 일시적으로 갈증이 해소됨"
+  health_check_history:
+    last_checkup: "2년 전 군입대 신체검사, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "대학생"
+    stress: "학업 스트레스 보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3병"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 2회 농구"
+    recent_weight_change: "2개월간 8kg 감소 (78kg -> 70kg)"
+  family_history: "외할머니가 당뇨병으로 약물 치료 중"
+  female_history: "해당 없음"
+physical_exam:
+  general: "피곤해 보이고 다소 마른 체격. 전반적으로 기운이 없어 보임."
+  heent:
+    sclera: "특이소견 없음"
+    oral_mucosa: "입술과 구강 점막이 건조함."
+  chest: "호흡음 깨끗하고 심음 정상."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 특이소견 없음.
+  cvat: "좌우 음성"
+  extremity: "피부 탄력성이 약간 감소되어 있음."
+standardized_patient_questions: "젊은 나이에도 당뇨가 생길 수 있나요?", "앞으로 평생 주사를 맞고 살아야 하나요? 너무 무서워요."
+specific_remarks: "환자는 자신의 증상에 대해 걱정이 많으며, 특히 '당뇨병'이나 '주사'와 같은 단어에 불안한 반응을 보인다. 계속 물을 마시고 싶어하는 모습을 보여도 좋다."

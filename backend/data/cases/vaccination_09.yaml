@@ -1,0 +1,113 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (수두 예방접종 후 수두 유사 발진)"
+patient_info:
+  name: "이서아"
+  age: 1
+  sex: "여성"
+  presenting_complaint: "예방접종 후 온몸에 물집이 생겼어요"
+vital_signs:
+  blood_pressure: "92/62mmHg"
+  pulse: "110회/분"
+  respiration: "24회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환아의 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "수두 백신 바이러스에 의한 발진 (Varicella vaccine-associated rash)"
+    - "돌파 감염 (Breakthrough varicella)"
+    - "기타 바이러스성 발진 또는 곤충 교상"
+  necessary_tests:
+    - "대부분 임상적으로 진단하며 추가 검사는 불필요합니다."
+    - "진단이 불확실하거나 면역저하자와 접촉한 경우, 수포액에서 PCR 검사로 바이러스 유전자형(야생형 vs 백신형)을 확인할 수 있습니다."
+  necessary_treatments:
+    - "대증요법 (피부 병변에 대한 칼라민 로션 도포, 가려움증 완화를 위한 항히스타민제 복용)"
+    - "병변을 긁지 않도록 손톱을 짧게 깎아 2차 세균 감염 예방"
+    - "전염력이 있을 수 있으므로 면역저하자, 임산부와의 접촉 피하기"
+history:
+  sex_age: "여아/15개월"
+  chief_complaint_verbatim: "2주 전에 수두 예방주사를 맞았는데, 어제부터 몸에 물집 같은 게 몇 개 올라와요. 수두에 걸린 건가요?"
+  onset: "어제 아침"
+  location:
+    initial: "몸통"
+    current: "몸통과 얼굴"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "발진 개수가 약간 늘어남"
+  course: "환아는 2주 전(14개월 28일)에 MMR과 수두 1차 예방접종을 하였다. 접종 후 별다른 이상은 없었다. 어제 아침, 옷을 갈아입히다가 배와 등에 빨간 반점과 함께 작은 물집이 3-4개 있는 것을 발견했다. 오늘 아침에 보니 얼굴에도 1-2개 더 생긴 것 같다. 아이는 약간의 미열 외에는 잘 먹고 잘 노는 편이다. 어린이집에 다니고 있으며, 같은 반에 수두 환자는 없었다고 한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "가려움증을 동반한 수포성 발진"
+    nrs_score: "2-3점 (간헐적으로 긁음)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "긁는 것"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "12개월 영유아 검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "해당 없음"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "해당 없음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "컨디션 양호하고 활발한 모습."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이소견 없음"
+  # 피부: 몸통과 얼굴에 총 10개 미만의 홍반성 구진 및 수포가 산재해 있음. 딱지가 앉은 병변은 없음. 접종 부위에는 특이 소견 없음.
+standardized_patient_questions: "주사를 맞았는데 왜 수두에 걸리나요? 전염성은 없나요? 어린이집에 보내도 되나요?"
+specific_remarks: "보호자(엄마) 역할. 백신을 접종했음에도 불구하고 수두 증상이 나타난 것에 대해 의아해하고 걱정하는 모습을 보임. 전염성과 등원 문제에 대해 구체적으로 질문함."

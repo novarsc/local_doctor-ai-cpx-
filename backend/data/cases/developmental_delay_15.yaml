@@ -1,0 +1,113 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (뒤셴 근이영양증)"
+patient_info:
+  name: "장서진"
+  age: 4
+  sex: "남성"
+  presenting_complaint: "걸음걸이가 이상하고 자주 넘어짐"
+vital_signs:
+  blood_pressure: "95/60mmHg"
+  pulse: "100회/분"
+  respiration: "24회/분"
+  temperature: "36.8℃"
+examinee_instructions: "아이가 걸음걸이가 이상하고 운동 발달이 늦는다는 주소로 내원한 보호자의 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "뒤셴 근이영양증"
+    - "베커 근이영양증"
+    - "척수성 근위축증"
+  necessary_tests:
+    - "혈액 검사 (크레아틴 키나아제, CK 수치 확인)"
+    - "유전자 검사 (디스트로핀 유전자 돌연변이 분석)"
+    - "필요시 근생검"
+  necessary_treatments:
+    - "스테로이드 치료 (질병 진행 속도 지연)"
+    - "재활 치료 (물리치료, 작업치료)를 통한 근력 및 관절 기능 유지"
+    - "심장 및 호흡기 기능에 대한 정기적인 평가 및 관리"
+history:
+  sex_age: "남성/4세"
+  chief_complaint_verbatim: "(보호자) 애가 걷는 게 오리처럼 뒤뚱거리고, 계단을 못 올라가요. 다른 애들처럼 뛰지도 못하고 맨날 넘어져서 무릎에 상처가 가실 날이 없어요."
+  onset: "2-3세경부터 운동 능력이 뒤처지는 것이 느껴짐"
+  location:
+    initial: "골반 및 허벅지 근육"
+    current: "전신으로 진행되는 양상"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 들어 혼자 일어서는 것을 힘들어하고, 종아리 근육이 유난히 단단하고 커진 것 같음"
+  course: "말이나 인지 발달은 정상이었으나, 운동 발달은 처음부터 늦었다. 18개월에 겨우 걸었고, 그 후로도 달리기나 점프가 되지 않았다. 앉았다 일어날 때 바닥과 자신의 다리를 손으로 짚고 힘들게 일어난다. 처음에는 단순히 운동 신경이 둔한 줄 알았는데, 시간이 지날수록 증상이 심해지는 것 같아 병원에 왔다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "근력 약화"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "계단 오르기, 달리기"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "36개월 영유아 검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "유치원생"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "운동 기피"
+    recent_weight_change: "없음"
+  family_history: "어머니의 남자 형제(외삼촌)가 어릴 때 근육병으로 일찍 사망했다는 이야기를 들은 적 있음."
+  female_history: "해당 없음"
+physical_exam:
+  general: "지능은 정상으로 보임. 뒤뚱거리는 걸음걸이(waddling gait) 관찰됨. 허리를 앞으로 내밀고 걷는 요추전만(lumbar lordosis) 자세."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 특이 소견 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양쪽 종아리 근육이 근력 약화에도 불구하고 커져 있음 (가성비대, pseudohypertrophy). 근위부 근력(특히 고관절 굴곡근, 신전근)이 원위부보다 현저히 약함. 바닥에 앉혔다가 일어나 보라고 했을 때, 손으로 바닥과 다리를 짚으며 일어남 (가우어 징후, Gowers' sign 양성)."
+standardized_patient_questions: "우리 아이가 왜 이렇게 힘이 없나요? 근육병이라니요... 불치병인가요? 외삼촌이랑 같은 병일까요? 앞으로 계속 나빠지기만 하는 건가요?"
+specific_remarks: "보호자는 희귀 유전 질환이라는 설명에 큰 충격을 받고, 특히 진행성이라는 말에 절망감을 느낀다. 가족력을 물어보면, 잊고 있던 외삼촌의 일을 떠올리며 병에 대해 더 심각하게 받아들인다."

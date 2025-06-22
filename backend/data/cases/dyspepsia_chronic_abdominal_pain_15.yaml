@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (NSAID 유발성 위병증)"
+patient_info:
+  name: "최정희"
+  age: 65
+  sex: "여성"
+  presenting_complaint: "최근 시작된 속쓰림과 소화불량"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비스테로이드성 소염제(NSAID) 유발성 위병증 또는 궤양"
+    - "기능성 소화불량증"
+    - "위식도 역류질환"
+  necessary_tests:
+    - "상부위장관 내시경 (미란, 궤양 등 점막 손상 확인)"
+    - "전혈구 검사 (잠혈로 인한 빈혈 여부 확인)"
+    - "헬리코박터 파일로리 검사"
+  necessary_treatments:
+    - "원인 약물(NSAID) 중단 또는 변경 (COX-2 억제제 등)"
+    - "위산분비억제제 (양성자 펌프 억제제) 투여"
+    - "위점막 보호제 병용"
+history:
+  sex_age: "여성/65"
+  chief_complaint_verbatim: "한 달 전부터 계속 속이 쓰리고 소화가 안 돼요. 예전엔 안 그랬는데, 무릎 약을 먹기 시작하면서부터 이런 것 같아요."
+  onset: "약 1개월 전"
+  location:
+    initial: "명치"
+    current: "명치"
+  duration:
+    onset_pattern: "아급성 발병"
+    recent_course: "증상이 계속 비슷하게 유지됨"
+  course: "관절 약을 복용한 이후로 증상이 꾸준히 있음"
+  experience_prev_episodes:
+    frequency: "이번이 처음임"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쓰리고 더부룩한 느낌"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "공복에 약을 먹었을 때"
+    alleviating: "제산제를 먹으면 조금 나아짐"
+  health_check_history:
+    last_checkup: "2년 전 국가검진"
+    endoscopy_finding: "당시에는 깨끗했음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "퇴행성 관절염, 골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Naproxen 500mg (1일 2회)"
+      - "Alendronate, Vitamin D/Calcium"
+    source: "정형외과"
+    effect: "무릎 통증은 많이 좋아졌으나 속이 불편함"
+  social_history:
+    job: "은퇴 (전직 초등학교 교사)"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "무릎이 아파서 수영을 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 15년 전"
+physical_exam:
+  general: "전반적인 상태 양호"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat, symmetric"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: "mild"
+  cvat: "좌/우 음성"
+  extremity: "mild swelling on both knees, no edema"
+standardized_patient_questions: "무릎이 아파서 약을 안 먹을 수도 없는데, 속이 아프니 어떻게 해야 할까요? 위장약이랑 같이 먹으면 괜찮을까요?"
+specific_remarks: "환자는 증상의 시작 시점과 소염진통제(NSAID) 복용 시작 시점이 일치함을 명확하게 인지하고 진술한다. 정형외과에서 처방받은 약(Naproxen)의 이름을 정확히 기억하고 있다. 위장 증상과 관절 통증 사이에서 어떻게 해야 할지 고민하는 모습을 보인다."

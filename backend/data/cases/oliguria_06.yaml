@@ -1,0 +1,118 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (간신 증후군)"
+patient_info:
+  name: "황달수"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "복수가 급격히 늘고 소변이 거의 나오지 않음"
+vital_signs:
+  blood_pressure: "85/50mmHg"
+  pulse: "105회/분"
+  respiration: "22회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "간신 증후군 (Hepatorenal syndrome)"
+    - "신전성 급성 신손상 (이뇨제 과다 사용 또는 위장관 출혈)"
+    - "복부구획 증후군"
+  necessary_tests:
+    - "복수 천자 검사 (감염 여부 확인)"
+    - "혈액 검사 (간기능, 신기능, 혈액응고 검사)"
+    - "신장 초음파 (신기능 저하의 다른 원인 배제)"
+  necessary_treatments:
+    - "알부민 및 혈관수축제(Terlipressin) 정맥 주사"
+    - "이뇨제 중단 및 신독성 약물 회피"
+    - "궁극적으로 간이식 고려"
+history:
+  sex_age: "남성/58"
+  chief_complaint_verbatim: "배가 터질 것처럼 불러오고 숨도 차요. 일주일 전부터 소변이 거의 안 나와서 그런지 더 심해지는 것 같아요."
+  onset: "일주일 전"
+  location:
+    initial: "전신 쇠약감, 소변량 감소"
+    current: "심한 복부 팽만, 핍뇨"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 악화"
+  course: "B형 간염으로 인한 간경변으로 15년간 치료 중. 평소 복수가 있어 이뇨제를 복용해왔음. 약 2주 전부터 전신 쇠약감이 심해졌고, 일주일 전부터 소변량이 하루 500cc 미만으로 줄어든 것을 확인함. 이후 복수가 급격히 늘어나고 숨이 차는 증상이 심해져 응급실 내원."
+  experience_prev_episodes:
+    frequency: "간경변 합병증(복수, 정맥류 출혈)으로 수차례 입원"
+    trigger: "감염, 음주"
+    symptoms: "복수, 황달, 혈변"
+  character_of_symptom:
+    quality: "극심한 피로감과 함께 소변이 나오지 않음"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "시간이 지날수록"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2개월 전 소화기내과 외래"
+    endoscopy_finding: "식도 정맥류 (Grade II)"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "B형 간염, 간경변증, 식도 정맥류"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Spironolactone"
+      - "Furosemide"
+      - "Propranolol"
+      - "Entecavir"
+    source: "대학병원 소화기내과"
+    effect: "최근 증상 조절 안됨"
+  social_history:
+    job: "일용직 노동자 (최근 못 함)"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "과거 매일 소주 2병, 현재 금주 시도 중이나 간헐적 음주"
+      amount: "최근 1달 전 소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "없음"
+    exercise: "전혀 못 함"
+    recent_weight_change: "복수로 인해 2주간 8kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색. 의식 혼미(drowsy)하며, 지남력 저하(사람, 장소에 대해 헷갈려 함). 황달이 심함."
+  heent:
+    sclera: "심한 황달 (icteric)"
+    oral_mucosa: "건조함"
+  chest: "호흡음 감소 (복수로 인한 폐 압박)"
+  abdomen:
+    inspection: "심하게 팽창되어 있으며, 배꼽 주변 정맥이 확장되어 있음(caput medusae). 피부에 거미 혈관종(spider angioma) 다수 관찰."
+    auscultation: "장음 감소"
+    percussion: "이동성 탁음(shifting dullness) 양성"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 신체진찰 소견 추가
+      fluid_wave: true
+  cvat: "양측 음성"
+  extremity: "근위축 심함. 양쪽 하지에 오목 부종(pitting edema 2+) 관찰. 양손에 손바닥 홍반(palmar erythema) 및 손떨림(asterixis) 관찰."
+standardized_patient_questions: "여기가 어디죠...? 정신이 하나도 없네요. 배가 너무 불러서... 소변이 안 나오는데, 이제 콩팥까지 다 망가진 건가요? 저 죽는 건가요?"
+specific_remarks: "환자는 질문에 느리고 혼란스럽게 대답한다. 이름과 나이는 알지만, 현재 날짜나 장소를 잘 모른다. 손을 앞으로 뻗게 하면, 손목이 툭툭 떨어지는 간성혼수 손떨림(asterixis)을 연기한다."

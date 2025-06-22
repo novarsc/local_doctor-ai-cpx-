@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (베르니케-코르사코프 증후군)"
+patient_info:
+  name: "강인석"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "최근 심하게 앓은 후 발생한 심한 기억력 장애"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "베르니케-코르사코프 증후군"
+    - "알코올성 치매"
+    - "간성 뇌증"
+  necessary_tests:
+    - "뇌 MRI"
+    - "혈액검사 (Thiamine 수치, 간기능검사, 전해질 등)"
+    - "신경인지기능검사"
+  necessary_treatments:
+    - "고용량 티아민(비타민 B1) 정맥 주사"
+    - "절대적 금주"
+    - "균형 잡힌 영양 공급"
+history:
+  sex_age: "남성/55세"
+  chief_complaint_verbatim: "며칠 전에 병원에 입원했다 퇴원했는데, 그 뒤로 기억이 오락가락해요. 제가 뭘 했는지 기억이 잘 안나요."
+  onset: "약 1주일 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "증상 지속"
+  course: "만성적인 알코올 남용자로, 식사를 거의 거르고 술만 마시다가 2주 전부터 심한 구토와 어지럼증, 비틀거리는 걸음으로 근처 병원에 입원함. 당시 눈 움직임도 이상하고 횡설수설했다고 함. 며칠간 수액 치료 후 정신은 차렸으나, 입원 기간 및 그 전후의 일이 전혀 기억나지 않음. 새로운 사실을 몇 분도 기억하지 못함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "심한 선행성 기억상실(새로운 기억 형성 불가) 및 역행성 기억상실. 기억의 빈틈을 그럴듯한 이야기로 채움(작화증)."
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "2주 전에 심했음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "질문이 많아질 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: ""
+  trauma_history: "술에 취해 넘어진 적 많음"
+  past_medical_history:
+    underlying_disease: "알코올성 간염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "일용직 노동자 (최근 거의 일 못함)"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "매일"
+      amount: "소주 2~3병/일"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "전혀 안 함"
+    recent_weight_change: "최근 6개월간 10kg 감소"
+  family_history: "없음 (연락 두절)"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적으로 영양 상태 불량하고 왜소해 보임. 시간, 장소에 대한 지남력 저하."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+    pupil: "양안 외전 장애(abducens nerve palsy) 및 수평 안구진탕(horizontal nystagmus) 관찰됨"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "사지 근위부 위축. 보행 시 기저가 넓고 비틀거리는 실조성 보행(ataxic gait) 관찰됨."
+standardized_patient_questions: "여기가 어디죠? 제가 왜 여기 와있나요? (방금 설명 들었음에도 반복 질문) 의사 선생님은 아침에 뵀던 것 같은데, 맞죠? (처음 보는 상황임)"
+specific_remarks: "Wernicke 뇌병증의 3대 증상(안구운동장애, 운동실조, 의식혼탁)이 호전된 후 Korsakoff 증후군이 남은 상태를 연기. 새로운 정보를 전혀 기억하지 못하고, 기억의 공백을 작화증(confabulation)으로 채우는 모습을 보여야 함. 예를 들어 '아침에 뭐하셨어요?'라는 질문에 '아들하고 공원에서 산책했다'는 식으로 꾸며서 대답함 (실제로는 아들과 연락 안 한 지 오래됨)."

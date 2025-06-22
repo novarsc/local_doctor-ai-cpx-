@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (폐결핵)"
+patient_info:
+  name: "이민준"
+  age: 28
+  sex: "남성"
+  presenting_complaint: "3주 이상 지속되는 기침과 미열"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "92회/분"
+  respiration: "18회/분"
+  temperature: "37.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐결핵 (Pulmonary tuberculosis)"
+    - "만성 폐렴 (Chronic pneumonia)"
+    - "폐암 (Lung cancer)"
+  necessary_tests:
+    - "흉부 X선 촬영"
+    - "객담 항산균 도말 및 배양 검사 (3회)"
+    - "혈액 검사 (ESR, CRP 등 염증 수치 확인)"
+  necessary_treatments:
+    - "결핵으로 확진 시 항결핵제 복용 (최소 6개월)"
+    - "객담 검사에서 균이 나올 경우 전염 방지를 위한 격리"
+    - "규칙적인 약 복용의 중요성 교육"
+history:
+  sex_age: "남성/28세"
+  chief_complaint_verbatim: "기침이 3주 넘게 계속되고, 오후만 되면 몸이 으슬으슬하고 열이 나는 것 같아요. 밤에 식은땀도 나고 살도 좀 빠졌어요."
+  onset: "약 1개월 전"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점점 더 피곤하고 기침이 잦아짐"
+  course: "처음엔 그냥 감기인 줄 알고 버텼는데, 기침이 낫지 않고 계속됨. 2주 전부터는 오후에 미열이 있고 밤에 잘 때 옷이 젖을 정도로 땀을 흘림."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "가래가 섞인 기침, 전신 무력감"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오후, 저녁 시간대"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 군입대 신체검사, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+    # BCG 예방접종력
+    BCG_vaccination: true
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "취업 준비생 (고시원 생활)"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 2달간 4kg 감소"
+  family_history: "할아버지가 과거 결핵을 앓으셨음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색. 다소 마른 체형이며 피곤해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "좌측 폐첨부(left apex)에서 흡기 시 악설음(crackle)이 청진됨. 호흡음은 전반적으로 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "특이 소견 없음."
+standardized_patient_questions: "결핵이면 큰일 나는 거 아닌가요? 다른 사람들한테 옮기나요? 약을 그렇게 오래 먹어야 해요?"
+specific_remarks: "기운이 없고 무기력한 태도를 보인다. 체중 감소나 식은땀에 대해 이야기할 때 걱정스러운 표정을 짓는다. 고시원에서 생활한다는 점을 강조한다."

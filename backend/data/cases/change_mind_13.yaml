@@ -1,0 +1,118 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (신체증상장애)"
+patient_info:
+  name: "전신통"
+  age: 46
+  sex: "여성"
+  presenting_complaint: "온몸이 아프고 기운이 없는데 병원에선 이상이 없다고 함"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신체증상장애 (Somatic Symptom Disorder)"
+    - "섬유근육통 (Fibromyalgia)"
+    - "미진단된 내과적 또는 류마티스 질환"
+  necessary_tests:
+    - "이전 검사 결과 재검토, 불필요한 검사 반복 지양"
+    - "우울, 불안 등 동반된 정신과적 문제에 대한 평가"
+    - "신체 감각에 대한 인지 및 행동 패턴 탐색"
+  necessary_treatments:
+    - "단일 주치의와의 정기적인 진료를 통한 신뢰 관계 형성"
+    - "정신치료 (인지행동치료 등)"
+    - "스트레스 관리 및 이완 요법, 점진적인 신체 활동 격려"
+history:
+  sex_age: "여성/46세"
+  chief_complaint_verbatim: "머리부터 발끝까지 안 아픈 데가 없어요. 소화도 안되고, 어지럽고, 기운도 없고요. 대학병원까지 가서 온갖 검사를 다 했는데 아무 이상이 없대요. 의사들이 내 말을 안 믿어주는 것 같아 너무 답답하고 우울해요."
+  onset: "수년 전부터"
+  location:
+    initial: "다양함"
+    current: "전신"
+  duration:
+    onset_pattern: "만성적"
+    recent_course: "증상이 계속 바뀌고 여러 병원을 전전함"
+  course: "수년 전부터 다양한 신체 증상을 호소해왔다. 두통, 복통, 근육통, 어지러움, 피로감 등 증상이 특정 부위에 국한되지 않고 수시로 바뀐다. 증상에 대한 걱정과 염려가 매우 커서 일상생활의 대부분을 자신의 건강 상태에 대해 생각하고 병원을 방문하는 데 사용한다. 여러 병원에서 다양한 검사(위/대장 내시경, 뇌 MRI, 심장 초음파 등)를 받았으나, 증상을 설명할 만한 의학적 원인을 찾지 못했다. '신경성'이라는 말에 불만을 느끼고 다른 병원을 찾는 행동을 반복한다."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "스트레스 상황에서 악화되는 경향"
+    symptoms: "다양하고 변하는 신체 통증 및 불편감"
+  character_of_symptom:
+    quality: "쑤시고 아픔, 찌르는 듯함, 더부룩함 등 다양하게 표현"
+    nrs_score: "8-9"
+    radiation: "전신적으로 나타남"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: true
+      diarrhea: true
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "자신의 증상에 대해 생각할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "최근까지 여러 병원에서 검사 다수 시행, 특이소견 없음"
+    endoscopy_finding: "정상"
+  trauma_history: "어린 시절 가정 불화 경험"
+  past_medical_history:
+    underlying_disease: "진단된 질병 없음"
+    allergies: "특정 약물에 부작용이 심했다고 주장함"
+  medication_history:
+    taken:
+      - "다양한 진통제, 소화제, 신경안정제 등"
+    source: "여러 병원"
+    effect: "효과가 없거나 부작용만 심했다고 호소"
+  social_history:
+    job: "주부"
+    stress: "가족 관계에서 스트레스가 많음"
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "아파서 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    lmp: "1주 전"
+    cycle: "규칙적"
+    menarche: "13세"
+    menopause: "N/A"
+physical_exam:
+  general: "매우 고통스러운 표정으로 자신의 증상을 상세하고 극적으로 설명함. 진찰 시 작은 자극에도 과장된 통증 반응을 보일 수 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "객관적인 근력 약화나 감각 저하 소견은 없음."
+standardized_patient_questions: "선생님, 제 몸에 정말 아무 이상이 없는 게 맞나요? 그럼 저는 왜 이렇게 아픈 거죠? 혹시 큰 병을 놓치고 있는 건 아닐까요?"
+specific_remarks: "환자는 자신의 신체 증상에 대해 매우 집착하며, 심리적인 문제와의 연관성은 강력하게 부인함. '스트레스받으면 누구나 아프지만, 제 경우는 그런 차원이 아니다'라고 주장함. 의사가 공감해주지 않으면 적대적인 태도를 보일 수 있음. 과거에 받았던 수많은 검사 결과지를 들고 와서 보여주려는 행동을 할 수 있음."

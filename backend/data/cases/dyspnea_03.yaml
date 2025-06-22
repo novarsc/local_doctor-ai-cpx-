@@ -1,0 +1,117 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (폐색전증)"
+patient_info:
+  name: "이수진"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "3시간 전부터 갑자기 숨이 차고 오른쪽 가슴에 통증이 있음"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "115회/분"
+  respiration: "26회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐색전증 (Pulmonary embolism)"
+    - "급성 관상동맥 증후군"
+    - "기흉"
+  necessary_tests:
+    - "D-dimer 혈액검사"
+    - "CT 폐동맥 조영술 (CT pulmonary angiography)"
+    - "심전도"
+    - "심장 효소 검사"
+    - "하지 정맥 초음파"
+  necessary_treatments:
+    - "항응고제 치료 (헤파린 등)"
+    - "필요시 혈전용해술 또는 색전제거술"
+    - "산소 공급"
+    - "장기적인 경구 항응고제 복용"
+history:
+  sex_age: "여성/55"
+  chief_complaint_verbatim: "비행기에서 내리고 공항버스 타고 집에 오는데 갑자기 숨이 턱 막히고 오른쪽 가슴이 칼로 찌르는 것처럼 아파요."
+  onset: "3시간 전"
+  location:
+    initial: "오른쪽 가슴"
+    current: "오른쪽 가슴"
+  duration:
+    onset_pattern: "매우 갑자기 발생 (hyperacute onset)"
+    recent_course: "지속됨 (persistent)"
+  course: "10일간의 유럽 여행을 마치고 오늘 인천공항에 도착함 (비행시간 12시간). 공항버스를 타고 집으로 오던 중 갑자기 숨이 차고, 숨을 깊게 들이쉴 때 오른쪽 가슴 옆쪽으로 날카로운 통증이 발생함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "가슴 통증은 날카롭고 칼로 찌르는 듯함 (pleuritic chest pain)"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "심호흡"
+      - "기침"
+    alleviating: "얕게 숨 쉴 때"
+  health_check_history:
+    last_checkup: "1년 전 국가검진"
+    endoscopy_finding: "위축성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "3년 전 유방암 1기 진단 후 수술 및 항호르몬 치료(타목시펜) 중"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "타목시펜 (Tamoxifen)"
+    source: "대학병원 유방외과"
+    effect: "부작용 없이 복용 중"
+  social_history:
+    job: "주부"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "50세에 폐경됨"
+physical_exam:
+  general: "매우 불안해하며 얕고 빠른 호흡을 보임. 식은땀을 흘리고 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "흉부 청진 상 호흡음은 깨끗함. 특징적인 소견 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "오른쪽 종아리가 왼쪽에 비해 약간 부어있고, 만지면 통증(tenderness)을 호소함 (Homan's sign은 시행하지 않음)."
+standardized_patient_questions: "왜 갑자기 이런 건가요? 심장에 문제 생긴 거 아니에요? 비행기 오래 타서 그런가요? 위험한 병인가요?"
+specific_remarks: "불안감을 강하게 표현. 가슴 통증 때문에 깊은 숨을 쉬지 못하고 '악' 소리를 내며, 오른쪽 가슴을 감싸 쥐는 모습을 연기할 것. 오른쪽 다리가 붓고 아프다고 먼저 말하지는 않지만, 의사가 다리를 보고 질문하면 '아, 거기가 좀 뻐근하고 아프긴 해요'라고 대답할 것."

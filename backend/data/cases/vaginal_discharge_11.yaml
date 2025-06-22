@@ -1,0 +1,124 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (자궁내막 용종)"
+patient_info:
+  name: "윤지선"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "생리 기간이 아닌데 부정출혈이 있음"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁내막 용종 (Endometrial polyp)"
+    - "점막하 자궁근종 (Submucosal myoma)"
+    - "자궁내막증식증 (Endometrial hyperplasia)"
+  necessary_tests:
+    - "질식 초음파 또는 식염수 주입 초음파 (TVS or Saline infusion sonohysterography)"
+    - "자궁내시경 (Hysteroscopy)"
+    - "조직검사 (Biopsy)"
+  necessary_treatments:
+    - "자궁내시경을 이용한 용종절제술"
+    - "조직검사 결과 확인 후 추가 치료 결정"
+    - "정기적인 추적 관찰"
+history:
+  sex_age: "여성/38"
+  chief_complaint_verbatim: "생리가 끝난 지 일주일 정도 지났는데, 며칠 전부터 또 피가 조금씩 비쳐요. 양은 많지 않은데 계속 신경 쓰여요."
+  onset: "4일 전"
+  location:
+    initial: "질"
+    current: "질"
+  duration:
+    onset_pattern: "간헐적"
+    recent_course: "소량의 출혈이 계속됨"
+  course: "지난 생리는 정상적으로 끝났습니다. 그런데 4일 전부터 갈색 혈액이 속옷에 조금씩 묻어나기 시작했습니다. 양이 많지는 않고, 팬티라이너를 하는 정도입니다. 이런 증상은 이번이 처음입니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "생리기간 사이의 소량 출혈 (Intermenstrual bleeding), 주로 갈색"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전 자궁경부암 검사"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "초등학교 교사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 수영"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "13세"
+    menstrual_cycle: "28일 주기, 규칙적"
+    duration: "6일"
+    amount: "보통"
+    lmp: "3주 전"
+    gpa: "1-0-1-0 (난임으로 시험관 아기 시술 경험 있음)"
+    sexual_partner: "배우자 1명"
+    contraception: "콘돔"
+physical_exam:
+  general: "전신 상태 양호함. 급성 병색 없음."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 복부 압통 없음.
+      # 질경 검사 시: 질과 자궁경부는 정상 소견. 자궁경부구에서 소량의 암갈색 혈액이 보임.
+      # 내진 시: 자궁과 자궁 부속기는 정상 크기이며 압통 없음.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "생리도 아닌데 왜 피가 나는 걸까요? 암 같은 건 아니겠죠? 그냥 둬도 괜찮을까요?"
+specific_remarks: "증상은 경미하지만, 암에 대한 막연한 불안감을 가지고 있다. 과거 난임 경험을 이야기하며 자궁 건강에 대해 예민한 모습을 보인다."

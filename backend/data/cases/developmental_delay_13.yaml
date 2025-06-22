@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (만성 콩팥병)"
+patient_info:
+  name: "최민재"
+  age: 9
+  sex: "남성"
+  presenting_complaint: "기운이 없고 잘 크지 않음"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "95회/분"
+  respiration: "22회/분"
+  temperature: "36.7℃"
+examinee_instructions: "아이가 기운이 없고 성장이 더디다는 주소로 내원한 보호자의 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 콩팥병으로 인한 성장 장애"
+    - "성장호르몬 결핍증"
+    - "흡수 장애 증후군"
+  necessary_tests:
+    - "혈액 검사 (BUN/Cr, 전해질, CBC, 칼슘, 인)"
+    - "소변 검사 (단백뇨, 혈뇨 확인)"
+    - "신장 초음파 검사"
+  necessary_treatments:
+    - "원인 질환에 대한 치료"
+    - "고혈압, 빈혈, 전해질 이상 등 합병증 관리"
+    - "식이 요법 (단백질, 염분, 칼륨, 인 제한) 및 성장호르몬 치료 고려"
+history:
+  sex_age: "남성/9세"
+  chief_complaint_verbatim: "(보호자) 애가 밥도 잘 안 먹고, 맨날 피곤하다고 해요. 학교에서도 계속 졸고, 키도 거의 안 크는 것 같아요."
+  onset: "1-2년 전부터 서서히 시작됨"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 6개월간 피로감이 심해지고 얼굴이 붓는 일이 잦아짐"
+  course: "어릴 때는 건강했으나, 초등학교 입학 후부터 성장이 더뎌졌다. 식욕이 점점 줄고, 얼굴이 창백하다는 말을 자주 들었다. 최근에는 아침에 일어날 때 눈 주위가 붓고, 소변에서 거품이 많이 난다고 아이가 말했다. 학교 체육 시간에 조금만 뛰어도 숨이 차다고 한다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "거품뇨"
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "운동 시"
+    alleviating: "휴식 시"
+  health_check_history:
+    last_checkup: "1년 전 학교 건강검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "어릴 때 요로감염을 앓은 적이 있으나, 이후 추적검사는 하지 않음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "초등학생"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "활동량 감소"
+    recent_weight_change: "성장 정체"
+  family_history: "할아버지가 당뇨병으로 혈액 투석을 받으셨음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색. 나이에 비해 체구가 작고 말라 있음. 피부가 창백하고 약간의 흙빛을 띰."
+  heent:
+    sclera: "창백함 (pale conjunctiva)"
+    oral_mucosa: "정상"
+    face: "눈 주위가 약간 부어 있음 (periorbital edema)."
+  chest: "청진상 특이 소견 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "정강이 앞쪽에 약간의 오목 부종(pitting edema) 관찰됨."
+standardized_patient_questions: "애가 왜 이렇게 기운이 없나요? 콩팥이 나쁘다니요? 그럼 앞으로 어떻게 되는 건가요? 투석 같은 걸 해야 하나요? 키는 이제 더 안 크나요?"
+specific_remarks: "보호자는 아이가 단순히 허약 체질인 줄 알았는데, '만성 콩팥병'이라는 진단 가능성에 매우 놀라고 충격을 받는다. 가족력 때문에 투석에 대한 공포감을 가지고 있을 수 있다."

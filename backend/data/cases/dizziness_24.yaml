@@ -1,0 +1,106 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "24"
+title: "실전 모의 증례 (신체증상장애, Somatic Symptom Disorder)"
+patient_info:
+  name: "김영미"
+  age: 49
+  sex: "여성"
+  presenting_complaint: "온몸이 다 아프고 계속 어지러워요."
+vital_signs:
+  blood_pressure: "125/85mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신체증상장애"
+    - "섬유근육통"
+    - "만성 피로 증후군"
+  necessary_tests:
+    - "포괄적인 병력 청취 및 신체 진찰"
+    - "기본 혈액 검사, 갑상선 기능 검사, 류마티스 인자 검사 (기질적 원인 배제 목적)"
+    - "우울/불안 척도 검사"
+  necessary_treatments:
+    - "정기적인 외래 방문을 통한 지지적 관계 형성"
+    - "항우울제 (SSRI, SNRI 등)"
+    - "정신건강의학과 협진 및 인지행동치료"
+    - "불필요한 검사나 여러 병원을 다니는 것을 줄이도록 격려"
+history:
+  sex_age: "여성/49세"
+  chief_complaint_verbatim: "머리부터 발끝까지 안 아픈 데가 없고, 매일 어지러워서 일상생활을 할 수가 없어요. 여러 병원을 다녀도 병명을 몰라요."
+  onset: "수 년 전부터"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "만성적"
+    recent_course: "최근 스트레스 받는 일이 있고 나서 더 심해짐"
+  course: "어지럼증, 두통, 소화불량, 전신 통증, 손발 저림 등 증상이 계속 바뀌면서 나타납니다. 대학병원 여러 과를 다녔는데 검사에서는 다 이상이 없다고만 합니다."
+  experience_prev_episodes:
+    frequency: "항상"
+    trigger: "스트레스"
+    symptoms: "매우 다양하고 비특이적인 증상들의 나열"
+  character_of_symptom:
+    quality: "어지럼은 붕 뜨는 느낌, 통증은 여기저기 쑤시고 아픔"
+    nrs_score: "8-9 (주관적 고통)"
+    radiation: "전신으로"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스, 신경 쓰는 일"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "최근 3개월간 대학병원 순회 (신경과, 소화기내과, 류마티스내과 등)"
+    endoscopy_finding: "모두 정상 소견 또는 비특이적 소견"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "과민성 대장 증후군, 긴장성 두통 (과거 진단)"
+    allergies: "많다고 느낌 (음식, 약물에 민감)"
+  medication_history:
+    taken:
+      - "다양한 진통제, 소화제, 신경안정제 등"
+    source: "여러 병원"
+    effect: "효과가 없거나 일시적임"
+  social_history:
+    job: "주부"
+    stress: "남편과의 불화, 자녀 문제로 스트레스 매우 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "아파서 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 이행기, 생리 불규칙"
+physical_exam:
+  general: "매우 고통스러워하고 우울해 보임. 증상을 과장되게 표현하는 경향."
+  heent: "정상"
+  chest: "정상"
+  abdomen: "전반적인 압통을 호소하나 특정 부위에 국한되지 않음."
+  cvat: "좌우 음성"
+  extremity: "신체 진찰 소견과 환자가 호소하는 증상의 정도가 불일치함."
+standardized_patient_questions: "선생님, 제 병이 뭔지 제발 좀 찾아주세요. 이렇게 아픈데 왜 검사에는 이상이 없다고만 하나요? 제가 꾀병 부리는 것 같으세요?"
+specific_remarks: "환자는 신체 증상에 대한 과도한 걱정과 집착을 보여야 한다. 병력 청취 시, 하나의 증상에 국한되지 않고 여러 계통에 걸친 다양하고 모호한 증상들을 장황하게 나열한다. 자신의 고통을 아무도 알아주지 않는다는 억울함과 절망감을 표현한다. 의사가 심리적인 문제에 대해 조심스럽게 접근할 때 방어적이거나 부정적인 태도를 보일 수 있다. 신체 진찰 소견은 객관적으로 정상이다."

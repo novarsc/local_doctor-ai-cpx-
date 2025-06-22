@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (아데노이드 증식증)"
+patient_info:
+  name: "박서준"
+  age: 6
+  sex: "남성"
+  presenting_complaint: "항상 코를 킁킁거리고 입을 벌리고 있음"
+vital_signs:
+  blood_pressure: "100/65mmHg"
+  pulse: "105회/분"
+  respiration: "22회/분"
+  temperature: "36.9℃"
+examinee_instructions: "보호자로부터 증상과 관련된 병력을 청취하고, 아이의 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "아데노이드 증식증"
+    - "만성 비염 (알레르기성 또는 비알레르기성)"
+    - "만성 부비동염"
+  necessary_tests:
+    - "비인두 측면 X-ray 촬영"
+    - "비강 내시경 검사 (아데노이드 크기 직접 확인)"
+    - "필요 시 수면다원검사 (수면무호흡 동반 여부 확인)"
+  necessary_treatments:
+    - "경과 관찰 및 약물 치료 (항히스타민제, 비강 스테로이드)"
+    - "증상이 심하고 합병증(중이염, 수면무호흡 등)이 동반될 경우 수술적 치료 (아데노이드 절제술)"
+    - "구호흡으로 인한 치과적 문제에 대한 상담"
+history:
+  sex_age: "남성/6"
+  chief_complaint_verbatim: "(보호자) 아이가 잘 때 너무 시끄럽게 코를 골고, 평소에도 입을 벌리고 숨을 쉬어요. 감기도 아닌데 맨날 코를 킁킁거려요."
+  onset: "1-2년 전부터 그랬던 것 같음"
+  location:
+    initial: "코, 목"
+    current: "코, 목"
+  duration:
+    onset_pattern: "서서히 진행"
+    recent_course: "최근 들어 코골이가 더 심해지고, 자다가 숨을 잠깐 멈추는 것 같기도 함."
+  course: "어릴 때부터 감기를 달고 살았고, 중이염에도 몇 번 걸렸었음. 평소 입을 벌리고 있는 모습이 특징적임."
+  experience_prev_episodes:
+    frequency: "지속적인 증상"
+    trigger: "감기에 걸리면 더 심해짐"
+    symptoms: "코막힘, 코골이, 구호흡"
+  character_of_symptom:
+    quality: "만성적인 코막힘과 그로 인한 구호흡, 심한 코골이"
+    nrs_score: "모름"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "바로 누워 잘 때"
+      - "감기 걸렸을 때"
+    alleviating: "옆으로 누워 잘 때 코골이가 좀 줄어드는 것 같음"
+  health_check_history:
+    last_checkup: "1년 전 영유아 검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "재발성 삼출성 중이염으로 2차례 튜브 삽입술 받음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "중이염 걸렸을 때 항생제, 비염 약 간헐적 복용"
+    source: "이비인후과"
+    effect: "약 먹을 때만 잠시 호전"
+  social_history:
+    job: "유치원생"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: ""
+    recent_weight_change: "정상적인 성장 중"
+  family_history: "아빠가 코를 많이 고는 편"
+  female_history: ""
+physical_exam:
+  general: "입을 살짝 벌리고 있는 모습 (adenoid face). 키와 체중은 정상 범위."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "구호흡으로 인해 건조함. 편도는 비대하지 않음 (Tonsil grade I)."
+    # 추가 소견: 코맹맹이 소리(hyponasality). 중이강 내 삼출액 저류 소견은 현재 관찰되지 않음.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "(보호자) 아데노이드가 뭔가요? 얼굴형이 변할 수도 있다던데 사실인가요? 꼭 수술해야 하나요? 수술하면 재발 안 하나요?"
+specific_remarks: "환아(SP)는 입을 벌리고 있고, 가만히 있지 못하고 산만한 모습을 보일 수 있다. 의사의 질문에 짧게 대답하거나 보호자 뒤에 숨을 수 있다."

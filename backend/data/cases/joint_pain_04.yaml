@@ -1,0 +1,115 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "4/24"
+title: "실전 모의 증례 (골관절염)"
+patient_info:
+  name: "최영희"
+  age: 67
+  sex: "여성"
+  presenting_complaint: "오래 걷거나 계단을 오르내리면 심해지는 양쪽 무릎 통증"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "골관절염 (퇴행성 관절염)"
+    - "류마티스 관절염"
+    - "반월상연골 손상"
+  necessary_tests:
+    - "무릎 서서 찍는 X-ray (Weight-bearing knee X-ray)"
+    - "혈액 검사 (ESR, CRP) - 염증성 원인 감별 목적"
+    - "필요시 MRI 고려"
+  necessary_treatments:
+    - "생활 습관 교정 (체중 감량, 무릎에 무리 안가는 운동)"
+    - "약물 치료 (소염진통제, 관절강내 주사)"
+    - "물리 치료 및 재활 운동"
+history:
+  sex_age: "여성/67세"
+  chief_complaint_verbatim: "몇 년 전부터 무릎이 시큰거렸는데, 요즘은 조금만 걸어도 아파서 장 보러 가기도 힘드네요. 특히 계단 내려갈 때 무릎이 꺾일 것 같아요."
+  onset: "수년 전부터 서서히"
+  location:
+    initial: "양쪽 무릎 안쪽"
+    current: "양쪽 무릎 전반, 특히 안쪽"
+  duration:
+    onset_pattern: "서서히 발생하여 만성적으로 지속"
+    recent_course: "최근 6개월 사이 악화"
+  course: "처음에는 오래 걸은 날만 아팠는데, 이제는 일상적인 활동에도 통증이 있음. 아침에 일어나면 무릎이 뻣뻣하지만 30분 내로 풀림."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "시큰거리고 삐걱거리는 느낌의 통증"
+    nrs_score: "활동 시 7, 쉴 때 3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 걷기, 계단 오르내리기"
+      - "쪼그려 앉기"
+    alleviating: "쉬면 나아짐, 온찜질"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "위염"
+  trauma_history: "젊었을 때 넘어져 무릎 다친 적 있으나 병원 가진 않음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+      - "약국에서 산 관절약 (성분 모름)"
+    source: "내과, 약국"
+    effect: "관절약 먹으면 속이 좀 쓰림"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "무릎 아파서 거의 못함"
+    recent_weight_change: "지난 5년간 8kg 증가"
+  family_history: "어머니가 말년에 무릎이 안 좋아 잘 못 걸으셨음"
+  female_history: "폐경 15년 전"
+physical_exam:
+  general: "체격이 약간 비만형. 걸을 때 왼쪽 무릎을 약간 절뚝거림(antalgic gait)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "양쪽 무릎의 내측 관절선(medial joint line)을 따라 압통이 있음. 무릎을 굽혔다 펼 때 삐걱거리는 소리(crepitus)가 들림. 약간의 내반슬 변형(varus deformity, O다리) 관찰됨. 심한 부종이나 발적, 열감은 없음. 관절 운동 범위는 끝 범위에서 통증으로 약간 제한됨."
+standardized_patient_questions: "이거 퇴행성 관절염 맞죠? 수술해야 하나요? 인공관절 수술은 무섭던데..."
+specific_remarks: "환자는 만성적인 통증에 익숙하지만, 최근 악화로 인해 일상생활의 어려움을 호소해야 함. 진찰 시 '시큰거린다', '소리가 난다' 등의 표현을 사용하고, 수술에 대한 막연한 두려움을 표현한다."

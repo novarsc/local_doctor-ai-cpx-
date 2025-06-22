@@ -1,0 +1,118 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (월경 전 불쾌기분장애)"
+patient_info:
+  name: "박예민"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "생리 시작 일주일 전만 되면 감정 조절이 안 되고 우울해짐"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "월경 전 불쾌기분장애 (Premenstrual Dysphoric Disorder, PMDD)"
+    - "월경 전 증후군 (Premenstrual Syndrome, PMS)"
+    - "주요우울장애 또는 불안장애의 월경 전 악화"
+  necessary_tests:
+    - "증상 일지 작성 (최소 2개월 이상, 월경 주기와 증상 연관성 확인)"
+    - "기본 혈액 검사, 갑상선 기능 검사 (다른 원인 감별)"
+    - "필요 시 부인과 진료 연계"
+  necessary_treatments:
+    - "선택적 세로토닌 재흡수 억제제(SSRI) (주기적 또는 지속적 복용)"
+    - "생활 습관 개선 (규칙적 운동, 카페인/염분 섭취 제한, 스트레스 관리)"
+    - "필요 시 경구 피임약 복용 고려"
+history:
+  sex_age: "여성/31세"
+  chief_complaint_verbatim: "생리하기 한 열흘 전부터 사람이 완전 변해요. 너무 예민해지고, 별것도 아닌 일에 눈물이 나고, 남자친구랑 맨날 싸워요. 그러다 생리만 시작하면 거짓말처럼 괜찮아져요."
+  onset: "2-3년 전부터"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "주기적 발병"
+    recent_course: "최근 6개월간 증상이 더 심해진 것 같음"
+  course: "매달 월경 시작 약 7-10일 전부터 급격한 감정 변화, 우울감, 불안, 분노를 경험한다. 집중력 저하와 피로감, 유방 압통, 복부 팽만감 등 신체 증상도 동반된다. 월경이 시작되면 1-2일 내에 증상이 거의 사라진다. 월경이 끝난 후부터 다음 배란기까지는 별다른 증상 없이 잘 지낸다."
+  experience_prev_episodes:
+    frequency: "거의 매달 월경 주기에 따라 반복됨"
+    trigger: "월경 주기 (황체기)"
+    symptoms: "감정 기복, 우울감, 분노, 불안, 신체 증상"
+  character_of_symptom:
+    quality: "걷잡을 수 없는 감정 기복, 슬픔, 예민함, 짜증"
+    nrs_score: "8-9 (증상 있을 때)"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "수면 부족"
+    alleviating: "월경 시작"
+  health_check_history:
+    last_checkup: "1년 전, 특이소견 없음"
+    endoscopy_finding: "N/A"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 진통제(이부프로펜) 복용"
+    source: "약국"
+    effect: "생리통에는 효과 있으나 감정 변화에는 효과 없음"
+  social_history:
+    job: "프리랜서 번역가"
+    stress: "마감 기한 관련 스트레스가 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "주 2-3회 요가"
+    recent_weight_change: "주기적으로 1-2kg 붓고 빠짐"
+  family_history: "어머니가 '생리 전 증후군'이 심했다고 들음"
+  female_history:
+    lmp: "1주 전"
+    cycle: "28-30일, 규칙적"
+    menarche: "13세"
+    menopause: "N/A"
+physical_exam:
+  general: "현재는 월경이 끝난 시점이라 전반적으로 안정되어 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "이게 호르몬 때문인가요? 제가 이상한 게 아니고요? 매달 이러는 게 너무 힘들어서 직장도 그만뒀어요. 치료가 가능할까요?"
+specific_remarks: "증상의 주기성을 명확하게 설명함. 증상이 없는 시기(난포기)에 내원한 설정으로, 현재는 감정적으로 안정된 상태. 하지만 과거 증상에 대해 이야기할 때는 괴로움과 무력감을 표현함. '마치 한 달에 한 번 다른 사람이 되는 것 같다'고 호소함."

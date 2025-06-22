@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (심실빈맥)"
+patient_info:
+  name: "황민수"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "갑자기 가슴이 미친 듯이 뛰더니 정신을 잃었어요."
+vital_signs:
+  blood_pressure: "90/50mmHg"
+  pulse: "160회/분 (규칙적)"
+  respiration: "24회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "심실 빈맥 (Ventricular tachycardia)"
+    - "발작성 상심실성 빈맥 (PSVT)과 혈역학적 불안정"
+    - "급성 심근경색증에 동반된 부정맥"
+  necessary_tests:
+    - "즉각적인 12유도 심전도 검사"
+    - "지속적인 심장 모니터링 및 제세동기 대기"
+    - "혈액 검사 (심장 효소, 전해질, 갑상선 기능 포함)"
+  necessary_treatments:
+    - "혈역학적으로 불안정할 경우 즉각적인 동기화 심율동 전환(synchronized cardioversion)"
+    - "안정적일 경우 항부정맥제 (아미오다론 등) 투여"
+    - "원인 규명 후 삽입형 제세동기(ICD) 시술 고려"
+history:
+  sex_age: "남성/65"
+  chief_complaint_verbatim: "어제 저녁 먹고 TV 보는데, 갑자기 아무 이유 없이 심장이 가슴을 뚫고 나올 것처럼 빠르고 세게 뛰기 시작했어요. 너무 어지러워서 일어서려다 그대로 바닥에 쓰러졌습니다."
+  onset: "어제 저녁 9시"
+  location:
+    initial: "자택"
+    current: "응급실"
+  duration:
+    onset_pattern: "갑자기 발생한 심계항진 후 실신"
+    recent_course: "아내가 119에 신고하는 동안(약 1-2분) 의식을 잃었고, 깨어난 후에도 계속 가슴이 두근거리고 어지러움. 119 도착 시까지 증상 지속."
+  course: "5년 전 심근경색으로 스텐트 시술을 받았음. 이후 가끔 가슴이 두근거리는 증상이 있었으나, 이렇게 심한 것은 처음."
+  experience_prev_episodes:
+    frequency: "의식 소실은 처음. 심계항진은 연 2-3회."
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "가슴 두근거림"
+  character_of_symptom:
+    quality: "의식 소실"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "알 수 없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "6개월 전 (심장내과)"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "넘어지면서 이마에 가벼운 타박상"
+  past_medical_history:
+    underlying_disease: "허혈성 심질환 (5년 전 심근경색으로 스텐트 시술), 고혈압, 당뇨"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "아스피린, 클로피도그렐, 스타틴, 베타 차단제"
+    source: "대학병원 심장내과"
+    effect: "잘 복용 중이었음"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "5년 전 금연"
+    exercise: "매일 30분 걷기"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "급성 병색. 식은땀을 흘리며 불안해함. 의식은 명료하나 어지럼증 호소."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "dry"
+  chest: "호흡음은 깨끗함. 심음 청진 시 매우 빠른 빈맥(tachycardia)이 규칙적으로 들림. Cannon A wave가 간헐적으로 관찰될 수 있음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 감소"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "손발이 차고 축축함. 말초 맥박이 약하게 촉진됨."
+standardized_patient_questions: "심장이 왜 이러는 건가요? 예전 심근경색이 재발한 건가요? 이러다 죽는 거 아닌지 너무 무섭습니다."
+specific_remarks: "환자는 죽음의 공포를 느끼며 매우 불안해한다. 가슴이 계속 쿵쾅거리고 어지럽다고 반복해서 호소한다. 의사의 질문에 짧게 대답하며, 빨리 조치를 취해달라는 태도를 보인다."

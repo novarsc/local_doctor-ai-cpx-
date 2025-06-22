@@ -1,0 +1,114 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "13/24"
+title: "실전 모의 증례 (유착성 관절낭염, 오십견)"
+patient_info:
+  name: "나미선"
+  age: 53
+  sex: "여성"
+  presenting_complaint: "점점 심해지는 어깨 통증과 움직임 제한"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "유착성 관절낭염 (오십견)"
+    - "회전근개 파열 또는 힘줄염"
+    - "어깨 충돌 증후군"
+  necessary_tests:
+    - "어깨 관절 운동 범위 평가 (능동적/수동적)"
+    - "어깨 X-ray (석회화, 관절염 감별)"
+    - "필요시 어깨 초음파 또는 MRI (다른 질환 감별)"
+  necessary_treatments:
+    - "통증 조절 (소염진통제, 관절강내 스테로이드 주사)"
+    - "관절 운동 범위 회복을 위한 스트레칭 운동 (가장 중요)"
+    - "온찜질, 물리치료"
+history:
+  sex_age: "여성/53세"
+  chief_complaint_verbatim: "몇 달 전부터 왼쪽 어깨가 아프기 시작하더니, 이제는 팔을 올릴 수도 없고 뒤로 돌릴 수도 없어요. 밤에 아파서 잠을 깨고, 옷을 입거나 머리 빗기도 힘들어요."
+  onset: "약 3개월 전"
+  location:
+    initial: "왼쪽 어깨"
+    current: "왼쪽 어깨 전체, 팔 위쪽"
+  duration:
+    onset_pattern: "특별한 계기 없이 서서히 시작"
+    recent_course: "통증과 함께 어깨가 굳어가는 느낌"
+  course: "처음에는 욱신거리는 통증만 있다가(통증기), 점차 팔을 움직일 수 있는 범위가 줄어들고 뻣뻣해짐(동결기). 특히 밤에 통증이 심해져 아픈 쪽으로 눕지 못함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쑤시고 뻣뻣한 통증"
+    nrs_score: "움직일 때 8, 가만히 있을 때 4"
+    radiation: "어깨에서 팔 위쪽으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "팔을 들어 올리거나 뒤로 돌릴 때"
+      - "밤에 잘 때"
+    alleviating: "움직이지 않으면 덜함"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 (5년 전 진단, 경구 혈당강하제 복용), 갑상선기능저하증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "당뇨약, 갑상선약"
+    source: "내과"
+    effect: "꾸준히 복용 중"
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "어깨 아파서 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 2년 전"
+physical_exam:
+  general: "어깨 통증으로 인해 표정이 어두움."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "왼쪽 어깨의 능동적(active) 및 수동적(passive) 관절 운동 범위가 모든 방향에서 현저히 감소되어 있음. 특히 외회전(external rotation)과 외전(abduction)에서 제한이 심함. 특정 부위의 압통보다는 어깨 전체에 걸친 통증을 호소함. 어깨 근육 위축은 뚜렷하지 않음."
+standardized_patient_questions: "이게 오십견인가요? 왜 다치지도 않았는데 어깨가 굳는 거죠? 주사 맞으면 바로 풀리나요? 운동을 해야 한다는데 너무 아파서 할 수가 없어요."
+specific_remarks: "환자는 능동적 움직임뿐만 아니라, 의사가 팔을 들어 올리려고 할 때(수동적 움직임)도 아프고 올라가지 않는다는 점을 명확히 보여줘야 함. 일상생활의 어려움(머리 빗기, 옷 입기 등)을 구체적으로 설명한다. 치료로서 운동의 중요성을 강조받았을 때, 통증 때문에 힘들다는 점을 어필한다."

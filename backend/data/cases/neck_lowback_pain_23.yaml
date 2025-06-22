@@ -1,0 +1,115 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "23"
+title: "실전 모의 증례 (척추 경막외 농양)"
+patient_info:
+  name: "이재훈"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "일주일 전부터 시작된 심한 등 통증, 발열, 다리 마비"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "115회/분"
+  respiration: "24회/분"
+  temperature: "38.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "척추 경막외 농양 (Spinal epidural abscess)"
+    - "횡단성 척수염"
+    - "척수 경색"
+  necessary_tests:
+    - "응급 전척추 MRI (조영제 사용)"
+    - "혈액 검사 (CBC, ESR, CRP, 혈액 배양)"
+    - "필요시 CT 유도 하 흡인 및 배양"
+  necessary_treatments:
+    - "응급 수술적 배농 및 감압술"
+    - "장기간의 광범위 항생제 정맥 주사"
+    - "수술 후 재활치료"
+history:
+  sex_age: "남성/52세"
+  chief_complaint_verbatim: "등이 너무 아프고 열이 펄펄 나더니, 어제부터 갑자기 다리에 힘이 빠지고 감각이 없어져서 움직일 수가 없어요!"
+  onset: "약 1주일 전"
+  location:
+    initial: "등 중앙"
+    current: "등 중앙, 양쪽 다리"
+  duration:
+    onset_pattern: "아급성 발생"
+    recent_course: "지난 24시간 동안 급격한 신경학적 악화"
+  course: "일주일 전부터 등이 심하게 아프고 몸살 기운이 있었음. 3일 전부터는 통증이 너무 심해 잠을 잘 수 없었고 열이 39도까지 오름. 어제 아침부터 양쪽 다리가 저리기 시작하더니, 오후부터는 다리에 힘이 완전히 빠져서 일어설 수 없게 됨. 소변이 마려운 느낌도 없음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "극심하고 국소적인 등 통증, 양쪽 다리의 마비감"
+    nrs_score: "10"
+    radiation: "등 통증이 띠처럼 옆구리로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "모든 움직임, 누워만 있어도 아픔"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "기억 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 (인슐린 치료 중), 만성 신부전으로 혈액 투석 중"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "인슐린 주사"
+    source: "내과"
+    effect: "혈당 조절 불량"
+  social_history:
+    job: "무직"
+    stress: "질병으로 인해 많음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색, 고열과 통증으로 매우 힘들어하며 신음 소리를 냄."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "Tachycardia, tachypnea. Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "hypoactive bowel sound"
+    percussion: "방광 부위 탁음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      percussion_tenderness: "흉추 8-9번(T8-9) 부위 극돌기를 가볍게 두드릴 때 극심한 통증 호소"
+  cvat: "좌우 음성"
+  extremity: "양쪽 하지의 이완성 마비 (flaccid paraplegia, 근력 Grade 0/5). 흉추 10번(T10) 감각 분절 이하로 모든 감각 소실. 심부건 반사 소실. 바빈스키 징후 음성 (초기 쇼크 단계)."
+standardized_patient_questions: "왜 갑자기 다리가 마비된 건가요? 다시 걸을 수 있을까요? 제발 살려주세요."
+specific_remarks: "전형적인 3단계 진행(등 통증 -> 신경근 통증 -> 척수 압박 증상)을 명확히 보여줘야 함. 특히 최근 24시간 내에 급격히 나빠진 신경학적 증상(다리 마비, 대소변 장애)을 강조해야 함. 당뇨, 혈액투석 등 감염의 위험 요소를 명확히 제시할 것. 응급 상황임을 인지하고 극심한 고통과 함께 공포에 질린 모습을 연기해야 함."

@@ -1,0 +1,114 @@
+---
+chapter: "상담"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (간 전이를 동반한 대장암)"
+patient_info:
+  name: "최정수"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "건강검진 대장내시경 결과 상담"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "78회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "환자는 최근 배변 습관 변화로 건강검진 대장내시경을 받았습니다. 내시경에서 진행성 대장암이 발견되어 조직검사를 시행했고, 추가로 촬영한 복부 CT에서 다발성 간 전이가 확인되었습니다. 오늘 조직검사 결과(선암, adenocarcinoma)와 CT 결과를 설명하기 위해 내원했습니다. 환자에게 4기 대장암 진단을 알리고 향후 치료 계획을 논의하십시오."
+patient_education:
+  probable_diagnoses:
+    - "S상 결장암 및 다발성 간 전이 (4기)"
+    - "염증성 장질환"
+    - "다른 부위 암의 대장 및 간 전이"
+  necessary_tests:
+    - "종양표지자검사 (CEA)"
+    - "암 유전자 검사 (RAS, BRAF 등) (표적치료제 선택 목적)"
+    - "PET-CT (다른 부위 전이 여부 확인)"
+  necessary_treatments:
+    - "고식적 항암화학요법 +/- 표적치료"
+    - "간 전이 병변에 대한 국소 치료 (수술, 고주파열치료 등) 가능성 평가"
+    - "장 폐색 발생 시 스텐트 삽입 또는 장루 조성술 고려"
+history:
+  sex_age: "남성/58세"
+  chief_complaint_verbatim: "얼마 전에 받은 대장내시경 결과 들으러 왔습니다. 용종 같은 게 있다고 들었는데, 괜찮겠죠?"
+  onset: "3개월 전"
+  location:
+    initial: "없음"
+    current: "없음"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "지속됨"
+  course: "3개월 전부터 변이 가늘어지고 변을 봐도 시원하지 않은 느낌이 들었습니다. 가끔 변에 피가 섞여 나오기도 해서 걱정되어 검사를 받았습니다. 특별히 아픈 곳은 없습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "배변 습관 변화"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "대장내시경 받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "건설업 현장 감독"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 4~5회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "35년 흡연"
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 6개월간 7kg 감소"
+  family_history: "형이 50대에 대장암 진단받음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "특별한 이상 소견 없음. 비교적 건강해 보임."
+  heent:
+    sclera: "약간 창백함"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # 간이 약간 촉진됨 (Hepatomegaly)
+  cvat: "양측 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "암 4기라고요? 간까지 퍼졌다고요? 저는 아픈 데도 하나 없는데 그게 말이 됩니까? 그럼 수술도 못 하나요? 항암치료 그거 하면 엄청 고통스럽다던데, 꼭 해야 하나요?"
+specific_remarks: "환자는 증상이 거의 없었기 때문에 검사 결과가 나쁠 것이라고 전혀 예상하지 못했다. '4기', '전이'라는 진단에 대해 강한 불신과 충격을 표현한다. 자신이 느끼는 증상과 진단의 심각성 사이의 괴리 때문에 현실을 받아들이기 힘들어한다. 치료의 부작용에 대한 두려움을 강하게 나타내며, 치료를 거부하려는 태도를 보일 수 있다."

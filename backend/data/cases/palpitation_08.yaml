@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (갈색세포종)"
+patient_info:
+  name: "강태우"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "발작적인 두통, 두근거림, 식은땀"
+vital_signs:
+  blood_pressure: "180/110mmHg (증상 발생 시)"
+  pulse: "130회/분 (규칙적)"
+  respiration: "22회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갈색세포종 (Pheochromocytoma)"
+    - "조절되지 않는 본태성 고혈압"
+    - "공황장애"
+  necessary_tests:
+    - "24시간 소변 메타네프린 및 카테콜아민 검사"
+    - "혈장 메타네프린 검사"
+    - "복부 CT 또는 MRI (종양 위치 확인)"
+  necessary_treatments:
+    - "수술 전 알파차단제를 이용한 혈압 조절"
+    - "이후 베타차단제 추가"
+    - "수술적 종양 제거"
+history:
+  sex_age: "남/48"
+  chief_complaint_verbatim: "갑자기 머리가 터질 듯이 아프고 심장이 뛰면서 온몸이 땀으로 흠뻑 젖어요."
+  onset: "약 1년 전부터 간헐적으로 발생"
+  location:
+    initial: "머리, 가슴"
+    current: "머리, 가슴"
+  duration:
+    onset_pattern: "갑자기, 발작적으로 시작됨"
+    recent_course: "한 달 전부터 빈도가 잦아지고 강도도 심해짐. 증상은 보통 30분 정도 지속됨."
+  course: "처음에는 고혈압 때문인가 했는데, 혈압약을 먹어도 증상이 나타날 때가 있음"
+  experience_prev_episodes:
+    frequency: "최근에는 주 1-2회"
+    trigger: "긴장하거나, 무거운 것을 들거나, 배를 누르면 생기는 것 같음"
+    symptoms: "오늘과 동일한 두통, 두근거림, 발한의 3대 증상"
+  character_of_symptom:
+    quality: "심장이 가슴을 뚫고 나올 것처럼 세고 빠르게 뛰고, 머리는 망치로 맞는 듯한 통증"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: true
+      fatigue: false
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "정신적 스트레스"
+      - "힘을 쓰는 육체 활동"
+      - "허리를 구부리거나 배를 압박하는 자세"
+    alleviating: "시간이 지나면 저절로 가라앉음"
+  health_check_history:
+    last_checkup: "6개월 전, 고혈압 진단 받음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (칼슘채널차단제)"
+    source: "내과 의원"
+    effect: "평소 혈압은 조절되나, 발작적 증상은 예방하지 못함"
+  social_history:
+    job: "건축 현장 관리직"
+    stress: "높은 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: ""
+    exercise: "업무 자체가 활동적임"
+    recent_weight_change: "지난 1년간 6kg 감소"
+  family_history: "특이 가족력 없음"
+physical_exam:
+  general: "증상이 있을 때 방문하여 극심한 불안과 고통을 호소함. 얼굴이 창백하고 땀에 젖어 있음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "dry"
+  chest: "호흡음 정상. 심음이 매우 빠르고 강하게 들림."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 깊은 촉진 시 환자가 불편감을 호소하며 증상이 악화될 수 있음을 시사
+  cvat: "좌우 음성"
+  extremity: "부종 없음. 손에 땀이 많이 나고 차가움."
+standardized_patient_questions: "혈압약을 먹는데도 왜 이러죠? 이러다 정말 큰일 나는 거 아닌가요? 머리가 너무 아파서 터질 것 같아요."
+specific_remarks: "환자는 증상이 한창일 때의 모습을 연기한다. 고통스러운 표정으로 머리를 감싸 쥐고, 식은땀을 흘리는 모습을 보여준다. 혈압을 잴 때 매우 높게 나오는 것에 대해 극도로 불안해하며, '이 혈압 실화냐'는 식으로 반응한다. 복부 촉진 시, 특정 부위를 누를 때 증상이 심해지는 듯한 반응을 보일 수 있다."

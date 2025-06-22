@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (산후우울증)"
+patient_info:
+  name: "김현아"
+  age: 33
+  sex: "여성"
+  presenting_complaint: "아이를 낳은 후 계속 눈물만 나고, 내가 엄마 자격이 없는 것 같아 사라지고 싶음"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "주요우울장애, 산후 발병형 (Major Depressive Disorder, with peripartum onset)"
+    - "정상적인 산후우울감 (Postpartum blues)"
+    - "갑상선기능저하증 등 내분비 질환"
+  necessary_tests:
+    - "에딘버러 산후우울증 척도 (EPDS) 평가"
+    - "갑상선 기능 검사 (TSH, free T4) 및 빈혈 검사 (CBC)"
+    - "아기에 대한 위해 사고 여부 평가"
+  necessary_treatments:
+    - "지지 정신치료 및 상담"
+    - "수유부에게 안전한 항우울제(SSRI) 약물치료 고려"
+    - "가족의 지지 및 양육 지원 시스템 연결"
+history:
+  sex_age: "여성/33세"
+  chief_complaint_verbatim: "출산한 지 두 달 됐어요. 기쁠 줄 알았는데 매일 눈물만 나고 너무 우울해요. 아기가 울어도 예쁘지가 않고, 제가 다 망치는 것 같아요. 저 같은 건 없는 게 아기한테도 나을 것 같아요."
+  onset: "출산 후 2-3주 후부터"
+  location:
+    initial: "전반적인 기분"
+    current: "전반적인 기분"
+  duration:
+    onset_pattern: "산후 발병"
+    recent_course: "악화"
+  course: "두 달 전 첫 아이를 제왕절개로 출산함. 출산 직후 며칠간은 괜찮았으나, 집에 온 후부터 이유 없이 눈물이 나고 잠을 제대로 잘 수 없었음. 아기가 울 때마다 어떻게 해야 할지 몰라 안절부절못하고, 남편이 도와줘도 자신이 부족한 탓인 것 같은 죄책감에 시달림. 아기에 대한 애정이 느껴지지 않고, 오히려 짐처럼 느껴질 때가 있어 스스로를 끔찍한 엄마라고 자책함. 최근에는 '아파트 옥상에서 뛰어내리면 이 모든 고통이 끝날까'하는 생각을 자주 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "극심한 우울감, 죄책감, 무가치함, 불안"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아기가 울 때"
+      - "혼자 아기를 돌봐야 할 때"
+      - "주변에서 '엄마는 강하다'는 말을 들을 때"
+    alleviating: "남편이 아기를 데리고 나가 혼자 있을 때 잠시"
+  health_check_history:
+    last_checkup: "산후 1개월 검진"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "철분제"
+    source: "산부인과"
+    effect: "복용 중"
+  social_history:
+    job: "육아휴직 중 (원래 직업: 교사)"
+    stress: "육아 스트레스 극심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "전혀 못함"
+    recent_weight_change: "출산 후 체중 감소 후 정체"
+  family_history: "특이사항 없음"
+  female_history: "G1P1A0, 2개월 전 C/sec, 현재 모유 수유 중"
+physical_exam:
+  general: "매우 지쳐 보이고 슬픈 표정. 면담 중 자주 눈물을 훔침."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "Pfannenstiel scar 보임. Striae gravidarum 관찰됨."
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "No edema or cyanosis"
+standardized_patient_questions: "제가 이상한 건가요? 다른 엄마들은 다 행복해 보이는데... 약을 먹으면 아기한테 해롭지 않을까요? 제가 정말 나쁜 엄마인가 봐요. 이 감정들, 언제쯤 끝날까요?"
+specific_remarks: "죄책감을 심하게 표현하며 '엄마 자격이 없다'는 말을 반복함. 아기에게 해를 가하고 싶은 생각은 없지만, 자신이 사라지는 것이 아기를 위한 길이라는 왜곡된 생각을 표현함. 모유 수유 중 약물 복용에 대한 걱정을 드러냄."

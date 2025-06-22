@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (적응장애)"
+patient_info:
+  name: "나실직"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "2달 전 실직 후 의욕이 없고 불안함"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "적응장애, 우울 및 불안 혼합형 (Adjustment Disorder with Mixed Anxiety and Depressed Mood)"
+    - "주요우울장애"
+    - "범불안장애"
+  necessary_tests:
+    - "기본 혈액 검사 (다른 신체적 원인 배제)"
+    - "심리 척도 검사 (우울, 불안 척도)"
+    - "상황 평가 (스트레스 요인 및 대처 능력 평가)"
+  necessary_treatments:
+    - "단기 정신치료 (지지 정신치료, 문제 해결 치료)"
+    - "필요 시 단기간의 항불안제 또는 항우울제 사용"
+    - "스트레스 관리 기법 교육 (이완 요법 등)"
+history:
+  sex_age: "남성/52세"
+  chief_complaint_verbatim: "두 달 전에 회사에서 권고사직을 당했어요. 그 뒤로 잠도 잘 안 오고, 가슴도 답답하고, 앞으로 어떻게 살아야 할지 막막해서 아무것도 손에 잡히질 않아요."
+  onset: "약 2개월 전"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "명확한 스트레스 사건 이후 발생"
+    recent_course: "별다른 호전 없이 지속됨"
+  course: "25년간 근무하던 회사에서 갑작스럽게 권고사직을 당한 후 1-2주 뒤부터 증상이 시작됨. 미래에 대한 불안감, 우울감, 초조함을 느끼고, 밤에 잠들기 어렵고 자주 깬다. 가족들 볼 면목이 없다는 생각에 집에서만 지내고 대인관계를 피하고 있다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "불안하고 초조한 느낌, 우울감, 절망감"
+    nrs_score: "7"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "혼자 있을 때"
+      - "구직 관련 정보를 볼 때"
+    alleviating: "술을 마실 때 (일시적)"
+  health_check_history:
+    last_checkup: "1년 전, 고혈압 전단계"
+    endoscopy_finding: "N/A"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "무직 (전직: 부장)"
+    stress: "실직으로 인한 극심한 스트레스"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 반 병 ~ 1병 (실직 후 늘었음)"
+    smoking:
+      is_smoker: true
+      amount: "하루 1갑"
+      cessation_period: "N/A"
+    exercise: "실직 후 거의 하지 않음"
+    recent_weight_change: "최근 2개월간 3kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "불안해 보이며 간혹 손을 만지작거리는 등 초조한 모습을 보임. 전반적으로 기운이 없어 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "제가 너무 나약해서 이런 거겠죠? 남들은 다 잘 이겨내는 것 같은데... 다시 예전처럼 돌아갈 수 있을까요?"
+specific_remarks: "실직이라는 명확한 스트레스 요인을 반복적으로 언급함. 자신의 처지를 한탄하고 미래에 대한 걱정을 많이 표현함. 무기력함과 불안감이 섞인 모습을 연기함. 사회적 역할의 상실에 대한 좌절감을 드러냄."

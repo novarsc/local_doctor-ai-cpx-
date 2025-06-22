@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "19"
+title: "실전 모의 증례 (경련성 실신)"
+patient_info:
+  name: "이지은"
+  age: 23
+  sex: "여성"
+  presenting_complaint: "오래 서 있다가 쓰러지면서 몸을 떨었다"
+vital_signs:
+  blood_pressure: "100/65mmHg"
+  pulse: "75회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "경련성 실신 (Convulsive syncope), 혈관미주신경성 실신 의심"
+    - "뇌전증 발작"
+    - "기립성 저혈압"
+  necessary_tests:
+    - "기립경사 검사 (Tilt table test)"
+    - "심전도 (EKG)"
+    - "뇌파 검사 (뇌전증 감별 목적)"
+  necessary_treatments:
+    - "유발 요인 회피 교육"
+    - "반대 압력법 (Counter-pressure maneuvers) 교육"
+    - "충분한 수분 및 염분 섭취"
+history:
+  sex_age: "여성/23"
+  chief_complaint_verbatim: "콘서트 장에서 오래 서 있었는데, 갑자기 속이 안 좋고 어지럽더니 쓰러졌어요. 친구 말로는 제가 몸을 좀 떨었다고 해요."
+  onset: "내원 2시간 전"
+  location:
+    initial: "전신"
+    current: "없음"
+  duration:
+    onset_pattern: "전조 증상 후 발생"
+    recent_course: "의식 소실은 30초 이내로 짧았고, 쓰러진 직후 10초 가량 팔다리를 불규칙하게 약간 떨었다고 함. 의식 회복 후 혼돈 상태 없이 바로 상황 파악 가능했음."
+  course: "사람이 많고 더운 콘서트 장에서 2시간 가량 서 있었다. 갑자기 속이 메스꺼워지고, 식은땀이 나며, 눈앞이 캄캄해지는 느낌이 들었다. '나 쓰러질 것 같아'라고 말한 직후 의식을 잃고 쓰러졌다. 의식 회복은 빨랐고, 발작 후 혼돈이나 졸림은 없었다."
+  experience_prev_episodes:
+    frequency: "고등학교 때 채혈하다가 비슷한 경험 한 번 있음."
+    trigger: "장시간 기립, 더운 환경, 피를 보는 것"
+    symptoms: "어지럼증, 식은땀, 시야 흐려짐"
+  character_of_symptom:
+    quality: "전형적인 실신 전조 증상 후 발생한 짧은 의식 소실 및 경련 유사 움직임"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "장시간 서 있는 자세"
+      - "덥고 혼잡한 환경"
+    alleviating: "눕거나 앉아 있으면 전조 증상 호전"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "쓰러지면서 머리를 부딪히지는 않음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학원생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "어머니가 가끔 잘 쓰러지신다고 함"
+  female_history: "LMP 1주 전. 규칙적."
+physical_exam:
+  general: "의식 명료. 안색이 다소 창백하나 급성 병색은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음 정상. 기립 시 심박수 변화 외 특이 소견 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "신경학적 국소 소견 없음. 혀 깨문 상처나 요실금 없음."
+standardized_patient_questions: "제가 몸을 떨었다는데, 이거 간질(뇌전증) 아닌가요? 너무 무서워요. 앞으로 콘서트도 못 가나요?"
+specific_remarks: "환자는 '경련'이라는 말에 꽂혀서 뇌전증일까 봐 매우 불안해한다. 실신의 전형적인 전조 증상, 짧은 의식 소실 시간, 빠른 회복, 발작 후 혼돈 없음 등을 자세히 문진하여 뇌전증과의 감별 포인트를 찾아내는 것이 중요하다. 경련성 실신은 뇌 혈류 저하로 인해 발생할 수 있는 현상임을 안심시키고 설명해야 한다."

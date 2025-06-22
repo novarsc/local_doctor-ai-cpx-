@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (비수유기 유방염)"
+patient_info:
+  name: "백지수"
+  age: 36
+  sex: "여성"
+  presenting_complaint: "오른쪽 유두 주변이 반복적으로 붓고 아프며 고름이 나옴"
+vital_signs:
+  blood_pressure: "120/70mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "재발성 유륜하 농양 (비수유기 유방염)"
+    - "유관 확장증"
+    - "피지낭종 감염"
+  necessary_tests:
+    - "유방 초음파"
+    - "농 배양 검사"
+    - "유방 촬영술 (기저의 다른 병변 확인)"
+  necessary_treatments:
+    - "급성기 항생제 치료 및 배농"
+    - "근본적인 치료를 위한 염증 유관 절제술 고려"
+    - "금연 (재발 방지를 위해 매우 중요함)"
+history:
+  sex_age: "여성/36"
+  chief_complaint_verbatim: "작년부터 오른쪽 젖꼭지 주변이 자꾸 곪아요. 병원에서 약 먹고 고름 빼면 괜찮아졌다가, 몇 달 있으면 또 그래요. 이번에도 며칠 전부터 욱신거리고 붓더니 어제부터 고름이 조금씩 나와요."
+  onset: "최초 발생은 1년 전, 현재 증상은 4일 전부터"
+  location:
+    initial: "오른쪽 유륜 주변"
+    current: "오른쪽 유륜 가장자리"
+  duration:
+    onset_pattern: "재발성"
+    recent_course: "점점 부어오르며 통증 심화"
+  course: "지난 1년간 3차례 동일한 부위에 염증이 재발함. 항생제 치료 및 배농으로 호전되었다가 다시 악화되는 양상 반복."
+  experience_prev_episodes:
+    frequency: "지난 1년간 3회"
+    trigger: "피곤하거나 스트레스 받을 때"
+    symptoms: "현재와 동일한 국소적 발적, 통증, 부종, 농 형성"
+  character_of_symptom:
+    quality: "욱신거리고 찌르는 듯한 통증"
+    nrs_score: "6점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "만지거나 누를 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 국가건강검진"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "재발성 유륜하 농양으로 타병원 진료 기록 있음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "항생제, 소염진통제 (과거 재발 시)"
+    source: "타병원 처방"
+    effect: "일시적으로 호전되었었음"
+  social_history:
+    job: "서비스직"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "해당 없음"
+    exercise: "거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 1주 전. 주기 28일. 규칙적. 0-0-0-0. 임신 경험 없음."
+physical_exam:
+  general: "지쳐 보이며 통증으로 인상을 찡그리고 있음."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  breast_exam: "오른쪽 유륜 3시 방향 경계 부위에 약 2cm 크기의 발적과 부종이 있고, 중심부에서 노란 고름이 삼출되고 있음. 심한 압통과 약간의 파동(fluctuation)이 촉진됨. 유두 함몰은 없음. 주변 피부에 이전의 염증으로 인한 색소 침착 및 흉터가 보임. 겨드랑이 림프절 촉진되지 않음."
+standardized_patient_questions: "이거 왜 자꾸 재발하는 건가요? 체질인가요? 담배 피우는 거랑 정말 관련이 큰가요? 이번에도 고름만 빼면 끝인가요? 수술해야 한다면 큰 수술인가요?"
+specific_remarks: "환자는 반복되는 증상에 대해 매우 지긋지긋해하며 좌절감을 표현함. '또 시작이네'와 같은 말을 사용. 의사가 금연을 권고할 때, 스트레스 때문에 끊기 어렵다며 회의적인 반응을 보임. 근본적인 치료 방법에 대해 적극적으로 질문함."

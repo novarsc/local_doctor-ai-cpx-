@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (일차성 알도스테론증)"
+patient_info:
+  name: "이수진"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "손발 저림과 근력 저하"
+vital_signs:
+  blood_pressure: "158/96mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "일차성 알도스테론증 (Primary aldosteronism)"
+    - "저칼륨혈증을 동반한 본태성 고혈압"
+    - "갑상선 기능 이상"
+  necessary_tests:
+    - "혈액 검사 (혈장 알도스테론 농도, 혈장 레닌 활성도, 전해질)"
+    - "부신 CT 또는 MRI"
+    - "이뇨제 부하 검사 또는 식염수 부하 검사"
+  necessary_treatments:
+    - "스피로놀락톤(Spironolactone) 등 알도스테론 길항제 복용"
+    - "생활 습관 교정 (저염식)"
+    - "부신 선종이 확인될 경우 수술적 제거 고려"
+history:
+  sex_age: "여성/45"
+  chief_complaint_verbatim: "몇 달 전부터 손발이 자주 저리고, 다리에 힘이 빠지는 느낌이 들어요. 혈압도 높다고 하네요."
+  onset: "약 4개월 전"
+  location:
+    initial: "양쪽 다리"
+    current: "양쪽 팔다리 전체"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "최근에는 아침에 일어날 때 특히 심함"
+  course: "근력 저하와 저림 증상이 점점 심해지고 빈번해짐. 2개월 전 내과에서 혈압이 높다는 얘기를 들음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "쥐가 나는 듯한 저림, 힘이 쭉 빠지는 느낌"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침 기상 시"
+      - "오래 서 있을 때"
+    alleviating: "주무르거나 쉬면 조금 나아짐"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없었음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "주부"
+    stress: "자녀 입시 문제로 약간 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "모친: 고혈압"
+  female_history: "폐경 1년 전부터 주기가 불규칙해짐, 현재 3개월간 월경 없음"
+physical_exam:
+  general: "만성 피로감을 보이나 의식은 명료함"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "함요 부종 없음, 양측 하지 근력 저하 (Grade 4/5), 심부건반사 약간 저하"
+standardized_patient_questions: "왜 팔다리에 힘이 없는 거죠? 혈압이랑 관련이 있나요? 그냥 갱년기 증상 아닌가요?"
+specific_remarks: "환자는 자신의 증상이 혈압 문제보다는 갱년기나 피로 때문이라고 생각하는 경향이 있다. 의사가 근력 저하와 고혈압의 연관성(전해질 이상 가능성)을 설명하면 관심을 보인다."

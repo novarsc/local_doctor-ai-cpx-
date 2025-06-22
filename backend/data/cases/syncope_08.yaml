@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (쇄골하동맥 도류 증후군)"
+patient_info:
+  name: "나성실"
+  age: 62
+  sex: "남성"
+  presenting_complaint: "왼팔로 무거운 것을 들면 어지럽고 눈앞이 캄캄해져요."
+vital_signs:
+  blood_pressure: "우측: 145/90mmHg, 좌측: 100/70mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "쇄골하동맥 도류 증후군 (Subclavian steal syndrome)"
+    - "경동맥 협착에 의한 일과성 허혈 발작"
+    - "경추성 어지럼증"
+  necessary_tests:
+    - "양팔 혈압 측정 (이미 제공됨)"
+    - "경동맥 및 쇄골하동맥 도플러 초음파"
+    - "CT 또는 MR 혈관조영술"
+  necessary_treatments:
+    - "증상 유발하는 행동(왼팔의 과도한 사용) 피하기"
+    - "동맥경화 위험인자(고혈압, 당뇨, 고지혈증, 흡연) 관리"
+    - "증상이 심할 경우 스텐트 삽입술 또는 우회술 고려"
+history:
+  sex_age: "남성/62"
+  chief_complaint_verbatim: "제가 인테리어 일을 하는데, 최근에 왼팔로 무거운 자재를 들거나 망치질을 오래 하면 갑자기 핑 돌면서 눈앞이 깜깜해지고, 왼팔에 힘이 쭉 빠져요. 어쩔 땐 쓰러질 것 같아서 하던 일을 멈춰야 합니다."
+  onset: "3개월 전"
+  location:
+    initial: "작업장"
+    current: "진료실"
+  duration:
+    onset_pattern: "특정 팔 사용 시 점진적으로 발생"
+    recent_course: "왼팔 사용을 멈추고 쉬면 수 분 내로 증상이 사라짐. 최근 발생 빈도가 잦아짐."
+  course: "처음에는 왼팔이 저리고 차가운 느낌만 있었는데, 한 달 전부터는 어지럼증과 시야 흐림 증상이 동반됨. 실신한 적은 없으나 거의 쓰러질 뻔한 적은 여러 번 있음."
+  experience_prev_episodes:
+    frequency: "주 2-3회"
+    trigger: "왼팔을 이용한 힘든 작업"
+    symptoms: "어지럼증, 시야 흐림, 왼팔의 피로감 및 저림"
+  character_of_symptom:
+    quality: "의식 소실 직전의 어지럼증 (presyncope)"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "왼팔로 무거운 물건 들기"
+      - "왼팔을 머리 위로 드는 작업"
+    alleviating: "왼팔 사용 중단 및 휴식"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨, 20년 전 좌측 쇄골 골절"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 당뇨약"
+    source: "보건소"
+    effect: "약 복용을 불규칙하게 함"
+  social_history:
+    job: "인테리어 기술자"
+    stress: "높음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일"
+      cessation_period: ""
+    exercise: "따로 하지 않음 (일이 운동이라 생각함)"
+    recent_weight_change: "없음"
+  family_history: "부친, 뇌졸중으로 사망"
+  female_history: null
+physical_exam:
+  general: "만성 병색을 띤 중년 남성. 의식 명료."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상. 좌측 쇄골상부에서 혈관 잡음(bruit) 청진됨."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양팔의 혈압 차이 현저함 (우>좌). 좌측 요골동맥 맥박이 우측에 비해 약하게 촉진됨. 좌측 손이 우측에 비해 약간 차갑게 느껴짐."
+standardized_patient_questions: "왼팔을 쓰는데 왜 머리가 어지럽죠? 팔에 문제가 있는 겁니까, 머리에 문제가 있는 겁니까? 일을 그만둬야 하나요?"
+specific_remarks: "환자는 증상이 특정 팔의 움직임과 명확하게 연관됨을 잘 설명한다. 의사가 양팔의 혈압을 각각 재려고 할 때, '왜 양쪽 다 재냐'며 의아해한다. 좌측 쇄골상부 청진 시 간지러움을 느낄 수 있다."

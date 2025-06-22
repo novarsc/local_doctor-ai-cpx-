@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (엽상종)"
+patient_info:
+  name: "황선미"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "최근 두 달 사이 왼쪽 가슴의 멍울이 눈에 띄게 커짐"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "75회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "엽상종"
+    - "거대 섬유선종"
+    - "유방암"
+  necessary_tests:
+    - "유방 촬영술 및 유방 초음파"
+    - "중심부바늘생검 (조직학적 확인 필수)"
+    - "필요시 흉부 CT (악성 엽상종의 혈행성 전이 확인)"
+  necessary_treatments:
+    - "넓은 절제연을 포함한 외과적 종양 절제술"
+    - "조직검사 결과(양성/경계성/악성)에 따른 추가 치료 계획"
+    - "재발 가능성이 있어 수술 후에도 정기적인 추적 관찰이 필요함을 교육"
+history:
+  sex_age: "여성/42"
+  chief_complaint_verbatim: "원래 왼쪽 가슴에 작은 멍울이 있었는데, 대수롭지 않게 생각했어요. 그런데 최근 두세 달 사이에 갑자기 커져서 이제는 겉으로 봐도 볼록하게 튀어나와 보여요. 아프지는 않아요."
+  onset: "작은 멍울은 1년 전부터 인지, 급격한 크기 증가는 2-3개월 전부터"
+  location:
+    initial: "왼쪽 유방"
+    current: "왼쪽 유방 하부 전체"
+  duration:
+    onset_pattern: "점진적으로 커지다 최근 급격히 성장"
+    recent_course: "빠르게 크기가 증가함"
+  course: "작았던 덩이가 최근 수개월 사이 눈에 띄게 커져서 유방 모양의 변형을 유발함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "크고 단단한 덩이. 통증 없음."
+    nrs_score: "0점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전, 특이사항 없었음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "자궁근종 (추적관찰 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "은행원"
+    stress: "높은 편"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 3주 전. 주기 28일. 규칙적. 1-0-1-1."
+physical_exam:
+  general: "멍울의 빠른 성장에 대해 매우 불안해하는 모습."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  breast_exam: "왼쪽 유방 하부를 거의 다 차지하는 약 7cm 크기의 거대한 덩이가 관찰 및 촉진됨. 덩이로 인해 유방의 윤곽이 변형되어 있음. 덩이는 단단하고 고무 같은 질감이며, 표면이 여러 엽으로 나뉜 듯 울퉁불퉁함. 주변 조직과 유착은 없으나 잘 움직이지 않음. 압통 없음. 덩이 위 피부는 얇아져 있고 확장된 정맥이 보임. 겨드랑이 림프절은 촉진되지 않음."
+standardized_patient_questions: "이렇게 빨리 자라는 것도 암인가요? 모양도 이상하고 너무 커서 무서워요. 수술하면 가슴을 다 잘라내야 하나요? 재발도 잘 되나요?"
+specific_remarks: "환자는 덩이가 '빨리 자랐다'는 점을 계속 강조함. 겉으로도 튀어나온 것을 부끄러워하며 옷으로 가리려는 제스처를 취함. '엽상종'이라는 진단에 대해, 양성/경계성/악성으로 나뉜다는 설명을 듣고 자신의 경우는 어떤 것일지 매우 불안해 함."

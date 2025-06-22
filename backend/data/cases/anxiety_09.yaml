@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (폐색전증)"
+patient_info:
+  name: "한지영"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "어제부터 갑자기 숨이 차고 불안해요."
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "120회/분"
+  respiration: "28회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐색전증 (Pulmonary Embolism)"
+    - "급성 불안 발작 (공황 발작)"
+    - "급성 관상동맥 증후군"
+  necessary_tests:
+    - "D-dimer 검사, 동맥혈가스분석(ABGA)"
+    - "흉부 CT 혈관조영술 (CT angiography)"
+    - "심전도(EKG), 심장 효소 검사"
+  necessary_treatments:
+    - "즉각적인 산소 공급"
+    - "항응고제 치료 (헤파린 등)"
+    - "혈역학적으로 불안정할 경우 혈전용해술 고려"
+history:
+  sex_age: "여성/45"
+  chief_complaint_verbatim: "어제 저녁부터 갑자기 숨쉬기가 힘들어지고 가슴이 답답하면서 너무 불안해요. 이러다 죽을 것 같은 느낌이 들어요."
+  onset: "약 20시간 전"
+  location:
+    initial: "가슴"
+    current: "가슴, 전신적 불안감"
+  duration:
+    onset_pattern: "갑작스럽게 발생 (Sudden onset)"
+    recent_course: "지속적으로 숨이 차고 불안함"
+  course: "어제 저녁 TV를 보며 쉬고 있는데 갑자기 숨을 깊게 쉴 수 없는 느낌과 함께 가슴에 통증이 발생함. 동시에 극심한 불안감에 휩싸임. 하룻밤 자고 나면 괜찮아질 줄 알았는데, 아침에 일어나니 증상이 더 심해져서 내원함. 움직이면 더 숨이 참."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "숨을 들이쉴 때 더 심해지는 날카로운 가슴 통증(pleuritic chest pain), 질식할 것 같은 불안감"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "깊게 숨을 쉴 때"
+      - "움직일 때"
+    alleviating: "가만히 앉아있으면 조금 덜함"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "경구 피임약"
+    source: "산부인과 처방"
+    effect: "피임 목적, 5년간 복용 중"
+  social_history:
+    job: "사무직"
+    stress: "보통 수준"
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: "N/A"
+    exercise: "거의 하지 않음"
+    recent_travel: "1주 전 미국에서 14시간 비행기 타고 귀국함."
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 경구 피임약 복용으로 주기 조절 중"
+physical_exam:
+  general: "급성 병색. 안절부절못하며 호흡이 빠르고 얕음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+    jugular vein distention: "not noted"
+  chest: "Tachypnea. Breath sounds are clear, but diminished at right lower lung field. No wheezing or rale. Tachycardia without murmur."
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema, no calf tenderness (Homan's sign negative)"
+standardized_patient_questions: "제가 왜 갑자기 숨을 못 쉬는 건가요? 공황장애 같은 건가요? 너무 무서워요."
+specific_remarks: "환자는 극심한 불안을 호소하며, 실제로 숨쉬기 힘들어하는 모습을 보인다. 말을 이어가기 힘들어하며 짧게 끊어서 말한다. 자신의 증상이 심리적인 문제(공황장애)일 것이라 생각하지만, 의사가 신체적 원인에 대해 질문하면 더욱 불안해한다. 장시간 비행이나 경구 피임약 복용에 대해서는 중요하지 않게 생각하고 있다가, 의사가 그 관련성을 질문하면 놀란다."

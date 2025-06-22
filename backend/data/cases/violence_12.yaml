@@ -1,0 +1,105 @@
+---
+chapter: "상담"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (공황 장애)"
+patient_info:
+  name: "최서연"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "갑자기 숨이 막히고 죽을 것 같음"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "115회/분"
+  respiration: "24회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "공황 장애 (Panic disorder)"
+    - "불안을 동반한 가정폭력 후유증"
+    - "관상동맥질환 또는 부정맥 (감별 필요)"
+  necessary_tests:
+    - "심전도(EKG)"
+    - "갑상선 기능 검사, 혈당 검사"
+    - "정신건강의학과적 면담 및 공황장애 척도 검사"
+  necessary_treatments:
+    - "공황 발작 시 대처법 교육 (호흡 조절법 등)"
+    - "약물 치료 (SSRI, 필요시 Benzodiazepine)"
+    - "인지행동치료"
+    - "가정폭력 문제 해결을 위한 지원 연계"
+history:
+  sex_age: "여성/42"
+  chief_complaint_verbatim: "어제 마트에서 갑자기 숨이 턱 막히고 심장이 터질 것처럼 뛰어서 119 부를 뻔했어요. 이러다 죽는구나 싶었어요."
+  onset: "첫 발작은 1개월 전, 어제 심하게 재발"
+  location:
+    initial: "가슴, 전신"
+    current: "불안감"
+  duration:
+    onset_pattern: "갑작스러운 발작 형태"
+    recent_course: "증상 발생에 대한 예기불안이 생김"
+  course: "한 달 전, 남편과 크게 다툰 후 처음으로 비슷한 증상을 경험했다. 당시에는 그냥 놀라서 그런가 보다 하고 넘겼다. 어제는 혼자 마트에서 장을 보던 중, 갑자기 아무 이유 없이 가슴이 답답해지고 숨을 쉴 수 없었으며, 심장이 미친 듯이 뛰고 손발이 저렸다. 곧 죽을 것 같은 공포감에 휩싸여 10분 정도 지속되다가 저절로 가라앉았다. 그 이후로 또 그런 증상이 생길까 봐 불안해서 혼자 외출하기가 두렵다."
+  experience_prev_episodes:
+    frequency: "지난달 1회, 어제 1회"
+    trigger: "예측 불가능 (두 번째는 특별한 유발 요인 없었음)"
+    symptoms: "호흡곤란, 심계항진, 흉통, 어지럼증, 죽을 것 같은 공포"
+  character_of_symptom:
+    quality: "극심한 공포와 동반된 다양한 신체 증상"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: "발작 시"
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: "발작 시"
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: "발작 시"
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "과거 증상을 겪었던 장소(마트) 생각"
+    alleviating: "시간이 지나면 저절로 호전됨"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: ""
+  trauma_history: "남편의 언어폭력 및 간헐적인 신체 폭력이 수년간 지속됨. 특히 한 달 전 다툼은 매우 심했음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "주부"
+    stress: "매우 높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "어머니가 불안 증세가 있었음"
+  female_history: "LMP 1주 전, 규칙적"
+physical_exam:
+  general: "환자는 매우 불안해하며, 또 증상이 나타날까 걱정하는 모습을 보임. 진찰 중에도 안절부절못함."
+  heent: "정상"
+  chest: "호흡음 정상. 심음은 빠르지만 규칙적(tachycardia without murmur)."
+  abdomen: "정상"
+  cvat: "음성/음성"
+  extremity: "손바닥에 땀이 약간 나 있음. 약간의 손 떨림 관찰됨."
+standardized_patient_questions: "이거 심장병 아니에요? 협심증 같은 거요. 왜 아무 이유 없이 갑자기 이런 증상이 생기죠? 또 그러면 어떡해요? 무서워서 밖에 못 나가겠어요."
+specific_remarks: "환자는 자신의 증상을 매우 생생하고 공포스럽게 묘사한다. 가정폭력에 대해 직접적으로 이야기하지 않지만, '남편과 사이가 좋지 않다', '스트레스가 많다'고 암시한다. 의사가 신체적 질환이 아닐 가능성을 제시하면 '이렇게 몸이 아픈데 어떻게 정신적인 문제일 수 있냐'며 강하게 의심한다."

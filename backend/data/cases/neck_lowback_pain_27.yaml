@@ -1,0 +1,118 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "27"
+title: "실전 모의 증례 (거북목 증후군)"
+patient_info:
+  name: "김민지"
+  age: 24
+  sex: "여성"
+  presenting_complaint: "만성적인 목덜미와 어깨 통증"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "72회/분"
+  respiration: "14회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "거북목 증후군 (Forward head posture)"
+    - "근막 통증 증후군"
+    - "초기 경추 추간판 질환"
+  necessary_tests:
+    - "경추 X선 검사 (측면 촬영)"
+    - "다른 질환 감별 목적의 기본 혈액검사"
+    - "없음"
+  necessary_treatments:
+    - "자세 교정 및 생활 습관 개선 교육"
+    - "스트레칭 및 근력 강화 운동 (도수치료, 물리치료)"
+    - "필요시 약물치료 (소염진통제, 근이완제)"
+history:
+  sex_age: "여성/24세"
+  chief_complaint_verbatim: "목 뒤랑 어깨가 항상 무겁고 뻐근해요. 특히 컴퓨터나 스마트폰을 오래 보고 나면 더 심해져요."
+  onset: "1-2년 전부터"
+  location:
+    initial: "목덜미"
+    current: "목덜미, 양쪽 어깨, 등 위쪽"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "취업 준비로 앉아있는 시간이 늘면서 악화됨"
+  course: "대학생 때부터 간헐적으로 아팠으나, 최근 몇 달간 거의 매일 통증이 있음. 오후가 되면 통증이 심해지고, 가끔 두통도 동반됨."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: "장시간 고개 숙인 자세"
+    symptoms: "비슷한 양상"
+  character_of_symptom:
+    quality: "묵직하고 뻐근한 통증"
+    nrs_score: "4"
+    radiation: "양쪽 어깨로 퍼지는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "컴퓨터, 스마트폰 사용"
+      - "독서 등 고개를 숙이는 활동"
+    alleviating: "스트레칭, 휴식, 목을 뒤로 젖힐 때"
+  health_check_history:
+    last_checkup: "기억 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "취업준비생"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "LMP 1주 전, regular"
+physical_exam:
+  general: "진료실에 앉아있는 동안에도 머리가 몸통보다 앞으로 나와 있는 자세를 취함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "라운드 숄더(round shoulder) 자세 관찰됨."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      posture: "서 있을 때 귓구멍이 어깨 중앙선보다 현저히 앞에 위치함 (거북목 자세)."
+      tenderness: "경추 후방 근육 및 승모근 상부에 전반적인 압통"
+      neck_motion: "경추 신전 시 통증 완화, 굴곡 시 불편감 호소"
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 모두 정상."
+standardized_patient_questions: "요즘 다들 이렇다는데 병원에 와야 할 정도로 심각한 건가요? 엑스레이 찍으면 목이 정말 일자로 나왔나요? 자세만 바꾸면 낫나요, 아니면 치료를 받아야 하나요?"
+specific_remarks: "환자의 자세가 진단의 가장 큰 단서임. 진료 내내 무의식적으로 머리를 앞으로 내민 자세를 유지해야 함. 통증의 원인이 명확한 생활 습관(컴퓨터, 스마트폰)과 관련 있음을 강조해야 함. 심각한 신경학적 증상(팔 저림, 마비 등)은 없다고 명확히 말해야 함."

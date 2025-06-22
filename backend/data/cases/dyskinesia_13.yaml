@@ -1,0 +1,107 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (다계통 위축증)"
+patient_info:
+  name: "문병철"
+  age: 63
+  sex: "남성"
+  presenting_complaint: "어지럽고 걸음이 불편함"
+vital_signs:
+  blood_pressure: "누웠을 때 140/85mmHg, 일어섰을 때 100/60mmHg"
+  pulse: "누웠을 때 78회/분, 일어섰을 때 95회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "다계통 위축증 (Multiple System Atrophy)"
+    - "파킨슨병"
+    - "순수 자율신경 부전"
+  necessary_tests:
+    - "기립성 저혈압 검사"
+    - "자율신경 기능 검사 (발살바법, 방광기능 검사 등)"
+    - "뇌 MRI (putaminal atrophy, hot cross bun sign 등 확인)"
+  necessary_treatments:
+    - "증상 완화 치료 (기립성 저혈압, 파킨슨 증상, 배뇨장애 등)"
+    - "비약물적 치료 (수분 및 염분 섭취, 압박 스타킹)"
+    - "재활 치료"
+history:
+  sex_age: "남성/63세"
+  chief_complaint_verbatim: "앉았다 일어나면 눈앞이 캄캄해지면서 쓰러질 것처럼 어지러워요. 파킨슨병 약을 먹어도 몸이 뻣뻣하고 걷기 힘든 건 별로 나아지질 않네요."
+  onset: "약 3년 전"
+  location:
+    initial: "몸의 뻣뻣함"
+    current: "전신적 뻣뻣함, 어지럼증, 배뇨장애"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "빠르게 악화"
+  course: "처음에는 파킨슨병으로 진단받고 약을 먹었으나, 떨림보다는 몸이 뻣뻣하고 행동이 느린 증상이 주로 나타남. 약 효과가 거의 없음. 1년 전부터는 기립성 어지럼증이 심해졌고, 소변을 참기 어렵고 자주 보는 증상이 생김."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "자세 변화"
+    symptoms: "어지럼증, 몸의 뻣뻣함"
+  character_of_symptom:
+    quality: "파킨슨 증상과 심한 자율신경 증상 동반"
+    nrs_score: "불편감 8점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "누웠다가 일어날 때"
+    alleviating: "누워있을 때"
+  health_check_history:
+    last_checkup: "파킨슨병 진단 시"
+    endoscopy_finding: ""
+  trauma_history: "어지러워서 넘어진 적 몇 번 있음"
+  past_medical_history:
+    underlying_disease: "파킨슨병 (2년 전 타 병원 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "레보도파"
+    source: "신경과"
+    effect: "별다른 효과를 느끼지 못함"
+  social_history:
+    job: "은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 움직임이 느리고 뻣뻣함. 말이 어눌하고 목소리가 고음으로 변함(dysarthria)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "양측 대칭적인 경직과 서동이 관찰됨. 안정 시 떨림은 뚜렷하지 않음. 손가락-코 검사 시 약간의 측정 장애를 보임 (소뇌 기능 저하 의심). 일어서게 했을 때 심한 어지럼증을 호소하며 비틀거림. 보행 시 자세가 불안정하고 자주 넘어질 것 같은 모습."
+standardized_patient_questions: "분명 파킨슨병이라고 했는데, 왜 약을 먹어도 소용이 없을까요? 앉았다 일어설 때마다 쓰러질 것 같아서 너무 무서워요. 제 병이 대체 뭔가요?"
+specific_remarks: "환자는 파킨슨병과 유사한 증상을 연기하되, 레보도파에 반응이 없다는 점을 강조해야 한다. 가장 중요한 것은 '기립성 저혈압' 증상을 명확하게 호소하는 것이다. 누워있다가 일어나는 동작을 할 때 심하게 어지러워하며 휘청거리는 모습을 보여주는 것이 핵심이다. 소변 문제(빈뇨, 절박뇨)에 대해서도 구체적으로 언급한다."

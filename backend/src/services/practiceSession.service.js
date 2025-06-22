@@ -10,8 +10,7 @@ const {
 } = require('../models');
 const ApiError = require('../utils/ApiError');
 const aiService = require('./ai.service');
-
-const activeChatHistories = new Map();
+const { setChatHistory, getChatHistory, hasSession, updateChatHistory } = require('./activeChatHistories');
 
 const startPracticeSession = async (sessionData, userId) => {
     const { scenarioId, selectedAiPersonalityId, practiceMode } = sessionData;
@@ -32,7 +31,7 @@ const startPracticeSession = async (sessionData, userId) => {
       practiceMode,
       status: 'started',
     });
-    activeChatHistories.set(newSession.practiceSessionId, history);
+    setChatHistory(newSession.practiceSessionId, history);
     return {
       practiceSessionId: newSession.practiceSessionId,
       userId: newSession.userId,
@@ -44,18 +43,24 @@ const startPracticeSession = async (sessionData, userId) => {
 };
 
 const sendMessageAndGetResponse = async (sessionId, userId, messageContent) => {
-    const history = activeChatHistories.get(sessionId);
+    console.log('sendMessageAndGetResponse called with:', { sessionId, userId, messageContent });
+    
+    const history = getChatHistory(sessionId);
+    console.log('Retrieved history:', history ? 'found' : 'not found');
+    
     if (!history) {
       throw new ApiError(404, 'P001_SESSION_NOT_FOUND', 'Active chat session not found or has expired.');
     }
+    
     await ChatLog.create({
       practiceSessionId: sessionId,
       sender: 'USER',
       message: messageContent,
     });
+    
     const stream = await aiService.sendMessageAndGetResponse(history, messageContent);
     async function* historyAndUpdateStream() {
-        let fullAiResponse = "";
+        let fullAiResponse = '';
         for await (const chunk of stream) {
             const text = chunk.text();
             fullAiResponse += text;
@@ -66,7 +71,8 @@ const sendMessageAndGetResponse = async (sessionId, userId, messageContent) => {
             { role: 'user', parts: [{ text: messageContent }] },
             { role: 'model', parts: [{ text: fullAiResponse }] }
         ];
-        activeChatHistories.set(sessionId, updatedHistory);
+        updateChatHistory(sessionId, updatedHistory);
+        console.log('Updated chat history for session:', sessionId);
     }
     return historyAndUpdateStream();
 };
@@ -76,7 +82,7 @@ const completePracticeSession = async (sessionId, userId) => {
     if (!session) throw new ApiError(404, 'P001_SESSION_NOT_FOUND', 'Session not found.');
     if (session.status !== 'started') throw new ApiError(400, 'P002_SESSION_ALREADY_COMPLETED', 'Session is not active.');
 
-    activeChatHistories.delete(sessionId);
+    updateChatHistory(sessionId, []);
     
     const completionTime = new Date();
     session.status = 'completed';
@@ -142,7 +148,7 @@ const getPracticeSessionFeedback = async (sessionId, userId) => {
     return { status: 'completed', data: result.toJSON() };
 };
 
-const getChatHistory = async (sessionId, userId) => {
+const getSessionChatHistory = async (sessionId, userId) => {
   const session = await PracticeSession.findOne({ where: { practiceSessionId: sessionId, userId } });
   if (!session) {
     throw new ApiError(404, 'P001_SESSION_NOT_FOUND', 'Session not found or you do not have permission to access it.');
@@ -155,7 +161,7 @@ const getChatHistory = async (sessionId, userId) => {
     role: log.sender === 'USER' ? 'user' : 'model',
     parts: [{ text: log.message }],
   }));
-  activeChatHistories.set(sessionId, history);
+  setChatHistory(sessionId, history);
   return chatLogs;
 };
 
@@ -165,5 +171,5 @@ module.exports = {
   completePracticeSession,
   getSessionDetails, // [수정] exports에 추가
   getPracticeSessionFeedback,
-  getChatHistory,
+  getSessionChatHistory,
 };

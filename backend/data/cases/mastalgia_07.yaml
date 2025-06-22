@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (유류낭종)"
+patient_info:
+  name: "정유미"
+  age: 33
+  sex: "여성"
+  presenting_complaint: "최근 단유 후 왼쪽 가슴에 멍울이 만져짐"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "유류낭종 (갈락토셀)"
+    - "섬유선종"
+    - "단순 낭종"
+  necessary_tests:
+    - "유방 초음파"
+    - "세침 흡인 (진단 및 치료 목적)"
+    - "유방 촬영술 (필요시)"
+  necessary_treatments:
+    - "대부분 경과 관찰 시 저절로 흡수됨"
+    - "크기가 크거나 통증이 있는 경우 주사기로 내용물 흡인"
+    - "2차 감염이 되지 않도록 주의"
+history:
+  sex_age: "여성/33"
+  chief_complaint_verbatim: "두 달 전에 아기 젖을 뗐는데, 한 달 전부터 왼쪽 가슴에 동그란 멍울이 만져져요. 아프지는 않은데 없어지지 않네요. 젖이 뭉친 건가 싶기도 하고..."
+  onset: "약 1개월 전"
+  location:
+    initial: "왼쪽 유방"
+    current: "왼쪽 유방 안쪽"
+  duration:
+    onset_pattern: "점진적으로 인지"
+    recent_course: "크기 변화 거의 없음"
+  course: "단유 후 약 한 달 뒤부터 덩이가 만져지기 시작하여 지속됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "동그랗고 약간 말랑한 덩이 느낌. 통증 없음."
+    nrs_score: "0점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "산후 검진"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "육아휴직 중"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "가벼운 산책"
+    recent_weight_change: "출산 전 체중으로 거의 돌아옴"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 4주 전 (단유 후 생리 재개). 1-0-0-1 (14개월 전 자연분만). 12개월간 모유 수유 후 2개월 전 단유함."
+physical_exam:
+  general: "건강해 보이는 젊은 여성."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  breast_exam: "왼쪽 유방 9시 방향에 약 2cm 크기의 경계가 명확하고 둥글며, 약간 단단하면서도 탄력이 있는(firm-elastic) 덩이가 촉진됨. 잘 움직이며 압통은 없음. 피부나 유두 변화 없음. 유두 분비물 없음. 양측 겨드랑이 림프절 촉진되지 않음."
+standardized_patient_questions: "젖 떼고 나서 생긴 건데, 혹시 젖이 썩어서 생긴 건가요? 저절로 없어지기도 하나요? 아기 낳고 몸이 예전 같지 않아서 걱정이에요."
+specific_remarks: "환자는 자신의 증상이 단유와 관련 있을 것이라고 강하게 추측하고 있음. 암에 대한 걱정보다는 덩이의 정체와 처리 방법에 대해 궁금해 함. '유류낭종' 또는 '젖물혹'이라는 설명에 잘 수긍하는 태도를 보임."

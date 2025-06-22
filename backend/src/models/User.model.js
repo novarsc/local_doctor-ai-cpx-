@@ -40,7 +40,7 @@ module.exports = (sequelize) => {
     },
     password: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true, // 소셜 로그인 사용자는 비밀번호가 없을 수 있음
     },
     fullName: {
       type: DataTypes.STRING,
@@ -64,6 +64,24 @@ module.exports = (sequelize) => {
         allowNull: false,
         defaultValue: false,
     },
+    // 소셜 로그인 관련 필드
+    socialProvider: {
+      type: DataTypes.ENUM('naver', 'kakao', 'google'),
+      allowNull: true,
+    },
+    socialId: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    // 비밀번호 재설정 관련 필드
+    resetPasswordToken: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    resetPasswordExpires: {
+      type: DataTypes.DATE,
+      allowNull: true,
+    },
   }, {
     sequelize,
     modelName: 'User',
@@ -71,7 +89,9 @@ module.exports = (sequelize) => {
     timestamps: true,
     indexes: [
       { unique: true, fields: ['email'] },
-      { unique: true, fields: ['nickname'] }
+      { unique: true, fields: ['nickname'] },
+      { fields: ['socialProvider', 'socialId'] }, // 소셜 로그인 조회용 인덱스
+      { fields: ['resetPasswordToken'] } // 비밀번호 재설정 토큰 조회용 인덱스
     ]
   });
 

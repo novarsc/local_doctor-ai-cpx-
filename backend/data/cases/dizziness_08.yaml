@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (전정 편두통, Vestibular Migraine)"
+patient_info:
+  name: "최민아"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "가끔씩 머리가 아프면서 어지러워요."
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "68회/분"
+  respiration: "14회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전정 편두통"
+    - "메니에르병"
+    - "기저형 편두통"
+  necessary_tests:
+    - "신경학적 진찰"
+    - "청력 검사 및 전정기능검사 (메니에르병 감별)"
+    - "뇌 MRI/MRA (다른 중추성 원인 배제 목적)"
+  necessary_treatments:
+    - "편두통 예방 교육 (유발 요인 회피: 특정 음식, 수면 부족, 스트레스)"
+    - "편두통 예방 약물 (propranolol, topiramate 등)"
+    - "급성 발작 시 트립탄 제제 또는 전정 억제제 사용"
+history:
+  sex_age: "여성/35세"
+  chief_complaint_verbatim: "몇 달에 한 번씩 갑자기 어지러운데, 그럴 때 머리가 지끈거리기도 하고, 어떨 땐 어지럽기만 해요."
+  onset: "1년 전부터"
+  location:
+    initial: "머릿속"
+    current: "머릿속, 때로는 관자놀이 통증 동반"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "한 번 발생하면 보통 반나절 정도 지속됨. 빈도는 불규칙함."
+  course: "어지럼증은 빙빙 도는 느낌일 때도 있고, 그냥 배 탄 것처럼 울렁거릴 때도 있습니다. 어지러울 때 5번 중 3번은 머리가 아프고, 빛이나 소리에 예민해집니다."
+  experience_prev_episodes:
+    frequency: "1~2개월에 한 번"
+    trigger: "피곤할 때, 생리 주기와 관련 있는 것 같기도 함"
+    symptoms: "회전성 또는 비회전성 어지럼, 두통, 빛 공포증, 소리 공포증"
+  character_of_symptom:
+    quality: "빙빙 돌거나(vertigo) 붕 뜨는 느낌(dizziness)"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "가끔 함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밝은 빛, 시끄러운 소리"
+      - "머리를 움직이는 것"
+    alleviating: "어둡고 조용한 방에 누워있는 것"
+  health_check_history:
+    last_checkup: "2년 전 직장 검진, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "10대 때부터 편두통을 가끔 앓았음. (진단받은 적은 없음)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제 (필요시)"
+    source: "약국"
+    effect: "두통은 좀 나아지나 어지럼증은 그대로임"
+  social_history:
+    job: "회사원"
+    stress: "있는 편"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1~2회"
+      amount: "와인 1~2잔 (마시면 다음날 머리가 아픈 경향)"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주말에 등산"
+    recent_weight_change: "없음"
+  family_history: "어머니가 편두통이 심하셨음"
+  female_history: "LMP 2주 전. 생리 전후로 증상이 더 잦은 것 같음."
+physical_exam:
+  general: "증상이 없는 시기라 특이 소견 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "정상"
+standardized_patient_questions: "이것도 편두통인가요? 머리가 안 아프고 어지럽기만 할 때도 있는데... 귀에 문제가 있는 건 아닐까요?"
+specific_remarks: "환자는 과거 편두통 병력과 편두통의 가족력이 있음을 명확히 진술한다. 어지럼증 발작 시, 두통이 동반되지 않더라도 편두통의 특징적인 증상(빛 공포증, 소리 공포증)이 나타날 수 있음을 강조한다. 어지럼증의 양상이 회전성과 비회전성을 오가는 등 다양할 수 있음을 표현한다. 증상이 없는 시기이므로 신체진찰은 완전히 정상이다."

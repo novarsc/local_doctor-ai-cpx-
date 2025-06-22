@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (약물 유인성 간손상, DILI)"
+patient_info:
+  name: "정유미"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "황달과 전신 소양증"
+vital_signs:
+  blood_pressure: "125/75mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "약물 유인성 간손상 (담즙정체형)"
+    - "급성 바이러스성 간염"
+    - "원발 쓸개관 간경화증 (PBC)"
+  necessary_tests:
+    - "혈액 검사 (간기능, 빌리루빈, ALP/GGT, 바이러스 표지자)"
+    - "복부 초음파 (간 실질 및 담관 구조 확인)"
+    - "원인 약물 중단 후 경과 관찰"
+  necessary_treatments:
+    - "원인이 되는 약물이나 건강기능식품 즉시 중단"
+    - "가려움증 조절을 위한 항히스타민제 또는 전문의약품 처방"
+    - "정기적인 간기능 검사를 통한 경과 관찰"
+history:
+  sex_age: "여성/45세"
+  chief_complaint_verbatim: "2주 전부터 온몸이 가렵기 시작하더니, 일주일 전부터는 소변 색이 진해지고 눈이 노래졌어요. 밤에 너무 가려워서 잠을 잘 수가 없어요."
+  onset: "소양증은 2주 전, 황달은 1주 전"
+  location:
+    initial: "전신 피부"
+    current: "전신 피부 및 눈"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점점 심해짐"
+  course: "특별한 질환 없이 건강하게 지내던 중, 2주 전부터 이유 없이 온몸이 가렵기 시작했다. 피부과에서 약을 처방받아 발랐으나 효과가 없었고, 1주일 전부터 황달이 발생하여 내원하였다. 통증이나 발열은 없었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "심한 가려움증. 통증은 없음."
+    nrs_score: "가려움증 8점"
+    radiation: ""
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "진한 갈색"
+      stool_color_change: "이전보다 옅어진 느낌"
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밤에 잘 때"
+    alleviating: "찬물 샤워 (일시적)"
+  health_check_history:
+    last_checkup: "1년 전 국가검진, 특이사항 없음"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "폐경 후 골다공증 예방 목적"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "최근 1개월 전부터 갱년기 증상 완화에 좋다는 '백수오' 성분의 건강기능식품을 인터넷으로 구매하여 복용 시작함."
+    source: "인터넷 구매"
+    effect: "모르겠음"
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "1년 전 폐경. G1P1."
+physical_exam:
+  general: "만성 병색은 아니나, 가려움으로 인해 불편해 보임. 전신에 긁은 상처(excoriation)가 다수 관찰됨."
+  heent:
+    sclera: "뚜렷한 황달"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평하고 흉터 없음."
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      hepatomegaly: "간이나 비장이 촉진되지 않음"
+  cvat: "좌/우 음성"
+  extremity: "전신 피부 황달. 부종 없음."
+standardized_patient_questions: "왜 이렇게 가려운 건가요? 황달은 왜 생긴 거고요? 제가 먹는 영양제랑 관련이 있을까요?"
+specific_remarks: "환자는 통증보다는 극심한 가려움증을 호소하는 데 집중한다. 문진 중에도 무의식적으로 팔이나 다리를 긁는 행동을 보여준다. '한 달 전부터 새로 먹기 시작한 건강기능식품'에 대한 정보를 명확하게 제공한다."

@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (약물 유발성 체중증가 - 스테로이드)"
+patient_info:
+  name: "윤지현"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "류마티스 관절염 약 복용 후 살이 많이 쪄서 내원함"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "85회/분"
+  respiration: "16회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "의인성 쿠싱 증후군 (스테로이드 유발)"
+    - "갑상선 기능 저하증"
+    - "단순 비만"
+  necessary_tests:
+    - "혈액 검사 (전해질, 혈당)"
+    - "골밀도 검사 (DEXA)"
+    - "류마티스내과 주치의와 약물 조절 상의"
+  necessary_treatments:
+    - "원인 약물(스테로이드) 점진적 감량 또는 변경"
+    - "혈압 및 혈당 관리"
+    - "칼슘 및 비타민D 보충"
+history:
+  sex_age: "여성/42세"
+  chief_complaint_verbatim: "1년 전부터 류마티스 관절염 약을 먹고 있는데, 특히 6개월 전부터 살이 너무 많이 쪄요. 얼굴이 동그래지고 배만 나와요. 약 때문인 것 같아요."
+  onset: "약 6개월 전"
+  location:
+    initial: "전반적인 체중 증가"
+    current: "얼굴과 복부에 집중된 체중 증가"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "지속적으로 체중 증가"
+  course: "류마티스 관절염 진단 후 약 복용 시작. 초기에는 관절 통증이 조절되어 좋았으나, 점차 체중이 증가하여 1년간 총 10kg 증가함. 외모 변화가 심함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "체중 증가 및 신체 형태 변화"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전 류마티스내과 초진"
+    endoscopy_finding: "시행 안 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "류마티스 관절염"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "메토트렉세이트 (MTX)"
+      - "프레드니솔론 (스테로이드)"
+      - "비스테로이드성 소염진통제 (NSAIDs)"
+    source: "대학병원 류마티스내과"
+    effect: "관절 통증은 잘 조절되나, 체중 증가 및 부종 발생"
+  social_history:
+    job: "피아노 강사"
+    stress: "외모 변화와 질병으로 인한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "손가락 통증으로 인해 거의 못함"
+    recent_weight_change: "지난 1년간 10kg 증가"
+  family_history: "어머니 (골다공증)"
+  female_history: "정상 월경 주기"
+physical_exam:
+  general: "만월상 얼굴(moon face)과 중심성 비만이 관찰됨. 피부가 얇고 멍이 잘 들어 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "복부 비만, 가는 자색 선조(striae) 관찰됨."
+    auscultation: "장음 정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "사지는 비교적 가늘어 보임. 양쪽 손가락 관절에 약간의 부종과 변형 관찰됨."
+standardized_patient_questions: "이게 다 약 부작용 맞죠? 약을 끊을 수는 없나요?", "살 찐 것 말고 다른 심각한 부작용은 없나요? 뼈도 약해진다던데..."
+specific_remarks: "환자는 약물 부작용에 대한 걱정이 매우 크다. 약을 끊고 싶어 하지만, 동시에 관절 통증이 재발할까 봐 두려워하는 양가감정을 표현한다."

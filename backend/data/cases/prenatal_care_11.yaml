@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (태아 성장 제한)"
+patient_info:
+  name: "문소희"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "정기 검진 (배가 남들보다 작은 것 같음)"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "태아 성장 제한 (Fetal Growth Restriction, FGR)"
+    - "임신 주수 계산 착오"
+    - "정상 범위의 작은 태아"
+  necessary_tests:
+    - "정밀 초음파 (태아 계측 및 양수량 측정)"
+    - "도플러 초음파 (제대 동맥, 중대뇌 동맥 혈류 확인)"
+    - "태동 검사 (NST, BPP)"
+  necessary_treatments:
+    - "원인 질환(고혈압 등) 관리"
+    - "고단백 식이 및 좌측위 휴식 권장"
+    - "정기적인 태아 감시 및 적절한 시점에 분만 결정"
+history:
+  sex_age: "여성/38세"
+  chief_complaint_verbatim: "임신 36주 정기검진 왔어요. 다른 임산부들에 비해 배가 좀 작은 것 같아서 걱정이 돼요. 태동도 예전보다 좀 줄어든 것 같아요."
+  onset: "약 2-3주 전부터 인지"
+  location:
+    initial: "복부"
+    current: "복부"
+  duration:
+    onset_pattern: "주관적인 느낌"
+    recent_course: "최근 태동이 둔해진 느낌"
+  course: "임신 중기까지는 괜찮았는데, 후기가 되면서 배가 더 많이 나와야 할 시기인데도 크게 변화가 없는 것 같아 불안했다. 최근에는 활발하던 태동이 약해진 것 같아 정기검진 때 의사에게 문의하려고 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "주수에 비해 작은 복부 크기, 태동 감소"
+    nrs_score: "0 (통증 없음)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "4주 전, 당시 특이사항 없었음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "만성 고혈압 (임신 전부터 진단, 약물 복용 중단 상태)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "임산부용 비타민"
+    source: "약국"
+    effect: "-"
+  social_history:
+    job: "연구원"
+    stress: "높은 편"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: true
+      amount: "과거 0.5갑/일"
+      cessation_period: "임신 확인 후 금연"
+    exercise: "거의 못함"
+    recent_weight_change: "임신 후 총 6kg 증가 (최근 한 달간 체중 변화 거의 없음)"
+  family_history: "특이사항 없음"
+  female_history: "G1P0, LMP: 약 9개월 전, EDC: 4주 후, 임신 36주"
+physical_exam:
+  general: "차분하지만 걱정스러운 표정."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심잡음 없음."
+  abdomen:
+    inspection: "임신 36주에 비해 복부 팽만이 작아 보임"
+    auscultation: "장음 정상. 태아 심음 청진 가능."
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 자궁저부 높이: 31cm (임신 36주에 비해 작음)
+  cvat: "음성/음성"
+  extremity: "mild pitting edema (1+) on both ankles"
+standardized_patient_questions: "배가 작은 게 정말 문제가 있는 건가요? 아기가 잘 안 크고 있는 건가요? 저 때문인가요? 지금이라도 제가 뭘 더 먹으면 아기가 클 수 있을까요?"
+specific_remarks: "환자는 통증과 같은 급성 증상은 없지만, 아기의 안녕에 대해 깊이 걱정하는 모습을 보여야 한다. '태동이 줄었다'는 점과 '배가 작다'는 주관적인 느낌을 구체적으로 표현한다. 의사의 신체 진찰(자궁저부 높이 측정) 결과에 대해 민감하게 반응하며 질문한다. 고혈압 병력, 흡연력, 최근 체중 정체 등 위험 요인을 자연스럽게 이야기한다."

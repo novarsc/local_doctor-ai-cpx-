@@ -1,0 +1,107 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "8"
+title: "\"실전 모의 증례 (헌팅턴병)\""
+patient_info:
+  name: "이선우"
+  age: 42
+  sex: "남성"
+  presenting_complaint: "몸이 저절로 움직이고 자꾸 화를 냄"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "\"36.7℃\""
+examinee_instructions: "\"증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오.\""
+patient_education:
+  probable_diagnoses:
+    - "헌팅턴병"
+    - "지연성 운동이상증"
+    - "약물 부작용"
+  necessary_tests:
+    - "유전자 검사 (HTT 유전자 CAG 반복 서열)"
+    - "뇌 MRI 또는 CT (미상핵 위축 확인)"
+    - "신경정신과적 평가"
+  necessary_treatments:
+    - "증상 조절을 위한 약물 치료 (무도증, 정신 증상)"
+    - "물리/작업/언어 치료"
+    - "유전 상담"
+history:
+  sex_age: "남성/42세"
+  chief_complaint_verbatim: "\"2년 전부터 손발이 제멋대로 춤추듯이 움직여요. 최근에는 얼굴까지 찡긋거리고요. 성격도 예민해져서 사소한 일에 화를 참지 못하고, 물건을 떨어뜨리는 일도 잦아졌어요.\""
+  onset: "약 2-3년 전"
+  location:
+    initial: "손, 발"
+    current: "얼굴, 사지, 몸통"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "악화"
+  course: "\"초기에는 안절부절 못하는 것처럼 보였으나, 점차 불수의적인 움직임이 커지고, 인지 기능 저하(건망증, 판단력 저하)와 감정 조절의 어려움이 동반됨.\""
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "\"춤을 추는 듯한, 흐느적거리는 움직임 (무도증, chorea)\""
+    nrs_score: "불편감 및 일상생활 장애 9점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "집중하려고 할 때"
+    alleviating: "수면 중에는 사라짐"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "\"우울증 (1년 전 진단)\""
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "항우울제 (SSRI)"
+    source: "정신건강의학과"
+    effect: "기분은 약간 나아졌으나 다른 증상은 여전함"
+  social_history:
+    job: "\"회사원 (최근 업무 능력 저하로 퇴사 권유 받음)\""
+    stress: "매우 높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "못함"
+    recent_weight_change: "지난 1년간 8kg 감소"
+  family_history: "\"어머니께서 40대 후반에 비슷한 증상(몸을 비꼬고 성격 변화)을 보이다가 요양원에서 돌아가셨음.\""
+  female_history: ""
+physical_exam:
+  general: "\"지속적이고 불규칙하며, 흐르는 듯한 불수의적 움직임(무도증)이 얼굴, 목, 몸통, 사지 전반에 걸쳐 관찰됨. 안절부절못하는 모습.\""
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상. 혀를 내밀고 유지하도록 했을 때, 유지하지 못하고 다시 집어넣는 'motor impersistence' 관찰됨. chest: \"정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "\"근력은 정상이나, 무도증으로 인해 정확한 검사가 어려움. 심부건반사 항진. 보행 시 무도병 보행(choreiform gait) 관찰됨. 빠른 손가락 운동(rapid alternating movement) 시 서툴고 불규칙함.\""
+standardized_patient_questions: "\"제 몸이 왜 이렇게 마음대로 움직이죠? 저희 어머니도 이러셨는데... 혹시 저도 어머니랑 같은 병인가요? 이거 유전되는 병인가요? 제 아이들도 검사를 받아봐야 하나요?\""
+specific_remarks: "\"환자는 진찰 내내 가만히 있지 못하고, 몸을 뒤틀거나 손발을 움직이는 등 무도병 증상을 지속적으로 연기해야 한다. 감정적으로 불안정하며, 쉽게 짜증을 내거나 좌절하는 모습을 보인다. 어머니의 병력에 대해 이야기할 때 불안하고 체념적인 태도를 보이는 것이 중요하다.\""

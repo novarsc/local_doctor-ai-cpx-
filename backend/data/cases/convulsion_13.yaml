@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (약물 유발 발작 - 트라마돌)"
+patient_info:
+  name: "박지영"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "허리 통증으로 약을 먹은 후 경련"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "85회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "약물 유발 발작 (트라마돌 과다 복용 의심)"
+    - "첫 뇌전증 발작"
+    - "실신"
+  necessary_tests:
+    - "혈액 및 소변 약물 검사 (Toxicology screen)"
+    - "뇌파 검사 (EEG)"
+    - "뇌 MRI (기질적 원인 배제)"
+  necessary_treatments:
+    - "보존적 치료 및 활력 징후 감시"
+    - "원인 약물 중단 및 교육"
+    - "필요시 항경련제 투여"
+history:
+  sex_age: "여성/45"
+  chief_complaint_verbatim: "허리가 너무 아파서 병원에서 처방받은 진통제를 여러 알 먹었는데, 갑자기 정신을 잃고 쓰러졌다고 해요."
+  onset: "내원 2시간 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑작스럽게"
+    recent_course: "가족에 의하면 약 1분간 전신 경련 후, 10분 정도 멍한 상태였다가 의식 회복. 현재는 두통과 근육통 호소."
+  course: "만성적인 허리 통증으로 고생하던 중, 오늘 통증이 너무 심해서 2시간 전에 정형외과에서 처방받은 진통제(트라마돌 복합제)를 한 번에 4알 복용했다. 약 복용 30분 후 갑자기 전신을 떨며 경련을 일으킴."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "진통제 과다 복용"
+    symptoms: ""
+  character_of_symptom:
+    quality: "특정 약물 복용 후 발생한 전신 발작"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "약물 복용"
+    alleviating: "시간 경과"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "만성 요통, 추간판 탈출증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Tramadol/Acetaminophen 복합제 (37.5mg/325mg)"
+    source: "정형외과 의원"
+    effect: "평소 1알씩 먹으면 통증 조절되었으나, 오늘은 통증이 심해 임의로 4알 복용함."
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "허리 통증으로 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "LMP: 1주 전. 규칙적."
+physical_exam:
+  general: "의식 명료. 두통과 전신 근육통 호소. 급성 병색은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "혀 깨문 상처 없음."
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 양성 (허리 통증)"
+  extremity: "신경학적 검사상 국소 소견 없음. Straight Leg Raising (SLR) test 양쪽 양성."
+standardized_patient_questions: "제가 먹는 진통제 때문에 경련을 할 수도 있나요? 그럼 앞으로 통증은 어떻게 하죠? 무서워서 약을 못 먹겠어요."
+specific_remarks: "환자는 의식이 명료하며, 본인이 약을 과다 복용한 사실을 알고 있다. 그러나 진통제 때문에 경련이 발생했다는 사실에 대해서는 놀라워하며 믿기 어려워한다. 만성 통증 조절에 대한 불안감을 표현한다. 약물 오남용의 위험성에 대해 교육하는 것이 중요하다."

@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (흉막염을 동반한 폐렴, Pneumonia with Pleurisy)"
+patient_info:
+  name: "황민준"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "기침, 가래와 함께 나타나는 가슴 통증"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "95회/분"
+  respiration: "22회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "지역사회획득 폐렴 및 흉막염"
+    - "폐색전증"
+    - "급성 기관지염"
+  necessary_tests:
+    - "흉부 방사선 촬영"
+    - "혈액 검사 (백혈구 수, 염증 수치)"
+    - "객담 배양 및 그람 염색 검사"
+  necessary_treatments:
+    - "입원 치료 (고령, 동반질환 고려)"
+    - "경험적 항생제 정맥 투여"
+    - "수액 공급, 해열제, 진해거담제 등 보존적 치료"
+history:
+  sex_age: "남성/72세"
+  chief_complaint_verbatim: "닷새 전부터 기침, 가래가 심해지더니 어제부터는 숨 쉴 때마다 오른쪽 가슴이 칼로 찌르듯 아파요. 열도 많이 나고요."
+  onset: "호흡기 증상은 5일 전, 가슴 통증은 1일 전"
+  location:
+    initial: "오른쪽 가슴"
+    current: "오른쪽 가슴"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "전반적인 증상 악화"
+  course: "처음엔 으슬으슬 춥고 기침만 나더니, 점점 누런 가래가 나오고 열이 오름. 어제부터는 기침하거나 숨을 깊게 쉴 때 통증이 생김."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "날카로운, 결리는"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "심호흡"
+      - "기침"
+    alleviating: "숨을 얕게 쉬고 가만히 있으면 덜함"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "만성폐쇄성폐질환(COPD), 전립선비대증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "흡입용 기관지확장제, 전립선약"
+    source: "호흡기내과, 비뇨기과"
+    effect: "평소 증상 조절 잘 되었음"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "20년 전 금연 (과거 40갑년)"
+    exercise: "매일 30분씩 공원 산책"
+    recent_weight_change: "최근 식욕 부진으로 1-2kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "고열이 있고 힘겹게 숨을 쉬는 모습. 기침 시 가슴을 부여잡음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "타진 시 우하엽에 둔탁음(dullness)이 들림. 청진 시 우하엽에서 기관지 호흡음(bronchial breath sound)과 악설음(crackle)이 청진됨. 흉막 마찰음(pleural friction rub)이 들릴 수 있음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "탈수 소견 보임, 부종 없음."
+standardized_patient_questions: "독감이 심하게 온 건가요? 왜 숨 쉴 때마다 가슴이 아프죠? 나이가 많아서 입원해야 하나요?"
+specific_remarks: "기침, 가래, 발열 등 전형적인 감염 증상을 뚜렷하게 호소한다. 통증이 호흡과 연관되어 있음을 강조한다. 의사가 등 뒤에서 폐 청진 및 타진을 꼼꼼하게 하는지 확인한다."

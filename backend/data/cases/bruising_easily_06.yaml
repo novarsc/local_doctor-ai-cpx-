@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (만성 신부전으로 인한 요독증)"
+patient_info:
+  name: "정영숙"
+  age: 68
+  sex: "여성"
+  presenting_complaint: "피부가 가렵고, 몸에 자꾸 멍이 듦"
+vital_signs:
+  blood_pressure: "160/95mmHg"
+  pulse: "85회/분"
+  respiration: "20회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 신부전으로 인한 요독증 (Uremia due to Chronic Kidney Disease)"
+    - "노인성 자색반"
+    - "간경변"
+  necessary_tests:
+    - "혈액요소질소/크레아티닌 검사 (BUN/Cr)"
+    - "전혈구 검사 (빈혈 확인), 전해질 검사"
+    - "신장 초음파"
+  necessary_treatments:
+    - "신기능 저하의 원인 교정 및 혈압 조절"
+    - "식이요법 (저염, 저단백)"
+    - "투석 또는 신장 이식 준비"
+history:
+  sex_age: "여성/68세"
+  chief_complaint_verbatim: "몇 달 전부터 온몸이 너무 가려워서 잠을 설칠 정도예요. 그리고 긁다 보면 시퍼렇게 멍이 들어서 잘 없어지지도 않아요."
+  onset: "약 6개월 전부터 서서히"
+  location:
+    initial: "전신 소양감"
+    current: "전신 소양감과 피부의 멍"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 소변량도 줄고 몸이 붓는 것 같음"
+  course: "처음에는 피부가 건조해서 그런가 보다 했는데, 보습제를 발라도 소용이 없었다. 밤에 특히 더 가려웠다. 3개월 전부터는 긁거나 살짝 부딪힌 자리에 멍이 쉽게 들었다. 최근에는 아침에 일어나면 얼굴과 손이 붓고, 소변에 거품이 많아지고 양이 줄었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "심한 소양증, 쉽게 드는 멍, 부종"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔 아침에 메스꺼움"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "밤 시간"
+      - "몸을 긁는 행위"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "10년 전, 혈압이 높고 단백뇨가 약간 있다고 들었음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨병 (15년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 당뇨약"
+    source: "내과 의원"
+    effect: "최근에는 약을 잘 챙겨 먹지 못했음"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "몸이 부어서 3kg 증가"
+  family_history: "친정어머니가 신장이 안 좋아서 고생하셨음"
+  female_history: "폐경 15년 전"
+physical_exam:
+  general: "만성 병색. 피부가 전반적으로 흙빛(sallow)을 띰."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "건조함. 입에서 소변 냄새(uremic fetor)가 약간 남."
+  chest: "호흡음 정상. 심낭 마찰음(pericardial friction rub) 들림."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"특별한 압통 없음.\""
+  cvat: "좌우 음성"
+  extremity: "팔과 다리 피부에 긁은 자국(excoriation)이 많고, 그 주위로 자색반이 여러 개 있음. 양쪽 정강이 앞쪽에 오목부종(+2) 관찰됨."
+standardized_patient_questions: "나이 들어서 피부가 약해진 줄 알았는데, 콩팥이랑 관련이 있을 수 있나요? 가려운 건 어떻게 해야 없어지나요? 많이 심각한 상태인가요?"
+specific_remarks: "환자는 만성 질환에 지친 기색이 역력하며, 특히 소양증으로 인한 괴로움을 호소한다. 입에서 나는 미세한 소변 냄새와 청진 시 들리는 심낭 마찰음은 요독증의 중요한 단서이므로, 응시생이 이를 놓치지 않는지 확인이 필요하다."

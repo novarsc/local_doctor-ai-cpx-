@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (식이섬유 및 수분 섭취 부족)"
+patient_info:
+  name: "김진우"
+  age: 21
+  sex: "남성"
+  presenting_complaint: "자취 시작 후 생긴 변비"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "식이섬유 및 수분 섭취 부족으로 인한 변비"
+    - "활동량 감소로 인한 변비"
+    - "환경 변화에 따른 일과성 변비"
+  necessary_tests:
+    - "대부분의 경우 추가 검사 불필요"
+    - "증상 지속 시 기본 혈액검사 고려"
+    - "경고 증상 발생 시 대장 내시경 등 추가 검사 필요"
+  necessary_treatments:
+    - "생활 습관 교정에 대한 교육 (가장 중요)"
+    - "식이섬유가 풍부한 음식(채소, 과일) 섭취 권장"
+    - "하루 1.5~2L 이상의 충분한 수분 섭취"
+history:
+  sex_age: "남/21"
+  chief_complaint_verbatim: "두 달 전에 자취 시작하고 나서부터 변비가 생겼어요. 원래는 매일 화장실 갔는데, 지금은 3~4일에 한 번 가요. 배가 빵빵하고 불편해요."
+  onset: "약 2개월 전"
+  location:
+    initial: "하복부"
+    current: "하복부"
+  duration:
+    onset_pattern: "아급성 발생"
+    recent_course: "지속됨"
+  course: "2개월 전 대학 입학으로 자취를 시작했다. 본가에 있을 때는 규칙적인 식사를 했으나, 자취 후에는 주로 배달음식(치킨, 피자)이나 라면으로 식사를 해결한다. 채소나 과일은 거의 먹지 않고, 물도 거의 마시지 않는다. 이후 변이 딱딱해지고 배변 횟수가 주 2회로 감소했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "더부룩함"
+    nrs_score: "2"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "인스턴트 음식 섭취"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "고등학교 때 학생 검진"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회 (개강 후)"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "별로 안 함"
+    recent_weight_change: "최근 2달간 3kg 증가"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "건강해 보이는 젊은 남성"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      diffuse_mild_tenderness: false
+      palpable_stool_in_llq: true
+  cvat: "좌우 음성"
+  extremity: "정상"
+standardized_patient_questions: "제가 왜 갑자기 변비가 생긴 걸까요? 약을 먹어야 하나요? 어떻게 하면 예전처럼 돌아갈 수 있을까요?"
+specific_remarks: "환자는 자신의 증상을 대수롭지 않게 여기는 경향이 있다. 식습관에 대한 질문에 '귀찮아서요', '다들 그렇게 살지 않나요?' 와 같이 다소 무심하게 대답한다. 생활 습관 교정의 중요성을 강조할 때 집중하는 모습을 보인다."

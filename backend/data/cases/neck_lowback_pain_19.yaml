@@ -1,0 +1,119 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "19"
+title: "실전 모의 증례 (류마티스성 다발근통)"
+patient_info:
+  name: "김순덕"
+  age: 71
+  sex: "여성"
+  presenting_complaint: "한달 전부터 갑자기 생긴 양쪽 어깨와 엉덩이 통증 및 뻣뻣함"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.3℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "류마티스성 다발근통 (Polymyalgia rheumatica, PMR)"
+    - "거대세포 동맥염 (Giant cell arteritis, GCA)"
+    - "류마티스 관절염 (노년 발병)"
+  necessary_tests:
+    - "혈액 검사 (ESR, CRP)"
+    - "갑상선 기능 검사, 근육 효소(CK) 검사 (다른 질환 배제 목적)"
+    - "측두 동맥 침범 의심 시 측두 동맥 초음파 또는 조직검사"
+  necessary_treatments:
+    - "저용량 경구 스테로이드 치료"
+    - "스테로이드 부작용 예방 (칼슘, 비타민D 복용)"
+    - "치료 반응을 보며 서서히 스테로이드 감량"
+history:
+  sex_age: "여성/71세"
+  chief_complaint_verbatim: "갑자기 아침에 일어나기가 너무 힘들어요. 양쪽 어깨랑 엉덩이가 너무 아프고 뻣뻣해서 누가 도와줘야 일어나요."
+  onset: "약 1개월 전"
+  location:
+    initial: "양쪽 어깨"
+    current: "목, 양쪽 어깨, 양쪽 엉덩이/허벅지"
+  duration:
+    onset_pattern: "비교적 급성 발생 (수 주 이내)"
+    recent_course: "급격히 악화됨"
+  course: "한 달 전부터 아침에 일어날 때 양쪽 어깨가 심하게 아프고 뻣뻣해서 팔을 들기 어려웠음. 며칠 지나지 않아 엉덩이와 허벅지 위쪽까지 아파져서 앉았다 일어서거나 걷기 힘들어짐. 아침에 뻣뻣함이 1시간 이상 지속됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "근육통 같은 통증과 심한 뻣뻣함"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침 기상 시"
+      - "가만히 있다가 움직이려고 할 때"
+    alleviating: "움직이다 보면 조금씩 풀림"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제"
+    source: "약국"
+    effect: "전혀 효과 없음"
+  social_history:
+    job: "무직"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "규칙적으로 경로당에서 체조했었음"
+    recent_weight_change: "한달 간 3kg 감소"
+  family_history: "없음"
+  female_history: "20년 전 폐경"
+physical_exam:
+  general: "통증과 뻣뻣함으로 인해 움직임이 매우 둔하고 힘들어 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+    temporal_artery: "압통이나 비후 없음."
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      neck_motion: "움직임 범위 감소"
+      shoulder_motion: "양쪽 어깨의 능동적 움직임(active ROM)이 통증으로 인해 심하게 제한됨 (수동적 움직임은 비교적 가능)."
+      hip_motion: "양쪽 고관절 움직임 시 통증 호소"
+  cvat: "좌우 음성"
+  extremity: "근력은 통증으로 인해 정확한 평가가 어려우나 명백한 위약은 없음. 말초 관절(손, 발)의 부종이나 압통은 없음."
+standardized_patient_questions: "갑자기 왜 이러는지 모르겠어요. 류마티스 관절염인가요? 왜 어깨랑 엉덩이만 이렇게 아프죠? 평생 이렇게 살아야 하나요?"
+specific_remarks: "양측성, 대칭적인 근위부 통증(어깨, 고관절 주위)과 심한 아침 강직을 강조해야 함. '옷을 입거나 머리 빗기가 힘들다', '의자에서 일어나기가 힘들다' 등 구체적인 기능 장애를 설명할 것. 신체 진찰 시 팔을 들어 올리거나 다리를 움직이려고 하면 매우 아파하고 힘들어하는 모습을 보여야 함. "최근에 머리가 아프거나 턱이 아픈 적은 없었냐"는 질문에 "그렇지는 않다"고 대답하여 GCA 증상은 없음을 명확히 해야 함."

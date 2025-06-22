@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "19"
+title: "실전 모의 증례 (일산화탄소 중독, Carbon Monoxide Poisoning)"
+patient_info:
+  name: "박지훈"
+  age: 34
+  sex: "남성"
+  presenting_complaint: "머리가 아프고 어지럽다며 쓰러짐"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "115회/분"
+  respiration: "22회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "일산화탄소 중독"
+    - "뇌졸중"
+    - "경련"
+  necessary_tests:
+    - "동맥혈가스분석 (Carboxyhemoglobin, CO-Hb 농도 측정)"
+    - "혈액 검사 (CK, Troponin)"
+    - "뇌 CT 또는 MRI"
+  necessary_treatments:
+    - "100% 고농도 산소 공급"
+    - "고압 산소 치료 (Hyperbaric Oxygen Therapy) 고려"
+    - "보존적 치료 (수액 공급, 활력징후 감시)"
+history:
+  sex_age: "남성/34세"
+  chief_complaint_verbatim: "남자친구가 캠핑장에서 자고 일어나더니 머리가 깨질 듯 아프고 토할 것 같다고 하다가 갑자기 의식을 잃었어요."
+  onset: "오늘 아침"
+  location:
+    initial: "머리"
+    current: "전신"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "의식 저하"
+  course: "어젯밤 여자친구와 함께 차박 캠핑을 함. 추워서 차 안에서 휴대용 가스 난로를 켜놓고 잠이 듦. 아침에 일어났을 때 둘 다 심한 두통과 어지럼증, 구역감을 느낌. 환자가 먼저 차에서 내리려다 비틀거리며 쓰러진 후 의식이 흐려져 119 신고. 여자친구도 비슷한 증상 호소 중."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "두통 후 의식 저하"
+    nrs_score: 9
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "1회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밀폐된 공간"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "회사 건강검진 (1년 전)"
+    endoscopy_finding: "정상"
+  trauma_history: "쓰러지면서 머리를 부딪혔을 수 있음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: ""
+    exercise: "주 3회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "의식은 혼미(stupor) 상태. 자극에 겨우 반응함. 전반적인 상태는 양호해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "선홍빛(cherry-red color)을 띰."
+  chest: "호흡과 심박동이 빠름. 산소포화도 측정기(pulse oximetry) 상 99%로 측정됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "피부와 손톱 밑이 선홍빛을 띰. 국소 신경학적 결손은 명확하지 않음."
+standardized_patient_questions: "저희 왜 이러는 거죠? 같이 있었는데 왜 남자친구만 쓰러진 건가요? 가스 난로 때문인가요?"
+specific_remarks: "환자는 의식이 저하된 상태를 연기한다. 피부와 입술이 특징적인 선홍색을 띠는 것을 보여주는 것이 핵심 단서이다. 산소포화도 측정기는 정상으로 측정되지만, 환자는 숨가쁨과 의식 저하를 보이는 모순적인 상황을 연출해야 한다. 병력은 함께 내원한 여자친구가 제공한다."

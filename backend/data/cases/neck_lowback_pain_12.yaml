@@ -1,0 +1,119 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (척추 분리증 및 척추 전방 전위증)"
+patient_info:
+  name: "김민수"
+  age: 17
+  sex: "남성"
+  presenting_complaint: "운동할 때 심해지는 허리 통증"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "척추 분리증 및 척추 전방 전위증"
+    - "요추 염좌"
+    - "추간판성 요통"
+  necessary_tests:
+    - "요추 X선 검사 (사위 촬영, 굴곡-신전 촬영)"
+    - "필요시 척추 CT 또는 SPECT (척추 분리 부위 확인)"
+    - "MRI (신경 압박 여부 확인)"
+  necessary_treatments:
+    - "활동 제한 및 운동 중단"
+    - "코어 근육 강화 운동 (재활 치료)"
+    - "보조기 착용"
+    - "보존적 치료 실패 및 불안정성 심할 경우 수술적 유합술 고려"
+history:
+  sex_age: "남성/17세"
+  chief_complaint_verbatim: "축구 같은 격한 운동을 하고 나면 허리가 끊어질 것처럼 아파요. 쉴 땐 괜찮은데..."
+  onset: "약 6개월 전"
+  location:
+    initial: "허리 아래쪽"
+    current: "허리 아래쪽 중앙"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "운동 강도를 높이면서 통증 빈도와 강도가 증가함"
+  course: "처음에는 운동 후에만 뻐근했는데, 이제는 운동 중에도 통증이 심해 제대로 뛸 수가 없음. 가끔 엉덩이 쪽으로 뻐근한 느낌이 동반됨."
+  experience_prev_episodes:
+    frequency: "운동 시 반복적"
+    trigger: "허리를 뒤로 젖히는 동작, 달리기, 점프"
+    symptoms: "비슷한 양상"
+  character_of_symptom:
+    quality: "깊고 쑤시는 통증"
+    nrs_score: "6 (운동 시)"
+    radiation: "가끔 양쪽 엉덩이 쪽으로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "축구, 농구 등 격렬한 운동"
+      - "허리를 뒤로 젖히는 동작"
+    alleviating: "휴식, 허리를 앞으로 숙이는 자세"
+  health_check_history:
+    last_checkup: "학생 건강검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "특별한 외상력 없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "고등학생 (축구부)"
+    stress: "성적 및 진로 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "매일 축구 훈련"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "운동 선수 타입의 건강한 청소년."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      step-off: "요추 5번(L5) 극돌기 부위를 촉진 시 바로 위 요추 4번(L4)에 비해 약간 꺼져 있는 계단 현상(step-off)이 만져짐."
+      one-legged_hyperextension_test: "오른쪽 다리로 서서 허리를 뒤로 젖힐 때 통증 유발 (양성)"
+      hamstring_tightness: "양쪽 햄스트링 근육이 뻣뻣함"
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 모두 정상."
+standardized_patient_questions: "성장통인 줄 알았는데 아닌가요? 운동을 계속 하고 싶은데, 앞으로 축구 못하게 되는 건가요? 수술해야 하나요?"
+specific_remarks: "젊은 운동선수에게 발생하는 활동-의존적 요통임을 강조. 허리를 뒤로 젖히는 특정 동작에서 통증이 유발되는 것을 명확하게 표현해야 함. 진찰 시 허리를 만졌을 때 '계단처럼 푹 꺼진 느낌(step-off)'이 있다는 의사의 소견에 대해 질문할 수 있음. 운동을 못하게 될까 봐 걱정하는 모습을 보여야 함."

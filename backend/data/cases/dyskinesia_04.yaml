@@ -1,0 +1,107 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (약물 유발 파킨슨증)"
+patient_info:
+  name: "최철민"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "걸음이 부자연스럽고 손이 떨림"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "약물 유발 파킨슨증"
+    - "파킨슨병"
+    - "혈관성 파킨슨증"
+  necessary_tests:
+    - "복용 약물 검토"
+    - "혈액 검사"
+    - "뇌 MRI"
+  necessary_treatments:
+    - "원인 약물 중단 또는 변경"
+    - "증상 조절을 위한 항콜린성 약물 등 사용"
+    - "경과 관찰"
+history:
+  sex_age: "남성/55세"
+  chief_complaint_verbatim: "석 달 전부터 몸이 뻣뻣하고, 걸음걸이가 이상해졌어요. 가만히 있을 때 양손이 떨려서 사람들이 자꾸 쳐다보는 것 같아요."
+  onset: "약 3개월 전"
+  location:
+    initial: "양손, 양다리"
+    current: "전신적인 뻣뻣함"
+  duration:
+    onset_pattern: "비교적 갑작스럽게 시작"
+    recent_course: "계속 비슷하거나 약간씩 심해짐"
+  course: "어지럼증과 구역감 때문에 약을 먹기 시작한 후로 증상이 생긴 것 같음"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "안정 시 떨림, 전반적인 둔함"
+    nrs_score: "불편감 6점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "약을 먹기 전에는 있었으나 현재는 호전됨"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "가만히 있을 때"
+    alleviating: "움직이면 떨림이 다소 감소"
+  health_check_history:
+    last_checkup: "2년 전, 특이사항 없음"
+    endoscopy_finding: "만성 표재성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "이석증으로 인한 어지럼증 (4개월 전 진단)"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "의원에서 처방받은 어지럼증 약 (성분 모름)"
+    source: "개인 의원"
+    effect: "어지럼증은 호전되었으나, 새로운 증상 발생"
+  social_history:
+    job: "자영업 (식당 운영)"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "못하고 있음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "행동이 느리고 표정이 다소 굳어 있음. 양측 대칭적인 증상을 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "양측 상하지에서 톱니바퀴양 경직 관찰됨. 안정 시 양손에서 대칭적인 떨림이 관찰됨. 걸을 때 양팔의 흔들림이 모두 감소되어 있고, 보폭이 좁음. 파킨슨병 환자와 유사하나, 증상이 양측에서 대칭적으로 나타나는 것이 특징적임."
+standardized_patient_questions: "제가 갑자기 왜 파킨슨병에 걸린 건가요? 어지러워서 약 먹은 것밖에 없는데... 이 약 때문일 수도 있나요? 약을 끊으면 괜찮아질까요?"
+specific_remarks: "환자는 자신의 증상에 대해 혼란스러워하며, 특히 어지럼증 약을 복용한 시점과 증상 발생 시점의 연관성을 강조한다. 파킨슨병과 유사한 증상(안정 시 떨림, 경직, 서동)을 연기하되, 증상이 좌우 대칭적으로 나타나는 점을 표현하는 것이 중요하다."

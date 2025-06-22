@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (경동맥동 증후군)"
+patient_info:
+  name: "김영수"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "면도하다가 갑자기 어지러우면서 쓰러질 뻔했어요."
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "경동맥동 증후군 (Carotid sinus syndrome)"
+    - "일과성 허혈 발작 (척추기저동맥 허혈)"
+    - "기립성 저혈압"
+  necessary_tests:
+    - "경동맥동 마사지 (심장 모니터링 및 응급 처치 준비 하에 시행)"
+    - "심전도 검사"
+    - "경동맥 도플러 초음파"
+  necessary_treatments:
+    - "유발 요인 회피 교육 (예: 꽉 끼는 셔츠 피하기, 고개 갑자기 돌리지 않기)"
+    - "증상이 심하고 반복될 경우 심박조율기 삽입 고려"
+    - "운전 등 위험한 활동 시 주의"
+history:
+  sex_age: "남성/68"
+  chief_complaint_verbatim: "아침에 세면대에서 면도를 하려고 고개를 옆으로 홱 돌리는데, 갑자기 세상이 핑 돌면서 다리에 힘이 쭉 빠져서 그 자리에 주저앉았습니다. 한 5초 정도 그랬나봐요."
+  onset: "금일 오전 8시"
+  location:
+    initial: "자택 화장실"
+    current: "진료실"
+  duration:
+    onset_pattern: "특정 자세에서 갑자기 발생"
+    recent_course: "의식을 완전히 잃지는 않았으나(presyncope), 거의 잃을 뻔했음. 주저앉아 쉬니 금방 괜찮아짐."
+  course: "한 달 전에도 꽉 끼는 넥타이를 매고 고개를 돌리다가 비슷한 경험을 한 적이 있음. 그때는 대수롭지 않게 넘겼음."
+  experience_prev_episodes:
+    frequency: "한 달 전 1회"
+    trigger: "꽉 끼는 넥타이를 매고 고개 돌리기"
+    symptoms: "심한 어지럼증"
+  character_of_symptom:
+    quality: "의식 소실 직전의 어지럼증"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "면도 (고개 돌리기, 목 압박)"
+      - "고개를 옆으로 빠르게 돌리는 행위"
+    alleviating: "자세 유지 및 안정"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "주저앉아서 외상은 없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+      - "고지혈증약"
+    source: "내과 의원"
+    effect: "잘 조절됨"
+  social_history:
+    job: "경비원 (교대 근무)"
+    stress: "약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "20년 전 금연"
+    exercise: "별로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "정상적인 중년 남성 모습. 의식 명료."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 정상. 심잡음 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "부종 없음."
+standardized_patient_questions: "목 좀 돌렸다고 사람이 쓰러질 뻔 할 수가 있나요? 중풍(뇌졸중)이 오는 건 아닌지 걱정됩니다."
+specific_remarks: "환자는 자신의 증상이 목을 움직이는 특정 행동과 관련 있다는 것을 명확하게 인지하고 있다. 뇌졸중과 같은 심각한 질환에 대한 두려움을 표현한다. 신체진찰 시 목 부위를 만지는 것에 대해 예민하게 반응할 수 있다."

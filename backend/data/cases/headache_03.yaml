@@ -1,0 +1,117 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (군발두통)"
+patient_info:
+  name: "최강민"
+  age: 38
+  sex: "남성"
+  presenting_complaint: "새벽에 눈이 빠질 듯한 극심한 두통과 함께 눈물, 콧물이 남"
+vital_signs:
+  blood_pressure: "135/90mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "군발두통"
+    - "급성 부비동염"
+    - "삼차신경통 (안구 분지)"
+  necessary_tests:
+    - "뇌하수체 부위 등을 포함한 뇌 MRI (다른 구조적 이상 배제)"
+    - "임상 양상이 전형적이므로 진단에 가장 중요함"
+    - "안과적 검사 (다른 안구 질환 감별)"
+  necessary_treatments:
+    - "급성기 치료: 100% 산소 흡입, 트립탄 피하주사 또는 비강 분무제"
+    - "과도기 치료: 스테로이드 경구 투여"
+    - "예방 치료: 베라파밀(Verapamil)이 일차 선택 약물"
+history:
+  sex_age: "남성/38"
+  chief_complaint_verbatim: "최근 2주간 거의 매일 새벽에 자다가 깨요. 오른쪽 눈알을 뽑아내는 것처럼 아파서 미칠 것 같아요. 그때마다 눈물, 콧물이 줄줄 흐릅니다."
+  onset: "약 2주 전"
+  location:
+    initial: "오른쪽 눈 뒤"
+    current: "오른쪽 눈 주변 및 관자놀이"
+  duration:
+    onset_pattern: "수 분 내에 갑자기 최고조의 통증 발생"
+    recent_course: "거의 매일, 주로 새벽 1~2시경에 발생"
+  course: "한 번 시작되면 30분에서 2시간 정도 지속되다가 갑자기 사라짐. 하루에 1-2회 발생."
+  experience_prev_episodes:
+    frequency: "2년 전 가을에 비슷한 증상이 약 한 달간 있다가 사라졌음"
+    trigger: "음주 후 다음 날 새벽에 더 잘 발생하는 것 같음"
+    symptoms: "현재와 동일한 양상의 극심한 두통 및 자율신경증상"
+  character_of_symptom:
+    quality: "찌르는 듯한, 칼로 도려내는 듯한 통증"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+    # Autonomic symptoms are key for Cluster Headache
+    autonomic:
+      conjunctival_injection_ipsilateral: true
+      lacrimation_ipsilateral: true
+      nasal_congestion_or_rhinorrhea_ipsilateral: true
+      eyelid_edema_ipsilateral: true
+      forehead_and_facial_sweating_ipsilateral: true
+      miosis_or_ptosis_ipsilateral: true
+  factors:
+    aggravating:
+      - "누워있는 것. 아파서 가만히 있을 수가 없음."
+    alleviating: "없음. 시간이 지나야만 사라짐."
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "특이 소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "약국 진통제"
+    source: "약국"
+    effect: "전혀 효과 없음"
+  social_history:
+    job: "건설 현장 관리직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1-2병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "해당 없음"
+    exercise: "주 2회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "매우 불안해하며 초조한 모습. 통증이 없는 상태로 내원했으나, 통증에 대한 공포감을 표현함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # Specific exam during an attack (patient describes this)
+    ipsilateral_findings_during_attack: "우측 눈 충혈, 눈물 흘림, 콧물, 이마 땀, 눈꺼풀 부종, 경미한 안검하수 및 축동 (Horner's syndrome 양상)"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "이러다 정말 눈이 잘못되는 거 아닌가요? 왜 술 마신 다음 날 더 아픈 것 같죠? 이 고통을 멈출 수 있는 방법은 없나요?"
+specific_remarks: "진료 중에는 통증이 없는 상태다. 하지만 통증의 고통을 설명할 때는 매우 격앙되고 불안한 모습을 보이며, '차라리 머리를 벽에 박고 싶을 정도'라고 표현한다. 아플 때는 가만히 누워있지 못하고 방 안을 서성인다고 강조한다."

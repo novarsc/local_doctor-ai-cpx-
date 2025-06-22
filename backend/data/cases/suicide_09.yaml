@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (신체이형장애)"
+patient_info:
+  name: "강민아"
+  age: 19
+  sex: "여성"
+  presenting_complaint: "코 모양이 너무 밉고 혐오스러워서 살고 싶지 않음"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신체이형장애 (Body Dysmorphic Disorder)"
+    - "강박장애 (Obsessive-Compulsive Disorder)"
+    - "사회불안장애 (Social Anxiety Disorder)"
+  necessary_tests:
+    - "예일-브라운 강박사고 척도 신체이형장애 버전 (BDD-YBOCS)"
+    - "우울 및 불안 척도 평가"
+    - "성형외과적 문제가 아닌 정신과적 문제임을 인지시키는 교육"
+  necessary_treatments:
+    - "선택적 세로토닌 재흡수 억제제(SSRI) 고용량 치료"
+    - "인지행동치료 (노출 및 반응 방지 포함)"
+    - "성형수술을 반복하지 않도록 하는 교육 및 자살 위험 관리"
+history:
+  sex_age: "여성/19세"
+  chief_complaint_verbatim: "제 코 좀 보세요. 너무 끔찍하게 생겼어요. 이것 때문에 사람들이 다 저를 쳐다보고 비웃는 것 같아요. 이 얼굴로 사느니 죽는 게 나아요."
+  onset: "중학생 때부터 외모에 대한 고민 시작, 1년 전부터 코에 대한 집착 심해짐"
+  location:
+    initial: "외모 전반"
+    current: "코"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 코 성형수술 후에도 불만족하며 증상 악화"
+  course: "어릴 때부터 외모에 자신이 없었고, 1년 전부터 자신의 코가 비대칭이고 못생겼다는 생각에 사로잡힘. 하루에도 수십 번씩 거울을 보며 코 모양을 확인하고, 사진 찍기를 극도로 꺼림. 3개월 전 부모님을 졸라 코 성형수술을 받았으나, 수술 후에도 여전히 코가 '기괴하다'고 느끼며 만족하지 못함. 다른 사람들이 자신의 코만 쳐다본다고 생각해 학교도 잘 가지 않음. 자신의 외모에 대한 절망감 때문에 '다시 태어나고 싶다'며 자살을 언급함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "특정 신체 부위(코)의 결점에 대한 과도한 집착"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "거울을 볼 때"
+      - "사람들을 만날 때"
+      - "사진을 볼 때"
+    alleviating: "화장으로 코를 가리거나 마스크를 쓸 때 약간"
+  health_check_history:
+    last_checkup: "해당 없음"
+    endoscopy_finding: ""
+  trauma_history: "어린 시절 외모로 놀림받은 경험이 있다고 함"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생 (현재 휴학 고려 중)"
+    stress: "외모 관련 스트레스 극심"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 4주 전, regular"
+physical_exam:
+  general: "마스크를 쓰고 있으며 벗기를 주저함. 계속 손으로 코 주변을 가리려고 함. 불안해 보임."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+    # 코를 진찰하면, 객관적으로는 성형수술 후의 정상적인 모습으로 특별한 기형이나 비대칭이 관찰되지 않음.
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "No edema or cyanosis"
+standardized_patient_questions: "선생님이 보시기에도 제 코 이상하죠? 솔직하게 말해주세요. 재수술하면 괜찮아질까요? 어느 병원이 잘해요? 이 문제만 해결되면 다 괜찮아질 것 같아요."
+specific_remarks: "자신의 외모 결점에 대한 강한 확신(insight 없음)을 보임. 의사가 '괜찮다'고 말하면 '위로해주시려는 거죠, 사실은 이상하잖아요'라며 믿지 않음. 대화의 주제가 계속 코로 돌아감. 자살 사고는 외모에 대한 고통을 끝내기 위한 유일한 방법이라고 생각함."

@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (외상성 신장 손상)"
+patient_info:
+  name: "강태민"
+  age: 19
+  sex: "남성"
+  presenting_complaint: "축구 경기 중 옆구리를 부딪힌 후 발생한 혈뇨"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "외상성 신장 손상 (신장 좌상)"
+    - "비장 또는 간 손상 (감별 필요)"
+    - "늑골 골절"
+  necessary_tests:
+    - "조영 증강 복부 CT (손상 정도 평가를 위한 표준 검사)"
+    - "소변 검사 (혈뇨 정도 평가)"
+    - "혈액 검사 (활력 징후 불안정 시 혈색소 수치 추적)"
+  necessary_treatments:
+    - "절대 안정 및 보존적 치료 (대부분의 경우)"
+    - "지속적인 활력 징후 및 혈뇨 추이 관찰"
+    - "혈역학적으로 불안정하거나 심한 손상 시 색전술 또는 수술 고려"
+history:
+  sex_age: "남성/19세"
+  chief_complaint_verbatim: "오늘 오후에 축구하다가 상대편 무릎에 왼쪽 옆구리를 세게 부딪혔는데, 집에 와서 소변 보니 피가 섞여 나와서 왔어요."
+  onset: "약 4시간 전"
+  location:
+    initial: "좌측 옆구리"
+    current: "좌측 옆구리 통증 및 혈뇨"
+  duration:
+    onset_pattern: "외상 직후 발생"
+    recent_course: "옆구리 통증이 계속되고, 소변 볼 때마다 붉게 나옴"
+  course: "축구 경기 중 공중볼을 다투다가 상대 선수의 무릎에 왼쪽 등-옆구리 부분을 강하게 부딪혔습니다. 당시에는 숨을 쉬기 힘들 정도로 아팠고, 경기가 끝난 후에도 통증이 계속되었습니다. 집에 와서 소변을 보니 선명한 붉은색이었습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "부딪힌 부위의 욱신거리는 통증"
+    nrs_score: "6/10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "몸을 움직이거나 기침할 때"
+    alleviating: "가만히 있을 때"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "상기 기술된 외상 있음 (blunt abdominal trauma)"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "고등학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "축구부 활동"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "건강한 체격. 통증으로 인해 왼쪽 옆구리를 감싸고 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "좌측 하부 흉곽 압통 있음. 호흡음은 정상."
+  abdomen:
+    inspection: "좌측 옆구리(flank)에 약간의 멍(ecchymosis)이 보임."
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # Left flank tenderness and guarding 있음
+  cvat: "좌측 양성 (left side positive)"
+  extremity: "정상"
+standardized_patient_questions: "축구하다 다친 것 때문에 피가 날 수도 있나요? 콩팥이 터지거나 한 건 아니겠죠? 입원해야 하나요?"
+specific_remarks: "환자는 다친 상황을 구체적으로 설명한다. 통증 때문에 허리를 펴기 힘들어한다. 내부 장기 손상, 특히 '콩팥 파열'과 같은 심각한 상황을 걱정한다."

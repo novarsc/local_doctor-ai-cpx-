@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (거식증/신경성 식욕부진증)"
+patient_info:
+  name: "김나라"
+  age: 18
+  sex: "여성"
+  presenting_complaint: "최근 6개월간 15kg의 심각한 체중 감소, 무월경. 환자 본인은 문제 없다고 부인함."
+vital_signs:
+  blood_pressure: "85/50mmHg"
+  pulse: "48회/분"
+  respiration: "14회/분"
+  temperature: "35.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신경성 식욕부진증 (거식증)"
+    - "갑상선기능항진증 (체중감소 원인)"
+    - "부신 기능저하증 (체중감소 원인)"
+  necessary_tests:
+    - "신체 계측 (BMI 계산)"
+    - "혈액검사 (전혈구검사, 전해질, 간/신기능, 알부민, 갑상선 기능)"
+    - "심전도"
+  necessary_treatments:
+    - "정신건강의학과, 내과, 영양팀의 다학제적 접근"
+    - "영양 재활 및 점진적인 체중 회복 목표 설정"
+    - "개인 및 가족 정신치료"
+    - "심각한 경우 입원 치료 고려"
+history:
+  sex_age: "여/18"
+  chief_complaint_verbatim: "(보호자: 애가 밥을 전혀 안 먹고 살이 너무 빠져서 억지로 데려왔어요.) / 환자: 전 괜찮아요. 문제 없어요."
+  onset: "약 6개월 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "지속적인 체중 감소"
+  course: "6개월 전 친구들에게 '살쪘다'는 말을 들은 후 다이어트를 시작했다. 처음에는 저녁을 굶는 정도였으나, 점차 음식 종류를 극도로 제한하고 칼로리를 계산하기 시작했다. 식사 후에는 과도하게 운동을 한다. 현재는 하루에 샐러드 약간만 먹는다. 체중이 계속 줄어드는 것에 만족감을 느끼며, 자신은 전혀 마르지 않았다고 생각한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "체중 증가에 대한 극심한 두려움, 왜곡된 신체상"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "스스로 유도한 구토는 부인함"
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "체중계 숫자"
+    alleviating: "체중 감소"
+  health_check_history:
+    last_checkup: "1년 전 학교 검진, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "변비약 (몰래 복용)"
+    source: "약국"
+    effect: "체중 감소에 도움이 된다고 생각함"
+  social_history:
+    job: "고등학생"
+    stress: "성적 스트레스 높음, 완벽주의적 성향"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "매일 2시간 이상 줄넘기, 조깅 등"
+    recent_weight_change: "6개월간 15kg 감소 (55kg -> 40kg, 키 165cm)"
+  family_history: "특이사항 없음"
+  female_history: "4개월 전부터 무월경 상태"
+physical_exam:
+  general: "매우 마른 체형 (emaciated)으로, 헐렁한 옷을 입고 있음. 전반적으로 기운이 없어 보임."
+  heent:
+    sclera: "특이소견 없음"
+    oral_mucosa: "건조함. 치아 안쪽에 부식 흔적이 있을 수 있음 (구토 시)."
+  chest: "서맥 (bradycardia) 관찰됨."
+  abdomen:
+    inspection: "복벽이 움푹 들어가 있음 (scaphoid abdomen)."
+    auscultation: "장음 감소"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 특이소견 없음.
+  cvat: "좌우 음성"
+  extremity: "사지가 차갑고, 손등과 팔에 솜털(lanugo)이 나 있음. 부종은 없음."
+standardized_patient_questions: "저는 뚱뚱해서 살 빼는 건데 왜 병원까지 와야 해요? 전혀 문제 없어요.", "몸무게 다시 재주세요. 아까보다 늘어난 것 같아요. 불안해요."
+specific_remarks: "환자는 병識(insight)이 전혀 없으며, 자신의 체중 감소를 문제로 인식하지 않는다. 체중, 음식, 식습관에 대한 질문에 매우 예민하고 방어적인 태도를 보인다. 의사가 자신의 편이 아니라고 생각하면 대화를 거부할 수 있다. 보호자(어머니)가 동반하여 환자의 상태를 대신 설명하는 시나리오가 효과적이다."

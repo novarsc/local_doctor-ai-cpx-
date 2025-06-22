@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (자폐 스펙트럼 장애)"
+patient_info:
+  name: "김도윤"
+  age: 3
+  sex: "남성"
+  presenting_complaint: "말이 늦고 친구들과 어울리지 못함"
+vital_signs:
+  blood_pressure: "90/55mmHg"
+  pulse: "105회/분"
+  respiration: "24회/분"
+  temperature: "36.9℃"
+examinee_instructions: "아이가 말이 늦고 상호작용이 어렵다는 주소로 내원한 보호자의 병력을 청취하고 아이의 행동을 관찰한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "자폐 스펙트럼 장애"
+    - "단순 언어 지연"
+    - "지적 장애"
+  necessary_tests:
+    - "공식적인 발달 평가 (예: K-M-BDI, ADOS)"
+    - "청력 검사"
+    - "필요시 뇌파(EEG) 검사 및 유전자 검사"
+  necessary_treatments:
+    - "조기 집중 행동 치료 (Applied Behavior Analysis, ABA)"
+    - "언어 치료 및 작업 치료"
+    - "부모 교육 및 상담"
+history:
+  sex_age: "남성/3세(36개월)"
+  chief_complaint_verbatim: "(보호자) 어린이집 선생님이 아이가 친구들하고 안 놀고 혼자만 논다고 연락이 왔어요. 말도 거의 못하고, 불러도 잘 쳐다보지도 않아요."
+  onset: "생후 12-18개월 경부터 눈맞춤이 적고 호명 반응이 뚜렷하지 않았음"
+  location:
+    initial: "사회적 상호작용 및 의사소통"
+    current: "사회적 상호작용 및 의사소통"
+  duration:
+    onset_pattern: "지속적"
+    recent_course: "나이가 들수록 또래와의 격차가 더 벌어짐. 의미 있는 단어를 거의 사용하지 않음."
+  course: "첫째 아이라 말이 늦어도 크면 하겠지 하고 기다렸다. 돌 때 '엄마' 비슷한 소리는 했지만 그 이후로 언어가 늘지 않는다. 원하는 게 있으면 손으로 가리키기보다 엄마 손을 끌고 가서 물건에 갖다 댄다. 자동차 바퀴만 굴리거나 장난감을 일렬로 세우는 등 독특한 놀이를 반복한다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "낯선 환경이나 소음"
+      - "일상적인 루틴의 변화"
+    alleviating: "혼자 있을 때, 반복적인 행동을 할 때"
+  health_check_history:
+    last_checkup: "30개월 영유아 검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "어린이집 원아"
+    stress: "새로운 자극에 예민하게 반응함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "대근육 발달은 정상"
+    recent_weight_change: "없음"
+  family_history: "특이 가족력 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "신체 성장은 정상 범위. 진료실에 들어와서 의사와 눈을 맞추지 않고, 엄마에게도 별다른 애착 행동을 보이지 않음. 진료실 구석에서 장난감 자동차 바퀴를 반복적으로 돌리고 있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 특이 소견 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이 소견 없음."
+standardized_patient_questions: "자폐가 맞나요? 우리 애가 왜 그런가요? 제가 뭘 잘못해서 그런가요? 치료하면 보통 아이들처럼 될 수 있을까요?"
+specific_remarks: "보호자는 죄책감과 불안감을 동시에 느끼며, 눈물을 글썽인다. 환아는 의사의 질문이나 지시에 거의 반응하지 않고 자신의 행동에 몰두한다. 이름을 불러도 쳐다보지 않는다. 청진 등 신체 접촉을 시도하면 강하게 저항하며 소리를 지를 수 있다."

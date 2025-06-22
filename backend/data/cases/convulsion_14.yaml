@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (요독성 뇌병증에 의한 발작)"
+patient_info:
+  name: "김종수"
+  age: 67
+  sex: "남성"
+  presenting_complaint: "투석받는 환자가 의식이 나빠지며 경련"
+vital_signs:
+  blood_pressure: "160/90mmHg"
+  pulse: "88회/분"
+  respiration: "22회/분 (Kussmaul 양상)"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "요독성 뇌병증 (Uremic encephalopathy)에 의한 발작"
+    - "전해질 불균형 (고칼륨혈증, 저칼슘혈증) 관련 발작"
+    - "뇌졸중"
+  necessary_tests:
+    - "혈액 검사 (BUN/Cr, 전해질, 혈중가스분석)"
+    - "뇌 CT (뇌출혈 등 다른 원인 감별)"
+    - "뇌파 검사 (EEG)"
+  necessary_treatments:
+    - "응급 혈액투석"
+    - "항경련제 투여 (신기능 고려하여 약물 선택)"
+    - "전해질 및 산-염기 불균형 교정"
+history:
+  sex_age: "남성/67"
+  chief_complaint_verbatim: "혈액 투석을 받는 분인데, 어제부터 계속 잠만 자려고 하고 헛소리를 하더니 갑자기 경련을 했어요."
+  onset: "경련은 1시간 전, 의식 저하는 어제부터"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적 의식 저하 후 발작"
+    recent_course: "간헐적으로 근육이 움찔거리는 증상(myoclonus)이 있다가, 전신 강직-간대 발작이 2분간 발생함. 발작 후 의식 회복 안됨."
+  course: "만성 신부전으로 주 3회 혈액투석 중인 환자. 이번 주 예정된 투석(어제)을 개인 사정으로 받지 못했다. 어제부터 기운이 없고 계속 잠만 자려 했으며, 가끔 헛소리를 했다. 몸이 가렵다며 계속 긁었다. 오늘 아침 전신 경련 발생."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "투석 건너뜀"
+    symptoms: ""
+  character_of_symptom:
+    quality: "의식 저하, 간대성근경련을 동반한 전신 발작"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "어제 한 차례"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "투석 일정 놓침"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "지속적으로 신장내과 진료 중"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "말기 신부전 (당뇨병성 신증), 고혈압, 당뇨병"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "인슐린 주사, 혈압약, 인 결합제 등 다수"
+    source: "대학병원 신장내과"
+    effect: "투석을 받으면 컨디션 조절됨"
+  social_history:
+    job: "무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "20년 전 금연"
+    exercise: "거의 못함"
+    recent_weight_change: "부종으로 체중 증가"
+  family_history: "특이 사항 없음"
+  female_history: ""
+physical_exam:
+  general: "의식이 혼미한 상태 (stuporous). 깊고 빠른 호흡 (Kussmaul breathing). 입에서 소변 냄새(uremic fetor)가 남."
+  heent:
+    sclera: "결막 창백함."
+    oral_mucosa: "건조함."
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "피부에 긁은 자국 다수. 양쪽 다리에 함요 부종 (+2). 손을 앞으로 뻗게 했을 때 손목이 아래로 툭툭 떨어지는 양상 (asterixis, flapping tremor) 보임."
+standardized_patient_questions: "아버지가 왜 이러시는 거죠? 투석을 한 번 걸렀다고 이렇게 되나요? 괜찮아지실 수 있나요?"
+specific_remarks: "환자는 의식이 저하되어 문진이 어렵다. 보호자인 아들이 대신 대답하며, 투석을 거른 것에 대해 죄책감을 느낀다. 요독증의 전형적인 신체 진찰 소견(uremic fetor, asterixis, Kussmaul breathing)을 정확히 파악하는 것이 중요하다. 응급 투석의 필요성을 명확하고 신속하게 설명해야 한다."

@@ -1,0 +1,108 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (지속적 체위-지각 어지럼, PPPD)"
+patient_info:
+  name: "강지현"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "몇 달째 계속 어지럽고 붕 뜬 느낌이 사라지지 않아요."
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "지속적 체위-지각 어지럼 (Persistent Postural-Perceptual Dizziness, PPPD)"
+    - "만성 주관적 어지럼"
+    - "불안장애를 동반한 신체형장애"
+  necessary_tests:
+    - "신경학적 진찰 및 전정기능검사 (기질적 원인 배제)"
+    - "뇌 MRI (환자 안심 및 다른 원인 배제 목적)"
+    - "불안/우울 척도 검사"
+  necessary_treatments:
+    - "전정 재활 치료"
+    - "선택적 세로토닌 재흡수 억제제 (SSRI)"
+    - "인지행동치료"
+    - "질병에 대한 충분한 설명과 안심시키기"
+history:
+  sex_age: "여성/32세"
+  chief_complaint_verbatim: "석 달 전에 이석증을 앓고 난 뒤부터 계속 어지러워요. 배 위에 떠 있는 것 같고, 땅이 흔들리는 느낌이에요."
+  onset: "약 3개월 전"
+  location:
+    initial: "머릿속"
+    current: "전반적인 느낌"
+  duration:
+    onset_pattern: "이석증 치료 후에도 어지럼이 남음"
+    recent_course: "하루 종일, 거의 매일 증상이 있음. 컨디션에 따라 강도가 변함."
+  course: "3개월 전 갑자기 어지러워서 병원에 가니 이석증이라고 해서 치료받고 회전성 어지럼은 없어졌습니다. 그런데 그 이후로도 계속 붕 뜨고 흔들리는 느낌이 사라지지 않습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "3개월 전 이석증(BPPV) 발병"
+    symptoms: ""
+  character_of_symptom:
+    quality: "회전성 아님. 내가 흔들리거나 땅이 울렁이는 느낌. 비현실감."
+    nrs_score: "3-6 (상황에 따라 변동)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "서 있거나 걸을 때"
+      - "복잡한 시각적 자극 (마트, 스크롤링)"
+      - "머리를 능동적으로 움직일 때"
+    alleviating: "가만히 누워있거나 앉아있을 때, 운전할 때(집중하면 덜 느낌)"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "3개월 전 BPPV"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "그래픽 디자이너"
+    stress: "증상 때문에 스트레스가 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "어지러워서 거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "regular"
+physical_exam:
+  general: "불안해 보이고, 자신의 증상에 대해 매우 예민하게 반응함."
+  heent: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "신경학적 진찰 및 전정기능 관련 진찰 모두 정상 소견."
+standardized_patient_questions: "검사에서는 다 정상이라는데 저는 왜 계속 어지러운 거죠? 꾀병처럼 보일까 봐 걱정돼요. 이거 평생 가는 건가요?"
+specific_remarks: "환자는 '급성 전정질환(BPPV) 이후'에 '만성적인 비회전성 어지럼'이 발생했다는 점을 강조해야 한다. 증상이 시각적 자극이나 특정 자세에서 악화되는 양상을 구체적으로 설명한다. (예: '마트에 가면 물건이 많아서 너무 어지러워요.') 신체 진찰 결과는 완전히 정상이지만, 환자는 계속해서 주관적인 불편감을 호소해야 한다. 이는 기능성 질환의 특징을 보여주는 핵심 연기이다."

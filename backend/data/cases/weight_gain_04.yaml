@@ -1,0 +1,113 @@
+---
+chapter: "전신"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (신증후군)"
+patient_info:
+  name: "최민준"
+  age: 25
+  sex: "남성"
+  presenting_complaint: "얼굴과 다리가 붓고 체중이 늘어서 내원함"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신증후군 (미세변화 신증후군 가능성)"
+    - "급성 사구체신염"
+    - "울혈성 심부전"
+  necessary_tests:
+    - "소변 검사 (단백뇨 정량)"
+    - "혈액 검사 (알부민, 콜레스테롤, 신기능)"
+    - "필요시 신장 조직검사"
+  necessary_treatments:
+    - "스테로이드 치료"
+    - "이뇨제를 이용한 부종 조절"
+    - "저염 및 저단백 식이"
+history:
+  sex_age: "남성/25세"
+  chief_complaint_verbatim: "2주 전부터 아침에 일어나면 눈두덩이가 퉁퉁 붓고, 오후가 되면 다리가 부어요. 소변에 거품도 많이 나오고, 살이 10kg이나 쪘어요."
+  onset: "약 2주 전"
+  location:
+    initial: "아침에 얼굴 부종"
+    current: "전신 부종"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "점점 심해짐"
+  course: "2주 전 감기를 앓고 난 후 증상이 시작됨. 처음엔 얼굴만 붓다가 점차 다리와 복부까지 부음. 체중이 10kg 증가함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "몸이 붓고 무거운 느낌"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "오래 서 있거나 앉아 있을 때"
+    alleviating: "아침에 일어나면 얼굴 부종은 있으나 다리 부종은 약간 완화됨"
+  health_check_history:
+    last_checkup: "1년 전 (정상)"
+    endoscopy_finding: "시행 안 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "2주 전 감기약 복용"
+    source: "약국"
+    effect: "감기 증상은 호전됨"
+  social_history:
+    job: "대학생"
+    stress: "시험 기간으로 스트레스 많았음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 농구"
+    recent_weight_change: "최근 2주간 10kg 증가"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 부어있는 모습. 특히 눈 주위 부종이 심함."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and clear"
+  chest: "호흡음 깨끗함"
+  abdomen:
+    inspection: "전반적으로 팽만되어 있으며, 옆구리 팽창 소견 보임."
+    auscultation: "장음 정상"
+    percussion: "이동 타진음(shifting dullness) 양성"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양쪽 정강이와 발등에 심한 함요 부종(pitting edema, +++) 관찰됨."
+standardized_patient_questions: "젊은 나이에 왜 이렇게 몸이 붓는 거죠? 콩팥에 문제라도 생긴 건가요?", "소변에 거품이 많이 나오는 거랑 관련이 있나요?"
+specific_remarks: "환자는 자신의 갑작스러운 외모 변화와 체중 증가에 대해 매우 불안해하며, 질문을 많이 한다. 자신의 증상을 자세히 설명하려고 노력한다."

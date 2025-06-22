@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (다발근육염)"
+patient_info:
+  name: "오지현"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "두 달 전부터 팔다리에 힘이 빠져 계단 오르기가 힘듦"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "85회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "다발근육염 (Polymyositis)"
+    - "피부근육염 (Dermatomyositis)"
+    - "갑상선기능저하증에 의한 근병증 (Hypothyroid myopathy)"
+  necessary_tests:
+    - "혈액검사 (CK, aldolase, 자가항체)"
+    - "근전도검사 (EMG)"
+    - "근육 조직검사 (Muscle biopsy)"
+  necessary_treatments:
+    - "고용량 스테로이드 치료"
+    - "면역억제제 추가 (필요시)"
+    - "물리 및 재활 치료"
+history:
+  sex_age: "여성/45"
+  chief_complaint_verbatim: "두 달 전부터 온몸에 힘이 없어요. 특히 팔다리에 힘이 없어서 계단 오르거나 머리 빗기가 너무 힘들어요. 근육통도 있고요."
+  onset: "2개월 전"
+  location:
+    initial: "양쪽 허벅지"
+    current: "양쪽 어깨, 팔, 허벅지, 엉덩이 (몸통에 가까운 근육)"
+  duration:
+    onset_pattern: "아급성, 점진적"
+    recent_course: "점차 악화"
+  course: "두 달 전부터 계단을 오를 때 허벅지에 힘이 부치는 것을 느낌. 점차 의자에서 일어나거나 무거운 물건을 드는 것도 힘들어짐. 최근에는 팔을 들어 머리를 빗거나 감는 동작도 어려워짐. 근육이 뻐근하게 아픈 느낌이 동반됨. 손가락이나 발가락 같은 먼 쪽 근육은 괜찮음."
+  experience_prev_episodes:
+    frequency: "처음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "근육에 힘이 빠지고 뻐근하게 아픔"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "계단 오르기, 앉았다 일어서기"
+      - "팔을 위로 드는 동작"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합 비타민"
+    source: "자가 구매"
+    effect: "별 효과 없음"
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 1-2회 수영했으나, 최근엔 힘이 들어 못 감"
+    recent_weight_change: "없음"
+  family_history: "어머니가 류마티스 관절염"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "힘이 없어 보이고 움직임이 느림. 피부 발진은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+    # 추가 진찰: 피부에 Gottron's papules, heliotrope rash 없음.
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양측 상지와 하지의 근위부 근력 대칭적 저하 (어깨 외전/굴곡, 고관절 굴곡 MRC 3/5). 원위부 근력은 정상(MRC 5/5). 근육 촉진 시 대퇴사두근과 삼각근에 약간의 압통 있음. 감각 이상 및 심부건반사 이상은 없음."
+standardized_patient_questions: "그냥 기운이 없는 건 줄 알았는데, 왜 근육에만 힘이 빠지는 거죠? 심각한 병인가요? 다시 예전처럼 운동할 수 있을까요?"
+specific_remarks: "환자는 의자에서 일어설 때 팔로 짚고 힘겹게 일어나는 모습을 보여준다(Gower's sign). 팔을 들어보라는 지시에 어깨 높이 이상으로 잘 올리지 못한다. 근육에 통증이 있다고 말하지만, 감각은 정상이라고 명확히 구분하여 대답한다. 피부에 이상이 없는지 꼼꼼히 물어본다."

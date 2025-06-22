@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (파종성 혈관내응고증)"
+patient_info:
+  name: "황급함"
+  age: 62
+  sex: "여성"
+  presenting_complaint: "3일 전부터 시작된 고열과 의식 저하, 전신에 생긴 멍"
+vital_signs:
+  blood_pressure: "85/50mmHg"
+  pulse: "130회/분"
+  respiration: "28회/분"
+  temperature: "39.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오. (환자 의식 저하로 보호자와 주로 문진 시행)"
+patient_education:
+  probable_diagnoses:
+    - "패혈증에 의한 파종성 혈관내응고증 (DIC secondary to Sepsis)"
+    - "혈전성 혈소판감소자색반증 (TTP)"
+    - "급성 백혈병"
+  necessary_tests:
+    - "전혈구 검사 (혈소판 감소), 말초혈액 도말 검사 (파쇄적혈구)"
+    - "혈액응고 검사 (PT/aPTT 연장, Fibrinogen 감소, D-dimer/FDP 증가)"
+    - "혈액 배양 검사, 감염원 확인을 위한 영상 검사 (예: 흉부 X선, 복부 CT)"
+  necessary_treatments:
+    - "기저 질환(패혈증) 치료: 항생제, 수액 공급, 승압제"
+    - "혈소판, 신선냉동혈장 등 혈액 성분 수혈"
+    - "헤파린 사용 (혈전증 우세 시 고려)"
+history:
+  sex_age: "여성/62세"
+  chief_complaint_verbatim: "(보호자) 사흘 전부터 오한이 나고 열이 펄펄 끓더니, 어제부터는 사람도 잘 못 알아보고 자꾸 헛소리를 하세요. 온몸에 시커멓게 멍이 들고 주사 맞은 데서는 피가 멎질 않아요."
+  onset: "3일 전"
+  location:
+    initial: "고열, 오한"
+    current: "의식 변화, 저혈압, 전신 출혈 경향"
+  duration:
+    onset_pattern: "매우 급성"
+    recent_course: "급격히 악화되어 응급실 내원"
+  course: "3일 전 요로감염 증상(배뇨통, 빈뇨)과 함께 고열, 오한이 시작되었다. 집에서 해열제만 먹고 버티다가 어제부터 의식이 흐려지고 혈압이 떨어져 근처 병원에 들렀다. 링거 주사를 맞은 팔에는 커다란 혈종이 생겼고, 이후 전신에 자색반이 급격히 퍼졌다. 상태 악화되어 본원 응급실로 전원됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "패혈증 쇼크 소견, 전신적인 출혈 및 혈전 경향"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "1회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "당뇨약"
+    source: "내과"
+    effect: "평소 혈당 조절 잘 안되었음"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 10년"
+physical_exam:
+  general: "급성 병색이 완연하며, 의식 상태가 기면(drowsy) 상태임. 자극에 겨우 눈을 뜸."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조하며 잇몸에서 삼출성 출혈(oozing) 관찰됨."
+  chest: "호흡이 빠르고 얕음. 청진상 수포음 들림."
+  abdomen:
+    inspection: "복부에 광범위한 반상출혈 있음"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"전반적인 압통 호소\""
+  cvat: "좌우 양성"
+  extremity: "손과 발이 차고 축축하며, 청색증을 보임. 전신에 광범위한 자색반과 반상출혈이 관찰됨. 과거 정맥주사 부위에 커다란 혈종이 있음."
+standardized_patient_questions: "(보호자) 갑자기 왜 이렇게 된 건가요? 단순한 요로감염 아니었나요? 환자가 살 수 있을까요? 지금 당장 뭘 해야 하나요?"
+specific_remarks: "환자는 위중한 상태로, 대부분의 문진은 보호자를 통해 이루어진다. 환자의 불안정한 활력 징후와 전신적인 출혈 소견을 통해 응급 상황임을 인지하는 것이 중요하다. 패혈증의 원인으로 요로감염을 시사하는 병력과 CVAT 양성 소견을 명확히 연기해야 한다."

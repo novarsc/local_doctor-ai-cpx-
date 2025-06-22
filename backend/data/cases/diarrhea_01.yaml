@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (노로바이러스 장염)"
+patient_info:
+  name: "김수진"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "구토와 물 같은 설사"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "98회/분"
+  respiration: "18회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "바이러스성 장염 (노로바이러스 감염 의심)"
+    - "세균성 장염"
+    - "식중독"
+  necessary_tests:
+    - "대변 검사 (바이러스 항원 검사 등)"
+    - "혈액 검사 (전해질 불균형 확인)"
+    - "필요시 복부 X-선 촬영"
+  necessary_treatments:
+    - "수분 및 전해질 보충 (경구 또는 정맥 주사)"
+    - "증상 조절을 위한 약물 치료 (진토제, 해열제)"
+    - "안정 및 휴식"
+history:
+  sex_age: "여/28"
+  chief_complaint_verbatim: "어제 점심 먹고 나서부터 속이 메슥거리더니 저녁부터 토하고 물 설사를 계속해요."
+  onset: "내원 1일 전 저녁"
+  location:
+    initial: "명치 부위"
+    current: "복부 전체"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "증상 지속됨"
+  course: "내원 이틀 전 친구들과 해산물 식당에서 굴을 먹었음. 내원 1일 전 점심부터 속이 더부룩하고 메슥거리기 시작했고, 저녁 무렵 갑자기 구토가 시작됨. 이후 밤새 5회 이상 구토하고, 10회 이상 물 같은 설사를 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "복부 전반의 쥐어짜는 듯한 통증 동반"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "내원 1일 전 저녁부터 5회 이상, 음식물 섭취 시 악화"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "음식물 섭취"
+      - "움직임"
+    alleviating: "가만히 누워있을 때"
+  health_check_history:
+    last_checkup: "1년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "최근 업무량 많아 스트레스 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 1회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음. 같이 굴을 먹었던 친구도 비슷한 증상이 있다고 함."
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "급성 병색, 탈수 소견 보임"
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "건조함"
+  chest: "호흡음 정상, 심음 규칙적이고 빠름"
+  abdomen:
+    inspection: "편평하고 흉터 없음"
+    auscultation: "장음 항진 (Hyperactive bowel sounds)"
+    percussion: "고창음 (Tympany)"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: true
+  cvat: "음성"
+  extremity: "피부 긴장도 감소"
+standardized_patient_questions: "이거 식중독인가요? 같이 밥 먹은 친구도 아프다는데 전염되는 병인가요? 회사에 출근해도 될까요?"
+specific_remarks: "기운이 없고 힘없이 말하며, 복통을 호소할 때 상복부를 감싸 쥔다. 탈수 증상을 실감 나게 연기한다."

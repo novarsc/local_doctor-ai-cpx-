@@ -1,0 +1,114 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "22/24"
+title: "실전 모의 증례 (섬유근통)"
+patient_info:
+  name: "김현주"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "온몸이 쑤시고 아프며, 너무 피곤하고 잠을 자도 개운하지 않음"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "섬유근통"
+    - "류마티스 다발근통 (PMR)"
+    - "만성피로증후군"
+  necessary_tests:
+    - "다른 질환을 배제하기 위한 검사가 주목적"
+    - "혈액 검사 (CBC, ESR, CRP, CK, 갑상선 기능 검사)"
+    - "류마티스 인자, 항핵항체 등 자가면역질환 검사"
+  necessary_treatments:
+    - "환자 교육 및 비약물적 치료 (운동, 인지행동치료)"
+    - "약물 치료 (저용량 항우울제, 항경련제 등)"
+    - "통증, 수면, 피로 등 다각적 증상 관리"
+history:
+  sex_age: "여성/45세"
+  chief_complaint_verbatim: "1년 넘게 온몸이 안 아픈 곳 없이 다 쑤셔요. 누가 계속 꼬집고 때리는 것 같아요. 관절도 붓는 느낌인데 병원에선 이상이 없대요. 잠을 자도 깊이 못 자고, 아침에 일어나면 온몸이 두들겨 맞은 것처럼 뻣뻣하고 너무 피곤해요."
+  onset: "약 1년 전 서서히"
+  location:
+    initial: "목, 어깨"
+    current: "목, 어깨, 등, 허리, 엉덩이, 팔다리 등 전신"
+  duration:
+    onset_pattern: "서서히 시작되어 만성적으로 지속"
+    recent_course: "좋아졌다 나빠졌다 반복하지만 전반적으로 악화"
+  course: "특별한 계기 없이 통증이 시작됨. 여러 병원에서 검사를 받았으나 '신경성', '이상 없음'이라는 말만 들음. 통증뿐 아니라 심한 피로감, 수면장애, 기억력 감퇴, 두통, 소화불량 등 여러 증상이 동반됨."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쑤시고, 타는 듯하고, 저린 복합적인 통증"
+    nrs_score: "평균 6-7"
+    radiation: "전신에 걸쳐 나타남"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스, 날씨 변화 (춥거나 습할 때)"
+      - "잠을 설쳤을 때, 과로했을 때"
+    alleviating: "온찜질, 마사지 받으면 일시적으로 나아짐"
+  health_check_history:
+    last_checkup: "3개월 전 (대학병원 류마티스내과)"
+    endoscopy_finding: "정상, 모든 혈액검사 정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "과민성 대장 증후군, 편두통"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제, 근이완제, 신경안정제 등"
+    source: "여러 의원에서 처방받음"
+    effect: "효과가 뚜렷하지 않음"
+  social_history:
+    job: "주부"
+    stress: "매우 심함 (남편 사업 문제, 자녀 입시)"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "아파서 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 이행기, 생리 불규칙"
+physical_exam:
+  general: "우울하고 지쳐 보이며, 통증에 매우 예민한 반응을 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "관절의 부종, 발적, 열감이나 변형은 전혀 관찰되지 않음. 관절 운동 범위 정상. 하지만 목뒤, 승모근, 견갑골 내측, 팔꿈치 외측, 둔부 등 여러 압통점(tender points)을 눌렀을 때 다른 부위에 비해 극심한 통증을 호소함."
+standardized_patient_questions: "온몸이 이렇게 아픈데 왜 검사에는 이상이 없다고 나오나요? 제가 꾀병 부리는 것 같아 가족들도 잘 안 믿어줘요. 이 병은 평생 이렇게 아프면서 살아야 하나요?"
+specific_remarks: "환자는 객관적인 신체 진찰 소견은 정상이지만, 주관적인 통증은 매우 심하다는 점을 명확히 전달해야 함. 피로, 수면장애, 집중력 저하(fibro-fog) 등 동반 증상을 자세히 설명한다. 자신의 고통을 남들이 이해해주지 못하는 것에 대한 좌절감과 우울감을 표현한다."

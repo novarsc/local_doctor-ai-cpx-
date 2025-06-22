@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (알코올 금단 발작)"
+patient_info:
+  name: "박철민"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "집에서 갑자기 의식을 잃고 경련"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "110회/분"
+  respiration: "22회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올 금단 발작"
+    - "전해질 불균형에 의한 경련"
+    - "외상성 뇌손상 후 발작 (음주 상태에서 넘어져 발생 가능)"
+  necessary_tests:
+    - "혈중 알코올 농도 및 전해질 포함 혈액 검사"
+    - "뇌 컴퓨터 단층촬영 (Brain CT)"
+    - "심전도 (EKG)"
+  necessary_treatments:
+    - "벤조디아제핀 투여 (금단 증상 조절)"
+    - "수액 및 티아민 공급"
+    - "알코올 중독 치료 및 재활 프로그램 연계"
+history:
+  sex_age: "남성/48"
+  chief_complaint_verbatim: "아내가 말하길 제가 갑자기 거품 물고 쓰러져서 온몸을 떨었다고 합니다. 정신을 차려보니 119 구급차 안이었어요."
+  onset: "내원 3시간 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑작스럽게"
+    recent_course: "발작은 1-2분간 지속되었고, 이후 혼란 상태를 보였다고 함"
+  course: "아내의 말에 따르면, 소파에 앉아 TV를 보던 중 갑자기 쓰러져 전신을 뻣뻣하게 하고 떨었다고 함. 발작 전후로 특별한 전조 증상은 없었다고 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "최근 건강 문제로 술을 끊으려 노력 중이었음"
+    symptoms: ""
+  character_of_symptom:
+    quality: "의식 소실 동반 전신 발작"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "어제 한 차례 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "금주"
+      - "불안감"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 전, 지방간 소견"
+    endoscopy_finding: "5년 전, 위염"
+  trauma_history: "최근 머리를 다친 적은 없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 지방간"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "고혈압약 (amlodipine)"
+    source: "내과 의원"
+    effect: "혈압 조절 잘 안됨"
+  social_history:
+    job: "자영업 (식당 운영)"
+    stress: "최근 가게 운영이 어려워 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1-2병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 6개월간 5kg 감소"
+  family_history: "아버지가 간경화로 돌아가심"
+  female_history: ""
+physical_exam:
+  general: "의식 명료하나 불안정해 보이고 식은땀을 흘리고 있음. 손을 약간 떨고 있음(fine tremor)."
+  heent:
+    sclera: "경미한 황달 관찰됨 (icteric sclera)."
+    oral_mucosa: "구강 점막 건조함."
+  chest: "호흡음 정상, 심박수 빠름 (tachycardia)."
+  abdomen:
+    inspection: "복부 팽만"
+    auscultation: "장음 약간 항진."
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # 간이 약간 촉진됨 (hepatomegaly)
+  cvat: "좌우 음성"
+  extremity: "사지 위약감 없음. 양손에 미세한 떨림 관찰됨."
+standardized_patient_questions: "제가 술 때문에 이런 건가요? 술만 끊으면 괜찮아지는 거죠? 앞으로 어떻게 해야 하나요?"
+specific_remarks: "환자는 자신의 음주 문제를 인정하지만, 경련의 원인이 술이라는 사실에 대해서는 회피적인 태도를 보일 수 있다. 불안, 초조함을 보이며 계속 손을 떠는 모습을 연기한다."

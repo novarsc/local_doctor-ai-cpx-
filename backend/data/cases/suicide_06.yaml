@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (알코올 사용장애)"
+patient_info:
+  name: "김철수"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "술 때문에 다 잃고 나니 죽고 싶습니다"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올 사용장애, 심각한 단계 (Alcohol Use Disorder, Severe)"
+    - "알코올 유발성 우울장애 (Alcohol-induced Depressive Disorder)"
+    - "간경변 등 알코올 관련 신체 질환"
+  necessary_tests:
+    - "혈액검사 (간기능검사 AST/ALT, GGT, MCV 포함)"
+    - "복부 초음파"
+    - "알코올 사용장애 선별검사 (AUDIT-K) 및 금단증상 평가 (CIWA-Ar)"
+  necessary_treatments:
+    - "해독 치료를 위한 입원 (필요시 벤조디아제핀 사용)"
+    - "단주 유지를 위한 약물치료 (Naltrexone, Acamprosate 등)"
+    - "익명의 알코올중독자들(AA) 모임 등 자조집단 연계 및 동기강화치료"
+history:
+  sex_age: "남성/52세"
+  chief_complaint_verbatim: "매일 술을 마시지 않으면 손이 떨리고 잠을 잘 수가 없어요. 술 때문에 직장도 잃고, 아내와 자식들도 다 떠났습니다. 이렇게 사느니 죽는 게 낫겠습니다."
+  onset: "음주는 20대부터, 문제 음주는 10년 전부터, 자살 생각은 1개월 전부터"
+  location:
+    initial: "전반적인 삶의 문제"
+    current: "전반적인 삶의 문제"
+  duration:
+    onset_pattern: "만성적"
+    recent_course: "최근 직장 해고 및 가족과의 불화 후 절망감 심화"
+  course: "수십 년간 음주를 해왔고, 10년 전부터는 음주량이 늘어 조절이 안 되기 시작했다. 술을 끊으려 여러 번 시도했으나 실패했고, 술을 마시지 않으면 손떨림, 식은땀, 불안 등의 금단증상이 나타났다. 음주 문제로 직장에서 해고당하고, 아내와도 별거에 들어가자 극심한 상실감과 우울감에 빠졌다. 며칠 전 '수면제를 모아 술과 함께 먹고 죽겠다'는 구체적인 계획을 세웠다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "절망감, 무력감, 신체적 금단 증상"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "아침에 구역질을 자주 함"
+      constipation: false
+      diarrhea: true
+      heartburn: true
+      urine_color_change: true
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "술이 깼을 때"
+      - "가족을 생각할 때"
+    alleviating: "술을 마실 때"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 지방간"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "개인 의원"
+    effect: "불규칙적으로 복용"
+  social_history:
+    job: "실직"
+    stress: "극심함"
+    alcohol:
+      is_drinker: true
+      frequency: "매일"
+      amount: "소주 3-4병"
+    smoking:
+      is_smoker: true
+      amount: "2갑/일"
+      cessation_period: ""
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "최근 1년간 10kg 감소"
+  family_history: "아버지가 알코올 중독으로 간질환을 앓았음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 초췌하고 지쳐 보임. 면담 중 손을 약간 떨고 있음(fine tremor). 술 냄새가 남."
+  heent:
+    sclera: "Icteric"
+    oral_mucosa: "Dry"
+  chest: "Clear breath sounds, tachycardia"
+  abdomen:
+    inspection: "Slightly distended"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic, shifting dullness 의심"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # Hepatomegaly 촉진됨
+  cvat: "좌/우 음성"
+  extremity: "Palmar erythema, spider anigoma 2-3개 관찰됨. Pitting edema 없음."
+standardized_patient_questions: "선생님, 저 좀 살려주세요. 술 끊을 수 있을까요? 이 손떨림은 어떻게 해야 멈추나요? 죽는 것 말고는 정말 방법이 없는 걸까요?"
+specific_remarks: "자신의 알코올 문제를 인정하고 도움을 구하는 절박한 태도를 보임. 신체적 증상(손떨림, 메스꺼움, 복부 불편감)을 구체적으로 호소함. 자살 계획에 대해 물으면 구체적으로 대답함."

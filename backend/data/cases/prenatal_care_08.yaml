@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (임신성 담즙 정체증)"
+patient_info:
+  name: "윤채아"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "밤에 심해지는 전신 소양감"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "임신성 담즙 정체증 (Intrahepatic Cholestasis of Pregnancy, ICP)"
+    - "임신성 소양성 팽진 (PUPPP)"
+    - "알레르기성 피부염"
+  necessary_tests:
+    - "담즙산(Bile acid) 검사"
+    - "간기능 검사 (AST/ALT, Bilirubin)"
+    - "태아 안녕 평가 (NST, BPP)"
+  necessary_treatments:
+    - "우르소데옥시콜산(UDCA) 복용"
+    - "증상 완화를 위한 항히스타민제 또는 국소 보습제"
+    - "정기적인 태아 감시 및 37-38주경 유도분만 고려"
+history:
+  sex_age: "여성/31세"
+  chief_complaint_verbatim: "임신 33주인데, 일주일 전부터 온몸이 너무 가려워요. 특히 밤에 손바닥, 발바닥이 미칠 듯이 가려워서 잠을 잘 수가 없어요."
+  onset: "약 1주일 전"
+  location:
+    initial: "손바닥, 발바닥"
+    current: "전신으로 퍼졌으나, 손바닥과 발바닥이 가장 심함"
+  duration:
+    onset_pattern: "점진적으로 시작하여 악화"
+    recent_course: "밤에 특히 악화됨"
+  course: "처음에는 피부가 건조해서 그런 줄 알고 보습제를 발랐으나 효과가 없었다. 점점 가려움증이 심해져 온몸을 긁어 상처가 날 정도가 되었고, 특히 밤에 잠을 설치게 되어 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "피부 발진 없이 심한 소양감. 특히 손바닥, 발바닥이 타는 듯이 가려움"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true # 수면 부족으로 인해
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true # 소변 색이 약간 진해진 것 같음
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밤 시간"
+      - "따뜻한 환경 (샤워 후, 이불 속)"
+    alleviating: "찬물 찜질 시 잠시 완화"
+  health_check_history:
+    last_checkup: "3주 전 산전 진찰"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "-"
+    effect: "-"
+  social_history:
+    job: "주부"
+    stress: "가려움증으로 인한 스트레스 심함"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "가벼운 요가"
+    recent_weight_change: "임신 후 10kg 증가"
+  family_history: "어머니가 임신 중 가려움증이 심했다고 들었음"
+  female_history: "G1P0, LMP: 약 8개월 전, EDC: 7주 후, 임신 33주"
+physical_exam:
+  general: "피로해 보이고, 가려움으로 인해 불안해 보임."
+  heent:
+    sclera: "anicteric (or mildly icteric)"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심잡음 없음."
+  abdomen:
+    inspection: "임신 33주에 합당한 크기. 복부에 긁은 자국(excoriation) 다수 관찰됨. 뚜렷한 발진은 없음."
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "팔과 다리, 특히 손바닥과 발바닥에 긁은 자국이 심하게 관찰됨. 1차적인 피부 병변(발진, 두드러기 등)은 보이지 않음."
+standardized_patient_questions: "왜 이렇게 가려운 건가요? 피부과에 가야 하나요? 아기한테 해롭지는 않은지 너무 걱정돼요. 잠을 못 자서 너무 힘들어요."
+specific_remarks: "환자는 문진 중에도 몸을 긁는 시늉을 한다. 특히 '손바닥과 발바닥'이 가렵다는 점을 여러 번 강조한다. 발진은 없는데 가렵다는 점을 명확히 설명해야 한다. 가려움으로 인한 수면 부족과 피로감을 호소한다."

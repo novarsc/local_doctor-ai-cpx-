@@ -1,0 +1,108 @@
+---
+chapter: "상담"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (근위축성측삭경화증, ALS)"
+patient_info:
+  name: "이수진"
+  age: 48
+  sex: "여성"
+  presenting_complaint: "근력 약화에 대한 검사 결과 문의"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "환자는 6개월 전부터 시작된 오른손의 위약감과 근육 떨림으로 여러 병원을 전전하다, 본원에서 시행한 근전도 검사(EMG) 및 신경전도 검사(NCS) 결과를 듣기 위해 내원했습니다. 첨부된 검사 결과지(상위 및 하위 운동신경세포 손상을 시사하는 광범위한 탈신경 소견)를 바탕으로, 환자에게 진단명을 알리고 향후 관리 계획에 대해 논의하십시오."
+patient_education:
+  probable_diagnoses:
+    - "근위축성측삭경화증 (루게릭병)"
+    - "다초점성 운동신경병증 (Multifocal motor neuropathy)"
+    - "경추척수증 (Cervical myelopathy)"
+  necessary_tests:
+    - "뇌 및 경추 MRI (다른 원인 배제 목적)"
+    - "폐기능 검사 (호흡근 침범 평가)"
+    - "유전자 검사 (가족성 ALS 감별)"
+  necessary_treatments:
+    - "릴루졸(Riluzole) 투여를 통한 질병 진행 속도 완화"
+    - "물리치료 및 작업치료를 통한 근력 및 기능 유지"
+    - "호흡 재활 및 영양 관리에 대한 다학제적 접근"
+history:
+  sex_age: "여성/48세"
+  chief_complaint_verbatim: "팔다리에 힘이 빠지는 것 때문에 검사했는데, 결과가 어떻게 나왔나요, 선생님?"
+  onset: "6개월 전"
+  location:
+    initial: "오른쪽 손"
+    current: "오른팔 전체와 왼쪽 다리"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 다른 부위로 퍼져나감"
+  course: "6개월 전부터 오른쪽 손으로 글씨를 쓰거나 물건을 잡기 힘들어졌습니다. 이후 팔 전체로 힘이 빠지고, 최근에는 왼쪽 다리도 약간 끌게 되었습니다. 팔 근육이 꿈틀거리는 것이 보이기도 합니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "힘이 빠지는 느낌, 근육이 멋대로 떨림"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 걷거나 물건을 들 때"
+      - "피곤할 때"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "페니실린 알러지 (두드러기)"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "피아노 강사"
+    stress: "최근 증상으로 인해 많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이 가족력 없음"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "불안한 기색이 역력함. 발음이 약간 어눌하게 들림(dysarthria)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상. 혀의 근섬유다발수축(fasciculation) 관찰됨."
+  chest: "호흡음 정상"
+  abdomen: "정상"
+  cvat: "양측 음성"
+  extremity: "오른팔과 손의 현저한 근위축. 양팔과 다리에서 근섬유다발수축 관찰됨. 심부건반사 항진(hyperreflexia), 바빈스키 징후 양성(Babinski sign positive)."
+standardized_patient_questions: "그게... 혹시 루게릭병인가요? 인터넷에서 찾아봤는데... 그럼 저는 이제 곧 전신이 마비되는 건가요? 아이들이 아직 어린데 어떡하죠?"
+specific_remarks: "자신의 병에 대해 어느 정도 짐작하고 있어 매우 불안해한다. 진단명을 듣고 체념한 듯 눈물을 흘린다. 자신의 미래보다 남겨질 가족에 대한 걱정을 반복적으로 표현하며, 치료가 불가능한지에 대해 집요하게 묻는다."

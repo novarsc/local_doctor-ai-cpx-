@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (손목굴 증후군)"
+patient_info:
+  name: "박은영"
+  age: 52
+  sex: "여성"
+  presenting_complaint: "밤마다 양쪽 손이 저려서 잠을 깸"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "손목굴 증후군 (Carpal tunnel syndrome)"
+    - "경추 신경병증 (Cervical radiculopathy)"
+    - "다발성 신경병증 (Polyneuropathy)"
+  necessary_tests:
+    - "신경전도검사/근전도검사 (NCS/EMG)"
+    - "손목 초음파"
+    - "경추 X-ray"
+  necessary_treatments:
+    - "손목 부목 고정"
+    - "약물 치료 (소염진통제)"
+    - "손목 스테로이드 주사 또는 수술"
+history:
+  sex_age: "여성/52"
+  chief_complaint_verbatim: "몇 달 전부터 밤에 자다가 양쪽 손이 너무 저리고 아파서 깨요. 손을 막 털면 좀 나아져요. 엄지손가락 쪽에 감각도 둔해진 것 같아요."
+  onset: "6개월 전"
+  location:
+    initial: "오른쪽 손"
+    current: "양쪽 손 (특히 엄지, 검지, 중지)"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점차 악화, 최근에는 낮에도 저림"
+  course: "6개월 전 오른쪽 손가락 끝이 저리기 시작함. 3개월 전부터는 양쪽 손 모두 저리고, 특히 밤에 심해져서 잠에서 깰 정도가 됨. 최근에는 설거지를 하거나 전화기를 오래 들고 있으면 증상이 나타나고, 엄지손가락 쪽 살이 빠진 것 같음."
+  experience_prev_episodes:
+    frequency: "거의 매일 밤"
+    trigger: "수면 중, 손목을 구부리는 자세"
+    symptoms: "손 저림, 통증, 감각 저하"
+  character_of_symptom:
+    quality: "타는 듯하고 찌릿한 통증, 저린 느낌"
+    nrs_score: "6"
+    radiation: "때때로 팔꿈치까지 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "손목을 많이 사용하는 활동 (걸레 짜기, 운전)"
+      - "밤에 잘 때"
+    alleviating: "손을 털거나 주무르기"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "식당 주방일"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "따로 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "1년 전 폐경"
+physical_exam:
+  general: "만성적인 수면 부족으로 다소 피곤해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상, 잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양쪽 손의 엄지, 검지, 중지 및 약지 절반 부위의 가벼운 감각 저하. 양측 Phalen 검사 및 Tinel 징후 양성. 양측 무지구근(thenar eminence)의 경미한 위축 관찰됨. 엄지손가락 외전 근력 약간 저하(MRC 4+/5)."
+standardized_patient_questions: "이게 혈액순환이 안돼서 그런 건가요? 나이가 들어서 그런 건가요? 간단하게 치료할 수 있는 방법은 없나요?"
+specific_remarks: "환자는 무의식적으로 손목을 주무르거나 터는 행동을 보인다. Phalen 검사(손목을 90도 구부려 맞대기)를 30초 정도 시행하면 손 저림이 재현된다고 명확히 말한다. 엄지손가락 쪽 살이 빠진 것 같다고 걱정하며 보여준다."

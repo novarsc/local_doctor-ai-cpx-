@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (위축성 질염에 의한 배뇨증상)"
+patient_info:
+  name: "윤혜경"
+  age: 61
+  sex: "여성"
+  presenting_complaint: "소변이 자주 마렵고 샐 것 같은 느낌"
+vital_signs:
+  blood_pressure: "128/78mmHg"
+  pulse: "74회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐경 후 비뇨생식기 증후군 (GSM) / 위축성 질염"
+    - "절박성 요실금"
+    - "요로감염"
+  necessary_tests:
+    - "골반 내진 및 질 분비물 검사"
+    - "질 pH 검사"
+    - "요검사"
+  necessary_treatments:
+    - "질 보습제 및 윤활제 사용"
+    - "국소 에스트로겐 요법 (질정, 크림)"
+    - "생활 습관 개선"
+history:
+  sex_age: "여성/61세"
+  chief_complaint_verbatim: "소변이 자꾸 마렵고 따끔거려요. 가끔은 급해서 지릴 것 같고, 부부관계도 힘들어요."
+  onset: "약 2년 전부터 서서히"
+  location:
+    initial: "질, 요도 부위"
+    current: "질, 요도 부위"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점차 악화"
+  course: "폐경 후 질이 건조해지는 느낌이 있었는데, 2년 전부터는 소변볼 때 화끈거리는 느낌과 함께 소변을 참기 힘들어졌다. 방광염인가 싶어 병원에 갔지만 괜찮다고 했다. 최근에는 성관계 시 통증이 너무 심해 피하게 된다."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "소변 본 후, 성관계 시"
+    symptoms: "배뇨 시 작열감, 절박뇨, 질 건조감, 성교통"
+  character_of_symptom:
+    quality: "소변이 급하고, 질과 요도 주변이 건조하고 타는 듯한 느낌"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "성관계"
+      - "소변 참을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전, 국가건강검진 특이사항 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "건강기능식품(여성 갱년기 영양제) 복용 중"
+    source: "자가 구매"
+    effect: "잘 모르겠음"
+  social_history:
+    job: "주부"
+    stress: "남편과의 관계 문제로 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 수영"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "G2-P2-A0-L2, 51세 완경"
+physical_exam:
+  general: "건강해 보이나, 민감한 주제에 대해 이야기할 때 위축된 모습"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no pitting edema"
+  # Pelvic exam: 외음부 및 질 점막의 위축, 창백함, 발적, 질 내 주름 소실 소견을 암시
+standardized_patient_questions: "계속 방광염처럼 아픈데 왜 검사하면 괜찮다고 하죠? 나이가 들면 다 이렇게 되나요? 부부관계를 다시 할 수는 있을까요?"
+specific_remarks: "환자는 배뇨 증상과 함께 성교통, 질 건조감 등 폐경과 관련된 증상을 함께 호소한다. 이러한 증상이 자신의 여성성을 잃어가는 과정이라 생각하여 우울해한다. '요실금'이라는 직접적인 표현보다는 '샐 것 같다'고 에둘러 말한다."

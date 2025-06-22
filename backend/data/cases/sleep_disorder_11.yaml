@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (수면보행증, 성인)"
+patient_info:
+  name: "강태우"
+  age: 29
+  sex: "남성"
+  presenting_complaint: "자다가 일어나서 돌아다님"
+vital_signs:
+  blood_pressure: "122/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "수면보행증 (Somnambulism, Sleepwalking)"
+    - "렘수면 행동장애"
+    - "야간 경련 (Nocturnal seizure)"
+  necessary_tests:
+    - "비디오-수면다원검사 (Video-Polysomnography)"
+    - "뇌파 검사 (EEG)"
+    - "스트레스 및 수면 박탈 요인 평가"
+  necessary_treatments:
+    - "수면 위생 교육 및 수면 박탈 회피"
+    - "안전한 수면 환경 조성 (문과 창문 잠그기, 장애물 제거)"
+    - "증상이 심하거나 위험할 경우 약물 치료 (클로나제팜) 고려"
+history:
+  sex_age: "남성/29"
+  chief_complaint_verbatim: "결혼하고 나서 알았는데, 제가 자다가 일어나서 집안을 돌아다닌대요. 심지어 현관문까지 열고 나가려고 한 적도 있어서 아내가 기겁을 하고 저를 데리고 왔어요."
+  onset: "정확히는 모르나, 어릴 때도 가끔 있었다고 함"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "간헐적"
+    recent_course: "최근 잦은 야근과 스트레스로 한 달에 2-3번 발생"
+  course: "어릴 때 몽유병 증세가 가끔 있었으나 크면서 없어진 줄 알았음. 최근 결혼 후 같이 사는 아내가 발견함. 주로 잠든 지 1-2시간 후에 일어나서 멍한 표정으로 집안을 돌아다니거나, 냉장고 문을 열거나, 옷을 입으려고 하는 등의 행동을 함. 말을 걸어도 대답이 없거나 횡설수설하고, 다시 침대로 데려가 눕히면 바로 잠. 아침에는 전혀 기억을 못 함."
+  experience_prev_episodes:
+    frequency: "어린 시절"
+    trigger: "피곤할 때"
+    symptoms: "비슷했음"
+  character_of_symptom:
+    quality: "깊은 잠(NREM) 중에 발생, 복잡한 행동 수행, 사건에 대한 기억상실"
+    nrs_score: "해당 없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "극심한 피로, 수면 부족"
+      - "스트레스"
+      - "음주"
+    alleviating: "충분한 수면을 취했을 때"
+  health_check_history:
+    last_checkup: "3년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "건축 설계사"
+    stress: "프로젝트 마감 기한으로 스트레스 매우 높음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일 (5갑년)"
+      cessation_period: "해당 없음"
+    exercise: "거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 어릴 때 몽유병이 있었다고 함"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강해 보이나 만성 피로감이 있는 모습"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "제가 왜 이러는 거죠? 위험한 행동을 할 수도 있나요? 치료가 가능한가요?"
+specific_remarks: "환자는 본인의 증상에 대해 잘 모르고, 주로 '아내에게 들었다'는 식으로 이야기한다. 렘수면 행동장애와 감별을 위해, '꿈 내용을 행동으로 옮기는 것 같은지' 묻는 질문에 '그런 건 아닌 것 같다'고 답하고, '주로 잠들고 초반에 그런다'고 답한다. 자신의 행동으로 인해 아내가 불안해하는 것을 걱정한다."

@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (소뇌 뇌경색, Cerebellar Infarction)"
+patient_info:
+  name: "오진석"
+  age: 62
+  sex: "남성"
+  presenting_complaint: "갑자기 너무 어지럽고 걸을 수가 없어요."
+vital_signs:
+  blood_pressure: "170/100mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "소뇌 뇌경색"
+    - "전정신경염"
+    - "소뇌 출혈"
+  necessary_tests:
+    - "뇌 MRI (특히 확산강조영상 DWI)"
+    - "혈액 검사 (혈당, 전해질, 응고기능 포함)"
+    - "심전도"
+  necessary_treatments:
+    - "즉각적인 뇌졸중 집중치료실 입원"
+    - "필요시 혈전용해술 (tPA) 또는 혈전제거술 고려"
+    - "항혈소판제 투여"
+    - "뇌압 조절 및 활력징후 모니터링"
+history:
+  sex_age: "남성/62세"
+  chief_complaint_verbatim: "오늘 아침 화장실에 가려고 일어났는데 갑자기 세상이 미친 듯이 돌고, 제대로 서 있을 수가 없어서 그대로 주저앉았어요."
+  onset: "3시간 전"
+  location:
+    initial: "머릿속"
+    current: "지속됨"
+  duration:
+    onset_pattern: "매우 갑작스럽게 (thunderclap onset)"
+    recent_course: "전혀 호전 없이 지속됨"
+  course: "발생 직후부터 지금까지 계속 어지럽고, 구토를 여러 번 했으며, 부축을 받아도 자꾸 한쪽으로 쓰러지려고 합니다. 말도 약간 어눌해진 것 같습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "극심한 회전성 어지럼"
+    nrs_score: "10"
+    radiation: "뒤통수 쪽으로 두통이 동반됨"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "3회, 분출성으로"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "모든 움직임"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨가 있는 것 같다고 들었으나 병원에 다니지 않음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "택시 운전사"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1병 이상"
+    smoking:
+      is_smoker: true
+      amount: "하루 1.5갑"
+      cessation_period: ""
+    exercise: "전혀 안함"
+    recent_weight_change: "최근 10kg 증가"
+  family_history: "모름"
+  female_history: ""
+physical_exam:
+  general: "매우 힘들어 보이며, 침대에 누워서도 눈을 제대로 뜨지 못함. 말이 약간 어눌함 (dysarthria)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "근력은 대칭적으로 유지되나, 좌측 손가락-코 검사 시 목표물을 지나침 (dysmetria)."
+standardized_patient_questions: "나 왜 이러는 거요? 그냥 어지러운 게 아닌 것 같은데... 죽는 거 아니죠?"
+specific_remarks: "환자는 극심한 어지럼을 호소하며, 단순한 전정신경염과 달리 여러 신경학적 이상을 함께 보여야 한다. 1) 자발 안진이 주시 방향에 따라 방향이 바뀌는 양상(gaze-evoked nystagmus)을 보이거나, 2) 몸통 조화운동불능(truncal ataxia)으로 인해 앉아있지도 못하고 자꾸 한쪽으로 쓰러지려 한다. 3) 손가락-코 검사나 발꿈치-정강이 검사에서 명백한 겨냥이상을 보여준다. 이는 중추성 원인을 강력히 시사하는 소견이므로 명확히 연기해야 한다."

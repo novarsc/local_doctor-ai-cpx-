@@ -71,7 +71,7 @@ const getFeedback = asyncHandler(async (req, res) => {
 // --- 이 함수를 새로 추가합니다 ---
 const getChatHistory = asyncHandler(async (req, res) => {
   const { sessionId } = req.params;
-  const chatHistory = await practiceSessionService.getChatHistory(sessionId, req.user.userId);
+  const chatHistory = await practiceSessionService.getSessionChatHistory(sessionId, req.user.userId);
   res.status(200).json(chatHistory);
 });
 // --- 여기까지 ---

@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (공황장애)"
+patient_info:
+  name: "정다은"
+  age: 29
+  sex: "여성"
+  presenting_complaint: "갑자기 숨이 막히고 심장이 터질 것 같아요"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "110회/분 (규칙적)"
+  respiration: "24회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "공황장애"
+    - "발작성 상심실성 빈맥 (PSVT)"
+    - "관상동맥질환 (불안정 협심증 등)에 대한 감별 필요"
+  necessary_tests:
+    - "심전도 (EKG)"
+    - "혈액 검사 (CBC, 심근효소수치, 갑상선 기능)"
+    - "필요시 24시간 활동 심전도 검사 (Holter monitoring)"
+  necessary_treatments:
+    - "정신건강의학과적 평가 및 상담"
+    - "선택적 세로토닌 재흡수 억제제 (SSRI) 등 약물치료"
+    - "인지행동치료"
+history:
+  sex_age: "여/29"
+  chief_complaint_verbatim: "갑자기 숨이 안 쉬어지고 심장이 터질 것 같이 뛰면서 이대로 죽을 것 같은 공포감이 들어요."
+  onset: "한 달 전 처음 경험, 오늘은 지하철에서 내린 직후 발생"
+  location:
+    initial: "가슴, 목"
+    current: "가슴, 목"
+  duration:
+    onset_pattern: "예측 불가능하게 갑자기 시작되어 10분 내 최고조에 달함"
+    recent_course: "증상은 20-30분 정도 지속되다가 서서히 사라짐"
+  course: "한 달 동안 3번 경험. 또 그럴까 봐 불안해서 사람이 많은 곳에 가기 두려움"
+  experience_prev_episodes:
+    frequency: "한 달간 3번"
+    trigger: "첫 번째는 운전 중, 두 번째는 마트에서. 특별한 이유를 모르겠음."
+    symptoms: "오늘과 똑같이 심장이 뛰고, 숨 막히고, 손발이 저리고, 어지러웠음"
+  character_of_symptom:
+    quality: "심장이 통제 불능으로 마구 뛰고, 가슴이 답답하고 조여오는 느낌"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밀폐된 공간 (지하철, 차 안)"
+      - "사람이 많은 곳"
+    alleviating: "시간이 지나면 저절로 나아짐. 밖으로 나와 신선한 공기를 쐬면 좀 나아지는 기분."
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "증상이 있을 때 우황청심원을 먹어봤음"
+    source: "약국 구매"
+    effect: "별 효과 없었음"
+  social_history:
+    job: "회사원 (마케팅)"
+    stress: "업무 실적 압박이 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이 가족력 없음"
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "매우 불안해하며, 과호흡 양상을 보임. 식은땀을 흘리고 있음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "dry"
+  chest: "호흡음은 깨끗하나, 호흡이 얕고 빠름. 심음은 빠르나 규칙적."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "사지 냉감. 손끝이 저리다고 호소함. 부종 없음."
+standardized_patient_questions: "제가 심장병인가요? 응급실에 갔었는데 검사 다 괜찮다고만 하고... 그럼 전 왜 이런 거죠? 또 이럴까봐 너무 무서워요."
+specific_remarks: "환자는 금방이라도 울음을 터뜨릴 것 같은 표정으로 극심한 불안감을 표현한다. 말을 하면서도 계속 숨을 몰아쉬고, '죽을 것 같다'는 표현을 반복한다. 진찰 중에도 손발이 저리다며 주무르는 모습을 보인다."

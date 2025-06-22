@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (만성 납중독)"
+patient_info:
+  name: "장성국"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "이유를 알 수 없는 복통과 변비, 전신 쇠약감"
+vital_signs:
+  blood_pressure: "160/95mmHg"
+  pulse: "68회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 납중독 (Chronic lead poisoning)"
+    - "과민성 대장 증후군 (변비형)"
+    - "대장암 (변비 유발)"
+  necessary_tests:
+    - "혈중 납 농도 측정 (가장 중요)"
+    - "전혈구 검사 (정구성 저색소성 빈혈, 호염기성 반점 적혈구 확인)"
+    - "신경전도 검사 (말초신경병증 확인)"
+  necessary_treatments:
+    - "납 노출 환경으로부터의 회피"
+    - "킬레이션 요법 (Chelation therapy, 증상이 심하거나 혈중 농도가 매우 높을 시)"
+    - "대증 치료 (복통, 변비, 고혈압 조절)"
+history:
+  sex_age: "남성/58"
+  chief_complaint_verbatim: "몇 달째 배가 계속 아프고 변을 보기가 너무 힘들어요. 온몸에 힘도 없고, 머리도 띵하고, 손발 힘도 빠지는 것 같아요."
+  onset: "약 6개월 전부터 서서히"
+  location:
+    initial: "배 전체"
+    current: "배 전체가 산발적으로"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 들어 통증이 더 심해지고, 기운이 더 없어짐"
+  course: "간헐적으로 발생하는 극심한 복통(lead colic)과 만성적인 불편감이 동반됨"
+  experience_prev_episodes:
+    frequency: "주 2-3회 극심한 통증"
+    trigger: "특별히 없음"
+    symptoms: "현재와 유사한 복통, 변비"
+  character_of_symptom:
+    quality: "매우 심하게 뒤틀리는 듯한 통증"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별한 요인 없음"
+    alleviating: "진통제를 먹어도 별로 듣지 않음"
+  health_check_history:
+    last_checkup: "수년 전"
+    endoscopy_finding: "1년 전 대장내시경에서 특이소견 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (최근 진단받고 약 복용 시작)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+      - "최근 한의원에서 지어준 한약 복용 중 (몸보신 목적)"
+    source: "내과, 한의원"
+    effect: "증상 호전 없음"
+  social_history:
+    job: "30년간 배터리 재활용 공장에서 일하다 2년 전 은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "10년 전 금연"
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 쳐져 있고, 안색이 좋지 않음(sallow complexion)"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "a bluish line on the gums near the teeth (Burton's line) is visible"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat, symmetric"
+    auscultation: "decreased bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      diffuse_abdominal_tenderness: "통증 호소에 비해 압통은 심하지 않음"
+  cvat: "좌/우 음성"
+  extremity: "motor weakness in wrist extensors (wrist drop)"
+standardized_patient_questions: "대장내시경도 괜찮다는데 왜 이렇게 배가 아프고 변을 못 보나요? 최근에 먹은 한약이 문제일까요? 왜 손목에 힘이 빠지죠?"
+specific_remarks: "환자는 설명하기 어려운 모호한 전신 증상(복통, 변비, 피로, 두통, 관절통)을 호소한다. 가장 중요한 단서는 직업력(배터리 공장)과 최근 복용한 출처 불명의 한약이다. 신체 진찰에서 잇몸의 푸른 선(Burton's line)과 손목 하수(wrist drop)가 납중독을 강력히 시사하는 소견이므로, 학생이 이를 확인하는지 관찰하는 것이 중요하다."

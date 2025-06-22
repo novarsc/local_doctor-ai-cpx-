@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "22"
+title: "실전 모의 증례 (뇌농양, Brain Abscess)"
+patient_info:
+  name: "조민준"
+  age: 38
+  sex: "남성"
+  presenting_complaint: "두통이 심해지면서 의식이 흐려짐"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "38.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "뇌농양"
+    - "뇌종양 (교모세포종 등)"
+    - "단순포진 바이러스 뇌염"
+  necessary_tests:
+    - "조영 증강 뇌 MRI"
+    - "혈액 검사 (CBC, CRP, 혈액 배양)"
+    - "정위적 뇌생검술 (Stereotactic brain biopsy)"
+  necessary_treatments:
+    - "경험적 항생제 정맥 주사 (장기간)"
+    - "수술적 배농술 또는 흡인술"
+    - "뇌압 관리 및 항경련제 투여"
+history:
+  sex_age: "남성/38세"
+  chief_complaint_verbatim: "남편이 2주 전부터 머리가 계속 아프다고 하더니, 어제부터는 자꾸 엉뚱한 소리를 하고 오늘은 잠만 자려고 해요."
+  onset: "약 2주 전"
+  location:
+    initial: "우측 머리"
+    current: "머리 전체"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 2-3일간 급격히 악화"
+  course: "2주 전부터 우측 머리가 욱신거리는 두통 시작. 진통제를 먹으면 잠시 나아졌다가 다시 아파짐. 1주 전부터는 좌측 팔다리에 힘이 빠지는 느낌이 든다고 함. 어제부터는 날짜나 요일을 헷갈려하고, 성격이 예민해짐. 오늘 아침에는 의식이 기면 상태로, 불러야 겨우 눈을 뜨는 상태가 되어 내원."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "점진적으로 심해지는 두통, 의식 저하, 편측 위약감"
+    nrs_score: 8
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "아침에 심함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침에 일어났을 때"
+      - "기침하거나 힘을 줄 때"
+    alleviating: "진통제 (일시적)"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "만성 부비동염 (Chronic sinusitis), 1개월 전 치과 발치"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Ibuprofen"
+    source: "약국"
+    effect: "일시적 효과"
+  social_history:
+    job: "자영업"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "거의 안함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "의식은 기면 상태. 반응이 느리고 지남력 저하됨. 대화 시 단어 찾기 어려워하는 모습(anomic aphasia) 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 안저 검사 시 우측 유두부종(papilledema) 관찰됨.
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "좌측 상하지 근력 저하 (Grade 4/5). 좌측 Babinski's sign 양성."
+standardized_patient_questions: "남편이 왜 이러는 거죠? 뇌에 혹이라도 생긴 건가요? 치과 치료 받은 거랑 관련이 있을 수도 있나요?"
+specific_remarks: "환자는 두통, 발열, 국소 신경학적 결손이라는 뇌농양의 전형적인 3대 증상을 보인다. 점진적인 의식 저하와 함께 좌측 편마비가 나타나는 것을 연기한다. 보호자인 부인이 최근 치과 치료력이나 부비동염 병력을 이야기하는 것이 중요한 단서이다."

@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (불안정 협심증)"
+patient_info:
+  name: "이강혁"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "가슴이 조이면서 불안해요."
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "불안정 협심증 (Unstable Angina)"
+    - "급성 심근경색 (NSTEMI)"
+    - "소화기 질환 (역류성 식도염 등)"
+  necessary_tests:
+    - "즉각적인 심전도(EKG) 및 추적 검사"
+    - "심장 효소 검사 (CK-MB, Troponin) 연속 측정"
+    - "응급 관상동맥 조영술 고려"
+  necessary_treatments:
+    - "입원 및 집중 감시"
+    - "항혈소판제, 항응고제, 베타차단제, 나이트레이트 등 약물 치료"
+    - "필요시 경피적 관상동맥 중재술(PCI) 또는 관상동맥 우회로술(CABG)"
+history:
+  sex_age: "남성/58"
+  chief_complaint_verbatim: "일주일 전부터 조금만 걸어도 가슴이 뻐근하게 조여오고 숨이 차요. 쉬면 괜찮아지긴 하는데, 어제부터는 가만히 앉아있는데도 가슴이 아프고 불안해서 왔어요."
+  onset: "일주일 전 시작, 내원 1일 전 악화"
+  location:
+    initial: "가슴 중앙 (retrosternal)"
+    current: "가슴 중앙"
+  duration:
+    onset_pattern: "초기에는 운동 시 발생 (stable), 최근 휴식 시에도 발생 (unstable)"
+    recent_course: "통증의 빈도, 강도, 지속시간이 증가함"
+  course: "일주일 전, 언덕을 오를 때 처음으로 가슴을 쥐어짜는 듯한 통증을 느낌. 5분 정도 쉬니 가라앉음. 이후 비슷한 강도의 활동 시 통증이 반복됨. 그러나 어젯밤부터는 TV를 보며 쉬고 있는데도 10분 이상 지속되는 통증이 두 차례 있었고, 식은땀과 함께 죽을 것 같은 불안감이 동반됨."
+  experience_prev_episodes:
+    frequency: "지난 일주일간 5-6회"
+    trigger: "초기에는 운동, 최근에는 휴식 시에도 발생"
+    symptoms: "가슴 통증, 호흡곤란, 불안감"
+  character_of_symptom:
+    quality: "쥐어짜는 듯한, 뻐근한 흉통 (squeezing, dull)"
+    nrs_score: "7"
+    radiation: "왼쪽 어깨와 팔로 뻗치는 느낌 (left arm and shoulder)"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "이전에는 운동, 현재는 예측 불가능"
+    alleviating: "이전에는 휴식, 현재는 쉬어도 잘 낫지 않음"
+  health_check_history:
+    last_checkup: "2년 전, 고혈압, 고지혈증 진단받았으나 대수롭지 않게 여김"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증 (약물 복용 안 함)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "자영업 (치킨집 운영)"
+    stress: "심한 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일 (35년간)"
+      cessation_period: "N/A"
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "아버지가 60세에 심근경색으로 돌아가심"
+  female_history: "N/A"
+physical_exam:
+  general: "불안한 기색이 역력하며, 식은땀을 흘리고 있음. 안색이 창백함."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds, S4 gallop may be heard. No murmur."
+  abdomen:
+    inspection: "soft, obese"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema, hands are cool and clammy"
+standardized_patient_questions: "체한 줄 알았는데 왜 계속 아플까요? 이러다 정말 큰일 나는 거 아닌가요? 너무 불안해요."
+specific_remarks: "환자는 가슴 통증과 함께 극심한 불안감, '죽을 것 같은 느낌(sense of impending doom)'을 호소한다. 자신의 증상을 소화불량이나 스트레스 탓으로 돌리려 하지만, 최근 통증 양상이 변한 것에 대해 매우 걱정하고 있다. 의사가 심장 문제를 언급하면 겁을 먹고, 표정이 심각해진다."

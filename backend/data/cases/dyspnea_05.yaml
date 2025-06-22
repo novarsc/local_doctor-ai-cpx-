@@ -1,0 +1,119 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (울혈성 심부전)"
+patient_info:
+  name: "정영숙"
+  age: 72
+  sex: "여성"
+  presenting_complaint: "일주일 전부터 밤에 누우면 숨이 차고, 다리가 붓는다"
+vital_signs:
+  blood_pressure: "160/95mmHg"
+  pulse: "102회/분 (불규칙)"
+  respiration: "22회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "울혈성 심부전 악화"
+    - "만성 폐쇄성 폐질환"
+    - "신부전으로 인한 체액 과다"
+  necessary_tests:
+    - "심전도 (ECG)"
+    - "흉부 X선 검사"
+    - "심장초음파"
+    - "BNP (B-type Natriuretic Peptide) 혈액검사"
+    - "신기능 검사 및 전해질 검사"
+  necessary_treatments:
+    - "이뇨제 투여"
+    - "혈관확장제 및 심박수 조절 약물"
+    - "저염식 교육"
+    - "산소 치료 (필요시)"
+history:
+  sex_age: "여성/72"
+  chief_complaint_verbatim: "밤에 잠자려고 누우면 숨이 차서 꼭 베개를 두세 개 받치고 앉아서 자요. 낮에는 다리가 퉁퉁 붓고요."
+  onset: "약 1주일 전부터"
+  location:
+    initial: "가슴"
+    current: "가슴, 양쪽 다리"
+  duration:
+    onset_pattern: "점진적 발생 (gradual onset)"
+    recent_course: "점점 심해짐"
+  course: "한 달 전부터 조금만 걸어도 숨이 차는 증상이 있었음. 일주일 전부터는 밤에 누우면 숨이 너무 차서 잠을 깨고, 일어나 앉으면 좀 나아지는 증상(기좌호흡, orthopnea)이 생김. 발작성 야간 호흡곤란(PND)도 2-3회 경험함. 며칠 전부터 양쪽 발목과 종아리가 붓기 시작함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "가슴에 물이 찬 것처럼 답답하고 숨쉬기 힘든 느낌"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "누운 자세"
+      - "움직일 때"
+    alleviating: "앉아있거나 상체를 높이고 누울 때"
+  health_check_history:
+    last_checkup: "6개월 전 동네 의원"
+    endoscopy_finding: "시행 안 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (20년), 당뇨 (10년), 5년 전 심근경색으로 스텐트 시술 받음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "아스피린, 클로피도그렐, 아토르바스타틴, 메트포르민, 로사르탄"
+      - "최근 감기몸살로 동네 의원에서 NSAIDs 주사 맞고 3일치 약을 타서 먹었음."
+    source: "대학병원 심장내과, 최근 감기약은 동네 의원"
+    effect: "심장약은 꾸준히 복용 중이었는데, 감기약 먹고부터 더 숨찬 것 같음."
+  social_history:
+    job: "무직"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "40년 전 5년간 흡연"
+    exercise: "거의 안 함 (무릎 아파서)"
+    recent_weight_change: "최근 일주일간 3kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "52세 폐경"
+physical_exam:
+  general: "편안하게 호흡하지 못하고 약간의 호흡곤란 보임. 앉은 자세를 유지하려고 함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    neck: "경정맥 팽창(jugular venous distention) 관찰됨."
+  chest: "양쪽 폐 하부에서 흡기 시 수포음(crackle) 청진됨."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양쪽 정강이와 발목에 함요 부종(pitting edema, 2+) 관찰됨."
+standardized_patient_questions: "심장이 나빠져서 폐에 물이 찼다고 하던데, 제가 그런 건가요? 입원해야 하나요? 앞으로 어떻게 관리해야 하죠?"
+specific_remarks: "숨이 약간 차는 듯한 목소리로 말하며, 밤에 잠을 잘 못 자서 피곤한 기색을 보일 것. 신체 진찰 시 다리를 눌렀을 때 '거기가 퉁퉁 부어서 누르면 아파요'라고 반응. 최근에 짠 음식을 많이 먹었냐는 질문에 '입맛이 없어서 김치랑 젓갈이랑 밥 먹었다'고 대답."

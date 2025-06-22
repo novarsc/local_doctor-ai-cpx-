@@ -1,0 +1,108 @@
+---
+chapter: "상담"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (전신경화증)"
+patient_info:
+  name: "김민서"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "여러 검사 결과에 대한 종합 설명 요청"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "90회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "환자는 수개월간의 레이노 현상, 피부 경화, 속쓰림, 숨가쁨으로 내원하여 혈액검사, 흉부 CT, 심장초음파 등을 시행했습니다. 첨부된 결과지(항-Scl-70 항체 양성, 식도 운동장애, 폐동맥 고혈압 소견)를 바탕으로, 환자에게 전신경화증 진단을 알리고, 이 병이 전신에 미치는 영향과 관리 계획에 대해 논의하십시오."
+patient_education:
+  probable_diagnoses:
+    - "전신경화증 (미만성 피부형)"
+    - "혼합결합조직병 (MCTD)"
+    - "전신홍반루푸스 (SLE)"
+  necessary_tests:
+    - "피부 조직검사 (필요시)"
+    - "정기적인 폐기능 검사 및 심장 초음파"
+    - "신장 기능 모니터링"
+  necessary_treatments:
+    - "면역억제제 치료 (질병 활성도 조절)"
+    - "혈관확장제 (레이노 현상 및 폐동맥 고혈압 조절)"
+    - "각 장기별 합병증에 대한 대증 치료 (위산분비억제제 등)"
+history:
+  sex_age: "여성/35세"
+  chief_complaint_verbatim: "손 색깔도 변하고 피부도 딱딱해져서 검사했는데, 무슨 병인가요?"
+  onset: "6개월 전"
+  location:
+    initial: "손가락"
+    current: "손, 팔, 얼굴, 전신 증상"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 심해짐"
+  course: "6개월 전 추운 곳에 가면 손가락이 하얗게 변했다가 파랗게, 다시 빨갛게 변하는 증상이 생겼습니다. 이후 손가락부터 시작해 팔과 얼굴 피부가 뻣뻣하고 두꺼워졌습니다. 음식을 삼키기 힘들고 속이 자주 쓰리며, 최근엔 조금만 걸어도 숨이 찹니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "피부가 당기고 뻣뻣함, 전신 불편감"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "찬 공기나 찬물"
+      - "피로"
+    alleviating: "따뜻하게 하는 것"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "웹디자이너"
+    stress: "증상으로 인해 많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "숨이 차서 중단"
+    recent_weight_change: "최근 3달간 3kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "LMP 3주 전, 주기 규칙적"
+physical_exam:
+  general: "마스크 같은 얼굴(mask-like face). 손가락을 완전히 펴거나 쥐기 힘들어함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "입 벌리기가 제한됨. 구강 건조."
+  chest: "양쪽 폐저부에서 미세한 수포음 청진"
+  abdomen: "정상"
+  cvat: "양측 음성"
+  extremity: "손가락, 손, 팔뚝 피부가 두껍고 단단함(sclerodactyly). 손가락 끝에 작은 궤양. 다발성 관절통 호소."
+standardized_patient_questions: "전신경화증이요? 피부만 딱딱해지는 게 아니라 폐나 심장도 공격하는 병이라고요? 그럼 제 몸이 전부 굳어버리는 건가요? 아직 젊은데... 결혼도 해야 하는데 어떡하죠?"
+specific_remarks: "환자는 젊은 여성이며, 자신의 외모 변화(피부 경화)와 전신적인 기능 저하에 대해 큰 충격과 상실감을 느낀다. '전신'이라는 단어에 공포를 느끼며, 병이 앞으로 어떻게 진행될지에 대해 불안해한다. 완치가 어렵고 평생 관리해야 한다는 사실에 절망하며, 미래의 결혼이나 출산과 같은 계획에 대해 비관적인 질문을 한다."

@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (빈혈)"
+patient_info:
+  name: "김수현"
+  age: 38
+  sex: "여성"
+  presenting_complaint: "어지럽고 계단만 올라도 가슴이 뛴다"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "98회/분 (규칙적)"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "철결핍성 빈혈 (월경과다 의심)"
+    - "갑상선 기능 이상"
+    - "심부전 초기"
+  necessary_tests:
+    - "일반 혈액 검사 (CBC with differential count) 및 망상적혈구수"
+    - "철분 관련 검사 (Serum iron, TIBC, ferritin)"
+    - "필요시 산부인과 진료 및 골반 초음파"
+  necessary_treatments:
+    - "경구 철분제제 복용"
+    - "월경과다의 원인에 대한 평가 및 치료 (산부인과 협진)"
+    - "철분이 풍부한 식이 교육"
+history:
+  sex_age: "여/38"
+  chief_complaint_verbatim: "조금만 움직여도 숨이 차고 심장이 뛰고, 앉았다 일어날 때 핑 돌아요."
+  onset: "약 6개월 전부터 서서히 시작됨"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "점진적으로 심해짐"
+    recent_course: "최근에는 출근길에 지하철 계단 오르는 것도 힘들어짐"
+  course: "피로가 누적된 탓이라 생각하고 영양제도 먹어봤지만 소용 없었음"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "운동할 때처럼 심장이 빠르고 규칙적으로 뛰는 느낌"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "계단 오르기, 빨리 걷기 등 신체 활동"
+      - "앉았다가 일어설 때"
+    alleviating: "가만히 쉬면 가라앉음"
+  health_check_history:
+    last_checkup: "2년 전 국가검진, 특이사항 없었음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "자궁근종 (추적관찰 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합비타민"
+    source: "인터넷 구매"
+    effect: "잘 모르겠음"
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이 가족력 없음"
+  female_history: "LMP 1주 전. 1년 전부터 월경과다(덩어리진 피가 많이 나옴)와 생리통이 심해짐."
+physical_exam:
+  general: "안색이 창백하고 전반적으로 기운이 없어 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "pale and dry"
+  chest: "호흡음 정상. 심첨부에서 경미한 수축기 심잡음 (flow murmur) 청진됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "손톱이 얇고 잘 부서짐 (koilonychia 의심). 부종 없음."
+standardized_patient_questions: "제가 왜 이렇게 어지러운 건가요? 큰 병은 아니겠죠? 철분제를 먹으면 나아질까요?"
+specific_remarks: "환자는 힘없는 목소리로 느릿하게 말한다. 안색이 창백하다는 점을 명확히 인지할 수 있도록 연기한다. 눈꺼풀을 뒤집어 결막을 확인하려고 할 때 순순히 응하며, '눈 밑도 하얗다는 소리를 들었다'고 말할 수 있다. 월경과다에 대한 질문에 부끄러워하며 구체적으로 대답한다."

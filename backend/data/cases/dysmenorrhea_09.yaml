@@ -1,0 +1,118 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (조기난소부전)"
+patient_info:
+  name: "김은영"
+  age: 36
+  sex: "여성"
+  presenting_complaint: "생리 주기가 불규칙하고 얼굴이 화끈거려요."
+vital_signs:
+  blood_pressure: "125/85mmHg"
+  pulse: "85회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "조기난소부전 (Premature Ovarian Insufficiency)"
+    - "갑상선 기능 이상"
+    - "기능성 시상하부성 무월경"
+  necessary_tests:
+    - "혈액검사 (FSH, LH, Estradiol, AMH) - FSH 상승, Estradiol 감소 확인"
+    - "갑상선 기능 검사 (TSH, free T4)"
+    - "자가면역질환 관련 항체 검사, 염색체 검사 (원인 감별)"
+  necessary_treatments:
+    - "호르몬 대체 요법 (에스트로겐/프로게스틴)"
+    - "골밀도 유지를 위한 칼슘 및 비타민D 보충"
+    - "임신을 원할 경우 난자 공여 등 상담"
+    - "심리적 지지 및 상담"
+history:
+  sex_age: "여성/36"
+  chief_complaint_verbatim: "1년 전부터 생리 주기가 들쑥날쑥하더니 몇 달 전부터는 덥지도 않은데 갑자기 얼굴이 화끈거리고 땀이 나요. 밤에 잠도 잘 못 자겠어요."
+  onset: "약 1년 전부터 생리 불순 시작, 갱년기 증상은 6개월 전부터"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "생리 주기가 점점 길어짐"
+    recent_course: "최근 4개월간 생리 없음"
+  course: "지난 1년간 점진적으로 악화"
+  experience_prev_episodes:
+    frequency: "안면 홍조는 하루에도 수차례"
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "무월경, 안면홍조, 야간 발한"
+  character_of_symptom:
+    quality: "갑자기 확 달아오르는 느낌"
+    nrs_score: "0점"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    other:
+      hot_flushes: true
+      night_sweats: true
+      sleep_disturbance: true
+      vaginal_dryness: true
+      mood_swings: "감정 기복이 심해지고 우울한 느낌이 듦"
+      decreased_libido: true
+  factors:
+    aggravating:
+      - "스트레스"
+    alleviating: "찬물로 세수하면 잠시 괜찮아짐"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "하시모토 갑상선염으로 씬지로이드 복용 중"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "씬지로이드 0.05mg"
+    source: "내과 처방"
+    effect: "갑상선 수치는 조절 잘 되고 있음"
+  social_history:
+    job: "회사원"
+    stress: "최근 업무량이 많아 스트레스가 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "어머니가 40세에 폐경하셨음"
+  female_history:
+    menarche: "13세"
+    lmp: "4개월 전"
+    cycle: "과거 28일 규칙적 -> 최근 2-3개월에 한 번씩 불규칙"
+    duration: "2-3일"
+    amount: "감소"
+    dysmenorrhea: "없음"
+    menopause_age: "해당 없음"
+    obgyn_visits: "처음"
+    sexual_history: "기혼, 임신 계획은 없음"
+physical_exam:
+  general: "약간 불안하고 피곤해 보임"
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Slightly dry"
+  neck: "No thyromegaly"
+  chest: "Regular heart beat, clear lung sound"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive"
+    percussion: "Tympanic"
+    palpation: "Soft and non-tender"
+  pelvic_exam:
+    speculum: "Vaginal mucosa appears pale and thin, with decreased rugae."
+    bimanual: "Uterus is small and atrophic. Ovaries not palpable."
+  cvat: "양측 음성"
+  extremity: "No edema"
+standardized_patient_questions: "제 나이에 벌써 폐경이라는 게 말이 되나요? 친구들은 다 괜찮은데... 왜 저만 이런 거죠? 이거 치료하면 다시 예전처럼 돌아갈 수 있나요?"
+specific_remarks: "자신의 증상이 '갱년기'와 같다는 것에 대해 당혹스러워하고 우울해하는 모습을 보인다. '폐경'이라는 단어에 민감하게 반응하며, 자신이 늙었다는 느낌에 대해 감정적으로 이야기한다. 임신 계획은 없지만, 여성성을 상실했다는 느낌에 대해 슬퍼한다."

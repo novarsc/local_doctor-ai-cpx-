@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (대동맥-장관 누공)"
+patient_info:
+  name: "박동진"
+  age: 75
+  sex: "남성"
+  presenting_complaint: "소량의 피를 토한 후 정신을 잃음"
+vital_signs:
+  blood_pressure: "측정 불가 (도착 시 심정지 상태)"
+  pulse: "촉지 불가"
+  respiration: "없음"
+  temperature: "측정 불가"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오. (보호자 상대)"
+patient_education:
+  probable_diagnoses:
+    - "대동맥-장관 누공 파열"
+    - "식도 정맥류 대량 출혈"
+    - "출혈성 궤양으로 인한 저혈량성 쇼크"
+  necessary_tests:
+    - "즉각적인 심폐소생술 (CPR)"
+    - "응급 복부 대동맥 CT 조영술 (소생 후)"
+    - "혈액형 교차반응 검사 및 대량 수혈 프로토콜 가동"
+  necessary_treatments:
+    - "고급 심폐소생술 (ACLS) 프로토콜에 따른 약물 투여 및 제세동"
+    - "소생 성공 시 응급 개복 수술 또는 혈관 내 스텐트 삽입술"
+    - "중환자실에서의 집중 치료"
+history:
+  sex_age: "남성/75세"
+  chief_complaint_verbatim: "(보호자 진술) 아버지가 갑자기 피를 조금 토하시더니 그대로 쓰러지셨어요! 숨을 안 쉬어요!"
+  onset: "응급실 도착 15분 전"
+  location:
+    initial: "알 수 없음"
+    current: "알 수 없음"
+  duration:
+    onset_pattern: "초급성"
+    recent_course: "심정지 상태로 발견"
+  course: "(보호자 진술) 5년 전 복부 대동맥류 때문에 인조혈관 수술을 받으셨다. 오늘 저녁 식사 후 TV를 보시다가 갑자기 '어' 소리를 내며 소량의 피를 토한 직후 의식을 잃고 쓰러지셨다. 119에 신고하고 보니 숨을 쉬지 않아 구급대원이 오는 동안 가슴 압박을 했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "알 수 없음"
+    nrs_score: "알 수 없음"
+    radiation: "알 수 없음"
+  associated_symptoms:
+    systemic:
+      fever: "최근 며칠간 미열이 있었다고 함"
+      chills: "가끔 춥다고 하셨음"
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "소량의 토혈 직후 의식 소실"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "알 수 없음"
+    alleviating: "알 수 없음"
+  health_check_history:
+    last_checkup: "6개월 전 심장내과 외래"
+    endoscopy_finding: "수술 후 받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증, 복부 대동맥류로 5년 전 인조혈관 치환술 받음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "아스피린"
+      - "아토르바스타틴"
+      - "텔미사르탄"
+    source: "대학병원 심장내과"
+    effect: "잘 조절되고 있었음"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "매일 30분씩 산책"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "의식, 자발 호흡, 맥박 없음. 심폐소생술 시행 중."
+  heent:
+    sclera: "창백함"
+    oral_mucosa: "입가에 소량의 혈흔"
+  chest: "심폐소생술로 인한 흉곽 압박 외 특이소견 없음"
+  abdomen:
+    inspection: "정중선에 수술 흉터 있음"
+    auscultation: "장음 없음"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: "확인 불가"
+      rebound_tenderness_rlq: "확인 불가"
+  cvat: "확인 불가"
+  extremity: "청색증, 차가움"
+standardized_patient_questions: "(보호자) 우리 아버지 괜찮으신 거죠? 제발 살려주세요! 수술받고 괜찮다고 하셨는데 왜 갑자기... 이게 다 뭐예요?"
+specific_remarks: "환자는 반응이 없는 마네킹 또는 표준화 환사로, 의료진은 심폐소생술을 시행하며 보호자와 문진을 진행해야 한다. 보호자는 극도로 흥분하고 불안한 상태이며, 과거 수술력(복부 대동맥류)을 중요한 단서로 제시한다. '전구 출혈(herald bleed)' 후 발생한 대량 출혈 및 심정지 상황임을 인지하는 것이 핵심."

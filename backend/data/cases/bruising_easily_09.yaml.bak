@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (비타민 K 결핍증)"
+patient_info:
+  name: "김말순"
+  age: 82
+  sex: "여성"
+  presenting_complaint: "작은 상처에도 피가 잘 멎지 않고 멍이 쉽게 듦"
+vital_signs:
+  blood_pressure: "120/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비타민 K 결핍증"
+    - "간 기능 저하"
+    - "노인성 자색반"
+  necessary_tests:
+    - "혈액응고 검사 (PT/INR 현저한 연장, aPTT 정상 또는 경도 연장)"
+    - "간 기능 검사"
+    - "전혈구 검사 (혈소판 수 정상 확인)"
+  necessary_treatments:
+    - "비타민 K 보충 (경구 또는 주사)"
+    - "급성 출혈 시 신선냉동혈장(FFP) 수혈"
+    - "영양 상담 및 교육"
+history:
+  sex_age: "여성/82세"
+  chief_complaint_verbatim: "나이가 들어서 그런지... 부엌에서 칼에 살짝만 베여도 피가 한참 나고, 여기저기 시퍼렇게 멍이 들어 있어요."
+  onset: "약 2-3개월 전"
+  location:
+    initial: "손, 팔"
+    current: "전신 피부"
+  duration:
+    onset_pattern: "점진적 발현"
+    recent_course: "최근 들어 더 심해지는 것 같음"
+  course: "몇 달 전부터 작은 상처에도 출혈이 오래 지속되는 것을 느꼈다. 이후 부딪히지 않은 곳에도 큰 멍이 발견되기 시작했다. 최근에는 대변 색이 약간 검게 보이는 날도 있었다고 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "지연성 출혈, 큰 반상출혈(ecchymosis)"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "작은 외상"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "골다공증 약"
+      - "최근 장염 기운이 있어 한 달간 항생제를 복용했음"
+    source: "정형외과, 내과"
+    effect: "장염 증상은 호전됨"
+  social_history:
+    job: "무직 (독거노인)"
+    stress: "적음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 3개월간 4kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "폐경 30년 이상"
+physical_exam:
+  general: "다소 왜소하고 말라 보임. 급성 병색은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"부드러움\""
+  cvat: "좌우 음성"
+  extremity: "양 팔과 다리에 여러 개의 커다란 반상출혈(ecchymosis)이 관찰됨. 점상출혈은 보이지 않음. 주사 맞았던 부위에 혈종이 형성되어 있음."
+standardized_patient_questions: "피가 안 멎는 게 큰 병일까요? 밥도 잘 못 먹고 기운이 없어서 그런 건가요? 어떻게 해야 좋아지나요?"
+specific_remarks: "환자는 불량한 식사와 최근 항생제 장기 복용이라는 중요한 병력을 가지고 있다. 이를 통해 비타민 K 흡수 장애 및 장내 세균총 변화를 유추할 수 있도록 해야 한다. 신체 진찰에서 점상출혈(petechiae)은 없고 큰 멍(ecchymosis) 위주임을 명확히 연기한다."

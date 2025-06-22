@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "20"
+title: "실전 모의 증례 (크로이츠펠트-야콥병)"
+patient_info:
+  name: "한상철"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "점점 바보가 되는 것 같고, 자꾸 깜짝깜짝 놀라며 몸을 떤다"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "크로이츠펠트-야콥병 (Creutzfeldt-Jakob disease, CJD)"
+    - "알츠하이머병 등 빠르게 진행하는 치매"
+    - "자가면역 뇌염"
+  necessary_tests:
+    - "뇌 MRI (DWI, FLAIR에서 특징적 소견 확인)"
+    - "뇌파 검사 (주기적 예파 복합체 확인)"
+    - "뇌척수액 검사 (14-3-3 단백질, RT-QuIC 검사)"
+  necessary_treatments:
+    - "대증적 치료 (근경련, 정신행동증상 조절)"
+    - "현재 근본적인 치료법은 없음"
+    - "가족 상담 및 지지, 향후 간병 계획 논의"
+history:
+  sex_age: "남성/65"
+  chief_complaint_verbatim: "남편이 몇 달 새에 사람이 완전히 달라졌어요. 길도 잃고, 자꾸 깜짝 놀라면서 움찔거려요."
+  onset: "약 4개월 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "빠르게 진행"
+    recent_course: "증상이 계속 악화됨. 현재는 거의 대화가 불가능한 수준."
+  course: "4개월 전부터 기억력이 눈에 띄게 나빠지기 시작했다. 성격이 변하고, 걷는 것이 부자연스러워졌다(보행 실조). 1개월 전부터는 작은 소리나 자극에도 깜짝 놀라며 온몸을 움찔 떠는 모습(startle myoclonus)이 자주 관찰된다. 최근에는 혼자서는 아무것도 하지 못하고, 대소변도 못 가리게 되었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "빠르게 진행하는 인지기능 저하와 근육간대경련(myoclonus)"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Amlodipine 5mg"
+    source: "내과"
+    effect: "최근에는 약도 잘 챙겨 먹지 못함"
+  social_history:
+    job: "은퇴 (전직 공무원)"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "최근 전혀 못함"
+    recent_weight_change: "최근 4개월간 10kg 감소"
+  family_history: "특이 사항 없음"
+  female_history: ""
+physical_exam:
+  general: "의사소통 불가능. 무표정한 얼굴. 외부 자극에 거의 반응이 없으나, 갑작스러운 소리나 접촉에 온몸을 움찔 떠는 모습(myoclonus) 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "사지 전반에 걸쳐 근육 강직. 중심을 못 잡고 비틀거리며 걸음 (ataxic gait), 보조 없이는 보행 불가. 소뇌 기능 검사 및 근력/감각 검사 협조 안됨."
+standardized_patient_questions: "남편이 왜 이렇게 갑자기 망가지는 건가요? 치매가 이렇게 빨리 나빠질 수도 있나요? 치료 방법은 없는 건가요?"
+specific_remarks: "환자는 대화가 불가능한 상태이므로, 보호자인 아내가 문진에 응한다. 아내는 매우 지치고 절망적인 상태이다. 학생은 급속도로 진행하는 치매와 근육간대경련이라는 특징적인 조합을 통해 CJD를 의심하고, 예후가 매우 좋지 않은 질병임을 조심스럽게 설명해야 한다. 진단 과정과 향후 환자 돌봄 계획에 대해 지지적인 태도로 상담하는 것이 중요하다."

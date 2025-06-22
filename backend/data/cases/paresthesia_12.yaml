@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (램버트-이튼 근무력 증후군)"
+patient_info:
+  name: "박상철"
+  age: 63
+  sex: "남성"
+  presenting_complaint: "다리에 힘이 빠져 걷기가 힘들고 입이 마름"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "램버트-이튼 근무력 증후군 (Lambert-Eaton myasthenic syndrome, LEMS)"
+    - "중증 근무력증 (Myasthenia gravis)"
+    - "다발근육염 (Polymyositis)"
+  necessary_tests:
+    - "반복신경자극검사 (고빈도 자극 시 증강 현상 확인)"
+    - "VGCC 항체 검사"
+    - "가슴 CT 또는 PET-CT (소세포폐암 등 암 검사)"
+  necessary_treatments:
+    - "원인 종양 치료 (가장 중요)"
+    - "증상 완화 약물 (3,4-diaminopyridine, Pyridostigmine)"
+    - "면역억제 치료 (IVIG, 스테로이드 등)"
+history:
+  sex_age: "남성/63"
+  chief_complaint_verbatim: "몇 달 전부터 다리에 힘이 없어서 걷기가 비틀거리고 힘들어요. 아침에 특히 심하고, 좀 걷다 보면 오히려 약간 나아지는 것 같기도 하고... 입이랑 눈도 뻑뻑하고 마릅니다."
+  onset: "4개월 전"
+  location:
+    initial: "양쪽 다리"
+    current: "양쪽 다리, 팔, 어깨"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "서서히 악화"
+  course: "4개월 전부터 의자에서 일어설 때나 계단을 오를 때 다리에 힘이 부치는 것을 느낌. 처음에는 괜찮다가도 몇 걸음 걸으면 조금 나아지는 이상한 느낌이 있었음. 점차 팔에도 힘이 빠져 물건 들기가 힘들어짐. 눈꺼풀이 약간 처지는 느낌도 있고, 입이 바싹바싹 마르고 변비도 생김."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "근육이 피로하고 힘이 없는 느낌"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침 기상 직후"
+    alleviating: "가벼운 반복 운동 후"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Amlodipine"
+    source: "내과"
+    effect: "혈압 조절됨"
+  social_history:
+    job: "경비원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 5회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 1.5갑 (45년째)"
+      cessation_period: ""
+    exercise: "따로 하지 않음"
+    recent_weight_change: "지난 6개월간 8kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색, 마른 체형, 쉰 목소리."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "매우 건조함"
+    # 추가 진찰: 경미한 양측성 안검하수.
+  chest: "호흡음 감소, 흡기 시 간헐적인 수포음(crackle) 청진됨."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 감소"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양측 하지 근위부 근력 저하(MRC 3/5). 심부건반사 소실(무릎, 발목). 10초간 근육에 최대한 힘을 주게 한 후 다시 측정 시 심부건반사 약간 나타나고 근력도 일시적으로 호전됨(MRC 4/5). 감각은 정상."
+standardized_patient_questions: "왜 힘이 없는데 운동을 하면 좀 나아지는 이상한 병이 다 있나요? 입이 마르는 거랑 다리에 힘 빠지는 게 무슨 상관이 있나요? 암 같은 나쁜 병일 수도 있나요?"
+specific_remarks: "환자는 오랫동안 담배를 피워온 사람 특유의 쉰 목소리와 기침을 간간이 보여준다. 근력 검사 시 처음에는 힘이 약하지만, 의사가 반복적으로 힘을 주도록 유도하면 약간 강해지는 모습을 연기한다. 심부건반사 검사에서도 처음에는 반응이 없다가, 근육 수축 후 다시 검사하면 약간 반응이 나타나는 것을 명확히 표현한다. 체중 감소와 흡연력에 대해 질문받으면, 암 가능성에 대해 걱정하는 모습을 보인다."

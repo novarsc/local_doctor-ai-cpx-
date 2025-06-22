@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (괴혈병)"
+patient_info:
+  name: "나홀로"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "잇몸이 붓고 피가 나며 다리에 붉은 반점이 생김"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "괴혈병 (Scurvy, 비타민 C 결핍증)"
+    - "혈소판 감소증 또는 기능 이상"
+    - "치주염 및 전신 감염"
+  necessary_tests:
+    - "혈중 비타민 C 농도 측정"
+    - "전혈구 검사 및 혈액응고 검사"
+    - "치과 협진"
+  necessary_treatments:
+    - "고용량 비타민 C 보충"
+    - "균형 잡힌 식이 교육"
+    - "필요시 알코올 중독 치료 연계"
+history:
+  sex_age: "남성/58세"
+  chief_complaint_verbatim: "몇 달째 잇몸이 퉁퉁 붓고 양치 안 해도 피가 나요. 다리에는 털구멍마다 빨갛게 점이 생기고, 상처가 나도 잘 아물지 않아요."
+  onset: "약 3~4개월 전"
+  location:
+    initial: "잇몸, 다리 피부"
+    current: "전신 쇠약감 동반"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근에는 관절통과 전신 무력감이 심해짐"
+  course: "처음에는 잇몸이 붓는 것으로 시작하여 쉽게 피가 났다. 이후 다리, 특히 허벅지와 종아리에 모낭 주변으로 붉은 출혈점이 생기는 것을 발견했다. 예전에 생긴 상처가 잘 아물지 않고 벌어지는 느낌이 들며, 최근에는 무릎과 발목이 붓고 아프다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "잇몸 출혈, 모낭 주위 출혈, 상처 치유 지연, 관절통"
+    nrs_score: 4
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때 (관절통)"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "받아본 적 없음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "알코올 의존증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "무직 (고시원 거주)"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "매일"
+      amount: "소주 2-3병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "전혀 안 함"
+    recent_weight_change: "최근 6개월간 8kg 감소"
+  family_history: "연락 끊겨 모름"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 위생 상태가 불량하고 영양실조 소견 보임. 만성 병색."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "잇몸이 심하게 붓고(hypertrophy) 보라색을 띠며, 쉽게 출혈함. 치아가 여러 개 빠져 있음."
+  chest: "정상"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"압통 없음.\""
+  cvat: "좌우 음성"
+  extremity: "양쪽 다리, 특히 허벅지에 모낭 각화증(follicular hyperkeratosis)과 함께 모낭 주위 출혈(perifollicular hemorrhage)이 다수 관찰됨. 머리카락이 꼬여 있는(corkscrew hair) 소견도 보임. 무릎 관절에 부종과 압통 있음."
+standardized_patient_questions: "잇몸병인 줄 알았는데 왜 다리에도 뭐가 생기나요? 영양실조 걸리면 이렇게 될 수도 있나요? 치료하면 나을 수 있습니까?"
+specific_remarks: "환자는 사회적으로 고립되어 있으며, 극단적인 편식을 하는 식습관(주로 라면, 소주로 식사 해결)을 문진을 통해 밝혀내는 것이 핵심이다. 괴혈병의 특징적인 피부 소견(모낭 주위 출혈, 꼬인 털)과 잇몸 소견을 명확히 연기해야 한다."

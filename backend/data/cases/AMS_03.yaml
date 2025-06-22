@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (베르니케 뇌병증, Wernicke's Encephalopathy)"
+patient_info:
+  name: "최경민"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "걸음걸이가 이상하고 헛것을 봐요"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "110회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자 및 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "베르니케 뇌병증"
+    - "알코올 금단 섬망"
+    - "소뇌성 운동실조"
+  necessary_tests:
+    - "신경학적 진찰 (안구 운동, 보행 검사 포함)"
+    - "혈액 검사 (티아민, 전해질, 간기능 검사)"
+    - "뇌 MRI"
+  necessary_treatments:
+    - "고용량 티아민(비타민 B1) 정맥 주사"
+    - "수액 및 전해질 보충"
+    - "알코올 중독 치료 및 영양 상담"
+history:
+  sex_age: "남성/45세"
+  chief_complaint_verbatim: "일주일 전부터 술을 끊었는데, 어제부터 갑자기 비틀거리고 눈이 이상하게 움직여요. 자꾸 방에 누가 있다고 해요."
+  onset: "약 2-3일 전"
+  location:
+    initial: "전신, 머리"
+    current: "전신, 머리"
+  duration:
+    onset_pattern: "수일에 걸쳐 발생"
+    recent_course: "점점 악화"
+  course: "만성적인 음주자로, 일주일 전 심한 구토로 금주 시작. 3일 전부터 걸을 때 술 취한 사람처럼 비틀거렸고, 어제부터는 눈동자가 제멋대로 움직이고 시야가 겹쳐 보인다고 함. 오늘 아침부터는 없는 사람을 보며 대화하는 모습 보여 응급실 내원."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "운동실조, 안구 운동 장애, 의식 혼돈"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "일주일 전까지 지속됨"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "움직일 때"
+    alleviating: "가만히 누워 있을 때"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "모름"
+  trauma_history: "최근 잦은 낙상 있었으나 큰 외상은 없었다고 함"
+  past_medical_history:
+    underlying_disease: "알코올 의존증 외 특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "무직"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "매일"
+      amount: "소주 3병 이상"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "전혀 안함"
+    recent_weight_change: "최근 1년간 10kg 이상 감소"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "혼돈(confused) 상태. 시간, 장소에 대한 지남력 저하. 질문에 대해 기억이 나지 않는 부분을 꾸며서 대답하는 작화증(confabulation) 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+    # 안구운동 장애: 양쪽 외직근 마비(bilateral abducens palsy), 수평 안진(horizontal nystagmus) 관찰됨.
+  chest: "심박수 빠름. 호흡음 정상."
+  abdomen:
+    inspection: "말라서 복부가 편평함."
+    auscultation: "장음 정상."
+    percussion: "Tympany."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "근육 위축 관찰됨. 보행 시 기저면이 넓고 비틀거리는 운동실조(ataxic gait) 보임. Romberg 검사 양성."
+standardized_patient_questions: "눈이 왜 이렇게 제멋대로 움직이죠? 제가 왜 자꾸 넘어지는 건가요? 이거 치료는 되나요?"
+specific_remarks: "환자는 안구 운동 검사 시 특정 방향 주시가 어렵고 복시를 호소한다. 일어서서 걷게 하면 심하게 비틀거리며 넘어지려고 한다. 과거의 일에 대해 질문하면 사실이 아닌 이야기를 지어내서 대답한다 (예: 어제 대통령이랑 식사했다고 말함)."

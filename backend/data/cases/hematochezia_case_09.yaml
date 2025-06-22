@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (말로리-바이스 찢김)"
+patient_info:
+  name: "이진우"
+  age: 35
+  sex: "남성"
+  presenting_complaint: "심하게 토한 후에 피를 토함"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "말로리-바이스 찢김"
+    - "식도 정맥류 파열"
+    - "급성 위점막 병변 (AGML)"
+  necessary_tests:
+    - "전혈구 검사 (CBC), 혈액응고 검사"
+    - "상부위장관 내시경"
+    - "간기능 검사"
+  necessary_treatments:
+    - "금식 및 수액 요법"
+    - "양성자 펌프 억제제(PPI) 투여"
+    - "출혈이 지속될 경우 내시경적 지혈술"
+history:
+  sex_age: "남성/35세"
+  chief_complaint_verbatim: "어젯밤에 회식에서 술을 너무 많이 마시고 계속 토했는데, 마지막에 피가 왈칵 나왔어요. 그 뒤로 본 변도 좀 검은 것 같아요."
+  onset: "내원 10시간 전"
+  location:
+    initial: "상복부"
+    current: "상복부"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "토혈 후 구토는 멈췄으나 속이 계속 불편함"
+  course: "어젯밤 과음 후 새벽까지 5-6차례 격렬하게 구토를 했다. 처음에는 음식물이 나오다가 나중에는 위액만 나왔고, 마지막에 힘을 주어 구역질을 할 때 선홍색 피가 한 컵 정도 섞여 나왔다. 이후 구토는 멈췄으나 속이 쓰리고 메스꺼운 증상이 지속된다. 오늘 아침 화장실에서 본 변이 평소보다 검게 보였다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "NA"
+    symptoms: "NA"
+  character_of_symptom:
+    quality: "반복적인 구토 후 발생한 토혈(hematemesis). 이후 흑색변(melena) 동반 가능."
+    nrs_score: 3
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "음식물 -> 위액 -> 혈액 순서로 총 5-6회"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "구토할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전 회사 검진"
+    endoscopy_finding: "역류성 식도염 소견"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "숙취해소제"
+    source: "편의점 구매"
+    effect: "효과 없었음"
+  social_history:
+    job: "영업직"
+    stress: "실적 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 2병 이상"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "NA"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "아버지가 간경화로 치료 중"
+  female_history: "NA"
+physical_exam:
+  general: "매우 지쳐 보이고 불안한 기색. 탈수 소견 보임."
+  heent:
+    sclera: "정상, 황달 없음"
+    oral_mucosa: "건조함"
+  chest: "호흡음 정상, 빈맥 외 심잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상 공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 명치 부위에 약간의 압통이 있음
+  cvat: "좌우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "토하다가 피가 나올 수도 있나요? 식도가 찢어졌다고 하던데, 저도 그런 건가요? 위험한 상황인가요?"
+specific_remarks: "환자는 과음한 것에 대해 후회하며, 토혈 증상에 매우 놀라고 두려워하는 모습을 연기한다. 아버지의 간경화 가족력 때문에 자신도 간이 나쁜 것은 아닌지 걱정한다."

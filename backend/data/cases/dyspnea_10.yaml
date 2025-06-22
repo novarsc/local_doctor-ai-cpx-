@@ -1,0 +1,116 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (폐암에 의한 악성 흉수)"
+patient_info:
+  name: "김철민"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "한 달 전부터 점차 심해지는 호흡곤란과 마른 기침"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "95회/분"
+  respiration: "23회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "악성 흉수 (Malignant pleural effusion)를 동반한 폐암"
+    - "결핵성 흉막염"
+    - "부폐렴성 흉수"
+  necessary_tests:
+    - "흉부 X선 검사 및 흉부 CT"
+    - "진단적 및 치료적 흉수 천자"
+    - "흉수 검사 (세포 검사, 생화학, 미생물 검사)"
+    - "기관지 내시경 및 조직검사"
+  necessary_treatments:
+    - "흉수 배액 (Thoracentesis)"
+    - "흉막 유착술 (Pleurodesis) 고려"
+    - "원인 질환(폐암)에 대한 항암 치료"
+    - "증상 완화를 위한 대증 치료"
+history:
+  sex_age: "남성/65"
+  chief_complaint_verbatim: "숨이 계속 차고 기침이 나요. 예전엔 이렇지 않았는데... 오른쪽으로 누우면 더 답답하고 기침이 나와서 잠을 설칩니다."
+  onset: "약 1개월 전"
+  location:
+    initial: "가슴"
+    current: "가슴, 특히 오른쪽"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "계속 악화됨"
+  course: "한 달 전부터 가벼운 활동에도 숨이 차기 시작함. 마른기침이 동반되었고, 시간이 지나면서 호흡곤란이 점점 심해져 현재는 가만히 있어도 숨이 참. 특히 오른쪽으로 누우면 숨쉬기가 더 힘들어짐. 오른쪽 가슴에 둔한 통증도 간헐적으로 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "가슴이 무언가로 꽉 차서 눌리는 듯한 답답함"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: "최근 3개월간 8kg 감소"
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "활동 시"
+      - "오른쪽으로 누울 때"
+    alleviating: "앉아 있을 때"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: "시행 안 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (기억나지 않음)"
+    source: "동네 의원, 최근 1년은 약을 제대로 복용하지 않음"
+    effect: ""
+  social_history:
+    job: "경비원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑 이상 (45갑년)"
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "최근 3개월간 8kg 감소"
+  family_history: "아버지가 60대에 위암으로 사망"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색 및 체중 감소 소견. 안정 시에도 약간의 호흡곤란을 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "시진 시 오른쪽 흉곽의 호흡 운동이 현저히 감소됨. 촉진 시 오른쪽 폐 중하부에서 진탕음(fremitus)이 소실됨. 타진 시 오른쪽 폐 중하부에서 심한 둔탁음(stony dullness). 청진 시 오른쪽 폐 중하부에서 호흡음이 들리지 않음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "곤봉지(clubbing finger) 소견 없음."
+standardized_patient_questions: "왜 이렇게 숨이 차는 건가요? 폐에 물이 찼다는데, 물만 빼면 괜찮아지는 건가요? 혹시 나쁜 병은 아닌지 걱정됩니다."
+specific_remarks: "목소리에 힘이 없고 피곤한 기색이 역력함. 체중 감소로 인해 얼굴이 수척해 보이고 옷이 헐렁한 느낌을 줄 것. 신체 진찰에 수동적으로 응함. 자신의 건강에 대해 체념한 듯한 태도를 보일 수 있음."

@@ -1,0 +1,119 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (자궁근종)"
+patient_info:
+  name: "최미경"
+  age: 42
+  sex: "여성"
+  presenting_complaint: "생리 양이 너무 많고 덩어리가 나와요."
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁근종 (Uterine Leiomyoma)"
+    - "자궁선근증 (Adenomyosis)"
+    - "자궁내막증식증 (Endometrial Hyperplasia)"
+  necessary_tests:
+    - "골반 초음파 (근종의 크기, 위치, 개수 확인)"
+    - "혈액검사 (CBC, 빈혈 수치 확인)"
+    - "필요시 자궁내막 조직검사 (악성 감별)"
+  necessary_treatments:
+    - "빈혈 교정 (철분제 복용)"
+    - "증상 조절 (호르몬 요법, 자궁 내 장치)"
+    - "수술적 치료 (근종절제술 또는 자궁절제술)"
+history:
+  sex_age: "여성/42"
+  chief_complaint_verbatim: "생리 양이 감당이 안 될 정도로 많아졌어요. 손바닥만 한 핏덩어리가 나올 때도 있고, 어지러워서 일상생활이 힘들어요."
+  onset: "약 1년 전부터 서서히 생리 양이 늘기 시작함"
+  location:
+    initial: "해당 없음"
+    current: "아랫배가 묵직하고 가끔 뻐근한 통증이 있음"
+  duration:
+    onset_pattern: "생리 기간이 7-8일 이상으로 길어짐"
+    recent_course: "지난 6개월간 증상이 급격히 심해짐"
+  course: "점진적으로 악화되는 월경과다 및 월경기간 연장"
+  experience_prev_episodes:
+    frequency: "매달"
+    trigger: "생리"
+    symptoms: "월경과다, 빈혈 증상"
+  character_of_symptom:
+    quality: "묵직하고 누르는 듯한 압박감"
+    nrs_score: "생리 시 4-5점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+    urinary: "최근들어 소변을 자주 보는 느낌 (urinary frequency)"
+  factors:
+    aggravating:
+      - "생리 기간"
+    alleviating: "생리가 끝나면 어지럼증은 다소 호전됨"
+  health_check_history:
+    last_checkup: "2년 전 국가검진"
+    endoscopy_finding: "자궁경부암 검사 정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "3년 전 건강검진에서 작은 자궁근종이 있다고 들었으나 대수롭지 않게 여김"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "주부"
+    stress: "자녀 문제로 약간의 스트레스"
+    alcohol:
+      is_drinker: false
+    smoking:
+      is_smoker: false
+    exercise: "숨이 차서 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "15세"
+    lmp: "1주 전 시작, 아직 하는 중"
+    cycle: "25-27일 주기, 규칙적"
+    duration: "최근 8-10일로 길어짐"
+    amount: "매우 많음 (시간당 오버나이트 패드 1개 이상 젖는 날도 있음)"
+    dysmenorrhea: "예전엔 없었으나 최근 묵직한 통증 생김"
+    menopause_age: "해당 없음"
+    obgyn_visits: "3년 전 검진 외 없음"
+    sexual_history: "기혼"
+    pregnancy_history: "G2P2 (모두 자연분만)"
+physical_exam:
+  general: "안색이 창백하고 피곤해 보임"
+  heent:
+    sclera: "Anicteric"
+    conjunctiva: "Pale"
+    oral_mucosa: "Slightly dry"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "Lower abdomen slightly bulging"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Dullness over suprapubic area"
+    palpation: "Suprapubic area에 단단하고 불규칙한 표면의 종괴 촉진됨 (firm, mobile, non-tender mass). 크기는 임신 14주 자궁 크기 정도."
+  cvat: "양측 음성"
+  extremity: "No edema, Spoon nail 관찰됨"
+standardized_patient_questions: "혹시 암은 아니겠죠? 왜 이렇게 피가 많이 나는 건가요? 수술해야만 하나요? 자궁을 꼭 들어내야 하는지 걱정돼요."
+specific_remarks: "대화 중 숨이 약간 차는 모습을 보인다. 계단을 오르거나 조금만 움직여도 어지럽다고 표현한다. '자궁 절제'라는 말에 매우 민감하게 반응하며 두려워하는 모습을 보인다."

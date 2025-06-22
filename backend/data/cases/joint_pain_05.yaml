@@ -1,0 +1,114 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "5/24"
+title: "실전 모의 증례 (강직성 척추염)"
+patient_info:
+  name: "정민준"
+  age: 28
+  sex: "남성"
+  presenting_complaint: "아침에 심한 허리 통증과 뻣뻣함, 최근 생긴 발뒤꿈치 통증"
+vital_signs:
+  blood_pressure: "125/75mmHg"
+  pulse: "68회/분"
+  respiration: "16회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "강직성 척추염"
+    - "추간판 탈출증 (디스크)"
+    - "반응성 관절염"
+  necessary_tests:
+    - "혈액 검사 (HLA-B27, ESR, CRP)"
+    - "천장관절 및 척추 X-ray, 필요시 MRI"
+    - "안과 검진 (포도막염 확인)"
+  necessary_treatments:
+    - "운동 요법 및 물리치료 (스트레칭, 수영 등)"
+    - "약물 치료 (비스테로이드성 소염제, TNF-alpha 억제제 등)"
+    - "자세 교정 및 환자 교육"
+history:
+  sex_age: "남성/28세"
+  chief_complaint_verbatim: "몇 년째 아침마다 허리가 뻣뻣해서 일어나기가 힘들어요. 움직이면 좀 나아지는데, 가만히 있으면 다시 굳는 것 같아요. 요즘엔 오른쪽 발뒤꿈치도 아파서 걷기가 불편해요."
+  onset: "약 3년 전부터 서서히"
+  location:
+    initial: "엉덩이 쪽 허리 (둔부)"
+    current: "허리 전체, 양측 엉덩이, 오른쪽 발뒤꿈치"
+  duration:
+    onset_pattern: "서서히 발생, 좋아졌다 나빠졌다 반복"
+    recent_course: "최근 3개월간 증상 심해짐"
+  course: "처음에는 단순 근육통인 줄 알았음. 자고 일어나면 특히 심하고, 스트레칭이나 샤워를 하면 부드러워짐. 쉬면 오히려 더 아픔. 최근 발뒤꿈치 통증이 추가됨."
+  experience_prev_episodes:
+    frequency: "지속적이나 강도의 변화 있음"
+    trigger: "장시간 앉아있거나 아침 기상 시"
+    symptoms: "허리 통증, 뻣뻣함"
+  character_of_symptom:
+    quality: "둔하고 뻣뻣한 통증"
+    nrs_score: "아침 8, 활동 후 4"
+    radiation: "양쪽 엉덩이로 번지는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침 기상 시, 오래 앉아있기"
+      - "쉬고 있을 때"
+    alleviating: "운동, 스트레칭, 온수 샤워"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "1년 전, 눈이 갑자기 충혈되고 아파서 안과 갔더니 포도막염이라고 했었음."
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제 (필요시)"
+    source: "약국"
+    effect: "일시적 효과"
+  social_history:
+    job: "대학원생 (연구실에 오래 앉아 있음)"
+    stress: "논문 스트레스 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "최근 통증으로 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 건강해 보이나 허리를 펼 때 약간 부자연스러움."
+  heent:
+    sclera: "정상, 과거 포도막염 흔적은 보이지 않음"
+    oral_mucosa: "정상"
+  chest: "흉곽 확장 운동 시 약간의 제한 소견 보임 (Chest expansion < 4cm)"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "양측 천장관절(sacroiliac joint) 부위에 압통 있음. 허리를 앞으로 굽히는 동작(lumbar flexion) 제한됨 (Schober test 양성). 오른쪽 아킬레스건 부착 부위에 압통(enthesitis) 있음. 다른 말초 관절은 정상."
+standardized_patient_questions: "젊은 나이에 왜 이렇게 허리가 아픈가요? 디스크는 쉬면 낫는다던데 저는 왜 반대죠? 이거 평생 가는 병인가요?"
+specific_remarks: "환자는 '염증성 허리 통증'의 특징(아침에 심하고 움직이면 호전)을 명확하게 설명해야 함. 젊은 나이에 만성 통증을 겪는 것에 대한 좌절감과 미래에 대한 불안감을 표현한다."

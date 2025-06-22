@@ -1,0 +1,114 @@
+---
+chapter: "관절.근골격.피부"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (연조직염)"
+patient_info:
+  name: "한상철"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "왼쪽 다리가 붓고 아파요"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "38.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "연조직염 (봉와직염)"
+    - "심부정맥 혈전증 (DVT)"
+    - "정체성 피부염"
+  necessary_tests:
+    - "혈액 검사 (CBC, ESR, CRP, 혈액 배양)"
+    - "D-dimer 검사 및 하지 정맥 초음파 (DVT 감별)"
+    - "필요시 X-ray (골수염, 가스 괴저 감별)"
+  necessary_treatments:
+    - "항생제 정맥 주사 (입원 치료)"
+    - "환부 거상 및 안정"
+    - "통증 및 발열 조절"
+history:
+  sex_age: "남성/55"
+  chief_complaint_verbatim: "이틀 전부터 왼쪽 다리가 갑자기 빨개지면서 붓고 열이 나요. 만지기만 해도 너무 아프고 욱신거려서 걷기도 힘들어요."
+  onset: "2일 전"
+  location:
+    initial: "왼쪽 정강이"
+    current: "왼쪽 정강이 전체와 발등"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "급격히 악화됨"
+  course: "왼쪽 정강이 부위가 붉어지기 시작하더니, 점차 붓고 통증이 심해지면서 발등까지 번졌다. 오한과 함께 전신적인 열감도 동반되었다."
+  experience_prev_episodes:
+    frequency: "작년에 한 번"
+    trigger: "무좀 심할 때"
+    symptoms: "비슷하게 다리가 붓고 아파서 입원 치료했었음"
+  character_of_symptom:
+    quality: "욱신거리고 팽창하는 듯한 통증"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "서 있거나 걸을 때"
+      - "만질 때"
+    alleviating: "가만히 있을 때"
+  health_check_history:
+    last_checkup: "1년 전, 당뇨병 전단계 진단"
+    endoscopy_finding: ""
+  trauma_history: "특별한 외상은 없었음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨병 전단계, 만성 족부 백선(무좀)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "내과 처방"
+    effect: "잘 조절됨"
+  social_history:
+    job: "택시 기사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "열과 통증으로 힘들어하는 모습. 의식 명료."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "slightly dry"
+  chest: "clear breath sounds bilaterally"
+  abdomen:
+    inspection: "특이 소견 없음"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "왼쪽 다리(정강이와 발등)에 경계가 불분명한 홍반과 부종, 심한 압통 및 열감이 관찰됨. 오른쪽 다리에 비해 둘레가 현저히 증가함. 발가락 사이에 진물과 균열이 있는 무좀 소견이 관찰됨 (감염의 입구 의심). Homan's sign 음성."
+standardized_patient_questions: "왜 다리가 이렇게 붓고 아픈가요? 단순한 피부병인가요, 아니면 심각한 건가요? 입원을 꼭 해야 하나요? 무좀 때문에 그럴 수도 있나요?"
+specific_remarks: "환자는 급성 염증의 전신 증상(고열, 오한, 통증)을 생생하게 연기해야 한다. 병변 부위의 4대 염증 징후(발적, 종창, 열감, 통증)를 명확히 표현해야 한다. 감염의 입구로 작용했을 수 있는 '무좀'의 병력을 제공하는 것이 중요하다. DVT와의 감별을 위한 질문에 답할 수 있어야 한다."

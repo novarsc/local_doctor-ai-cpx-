@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "21"
+title: "실전 모의 증례 (신경통성 근위축증)"
+patient_info:
+  name: "강태우"
+  age: 31
+  sex: "남성"
+  presenting_complaint: "3일 전부터 갑자기 오른쪽 어깨가 너무 아프더니 팔에 힘이 빠짐"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신경통성 근위축증 (Neuralgic amyotrophy, Parsonage-Turner syndrome)"
+    - "경추 신경근 병증 (Cervical radiculopathy)"
+    - "급성 회전근개 파열 (Acute rotator cuff tear)"
+  necessary_tests:
+    - "근전도/신경전도검사 (EMG/NCS)"
+    - "어깨 및 경추 MRI"
+    - "혈액검사 (염증 수치 확인)"
+  necessary_treatments:
+    - "통증 조절 (소염진통제, 신경병증성 통증 약물)"
+    - "물리치료 및 재활치료"
+    - "단기간 스테로이드 치료 (고려)"
+history:
+  sex_age: "남성/31"
+  chief_complaint_verbatim: "3일 전 밤에 갑자기 오른쪽 어깨가 칼로 찌르는 것처럼 아파서 잠을 깼어요. 통증이 좀 가라앉나 싶더니, 이젠 팔을 옆으로 들어 올릴 수가 없어요."
+  onset: "3일 전"
+  location:
+    initial: "오른쪽 어깨"
+    current: "오른쪽 어깨, 팔 위쪽"
+  duration:
+    onset_pattern: "급성 통증 후 근력 약화 발생"
+    recent_course: "통증은 약간 줄었으나, 근력 약화는 지속/악화"
+  course: "일주일 전 독감 예방 접종을 맞음. 3일 전 밤, 아무런 이유 없이 갑자기 오른쪽 어깨에 극심한 통증이 발생하여 응급실 방문 고려할 정도였음. 통증은 24시간 정도 지속되다가 서서히 완화되기 시작함. 그러나 통증이 줄어들면서 팔에 힘이 빠지는 것을 느낌. 현재는 오른쪽 팔을 옆으로 들거나 앞으로 들어 올리는 동작이 거의 불가능함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "초기에는 찢어지는 듯한 격심한 통증, 현재는 근력 약화가 주 증상"
+    nrs_score: "9 (초기 통증), 3 (현재 통증)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "팔을 움직이려고 할 때"
+    alleviating: "가만히 있을 때"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "어깨를 다친 적 없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "약국 진통제"
+    source: "약국"
+    effect: "통증에 별 효과 없었음"
+  social_history:
+    job: "프로그래머"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "통증과 근력 약화로 인해 오른쪽 팔을 거의 움직이지 않으려 함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "오른쪽 어깨의 외전(abduction, 삼각근) 및 외회전(external rotation, 극하근) 근력 현저히 저하(MRC 1-2/5). 팔꿈치 굴곡(상완이두근)도 약간 저하(MRC 4/5). 오른쪽 어깨 외측(삼각근 부위)에 경미한 감각 저하. 경추 운동 범위 정상, Spurling 검사 음성."
+standardized_patient_questions: "어깨가 아픈 건 줄 알았는데 왜 팔에 힘이 빠지는 건가요? 예방 접종 맞고 이렇게 된 것 같은데 관련이 있나요? 다시 예전처럼 팔을 쓸 수 있을까요?"
+specific_remarks: "환자는 특징적인 병력, 즉 '극심한 통증이 선행된 후 근력 약화가 나타났다'는 점을 명확하게 진술한다. 의사가 팔을 들어보라고 할 때, 어깨를 으쓱거리기만 하고 팔 자체는 거의 올라가지 않는 모습을 보여준다. 최근 예방 접종을 맞은 사실을 언급하며 연관성에 대해 질문한다. 목 움직임에는 통증이 없음을 확실히 한다."

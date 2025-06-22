@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (범불안장애)"
+patient_info:
+  name: "김민정"
+  age: 34
+  sex: "여성"
+  presenting_complaint: "여러 가지 걱정 때문에 늘 불안하고 잠을 잘 못 자요."
+vital_signs:
+  blood_pressure: "128/84mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "범불안장애"
+    - "주요우울장애"
+    - "갑상선기능항진증"
+  necessary_tests:
+    - "갑상선 기능 검사(TFT)"
+    - "기본 혈액 검사(CBC/Chemistry)"
+    - "불안/우울 척도 검사 (GAD-7, PHQ-9)"
+  necessary_treatments:
+    - "정신건강의학과적 면담 및 정신치료(인지행동치료 등)"
+    - "약물 치료 (SSRI 등 항우울제)"
+    - "이완 요법 및 스트레스 관리 교육"
+history:
+  sex_age: "여성/34"
+  chief_complaint_verbatim: "요즘 계속 불안해요. 회사 일, 아이 교육 문제, 남편과의 관계까지 사소한 것 하나하나 다 걱정돼서 잠도 잘 안 오고 늘 긴장 상태인 것 같아요."
+  onset: "약 8개월 전부터 서서히 시작됨"
+  location:
+    initial: "정신적인 불안감"
+    current: "전신적인 긴장감과 정신적 불안감"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 2개월간 악화됨"
+  course: "처음에는 사소한 걱정 수준이었으나, 점차 걱정의 범위가 넓어지고 강도도 심해져 일상생활에 지장을 주기 시작함. 걱정을 멈추려고 해도 조절이 안 됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "끊임없이 마음을 졸이는 느낌, 안절부절못함"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "업무 마감일이 다가올 때"
+      - "뉴스에서 안 좋은 소식을 접할 때"
+    alleviating: "특별히 없음. 잠시 TV에 집중하면 괜찮아지는 듯하다가 다시 불안해짐."
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "사무직 (대리)"
+    stress: "업무 스트레스가 많다고 느낌"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1캔"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "어머니가 예민하고 걱정이 많은 편이라고 들음."
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "전반적으로 불안한 표정이며, 면담 내내 손을 만지작거림."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist and pink"
+  chest: "clear breath sounds without wheezing or rale"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic sound"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      diffuse mild epigastric tenderness: true
+  cvat: "좌/우 음성"
+  extremity: "no pitting edema, fine tremor of hands noted"
+standardized_patient_questions: "이게 병인가요? 그냥 제가 예민한 거 아닌가요? 약을 꼭 먹어야 하나요?"
+specific_remarks: "환자는 초조한 듯 다리를 떨거나 손을 만지작거리는 모습을 보인다. 질문에 대답할 때 미간을 찌푸리며 걱정스러운 표정을 짓는다. 자신의 증상이 심각한 병일까 봐 걱정하는 모습을 보인다."

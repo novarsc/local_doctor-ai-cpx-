@@ -1,0 +1,114 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (기관지확장증)"
+patient_info:
+  name: "박선우"
+  age: 48
+  sex: "여성"
+  presenting_complaint: "반복되는 기침과 객혈"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기관지확장증"
+    - "폐결핵"
+    - "폐암"
+  necessary_tests:
+    - "흉부 X-ray"
+    - "고해상도 흉부 CT (HRCT)"
+    - "객담 도말 및 배양 검사 (일반세균, 항산균 포함)"
+  necessary_treatments:
+    - "항생제 치료 (급성 악화 시)"
+    - "기관지 확장제 및 거담제"
+    - "정기적인 경과 관찰 및 폐렴구균 예방접종"
+history:
+  sex_age: "여성/48"
+  chief_complaint_verbatim: "10년 전부터 기침, 가래가 계속 있었는데, 1주일 전부터는 기침할 때 피가 꽤 많이 섞여 나와서 왔어요."
+  onset: "객혈은 1주일 전부터, 만성적인 기침/가래는 10년 이상"
+  location:
+    initial: "가슴 전체적인 답답함"
+    current: "가슴 전체적인 답답함"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 1주간 객혈 양이 조금씩 늘어나는 양상"
+  course: "수년간 기침, 다량의 화농성 가래가 반복되었고, 감기에 걸리면 증상이 심해져 항생제 치료를 받은 적이 여러 번 있음. 객혈은 이번이 세 번째임."
+  experience_prev_episodes:
+    frequency: "객혈은 2~3년에 한 번씩"
+    trigger: "감기나 과로 후"
+    symptoms: "많은 양의 누런 가래와 함께 선홍색 피가 섞여 나옴"
+  character_of_symptom:
+    quality: "기침 시 선홍색 피가 덩어리져서 섞여 나옴"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침에 일어났을 때"
+      - "감기 기운이 있을 때"
+    alleviating: "가래를 모두 뱉어내고 나면 일시적으로 편해짐"
+  health_check_history:
+    last_checkup: "2년 전 국가검진"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "어릴 때 홍역, 백일해를 심하게 앓았다고 들었음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "증상 심할 때마다 동네 의원에서 항생제, 거담제 처방받아 복용"
+    source: "지역 의원"
+    effect: "일시적인 호전"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 2주 전, 주기 규칙적"
+physical_exam:
+  general: "만성 병색을 보이나 급성 통증은 없어 보임"
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "양쪽 폐하엽에서 수포음(crackles) 청진됨. 특히 왼쪽 폐하엽에서 더 뚜렷함. 호기 시 약간의 쌕쌕거림(wheezing) 동반됨."
+  abdomen:
+    inspection: "flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "곤봉지(clubbing) 관찰됨. 부종 없음."
+standardized_patient_questions: "이거 위험한 병인가요? 암은 아니겠죠? 자꾸 피가 나니까 너무 불안해요."
+specific_remarks: "만성적인 기침과 가래에 익숙하지만 객혈 때문에 불안해하는 모습을 연기. 진찰 시 기침을 하면서 휴지에 가래를 뱉는 시늉을 해도 좋음."

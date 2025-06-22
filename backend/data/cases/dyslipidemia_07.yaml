@@ -1,0 +1,107 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (신증후군에 의한 이차성 이상지질혈증)"
+patient_info:
+  name: "김민서"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "일주일 전부터 심해진 양쪽 다리 부종"
+vital_signs:
+  blood_pressure: "140/95mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신증후군 (Nephrotic syndrome)"
+    - "심부전"
+    - "간경화"
+  necessary_tests:
+    - "소변검사 (24시간 단백뇨 정량검사 포함)"
+    - "혈액검사 (알부민, 지질 프로필, 신장기능검사 포함)"
+    - "필요시 신장 조직검사"
+  necessary_treatments:
+    - "원인 질환에 대한 치료 (면역억제제 등)"
+    - "부종 조절 (이뇨제, 저염식이)"
+    - "합병증 관리 (고혈압, 고지혈증 약물치료)"
+history:
+  sex_age: "여성/35"
+  chief_complaint_verbatim: "일주일 전부터 다리가 붓기 시작하더니 이제는 손으로 누르면 쑥 들어가서 안 나와요. 아침에는 얼굴도 붓고, 소변에 거품이 너무 많이 나와요."
+  onset: "약 1주일 전"
+  location:
+    initial: "양쪽 발목"
+    current: "양쪽 정강이까지"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "부종이 점점 위로 올라오고 심해짐"
+  course: "아침에 일어났을 때 얼굴과 눈 주위가 특히 많이 부음 (periorbital edema)"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "함몰 부종"
+    nrs_score: "0 (통증은 없음)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false # 부종으로 인해 체중은 5kg 증가
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "거품이 많아짐 (foamy urine)"
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: "소변량이 좀 줄어든 것 같음"
+  factors:
+    aggravating:
+      - "오래 서 있거나 앉아 있을 때"
+    alleviating: "다리를 올리고 있으면 약간 나아짐"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "디자이너"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 1회 필라테스"
+    recent_weight_change: "최근 1주간 5kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 3주 전, 규칙적"
+physical_exam:
+  general: "전신이 부어있는 모습. 얼굴, 특히 눈 주위 부종이 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음은 깨끗함. 심음 정상."
+  abdomen: "부드럽고 압통 없음. 복수 여부 확인 필요."
+  cvat: "좌/우 음성"
+  extremity: "양쪽 정강이까지 심한 함몰 부종 (pitting edema +++) 관찰됨."
+standardized_patient_questions: "왜 이렇게 몸이 붓는 거죠? 콩팥에 문제가 생긴 건가요? 콜레스테롤이 높다는 건 무슨 말이에요? 저는 기름진 것도 잘 안 먹는데..."
+specific_remarks: "소변에 거품이 비누를 풀어놓은 것처럼 많이 생긴다고 구체적으로 묘사한다. 숨이 차거나 기침은 없다고 말하여 심부전 가능성을 낮춘다."

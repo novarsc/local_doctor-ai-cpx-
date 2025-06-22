@@ -1,0 +1,118 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (급성 세균성 수막염, Acute Bacterial Meningitis)"
+patient_info:
+  name: "박서준"
+  age: 19
+  sex: "남성"
+  presenting_complaint: "열이 나고 머리가 아프면서 정신이 오락가락함"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "120회/분"
+  respiration: "22회/분"
+  temperature: "39.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자 및 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 세균성 수막염"
+    - "바이러스성 뇌수막염"
+    - "뇌농양"
+  necessary_tests:
+    - "뇌척수액 검사 (요추 천자)"
+    - "혈액 배양 검사"
+    - "뇌 CT 또는 MRI (뇌압 상승 소견 확인 후 요추 천자 시행)"
+  necessary_treatments:
+    - "경험적 항생제 정맥 주사 (즉시 시작)"
+    - "뇌압 강하제 (필요시)"
+    - "수액 및 해열제"
+history:
+  sex_age: "남성/19세"
+  chief_complaint_verbatim: "어제 저녁부터 열이 펄펄 끓고 머리가 깨질 듯이 아프다고 하더니, 오늘 아침부터는 헛소리를 하고 잠만 자려고 해요."
+  onset: "어제 저녁"
+  location:
+    initial: "머리 전체"
+    current: "머리 전체, 목 뒤"
+  duration:
+    onset_pattern: "급격히 발생"
+    recent_course: "급속도로 악화"
+  course: "어제 저녁 갑자기 39도의 고열과 함께 두통, 오한이 시작됨. 시중의 해열제를 먹어도 호전 없었음. 오늘 아침부터는 빛을 보면 눈이 부시다고 하고, 목이 뻣뻣해서 움직이기 힘들다고 함. 점차 의식이 흐려지고 불러도 겨우 눈만 뜨는 상태가 되어 내원."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "터질듯한 두통, 의식 혼탁"
+    nrs_score: 9
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "수 차례 분출성 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "빛을 볼 때 (광선 공포증)"
+      - "소음"
+      - "머리를 움직일 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "고등학교 입학 신체검사"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음. 현재 대학교 기숙사 생활 중."
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Acetaminophen (시중 판매약)"
+    source: "약국"
+    effect: "효과 없었음"
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "농구 동아리 활동"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "의식은 졸린 상태(lethargic). 자극에만 겨우 반응함. 전신에 자반(purpura)으로 의심되는 피부 병변이 일부 보임."
+  heent:
+    sclera: "충혈됨."
+    oral_mucosa: "건조함."
+    # 경부 강직(nuchal rigidity) 양성
+  chest: "호흡이 빠르고 심박수가 빠름."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상."
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # Kernig's sign 양성
+      # Brudzinski's sign 양성
+  cvat: "좌/우 음성"
+  extremity: "특이 소견 없음."
+standardized_patient_questions: "우리 애가 왜 이러는 거죠? 그냥 심한 감기몸살인 줄 알았는데... 뇌에 문제가 생긴 건가요? 위험한가요?"
+specific_remarks: "환자는 거의 대화가 불가능하며 고통스러운 표정으로 누워 있는다. 목을 앞으로 숙이려고 하면 심한 통증을 호소하며 저항한다 (경부 강직). 무릎을 굽힌 상태에서 다리를 펴려고 하면 심한 통증과 함께 저항이 있다(Kernig's sign). 목을 굽히면 무릎이 저절로 굽혀진다(Brudzinski's sign)."

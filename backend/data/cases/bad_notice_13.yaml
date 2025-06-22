@@ -1,0 +1,114 @@
+---
+chapter: "상담"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (만성 골수성 백혈병, CML)"
+patient_info:
+  name: "이지은"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "건강검진 혈액검사 이상 소견 상담"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "환자는 최근 건강검진에서 백혈구 수치 증가(120,000/μL)와 비장 비대 소견이 발견되어 정밀 검사를 위해 내원했습니다. 골수검사 및 유전자 검사를 시행했으며, 오늘 그 결과를 듣기 위해 방문했습니다. 첨부된 결과지(골수 내 과형성, BCR-ABL1 유전자 양성)를 바탕으로, 환자에게 만성 골수성 백혈병 진단을 알리고 치료 계획(표적항암제)에 대해 설명하십시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 골수성 백혈병 (CML)"
+    - "만성 골수단핵구성 백혈병 (CMML)"
+    - "백혈병양 반응 (Leukemoid reaction)"
+  necessary_tests:
+    - "BCR-ABL1 정량 PCR (치료 반응 모니터링 목적)"
+    - "심전도 및 심장 기능 평가 (표적항암제 부작용 대비)"
+    - "B형 간염 등 바이러스 검사 (치료 전 확인)"
+  necessary_treatments:
+    - "티로신 키나아제 억제제 (TKI, 예: 이매티닙) 경구 투여"
+    - "정기적인 혈액검사 및 유전자 검사를 통한 치료 반응 평가"
+    - "평생 약물 복용의 중요성에 대한 교육"
+history:
+  sex_age: "여성/45세"
+  chief_complaint_verbatim: "건강검진에서 피검사가 이상하다고 해서 왔어요. 백혈병일 수도 있다는데, 정말인가요?"
+  onset: "인지하지 못함"
+  location:
+    initial: ""
+    current: ""
+  duration:
+    onset_pattern: "무증상"
+    recent_course: ""
+  course: "최근 몇 달간 피로감이 심하고 왼쪽 윗배가 더부룩한 느낌이 있었지만, 바빠서 그런 줄로만 알았습니다. 건강검진에서 백혈구 수치가 매우 높다고 해서 놀랐습니다. 다른 특별한 증상은 없었습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "경미한 피로감, 복부 불편감"
+    nrs_score: "2"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후 (복부 불편감)"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2주 전 (이번 검진)"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합 비타민"
+    source: "자가 구매"
+    effect: ""
+  social_history:
+    job: "고등학교 교사"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 1회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "겉보기에는 건강해 보이나, 약간 불안한 기색."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 비장이 늑골 하연 4cm 아래에서 촉진됨 (Splenomegaly)
+  cvat: "양측 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "백혈병... 그럼 저 죽는 건가요? 드라마에서 보면 머리 다 빠지고 그러던데... 약만 먹으면 괜찮아질 수 있다는 게 정말인가요? 약을 평생 먹어야 한다고요?"
+specific_remarks: "환자는 '백혈병'이라는 단어에서 죽음과 고통스러운 항암치료를 연상하고 극심한 공포를 느낀다. 표적항암제라는 새로운 치료법에 대해 잘 이해하지 못하고, '약만 먹으면 된다'는 말을 믿기 어려워하며 반복적으로 확인한다. 완치가 아니라 '평생 관리'해야 하는 만성질환이라는 개념을 받아들이는 데 시간이 걸린다. 좋은 예후에 안도하면서도 평생 약을 먹어야 한다는 사실에 부담감을 느낀다."

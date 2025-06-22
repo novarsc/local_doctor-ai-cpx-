@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (안정형 협심증, Stable Angina)"
+patient_info:
+  name: "이영식"
+  age: 62
+  sex: "남성"
+  presenting_complaint: "운동 시 반복되는 가슴 통증"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "78회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "안정형 협심증"
+    - "근골격계 통증"
+    - "위식도 역류질환"
+  necessary_tests:
+    - "운동부하 심전도 검사"
+    - "심장초음파"
+    - "필요시 관상동맥 CT 또는 조영술"
+  necessary_treatments:
+    - "생활습관 교정 (금연, 운동, 식이요법)"
+    - "항혈소판제, 베타차단제, 스타틴 등 약물 치료"
+    - "니트로글리세린 설하정 비상약으로 처방"
+history:
+  sex_age: "남성/62세"
+  chief_complaint_verbatim: "석 달 전부터 아파트 뒷산에 오를 때면 가슴이 뻐근하게 아파요. 꼭 같은 지점에서 아프고, 좀 쉬면 괜찮아져요."
+  onset: "3개월 전"
+  location:
+    initial: "가슴 중앙"
+    current: "가슴 중앙"
+  duration:
+    onset_pattern: "예측 가능하게 발생 (운동 시)"
+    recent_course: "통증의 강도나 빈도가 거의 비슷함"
+  course: "등산을 시작하고 10분 정도 지나 오르막길을 오를 때 발생. 5분 정도 쉬면 완전히 사라짐."
+  experience_prev_episodes:
+    frequency: "등산할 때마다 (주 2회)"
+    trigger: "오르막길 오르기, 빨리 걷기"
+    symptoms: "가슴 중앙이 뻐근하고 조이는 느낌"
+  character_of_symptom:
+    quality: "뻐근한, 조이는"
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "운동 (특히 오르막)"
+      - "무거운 물건 들고 걷기"
+    alleviating: "휴식 (5분 이내 호전)"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "경미한 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 (5년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "메트포르민"
+    source: "내과"
+    effect: "혈당 조절 잘 됨"
+  social_history:
+    job: "경비원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "10년 전 금연 (과거 30갑년)"
+    exercise: "주 2회 등산"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "안정 시에는 편안해 보임"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "심음 및 호흡음 정상. 흉벽 압통 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "나이 들어서 그런 건가요? 아니면 위가 안 좋아서 그런 걸까요? 운동을 계속 해도 될까요?"
+specific_remarks: "통증이 현재는 없으므로 편안한 상태로 연기한다. 통증의 예측 가능한 양상(언제, 얼마나 아프고 어떻게 하면 낫는지)을 명확하게 설명한다."

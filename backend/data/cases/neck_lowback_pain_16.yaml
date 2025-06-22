@@ -1,0 +1,118 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (척추 결핵 - 포트병)"
+patient_info:
+  name: "김영수"
+  age: 34
+  sex: "남성"
+  presenting_complaint: "수개월간 지속되는 허리 통증과 식은땀"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "37.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "척추 결핵 (Pott's disease)"
+    - "화농성 척추염"
+    - "척추 종양"
+  necessary_tests:
+    - "척추 MRI 및 CT"
+    - "혈액 검사 (ESR, CRP, IGRA)"
+    - "CT 유도 하 조직 검사 및 배양 (결핵균 확인)"
+    - "흉부 X선 검사"
+  necessary_treatments:
+    - "항결핵제 병합 요법 (장기간 복용)"
+    - "안정 및 보조기 착용"
+    - "신경 압박 또는 척추 변형 심할 경우 수술적 치료"
+history:
+  sex_age: "남성/34세"
+  chief_complaint_verbatim: "몇 달째 허리가 계속 아프고, 밤에 잘 때 식은땀이 나면서 살도 빠지는 것 같아요. 기운도 하나도 없고요."
+  onset: "약 4개월 전"
+  location:
+    initial: "허리"
+    current: "허리 특정 부위"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점점 악화됨"
+  course: "처음에는 단순한 요통인 줄 알았으나, 시간이 지나도 나아지지 않고 통증이 심해짐. 특히 밤에 더 아픔. 최근 2개월간 체중이 많이 줄고, 오후가 되면 미열이 오르는 느낌이 듦."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "지속적이고 둔한 통증"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+      - "밤에"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "기억 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특별한 기저질환 없음."
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제"
+    source: "약국"
+    effect: "효과 미미"
+  social_history:
+    job: "편의점 아르바이트"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "없음"
+    exercise: "하지 않음"
+    recent_weight_change: "4개월간 6kg 감소"
+  family_history: "할아버지가 과거 결핵을 앓으셨음."
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색, 창백하고 야윈 모습."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, scaphoid"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      point_tenderness: "요추 상부(L1-L2) 극돌기 부위에 심한 압통"
+      spinal_deformity: "허리를 숙였을 때 해당 부위가 각지게 튀어나와 보임 (gibbus deformity)."
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 특이 소견 없음."
+standardized_patient_questions: "허리가 아픈데 왜 살이 빠지고 열이 나나요? 그냥 디스크가 아닌 건가요? 혹시 큰 병인가요?"
+specific_remarks: "만성적인 경과와 전신 증상(미열, 야간 발한, 체중 감소, 식욕 부진)을 강조해야 함. 특히 결핵의 전형적인 B 증상을 명확히 설명할 것. 진찰 시 허리의 특정 부위가 툭 튀어나와 보이는 '후만 변형(gibbus)'을 묘사하고, 그 부위를 누를 때 아프다고 반응해야 함. 전반적으로 기운이 없고 아파 보이는 모습을 연기해야 함."

@@ -1,0 +1,111 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (특발성 과다수면증)"
+patient_info:
+  name: "백수진"
+  age: 26
+  sex: "여성"
+  presenting_complaint: "잠을 많이 자도 계속 졸림"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "70회/분"
+  respiration: "14회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "특발성 과다수면증 (Idiopathic Hypersomnia)"
+    - "기면증 2형 (Narcolepsy type 2)"
+    - "만성피로증후군 또는 갑상선기능저하증"
+  necessary_tests:
+    - "수면다원검사(PSG) 및 다중수면잠복기검사(MSLT)"
+    - "활동기록기(Actigraphy) (24시간 총 수면시간 확인)"
+    - "혈액검사 (갑상선 기능, 빈혈, 염증 수치 등)"
+  necessary_treatments:
+    - "정신자극제 (모다피닐, 메틸페니데이트)"
+    - "생활습관 관리 (엄격한 수면-기상 시간)"
+    - "카페인 등 각성 효과 물질의 전략적 사용"
+history:
+  sex_age: "여성/26"
+  chief_complaint_verbatim: "밤에 10시간을 넘게 자도 아침에 일어나기가 너무 힘들고, 낮에도 계속 졸려요. 알람을 10개를 맞춰놔도 못 들어요."
+  onset: "20대 초반부터"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "취업 준비를 시작하면서 증상의 심각성을 느낌"
+  course: "대학생 때부터 잠이 많다고 생각했음. 주말에는 12-14시간씩 자고도 개운하지 않음. 아침에 잠에서 깨어나도 한두 시간은 술 취한 사람처럼 몽롱하고 정신을 못 차림(수면 관성). 낮잠을 1-2시간씩 자도 전혀 개운하지 않고 오히려 더 피곤함. 웃거나 화낼 때 힘이 빠지는 증상(탈력발작)은 없음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "장시간의 야간 수면에도 불구하고 지속되는 주간 졸림, 매우 심한 수면 관성(sleep inertia), 상쾌하지 않은 낮잠"
+    nrs_score: "8 (졸림의 정도)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별한 요인 없음, 항상 졸림"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "취업준비생"
+    stress: "취업에 대한 스트레스가 많음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 2회 스터디 그룹 가는 것 외 활동 거의 없음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 3주 전, 규칙적"
+physical_exam:
+  general: "전반적으로 졸려 보이고 반응이 약간 느림"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "제가 그냥 게으른 걸까요? 왜 이렇게 잠이 많죠? 치료하면 아침에 벌떡 일어날 수 있나요?"
+specific_remarks: "환자는 기면증과의 감별에 중요한 '탈력발작'이 없다는 점, 그리고 낮잠이 '상쾌하지 않다'는 점을 명확히 진술해야 한다. 아침에 일어나기 극도로 힘든 '수면 관성' 또는 '수면酩酊(sleep drunkenness)' 증상을 '술 취한 것 같다', '정신이 안 든다' 등으로 구체적으로 표현한다."

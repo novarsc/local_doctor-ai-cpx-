@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (조현정동장애)"
+patient_info:
+  name: "조현우"
+  age: 26
+  sex: "남성"
+  presenting_complaint: "기분이 들쭉날쭉하고 이상한 말이 들림"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "조현정동장애 (Schizoaffective Disorder)"
+    - "조현병 (Schizophrenia)"
+    - "정신병적 증상을 동반한 양극성장애"
+  necessary_tests:
+    - "정신상태 검사 (MSE)"
+    - "소변 약물 스크리닝 검사"
+    - "뇌 영상 검사 (Brain CT/MRI) 및 뇌파 검사 (EEG) - 기질적 원인 배제"
+  necessary_treatments:
+    - "항정신병 약물과 기분조절제 병용 치료"
+    - "정신사회적 재활 치료 (사회기술훈련, 가족교육 등)"
+    - "위기 시 입원 치료 고려"
+history:
+  sex_age: "남성/26세"
+  chief_complaint_verbatim: "어떨 땐 기분이 너무 좋아서 뭐든 할 수 있을 것 같은데, 또 어떨 땐 세상이 끝난 것처럼 우울해요. 그리고 가끔 누가 저한테 말을 거는 소리가 들려요."
+  onset: "약 2년 전부터"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 증상 악화로 사회생활이 어려워짐"
+  course: "2년 전부터 기분 변화가 시작됨. 몇 주간 잠을 안자도 기운이 넘치고 과대하게 행동하는 시기(조증 삽화)가 있다가, 또 몇 주간은 극심한 우울감과 무기력에 빠지는 시기(주요 우울 삽화)가 반복됨. 중요한 점은, 기분이 정상인 기간에도 '사람들이 나를 감시한다'는 피해망상이나 '너는 쓸모없다'고 비난하는 환청이 2주 이상 지속된 적이 있다는 것이다. 최근 환청과 망상이 심해져 내원함."
+  experience_prev_episodes:
+    frequency: "수차례 있었음"
+    trigger: "불분명"
+    symptoms: "조증, 우울증, 환청, 망상"
+  character_of_symptom:
+    quality: "심한 기분 변화와 동반되는 정신병적 증상 (환청, 피해망상)"
+    nrs_score: "9"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "약물 복용을 중단했을 때"
+    alleviating: "과거 약물 복용 시 다소 호전되었었음"
+  health_check_history:
+    last_checkup: "N/A"
+    endoscopy_finding: "N/A"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "1년 전 '양극성장애'로 진단받고 약물치료 하다가 임의로 중단함"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "리스페리돈, 발프로산 (현재는 복용 안함)"
+    source: "정신건강의학과"
+    effect: "복용 시 증상이 다소 안정되었으나, 살이 찌고 멍해서 중단함"
+  social_history:
+    job: "무직 (대학 휴학 중)"
+    stress: "질병으로 인한 스트레스가 높음"
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "과거 약물 복용 시 10kg 증가했었음"
+  family_history: "외삼촌이 조현병으로 치료 중"
+  female_history: "N/A"
+physical_exam:
+  general: "전반적으로 위축되어 있고, 혼란스러워 보임. 면담 중 허공을 응시하거나 혼잣말을 하는 모습이 간헐적으로 관찰됨. 현재는 우울 삽화 상태로 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "제가 들리는 소리는 진짜가 아닌가요? 제 머릿속이 어떻게 된 것 같아요. 약 말고 다른 방법은 없나요?"
+specific_remarks: "환자의 병력 청취 시, 기분 삽화(조증/우울)와 정신병적 증상(환청/망상)의 시간적 관계를 파악하는 것이 중요함. '기분은 괜찮은데 이상한 소리가 들렸던 때'가 있었는지 구체적으로 질문해야 함. 현재는 우울하고 무기력한 모습을 보이지만, 과거 조증 시기의 행동(과소비, 과대망상 등)에 대해서도 진술할 수 있어야 함."

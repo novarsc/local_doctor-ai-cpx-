@@ -1,0 +1,118 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "18"
+title: "실전 모의 증례 (다발성 골수종)"
+patient_info:
+  name: "조덕배"
+  age: 67
+  sex: "남성"
+  presenting_complaint: "최근 몇 달간 지속되는 허리 통증과 피로감"
+vital_signs:
+  blood_pressure: "150/90mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "다발성 골수종 (Multiple myeloma)"
+    - "전이성 척추 종양"
+    - "골다공증성 압박 골절"
+  necessary_tests:
+    - "혈액/소변 단백 전기영동 검사 (M-protein 확인)"
+    - "혈액 검사 (CBC, 칼슘, 신장 기능 검사)"
+    - "골수 검사"
+    - "전신 X선 검사 (skeletal survey)"
+  necessary_treatments:
+    - "항암 화학 요법"
+    - "조혈모세포 이식"
+    - "비스포스포네이트 (뼈 병변 치료)"
+    - "방사선 치료 (통증 조절)"
+history:
+  sex_age: "남성/67세"
+  chief_complaint_verbatim: "허리가 계속 쑤시고 아파요. 요즘엔 기운도 없고 조금만 걸어도 숨이 차네요. 뼈가 약해졌나 봐요."
+  onset: "약 3-4개월 전"
+  location:
+    initial: "허리"
+    current: "허리, 갈비뼈"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점점 악화됨"
+  course: "처음에는 단순 요통으로 생각하고 파스를 붙였으나 호전이 없었음. 통증이 갈비뼈 쪽으로도 번졌고, 최근에는 가만히 있어도 쑤시는 통증이 있음. 기운이 없고 어지러운 증상이 동반됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "뼈 속이 쑤시는 듯한 깊은 통증"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+    alleviating: "진통제 복용 시 약간 호전"
+  health_check_history:
+    last_checkup: "2년 전, 신장 기능이 약간 나쁘다고 들음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 만성 신부전 초기"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "내과"
+    effect: "복용 중"
+  social_history:
+    job: "은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "30년 전 금연"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "3개월간 4kg 감소"
+  family_history: "없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색, 안색이 창백함."
+  heent:
+    sclera: "anicteric"
+    conjunctiva: "pale"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      point_tenderness: "요추 및 흉곽(갈비뼈)을 누를 때 여러 부위에서 압통 호소"
+  cvat: "좌우 음성"
+  extremity: "특이 소견 없음."
+standardized_patient_questions: "나이 들어서 그냥 뼈마디가 쑤시는 건 줄 알았는데, 왜 이렇게 기운이 없죠? 빈혈이 있나요? 큰 병일까 봐 걱정돼요."
+specific_remarks: "CRAB (HyperCalcemia, Renal failure, Anemia, Bone lesions) 증상을 암시하는 단서를 제공해야 함. 즉, 갈증과 변비(고칼슘혈증 암시), 이전의 신장 기능 저하 병력(신기능 장애), 피로감과 어지럼증(빈혈), 뼈 통증(골 병변)을 모두 호소해야 함. 진찰 시 허리, 갈비뼈 등 여러 곳을 누를 때 아프다고 반응하여 광범위한 골 통증을 표현해야 함."

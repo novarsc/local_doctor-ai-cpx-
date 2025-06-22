@@ -1,0 +1,114 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (비알코올성 지방간 - 이상지질혈증 동반)"
+patient_info:
+  name: "강진우"
+  age: 44
+  sex: "남성"
+  presenting_complaint: "건강검진에서 지방간과 간수치 상승 소견"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비알코올성 지방간 질환 (NAFLD)"
+    - "대사 증후군의 간 발현"
+    - "바이러스성 간염 또는 약물성 간손상 (감별 필요)"
+  necessary_tests:
+    - "혈액검사 (간기능검사, 지질 프로필, 당뇨검사, 바이러스 간염 표지자)"
+    - "복부 초음파 재시행 또는 간 섬유화 스캔 (Fibroscan)"
+    - "생활습관에 대한 심층 문진"
+  necessary_treatments:
+    - "가장 중요한 치료는 체중 감량 (5-10% 목표)"
+    - "식이요법 (탄수화물 및 포화지방 섭취 제한) 및 규칙적인 유산소 운동"
+    - "동반된 이상지질혈증, 당뇨, 고혈압의 적극적인 관리"
+history:
+  sex_age: "남성/44"
+  chief_complaint_verbatim: "얼마 전 받은 건강검진에서 지방간이 심하고 간수치가 높다고 나왔어요. 저는 술도 거의 안 마시는데 왜 그런지 모르겠어요."
+  onset: "해당 없음 (검진 결과 이상)"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "해당 없음"
+    recent_course: "해당 없음"
+  course: "가끔 오른쪽 윗배가 뻐근하고 피곤한 느낌은 있었지만, 대수롭지 않게 생각했음"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "뻐근한 불편감 (dull discomfort)"
+    nrs_score: "2"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "기름진 음식을 먹고 나면 더부룩함"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1개월 전"
+    endoscopy_finding: "검진 결과: 복부초음파-중등도 지방간, AST/ALT 65/88, 중성지방 280, 공복혈당 110"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "IT 회사 팀장"
+    stress: "심함"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1회 미만"
+      amount: "맥주 1-2잔 (사교적으로)"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "10년 전 금연"
+    exercise: "거의 하지 않음. 앉아서 일하는 시간이 대부분."
+    recent_weight_change: "최근 2-3년간 12kg 증가"
+  family_history: "어머니 당뇨, 아버지 고혈압"
+  female_history: "해당 없음"
+physical_exam:
+  general: "복부 비만이 있는 과체중 남성."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "정상"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "복부 팽만"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: true # Mild tenderness
+      rebound_tenderness_rlq: false
+      # 간이 약간 비대해져 있고(hepatomegaly), 우상복부 압통이 약간 있음
+  cvat: "좌/우 음성"
+  extremity: "함몰 부종 없음"
+standardized_patient_questions: "지방간은 그냥 놔둬도 되는 거 아닌가요? 간경화나 간암으로도 갈 수 있나요? 술도 안 마시는데 왜 콜레스테롤이 높고 지방간이 생기는지 이해가 안 가요."
+specific_remarks: "자신은 술을 거의 마시지 않는다는 점을 여러 번 강조한다. '지방간'이라는 진단명을 가볍게 생각하는 경향을 보이다가, 간경화 등 심각한 질환으로 진행될 수 있다는 설명을 들으면 태도가 심각하게 바뀐다."

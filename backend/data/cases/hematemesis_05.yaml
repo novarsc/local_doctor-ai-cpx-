@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (듀라포이 병변)"
+patient_info:
+  name: "정수현"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "자다가 갑자기 피를 대량으로 토함"
+vital_signs:
+  blood_pressure: "90/55mmHg"
+  pulse: "130회/분"
+  respiration: "22회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "듀라포이 병변 (Dieulafoy's lesion) 출혈"
+    - "출혈성 위궤양"
+    - "식도 정맥류 출혈"
+  necessary_tests:
+    - "응급 상부위장관 내시경"
+    - "일반 혈액 검사 및 혈액형 교차반응 검사"
+    - "필요시 혈관 조영술"
+  necessary_treatments:
+    - "즉각적인 혈역학적 안정 (수액, 수혈)"
+    - "내시경적 지혈술 (기계적 지혈, 열 소작술 등)"
+    - "내시경 실패 시 혈관 조영술을 통한 색전술 또는 수술적 치료"
+history:
+  sex_age: "여성/45세"
+  chief_complaint_verbatim: "자다가 갑자기 속이 메스꺼워서 깼는데, 화장실 가서 엄청나게 많은 양의 피를 토했어요. 복통은 전혀 없었어요."
+  onset: "1시간 전"
+  location:
+    initial: "통증 없음"
+    current: "통증 없음"
+  duration:
+    onset_pattern: "아무런 예고 없이 갑자기 발생"
+    recent_course: "피를 토한 후 계속 어지럽고 식은땀이 남"
+  course: "1시간 전 수면 중 갑작스러운 오심을 느껴 깼고, 직후 대량의 선홍색 혈액을 구토함. 복통이나 속쓰림 등의 전조 증상은 전혀 없었음."
+  experience_prev_episodes:
+    frequency: "6개월 전에 비슷한 경험이 한 번 있었음"
+    trigger: "특별한 유발 요인 없었음"
+    symptoms: "당시에도 갑자기 소량의 피를 토했으나, 응급실 도착 후에는 출혈이 멈춰서 위염 약만 타서 귀가함."
+  character_of_symptom:
+    quality: "통증 없음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "다량의 선홍색 혈액"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전 국가검진"
+    endoscopy_finding: "특이 소견 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "페니실린 알러지"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "사무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "월경 주기 규칙적임"
+physical_exam:
+  general: "급성 병색. 매우 창백하고 불안해하며 식은땀을 흘림."
+  heent:
+    sclera: "매우 창백함"
+    oral_mucosa: "건조함"
+  chest: "심음이 매우 빠르고 약함. 호흡음은 정상."
+  abdomen:
+    inspection: "편평하고 부드러움"
+    auscultation: "장음 정상"
+    percussion: "정상 공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: false
+      epigastric_rebound_tenderness: false
+  cvat: "좌우 음성"
+  extremity: "손발이 차고 축축함. 맥박이 약하게 촉지됨."
+standardized_patient_questions: "아무렇지도 않았는데 왜 갑자기 피를 토한 거죠? 몸속에 무슨 문제가 생긴 건가요? 너무 무서워요."
+specific_remarks: "복통이 없다는 점을 반복해서 강조한다. 혈압이 낮아 매우 어지럽고 힘들어하는 연기를 한다. 갑작스러운 대량 출혈에 대한 극심한 공포와 불안을 표현한다."

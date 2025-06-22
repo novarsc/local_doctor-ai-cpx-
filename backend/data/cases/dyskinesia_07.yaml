@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (윌슨병)"
+patient_info:
+  name: "김민준"
+  age: 24
+  sex: "남성"
+  presenting_complaint: "손이 떨리고 말이 어눌해짐"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "윌슨병"
+    - "초기 발현 파킨슨병"
+    - "간성 뇌병증"
+  necessary_tests:
+    - "안과적 세극등 검사 (Kayser-Fleischer ring 확인)"
+    - "혈액 검사 (혈중 세룰로플라스민, 구리 농도, 간 기능)"
+    - "24시간 소변 구리 배출량 검사"
+  necessary_treatments:
+    - "구리 킬레이트제 (페니실라민, 트리엔틴) 또는 아연염 투여"
+    - "저구리 식이요법"
+    - "간 이식 (진행된 간경변 시)"
+history:
+  sex_age: "남성/24세"
+  chief_complaint_verbatim: "일 년 전부터 글씨 쓰기가 힘들어지고 손이 떨리기 시작했어요. 최근에는 말도 어눌해지고, 자꾸 넘어지고, 성격도 변했다는 소리를 들어요."
+  onset: "약 1년 전"
+  location:
+    initial: "오른손"
+    current: "양손, 발음, 보행"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 3개월간 급격히 악화"
+  course: "미세한 손떨림으로 시작하여 파킨슨병처럼 행동이 느려지고, 구음장애, 보행장애로 진행됨. 감정 기복이 심해지고 충동적인 모습을 보임."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "날갯짓 떨림(wing-beating tremor), 뻣뻣함"
+    nrs_score: "불편감 8점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "가끔 콜라색 소변을 봄"
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "긴장할 때"
+      - "팔을 특정 자세로 유지할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "고등학교 졸업 후 없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "10대 시절 원인 불명의 황달 및 간수치 상승 있었음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생 (휴학 중)"
+    stress: "증상과 학업 문제로 높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "부모님이 사촌 관계"
+  female_history: ""
+physical_exam:
+  general: "구음장애가 심하며, 다소 부자연스러운 웃는 듯한 표정(risus sardonicus)을 보임. 전반적으로 움직임이 느리고 뻣뻣함."
+  heent:
+    sclera: "Icteric하지 않음. 펜라이트로 각막 가장자리를 자세히 보면 황갈색의 고리(Kayser-Fleischer ring)가 의심됨."
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양팔을 앞으로 뻗거나 옆으로 벌린 자세를 유지하게 했을 때, 크고 느린 날갯짓 모양의 떨림(wing-beating tremor) 관찰됨. 근긴장이상(dystonia) 및 파킨슨증 양상의 경직과 서동이 동반됨."
+standardized_patient_questions: "젊은 나이에 왜 이런 병이 생긴 거죠? 그냥 파킨슨병이랑은 다른 건가요? 예전처럼 다시 학교에 다닐 수 있을까요? 치료는 가능한가요?"
+specific_remarks: "환자는 신경학적 증상과 함께 정신과적 증상(감정 불안, 충동성)을 함께 표현해야 한다. 신체 진찰 시, 특히 팔을 특정 자세로 유지하라고 할 때 특징적인 날갯짓 떨림을 과장되게 연기하는 것이 중요하다. '부모님이 사촌'이라는 가족력을 무심코 말하는 것이 진단에 중요한 단서가 된다."

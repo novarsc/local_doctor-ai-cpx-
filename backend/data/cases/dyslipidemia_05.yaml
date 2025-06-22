@@ -1,0 +1,107 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (스타틴 유발 근병증)"
+patient_info:
+  name: "박선영"
+  age: 62
+  sex: "여성"
+  presenting_complaint: "최근 시작된 전신 근육통"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "스타틴 유발 근병증 (Statin-induced myopathy)"
+    - "바이러스성 근육염"
+    - "류마티스성 다발근통 (PMR)"
+  necessary_tests:
+    - "혈액검사 (CK, AST/ALT, ESR/CRP)"
+    - "소변검사 (Myoglobin 확인)"
+    - "원인 약물 중단 후 증상 변화 관찰"
+  necessary_treatments:
+    - "원인 약물인 스타틴 즉시 중단"
+    - "충분한 휴식 및 수분 섭취"
+    - "증상 호전 후 다른 계열의 고지혈증 약으로 변경 고려"
+history:
+  sex_age: "여성/62"
+  chief_complaint_verbatim: "한 달 전부터 온몸의 근육이 쑤시고 아파요. 특히 허벅지랑 어깨 쪽이 심해서 계단 오르내리기가 힘들어요."
+  onset: "약 1개월 전"
+  location:
+    initial: "양쪽 허벅지, 어깨"
+    current: "전신으로 퍼진 느낌"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점점 심해져서 일상생활이 불편함"
+  course: "특별한 활동 없이도 지속적으로 쑤시고 뻐근함"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "쑤시고 뻐근한 통증"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "최근 소변 색이 콜라색 비슷하게 좀 진해진 것 같아요."
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때, 특히 계단 오르기"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2개월 전"
+    endoscopy_finding: "건강검진에서 콜레스테롤이 높다고 해서 약을 처방받음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증 (2개월 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Rosuvastatin 20mg"
+    source: "건강검진센터 연계 병원"
+    effect: "복용 2개월 됨"
+  social_history:
+    job: "주부"
+    stress: "적음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "일주일에 3회 요가"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 10년 전"
+physical_exam:
+  general: "만성적인 통증으로 지쳐 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 및 심음 정상"
+  abdomen: "부드럽고 압통 없음"
+  cvat: "좌/우 음성"
+  extremity: "양측 대퇴부 및 상완부 근육에 압통이 있음. 근력 저하(proximal muscle weakness) 소견 보임 (예: 앉았다 일어서기 힘들어함). 관절의 부기나 발적은 없음."
+standardized_patient_questions: "왜 갑자기 온몸이 아픈 걸까요? 혹시 큰 병은 아닌가요? 콜레스테롤 약은 계속 먹어야 하는 거죠?"
+specific_remarks: "소변색 변화에 대해 물어보면 '어쩐지 좀 진해진 것 같다'고 대답한다. 관절이 아닌 근육이 아프다는 점을 명확히 구분하여 설명한다."

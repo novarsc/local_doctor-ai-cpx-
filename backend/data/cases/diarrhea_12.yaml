@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (담즙산 흡수장애)"
+patient_info:
+  name: "최경호"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "만성적인 설사"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "담즙산 흡수장애로 인한 설사 (담낭절제술 후)"
+    - "과민성 대장 증후군"
+    - "미세 현미경적 대장염"
+  necessary_tests:
+    - "SeHCAT 스캔 (담즙산 흡수 검사)"
+    - "대장 내시경 (다른 원인 배제 목적)"
+    - "담즙산 제거제(cholestyramine)의 치료적 시도"
+  necessary_treatments:
+    - "담즙산 제거제 (콜레스티라민 등) 복용"
+    - "저지방 식이"
+    - "증상에 따른 지사제 사용"
+history:
+  sex_age: "남/55"
+  chief_complaint_verbatim: "쓸개 떼는 수술하고 나서부터 계속 설사를 해서 너무 불편합니다."
+  onset: "약 8개월 전 (담낭절제술 후 1달 뒤부터)"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "수술 후 서서히 발생하여 지속됨"
+    recent_course: "특히 기름진 음식을 먹은 날 심해짐"
+  course: "1년 전 담석증으로 인한 급성 담낭염으로 복강경 담낭절제술을 받음. 수술 후 약 1달 뒤부터 묽은 변을 보기 시작했으며, 8개월 전부터는 하루 3-5회 설사를 하는 것이 일상이 됨. 설사는 물 같고, 색깔은 황록색을 띨 때가 많음. 복통은 심하지 않으나 급하게 화장실을 가야 하는 긴급성(urgency)이 있음."
+  experience_prev_episodes:
+    frequency: "거의 매일, 수술 후 지속"
+    trigger: "담낭절제술"
+    symptoms: "물 설사, 변의 긴급성"
+  character_of_symptom:
+    quality: "물 같은 설사"
+    nrs_score: "2 (복통)"
+    radiation: ""
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "기름진 음식 섭취"
+    alleviating: "식사량을 줄이면 조금 나음"
+  health_check_history:
+    last_checkup: "수술 전 검사 외 없음"
+    endoscopy_finding: "수술 전 위내시경, 정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증"
+    allergies: "없음"
+    # 담낭절제술 (1년 전)
+  medication_history:
+    taken:
+      - "로수바스타틴 (고지혈증약)"
+    source: "내과 처방"
+    effect: "잘 조절됨"
+  social_history:
+    job: "자영업 (식당 운영)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "별로 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적인 상태 양호"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "특이사항 없음"
+  abdomen:
+    inspection: "복부에 복강경 수술 흉터 3개 있음 (well-healed laparoscopic scars)"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 압통 없음
+  cvat: "음성"
+  extremity: "특이사항 없음"
+standardized_patient_questions: "수술이 잘못된 건 아닐까요? 쓸개가 없으면 다 이렇게 설사하나요? 평생 이렇게 살아야 해요?"
+specific_remarks: "담낭절제술과 설사 시작 시점의 연관성을 명확하게 진술한다. 기름진 음식을 먹으면 증상이 악화된다는 점을 강조한다. 수술 후유증에 대한 걱정과 불편함을 표현한다."

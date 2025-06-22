@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (만성 담낭염)"
+patient_info:
+  name: "박선영"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "기름진 식사 후 반복되는 우상복부 불편감"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만성 담낭염 또는 담도 운동이상증"
+    - "소화성 궤양"
+    - "기능성 소화불량증"
+  necessary_tests:
+    - "복부 초음파 (담낭벽 비후, 담석 유무 확인)"
+    - "혈액 검사 (간기능 검사, Amylase/Lipase)"
+    - "담낭 스캔 (HIDA scan) (담낭의 기능 평가)"
+  necessary_treatments:
+    - "저지방 식이"
+    - "증상이 심하고 담석이 있는 경우 복강경 담낭절제술 고려"
+    - "진경제 등 대증치료"
+history:
+  sex_age: "여성/45"
+  chief_complaint_verbatim: "기름진 것만 먹으면 오른쪽 윗배가 뻐근하고 더부룩해요. 소화도 잘 안 되는 것 같고요."
+  onset: "약 1년 전부터"
+  location:
+    initial: "우상복부"
+    current: "우상복부"
+  duration:
+    onset_pattern: "간헐적"
+    recent_course: "최근 명절에 기름진 음식을 많이 먹은 후 증상이 더 자주 나타남"
+  course: "증상은 보통 식후 30분~1시간 이내에 발생하여 몇 시간 지속되다 호전됨"
+  experience_prev_episodes:
+    frequency: "한 달에 2-3번"
+    trigger: "기름진 음식 (삼겹살, 튀김, 전 등)"
+    symptoms: "우상복부 통증, 소화불량, 더부룩함"
+  character_of_symptom:
+    quality: "뻐근하고 묵직한 통증"
+    nrs_score: "4"
+    radiation: "가끔 오른쪽 어깨나 등으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "지방이 많은 식사"
+    alleviating: "시간이 지나면 저절로 좋아짐"
+  health_check_history:
+    last_checkup: "2년 전 국가검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "소화제"
+    source: "약국"
+    effect: "별 효과 없음"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "요가 주 3회"
+    recent_weight_change: "최근 2년간 8kg 증가"
+  family_history: "어머니가 담석으로 수술 받으심"
+  female_history: "출산 2회, LMP 1주 전, 주기 규칙적"
+physical_exam:
+  general: "과체중 양상의 여성, 급성 병색은 없음"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "protuberant, no scars"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      murphy_sign: "negative"
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+standardized_patient_questions: "왜 기름진 것만 먹으면 아픈가요? 쓸개에 돌이라도 생긴 걸까요? 수술해야 하나요?"
+specific_remarks: "환자는 '기름진 음식'과 '우상복부 통증'의 연관성을 명확하게 진술한다. 통증의 양상이 급성 담낭염처럼 극심하지는 않고, 뻐근하고 불편한 만성적인 느낌임을 강조한다. 신체 진찰 시 우상복부 압통은 있으나 머피 징후는 음성이다 (급성 염증이 아님을 시사)."

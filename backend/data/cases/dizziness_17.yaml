@@ -1,0 +1,108 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "17"
+title: "실전 모의 증례 (저혈당, Hypoglycemia)"
+patient_info:
+  name: "박영철"
+  age: 61
+  sex: "남성"
+  presenting_complaint: "식은땀이 나면서 어지럽고 손이 떨려요."
+vital_signs:
+  blood_pressure: "135/80mmHg"
+  pulse: "105회/분"
+  respiration: "18회/분"
+  temperature: "36.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "저혈당 (약물 부작용)"
+    - "공황 발작"
+    - "갑상선 기능 항진증"
+  necessary_tests:
+    - "자가 혈당 측정 기록 확인 및 내원 시 혈당 측정"
+    - "당화혈색소 (HbA1c) 검사"
+    - "신기능 검사 (약물 축적 가능성 확인)"
+  necessary_treatments:
+    - "저혈당 발생 시 대처법 교육 (사탕, 주스 섭취)"
+    - "현재 복용 중인 당뇨약 용량 또는 종류 조절"
+    - "규칙적인 식사 및 운동의 중요성 교육"
+    - "저혈당 무감지증 위험성 교육"
+history:
+  sex_age: "남성/61세"
+  chief_complaint_verbatim: "주로 식사 때를 놓치면 갑자기 온몸에 힘이 쫙 빠지면서 어지럽고, 식은땀이 나고, 손이 떨려요. 뭐라도 먹으면 괜찮아져요."
+  onset: "2개월 전부터"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "최근 들어 일주일에 2-3번씩 나타남. 특히 오후 4-5시경에 심함."
+  course: "두 달 전에 당뇨약을 바꿨는데, 그 이후로 이런 증상이 생겼습니다. 특히 점심을 거르거나 늦게 먹으면 거의 어김없이 나타납니다."
+  experience_prev_episodes:
+    frequency: "주 2-3회"
+    trigger: "공복, 식사 지연"
+    symptoms: "어지럼증, 식은땀, 심계항진, 손 떨림, 극심한 허기"
+  character_of_symptom:
+    quality: "빙빙 도는 느낌보다는 기운이 없고 아찔한 느낌"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "공복 상태가 길어질 때"
+    alleviating: "사탕이나 주스, 밥을 먹는 것"
+  health_check_history:
+    last_checkup: "2개월 전 내과"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "제2형 당뇨 (10년), 고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "메트포르민 1000mg"
+      - "글리메피리드 4mg (2개월 전 추가)"
+      - "에날라프릴 10mg"
+    source: "내과"
+    effect: "혈당 조절은 잘 되는 편 (공복 100-110)"
+  social_history:
+    job: "개인택시 운전"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "최근 식단 조절로 5kg 감량"
+  family_history: "부친, 형 당뇨병"
+  female_history: ""
+physical_exam:
+  general: "불안해 보이고, 손에 땀이 약간 나 있으며 미세한 떨림이 관찰됨."
+  heent: "정상"
+  chest: "심박동 빠름 (tachycardia)."
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 특이 소견 없음."
+standardized_patient_questions: "당뇨 조절 잘 하라고 해서 약도 잘 먹고 밥도 줄였는데 왜 이런 거죠? 약이 너무 센가요?"
+specific_remarks: "환자는 '휘플의 삼주징(Whipple's triad)'에 해당하는 병력을 명확하게 진술해야 한다: 1) 저혈당 증상(식은땀, 손떨림, 어지럼), 2) 증상 발생 시 혈당이 낮음 (환자가 자가혈당측정기로 재봤더니 60이었다고 말할 수 있음), 3) 포도당 섭취 시 증상이 완화됨. 특히 '새로운 당뇨약(설폰요소제) 추가' 및 '체중 감량' 이후 증상이 시작되었다는 점을 강조해야 한다."

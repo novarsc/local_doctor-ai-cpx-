@@ -2,6 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Button from '../../components/common/Button';
 import Footer from '../../components/common/Footer';
+import SocialLogin from '../../components/common/SocialLogin';
+import { getNaverLoginUrl, getKakaoLoginUrl } from '../../utils/socialLogin';
 
 // Helper function to create placeholder image URLs
 const placeholderImage = (seed, width = 100, height = 100) => {
@@ -26,6 +28,16 @@ const Logo = ({ className = "size-7 text-primary" }) => (
 // Onboarding Page Component
 function OnboardingPage() {
     const navigate = useNavigate();
+
+    const handleNaverLogin = () => {
+        const naverUrl = getNaverLoginUrl();
+        window.location.href = naverUrl;
+    };
+
+    const handleKakaoLogin = () => {
+        const kakaoUrl = getKakaoLoginUrl();
+        window.location.href = kakaoUrl;
+    };
 
     return (
         <div className="relative flex size-full min-h-screen flex-col overflow-x-hidden bg-slate-50">
@@ -60,6 +72,41 @@ function OnboardingPage() {
                                 <Button onClick={() => navigate('/login')} variant="secondary" className="w-full sm:w-auto text-lg !h-12 !px-6 bg-white !text-primary hover:bg-slate-100 transform hover:scale-105">
                                     로그인
                                 </Button>
+                            </div>
+                            
+                            {/* 소셜 로그인 섹션 */}
+                            <div className="mt-8 max-w-md mx-auto">
+                                <div className="relative">
+                                    <div className="absolute inset-0 flex items-center">
+                                        <div className="w-full border-t border-white/30" />
+                                    </div>
+                                    <div className="relative flex justify-center text-sm">
+                                        <span className="px-2 bg-transparent text-white/70">또는</span>
+                                    </div>
+                                </div>
+                                
+                                <div className="mt-4 space-y-3">
+                                    <button
+                                        onClick={handleNaverLogin}
+                                        className="w-full flex items-center justify-center px-4 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-colors"
+                                    >
+                                        <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M16.273 12.845L7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727v12.845z"/>
+                                        </svg>
+                                        네이버로 시작하기
+                                    </button>
+                                    
+                                    <button
+                                        onClick={handleKakaoLogin}
+                                        className="w-full flex items-center justify-center px-4 py-3 border border-transparent text-sm font-medium rounded-md text-black bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 transition-colors"
+                                    >
+                                        <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M12 3C6.48 3 2 6.48 2 12s4.48 9 10 9 10-4.48 10-9S17.52 3 12 3zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7z"/>
+                                            <path d="M12 6c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0 8c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/>
+                                        </svg>
+                                        카카오로 시작하기
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </section>

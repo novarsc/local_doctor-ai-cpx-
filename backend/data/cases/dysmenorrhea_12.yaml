@@ -1,0 +1,111 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (자궁내막 용종)"
+patient_info:
+  name: "배서윤"
+  age: 48
+  sex: "여성"
+  presenting_complaint: "생리 기간이 아닌데 피가 비쳐요."
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "자궁내막 용종 (Endometrial Polyp)"
+    - "점막하 자궁근종"
+    - "자궁내막증식증 또는 자궁내막암"
+  necessary_tests:
+    - "질식 초음파 또는 자궁 초음파 조영술"
+    - "자궁경 (Hysteroscopy) - 진단 및 동시에 제거 가능"
+    - "자궁내막 조직검사 (악성 여부 확인)"
+  necessary_treatments:
+    - "자궁경을 이용한 용종절제술"
+    - "정기적인 추적 관찰"
+history:
+  sex_age: "여성/48"
+  chief_complaint_verbatim: "생리가 끝난 지 한참 됐는데도 속옷에 피가 조금씩 묻어 나와요. 부부관계 후에도 피가 비칠 때가 있어요."
+  onset: "3개월 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "간헐적으로 발생"
+    recent_course: "최근 들어 빈도가 잦아짐"
+  course: "부정 질출혈이 간헐적으로 발생"
+  experience_prev_episodes:
+    frequency: "일주일에 2-3회"
+    trigger: "성관계 후, 혹은 특별한 이유 없이"
+    symptoms: "소량의 질 출혈"
+  character_of_symptom:
+    quality: "통증은 없음. 출혈 양상은 핑크색 또는 갈색 분비물"
+    nrs_score: "0점"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+  factors:
+    aggravating:
+      - "성관계 후"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전 국가검진"
+    endoscopy_finding: "자궁경부암 검사 정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 비만"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "내과"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "자영업"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+    smoking:
+      is_smoker: false
+    exercise: "별로 하지 않음"
+    recent_weight_change: "없음 (BMI 29.8)"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "12세"
+    lmp: "3주 전"
+    cycle: "25-30일 주기. 최근 약간 불규칙해지는 경향"
+    duration: "5-6일"
+    amount: "보통"
+    dysmenorrhea: "없음"
+    menopause_age: "해당 없음"
+    obgyn_visits: "1년 전 검진 외 없음"
+    sexual_history: "기혼"
+    pregnancy_history: "G2P2"
+physical_exam:
+  general: "경도 비만 외 특이소견 없음"
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear"
+  abdomen: "Soft, obese, non-tender"
+  pelvic_exam:
+    speculum: "Cervix and vagina are normal. No active bleeding from os."
+    bimanual: "Uterus is normal size, mobile, non-tender. Adnexa are unremarkable."
+  cvat: "양측 음성"
+  extremity: "No edema"
+standardized_patient_questions: "피가 나는 게 혹시 암은 아닐까요? 폐경이 되려고 이러는 건가요? 간단하게 치료할 수 있는 건가요?"
+specific_remarks: "암에 대한 불안감을 가장 크게 표현한다. '나쁜 병일까 봐 무서워서 병원에 못 왔다'고 말한다. 통증이 전혀 없다는 점을 강조하며, 그래서 더 불안하다고 이야기한다."

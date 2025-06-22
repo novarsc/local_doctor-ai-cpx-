@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (대장암)"
+patient_info:
+  name: "최경희"
+  age: 70
+  sex: "여성"
+  presenting_complaint: "최근 6개월간 7kg 체중 감소, 변비와 설사 반복, 가는 변"
+vital_signs:
+  blood_pressure: "125/70mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "대장암"
+    - "과민성 장증후군"
+    - "염증성 장질환"
+  necessary_tests:
+    - "대장내시경 및 조직검사"
+    - "복부-골반 CT"
+    - "혈액검사 (전혈구검사, 종양표지자 CEA)"
+  necessary_treatments:
+    - "병기 결정 후 수술적 절제"
+    - "필요에 따른 보조 항암화학요법 또는 방사선 치료"
+    - "장루(stoma) 관리 교육 (필요시)"
+history:
+  sex_age: "여/70"
+  chief_complaint_verbatim: "요즘 화장실 가는 게 영 불편해요. 며칠씩 변을 못 보다가 갑자기 설사를 하고, 변이 연필처럼 가늘게 나와요. 입맛도 없고 살도 빠졌어요."
+  onset: "약 6개월 전"
+  location:
+    initial: "하복부"
+    current: "하복부"
+  duration:
+    onset_pattern: "서서히 시작됨"
+    recent_course: "점점 심해짐"
+  course: "6개월 전부터 변비가 심해졌다. 변을 봐도 시원하지 않은 느낌(tenesmus)이 들었다. 최근에는 며칠간 변비가 있다가 갑자기 묽은 변을 보는 양상이 반복된다. 변 굵기가 눈에 띄게 가늘어졌고, 가끔 변에 피가 섞여 나왔다. 입맛이 없어 식사량이 줄고 체중도 감소했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "배변 습관의 변화, 잔변감"
+    nrs_score: "2-3점 (하복부 불편감)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "배변 후 일시적 완화"
+  health_check_history:
+    last_checkup: "국가건강검진은 매번 받았으나, 대장내시경은 한 번도 받은 적 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "로수바스타틴"
+    source: "내과 의원"
+    effect: "조절 잘 됨"
+  social_history:
+    job: "은퇴 (전직 주부)"
+    stress: "낮음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 3회 동네 산책"
+    recent_weight_change: "6개월간 7kg 감소 (60kg -> 53kg)"
+  family_history: "남동생이 5년 전 대장암으로 수술받음"
+  female_history: "20년 전 자연 폐경"
+physical_exam:
+  general: "연령에 비해 다소 수척해 보이며, 약간의 피로감을 보임."
+  heent:
+    sclera: "결막이 약간 창백함."
+    oral_mucosa: "정상"
+  chest: "특이소견 없음"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 좌하복부(LLQ)에서 경계가 불분명한 단단한 종괴가 촉지될 수 있음.
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "나이 들어서 변비 생긴 거 아니에요? 꼭 내시경 해야 하나요? 힘들다던데...", "동생도 대장암이었는데, 저도 암이면 어떡하죠?"
+specific_remarks: "환자는 자신의 증상을 노화의 일부로 생각하려는 경향이 있다. 대장내시경 검사에 대한 두려움을 표현한다. 가족력 때문에 암에 대한 걱정이 많다."

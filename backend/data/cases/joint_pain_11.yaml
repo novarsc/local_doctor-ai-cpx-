@@ -1,0 +1,114 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "11/24"
+title: "실전 모의 증례 (결핵성 관절염)"
+patient_info:
+  name: "최 노인"
+  age: 78
+  sex: "남성"
+  presenting_complaint: "수개월에 걸쳐 서서히 심해진 고관절 통증과 걷기 어려움"
+vital_signs:
+  blood_pressure: "120/70mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "결핵성 관절염"
+    - "화농성 관절염 (만성형)"
+    - "퇴행성 고관절염"
+  necessary_tests:
+    - "고관절 MRI"
+    - "관절액 또는 활액막 조직검사 (항산균 도말, 배양, PCR)"
+    - "가슴 X-ray, 혈액검사 (ESR, CRP), PPD 피부반응검사"
+  necessary_treatments:
+    - "항결핵제 병합 요법 (최소 9-12개월)"
+    - "필요시 수술적 치료 (관절경적 또는 개방적 변연절제술)"
+    - "재활 치료"
+history:
+  sex_age: "남성/78세"
+  chief_complaint_verbatim: "반년 전부터 왼쪽 엉덩이뼈가 쑤시고 아파요. 처음엔 나이 탓인가 했는데 점점 심해져서 이제는 걷기도 힘들고, 밤에 잠도 못 잘 정도로 쑤셔요. 기운도 없고 입맛도 없네요."
+  onset: "약 6개월 전"
+  location:
+    initial: "왼쪽 사타구니"
+    current: "왼쪽 엉덩이 관절 부위, 사타구니, 허벅지 앞쪽"
+  duration:
+    onset_pattern: "매우 서서히, 모호하게 시작"
+    recent_course: "지속적으로 악화됨"
+  course: "특별히 다친 적 없이 통증이 시작됨. 파스를 붙이고 지냈으나 효과 없었음. 최근 1-2개월 사이 통증이 급격히 심해져 지팡이 없이는 걷기 힘듦. 밤에 통증이 더 심해지는 양상."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "뼈 속까지 쑤시는 듯한 둔한 통증"
+    nrs_score: "8"
+    radiation: "왼쪽 무릎 쪽으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "걷거나 다리를 움직일 때"
+      - "밤에 누워있을 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "40년 전 폐결핵 앓고 완치 판정 받음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "약국 진통제"
+    source: "약국"
+    effect: "효과 거의 없음"
+  social_history:
+    job: "무직"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "50년 전 금연"
+    exercise: "통증으로 못함"
+    recent_weight_change: "지난 6개월간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성 병색을 보이며, 체중 감소로 수척해 보임. 왼쪽 다리를 잘 디디지 못하고 절뚝거림."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "양쪽 폐 상엽에서 오래된 결핵 흔적으로 의심되는 나쁜 호흡음(crackles) 청진됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "왼쪽 고관절 부위에 부종이나 발적은 뚜렷하지 않으나, 깊은 압통이 있음. 왼쪽 고관절의 모든 방향(굴곡, 신전, 내회전, 외회전)으로의 수동적, 능동적 움직임이 심한 통증으로 인해 현저히 제한됨. 왼쪽 허벅지 근육의 위축이 관찰됨."
+standardized_patient_questions: "나이 들어서 그런 줄 알았는데, 왜 이렇게까지 아픈가요? 밤에 더 아픈 이유가 뭔가요? 옛날에 앓았던 결핵이랑 관련이 있을까요?"
+specific_remarks: "환자는 만성적이고 서서히 진행하는 통증과 함께 전신 쇠약, 체중 감소, 식욕 부진 등 전신 증상을 호소해야 함. 특히 야간통을 강조해야 한다. 과거 결핵 병력을 희미하게 기억하고 있다가, 의사의 질문에 대답하는 형식으로 정보를 제공한다."

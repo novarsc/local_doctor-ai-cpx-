@@ -74,6 +74,23 @@ module.exports = (sequelize) => {
     finalScore: {
         type: DataTypes.INTEGER,
         allowNull: true,
+    },
+    // 모의고사 관련 필드 추가
+    mockExamSessionId: {
+        type: DataTypes.UUID,
+        allowNull: true,
+        references: {
+            model: 'MockExamSessions',
+            key: 'mockExamSessionId',
+        },
+    },
+    caseNumber: {
+        type: DataTypes.INTEGER,
+        allowNull: true,
+        validate: {
+            min: 1,
+            max: 6
+        }
     }
   }, {
     sequelize,

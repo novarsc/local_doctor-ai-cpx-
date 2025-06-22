@@ -1,0 +1,124 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (칸디다 질염)"
+patient_info:
+  name: "박서연"
+  age: 24
+  sex: "여성"
+  presenting_complaint: "외음부가 너무 가렵고 분비물이 하얗게 낌"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "76회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "칸디다 질염 (Candidal vaginitis)"
+    - "세균성 질염 (Bacterial vaginosis)"
+    - "접촉성 피부염 (Contact dermatitis)"
+  necessary_tests:
+    - "질 분비물 현미경 검사 (KOH smear)"
+    - "질 분비물 진균 배양 검사 (Fungal culture)"
+    - "질산도 검사 (Vaginal pH test)"
+  necessary_treatments:
+    - "항진균제(플루코나졸) 경구 복용 또는 클로트리마졸 질정 사용"
+    - "가려움증 완화를 위한 국소 연고"
+    - "면 속옷 착용, 꽉 끼는 옷 피하기 등 생활 습관 개선"
+history:
+  sex_age: "여성/24"
+  chief_complaint_verbatim: "3일 전부터 갑자기 외음부랑 질 입구가 너무 가려워서 미치겠어요. 속옷에 두부 으깬 것 같은 하얀 분비물이 묻어 나와요."
+  onset: "3일 전"
+  location:
+    initial: "외음부 및 질"
+    current: "외음부 및 질"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "가려움증이 점점 심해짐"
+  course: "3일 전부터 가렵기 시작했고, 어제부터는 밤에 잠을 설칠 정도로 가려움이 심해졌습니다. 소변볼 때 따갑기도 합니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "두부 찌꺼기 또는 치즈 같은 흰색의 덩어리진 분비물, 극심한 가려움증"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밤 시간"
+      - "꽉 끼는 청바지를 입었을 때"
+    alleviating: "찬물로 씻을 때 잠시"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "2주 전 편도염으로 항생제 5일간 복용함"
+    source: "동네 이비인후과"
+    effect: "편도염은 호전됨"
+  social_history:
+    job: "대학생"
+    stress: "시험 기간이라 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "어머니 당뇨병"
+  female_history:
+    menarche: "13세"
+    menstrual_cycle: "30일 주기, 규칙적"
+    duration: "6일"
+    amount: "보통"
+    lmp: "3주 전"
+    gpa: "0-0-0-0"
+    sexual_partner: "없음"
+    contraception: ""
+physical_exam:
+  general: "가려움으로 불편해 보이나 전신 상태 양호함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평함. 특이 소견 없음."
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 시진 시: 외음부 발적 및 부종, 긁은 자국 관찰됨.
+      # 질경 검사 시: 질벽이 붉게 충혈되어 있고, 흰색의 치즈 같은 분비물이 붙어 있음.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "왜 이렇게 가려운 건가요? 성관계도 안 하는데 왜 이런 게 생기죠? 약 먹으면 바로 낫나요?"
+specific_remarks: "대화 중에도 간간히 가려운 듯 몸을 뒤트는 모습을 보인다. 최근 항생제 복용 사실은 의사가 먼저 묻기 전에는 이야기하지 않는다."

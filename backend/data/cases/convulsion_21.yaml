@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "21"
+title: "실전 모의 증례 (뇌내출혈에 의한 발작)"
+patient_info:
+  name: "오세훈"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "갑자기 의식을 잃고 쓰러지며 경련"
+vital_signs:
+  blood_pressure: "190/110mmHg"
+  pulse: "60회/분"
+  respiration: "14회/분 (불규칙)"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "뇌내출혈 (Intracerebral Hemorrhage, ICH)에 동반된 발작"
+    - "지주막하 출혈 (Subarachnoid Hemorrhage, SAH)"
+    - "급성 허혈성 뇌졸중 후 출혈성 변환"
+  necessary_tests:
+    - "뇌 컴퓨터 단층촬영 (Brain CT)"
+    - "혈액 검사 (혈액응고검사 포함)"
+    - "필요시 뇌 CT 혈관조영술 (CTA)"
+  necessary_treatments:
+    - "응급 혈압 조절"
+    - "항경련제 투여"
+    - "필요시 신경외과적 수술 (혈종 제거, 뇌압 감압술)"
+history:
+  sex_age: "남성/58"
+  chief_complaint_verbatim: "남편이 갑자기 머리가 깨질 것 같다고 소리를 지르더니, 바로 의식을 잃고 쓰러져 경련을 했어요."
+  onset: "내원 1시간 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑작스럽게"
+    recent_course: "극심한 두통 호소 직후 의식 소실 및 전신 경련이 1-2분간 발생함. 이후로 의식이 계속 없음."
+  course: "저녁 식사 후 TV를 보다가 갑자기 '머리가 터질 것 같다'고 소리치며 머리를 감싸 쥐었다. 직후 구토를 하며 의식을 잃었고, 전신이 뻣뻣해지며 떠는 경련이 이어졌다. 119 구급대가 도착했을 때부터 계속 의식이 없는 상태이다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "벼락두통(thunderclap headache) 후 발생한 의식소실 및 발작"
+    nrs_score: "두통 NRS 10점 (의식 소실 전)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "의식 소실 직전 분출성 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "고혈압"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (진단은 받았으나 치료하지 않음)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "개인 사업"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 4-5회"
+      amount: "소주 1병 이상"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일"
+      cessation_period: ""
+    exercise: "전혀 안 함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 뇌출혈로 돌아가심"
+  female_history: ""
+physical_exam:
+  general: "혼수 상태 (comatose). 통증 자극에만 반사적인 움직임을 보임. GCS E1V1M2=4"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡이 느리고 불규칙함. 심박수 느림 (bradycardia)."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "사지 이완성 마비. 오른쪽 동공이 확장되고 빛 반사가 없음. 경부 강직 소견 보임."
+standardized_patient_questions: "남편이 숨을 제대로 못 쉬는 것 같아요. 괜찮은 건가요? 제발 살려주세요."
+specific_remarks: "환자는 의식이 없는 중환 상태로, 학생은 신속하게 ABC를 평가하고 기도 확보의 필요성을 인지해야 한다. Cushing's triad(고혈압, 서맥, 불규칙 호흡)와 동공 변화 등 뇌압 상승 및 뇌탈출의 징후를 빠르게 파악하는 것이 중요하다. 보호자는 극도로 불안하고 공황 상태에 빠져 있으므로, 상황의 위중함을 알리면서도 침착하게 대응해야 한다."

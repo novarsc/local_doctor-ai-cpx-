@@ -1,0 +1,112 @@
+---
+chapter: "상담"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (급성 스트레스 장애)"
+patient_info:
+  name: "정유미"
+  age: 25
+  sex: "여성"
+  presenting_complaint: "일주일 전 겪은 일 때문에 멍하고 잠을 못 잠"
+vital_signs:
+  blood_pressure: "135/88mmHg"
+  pulse: "98회/분"
+  respiration: "20회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 스트레스 장애 (Acute stress disorder)"
+    - "외상 후 스트레스 장애 (초기 증상)"
+    - "불안장애 (Anxiety disorder)"
+  necessary_tests:
+    - "정신건강의학과적 면담 및 평가"
+    - "신체적 외상 여부 확인 (필요시 영상 검사)"
+    - "약물 스크리닝 검사 (데이트 강간 약물 등)"
+  necessary_treatments:
+    - "심리적 응급처치 및 지지적 정신치료"
+    - "단기적 약물치료 (수면 보조, 불안 완화)"
+    - "성폭력 상담소 및 법적 지원 연계"
+history:
+  sex_age: "여성/25"
+  chief_complaint_verbatim: "일주일 전에 안 좋은 일이 있었는데, 그 뒤로 계속 멍하고 현실감이 없어요. 밤마다 악몽을 꿔서 잠을 잘 수가 없어요."
+  onset: "1주일 전"
+  location:
+    initial: "정신적 증상"
+    current: "정신적 증상"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "지속됨"
+  course: "일주일 전, 회식 후 직장 상사에게 성폭행을 당했다. 그 이후로 마치 내가 내가 아닌 것 같고, 주변 세상이 비현실적으로 느껴진다(이인증/비현실감). 그 사건의 일부가 기억나지 않기도 한다(해리성 기억상실). 자려고 누우면 사건 당시의 장면이 떠오르고(침투 증상), 비슷한 옷차림의 남자만 봐도 심장이 내려앉는다. 회사 근처에 가는 것이 두려워 병가를 낸 상태다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "멍하고, 불안하고, 분리된 느낌"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "혼자 있을 때"
+      - "뉴스에서 직장 상사 관련 기사를 볼 때"
+    alleviating: "가족과 함께 있을 때"
+  health_check_history:
+    last_checkup: "1년 전 직장 검진"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "일주일 전 직장 상사에 의한 성폭행"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원"
+    stress: "극심함"
+    alcohol:
+      is_drinker: true
+      frequency: "사건 이후 마시지 않음"
+      amount: "과거 주 1-2회"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "사건 이후 못 함"
+    recent_weight_change: "2kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "LMP 3주 전. 사건 이후 응급피임약 복용함."
+physical_exam:
+  general: "매우 불안해 보이고, 안절부절못하는 모습. 눈맞춤을 피함."
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # Mild suprapubic tenderness
+  cvat: "음성/음성"
+  extremity: "양쪽 손목에 잡힌 듯한 희미한 멍이 있음."
+standardized_patient_questions: "제가 이상해진 건가요? 왜 자꾸 멍한 기분이 들죠? 회사를 계속 다닐 수 있을까요?"
+specific_remarks: "사건에 대해 이야기할 때 감정이 거의 드러나지 않는 듯 덤덤하게 말하거나(감정적 마비), 갑자기 울음을 터뜨리는 등 감정 기복을 보인다. '현실 같지 않다'는 표현을 자주 사용한다. 증상이 1개월 이상 지속되면 PTSD로 진단이 바뀔 수 있음을 염두에 두어야 한다."

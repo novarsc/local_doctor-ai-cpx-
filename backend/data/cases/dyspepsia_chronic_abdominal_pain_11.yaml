@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (복성 편두통)"
+patient_info:
+  name: "김유나"
+  age: 15
+  sex: "여성"
+  presenting_complaint: "이유 없이 갑자기 발생하는 심한 복통"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "복성 편두통 (Abdominal migraine)"
+    - "과민성 대장 증후군"
+    - "주기성 구토 증후군 (Cyclic vomiting syndrome)"
+  necessary_tests:
+    - "다른 기질적 원인을 배제하기 위한 검사: 혈액검사, 복부 초음파, 필요시 내시경"
+    - "두통 일기처럼 복통 일기 작성"
+    - "신경과 협진 고려"
+  necessary_treatments:
+    - "유발 요인 회피 (스트레스, 수면 부족, 특정 음식)"
+    - "급성기 증상 완화 (진통제, 항구토제)"
+    - "예방 치료 (편두통 예방 약물: Propranolol, Amitriptyline 등 고려)"
+history:
+  sex_age: "여성/15"
+  chief_complaint_verbatim: "가끔씩 갑자기 배가 엄청 아파요. 너무 아파서 아무것도 못 하고, 토할 것 같고 어지러워요. 그러다 몇 시간 지나면 언제 그랬냐는 듯이 괜찮아져요."
+  onset: "초등학생 때부터"
+  location:
+    initial: "배꼽 주변"
+    current: "배꼽 주변 (periumbilical)"
+  duration:
+    onset_pattern: "급성, 삽화적 (episodic)"
+    recent_course: "한두 달에 한 번씩 비슷한 양상으로 반복됨"
+  course: "완전히 정상인 시기(무증상기)가 있음. 통증은 2-3시간 지속되다 완전히 소실됨."
+  experience_prev_episodes:
+    frequency: "1-2개월에 한 번"
+    trigger: "시험 기간, 피곤할 때, 잠을 잘 못 잤을 때"
+    symptoms: "현재와 동일한 극심한 복통, 구역, 창백함"
+  character_of_symptom:
+    quality: "심하게 쥐어짜는 듯한, 둔한 통증"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밝은 빛이나 시끄러운 소리에 노출되면 더 힘듦"
+    alleviating: "조용하고 어두운 방에서 눈을 감고 누워있으면 조금 나아짐"
+  health_check_history:
+    last_checkup: "학교 신체검사"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제"
+    source: "집에 있는 약"
+    effect: "별로 효과가 없음"
+  social_history:
+    job: "중학생"
+    stress: "학업 스트레스가 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "학교 체육 시간 외에는 없음"
+    recent_weight_change: "없음"
+  family_history: "어머니가 편두통이 심해서 가끔 병원 치료를 받으심"
+  female_history: "초경 1년 전, 아직 불규칙함. 증상은 생리 주기와 관련 없는 것 같음"
+physical_exam:
+  general: "(통증이 없는 현재) 아무런 이상이 없어 보임"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat, symmetric"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      no_tenderness_anywhere: true
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+standardized_patient_questions: "왜 저만 자꾸 이렇게 아픈가요? 꾀병 아니에요. 정말 너무 아파요. 이거 무슨 병이에요?"
+specific_remarks: "환자는 증상이 없을 때는 완전히 건강해 보인다. 통증의 삽화적(episodic) 성격과 무증상기가 존재함을 강조해야 한다. 어머니의 편두통 가족력이 매우 중요한 단서이다. '조용하고 어두운 곳'에서 쉬면 호전된다는 점, 식욕부진, 구역, 창백함, 어지럼증 등 편두통의 동반증상과 유사한 증상들을 호소한다."

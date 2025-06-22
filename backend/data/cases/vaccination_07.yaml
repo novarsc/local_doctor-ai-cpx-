@@ -1,0 +1,115 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (예방접종 후 아나필락시스)"
+patient_info:
+  name: "김도윤"
+  age: 1
+  sex: "남성"
+  presenting_complaint: "예방접종 직후 숨쉬기 힘들어하고 온몸에 두드러기가 나요"
+vital_signs:
+  blood_pressure: "70/40mmHg"
+  pulse: "180회/분"
+  respiration: "50회/분 (wheezing 동반)"
+  temperature: "36.5℃"
+examinee_instructions: "급성기 증상을 보이는 환아에 대해 즉각적인 초기 평가와 처치를 시행하고, 보호자에게 상황을 설명하시오. (이 증례는 응급 상황 대처 능력을 평가합니다)"
+patient_education:
+  probable_diagnoses:
+    - "예방접종 후 아나필락시스"
+    - "심한 급성 두드러기 및 혈관부종"
+    - "급성 천식 발작"
+  necessary_tests:
+    - "혈액검사 (serum tryptase 등)"
+    - "동맥혈가스분석 (저산소증 평가)"
+    - "흉부 X-선 촬영"
+  necessary_treatments:
+    - "즉각적인 에피네프린 근육 주사 (1:1000, 0.01mg/kg)"
+    - "산소 공급, 기도 확보"
+    - "정맥로 확보 후 수액 공급, 스테로이드 및 항히스타민제 투여"
+    - "상급병원 응급실 이송 및 집중 관찰"
+history:
+  sex_age: "남아/12개월"
+  chief_complaint_verbatim: "(보호자가 다급하게 외치며) 방금 주사 맞고 나왔는데 애가 숨을 못 쉬어요! 몸이 막 부어 오르는 것 같아요!"
+  onset: "약 5분 전 (예방접종 직후)"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "초급성"
+    recent_course: "급격히 악화"
+  course: "10분 전, 진료실에서 MMR(홍역, 볼거리, 풍진) 1차와 수두 1차 예방접종을 받았다. 접종 후 대기실에서 5분 정도 대기하던 중, 아기가 갑자기 심하게 보채기 시작하며 얼굴과 몸에 붉은 반점이 빠르게 퍼지는 것을 보호자가 발견했다. 곧이어 쌕쌕거리는 소리를 내며 숨쉬기 힘들어하고 입술이 붓는 모습을 보여 보호자가 황급히 다시 진료실로 뛰어 들어왔다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "전신 두드러기, 혈관부종, 호흡곤란"
+    nrs_score: "측정 불가"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "6개월 영유아 검진, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "경미한 아토피 피부염"
+    allergies: "계란 알러지 의심 (이유식으로 계란 섭취 후 입 주변에 약간의 발적 있었음)"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "해당 없음"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "해당 없음"
+    recent_weight_change: "없음"
+  family_history: "엄마가 천식 병력 있음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "의식 수준 저하(lethargic), 축 늘어져 있으며 심한 호흡곤란을 보임. 청색증 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "창백함"
+    # 눈 주위, 입술에 심한 혈관부종(angioedema) 관찰됨
+  chest: "흉벽 함몰(retraction) 관찰됨. 청진 시 양쪽 폐에서 심한 천명음(wheezing) 청취됨. 심한 빈맥."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "전신에 융합되는 양상의 팽진(wheal) 동반된 두드러기 관찰됨. 말초가 차고 모세혈관 재충혈 시간 지연됨."
+standardized_patient_questions: "우리 애 죽는 거 아니죠? 빨리 뭐라도 좀 해주세요! 왜 이렇게 된 거예요?"
+specific_remarks: "보호자(엄마) 역할. 극도의 공포와 패닉 상태를 연기. 의사의 처치를 다급하게 요구하며, 아이의 상태에 대해 절망적인 질문을 반복. (수험생은 보호자 응대와 동시에 응급처치를 구두로 지시하고 시행하는 모습을 보여야 함)"

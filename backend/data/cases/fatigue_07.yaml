@@ -1,0 +1,113 @@
+---
+chapter: "전신"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (결핵)"
+patient_info:
+  name: "강민준"
+  age: 24
+  sex: "남성"
+  presenting_complaint: "2달간 지속된 피로감, 미열 및 마른 기침"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "88회/분"
+  respiration: "20회/분"
+  temperature: "37.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐결핵"
+    - "비정형 폐렴"
+    - "기관지염"
+  necessary_tests:
+    - "흉부 X선 촬영"
+    - "객담 항산균 도말 및 배양 검사 (AFB smear & culture)"
+    - "혈액 검사 (ESR, CRP 등 염증 수치 확인)"
+  necessary_treatments:
+    - "항결핵제 병합 요법"
+    - "객담 검사 결과에 따른 격리 여부 결정"
+    - "환자 교육 (약물 복용의 중요성, 전염 예방 등)"
+history:
+  sex_age: "남성/24"
+  chief_complaint_verbatim: "두 달 정도 감기 기운이 안 떨어지는 것 같아요. 계속 피곤하고, 밤에 잘 때 식은땀도 나고, 기침도 계속 나요."
+  onset: "약 2개월 전"
+  location:
+    initial: "전신, 호흡기"
+    current: "전신, 호흡기"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "호전 없이 증상 지속"
+  course: "처음엔 으슬으슬 춥고 피곤해서 감기몸살인 줄 알고 약국에서 약을 사 먹었으나 효과가 없었다. 이후 마른 기침이 시작되었고, 오후가 되면 몸에 열이 오르는 느낌이 들었다. 밤에 자고 일어나면 옷이 젖을 정도로 땀을 흘리는 날이 잦아졌다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "몸이 축 처지는 피로감, 오후에 심해지는 발열감"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오후, 저녁 시간대"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "작년 대학교 신입생 검진"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합감기약"
+    source: "약국"
+    effect: "효과 없었음"
+  social_history:
+    job: "대학생 (휴학 중, 고시 준비)"
+    stress: "시험 준비로 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "거의 못 함"
+    recent_weight_change: "최근 2달간 4kg 감소"
+  family_history: "할아버지가 예전에 결핵을 앓으셨다고 들음"
+  female_history: "-"
+physical_exam:
+  general: "만성적인 병색을 보임. 다소 마른 체형. 의식 명료."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진 시 우측 폐 상엽(upper lobe)에서 거친 호흡음(coarse breath sound)과 약간의 악설음(crackle)이 들림."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음."
+standardized_patient_questions: "그냥 감기가 오래 가는 거 아니에요? 결핵이라니, 요즘 세상에 누가 결핵에 걸리나요? 약을 6개월이나 먹어야 한다니 너무 길어요."
+specific_remarks: "대화 중 간간이 마른 기침을 한다. 야간 발한에 대해 물어보면 '베개가 젖을 정도'라고 구체적으로 설명한다. 결핵 진단 가능성에 대해 설명하면, 믿을 수 없다는 반응과 함께 전염성에 대해 크게 걱정한다."

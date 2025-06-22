@@ -1,0 +1,112 @@
+---
+chapter: "전신"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (인슐린종)"
+patient_info:
+  name: "한지우"
+  age: 40
+  sex: "여성"
+  presenting_complaint: "공복 시 어지럽고 식은땀이 나서 자꾸 먹게 되어 살이 쪄서 내원함"
+vital_signs:
+  blood_pressure: "120/70mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "인슐린종"
+    - "반응성 저혈당"
+    - "부신기능부전"
+  necessary_tests:
+    - "72시간 금식 검사 (혈당, 인슐린, C-펩타이드 동시 측정)"
+    - "복부 CT 또는 내시경 초음파 (EUS)를 통한 종양 위치 확인"
+    - "경구 당부하 검사"
+  necessary_treatments:
+    - "수술적 종양 절제"
+    - "수술 전 저혈당 증상 관리를 위한 잦은 식사 및 약물(Diazoxide) 치료"
+    - "저혈당 발생 시 응급 대처 교육"
+history:
+  sex_age: "여성/40세"
+  chief_complaint_verbatim: "새벽이나 아침 공복에 손이 떨리고 식은땀이 나면서 어지러워요. 그럴 때마다 사탕이나 빵 같은 걸 먹어야 괜찮아져요. 그래서 자꾸 먹다 보니 1년 새 8kg이나 쪘어요."
+  onset: "약 1년 전"
+  location:
+    initial: "공복 시 어지럼증"
+    current: "공복 시 저혈당 증상, 그로 인한 방어적 섭취 및 체중 증가"
+  duration:
+    onset_pattern: "간헐적으로 발생"
+    recent_course: "점점 빈도가 잦아지고 증상이 심해짐"
+  course: "처음에는 가끔 아침 식사 전에만 나타났으나, 최근에는 새벽에 잠에서 깰 정도로 심한 저혈당 증상을 경험함. 증상 완화를 위해 자기 전이나 새벽에 간식을 먹는 습관이 생김."
+  experience_prev_episodes:
+    frequency: "주 3-4회"
+    trigger: "공복, 운동 후"
+    symptoms: "어지럼증, 식은땀, 심계항진, 손 떨림"
+  character_of_symptom:
+    quality: "휘플의 삼주(Whipple's triad)에 부합: 저혈당 증상, 실제 혈당 저하, 포도당 섭취 시 증상 완화"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "공복 상태가 길어질 때"
+    alleviating: "탄수화물(사탕, 주스, 빵 등) 섭취"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "은행원"
+    stress: "증상으로 인해 업무에 지장이 있을까 봐 스트레스 받음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "저혈당이 무서워 운동을 피하게 됨"
+    recent_weight_change: "최근 1년간 8kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "정상 월경 주기"
+physical_exam:
+  general: "약간 과체중인 것 외에 급성 병색은 없음. 면담 중 불안한 모습."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음. 신경학적 검사 정상."
+standardized_patient_questions: "제가 왜 자꾸 혈당이 떨어지는 거죠? 당뇨병의 초기 증상인가요?", "이게 혹시 뇌에 있는 종양 같은 심각한 병은 아닌가요?"
+specific_remarks: "환자는 저혈당 증상이 나타날 때 의식 소실이나 발작을 일으킬까 봐 매우 불안해한다. 항상 가방에 사탕이나 초콜릿을 가지고 다닌다고 말한다."

@@ -1,0 +1,113 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (파킨슨병)"
+patient_info:
+  name: "박종철"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "변비와 느려진 행동"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "78회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "파킨슨병"
+    - "약물 유발성 파킨슨증"
+    - "노인성 변비"
+  necessary_tests:
+    - "신경학적 진찰"
+    - "뇌 MRI (다른 원인 배제 목적)"
+    - "필요시 도파민 운반체 영상(FP-CIT PET)"
+  necessary_treatments:
+    - "신경과 전문의 진료 연계"
+    - "레보도파 등 항파킨슨 약물 치료"
+    - "변비에 대한 대증요법 및 재활 치료"
+history:
+  sex_age: "남/72"
+  chief_complaint_verbatim: "몇 년 전부터 변비가 너무 심해졌어요. 그것뿐만 아니라 요즘은 걸음도 잘 안 떨어지고, 손이 자꾸 떨려서 글씨 쓰기도 힘드네요."
+  onset: "변비는 3-4년 전, 운동 증상은 1년 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "점차 악화"
+  course: "3-4년 전부터 이유 없이 변비가 생겨 약 없이는 배변이 어려웠다. 약 1년 전부터는 행동이 눈에 띄게 느려지고, 가만히 있을 때 오른손이 떨리는 증상이 나타났다. 걸을 때 첫발을 떼기 어렵고 종종걸음을 걷게 되며, 표정이 무표정해졌다는 말을 자주 듣는다."
+  experience_prev_episodes:
+    frequency: "만성적/지속적"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "느려짐, 떨림, 뻣뻣함"
+    nrs_score: "해당 없음"
+    radiation: ""
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "가만히 있을 때 (떨림)"
+    alleviating: "움직이려고 하면 (떨림 감소)"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "5년 전 대장 내시경 정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "전립선 비대증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "탐술로신"
+      - "마그밀 (변비약)"
+    source: "비뇨의학과, 내과"
+    effect: "배뇨 증상은 호전, 변비는 약 먹을 때만 효과"
+  social_history:
+    job: "은퇴"
+    stress: "적음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "행동이 불편해져서 거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "무표정한 얼굴 (masked face), 전반적인 행동 느림 (bradykinesia)"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      no_tenderness: true
+  cvat: "좌우 음성"
+  extremity: "사지 근력 정상. 오른손에서 안정 시 떨림(resting tremor) 관찰됨. 팔다리의 경직(rigidity, cogwheel rigidity) 관찰됨."
+  # 신경학적 검사 추가
+  gait: "보행 시작의 어려움, 종종걸음(shuffling gait), 자세 불안정"
+standardized_patient_questions: "이게 다 나이 탓인 줄 알았는데, 혹시 다른 병인가요? 왜 자꾸 몸이 내 맘대로 안 움직일까요? 변비랑 손 떨리는 게 관련이 있나요?"
+specific_remarks: "환자는 질문에 느리게 대답하며 목소리 톤이 단조롭다. 신체 진찰 시 의사의 지시에 따르지만 움직임이 매우 느리고 뻣뻣하다. 보호자인 아들이 동반하여 환자의 증상에 대해 대신 설명해주기도 한다."

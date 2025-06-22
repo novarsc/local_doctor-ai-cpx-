@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (비타민 B12 결핍증)"
+patient_info:
+  name: "김민준"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "기억력 저하와 손발 저림"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비타민 B12 결핍에 의한 신경학적 증상"
+    - "당뇨병성 신경병증"
+    - "초기 치매"
+  necessary_tests:
+    - "혈액검사 (CBC, 비타민 B12, 엽산, homocysteine, MMA)"
+    - "신경전도 검사 (NCS)"
+    - "위내시경 검사 (위축성 위염 확인)"
+  necessary_treatments:
+    - "비타민 B12 근육 주사 또는 고용량 경구 투여"
+    - "증상 호전 여부 추적 관찰"
+    - "필요시 신경병증성 통증에 대한 약물 치료"
+history:
+  sex_age: "남성/65세"
+  chief_complaint_verbatim: "요즘 자꾸 깜빡하고, 손끝 발끝이 전기가 오는 것처럼 찌릿찌릿하고 감각이 둔해요."
+  onset: "약 1년 전"
+  location:
+    initial: "발끝"
+    current: "양손 끝과 발 전체"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 심해지며 범위가 넓어짐"
+  course: "1년 전쯤부터 발끝이 저리기 시작했고, 최근에는 무릎 아래까지 저리고 감각이 둔해짐. 6개월 전부터는 손끝도 저리기 시작. 기억력 저하는 3~4개월 전부터 느꼈는데, 물건을 찾거나 단어가 잘 생각나지 않는 일이 잦아짐. 혀가 따갑고 아플 때도 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "기억력 저하와 함께 대칭적인 사지 말단 감각 이상 동반"
+    nrs_score: 4
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "가만히 있을 때 (저림 증상)"
+    alleviating: "주무르거나 움직일 때 (저림 증상)"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "만성 위축성 위염 진단받음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "만성 위축성 위염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 속 쓰릴 때 제산제 복용"
+    source: "약국"
+    effect: "일시적 호전"
+  social_history:
+    job: "자영업 (식당 운영)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 반병/회"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "20년 전 금연"
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전반적으로 창백해 보이는 인상"
+  heent:
+    sclera: "pale"
+    oral_mucosa: "moist, tongue is smooth and beefy red (atrophic glossitis)"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat, soft"
+    auscultation: "normoactive"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양측 발목 이하 및 손가락 부위에서 진동 및 위치 감각 저하. Romberg test 양성. 심부건반사 정상."
+standardized_patient_questions: "손발이 저린 거랑 기억력이 나빠진 게 관련이 있나요? 영양제만 먹으면 낫는 병인가요? 치매는 아니겠죠?"
+specific_remarks: "기억력 저하뿐만 아니라 말초신경병증(저림, 감각 저하)과 혀의 통증(설염)을 함께 호소하는 것이 중요. 특히 위축성 위염 과거력이 중요한 단서. 신체 진찰 시 위치 감각과 진동 감각이 떨어지는 후방 섬유단(posterior column)의 이상 소견을 명확히 표현해야 함 (예: 눈을 감고 엄지발가락의 위치를 물으면 잘 모름, 발목에 소리굽쇠를 대도 진동을 잘 못 느낌)."

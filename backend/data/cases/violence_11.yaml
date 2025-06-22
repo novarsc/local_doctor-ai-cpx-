@@ -1,0 +1,111 @@
+---
+chapter: "상담"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (적응 장애)"
+patient_info:
+  name: "송혜진"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "최근 불안하고 직장에 가기 싫음"
+vital_signs:
+  blood_pressure: "128/84mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "불안 증상을 동반한 적응 장애 (Adjustment disorder with anxiety)"
+    - "범불안장애 (Generalized anxiety disorder)"
+    - "직장 내 괴롭힘/성희롱"
+  necessary_tests:
+    - "정신건강의학과적 면담 (스트레스 요인 및 증상 평가)"
+    - "불안 척도 검사 (GAD-7 등)"
+    - "갑상선 기능 검사 등 신체적 원인 감별"
+  necessary_treatments:
+    - "스트레스 요인(직장 상사)에 대한 대처 방안 모색"
+    - "단기 정신치료 (지지 정신치료, 문제 해결 치료)"
+    - "필요시 단기간 항불안제 사용"
+history:
+  sex_age: "여성/31"
+  chief_complaint_verbatim: "요즘 계속 불안하고 긴장돼서 일이 손에 안 잡혀요. 아침마다 회사 갈 생각만 하면 심장이 두근거려요."
+  onset: "약 2개월 전"
+  location:
+    initial: "정신적 증상"
+    current: "정신적, 신체적 증상"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점점 심해짐"
+  course: "두 달 전 새로운 부서로 발령받은 후, 직속 상사가 회식 자리에서 불필요한 신체 접촉을 하고 업무 외 시간에 사적인 연락을 자주 하는 등 성희롱적인 행동을 시작했다. 이를 거절하자 업무적으로 사소한 실수를 트집 잡아 여러 사람 앞에서 모욕을 주는 등 괴롭힘이 시작되었다. 이후 불안감, 초조함, 집중력 저하가 나타났고, 출근 전 복통이나 두통이 생기는 날이 잦아졌다. 직장 생활에 대한 어려움을 느끼고 이직까지 고려 중이다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "불안하고, 초조하고, 가슴이 답답함"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: "가끔"
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "출근할 때"
+      - "상사에게서 연락이 올 때"
+    alleviating: "퇴근 후 집에 있을 때, 친구와 통화할 때"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: ""
+  trauma_history: "현재 겪고 있는 직장 내 성희롱 및 괴롭힘"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "대기업 사원"
+    stress: "매우 높음"
+    alcohol:
+      is_drinker: true
+      frequency: "과거 주 1회, 최근 거의 안 마심"
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "최근 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 규칙적"
+physical_exam:
+  general: "불안한 기색이 보이며, 손을 만지작거리는 등 초조한 모습을 보임."
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "정상"
+standardized_patient_questions: "제가 너무 예민하게 구는 걸까요? 다른 사람들은 다 잘 지내는 것 같은데... 회사를 그만둬야 할까요? 혹시 공황장애 같은 건가요?"
+specific_remarks: "환자는 처음에는 '새로운 업무 때문에 스트레스를 받는다'고만 이야기한다. 의사가 구체적인 스트레스 요인에 대해 질문하면, 주저하다가 직장 상사의 성희롱과 괴롭힘에 대해 털어놓는다. 이야기하면서 억울한 듯 눈물을 보인다."

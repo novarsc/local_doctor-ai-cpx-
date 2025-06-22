@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (췌장암)"
+patient_info:
+  name: "박동진"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "3개월간의 12kg 체중 감소와 함께 최근 발생한 황달 및 등 통증"
+vital_signs:
+  blood_pressure: "110/60mmHg"
+  pulse: "85회/분"
+  respiration: "16회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "췌장암 (특히 췌장 두부암)"
+    - "담도암"
+    - "간세포암"
+    - "담도석"
+  necessary_tests:
+    - "복부 초음파 및 복부 CT"
+    - "내시경 역행 담췌관 조영술 (ERCP) 및 조직검사"
+    - "혈액검사 (간기능검사, 빌리루빈, 종양표지자 CA19-9)"
+  necessary_treatments:
+    - "황달 해결을 위한 내시경적 담즙 배액술"
+    - "병기 설정 후 수술 (휘플 수술 등) 가능 여부 평가"
+    - "항암화학요법 및 방사선 치료 계획"
+history:
+  sex_age: "남/68"
+  chief_complaint_verbatim: "소화도 안되고 살이 쭉쭉 빠지더니, 얼마 전부터는 눈이랑 피부가 노래지고 등이 아파요. 소변 색도 진해졌어요."
+  onset: "체중 감소는 3개월 전, 황달은 2주 전"
+  location:
+    initial: "상복부, 등"
+    current: "상복부, 등"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "황달 발생 후 증상이 명확해짐"
+  course: "3개월 전부터 이유 없이 체중이 빠지고 소화가 안 됐다. 2주 전부터 소변 색이 콜라색으로 진해지고, 눈 흰자위가 노랗게 변했다. 피부도 가렵기 시작했다. 허리를 펴고 누우면 등 통증이 심해진다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "등을 찌르는 듯한 둔한 통증, 전신 소양감"
+    nrs_score: "5-6점"
+    radiation: "상복부 통증이 등으로 방사됨"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "바로 누울 때 (등 통증)"
+    alleviating: "몸을 앞으로 숙이면 등 통증이 약간 완화됨"
+  health_check_history:
+    last_checkup: "3년 전, 지방간 소견"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "제2형 당뇨병 (5년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "메트포르민"
+    source: "내과 의원"
+    effect: "혈당 조절 양호했음"
+  social_history:
+    job: "건설업 은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: "40년간 흡연 중"
+    exercise: "거의 안 함"
+    recent_weight_change: "3개월간 12kg 감소 (80kg -> 68kg)"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "전신에 황달(jaundice)이 관찰되며, 만성 병색을 띰. 피부에 긁은 자국(excoriation)이 보임."
+  heent:
+    sclera: "공막에 뚜렷한 황달(scleral icterus) 관찰됨."
+    oral_mucosa: "정상"
+  chest: "특이소견 없음"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      # 우상복부 촉진 시 통증은 없으나, 팽대된 담낭이 만져짐 (Courvoisier's sign).
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "왜 갑자기 황달이 온 건가요? 간이 나빠진 건가요?", "등이 아픈 거랑 이게 무슨 상관이 있나요? 암일 가능성이 큰가요?"
+specific_remarks: "환자는 통증과 가려움으로 불편해하는 모습을 보인다. '암'이라는 가능성에 대해 매우 불안해하며, 예후에 대해 걱정스러운 질문을 한다."

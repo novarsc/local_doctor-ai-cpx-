@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (카페인 유발성 두근거림)"
+patient_info:
+  name: "최민준"
+  age: 26
+  sex: "남성"
+  presenting_complaint: "가슴이 뛰고 불안해요"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "102회/분 (규칙적)"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "과도한 카페인 섭취에 의한 동성 빈맥 및 불안 증상"
+    - "불안장애"
+    - "갑상선기능항진증 초기"
+  necessary_tests:
+    - "심전도 (EKG)"
+    - "갑상선 기능 검사 (TSH)"
+    - "필요시 약물 선별 검사 (Urine drug screening)"
+  necessary_treatments:
+    - "카페인 섭취 중단 또는 제한에 대한 강력한 교육"
+    - "수분 섭취 및 휴식 권장"
+    - "스트레스 관리 및 건강한 생활 습관 교육"
+history:
+  sex_age: "남/26"
+  chief_complaint_verbatim: "요즘 계속 가슴이 뛰고 손이 떨리고 불안해서 일이 손에 안 잡혀요."
+  onset: "약 2주 전부터"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "주로 오후 시간에 심해지며 지속되는 편"
+    recent_course: "밤에 잠도 잘 안 오고, 증상이 점점 심해지는 것 같아 내원함"
+  course: "처음에는 피곤해서 그런가 했는데, 주말에 쉬어도 마찬가지임"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "심장이 계속 빨리 뛰고 있는 느낌. '쿵쾅쿵쾅'보다는 '두근두근'거리는 느낌."
+    nrs_score: "4"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오후 시간"
+      - "가만히 집중하려고 할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "3년 전 군 입대 신체검사, 정상"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "취업준비생 (공무원 시험 준비)"
+    stress: "시험 압박으로 스트레스 매우 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "전혀 못하고 하루 종일 앉아만 있음"
+    recent_weight_change: "없음"
+  family_history: "특이 가족력 없음"
+physical_exam:
+  general: "불안한 기색이 보이며, 손을 가만히 두지 못하고 다리를 떠는 모습을 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음이 빠르나 규칙적이고 잡음은 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "손을 내밀었을 때 약간의 미세한 떨림이 관찰됨. 부종 없음."
+standardized_patient_questions: "제가 혹시 공황장애인가요? 시험이 얼마 안 남았는데 집중이 안 돼서 큰일이에요. 약이라도 먹어야 할까요?"
+specific_remarks: "환자는 취업준비생의 불안함과 초조함을 연기한다. 생활 습관에 대해 물을 때, 잠을 깨기 위해 하루에 '믹스커피 5잔과 에너지 드링크 2캔' 정도를 마신다고 마지못해 털어놓는다. 자신의 증상이 카페인 때문일 수 있다는 설명에 놀라워하며, '그렇게 많이 마시는 것도 아닌데...'라며 반신반의하는 태도를 보인다."

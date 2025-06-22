@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (제1형 당뇨병)"
+patient_info:
+  name: "김민준"
+  age: 19
+  sex: "남성"
+  presenting_complaint: "최근 들어 소변을 너무 자주 보고 목이 계속 마름"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "92회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "제1형 당뇨병"
+    - "중추성 요붕증"
+    - "정신성 다음증"
+  necessary_tests:
+    - "혈당 검사 (공복 및 식후)"
+    - "당화혈색소(HbA1c) 검사"
+    - "소변 검사 (요당, 케톤 확인)"
+  necessary_treatments:
+    - "인슐린 주사 치료 시작"
+    - "당뇨병 교육 (혈당 관리, 식이요법)"
+    - "수액 보충을 통한 탈수 교정"
+history:
+  sex_age: "남성/19"
+  chief_complaint_verbatim: "한 달 전부터인가... 물을 마셔도 계속 목이 마르고, 화장실을 정말 자주 가요. 밤에도 2-3번은 깨서 가고요. 살도 좀 빠진 것 같아요."
+  onset: "약 1개월 전"
+  location:
+    initial: "전신적인 증상"
+    current: "전신적인 증상"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점차 심해지는 양상"
+  course: "처음에는 피곤해서 그런가 했는데, 갈증과 소변 횟수가 일상생활이 불편할 정도로 늘어났고, 최근 일주일 사이에는 더 심해짐."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "소변 양이 많고 맑은 편"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "탄산음료나 주스를 마실 때"
+      - "특별히 없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "고등학교 입학 신체검사"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "학업 스트레스 약간 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 농구"
+    recent_weight_change: "최근 1개월간 5kg 감소"
+  family_history: "외할머니가 당뇨병으로 약물 치료 중"
+  female_history: ""
+physical_exam:
+  general: "다소 마르고 피곤해 보이나 의식은 명료함"
+  heent:
+    sclera: "비황달성"
+    oral_mucosa: "점막이 약간 건조함"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "편평하고 특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "고창음, 특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "경도의 피부 긴장도 감소 외 특이 소견 없음"
+standardized_patient_questions: "제가 왜 이렇게 살이 빠지나요? 심각한 병인가요? 완치될 수 있나요?"
+specific_remarks: "계속 목이 마르다는 점을 강조하고, 물병을 들고 있는 모습을 연기. 체중 감소에 대해 걱정하는 모습을 보일 것."

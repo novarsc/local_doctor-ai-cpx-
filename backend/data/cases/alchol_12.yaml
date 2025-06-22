@@ -1,0 +1,102 @@
+---
+chapter: "상담"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (골다공증)"
+patient_info:
+  name: "윤혜숙"
+  age: 62
+  sex: "여성"
+  presenting_complaint: "건강검진 결과 상담"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "환자는 최근 건강검진 결과를 가지고 내원했습니다. 골밀도 검사 결과(T-score: -2.8)를 해석하고, 골다공증의 관리 및 예방(금연, 금주 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐경 후 골다공증"
+    - "이차성 골다공증 (감별 필요)"
+    - "골감소증"
+  necessary_tests:
+    - "혈액 검사 (비타민 D, 칼슘, 인, 갑상선 기능, 부갑상선 호르몬)"
+    - "과거 신장 변화 확인 (골다공증성 척추 골절 유무 확인)"
+    - "2년 후 추적 골밀도 검사"
+  necessary_treatments:
+    - "생활습관 교정 (금연, 금주, 칼슘/비타민D 섭취, 체중 부하 운동)"
+    - "골다공증 약물 치료 (비스포스포네이트 등)"
+    - "낙상 예방 교육"
+history:
+  sex_age: "여성/62세"
+  chief_complaint_verbatim: "얼마 전에 건강검진을 받았는데, 골다공증이 심하다고 나왔어요. 어떻게 해야 할지 몰라서 왔습니다."
+  onset: "최근 검진에서 발견"
+  location:
+    initial: "전신 뼈"
+    current: "전신 뼈"
+  duration:
+    onset_pattern: "무증상"
+    recent_course: "변화 없음"
+  course: "평소 특별한 증상은 없었으나 최근 들어 허리가 굽고 키가 줄어든 느낌이 있었음. 검진 결과 T-score -2.8 소견 듣고 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "무증상"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    other: "최근 2-3년간 키가 3cm 정도 줄어든 것 같음. 가끔 허리 통증 있음."
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2주 전"
+    endoscopy_finding: "골밀도 검사 상 요추 T-score -2.8, 대퇴골 경부 T-score -2.5"
+  trauma_history: "5년 전 겨울철 빙판길에 넘어져 손목 골절된 적 있음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합 비타민"
+    source: "직접 구매"
+    effect: "잘 모르겠음"
+  social_history:
+    job: "주부"
+    stress: "자녀 문제로 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: true
+      amount: "하루 5-7개비 (30년간)"
+      cessation_period: "없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "어머니가 70대에 넘어져 고관절 골절로 수술받으심"
+  female_history: "52세에 폐경됨. 호르몬 치료 받은 적 없음."
+physical_exam:
+  general: "마른 체형의 여성. 약간 등이 굽어 보임(thoracic kyphosis)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "골다공증이 뭔가요? 그냥 뼈가 약해진 거 아닌가요? 넘어지면 잘 부러진다고 하던데, 그렇게 위험한가요? 담배 피우고 술 마시는 게 뼈랑도 상관이 있어요?"
+specific_remarks: "환자는 골다공증을 대수롭지 않게 생각하는 경향이 있음. 골다공증이 '소리 없는 도둑'처럼 증상 없이 진행되다가 골절이라는 심각한 결과를 초래할 수 있음을 이해하기 쉽게 설명해야 함. 특히 흡연과 음주가 칼슘 흡수를 방해하고 뼈를 만드는 세포의 기능을 떨어뜨린다는 사실을 설명하며 생활습관 교정의 중요성을 강조하면, '이제라도 관리해야겠다'며 수긍하는 모습을 보임."

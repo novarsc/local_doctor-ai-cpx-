@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (소화성 궤양)"
+patient_info:
+  name: "박서준"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "공복 시 심해지는 명치 통증"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "78회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "소화성 궤양 (십이지장 궤양 또는 위궤양)"
+    - "기능성 소화불량증"
+    - "위식도 역류질환"
+  necessary_tests:
+    - "상부위장관 내시경 및 조직검사 (궤양 확인 및 악성 감별)"
+    - "헬리코박터 파일로리 검사 (CLO test 또는 조직검사)"
+    - "전혈구 검사 (잠혈로 인한 빈혈 유무 확인)"
+  necessary_treatments:
+    - "헬리코박터 파일로리 제균 치료 (항생제 포함)"
+    - "위산분비억제제 (양성자 펌프 억제제) 복용"
+    - "궤양 치유 확인을 위한 추적 내시경 검사"
+history:
+  sex_age: "남성/52"
+  chief_complaint_verbatim: "속이 쓰리고 아파요. 특히 밥때를 놓치거나 새벽에 자다가 아파서 깹니다. 뭐라도 좀 먹으면 괜찮아져요."
+  onset: "2개월 전부터"
+  location:
+    initial: "명치"
+    current: "명치 부위"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 통증의 빈도와 강도가 증가함"
+  course: "통증이 있다가 없다가를 반복함"
+  experience_prev_episodes:
+    frequency: "거의 매일, 특히 공복 시"
+    trigger: "공복 상태"
+    symptoms: "현재와 같은 속쓰림, 통증"
+  character_of_symptom:
+    quality: "칼로 베는 듯한, 쓰린 느낌 (gnawing, burning)"
+    nrs_score: "7"
+    radiation: "등 쪽으로 뻗치는 느낌이 가끔 있음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "공복, 식사 시간 놓쳤을 때"
+    alleviating: "음식이나 제산제를 먹으면 일시적으로 완화됨"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 알러지 (두드러기)"
+  medication_history:
+    taken:
+      - "속 쓰릴 때마다 약국에서 제산제 사 먹음"
+    source: "약국"
+    effect: "먹고 나면 30분~1시간 정도는 괜찮아짐"
+  social_history:
+    job: "개인택시 기사"
+    stress: "식사를 제때 챙겨 먹기 어려워 스트레스를 받음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "만성적인 불편감을 호소하나 급성 병색은 없음"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds, regular heart beat"
+  abdomen:
+    inspection: "flat, symmetric"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: "distinct"
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+standardized_patient_questions: "그냥 위염인 줄 알았는데, 왜 이렇게 아픈 건가요? 꼭 내시경을 해야 하나요? 약만 먹으면 안 되나요?"
+specific_remarks: "환자는 통증을 설명할 때 주먹으로 명치 부위를 꾹 누르는 행동을 취한다. '새벽에 아파서 깬다'는 점과 '음식을 먹으면 나아진다'는 점을 명확하게 강조한다. 페니실린 알러지 과거력을 반드시 언급한다."

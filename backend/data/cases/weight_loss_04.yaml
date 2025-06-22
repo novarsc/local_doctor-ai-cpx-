@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (폐결핵)"
+patient_info:
+  name: "이영미"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "2개월 이상 지속되는 마른기침과 5kg의 체중 감소, 야간 발한"
+vital_signs:
+  blood_pressure: "100/70mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐결핵"
+    - "만성 기관지염"
+    - "폐렴"
+    - "폐암 (드물지만 감별 필요)"
+  necessary_tests:
+    - "흉부 X-ray"
+    - "객담 결핵균 도말 및 배양 검사, PCR 검사"
+    - "혈액검사 (ESR, CRP)"
+  necessary_treatments:
+    - "진단 시 즉시 항결핵제 복합요법 시작"
+    - "규칙적인 약물 복용의 중요성 교육 (최소 6개월)"
+    - "전염성 여부 확인 및 주변 접촉자 검진 권고"
+history:
+  sex_age: "여/28"
+  chief_complaint_verbatim: "기침이 두 달 넘게 안 떨어져요. 밤에 자다가 식은땀 흘리면서 깨고, 살도 자꾸 빠져서 힘이 없어요."
+  onset: "2-3개월 전"
+  location:
+    initial: "호흡기"
+    current: "전신"
+  duration:
+    onset_pattern: "서서히 시작됨"
+    recent_course: "증상이 호전되지 않고 계속됨"
+  course: "처음엔 감기인 줄 알고 약을 먹었는데 기침이 낫지 않았다. 한 달 전부터는 오후에 미열이 있고 밤에 식은땀을 흘리는 증상이 생겼다. 입맛도 없고 체중이 계속 빠진다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "가래 없는 마른기침, 전신 쇠약감 동반"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밤에 기침이 더 심해짐"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "1년 전 회사 건강검진, 흉부 X-ray 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합감기약 (2달 전)"
+    source: "약국"
+    effect: "효과 없었음"
+  social_history:
+    job: "패션 디자이너 (야근 잦음)"
+    stress: "매우 높음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "전혀 못 함"
+    recent_weight_change: "3개월간 5kg 감소 (52kg -> 47kg)"
+  family_history: "특이사항 없음"
+  female_history: "최근 월경 주기가 불규칙해짐"
+physical_exam:
+  general: "만성적인 병색을 띠고, 창백하고 피곤해 보임."
+  heent:
+    sclera: "결막 약간 창백함."
+    oral_mucosa: "정상"
+  chest: "청진 시 우측 상엽(right upper lobe)에서 수포음(crackle/rale)이 들림. 호흡음은 전반적으로 약하게 들림."
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 특이소견 없음.
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "그냥 감기가 오래 가는 거 아니에요? 왜 엑스레이를 찍어야 해요?", "결핵이면 다른 사람들한테 옮기나요? 회사에 알려야 하나요?"
+specific_remarks: "환자는 힘없는 목소리로 말하며, 간간히 마른기침을 하는 모습을 보인다. 진단명에 대해 사회적 낙인(stigma)을 걱정하는 모습을 보인다."

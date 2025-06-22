@@ -11,6 +11,7 @@ const startSession = asyncHandler(async (req, res) => {
     const userId = req.user.userId;
     const { examType, specifiedCategories } = req.body;
     const result = await mockExamService.startMockExamSession(userId, examType, specifiedCategories);
+
     res.status(201).json(result);
 });
 
@@ -32,9 +33,18 @@ const completeSession = asyncHandler(async (req, res) => {
     res.status(200).json(result);
 });
 
+const startCasePractice = asyncHandler(async (req, res) => {
+    const { mockExamSessionId, caseNumber } = req.params;
+    const userId = req.user.userId;
+    
+    const result = await mockExamService.startCasePracticeSession(mockExamSessionId, parseInt(caseNumber), userId);
+    
+    res.status(201).json(result);
+});
 
 module.exports = {
     startSession,
     getSession,
     completeSession,
+    startCasePractice,
 };

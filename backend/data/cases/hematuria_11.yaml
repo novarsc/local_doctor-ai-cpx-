@@ -1,0 +1,117 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (알포트 증후군)"
+patient_info:
+  name: "한지훈"
+  age: 17
+  sex: "남성"
+  presenting_complaint: "학교 소변검사에서 발견된 혈뇨와 단백뇨"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알포트 증후군 (가장 의심)"
+    - "IgA 신병증"
+    - "얇은 기저막 신병증"
+  necessary_tests:
+    - "정밀 소변/혈액 검사 (신기능, 단백뇨 정량)"
+    - "청력 검사 및 안과 검진"
+    - "유전자 검사 또는 신장 조직검사 (전자현미경 포함)"
+  necessary_treatments:
+    - "신기능 보존을 위한 약물 치료 (ACE 억제제/ARB)"
+    - "정기적인 신기능, 청력, 시력 추적 관찰"
+    - "말기 신부전으로 진행 시 신대체요법 (투석, 신장이식) 계획"
+history:
+  sex_age: "남성/17세"
+  chief_complaint_verbatim: "학교에서 한 소변검사에서 피랑 단백질이 섞여 나온다고 해서 병원에 가보라고 했어요."
+  onset: "정확히 모름. 증상은 없음."
+  location:
+    initial: "없음"
+    current: "없음"
+  duration:
+    onset_pattern: "건강검진에서 우연히 발견"
+    recent_course: "특별한 증상 없음"
+  course: "환자 본인은 아무런 증상을 느끼지 못함. 붉은 소변을 본 적도 없고, 몸이 붓거나 하지도 않았음. 다만 최근 들어 수업 시간에 선생님 말씀이 잘 안 들릴 때가 가끔 있었음."
+  experience_prev_episodes:
+    frequency: "초등학생 때 소변검사에서도 이상이 있다고 들었으나, 별 증상이 없어 그냥 지냈음."
+    trigger: ""
+    symptoms: "소변검사 이상"
+  character_of_symptom:
+    quality: "무증상 (asymptomatic)"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false # 육안적 혈뇨는 없음
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+    # Sensory
+    # hearing_loss: true (난청), visual_disturbance: true (시력 저하)
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "이번 학교 검진"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "고등학생"
+    stress: "학업 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 농구"
+    recent_weight_change: "없음"
+  family_history: "외삼촌이 젊은 나이(30대)에 신장이 나빠져서 투석을 시작하셨음. 어머니는 혈뇨가 있다고 들었음."
+  female_history: ""
+physical_exam:
+  general: "특이소견 없음. 정상 발달 상태."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 안과 검진 시 전방 수정체 원뿔(anterior lenticonus) 소견이 있을 수 있음 (CPX에서는 언급만)
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "부종 없음"
+  # 청력 검사 시 양측 감각신경성 난청 소견이 있을 수 있음 (CPX에서는 문진으로 확인)
+standardized_patient_questions: "저는 아무렇지도 않은데 왜 검사를 자꾸 해야 하나요? 삼촌처럼 저도 투석하게 될 수도 있나요?"
+specific_remarks: "환자는 보호자(어머니)와 함께 내원했다. 본인은 증상이 없어 병의 심각성을 잘 인지하지 못하는 태도를 보인다. 가족력에 대해 질문하면 어머니가 대신 대답하며, 외삼촌 이야기를 하며 매우 걱정스러운 표정을 짓는다."

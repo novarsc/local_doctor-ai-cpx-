@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (급성 심근염, Acute Myocarditis)"
+patient_info:
+  name: "김건강"
+  age: 25
+  sex: "남성"
+  presenting_complaint: "감기 기운 후 발생한 가슴 통증과 피로감"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "110회/분"
+  respiration: "20회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 심근염"
+    - "급성 심낭염"
+    - "급성 관상동맥 증후군 (드물지만 감별 필요)"
+  necessary_tests:
+    - "심전도 검사"
+    - "심근효소 검사 (트로포닌 포함), 염증 수치 검사"
+    - "심장초음파"
+  necessary_treatments:
+    - "입원하여 심장 기능 모니터링"
+    - "심부전, 부정맥 등 합병증에 대한 보존적 치료"
+    - "필요시 심장 MRI 또는 심근 조직검사"
+history:
+  sex_age: "남성/25세"
+  chief_complaint_verbatim: "일주일 전에 감기몸살을 심하게 앓고 나서부터 가슴이 뻐근하게 아프고, 조금만 움직여도 숨이 차고 너무 피곤해요."
+  onset: "감기 증상 호전될 무렵 (4일 전)"
+  location:
+    initial: "가슴 중앙"
+    current: "가슴 중앙"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "숨찬 증상과 피로감이 점점 심해짐"
+  course: "일주일 전 발열, 콧물, 근육통 등 감기 증상이 있었음. 감기약 먹고 열은 내렸으나, 4일 전부터 가슴 통증과 호흡 곤란이 새로 생김."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "뻐근하고 둔한 통증"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: "감기 때 설사 약간 있었음"
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직이거나 걸을 때"
+    alleviating: "가만히 쉬고 있을 때"
+  health_check_history:
+    last_checkup: "대학 입학 신체검사"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "종합감기약 (1주일 전부터 3일간 복용)"
+    source: "약국"
+    effect: "열은 내렸음"
+  social_history:
+    job: "대학생"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "맥주 1000cc"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "교내 농구 동아리 활동"
+    recent_weight_change: "최근 1주일간 2kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "창백하고 지쳐 보임. 빈맥 소견."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진 시 심첨부에서 S3 gallop이 들릴 수 있음. 심음이 약하게 들림. 양쪽 폐하부에서 미세한 수포음(crackles) 청진됨. 경정맥 팽대(JVP) 약간 상승됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양쪽 발목에 약간의 오목부종(pitting edema) 관찰됨."
+standardized_patient_questions: "감기가 왜 심장으로 간 거죠? 그냥 감기인 줄 알았는데 왜 이렇게 숨이 차고 힘든가요?"
+specific_remarks: "선행 감염(상기도 감염) 병력을 명확히 진술한다. 젊고 건강했던 사람이 갑자기 심부전 증상(호흡곤란, 부종, 피로감)을 보이는 모습을 연기한다. 심근경색 위험인자가 없는 젊은 환자임을 강조한다."

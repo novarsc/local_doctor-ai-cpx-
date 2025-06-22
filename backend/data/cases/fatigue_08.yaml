@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (감염성 단핵구증)"
+patient_info:
+  name: "김유진"
+  age: 19
+  sex: "여성"
+  presenting_complaint: "심한 피로감, 고열 및 인후통"
+vital_signs:
+  blood_pressure: "110/60mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "38.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "감염성 단핵구증"
+    - "세균성 편도염 (연쇄상구균 감염)"
+    - "급성 백혈병"
+  necessary_tests:
+    - "말초혈액 도말검사 (PBS for atypical lymphocyte)"
+    - "단핵구증 특이 항체 검사 (Monospot test, EBV-specific antibody)"
+    - "간기능 검사 (AST, ALT)"
+  necessary_treatments:
+    - "보존적 치료 (충분한 휴식, 수분 공급, 해열진통제)"
+    - "비장 파열 예방을 위한 격렬한 운동 제한"
+    - "세균성 인두염 감별 및 필요시 항생제 사용 고려 (암피실린 계열 제외)"
+history:
+  sex_age: "여성/19"
+  chief_complaint_verbatim: "일주일 전부터 목이 너무 아프고 열이 펄펄 나요. 온몸에 힘이 하나도 없고 너무 피곤해서 학교도 못 가고 있어요."
+  onset: "1주일 전"
+  location:
+    initial: "목, 전신"
+    current: "목, 전신"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "증상 호전 없이 지속됨"
+  course: "일주일 전 목이 칼칼하고 몸살 기운이 있어 감기인 줄 알았다. 하지만 3일 전부터 39도에 가까운 고열이 나고, 침 삼키기 어려울 정도로 목이 아파졌다. 목 주변에 멍울 같은 것도 만져진다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "피로감은 녹초가 되는 느낌, 인후통은 칼로 긁는 듯한 통증"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "침 삼킬 때"
+      - "움직일 때"
+    alleviating: "진통제를 먹으면 일시적으로 호전"
+  health_check_history:
+    last_checkup: "고등학교 졸업 후 없음"
+    endoscopy_finding: "-"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 알러지"
+  medication_history:
+    taken:
+      - "아세트아미노펜"
+    source: "약국"
+    effect: "복용 후 2-3시간 정도 열과 통증이 약간 가라앉음"
+  social_history:
+    job: "대학생"
+    stress: "학업 스트레스 보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "친구들과 어울려 마심"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "댄스 동아리 활동"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "규칙적"
+physical_exam:
+  general: "급성 병색. 고열로 인해 얼굴이 상기되어 있고 매우 지쳐 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "인두와 편도가 심하게 붉어져 있고, 하얀 삼출물이 덮여 있음 (exudative tonsillitis). 입천장에 점상 출혈 관찰됨."
+  chest: "호흡음 및 심음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 좌상복부 촉진 시 비장 종대(splenomegaly)가 촉진되며 약간의 압통을 호소함.
+  cvat: "좌우 음성"
+  extremity: "양쪽 목 부위, 특히 후경부 림프절(posterior cervical lymph node)이 여러 개 만져지며 압통이 있음."
+standardized_patient_questions: "그냥 심한 목감기 아니에요? 왜 이렇게 온몸이 아프고 피곤한 거죠? 친구랑 뽀뽀해서 옮는 병이라고 하던데 정말이에요? 운동은 언제부터 다시 할 수 있어요?"
+specific_remarks: "목이 아파서 말을 힘겹게 한다. 전신 통증과 피로감을 계속 호소한다. 의사가 복부를 진찰할 때 좌측 상복부를 누르면 '아야'하며 불편감을 표현한다. 진단명을 설명하면 병명(kissing disease)에 대해 호기심을 보인다."

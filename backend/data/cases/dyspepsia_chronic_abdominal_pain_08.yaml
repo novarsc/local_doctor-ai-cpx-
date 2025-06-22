@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (셀리악병)"
+patient_info:
+  name: "안나"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "만성적인 복부 팽만감, 설사 및 피로감"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "셀리악병 (Celiac disease)"
+    - "과민성 대장 증후군"
+    - "염증성 장질환 (크론병)"
+  necessary_tests:
+    - "혈청 검사 (tTG-IgA, EMA-IgA)"
+    - "상부위장관 내시경 및 십이지장 조직검사 (융모 위축 확인)"
+    - "전혈구 검사 (철 결핍성 빈혈), 비타민/미네랄 수치 확인"
+  necessary_treatments:
+    - "평생 글루텐 프리 식이 (Gluten-free diet)"
+    - "영양 결핍 교정 (철분, 비타민 보충)"
+    - "영양사 상담 및 교육"
+history:
+  sex_age: "여성/32"
+  chief_complaint_verbatim: "몇 년째 배에 가스가 차고 더부룩해요. 빵이나 파스타 같은 밀가루 음식을 먹으면 설사를 하고 온몸에 기운이 없어요."
+  onset: "수년 전부터, 20대 중반부터 증상을 인지함"
+  location:
+    initial: "복부 전반"
+    current: "복부 전반"
+  duration:
+    onset_pattern: "만성적, 지속적"
+    recent_course: "최근 증상에 대해 더 신경 쓰게 되어 병원에 옴"
+  course: "밀가루 음식을 먹으면 악화되고, 안 먹으면 며칠간은 괜찮음"
+  experience_prev_episodes:
+    frequency: "거의 매일"
+    trigger: "밀가루 함유 음식 (빵, 면, 과자 등)"
+    symptoms: "복통, 팽만감, 묽은 변, 피로감"
+  character_of_symptom:
+    quality: "가스가 찬 듯한 불편함, 쥐어짜는 듯한 통증"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "밀가루 음식 섭취"
+    alleviating: "밀가루 음식을 며칠간 피했을 때"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "철 결핍성 빈혈 (치료 받았으나 자꾸 재발함)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "철분제 (간헐적 복용)"
+    source: "내과"
+    effect: "복용 시 빈혈 수치 잠시 호전됨"
+  social_history:
+    job: "영어 학원 강사 (미국 교포)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 조깅"
+    recent_weight_change: "의도치 않게 지난 2년간 4kg 감소"
+  family_history: "어머니가 갑상선 질환(하시모토 갑상선염)이 있음"
+  female_history: "LMP 2주 전, 주기가 불규칙한 편"
+physical_exam:
+  general: "다소 마르고 창백해 보임"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "pale"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "mildly distended, symmetric"
+    auscultation: "hyperactive bowel sounds"
+    percussion: "generalized tympanic sound"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      diffuse_mild_tenderness: true
+  cvat: "좌/우 음성"
+  extremity: "no edema, 손톱이 잘 부러짐"
+standardized_patient_questions: "전 그냥 밀가루가 소화가 잘 안되는 체질인 줄 알았어요. 이게 병인가요? 평생 밀가루를 못 먹고 살아야 하나요?"
+specific_remarks: "환자는 한국계 미국인으로, 서구화된 식습관을 가지고 있음을 암시한다. '밀가루 음식'과 증상의 연관성을 매우 구체적으로 설명한다. 재발성 철 결핍성 빈혈, 자가면역질환의 가족력 (하시모토 갑상선염), 체중 감소 등 셀리악병을 시사하는 여러 단서를 제공한다. 신체 진찰 시 창백한 점막, 복부 팽만 소견을 보인다."

@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (인플루엔자)"
+patient_info:
+  name: "한지훈"
+  age: 30
+  sex: "남성"
+  presenting_complaint: "어제부터 갑자기 시작된 고열과 기침"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "115회/분"
+  respiration: "22회/분"
+  temperature: "39.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "인플루엔자 (Influenza)"
+    - "급성 편도염 (Acute tonsillitis)"
+    - "코로나19 감염"
+  necessary_tests:
+    - "인플루엔자 신속 항원 검사"
+    - "코로나19 신속 항원 검사"
+    - "혈액 검사 (백혈구 수치 확인)"
+  necessary_treatments:
+    - "항바이러스제 (Oseltamivir 등) 투여 (48시간 이내)"
+    - "해열제, 진통제 등 대증 치료"
+    - "충분한 수분 섭취 및 휴식"
+history:
+  sex_age: "남성/30세"
+  chief_complaint_verbatim: "어제 오후부터 갑자기 온몸을 두들겨 맞은 것처럼 아프고 열이 펄펄 나요. 목도 아프고 기침도 나고 죽겠습니다."
+  onset: "약 24시간 전"
+  location:
+    initial: "전신"
+    current: "전신, 목, 가슴"
+  duration:
+    onset_pattern: "매우 급성"
+    recent_course: "증상 지속 및 악화"
+  course: "어제 점심까지는 멀쩡했는데, 오후 3-4시경부터 갑자기 춥고 떨리면서 온몸이 쑤시기 시작했다. 저녁부터 열이 39도 이상 오르고 마른 기침과 두통이 심해졌다."
+  experience_prev_episodes:
+    frequency: "몇 년에 한 번씩 독감 앓은 적 있음"
+    trigger: ""
+    symptoms: "비슷한 증상"
+  character_of_symptom:
+    quality: "고열, 심한 근육통과 두통, 마른 기침"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+    alleviating: "타이레놀 먹으면 2-3시간 정도 열이 약간 내림"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+    # 인플루엔자 예방접종력
+    influenza_vaccination: "올해 접종하지 않음"
+  medication_history:
+    taken:
+      - "타이레놀"
+    source: "집 상비약"
+    effect: "일시적 해열 효과"
+  social_history:
+    job: "학원 강사"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 축구"
+    recent_weight_change: "없음"
+  family_history: "최근 딸 아이가 독감 진단받았음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색이 완연함. 고열로 얼굴이 상기되어 있고 힘들어 보임."
+  heent:
+    sclera: "경미한 충혈 (mildly injected)"
+    oral_mucosa: "인두가 전반적으로 심하게 발적되어 있음."
+  chest: "호흡음은 깨끗하나, 호흡이 다소 빠름. 이상음 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "특이 소견 없음."
+standardized_patient_questions: "이거 그냥 심한 감기 아닌가요? 꼭 독감 검사를 해야 해요? 주사 맞으면 바로 나을 수 있나요?"
+specific_remarks: "온몸이 아프다며 진찰을 위해 자세를 바꾸는 것을 힘들어한다. 목소리가 쉬어 있고, 대화 중간중간 마른 기침을 한다."

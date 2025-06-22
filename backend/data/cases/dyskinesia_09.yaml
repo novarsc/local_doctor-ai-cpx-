@@ -1,0 +1,108 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (근긴장이상증 - 서경)"
+patient_info:
+  name: "박서준"
+  age: 32
+  sex: "남성"
+  presenting_complaint: "글씨를 쓰려고 하면 손이 굳고 떨림"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "과제-특이적 근긴장이상증 (서경, Writer's cramp)"
+    - "본태성 떨림 (글씨 쓸 때 악화되는 형태)"
+    - "심인성 운동장애"
+  necessary_tests:
+    - "신경학적 진찰 (특정 작업 수행 시 관찰)"
+    - "근전도 검사 (EMG)"
+    - "필요시 뇌 영상 검사 (다른 원인 배제)"
+  necessary_treatments:
+    - "보툴리눔 독소 주사"
+    - "작업 치료 (필기구 교체, 쓰는 자세 교정)"
+    - "약물 치료 (항콜린제 등, 효과는 제한적)"
+history:
+  sex_age: "남성/32세"
+  chief_complaint_verbatim: "글씨를 쓰려고 펜만 잡으면 손가락이 제멋대로 펴지거나 꽉 쥐어지면서 손이 굳고 떨려서 글씨를 쓸 수가 없어요. 다른 건 다 괜찮은데 유독 글씨 쓸 때만 그래요."
+  onset: "약 1년 전"
+  location:
+    initial: "오른손 손가락"
+    current: "오른손 손가락 및 손목"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "악화"
+  course: "처음에는 필기를 오래 할 때만 손이 아프고 글씨가 삐뚤어졌는데, 이제는 몇 글자 쓰기도 전에 손이 굳어버림"
+  experience_prev_episodes:
+    frequency: "글씨 쓸 때마다"
+    trigger: "펜을 잡고 글씨를 쓰려는 행동"
+    symptoms: "손가락 굳음, 떨림, 통증"
+  character_of_symptom:
+    quality: "손가락이 비정상적으로 꼬이거나 펴지는 느낌"
+    nrs_score: "통증 및 불편감 7점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "펜 잡기"
+      - "젓가락질 등 유사한 동작"
+    alleviating: "글씨 쓰는 것을 멈추면 바로 호전됨"
+  health_check_history:
+    last_checkup: "3년 전, 특이사항 없음"
+    endoscopy_finding: "특이사항 없음"
+  trauma_history: "오른손 다친 적 없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "작가 (소설가)"
+    stress: "마감 스트레스 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 헬스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 건강해 보임. 다른 신경학적 이상 소견 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "휴식 시 또는 다른 활동(물건 들기, 문고리 잡기 등) 시 오른손의 근력, 감각, 떨림, 경직 모두 정상. 그러나 환자에게 펜을 주고 글씨를 써보라고 하자, 검지와 중지가 과도하게 펴지고(hyperextension) 엄지는 꽉 쥐어지는(flexion) 근긴장이상 자세가 나타남. 이로 인해 손목이 뒤틀리며, 글씨 쓰기가 불가능해짐."
+standardized_patient_questions: "왜 글씨 쓸 때만 손이 이렇게 이상해지는 거죠? 제 직업이 작가인데, 글을 못 쓰게 될까 봐 너무 두려워요. 이거 신경에 큰 문제가 생긴 건가요? 치료할 수 있는 방법이 있나요?"
+specific_remarks: "환자는 다른 모든 상황에서는 정상적인 모습을 보여야 한다. 오직 '글씨를 쓰는' 특정 과제가 주어졌을 때만 특징적인 증상을 연기하는 것이 핵심이다. 펜을 잡는 순간부터 손가락이 어색하게 굳고 통증을 느끼는 모습을 표현해야 한다. 자신의 직업과 관련된 증상 때문에 매우 불안하고 절박한 심정을 드러내는 것이 중요하다."

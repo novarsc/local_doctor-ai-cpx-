@@ -1,0 +1,110 @@
+---
+chapter: "상담"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (방광암)"
+patient_info:
+  name: "나성범"
+  age: 67
+  sex: "남성"
+  presenting_complaint: "통증 없는 혈뇨"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 생활습관 교정(금연 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "방광암"
+    - "신장암 등 다른 비뇨기계 종양"
+    - "방광 결석 또는 신장 결석"
+  necessary_tests:
+    - "소변 검사 및 소변 세포 검사"
+    - "방광 내시경"
+    - "복부-골반 CT"
+  necessary_treatments:
+    - "절대적인 금연 (재발 방지에 매우 중요)"
+    - "확진 시 경요도 방광종양절제술(TURBT) 시행"
+    - "병기에 따라 BCG 방광 내 주입술, 항암치료, 방광 적출술 등 결정"
+history:
+  sex_age: "남성/67세"
+  chief_complaint_verbatim: "한 달 전부터 소변에 피가 섞여 나옵니다. 아프지는 않은데 소변 색이 콜라색 같아서 겁이 나서 왔습니다."
+  onset: "약 1개월 전"
+  location:
+    initial: "요도"
+    current: "요도"
+  duration:
+    onset_pattern: "간헐적으로 발생"
+    recent_course: "최근 일주일간 계속 혈뇨가 나옴"
+  course: "한 달 전 처음 혈뇨를 보고 며칠 괜찮아져서 무시했으나, 다시 혈뇨가 나타났고 최근에는 핏덩어리가 나오기도 함. 다른 통증이나 증상은 전혀 없음."
+  experience_prev_episodes:
+    frequency: "간헐적"
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "통증 없는 육안적 혈뇨"
+  character_of_symptom:
+    quality: "전체 배뇨 과정에서 혈뇨가 나옴 (total hematuria)"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    urinary: "빈뇨, 급박뇨 등의 자극 증상 최근 동반"
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "특이사항 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "고혈압 약 (ARB 계열)"
+    source: "내과 처방"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "은퇴 (전직: 도장업)"
+    stress: "별로 없음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 1-2병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일 (50년간)"
+      cessation_period: "없음"
+    exercise: "가벼운 산책"
+    recent_weight_change: "최근 6개월간 3kg 감소"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "불안해 보이는 표정 외 특이사항 없음"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      suprapubic_fullness: "촉진되지 않음"
+  cvat: "양측 음성"
+  extremity: "정상"
+  dre: "Prostate not enlarged, no nodule."
+standardized_patient_questions: "왜 아프지도 않은데 피가 나나요? 암일 가능성이 높은가요? 담배를 오래 피워서 그런 건가요? 이제 와서 끊는다고 달라질까요?"
+specific_remarks: "환자는 '통증 없는 혈뇨'가 더 위험할 수 있다는 사실에 대해 전혀 모르고 있음. 방광암의 가장 강력한 위험요인이 흡연이라는 사실을 설명하면 큰 충격을 받고 죄책감을 느낌. 치료와 재발 방지를 위해 금연이 무엇보다 중요하다는 점을 강조하고, '지금이라도 끊는 것이 매우 중요하다'고 격려하면 치료 의지를 보임."

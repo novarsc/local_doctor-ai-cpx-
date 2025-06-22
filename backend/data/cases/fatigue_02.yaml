@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (갑상선 기능 저하증)"
+patient_info:
+  name: "김현숙"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "최근 부쩍 심해진 피로감과 체중 증가"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "56회/분"
+  respiration: "16회/분"
+  temperature: "36.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갑상선 기능 저하증"
+    - "쿠싱 증후군"
+    - "우울증 등 정신과적 문제"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4)"
+    - "일반혈액검사 (CBC)"
+    - "기초화학검사 (전해질 및 콜레스테롤 포함)"
+  necessary_treatments:
+    - "갑상선 호르몬제 복용"
+    - "정기적인 혈액 검사를 통한 용량 조절"
+    - "증상 완화 및 생활 습관 개선 교육"
+history:
+  sex_age: "여성/45"
+  chief_complaint_verbatim: "이상하게 계속 피곤하고, 남들은 덥다는데 저는 추워요. 입맛도 없는데 살은 자꾸 찌네요."
+  onset: "약 6개월 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 심해짐"
+  course: "반 년 전부터 기운이 없고 매사에 의욕이 떨어졌다. 최근에는 아침에 일어나기가 너무 힘들고, 피부가 푸석푸석해지고 얼굴과 손발이 붓는 느낌이 든다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "온몸이 무겁고 나른하며, 잠을 자도 개운하지 않은 느낌"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "추운 환경"
+      - "아침 기상 시"
+    alleviating: "따뜻하게 있으면 조금 나음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "위염 소견"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고지혈증으로 약물 복용 고려 중이었음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "-"
+    effect: "-"
+  social_history:
+    job: "주부"
+    stress: "자녀 교육 문제로 약간 있음"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 6개월간 5kg 증가"
+  family_history: "어머니가 갑상선 질환으로 약을 드셨다고 들음"
+  female_history: "최근 월경 주기가 불규칙해지고 양이 늘어난 것 같음. 폐경기는 아닌 것 같음."
+physical_exam:
+  general: "전반적으로 행동이 느리고 무표정해 보임. 얼굴이 약간 부어있는 인상."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음이 약하게 들리며 서맥 관찰됨."
+  abdomen:
+    inspection: "복부 팽만 없음."
+    auscultation: "장음 감소."
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양쪽 정강이 부위에 비함요 부종(non-pitting edema) 관찰됨. 피부가 차고 건조함."
+standardized_patient_questions: "제가 왜 이렇게 기운이 없고 살이 찌는 건가요? 나이가 들어서 그런 걸까요? 치료하면 예전처럼 활기차게 지낼 수 있을까요?"
+specific_remarks: "말과 행동이 느리다. 목소리가 약간 쉬고 거칠게 들린다. 진찰 시 추워하는 기색을 보인다. 갑상선 촉진 시 특별히 만져지는 것은 없다."

@@ -1,0 +1,114 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "14/24"
+title: "실전 모의 증례 (회전근개 힘줄염/파열)"
+patient_info:
+  name: "강태공"
+  age: 62
+  sex: "남성"
+  presenting_complaint: "팔을 들어 올릴 때 심해지는 어깨 통증과 힘 빠짐"
+vital_signs:
+  blood_pressure: "140/85mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "회전근개 힘줄염 또는 파열"
+    - "어깨 충돌 증후군"
+    - "유착성 관절낭염 (오십견)"
+  necessary_tests:
+    - "어깨 초음파 또는 MRI (힘줄 상태 확인)"
+    - "어깨 X-ray"
+    - "신체 진찰 (근력 검사, 충돌 검사 등)"
+  necessary_treatments:
+    - "보존적 치료 (약물, 주사, 근력 강화 운동)"
+    - "체외충격파 치료"
+    - "파열의 정도가 심하거나 보존적 치료에 실패 시 수술적 봉합술 고려"
+history:
+  sex_age: "남성/62세"
+  chief_complaint_verbatim: "몇 달 전부터 오른쪽 어깨가 아파요. 특히 팔을 옆으로 들어 올리거나, 높은 곳에 있는 물건을 내릴 때 찌릿하고 힘이 쭉 빠져요. 밤에 아픈 쪽으로 누우면 통증이 심해서 잠을 설치고요."
+  onset: "약 4개월 전"
+  location:
+    initial: "오른쪽 어깨 앞쪽/옆쪽"
+    current: "오른쪽 어깨 앞쪽/옆쪽, 팔 위쪽으로 뻗치는 통증"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 악화"
+  course: "처음에는 무리한 날만 아팠는데, 이제는 계속 아픔. 특정 각도에서 통증이 심하고 힘이 빠지는 느낌이 특징적. 팔을 완전히 올리면 오히려 통증이 줄어들기도 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "날카롭고 찌르는 듯한 통증"
+    nrs_score: "특정 동작 시 8"
+    radiation: "팔의 외측으로 뻗침"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "팔을 어깨 높이로 들어 올릴 때 (60-120도 사이)"
+      - "밤에 아픈 쪽으로 누울 때"
+    alleviating: "팔을 내리고 있을 때"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "내과"
+    effect: "복용 중"
+  social_history:
+    job: "인테리어 도배업"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 1갑"
+      cessation_period: "없음"
+    exercise: "따로 안함 (일이 운동)"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "건장한 체격, 오른쪽 어깨를 조심스럽게 움직임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "오른쪽 어깨의 수동적 관절 운동 범위는 정상임. 능동적으로 팔을 옆으로 들어 올릴 때 약 60도에서 120도 사이에서 통증을 호소함 (painful arc). 팔을 90도 외전시킨 상태에서 아래로 누르는 힘에 저항할 때 근력 약화와 통증이 관찰됨 (drop arm test 양성 소견). Neer 검사, Hawkins 검사 등 충돌 징후 양성."
+standardized_patient_questions: "어깨 힘줄이 닳아서 그런 건가요? 일 때문에 팔을 많이 써서 그런 것 같은데... 일을 그만둬야 하나요? 수술해야 하는지 걱정됩니다."
+specific_remarks: "환자는 수동적 움직임(의사가 팔을 움직여주는 것)은 가능하지만, 스스로 팔을 특정 각도로 들어 올릴 때(능동적 움직임) 통증과 근력 약화를 보이는 것이 핵심. '통증 호(painful arc)'를 명확히 표현해야 함. 직업과의 연관성을 걱정하고, 수술 가능성에 대해 불안해한다."

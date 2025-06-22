@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (치열)"
+patient_info:
+  name: "한지민"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "대변 볼 때 찢어지게 아프고 피가 남"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "치열"
+    - "혈전성 외치핵"
+    - "항문 농양"
+  necessary_tests:
+    - "시진 및 직장수지검사 (통증으로 어려울 수 있음)"
+    - "항문경 검사"
+    - "만성적이거나 비전형적인 경우 대장내시경 고려"
+  necessary_treatments:
+    - "온수 좌욕"
+    - "고섬유 식이 및 충분한 수분 섭취로 변비 예방"
+    - "국소 연고(혈관확장제, 스테로이드) 또는 변 완화제 사용"
+history:
+  sex_age: "여성/31세"
+  chief_complaint_verbatim: "일주일 전부터 변 볼 때마다 항문이 찢어지는 것처럼 아프고, 휴지에 피가 선명하게 묻어 나와요. 아파서 화장실 가기가 무서워요."
+  onset: "1주일 전"
+  location:
+    initial: "항문"
+    current: "항문"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "지속됨"
+  course: "일주일 전 다이어트를 시작하면서 변비가 심해졌다. 딱딱한 변을 힘들게 본 후부터 날카로운 통증과 출혈이 시작되었다. 통증은 배변 시 가장 심하고, 배변 후에도 몇 시간 동안 욱신거린다. 통증 때문에 변을 참게 되어 변비가 더 심해지는 악순환이 반복된다."
+  experience_prev_episodes:
+    frequency: "몇 년 전에도 비슷한 경험이 있었으나 금방 좋아짐"
+    trigger: "변비"
+    symptoms: "배변 시 통증, 소량의 출혈"
+  character_of_symptom:
+    quality: "배변 시 유리가 긁고 지나가는 듯한 날카로운 통증. 배변 후 휴지에 묻어나는 소량의 선홍색 피."
+    nrs_score: 8
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "배변 시, 특히 단단한 변을 볼 때"
+    alleviating: "배변 후 시간이 지나면 서서히 완화"
+  health_check_history:
+    last_checkup: "2년 전 직장 검진"
+    endoscopy_finding: "특이사항 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "만성 변비"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "NA"
+    effect: "NA"
+  social_history:
+    job: "패션 디자이너"
+    stress: "다소 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "NA"
+      cessation_period: "NA"
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "최근 다이어트로 2kg 감량"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "건강해 보이나 통증에 대한 불안감을 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "정상 공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 복부 진찰상 특이 소견 없음
+  cvat: "좌우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "왜 이렇게 아픈 건가요? 통증 때문에 화장실을 못 가겠어요. 어떻게 하면 빨리 나을 수 있을까요?"
+specific_remarks: "환자는 배변 시의 통증을 설명할 때 얼굴을 찌푸리며 고통스러워하는 표정을 짓는다. 신체 진찰 시 항문 부위를 건드리는 것에 대한 두려움을 표현한다. (학생이 직장수지검사를 시도하려고 하면 통증이 심해 거부한다.)"

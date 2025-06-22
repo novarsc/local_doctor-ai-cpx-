@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (백의 고혈압)"
+patient_info:
+  name: "오미영"
+  age: 48
+  sex: "여성"
+  presenting_complaint: "병원에서만 혈압이 높게 측정됨"
+vital_signs:
+  blood_pressure: "160/94mmHg (진료실 측정), 125/78mmHg (가정 측정 평균)"
+  pulse: "92회/분"
+  respiration: "20회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "백의 고혈압 (White coat hypertension)"
+    - "가면 고혈압 (Masked hypertension) - 감별 필요"
+    - "전고혈압 또는 1기 고혈압"
+  necessary_tests:
+    - "24시간 활동 혈압 측정 (ABPM)"
+    - "가정 혈압 측정 기록 확인 및 교육"
+    - "고혈압 위험인자 평가 (혈액, 소변 검사 등)"
+  necessary_treatments:
+    - "약물 치료 없이 정기적인 추적 관찰"
+    - "생활 습관 교정 권고"
+    - "가정 혈압을 지속적으로 측정하도록 교육"
+history:
+  sex_age: "여성/48"
+  chief_complaint_verbatim: "병원만 오면 혈압이 높게 나와요. 집에서 재면 괜찮은데, 약을 먹어야 하는 건지 궁금해서 왔어요."
+  onset: "1년 전 건강검진에서 처음 발견"
+  location:
+    initial: "없음"
+    current: "없음"
+  duration:
+    onset_pattern: "병원 방문 시에만 발생"
+    recent_course: "최근 3차례 병원 방문 시 모두 150/90mmHg 이상으로 측정됨"
+  course: "건강검진 후 동네 의원에서 몇 번 더 측정했으나 계속 높게 나와서, 혈압계를 사서 집에서 측정하기 시작함. 집에서는 대부분 130/80 미만임."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "특별한 증상 없음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "병원 환경, 의사나 간호사 앞에서 측정할 때"
+    alleviating: "집에서 편안한 상태에서 측정할 때"
+  health_check_history:
+    last_checkup: "1년 전, 고혈압 의심 소견"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "학원 강사"
+    stress: "다소 있는 편"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 수영"
+    recent_weight_change: "없음"
+  family_history: "부친: 고혈압"
+  female_history: "LMP: 1주 전, 주기 규칙적"
+physical_exam:
+  general: "건강해 보이나 약간 긴장한 모습"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 호흡음 및 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "함요 부종 없음"
+standardized_patient_questions: "백의 고혈압이면 병이 아닌 건가요? 그럼 앞으로 병원에서 혈압 안 재도 되나요? 약 안 먹어도 정말 괜찮은 거죠?"
+specific_remarks: "환자는 자신이 기록해 온 가정 혈압 수첩을 보여주며 적극적으로 설명한다. 진료실에서 혈압을 잴 때 긴장하고 숨을 참는 경향을 보인다. 의사가 '백의 고혈압'이라는 용어를 사용하며 안심시키면 편안해하지만, 향후 고혈압으로 진행할 가능성에 대해 설명하면 다시 관심을 보인다."

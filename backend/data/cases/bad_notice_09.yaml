@@ -1,0 +1,114 @@
+---
+chapter: "상담"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (진행성 난소암)"
+patient_info:
+  name: "박미영"
+  age: 60
+  sex: "여성"
+  presenting_complaint: "소화불량으로 시행한 검사 결과 문의"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "84회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "환자는 2개월간의 복부 팽만과 소화불량으로 내원하여 복부 CT를 촬영했습니다. 첨부된 CT 결과지(양측 난소의 고형 종괴, 다량의 복수 및 복막 파종 소견)를 바탕으로, 환자에게 진행성 난소암이 강력히 의심됨을 알리고 향후 진단 및 치료 계획에 대해 논의하십시오."
+patient_education:
+  probable_diagnoses:
+    - "진행성 난소암 (복막 전이 동반)"
+    - "복막암 (Peritoneal carcinomatosis)"
+    - "다른 소화기암의 복막 전이 (예: 위암)"
+  necessary_tests:
+    - "산부인과 진찰 및 질식 초음파"
+    - "종양표지자검사 (CA-125)"
+    - "시험적 개복술 또는 복강경을 통한 조직 확진 및 종양감축술"
+  necessary_treatments:
+    - "종양감축술 (Debulking surgery)"
+    - "수술 후 보조 항암화학요법"
+    - "복수 조절을 위한 이뇨제 사용 또는 복수 천자"
+history:
+  sex_age: "여성/60세"
+  chief_complaint_verbatim: "배에 가스가 차고 더부룩해서 검사했는데, 결과가 어떤가요?"
+  onset: "2개월 전"
+  location:
+    initial: "복부 전체"
+    current: "복부 전체"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 심해짐"
+  course: "두 달 전부터 소화가 잘 안 되고 배가 빵빵하게 불러왔습니다. 조금만 먹어도 배가 차는 느낌이고, 허리둘레도 늘었습니다. 최근에는 숨도 좀 차는 것 같습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "복부 팽만감, 불편감"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 국가검진"
+    endoscopy_finding: "위내시경 정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이사항 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "소화제 (자가 구매)"
+    source: "약국"
+    effect: "효과 없음"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 수영"
+    recent_weight_change: "체중은 그대로이나 허리둘레 증가"
+  family_history: "어머니 유방암, 언니 난소암 병력"
+  female_history: "10년 전 폐경. 출산력 없음."
+physical_exam:
+  general: "안정된 모습이나 다소 불안해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "전반적으로 팽만되어 있음"
+    auscultation: "장음 감소"
+    percussion: "이동성 탁음(shifting dullness) 양성"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 파동(fluid wave) 양성
+  cvat: "양측 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "난소암이요? 저는 그냥 소화가 안 되는 줄 알았는데... 가족력이 있긴 하지만 저한테도 생길 줄은 몰랐어요. 많이 진행된 건가요? 수술하면 살 수 있는 거죠?"
+specific_remarks: "환자는 단순 소화기 문제로 생각했기에 '난소암' 진단에 매우 놀란다. 가족력 때문에 언젠가 가능성이 있을 거라 막연히 생각했지만, 막상 진단을 받자 '왜 미리 검사하지 않았을까' 하는 자책감을 보인다. '진행성', '복막 전이' 등의 용어에 민감하게 반응하며, 치료 성공 가능성에 대해 집요하게 묻는다."

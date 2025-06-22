@@ -1,0 +1,114 @@
+---
+chapter: "상담"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (후두암)"
+patient_info:
+  name: "최경식"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "수개월간 지속된 목소리 변화"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 생활습관 교정(금연, 금주 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "후두암"
+    - "성대 폴립 또는 결절"
+    - "역류성 후두염"
+  necessary_tests:
+    - "후두 내시경 검사"
+    - "조직 검사"
+    - "경부 CT 또는 MRI"
+  necessary_treatments:
+    - "금연 및 금주 (필수적)"
+    - "확진 시 병기에 따라 방사선 치료, 항암 화학요법, 수술적 치료 결정"
+    - "음성 재활 치료"
+history:
+  sex_age: "남성/65세"
+  chief_complaint_verbatim: "석 달 전부터 목소리가 쉬어서 잘 안 나와요. 처음엔 감기인 줄 알았는데 계속 이러네요."
+  onset: "약 3개월 전"
+  location:
+    initial: "목"
+    current: "목"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 심해짐"
+  course: "처음에는 목이 칼칼하고 목소리가 약간 잠기는 정도였으나, 한 달 전부터는 거의 쉰 목소리만 나오고, 최근에는 목에 뭔가 걸린 느낌도 듦."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "거칠고 쉰 목소리 (Hoarseness)"
+    nrs_score: "없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+    other: "음식 삼킬 때 이물감 (dysphagia)"
+  factors:
+    aggravating:
+      - "오래 말할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "거의 받지 않음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병 전단계"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "건설 현장직 (은퇴 2년)"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "소주 1병/일"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일 (45년간)"
+      cessation_period: "없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 6개월간 4kg 감소"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "쉰 목소리가 특징적임. 전반적인 상태는 양호해 보임."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    neck: "경부 림프절 촉진 시 좌측 레벨 III에서 약 1.5cm 크기의 단단하고 고정된 림프절이 만져짐."
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "목소리가 왜 이렇게 된 건가요? 나쁜 병일 수도 있나요? 담배랑 술이 정말 이렇게 목에 안 좋은가요?"
+specific_remarks: "환자는 대화 내내 쉰 목소리로 말해야 함. '암'일 가능성에 대해 두려워하며, 특히 목소리를 잃게 될까 봐 걱정하는 모습을 보임. 금연과 금주가 치료의 필수 조건임을 설명하면 심각성을 깨닫고 협조적인 태도를 보임."

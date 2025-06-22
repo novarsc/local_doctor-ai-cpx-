@@ -1,0 +1,118 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (다발성 경화증)"
+patient_info:
+  name: "정다발"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "몇 달간 감정 기복이 심하고 몸에 힘이 빠지는 일이 잦음"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "다발성 경화증 (Multiple Sclerosis)에 동반된 정서 증상"
+    - "신경척수염 범주질환 (NMOSD)"
+    - "전신 홍반 루푸스(SLE) 등 자가면역질환의 신경계 침범"
+  necessary_tests:
+    - "뇌 및 척수 MRI (조영제 사용, 탈수초 병변 확인)"
+    - "유발 전위 검사 (시각, 청각, 체성감각)"
+    - "뇌척수액 검사 (Oligoclonal band 확인)"
+  necessary_treatments:
+    - "급성기: 고용량 스테로이드 치료"
+    - "장기적: 질병 조절 약물 (인터페론, 글라티라머 등) 치료"
+    - "증상 조절: 피로, 경직, 우울 등에 대한 대증 요법 및 재활 치료"
+history:
+  sex_age: "여성/32세"
+  chief_complaint_verbatim: "요즘 갑자기 눈물이 났다가 웃음이 났다가 감정 조절이 안돼요. 그리고 몸에 힘이 쭉 빠질 때가 있고, 너무 피곤해요. 작년에는 한쪽 눈이 잘 안 보였던 적도 있어요."
+  onset: "약 1년 전부터 간헐적으로 발생"
+  location:
+    initial: "우측 눈 시력 저하"
+    current: "감정 기복, 피로감, 간헐적 위약감"
+  duration:
+    onset_pattern: "재발과 완화를 반복"
+    recent_course: "최근 감정 기복과 피로감이 주된 문제임"
+  course: "1년 전, 갑자기 우측 눈이 뿌옇게 보이고 눈을 움직일 때 통증이 있었으나(시신경염), 2-3주 후 저절로 호전되었다. 6개월 전에는 샤워 중 뜨거운 물이 닿을 때 등 뒤로 전기가 흐르는 듯한 느낌(Lhermitte's sign)을 며칠간 경험했다. 최근 2-3달 전부터는 상황에 맞지 않게 갑자기 울거나 웃는 일이 잦아졌고(병적 웃음/울음), 극심한 피로감을 느끼며, 가끔 다리에 힘이 빠져 주저앉을 뻔한 적이 있다."
+  experience_prev_episodes:
+    frequency: "수차례, 다른 양상으로"
+    trigger: "스트레스, 더위"
+    symptoms: "시력 저하, 이상 감각, 위약감"
+  character_of_symptom:
+    quality: "시간차를 두고 다른 부위에 나타나는 신경학적 증상, 감정 불안정성, 피로"
+    nrs_score: "N/A"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "더운 날씨, 목욕"
+      - "피곤할 때"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "1년 전 안과 진료, '시신경염' 의심 소견 들었으나 추적관찰 안 함"
+    endoscopy_finding: "N/A"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "교사"
+    stress: "보통 수준"
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "피곤해서 잘 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    lmp: "2주 전"
+    cycle: "규칙적"
+    menarche: "14세"
+    menopause: "N/A"
+physical_exam:
+  general: "전반적으로 피곤해 보임. 면담 중 가끔 상황과 맞지 않는 웃음을 보임. 현재 뚜렷한 운동 마비는 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사상 우안의 상대적 구심동공결손(RAPD)이 의심됨. 심부건반사 양측에서 항진. 바빈스키 징후 양성."
+standardized_patient_questions: "제가 왜 이렇게 감정 조절이 안 될까요? 그냥 스트레스 때문인 줄 알았는데... 자꾸 몸에 이상한 증상이 생겼다 없어졌다 하는 것도 걱정돼요."
+specific_remarks: "환자는 현재의 감정 기복과 피로감을 주로 호소하지만, 과거의 다양한 신경학적 증상(시신경염, 이상 감각 등)에 대한 정보를 잘 제공해야 함. 시간적, 공간적으로 분리된 병변을 시사하는 병력을 이끌어내는 것이 중요. 신체 진찰 시, RAPD나 항진된 DTR, 바빈스키 징후 등을 연기해야 함."

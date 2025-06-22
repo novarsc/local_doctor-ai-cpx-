@@ -1,0 +1,116 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (약물 유발성 서맥)"
+patient_info:
+  name: "조현아"
+  age: 69
+  sex: "여성"
+  presenting_complaint: "자꾸 어지럽고 쓰러질 것 같아요."
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "48회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "약물 유발성 서맥 및 실신 전단계 (예: 베타 차단제, 칼슘 채널 차단제)"
+    - "동기능부전 증후군 (Sick sinus syndrome)"
+    - "방실 차단"
+  necessary_tests:
+    - "복용 약물 목록 확인"
+    - "12유도 심전도 검사"
+    - "혈액 검사 (전해질, 신장 기능, 갑상선 기능 포함)"
+  necessary_treatments:
+    - "의심되는 약물 즉시 중단 또는 감량"
+    - "증상이 호전될 때까지 심장 모니터링"
+    - "약물 중단 후에도 서맥이 지속되면 기저 심장 질환에 대한 평가"
+history:
+  sex_age: "여성/69"
+  chief_complaint_verbatim: "일주일 전부터 자꾸 어질어질하고 기운이 없어요. 오늘은 시장 보다가 눈앞이 하얘지면서 주저앉았어요. 정신을 잃지는 않았는데, 맥박이 너무 느리게 뛰는 것 같아요."
+  onset: "약 1주일 전부터"
+  location:
+    initial: "시장"
+    current: "진료실"
+  duration:
+    onset_pattern: "점진적으로 발생 및 악화"
+    recent_course: "실신 직전의 어지럼증(presyncope)을 자주 느낌. 특히 아침에 심함. 쉬면 조금 나아짐."
+  course: "2주 전, 다니던 내과에서 혈압이 높고 가슴이 뛴다며 약을 추가해 주셨는데, 그 약을 먹기 시작한 뒤로 증상이 생긴 것 같음."
+  experience_prev_episodes:
+    frequency: "지난 주부터 매일 수차례"
+    trigger: "특별한 유발 요인 없음"
+    symptoms: "어지럼증, 피로감, 무기력"
+  character_of_symptom:
+    quality: "의식 소실 직전의 어지럼증"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침 기상 시"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "2주 전 내과 방문"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 심방세동, 골관절염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (ARB)"
+      - "와파린"
+      - "소염진통제"
+      - "2주 전부터 추가된 약 (딜티아젬 또는 베라파밀과 같은 non-dihydropyridine CCB 또는 베타차단제)"
+    source: "내과 의원"
+    effect: "새 약을 먹고 가슴 두근거림은 줄었으나 어지럼증 발생"
+  social_history:
+    job: "주부"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "무릎이 아파서 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 20년 전"
+physical_exam:
+  general: "만성 병색. 기운이 없어 보이며 느리게 행동함. 의식 명료."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심음 청진 시 불규칙하면서도 매우 느린 심박수(irregularly irregular bradycardia)가 확인됨."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양쪽 무릎에 가벼운 부종 및 압통. 말초 부종은 없음."
+standardized_patient_questions: "새로 받은 약이 저랑 안 맞는 걸까요? 약을 안 먹으면 또 가슴이 뛸까 봐 무서운데 어떻게 하죠? 나이 먹으니 온몸이 고장이네요."
+specific_remarks: "환자는 2주 전 추가된 약과 증상 발생의 시간적 연관성을 명확히 인지하고 있다. 그러나 약을 임의로 중단하는 것에 대한 두려움도 함께 표현한다. 전반적으로 무기력하고 우울한 모습을 보인다."

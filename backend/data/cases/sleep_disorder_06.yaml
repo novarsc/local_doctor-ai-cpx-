@@ -1,0 +1,112 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (교대근무 수면장애)"
+patient_info:
+  name: "정하나"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "근무 스케줄에 따라 잠을 제대로 못 잠"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 과도한 주간 졸림 및 불면 증상에 대한 추정 진단과 향후 계획 등에 대해 환자와 상의하시오."
+patient_education:
+  probable_diagnoses:
+    - "교대근무 수면장애 (Shift Work Disorder)"
+    - "불면장애"
+    - "우울장애"
+  necessary_tests:
+    - "수면일지 작성 (근무 스케줄과 함께 기록)"
+    - "혈액검사 (빈혈, 갑상선 기능 등 감별)"
+    - "필요시 활동기록기(Actigraphy) 검사"
+  necessary_treatments:
+    - "수면 위생 교육 및 근무 스케줄 적응 전략"
+    - "광치료(Light therapy) 고려"
+    - "단기적으로 수면제 또는 각성도 유지 약물(모다피닐) 사용 고려"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "3교대 근무를 하는데, 특히 야간 근무 끝나고 아침에 잠을 자려고 하면 잠이 안 와요. 쉬는 날에는 잠만 자는데도 피곤해요."
+  onset: "병원에 입사한 2년 전부터"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "교대근무 시작 후 발생"
+    recent_course: "최근 연차가 쌓이고 업무가 많아지면서 더 심해짐"
+  course: "주간(Day) 근무 때는 괜찮은데, 저녁(Evening)이나 특히 야간(Night) 근무를 할 때 문제가 심각함. 야간 근무 후 아침에 퇴근해서 자려고 누우면 2-3시간밖에 못 자고 깨버림. 반대로 야간 근무 중 새벽 3-4시에는 너무 졸려서 실수를 할까 봐 두려움. 쉬는 날(Off)에는 하루 종일 잠을 자거나 멍하게 보내게 됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "근무 스케줄에 따른 불면과 과도한 졸림"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "야간 근무 스케줄"
+      - "근무 전 커피 과다 섭취"
+    alleviating: "휴가 때 며칠간 규칙적으로 잘 때"
+  health_check_history:
+    last_checkup: "1년 전 직원 검진, 특이사항 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 (두드러기)"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "대학병원 간호사 (3교대)"
+    stress: "업무 강도와 스케줄로 인한 스트레스가 매우 높음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 못 함"
+    recent_weight_change: "최근 1년간 5kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 1주 전, 불규칙한 주기를 보임"
+physical_exam:
+  general: "전반적으로 피곤해 보이고 다크서클이 있음"
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "제가 이 일을 계속할 수 있을까요? 이 생활을 계속하면 건강이 많이 나빠질까요? 약을 먹으면 졸리지 않고 일할 수 있나요?"
+specific_remarks: "환자는 만성적인 피로와 수면 부족으로 인해 감정적으로 예민하고 지쳐있는 모습을 연기한다. 자신의 직업 때문에 발생하는 문제라는 점을 명확히 인지하고 있으며, 직업을 그만두어야 할지에 대한 고민을 토로한다."

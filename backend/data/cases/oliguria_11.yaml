@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (복부 구획 증후군)"
+patient_info:
+  name: "고복압"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "교통사고 후 배가 불러오고 소변이 안 나옴"
+vital_signs:
+  blood_pressure: "90/60mmHg"
+  pulse: "125회/분"
+  respiration: "28회/분 (얕고 빠름)"
+  temperature: "36.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "복부 구획 증후군 (Abdominal Compartment Syndrome)"
+    - "출혈성 쇼크"
+    - "허혈성 급성 세뇨관 괴사"
+  necessary_tests:
+    - "방광 내 압력 측정 (진단 확진)"
+    - "복부 CT (복강 내 출혈 또는 장기 부종 확인)"
+    - "동맥혈 가스 분석 (젖산 수치 확인)"
+  necessary_treatments:
+    - "응급 개복술을 통한 복부 감압"
+    - "대량 수액 소생술 및 수혈"
+    - "지속적인 혈역학적 모니터링"
+history:
+  sex_age: "남성/55"
+  chief_complaint_verbatim: "(보호자) 남편이 어제 교통사고로 수술받고 중환자실에 있는데, 밤부터 배가 풍선처럼 부풀어 오르고 소변이 한 방울도 안 나온대요. 숨도 힘들어하고요."
+  onset: "12시간 전 (수술 후)"
+  location:
+    initial: "복부"
+    current: "복부 팽만, 핍뇨, 호흡곤란"
+  duration:
+    onset_pattern: "수술 후 서서히 발생"
+    recent_course: "급격히 악화"
+  course: "어제 오후, 운전 중 다중 추돌 사고로 복부에 큰 충격을 받아 응급실 내원. 비장 파열 및 장간막 출혈 진단 하에 응급 개복 및 비장 절제술 시행. 수술 중 대량 수혈 및 수액 공급 받음. 수술 후 중환자실에서 기계환기 치료 중. 약 12시간 전부터 복부 팽만이 심해지고 단단해지기 시작함. 혈압이 떨어지고 소변이 시간당 10cc 미만으로 측정되어 주치의 호출됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "복부 팽만, 핍뇨, 저혈압, 호흡곤란"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "내원 전 교통사고"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "개인 의원"
+    effect: "조절 잘 됨"
+  social_history:
+    job: "회사원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: ""
+    exercise: "주 1회 등산"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "중환자실 침상에 누워있으며, 기관 내 삽관 및 기계 환기 중. 진정 상태. 전신이 부어있음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "기관 내 튜브 삽입 상태"
+  chest: "기계 환기음 외 양측 폐 하부에서 호흡음 감소. 높은 기도 압력이 모니터에 표시됨."
+  abdomen:
+    inspection: "복부가 매우 팽팽하게 팽창되어 있음 (tense abdomen). 수술 상처 부위가 벌어질 듯 보임."
+    auscultation: "장음 소실"
+    percussion: "전반적으로 고창음(tympany)"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 신체진찰 소견 추가
+      abdomen_is_firm_and_tense: true
+  cvat: "측정 불가"
+  extremity: "사지 말단이 차갑고 청색증 보임. 부종 심함. 말초 맥박 촉지 약함."
+standardized_patient_questions: "(보호자) 수술은 잘 됐다고 했는데 왜 이런가요? 배를 다시 열어야 한다니, 환자가 버틸 수 있을까요? 콩팥은 괜찮아질 수 있나요?"
+specific_remarks: "환자는 진정 상태로 반응이 없다. 모든 병력 청취와 설명은 보호자(아내)를 대상으로 이루어진다. 보호자는 매우 불안하고 겁에 질린 상태이며, 의학 용어를 잘 이해하지 못해 반복적으로 쉬운 설명을 요구한다. 현재 환자 상태의 위중함과 응급 수술의 필요성에 대해 설명해야 한다."

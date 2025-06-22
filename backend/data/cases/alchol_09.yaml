@@ -1,0 +1,113 @@
+---
+chapter: "상담"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (알코올성 심근병증)"
+patient_info:
+  name: "장민호"
+  age: 49
+  sex: "남성"
+  presenting_complaint: "운동 시 숨이 차고 다리가 붓는 증상"
+vital_signs:
+  blood_pressure: "105/70mmHg"
+  pulse: "115회/분"
+  respiration: "24회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 치료(금주 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올성 심근병증으로 인한 심부전"
+    - "확장성 심근병증 (다른 원인)"
+    - "허혈성 심질환으로 인한 심부전"
+  necessary_tests:
+    - "심장 초음파"
+    - "흉부 X-ray 및 심전도"
+    - "혈액 검사 (BNP, 심근효소, 간기능 검사)"
+  necessary_treatments:
+    - "절대적인 금주 (심장 기능 회복에 필수적)"
+    - "이뇨제, 베타차단제, 안지오텐신 전환 효소 억제제 등 심부전 약물치료"
+    - "저염식이 및 수분 섭취 제한"
+history:
+  sex_age: "남성/49세"
+  chief_complaint_verbatim: "두 달 전부터 조금만 걸어도 숨이 차고, 밤에 누우면 숨이 막혀서 앉아서 자야 해요. 다리도 퉁퉁 붓고요."
+  onset: "약 2개월 전"
+  location:
+    initial: "가슴, 다리"
+    current: "가슴, 다리"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 심해짐"
+  course: "처음에는 피곤해서 그런가 했는데, 점차 계단 한 층도 오르기 힘들 정도로 숨이 차고, 자려고 누우면 기침이 나고 숨이 막혀서 소파에 앉아서 밤을 새운 적이 많다. 신발이 안 맞을 정도로 다리가 붓는다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "숨이 부족한 느낌, 기좌호흡(orthopnea), 발작성 야간 호흡곤란(PND)"
+    nrs_score: "없음"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "걷기, 신체 활동"
+      - "누운 자세"
+    alleviating: "휴식, 앉아 있는 자세"
+  health_check_history:
+    last_checkup: "받은 적 거의 없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 진단받았으나 약 복용 안 함"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "일용직 노동자"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "매일"
+      amount: "소주 2병 이상/일"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "없음"
+    exercise: "못함"
+    recent_weight_change: "오히려 붓기 때문에 3kg 증가"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "안정 시에도 호흡이 가쁘고, 불안한 모습. 전신 부종 관찰됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    neck: "경정맥 팽창(jugular vein distention) 관찰됨."
+  chest: "청진 시 양쪽 폐 하부에서 수포음(crackle) 청취됨. 심음 청진 시 빈맥 및 S3 gallop 청취됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      hepatomegaly: "촉진됨"
+  cvat: "양측 음성"
+  extremity: "양측 하지에 심한 함요 부종(pitting edema, +++) 관찰됨."
+standardized_patient_questions: "심장이 나쁜 건가요? 왜 이렇게 숨이 차죠? 술 마시는 거랑 심장이랑 상관이 있나요? 이대로 죽는 건 아닌지 무서워요."
+specific_remarks: "환자는 죽음에 대한 공포를 느끼며 매우 불안해함. 자신의 증상이 과도한 음주로 인해 심장이 커지고 기능이 떨어진 '심부전' 상태임을 설명하면 충격을 받음. 금주를 통해 심장 기능이 일부 회복될 수 있다는 희망적인 메시지를 전달하는 것이 중요하며, 환자가 치료 의지를 갖도록 격려하고 지지해야 함."

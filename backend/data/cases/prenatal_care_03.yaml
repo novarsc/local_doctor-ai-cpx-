@@ -1,0 +1,116 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (철결핍성 빈혈)"
+patient_info:
+  name: "박서연"
+  age: 26
+  sex: "여성"
+  presenting_complaint: "조금만 움직여도 숨이 차고 어지러움"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "105회/분"
+  respiration: "22회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "임신성 철결핍성 빈혈"
+    - "정상적인 임신 중 생리적 변화"
+    - "심장 질환"
+  necessary_tests:
+    - "일반 혈액 검사 (CBC with differential count)"
+    - "혈청 철, 총철결합능(TIBC), 페리틴 검사"
+    - "필요시 심전도(EKG) 검사"
+  necessary_treatments:
+    - "경구 철분제 복용"
+    - "철분이 풍부한 식이 교육"
+    - "증상 심할 경우 철분 주사제 고려"
+history:
+  sex_age: "여성/26세"
+  chief_complaint_verbatim: "임신 28주차인데, 요즘 계단만 조금 올라도 숨이 턱까지 차고, 앉았다 일어날 때 핑 도는 느낌이 들어요. 너무 힘드네요."
+  onset: "약 1달 전부터 서서히"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 1-2주 사이 증상이 뚜렷해짐"
+  course: "처음에는 체중이 늘어서 그런가 싶었지만, 최근에는 가만히 있어도 심장이 두근거리는 느낌이 들고, 일상생활이 힘들 정도로 기운이 없어 내원함."
+  experience_prev_episodes:
+    frequency: "임신 전에도 가끔 어지럼증 있었음"
+    trigger: "생리 기간"
+    symptoms: "어지럼증, 피로감"
+  character_of_symptom:
+    quality: "숨가쁨(shortness of breath), 어지럼증(dizziness), 심계항진(palpitation)"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true # 철분제 복용 후 시작됨
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "계단 오르기"
+      - "빨리 걷기"
+      - "자세 변경 시"
+    alleviating: "가만히 앉아 있거나 누워있을 때"
+  health_check_history:
+    last_checkup: "임신 12주차 검사"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "임산부용 종합비타민 (철분 30mg 포함)"
+    source: "산부인과 처방"
+    effect: "꾸준히 먹고 있지만 증상은 계속됨"
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "보통 수준"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "임신 후 10kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "G1P0, LMP: 약 7개월 전, EDC: 12주 후, 임신 28주. 평소 생리양이 많은 편이었음."
+physical_exam:
+  general: "안색이 창백해 보임. 전반적으로 기운이 없어 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+    conjunctiva: "pale" # 결막 창백
+  chest: "Tachycardia, 심잡음 없음. 호흡음 정상."
+  abdomen:
+    inspection: "임신 28주에 합당한 크기"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "pitting edema 없음. 손톱이 얇고 잘 부러짐 (koilonychia 의심)."
+standardized_patient_questions: "제가 왜 이렇게 숨이 차고 어지러운 건가요? 빈혈이면 아기한테 안 좋은 영향을 주나요? 철분제를 먹고 있는데 왜 이런 거죠?"
+specific_remarks: "환자는 매우 피곤하고 힘이 없는 모습을 연기한다. 문진 중에도 가끔 숨을 고르는 모습을 보인다. 창백한 안색과 결막을 표현해야 한다. 철분제 복용으로 인한 변비 증상도 함께 호소한다."

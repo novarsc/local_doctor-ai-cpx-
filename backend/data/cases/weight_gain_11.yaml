@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (수면무호흡증)"
+patient_info:
+  name: "최상호"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "코골이가 심하고 살이 쪄서 내원함"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "폐쇄성 수면무호흡증"
+    - "갑상선 기능 저하증"
+    - "본태성 고혈압"
+  necessary_tests:
+    - "수면다원검사"
+    - "Epworth 졸음 척도 등 설문지"
+    - "갑상선 기능 검사 등 체중증가의 다른 원인 배제"
+  necessary_treatments:
+    - "체중 감량"
+    - "양압기(CPAP) 치료"
+    - "필요시 구강 내 장치 또는 수술적 치료"
+history:
+  sex_age: "남성/48세"
+  chief_complaint_verbatim: "와이프가 코를 너무 시끄럽게 골고, 자다가 숨을 멈춘다고 해서 걱정이 돼서 왔어요. 아침에 일어나도 개운하지가 않고, 낮에 계속 졸리고... 살도 계속 찌네요."
+  onset: "수년 전부터"
+  location:
+    initial: "코골이"
+    current: "심한 코골이, 주간 졸림증, 체중 증가"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 1-2년 사이 체중이 늘면서 모든 증상이 심해짐"
+  course: "젊었을 때도 코를 골았지만, 체중이 증가하면서 소리가 커지고 자다가 '컥'하며 숨을 멈추는 모습이 아내에게 자주 목격됨. 아침 두통이 잦고 낮 동안 집중력 저하와 심한 졸림을 느낌."
+  experience_prev_episodes:
+    frequency: "매일 밤"
+    trigger: "수면 시"
+    symptoms: "코골이, 무호흡"
+  character_of_symptom:
+    quality: "수면의 질 저하와 그로 인한 주간 증상"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "음주 후 수면 시"
+      - "똑바로 누워 잘 때"
+    alleviating: "옆으로 누워 자면 조금 낫다고 함"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "고혈압 진단"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "고혈압약"
+    source: "내과"
+    effect: "혈압 조절 중"
+  social_history:
+    job: "회사원 (부장)"
+    stress: "업무 스트레스 많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 2년간 12kg 증가"
+  family_history: "부친 (고혈압, 뇌졸중)"
+  female_history: ""
+physical_exam:
+  general: "비만한 체형 (BMI 31). 목이 짧고 굵음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "구강 검사 시 편도가 비대하고(Tonsil grade II), 목젖이 길며, 연구개가 아래로 처져 있음 (Mallampati score IV)."
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "복부 비만"
+    auscultation: "장음 정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "코골이가 그렇게 위험한 건가요? 그냥 피곤해서 그런 줄 알았는데...", "살 빼면 코골이도 좀 나아질까요? 어떻게 치료해야 하나요?"
+specific_remarks: "환자는 아내의 성화에 못 이겨 마지못해 병원에 온 듯한 태도를 보인다. 자신의 증상을 대수롭지 않게 여기려 하지만, 의사의 설명에 점차 심각성을 깨닫고 걱정하는 모습을 보인다."

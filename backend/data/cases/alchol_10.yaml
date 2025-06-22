@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (소화성 궤양)"
+patient_info:
+  name: "김현성"
+  age: 42
+  sex: "남성"
+  presenting_complaint: "공복 시 발생하는 명치 통증"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 생활습관 교정(금연, 금주 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "소화성 궤양 (십이지장 궤양 가능성 높음)"
+    - "위염"
+    - "위식도 역류질환"
+  necessary_tests:
+    - "상부 위장관 내시경 및 조직검사"
+    - "헬리코박터 파일로리 검사"
+    - "혈액 검사 (빈혈 여부 확인)"
+  necessary_treatments:
+    - "금연 (궤양 치유를 방해하므로 필수적)"
+    - "금주 및 자극적인 음식 피하기"
+    - "위산분비 억제제 및 헬리코박터균 제균 치료"
+history:
+  sex_age: "남성/42세"
+  chief_complaint_verbatim: "속이 쓰려서 새벽에 잠을 깹니다. 밥 먹으면 좀 괜찮아졌다가 식사 때가 되면 또 아파요."
+  onset: "약 2개월 전"
+  location:
+    initial: "명치"
+    current: "명치"
+  duration:
+    onset_pattern: "간헐적, 주기적"
+    recent_course: "최근 2주간 거의 매일 발생"
+  course: "두 달 전부터 속쓰림이 시작되었고, 특히 빈속일 때 심했다. 식사를 하면 통증이 가라앉는 양상이었음. 최근에는 통증 강도가 심해지고 밤에 잠을 깰 정도여서 내원함."
+  experience_prev_episodes:
+    frequency: "하루 2-3회, 특히 공복 시"
+    trigger: "공복, 스트레스, 음주, 흡연"
+    symptoms: "속쓰림, 명치 통증"
+  character_of_symptom:
+    quality: "타는 듯, 쓰린 느낌"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+      melena: "최근 변 색이 약간 검어진 것 같음"
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "빈속일 때"
+      - "자극적인 음식"
+    alleviating: "식사, 제산제"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "만성 표재성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "비스테로이드성 소염진통제 (최근 허리 통증으로 2주간 복용)"
+    source: "정형외과 처방"
+    effect: "허리 통증은 호전됨"
+  social_history:
+    job: "프로그래머"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일 (20년간)"
+      cessation_period: "없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 위궤양으로 치료받은 적 있음"
+  female_history: null
+physical_exam:
+  general: "불편한 표정 외 특이사항 없음"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      epigastric_tenderness: "심한 압통"
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "위에 구멍이라도 난 건가요? 왜 이렇게 아프죠? 담배 피우는 게 속 쓰린 거랑 상관이 있나요? 커피도 마시면 안 되나요?"
+specific_remarks: "환자는 통증에 매우 예민하게 반응함. 흡연이 위 점막의 혈류를 감소시키고 방어 인자를 약화시켜 궤양을 유발하고 치유를 방해한다는 사실을 잘 모름. 소염진통제 복용력과 흡연, 음주가 모두 위험요인임을 설명하고, 특히 금연의 중요성을 강조할 때 '그렇게까지 해야 하나'라며 회의적인 반응을 보이다가, 출혈 등 합병증의 위험을 듣고 심각성을 깨닫는 모습을 연기함."

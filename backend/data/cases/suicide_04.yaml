@@ -1,0 +1,113 @@
+---
+chapter: "상담"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (경계성 인격장애)"
+patient_info:
+  name: "최유리"
+  age: 24
+  sex: "여성"
+  presenting_complaint: "남자친구와 헤어진 후 죽고 싶다는 생각이 듦"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "경계성 인격장애 (Borderline Personality Disorder)"
+    - "주요우울장애 (Major Depressive Disorder)"
+    - "양극성장애 II형 (Bipolar II Disorder)"
+  necessary_tests:
+    - "구조화된 인격장애 진단 면담 (SCID-5-PD)"
+    - "자해 및 자살 행동에 대한 상세한 평가"
+    - "약물 남용 선별 검사"
+  necessary_treatments:
+    - "변증법적 행동치료 (Dialectical Behavior Therapy, DBT)"
+    - "위기 상황에서의 안전 계획 수립 및 단기 입원 고려"
+    - "감정 조절의 어려움, 충동성 조절을 위한 약물치료 (기분조절제, 비정형 항정신병약물 등)"
+history:
+  sex_age: "여성/24세"
+  chief_complaint_verbatim: "남자친구가 헤어지자고 했어요. 그 사람이 없으면 난 살 수가 없어요. 그냥 죽어버릴 거예요. (팔에 있는 자해 흉터를 보여주며) 예전에도 이런 적 많았어요."
+  onset: "어제 저녁 남자친구의 이별 통보 직후"
+  location:
+    initial: "정신적 고통"
+    current: "정신적 고통"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "지속"
+  course: "청소년기부터 감정 기복이 심하고 대인관계가 불안정했음. 상대를 이상화했다가도 사소한 일로 평가절하하는 일이 잦았음. 버림받는 것에 대한 극심한 두려움을 느끼며, 이별 등 스트레스 상황에서 반복적으로 자해하거나 자살 시도를 했음. 어제 남자친구와 다툰 후 이별 통보를 받자 극심한 공허감과 분노를 느끼며 손목을 그었고, 죽고 싶다는 생각에 응급실을 방문함."
+  experience_prev_episodes:
+    frequency: "수십 차례"
+    trigger: "대인관계 갈등, 특히 연인과의 이별"
+    symptoms: "자해, 자살 시도, 극심한 감정 기복"
+  character_of_symptom:
+    quality: "버림받았다는 느낌, 극심한 공허감, 분노"
+    nrs_score: "10"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "혼자 있는 것"
+      - "남자친구와의 기억을 떠올리는 것"
+    alleviating: "누군가 내 옆에 있어 줄 때"
+  health_check_history:
+    last_checkup: "해당 없음"
+    endoscopy_finding: ""
+  trauma_history: "어린 시절 부모의 방임 경험이 있다고 함"
+  past_medical_history:
+    underlying_disease: "과거 여러 차례 자해, 약물 과다복용으로 응급실 방문력 있음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "아르바이트"
+    stress: "대인관계 스트레스가 극심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "폭음하는 경향"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "불규칙적"
+    recent_weight_change: "잦은 체중 변화"
+  family_history: "불안정한 가정 환경에서 성장"
+  female_history: "LMP: 1주 전, regular"
+physical_exam:
+  general: "감정적으로 매우 불안정하며, 의사에게 매달리는 듯한 태도와 분노를 번갈아 보임."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "양쪽 팔목에 오래되고 새로운 다수의 표재성 자해 흉터(superficial self-harm scars) 관찰됨. 부종이나 청색증은 없음."
+standardized_patient_questions: "선생님은 제 편이죠? 저 좀 도와주세요. 남자친구한테 다시 연락해서 저 좀 살려달라고 말해주세요. 약 먹으면 이 감정들이 다 사라지나요? 저 입원시켜서 저 좀 못 나가게 막아주세요."
+specific_remarks: "의사를 시험하는 듯한 질문을 던짐. '선생님도 결국 절 버릴 거죠?' 와 같은 말을 할 수 있음. 감정을 극적으로 표현하며, 의사의 공감과 지지를 계속해서 확인하려고 함. 자해 흉터를 의도적으로 보여줌."

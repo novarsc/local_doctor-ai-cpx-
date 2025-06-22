@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (혈우병 A)"
+patient_info:
+  name: "왕자람"
+  age: 10
+  sex: "남성"
+  presenting_complaint: "넘어진 후 무릎이 붓고 아프며 잘 구부리지 못함"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "100회/분"
+  respiration: "20회/분"
+  temperature: "37.1℃"
+examinee_instructions: "보호자로부터 증상과 관련된 병력을 청취하고, 환아의 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "혈우병 A (Hemophilia A)"
+    - "혈우병 B (Hemophilia B)"
+    - "외상성 관절염"
+  necessary_tests:
+    - "혈액응고 검사 (aPTT 현저한 연장, PT/혈소판 정상)"
+    - "제8응고인자 활성도 측정"
+    - "관절 초음파 또는 MRI"
+  necessary_treatments:
+    - "제8응고인자 농축액 정맥 주사"
+    - "통증 조절 및 관절 안정(RICE 요법)"
+    - "예방적 응고인자 투여 및 재활 치료"
+history:
+  sex_age: "남성/10세"
+  chief_complaint_verbatim: "(보호자) 어제 학교에서 놀다가 살짝 넘어졌는데, 저녁부터 왼쪽 무릎이 퉁퉁 붓고 아파서 잠도 못 자고 울었어요. 멍도 심하게 들었고요."
+  onset: "1일 전"
+  location:
+    initial: "왼쪽 무릎"
+    current: "왼쪽 무릎"
+  duration:
+    onset_pattern: "경미한 외상 후 발생"
+    recent_course: "부종과 통증이 점점 심해짐"
+  course: "어릴 때부터 자주 멍이 들고, 예방주사 맞은 부위가 심하게 붓는 일이 잦았다. 5살 때 넘어져서 입술 안쪽이 찢어졌을 때 지혈이 안 되어 응급실에 간 적이 있다. 이번처럼 관절이 붓고 아픈 것은 3번째이다. 이전에는 오른쪽 발목이 부었었다."
+  experience_prev_episodes:
+    frequency: "2-3년에 한 번씩"
+    trigger: "외상"
+    symptoms: "심부 혈종, 관절 출혈"
+  character_of_symptom:
+    quality: "심한 관절통, 관절 부종, 운동 제한"
+    nrs_score: 8
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "무릎을 구부리거나 움직일 때"
+    alleviating: "가만히 있을 때"
+  health_check_history:
+    last_checkup: "초등학교 입학 전 검진, 특이사항 듣지 못함"
+    endoscopy_finding: "없음"
+  trauma_history: "어제 친구와 놀다 가볍게 넘어짐"
+  past_medical_history:
+    underlying_disease: "진단받은 적 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "어젯밤 어린이용 해열진통제(이부프로펜) 복용"
+    source: "집 상비약"
+    effect: "효과 없었음"
+  social_history:
+    job: "초등학생"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "활동적임"
+    recent_weight_change: "없음"
+  family_history: "외삼촌이 어릴 때 피가 잘 안 멎는 병이 있었다고 들었음."
+  female_history: ""
+physical_exam:
+  general: "통증으로 울상이며, 왼쪽 다리를 움직이지 않으려 함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "\"압통 없음.\""
+  cvat: "좌우 음성"
+  extremity: "왼쪽 무릎 관절이 오른쪽과 비교하여 심하게 부어 있고, 만졌을 때 따뜻하며(warmth) 심한 압통을 호소함. 무릎 주변으로 퍼렇게 멍이 들어 있음. 관절의 수동적, 능동적 운동이 모두 제한됨. 피부에 점상출혈은 없음."
+standardized_patient_questions: "(보호자) 그냥 좀 삔 게 아닌가요? 왜 이렇게까지 붓고 아파하죠? 외삼촌이 피가 안 멎는 병이 있었다는데, 유전인가요? 앞으로 계속 이렇게 다치면서 살아야 하나요?"
+specific_remarks: "환아는 통증을 심하게 호소한다. 보호자는 반복되는 출혈 문제와 가족력에 대해 질문하며, 유전 질환에 대한 불안감을 나타낸다. 점상출혈 같은 표재성 출혈이 아닌, 심부 조직 및 관절 출혈(hemarthrosis)이 특징임을 명확히 연기해야 한다."

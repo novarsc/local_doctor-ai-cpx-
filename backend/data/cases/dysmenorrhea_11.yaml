@@ -1,0 +1,116 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (갑상선 기능 저하증)"
+patient_info:
+  name: "오세영"
+  age: 33
+  sex: "여성"
+  presenting_complaint: "생리 양이 너무 많고 주기가 길어졌어요."
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "58회/분"
+  respiration: "14회/분"
+  temperature: "36.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "갑상선 기능 저하증에 의한 월경 이상"
+    - "자궁근종 또는 자궁선근증"
+    - "다낭성난소증후군"
+  necessary_tests:
+    - "갑상선 기능 검사 (TSH, free T4)"
+    - "갑상선 자가항체 검사 (Anti-TPO Ab)"
+    - "혈액검사 (CBC, 빈혈 확인)"
+    - "골반 초음파"
+  necessary_treatments:
+    - "갑상선 호르몬제 (씬지로이드) 복용"
+    - "정기적인 갑상선 기능 추적 검사"
+    - "빈혈이 있을 경우 철분제 복용"
+history:
+  sex_age: "여성/33"
+  chief_complaint_verbatim: "반년 전부터 생리 양이 갑자기 늘고 주기도 40-50일로 길어졌어요. 너무 피곤하고 몸이 붓는 느낌이에요."
+  onset: "약 6개월 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "증상 지속 및 악화"
+  course: "지난 6개월간 월경과다와 희발월경이 동시에 나타남"
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: ""
+    symptoms: "월경과다, 희발월경, 전신증상"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: "0점"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    other:
+      cold_intolerance: "추위를 유난히 많이 탐"
+      edema: "얼굴과 손발이 붓는 느낌"
+      dry_skin: "피부가 건조하고 거칠어짐"
+      weight_gain: "식사량은 비슷한데 최근 5kg 정도 쩠음"
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "은행원"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+    smoking:
+      is_smoker: false
+    exercise: "피곤해서 거의 못함"
+    recent_weight_change: "최근 6개월간 5kg 증가"
+  family_history: "어머니가 갑상선 질환으로 약 복용 중"
+  female_history:
+    menarche: "14세"
+    lmp: "45일 전"
+    cycle: "과거 30일 주기 -> 최근 40-50일 주기"
+    duration: "7-8일"
+    amount: "많아짐"
+    dysmenorrhea: "경미"
+    menopause_age: "해당 없음"
+    obgyn_visits: "처음"
+    sexual_history: "기혼"
+physical_exam:
+  general: "전반적으로 기운 없고 느린 행동. 얼굴이 부어 보임 (puffy face)."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+    hair: "Coarse and dry hair"
+  neck: "Diffusely enlarged, non-tender, firm goiter palpated."
+  chest: "Bradycardia (HR 58), clear lung sounds"
+  abdomen: "Soft, non-tender, decreased bowel sounds"
+  cvat: "양측 음성"
+  extremity: "Non-pitting edema on both shins. Delayed relaxation of ankle jerk reflex."
+standardized_patient_questions: "단순히 피곤해서 그런 줄 알았는데, 왜 생리까지 이상해진 걸까요? 갑상선에 문제가 있으면 생리도 이상해질 수 있나요? 약 먹으면 괜찮아지나요?"
+specific_remarks: "말과 행동이 느리다. 질문에 대답할 때도 한 박자 늦게, 힘없이 대답한다. 목소리가 약간 쉰 듯하게 들릴 수 있다. 자신의 증상(피로, 체중증가 등)을 게으름 탓으로 자책하는 모습을 보인다."

@@ -1,0 +1,126 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (골반염)"
+patient_info:
+  name: "박유나"
+  age: 22
+  sex: "여성"
+  presenting_complaint: "아랫배 통증과 열, 노란 질 분비물"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "95회/분"
+  respiration: "20회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "골반염 (Pelvic Inflammatory Disease, PID)"
+    - "자궁외임신 (Ectopic pregnancy)"
+    - "급성 충수돌기염 (Acute appendicitis)"
+  necessary_tests:
+    - "일반 혈액 검사 (CBC with differential) 및 염증 수치 검사 (ESR/CRP)"
+    - "성매개감염병 핵산증폭검사 (STD NAAT for Gonorrhea/Chlamydia)"
+    - "골반 초음파 검사 (Pelvic ultrasonography)"
+    - "소변 임신반응검사 (Urine hCG)"
+  necessary_treatments:
+    - "광범위 항생제 정맥 주사 (입원 치료 원칙)"
+    - "필요시 해열제 및 진통제 투여"
+    - "성 파트너 검사 및 치료"
+history:
+  sex_age: "여성/22"
+  chief_complaint_verbatim: "3일 전부터 아랫배 전체가 욱신거리고 아파요. 어제부터는 열도 나고 춥고 떨리고, 노란 고름 같은 냉도 나와요."
+  onset: "3일 전"
+  location:
+    initial: "하복부 전체"
+    current: "하복부 전체, 특히 양쪽 아래"
+  duration:
+    onset_pattern: "아급성"
+    recent_course: "점점 악화됨"
+  course: "3일 전 생리가 끝난 직후부터 아랫배가 살살 아프기 시작했습니다. 어제 저녁부터는 몸살 기운처럼 춥고 떨리면서 열이 났고, 통증이 심해져서 걷기도 힘들어졌습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "양측 하복부의 지속적이고 둔한 통증, 화농성 질 분비물"
+    nrs_score: "8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "걷거나 움직일 때"
+      - "기침할 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "받은 적 없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "타이레놀 1알 (어젯밤)"
+    source: "집에 있던 약"
+    effect: "열이 잠시 내렸다가 다시 오름"
+  social_history:
+    job: "클럽 아르바이트"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병 이상"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "14세"
+    menstrual_cycle: "30일 주기, 규칙적"
+    duration: "6일"
+    amount: "보통"
+    lmp: "1주 전 끝남"
+    gpa: "0-0-0-0"
+    sexual_partner: "최근 1년간 3명 이상"
+    contraception: "거의 사용하지 않음"
+physical_exam:
+  general: "열이 나고 통증으로 힘들어하는 급성 병색. 식은땀을 흘림."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "호흡음 정상. 빈맥."
+  abdomen:
+    inspection: "편평함. 움직임에 따라 통증 호소."
+    auscultation: "장음 감소"
+    percussion: "하복부 전반에 타진통"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: true
+      # 양측 하복부에 심한 압통과 반발 압통이 관찰됨.
+      # 질경 검사 시: 자궁경부에서 노란색의 점액농성 분비물이 흘러나옴.
+      # 내진 시: 자궁경부 이동 시 극심한 통증 호소 (positive CMT). 양측 자궁 부속기에도 심한 압통(adnexal tenderness)이 있음.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "배가 왜 이렇게 아픈 거예요? 맹장염은 아니에요? 입원해야 하나요? 나중에 임신하는 데 문제가 생길 수도 있나요?"
+specific_remarks: "통증으로 인해 진찰에 비협조적일 수 있다. 걷는 모습을 'PID shuffle'처럼 배를 감싸고 조심스럽게 걷는 것처럼 연기한다. 성관계력에 대한 질문에 회피적인 태도를 보이지만, 의사가 중요성을 설명하면 마지못해 답한다."

@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (과민성 대장 증후군)"
+patient_info:
+  name: "최유리"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "만성적인 설사와 복통"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "과민성 대장 증후군 (설사 우세형)"
+    - "염증성 장질환 (초기)"
+    - "유당 불내증"
+  necessary_tests:
+    - "혈액 검사 (염증 수치 및 갑상선 기능 포함)"
+    - "대변 검사 (잠혈, 기생충란 등 확인)"
+    - "대장 내시경 (기질적 원인 배제 목적)"
+  necessary_treatments:
+    - "생활 습관 교정 (스트레스 관리, 규칙적인 식사)"
+    - "식이 요법 (저포드맵 식이 시도)"
+    - "증상 조절을 위한 약물 치료 (지사제, 진경제)"
+history:
+  sex_age: "여/32"
+  chief_complaint_verbatim: "몇 년 전부터 중요한 일이 있을 때마다 배가 아프고 설사를 해요. 요즘 특히 심해져서 왔어요."
+  onset: "약 3년 전"
+  location:
+    initial: "아랫배 전반"
+    current: "아랫배 전반"
+  duration:
+    onset_pattern: "스트레스 상황에서 반복적으로 발생"
+    recent_course: "최근 2달간 증상 빈도 및 강도 증가"
+  course: "3년 전 회사 입사 후부터 긴장하거나 스트레스를 받으면 아랫배가 살살 아프면서 화장실에 가고 싶어짐. 변을 보고 나면 복통이 사라지는 양상이었음. 주로 무른 변이나 설사를 했고, 하루 2-3회 정도였음. 최근 승진 심사를 앞두고 증상이 심해져 하루 4-5회 설사를 하고, 배에 가스가 차서 불편함."
+  experience_prev_episodes:
+    frequency: "월 2-3회 이상, 수년간 반복"
+    trigger: "스트레스, 긴장, 중요한 회의 전"
+    symptoms: "복통, 설사, 복부 팽만감"
+  character_of_symptom:
+    quality: "아랫배가 꼬이는 듯한 느낌"
+    nrs_score: "4-5 (평소), 7 (최근)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "기름진 음식 섭취 후"
+    alleviating: "배변 후"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "5년 전 위내시경, 만성 표재성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "편두통"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "필요시 스멕타 복용"
+    source: "약국 구매"
+    effect: "일시적으로 설사가 멎는 느낌"
+  social_history:
+    job: "대기업 과장"
+    stress: "업무 및 승진 관련 스트레스 매우 높음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "최근 1-2kg 감소했으나 의도적인 것은 아님"
+  family_history: "어머니가 장이 예민한 편이라고 들었음"
+  female_history: "LMP 1주 전, 생리 주기에 따라 증상 변화는 크게 없음"
+physical_exam:
+  general: "만성적으로 피로해 보이나 급성 병색은 없음"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "특이사항 없음"
+  abdomen:
+    inspection: "편평함, 흉터 없음"
+    auscultation: "장음 약간 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # LLQ에 약간의 압통(mild tenderness) 호소
+  cvat: "음성"
+  extremity: "특이사항 없음"
+standardized_patient_questions: "이게 신경성이라고 하던데, 정말 그런가요? 그냥 예민해서 그런 건가요? 약 먹으면 완치될 수 있나요?"
+specific_remarks: "전반적으로 불안해 보이고, 질문에 답할 때 스트레스 상황을 강조한다. 복부 진찰 시 간지럼을 타는 듯하면서도 아랫배를 누르면 불편감을 표현한다."

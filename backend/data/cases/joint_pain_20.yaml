@@ -1,0 +1,110 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "20/24"
+title: "실전 모의 증례 (성인형 스틸병)"
+patient_info:
+  name: "송혜교"
+  age: 26
+  sex: "여성"
+  presenting_complaint: "반복되는 고열, 관절통, 피부 발진"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "120회/분"
+  respiration: "20회/분"
+  temperature: "39.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "성인형 스틸병"
+    - "패혈증 또는 감염성 질환"
+    - "전신홍반루푸스 (SLE) 또는 다른 류마티스 질환"
+  necessary_tests:
+    - "혈액 검사 (CBC, ESR, CRP, 페리틴, 간기능, 혈액배양)"
+    - "감염성 원인 배제를 위한 검사 (영상 검사 등)"
+    - "류마티스 인자, 항핵항체 등 자가면역질환 검사"
+  necessary_treatments:
+    - "비스테로이드성 소염제"
+    - "스테로이드 (대부분의 경우 필요)"
+    - "항류마티스 약제 (DMARDs) 또는 생물학적 제제 (IL-1, IL-6 억제제)"
+history:
+  sex_age: "여성/26세"
+  chief_complaint_verbatim: "한 달째 원인 모를 열이 계속 나요. 저녁만 되면 39도 넘게 오르고, 열이 날 때마다 온몸의 관절이 아프고 목도 아파요. 몸에 연어색 발진 같은 것도 생겼다 없어져요."
+  onset: "약 1개월 전"
+  location:
+    initial: "전신 발열, 인후통"
+    current: "전신 발열, 여러 관절 통증, 피부 발진, 인후통"
+  duration:
+    onset_pattern: "갑자기 시작됨"
+    recent_course: "증상이 매일 반복됨"
+  course: "매일 저녁 특정 시간에 39도 이상의 고열이 발생하고, 몇 시간 뒤 정상 체온으로 떨어짐 (spiking fever). 열이 오를 때 손목, 무릎, 발목 등 여러 관절에 통증이 동반됨. 또한 열과 함께 몸통과 팔다리에 연어색의 일시적인 발진이 나타났다가 열이 내리면 사라짐. 인후통이 지속됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "관절 - 쑤시고 아픔, 인후 - 칼칼하고 아픔"
+    nrs_score: "열 날 때 7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "저녁 시간"
+    alleviating: "해열제를 먹으면 일시적으로 열과 통증이 가라앉음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "타이레놀, 이부프로펜 등"
+    source: "약국"
+    effect: "일시적 해열, 진통 효과"
+  social_history:
+    job: "회사원"
+    stress: "최근 프로젝트로 스트레스 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "아파서 못함"
+    recent_weight_change: "한 달간 3kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "LMP 3주 전"
+physical_exam:
+  general: "고열로 인해 지쳐 보이고, 전신적으로 아파 보임 (ill-looking)"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "인두 발적 소견 있음. 편도 비대는 뚜렷하지 않음."
+  chest: "호흡음 깨끗함. 빈맥 소견."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: true
+      # 간비대(hepatosplenomegaly)가 촉진될 수 있음. 경도의 압통.
+  cvat: "좌/우 음성"
+  extremity: "양측 손목, 무릎 관절에 부종과 압통이 있음. 몸통과 팔 근위부에 사라졌다 나타나는 연어색의 반점(salmon-pink rash)이 희미하게 관찰됨. 림프절 비대(lymphadenopathy)가 목과 겨드랑이에서 만져짐."
+standardized_patient_questions: "왜 열이 내리질 않죠? 동네 병원에서는 계속 감기라고만 하는데... 검사를 해도 원인이 안 나온다고 하니 너무 답답해요. 무슨 큰 병일까요?"
+specific_remarks: "환자는 '열이 날 때만' 나타나는 특징적인 증상들(관절통, 피부 발진)을 명확하게 설명해야 한다. 여러 병원을 다녔지만 원인을 찾지 못해 불안하고 지친 상태를 연기한다. 의사가 피부 발진을 확인할 때 '지금은 열이 좀 내려서 잘 안 보여요'라고 말할 수 있다."

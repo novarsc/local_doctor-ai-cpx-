@@ -1,0 +1,117 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (카페인 중독)"
+patient_info:
+  name: "이혜민"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "늘 불안하고 잠을 못 자요."
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "105회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "카페인 중독 (Caffeine Intoxication)"
+    - "범불안장애"
+    - "갑상선기능항진증"
+  necessary_tests:
+    - "자세한 식이력 및 약물 복용력 청취"
+    - "갑상선 기능 검사 (TFT)"
+    - "심전도 (EKG, 심계항진 감별)"
+  necessary_treatments:
+    - "카페인 섭취 중단 또는 점진적 감량 교육"
+    - "수분 섭취 권장"
+    - "스트레스 관리 및 수면 위생 교육"
+history:
+  sex_age: "여성/31"
+  chief_complaint_verbatim: "몇 달 전부터 계속 불안하고, 밤에 잠들기가 너무 힘들어요. 가슴도 자주 두근거리고요. 마음을 편하게 먹으려고 해도 잘 안돼요."
+  onset: "약 3개월 전"
+  location:
+    initial: "정신적 불안감"
+    current: "불안감, 심계항진, 불면"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "최근 들어 더 심해진 것 같음"
+  course: "3개월 전 새로운 프로젝트를 맡으면서 야근이 잦아짐. 피곤함을 이기기 위해 커피를 마시기 시작했는데, 점차 마시는 양이 늘어남. 최근에는 불안, 초조함, 불면증, 잦은 심계항진이 나타나 일상생활에 영향을 미치고 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "N/A"
+    symptoms: "N/A"
+  character_of_symptom:
+    quality: "안절부절못함, 멍한 느낌, 생각의 흐름이 빨라지는 느낌"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오후 늦게 커피를 마셨을 때"
+      - "업무 스트레스가 심할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "피로회복을 위해 약국에서 산 비타민제"
+      - "가끔 두통이 있을 때 진통제(게보린 등) 복용"
+    source: "약국"
+    effect: "일시적인 효과"
+  social_history:
+    job: "IT 회사 프로젝트 매니저"
+    stress: "매우 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "없음"
+    caffeine_intake: "하루에 아메리카노 4-5잔, 피곤할 땐 에너지 드링크도 1-2캔 마심."
+  family_history: "특이사항 없음"
+  female_history: "LMP 1주 전, 규칙적"
+physical_exam:
+  general: "다소 예민하고 불안정해 보임. 말을 빠르게 하는 경향이 있음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "tachycardia, regular heart beat, clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      mild epigastric tenderness: true
+  cvat: "좌/우 음성"
+  extremity: "no edema, fine tremor of hands"
+standardized_patient_questions: "제가 불안장애인가요? 왜 이렇게 심장이 뛰고 잠을 못 잘까요? 피곤해서 커피를 안 마실 수가 없는데 어떡하죠?"
+specific_remarks: "환자는 자신의 증상이 과도한 업무 스트레스 때문이라고 굳게 믿고 있다. 카페인 섭취에 대해 구체적으로 질문하기 전까지는 스스로 언급하지 않는다. 하루 커피 섭취량을 물어보면 '남들 마시는 만큼 마신다'고 애매하게 답하다가, 구체적으로 잔 수를 물어야 '네댓 잔 정도...'라고 대답한다. 진통제에도 카페인이 함유되어 있다는 사실에 놀라는 반응을 보인다."

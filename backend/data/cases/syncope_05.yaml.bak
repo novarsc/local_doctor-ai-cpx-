@@ -1,0 +1,112 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (비후성 심근병증)"
+patient_info:
+  name: "오세진"
+  age: 28
+  sex: "남성"
+  presenting_complaint: "농구하다가 쓰러졌어요."
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "88회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비후성 심근병증 (Hypertrophic cardiomyopathy, HOCM)"
+    - "운동 유발성 부정맥 (예: 긴 QT 증후군, 브루가다 증후군)"
+    - "대동맥판막 협착증 (선천성)"
+  necessary_tests:
+    - "심장 초음파 검사"
+    - "심전도 검사 및 24시간 홀터 모니터링"
+    - "운동 부하 검사 (주의 하에 시행)"
+  necessary_treatments:
+    - "격렬한 경쟁적 운동 즉시 중단"
+    - "약물 치료 (베타 차단제 또는 칼슘 채널 차단제)"
+    - "급사 위험도 평가 후 필요 시 삽입형 제세동기(ICD) 시술 고려"
+history:
+  sex_age: "남성/28"
+  chief_complaint_verbatim: "어제 저녁에 친구들이랑 농구를 하다가, 갑자기 가슴이 두근거리는 느낌이 들더니 그대로 정신을 잃고 코트에 쓰러졌습니다. 친구들이 말하기를 한 10초 정도 그랬대요."
+  onset: "어제 저녁 8시"
+  location:
+    initial: "실내 농구장"
+    current: "진료실"
+  duration:
+    onset_pattern: "격렬한 운동 중 갑자기 발생"
+    recent_course: "의식 회복 후에는 특별한 증상은 없었으나, 놀라서 병원에 옴."
+  course: "가끔 운동을 심하게 하면 가슴이 답답하고 어지러운 느낌이 있었지만, 체력이 약해서 그런 줄 알았음. 의식을 잃은 것은 처음임."
+  experience_prev_episodes:
+    frequency: "의식 소실은 처음. 운동 시 어지럼증은 수개월 전부터 간헐적으로."
+    trigger: "격렬한 운동"
+    symptoms: "어지럼증, 가슴 두근거림, 가슴 답답함"
+  character_of_symptom:
+    quality: "의식 소실"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "농구, 달리기 등 격렬한 운동"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "5년 전 군 입대 신체검사"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "쓰러지면서 무릎에 가벼운 찰과상 입음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: ""
+    exercise: "주 1-2회 농구"
+    recent_weight_change: "없음"
+  family_history: "사촌 형이 30대 초반에 원인 모를 심장마비로 사망함"
+  female_history: null
+physical_exam:
+  general: "건장한 체격의 젊은 남성. 의식 명료."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심장 청진 시 좌하흉골연(LLSB)에서 거친 수축기 심잡음이 들리며, 발살바법(Valsalva maneuver) 시행 시 심잡음이 커짐. 이중 심첨박동(double apical impulse)이 촉진됨."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이사항 없음."
+standardized_patient_questions: "그냥 운동을 너무 무리해서 그런 거 아니에요? 젊은데 심장에 문제가 있을 리가 있나요? 저희 사촌 형이 갑자기 죽었는데 저도 그렇게 될까봐 걱정돼요."
+specific_remarks: "환자는 처음에는 대수롭지 않게 이야기하다가, 의사가 가족력을 물어보면 사촌 형의 이야기를 하며 매우 불안해하는 모습을 보인다. 발살바법 등 신체진찰에 잘 협조한다."

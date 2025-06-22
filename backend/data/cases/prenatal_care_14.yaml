@@ -1,0 +1,116 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (양막 조기 파수)"
+patient_info:
+  name: "장민아"
+  age: 27
+  sex: "여성"
+  presenting_complaint: "속옷이 젖을 정도로 맑은 액체가 흘러나옴"
+vital_signs:
+  blood_pressure: "120/70mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "37.3℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "만삭 전 양막 조기 파수 (Preterm Premature Rupture of Membranes, PPROM)"
+    - "질 분비물 증가 또는 요실금"
+    - "자궁경부 점액 마개 배출"
+  necessary_tests:
+    - "무균적 질경 검사 (양수 누출 확인 - pooling, nitrazine, ferning test)"
+    - "AmniSure 등 양수 파수 진단 키트 검사"
+    - "일반 혈액 검사 (감염 지표 확인) 및 질 분비물 배양"
+  necessary_treatments:
+    - "입원하여 태아 및 산모 감염 징후 모니터링"
+    - "예방적 항생제 투여"
+    - "태아 폐성숙을 위한 스테로이드 투여"
+history:
+  sex_age: "여성/27세"
+  chief_complaint_verbatim: "임신 33주차인데, 한 시간 전에 갑자기 다리 사이로 따뜻한 물이 주르륵 흐르는 느낌이 들었어요. 소변이랑은 다른 것 같아요."
+  onset: "1시간 전"
+  location:
+    initial: "질"
+    current: "질"
+  duration:
+    onset_pattern: "갑작스럽게 발생"
+    recent_course: "기침하거나 움직일 때마다 조금씩 계속 나옴"
+  course: "소파에 앉아 TV를 보던 중, 아무런 예고 없이 따뜻한 액체가 흘러나와 속옷과 바지가 젖었다. 소변을 지린 것과는 다른 느낌이었고, 냄새도 없는 맑은 액체였다. 이후에도 조금씩 계속 새어 나오는 것 같아 패드를 대고 병원에 왔다. 아직 배가 아프거나 하진 않다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "통증 없이, 조절되지 않는 맑은 액체의 간헐적 또는 지속적 누출"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false # 현재는 없으나, 감염 위험성 있음. 미열(37.3) 가능.
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "기침"
+      - "자세 변경"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1주 전 산전 진찰"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "임산부 비타민"
+    source: "처방"
+    effect: "-"
+  social_history:
+    job: "주부"
+    stress: "갑작스러운 증상으로 인한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "가벼운 산책"
+    recent_weight_change: "임신 후 10kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "G1P0, LMP: 약 8개월 전, EDC: 7주 후, 임신 33주"
+physical_exam:
+  general: "매우 불안해하며, 당황한 기색이 역력함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상. 심잡음 없음."
+  abdomen:
+    inspection: "임신 33주에 합당한 크기"
+    auscultation: "장음 정상. 태아 심음 청진 양호."
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 자궁 수축 없음, 압통 없음
+  cvat: "음성/음성"
+  extremity: "부종 없음."
+  pelvic_exam: "학생은 질경 검사를 시행한다고 설명해야 함. SP는 '검사 결과 질 후원개에 맑은 액체가 고여 있고, 리트머스 종이가 파랗게 변했으며, 현미경으로 양치엽 모양이 관찰되었다'는 정보를 제공받았다고 가정."
+standardized_patient_questions: "이게 양수가 터진 건가요? 그럼 바로 아기를 낳아야 하나요? 아직 33주밖에 안됐는데... 아기한테 감염 같은 건 안 생길까요?"
+specific_remarks: "환자는 '물이 터졌다'는 사실에 매우 당황하고 불안해하는 모습을 연기해야 한다. 소변이 아니라 맑고 냄새 없는 액체라는 점을 분명히 한다. 통증은 전혀 없다는 점을 강조한다. 의사가 질경 검사의 필요성을 설명할 때, 그 결과에 대해 초조하게 기다리는 모습을 보인다."

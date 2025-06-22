@@ -1,0 +1,118 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (경추 염좌 - 편타성 손상)"
+patient_info:
+  name: "정유진"
+  age: 31
+  sex: "여성"
+  presenting_complaint: "어제 교통사고 후 발생한 목 통증과 두통"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "82회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "경추 염좌 (편타성 손상, Whiplash injury)"
+    - "경추 추간판 탈출증 (외상성)"
+    - "근막 통증 증후군"
+  necessary_tests:
+    - "경추 X선 검사 (측면, 전후, 개구도 촬영)"
+    - "필요시 경추 CT 또는 MRI (신경학적 이상 시)"
+    - "없음"
+  necessary_treatments:
+    - "안정 및 초기 냉찜질, 이후 온찜질"
+    - "소염진통제 및 근이완제 복용"
+    - "물리치료 및 스트레칭"
+history:
+  sex_age: "여성/31세"
+  chief_complaint_verbatim: "어제 뒤에서 차가 박는 사고가 있었는데, 자고 일어나니 목이 안 돌아가고 너무 아파요. 머리도 지끈거려요."
+  onset: "약 12시간 전 (사고는 24시간 전)"
+  location:
+    initial: "목 뒤쪽"
+    current: "목 전체, 양쪽 어깨, 뒤통수"
+  duration:
+    onset_pattern: "지연성 발생 (delayed onset)"
+    recent_course: "점점 심해짐"
+  course: "사고 직후에는 괜찮았으나, 몇 시간 뒤부터 목이 뻣뻣해지기 시작했고 아침에 일어나니 통증이 심해져 고개를 돌리기 힘든 상태가 됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "목과 어깨는 뻐근하고 뭉친 듯한 통증, 두통은 지끈거리는 양상"
+    nrs_score: "6"
+    radiation: "양쪽 어깨(승모근)로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "고개를 움직일 때 (특히 좌우로 돌릴 때)"
+      - "운전할 때"
+    alleviating: "가만히 있을 때, 목 보호대를 했을 때"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "어제 후방 추돌사고 있었음. 차량 파손은 경미했음. 의식소실은 없었음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "회사원"
+    stress: "사고 때문에 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 2회 요가"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "LMP 2주 전, regular cycle"
+physical_exam:
+  general: "불안한 표정으로 목을 잘 움직이지 않으려고 함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      neck_motion: "경추의 모든 방향 운동 범위 감소 (특히 회전)"
+      tenderness: "경추 주변 근육(paraspinal m.), 승모근(trapezius m.)에 심한 압통"
+      spurling_test: "음성"
+  cvat: "좌우 음성"
+  extremity: "상하지 근력, 감각, 반사 모두 정상."
+standardized_patient_questions: "사고가 작았는데 왜 이렇게 아픈가요? 엑스레이는 꼭 찍어봐야 하나요? 후유증이 남을 수도 있나요?"
+specific_remarks: "사고 당시에는 괜찮았다가 나중에 아파진 '지연성 통증'을 강조해야 함. 목을 움직여보라는 지시에 '아이고' 소리를 내며 매우 조심스럽게, 제한된 범위까지만 움직여야 함. 어깨와 등 위쪽 근육을 누르면 아프다고 반응해야 함."

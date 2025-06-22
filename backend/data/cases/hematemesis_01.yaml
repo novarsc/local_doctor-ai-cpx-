@@ -1,0 +1,117 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (출혈성 위궤양)"
+patient_info:
+  name: "김민준"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "어젯밤부터 피를 토하고 어지러움"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "110회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "출혈을 동반한 위궤양"
+    - "출혈을 동반한 십이지장궤양"
+    - "급성 위점막 병변"
+  necessary_tests:
+    - "응급 상부위장관 내시경"
+    - "일반 혈액 검사 (헤모글로빈 수치 확인)"
+    - "혈액형 교차반응 검사 (수혈 대비)"
+  necessary_treatments:
+    - "정맥 수액 공급 및 필요시 수혈"
+    - "내시경적 지혈술"
+    - "양성자 펌프 억제제(PPI) 정맥 주사"
+history:
+  sex_age: "남성/52세"
+  chief_complaint_verbatim: "어젯밤부터 속이 쓰리더니 오늘 아침에는 커피 같은 검은 피를 한 사발 정도 토했어요. 일어나는데 핑 돌고 어지러워요."
+  onset: "속쓰림은 1주일 전, 토혈은 12시간 전"
+  location:
+    initial: "명치"
+    current: "명치"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "점점 악화"
+  course: "1주일 전부터 명치가 쓰리고 아팠으며, 12시간 전 저녁 식사 후 구토 시 소량의 선홍색 피가 보였고, 오늘 아침에는 다량의 흑색 구토를 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "타는 듯한 통증"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "커피 가루 양상의 흑색 구토"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "공복 시"
+      - "술 마신 다음 날"
+    alleviating: "음식 섭취 시 일시적 완화"
+  health_check_history:
+    last_checkup: "5년 전"
+    endoscopy_finding: "특이 소견 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (암로디핀)"
+      - "가끔 두통 시 약국에서 진통제(이부프로펜) 구입하여 복용"
+    source: "혈압약은 내과, 진통제는 약국"
+    effect: "혈압 조절은 잘 되는 편"
+  social_history:
+    job: "중소기업 부장"
+    stress: "최근 실적 압박으로 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "아버지가 위암으로 돌아가심"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색, 안절부절못하며 식은땀을 흘림"
+  heent:
+    sclera: "창백함, 황달 없음"
+    oral_mucosa: "건조함"
+  chest: "심음이 빠르나 규칙적이며, 호흡음은 깨끗함"
+  abdomen:
+    inspection: "편평하고 특이 소견 없음"
+    auscultation: "장음 항진"
+    percussion: "고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: true
+      epigastric_rebound_tenderness: false
+  cvat: "좌우 음성"
+  extremity: "손발이 차고 축축함, 모세혈관 재충혈 시간 3초"
+standardized_patient_questions: "이거 혹시 암은 아닌가요? 아버지가 위암으로 돌아가셔서 걱정돼요. 위험한 상태인가요?"
+specific_remarks: "명치 통증을 호소하며 배를 움켜쥐는 모습을 간헐적으로 보인다. 질문에 대답할 때 어지럽다는 표현을 자주 사용한다. 불안한 표정을 유지한다."

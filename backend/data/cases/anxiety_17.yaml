@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "17"
+title: "실전 모의 증례 (측두엽 뇌전증)"
+patient_info:
+  name: "한선우"
+  age: 27
+  sex: "남성"
+  presenting_complaint: "가끔씩 갑자기 이상한 느낌이 들면서 불안해져요."
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "측두엽 뇌전증 (복합부분발작)"
+    - "해리성 장애 (이인증/비현실감 장애)"
+    - "공황장애"
+  necessary_tests:
+    - "뇌파 검사 (EEG), 특히 수면 박탈 후 EEG"
+    - "뇌 MRI"
+    - "신경심리검사"
+  necessary_treatments:
+    - "항경련제 약물 치료"
+    - "발작 유발 요인 회피 교육"
+    - "필요시 수술적 치료 고려"
+history:
+  sex_age: "남성/27"
+  chief_complaint_verbatim: "몇 달에 한 번씩, 갑자기 뱃속에서부터 뭔가 확 치밀어 오르는 느낌이 들어요. 그러면서 처음 와보는 곳인데 와본 것 같은 느낌(데자뷰)이 들고, 주변이 비현실적으로 느껴져요. 그럴 때 너무 불안하고 무서워요."
+  onset: "약 2년 전부터"
+  location:
+    initial: "상복부 (epigastric rising sensation)"
+    current: "정신적 증상으로 발전"
+  duration:
+    onset_pattern: "수개월에 1회, 예측 불가능하게 발생"
+    recent_course: "증상 양상은 비슷하게 유지됨"
+  course: "증상은 1-2분간 지속되며, 전형적인 양상을 보임. 명치에서 무언가 치밀어 오르는 전조(aura)로 시작하여, 데자뷰(기시감)나 자메뷰(미시감)를 느끼고, 멍하게 한 곳을 응시하며 입맛을 다시거나 옷을 만지작거리는 자동증(automatism)을 보임. 이 시간 동안 주변에서 말을 걸어도 잘 반응하지 못하며, 증상이 끝난 후에는 잠시 혼란스러워하고 당시 상황을 잘 기억하지 못함."
+  experience_prev_episodes:
+    frequency: "2-3개월에 1회"
+    trigger: "피곤하거나 스트레스 받을 때 더 잘 생기는 것 같음"
+    symptoms: "상복부 전조, 기시감, 불안감, 자동증, 발작 후 혼돈"
+  character_of_symptom:
+    quality: "기묘하고 비현실적인 느낌, 통제 불가능한 불안"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "수면 부족"
+      - "과도한 스트레스"
+    alleviating: "저절로 사라짐"
+  health_check_history:
+    last_checkup: "3년 전, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "5세 때 열성 경련을 한 적이 있음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "N/A"
+    effect: "N/A"
+  social_history:
+    job: "대학원생"
+    stress: "심한 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "주 2회 조깅"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "전반적으로 건강해 보이며, 신경학적 진찰에서 특이소견 없음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  neurologic_exam: "Cranial nerves, motor, sensory, cerebellar function all intact. No focal deficits."
+standardized_patient_questions: "제가 정신적으로 문제가 있는 걸까요? 왜 이런 이상한 경험을 하는 거죠? 혹시 뇌에 무슨 문제가 생긴 건 아닐까요?"
+specific_remarks: "환자는 자신의 증상이 기괴하고 남들에게 설명하기 어렵다고 생각하여 병원 방문을 미뤄왔다. 증상을 설명할 때 '말로 표현하기 힘든 이상한 느낌'이라고 반복해서 말한다. 발작 중 기억 소실이 있다는 점을 분명히 인지하지 못할 수 있으며, '그때 그냥 멍해져요'라고 표현할 수 있다. 뇌전증(간질)이라는 용어에 대해 큰 거부감과 두려움을 보인다."

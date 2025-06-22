@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (전신성 홍반 루푸스)"
+patient_info:
+  name: "배수아"
+  age: 25
+  sex: "여성"
+  presenting_complaint: "지속적인 피로감, 관절통 및 피부 발진"
+vital_signs:
+  blood_pressure: "125/75mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "37.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "전신성 홍반 루푸스 (SLE)"
+    - "류마티스 관절염"
+    - "피부근염"
+  necessary_tests:
+    - "항핵항체검사 (ANA) 및 Anti-dsDNA, Anti-Sm 항체 검사"
+    - "보체(C3, C4) 검사"
+    - "일반혈액검사 및 소변 단백뇨 검사"
+  necessary_treatments:
+    - "증상 조절을 위한 소염진통제, 하이드록시클로로퀸"
+    - "주요 장기 침범 시 스테로이드 및 면역억제제"
+    - "자외선 차단 등 생활 습관 관리 교육"
+history:
+  sex_age: "여성/25"
+  chief_complaint_verbatim: "몇 달 전부터 계속 피곤하고, 손가락 마디마디가 쑤시고 아파요. 최근에는 얼굴에 나비 모양으로 뭐가 나고 머리카락도 많이 빠져요."
+  onset: "피로감, 관절통은 3개월 전, 피부 발진은 1개월 전"
+  location:
+    initial: "전신, 손가락"
+    current: "전신, 손가락, 얼굴"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "증상이 다양해지며 악화"
+  course: "3개월 전부터 특별한 이유 없이 피로감이 심하고 아침에 손가락 관절이 아팠다. 한 달 전부터 콧등과 양 볼에 붉은 발진이 생겼고, 햇볕을 쬐면 더 심해지는 것 같다. 머리를 감을 때 머리카락이 한 움큼씩 빠져서 걱정이 된다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "전신 쇠약감과 이동성 관절통"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "햇빛 노출"
+      - "과로"
+    alleviating: "휴식 시 다소 호전"
+  health_check_history:
+    last_checkup: "대학생 때"
+    endoscopy_finding: "-"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "-"
+    effect: "-"
+  social_history:
+    job: "대학원생"
+    stress: "논문 스트레스 심함"
+    alcohol:
+      is_drinker: false
+      frequency: "-"
+      amount: "-"
+    smoking:
+      is_smoker: false
+      amount: "-"
+      cessation_period: "-"
+    exercise: "피곤해서 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "규칙적"
+physical_exam:
+  general: "만성적인 병색. 의식 명료. 피로감 호소."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "입천장(hard palate)에 통증 없는 궤양(painless oral ulcer) 관찰됨."
+  chest: "청진 시 심막 마찰음(pericardial friction rub)이 약하게 들림."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양쪽 뺨과 콧등에 걸쳐 나비 모양의 홍반(malar rash) 관찰됨. 비복재성 탈모(non-scarring alopecia) 소견. 손가락 관절에 압통은 있으나 부종이나 변형은 뚜렷하지 않음."
+standardized_patient_questions: "피곤하고 관절 아픈 거랑 얼굴에 뭐 나는 게 다 연관이 있는 건가요? 루푸스라니, 이름이 너무 무서워요. 평생 관리해야 하는 병인가요?"
+specific_remarks: "다양한 전신 증상을 호소한다. 특히 피부 발진과 탈모에 대해 매우 스트레스를 받고 있음을 표현한다. 의사가 입안을 볼 때 통증 없는 궤양에 대해 '언제 생겼는지 잘 모르겠다'고 대답한다. 병에 대한 두려움과 불확실성을 표현한다."

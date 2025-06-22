@@ -1,0 +1,107 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "20"
+title: "실전 모의 증례 (경동맥동 과민성, Carotid Sinus Hypersensitivity)"
+patient_info:
+  name: "박상철"
+  age: 75
+  sex: "남성"
+  presenting_complaint: "넥타이를 매거나 고개를 돌리면 어지러워요."
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "경동맥동 과민성"
+    - "척추뇌저동맥 기능부전"
+    - "경추성 어지럼"
+  necessary_tests:
+    - "경동맥동 마사지 (심장 모니터링 하에 시행)"
+    - "기립경사 검사 (Tilt table test)"
+    - "뇌혈관 및 경추 영상 검사 (감별진단 목적)"
+  necessary_treatments:
+    - "유발 요인 회피 교육 (꽉 끼는 옷, 갑작스러운 고개 돌림 금지)"
+    - "심장박동조율기 삽입 (심장억제형 또는 혼합형의 경우)"
+    - "약물 치료 (Midodrine 등, 혈관감압형의 경우)"
+history:
+  sex_age: "남성/75세"
+  chief_complaint_verbatim: "면도하려고 고개를 돌리거나, 꽉 끼는 셔츠를 입으면 갑자기 아찔하면서 쓰러질 뻔해요."
+  onset: "수 개월 전부터"
+  location:
+    initial: "머릿속"
+    current: "머릿속"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근에 증상 때문에 넘어져서 다칠 뻔 한 적이 있음"
+  course: "특정 상황에서만 발생하고, 수 초 내에 정신이 들면서 괜찮아집니다. 회전성 어지럼은 아닙니다."
+  experience_prev_episodes:
+    frequency: "월 2-3회"
+    trigger: "목 부위 압박 (면도, 넥타이), 고개를 급하게 돌릴 때"
+    symptoms: "갑작스러운 실신 전 단계 어지럼, 눈앞이 캄캄해짐"
+  character_of_symptom:
+    quality: "아찔하고 핑 도는 느낌 (presyncope)"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "목 부위 압박, 마사지"
+      - "고개를 한쪽으로 돌리기"
+    alleviating: "유발 자세를 피하는 것"
+  health_check_history:
+    last_checkup: "1년 전, 고혈압"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "아토르바스타틴"
+      - "암로디핀"
+    source: "내과"
+    effect: "조절 잘 됨"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "정정해 보임."
+  heent: "정상"
+  chest: "심잡음 없음. 경동맥 잡음 없음."
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "정상"
+standardized_patient_questions: "목을 좀 만졌다고 사람이 어지러워 쓰러질 수가 있나요? 이거 위험한 병인가요? 중풍 전조증상은 아닌지 걱정됩니다."
+specific_remarks: "환자는 어지럼증의 유발 요인이 '목 부위의 압박'이나 '고개 돌림'이라는 점을 매우 구체적이고 일관되게 진술해야 한다. (예: '미용실에서 머리 감겨줄 때도 그런 적 있어요.') 증상은 회전성 현훈이 아닌 실신 전 단계임을 명확히 한다. 신체 진찰은 완전히 정상이며, 진단은 병력 청취와 특정 유발 검사(경동맥동 마사지)에 의존함을 암시한다. (CPX 상황에서 실제 검사를 시행하진 않음)"

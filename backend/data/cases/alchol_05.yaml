@@ -1,0 +1,112 @@
+---
+chapter: "상담"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (위식도 역류질환)"
+patient_info:
+  name: "박서연"
+  age: 34
+  sex: "여성"
+  presenting_complaint: "반복되는 속쓰림과 신물"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 및 생활습관 교정(금연, 금주 포함)에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "위식도 역류질환 (GERD)"
+    - "소화성 궤양"
+    - "기능성 소화불량"
+  necessary_tests:
+    - "상부 위장관 내시경"
+    - "24시간 식도 산도 검사 (필요시)"
+    - "헬리코박터 파일로리 검사"
+  necessary_treatments:
+    - "생활습관 개선 (금연, 금주, 식습관 조절, 체중 감량)"
+    - "양성자 펌프 억제제 (PPI) 등 위산분비 억제제 복용"
+    - "취침 시 상체 올리기"
+history:
+  sex_age: "여성/34세"
+  chief_complaint_verbatim: "몇 달 전부터 밥만 먹으면 속이 쓰리고 신물이 올라와요. 밤에 누우면 더 심해져서 잠을 설칠 때도 있어요."
+  onset: "약 6개월 전"
+  location:
+    initial: "명치"
+    current: "가슴 중앙, 목구멍"
+  duration:
+    onset_pattern: "간헐적으로 발생"
+    recent_course: "점점 빈번해지고 심해짐"
+  course: "처음에는 과식했을 때만 가끔 그랬는데, 요즘은 거의 매일 식후에 증상이 나타남. 마른 기침도 잦아짐."
+  experience_prev_episodes:
+    frequency: "거의 매일"
+    trigger: "식사 후, 특히 야식이나 기름진 음식, 커피, 술 마신 후, 누운 자세"
+    symptoms: "타는 듯한 가슴 통증, 신물 역류"
+  character_of_symptom:
+    quality: "타는 듯한 느낌 (burning sensation)"
+    nrs_score: "6"
+    radiation: "목구멍 쪽으로 치밀어 오름"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    other: "마른 기침, 목의 이물감"
+  factors:
+    aggravating:
+      - "식후에 바로 눕기"
+      - "과식, 야식"
+      - "커피, 탄산음료, 술"
+    alleviating: "제산제 복용, 상체를 세우고 있기"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "특이 소견 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "약국에서 산 제산제"
+    source: "약국"
+    effect: "일시적으로 호전됨"
+  social_history:
+    job: "사무직 (마케팅)"
+    stress: "업무상 스트레스 많고, 야근 잦음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "와인 2-3잔 또는 맥주 2캔"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일 (5년간)"
+      cessation_period: "없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 1년간 8kg 증가"
+  family_history: "어머니가 위가 안 좋으심"
+  female_history: "LMP 2주 전, regular cycle"
+physical_exam:
+  general: "전반적으로 양호한 상태, 약간 과체중 (BMI 26)"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      epigastric_tenderness: "경미한 압통"
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "정상"
+standardized_patient_questions: "이게 역류성 식도염인가요? 약만 먹으면 낫는 거 아닌가요? 술이랑 담배를 꼭 끊어야 하나요? 스트레스 때문인 것 같은데..."
+specific_remarks: "환자는 자신의 증상이 스트레스와 불규칙한 식습관 때문이라고 생각하며, 음주와 흡연의 영향을 과소평가함. 생활습관 교정의 중요성, 특히 금연과 금주가 하부식도괄약근 압력을 낮추는 데 미치는 영향을 구체적으로 설명하면 수긍하는 태도를 보임."

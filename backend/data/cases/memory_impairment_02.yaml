@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (혈관성 치매)"
+patient_info:
+  name: "박철민"
+  age: 72
+  sex: "남성"
+  presenting_complaint: "1년 전부터 계단식으로 악화되는 기억력 저하 및 보행 장애"
+vital_signs:
+  blood_pressure: "150/90mmHg"
+  pulse: "88회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "혈관성 치매"
+    - "알츠하이머병"
+    - "정상압수두증"
+  necessary_tests:
+    - "뇌 자기공명영상 (Brain MRI) 및 MRA"
+    - "신경인지기능검사"
+    - "혈액검사 (고지혈증, 당뇨 등 위험인자 평가)"
+  necessary_treatments:
+    - "혈압, 당뇨, 고지혈증 등 혈관 위험인자 조절"
+    - "항혈소판제 (아스피린 등) 투여"
+    - "증상적 약물 치료 및 재활 치료"
+history:
+  sex_age: "남성/72세"
+  chief_complaint_verbatim: "자꾸 깜빡하고, 걸음걸이가 이상해졌어요. 작년에 한번 어지러워서 넘어진 뒤로 더 심해진 것 같아요."
+  onset: "약 1년 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "급성 발병 후 계단식 악화"
+    recent_course: "몇 개월간 유지되다가 최근 다시 나빠지는 양상"
+  course: "작년에 갑자기 말이 어눌해지고 오른쪽 팔다리에 힘이 빠졌다가 며칠 뒤 호전된 적이 있음. 그 이후로 기억력이 나빠졌고, 3개월 전에도 비슷한 일이 있은 후 걸음걸이가 더 부자연스러워지고 기억력이 한 단계 더 나빠짐."
+  experience_prev_episodes:
+    frequency: "2회 (작년, 3개월 전)"
+    trigger: "특별히 없음"
+    symptoms: "일시적인 언어장애 및 편측 위약감"
+  character_of_symptom:
+    quality: "집중력 저하, 판단력 저하 동반"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "혈압이 오를 때"
+      - "신경 쓸 일이 많을 때"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "위염"
+  trauma_history: "1년 전 어지러우면서 넘어진 적 있음"
+  past_medical_history:
+    underlying_disease: "고혈압(20년), 당뇨병(15년), 고지혈증(10년)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 당뇨약, 고지혈증약"
+    source: "내과 의원"
+    effect: "꾸준히 복용하지 않을 때가 많았음"
+  social_history:
+    job: "건설업 은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2~3회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "50년 흡연"
+    exercise: "잘 안 함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 뇌졸중으로 돌아가심"
+  female_history: "해당 없음"
+physical_exam:
+  general: "약간 감정이 무뎌 보이는 모습. 발음이 약간 어눌함 (dysarthria)."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat and soft"
+    auscultation: "normoactive"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "우측 상하지 근력 저하 (G4/5), 우측 pronator drift 양성. 보행 시 종종걸음(marche a petit pas), 보행 기저가 넓음."
+standardized_patient_questions: "이게 중풍(뇌졸중)이랑 관련이 있는 건가요? 앞으로 계속 이렇게 나빠지기만 하는 건가요? 제가 뭘 조심해야 하죠?"
+specific_remarks: "질문에 대한 반응 속도가 느리고, 감정 기복을 보이거나 갑자기 웃거나 우는 등 감정 실금이 나타날 수 있음. 신체 진찰 시 우측의 미세한 근력 저하를 표현해야 함."

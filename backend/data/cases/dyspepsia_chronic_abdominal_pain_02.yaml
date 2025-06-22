@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (위식도 역류질환)"
+patient_info:
+  name: "최경수"
+  age: 48
+  sex: "남성"
+  presenting_complaint: "반복되는 가슴쓰림과 신물 역류"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "위식도 역류질환 (GERD)"
+    - "소화성 궤양"
+    - "비심인성 흉통"
+  necessary_tests:
+    - "상부위장관 내시경 (진단 및 합병증 평가)"
+    - "심전도 (EKG, 흉통 감별 위해)"
+    - "필요시 24시간 식도 산도 검사"
+  necessary_treatments:
+    - "생활 습관 개선 (체중 감량, 금주, 금연, 식후 바로 눕지 않기)"
+    - "약물 치료 (양성자 펌프 억제제)"
+    - "정기적인 내시경 추적 관찰"
+history:
+  sex_age: "남성/48"
+  chief_complaint_verbatim: "명치에서 목구멍으로 불타는 듯한 느낌이 치밀어 오르고, 신물이 넘어와요. 특히 밤에 누우면 더 심해요."
+  onset: "약 1년 전부터 간헐적으로 있다가 3개월 전부터 심해짐"
+  location:
+    initial: "명치"
+    current: "가슴 중앙, 목"
+  duration:
+    onset_pattern: "점진적 발병 및 악화"
+    recent_course: "최근 회식이 잦아지면서 거의 매일 증상이 나타남"
+  course: "만성적이며, 특정 음식 섭취나 자세에 의해 유발됨"
+  experience_prev_episodes:
+    frequency: "주 3-4회 이상"
+    trigger: "과식, 음주, 커피, 탄산음료, 야식 후 눕는 자세"
+    symptoms: "가슴쓰림, 산 역류, 때로는 마른 기침"
+  character_of_symptom:
+    quality: "타는 듯한 (burning), 쓰린 느낌"
+    nrs_score: "6"
+    radiation: "목 쪽으로 치밀어 오르는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "눕는 자세"
+      - "과식, 음주, 커피"
+    alleviating: "물을 마시거나 상체를 세우고 앉아 있으면 조금 나아짐"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "당시에는 '가벼운 위염' 소견만 들었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (약물 복용 중)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Amlodipine 5mg"
+    source: "내과 의원"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "건설업 현장소장"
+    stress: "업무상 스트레스가 많은 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "별도로 하지 않음"
+    recent_weight_change: "최근 1년간 5kg 증가"
+  family_history: "아버지가 위암으로 돌아가심"
+  female_history: ""
+physical_exam:
+  general: "약간 비만한 체형의 남성"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "pharyngeal injection 없음"
+  chest: "clear breath sounds, regular heart beat without murmur"
+  abdomen:
+    inspection: "protuberant, no visible mass or scar"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic sound"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_tenderness: "mild"
+  cvat: "좌/우 음성"
+  extremity: "no pitting edema"
+standardized_patient_questions: "이거 혹시 심장병은 아니겠죠? 아버지가 위암으로 돌아가셨는데 저도 암일까 봐 걱정돼요."
+specific_remarks: "환자는 가슴 통증을 호소할 때 손으로 흉골 부위를 문지르는 시늉을 한다. 위암 가족력에 대한 불안감을 표현하며, 내시경 검사의 필요성에 대해 질문한다."

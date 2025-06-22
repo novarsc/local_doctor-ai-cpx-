@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (특발성 두개내압 상승증)"
+patient_info:
+  name: "박소희"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "최근 체중 증가 후 발생한 박동성 두통과 시야 흐림"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "특발성 두개내압 상승증 (Idiopathic Intracranial Hypertension, IIH)"
+    - "만성 편두통"
+    - "뇌종양"
+  necessary_tests:
+    - "안저 검사 (유두부종 확인)"
+    - "뇌 MRI 및 MRV (뇌실질 병변 및 정맥동 혈전 배제)"
+    - "요추 천자 및 뇌척수액 압력 측정 (압력 상승 확인이 진단에 필수적)"
+  necessary_treatments:
+    - "체중 감량 (가장 중요하고 근본적인 치료)"
+    - "약물 치료: 아세타졸아마이드(Acetazolamide)로 뇌척수액 생성 억제"
+    - "시력 소실이 진행될 경우, 뇌척수액 단락술 또는 시신경집 창냄술 등 수술적 치료 고려"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "몇 달 전부터 머리가 계속 웅웅거리면서 아프고, 고개를 숙이면 더 심해져요. 가끔 눈앞이 잠깐 안 보일 때도 있고 귀에서 심장 뛰는 소리가 들려요."
+  onset: "약 4개월 전"
+  location:
+    initial: "머리 전체"
+    current: "머리 전체"
+  duration:
+    onset_pattern: "서서히 발생하여 지속됨"
+    recent_course: "점점 심해지는 양상. 최근 시력 저하가 걱정되어 내원함."
+  course: "거의 매일 지속되는 두통. 아침에 더 심한 경향이 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "박동성, 웅웅거리는 느낌"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false # 오히려 체중 증가
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "가끔 아침에"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    neurological:
+      visual_obscuration: "고개를 숙였다 일어날 때 등 자세 변화 시 수 초간 시야가 흐려짐"
+      pulsatile_tinnitus: "귀에서 '슉슉'하는 심장 박동과 일치하는 소리가 들림"
+      diplopia: "가끔 물체가 둘로 보임 (외전신경 마비로 인한 수평 복시)"
+  factors:
+    aggravating:
+      - "눕거나 고개를 숙일 때"
+      - "기침이나 재채기 할 때"
+    alleviating: "서 있거나 앉아 있으면 조금 나음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "다낭성 난소 증후군"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "최근 여드름 치료를 위해 미노사이클린(minocycline)을 한 달간 복용했었음"
+    source: "피부과 처방"
+    effect: "두통과 무관"
+  social_history:
+    job: "대학원생"
+    stress: "논문 준비로 많음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 6개월간 10kg 증가" # Key finding
+  family_history: "특이 사항 없음"
+  female_history: "불규칙한 생리 주기"
+physical_exam:
+  general: "비만 체형 (BMI 32 kg/m^2). 그 외 급성 병색은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    fundoscopy: "양측 유두부종 (Bilateral papilledema) 관찰됨"
+  chest: "정상"
+  abdomen: "정상"
+  neurology:
+    mental_status: "Alert and oriented"
+    cranial_nerves: "양안 외전 시 경미한 제한 소견 (bilateral CN VI palsy). 시야 검사상 맹점 확대 소견."
+    motor_sensory_reflexes: "정상"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "살이 쪄서 머리가 아플 수도 있나요? 귀에서 이상한 소리가 나는 건 왜 그래요? 눈이 안 보이게 될 수도 있다니 너무 무서워요."
+specific_remarks: "환자는 젊은 비만 여성이다. 자신의 증상(박동성 이명, 일과성 시야 흐림)을 명확하게 설명한다. 의사가 안저 검사를 시행할 때 유두부종이 있다는 말을 듣고 매우 불안해하는 모습을 보인다. 체중 감량이 치료에 가장 중요하다는 설명을 듣고 한숨을 쉬며 힘들어하는 반응을 보인다."

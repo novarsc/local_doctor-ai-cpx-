@@ -1,0 +1,115 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (신성 요붕증 - 약물 유발성)"
+patient_info:
+  name: "정유미"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "소변량이 너무 많고 갈증이 심함"
+vital_signs:
+  blood_pressure: "125/85mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신성 요붕증 (리튬 유발성)"
+    - "중추성 요붕증"
+    - "정신성 다음증"
+  necessary_tests:
+    - "혈액 검사 (전해질, 리튬 농도, 혈장 삼투압)"
+    - "소변 검사 (요비중, 소변 삼투압)"
+    - "수분 제한 검사 및 바소프레신 투여 검사"
+  necessary_treatments:
+    - "정신건강의학과 주치의와 상의하여 리튬 용량 조절 또는 약물 변경 고려"
+    - "티아지드계 이뇨제 또는 아밀로라이드 투여 고려"
+    - "충분한 수분 섭취 권장"
+history:
+  sex_age: "여성/45"
+  chief_complaint_verbatim: "양극성 장애 때문에 약을 먹기 시작한 뒤로 소변이 엄청 늘었어요. 물을 마셔도 갈증이 해소가 안 되고, 밤에도 깨서 화장실 가느라 잠을 설쳐요."
+  onset: "약 1년 전, 리튬 복용 시작 후"
+  location:
+    initial: "전신 증상"
+    current: "전신 증상"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 6개월간 더 심해진 느낌"
+  course: "1년 반 전 양극성 장애 진단 후 리튬을 복용하기 시작함. 복용 후 수개월 뒤부터 다음, 다뇨 증상이 나타나기 시작했으며, 최근에는 일상 생활에 지장을 줄 정도로 심해져 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "소변이 묽고 양이 많음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+      - ""
+    alleviating: "물을 마시면 일시적으로 완화"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "양극성 장애 (Bipolar disorder)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "리튬 (Lithium carbonate)"
+      - "쿠에티아핀 (Quetiapine)"
+    source: "대학병원 정신건강의학과"
+    effect: "기분 조절에는 효과가 있으나, 다뇨 증상이 부작용으로 나타남"
+  social_history:
+    job: "회사원"
+    stress: "질병 자체와 증상으로 인한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "리튬 복용 후 5kg 증가"
+  family_history: "특이 사항 없음"
+  female_history: "LMP: 3주 전, 주기는 규칙적이나 양이 약간 줄어든 느낌"
+physical_exam:
+  general: "의식 명료하고 안정적으로 보임"
+  heent:
+    sclera: "비황달성"
+    oral_mucosa: "다소 건조함"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "특이 소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "미세한 손떨림(fine tremor) 관찰됨. 부종 없음."
+standardized_patient_questions: "이 약을 끊어야 하나요? 약을 안 먹으면 병이 심해질까 봐 걱정돼요. 다른 치료 방법은 없나요?"
+specific_remarks: "복용 중인 약물(리튬)의 이름과 용도를 명확히 알고 있을 것. 약물 부작용에 대한 우려와 질병 악화에 대한 불안감을 동시에 표현. 진찰 시 의사가 손을 보면 미세한 손떨림이 있다는 점을 인지하고 있어야 함."

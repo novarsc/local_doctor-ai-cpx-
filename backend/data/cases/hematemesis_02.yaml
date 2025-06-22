@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (식도 정맥류 파열)"
+patient_info:
+  name: "이영희"
+  age: 64
+  sex: "여성"
+  presenting_complaint: "갑자기 피를 분수처럼 토함"
+vital_signs:
+  blood_pressure: "85/50mmHg"
+  pulse: "125회/분"
+  respiration: "24회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "식도 정맥류 파열"
+    - "위 정맥류 파열"
+    - "출혈성 위궤양"
+  necessary_tests:
+    - "응급 상부위장관 내시경"
+    - "일반 혈액 검사, 간 기능 검사, 혈액 응고 검사"
+    - "혈액형 교차반응 검사 및 다량 수혈 준비"
+  necessary_treatments:
+    - "즉각적인 혈압 안정을 위한 수액 및 수혈"
+    - "혈관 수축제(Terlipressin 등) 투여"
+    - "내시경적 정맥류 결찰술 또는 경화요법"
+history:
+  sex_age: "여성/64세"
+  chief_complaint_verbatim: "갑자기 속이 울렁거리더니, 빨간 피를 분수처럼 왈칵 토했어요. 정신이 하나도 없어요."
+  onset: "30분 전"
+  location:
+    initial: "없음 (통증 없음)"
+    current: "없음 (통증 없음)"
+  duration:
+    onset_pattern: "매우 갑작스럽게 발생"
+    recent_course: "지속적으로 어지럽고 기운이 없음"
+  course: "30분 전, 별다른 전조 증상 없이 갑작스러운 오심 후 다량의 선홍색 혈액을 토함. 복통은 없었음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "통증 없음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: "최근 6개월간 5kg 감소"
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "다량의 선홍색 혈액"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "최근 소변이 콜라색으로 진해짐"
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "10년 이상 받지 않음"
+    endoscopy_finding: "받은 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "20년 전 B형 간염 진단 받았으나 치료 받지 않음. 3년 전부터 배에 복수가 차고 다리가 부어 동네 의원에서 이뇨제 간헐적 복용."
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "이뇨제 (이름 모름)"
+    source: "동네 의원"
+    effect: "먹으면 잠시 붓기가 빠지는 것 같음"
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "5kg 감소"
+  family_history: "특이 사항 없음"
+  female_history: "20년 전 폐경"
+physical_exam:
+  general: "매우 창백하고 축 늘어져 있으며, 의식은 혼미한 상태(drowsy)"
+  heent:
+    sclera: "심한 황달(icteric sclera)"
+    oral_mucosa: "매우 건조함"
+  chest: "가슴에 거미 혈관종(spider angioma) 여러 개 관찰됨. 심음은 매우 빠르고 약함."
+  abdomen:
+    inspection: "복부 팽만, 배꼽 주변으로 확장된 정맥(caput medusae) 관찰됨"
+    auscultation: "장음 감소"
+    percussion: "옆구리 쪽으로 둔탁음(shifting dullness) 양성"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      liver_spleen_palpation: "간과 비장은 촉진되지 않음(복수로 인해)"
+  cvat: "좌우 음성"
+  extremity: "양쪽 다리에 함요 부종(pitting edema) ++, 손바닥 홍반(palmar erythema) 관찰됨"
+standardized_patient_questions: "제가 왜 이렇게 피를 토하는 건가요? 죽는 건 아닌지 너무 무서워요. 정신이 자꾸 흐려져요."
+specific_remarks: "보호자(딸)가 동반하여 내원한 상황. 환자는 거의 말을 하지 못하고, 대부분의 질문에 보호자가 대신 대답한다. 환자는 눈을 감고 있거나 겨우 뜨는 모습을 보인다."

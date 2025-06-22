@@ -1,0 +1,114 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "6/24"
+title: "실전 모의 증례 (건선성 관절염)"
+patient_info:
+  name: "윤세라"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "무릎과 손가락 통증 및 부기, 두피의 피부 발진"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "건선성 관절염"
+    - "류마티스 관절염"
+    - "반응성 관절염"
+  necessary_tests:
+    - "혈액 검사 (ESR, CRP, 류마티스 인자, 항CCP항체)"
+    - "침범된 관절 X-ray"
+    - "피부과 협진"
+  necessary_treatments:
+    - "비스테로이드성 소염제"
+    - "항류마티스 약제 (DMARDs, 예: Methotrexate)"
+    - "생물학적 제제 (TNF-alpha 억제제 등)"
+history:
+  sex_age: "여성/35세"
+  chief_complaint_verbatim: "몇 달 전부터 오른쪽 무릎이 붓고 아파요. 그리고 왼쪽 네 번째 손가락이 소시지처럼 퉁퉁 부어서 구부리기도 힘들어요. 원래 두피에 비듬 같은 게 좀 심하긴 했어요."
+  onset: "관절 증상은 3개월 전, 피부 증상은 수년 전"
+  location:
+    initial: "오른쪽 무릎"
+    current: "오른쪽 무릎, 왼쪽 네 번째 손가락 전체, 허리"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 악화"
+  course: "무릎 통증으로 시작되어 손가락 부종이 발생함. 아침에 뻣뻣한 느낌이 있지만 1시간 내외로 풀림. 두피의 각질은 계속 있어왔음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "쑤시고 욱신거리는 통증"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "많이 걷거나 활동할 때"
+      - "피곤할 때"
+    alleviating: "진통제 복용, 휴식"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "수년 전부터 두피에 건선 진단받고 연고 사용 중단 반복함"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 스테로이드 연고 (두피)"
+    source: "피부과"
+    effect: "바를 때만 호전됨"
+  social_history:
+    job: "디자이너"
+    stress: "마감 스트레스 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "필라테스 주 2회 했으나 최근 통증으로 중단"
+    recent_weight_change: "없음"
+  family_history: "아버지가 피부에 하얀 각질이 생기는 병이 있으셨음 (건선 의심)"
+  female_history: "LMP 1주 전, 규칙적"
+physical_exam:
+  general: "깔끔한 인상이나 통증으로 표정이 밝지 않음"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "오른쪽 무릎에 중등도의 부종과 압통, 약간의 열감 있음. 왼쪽 네 번째 손가락 전체가 소시지처럼 부어있음(dactylitis). 양손 손톱에 작은 함몰(nail pitting)이 여러 개 관찰됨. 두피의 머리카락 경계선과 귀 뒤에 은백색 각질을 동반한 붉은 반점(건선 병변)이 보임."
+standardized_patient_questions: "피부병 때문에 관절까지 아플 수 있나요? 손가락이 왜 이렇게 이상하게 붓는 거죠? 치료하면 원래대로 돌아올 수 있나요?"
+specific_remarks: "환자는 관절 증상과 피부 증상의 연관성을 전혀 모르고 있어야 함. 의사가 피부 병변을 확인하려고 할 때, 비듬으로 오해받을까 봐 약간 부끄러워하는 모습을 보인다. 손가락 모양(dactylitis)에 대해 걱정하는 모습을 연기한다."

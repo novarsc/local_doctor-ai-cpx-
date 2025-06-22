@@ -1,0 +1,113 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (주기성 구토 증후군)"
+patient_info:
+  name: "이하은"
+  age: 16
+  sex: "여성"
+  presenting_complaint: "또 갑자기 토하기 시작했어요"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "95회/분"
+  respiration: "18회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "주기성 구토 증후군 (Cyclic Vomiting Syndrome)"
+    - "복성 편두통 (Abdominal migraine)"
+    - "반복성 위장염"
+  necessary_tests:
+    - "기질적 원인 배제를 위한 검사 (과거 검사 결과 확인)"
+    - "위내시경, 복부 초음파 (이전에 안했다면)"
+    - "급성기에는 탈수 및 전해질 불균형 확인 위한 혈액검사"
+  necessary_treatments:
+    - "급성기: 수액 공급, 진토제/진정제 투여"
+    - "예방 치료: 편두통 예방약 (Amitriptyline, Propranolol 등) 시도"
+    - "유발 요인(스트레스, 특정 음식 등) 회피 교육"
+history:
+  sex_age: "여성/16"
+  chief_complaint_verbatim: "어젯밤부터 갑자기 속이 울렁거리면서 미친 듯이 토해요. 예전이랑 똑같아요. 시험 볼 때만 되면 이러는 것 같아요."
+  onset: "내원 12시간 전"
+  location:
+    initial: "복부 전반의 불편감"
+    current: "복부 전반의 불편감"
+  duration:
+    onset_pattern: "급성 발작적"
+    recent_course: "현재 시간당 4-5회 구토 중"
+  course: "어젯밤 잠들기 전부터 이유 없이 메슥거리기 시작하더니, 새벽부터 격렬한 구토를 시작함. 1-2일간 집중적으로 구토를 하다가 거짓말처럼 멎고, 다음 발작 전까지는 아무 증상 없이 정상적으로 생활함."
+  experience_prev_episodes:
+    frequency: "초등학교 고학년 때부터 1년에 3-4회씩 반복됨"
+    trigger: "중간/기말고사 같은 큰 시험, 발표 등 심한 스트레스 상황"
+    symptoms: "모든 증상이 이번과 동일함. 구토, 복통, 두통, 빛 공포증 등이 동반됨. 증상이 없을 땐 완전히 괜찮음."
+  character_of_symptom:
+    quality: "격렬하고 조절되지 않는 구토"
+    nrs_score: "구토 발작 시 8"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "격렬하고 반복적, 담즙 섞임"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    other:
+      headache: true
+      photophobia: true # 빛 공포증
+  factors:
+    aggravating:
+      - "스트레스"
+    alleviating: "조용하고 어두운 곳에서 잠을 자면 다소 완화됨"
+  health_check_history:
+    last_checkup: "작년에 같은 증상으로 대학병원에서 검사, 특이소견 없었음"
+    endoscopy_finding: "위내시경, 복부 CT, 뇌 MRI 모두 정상이었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "증상 있을 때 응급실에서 진토제, 수액 주사 맞음"
+    source: "대학병원 응급실"
+    effect: "주사 맞으면 좀 진정됨"
+  social_history:
+    job: "고등학생"
+    stress: "성적 스트레스가 매우 심함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "없음"
+  family_history: "어머니가 편두통이 심함"
+  female_history: "LMP: 2주 전, 주기 규칙적"
+physical_exam:
+  general: "급성 병색. 창백하고 지쳐 보임. 구토로 인해 탈진 상태."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상 장음"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      tenderness_diffuse: true # 구토로 인한 전반적인 복부 불편감
+  cvat: "양측 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "제 몸에 무슨 큰 문제가 있는 거 아닐까요? 왜 검사를 해도 아무것도 안 나오는데 계속 아픈 거죠? 이거 평생 이렇게 살아야 하나요?"
+specific_remarks: "환자는 반복되는 증상에 대해 매우 지치고 좌절한 상태를 연기한다. 과거에 받았던 여러 검사(내시경, CT, MRI) 결과가 모두 정상이었다는 점을 강조한다. 증상의 유발 요인(스트레스)과 가족력(어머니의 편두통)에 대한 정보를 명확히 제공한다."

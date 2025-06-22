@@ -21,6 +21,11 @@ module.exports = (sequelize) => {
             foreignKey: 'scenarioId',
             as: 'bookmarks'
         });
+        // 시나리오는 여러 사용자의 실습 이력을 가질 수 있습니다 (1:N)
+        this.hasMany(models.UserPracticeHistory, {
+            foreignKey: 'scenarioId',
+            as: 'practiceHistory'
+        });
     }
   }
 

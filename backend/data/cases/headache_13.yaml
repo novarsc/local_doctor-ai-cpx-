@@ -1,0 +1,118 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (경추성 두통)"
+patient_info:
+  name: "강민혁"
+  age: 35
+  sex: "남성"
+  presenting_complaint: "목의 움직임에 따라 유발되는 편측 두통"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "경추성 두통"
+    - "긴장형 두통"
+    - "편두통"
+  necessary_tests:
+    - "경추 X-ray, CT 또는 MRI (경추의 구조적 이상 확인)"
+    - "신경 차단술 (상부 경추 신경 또는 후두 신경 차단술이 진단 및 치료에 이용됨)"
+    - "도수 치료 평가"
+  necessary_treatments:
+    - "물리 치료 및 도수 치료"
+    - "자세 교정 및 스트레칭 교육"
+    - "약물 치료 (NSAIDs, 근이완제)"
+    - "통증이 심할 경우 신경 차단술 주사 치료"
+history:
+  sex_age: "남성/35"
+  chief_complaint_verbatim: "오른쪽 뒷목이 뻐근하면서 머리 옆쪽까지 아파요. 특히 고개를 돌리거나 오래 숙이고 있으면 통증이 시작돼요."
+  onset: "약 2개월 전, 경미한 접촉사고 이후"
+  location:
+    initial: "오른쪽 뒷목"
+    current: "오른쪽 후두부에서 시작하여 관자놀이, 눈 주변까지 퍼짐"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "컴퓨터 작업을 오래 한 날 저녁에 더 심해짐"
+  course: "지속적인 둔한 통증이며, 특정 자세나 움직임에 의해 악화됨"
+  experience_prev_episodes:
+    frequency: "간헐적으로, 주로 피곤할 때 발생"
+    trigger: "목의 특정 움직임(오른쪽으로 돌리기), 장시간 고개 숙인 자세"
+    symptoms: "현재와 유사"
+  character_of_symptom:
+    quality: "뻐근하고 둔한 통증 (비박동성)"
+    nrs_score: "4-5"
+    radiation: "오른쪽 후두부에서 시작하여 앞쪽으로 방사"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    other:
+      ipsilateral_shoulder_pain: "오른쪽 어깨 통증 동반"
+      dizziness: "목을 갑자기 돌릴 때 어지러운 느낌이 들 때가 있음"
+  factors:
+    aggravating:
+      - "목을 특정 방향으로 움직일 때"
+      - "오른쪽 후두부나 목 부위를 누를 때"
+      - "장시간 스마트폰이나 컴퓨터 사용"
+    alleviating: "휴식, 스트레칭"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "2개월 전 경미한 후방 추돌사고 있었음. 당시 병원 방문 안 함."
+  past_medical_history:
+    underlying_disease: "일자목 진단받은 적 있음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "프로그래머"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3캔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "급성 병색은 없음. 자세가 약간 구부정함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  neurology:
+    mental_status: "정상"
+    cranial_nerves: "정상"
+    motor_sensory_reflexes: "정상"
+  musculoskeletal:
+    # Key physical exam for cervicogenic headache
+    cervical_rom: "목의 능동적, 수동적 움직임 시 오른쪽으로 돌릴 때와 뒤로 젖힐 때 운동 범위 제한 및 통증 유발"
+    palpation: "오른쪽 후두하근(suboccipital m.) 및 상부 경추 관절(C2-3 facet joint) 부위 압통"
+    spurling_test: "양성 (오른쪽으로 고개를 돌리고 뒤로 젖힌 상태에서 머리를 누를 때 오른쪽 팔로 방사통은 없으나, 두통이 재현됨)"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "목이 아픈데 왜 머리까지 아픈 건가요? 거북목이랑 관련이 있는 건가요? 이거 혹시 디스크는 아닐까요? 어떻게 하면 안 아플 수 있죠?"
+specific_remarks: "환자는 무의식적으로 목을 주무르거나 돌리는 행동을 보인다. 의사가 목을 만지거나 움직이게 할 때 통증을 호소한다. 특히 오른쪽 후두부 특정 지점을 눌렀을 때 '아, 바로 거기예요. 거기가 아프면서 머리까지 아파요'라고 반응한다. 두통이 목의 움직임과 명확하게 연관된다는 점을 강조한다."

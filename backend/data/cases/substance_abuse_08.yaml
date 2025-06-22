@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (카페인 관련 장애)"
+patient_info:
+  name: "정다은"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "가슴 두근거림과 불안"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "36.7℃"
+examinee_instructions: "환자가 호소하는 신체 증상(심계항진, 불안)에 대한 병력을 상세히 청취하시오. 심장 질환 및 불안장애를 감별하면서, 식이 습관 특히 카페인 섭취에 대해 자세히 문진하시오. 카페인 과다 섭취와 현재 증상의 연관성을 설명하고 생활 습관 교정에 대해 상담하시오."
+patient_education:
+  probable_diagnoses:
+    - "카페인 유발성 불안장애 (Caffeine-Induced Anxiety Disorder)"
+    - "카페인 중독 (Caffeine Intoxication)"
+    - "공황장애"
+  necessary_tests:
+    - "심전도 검사 (부정맥 감별)"
+    - "갑상선 기능 검사 (갑상선 기능 항진증 감별)"
+    - "24시간 홀터 모니터링 고려"
+  necessary_treatments:
+    - "카페인 섭취 중단 또는 점진적 감량 교육"
+    - "카페인 대체 음료 안내 및 스트레스 관리 기법 교육"
+    - "증상이 심할 경우, 단기간 항불안제(예: 프로프라놀롤) 사용 고려"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "요즘 자꾸 이유 없이 가슴이 두근거리고 불안해서 왔어요. 이러다 심장에 무슨 큰 병이 생기는 건 아닌지 걱정돼요."
+  onset: "약 2개월 전부터"
+  location:
+    initial: "가슴"
+    current: "가슴"
+  duration:
+    onset_pattern: "간헐적"
+    recent_course: "최근에는 거의 매일, 특히 오후에 증상이 나타남. 지속시간은 수십 분에서 몇 시간."
+  course: "취업 준비를 하면서부터 집중력을 높이기 위해 에너지 드링크와 커피를 마시기 시작함. 최근 입사 후 업무에 적응하느라 피곤해서 마시는 양이 크게 늘었음. 증상은 주로 오후에 커피를 마신 후에 심해지는 경향이 있음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "심장이 쿵쾅거리고 빠르게 뛰는 느낌"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    psychiatric:
+      insomnia: true
+      anxiety: true
+      restlessness: true
+  factors:
+    aggravating:
+      - "커피나 에너지 드링크를 마신 후"
+      - "업무 스트레스가 심할 때"
+    alleviating: "시간이 지나면 서서히 가라앉음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "위염 소견"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "위염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 위장약 복용"
+    source: "약국 구매"
+    effect: "속쓰림 완화"
+  social_history:
+    job: "IT 회사 신입사원"
+    stress: "과도한 업무량과 성과 압박으로 스트레스가 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+    caffeine: "하루 평균 아메리카노 4-5잔, 에너지 드링크 1-2캔"
+  family_history: "어머니가 불안장애로 약물치료 경험 있음"
+  female_history: "LMP: 1주 전, 규칙적"
+physical_exam:
+  general: "불안한 기색이 보이며, 말을 조금 빨리 하는 경향이 있음. 손을 가만히 두지 못함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "청진상 규칙적인 빈맥(regular tachycardia) 소견. 다른 잡음은 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "부종 없음. 양손에 미세한 떨림 관찰됨."
+standardized_patient_questions: "커피 때문에 이럴 수도 있나요? 다들 이 정도는 마시지 않나요? 커피 안 마시면 일을 할 수가 없는데 어떡하죠? 심장병은 정말 아닌 거죠?"
+specific_remarks: "자신의 증상이 심각한 심장 질환일 것이라는 건강 염려증적인 모습을 보임. 증상의 원인이 카페인일 수 있다는 설명에 대해 처음에는 잘 믿지 않으려는 태도를 보임. 의사가 카페인 섭취량과 증상 발생 시간의 연관성을 구체적으로 짚어줄 때 수긍하기 시작함."

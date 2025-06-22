@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (뇌척수액 비루)"
+patient_info:
+  name: "오진석"
+  age: 45
+  sex: "남성"
+  presenting_complaint: "한쪽 코에서만 맑은 물이 계속 흘러나옴"
+vital_signs:
+  blood_pressure: "125/75mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "뇌척수액 비루 (CSF rhinorrhea)"
+    - "알레르기 비염"
+    - "혈관운동성 비염"
+  necessary_tests:
+    - "비루 내 베타-2 트랜스페린(beta-2 transferrin) 검사 (확진 검사)"
+    - "비루 내 포도당 검사 (선별 검사)"
+    - "고해상도 두개저 CT 및 자기공명 조영술(MR cisternography) (누출 부위 확인)"
+  necessary_treatments:
+    - "절대 안정 (침상 안정, 코 풀기 금지, 기침/재채기 시 입 벌리기)"
+    - "필요 시 예방적 항생제 사용"
+    - "보존적 치료에 반응 없거나, 외상성 원인이 명확할 경우 수술적 치료 (내시경적 누공 폐쇄술)"
+history:
+  sex_age: "남성/45"
+  chief_complaint_verbatim: "2주 전에 머리를 좀 부딪혔는데, 그 후로 고개를 숙이면 오른쪽 코에서 물 같은 맑은 콧물이 뚝뚝 떨어져요. 짠맛이 나는 것 같아요."
+  onset: "약 10일 전"
+  location:
+    initial: "우측 코"
+    current: "우측 코"
+  duration:
+    onset_pattern: "외상 후 수일 뒤 발생"
+    recent_course: "증상이 점점 뚜렷해짐. 특히 아침에 일어날 때나 고개를 숙일 때 심함."
+  course: "다른 감기 증상이나 알레르기 증상(재채기, 가려움) 없이, 일측성으로 맑은 액체가 지속적으로 나옴."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "물처럼 매우 맑고 끈적임 없는 액체, 짠맛 또는 단맛"
+    nrs_score: "1"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "고개를 숙일 때"
+      - "힘을 줄 때 (발살바법)"
+    alleviating: "누워있거나 고개를 뒤로 젖힐 때"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "2주 전, 작업 중 선반에서 떨어진 물건에 머리를 부딪힘 (심각한 외상은 아니라고 생각했음)"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "창고 관리직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "5년 전 금연"
+    exercise: "주말 등산"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 양호해 보이나, 증상에 대해 걱정하는 기색."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 추가 소견: 환자에게 고개를 숙이게 했을 때 우측 코에서 맑은 액체가 방울져 떨어지는 것을 확인 (Halo sign 또는 reservoir sign). 비강 내시경 상 특이 점막 소견은 없으나, 사상판(cribriform plate) 부근에서 박동성의 맑은 분비물 누출이 의심됨.
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "신경학적 검사상 특이소견 없음"
+standardized_patient_questions: "그냥 콧물이 아니라 뇌에서 물이 새는 거라고요? 그럼 어떻게 되는 건가요? 수술해야 하나요? 가만히 놔두면 위험한가요?"
+specific_remarks: "환자는 '뇌척수액'이라는 단어에 매우 놀라며 불안해한다. 자신의 증상이 단순한 콧물이 아닐 수 있다는 점을 어렴풋이 인지하고 병원에 왔다. 고개를 숙여보라는 지시에 잘 따른다."

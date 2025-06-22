@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (저나트륨혈증에 의한 발작)"
+patient_info:
+  name: "박순자"
+  age: 78
+  sex: "여성"
+  presenting_complaint: "기운이 없다고 하다가 갑자기 경련"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "저나트륨혈증에 의한 발작"
+    - "뇌졸중"
+    - "노인성 뇌전증의 첫 발현"
+  necessary_tests:
+    - "혈액 검사 (전해질 포함)"
+    - "소변 검사 (소변 전해질 및 삼투압 농도)"
+    - "뇌 CT 또는 MRI (다른 원인 배제 목적)"
+  necessary_treatments:
+    - "수분 섭취 제한"
+    - "필요시 고농도 식염수(3% saline) 투여 (주의 깊은 모니터링 하에)"
+    - "원인이 되는 약물(이뇨제) 조절 또는 중단"
+history:
+  sex_age: "여성/78"
+  chief_complaint_verbatim: "며칠 전부터 입맛도 없고 기운도 없다고 하시더니, 오늘 아침 식사하시다가 갑자기 몸을 떨면서 의식을 잃었어요."
+  onset: "경련은 오늘 아침 8시, 전신 쇠약감은 3-4일 전부터"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "갑작스럽게"
+    recent_course: "가족에 따르면 1분 정도 전신 경련 후 의식이 돌아왔으나, 현재 사람을 잘 못 알아보고 횡설수설하는 상태(혼돈 상태)"
+  course: "3-4일 전부터 식사량이 줄고 계속 누워만 있으려 했다. 어제부터는 두통과 메스꺼움을 호소했다. 오늘 아침, 식탁에 앉아 있다가 갑자기 전신을 떠는 경련을 함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "최근 식욕 부진"
+    symptoms: ""
+  character_of_symptom:
+    quality: "의식 혼돈을 동반한 전신 발작"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "어제 한 차례"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사량 감소"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "3개월 전 내과 방문"
+    endoscopy_finding: "10년 전, 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Amlodipine 5mg"
+      - "Hydrochlorothiazide 12.5mg"
+      - "Alendronate"
+    source: "내과 의원"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "무직 (아들 내외와 거주)"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 식욕 부진으로 체중이 약간 준 것 같음"
+  family_history: "특이 사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "의식 상태 혼돈 (disorientation). 여기가 어디인지, 지금이 몇 시인지 잘 모름. 졸려하는 모습."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 전반적으로 부드러움
+  cvat: "좌우 음성"
+  extremity: "사지 부종 없음. 신경학적 국소 소견은 명확하지 않음. 심부건반사 약간 저하됨."
+standardized_patient_questions: "어머니가 갑자기 왜 이러시는 거죠? 치매가 온 건가요? 원래대로 돌아오실 수 있나요?"
+specific_remarks: "환자는 의식 혼돈 상태로 문진이 어려우므로, 보호자인 아들이 대신 대답한다. 보호자는 어머니의 상태가 급격히 나빠진 것에 대해 매우 놀라고 걱정한다. 특히 '이뇨제'가 원인일 수 있다는 설명에 대해 의문을 가질 수 있다 ('계속 드시던 약인데 왜 갑자기 문제가 되나요?')."

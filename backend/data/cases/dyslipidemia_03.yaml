@@ -1,0 +1,108 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (가족성 고콜레스테롤혈증)"
+patient_info:
+  name: "이현우"
+  age: 32
+  sex: "남성"
+  presenting_complaint: "아킬레스건에 생긴 혹"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "72회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "가족성 고콜레스테롤혈증에 의한 힘줄 황색종(Tendon Xanthoma)"
+    - "양성 연부조직 종양"
+    - "외상 후 변화"
+  necessary_tests:
+    - "혈액검사 (공복 지질 프로필 필수)"
+    - "가족력에 대한 상세한 문진"
+    - "필요시 유전자 검사 및 경동맥 초음파"
+  necessary_treatments:
+    - "즉각적인 고용량 스타틴 치료 시작"
+    - "엄격한 저콜레스테롤 식이요법 및 생활습관 교정"
+    - "가족 구성원에 대한 선별 검사 권유"
+history:
+  sex_age: "남성/32"
+  chief_complaint_verbatim: "한 1년 전부터 양쪽 아킬레스건 부위가 두꺼워지는 것 같더니, 이제는 딱딱한 혹처럼 만져져서 왔어요. 아프진 않아요."
+  onset: "약 1년 전"
+  location:
+    initial: "양쪽 아킬레스건"
+    current: "양쪽 아킬레스건"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "크기가 아주 서서히 커지는 것 같음"
+  course: "통증이나 운동 제한은 없음. 미용적으로 신경 쓰여 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "단단한 덩어리"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "받아본 적 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "아킬레스건 부위 외상력 없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "프로그래머"
+    stress: "보통 수준"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "비흡연"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "아버지가 45세에 심근경색으로 갑자기 돌아가셨음. 삼촌도 심장병으로 스텐트 시술 받음."
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강해 보이는 젊은 남성. 급성 병색 없음."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "정상"
+    # 눈꺼풀 주변에 황색판종(Xanthelasma)이 있는지 확인 필요
+  chest: "호흡음 및 심음 정상"
+  abdomen: "부드럽고 압통 없음"
+  cvat: "좌/우 음성"
+  extremity: "양측 아킬레스건에 단단하고 움직이지 않는 결절(nodule)이 촉진됨. 압통은 없음. (Tendon xanthoma) 손등 힘줄에도 작은 결절들이 만져짐."
+standardized_patient_questions: "그냥 종기 같은 거 아닌가요? 꼭 검사를 받아야 하나요? 아버지처럼 저도 심장병이 생길 수 있나요?"
+specific_remarks: "가족력에 대해 이야기할 때, 아버지의 이른 죽음에 대해 담담하지만 걱정스러운 어조로 말한다. 아킬레스건의 혹은 전혀 아프지 않다는 점을 강조한다."

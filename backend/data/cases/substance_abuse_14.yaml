@@ -1,0 +1,110 @@
+---
+chapter: "상담"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (덱스트로메토르판 남용)"
+patient_info:
+  name: "이하늘"
+  age: 17
+  sex: "여성"
+  presenting_complaint: "부모와 함께 내원 (이상 행동)"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "100회/분"
+  respiration: "20회/분"
+  temperature: "36.9℃"
+examinee_instructions: "보호자(어머니)와 학생을 함께 면담하시오. 최근 학생의 이상 행동(혼잣말, 비틀거림)에 대해 청취하고, 학생의 방에서 다량의 기침약 병이 발견된 상황을 바탕으로 약물 남용 가능성을 염두에 두고 상담을 진행하시오. 일반의약품 남용의 위험성과 정신과적 문제에 대해 설명하고 치료를 권유하시오."
+patient_education:
+  probable_diagnoses:
+    - "기타 (또는 불명확한) 물질 관련 장애 (덱스트로메토르판)"
+    - "약물 유발성 정신병적 장애"
+    - "청소년기 우울장애"
+  necessary_tests:
+    - "소변 약물 선별검사 (DXM 확인)"
+    - "혈액검사 (간기능, 전해질)"
+    - "심전도 검사 (QT 연장 확인)"
+  necessary_treatments:
+    - "정신건강의학과 전문의 상담 및 평가"
+    - "가족 치료 및 청소년 상담 프로그램 연계"
+    - "기저의 우울, 불안 문제에 대한 치료적 접근"
+history:
+  sex_age: "여성/17세"
+  chief_complaint_verbatim: "(어머니) 애가 며칠 전부터 방에서 혼자 웃고 중얼거리고, 걸음걸이도 이상해요. 어제 방 청소를 하다가 빈 기침약 병이 수십 개나 나와서 너무 놀라서 데리고 왔어요."
+  onset: "이상 행동은 1주일 전부터, 약물 복용은 수개월 전부터로 추정"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "최근 급격한 변화"
+    recent_course: "환자는 현재도 약간 멍하고 질문에 대한 반응이 느림."
+  course: "(환자의 진술과 정황 종합) 고등학교 진학 후 학업 스트레스와 교우 관계의 어려움으로 우울감을 느낌. 인터넷 커뮤니티에서 기침약(DXM 성분)을 다량 복용하면 환각을 경험할 수 있다는 글을 보고 호기심에 시작함. 여러 약국을 돌며 기침약을 구입해 한 번에 10-20정씩 복용함. 약을 먹으면 현실의 괴로움을 잊고 로봇이 된 것 같은 느낌, 세상을 다르게 보는 느낌이 들어 반복하게 됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "해리, 환각, 운동실조(ataxia)"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    psychiatric:
+      disorientation: true
+      hallucination: true
+      depressed_mood: true
+  factors:
+    aggravating:
+      - "기침약 다량 복용 후"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "중학교 이후 없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "덱스트로메토르판 성분의 종합감기약 또는 기침약"
+    source: "약국에서 직접 구매"
+    effect: "환각, 해리"
+  social_history:
+    job: "고등학생"
+    stress: "학업 및 교우관계 스트레스 심함"
+    alcohol:
+      is_drinker: false
+    smoking:
+      is_smoker: false
+    exercise: "안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "초경 2년 전, 불규칙"
+physical_exam:
+  general: "멍하고 무표정한 얼굴. 질문에 대한 반응이 느리고 부적절함. 걸음걸이가 로봇처럼 뻣뻣하고 비틀거림 (robotic gait)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    pupil: "양쪽 동공이 약간 산대되어 있고, 안구진탕(nystagmus) 관찰됨"
+  chest: "청진상 빈맥 소견"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "근력 정상, 협응 능력 저하"
+standardized_patient_questions: "(환자) 잘 모르겠어요... 그냥... 아무 생각도 안 나요. (어머니) 선생님, 얘가 왜 이러는 걸까요? 그냥 스트레스 때문인 줄 알았는데... 약 때문에 이렇게 될 수도 있나요? 우리 애, 원래 이런 애가 아니에요."
+specific_remarks: "환자는 해리 증상으로 인해 감정 표현이 없고 멍한 상태를 유지함. 대부분의 질문에 '몰라요'라고 답하거나 동문서답을 함. 어머니는 매우 놀라고 충격을 받은 상태이며, 죄책감과 불안감을 표현함. 의사가 일반의약품의 오남용 위험성과 기저에 있는 정신적 어려움에 대해 차분히 설명할 때, 어머니는 눈물을 보이며 치료에 적극적으로 협조하려는 태도를 보임."

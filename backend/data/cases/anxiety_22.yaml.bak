@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "22"
+title: "실전 모의 증례 (신체증상장애)"
+patient_info:
+  name: "문정희"
+  age: 49
+  sex: "여성"
+  presenting_complaint: "온몸이 아프고 불안해요."
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신체증상장애 (Somatic Symptom Disorder)"
+    - "섬유근육통 (Fibromyalgia)"
+    - "범불안장애"
+  necessary_tests:
+    - "이전 검사 결과 재검토, 불필요한 반복 검사 지양"
+    - "정신건강의학과적 심층 면담"
+    - "불안/우울 척도 및 신체화 척도 평가"
+  necessary_treatments:
+    - "단일 주치의와의 정기적인 면담 확립"
+    - "증상보다는 기능 회복에 초점을 맞춘 치료 계획 수립"
+    - "정신치료, 스트레스 관리, 필요시 항우울제 사용"
+history:
+  sex_age: "여성/49"
+  chief_complaint_verbatim: "몇 년째 온몸이 안 아픈 데가 없어요. 머리도 아프고, 속도 안 좋고, 허리랑 다리도 쑤셔요. 병원마다 다니면서 검사를 다 해봤는데 아무 이상이 없대요. 이러다 큰 병을 놓치는 건 아닌지 너무 불안해서 매일 병원에 대한 정보만 찾아봐요."
+  onset: "약 3년 전부터 서서히 시작"
+  location:
+    initial: "두통, 소화불량"
+    current: "전신에 걸친 다양하고 모호한 통증"
+  duration:
+    onset_pattern: "만성적"
+    recent_course: "증상의 종류와 부위가 계속 변함"
+  course: "3년 전부터 시작된 두통과 소화불량으로 여러 병원을 방문함. 내과, 신경과, 정형외과 등에서 위내시경, 뇌 MRI, 전신 뼈 스캔 등 수많은 검사를 받았으나 '신경성'이라는 말만 들음. 검사 결과가 정상이라는 말을 믿지 못하고, 자신의 증상이 심각한 질병(예: 암)의 증거라고 생각함. 증상에 대해 과도하게 걱정하며, 건강 염려 때문에 일상생활에 심각한 지장을 받고 있음."
+  experience_prev_episodes:
+    frequency: "거의 매일"
+    trigger: "스트레스"
+    symptoms: "두통, 복통, 근육통, 피로감, 어지럼증 등 다양함"
+  character_of_symptom:
+    quality: "다양하고 모호하며, 의학적으로 설명되지 않는 신체 증상과 이에 대한 과도한 걱정 및 불안"
+    nrs_score: "다양함 (5-8)"
+    radiation: "모호함"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: true
+      diarrhea: true
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "자신의 신체 감각에 집중할 때"
+    alleviating: "병원에 가서 검사를 받으면 일시적으로 안심됨"
+  health_check_history:
+    last_checkup: "수시로 여러 병원에서 검사함 (최근 1년간 대학병원 3곳 방문, 검사 결과 모두 특이소견 없음)"
+    endoscopy_finding: "기능성 소화불량, 만성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "다양한 병원에서 '신경성', '기능성' 진단 받음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "여러 병원에서 처방받은 소화제, 진통제, 신경안정제 등 다수"
+    source: "여러 병원"
+    effect: "일시적이거나 효과 없음"
+  social_history:
+    job: "주부"
+    stress: "남편과의 관계 갈등으로 인한 스트레스가 심함"
+    alcohol:
+      is_drinker: false
+      frequency: "N/A"
+      amount: "N/A"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "몸이 아파서 거의 못 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP 3년 전 (폐경)"
+physical_exam:
+  general: "고통스럽고 불안한 표정. 병력에 대해 장황하고 극적으로 설명함."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "flat and soft, multiple old surgical scars (unrelated)"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      other: "diffuse, inconsistent tenderness on palpation"
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+standardized_patient_questions: "선생님은 제 병을 찾아주실 수 있나요? 다른 의사들은 다 이상이 없다고만 해요. 저는 이렇게 아픈데, 도대체 무슨 병일까요? 너무 불안해요."
+specific_remarks: "환자는 두꺼운 진료기록 서류 뭉치를 들고 와 보여주려 한다. 자신의 고통을 아무도 알아주지 않는다고 호소하며, 감정적으로 격앙된 모습을 보일 수 있다. 의사가 심리적인 원인을 조심스럽게 언급하면, '나를 정신병자 취급하는 거냐'며 강하게 반발하고 분노를 표현할 수 있다. 신체 진찰 시, 비일관적이고 과장된 통증 반응을 보인다."

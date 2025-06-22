@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (아담스-스토크스 발작, 완전 방실 차단)"
+patient_info:
+  name: "이강산"
+  age: 82
+  sex: "남성"
+  presenting_complaint: "아무런 증상 없이 갑자기 쓰러졌어요."
+vital_signs:
+  blood_pressure: "140/70mmHg"
+  pulse: "38회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "아담스-스토크스 발작 (Adams-Stokes attack)을 동반한 서맥성 부정맥 (예: 완전 방실 차단)"
+    - "경동맥동 증후군"
+    - "뇌혈관 질환 (일과성 허혈 발작)"
+  necessary_tests:
+    - "즉각적인 12유도 심전도 검사"
+    - "지속적인 심장 모니터링"
+    - "혈액 검사 (전해질, 심장 효소 수치 포함)"
+  necessary_treatments:
+    - "응급 상황으로, 즉각적인 입원 및 심장내과 협진"
+    - "필요 시 임시형 또는 영구형 심박조율기 삽입술"
+    - "운전 등 위험한 활동 즉시 중단"
+history:
+  sex_age: "남성/82"
+  chief_complaint_verbatim: "점심 먹고 소파에 앉아서 TV를 보다가 나도 모르게 정신을 잃고 옆으로 쓰러졌다고 합니다. 저는 쓰러진 기억이 전혀 없어요. 며느리가 발견해서 깨웠는데, 정신을 차리니 멀쩡했어요."
+  onset: "오늘 오후 1시경"
+  location:
+    initial: "자택 거실"
+    current: "응급실"
+  duration:
+    onset_pattern: "전조 증상 없이 갑자기 발생"
+    recent_course: "가족에 의하면 약 1분간 의식이 없었으며, 얼굴이 창백했다고 함. 의식 회복 후 혼란 상태나 다른 신경학적 증상은 없었음."
+  course: "최근 몇 달간 간헐적으로 어지럼증이 있었으나, 대수롭지 않게 여겼음. 의식을 잃은 것은 이번이 처음."
+  experience_prev_episodes:
+    frequency: "의식 소실은 처음. 어지럼증은 월 2-3회."
+    trigger: "특별한 유발 요인 없음. 쉬고 있을 때도 발생함."
+    symptoms: "어지럼증"
+  character_of_symptom:
+    quality: "무증상 의식 소실"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "알 수 없음"
+    alleviating: "시간이 지나면 저절로 호전"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "소파 옆으로 쓰러져 외상은 없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "혈압약"
+    source: "의원"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "과거 40갑년"
+      cessation_period: "10년 전 금연"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: null
+physical_exam:
+  general: "의식 명료. 전반적으로 특이 소견 없으나 맥박이 매우 느림."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음은 정상. 심음 청진 시 S1, S2는 규칙적이나 매우 느림(bradycardia). 심잡음 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "부종 없음. 말초 맥박 약하게 촉진됨."
+standardized_patient_questions: "그냥 잠깐 졸았던 거 아니에요? 왜 이렇게 호들갑인지 모르겠네. 꼭 입원해야 합니까?"
+specific_remarks: "환자는 자신의 상태를 대수롭지 않게 여기며, '나이 탓'으로 생각한다. 전조 증상이 전혀 없었음을 강조하며, 검사나 입원의 필요성에 대해 저항적인 태도를 보인다."

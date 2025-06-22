@@ -1,0 +1,113 @@
+---
+chapter: "상담"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (지속성 우울장애)"
+patient_info:
+  name: "한상진"
+  age: 42
+  sex: "남성"
+  presenting_complaint: "오랫동안 기분이 계속 안 좋고, 최근 들어 죽고 싶은 마음이 생김"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "지속성 우울장애, 주요우울 삽화 동반 (Persistent Depressive Disorder, with major depressive episode)"
+    - "주요우울장애, 재발성 (Major Depressive Disorder, recurrent)"
+    - "성격 문제 (Personality issues)"
+  necessary_tests:
+    - "수년에 걸친 기분 상태에 대한 상세한 병력 청취"
+    - "현재 우울 삽화의 심각도 평가 (PHQ-9, BDI 등)"
+    - "기질적 원인 배제를 위한 기본 혈액검사"
+  necessary_treatments:
+    - "항우울제 약물치료와 정신치료의 병행"
+    - "만성적인 비관주의, 낮은 자존감 등을 다루는 인지행동치료"
+    - "급성기 자살 위험도 평가 및 관리"
+history:
+  sex_age: "남성/42세"
+  chief_complaint_verbatim: "원래부터 성격이 좀 우울한 편이긴 한데, 최근 몇 달은 정말 못 견디겠어요. 그냥 제 자신이 너무 한심하고, 사라져 버렸으면 좋겠습니다."
+  onset: "만성적인 우울감은 10년 이상, 심각한 우울 증상은 3개월 전부터"
+  location:
+    initial: "전반적인 기분"
+    current: "전반적인 기분"
+  duration:
+    onset_pattern: "만성적 기저 위에 급성 악화"
+    recent_course: "최근 3개월간 급격히 악화"
+  course: "스스로를 '원래 좀 비관적이고 재미없는 사람'이라고 생각하며 수년간 지내왔다. 대부분의 날 동안 기분이 좋지 않고, 쉽게 지치며, 자존감이 낮았다. 그러던 중 3개월 전 회사 프로젝트에서 큰 실수를 한 것을 계기로 증상이 급격히 악화되었다. 잠을 거의 못 자고, 식욕이 완전히 사라졌으며, 업무에 집중할 수 없어 결국 휴직했다. 만성적인 무력감 위에 극심한 죄책감과 절망감이 더해져, '나는 사회에 쓸모없는 인간'이라며 자살을 구체적으로 생각하기 시작했다."
+  experience_prev_episodes:
+    frequency: "이렇게 심한 적은 처음"
+    trigger: "업무상 실수"
+    symptoms: "만성적인 경도의 우울감"
+  character_of_symptom:
+    quality: "만성적인 우울감 위에 겹쳐진 극심한 절망감, 무가치함"
+    nrs_score: "평소 4-5점, 최근 9점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "자신의 실수에 대해 생각할 때"
+      - "혼자 있을 때"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원 (현재 휴직)"
+    stress: "스스로에게 매우 엄격하며 스트레스에 취약함"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "10년 전 금연"
+    exercise: "최근 전혀 하지 않음"
+    recent_weight_change: "최근 3개월간 6kg 감소"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "기운이 없고 위축되어 보임. 정신운동 지체(psychomotor retardation) 소견. 시선을 잘 마주치지 못함."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Slightly dry"
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "No edema or cyanosis"
+standardized_patient_questions: "전 그냥 성격이 이런 거 아닌가요? 이게 치료가 되나요? 평생 이렇게 살아야 하는 건가요? 제 인생은 실패한 것 같아요."
+specific_remarks: "자신의 상태를 질병보다는 성격 탓으로 돌리는 경향을 보임 ('그냥 제가 못나서 그렇죠'). 만성적인 증상과 최근 악화된 증상을 구분하여 설명함. 희망이 없다는 말을 반복하며, 치료에 대한 기대감이 낮음."

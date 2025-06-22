@@ -1,0 +1,124 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (절박유산)"
+patient_info:
+  name: "최지아"
+  age: 30
+  sex: "여성"
+  presenting_complaint: "임신 초기 질출혈과 복통"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "절박유산 (Threatened abortion)"
+    - "자궁외임신 (Ectopic pregnancy)"
+    - "완전/불완전 유산 (Complete/Incomplete abortion)"
+  necessary_tests:
+    - "질식 초음파 (Transvaginal ultrasonography, to confirm intrauterine pregnancy and fetal viability)"
+    - "혈중 베타 인간융모성성선자극호르몬 정량검사 (Quantitative serum beta-hCG)"
+    - "일반 혈액 검사 (CBC)"
+  necessary_treatments:
+    - "안정 가료 (침상 안정)"
+    - "출혈 및 복통 악화 시 즉시 내원"
+    - "성관계 및 격렬한 활동 피하기"
+history:
+  sex_age: "여성/30"
+  chief_complaint_verbatim: "임신 8주인데, 오늘 아침부터 팬티에 피가 묻어 나오고 배가 생리통처럼 싸하게 아파요. 아기가 잘못될까 봐 너무 불안해요."
+  onset: "12시간 전"
+  location:
+    initial: "하복부 중앙"
+    current: "하복부 중앙"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "간헐적으로 지속됨"
+  course: "4주 전 산부인과에서 아기집을 확인했고, 오늘 아침 화장실에서 소량의 선홍색 출혈을 확인했다. 이후로 계속 갈색 분비물이 나오고 있으며, 생리통 같은 복통이 약하게 있다가 없다가를 반복한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "소량의 질출혈 (선홍색에서 갈색으로 변함), 경미한 월경통 양상의 복통"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 서 있을 때"
+    alleviating: "누워서 쉴 때"
+  health_check_history:
+    last_checkup: "임신 확인차 4주 전 방문"
+    endoscopy_finding: "초음파상 자궁내 임신낭 확인"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "다낭성 난소 증후군 (2년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "엽산"
+    source: "약국 구매"
+    effect: ""
+  social_history:
+    job: "은행원"
+    stress: "임신 걱정으로 스트레스 있음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "임신 후 중단"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "15세"
+    menstrual_cycle: "35-45일 주기, 불규칙적"
+    duration: "5일"
+    amount: "보통"
+    lmp: "8주 전"
+    gpa: "1-0-0-0"
+    sexual_partner: "배우자 1명"
+    contraception: "해당 없음 (난임 시술로 임신)"
+physical_exam:
+  general: "매우 불안해 보이지만, 급성 병색은 없음."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심잡음 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 하복부 중앙에 경미한 압통이 있으나 반발 압통은 없음.
+      # 질경 검사 시: 질 내에 소량의 암갈색 혈액이 고여 있음. 자궁경부구는 닫혀 있음(cervical os is closed).
+      # 내진 시: 자궁이 임신 8주 크기로 부드럽게 만져짐. 자궁경부 이동 압통 없음. 자궁 부속기 압통 없음.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "저 유산하는 건가요? 아기는 괜찮을까요? 제가 뭘 잘못해서 그런가요? 어떻게 해야 아기를 지킬 수 있나요?"
+specific_remarks: "계속 울먹이며 아기의 안위에 대해 반복적으로 질문한다. '유산'이라는 말에 매우 민감하게 반응하며, 죄책감을 표현한다. 검사 결과에 대해 초조하게 기다리는 모습을 보인다."

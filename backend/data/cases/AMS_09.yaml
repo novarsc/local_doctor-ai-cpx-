@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (허혈성 뇌졸중, Ischemic Stroke)"
+patient_info:
+  name: "최정숙"
+  age: 78
+  sex: "여성"
+  presenting_complaint: "아침부터 말이 어눌해지고 사람을 못 알아봄"
+vital_signs:
+  blood_pressure: "165/90mmHg"
+  pulse: "95회/분 (불규칙)"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 허혈성 뇌졸중 (색전성)"
+    - "뇌내출혈"
+    - "경련 후 상태"
+  necessary_tests:
+    - "뇌 MRI (특히 확산강조영상, DWI)"
+    - "뇌 CT 및 CT 혈관조영술"
+    - "심전도 및 심장 초음파"
+  necessary_treatments:
+    - "정맥 내 혈전용해술(tPA) 또는 혈전제거술 고려"
+    - "항혈소판제 또는 항응고제 투여"
+    - "뇌졸중 위험인자 관리"
+history:
+  sex_age: "여성/78세"
+  chief_complaint_verbatim: "어머니가 아침에 일어나셨는데, 갑자기 이상한 소리를 내고 오른쪽 팔다리를 못 쓰시는 것 같아요. 제 말도 못 알아들으세요."
+  onset: "오늘 아침 8시경 (증상 발생 후 2시간 경과)"
+  location:
+    initial: "뇌"
+    current: "뇌"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "증상 지속"
+  course: "보호자인 딸이 아침 식사를 위해 어머니 방에 들어갔을 때, 침대에 걸터앉아 '아바바' 같은 의미 없는 소리만 내고 있는 것을 발견. 오른쪽 팔을 들어보라고 해도 들지 못하고, 컵을 쥐어주자 바로 떨어뜨림. 질문을 이해하지 못하는 표정으로 고개만 갸웃거림. (Last Normal Time: 어젯밤 10시 취침 시)"
+  experience_prev_episodes:
+    frequency: "5년 전 일과성 허혈 발작(TIA) 경험 있음"
+    trigger: "-"
+    symptoms: "당시 30분간 말이 어눌했다가 저절로 회복됨"
+  character_of_symptom:
+    quality: "실어증 및 우측 편마비"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "특이 소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨병, 심방세동"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Warfarin, Metformin, Losartan"
+    source: "순환기내과"
+    effect: "와파린을 가끔 빼먹는 일이 있었다고 함."
+  social_history:
+    job: "무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "의식은 명료하나, 질문을 이해하지 못하고(수용성 실어증) 의미 없는 소리만 냄(표현성 실어증). 전반적인 실어증(Global aphasia) 상태."
+  heent:
+    sclera: "정상."
+    oral_mucosa: "정상."
+    # 우측을 주시하지 못하고 좌측만 보는 경향(gaze deviation to left) 보임. 안면 마비(우측 nasolabial fold 얕아짐).
+  chest: "심음 청진 시 불규칙한 리듬(irregularly irregular) 관찰됨."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "우측 상하지 근력 저하 (Grade 1/5). 우측 Babinski's sign 양성. 감각 저하 동반."
+standardized_patient_questions: "어머니가 갑자기 왜 이러시는 건가요? 치매가 온 건가요? 아니면 중풍(뇌졸중)인가요? 다시 예전처럼 말씀하실 수 있을까요?"
+specific_remarks: "환자는 어떤 질문에도 '아바바' 또는 '어어' 같은 소리만 낼 뿐, 의사소통이 전혀 되지 않는다. 오른쪽 팔다리를 전혀 움직이지 못하는 모습을 보인다. 보호자인 딸이 옆에서 병력 진술을 하고, 매우 걱정스러운 태도를 보인다."

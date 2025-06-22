@@ -1,0 +1,109 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "20"
+title: "실전 모의 증례 (구강안면 운동이상증)"
+patient_info:
+  name: "오미자"
+  age: 75
+  sex: "여성"
+  presenting_complaint: "자기도 모르게 입을 계속 움직임"
+vital_signs:
+  blood_pressure: "130/75mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "특발성 구강안면 운동이상증 (Meige's syndrome)"
+    - "지연성 운동이상증"
+    - "치과적 문제 (의치 등)로 인한 반사적 움직임"
+  necessary_tests:
+    - "신경학적 진찰"
+    - "약물 복용력 상세 확인"
+    - "치과 진료 의뢰"
+  necessary_treatments:
+    - "보툴리눔 독소 주사"
+    - "약물 치료 (항콜린제, 벤조디아제핀 등)"
+    - "정신적 지지"
+history:
+  sex_age: "여성/75세"
+  chief_complaint_verbatim: "나도 모르게 자꾸 입을 씰룩거리고 턱을 내밀게 돼요. 눈도 자꾸 감기고요. 밥 먹거나 말할 때 더 심해져서 사람 만나기가 싫어요."
+  onset: "약 2년 전"
+  location:
+    initial: "입 주변"
+    current: "입, 턱, 눈꺼풀"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "악화"
+  course: "처음에는 입맛만 다셨는데, 점점 턱을 앞으로 내밀거나 옆으로 비트는 움직임이 추가됨. 1년 전부터는 눈꺼풀에 힘이 들어가 저절로 감기는 증상(안검경련)도 동반됨."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "말하기, 씹기"
+    symptoms: "얼굴 움직임"
+  character_of_symptom:
+    quality: "반복적인 입 오므리기, 턱 내밀기, 눈 감기 등 근긴장이상"
+    nrs_score: "사회적 불편감 8점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "말을 하려고 할 때"
+      - "음식을 씹을 때"
+      - "밝은 빛을 볼 때 (눈 감김)"
+    alleviating: "하품을 하거나 껌을 씹는 등 다른 움직임을 할 때 일시적 호전, 잠잘 때"
+  health_check_history:
+    last_checkup: "6개월 전, 골다공증 외 특이사항 없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "골다공증 약"
+    source: "정형외과"
+    effect: "유지 중"
+  social_history:
+    job: "주부"
+    stress: "증상으로 인해 높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "경로당에서 체조"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 53세"
+physical_exam:
+  general: "대화 중 지속적으로 입술을 오므리고 턱을 좌우로 움직이는 등의 불수의적 운동이 관찰됨. 또한 간헐적으로 양쪽 눈을 강하게 감는 안검경련(blepharospasm)이 동반됨."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상. 의치 착용 상태 양호함."
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "사지의 근력, 감각, 떨림, 경직 등 다른 신경학적 이상은 관찰되지 않음. 이상 운동이 구강-안면 부위에 국한되어 있음."
+standardized_patient_questions: "내 얼굴이 왜 내 마음대로 안 움직이는 걸까요? 나이가 들어서 그런 건가요? 혹시 치매나 중풍이 오려는 징조는 아닌가요? 너무 보기 흉해서 밖에 나가지를 못하겠어요."
+specific_remarks: "환자는 대화 내내 얼굴 하부(입, 턱)의 근긴장이상 움직임과 눈꺼풀의 경련을 함께 연기해야 한다. 특히 말을 하거나 무언가에 집중하려고 할 때 증상이 악화되는 모습을 보여준다. '감각 속임수(sensory trick)'를 표현하는 것이 중요한데, 예를 들어 턱을 손으로 살짝 만지거나 껌을 씹으면 증상이 일시적으로 완화되는 모습을 보여줄 수 있다. 자신의 외모 변화에 대해 매우 속상해하고 우울해하는 감정을 표현한다."

@@ -1,0 +1,114 @@
+---
+chapter: "상담"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (도박장애)"
+patient_info:
+  name: "최경민"
+  age: 38
+  sex: "남성"
+  presenting_complaint: "도박 빚 때문에 죽고 싶은 심정임"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "도박장애 (Gambling Disorder)"
+    - "우울장애를 동반한 도박장애"
+    - "스트레스 관련 장애"
+  necessary_tests:
+    - "도박문제 선별척도(CPGI) 평가"
+    - "부채 규모 및 자금 출처에 대한 상세한 문진"
+    - "동반된 우울, 불안, 자살사고에 대한 평가"
+  necessary_treatments:
+    - "인지행동치료 (도박에 대한 비합리적 신념 교정)"
+    - "단도박모임(GA) 등 자조집단 참여"
+    - "재정 상담 및 채무 관리 계획, 자살 위기 개입"
+history:
+  sex_age: "남성/38세"
+  chief_complaint_verbatim: "주식 투자로 시작했는데, 이제는 사채까지 끌어다 썼어요. 빚이 수억 원인데 감당이 안 됩니다. 가족들 볼 면목도 없고, 그냥 죽어서 보험금이라도 남겨주고 싶습니다."
+  onset: "약 2년 전 주식 투자 시작, 6개월 전부터 매우 심각해짐"
+  location:
+    initial: "재정 문제"
+    current: "삶 전체의 위기"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 큰 손실 후 절망감 극대화"
+  course: "2년 전 소액으로 주식 투자를 시작했다가 우연히 큰 수익을 얻은 후 점차 투자 금액을 늘림. 손실이 발생하면 만회하기 위해 더 큰 돈을 투자하는 악순환이 반복됨. 처음에는 예금을 사용했으나, 이후 신용대출, 카드론을 거쳐 최근에는 사채까지 사용하게 됨. 가족에게는 이 사실을 숨겨왔으나, 빚 독촉이 시작되면서 더 이상 버틸 수 없다고 느낌. 모든 것을 잃었다는 생각과 가족에 대한 미안함에 '사망보험금을 타서 빚을 갚는다'는 구체적인 자살 계획을 세움."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "도박에 대한 강박적 갈망, 통제력 상실, 절망감"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "주식 시장을 볼 때"
+      - "빚 독촉 전화를 받을 때"
+      - "가족들을 마주할 때"
+    alleviating: "도박으로 큰 돈을 따는 상상을 할 때"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "자영업"
+    stress: "재정 문제로 인한 스트레스 극심"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "1.5갑/일 (최근 늘었음)"
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "매우 불안하고 초조해 보임. 안절부절못하며 손톱을 물어뜯는 모습 관찰됨."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear breath sounds, tachycardia"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "No edema or cyanosis"
+standardized_patient_questions: "제가 도박 중독인가요? 그냥 운이 없었던 거 아닐까요? 이 빚을 어떻게 해야 할까요? 제가 죽으면 이 문제가 다 해결될까요?"
+specific_remarks: "자신의 행동을 '투자'라고 합리화하려는 경향을 보이지만, 결국에는 문제의 심각성을 인정하고 절망감을 드러냄. 거짓말을 하고 있다는 죄책감과 수치심을 표현함. 자살을 문제 해결의 한 방법으로 진지하게 고려하는 모습을 보임."

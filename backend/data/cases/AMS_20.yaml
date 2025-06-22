@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "20"
+title: "실전 모의 증례 (벤조디아제핀 과다복용, Benzodiazepine Overdose)"
+patient_info:
+  name: "강유리"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "방에서 의식이 없는 채로 발견됨"
+vital_signs:
+  blood_pressure: "95/60mmHg"
+  pulse: "80회/분"
+  respiration: "8회/분"
+  temperature: "36.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "벤조디아제핀 과다복용"
+    - "오피오이드 중독"
+    - "뇌졸중"
+  necessary_tests:
+    - "약물 스크리닝 검사 (소변, 혈액)"
+    - "동맥혈가스분석"
+    - "혈액 검사 (간기능, 신기능)"
+  necessary_treatments:
+    - "기도 확보 및 호흡 보조"
+    - "플루마제닐(Flumazenil) 투여 고려"
+    - "위 세척 및 활성탄 투여 (복용 1-2시간 이내)"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "딸 아이가 아침에 일어나지 않아서 깨우러 들어갔더니, 침대 옆에 약 봉지가 널려있고 의식이 없어요."
+  onset: "밤 사이"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "불명"
+    recent_course: "의식 소실 상태"
+  course: "최근 남자친구와 헤어지고 회사에서도 힘든 일이 있어 매우 우울해했음. 어젯밤 방에 들어간 후로 나오지 않음. 아침에 어머니가 방문을 열었을 때, 의식이 없고 숨을 약하게 쉬는 것을 발견. 침대 옆에 빈 약통(Zolpidem, Alprazolam)들이 흩어져 있었음."
+  experience_prev_episodes:
+    frequency: "1년 전 손목을 그어 자해 시도한 적 있음"
+    trigger: "스트레스"
+    symptoms: "우울감, 자살사고"
+  character_of_symptom:
+    quality: "의식 소실, 호흡 억제"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "약물"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "모름"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "주요우울장애, 불안장애"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Escitalopram, Alprazolam, Zolpidem"
+    source: "정신건강의학과"
+    effect: "최근 잠을 못 이룬다며 약을 더 처방받았다고 함."
+  social_history:
+    job: "회사원"
+    stress: "매우 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "최근 거의 매일"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "최근 전혀 안함"
+    recent_weight_change: "최근 한 달간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 2주 전"
+physical_exam:
+  general: "혼수(coma) 상태. 강한 통증 자극에만 미약하게 움직임. 호흡이 매우 느리고 얕음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    # 동공 크기는 정상이거나 약간 확장될 수 있음. 빛 반사 느림.
+  chest: "호흡음이 전반적으로 감소되어 있음. 서호흡, 서맥 경향."
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "전신 근 긴장도 저하. 심부건반사 저하."
+standardized_patient_questions: "우리 딸, 괜찮은 건가요? 죽는 건 아니죠? 제가 더 신경 썼어야 했는데... 약을 얼마나 먹은 걸까요?"
+specific_remarks: "환자는 깊은 혼수 상태를 연기한다. 핵심은 느리고 얕은 호흡(호흡 억제)을 표현하는 것이다. 오피오이드 중독과 감별점으로, 동공이 축소되지 않은 점을 인지한다. 보호자인 어머니가 매우 불안하고 죄책감을 느끼는 태도로 병력을 진술한다."

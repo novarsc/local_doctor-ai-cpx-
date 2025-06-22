@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (급성 폐색전증)"
+patient_info:
+  name: "정선희"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "갑자기 숨이 차면서 정신을 잃었어요."
+vital_signs:
+  blood_pressure: "95/60mmHg"
+  pulse: "115회/분"
+  respiration: "28회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 폐색전증 (Acute pulmonary embolism)"
+    - "급성 심근경색증"
+    - "대동맥 박리"
+  necessary_tests:
+    - "D-dimer 혈액 검사 및 동맥혈 가스 분석"
+    - "흉부 CT 혈관조영술 (CT pulmonary angiography)"
+    - "심전도 및 심장 초음파 검사"
+  necessary_treatments:
+    - "즉각적인 산소 공급 및 혈역학적 안정화"
+    - "항응고제 치료 (헤파린 등)"
+    - "필요 시 혈전용해술 또는 색전제거술"
+history:
+  sex_age: "여성/55"
+  chief_complaint_verbatim: "2주 전에 무릎 수술을 받고 퇴원했는데요, 오늘 집에서 화장실 가려고 일어서는데 갑자기 숨을 쉴 수가 없이 가슴이 답답해지면서 그대로 쓰러졌어요."
+  onset: "금일 오전 11시"
+  location:
+    initial: "자택"
+    current: "응급실"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "약 1분 정도 의식을 잃었고, 깨어난 후에도 계속 숨이 차고 가슴이 아픔. 특히 숨을 깊게 들이쉴 때 옆구리 쪽이 칼로 찌르는 듯 아픔."
+  course: "2주 전 좌측 무릎 인공관절 수술 후 최근 거의 침상 생활을 함. 3일 전부터 좌측 종아리가 붓고 아픈 느낌이 있었음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "의식 소실과 동반된 급성 호흡곤란 및 흉통"
+    nrs_score: 8
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "깊게 숨쉬기"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "2주 전 수술력"
+  past_medical_history:
+    underlying_disease: "퇴행성 관절염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제"
+    source: "정형외과"
+    effect: "통증 조절"
+  social_history:
+    job: "주부"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "무릎 통증으로 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 5년 전"
+physical_exam:
+  general: "급성 병색. 안절부절못하며 호흡이 빠르고 얕음. 의식은 명료하나 불안정해 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음은 깨끗하나 호흡수가 빠름. 심음 청진 시 빠른 빈맥(tachycardia) 소견. P2 항진 소견."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "좌측 종아리에 우측에 비해 현저한 부종(pitting edema)과 압통이 관찰됨 (Homan's sign 양성)."
+standardized_patient_questions: "수술이 잘못된 건가요? 왜 갑자기 숨도 못 쉬고 쓰러지는 거죠? 저 죽는 건 아니죠?"
+specific_remarks: "환자는 극심한 불안감과 공포를 표현한다. 숨이 가빠서 말을 길게 잇지 못하고, 가슴 통증을 호소한다. 의사가 다리를 진찰하려고 할 때 좌측 종아리의 통증을 심하게 호소한다."

@@ -1,0 +1,116 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (상기도 기침 증후군)"
+patient_info:
+  name: "윤지혜"
+  age: 35
+  sex: "여성"
+  presenting_complaint: "수개월간 지속되는 기침과 목 이물감"
+vital_signs:
+  blood_pressure: "118/75mmHg"
+  pulse: "78회/분"
+  respiration: "16회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "상기도 기침 증후군 (Upper airway cough syndrome, UACS)"
+    - "알레르기 비염 (Allergic rhinitis)"
+    - "위식도 역류 질환 (GERD)"
+  necessary_tests:
+    - "비강 내시경 (코 상태, 후비루 확인)"
+    - "부비동 X선 촬영 또는 CT (부비동염 감별)"
+    - "경험적 치료 (1세대 항히스타민제/비강내 스테로이드) 시도"
+  necessary_treatments:
+    - "1세대 항히스타민제와 비충혈제거제 복합제"
+    - "비강내 스테로이드 분무제 사용"
+    - "생리식염수 비강 세척"
+history:
+  sex_age: "여성/35세"
+  chief_complaint_verbatim: "몇 달째 기침이 안 떨어져요. 목 뒤로 뭔가 넘어가는 느낌이 계속 들고, 그래서 자꾸 킁킁거리거나 헛기침을 하게 돼요."
+  onset: "약 3개월 전"
+  location:
+    initial: "코, 목"
+    current: "목 뒤"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "비슷하게 지속됨"
+  course: "처음에는 코가 막히고 콧물이 나서 시작됐는데, 콧물은 좀 덜해졌지만 목 뒤로 넘어가는 느낌과 기침은 계속된다. 특히 아침에 일어났을 때 목에 가래가 낀 것처럼 답답해서 기침을 많이 한다."
+  experience_prev_episodes:
+    frequency: "환절기마다 비슷하게 비염 증상이 있음"
+    trigger: "환절기, 먼지"
+    symptoms: "콧물, 재채기"
+  character_of_symptom:
+    quality: "목을 가다듬는 듯한 '큼큼' 거리는 기침, 후비루(postnasal drip) 느낌"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침 기상 시"
+      - "누워 있을 때"
+    alleviating: "물을 마시거나 코를 풀면 일시적으로 호전"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "알레르기 비염"
+    allergies: "꽃가루"
+  medication_history:
+    taken:
+      - "가끔 항히스타민제 복용"
+    source: "약국"
+    effect: "먹을 때만 잠시 괜찮음"
+  social_history:
+    job: "회사원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 2-3회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "규칙적"
+physical_exam:
+  general: "상태 양호, 만성 병색 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "후인두벽에 점액이 흘러내리는 소견(postnasal drip)과 자갈 모양 점막(cobblestone appearance)이 관찰됨."
+    # 비강 내시경 소견 (가정)
+    nasal_cavity: "하비갑개가 창백하고 부어있음."
+  chest: "호흡음 깨끗함. 수포음이나 천명음 없음."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "특이 소견 없음."
+standardized_patient_questions: "콧물이 기침의 원인이 될 수도 있나요? 폐는 괜찮은 건가요? 비염약만 먹으면 기침도 낫나요?"
+specific_remarks: "진찰 중 반복적으로 코를 킁킁거리거나 목을 가다듬는 모습을 보인다. 후비루에 대해 질문하면 '맞아요, 딱 그런 느낌이에요'라며 강하게 동의한다."

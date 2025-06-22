@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (요독성 뇌병증, Uremic Encephalopathy)"
+patient_info:
+  name: "강성호"
+  age: 65
+  sex: "남성"
+  presenting_complaint: "며칠 전부터 기운이 없고 자꾸 잠만 잠"
+vital_signs:
+  blood_pressure: "170/95mmHg"
+  pulse: "80회/분"
+  respiration: "24회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "요독성 뇌병증"
+    - "전해질 불균형 (고칼륨혈증 등)"
+    - "뇌졸중"
+  necessary_tests:
+    - "혈액 검사 (BUN/Cr, 전해질, 동맥혈가스분석)"
+    - "심전도"
+    - "뇌파 검사 (EEG)"
+  necessary_treatments:
+    - "응급 혈액 투석"
+    - "수분 및 전해질 교정"
+    - "혈압 조절"
+history:
+  sex_age: "남성/65세"
+  chief_complaint_verbatim: "아버님이 일주일 전부터 입맛이 없다며 식사를 거의 못하시더니, 3일 전부터는 불러도 대답을 잘 안하고 잠만 주무세요."
+  onset: "약 3일 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "점점 악화"
+  course: "일주일 전부터 전신 쇠약감과 식욕부진 호소. 3일 전부터 하루 종일 잠만 자고, 깨워도 금방 다시 잠드는 모습 보임. 어제는 온몸이 가렵다고 긁고, 딸꾹질을 계속함. 오늘 아침에는 의식이 거의 혼미한 상태로 발견되어 내원."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "의식 저하, 기면"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔 구역질함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "특이 소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "당뇨병(20년), 고혈압(15년), 만성콩팥병 4기(2년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Insulin, Losartan, Amlodipine"
+    source: "내분비내과"
+    effect: "최근 식사를 못해 인슐린 주사를 건너뛰었다고 함."
+  social_history:
+    job: "은퇴"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "40년 전 금연"
+    exercise: "거의 못함"
+    recent_weight_change: "최근 부종으로 체중 5kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "의식은 혼미(stupor) 상태. 피부는 창백하고 건조하며, 긁은 자국이 많음. 입에서 소변 냄새(uremic fetor)가 남."
+  heent:
+    sclera: "창백함."
+    oral_mucosa: "건조함."
+  chest: "호흡이 깊고 빠름(Kussmaul breathing). 양쪽 폐하부에서 수포음(crackle) 청진됨. 심낭 마찰음(pericardial friction rub) 들림."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 근간대경련(myoclonus) 및 자세유지진전(asterixis) 관찰됨.
+  cvat: "좌/우 음성"
+  extremity: "양쪽 하지에 심한 함요 부종(pitting edema) +++ 관찰됨."
+standardized_patient_questions: "아버지가 왜 이러시는 건가요? 콩팥이 나쁘다고는 들었는데, 이렇게 갑자기 정신을 잃을 수도 있나요? 치료는 어떻게 해야 하나요?"
+specific_remarks: "환자는 거의 반응이 없고, 가끔 몸을 움찔거리는 근간대경련을 보인다. 팔을 들어주었다 놓으면 툭 떨어지거나, 자세를 유지시키면 툭툭 떠는 asterixis를 연기한다. 호흡이 깊고 빠른 양상을 보인다. 보호자인 아들이 옆에서 대화한다."

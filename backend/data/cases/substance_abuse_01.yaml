@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (알코올 사용장애)"
+patient_info:
+  name: "김철수"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "잦은 음주 문제로 인한 가족과의 불화 상담"
+vital_signs:
+  blood_pressure: "142/90mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "환자의 음주 습관과 관련된 병력을 청취하고, 신체적, 정신적, 사회적 문제에 대해 파악하시오. 이후 추정 진단과 금주를 포함한 향후 치료 계획에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "알코올 사용장애 (Alcohol Use Disorder)"
+    - "알코올성 간질환 의심"
+    - "불안장애 또는 우울장애"
+  necessary_tests:
+    - "혈액검사 (간기능검사-AST/ALT, GGT, 전해질, 혈구 수치)"
+    - "복부 초음파 검사 (간 상태 평가)"
+    - "알코올 사용장애 선별검사 (AUDIT-K) 시행"
+  necessary_treatments:
+    - "정신건강의학과 전문의 상담 및 약물치료 (예: 날트렉손, 아캄프로세이트)"
+    - "동기강화상담을 통한 금주 의지 고취"
+    - "자조모임(익명의 알코올중독자들, AA) 참여 권유"
+history:
+  sex_age: "남성/52세"
+  chief_complaint_verbatim: "아내가 자꾸 술 문제로 잔소리를 해서 상담이라도 받아보라고 해서 왔습니다. 제가 그렇게 심각한가요?"
+  onset: "사회생활 시작한 20대 후반부터 음주 시작, 40대부터 주량이 급격히 늘어남"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "최근 1년간 거의 매일 음주하며, 필름이 끊기는(blackout) 횟수가 주 2-3회로 증가함"
+  course: "처음에는 스트레스 해소를 위해 마셨으나, 점차 술 없이는 잠을 못 자거나 불안감을 느껴 마시게 됨. 주량이 계속 늘어 현재는 소주 2병 이상 마셔야 취기를 느낌."
+  experience_prev_episodes:
+    frequency: "금주 시도 여러 번 있었음"
+    trigger: "가족의 권유, 건강검진 결과"
+    symptoms: "금주 시 손떨림, 식은땀, 불안, 불면 등의 금단 증상 경험"
+  character_of_symptom:
+    quality: "해당 없음"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "아침에 간혹 헛구역질"
+      constipation: false
+      diarrhea: true
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "직장 스트레스"
+      - "저녁 약속 및 회식"
+    alleviating: "음주"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "당시 위염 소견. 간수치가 약간 높다고 들었음."
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 위염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (amlodipine)"
+    source: "내과 처방"
+    effect: "혈압 조절 중"
+  social_history:
+    job: "중소기업 부장"
+    stress: "업무 실적 및 대인관계로 인한 스트레스가 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "거의 매일"
+      amount: "평균 소주 2병/일"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "없음"
+    exercise: "거의 안 함"
+    recent_weight_change: "최근 5년간 8kg 증가"
+  family_history: "아버지가 간경화로 60대에 돌아가셨는데, 술을 매우 즐기셨음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성적으로 피곤해 보이는 인상. 대화 시 약간의 손떨림이 관찰됨. 얼굴에 홍조가 있음."
+  heent:
+    sclera: "경미한 황달은 없으나 약간 충혈되어 있음 (icteric(-) but injected(+))"
+    oral_mucosa: "건조함"
+  chest: "청진상 특이소견 없음"
+  abdomen:
+    inspection: "복부 팽만은 없으나 전반적으로 비만형"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      hepatomegaly: "간이 약간 촉진되며 압통을 호소함 (mildly palpable and tender)"
+  cvat: "좌/우 음성"
+  extremity: "부종 없음. 미세한 손떨림(fine tremor) 관찰됨."
+standardized_patient_questions: "제가 정말 알코올 중독이라는 건가요? 술을 완전히 끊어야만 치료가 되나요? 회사 생활하려면 어쩔 수 없는데 어떻게 하죠?"
+specific_remarks: "자신의 음주 문제를 인정하지 않으려는 방어적인 태도를 보임. 특히 '알코올 중독'이라는 단어에 민감하게 반응함. 의사가 자신의 상황을 이해해주고 비난하지 않는 태도를 보일 때 조금씩 마음을 열고 대화에 응함."

@@ -1,0 +1,113 @@
+---
+chapter: "전신"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (약물 유발성 체중증가 - 항정신병약물)"
+patient_info:
+  name: "이강민"
+  age: 32
+  sex: "남성"
+  presenting_complaint: "정신과 약 복용 후 살이 너무 많이 쪄서 내원함"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비정형 항정신병약물에 의한 대사 증후군"
+    - "단순 비만"
+    - "갑상선 기능 저하증"
+  necessary_tests:
+    - "공복 혈당 및 당화혈색소(HbA1c)"
+    - "지질 검사 (총 콜레스테롤, LDL, HDL, 중성지방)"
+    - "정신건강의학과 주치의와 약물 변경 또는 용량 조절 상의"
+  necessary_treatments:
+    - "생활습관 교정 (식이요법, 운동)"
+    - "대사적으로 안전한 다른 약물로의 변경 고려"
+    - "정기적인 혈당, 지질, 체중 모니터링"
+history:
+  sex_age: "남성/32세"
+  chief_complaint_verbatim: "8개월 전에 조현병 진단받고 약을 먹기 시작했는데, 그 후로 식욕이 너무 늘어서 20kg이나 쪘어요. 혈압이랑 혈당도 높아졌다고 하고요. 약 때문인 것 같은데 계속 먹어야 하나요?"
+  onset: "약 8개월 전 약 복용 시작 후"
+  location:
+    initial: "식욕 증가"
+    current: "전반적인 체중 증가, 특히 복부 비만"
+  duration:
+    onset_pattern: "약 복용 후 수 주 내로 시작됨"
+    recent_course: "지속적으로 체중 증가"
+  course: "올란자핀 복용 시작 후부터 참을 수 없는 식욕 증가를 경험했고, 이로 인해 체중이 급격히 증가함. 최근 건강검진에서 고혈압, 고지혈증, 당뇨 전단계 진단을 받음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "주체할 수 없는 식욕과 그로 인한 체중 증가"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1개월 전 (내과)"
+    endoscopy_finding: "고혈압, 고지혈증, 당뇨 전단계"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "조현병"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "올란자핀 (Olanzapine)"
+    source: "정신건강의학과 의원"
+    effect: "환청, 망상 등의 정신 증상은 호전되었으나 체중이 급격히 증가"
+  social_history:
+    job: "무직"
+    stress: "질병 및 체중 증가로 인한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "0.5갑/일"
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 8개월간 20kg 증가"
+  family_history: "아버지 (당뇨병)"
+  female_history: ""
+physical_exam:
+  general: "체질량지수(BMI) 32. 전반적으로 비만하며, 특히 복부 비만이 심함."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "중심성 비만. 특이한 선조나 흉터는 없음."
+    auscultation: "장음 정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "정신병 약 먹으면 다 이렇게 살이 찌나요?", "약을 안 먹으면 병이 재발할까 봐 무섭고, 먹자니 몸이 망가지는 것 같아 걱정이에요. 어떻게 해야 하죠?"
+specific_remarks: "환자는 약물 부작용에 대한 불만이 많지만, 정신 증상 재발에 대한 두려움도 크다. 의사의 설명에 다소 방어적이거나 의심하는 태도를 보일 수 있다. 자신의 처지를 비관하는 말을 한다."

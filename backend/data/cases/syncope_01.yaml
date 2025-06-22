@@ -1,0 +1,113 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (혈관미주신경성 실신)"
+patient_info:
+  name: "김민지"
+  age: 21
+  sex: "여성"
+  presenting_complaint: "건강검진 중 채혈하다가 어지럽더니 쓰러졌어요."
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "72회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "혈관미주신경성 실신 (Vasovagal syncope)"
+    - "기립성 저혈압"
+    - "심인성 부정맥"
+  necessary_tests:
+    - "병력 청취와 신체 진찰을 통한 임상적 진단"
+    - "필요 시 심전도 검사"
+    - "기립경사 검사 (필요 시)"
+  necessary_treatments:
+    - "실신 유발 요인 회피 교육 (예: 장시간 서있기, 탈수 등)"
+    - "전구 증상 발생 시 대처법 교육 (예: 즉시 눕거나 앉기)"
+    - "충분한 수분 및 염분 섭취"
+history:
+  sex_age: "여성/21"
+  chief_complaint_verbatim: "오늘 오전에 학교에서 하는 건강검진 때문에 피를 뽑는데, 주사기를 보자마자 속이 메슥거리면서 식은땀이 나더니 눈앞이 하얘지면서 정신을 잃었어요."
+  onset: "금일 오전 10시경"
+  location:
+    initial: "건강검진실"
+    current: "양호실 침대"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "쓰러진 후 약 30초 내에 저절로 의식을 회복했으며, 현재는 약간 어지러운 느낌 외에는 괜찮음"
+  course: "채혈을 위해 앉아있는 상태에서 발생. 쓰러지기 직전 메스꺼움, 식은땀, 시야가 흐려지는 증상을 느낌."
+  experience_prev_episodes:
+    frequency: "고등학교 때 조회시간에 오래 서 있다가 비슷한 경험 1회 있음"
+    trigger: "장시간 기립"
+    symptoms: "어지럼증과 식은땀 후 쓰러질 뻔했으나 주저앉아서 의식은 잃지 않음"
+  character_of_symptom:
+    quality: "의식 소실"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "채혈 (시각적 자극)"
+      - "감정적 스트레스"
+    alleviating: "눕기"
+  health_check_history:
+    last_checkup: "오늘 (사건 발생)"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "쓰러지면서 머리를 부딪치지는 않았음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "시험 기간이라 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 2주 전, 주기 및 양 규칙적"
+physical_exam:
+  general: "의식 명료함. 급성 병색은 보이지 않음. 약간 창백해 보임."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 깨끗함. 심음 정상. 심잡음 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "부종 없음. 사지 근력 및 감각 정상."
+standardized_patient_questions: "제가 무슨 심각한 병이 있는 건가요? 앞으로 피 뽑을 때마다 이럴까 봐 무서워요."
+specific_remarks: "환자는 불안한 표정으로 질문하며, 자신의 증상이 심각한 질병의 징후일까 봐 걱정하는 모습을 보인다. 특정 유발 상황(채혈)에 대한 공포를 표현한다."

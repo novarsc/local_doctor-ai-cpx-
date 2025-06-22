@@ -1,0 +1,115 @@
+---
+chapter: "상담"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (섬망)"
+patient_info:
+  name: "김복순"
+  age: 82
+  sex: "여성"
+  presenting_complaint: "밤에 갑자기 이상한 말을 하고 창밖으로 뛰어내리려고 함"
+vital_signs:
+  blood_pressure: "105/65mmHg"
+  pulse: "110회/분"
+  respiration: "24회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오. (보호자 동반)"
+patient_education:
+  probable_diagnoses:
+    - "감염(요로감염)에 의한 섬망 (Delirium due to another medical condition - UTI)"
+    - "치매 (Dementia with behavioral and psychological symptoms)"
+    - "약물 유발성 섬망 (Substance/Medication-Induced Delirium)"
+  necessary_tests:
+    - "혈액검사 (CBC, 전해질, BUN/Cr, LFT, CRP)"
+    - "소변검사 및 소변 배양 검사"
+    - "흉부 X-ray 및 심전도"
+  necessary_treatments:
+    - "기저 원인(감염) 치료: 항생제 투여, 수액 공급"
+    - "비약물적 중재: 현실감각 유지, 안정적인 환경 제공"
+    - "심한 초조 및 정신행동증상 조절을 위한 소량의 항정신병 약물 사용"
+history:
+  sex_age: "여성/82세"
+  chief_complaint_verbatim: "(보호자) 어젯밤부터 갑자기 할머니가 헛소리를 하시고, 돌아가신 할아버지가 부른다면서 창문으로 가려고 하셔서 너무 놀랐어요. 낮에는 좀 괜찮으신데 밤만 되면 딴사람이 돼요."
+  onset: "2-3일 전부터, 어젯밤에 가장 심했음"
+  location:
+    initial: "정신 상태"
+    current: "정신 상태"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "증상의 기복이 심함 (fluctuation)"
+  course: "평소 고혈압, 당뇨 외에 건강하시던 분. 3일 전부터 기운이 없고 입맛이 없다고 하셨음. 어젯밤부터 갑자기 '벌레가 기어 다닌다'며 허공에 손짓을 하고 (환시), 돌아가신 할아버지를 찾는 등 사람을 잘 알아보지 못함. '나 데리러 왔다'며 창밖으로 몸을 내밀려는 행동을 보여 가족들이 제지함. 낮에는 대화가 어느 정도 가능하지만, 여전히 멍하고 집중을 잘 못하는 모습을 보임. 밤이 되면 증상이 다시 악화됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "급성 의식 수준의 변화, 주의력 저하, 환시, 초조"
+    nrs_score: "측정 불가"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "밤 시간"
+      - "낯선 환경 (병원)"
+    alleviating: "낮 시간, 가족이 옆에 있을 때"
+  health_check_history:
+    last_checkup: "6개월 전"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨, 3년 전 백내장 수술"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 당뇨약"
+    source: "내과 의원"
+    effect: "꾸준히 복용"
+  social_history:
+    job: "무직"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "매일 30분씩 산책했으나 최근 며칠 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "급성 병색. 주의가 산만하고 면담에 집중하지 못함 (inattention). 여기가 어디인지, 지금이 몇 시인지 잘 모름 (disorientation to time and place)."
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Dry"
+  chest: "Tachycardia, Clear breath sounds without rale"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # Suprapubic tenderness 있음
+  cvat: "우측 양성 (Right side positive)"
+  extremity: "Skin turgor 감소. 부종 없음."
+standardized_patient_questions: "(환자) 여기가 어디요? 집에 갈래... 저기 우리 영감 왔네... (보호자) 할머니가 왜 갑자기 이러시는 건가요? 치매인가요? 이러다 정말 큰일 나는 거 아니에요? 다시 괜찮아지실 수 있나요?"
+specific_remarks: "환자는 주의력 저하와 지남력 장애를 연기하는 것이 핵심. 질문과 상관없는 대답을 하거나, 허공을 보며 이야기함. 자살 행동은 우울감에서 비롯된 것이 아니라, 현실 판단력의 저하와 환시/환청에 따른 것임을 보여줘야 함. 보호자는 매우 놀라고 걱정하는 모습을 보이며, 환자의 상태를 구체적으로 설명함."

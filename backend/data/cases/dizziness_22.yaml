@@ -1,0 +1,106 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "22"
+title: "실전 모의 증례 (상반고리관 피열 증후군, Superior Canal Dehiscence Syndrome)"
+patient_info:
+  name: "김진호"
+  age: 46
+  sex: "남성"
+  presenting_complaint: "큰 소리를 듣거나 코를 풀면 어지러워요."
+vital_signs:
+  blood_pressure: "125/75mmHg"
+  pulse: "70회/분"
+  respiration: "14회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "상반고리관 피열 증후군"
+    - "외림프 누공"
+    - "메니에르병 (비전형적)"
+  necessary_tests:
+    - "고해상도 측두골 CT (HRCT)"
+    - "전정유발근전위 검사 (VEMP)"
+    - "압력 변화에 따른 안진 검사 (Hennebert's sign)"
+  necessary_treatments:
+    - "유발 요인 회피 (큰 소리, 압력 변화)"
+    - "증상이 심할 경우 수술적 치료 (피열 부위 폐쇄술)"
+    - "환자 교육 및 안심시키기"
+history:
+  sex_age: "남성/46세"
+  chief_complaint_verbatim: "노래방에서 노래를 부르거나, 화장실에서 힘을 주면 갑자기 세상이 울렁거리고 제 숨소리가 귀에서 크게 들려요."
+  onset: "약 1년 전부터"
+  location:
+    initial: "머릿속, 귀"
+    current: "머릿속, 귀"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "증상 유발 상황에서 반복적으로 발생"
+  course: "어지럼증은 몇 초간 지속되다 사라집니다. 특이하게 제 목소리나 심장박동 소리가 머릿속에서 울리는 느낌(autophony)이 계속 있습니다."
+  experience_prev_episodes:
+    frequency: "유발 상황 시 매번"
+    trigger: "큰 소리, 기침, 코 풀기, 힘주기(발살바)"
+    symptoms: "짧은 회전성 어지럼, 자가강청(autophony)"
+  character_of_symptom:
+    quality: "순간적으로 울렁이거나 흔들리는 느낌"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "큰 소리에 노출"
+      - "복압을 높이는 행위"
+    alleviating: "유발 요인 회피"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: ""
+  trauma_history: "오래 전 머리를 부딪힌 적이 있는 것 같기도 함 (불명확)"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "판매직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: ""
+    exercise: "안함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "특이 소견 없음."
+  heent: "외이도에 압력을 가하거나(Hennebert's sign) 큰 소리를 들려주면(Tullio phenomenon) 어지럼과 함께 안진이 유발될 수 있음 (CPX에서는 병력으로 확인)."
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "정상"
+standardized_patient_questions: "아니, 코 좀 풀었다고 어지러운 게 말이 되나요? 귀에 무슨 문제가 생긴 건가요? 어떻게 치료해야 하죠?"
+specific_remarks: "환자는 매우 특이하고 구체적인 유발 요인(툴리오 현상, 발살바 유발 어지럼)을 명확하게 진술해야 한다. 또한, 자신의 숨소리나 눈알 굴리는 소리가 들리는 등의 '자가강청' 증상을 함께 호소하는 것이 진단에 결정적인 단서가 된다. 이는 다른 어지럼 질환과 감별되는 핵심 포인트이므로, 배우처럼 실감 나게 설명해야 한다."

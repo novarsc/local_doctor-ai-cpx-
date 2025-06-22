@@ -1,0 +1,109 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "19"
+title: "실전 모의 증례 (저혈당에 의한 떨림)"
+patient_info:
+  name: "이동진"
+  age: 67
+  sex: "남성"
+  presenting_complaint: "온몸이 떨리고 식은땀이 나며 어지러움"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "100회/분"
+  respiration: "20회/분"
+  temperature: "36.3℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "저혈당"
+    - "불안 발작 (공황 발작)"
+    - "심근경색 등 심장 질환"
+  necessary_tests:
+    - "응급 혈당 측정"
+    - "혈액 검사 (전해질, 신장 기능 등)"
+    - "심전도"
+  necessary_treatments:
+    - "응급 당분 공급 (포도당 주사 또는 경구 섭취)"
+    - "당뇨 약제 용량 및 종류 재평가"
+    - "저혈당 예방 및 대처법 교육"
+history:
+  sex_age: "남성/67세"
+  chief_complaint_verbatim: "오늘 아침 식사를 거르고 밭에 나갔는데, 1시간 전부터 갑자기 온몸이 떨리고 식은땀이 비 오듯 쏟아져요. 기운이 하나도 없고 어지러워서 쓰러질 것 같아요."
+  onset: "1시간 전, 갑자기 발생"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "지속됨"
+  course: "아침 식사를 거른 상태에서 평소보다 일을 많이 한 후 갑자기 증상이 나타남. 의식이 약간 몽롱해지는 느낌도 있음."
+  experience_prev_episodes:
+    frequency: "한두 달에 한 번씩, 주로 식사 거를 때"
+    trigger: "공복, 과도한 활동"
+    symptoms: "비슷한 증상 있었으나 이 정도로 심하진 않았음"
+  character_of_symptom:
+    quality: "전신적인 떨림, 식은땀, 심한 허기"
+    nrs_score: "불편감 9점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "이전에 비슷한 증상 있을 때 사탕 먹으면 나아졌음"
+  health_check_history:
+    last_checkup: "3개월 전"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "제2형 당뇨병 (10년 전 진단), 고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "메트포르민"
+      - "설포닐유레아 계열 약물"
+      - "고혈압약"
+    source: "보건소"
+    effect: "혈당 조절은 그럭저럭 되고 있음"
+  social_history:
+    job: "농업"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: "15년 전 금연"
+      cessation_period: "15년"
+    exercise: "밭일"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "환자는 안절부절못하며 창백하고, 온몸에 식은땀을 흘리고 있음. 의식이 약간 혼미하여 질문에 느리게 반응함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "심박수가 빠름 (tachycardia)."
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "전신에 걸쳐 미세하고 빠른 떨림이 관찰됨. 사지가 차갑고 축축함. 다른 국소 신경학적 결손은 관찰되지 않음."
+standardized_patient_questions: "내가 갑자기 왜 이러는 건가요? 이러다 죽는 거 아닌지 무서워요. 지금 당장 어떻게 해야 좋아질까요?"
+specific_remarks: "환자는 급성 병색을 뚜렷하게 연기해야 한다. 창백한 얼굴, 식은땀, 전신 떨림, 불안한 말투를 보여주는 것이 핵심이다. '식사를 걸렀다', '이전에 사탕을 먹으면 나아졌다', '당뇨약을 먹고 있다'는 결정적인 병력을 명확하게 진술해야 한다. 의식이 약간 저하된 상태로, 질문에 대한 반응이 느리고 횡설수설하는 모습을 보이는 것이 좋다."

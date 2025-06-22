@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "5"
+title: "실전 모의 증례 (허혈성 대장염)"
+patient_info:
+  name: "정진석"
+  age: 78
+  sex: "남성"
+  presenting_complaint: "갑자기 배가 아프면서 피가 섞인 설사를 함"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "88회/분"
+  respiration: "20회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "허혈성 대장염"
+    - "감염성 대장염"
+    - "게실염"
+  necessary_tests:
+    - "전혈구 검사 (CBC), 염증 수치(CRP), 젖산(Lactate) 검사"
+    - "대변 검사"
+    - "복부 CT, 대장내시경"
+  necessary_treatments:
+    - "금식 및 정맥 수액 요법"
+    - "광범위 항생제 사용"
+    - "보존적 치료에 반응 없을 시 수술 고려"
+history:
+  sex_age: "남성/78세"
+  chief_complaint_verbatim: "어젯밤부터 갑자기 왼쪽 아랫배가 살살 아프기 시작하더니, 오늘 아침에는 설사를 했는데 피가 섞여 나왔어요."
+  onset: "내원 12시간 전"
+  location:
+    initial: "왼쪽 하복부"
+    current: "왼쪽 하복부"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "복통이 먼저 시작된 후 혈변이 나타남"
+  course: "어젯밤 저녁 식사 후 특별한 이유 없이 좌하복부에 쥐어짜는 듯한 통증이 시작되었다. 통증은 심하지 않고 참을만했으나 지속되었다. 오늘 아침 배변 시 소량의 선홍색 피가 섞인 설사를 한 차례 보고 병원에 내원하였다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "NA"
+    symptoms: "NA"
+  character_of_symptom:
+    quality: "경련성의 복통 이후 나타나는 소량의 혈성 설사"
+    nrs_score: 4
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "움직일 때"
+    alleviating: "가만히 누워있을 때"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "5년 전 대장내시경 특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨병, 심방세동"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "와파린"
+      - "메트포르민"
+      - "로사르탄"
+    source: "대학병원 심장내과, 내분비내과 처방"
+    effect: "조절 중"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: "NA"
+      amount: "NA"
+    smoking:
+      is_smoker: false
+      amount: "NA"
+      cessation_period: "30년 전 금연"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "NA"
+physical_exam:
+  general: "경미한 통증으로 인상을 찌푸리고 있음. 급성 병색은 아님."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "촉촉함"
+  chest: "심음 불규칙함 (irregularly irregular), 호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 감소"
+    percussion: "정상 공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 좌하복부에 국한된 경미한 압통이 있으나, 반발압통이나 복막 자극 징후는 없음.
+  cvat: "좌우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "나이가 많아서 그런가요? 왜 갑자기 배가 아프고 피가 나죠? 큰 병인가요?"
+specific_remarks: "환자는 통증의 정도에 비해 진단이 심각할까 봐 걱정하는 모습을 보인다. 기저질환이 많아 자신의 건강 상태에 대해 염려가 많다."

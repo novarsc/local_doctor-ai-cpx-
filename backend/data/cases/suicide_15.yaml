@@ -1,0 +1,113 @@
+---
+chapter: "상담"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (월경전불쾌감장애)"
+patient_info:
+  name: "박소영"
+  age: 29
+  sex: "여성"
+  presenting_complaint: "생리 전에만 되면 감정 조절이 안 되고 죽고 싶다는 생각이 듦"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "75회/분"
+  respiration: "16회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "월경전불쾌감장애 (Premenstrual Dysphoric Disorder, PMDD)"
+    - "양극성장애 II형, 급속순환형 (Bipolar II Disorder, rapid cycling)"
+    - "경계성 인격장애 (Borderline Personality Disorder)"
+  necessary_tests:
+    - "최소 2개월 이상의 전향적 증상일지 작성 (Daily Record of Severity of Problems, DRSP)"
+    - "갑상선 기능 검사 등 내분비계 검사"
+    - "자살사고의 주기성 및 심각도 평가"
+  necessary_treatments:
+    - "선택적 세로토닌 재흡수 억제제(SSRI) 치료 (주기적 또는 지속적 투여)"
+    - "경구 피임약 등 호르몬 조절 요법"
+    - "스트레스 관리 및 생활 습관 교정 교육"
+history:
+  sex_age: "여성/29세"
+  chief_complaint_verbatim: "생리 시작하기 일주일 전부터 제가 제가 아니게 돼요. 갑자기 눈물이 쏟아지고, 세상이 끝난 것처럼 절망적이에요. 남자친구한테 막 화내고 헤어지자고 했다가... 죽고 싶다는 생각까지 들어요. 근데 신기하게 생리만 시작하면 괜찮아져요."
+  onset: "수년 전부터, 최근 1년간 증상 악화"
+  location:
+    initial: "전반적인 기분"
+    current: "전반적인 기분"
+  duration:
+    onset_pattern: "주기적 발병 (월경 주기와 연관)"
+    recent_course: "증상의 강도가 심해짐"
+  course: "매월 월경 시작 약 7-10일 전부터 급격한 기분 변화를 경험함. 심한 우울감, 불안, 분노, 절망감 등을 느끼며 직장 동료나 남자친구와 심하게 다투는 일이 잦아짐. 이 시기에는 집중력 저하, 피로감, 유방 압통, 복부 팽만감 등 신체 증상도 동반됨. 특히 최근에는 월경 전 시기에 '이렇게 매달 고통받으며 사느니, 그냥 없어지는 게 낫겠다'는 자살 사고까지 하게 됨. 하지만 월경이 시작되면 1-2일 내로 언제 그랬냐는 듯이 증상이 사라지고 평소의 상태로 돌아옴."
+  experience_prev_episodes:
+    frequency: "거의 매달"
+    trigger: "월경주기의 황체기"
+    symptoms: "우울, 불안, 분노, 자살사고"
+  character_of_symptom:
+    quality: "월경 주기에 따른 명확한 주기성을 보이는 감정적, 신체적 증상"
+    nrs_score: "증상기 8, 무증상기 1"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "월경 시작 1주일 전"
+    alleviating: "월경 시작 후"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "가끔 진통제 복용"
+    source: "약국"
+    effect: "두통, 복통에는 효과 있으나 기분에는 영향 없음"
+  social_history:
+    job: "마케터"
+    stress: "증상기에 대인관계 갈등으로 스트레스 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "증상기에 음주 욕구 증가"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "규칙적으로 하려 노력"
+    recent_weight_change: "월경 주기에 따라 1-2kg 변동"
+  family_history: "어머니도 월경전증후군이 심했다고 함"
+  female_history: "LMP: 3주 전, regular cycle (28일 주기)"
+physical_exam:
+  general: "현재는 월경 후 시기라 가정하여, 명랑하고 안정적인 모습. (만약 증상기에 방문했다면 불안하고 눈물 글썽이는 모습)"
+  heent:
+    sclera: "Anicteric"
+    oral_mucosa: "Moist"
+  chest: "Clear breath sounds without rale"
+  abdomen:
+    inspection: "Flat"
+    auscultation: "Normoactive bowel sounds"
+    percussion: "Tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "No edema or cyanosis"
+standardized_patient_questions: "제가 왜 이러는 걸까요? 조울증인가요? 이건 병이 아니라 그냥 예민한 성격 탓 아닌가요? 매달 겪어야 한다니 너무 끔찍해요. 치료 방법이 있나요?"
+specific_remarks: "증상의 '주기성'을 매우 명확하게 설명하는 것이 핵심. 월경 전 시기의 자신과 평소의 자신을 다른 사람처럼 묘사함. 증상이 없을 때 병원을 방문하여 이성적으로 자신의 문제를 상담하는 상황을 연기함."

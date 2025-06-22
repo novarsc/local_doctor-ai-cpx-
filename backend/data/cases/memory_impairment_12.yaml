@@ -1,0 +1,113 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (해리성 기억상실)"
+patient_info:
+  name: "한유라"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "특정 기간에 대한 기억이 전혀 없음"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "88회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "해리성 기억상실 (Dissociative amnesia)"
+    - "외상 후 스트레스 장애 (PTSD)"
+    - "기만 혹은 꾀병"
+  necessary_tests:
+    - "정신과적 면담 (상세한 병력 청취)"
+    - "뇌 MRI 및 뇌파 검사 (기질적 원인 배제)"
+    - "약물 스크리닝 검사"
+  necessary_treatments:
+    - "정신치료 (기억 회복 및 외상 처리)"
+    - "안전하고 지지적인 환경 제공"
+    - "필요시 항불안제 또는 항우울제 사용"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "지난주 목요일부터 토요일까지 3일간의 기억이 아예 없어요. 필름이 끊긴 것 같아요."
+  onset: "1주일 전"
+  location:
+    initial: "해당 없음"
+    current: "해당 없음"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "기억 상실 지속"
+  course: "환자는 지난주 토요일 저녁, 자신의 집에서 정신을 차렸다고 함. 그러나 목요일 아침에 출근한 이후부터 토요일 저녁까지 약 3일간의 행적에 대한 기억이 전혀 없음. 주변 사람들의 말에 따르면 그 기간 동안 평소처럼 회사에 출근하고 친구도 만났다고 하나, 본인은 전혀 기억하지 못함. 기억이 없는 기간 외의 다른 기억(개인 신상 정보, 과거 기억, 일반 상식 등)은 모두 정상임."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "극심한 스트레스 사건 직후 (최근 남자친구로부터 폭력적인 이별 통보를 받음)"
+    symptoms: ""
+  character_of_symptom:
+    quality: "중요한 자서전적 정보에 대한 국소적 기억상실"
+    nrs_score: 0
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "기억나지 않는 기간에 대해 질문받을 때"
+    alleviating: "주제를 바꿀 때"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: "정상"
+  trauma_history: "기억상실 직전 남자친구와의 다툼이 있었음 (정서적/신체적 외상 가능성)"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "디자이너"
+    stress: "최근 극심한 스트레스"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "와인 1-2잔/회"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "G0P0, Regular menstruation"
+physical_exam:
+  general: "전반적으로 불안하고 초조해 보임. 자신의 증상에 대해 혼란스러워 함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds"
+  abdomen:
+    inspection: "flat, soft"
+    auscultation: "normoactive"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "전반적인 신체 진찰 및 신경학적 검사 상 모두 정상."
+standardized_patient_questions: "제 뇌에 무슨 문제가 생긴 건가요? 기억을 영영 못 찾으면 어떡하죠? 제가 그동안 이상한 짓을 했을까 봐 무서워요."
+specific_remarks: "환자는 특정 기간의 기억만 소실되었고, 다른 인지 기능은 완벽하게 정상인 상태를 연기해야 함. 기억나지 않는 기간에 대해 이야기할 때 불안감과 당혹감을 표현. 때로는 '아름다운 무관심(la belle indifférence)'처럼 자신의 심각한 증상에 대해 의외로 담담한 태도를 보일 수도 있음. 극심한 심리적 외상이나 스트레스 사건이 있었음을 암시해야 함."

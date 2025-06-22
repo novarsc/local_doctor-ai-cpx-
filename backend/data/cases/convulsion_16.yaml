@@ -1,0 +1,116 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (뇌정맥동 혈전증)"
+patient_info:
+  name: "송아름"
+  age: 30
+  sex: "여성"
+  presenting_complaint: "심한 두통 후 발생한 경련"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "100회/분"
+  respiration: "18회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "뇌정맥동 혈전증 (Cerebral venous sinus thrombosis, CVST)"
+    - "지주막하 출혈"
+    - "뇌수막염"
+  necessary_tests:
+    - "뇌 CT venogram 또는 MR venogram"
+    - "D-dimer 검사"
+    - "혈액응고 관련 검사 (Thrombophilia workup)"
+  necessary_treatments:
+    - "항응고 치료 (헤파린 등)"
+    - "항경련제 투여"
+    - "두개 내압 상승 시 그에 대한 치료"
+history:
+  sex_age: "여성/30"
+  chief_complaint_verbatim: "며칠 전부터 머리가 깨질 듯이 아팠는데, 오늘 갑자기 한쪽 다리를 떨다가 경련을 했어요."
+  onset: "두통은 5일 전부터, 경련은 오늘"
+  location:
+    initial: "두통(전반적), 경련(왼쪽 다리)"
+    current: "전신"
+  duration:
+    onset_pattern: "두통이 심해지다 경련 발생"
+    recent_course: "왼쪽 다리부터 시작된 경련이 전신으로 퍼져 약 2분간 지속됨. 이후 의식 혼미."
+  course: "5일 전부터 이전에 경험해보지 못한 심한 두통이 시작되었다. 진통제를 먹어도 호전이 없었고, 누우면 더 심해지는 양상이었다. 오늘 아침, 갑자기 왼쪽 다리가 씰룩거리기 시작하더니 전신 경련으로 이어졌다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "아급성으로 진행하는 심한 두통 후 발생한 국소 시작 전신 발작"
+    nrs_score: "두통 NRS 8점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "두통 심할 때 한두 번"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "눕는 자세"
+      - "기침할 때"
+    alleviating: "진통제 효과 거의 없음"
+  health_check_history:
+    last_checkup: "1년 전 직장 검진"
+    endoscopy_finding: "없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "경구 피임약 (5년간 복용 중)"
+      - "최근 두통으로 진통제 복용"
+    source: "산부인과, 약국"
+    effect: "피임 효과, 진통제 효과 미미"
+  social_history:
+    job: "은행원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "와인 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "어머니가 심부정맥혈전증 앓은 적 있음"
+  female_history: "경구 피임약 5년째 복용 중. LMP 2주 전."
+physical_exam:
+  general: "의식은 명료하나, 발작 후 상태로 매우 지쳐 보임. 심한 두통 호소."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "왼쪽 다리의 근력이 약간 저하됨 (4/5). 안저 검사에서 경미한 유두부종 관찰됨. 다른 신경학적 국소 소견은 없음."
+standardized_patient_questions: "그냥 편두통인 줄 알았는데, 왜 경련까지 한 거죠? 뇌에 무슨 큰 문제가 생긴 건가요? 피임약 때문일 수도 있나요?"
+specific_remarks: "환자는 젊고 건강했던 자신이 이런 일을 겪은 것에 대해 매우 혼란스러워한다. 위험 요인(경구 피임약, 가족력)에 대한 문진이 중요하다. CVST는 흔하지 않은 질환이므로, 의심하고 필요한 검사(MRV)를 계획하는 것이 핵심이다. 질병에 대해 환자가 이해하기 쉽게 설명해야 한다."

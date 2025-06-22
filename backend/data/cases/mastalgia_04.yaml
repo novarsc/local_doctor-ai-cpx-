@@ -1,0 +1,116 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (유방 농양)"
+patient_info:
+  name: "윤지현"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "일주일 전부터 앓던 유방염이 더 심해지고 물컹한 덩이가 만져짐"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "110회/분"
+  respiration: "22회/분"
+  temperature: "39.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "유방 농양"
+    - "심한 유선염 (농양이 동반되지 않은)"
+    - "염증성 유방암 (가능성 매우 낮음)"
+  necessary_tests:
+    - "유방 초음파"
+    - "혈액 검사 (CBC, CRP)"
+    - "농양 흡인 및 배양 검사"
+  necessary_treatments:
+    - "초음파 유도 하 흡인 또는 절개 배농"
+    - "정맥 항생제 치료"
+    - "통증 조절 및 해열제"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "일주일 전에 유선염 진단받고 항생제를 먹었는데, 차도가 없어요. 오히려 어제부터는 더 퉁퉁 붓고, 한 부분이 물컹하게 만져지면서 열이 펄펄 나요. 너무 아파서 잠도 못 자겠어요."
+  onset: "유선염 증상은 1주일 전, 물컹한 느낌은 1-2일 전"
+  location:
+    initial: "오른쪽 유방 전체"
+    current: "오른쪽 유방 하부"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "항생제 치료에도 불구하고 증상 악화"
+  course: "유선염으로 항생제를 복용했으나 통증, 발적, 부종이 더 심해지고 국소적으로 파동감이 있는 종괴가 생김"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "박동성 통증, 칼로 에는 듯한 느낌"
+    nrs_score: "10점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "한 번"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "모든 움직임"
+      - "옷이 스치는 것"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "임신 전 건강검진"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "1주일 전 타병원에서 유선염 진단"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "세팔렉신 (타병원 처방)"
+      - "이부프로펜"
+    source: "타병원 처방 및 약국 구매"
+    effect: "효과 전혀 없음"
+  social_history:
+    job: "주부"
+    stress: "심한 통증으로 인한 스트레스 극심"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 출산 후 무월경. 1-0-0-1 (3개월 전 제왕절개). 혼합 수유 중."
+physical_exam:
+  general: "고열과 통증으로 매우 고통스러워하며, 식은땀을 흘리고 있음. 급성 병색."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "호흡음 정상, 심계항진 관찰됨."
+  abdomen:
+    inspection: "soft and flat"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+  breast_exam: "오른쪽 유방 전체가 심하게 부어 있고 피부는 붉고 번들거림. 특히 6시 방향에 약 5cm 크기의 매우 심한 압통을 동반한 덩이가 만져지며, 중심부에서 파동(fluctuation)이 명확하게 촉진됨. 유두 분비물 없음. 우측 겨드랑이 림프절 압통 동반하여 부어있음."
+standardized_patient_questions: "왜 약을 먹었는데도 이렇게 심해진 건가요? 째야 하나요? 너무 무서워요. 입원해야 하는 건가요?"
+specific_remarks: "환자는 극심한 통증을 호소하며, 진찰을 위해 가슴에 손대는 것조차 두려워함. 질문에 대답할 때도 숨을 몰아쉬며 힘겹게 말함. 치료 과정에 대한 공포와 불안을 강하게 표현함."

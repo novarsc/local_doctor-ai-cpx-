@@ -1,0 +1,103 @@
+---
+chapter: "상담"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (불안정 애착이 있는 아동 학대)"
+patient_info:
+  name: "김민준"
+  age: 5
+  sex: "남성"
+  presenting_complaint: "자주 넘어지고 다쳐서 옴 (주 양육자인 모친이 호소)"
+vital_signs:
+  blood_pressure: "95/60mmHg"
+  pulse: "110회/분"
+  respiration: "24회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 보호자와 아동의 상태에 대해 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "아동 학대 (신체적 학대 및 방임 의심)"
+    - "불안정 저항 애착 (Ambivalent attachment)"
+    - "우발적 손상"
+  necessary_tests:
+    - "전신 신체 시진 (멍, 화상, 상처 등)"
+    - "필요시 방사선 검사 (골격계 조사를 통한 과거 골절 흔적 확인)"
+    - "발달 평가"
+  necessary_treatments:
+    - "아동보호전문기관 신고 (법적 의무)"
+    - "아동의 안전 확보 (필요시 분리 조치)"
+    - "부모 상담 및 교육"
+history:
+  sex_age: "남성/5"
+  chief_complaint_verbatim: "(모친) 애가 요즘 부쩍 산만해지고 자꾸 넘어져서 다쳐요. 오늘은 놀다가 어디에 부딪혔는지 이마가 찢어졌어요."
+  onset: "수개월 전부터"
+  location:
+    initial: "팔, 다리"
+    current: "이마"
+  duration:
+    onset_pattern: "반복적"
+    recent_course: "빈도가 잦아짐"
+  course: "모친의 말에 따르면, 아이가 3개월 전부터 유난히 자주 다쳐서 온다고 함. 팔다리에 멍이 자주 들고, 오늘은 이마에 2cm 가량의 열상이 생겨 내원함. 아이는 진료실에 들어와서도 가만히 있지 못하고 계속 주위를 맴돈다. 엄마에게 안겼다가도 금방 떨어져서 돌아다니고, 낯선 의사에게도 쉽게 다가와 말을 건다. 엄마는 아이의 행동에 대해 '애가 원래 유별나다'며 짜증 섞인 반응을 보인다."
+  experience_prev_episodes:
+    frequency: "최근 3개월간 5-6회 이상"
+    trigger: "모친의 설명은 '혼자 놀다가'"
+    symptoms: "팔, 다리의 멍, 긁힌 상처 등"
+  character_of_symptom:
+    quality: "다양한 시기의, 다양한 형태의 손상"
+    nrs_score: "모름"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating: []
+    alleviating: ""
+  health_check_history:
+    last_checkup: "영유아 검진 (1년 전)"
+    endoscopy_finding: ""
+  trauma_history: "모친이 진술하는 손상 기전과 실제 상처의 모양이 일치하지 않는 경우가 있음."
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "미혼모, 식당 종업원"
+    stress: "매우 높음 ('혼자 아이 키우기 힘들다'고 자주 호소)"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: ""
+    recent_weight_change: ""
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "아이는 의사와 눈을 잘 맞추지 않으며, 불안정해 보임. 옷차림이 계절에 맞지 않고 청결하지 못함. 전반적인 발육은 정상 범위."
+  heent: "이마에 새로운 2cm 열상. 양쪽 뺨에 손자국 모양의 옅은 멍."
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "음성/음성"
+  extremity: "양쪽 팔과 정강이에 각각 다른 시기의 것으로 보이는 여러 개의 멍 (노란색, 초록색, 보라색)이 관찰됨. 등에 담뱃불 자국으로 의심되는 둥근 흉터가 2개 있음."
+standardized_patient_questions: "(보호자인 엄마) 얘가 왜 이렇게 말을 안 듣고 다치기만 할까요? 제가 뭘 잘못 키우는 걸까요? 흉터 안 남게 잘 꿰매주세요."
+specific_remarks: "아이는 의사가 상처에 대해 물으면 '넘어졌어요'라고 짧게 대답하지만, 엄마의 눈치를 살핀다. 의사가 엄마와 분리하여 아이에게 질문을 시도하면 아이는 더욱 불안해하며 입을 닫는다. 엄마는 아이의 상처에 대해 무관심한 태도를 보이거나, 구체적인 상황 설명을 잘 하지 못하고 얼버무린다."

@@ -1,0 +1,118 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (담낭암의 담관 침범, GB ca with CBD invasion)"
+patient_info:
+  name: "조영숙"
+  age: 75
+  sex: "여성"
+  presenting_complaint: "황달과 우상복부 통증"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "84회/분"
+  respiration: "18회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "담낭암 (진행성)"
+    - "담낭염 및 총담관담석증"
+    - "간암의 담관 침범"
+  necessary_tests:
+    - "혈액 검사 (간기능, 종양표지자 CA 19-9, CEA)"
+    - "복부 초음파 및 조영 증강 CT"
+    - "필요시 PET-CT, ERCP 또는 EUS"
+  necessary_treatments:
+    - "정확한 병기 평가"
+    - "수술적 절제(확대 담낭 절제술, 간 절제 등) 가능성 평가"
+    - "담즙 배액술을 통한 황달 완화"
+    - "항암 및 방사선 치료"
+history:
+  sex_age: "여성/75세"
+  chief_complaint_verbatim: "한 달 전부터 오른쪽 윗배가 계속 묵직하게 아프더니, 2주 전부터는 피부도 노래지고 가렵기 시작했어요. 밥맛도 없고 살도 빠져요."
+  onset: "통증은 1개월 전, 황달은 2주 전"
+  location:
+    initial: "우상복부"
+    current: "우상복부"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "통증과 황달이 점점 심해짐"
+  course: "한 달 전부터 시작된 우상복부의 둔한 통증이 지속되었고, 2주 전부터 황달과 소양증이 발생했다. 식욕부진이 심해지며 최근 2개월간 체중이 6kg 감소했다."
+  experience_prev_episodes:
+    frequency: "오래전부터 담석이 있다는 말은 들었음"
+    trigger: ""
+    symptoms: "가끔 소화불량"
+  character_of_symptom:
+    quality: "지속적이고 둔한 통증 (dull ache)"
+    nrs_score: "5"
+    radiation: "등 쪽으로 약간"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "진한 갈색"
+      stool_color_change: "회색 변"
+      pruritus: "전신 소양증"
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "딱히 없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 전, 담낭에 3cm 크기의 큰 담석과 담낭벽이 두꺼워져 있다는 소견(porcelain gallbladder 의심)을 들었으나 추적관찰 하지 않음."
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "암로디핀"
+    source: "내과"
+    effect: "혈압 조절"
+  social_history:
+    job: "은퇴"
+    stress: "적음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "2개월간 6kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "폐경"
+physical_exam:
+  general: "만성 병색. 야윈 모습."
+  heent:
+    sclera: "심한 황달"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      mass: "우상복부에서 단단하고 불규칙한 표면의 종괴가 촉진됨"
+      murphy_sign: "음성"
+  cvat: "좌/우 음성"
+  extremity: "피부 황달. 부종 없음."
+standardized_patient_questions: "그냥 담석인 줄 알았는데 왜 이렇게 아프고 살이 빠지나요? 암일 가능성이 높은가요? 수술하면 괜찮아질까요?"
+specific_remarks: "환자는 췌장암/담관암과 유사하게 폐쇄성 황달과 악성 종양의 전신 증상(체중감소, 식욕부진)을 보인다. 결정적인 단서는 '과거 검진에서 크기가 큰 담석과 자기화 담낭(porcelain gallbladder) 소견을 들었으나 무시했다'는 병력과, 신체 진찰 시 '우상복부에서 촉진되는 단단한 종괴'이다."

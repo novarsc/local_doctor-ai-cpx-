@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (류마티스 관절염)"
+patient_info:
+  name: "나선영"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "수년간의 손마디 통증과 함께 최근 1년간 6kg의 체중 감소 및 전신 쇠약감"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "88회/분"
+  respiration: "16회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "류마티스 관절염 (악액질 동반)"
+    - "전신 홍반 루푸스 (SLE)"
+    - "골관절염 (퇴행성 관절염)"
+  necessary_tests:
+    - "혈액검사 (류마티스 인자, Anti-CCP 항체, ESR, CRP)"
+    - "손, 발 X-ray"
+    - "전혈구검사 및 간/신기능 검사 (약물 치료 전 평가)"
+  necessary_treatments:
+    - "항류마티스 약제(DMARDs) 시작 또는 변경"
+    - "통증 및 염증 조절을 위한 소염진통제(NSAIDs) 또는 스테로이드"
+    - "물리치료 및 작업치료를 통한 관절 기능 유지"
+history:
+  sex_age: "여/55"
+  chief_complaint_verbatim: "손가락 마디마디가 쑤시고 아파서 병뚜껑도 못 따요. 아침에 일어나면 뻣뻣해서 한참 움직여야 풀려요. 기운도 없고 살도 빠져서 걱정이에요."
+  onset: "관절통은 3년 전, 체중 감소는 1년 전"
+  location:
+    initial: "양측 손, 손목"
+    current: "양측 손, 손목, 발목, 무릎"
+  duration:
+    onset_pattern: "서서히 시작되어 점차 여러 관절로 퍼짐"
+    recent_course: "관절 변형이 생기고 전신 증상이 동반됨"
+  course: "3년 전부터 양쪽 손가락 마디가 붓고 아팠다. 특히 아침에 일어나면 1시간 이상 뻣뻣했다. 동네 의원에서 퇴행성 관절염이라 듣고 진통제만 먹었다. 1년 전부터는 발목과 무릎도 아프기 시작했고, 쉽게 피로해지고 입맛이 없어 체중이 줄었다. 최근에는 손가락이 휘는 것 같다."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "날씨가 춥거나 궂을 때"
+    symptoms: "관절통, 부종"
+  character_of_symptom:
+    quality: "여러 관절의 대칭적인 통증, 조조강직"
+    nrs_score: "6-7점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침에 일어났을 때"
+      - "활동하지 않고 가만히 있을 때"
+    alleviating: "움직이면 조금 부드러워짐, 온찜질"
+  health_check_history:
+    last_checkup: "2년 전, 특이사항 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "비스테로이드성 소염진통제 (필요시)"
+    source: "정형외과 의원"
+    effect: "먹을 때만 잠시 통증 완화"
+  social_history:
+    job: "식당 운영"
+    stress: "높음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "관절이 아파서 못함"
+    recent_weight_change: "1년간 6kg 감소 (62kg -> 56kg)"
+  family_history: "특이사항 없음"
+  female_history: "5년 전 자연 폐경"
+physical_exam:
+  general: "만성적인 통증으로 힘들어 보임. 전반적으로 기력이 없어 보임."
+  heent:
+    sclera: "특이소견 없음"
+    oral_mucosa: "건조함 (구강 건조)"
+  chest: "특이소견 없음"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 특이소견 없음.
+  cvat: "좌우 음성"
+  extremity: "양측 손허리뼈손가락관절(MCP) 및 몸쪽손가락뼈사이관절(PIP)에 부종, 압통, 온감이 있음. 손가락의 척측 편위(ulnar deviation) 및 백조목 변형(swan neck deformity) 관찰됨. 팔꿈치의 신전 부위에 류마티스 결절이 만져짐."
+standardized_patient_questions: "이거 그냥 나이 들어서 생긴 관절염 아니에요? 왜 살이 빠지고 피곤한 거죠?", "손가락이 이렇게 휘었는데 다시 원래대로 돌아갈 수 있나요?"
+specific_remarks: "환자는 손을 사용하는 것을 힘들어하며, 진찰 시 관절을 만지면 아픈 표정을 짓는다. 자신의 외모 변화(손가락 변형)에 대해 속상해하고, 병이 더 진행될까 봐 걱정한다."

@@ -1,0 +1,124 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (클라미디아 자궁경부염)"
+patient_info:
+  name: "송하늘"
+  age: 25
+  sex: "여성"
+  presenting_complaint: "성관계 후 출혈과 질 분비물"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "37.2℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "클라미디아 자궁경부염 (Chlamydial cervicitis)"
+    - "임균성 자궁경부염 (Gonococcal cervicitis)"
+    - "자궁경부 용종 또는 자궁경부암 초기"
+  necessary_tests:
+    - "성매개감염병 핵산증폭검사 (STD NAAT for Chlamydia/Gonorrhea)"
+    - "질 분비물 검사 (Wet mount)"
+    - "자궁경부 세포검사 (Pap smear)"
+  necessary_treatments:
+    - "항생제(아지스로마이신 또는 독시사이클린) 치료"
+    - "성 파트너의 동반 검사 및 치료"
+    - "치료 기간 동안 성관계 금지"
+history:
+  sex_age: "여성/25"
+  chief_complaint_verbatim: "한 달 전부터 남자친구랑 관계하고 나면 피가 조금씩 묻어 나와요. 평소보다 냉도 좀 많아진 것 같고요."
+  onset: "약 1개월 전"
+  location:
+    initial: "질"
+    current: "질"
+  duration:
+    onset_pattern: "간헐적"
+    recent_course: "증상이 비슷하게 유지됨"
+  course: "한 달 전부터 성관계 후에만 소량의 출혈이 있었습니다. 대수롭지 않게 생각했는데, 최근 들어 질 분비물 양이 늘고 약간 노란색을 띠는 것 같아 병원에 왔습니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "성교 후 출혈 (Postcoital bleeding), 점액농성 질 분비물"
+    nrs_score: "1 (경미한 하복부 불편감)"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "성관계"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "해당 없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "취업준비생"
+    stress: "많음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "안 함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "14세"
+    menstrual_cycle: "28-30일 주기, 규칙적"
+    duration: "5일"
+    amount: "보통"
+    lmp: "2주 전"
+    gpa: "0-0-0-0"
+    sexual_partner: "2개월 전 새로운 남자친구 생김"
+    contraception: "콘돔을 사용하지만 가끔 안 할 때도 있음"
+physical_exam:
+  general: "전신 상태 양호함. 다소 불안해 보임."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 하복부 압통 없음.
+      # 질경 검사 시: 자궁경부가 붉게 충혈되어 있고 부어있음(cervical edema and erythema). 면봉으로 자궁경부를 건드리면 쉽게 출혈됨(friability). 노란색의 점액농성 분비물이 자궁경부구에서 나옴.
+      # 내진 시: 약간의 자궁경부 압통(CMT) 있음.
+  cvat: "좌/우 음성"
+  extremity: "부종 없음"
+standardized_patient_questions: "왜 관계할 때마다 피가 나는 거죠? 단순한 염증인가요, 아니면 성병인가요? 남자친구도 검사를 받아야 하나요?"
+specific_remarks: "증상이 성관계와 관련되어 있다는 점에서 성병일 가능성을 걱정한다. 새로운 파트너에 대한 정보를 제공하는 데 주저하는 모습을 보인다."

@@ -1,0 +1,119 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "28"
+title: "실전 모의 증례 (요방형근 통증 증후군)"
+patient_info:
+  name: "홍길동"
+  age: 40
+  sex: "남성"
+  presenting_complaint: "만성적인 한쪽 옆구리 및 허리 통증"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "76회/분"
+  respiration: "16회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "요방형근 통증 증후군 (Quadratus lumborum pain syndrome)"
+    - "초기 신장결석 또는 수신증"
+    - "만성 요추 염좌"
+  necessary_tests:
+    - "임상적 진단이 중요함"
+    - "요추 X선 검사 (다른 질환 배제 목적)"
+    - "필요시 복부/신장 초음파 (신장 문제 감별)"
+  necessary_treatments:
+    - "유발점 주사 또는 드라이 니들링"
+    - "스트레칭 및 마사지"
+    - "자세 교정 (특히 다리 길이 차이 교정)"
+history:
+  sex_age: "남성/40세"
+  chief_complaint_verbatim: "왼쪽 허리가 계속 쑤시고 아파요. 옆구리 깊은 곳에서 통증이 느껴지고, 가끔 엉덩이까지 아파요."
+  onset: "6개월 이상"
+  location:
+    initial: "왼쪽 허리"
+    current: "왼쪽 허리 깊은 곳, 옆구리, 엉덩이 상부"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "최근 골프를 다시 시작하며 악화됨"
+  course: "오래 서 있거나 걸으면 통증이 심해짐. 기침하거나 재채기할 때 허리에 날카로운 통증이 느껴짐. 아침에 뻣뻣하고, 침대에서 돌아눕거나 일어날 때 통증이 있음."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: "장시간 서 있기, 골프"
+    symptoms: "비슷한 양상"
+  character_of_symptom:
+    quality: "깊고 쑤시는, 둔한 통증"
+    nrs_score: "5"
+    radiation: "왼쪽 엉덩이 상부와 사타구니 쪽으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "오래 서 있거나 걷기"
+      - "몸을 옆으로 구부리거나 돌릴 때"
+      - "기침, 재채기"
+    alleviating: "누워서 쉴 때"
+  health_check_history:
+    last_checkup: "2년 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "파스"
+    source: "약국"
+    effect: "일시적"
+  social_history:
+    job: "백화점 판매원"
+    stress: "실적 스트레스 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "주 1회 골프"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강해 보이나, 통증으로 인해 왼쪽으로 몸을 기울이는 것을 불편해 함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      tenderness: "왼쪽 요방형근(quadratus lumborum muscle)을 깊게 촉진 시 심한 압통 및 연관통 유발"
+      hip_hike: "왼쪽 골반을 들어 올리는 동작 시 통증"
+      leg_length_discrepancy: "기능적인 다리 길이 차이가 관찰될 수 있음"
+  cvat: "왼쪽 압통 호소 (tenderness), 오른쪽 음성"
+  extremity: "신경학적 검사 모두 정상."
+standardized_patient_questions: "디스크인 줄 알았는데 왜 옆구리가 아프죠? 콩팥에 문제가 있는 건 아닐까요? 이 통증은 왜 자꾸 재발하나요?"
+specific_remarks: "통증이 척추 중앙이 아닌, 허리 깊은 곳과 옆구리임을 강조해야 함. 기침 시 통증, 돌아눕기 어려움 등 특징적인 증상을 명확히 설명해야 함. 신체 진찰 시, 의사가 12번 갈비뼈와 장골능 사이의 근육을 깊게 누를 때 '아, 바로 거기예요!'라고 반응하며 평소의 통증이 재현된다고 말해야 함. CVAT 검사 시 신장의 문제라기보다는 근육 압박에 의한 통증임을 표현해야 함."

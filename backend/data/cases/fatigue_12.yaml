@@ -1,0 +1,113 @@
+---
+chapter: "전신"
+case_number_in_chapter: "12"
+title: "실전 모의 증례 (제2형 당뇨병)"
+patient_info:
+  name: "최경호"
+  age: 55
+  sex: "남성"
+  presenting_complaint: "최근 심해진 피로감과 갈증"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "제2형 당뇨병"
+    - "만성 신부전 초기"
+    - "갑상선 기능 이상"
+  necessary_tests:
+    - "공복 혈당 및 당화혈색소(HbA1c) 검사"
+    - "요당 및 요단백 검사를 포함한 소변 검사"
+    - "신기능 검사 (BUN/Cr) 및 지질 검사"
+  necessary_treatments:
+    - "생활 습관 교정 (식이요법, 운동요법)"
+    - "경구 혈당 강하제 투여"
+    - "당뇨 합병증 예방을 위한 정기적인 검진 및 교육"
+history:
+  sex_age: "남성/55"
+  chief_complaint_verbatim: "요즘 부쩍 피곤하고, 자꾸 목이 말라서 물을 많이 마셔요. 소변도 자주 보고요. 밥을 잘 먹는데도 살이 좀 빠지는 것 같아요."
+  onset: "약 3~4개월 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "최근 증상이 뚜렷해짐"
+  course: "서너 달 전부터 피로감이 심해져 점심 식사 후에는 졸음을 참기 힘들었다. 갈증이 심해져 하루에 물을 2리터 이상 마시고, 밤에도 소변을 보려고 2~3번씩 깬다. 분명 식사량은 줄지 않았는데 체중이 조금씩 줄어드는 것 같아 이상하게 생각했다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "-"
+    symptoms: "-"
+  character_of_symptom:
+    quality: "기운이 없고 나른한 피로감"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후 (식후 피로감)"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 회사 검진"
+    endoscopy_finding: "혈당이 경계치에 있다고 들었으나 대수롭지 않게 여김"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약, 고지혈증약"
+    source: "내과 처방"
+    effect: "잘 복용 중"
+  social_history:
+    job: "사무 관리직"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2회"
+      amount: "소주 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: "-"
+    exercise: "거의 안 함"
+    recent_weight_change: "지난 4개월간 3kg 감소"
+  family_history: "부모님 두 분 다 당뇨병으로 약물 치료 중이심"
+  female_history: "-"
+physical_exam:
+  general: "과체중(BMI 27 kg/m²). 만성 피로감 호소. 의식 명료."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "다소 건조함"
+  chest: "정상"
+  abdomen:
+    inspection: "복부 비만"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "양쪽 발에 무좀(tinea pedis)이 심함. 발가락 끝 감각이 약간 둔하다고 함 (신경학적 검사 시). 함요 부종 없음."
+standardized_patient_questions: "나이 드니 피곤한 줄 알았는데, 당뇨일 수도 있다니 걱정이네요. 약 먹기 시작하면 평생 먹어야 하나요? 식단 조절은 어떻게 해야 하는지 막막합니다."
+specific_remarks: "다음, 다뇨, 다식의 '3다(多)' 증상을 명확하게 진술한다. 과거 '경계성 당뇨' 진단력을 대수롭지 않게 말하다가, 의사의 설명에 점차 심각성을 인지하는 모습을 보인다. 발 진찰 시 무좀이 심한 것을 부끄러워한다."

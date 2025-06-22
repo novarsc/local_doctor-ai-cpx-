@@ -1,0 +1,115 @@
+---
+chapter: "전신"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (애디슨병)"
+patient_info:
+  name: "강희진"
+  age: 40
+  sex: "여성"
+  presenting_complaint: "1년간의 점진적인 체중 감소, 극심한 피로감, 저혈압 및 피부색 변화"
+vital_signs:
+  blood_pressure: "90/55mmHg"
+  pulse: "95회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "부신 기능저하증 (애디슨병)"
+    - "만성피로증후군"
+    - "갑상선기능저하증"
+  necessary_tests:
+    - "급속 ACTH 자극 검사 (Rapid ACTH stimulation test)"
+    - "기초 혈청 코르티솔 및 ACTH 농도 측정"
+    - "혈액검사 (전해질, 혈당)"
+  necessary_treatments:
+    - "글루코코르티코이드 및 광물코르티코이드 호르몬 보충 요법"
+    - "응급 상황(Addisonian crisis) 대처법 교육 (스트레스 상황 시 용량 증량 등)"
+    - "의료 인식 팔찌 착용 권고"
+history:
+  sex_age: "여/40"
+  chief_complaint_verbatim: "1년 내내 너무 피곤하고 기운이 없어요. 입맛도 없어서 살이 계속 빠지고, 사람들이 얼굴이 탔냐고 물어봐요."
+  onset: "약 1년 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "매우 서서히 진행"
+    recent_course: "최근 감기를 앓은 후 증상이 급격히 악화됨"
+  course: "1년 전부터 만성적인 피로감이 시작되었다. 점점 아침에 일어나기 힘들어졌고, 식욕이 줄어 체중이 감소했다. 6개월 전부터는 짠 음식이 당기고, 가끔 속이 메스껍고 어지러웠다. 최근 주변 사람들로부터 피부가 전반적으로 어두워졌다는 말을 자주 듣는다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "전신 쇠약감, 식욕부진, 소금 갈망(salt craving)"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "감기 등 신체적 스트레스"
+      - "아침 기상 시"
+    alleviating: "휴식 (그러나 완전히 회복되지는 않음)"
+  health_check_history:
+    last_checkup: "2년 전, 특이사항 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "하시모토 갑상선염 (5년 전 진단, 현재 약물 복용 안함)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "초등학교 교사"
+    stress: "높음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "피곤해서 거의 못함"
+    recent_weight_change: "1년간 6kg 감소 (55kg -> 49kg)"
+  family_history: "특이사항 없음"
+  female_history: "월경 주기 규칙적"
+physical_exam:
+  general: "매우 지쳐 보이고 힘없는 모습. 전반적인 피부색이 어둡게 보임."
+  heent:
+    sclera: "특이소견 없음"
+    oral_mucosa: "잇몸과 볼 점막에 청흑색의 색소 침착(hyperpigmentation)이 관찰됨."
+  chest: "특이소견 없음"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 특이소견 없음.
+  cvat: "좌우 음성"
+  extremity: "손바닥의 손금(palmar creases) 부위에 색소 침착이 뚜렷하게 관찰됨."
+standardized_patient_questions: "저는 그냥 피곤한 것뿐인데 왜 이렇게 복잡한 검사를 해야 하나요?", "이 병은 평생 약을 먹어야 하나요? 약 먹으면 정상적으로 생활할 수 있나요?"
+specific_remarks: "환자는 매우 무기력한 태도를 보이며, 의사의 질문에 느리고 힘없이 대답한다. 진찰을 위해 자세를 바꾸는 것조차 힘들어한다. 피부와 잇몸의 색소 침착이 핵심적인 신체 진찰 소견이다."

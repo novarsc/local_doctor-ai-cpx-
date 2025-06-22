@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (급성 A형 간염, Acute Hepatitis A)"
+patient_info:
+  name: "이수진"
+  age: 26
+  sex: "여성"
+  presenting_complaint: "발열, 근육통 후 발생한 황달과 피로감"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 A형 간염"
+    - "급성 B형 간염 등 다른 바이러스성 간염"
+    - "약물 유인성 간손상"
+  necessary_tests:
+    - "혈액 검사 (간기능 AST/ALT, 빌리루빈, A형 간염 항체 IgM/IgG)"
+    - "다른 간염 바이러스 표지자 검사 (HBsAg, anti-HCV)"
+    - "복부 초음파"
+  necessary_treatments:
+    - "특이 치료는 없으며, 충분한 휴식과 영양 공급 등 대증치료가 원칙"
+    - "탈수 예방을 위한 수액 공급"
+    - "간독성 약물 및 음주 금지"
+history:
+  sex_age: "여성/26세"
+  chief_complaint_verbatim: "일주일 전부터 감기몸살처럼 춥고 열나고 온몸이 쑤시더니, 3일 전부터는 속이 메슥거리고 소변 색이 진해졌어요. 어제부터는 눈도 노래진 것 같아요."
+  onset: "전구 증상은 1주일 전, 황달은 2일 전"
+  location:
+    initial: "전신"
+    current: "우상복부 불편감"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "전신 증상은 다소 호전되나 황달이 나타남"
+  course: "1주일 전 발열(38.5℃), 근육통, 두통 등 감기몸살 증상으로 개인병원에서 약 처방받아 복용했으나 호전 없었다. 4일 전부터 식욕부진, 구역감이 심해졌고, 2일 전부터 황달이 관찰되었다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "우상복부의 뻐근한 불편감"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "간헐적으로 1-2회"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: "매우 진한 노란색"
+    dehydration:
+      dizziness: false
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "기름진 음식 냄새"
+    alleviating: "누워서 쉴 때"
+  health_check_history:
+    last_checkup: "기억나지 않음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음. A형 간염 예방접종력 없음."
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "해열진통제, 항생제 (병원명 모름)"
+    source: "개인 의원"
+    effect: "효과 없었음"
+  social_history:
+    job: "대학원생"
+    stress: "논문 때문에 심함"
+    alcohol:
+      is_drinker: true
+      frequency: "주 2-3회"
+      amount: "소주 반 병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+    travel_history: "2주 전 친구들과 동남아 여행 다녀옴. 현지에서 덜 익힌 조개류를 먹었음."
+  family_history: "특이사항 없음"
+  female_history: "LMP: 3주 전. 주기는 규칙적."
+physical_exam:
+  general: "급성 병색이나 의식은 명료함."
+  heent:
+    sclera: "뚜렷한 황달"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상. 심음 정상."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "간 타진 시 압통 동반"
+    palpation:
+      tenderness_ruq: true
+      rebound_tenderness_rlq: false
+      hepatomegaly: "간이 2cm 가량 촉진되며 부드럽고 압통이 있음"
+  cvat: "좌/우 음성"
+  extremity: "피부 황달 외 특이 소견 없음."
+standardized_patient_questions: "그냥 감기몸살인 줄 알았는데 왜 황달까지 온 거죠? 전염되는 병인가요? 같이 여행 간 친구들도 검사받아야 하나요?"
+specific_remarks: "전반적으로 기운이 없고 피곤한 모습을 연기한다. 특히 '2주 전 동남아 여행에서 조개를 먹었다'는 핵심 병력을 자연스럽게 이야기한다. 우상복부 촉진 시 불편감을 표현한다."

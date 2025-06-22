@@ -1,0 +1,114 @@
+---
+chapter: "상담"
+case_number_in_chapter: "3"
+title: "실전 모의 증례 (신체 증상 장애)"
+patient_info:
+  name: "최미경"
+  age: 48
+  sex: "여성"
+  presenting_complaint: "온몸이 돌아가면서 아픔"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신체 증상 장애 (Somatic symptom disorder)"
+    - "섬유근육통 (Fibromyalgia)"
+    - "다발성 관절염 (Polyarthritis)"
+  necessary_tests:
+    - "전신 신체 진찰 및 압통점 확인"
+    - "일반혈액검사, 염증 수치(ESR/CRP), 류마티스 인자(RF), 항CCP항체 검사"
+    - "정신건강의학과적 면담 (스트레스 및 심리적 상태 평가)"
+  necessary_treatments:
+    - "정기적인 외래 방문을 통한 지지 및 관계 형성"
+    - "스트레스 관리 기법 교육"
+    - "필요시 항우울제/항불안제 등 약물치료 고려"
+    - "가정폭력 상담 및 지원 기관 연계"
+history:
+  sex_age: "여성/48"
+  chief_complaint_verbatim: "머리부터 발끝까지 안 아픈 데가 없어요. 여기저기 병원을 다 다녀봤는데 아무 이상이 없대요. 너무 답답해요."
+  onset: "수년 전부터"
+  location:
+    initial: "두통, 허리 통증"
+    current: "두통, 목, 어깨, 허리, 무릎 등 전신에 걸쳐 이동하는 통증"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "통증의 종류와 위치가 계속 바뀌며 악화와 호전을 반복함"
+  course: "수년 전부터 두통, 소화불량, 허리 통증 등이 시작되었다. 여러 병원에서 검사(뇌 MRI, 위내시경, 척추 X-ray 등)를 받았으나 '신경성'이라는 말만 들었다. 최근 1년간은 통증이 온몸으로 번지고, 조금만 신경 쓰면 숨이 차고 가슴이 답답한 증상도 동반된다. 통증 때문에 일상생활이 어렵고, 건강에 대한 걱정으로 하루 종일 불안하다."
+  experience_prev_episodes:
+    frequency: "거의 매일"
+    trigger: ""
+    symptoms: "다양한 신체 통증, 소화불량, 어지럼증"
+  character_of_symptom:
+    quality: "쑤시고, 뻐근하고, 저리고, 화끈거리는 등 다양하게 표현"
+    nrs_score: "5-9"
+    radiation: "전신으로 번지는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스 받을 때 (특히 남편과 다툰 후)"
+      - "날씨가 궂을 때"
+    alleviating: "특별히 없음 (진통제도 효과가 별로 없음)"
+  health_check_history:
+    last_checkup: "6개월 전 종합검진"
+    endoscopy_finding: "만성 표재성 위염 외 특이소견 없음"
+  trauma_history: "남편의 상습적인 폭언과 무시. 가끔 물건을 던지거나 밀치는 등의 신체적 위협도 있음."
+  past_medical_history:
+    underlying_disease: "과민성 대장 증후군 진단받은 적 있음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "여러 병원에서 처방받은 진통제, 소화제"
+    source: "다양한 의원"
+    effect: "일시적이거나 거의 없음"
+  social_history:
+    job: "가사도우미"
+    stress: "매우 높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "통증 때문에 거의 못 함"
+    recent_weight_change: "변화 없음"
+  family_history: "특이사항 없음"
+  female_history: "1년 전 폐경"
+physical_exam:
+  general: "고통스러운 표정으로 여러 부위를 짚으며 통증을 호소함."
+  heent: "정상"
+  chest: "정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 약간 항진"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # Diffuse, non-specific tenderness on deep palpation
+  cvat: "음성/음성"
+  extremity: "객관적인 부종이나 발적, 관절 변형은 관찰되지 않음. 그러나 여러 근육 부위에 압통을 호소함."
+standardized_patient_questions: "제 몸에 정말 아무 이상이 없는 건가요? 큰 병이 숨어있는 건 아닐까요? 왜 이렇게 아픈 건지 원인이라도 알고 싶어요."
+specific_remarks: "환자는 자신의 증상을 매우 상세하고 극적으로 설명한다. 쇼핑백에 여러 병원에서 받은 약 봉투와 검사 결과지를 담아와 보여주려 한다. 심리적인 문제나 스트레스와의 연관성을 제시하면 '아픈 건 몸인데 왜 자꾸 스트레스 얘기를 하냐'며 처음에는 저항적인 태도를 보인다."

@@ -1,0 +1,123 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (급성 세균성 전립선염)"
+patient_info:
+  name: "최민준"
+  age: 35
+  sex: "남성"
+  presenting_complaint: "고열과 함께 소변 볼 때 통증 및 배뇨 곤란"
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "110회/분"
+  respiration: "20회/분"
+  temperature: "39.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 세균성 전립선염 (Acute Bacterial Prostatitis)"
+    - "급성 신우신염 (Acute Pyelonephritis)"
+    - "요로계 농양 (Urogenital Abscess)"
+  necessary_tests:
+    - "직장수지검사 (Digital Rectal Examination)"
+    - "소변검사 및 소변배양검사 (Urinalysis & Urine Culture)"
+    - "전립선액 또는 전립선 마사지 후 소변검사"
+    - "혈액배양검사 (Blood Culture), 염증 수치 검사 (CRP/ESR)"
+  necessary_treatments:
+    - "입원 치료 고려"
+    - "광범위 정맥 항생제 투여"
+    - "수액 공급 및 해열제 등 보존적 치료"
+history:
+  sex_age: "남성/35세"
+  chief_complaint_verbatim: "이틀 전부터 몸살 기운이 있더니 어제부터는 열이 펄펄 나고 소변 볼 때 너무 아파요. 회음부 쪽도 뻐근하고 아픕니다."
+  onset: "2일 전"
+  location:
+    initial: "전신 근육통, 회음부"
+    current: "회음부, 요도, 허리 아래쪽"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "급격히 악화됨"
+  course: "이틀 전 오한과 근육통으로 감기몸살인 줄 알았음. 어제부터 39도 이상의 고열이 발생했고, 소변을 볼 때 타는 듯한 통증과 함께 소변이 잘 나오지 않는 증상이 동반됨. 앉아 있을 때 회음부(고환과 항문 사이)에 뻐근한 통증이 심함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "회음부의 둔하고 깊은 통증, 배뇨 시 날카로운 통증"
+    nrs_score: "8"
+    radiation: "허리, 성기 끝으로 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: true # 39.1C
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "한 차례 구토함"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "앉아 있을 때"
+      - "소변 볼 때"
+      - "사정 시 통증 (통증으로 관계 못함)"
+    alleviating: "누워 있으면 약간 나음"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "타이레놀"
+    source: "약국 구매"
+    effect: "복용 후 2-3시간 정도 열이 약간 내리나 다시 오름"
+  social_history:
+    job: "증권사 근무"
+    stress: "매우 높음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "소주 1병 이상"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: ""
+    exercise: "거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: ""
+physical_exam:
+  general: "고열과 통증으로 매우 힘들어하는 모습. 전신적으로 아파 보임 (toxic appearance)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "건조함"
+  chest: "호흡음 정상, 빈맥 소견."
+  abdomen:
+    inspection: "편평함."
+    auscultation: "장음 감소."
+    percussion: "고창음."
+    palpation:
+      suprapubic_tenderness: true
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # DRE (Digital Rectal Examination)
+      prostate_size: "Swollen and enlarged"
+      prostate_consistency: "Boggy, soft"
+      prostate_surface: "Indistinct"
+      prostate_tenderness: "Exquisitely tender"
+      median_sulcus: "Obliterated"
+  cvat: "좌/우 음성"
+  extremity: "말초 혈관 따뜻함. 부종 없음."
+standardized_patient_questions: "무슨 병이길래 이렇게 아픈가요? 입원해야 하나요? 그냥 감기몸살인 줄 알았는데..."
+specific_remarks: "고열과 통증으로 매우 고통스러워하는 연기를 한다. 특히 회음부 통증을 계속 호소한다. 직장수지검사 시 극심한 통증을 호소하며 몸을 비튼다. (검사자는 진단을 위해 반드시 부드럽게 시행해야 함을 인지해야 함)"

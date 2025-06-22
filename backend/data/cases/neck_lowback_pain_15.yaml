@@ -1,0 +1,119 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "15"
+title: "실전 모의 증례 (섬유근육통)"
+patient_info:
+  name: "김선아"
+  age: 45
+  sex: "여성"
+  presenting_complaint: "온몸이 여기저기 돌아가면서 아프고 너무 피곤함"
+vital_signs:
+  blood_pressure: "120/80mmHg"
+  pulse: "84회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "섬유근육통 (Fibromyalgia)"
+    - "류마티스성 다발근통"
+    - "갑상선 기능 저하증"
+  necessary_tests:
+    - "혈액 검사 (CBC, ESR, CRP, 류마티스 인자, 갑상선 기능 검사 등) - 다른 질환 배제 목적"
+    - "진단을 위한 특이 검사는 없음"
+    - "없음"
+  necessary_treatments:
+    - "환자 교육 (병에 대한 이해)"
+    - "운동 치료 (저강도 유산소 운동)"
+    - "약물 치료 (항우울제, 항경련제 등)"
+    - "인지행동치료"
+history:
+  sex_age: "여성/45세"
+  chief_complaint_verbatim: "온몸이 안 아픈 데가 없어요. 어깨, 등, 허리, 엉덩이 다 아프고, 잠을 자도 개운하지가 않고 너무 피곤해요. 머리도 멍하고요."
+  onset: "1년 이상"
+  location:
+    initial: "목, 어깨"
+    current: "전신 (목, 어깨, 등, 허리, 팔, 다리 등 여러 곳)"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "좋아졌다 나빠졌다를 반복하며 전반적으로 지속됨"
+  course: "처음에는 목과 어깨가 뭉치고 아프다고 생각했는데, 점차 통증이 온몸으로 퍼짐. 통증 부위가 여기저기 옮겨 다니는 것 같음. 여러 병원을 다녔지만 검사에서는 이상이 없다고 함."
+  experience_prev_episodes:
+    frequency: "만성적"
+    trigger: "스트레스, 날씨 변화, 과로"
+    symptoms: "비슷한 양상"
+  character_of_symptom:
+    quality: "쑤시고, 저리고, 뻣뻣한 통증"
+    nrs_score: "7"
+    radiation: "전신에 걸쳐 나타남"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+      - "잠을 잘 못 잤을 때"
+      - "흐린 날씨"
+    alleviating: "온찜질, 휴식 (일시적)"
+  health_check_history:
+    last_checkup: "6개월 전, 동네 병원에서 피검사 및 X-ray 했으나 '이상 없음'"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "과민성 대장 증후군, 수면 장애, 편두통"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "진통제, 수면유도제"
+    source: "여러 병원"
+    effect: "별 효과 없음"
+  social_history:
+    job: "주부"
+    stress: "육아 및 시댁 문제로 많음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "피곤해서 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "없음"
+  female_history: "LMP 1년 전 (폐경 이행기)"
+physical_exam:
+  general: "지쳐 보이고 우울한 표정. 진찰에 비협조적이진 않으나 통증에 예민함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, non-distended"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      tender_points: "후두부, 승모근, 극상근, 제2늑골, 외측상과, 둔부, 대전자 등 18개 압통점 중 11개 이상에서 압통 호소 (4kg의 압력으로 눌렀을 때)."
+      joint_exam: "관절의 부종이나 발적, 열감은 없음."
+  cvat: "좌우 음성"
+  extremity: "근력 및 감각 정상. 반사 정상."
+standardized_patient_questions: "검사해도 이상이 없다는데 왜 이렇게 온몸이 아픈가요? 꾀병이라고 생각하는 건 아니죠? 이 병은 평생 가는 건가요?"
+specific_remarks: "전신 통증, 심한 피로감, 수면 장애, '머리가 멍한 느낌(fibro-fog)' 등 핵심 증상을 명확히 전달해야 함. 통증의 위치가 모호하고 '여기저기 다 아프다'는 식으로 표현해야 함. 신체 진찰 시, 의사가 특정 압통점을 누를 때만 통증을 호소하고, 관절 자체는 아프지 않다고 말해야 함. 여러 병원을 전전하며 겪은 좌절감과 우울감을 표현해야 함."

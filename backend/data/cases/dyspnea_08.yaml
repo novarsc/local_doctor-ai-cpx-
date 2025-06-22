@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (아나필락시스)"
+patient_info:
+  name: "박지민"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "점심 식사 후 10분 만에 갑자기 온몸이 가렵고 숨쉬기 힘들어짐"
+vital_signs:
+  blood_pressure: "90/60mmHg"
+  pulse: "125회/분"
+  respiration: "28회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "아나필락시스 (Anaphylaxis)"
+    - "급성 두드러기 및 혈관부종"
+    - "천식 급성 악화"
+  necessary_tests:
+    - "혈중 트립타제(Tryptase) 검사 (급성기)"
+    - "알레르기 항원 검사 (피부반응검사 또는 혈액검사, 안정기)"
+    - "기본 혈액검사, 심전도"
+  necessary_treatments:
+    - "에피네프린 근육 주사 (즉시 시행)"
+    - "수액 공급 및 산소 투여"
+    - "항히스타민제 및 스테로이드 투여"
+    - "자가 주사용 에피네프린 처방 및 교육"
+history:
+  sex_age: "여성/28"
+  chief_complaint_verbatim: "목이 조이는 것 같고 숨이 잘 안 쉬어져요. 온몸에 뭐가 나고 미치게 가려워요. 어지럽고... 죽을 것 같아요."
+  onset: "20분 전"
+  location:
+    initial: "피부, 목"
+    current: "전신"
+  duration:
+    onset_pattern: "매우 갑자기 발생 (hyperacute onset)"
+    recent_course: "급격히 악화됨"
+  course: "30분 전 회사 근처 식당에서 해물볶음밥을 처음으로 먹음. 식사 후 10분쯤 지나자 갑자기 입 주위가 붓고 온몸에 두드러기가 나면서 가려워짐. 곧이어 목이 조이는 느낌과 함께 숨쉬기가 힘들어지고, 쌕쌕거리는 소리가 남. 어지럽고 식은땀이 나서 동료의 부축을 받아 응급실 방문."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "목구멍이 부어서 막히는 느낌, 전신 소양감"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간 경과"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "시행 안 함"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "알레르기 비염"
+    allergies: "복숭아 (먹으면 입술이 약간 붓고 가려움)"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "회사원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "맥주 1-2잔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "오빠가 아토피 피부염 있음"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "매우 불안해하며 안절부절못함. 호흡이 가쁘고 목소리가 쉬어 있음(hoarseness). 전신에 식은땀."
+  heent:
+    sclera: "결막 부종 있음"
+    oral_mucosa: "입술과 혀에 혈관부종(angioedema) 관찰됨."
+  chest: "청진 시 양쪽 폐에서 천명음(wheezing)과 함께 흡기 시 상기도에서 협착음(stridor)이 들림."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 약간 증가"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "특이 소견 없음. 피부과적 소견 참고."
+  skin: "전신에 융기된 팽진(wheal)과 발적(erythema)이 관찰됨 (urticaria)."
+standardized_patient_questions: "저 죽는 거 아니죠? 왜 갑자기 이러죠? 음식 때문인가요? 앞으로 밥도 마음대로 못 먹나요?"
+specific_remarks: "극도의 불안감과 공포를 표현. '숨 막혀요', '죽을 것 같아요' 등의 말을 반복. 목소리가 쉬고 발음이 약간 어눌해진 것처럼 연기. 온몸을 긁는 시늉을 함."

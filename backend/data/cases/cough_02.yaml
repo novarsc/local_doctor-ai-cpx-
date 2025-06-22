@@ -1,0 +1,115 @@
+---
+chapter: "호흡기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (지역사회획득 폐렴)"
+patient_info:
+  name: "김영희"
+  age: 68
+  sex: "여성"
+  presenting_complaint: "3일 전부터 시작된 기침과 열"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "105회/분"
+  respiration: "24회/분"
+  temperature: "38.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "지역사회획득 폐렴 (Community-acquired pneumonia)"
+    - "급성 기관지염 (Acute bronchitis)"
+    - "폐결핵 (Pulmonary tuberculosis)"
+  necessary_tests:
+    - "흉부 X선 촬영 (폐렴 병변 확인)"
+    - "객담 검사 (그람 염색, 배양 검사)"
+    - "혈액 검사 (백혈구, 염증 수치 확인)"
+  necessary_treatments:
+    - "경험적 항생제 치료 즉시 시작"
+    - "수액 요법 및 해열제 등 대증 치료"
+    - "입원 치료 고려 (고령, 동반 증상 고려)"
+history:
+  sex_age: "여성/68세"
+  chief_complaint_verbatim: "며칠 전부터 온몸이 쑤시고 춥고 떨리더니, 기침이 심해지고 숨도 좀 차요. 누런 가래가 자꾸 나와요."
+  onset: "3일 전"
+  location:
+    initial: "전신"
+    current: "오른쪽 가슴"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "빠르게 악화"
+  course: "3일 전 오한과 근육통으로 시작되어, 어제부터 기침과 고열이 발생함. 오늘 아침부터는 숨 쉴 때 오른쪽 가슴이 결리는 듯 아픔."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "기침 시 짙은 누런 가래 동반, 숨 쉴 때 찌르는 듯한 통증"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: true
+  factors:
+    aggravating:
+      - "심호흡할 때"
+      - "기침할 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전, 골다공증 외 특이소견 없음"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 당뇨병"
+    allergies: "페니실린 계열 약물에 두드러기"
+  medication_history:
+    taken:
+      - "혈압약 (암로디핀)"
+      - "당뇨약 (메트포르민)"
+    source: "내과 처방"
+    effect: "꾸준히 복용 중"
+  social_history:
+    job: "주부"
+    stress: "최근 아들 사업 문제로 스트레스 많았음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 3회 동네 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "20년 전 폐경"
+physical_exam:
+  general: "급성 병색이 완연하며, 호흡이 얕고 빠름. 전반적으로 기운이 없는 모습."
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "약간 건조함"
+  chest: "우측 폐 하엽에서 호흡음이 감소되어 있고, 흡기 시 악설음(crackle)이 청진됨. 타진 시 둔탁음(dullness) 소견. 흉곽 호흡 운동이 약간 비대칭적임."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "말초 부종이나 청색증 없음."
+standardized_patient_questions: "제가 나이가 많아서 더 위험한가요? 입원해야 하나요? 주사(항생제) 맞으면 금방 괜찮아지나요?"
+specific_remarks: "대화 중에도 숨이 차서 말을 끊어서 한다. 기침할 때 오른쪽 가슴을 부여잡으며 얼굴을 찡그린다."

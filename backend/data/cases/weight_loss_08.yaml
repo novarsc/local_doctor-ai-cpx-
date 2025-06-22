@@ -1,0 +1,114 @@
+---
+chapter: "전신"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (HIV 감염/AIDS)"
+patient_info:
+  name: "김민수"
+  age: 35
+  sex: "남성"
+  presenting_complaint: "6개월간 10kg의 체중 감소, 만성 설사, 그리고 반복되는 구강 칸디다증"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "100회/분"
+  respiration: "18회/분"
+  temperature: "37.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "인간면역결핍바이러스(HIV) 감염 및 후천성면역결핍증(AIDS)"
+    - "악성 림프종"
+    - "만성 감염 질환 (결핵 등)"
+  necessary_tests:
+    - "HIV 항체 선별검사 및 확진검사"
+    - "CD4+ T세포 수 측정 및 HIV RNA 정량검사"
+    - "기회감염에 대한 검사 (흉부 X-ray, 혈액배양 등)"
+  necessary_treatments:
+    - "항레트로바이러스 약물(ART) 치료 시작"
+    - "기회감염에 대한 예방 및 치료"
+    - "정기적인 추적 관찰 및 상담"
+history:
+  sex_age: "남/35"
+  chief_complaint_verbatim: "몇 달째 살이 계속 빠지고 설사를 해요. 입안에 허옇게 뭐가 자꾸 생기고 너무 피곤해서 일상생활이 힘듭니다."
+  onset: "약 6개월 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "계속 악화됨"
+  course: "6개월 전부터 피로감과 함께 체중이 줄기 시작했다. 3개월 전부터는 물 같은 설사를 하루 5-6회씩 하고, 입안에 하얀 막이 끼면서 통증이 생겨 식사가 어려워졌다. 최근에는 목과 겨드랑이에 멍울 같은 것이 만져진다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "원인을 알 수 없는 전신 쇠약감과 체중감소"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "5년 전, 정상"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "페니실린 알러지"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1회"
+      amount: "맥주 2-3잔"
+    smoking:
+      is_smoker: true
+      amount: "반 갑/일"
+      cessation_period: "10년간 흡연 중"
+    exercise: "거의 안 함"
+    recent_weight_change: "6개월간 10kg 감소 (70kg -> 60kg)"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색을 띠며, 수척하고 지쳐 보임."
+  heent:
+    sclera: "특이소견 없음"
+    oral_mucosa: "혀와 양측 볼 점막에 긁어내면 벗겨지는 하얀 막(oral candidiasis)이 광범위하게 관찰됨."
+  chest: "특이소견 없음"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 항진"
+    percussion: "특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 특이소견 없음.
+  cvat: "좌우 음성"
+  extremity: "양측 경부(cervical), 액와부(axillary)에 1-2cm 크기의 압통 없는 림프절이 여러 개 만져짐."
+standardized_patient_questions: "왜 이렇게 면역력이 약해진 걸까요? 그냥 과로해서 그런거 아니에요?", "에이즈 검사를 왜 해야 하나요? 제가 왜요?", "만약 그 병이면 이제 죽는 건가요?"
+specific_remarks: "성 접촉력이나 수혈력 등 민감한 질문에는 회피하거나 방어적인 태도를 보인다. HIV 검사를 권유받았을 때 충격을 받고 불안해하는 모습을 연기한다."

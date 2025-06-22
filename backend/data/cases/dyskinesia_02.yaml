@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (파킨슨병)"
+patient_info:
+  name: "박순자"
+  age: 72
+  sex: "여성"
+  presenting_complaint: "오른손이 떨리고 행동이 굼떠짐"
+vital_signs:
+  blood_pressure: "125/75mmHg"
+  pulse: "68회/분"
+  respiration: "18회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "파킨슨병"
+    - "약물 유발 파킨슨증"
+    - "비정형 파킨슨 증후군 (예: 다계통 위축증)"
+  necessary_tests:
+    - "자세한 신경학적 진찰"
+    - "뇌 MRI (다른 원인 배제 목적)"
+    - "도파민 운반체 영상(DAT-PET/SPECT)"
+  necessary_treatments:
+    - "약물 치료 (레보도파, 도파민 작용제 등)"
+    - "재활 치료 (물리치료, 작업치료, 언어치료)"
+    - "환자 및 보호자 교육"
+history:
+  sex_age: "여성/72세"
+  chief_complaint_verbatim: "1년 전부터 오른손이 가만히 있을 때 자꾸 떨려요. 그리고 몸이 뻣뻣하고 행동이 옛날 같지 않게 느려져서 걱정돼요."
+  onset: "약 1년 전"
+  location:
+    initial: "오른쪽 손"
+    current: "오른쪽 팔과 다리, 최근 왼쪽도 약간 떨리는 듯함"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점점 심해짐"
+  course: "처음에는 오른손만 떨렸는데, 이제는 걷는 것도 부자연스럽고, 얼굴 표정도 없어진 것 같다는 말을 들음"
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "가만히 있을 때"
+    symptoms: "떨림, 뻣뻣함"
+  character_of_symptom:
+    quality: "알약을 빚는 듯한(pill-rolling) 떨림"
+    nrs_score: "불편감 6점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "가만히 있을 때"
+      - "스트레스 받을 때"
+    alleviating: "손으로 무언가를 잡거나 움직이면 떨림이 줄어듦"
+  health_check_history:
+    last_checkup: "2년 전, 골다공증 외 특이사항 없음"
+    endoscopy_finding: "위축성 위염"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "골다공증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "비스포스포네이트 제제"
+      - "칼슘/비타민D 복합제"
+    source: "정형외과"
+    effect: "유지 중"
+  social_history:
+    job: "주부"
+    stress: "증상 때문에 스트레스 증가"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "폐경 55세"
+physical_exam:
+  general: "무표정한 얼굴(masked face). 전반적으로 행동이 느림(bradykinesia)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 감소"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "오른쪽 상지에서 톱니바퀴양 경직(cogwheel rigidity) 관찰됨. 안정 시 오른손에서 4-6Hz의 떨림(resting tremor)이 뚜렷하며, 행동을 시작하면 감소함. 걸을 때 오른팔의 흔들림이 감소되어 있음. 자세가 약간 구부정함."
+standardized_patient_questions: "이게 그냥 늙어서 그런 건가요? 아니면 큰 병인가요? 치료하면 다시 예전처럼 될 수 있을까요?"
+specific_remarks: "환자는 감정 표현이 적고, 말수가 적으며, 목소리가 작고 단조롭게 연기한다. 신체 진찰 시 의사가 팔을 움직일 때 뻣뻣한 저항감을 표현해야 한다. 걸어보라고 하면 보폭이 짧고 종종걸음을 걷는 모습을 보여준다."

@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (IgA 신병증)"
+patient_info:
+  name: "김민준"
+  age: 24
+  sex: "남성"
+  presenting_complaint: "이틀 전부터 시작된 콜라색 소변"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "78회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "IgA 신병증 (가장 의심)"
+    - "감염 후 사구체신염"
+    - "얇은 기저막 신병증"
+  necessary_tests:
+    - "소변 검사 (소변 현미경 검사 포함)"
+    - "혈액 검사 (신기능, 전해질, 혈청 IgA 수치 포함)"
+    - "신장 조직검사 (확진을 위해 필요할 수 있음)"
+  necessary_treatments:
+    - "혈압 조절 (ACE 억제제 또는 ARB 계열 약물)"
+    - "저염 식이요법"
+    - "정기적인 외래 추적 관찰을 통한 신기능 모니터링"
+history:
+  sex_age: "남성/24세"
+  chief_complaint_verbatim: "이틀 전부터 갑자기 소변이 콜라색처럼 진하게 나와서 걱정돼서 왔습니다."
+  onset: "2일 전 아침"
+  location:
+    initial: "전신 증상 (소변)"
+    current: "전신 증상 (소변)"
+  duration:
+    onset_pattern: "갑자기 발생"
+    recent_course: "계속 비슷한 색의 소변이 나옴"
+  course: "3-4일 전부터 목이 칼칼하고 콧물이 나는 등 가벼운 감기 기운이 있었고, 이후 소변색 변화가 나타났습니다. 옆구리 통증이나 배뇨통은 없습니다."
+  experience_prev_episodes:
+    frequency: "고등학생 때 감기 심하게 앓고 나서 한 번 비슷한 경험이 있었던 것 같으나, 하루 만에 괜찮아져서 병원에 가지 않았음."
+    trigger: "감기"
+    symptoms: "붉은색 소변"
+  character_of_symptom:
+    quality: "통증은 없음. 소변 색깔만 이상함."
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전 학생 검진, 특이소견 없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "3일 전부터 종합감기약 (약국 구매)"
+    source: "약국"
+    effect: "콧물, 목 통증은 약간 호전됨"
+  social_history:
+    job: "대학생"
+    stress: "시험 기간이라 약간 있음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "소주 1병"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2-3회 농구"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "급성 병색은 보이지 않으나 다소 피로해 보임."
+  heent:
+    sclera: "황달 없음 (anicteric)"
+    oral_mucosa: "건조하지 않음. 인두 발적 소견 보임 (pharyngeal injection)."
+  chest: "호흡음 깨끗함. 심음 정상."
+  abdomen:
+    inspection: "편평하고 특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "고창음, 특이소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # No suprapubic tenderness, no flank tenderness
+  cvat: "좌우 음성"
+  extremity: "함몰 부종 없음 (no pitting edema)"
+standardized_patient_questions: "이거 혹시 콩팥이 망가지는 심각한 병인가요? 치료는 어떻게 해야 하나요?"
+specific_remarks: "환자는 자신의 증상이 감기와 관련 있는 것 같다고 생각하며, 신장이 나빠질까 봐 걱정하는 모습을 보인다. 통증은 전혀 없다는 점을 강조한다."

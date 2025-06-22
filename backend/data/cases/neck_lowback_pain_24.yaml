@@ -1,0 +1,120 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "24"
+title: "실전 모의 증례 (천장관절 증후군)"
+patient_info:
+  name: "한지혜"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "임신 후반기부터 시작된 한쪽 엉덩이 통증"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "천장관절 증후군 (Sacroiliac joint syndrome)"
+    - "이상근 증후군"
+    - "요추 추간판 탈출증"
+  necessary_tests:
+    - "임상적 진단이 우선됨"
+    - "다른 질환 감별 위해 요추 X선 또는 MRI 고려 (출산 후)"
+    - "진단적 천장관절 차단술"
+  necessary_treatments:
+    - "안정 및 자세 교정"
+    - "물리치료, 도수치료, 스트레칭"
+    - "천장관절 내 스테로이드 주사"
+history:
+  sex_age: "여성/32세"
+  chief_complaint_verbatim: "출산한 지 두 달 됐는데, 임신했을 때부터 아팠던 왼쪽 엉덩이가 계속 아파요. 특히 아기 안고 일어설 때 찔끔해요."
+  onset: "임신 8개월 경"
+  location:
+    initial: "왼쪽 엉덩이"
+    current: "왼쪽 엉덩이, 사타구니"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "출산 후에도 호전되지 않고 지속됨"
+  course: "임신 후반기에 체중이 늘면서 왼쪽 엉덩이 부근이 아프기 시작했음. 출산하면 나을 줄 알았는데, 아기를 돌보느라 구부정한 자세를 많이 취해서 그런지 통증이 여전함. 한쪽 다리로 설 때 통증이 심함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "날카롭거나 둔한 통증"
+    nrs_score: "5"
+    radiation: "사타구니나 허벅지 뒤쪽으로 약간 뻗치는 느낌"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "앉았다 일어설 때"
+      - "한쪽 다리로 체중을 지지할 때 (예: 바지 입을 때)"
+      - "침대에서 돌아누울 때"
+    alleviating: "휴식"
+  health_check_history:
+    last_checkup: "임신 전, 정상"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: "해당 없음"
+    effect: "해당 없음"
+  social_history:
+    job: "육아휴직 중 (회사원)"
+    stress: "육아 스트레스 많음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "해당 없음"
+    exercise: "못하고 있음"
+    recent_weight_change: "출산 후 체중 감량 중"
+  family_history: "없음"
+  female_history: "2개월 전 자연분만, 현재 모유 수유 중"
+physical_exam:
+  general: "약간 피곤해 보이지만 전반적으로 건강함."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "Clear breath sounds."
+  abdomen:
+    inspection: "soft, flat"
+    auscultation: "normoactive bowel sound"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 필요한 신체진찰 소견을 추가
+      tenderness: "왼쪽 천장관절(sacroiliac joint) 부위에 국소적인 압통"
+      gaenslen_test: "양성"
+      faber_test: "양성 (왼쪽 고관절을 굴곡, 외전, 외회전 시킬 때 엉덩이 뒤쪽 통증 유발)"
+      thigh_thrust_test: "양성"
+  cvat: "좌우 음성"
+  extremity: "신경학적 검사 모두 정상."
+standardized_patient_questions: "산후조리 잘못해서 그런가요? 골반이 틀어졌나요? 아기 계속 안아줘도 괜찮을까요?"
+specific_remarks: "통증의 위치가 '엉덩이 관절' 부근, 즉 후상장골극(PSIS) 주변임을 명확히 해야 함. 임신과 출산이라는 명확한 유발 인자를 제시해야 함. 진찰 시 의사가 천장관절 유발 검사(Gaenslen, FABER 등)를 시행할 때 평소 아프던 부위에 통증이 재현된다고 정확히 반응해야 함. 허리나 다리 전체의 저림보다는 국소적인 통증임을 강조할 것."

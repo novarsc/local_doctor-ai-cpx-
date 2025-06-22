@@ -1,0 +1,114 @@
+---
+chapter: "관절/근골격/피부"
+case_number_in_chapter: "1/24"
+title: "실전 모의 증례 (통풍)"
+patient_info:
+  name: "김철수"
+  age: 52
+  sex: "남성"
+  presenting_complaint: "갑자기 발생한 우측 엄지발가락의 극심한 통증과 부기"
+vital_signs:
+  blood_pressure: "145/90mmHg"
+  pulse: "98회/분"
+  respiration: "18회/분"
+  temperature: "37.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "통풍"
+    - "화농성 관절염"
+    - "가성통풍"
+  necessary_tests:
+    - "관절액 천자 및 편광현미경 검사"
+    - "혈액 검사 (혈청 요산, ESR, CRP)"
+    - "발 X-ray 촬영"
+  necessary_treatments:
+    - "급성 발작 조절 (비스테로이드성 소염제, 콜히친 등)"
+    - "생활 습관 개선 (금주, 저퓨린 식이)"
+    - "장기적인 요산 저하제 복용 고려"
+history:
+  sex_age: "남성/52세"
+  chief_complaint_verbatim: "어젯밤 자다가 갑자기 오른쪽 엄지발가락이 부러진 것처럼 아파서 깼어요. 쳐다보기만 해도 아프고, 퉁퉁 부어서 신발도 못 신겠어요."
+  onset: "내원 전날 밤 12시간 전"
+  location:
+    initial: "우측 첫 번째 발허리발가락관절 (엄지발가락)"
+    current: "우측 첫 번째 발허리발가락관절 (엄지발가락)"
+  duration:
+    onset_pattern: "아주 갑작스럽게 발생 (급성)"
+    recent_course: "점점 더 심해짐"
+  course: "이전에는 이런 증상이 전혀 없었음"
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "칼로 찌르는 듯, 타는 듯한 통증"
+    nrs_score: "9"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: true
+      chills: true
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "조금만 건드리는 것"
+      - "이불이 스치는 것"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "특이 소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (5년 전 진단, 약물 불규칙적으로 복용)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (성분 모름)"
+    source: "동네 의원"
+    effect: "가끔 복용"
+  social_history:
+    job: "회사원 (영업직)"
+    stress: "업무상 스트레스 많은 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "회당 소주 1-2병, 맥주 자주 마심"
+    smoking:
+      is_smoker: true
+      amount: "하루 반 갑"
+      cessation_period: "없음"
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 1년간 5kg 증가"
+  family_history: "아버지 (통풍)"
+  female_history: ""
+physical_exam:
+  general: "통증으로 안절부절못하며 인상을 찡그리고 있음"
+  heent:
+    sclera: "Icteric sclera 아님"
+    oral_mucosa: "Dry하지 않음"
+  chest: "호흡음 깨끗함"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "우측 첫 번째 발허리발가락관절에 현저한 발적, 부종, 극심한 압통 관찰됨. 만지기만 해도 심하게 아파하여 관절 운동 범위 확인 어려움. 좌측 발은 정상."
+standardized_patient_questions: "이게 말로만 듣던 통풍인가요? 앞으로 술은 절대 마시면 안 되는 건가요?"
+specific_remarks: "환자는 매우 아파하며, 진찰 시 발을 건드리는 것을 극도로 꺼려하는 모습을 연기해야 함. 통증에 대한 불안감을 표현한다."

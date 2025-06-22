@@ -1,0 +1,111 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "13"
+title: "실전 모의 증례 (해외여행 전 예방접종 상담)"
+patient_info:
+  name: "김하린"
+  age: 8
+  sex: "여성"
+  presenting_complaint: "동남아 여행을 가는데 예방접종 때문에 왔어요"
+vital_signs:
+  blood_pressure: "105/70mmHg"
+  pulse: "85회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "여행지와 여행 계획을 청취하고, 필요한 예방접종과 감염병 예방 수칙에 대해 교육한 후, 접종 계획을 수립하시오."
+patient_education:
+  probable_diagnoses:
+    - "해외여행 전 예방접종 상담 (Pre-travel vaccination consultation)"
+    - "여행자 감염병 예방 교육 필요"
+  necessary_tests:
+    - "기존 예방접종 기록 확인"
+    - "여행지에 따른 필수/권장 백신 확인"
+  necessary_treatments:
+    - "장티푸스, A형 간염 백신 접종 권장"
+    - "필요 시 일본뇌염(생백신) 추가 접종 고려"
+    - "말라리아 예방약 처방 및 복용법 교육 (필요 시)"
+    - "모기 기피제 사용, 안전한 물과 음식 섭취 등 여행자 위생 수칙 교육"
+history:
+  sex_age: "여아/8세"
+  chief_complaint_verbatim: "다음 달에 가족들이랑 베트남으로 한 달 정도 여행을 가요. 가서 맞아야 할 주사가 있다고 들어서 왔어요."
+  onset: "N/A (상담 목적 내원)"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "N/A"
+    recent_course: "N/A"
+  course: "한 달 뒤, 4주 일정으로 베트남으로 가족 여행을 계획 중이다. 대도시뿐만 아니라 농촌 지역 방문 및 현지 문화 체험 활동도 계획에 포함되어 있다. 여행사로부터 현지 감염병 예방을 위해 필요한 예방접종을 확인해보라는 권유를 받고 내원했다. 환아의 기본 예방접종은 스케줄에 맞춰 모두 완료한 상태다."
+  experience_prev_episodes:
+    frequency: "N/A"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "N/A"
+    nrs_score: "N/A"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "없음"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating: []
+    alleviating: "N/A"
+  health_check_history:
+    last_checkup: "1년 전, 학교 구강검진"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "초등학생"
+    stress: "해당 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 수영"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "건강하고 활기찬 모습."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "moist"
+  chest: "호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "특이소견 없음"
+standardized_patient_questions: "꼭 맞아야 하는 주사인가요? 비용은 얼마나 드나요? 주사 말고 먹는 약도 있던데 그건 뭔가요? 여행 가서 배 아프거나 열 나면 어떻게 해야 해요?"
+specific_remarks: "보호자(아빠) 역할. 여행 준비에 적극적이며, 자녀의 건강 문제에 관심이 많음. 비용, 접종 횟수, 효과가 나타나는 시기 등 실질적인 정보를 궁금해함. 예방접종 외에 현지에서 주의해야 할 점에 대해서도 질문함."

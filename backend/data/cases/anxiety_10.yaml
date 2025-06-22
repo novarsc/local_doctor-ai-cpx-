@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (저혈당증)"
+patient_info:
+  name: "박영철"
+  age: 62
+  sex: "남성"
+  presenting_complaint: "아침마다 불안하고 식은땀이 나요."
+vital_signs:
+  blood_pressure: "130/80mmHg"
+  pulse: "100회/분"
+  respiration: "20회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "저혈당증 (약물 부작용 또는 인슐린종 의심)"
+    - "불안장애"
+    - "악몽 또는 수면장애"
+  necessary_tests:
+    - "증상 발생 시 혈당 측정, 72시간 금식 검사 (필요시)"
+    - "혈중 인슐린, C-peptide 검사"
+    - "복부 CT (인슐린종 감별)"
+  necessary_treatments:
+    - "저혈당 발생 시 응급 처치 교육 (사탕, 주스 섭취)"
+    - "원인에 따른 치료 (약물 조절 또는 수술)"
+    - "규칙적인 식사 및 생활 습관 교육"
+history:
+  sex_age: "남성/62"
+  chief_complaint_verbatim: "몇 달 전부터 새벽이나 아침에 깰 때쯤이면 갑자기 불안해지고, 온몸에 식은땀이 나면서 심장이 두근거려요. 꼭 나쁜 꿈을 꾼 것처럼 기분이 이상해요."
+  onset: "약 3개월 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "주 2-3회, 주로 새벽이나 아침 공복에 발생"
+    recent_course: "발생 빈도가 잦아짐"
+  course: "처음에는 악몽 때문이라 생각했음. 하지만 증상이 있을 때마다 너무 생생하고 괴로워서 잠을 설치게 됨. 아침에 일어나서 사탕이나 주스 같은 단 것을 먹으면 10-20분 내로 증상이 씻은 듯이 사라지는 것을 경험함."
+  experience_prev_episodes:
+    frequency: "주 2-3회"
+    trigger: "주로 새벽, 아침 공복 상태, 저녁을 거른 다음 날 아침"
+    symptoms: "불안, 심계항진, 식은땀, 손떨림, 공복감, 어지러움"
+  character_of_symptom:
+    quality: "극심한 불안과 함께 몸에 힘이 빠지는 느낌"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: "false"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "공복 상태가 길어질 때"
+      - "운동 후"
+    alleviating: "음식물, 특히 단 것을 섭취하면 빠르게 호전됨 (Whipple's triad)"
+  health_check_history:
+    last_checkup: "6개월 전, 당뇨병 진단 받음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "제2형 당뇨병, 고혈압"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "혈압약 (암로디핀)"
+      - "당뇨약 (글리메피리드, 메트포르민)"
+    source: "내과 처방"
+    effect: "혈당 조절은 잘 되는 편이라고 들음"
+  social_history:
+    job: "은퇴 후 소일거리 (경비)"
+    stress: "보통 수준"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1-2회"
+      amount: "막걸리 1병"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "10년 전 금연"
+    exercise: "매일 아침 1시간씩 공원에서 운동함"
+    recent_weight_change: "최근 3개월간 2kg 증가 (증상 해소를 위해 단 것을 자주 먹게 됨)"
+  family_history: "특이사항 없음"
+  female_history: "N/A"
+physical_exam:
+  general: "전반적으로 양호한 상태. 면담 중에는 특별히 불안해 보이지 않음."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds, regular heart beat"
+  abdomen:
+    inspection: "soft, obese"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌/우 음성"
+  extremity: "no edema or tremor"
+standardized_patient_questions: "나이가 드니 몸이 이상해지는 걸까요? 혹시 심장에 문제가 있는 건 아닌지 걱정됩니다. 왜 단 걸 먹으면 괜찮아지는 건가요?"
+specific_remarks: "환자는 증상이 없을 때는 평온하지만, 증상에 대해 설명할 때는 당시의 불안감을 생생하게 표현한다. 특히 '단 것을 먹으면 씻은 듯이 낫는다'는 점을 여러 번 강조한다. 자신의 증상이 당뇨약과 관련 있을 수 있다는 생각은 전혀 하지 못하고 있다."

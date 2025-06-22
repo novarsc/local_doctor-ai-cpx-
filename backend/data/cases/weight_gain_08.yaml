@@ -1,0 +1,113 @@
+---
+chapter: "전신"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (비정형 우울증)"
+patient_info:
+  name: "김민지"
+  age: 28
+  sex: "여성"
+  presenting_complaint: "기분이 우울하고 잠만 자고 싶으며, 체중이 늘어서 내원함"
+vital_signs:
+  blood_pressure: "115/75mmHg"
+  pulse: "82회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "비정형 우울증"
+    - "갑상선 기능 저하증"
+    - "수면무호흡증"
+  necessary_tests:
+    - "정신건강의학과적 면담 및 우울증 척도 검사(BDI, HAM-D)"
+    - "갑상선 기능 검사 (TSH, free T4) 등 기질적 원인 배제"
+    - "일반 혈액 검사"
+  necessary_treatments:
+    - "항우울제(SSRI 등) 약물 치료"
+    - "정신 치료 및 인지행동치료"
+    - "규칙적인 생활습관 및 운동"
+history:
+  sex_age: "여성/28세"
+  chief_complaint_verbatim: "몇 달 전부터 계속 기분이 가라앉고 아무것도 하기 싫어요. 잠을 아무리 자도 피곤하고, 자꾸 단 거나 밀가루 음식이 당겨서 먹다 보니 살이 10kg이나 쪘어요."
+  onset: "약 3개월 전"
+  location:
+    initial: "우울감, 무기력감"
+    current: "우울감, 과다수면, 식욕 증가, 체중 증가"
+  duration:
+    onset_pattern: "남자친구와 헤어진 후 서서히"
+    recent_course: "증상 지속됨"
+  course: "3개월 전 스트레스 사건 이후 기분 저하, 흥미 상실이 시작됨. 하루 12시간 이상 잠을 자고, 특히 탄수화물 위주의 폭식을 자주 하게 되면서 체중이 급격히 증가함."
+  experience_prev_episodes:
+    frequency: "2년 전 비슷한 경험 있음"
+    trigger: "취업 실패"
+    symptoms: "우울감, 과다수면"
+  character_of_symptom:
+    quality: "온몸이 납처럼 무겁고 축 처지는 느낌"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "혼자 있을 때"
+      - "저녁 시간"
+    alleviating: "친구들을 만나거나 즐거운 일이 있을 때는 일시적으로 기분이 나아짐"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "프리랜서 디자이너"
+    stress: "최근 실연 및 업무 스트레스 많음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "전혀 하지 않음"
+    recent_weight_change: "최근 3개월간 10kg 증가"
+  family_history: "특이사항 없음"
+  female_history: "정상 월경 주기"
+physical_exam:
+  general: "전반적으로 무기력해 보이며, 시선을 잘 마주치지 않음. 위생 상태는 양호함."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "복부 비만 소견 외 특이사항 없음"
+    auscultation: "장음 정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이소견 없음. 신경학적 검사 정상."
+standardized_patient_questions: "제가 그냥 게을러서 이런 걸까요, 아니면 정말 병인 걸까요?", "약을 먹으면 기운도 나고 살도 빠질까요?"
+specific_remarks: "환자는 대화 내내 기운 없는 목소리로 말하며, 감정 표현이 적다. 자신의 상태에 대해 자책하는 모습을 보일 수 있다. '기분 좋은 일이 있으면 괜찮아진다'는 반응성 기분 변화를 명확히 표현한다."

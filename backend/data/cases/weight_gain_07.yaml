@@ -1,0 +1,112 @@
+---
+chapter: "전신"
+case_number_in_chapter: "7"
+title: "실전 모의 증례 (다낭성 난소 증후군)"
+patient_info:
+  name: "정소희"
+  age: 22
+  sex: "여성"
+  presenting_complaint: "생리가 불규칙하고 살이 쪄서 내원함"
+vital_signs:
+  blood_pressure: "125/80mmHg"
+  pulse: "78회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "다낭성 난소 증후군"
+    - "갑상선 기능 저하증"
+    - "쿠싱 증후군"
+  necessary_tests:
+    - "골반 초음파"
+    - "호르몬 검사 (테스토스테론, LH/FSH, DHEAS)"
+    - "경구 당부하 검사 (OGTT)"
+  necessary_treatments:
+    - "생활습관 교정 (체중 감량, 운동)"
+    - "경구 피임약 또는 프로게스틴 (생리 주기 조절)"
+    - "필요시 메트포르민 (인슐린 저항성 개선)"
+history:
+  sex_age: "여성/22세"
+  chief_complaint_verbatim: "고등학교 때부터 생리를 1년에 서너 번밖에 안 해요. 최근 2년 사이에 살이 15kg이나 쪘고, 얼굴에 털도 나고 여드름도 심해져서 고민이에요."
+  onset: "고등학교 시절부터"
+  location:
+    initial: "생리 불순"
+    current: "체중 증가, 다모증, 여드름 동반"
+  duration:
+    onset_pattern: "사춘기 이후 점진적 발생"
+    recent_course: "최근 2년간 체중 증가가 두드러짐"
+  course: "초경 이후 생리 주기가 계속 불규칙했고, 대학 입학 후 체중이 급격히 증가하며 다른 증상들도 심해졌다."
+  experience_prev_episodes:
+    frequency: "지속적"
+    trigger: "없음"
+    symptoms: "생리 불순, 체중 증가"
+  character_of_symptom:
+    quality: "만성적인 증상"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "스트레스"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "학업 및 외모에 대한 스트레스"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 하지 않음"
+    recent_weight_change: "최근 2년간 15kg 증가"
+  family_history: "어머니 (당뇨병), 이모 (생리 불순)"
+  female_history: "초경 14세. 이후 생리 주기가 2-3개월 이상으로 불규칙함. 희발월경."
+physical_exam:
+  general: "체질량지수(BMI) 30. 복부 비만 소견."
+  heent:
+    sclera: "not icteric"
+    oral_mucosa: "moist"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "중심성 비만 소견, 특이한 선조나 흉터는 없음."
+    auscultation: "장음 정상"
+    percussion: "Tympany"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "정상. 목과 겨드랑이 부위에 흑색가시세포증(acanthosis nigricans) 관찰됨. 턱과 윗입술 주변에 굵은 털(다모증)이 관찰됨."
+standardized_patient_questions: "제가 왜 생리도 안 하고 살만 찌는 건가요? 나중에 임신 못 하는 거 아닌가요?", "이런 증상들은 치료하면 좋아질 수 있나요?"
+specific_remarks: "환자는 자신의 외모(여드름, 다모증, 비만)에 대해 매우 민감하며, 미래의 임신 가능성에 대해 불안해한다. 수치심 때문에 증상을 이야기하기 어려워할 수 있다."

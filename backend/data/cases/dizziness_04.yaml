@@ -1,0 +1,115 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "4"
+title: "실전 모의 증례 (기립성 저혈압, Orthostatic Hypotension)"
+patient_info:
+  name: "최정길"
+  age: 78
+  sex: "남성"
+  presenting_complaint: "앉았다 일어날 때 눈앞이 캄캄해지고 어지러워요."
+vital_signs:
+  blood_pressure: "135/85mmHg (누워서 잰 혈압)"
+  pulse: "80회/분"
+  respiration: "16회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "기립성 저혈압"
+    - "약물 부작용"
+    - "자율신경계 이상 (예: 파킨슨병 초기)"
+  necessary_tests:
+    - "기립 혈압 검사 (누운 상태와 일어선 후 1분, 3분 혈압 측정)"
+    - "혈액 검사 (빈혈, 탈수 확인)"
+    - "심전도"
+  necessary_treatments:
+    - "비약물적 치료 교육 (천천히 일어나기, 압박 스타킹 착용, 충분한 수분 및 염분 섭취)"
+    - "현재 복용 중인 약물 검토 및 조절"
+    - "필요시 혈압 상승제 (fludrocortisone, midodrine 등) 고려"
+history:
+  sex_age: "남성/78세"
+  chief_complaint_verbatim: "아침에 침대에서 일어나거나, 소파에 앉았다가 일어설 때 핑 돌면서 눈앞이 하얘져요. 금방 쓰러질 것 같아요."
+  onset: "약 3개월 전부터 서서히"
+  location:
+    initial: "머릿속"
+    current: "머릿속"
+  duration:
+    onset_pattern: "점진적 발생"
+    recent_course: "최근 들어 빈도가 잦아지고 더 심해진 것 같음"
+  course: "자세를 바꿀 때만 발생하고, 수 초에서 수십 초 내에 저절로 좋아집니다. 가만히 서 있으면 괜찮아집니다."
+  experience_prev_episodes:
+    frequency: "거의 매일"
+    trigger: "누웠다 일어날 때, 앉았다 일어날 때"
+    symptoms: "아찔한 느낌, 눈앞이 캄캄해짐, 다리에 힘이 빠지는 느낌"
+  character_of_symptom:
+    quality: "주변이 도는 느낌은 아님. 그냥 아찔하고 핑 도는 느낌 (실신 전 단계)"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "자세의 갑작스러운 변화 (기립 시)"
+      - "아침에 일어날 때"
+    alleviating: "다시 앉거나 눕는 것, 가만히 서서 몇 초 기다리는 것"
+  health_check_history:
+    last_checkup: "6개월 전, 전립선 비대증 진단받음"
+    endoscopy_finding: "위축성 위염"
+  trauma_history: "2주 전 어지러워서 넘어질 뻔한 적 있음"
+  past_medical_history:
+    underlying_disease: "고혈압, 전립선 비대증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "텔미사르탄 40mg (고혈압약)"
+      - "탐스로신 0.2mg (전립선 비대증 약)"
+    source: "가정의학과, 비뇨의학과"
+    effect: "혈압, 배뇨 증상 조절됨"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: "30년 전 금연"
+    exercise: "매일 30분씩 공원 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: ""
+physical_exam:
+  general: "나이에 비해 정정한 모습이나, 움직임이 다소 느림"
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상"
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "근력 및 감각 정상"
+standardized_patient_questions: "나이가 들어서 그런 건가요? 혈압약을 먹어서 그런 건지... 약을 끊어야 하나요?"
+specific_remarks: "환자는 회전성 어지럼(vertigo)이 아니라 실신할 것 같은 느낌(pre-syncope)임을 명확히 구분하여 설명한다. 의사가 기립 혈압 측정을 위해 눕혔다가 일으켜 세우면, '어, 어지럽네'라고 말하며 잠시 휘청이는 연기를 한다. (참고: 기립 3분 후 수축기 혈압 20mmHg 이상 또는 이완기 혈압 10mmHg 이상 감소 소견이 나타남)"

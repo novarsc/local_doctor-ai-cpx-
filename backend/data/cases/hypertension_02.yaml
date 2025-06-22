@@ -1,0 +1,115 @@
+---
+chapter: "순환기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (신혈관성 고혈압)"
+patient_info:
+  name: "박지현"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "조절되지 않는 고혈압과 두통"
+vital_signs:
+  blood_pressure: "178/110mmHg"
+  pulse: "94회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "신혈관성 고혈압 (Renal artery stenosis)"
+    - "본태성 고혈압"
+    - "일차성 알도스테론증"
+  necessary_tests:
+    - "혈액 검사 (레닌, 알도스테론, 전해질, 신장 기능)"
+    - "신장 도플러 초음파"
+    - "CT 또는 MR 혈관조영술"
+  necessary_treatments:
+    - "생활 습관 교정"
+    - "혈압강하제 변경 및 추가 (ACE 억제제/ARB 등)"
+    - "경피적 혈관성형술 또는 스텐트 삽입술 고려"
+history:
+  sex_age: "여성/32"
+  chief_complaint_verbatim: "1년 전부터 혈압약을 먹는데도 혈압이 조절이 안 되고, 최근엔 머리까지 자주 아파요."
+  onset: "고혈압 진단은 1년 전, 두통은 3개월 전부터 심해짐"
+  location:
+    initial: "없음"
+    current: "양측 측두부 두통"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "혈압약을 증량했는데도 혈압이 계속 높게 측정됨"
+  course: "혈압약 복용 시작 후에도 150/90mmHg 이하로 떨어진 적이 거의 없음."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "박동성 두통"
+    nrs_score: "6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "활동 시"
+      - "스트레스"
+    alleviating: "진통제 복용 (일시적)"
+  health_check_history:
+    last_checkup: "1년 전 회사 검진에서 고혈압 처음 발견"
+    endoscopy_finding: "해당 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압 (1년 전 진단)"
+    allergies: "페니실린"
+  medication_history:
+    taken:
+      - "Amlodipine 5mg"
+      - "Losartan 50mg"
+    source: "가정의학과 의원"
+    effect: "복용 후에도 혈압이 크게 떨어지지 않음"
+  social_history:
+    job: "회사원 (마케팅)"
+    stress: "업무 강도 높고 스트레스 많은 편"
+    alcohol:
+      is_drinker: true
+      frequency: "주 1-2회"
+      amount: "와인 1-2잔/회"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "주 2회 필라테스"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "LMP: 2주 전, 주기 규칙적"
+physical_exam:
+  general: "불안한 기색의 젊은 여성, 급성 병색은 없음"
+  heent:
+    sclera: "황달 없음"
+    oral_mucosa: "촉촉함"
+  chest: "청진상 호흡음 정상, 심음 정상"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상, 우측 상복부에서 미세한 혈관 잡음(bruit) 청취됨"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "함요 부종 없음, 사지 맥박 정상"
+standardized_patient_questions: "젊은 나이에 왜 이렇게 혈압이 높은 걸까요? 콩팥에 문제가 있을 수도 있나요? 치료하면 좋아질 수 있는 거죠?"
+specific_remarks: "환자는 자신의 병이 일반적인 고혈압이 아닐 수 있다는 것에 대해 불안해한다. 복부 청진 시, 의사가 배꼽 주변을 꼼꼼히 듣는지 유의하여 관찰한다. 혈관 잡음 소견은 의사가 먼저 발견해야 하며, 환자가 먼저 언급하지 않는다."

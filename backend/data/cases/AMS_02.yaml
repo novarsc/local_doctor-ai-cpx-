@@ -1,0 +1,117 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (간성뇌증, Hepatic Encephalopathy)"
+patient_info:
+  name: "이진수"
+  age: 58
+  sex: "남성"
+  presenting_complaint: "며칠 전부터 잠을 잘 못자고 사람을 못 알아봄"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "88회/분"
+  respiration: "20회/분"
+  temperature: "37.1℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 보호자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "간성뇌증"
+    - "경막하 출혈 (만성)"
+    - "전해질 불균형 (저나트륨혈증 등)"
+  necessary_tests:
+    - "혈액 검사 (간기능, 암모니아, 전해질 수치 포함)"
+    - "복부 초음파"
+    - "뇌 CT 촬영"
+  necessary_treatments:
+    - "락툴로오스(Lactulose) 투여"
+    - "리팍시민(Rifaximin) 등 항생제 치료"
+    - "유발 요인(감염, 변비, 탈수 등) 교정"
+history:
+  sex_age: "남성/58세"
+  chief_complaint_verbatim: "남편이 며칠 전부터 밤낮이 바뀌고 자꾸 딴소리를 해요. 오늘은 저를 못 알아보네요."
+  onset: "약 4-5일 전"
+  location:
+    initial: "전신"
+    current: "전신"
+  duration:
+    onset_pattern: "서서히 발생"
+    recent_course: "점점 악화"
+  course: "4-5일 전부터 밤에 잠을 안자고 낮에 졸려하는 수면 패턴 변화가 생김. 2일 전부터 사람 이름이나 날짜를 헷갈려했고, 오늘 아침부터는 부인을 알아보지 못하고 공격적인 말을 함."
+  experience_prev_episodes:
+    frequency: "1년 전 비슷한 증상으로 입원한 적 있음"
+    trigger: "당시 변비가 심했다고 함"
+    symptoms: "혼돈, 기면"
+  character_of_symptom:
+    quality: "의식 혼돈 및 인격 변화"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: false
+      constipation: true
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "단백질 많은 식사 (3일 전 회식에서 고기를 많이 먹었다고 함)"
+      - "변비"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전 입원 시"
+    endoscopy_finding: "위 정맥류 소견 있었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "알코올성 간경변증 (5년 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Spironolactone"
+      - "Furosemide"
+      - "Propranolol"
+    source: "대학병원 소화기내과"
+    effect: "최근 약을 잘 챙겨먹지 않았다고 함."
+  social_history:
+    job: "일용직 노동자"
+    stress: "높음"
+    alcohol:
+      is_drinker: true
+      frequency: "매일"
+      amount: "소주 1-2병"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일"
+      cessation_period: ""
+    exercise: "거의 안함"
+    recent_weight_change: "최근 6개월간 5kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성 병색. 의식은 혼돈(confusion) 상태. 지남력 장애(시간, 장소, 사람) 보임. 입에서 곰팡이 냄새(fetor hepaticus)가 남."
+  heent:
+    sclera: "Icteric sclera (공막 황달) 관찰됨."
+    oral_mucosa: "건조함."
+  chest: "여성형 유방(gynecomastia) 관찰됨. 호흡음 정상."
+  abdomen:
+    inspection: "복부 팽만(distension) 및 복벽 정맥 확장(caput medusae) 관찰됨."
+    auscultation: "장음 감소."
+    percussion: "Shifting dullness 양성."
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # Asterixis (flapping tremor) 양성
+  cvat: "좌/우 음성"
+  extremity: "양쪽 하지에 함요 부종(pitting edema) ++ 관찰됨. 손바닥 홍반(palmar erythema) 보임."
+standardized_patient_questions: "남편이 왜 이러는 건가요? 치료하면 다시 원래대로 돌아올 수 있나요? 앞으로 술은 절대 못 마시는 거죠?"
+specific_remarks: "환자는 질문에 엉뚱한 대답을 하거나 화를 낸다. 양팔을 앞으로 뻗게 했을 때 손목을 떠는 flapping tremor(asterixis)를 명확히 연기해야 한다. 보호자인 부인이 주로 대화에 참여한다."

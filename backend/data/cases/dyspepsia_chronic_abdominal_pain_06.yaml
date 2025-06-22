@@ -1,0 +1,114 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "6"
+title: "실전 모의 증례 (위암)"
+patient_info:
+  name: "김영철"
+  age: 67
+  sex: "남성"
+  presenting_complaint: "최근 발생한 소화불량과 의도치 않은 체중 감소"
+vital_signs:
+  blood_pressure: "115/70mmHg"
+  pulse: "85회/분"
+  respiration: "20회/분"
+  temperature: "36.4℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "위암 (Gastric cancer)"
+    - "소화성 궤양 (악성 궤양)"
+    - "만성 위축성 위염"
+  necessary_tests:
+    - "상부위장관 내시경 및 조직검사 (가장 중요)"
+    - "복부 및 흉부 CT (병기 설정을 위해)"
+    - "전혈구 검사 (빈혈 확인), 종양 표지자 검사 (CEA, CA19-9)"
+  necessary_treatments:
+    - "병기에 따른 치료 계획 수립 (수술, 항암화학요법, 방사선 치료 등)"
+    - "영양 상태 개선 및 지지 요법"
+    - "다학제적 접근 (소화기내과, 외과, 종양내과 등 협진)"
+history:
+  sex_age: "남성/67"
+  chief_complaint_verbatim: "서너 달 전부터 소화가 영 안되고 속이 더부룩해. 입맛도 없고, 밥을 별로 안 먹었는데도 살이 6kg나 빠졌어."
+  onset: "약 4개월 전"
+  location:
+    initial: "상복부 전반"
+    current: "상복부 전반"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 심해짐. 최근에는 어지럽고 기운이 없음"
+  course: "지속적으로 악화되는 양상"
+  experience_prev_episodes:
+    frequency: "이번이 처음임"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "불편하고 답답한 느낌, 때때로 은근한 통증"
+    nrs_score: "3"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "가끔 소화 안 된 음식물"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 후"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "10년도 더 됨"
+    endoscopy_finding: "젊었을 때 한 번 해보고 안 함. 그때 위염이 있다고 들었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "은퇴 후 무직"
+    stress: "별로 없음"
+    alcohol:
+      is_drinker: true
+      frequency: "주 3-4회"
+      amount: "막걸리 1병/회"
+    smoking:
+      is_smoker: true
+      amount: "1갑/일 (40년 이상)"
+      cessation_period: ""
+    exercise: "가벼운 산책"
+    recent_weight_change: "최근 4개월간 6kg 감소"
+  family_history: "형님이 위암으로 수술받으심"
+  female_history: ""
+physical_exam:
+  general: "전반적으로 쇠약해 보이고, 피부와 점막이 창백함"
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "pale and dry"
+  chest: "clear breath sounds"
+  abdomen:
+    inspection: "scaphoid, symmetric"
+    auscultation: "normoactive bowel sounds"
+    percussion: "tympanic"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      epigastric_area: "firm, non-tender, ill-defined mass is palpable"
+  cvat: "좌/우 음성"
+  extremity: "no edema"
+standardized_patient_questions: "나이 들어서 소화가 안되나 했는데, 왜 이렇게 살이 빠지는 걸까요? 그냥 약 먹고 기운 차리면 안될까요? 꼭 큰 병원에 가봐야 하나요?"
+specific_remarks: "환자는 '의도치 않은 체중 감소'와 '식욕 부진'이라는 경고 증상을 명확히 전달해야 한다. 신체 진찰 시 창백한 결막(pale conjunctiva)과 상복부에서 만져지는 단단한 종괴 소견이 중요하다. 자신의 증상을 대수롭지 않게 여기려는 태도를 보이지만, 내심 불안해하는 모습을 연기한다."

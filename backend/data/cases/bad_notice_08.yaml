@@ -1,0 +1,108 @@
+---
+chapter: "상담"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (특발성 폐섬유증, IPF)"
+patient_info:
+  name: "박상철"
+  age: 68
+  sex: "남성"
+  presenting_complaint: "숨이 차는 증상에 대한 검사 결과 문의"
+vital_signs:
+  blood_pressure: "135/85mmHg"
+  pulse: "90회/분"
+  respiration: "24회/분"
+  temperature: "36.6℃"
+examinee_instructions: "환자는 1년 전부터 점차 심해지는 마른기침과 운동 시 호흡곤란으로 내원하여 흉부 CT 및 폐기능 검사를 시행했습니다. 첨부된 결과지(양쪽 폐하엽의 벌집허파(honeycombing) 소견, 폐기능 검사상 제한성 환기장애)를 바탕으로, 환자에게 특발성 폐섬유증 진단을 알리고 향후 치료 및 예후에 대해 설명하십시오."
+patient_education:
+  probable_diagnoses:
+    - "특발성 폐섬유증 (IPF)"
+    - "과민성 폐렴"
+    - "결합조직질환 관련 간질성 폐질환"
+  necessary_tests:
+    - "혈액검사 (류마티스 인자 등 자가면역질환 감별)"
+    - "6분 보행검사 (운동 능력 및 산소포화도 평가)"
+    - "기관지폐포세척술 또는 폐조직검사 (진단이 불확실할 경우)"
+  necessary_treatments:
+    - "항섬유화 제제 (피르페니돈 또는 닌테다닙) 투여"
+    - "저산소혈증 발생 시 산소치료"
+    - "호흡 재활 프로그램 참여 및 폐렴구균/인플루엔자 예방접종"
+history:
+  sex_age: "남성/68세"
+  chief_complaint_verbatim: "점점 숨이 차서 검사를 했는데, 폐에 무슨 문제가 있는 건가요?"
+  onset: "약 1년 전"
+  location:
+    initial: "없음"
+    current: "없음"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "계속 나빠짐"
+  course: "1년 전부터 마른기침이 계속 나고, 언덕을 오를 때 숨이 차기 시작했습니다. 요즘에는 가만히 있어도 숨이 가쁘고, 밤에 기침 때문에 잠을 설치기도 합니다. 감기도 아닌데 이상합니다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "없음"
+    symptoms: "없음"
+  character_of_symptom:
+    quality: "숨쉬기 힘든 느낌"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "걷거나 계단을 오를 때"
+      - "말을 많이 할 때"
+    alleviating: "가만히 앉아 있을 때"
+  health_check_history:
+    last_checkup: "3년 전"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "역류성 식도염"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "위산분비억제제"
+    source: "가정의학과"
+    effect: "속쓰림은 호전"
+  social_history:
+    job: "은퇴 (전직 교사)"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "하루 한 갑"
+      cessation_period: "40년 흡연"
+    exercise: "숨이 차서 거의 못함"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "안정 시에도 약간의 호흡곤란. 입술이 약간 파랗게 보임(청색증)."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "양쪽 폐 밑부분에서 흡기 시 벨크로 소리(velcro-like crackle) 청진됨"
+  abdomen: "정상"
+  cvat: "양측 음성"
+  extremity: "손가락 끝이 뭉툭해짐 (곤봉지, clubbing)"
+standardized_patient_questions: "폐가 굳는 병이라고요? 그게 무슨 말입니까? 그럼 점점 숨을 못 쉬게 된다는 건가요? 치료하면 낫는 병이 아닙니까? 폐 이식 말고는 방법이 없다는 게 사실인가요?"
+specific_remarks: "환자는 진단명을 잘 이해하지 못하고 반복해서 되묻는다. '폐가 돌처럼 굳는다'는 사실에 큰 충격을 받고 공포에 질린다. 치료가 병의 진행을 늦출 뿐 완치시키는 것이 아니라는 설명에 크게 낙담한다. 예후에 대해 직접적으로 물으며, 남은 삶 동안의 삶의 질에 대해 매우 비관적인 태도를 보인다."

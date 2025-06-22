@@ -1,0 +1,108 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "10"
+title: "실전 모의 증례 (투렛 증후군)"
+patient_info:
+  name: "김철수"
+  age: 15
+  sex: "남성"
+  presenting_complaint: "눈을 깜빡이고 어깨를 들썩이며 이상한 소리를 냄"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "80회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자(및 보호자)와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "투렛 증후군"
+    - "만성 운동 또는 음성 틱장애"
+    - "일과성 틱장애"
+  necessary_tests:
+    - "자세한 병력 청취 및 증상 관찰"
+    - "주의력결핍 과잉행동장애(ADHD), 강박장애(OCD) 등 동반 질환 평가"
+    - "뇌 영상 검사 (다른 기질적 원인이 의심될 경우)"
+  necessary_treatments:
+    - "환자 및 가족 교육, 행동 치료 (이완 훈련, 습관 역전 훈련)"
+    - "약물 치료 (틱이 심해 일상생활에 지장이 클 경우)"
+    - "동반 질환에 대한 치료"
+history:
+  sex_age: "남성/15세"
+  chief_complaint_verbatim: "(보호자) 우리 애가 초등학생 때부터 눈을 자꾸 깜빡였는데, 요즘은 어깨를 으쓱거리고 '킁킁'거리는 헛기침 소리까지 내요. 본인은 안 그러고 싶은데 저절로 나온다고 하고, 학교에서 친구들이 놀려서 힘들어해요."
+  onset: "7-8세 경 눈 깜빡임으로 시작"
+  location:
+    initial: "눈"
+    current: "얼굴, 목, 어깨 (운동틱), 코, 목 (음성틱)"
+  duration:
+    onset_pattern: "점진적 증상 변화"
+    recent_course: "증상의 종류와 강도가 변동함"
+  course: "초기에는 눈 깜빡임, 얼굴 찡그리기 등 단순 운동틱으로 시작. 이후 어깨 들썩임 등 복합 운동틱과 킁킁거림, 헛기침 같은 음성틱이 추가됨. 증상은 좋아졌다가 나빠지기를 반복함."
+  experience_prev_episodes:
+    frequency: "매일, 수시로"
+    trigger: "긴장, 흥분, 스트레스"
+    symptoms: "다양한 운동틱과 음성틱"
+  character_of_symptom:
+    quality: "반복적이고 불수의적인 움직임과 소리. 잠시 동안은 의식적으로 참을 수 있으나, 이후 더 심하게 나타남."
+    nrs_score: "불편감 및 스트레스 8점"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시험 기간, 발표 등 스트레스 상황"
+      - "피곤할 때"
+    alleviating: "집중하는 활동(게임, 운동)을 할 때, 잠잘 때"
+  health_check_history:
+    last_checkup: "1년 전, 정상"
+    endoscopy_finding: ""
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "주의력결핍 과잉행동장애(ADHD) 의심 소견 (초등학교 때)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "중학생"
+    stress: "교우 관계 및 학업 스트레스 높음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "농구 좋아함"
+    recent_weight_change: "없음"
+  family_history: "아버지가 어릴 때 비슷한 증상이 있었다가 저절로 좋아졌다고 함."
+  female_history: ""
+physical_exam:
+  general: "면담 중 반복적으로 눈을 세게 깜빡이고, 고개를 까딱이며, '킁'하는 소리를 냄. 전반적인 신경학적 진찰에서 다른 이상 소견은 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  cvat: "좌우 음성"
+  extremity: "근력, 감각, 반사 모두 정상. 불수의적인 틱 움직임 외에 떨림, 경직, 무도증 등 다른 이상운동은 관찰되지 않음."
+standardized_patient_questions: "(환자) 제가 왜 이러는지 모르겠어요. 멈추고 싶은데 잘 안돼요. 친구들이 자꾸 따라 해서 창피해요. 이거 병인가요? 치료하면 없어지나요?"
+specific_remarks: "환자는 면담 내내 불안해하며, 불수의적인 틱을 연기해야 한다. 단순 운동틱(눈 깜빡임, 코 찡긋)과 음성틱(킁킁거림, 헛기침)을 불규칙하게 섞어서 보여준다. '잠깐 참아볼 수 있겠니?'라는 질문에 몇 초간 참는 모습을 보이다가, 이후 더 심한 틱을 연기하는 것이 중요하다. 보호자는 아이의 증상에 대해 걱정하고 안쓰러워하는 태도를 보인다."

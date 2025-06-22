@@ -1,0 +1,123 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "14"
+title: "실전 모의 증례 (태반조기박리)"
+patient_info:
+  name: "오세영"
+  age: 36
+  sex: "여성"
+  presenting_complaint: "임신 35주, 갑작스러운 복통과 질출혈"
+vital_signs:
+  blood_pressure: "150/95mmHg"
+  pulse: "110회/분"
+  respiration: "22회/분"
+  temperature: "37.0℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "태반조기박리 (Abruptio placentae)"
+    - "전치태반 (Placenta previa)"
+    - "자궁 파열 (Uterine rupture)"
+  necessary_tests:
+    - "응급 복부 초음파 검사"
+    - "태아 심박동 연속 감시 (Continuous fetal monitoring)"
+    - "일반 혈액 검사 (CBC), 혈액응고검사 (Coagulation profile), 혈액형 교차반응검사"
+  necessary_treatments:
+    - "산모와 태아의 상태에 따라 즉각적인 분만 결정 (주로 응급 제왕절개술)"
+    - "산모의 활력징후 안정을 위한 수액 및 수혈"
+    - "산소 공급"
+history:
+  sex_age: "여성/36"
+  chief_complaint_verbatim: "임신 35주인데, 한 시간 전부터 갑자기 배가 찢어질 듯이 아프고 피가 나와요. 배가 딱딱하게 뭉치고 허리도 너무 아파요."
+  onset: "1시간 전"
+  location:
+    initial: "복부 전체"
+    current: "복부 전체 및 허리"
+  duration:
+    onset_pattern: "급성, 매우 갑작스러움"
+    recent_course: "통증이 완화되지 않고 지속됨"
+  course: "한 시간 전, 특별한 이유 없이 갑자기 배 전체에 극심한 통증이 시작되었다. 통증과 함께 검붉은 색의 질출혈이 있었고, 배가 나무판자처럼 단단하게 뭉치는 느낌이 들면서 숨쉬기도 약간 힘들다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "칼로 찢는 듯한 지속적인 복부 통증, 암적색 질출혈"
+    nrs_score: "10"
+    radiation: "등, 허리"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: true
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음 (지속적 통증)"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1주 전 정기 산전 진찰"
+    endoscopy_finding: "임신성 고혈압으로 경과 관찰 중이었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "임신성 고혈압 (4주 전 진단)"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "주부"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: true
+      amount: "임신 전 하루 반 갑, 임신 후 하루 2-3개비로 줄임"
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "정상적 임신 체중 증가"
+  family_history: "특이사항 없음"
+  female_history:
+    menarche: "13세"
+    menstrual_cycle: "규칙적"
+    duration: "6일"
+    amount: "보통"
+    lmp: "35주 전"
+    gpa: "3-1-1-2"
+    sexual_partner: "배우자 1명"
+    contraception: ""
+physical_exam:
+  general: "극심한 통증으로 안절부절못하며 식은땀을 흘림. 급성 병색."
+  heent:
+    sclera: "anicteric"
+    oral_mucosa: "dry"
+  chest: "호흡이 빠르고 얕음. 심박수 빠름."
+  abdomen:
+    inspection: "임신 35주에 맞는 자궁 크기."
+    auscultation: "태아 심음이 약하게 들리거나 소실됨 (fetal bradycardia or absent FHR)."
+    percussion: "고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 자궁이 나무판자처럼 단단하고(board-like rigidity), 극심한 압통을 호소함. 자궁의 윤곽이 불분명하게 만져질 수 있음.
+      # 질경 검사 시: 암적색의 혈액이 소량 흘러나옴.
+  cvat: "좌/우 양성 (허리 통증으로 인해)"
+  extremity: "부종 약간 있음"
+standardized_patient_questions: "배가 너무 아파서 죽을 것 같아요. 왜 이러는 건가요? 아기는 괜찮아요? 빨리 어떻게 좀 해주세요."
+specific_remarks: "통증을 매우 격렬하게 표현하며, 진찰 시 몸에 손대는 것을 힘들어한다. 숨을 가쁘게 몰아쉬며, 태아의 안위에 대해 물을 경황도 없이 고통을 호소하는 데 집중한다. '고혈압', '흡연'과 같은 위험요인에 대해 물으면 잘 모르겠다고 하거나 짧게 대답한다."

@@ -1,0 +1,115 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (위 마비)"
+patient_info:
+  name: "이지연"
+  age: 55
+  sex: "여성"
+  presenting_complaint: "밥만 먹으면 더부룩하고 토해요"
+vital_signs:
+  blood_pressure: "140/90mmHg"
+  pulse: "88회/분"
+  respiration: "18회/분"
+  temperature: "36.6℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "당뇨병성 위 마비 (Gastroparesis)"
+    - "위 출구 폐쇄"
+    - "기능성 소화불량"
+  necessary_tests:
+    - "위 배출 시간 검사 (Gastric emptying scan)"
+    - "위내시경 (기질적 폐쇄 감별)"
+    - "혈액검사 (혈당 조절 상태 확인 - HbA1c)"
+  necessary_treatments:
+    - "엄격한 혈당 조절"
+    - "소량의 저지방, 저섬유식 자주 섭취"
+    - "위장 운동 촉진제 복용"
+    - "증상 심할 시 비위관 또는 위루관을 통한 영양 공급"
+history:
+  sex_age: "여성/55"
+  chief_complaint_verbatim: "몇 달 전부터 밥을 조금만 먹어도 배가 꽉 찬 것 같고, 몇 시간 지나서 소화도 안 된 음식을 그대로 토해요."
+  onset: "약 4-5개월 전"
+  location:
+    initial: "윗배"
+    current: "윗배"
+  duration:
+    onset_pattern: "점진적"
+    recent_course: "점점 심해져서 식사하기가 두려울 정도임"
+  course: "초기에는 식후 포만감과 더부룩함이 주 증상이었음. 2개월 전부터는 식후 3-4시간 뒤에 구토하는 일이 잦아짐. 구토물은 오전에 먹은 음식이 저녁에 나올 정도로 소화가 안 된 형태임. 이로 인해 체중이 감소함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "불쾌한 포만감, 복부 팽만감"
+    nrs_score: "5"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: true
+    gastrointestinal:
+      anorexia: true
+      nausea: true
+      vomiting: "식후 수 시간이 지나서 소화되지 않은 음식물"
+      constipation: true
+      diarrhea: false
+      heartburn: true
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "식사 (특히 고형식, 기름진 음식)"
+    alleviating: "식사를 거르면 속이 편함"
+  health_check_history:
+    last_checkup: "1년 전 당뇨 합병증 검사"
+    endoscopy_finding: "2년 전 위내시경에서 특이소견 없었음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "20년 전 진단받은 제2형 당뇨병 (인슐린 치료 중), 당뇨병성 망막병증 및 신경병증 있음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "인슐린 주사, 고혈압약, 고지혈증약"
+    source: "대학병원 내분비내과"
+    effect: "혈당 조절이 잘 안되는 편"
+  social_history:
+    job: "주부"
+    stress: "별로 없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "혈당 높을 때 가볍게 산책"
+    recent_weight_change: "최근 4개월간 6kg 감소"
+  family_history: "친정어머니, 언니 당뇨병"
+  female_history: "5년 전 폐경"
+physical_exam:
+  general: "만성 병색, 약간 마른 체형. 의식 명료."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "특이 소견 없음"
+  abdomen:
+    inspection: "편평함"
+    auscultation: "정상 장음"
+    percussion: "특이 소견 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      succussion_splash: true # 진탕음 양성
+  cvat: "양측 음성"
+  extremity: "양쪽 발 감각 저하 (당뇨병성 신경병증 소견)"
+standardized_patient_questions: "왜 이렇게 소화가 안 될까요? 위암 같은 나쁜 병은 아니겠죠? 당뇨랑 관련이 있는 건가요? 밥을 못 먹겠는데 어떻게 하죠?"
+specific_remarks: "환자는 식사에 대한 두려움을 호소한다. 의사가 환자의 상복부를 잡고 흔들었을 때(succussion splash), '배에서 물소리가 난다'고 표현하면 양성으로 간주한다. 체중 감소에 대해 매우 걱정스러운 태도를 보인다."

@@ -1,0 +1,115 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (페닐케톤뇨증)"
+patient_info:
+  name: "조은서"
+  age: 1
+  sex: "여성"
+  presenting_complaint: "발달이 늦고 피부에 습진이 심함"
+vital_signs:
+  blood_pressure: "85/50mmHg"
+  pulse: "120회/분"
+  respiration: "30회/분"
+  temperature: "36.7℃"
+examinee_instructions: "아이가 발달이 늦고 경련을 한다는 주소로 내원한 보호자의 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "페닐케톤뇨증 (PKU)"
+    - "기타 선천성 대사 이상 질환"
+    - "뇌성마비 및 아토피 피부염 동반"
+  necessary_tests:
+    - "혈중 아미노산 분석 (페닐알라닌 농도 측정)"
+    - "소변 유기산 분석"
+    - "신생아 대사 이상 선별검사 결과 재확인"
+  necessary_treatments:
+    - "즉각적인 저페닐알라닌 특수분유 및 식이요법 시작"
+    - "정기적인 혈중 페닐알라닌 농도 추적 관찰"
+    - "신경 발달 평가 및 재활 치료"
+history:
+  sex_age: "여성/1세(12개월)"
+  chief_complaint_verbatim: "(보호자) 애가 돌이 다 됐는데 앉지도 못하고, 며칠 전에는 갑자기 몸을 뻣뻣하게 떨면서 경련을 했어요. 피부도 너무 안 좋고, 소변에서 이상한 냄새가 나요."
+  onset: "생후 3-4개월경부터 발달 지연이 관찰됨"
+  location:
+    initial: "전신 발달, 피부"
+    current: "전신 발달, 피부, 신경계"
+  duration:
+    onset_pattern: "점진적 악화"
+    recent_course: "최근 발달 퇴행 양상을 보이며, 처음으로 경련을 함"
+  course: "외국에서 출생하여 생후 6개월에 귀국했다. 출생 당시 신생아 대사 이상 선별검사는 시행하지 않았다. 귀국 후 한국에서 예방접종을 시작했다. 처음에는 순한 아기라고 생각했는데, 개월 수가 차도 목 가누기나 뒤집기를 제대로 하지 못했다. 피부에 습진이 심하게 생겨 아토피인 줄 알고 보습제만 발라주었다. 머리카락 색이 부모와 달리 옅은 갈색이다. 최근 며칠 전, 자다가 갑자기 온몸을 부르르 떠는 경련을 2-3분간 하여 응급실에 다녀왔다."
+  experience_prev_episodes:
+    frequency: "해당 없음"
+    trigger: "해당 없음"
+    symptoms: "해당 없음"
+  character_of_symptom:
+    quality: "경련"
+    nrs_score: "0"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: "자주"
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "특별히 없음"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "없음"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "신생아 대사 이상 선별검사 받지 않음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "없음"
+    source: ""
+    effect: ""
+  social_history:
+    job: "영아"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "발달 지연으로 활동 불가"
+    recent_weight_change: "성장 부진"
+  family_history: "특이 가족력 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "심각한 전반적 발달 지연. 자극에 대한 반응이 거의 없음. 몸에서 쥐오줌 냄새 또는 곰팡이 냄새(mousy odor)가 남."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+    hair: "색이 옅고(hypopigmentation), 피부도 하얀 편."
+  chest: "청진상 특이 소견 없음."
+  abdomen:
+    inspection: "편평함"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "전신 근긴장도 항진. 심부건반사 항진."
+  skin: "전신에 심한 습진성 병변 관찰됨."
+standardized_patient_questions: "우리 아이가 왜 이러나요? 경련은 왜 한 거죠? 뇌에 문제가 생긴 건가요? 치료하면 다시 정상으로 돌아올 수 있나요? 평생 이렇게 살아야 하나요?"
+specific_remarks: "보호자는 아이의 심각한 상태와 경련 경험으로 인해 극도로 불안하고 죄책감을 느낀다. '신생아 검사'를 받지 않은 사실을 알게 되면, 그것 때문에 아이가 이렇게 된 것은 아닌지 자책하며 절망적인 반응을 보인다."

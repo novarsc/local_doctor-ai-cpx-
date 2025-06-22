@@ -1,0 +1,114 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "9"
+title: "실전 모의 증례 (급성 허혈성 뇌졸중 후 발작)"
+patient_info:
+  name: "최경희"
+  age: 72
+  sex: "여성"
+  presenting_complaint: "갑자기 말이 어눌해지고 오른쪽 팔다리에 힘이 빠진 후 경련"
+vital_signs:
+  blood_pressure: "170/100mmHg"
+  pulse: "98회/분 (불규칙, AF)"
+  respiration: "20회/분"
+  temperature: "36.9℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "급성 허혈성 뇌졸중 (색전성)에 동반된 발작"
+    - "뇌출혈에 동반된 발작"
+    - "뇌종양"
+  necessary_tests:
+    - "뇌 컴퓨터 단층촬영 (Brain CT, 출혈 감별)"
+    - "뇌 자기공명영상 (Brain MRI/MRA, 뇌경색 확인)"
+    - "심전도 및 심장초음파 (색전 원인 평가)"
+  necessary_treatments:
+    - "필요시 혈전용해술 또는 혈관 내 재개통술 고려"
+    - "항경련제 투여"
+    - "항혈소판제 또는 항응고제 치료, 뇌졸중 재발 방지"
+history:
+  sex_age: "여성/72"
+  chief_complaint_verbatim: "갑자기 말이 잘 안 나오고 오른쪽 팔을 못 쓰겠다고 하시더니, 갑자기 경련을 했어요."
+  onset: "내원 1시간 전"
+  location:
+    initial: "우측 팔다리, 언어"
+    current: "전신"
+  duration:
+    onset_pattern: "갑작스럽게"
+    recent_course: "우측 편마비 및 실어증 발생 후 약 10분 뒤, 우측 팔부터 시작하여 전신으로 퍼지는 경련이 1분간 발생함."
+  course: "TV를 보던 중 갑자기 말이 어눌해지고(언어상실증), 오른쪽 팔다리에 힘이 빠져 컵을 떨어뜨렸다. 가족이 119에 신고하던 중, 갑자기 오른쪽 팔부터 떨기 시작하더니 전신 경련으로 이어졌다. 응급실 도착 후에도 의식이 완전히 회복되지 않고, 말을 잘 하지 못함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "급성 신경학적 결손(편마비, 실어증) 후 발생한 발작"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "시간이 지나도 호전 없음"
+    alleviating: "없음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 심방세동"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "Valsartan 80mg"
+      - "Aspirin 100mg"
+    source: "내과 의원"
+    effect: "최근 약을 잘 챙겨 드시지 못했다고 함"
+  social_history:
+    job: "무직"
+    stress: "보통"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "거의 안 함"
+    recent_weight_change: "없음"
+  family_history: "오빠가 뇌졸중으로 쓰러진 적 있음"
+  female_history: "폐경"
+physical_exam:
+  general: "의식은 있으나 자극에 느리게 반응하며, 질문을 잘 이해하지 못하는 듯 보임 (Global aphasia). 지시에 잘 따르지 못함."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "심음이 불규칙하게 들림 (Irregularly irregular). 호흡음 정상."
+  abdomen:
+    inspection: "정상"
+    auscultation: "정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 정상
+  cvat: "좌우 음성"
+  extremity: "오른쪽 상하지의 현저한 근력 저하 (Motor grade 1-2/5). 오른쪽 Babinski sign 양성. 왼쪽은 정상."
+standardized_patient_questions: "어머니 괜찮으신 건가요? 뇌졸중인가요? 후유증이 남나요?"
+specific_remarks: "환자는 실어증 상태로, '어...어...' 같은 소리만 낼 수 있다. 오른쪽 팔다리를 전혀 움직이지 못하는 모습을 보인다. 모든 병력 청취 및 설명은 보호자인 딸에게 이루어져야 한다. 보호자는 어머니의 상태에 매우 불안해하며, 치료 예후에 대해 반복적으로 질문한다."

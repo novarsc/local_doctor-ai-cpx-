@@ -1,0 +1,114 @@
+---
+chapter: "상담"
+case_number_in_chapter: "1"
+title: "실전 모의 증례 (외상 후 스트레스 장애)"
+patient_info:
+  name: "김지수"
+  age: 22
+  sex: "여성"
+  presenting_complaint: "한 달 전부터 잠을 못 자고 자꾸 놀람"
+vital_signs:
+  blood_pressure: "130/85mmHg"
+  pulse: "92회/분"
+  respiration: "18회/분"
+  temperature: "36.7℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "외상 후 스트레스 장애 (Post-traumatic stress disorder, PTSD)"
+    - "급성 스트레스 장애 (Acute stress disorder)"
+    - "불안을 동반한 주요 우울장애 (Major depressive disorder with anxious distress)"
+  necessary_tests:
+    - "정신건강의학과적 면담 및 평가 (PCL-5 등 척도 검사 포함)"
+    - "갑상선 기능 검사 (신체적 원인 감별)"
+    - "일반혈액검사 및 생화학 검사"
+  necessary_treatments:
+    - "정신치료 (인지행동치료, 안구 운동 민감소실 및 재처리 요법 등)"
+    - "약물치료 (선택적 세로토닌 재흡수 억제제 등)"
+    - "해바라기센터 등 사회적 지지체계 연계 및 안전 확보 계획"
+history:
+  sex_age: "여성/22"
+  chief_complaint_verbatim: "요즘 밤에 잠을 통 못 자겠어요. 자꾸 그 일이 생각나고, 작은 소리에도 깜짝깜짝 놀라요."
+  onset: "약 1개월 전"
+  location:
+    initial: "전신적 느낌"
+    current: "전신적 느낌"
+  duration:
+    onset_pattern: "점진적 발병"
+    recent_course: "점점 심해짐"
+  course: "한 달 전 헤어진 남자친구에게 폭행을 당한 이후, 잠들기 어렵고 자다가도 악몽 때문에 자주 깬다. 길을 걷다가 비슷한 사람만 봐도 심장이 두근거리고, 그 당시 상황이 자꾸 떠올라 힘들다. 그 일이 있었던 장소 근처에는 가지 못한다."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "불안하고, 가슴이 두근거리고, 항상 긴장되는 느낌"
+    nrs_score: "7"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "혼자 있을 때"
+      - "밤이 될 때"
+      - "뉴스에서 폭력 관련 소식을 접할 때"
+    alleviating: "친한 친구와 함께 있을 때"
+  health_check_history:
+    last_checkup: "2년 전 학생 검진"
+    endoscopy_finding: "특이소견 없음"
+  trauma_history: "한 달 전 남자친구에 의한 폭행 외 없음"
+  past_medical_history:
+    underlying_disease: "없음"
+    allergies: "없음"
+  medication_history:
+    taken: []
+    source: ""
+    effect: ""
+  social_history:
+    job: "대학생"
+    stress: "매우 높음"
+    alcohol:
+      is_drinker: true
+      frequency: "과거 주 1회"
+      amount: "최근에는 잠을 자기 위해 거의 매일 소주 반 병 정도 마심"
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "최근 한 달간 거의 못 함"
+    recent_weight_change: "약 3kg 감소"
+  family_history: "특이사항 없음"
+  female_history: "LMP 2주 전, 주기 규칙적"
+physical_exam:
+  general: "불안해 보이며 전반적으로 위축된 모습. 대화 중 자주 주변을 두리번거림."
+  heent:
+    sclera: "icteric sclera 없음"
+    oral_mucosa: "건조하지 않음"
+  chest: "호흡음 깨끗함"
+  abdomen:
+    inspection: "특이소견 없음"
+    auscultation: "장음 정상"
+    percussion: "공명음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "음성/음성"
+  extremity: "사지에 오래된 멍 자국이 희미하게 관찰됨"
+standardized_patient_questions: "제가 정신병에 걸린 건가요? 이거 약 먹어야 하나요? 그 사람이 또 찾아올까 봐 너무 무서워요."
+specific_remarks: "의사가 폭력에 대해 질문할 때 처음에는 부인하거나 얼버무리다가, 안심시켜주면 울면서 털어놓도록 연기한다. 문이 열리는 소리 등 갑작스러운 소음에 깜짝 놀라는 모습을 보인다."

@@ -1,0 +1,116 @@
+---
+chapter: "소화기"
+case_number_in_chapter: "2"
+title: "실전 모의 증례 (게실 출혈)"
+patient_info:
+  name: "박영숙"
+  age: 72
+  sex: "여성"
+  presenting_complaint: "갑자기 많은 양의 혈변을 봄"
+vital_signs:
+  blood_pressure: "100/60mmHg"
+  pulse: "105회/분"
+  respiration: "20회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "게실 출혈"
+    - "혈관이형성증"
+    - "허혈성 대장염"
+  necessary_tests:
+    - "전혈구 검사 (CBC), 혈액형 검사, 혈액응고 검사"
+    - "응급 대장내시경"
+    - "복부 CT 혈관조영술 (필요시)"
+  necessary_treatments:
+    - "정맥 수액 공급 및 수혈"
+    - "내시경적 지혈술"
+    - "필요시 색전술 또는 수술적 치료"
+history:
+  sex_age: "여성/72세"
+  chief_complaint_verbatim: "오늘 아침에 화장실에 갔는데, 갑자기 변기 가득 피가 나왔어요. 통증은 하나도 없었는데 너무 놀랐어요."
+  onset: "내원 당일 아침"
+  location:
+    initial: "하복부 전반적인 느낌"
+    current: "하복부 전반적인 느낌"
+  duration:
+    onset_pattern: "급성"
+    recent_course: "1회 대량의 혈변 후 지속적인 변의를 느낌"
+  course: "평소처럼 아침에 화장실에 갔는데, 통증 없이 다량의 검붉은 피가 섞인 변을 보았다. 이후 어지러움을 느껴 119를 통해 내원함."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: "NA"
+    symptoms: "NA"
+  character_of_symptom:
+    quality: "통증이 동반되지 않은 다량의 검붉은색 또는 선홍색 혈변"
+    nrs_score: 0
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: false
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "누워있으면 어지러움이 약간 나아짐"
+  health_check_history:
+    last_checkup: "2년 전"
+    endoscopy_finding: "10년 전 대장내시경에서 게실이 여러 개 있다는 이야기를 들었음."
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 고지혈증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "아스피린 100mg"
+      - "아토르바스타틴 10mg"
+      - "암로디핀 5mg"
+    source: "내과 의원 처방"
+    effect: "혈압 조절 잘 됨"
+  social_history:
+    job: "주부"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: "NA"
+      amount: "NA"
+    smoking:
+      is_smoker: false
+      amount: "NA"
+      cessation_period: "NA"
+    exercise: "주 3회 동네 산책"
+    recent_weight_change: "없음"
+  family_history: "특이사항 없음"
+  female_history: "25년 전 폐경"
+physical_exam:
+  general: "창백하고 불안해 보임. 식은땀을 약간 흘림."
+  heent:
+    sclera: "결막이 창백함"
+    oral_mucosa: "약간 건조함"
+  chest: "호흡음 정상, 빈맥 외 심잡음 없음"
+  abdomen:
+    inspection: "편평하고 흉터 없음"
+    auscultation: "장음 약간 항진"
+    percussion: "정상 공명음, 압통 없음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      # 전반적으로 부드러우나 약간의 팽만감, 압통 및 반발압통 없음
+  cvat: "좌우 음성"
+  extremity: "부종 없음, 손발이 차가움"
+standardized_patient_questions: "왜 아프지도 않은데 피가 이렇게 많이 나나요? 지금 당장 어떻게 해야 하나요?"
+specific_remarks: "환자는 어지러움을 호소하며, 목소리에 힘이 없고 불안한 기색을 보인다. 출혈량에 대해 매우 놀란 상태를 연기한다."

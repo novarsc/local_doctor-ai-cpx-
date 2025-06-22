@@ -1,0 +1,110 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "22"
+title: "실전 모의 증례 (수면두통)"
+patient_info:
+  name: "박종칠"
+  age: 75
+  sex: "남성"
+  presenting_complaint: "밤에 잠을 자다가 두통 때문에 깨는 증상"
+vital_signs:
+  blood_pressure: "140/80mmHg"
+  pulse: "68회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "수면두통 (Hypnic Headache)"
+    - "두개내 병변 (뇌종양 등)에 의한 두통"
+    - "수면 무호흡증 관련 두통"
+  necessary_tests:
+    - "뇌 MRI (고령에서 야간에 발생하는 새로운 두통이므로, 기질적 원인 배제 필수)"
+    - "수면다원검사 (수면 무호흡증 감별)"
+    - "혈압 모니터링"
+  necessary_treatments:
+    - "취침 전 카페인 섭취 (커피 한 잔 또는 카페인 정제)"
+    - "약물 치료: 리튬(Lithium), 인도메타신(Indomethacin) 등"
+    - "기질적 원인이 배제된 후 치료 시작"
+history:
+  sex_age: "남성/75"
+  chief_complaint_verbatim: "요즘 꼭 밤에 잠만 자면 머리가 아파서 깨요. 매일 비슷한 시간에 그러네요. 낮에는 멀쩡한데 밤마다 이러니 잠을 설쳐서 피곤해 죽겠어요."
+  onset: "약 3개월 전"
+  location:
+    initial: "머리 전체"
+    current: "머리 전체"
+  duration:
+    onset_pattern: "점진적으로 발생"
+    recent_course: "거의 매일 밤 발생함"
+  course: "매일 밤 비슷한 시간(주로 새벽 2-3시)에 두통으로 잠에서 깸. 통증은 30분에서 3시간 정도 지속됨. 낮잠 잘 때도 가끔 발생."
+  experience_prev_episodes:
+    frequency: "월 15회 이상"
+    trigger: "수면"
+    symptoms: "현재와 동일"
+  character_of_symptom:
+    quality: "둔하거나 욱신거리는 통증 (박동성 또는 비박동성)"
+    nrs_score: "5-6"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true # 수면 부족으로 인한
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    neurological:
+      autonomic_symptoms: "없음 (군발두통과 감별점)"
+      photophobia_phonophobia: "없음"
+  factors:
+    aggravating:
+      - "없음"
+    alleviating: "일어나서 좀 걷거나 커피를 한 잔 마시면 가라앉는 것 같음"
+  health_check_history:
+    last_checkup: "1년 전"
+    endoscopy_finding: "정상"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "고혈압, 전립선 비대증"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "암로디핀, 탐술로신"
+    source: "내과, 비뇨의학과 처방"
+    effect: "잘 조절되고 있음"
+  social_history:
+    job: "은퇴"
+    stress: "없음"
+    alcohol:
+      is_drinker: false
+      frequency: "해당 없음"
+      amount: "해당 없음"
+    smoking:
+      is_smoker: false
+      amount: "해당 없음"
+      cessation_period: "40년 전 금연"
+    exercise: "매일 1시간 산책"
+    recent_weight_change: "없음"
+  family_history: "특이 사항 없음"
+  female_history: "해당 없음"
+physical_exam:
+  general: "만성적인 수면 부족으로 피곤해 보임. 그 외 특이 소견 없음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "정상"
+  abdomen: "정상"
+  neurology:
+    mental_status: "Alert and oriented"
+    cranial_nerves: "정상"
+    motor_sensory_reflexes: "정상"
+  cvat: "음성"
+  extremity: "정상"
+standardized_patient_questions: "나이 들어서 그런가요? 왜 밤에만 머리가 아플까요? 뇌에 혹이라도 생긴 건 아닌지 걱정돼요. 커피 마시면 잠이 더 안 올 것 같은데, 정말 괜찮나요?"
+specific_remarks: "환자는 두통이 '반드시 수면 중에만' 발생하며, 그로 인해 잠에서 깬다는 점을 반복해서 강조한다. 통증의 강도는 극심하지 않지만, 규칙적으로 나타나는 것 때문에 삶의 질이 떨어진다고 호소한다. 고령의 환자이므로 뇌종양 등 기질적 원인에 대한 걱정이 매우 크다."

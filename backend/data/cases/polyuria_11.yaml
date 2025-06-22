@@ -1,0 +1,114 @@
+---
+chapter: "신장/비뇨"
+case_number_in_chapter: "11"
+title: "실전 모의 증례 (임신성 요붕증)"
+patient_info:
+  name: "한가람"
+  age: 32
+  sex: "여성"
+  presenting_complaint: "소변이 너무 많이 나오고 갈증이 심함"
+vital_signs:
+  blood_pressure: "110/70mmHg"
+  pulse: "90회/분"
+  respiration: "18회/분"
+  temperature: "36.8℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "임신성 요붕증"
+    - "임신성 당뇨병"
+    - "정신성 다음증"
+  necessary_tests:
+    - "혈액 검사 (전해질, 혈장 삼투압, 혈당)"
+    - "소변 검사 (요비중, 소변 삼투압, 요당)"
+    - "필요 시 수분 제한 검사 (입원 하에 신중히 시행)"
+  necessary_treatments:
+    - "데스모프레신(DDAVP) 투여"
+    - "충분한 수분 섭취 권장"
+    - "산부인과와 협진하여 태아 및 산모 상태 모니터링"
+history:
+  sex_age: "여성/32"
+  chief_complaint_verbatim: "임신 8개월차인데, 2주 전부터 갑자기 물을 엄청 마시게 되고 소변도 너무 많이 봐요. 밤에 자다가도 4-5번은 깨서 화장실에 가요."
+  onset: "2주 전"
+  location:
+    initial: "전신 증상"
+    current: "전신 증상"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "점차 심해지는 양상"
+  course: "임신 32주차에 들어서면서 갑자기 극심한 갈증과 다뇨가 시작됨. 임신 중이라 소변이 잦을 수 있다고 생각했지만, 정도가 너무 심하고 밤잠을 설치게 되어 걱정되어 내원함. 찬물을 계속 찾게 됨."
+  experience_prev_episodes:
+    frequency: "없음"
+    trigger: ""
+    symptoms: ""
+  character_of_symptom:
+    quality: "소변 양이 많고 물처럼 맑음"
+    nrs_score: "0"
+    radiation: "없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: true
+    dehydration:
+      dizziness: true
+      thirst: true
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "물을 마시지 못할 때"
+      - ""
+    alleviating: "찬물을 마실 때"
+  health_check_history:
+    last_checkup: "임신 후 정기적인 산전 검사"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "특이 병력 없음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "철분제, 엽산제"
+    source: "산부인과"
+    effect: ""
+  social_history:
+    job: "주부 (육아휴직 중)"
+    stress: "증상으로 인한 스트레스"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "가벼운 산책"
+    recent_weight_change: "임신으로 인한 정상적인 체중 증가"
+  family_history: "특이 사항 없음"
+  female_history: "현재 임신 34주, G1P0, LMP: 8개월 전, 임신성 당뇨 검사 정상이었음"
+physical_exam:
+  general: "만삭의 임산부로, 지쳐 보이나 의식은 명료함."
+  heent:
+    sclera: "비황달성"
+    oral_mucosa: "매우 건조함"
+  chest: "호흡음 및 심음 정상"
+  abdomen:
+    inspection: "임신 34주에 합당하게 팽만된 자궁 (Gravid uterus)"
+    auscultation: "장음 정상, 태아 심음 청진됨"
+    percussion: "시행하지 않음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "양측 음성"
+  extremity: "양측 발과 발목에 경도의 함몰 부종"
+standardized_patient_questions: "임신하면 원래 이런가요? 아기한테 문제가 생기는 건 아닐지 너무 걱정돼요. 치료는 가능한가요?"
+specific_remarks: "현재 임신 주수를 정확히 말할 것. 증상이 임신 후반기에 '갑자기' 시작되었다는 점을 강조. 태아의 건강에 대한 불안과 걱정을 많이 표현할 것. 극심한 갈증과 야간뇨로 인한 피로감을 잘 연기해야 함."

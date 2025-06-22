@@ -1,0 +1,114 @@
+---
+chapter: "산부/여성/소아"
+case_number_in_chapter: "8"
+title: "실전 모의 증례 (셀리악병)"
+patient_info:
+  name: "송지아"
+  age: 2
+  sex: "여성"
+  presenting_complaint: "살이 안 찌고 배가 아프다고 자주 함"
+vital_signs:
+  blood_pressure: "85/50mmHg"
+  pulse: "115회/분"
+  respiration: "25회/분"
+  temperature: "36.7℃"
+examinee_instructions: "아이가 체중이 늘지 않고 배가 아프다는 주소로 내원한 보호자의 병력을 청취하고 신체 진찰을 시행한 후, 추정 진단과 향후 계획에 대해 설명하시오."
+patient_education:
+  probable_diagnoses:
+    - "셀리악병 (Celiac disease)"
+    - "만성 감염 (예: 지아르디아 감염)"
+    - "낭성 섬유증 (Cystic fibrosis)"
+  necessary_tests:
+    - "혈액 검사 (anti-tTG IgA 항체, 총 IgA)"
+    - "상부위장관 내시경 및 십이지장 조직검사"
+    - "일반 혈액 검사, 전해질, 알부민, 철분 검사"
+  necessary_treatments:
+    - "평생 글루텐-프리 식이요법"
+    - "영양사 상담 및 교육"
+    - "철분, 비타민 등 영양소 보충"
+history:
+  sex_age: "여성/2세(24개월)"
+  chief_complaint_verbatim: "(보호자) 애가 이유식 시작하고부터 잘 안 크는 것 같아요. 맨날 배 아프다고 징징대고, 변도 이상해요."
+  onset: "생후 8-9개월 경, 곡물류 이유식을 시작하면서부터 증상이 나타나기 시작함"
+  location:
+    initial: "복부, 전신"
+    current: "복부, 전신"
+  duration:
+    onset_pattern: "점진적, 간헐적"
+    recent_course: "아이가 일반식을 먹게 되면서 설사와 복통이 더 잦아지고, 보채는 일이 많아짐"
+  course: "모유 수유할 때는 잘 크고 건강했다. 생후 6개월부터 이유식을 시작했고, 특히 빵이나 국수 같은 밀가루 음식을 주기 시작한 후부터 변이 묽어지고 배가 자주 아프다고 했다. 키와 몸무게가 영유아 검진 때마다 하위권으로 떨어지고 있다."
+  experience_prev_episodes:
+    frequency: "자주"
+    trigger: "밀가루 음식 섭취 후"
+    symptoms: "복통, 설사, 보챔"
+  character_of_symptom:
+    quality: "배 아픔"
+    nrs_score: "모름"
+    radiation: "해당 없음"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: true
+      nausea: false
+      vomiting: "가끔"
+      constipation: false
+      diarrhea: true
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "빵, 과자, 국수 등 밀가루 음식 섭취"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "18개월 영유아 검진"
+    endoscopy_finding: "시행한 적 없음"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "철결핍성 빈혈 진단받음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "철분 시럽"
+    source: "소아청소년과"
+    effect: "빈혈 수치 약간 호전"
+  social_history:
+    job: "영유아"
+    stress: "자주 보채고 짜증이 늘었음"
+    alcohol:
+      is_drinker: false
+      frequency: ""
+      amount: ""
+    smoking:
+      is_smoker: false
+      amount: ""
+      cessation_period: ""
+    exercise: "활동량 감소"
+    recent_weight_change: "체중 증가 부진"
+  family_history: "어머니가 과민성 대장 증후군으로 가끔 고생함"
+  female_history: "해당 없음"
+physical_exam:
+  general: "나이에 비해 체구가 왜소하고 말라 보임. 머리카락이 가늘고 피부가 건조함. 기운 없이 축 처져 있음."
+  heent:
+    sclera: "창백함"
+    oral_mucosa: "정상"
+  chest: "청진상 특이 소견 없음."
+  abdomen:
+    inspection: "배가 풍선처럼 부풀어 있음 (distended abdomen)."
+    auscultation: "장음 항진"
+    percussion: "전반적인 고창음"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+      diffuse_tenderness: true
+  cvat: "양측 음성"
+  extremity: "팔다리가 가늘고 근육량이 적어 보임. 둔부 지방 소실."
+standardized_patient_questions: "셀리악병이 뭐예요? 그냥 밀가루 알레르기 같은 건가요? 그럼 앞으로 빵이나 국수는 평생 못 먹나요? 약 먹으면 낫는 병은 아닌가요?"
+specific_remarks: "보호자는 아이가 단순히 입이 짧고 예민해서 그런 줄 알았다고 말한다. '셀리악병'이라는 생소한 진단명에 당황하며, 식이요법을 평생 해야 한다는 사실에 큰 부담감을 느낀다."

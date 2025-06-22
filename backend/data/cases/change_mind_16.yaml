@@ -1,0 +1,118 @@
+---
+chapter: "정신/신경"
+case_number_in_chapter: "16"
+title: "실전 모의 증례 (양극성장애 II형)"
+patient_info:
+  name: "우울해"
+  age: 30
+  sex: "여성"
+  presenting_complaint: "최근 2달간 우울하고 무기력함"
+vital_signs:
+  blood_pressure: "120/75mmHg"
+  pulse: "70회/분"
+  respiration: "16회/분"
+  temperature: "36.5℃"
+examinee_instructions: "증상과 관련된 병력을 청취하고 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오."
+patient_education:
+  probable_diagnoses:
+    - "양극성장애 II형, 최근 삽화 우울 (Bipolar II Disorder, Most recent episode depressed)"
+    - "주요우울장애, 재발성"
+    - "성격장애 (예: 경계성 성격장애)"
+  necessary_tests:
+    - "정신상태 검사 (특히 과거 경조증 삽화에 대한 탐색)"
+    - "기분장애 질문지 (MDQ) 등 선별도구 사용"
+    - "기본 혈액 검사 및 갑상선 기능 검사 (유사 증상 감별)"
+  necessary_treatments:
+    - "기분조절제(라모트리진, 리튬 등) 또는 비정형 항정신병약물(쿼티아핀 등) 치료"
+    - "항우울제 단독 사용 주의에 대한 교육"
+    - "정신치료 및 심리사회적 지지"
+history:
+  sex_age: "여성/30세"
+  chief_complaint_verbatim: "두 달 전부터 너무 우울하고 아무것도 할 수가 없어요. 잠만 계속 오고, 몸이 천근만근이에요. 예전에도 이런 적이 몇 번 있었어요."
+  onset: "약 2개월 전"
+  location:
+    initial: "N/A"
+    current: "N/A"
+  duration:
+    onset_pattern: "급성 발병"
+    recent_course: "지속됨"
+  course: "현재 2개월 째 심한 우울감, 무기력감, 과다수면(하루 12시간 이상), 식욕 증가 및 체중 증가를 경험하고 있다(비정형 우울증 양상). 이와 같은 우울 삽화는 20대 초반부터 2-3년에 한 번씩 반복되어 왔다. 중요한 점은, 우울하지 않은 시기에 약 1주일 정도 기분이 약간 들뜨고, 말이 많아지며, 잠을 4-5시간만 자도 활력이 넘쳐 평소보다 훨씬 많은 일을 처리했던 경험이 있다는 것이다. 당시 본인은 '컨디션이 아주 좋다'고 생각했고, 주변에서도 '활기차 보인다'고 말했지만, 이로 인해 사회적/직업적 기능에 심각한 손상을 주거나 입원이 필요할 정도는 아니었다(경조증 삽화)."
+  experience_prev_episodes:
+    frequency: "우울 삽화는 3-4차례, 경조증 삽화는 2차례 있었음"
+    trigger: "불분명"
+    symptoms: "우울 삽화 시에는 무기력, 과다수면, 과식. 경조증 삽화 시에는 기분 상승, 에너지 증가, 수면욕구 감소."
+  character_of_symptom:
+    quality: "현재는 심한 우울감, 무기력감, 의욕 저하"
+    nrs_score: "8"
+    radiation: "N/A"
+  associated_symptoms:
+    systemic:
+      fever: false
+      chills: false
+      fatigue: true
+      weight_loss: false
+    gastrointestinal:
+      anorexia: false
+      nausea: false
+      vomiting: false
+      constipation: false
+      diarrhea: false
+      heartburn: false
+      urine_color_change: false
+    dehydration:
+      dizziness: false
+      thirst: false
+      decreased_urine_output: false
+  factors:
+    aggravating:
+      - "아침"
+      - "혼자 있을 때"
+    alleviating: "특별히 없음"
+  health_check_history:
+    last_checkup: "2년 전, 특이소견 없음"
+    endoscopy_finding: "N/A"
+  trauma_history: "없음"
+  past_medical_history:
+    underlying_disease: "과거 '우울증'으로 진단받고 항우울제 복용 후 기분이 너무 들떠서 중단한 경험 있음"
+    allergies: "없음"
+  medication_history:
+    taken:
+      - "과거 SSRI 계열 항우울제 복용 경험"
+    source: "의원"
+    effect: "복용 후 기분이 너무 좋아지고 잠이 안 와서 1주일 만에 임의 중단함"
+  social_history:
+    job: "회사원"
+    stress: "보통"
+    alcohol:
+      is_drinker: true
+      frequency: "월 1회"
+      amount: "맥주 1-2캔"
+    smoking:
+      is_smoker: false
+      amount: "N/A"
+      cessation_period: "N/A"
+    exercise: "우울할 때는 전혀 못함"
+    recent_weight_change: "최근 2개월간 4kg 증가"
+  family_history: "이모가 '조울증'으로 치료받고 있음"
+  female_history:
+    lmp: "3주 전"
+    cycle: "규칙적"
+    menarche: "13세"
+    menopause: "N/A"
+physical_exam:
+  general: "전반적으로 위축되고 지쳐 보임. 정신운동 지체 소견이 뚜렷함. 표정이 거의 없고 목소리가 작음."
+  heent:
+    sclera: "정상"
+    oral_mucosa: "정상"
+  chest: "호흡음 정상, 심음 정상."
+  abdomen:
+    inspection: "평탄함"
+    auscultation: "장음 정상"
+    percussion: "정상"
+    palpation:
+      tenderness_ruq: false
+      rebound_tenderness_rlq: false
+  cvat: "좌우 음성"
+  extremity: "특이 소견 없음"
+standardized_patient_questions: "또 우울증이 도진 것 같아요. 예전에 먹던 우울증 약을 다시 처방해주시면 안될까요? 그런데 그 약 먹었을 때 기분이 이상하게 너무 좋아져서 좀 무서웠어요."
+specific_remarks: "환자는 현재의 우울 증상을 주로 호소한다. 의사가 과거의 기분 상태에 대해 구체적으로 질문하지 않으면 경조증 삽화에 대해 먼저 이야기하지 않을 수 있다. '평소보다 특별히 기분이 좋거나, 활기차거나, 잠을 안자도 괜찮았던 때'에 대한 질문에 긍정하며 당시의 경험을 설명해야 함. 과거 항우울제 복용 후 경조증으로 전환되었던 경험을 명확히 진술하는 것이 중요."
