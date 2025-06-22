@@ -8,6 +8,7 @@ module.exports = (sequelize) => {
       this.belongsTo(models.Scenario, { foreignKey: 'scenarioId', as: 'scenario' });
       this.belongsTo(models.AIPatientPersonality, { foreignKey: 'aiPatientPersonalityId', as: 'personality' });
       this.hasOne(models.EvaluationResult, { foreignKey: 'practiceSessionId', as: 'evaluationResult' });
+      this.belongsTo(models.PracticeSession, { foreignKey: 'practiceSessionId', as: 'practiceSession' });
     }
   }
 

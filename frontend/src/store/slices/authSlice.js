@@ -122,6 +122,32 @@ export const updateUserProfile = createAsyncThunk(
   }
 );
 
+// Async thunk for uploading profile image
+export const uploadProfileImage = createAsyncThunk(
+  'auth/uploadProfileImage',
+  async (imageFile, { rejectWithValue }) => {
+    try {
+      const updatedUser = await authService.uploadProfileImage(imageFile);
+      return updatedUser;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
+// Async thunk for deleting profile image
+export const deleteProfileImage = createAsyncThunk(
+  'auth/deleteProfileImage',
+  async (_, { rejectWithValue }) => {
+    try {
+      const updatedUser = await authService.deleteProfileImage();
+      return updatedUser;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
 // Async thunk for updating user password
 export const updateUserPassword = createAsyncThunk(
   'auth/updatePassword',
@@ -266,6 +292,34 @@ const authSlice = createSlice({
         state.user = action.payload; // 스토어의 user 정보를 새 정보로 교체
       })
       .addCase(updateUserProfile.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.payload;
+      })
+
+      // Upload Profile Image lifecycle
+      .addCase(uploadProfileImage.pending, (state) => {
+        state.isLoading = true;
+        state.error = null;
+      })
+      .addCase(uploadProfileImage.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.user = action.payload;
+      })
+      .addCase(uploadProfileImage.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.payload;
+      })
+
+      // Delete Profile Image lifecycle
+      .addCase(deleteProfileImage.pending, (state) => {
+        state.isLoading = true;
+        state.error = null;
+      })
+      .addCase(deleteProfileImage.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.user = action.payload;
+      })
+      .addCase(deleteProfileImage.rejected, (state, action) => {
         state.isLoading = false;
         state.error = action.payload;
       })

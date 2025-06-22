@@ -17,11 +17,22 @@ module.exports = (sequelize) => {
             as: 'scenario'
         });
         
-        // --- 이 부분을 추가하세요 ---
         // PracticeSession은 하나의 EvaluationResult를 가집니다 (hasOne 관계)
         this.hasOne(models.EvaluationResult, {
           foreignKey: 'practiceSessionId',
           as: 'evaluationResult' // 이 관계에서 사용할 별칭
+        });
+        // --- 추가: PracticeSession은 하나의 IncorrectAnswerNote를 가질 수 있음 ---
+        this.hasOne(models.IncorrectAnswerNote, {
+          foreignKey: 'scenarioId',
+          sourceKey: 'scenarioId',
+          as: 'incorrectAnswerNote',
+          constraints: false, // userId까지 복합키 조인하려면 복잡하므로 우선 scenarioId만 사용
+        });
+        // UserPracticeHistory와의 관계 추가
+        this.hasOne(models.UserPracticeHistory, {
+          foreignKey: 'practiceSessionId',
+          as: 'practiceHistory'
         });
     }
   }

@@ -19,6 +19,18 @@ const GlobalNavigationBar = () => {
         navigate('/login');
     };
 
+    // 프로필 이미지 URL 생성
+    const getProfileImageUrl = () => {
+        if (user?.profileImageUrl) {
+            // 백엔드에서 제공하는 정적 파일 URL로 변환
+            return user.profileImageUrl.startsWith('http') 
+                ? user.profileImageUrl 
+                : `http://localhost:3000${user.profileImageUrl}`;
+        }
+        // 기본 아바타 이미지 (닉네임 기반)
+        return `https://ui-avatars.com/api/?name=${user?.nickname}&background=3b82f6&color=fff`;
+    };
+
     const activeLinkStyle = {
         color: '#2563eb', // primary-dark
         fontWeight: '700',
@@ -50,7 +62,7 @@ const GlobalNavigationBar = () => {
             <div className="flex items-center gap-4">
                 <NavLink to="/my-page" className="flex items-center gap-2 group">
                     <img 
-                        src={user?.profileImagePath || `https://ui-avatars.com/api/?name=${user?.nickname}&background=3b82f6&color=fff`} 
+                        src={getProfileImageUrl()} 
                         alt="Profile" 
                         className="w-9 h-9 rounded-full object-cover border-2 border-transparent group-hover:border-primary-light transition-all"
                     />

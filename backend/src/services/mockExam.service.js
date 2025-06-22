@@ -23,18 +23,86 @@ const startMockExamSession = async (userId, examType, specifiedCategories = []) 
     }, {});
     const allPrimaryCategories = Object.keys(scenariosByPrimaryCategory);
     if (allPrimaryCategories.length < 6) throw new ApiError(500, 'M001_INSUFFICIENT_SCENARIOS', 'Not enough scenarios to create a mock exam.');
+    
     let selectedScenarios = [];
-    const chosenPrimaryCategories = allPrimaryCategories.sort(() => 0.5 - Math.random()).slice(0, 6);
-
-    chosenPrimaryCategories.forEach(category => {
-        const scenariosInCat = scenariosByPrimaryCategory[category];
-        selectedScenarios.push(scenariosInCat[Math.floor(Math.random() * scenariosInCat.length)]);
-
-    });
+    
+    if (examType === 'random' || specifiedCategories.length === 0) {
+        // 랜덤 모의고사 로직 (기존과 동일)
+        const chosenPrimaryCategories = allPrimaryCategories.sort(() => 0.5 - Math.random()).slice(0, 6);
+        
+        chosenPrimaryCategories.forEach(category => {
+            const scenariosInCat = scenariosByPrimaryCategory[category];
+            selectedScenarios.push(scenariosInCat[Math.floor(Math.random() * scenariosInCat.length)]);
+        });
+    } else if (examType === 'specified') {
+        // 지정 모의고사 로직
+        const scenariosBySecondaryCategory = scenarios.reduce((acc, scenario) => {
+            (acc[scenario.secondaryCategory] = acc[scenario.secondaryCategory] || []).push(scenario);
+            return acc;
+        }, {});
+        
+        // 사용자가 선택한 중분류들의 대분류 확인
+        const selectedPrimaryCategories = new Set();
+        const validSpecifiedCategories = [];
+        
+        for (const secondaryCategory of specifiedCategories) {
+            const scenariosInSecondary = scenariosBySecondaryCategory[secondaryCategory];
+            if (scenariosInSecondary && scenariosInSecondary.length > 0) {
+                const primaryCategory = scenariosInSecondary[0].primaryCategory;
+                if (selectedPrimaryCategories.has(primaryCategory)) {
+                    throw new ApiError(400, 'M005_DUPLICATE_PRIMARY_CATEGORY', 
+                        `선택하신 증례 중 '${primaryCategory}' 계통의 증례가 2개 이상 포함되어 있습니다. 각 주요 질환 계통에서는 하나의 증례만 선택 가능합니다.`);
+                }
+                selectedPrimaryCategories.add(primaryCategory);
+                validSpecifiedCategories.push(secondaryCategory);
+            }
+        }
+        
+        // 사용자가 선택한 중분류에서 증례 선택
+        for (const secondaryCategory of validSpecifiedCategories) {
+            const scenariosInSecondary = scenariosBySecondaryCategory[secondaryCategory];
+            selectedScenarios.push(scenariosInSecondary[Math.floor(Math.random() * scenariosInSecondary.length)]);
+        }
+        
+        // 나머지 증례를 다른 대분류에서 랜덤 선택
+        const remainingCount = 6 - selectedScenarios.length;
+        if (remainingCount > 0) {
+            const availablePrimaryCategories = allPrimaryCategories.filter(category => 
+                !selectedPrimaryCategories.has(category)
+            );
+            
+            if (availablePrimaryCategories.length < remainingCount) {
+                throw new ApiError(500, 'M006_INSUFFICIENT_CATEGORIES', '충분한 대분류가 없어 모의고사를 구성할 수 없습니다.');
+            }
+            
+            const additionalPrimaryCategories = availablePrimaryCategories
+                .sort(() => 0.5 - Math.random())
+                .slice(0, remainingCount);
+            
+            additionalPrimaryCategories.forEach(category => {
+                const scenariosInCat = scenariosByPrimaryCategory[category];
+                selectedScenarios.push(scenariosInCat[Math.floor(Math.random() * scenariosInCat.length)]);
+            });
+        }
+    }
+    
     const selectedScenariosDetails = selectedScenarios.map(s => ({
-        scenarioId: s.scenarioId, name: s.name, primaryCategory: s.primaryCategory, secondaryCategory: s.secondaryCategory, practiceSessionId: null, score: null,
+        scenarioId: s.scenarioId, 
+        name: s.name, 
+        primaryCategory: s.primaryCategory, 
+        secondaryCategory: s.secondaryCategory, 
+        practiceSessionId: null, 
+        score: null,
     }));
-    const newMockExamSession = await MockExamSession.create({ userId, examType, status: 'started', selectedScenariosDetails });
+    
+    const newMockExamSession = await MockExamSession.create({ 
+        userId, 
+        examType, 
+        specifiedCategories: examType === 'specified' ? specifiedCategories : null,
+        status: 'started', 
+        selectedScenariosDetails 
+    });
+    
     return newMockExamSession.toJSON();
 };
 
@@ -206,9 +274,29 @@ const startCasePracticeSession = async (mockExamSessionId, caseNumber, userId) =
     };
 };
 
+// 중분류 목록을 가져오는 함수 추가
+const getSecondaryCategories = async () => {
+    const scenarios = await Scenario.findAll({
+        attributes: ['primaryCategory', 'secondaryCategory'],
+        group: ['primaryCategory', 'secondaryCategory'],
+        order: [['primaryCategory', 'ASC'], ['secondaryCategory', 'ASC']]
+    });
+    
+    const categoriesByPrimary = scenarios.reduce((acc, scenario) => {
+        if (!acc[scenario.primaryCategory]) {
+            acc[scenario.primaryCategory] = [];
+        }
+        acc[scenario.primaryCategory].push(scenario.secondaryCategory);
+        return acc;
+    }, {});
+    
+    return categoriesByPrimary;
+};
+
 module.exports = {
   startMockExamSession,
   getMockExamSession,
   completeMockExamSession,
   startCasePracticeSession,
+  getSecondaryCategories
 };

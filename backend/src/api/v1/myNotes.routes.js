@@ -25,6 +25,23 @@ router.get('/practiced-scenarios', myNotesController.getPracticedScenarios);
 
 router.get('/bookmarks', myNotesController.getBookmarks);
 router.get('/incorrect-notes/:scenarioId', myNotesController.getIncorrectNotes);
+
+// --- [새로 추가된 부분] ---
+/**
+ * @route   GET /api/v1/my-notes/incorrect-notes/:scenarioId/detail
+ * @desc    Get detailed incorrect notes including chat history and evaluation
+ * @access  Private
+ */
+router.get('/incorrect-notes/:scenarioId/detail', myNotesController.getDetailedIncorrectNotes);
+
+/**
+ * @route   PATCH /api/v1/my-notes/incorrect-notes/:scenarioId/status
+ * @desc    Update the note status (hasNote flag)
+ * @access  Private
+ */
+router.patch('/incorrect-notes/:scenarioId/status', myNotesController.updateNoteStatus);
+// --- [여기까지 추가] ---
+
 router.put('/incorrect-notes/:scenarioId', myNotesController.saveIncorrectNoteMemo);
 router.get('/history', myNotesController.getHistory);
 

@@ -19,12 +19,27 @@ const getIncorrectNotes = asyncHandler(async (req, res) => {
     res.status(200).json(notes);
 });
 
+const getDetailedIncorrectNotes = asyncHandler(async (req, res) => {
+    const { scenarioId } = req.params;
+    const userId = req.user.userId;
+    const detailedNotes = await myNotesService.getDetailedIncorrectNotes(userId, scenarioId);
+    res.status(200).json(detailedNotes);
+});
+
 const saveIncorrectNoteMemo = asyncHandler(async (req, res) => {
     const { scenarioId } = req.params;
     const { userMemo } = req.body;
     const userId = req.user.userId;
     const savedNote = await myNotesService.upsertUserIncorrectNote(userId, scenarioId, userMemo);
     res.status(200).json(savedNote);
+});
+
+const updateNoteStatus = asyncHandler(async (req, res) => {
+    const { scenarioId } = req.params;
+    const { hasNote } = req.body;
+    const userId = req.user.userId;
+    const updatedNote = await myNotesService.updateNoteStatus(userId, scenarioId, hasNote);
+    res.status(200).json(updatedNote);
 });
 
 const getHistory = asyncHandler(async (req, res) => {
@@ -49,7 +64,9 @@ const getPracticedScenarios = asyncHandler(async (req, res) => {
 module.exports = {
     getBookmarks,
     getIncorrectNotes,
+    getDetailedIncorrectNotes,
     saveIncorrectNoteMemo,
+    updateNoteStatus,
     getHistory,
-    getPracticedScenarios, // 추가
+    getPracticedScenarios,
 };

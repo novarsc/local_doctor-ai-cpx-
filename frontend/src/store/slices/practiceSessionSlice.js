@@ -170,7 +170,7 @@ const practiceSessionSlice = createSlice({
         state.sessionId = action.payload.sessionDetails.practiceSessionId;
         state.currentScenario = action.payload.scenario;
         state.status = 'active';
-        state.chatLog = action.payload.chatHistory.map(log => ({
+        state.chatLog = (action.payload.chatHistory || []).map(log => ({
           id: log.chatLogId,
           sender: log.sender,
           content: log.content,

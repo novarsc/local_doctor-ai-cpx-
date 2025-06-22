@@ -33,6 +33,10 @@ const MockExamMainPage = () => {
             });
     };
 
+    const handleStartSpecifiedExam = () => {
+        navigate('/mock-exams/specified-setup');
+    };
+
     return (
         <div className="container mx-auto p-6 bg-gray-50 min-h-screen">
             <header className="mb-8">
@@ -60,15 +64,16 @@ const MockExamMainPage = () => {
                     </div>
 
                     <div className="border-t pt-6 mt-8 flex-grow">
-                        <h3 className="text-xl font-bold text-gray-400">지정 모의고사</h3>
-                        <p className="text-base text-gray-500 my-3">
-                            응시하고 싶은 특정 질환을 선택하여 모의고사를 구성합니다. (개발 예정)
+                        <h3 className="text-xl font-bold text-blue-600">지정 모의고사</h3>
+                        <p className="text-base text-gray-600 my-3">
+                            응시하고 싶은 특정 질환을 선택하여 모의고사를 구성합니다.
                         </p>
                         <button
-                            disabled={true}
-                            className="w-full mt-4 px-6 py-4 bg-gray-300 text-gray-500 font-bold rounded-lg cursor-not-allowed"
+                            onClick={handleStartSpecifiedExam}
+                            disabled={status === 'loading'}
+                            className="w-full mt-4 px-6 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-transform transform hover:scale-105 disabled:bg-gray-400 disabled:transform-none"
                         >
-                            지정 모의고사 설정
+                            지정 모의고사 설정 및 시작
                         </button>
                     </div>
                      {error && <p className="text-red-500 text-sm mt-4">오류: {error}</p>}

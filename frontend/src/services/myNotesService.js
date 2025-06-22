@@ -19,6 +19,38 @@ const getPracticedScenarios = async () => {
 
 const getBookmarks = async () => { try { const response = await apiClient.get('/my-notes/bookmarks'); return response.data.data; } catch (error) { throw error.response?.data?.error || new Error('Failed to fetch bookmarks.'); } };
 const getIncorrectNotes = async (scenarioId) => { try { const response = await apiClient.get(`/my-notes/incorrect-notes/${scenarioId}`); return response.data; } catch (error) { throw error.response?.data?.error || new Error('Failed to fetch incorrect notes.'); } };
+
+// --- [새로 추가된 부분] ---
+/**
+ * 상세 오답노트 정보를 가져옵니다 (채팅 기록, 평가 결과 포함).
+ * @param {string} scenarioId - 증례 ID
+ * @returns {Promise<Object>}
+ */
+const getDetailedIncorrectNotes = async (scenarioId) => {
+  try {
+    const response = await apiClient.get(`/my-notes/incorrect-notes/${scenarioId}/detail`);
+    return response.data;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('Failed to fetch detailed incorrect notes.');
+  }
+};
+
+/**
+ * 오답노트 작성 여부 상태를 업데이트합니다.
+ * @param {string} scenarioId - 증례 ID
+ * @param {boolean} hasNote - 노트 작성 여부
+ * @returns {Promise<Object>}
+ */
+const updateNoteStatus = async (scenarioId, hasNote) => {
+  try {
+    const response = await apiClient.patch(`/my-notes/incorrect-notes/${scenarioId}/status`, { hasNote });
+    return response.data;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('Failed to update note status.');
+  }
+};
+// --- [여기까지 추가] ---
+
 const saveIncorrectNoteMemo = async (scenarioId, userMemo) => { try { const response = await apiClient.put(`/my-notes/incorrect-notes/${scenarioId}`, { userMemo }); return response.data; } catch (error) { throw error.response?.data?.error || new Error('Failed to save the note.'); } };
 const getLearningHistory = async () => { try { const response = await apiClient.get('/my-notes/history'); return response.data.data; } catch (error) { throw error.response?.data?.error || new Error('Failed to fetch learning history.'); } };
 
@@ -42,9 +74,11 @@ const removeBookmark = async (scenarioId) => {
 export const myNotesService = {
   getBookmarks,
   getIncorrectNotes,
+  getDetailedIncorrectNotes,
   saveIncorrectNoteMemo,
+  updateNoteStatus,
   getLearningHistory,
   addBookmark,
   removeBookmark,
-  getPracticedScenarios, // 추가
+  getPracticedScenarios,
 };

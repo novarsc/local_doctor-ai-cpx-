@@ -68,6 +68,22 @@ const getFeedback = asyncHandler(async (req, res) => {
     res.status(200).json(result);
 });
 
+// 세션 상세 정보 조회
+const getSessionDetails = asyncHandler(async (req, res) => {
+    const { sessionId } = req.params;
+    const userId = req.user.userId;
+    
+    const result = await practiceSessionService.getSessionDetails(sessionId, userId);
+    res.status(200).json(result);
+});
+
+// 채팅 메시지 조회 (프론트엔드 요청과 일치하도록 이름 변경)
+const getChatMessages = asyncHandler(async (req, res) => {
+  const { sessionId } = req.params;
+  const chatHistory = await practiceSessionService.getSessionChatHistory(sessionId, req.user.userId);
+  res.status(200).json(chatHistory);
+});
+
 // --- 이 함수를 새로 추가합니다 ---
 const getChatHistory = asyncHandler(async (req, res) => {
   const { sessionId } = req.params;
@@ -83,5 +99,7 @@ module.exports = {
   handleChatMessage,
   completeSession,
   getFeedback,
-  getChatHistory, // 새로 추가
+  getSessionDetails,
+  getChatMessages,
+  getChatHistory,
 };

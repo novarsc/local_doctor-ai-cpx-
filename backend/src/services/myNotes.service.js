@@ -5,7 +5,7 @@
 
 // --- [수정된 부분] ---
 // require('../models') 에서 sequelize 객체를 함께 가져오도록 수정
-const { UserBookmarkedScenario, Scenario, IncorrectAnswerNote, EvaluationResult, PracticeSession, MockExamSession, UserPracticeHistory, sequelize } = require('../models');
+const { UserBookmarkedScenario, Scenario, IncorrectAnswerNote, EvaluationResult, PracticeSession, MockExamSession, UserPracticeHistory, ChatLog, sequelize } = require('../models');
 // --- [여기까지 수정] ---
 const { Op } = require('sequelize');
 
@@ -20,87 +20,162 @@ const getBookmarkedScenarios = async (userId) => {
 };
 
 const getIncorrectNotesForScenario = async (userId, scenarioId) => {
-    const practiceSessions = await PracticeSession.findAll({ where: { userId, scenarioId, status: 'completed' }, attributes: ['practiceSessionId']});
+    const practiceSessions = await PracticeSession.findAll({ 
+        where: { userId, scenarioId, status: 'completed' }, 
+        attributes: ['practiceSessionId', 'finalScore', 'endTime'],
+        order: [['endTime', 'DESC']]
+    });
+    
+    if (practiceSessions.length === 0) {
+        return { 
+            aiGeneratedFeedback: [], 
+            userMemo: '',
+            score: null,
+            qualitativeFeedback: '',
+            hasNote: false
+        };
+    }
+
+    const latestSession = practiceSessions[0];
     const sessionIds = practiceSessions.map(s => s.practiceSessionId);
-    const evaluations = await EvaluationResult.findAll({ where: { practiceSessionId: sessionIds }, attributes: ['improvementAreas', 'createdAt']});
-    const aiFeedback = evaluations.map(e => e.improvementAreas).flat().filter(Boolean);
+    
+    const evaluations = await EvaluationResult.findAll({ 
+        where: { practiceSessionId: sessionIds }, 
+        attributes: ['improvementAreas', 'qualitativeFeedback', 'overallScore', 'createdAt'],
+        order: [['createdAt', 'DESC']]
+    });
+    
     const userNote = await IncorrectAnswerNote.findOne({ where: { userId, scenarioId } });
-    return { aiGeneratedFeedback: aiFeedback, userMemo: userNote ? userNote.userMemo : '' };
+    
+    const latestEvaluation = evaluations[0];
+    const aiFeedback = evaluations.map(e => e.improvementAreas).flat().filter(Boolean);
+    
+    return { 
+        aiGeneratedFeedback: aiFeedback, 
+        userMemo: userNote ? userNote.userMemo : '',
+        score: latestSession.finalScore || (latestEvaluation ? latestEvaluation.overallScore : null),
+        qualitativeFeedback: latestEvaluation ? latestEvaluation.qualitativeFeedback : '',
+        hasNote: !!userNote,
+        completedAt: latestSession.endTime
+    };
 };
 
-const upsertUserIncorrectNote = async (userId, scenarioId, userMemo) => {
-    const [note] = await IncorrectAnswerNote.upsert({ userId, scenarioId, userMemo });
+const getDetailedIncorrectNotes = async (userId, scenarioId) => {
+    const practiceSessions = await PracticeSession.findAll({ 
+        where: { userId, scenarioId, status: 'completed' }, 
+        attributes: ['practiceSessionId', 'finalScore', 'endTime'],
+        order: [['endTime', 'DESC']]
+    });
+    
+    if (practiceSessions.length === 0) {
+        throw new Error('No completed practice sessions found for this scenario');
+    }
+
+    const latestSession = practiceSessions[0];
+    const sessionId = latestSession.practiceSessionId;
+    
+    // 채팅 기록 가져오기
+    const chatLogs = await ChatLog.findAll({
+        where: { practiceSessionId: sessionId },
+        order: [['createdAt', 'ASC']],
+        attributes: ['sender', 'message', 'createdAt']
+    });
+    
+    // 평가 결과 가져오기
+    const evaluation = await EvaluationResult.findOne({
+        where: { practiceSessionId: sessionId }
+    });
+    
+    // 사용자 메모 가져오기
+    const userNote = await IncorrectAnswerNote.findOne({ 
+        where: { userId, scenarioId },
+        attributes: ['userMemo', 'hasNote']
+    });
+    
+    return {
+        chatHistory: chatLogs.map(log => ({
+            sender: log.sender === 'USER' ? 'user' : 'ai',
+            message: log.message,
+            timestamp: log.createdAt
+        })),
+        evaluation: evaluation ? {
+            overallScore: evaluation.overallScore,
+            qualitativeFeedback: evaluation.qualitativeFeedback,
+            checklistResults: evaluation.checklistResults || [],
+            goodPoints: evaluation.goodPoints || [],
+            improvementAreas: evaluation.improvementAreas || []
+        } : null,
+        userMemo: userNote ? userNote.userMemo : '',
+        hasNote: !!userNote,
+        completedAt: latestSession.endTime
+    };
+};
+
+const upsertUserIncorrectNote = async (userId, scenarioId, userMemo, hasNote = true) => {
+    const [note] = await IncorrectAnswerNote.upsert({ 
+        userId, 
+        scenarioId, 
+        userMemo,
+        hasNote 
+    });
+    return note.toJSON();
+};
+
+const updateNoteStatus = async (userId, scenarioId, hasNote) => {
+    const [note] = await IncorrectAnswerNote.upsert({ 
+        userId, 
+        scenarioId, 
+        hasNote,
+        userMemo: '' // 기존 메모는 유지하되 상태만 업데이트
+    });
     return note.toJSON();
 };
 
 const getLearningHistory = async (userId) => {
-    const casePractices = await PracticeSession.findAll({
-        where: {
-            userId,
-            status: 'completed',
-        },
-        include: [{ model: Scenario, as: 'scenario', attributes: ['name'] }],
-        order: [['endTime', 'DESC']],
+    const history = await UserPracticeHistory.findAll({
+        where: { userId },
+        include: [
+            { model: Scenario, as: 'scenario', attributes: ['name'] },
+            { model: PracticeSession, as: 'practiceSession', attributes: ['finalScore'] }
+        ],
+        order: [['completedAt', 'DESC']]
     });
-
-    const mockExams = await MockExamSession.findAll({
-        where: { userId, status: 'completed' },
-        order: [['endTime', 'DESC']],
-    });
-
-    const formattedPractices = casePractices.map(p => ({
+    return history.map(h => ({
+        id: h.practiceSessionId,
         type: '증례 실습',
-        id: p.practiceSessionId,
-        scenarioId: p.scenarioId,
-        name: p.scenario.name,
-        completedAt: p.endTime,
-        score: p.finalScore,
+        name: h.scenario.name,
+        completedAt: h.completedAt,
+        score: h.practiceSession?.finalScore || h.score
     }));
-
-    const formattedMockExams = mockExams.map(m => ({
-        type: '모의고사',
-        id: m.mockExamSessionId,
-        name: `모의고사 (${new Date(m.startTime).toLocaleDateString()})`,
-        completedAt: m.endTime,
-        score: m.overallScore,
-    }));
-
-    const combinedHistory = [...formattedPractices, ...formattedMockExams];
-    combinedHistory.sort((a, b) => new Date(b.completedAt) - new Date(a.completedAt));
-    return combinedHistory;
 };
 
 const getPracticedScenarios = async (userId) => {
-    console.log(`[DEBUG] Getting practiced scenarios for user: ${userId}`);
-    // 1. UserPracticeHistory에서 해당 사용자의 모든 기록을 가져옵니다.
-    const histories = await UserPracticeHistory.findAll({
-        where: { userId },
-        include: [{ model: Scenario, as: 'scenario' }], // 관련된 Scenario 정보를 함께 가져옵니다.
-        order: [['completedAt', 'DESC']], // 최근 완료 순으로 정렬
+    const practiceSessions = await PracticeSession.findAll({
+        where: { userId, status: 'completed' },
+        include: [
+            { model: Scenario, as: 'scenario', attributes: ['scenarioId', 'name'] },
+            { model: EvaluationResult, as: 'evaluationResult', attributes: ['overallScore', 'qualitativeFeedback'] },
+            { model: IncorrectAnswerNote, as: 'incorrectAnswerNote', attributes: ['hasNote'] }
+        ],
+        order: [['endTime', 'DESC']]
     });
 
-    console.log(`[DEBUG] Found ${histories.length} practice histories.`);
-
-    // 2. 중복된 증례를 제거하고 최신 기록만 남깁니다.
-    const uniqueScenarios = [];
-    const seenScenarioIds = new Set();
-
-    for (const history of histories) {
-        if (history.scenario && !seenScenarioIds.has(history.scenario.scenarioId)) {
-            uniqueScenarios.push(history.scenario);
-            seenScenarioIds.add(history.scenario.scenarioId);
-        }
-    }
-    
-    console.log(`[DEBUG] Returning ${uniqueScenarios.length} unique scenarios.`);
-    return uniqueScenarios;
+    return practiceSessions.map(session => ({
+        scenarioId: session.scenarioId,
+        name: session.scenario.name,
+        score: session.finalScore || (session.evaluationResult ? session.evaluationResult.overallScore : null),
+        qualitativeFeedback: session.evaluationResult ? session.evaluationResult.qualitativeFeedback : '',
+        hasNote: session.incorrectAnswerNote ? session.incorrectAnswerNote.hasNote : false,
+        completedAt: session.endTime
+    }));
 };
 
-
 module.exports = {
-  getBookmarkedScenarios,
-  getIncorrectNotesForScenario,
-  upsertUserIncorrectNote,
-  getLearningHistory,
-  getPracticedScenarios,
+    getBookmarkedScenarios,
+    getIncorrectNotesForScenario,
+    getDetailedIncorrectNotes,
+    upsertUserIncorrectNote,
+    updateNoteStatus,
+    getLearningHistory,
+    getPracticedScenarios,
 };

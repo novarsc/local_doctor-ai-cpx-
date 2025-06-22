@@ -21,6 +21,7 @@ import { practiceSessionService } from '../../services/practiceSessionService';
 import { mockExamService } from '../../services/mockExamService';
 import Button from '../../components/common/Button';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
+import Modal from '../../components/common/Modal';
 
 // 타이머 컴포넌트
 const TimerDisplay = ({ initialMinutes = 12 }) => {
@@ -52,6 +53,46 @@ const MockExamInProgressPage = () => {
     const [isStartingPractice, setIsStartingPractice] = useState(false);
     const chatEndRef = useRef(null);
     const caseIndex = parseInt(caseNumber, 10) - 1;
+
+    // --- 커스텀 알림 모달 상태 추가 ---
+    const [notificationModal, setNotificationModal] = useState({
+        isOpen: false,
+        type: 'success', // 'success', 'error', 'confirm'
+        title: '',
+        message: '',
+        onConfirm: null,
+        onCancel: null
+    });
+
+    // --- 커스텀 알림 모달 함수들 ---
+    const showNotification = (type, title, message, onConfirm = null, onCancel = null) => {
+        setNotificationModal({
+            isOpen: true,
+            type,
+            title,
+            message,
+            onConfirm,
+            onCancel
+        });
+    };
+
+    const closeNotification = () => {
+        setNotificationModal(prev => ({ ...prev, isOpen: false }));
+    };
+
+    const handleNotificationConfirm = () => {
+        if (notificationModal.onConfirm) {
+            notificationModal.onConfirm();
+        }
+        closeNotification();
+    };
+
+    const handleNotificationCancel = () => {
+        if (notificationModal.onCancel) {
+            notificationModal.onCancel();
+        }
+        closeNotification();
+    };
 
     // 모의고사 세션 정보 로드
     useEffect(() => {
@@ -111,7 +152,7 @@ const MockExamInProgressPage = () => {
             }
         } catch (error) {
             console.error('Failed to start practice session:', error);
-            alert('실습 세션 시작에 실패했습니다.');
+            showNotification('error', '오류', '실습 세션 시작에 실패했습니다.');
         } finally {
             setIsStartingPractice(false);
         }
@@ -158,42 +199,47 @@ const MockExamInProgressPage = () => {
     };
     
     const handleEndCase = () => {
-        if (window.confirm('정말로 이 증례를 종료하시겠습니까? 다음 증례로 넘어갑니다.')) {
-            const nextCaseNumber = parseInt(caseNumber, 10) + 1;
-            
-            if (nextCaseNumber > 6) {
-                // 마지막 증례이므로 현재 실습 세션을 먼저 완료하고 모의고사 완료
-                if (currentPracticeSessionId) {
-                    dispatch(completeSession(currentPracticeSessionId))
-                        .unwrap()
-                        .then(() => {
-                            // 실습 세션 완료 후 모의고사 완료
-                            return dispatch(completeMockExam(mockExamSessionId)).unwrap();
-                        })
-                        .then(() => {
-                            navigate(`/mock-exams/results/${mockExamSessionId}`);
-                        })
-                        .catch((err) => {
-                            alert(`모의고사 완료에 실패했습니다: ${err.message}`);
-                        });
+        showNotification(
+            'confirm', 
+            '증례 종료 확인', 
+            '정말로 이 증례를 종료하시겠습니까? 다음 증례로 넘어갑니다.',
+            () => {
+                const nextCaseNumber = parseInt(caseNumber, 10) + 1;
+                
+                if (nextCaseNumber > 6) {
+                    // 마지막 증례이므로 현재 실습 세션을 먼저 완료하고 모의고사 완료
+                    if (currentPracticeSessionId) {
+                        dispatch(completeSession(currentPracticeSessionId))
+                            .unwrap()
+                            .then(() => {
+                                // 실습 세션 완료 후 모의고사 완료
+                                return dispatch(completeMockExam(mockExamSessionId)).unwrap();
+                            })
+                            .then(() => {
+                                navigate(`/mock-exams/results/${mockExamSessionId}`);
+                            })
+                            .catch((err) => {
+                                showNotification('error', '오류', `모의고사 완료에 실패했습니다: ${err.message}`);
+                            });
+                    } else {
+                        // 실습 세션이 없는 경우 바로 모의고사 완료
+                        dispatch(completeMockExam(mockExamSessionId))
+                            .unwrap()
+                            .then(() => {
+                                navigate(`/mock-exams/results/${mockExamSessionId}`);
+                            })
+                            .catch((err) => {
+                                showNotification('error', '오류', `모의고사 완료에 실패했습니다: ${err.message}`);
+                            });
+                    }
                 } else {
-                    // 실습 세션이 없는 경우 바로 모의고사 완료
-                    dispatch(completeMockExam(mockExamSessionId))
-                        .unwrap()
-                        .then(() => {
-                            navigate(`/mock-exams/results/${mockExamSessionId}`);
-                        })
-                        .catch((err) => {
-                            alert(`모의고사 완료에 실패했습니다: ${err.message}`);
-                        });
+                    // 다음 증례로 이동하기 전에 현재 실습 세션 상태 초기화
+                    dispatch(resetSession());
+                    // 다음 증례로 이동
+                    navigate(`/mock-exams/live/${mockExamSessionId}/${nextCaseNumber}`);
                 }
-            } else {
-                // 다음 증례로 이동하기 전에 현재 실습 세션 상태 초기화
-                dispatch(resetSession());
-                // 다음 증례로 이동
-                navigate(`/mock-exams/live/${mockExamSessionId}/${nextCaseNumber}`);
             }
-        }
+        );
     };
 
     if (status === 'loading' || !currentCase || isStartingPractice) {
@@ -281,6 +327,47 @@ const MockExamInProgressPage = () => {
                     </Button>
                 </div>
             </aside>
+
+            {/* 커스텀 알림 모달 */}
+            <Modal
+                isOpen={notificationModal.isOpen}
+                onClose={closeNotification}
+                title={notificationModal.title}
+                footer={
+                    notificationModal.type === 'confirm' ? (
+                        <>
+                            <Button variant="secondary" onClick={handleNotificationCancel}>취소</Button>
+                            <Button variant="primary" onClick={handleNotificationConfirm}>확인</Button>
+                        </>
+                    ) : (
+                        <Button 
+                            variant={notificationModal.type === 'success' ? 'primary' : 'danger'} 
+                            onClick={closeNotification}
+                        >
+                            확인
+                        </Button>
+                    )
+                }
+            >
+                <div className="flex items-center space-x-3">
+                    {notificationModal.type === 'success' && (
+                        <svg className="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                    )}
+                    {notificationModal.type === 'error' && (
+                        <svg className="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    )}
+                    {notificationModal.type === 'confirm' && (
+                        <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    )}
+                    <p className="text-gray-700">{notificationModal.message}</p>
+                </div>
+            </Modal>
         </div>
     );
 };

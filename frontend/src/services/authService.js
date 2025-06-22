@@ -161,6 +161,46 @@ const updateProfile = async (profileData) => {
 };
 
 /**
+ * 사용자 프로필 이미지를 업로드합니다.
+ * @param {File} imageFile - 업로드할 이미지 파일
+ * @returns {Promise<object>} 업데이트된 사용자 정보
+ */
+const uploadProfileImage = async (imageFile) => {
+  try {
+    const formData = new FormData();
+    formData.append('profileImage', imageFile);
+
+    const response = await apiClient.put('/users/me/profile-image', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    });
+
+    // 성공 시, Redux 스토어와 localStorage를 업데이트
+    setUser(response.data);
+    return response.data;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('프로필 이미지 업로드에 실패했습니다.');
+  }
+};
+
+/**
+ * 사용자 프로필 이미지를 삭제합니다.
+ * @returns {Promise<object>} 업데이트된 사용자 정보
+ */
+const deleteProfileImage = async () => {
+  try {
+    const response = await apiClient.delete('/users/me/profile-image');
+    
+    // 성공 시, Redux 스토어와 localStorage를 업데이트
+    setUser(response.data);
+    return response.data;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('프로필 이미지 삭제에 실패했습니다.');
+  }
+};
+
+/**
  * 사용자 비밀번호를 변경합니다.
  * @param {object} passwordData - { currentPassword, newPassword }
  * @returns {Promise<void>}
@@ -206,4 +246,6 @@ export const authService = {
   updateProfile,    // export 객체에 추가
   updatePassword,   // export 객체에 추가
   deleteAccount, // export 객체에 추가
+  uploadProfileImage, // 프로필 이미지 업로드 추가
+  deleteProfileImage, // 프로필 이미지 삭제 추가
 };

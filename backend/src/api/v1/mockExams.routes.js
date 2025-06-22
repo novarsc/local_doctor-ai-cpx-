@@ -17,13 +17,16 @@ router.use(verifyToken);
 // POST /api/v1/mock-exams - Start a new mock exam session
 router.post('/', mockExamController.startSession);
 
+// GET /api/v1/mock-exams/categories - Get secondary categories
+router.get('/categories', mockExamController.getSecondaryCategories);
+
 // GET /api/v1/mock-exams/:mockExamSessionId - Get details of a specific mock exam session
 router.get('/:mockExamSessionId', mockExamController.getSession);
 
 // POST /api/v1/mock-exams/:mockExamSessionId/complete - Complete a mock exam session
 router.post('/:mockExamSessionId/complete', mockExamController.completeSession);
 
-// POST /api/v1/mock-exams/:mockExamSessionId/cases/:caseNumber/start-practice - Start practice session for a specific case in mock exam
-router.post('/:mockExamSessionId/cases/:caseNumber/start-practice', mockExamController.startCasePractice);
+// POST /api/v1/mock-exams/:mockExamSessionId/cases/:caseNumber/start - Start practice session for a specific case in mock exam
+router.post('/:mockExamSessionId/cases/:caseNumber/start', mockExamController.startCasePractice);
 
 module.exports = router;

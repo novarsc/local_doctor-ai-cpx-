@@ -14,7 +14,9 @@ const router = express.Router();
 router.use(verifyToken);
 
 router.post('/', practiceSessionController.createSession);
+router.get('/:sessionId', practiceSessionController.getSessionDetails);
 router.post('/:sessionId/chat-messages', practiceSessionController.handleChatMessage);
+router.get('/:sessionId/chat-messages', practiceSessionController.getChatMessages);
 router.post('/:sessionId/complete', practiceSessionController.completeSession);
 router.get('/:sessionId/feedback', practiceSessionController.getFeedback);
 router.get('/:sessionId/history', practiceSessionController.getChatHistory);

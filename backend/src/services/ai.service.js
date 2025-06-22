@@ -136,7 +136,76 @@ const sendMessageAndGetResponse = async (history, messageContent) => {
 const evaluatePracticeSession = async (practiceSessionData) => {
     const { chatLogs, scenario } = practiceSessionData;
 
-    const checklistFileContent = fs.readFileSync(path.join(__dirname, '..', '..', scenario.checklistFilePath), 'utf8');
+    // 체크리스트 파일이 없는 경우 기본 체크리스트 사용
+    let checklistFileContent = '';
+    if (scenario.checklistFilePath) {
+        try {
+            checklistFileContent = fs.readFileSync(path.join(__dirname, '..', '..', scenario.checklistFilePath), 'utf8');
+        } catch (error) {
+            console.warn(`Checklist file not found: ${scenario.checklistFilePath}, using default checklist`);
+            checklistFileContent = `
+case_id: "default_checklist"
+title: "기본 채점표"
+sections:
+  - name: "병력 청취"
+    subsections:
+      - name: "기본"
+        items:
+          - "주요 증상을 확인하였다."
+          - "증상의 시작 시점을 확인하였다."
+          - "증상의 위치와 양상을 확인하였다."
+          - "증상의 강도를 확인하였다."
+          - "악화 및 완화 인자를 확인하였다."
+  - name: "신체 진찰"
+    subsections:
+      - name: "기본"
+        items:
+          - "시진을 시행하였다."
+          - "청진을 시행하였다."
+          - "타진을 시행하였다."
+          - "촉진을 시행하였다."
+  - name: "환자 교육"
+    subsections:
+      - name: "기본"
+        items:
+          - "진단에 대해 설명하였다."
+          - "치료 계획을 설명하였다."
+          - "추가 검사의 필요성을 설명하였다."
+            `;
+        }
+    } else {
+        // 체크리스트 파일 경로가 없는 경우 기본 체크리스트 사용
+        checklistFileContent = `
+case_id: "default_checklist"
+title: "기본 채점표"
+sections:
+  - name: "병력 청취"
+    subsections:
+      - name: "기본"
+        items:
+          - "주요 증상을 확인하였다."
+          - "증상의 시작 시점을 확인하였다."
+          - "증상의 위치와 양상을 확인하였다."
+          - "증상의 강도를 확인하였다."
+          - "악화 및 완화 인자를 확인하였다."
+  - name: "신체 진찰"
+    subsections:
+      - name: "기본"
+        items:
+          - "시진을 시행하였다."
+          - "청진을 시행하였다."
+          - "타진을 시행하였다."
+          - "촉진을 시행하였다."
+  - name: "환자 교육"
+    subsections:
+      - name: "기본"
+        items:
+          - "진단에 대해 설명하였다."
+          - "치료 계획을 설명하였다."
+          - "추가 검사의 필요성을 설명하였다."
+            `;
+    }
+
     const caseFileContent = fs.readFileSync(path.join(__dirname, '..', '..', scenario.caseFilePath), 'utf8');
     const diagnosis = yaml.load(caseFileContent).patient_education.probable_diagnoses[0];
 

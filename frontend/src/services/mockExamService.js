@@ -48,6 +48,19 @@ const completeMockExam = async (mockExamSessionId) => {
 };
 
 /**
+ * Gets secondary categories grouped by primary category.
+ * @returns {Promise<object>} Object with primary categories as keys and arrays of secondary categories as values.
+ */
+const getSecondaryCategories = async () => {
+    try {
+        const response = await apiClient.get('/mock-exams/categories');
+        return response.data;
+    } catch (error) {
+        throw error.response?.data?.error || new Error('Failed to fetch secondary categories.');
+    }
+};
+
+/**
  * Starts a practice session for a specific case in a mock exam.
  * @param {string} mockExamSessionId - The ID of the mock exam session.
  * @param {number} caseNumber - The case number (1-6).
@@ -55,7 +68,7 @@ const completeMockExam = async (mockExamSessionId) => {
  */
 const startCasePractice = async (mockExamSessionId, caseNumber) => {
     try {
-        const response = await apiClient.post(`/mock-exams/${mockExamSessionId}/cases/${caseNumber}/start-practice`);
+        const response = await apiClient.post(`/mock-exams/${mockExamSessionId}/cases/${caseNumber}/start`);
         return response.data;
     } catch (error) {
         throw error.response?.data?.error || new Error('Failed to start case practice session.');
@@ -67,4 +80,5 @@ export const mockExamService = {
   getMockExamSession,
   completeMockExam,
   startCasePractice,
+  getSecondaryCategories
 };

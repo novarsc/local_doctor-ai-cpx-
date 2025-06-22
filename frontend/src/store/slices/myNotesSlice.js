@@ -45,12 +45,51 @@ export const fetchBookmarks = createAsyncThunk(
   }
 );
 
+// 즐겨찾기 해제 Thunk
+export const removeBookmark = createAsyncThunk(
+  'myNotes/removeBookmark',
+  async (scenarioId, { rejectWithValue }) => {
+    try {
+      await myNotesService.removeBookmark(scenarioId);
+      return scenarioId;
+    } catch (error) {
+      return rejectWithValue(error.response?.data || { message: 'Unknown error' });
+    }
+  }
+);
+
 // 오답노트 조회 Thunk
 export const fetchIncorrectNotes = createAsyncThunk(
   'myNotes/fetchIncorrectNotes',
   async (scenarioId, { rejectWithValue }) => {
     try {
       const response = await myNotesService.getIncorrectNotes(scenarioId);
+      return { scenarioId, data: response };
+    } catch (error) {
+      return rejectWithValue(error.response?.data || { message: 'Unknown error' });
+    }
+  }
+);
+
+// 상세 오답노트 조회 Thunk
+export const fetchDetailedIncorrectNotes = createAsyncThunk(
+  'myNotes/fetchDetailedIncorrectNotes',
+  async (scenarioId, { rejectWithValue }) => {
+    try {
+      const response = await myNotesService.getDetailedIncorrectNotes(scenarioId);
+      return { scenarioId, data: response };
+    } catch (error) {
+      return rejectWithValue(error.response?.data || { message: 'Unknown error' });
+    }
+  }
+);
+
+// 노트 상태 업데이트 Thunk
+export const updateNoteStatus = createAsyncThunk(
+  'myNotes/updateNoteStatus',
+  async ({ scenarioId, hasNote }, { rejectWithValue }) => {
+    try {
+      const response = await myNotesService.updateNoteStatus(scenarioId, hasNote);
       return { scenarioId, data: response };
     } catch (error) {
       return rejectWithValue(error.response?.data || { message: 'Unknown error' });
@@ -76,11 +115,13 @@ const initialState = {
   learningHistory: [],
   bookmarks: [],
   incorrectNotes: {},
+  detailedIncorrectNotes: {},
   practicedScenarios: [],
   status: {
     learningHistory: 'idle',
     bookmarks: 'idle',
     incorrectNotes: 'idle',
+    detailedIncorrectNotes: 'idle',
     practicedScenarios: 'idle',
   },
   error: null,
@@ -149,6 +190,20 @@ const myNotesSlice = createSlice({
         state.error = action.payload?.message || 'Failed to fetch bookmarks';
       })
       
+      // 즐겨찾기 해제 상태 처리
+      .addCase(removeBookmark.pending, (state) => {
+        state.status.bookmarks = 'removing';
+      })
+      .addCase(removeBookmark.fulfilled, (state, action) => {
+        state.status.bookmarks = 'succeeded';
+        // 즐겨찾기 목록에서 해당 시나리오 제거
+        state.bookmarks = state.bookmarks.filter(bookmark => bookmark.scenarioId !== action.payload);
+      })
+      .addCase(removeBookmark.rejected, (state, action) => {
+        state.status.bookmarks = 'failed';
+        state.error = action.payload?.message || 'Failed to remove bookmark';
+      })
+      
       // 오답노트 상태 처리
       .addCase(fetchIncorrectNotes.pending, (state) => {
         state.status.incorrectNotes = 'loading';
@@ -160,6 +215,42 @@ const myNotesSlice = createSlice({
       .addCase(fetchIncorrectNotes.rejected, (state, action) => {
         state.status.incorrectNotes = 'failed';
         state.error = action.payload?.message || 'Failed to fetch incorrect notes';
+      })
+      
+      // 상세 오답노트 상태 처리
+      .addCase(fetchDetailedIncorrectNotes.pending, (state) => {
+        state.status.detailedIncorrectNotes = 'loading';
+      })
+      .addCase(fetchDetailedIncorrectNotes.fulfilled, (state, action) => {
+        state.status.detailedIncorrectNotes = 'succeeded';
+        state.detailedIncorrectNotes[action.payload.scenarioId] = action.payload.data;
+      })
+      .addCase(fetchDetailedIncorrectNotes.rejected, (state, action) => {
+        state.status.detailedIncorrectNotes = 'failed';
+        state.error = action.payload?.message || 'Failed to fetch detailed incorrect notes';
+      })
+      
+      // 노트 상태 업데이트 처리
+      .addCase(updateNoteStatus.pending, (state) => {
+        state.status.incorrectNotes = 'updating';
+      })
+      .addCase(updateNoteStatus.fulfilled, (state, action) => {
+        state.status.incorrectNotes = 'succeeded';
+        // practicedScenarios에서 해당 증례의 hasNote 상태 업데이트
+        const scenarioIndex = state.practicedScenarios.findIndex(
+          scenario => scenario.scenarioId === action.payload.scenarioId
+        );
+        if (scenarioIndex !== -1) {
+          state.practicedScenarios[scenarioIndex].hasNote = action.payload.data.hasNote;
+        }
+        // incorrectNotes에서도 업데이트
+        if (state.incorrectNotes[action.payload.scenarioId]) {
+          state.incorrectNotes[action.payload.scenarioId].hasNote = action.payload.data.hasNote;
+        }
+      })
+      .addCase(updateNoteStatus.rejected, (state, action) => {
+        state.status.incorrectNotes = 'failed';
+        state.error = action.payload?.message || 'Failed to update note status';
       })
       
       // 사용자 메모 저장 상태 처리

@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchIncorrectNotes, saveUserMemo, fetchPracticedScenarios } from '../../store/slices/myNotesSlice';
+import { useNavigate } from 'react-router-dom';
+import { fetchIncorrectNotes, saveUserMemo, fetchPracticedScenarios, updateNoteStatus } from '../../store/slices/myNotesSlice';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 
 const IncorrectAnswersPage = () => {
     const dispatch = useDispatch();
+    const navigate = useNavigate();
     const [selectedScenarioId, setSelectedScenarioId] = useState(null);
     const [userMemo, setUserMemo] = useState('');
 
@@ -23,7 +25,9 @@ const IncorrectAnswersPage = () => {
 
     useEffect(() => {
         // 선택된 시나리오의 오답노트를 불러옵니다.
-        dispatch(fetchIncorrectNotes(selectedScenarioId));
+        if (selectedScenarioId) {
+            dispatch(fetchIncorrectNotes(selectedScenarioId));
+        }
     }, [dispatch, selectedScenarioId]);
 
     useEffect(() => {
@@ -41,6 +45,14 @@ const IncorrectAnswersPage = () => {
         }));
     };
 
+    const handleNoteStatusChange = (scenarioId, hasNote) => {
+        dispatch(updateNoteStatus({ scenarioId, hasNote }));
+    };
+
+    const handleViewDetail = (scenarioId) => {
+        navigate(`/my-notes/incorrect/${scenarioId}/detail`);
+    };
+
     return (
         <div className="flex h-full gap-8">
             <aside className="w-1/3 bg-white p-4 rounded-lg shadow-md flex-shrink-0">
@@ -51,13 +63,53 @@ const IncorrectAnswersPage = () => {
                     {status.practicedScenarios === 'succeeded' && (
                         practicedScenarios.length > 0 ? (
                             practicedScenarios.map(scenario => (
-                                <button
-                                    key={scenario.scenarioId}
-                                    onClick={() => setSelectedScenarioId(scenario.scenarioId)}
-                                    className={`w-full text-left p-3 rounded-md transition-colors ${selectedScenarioId === scenario.scenarioId ? 'bg-blue-600 text-white font-bold shadow' : 'hover:bg-gray-100'}`}
-                                >
-                                    {scenario.name}
-                                </button>
+                                <div key={scenario.scenarioId} className="border rounded-md p-3 hover:bg-gray-50">
+                                    <div className="flex items-center justify-between mb-2">
+                                        <button
+                                            onClick={() => setSelectedScenarioId(scenario.scenarioId)}
+                                            className={`text-left flex-1 ${selectedScenarioId === scenario.scenarioId ? 'font-bold text-blue-600' : 'hover:text-blue-600'}`}
+                                        >
+                                            {scenario.name}
+                                        </button>
+                                        <div className="flex items-center gap-2">
+                                            <input
+                                                type="checkbox"
+                                                checked={scenario.hasNote || false}
+                                                onChange={(e) => handleNoteStatusChange(scenario.scenarioId, e.target.checked)}
+                                                className="w-4 h-4 text-blue-600 rounded focus:ring-blue-500"
+                                            />
+                                            <button
+                                                onClick={() => handleViewDetail(scenario.scenarioId)}
+                                                className="text-sm text-blue-600 hover:text-blue-800 underline"
+                                            >
+                                                상세보기
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                    {/* 요약 정보 */}
+                                    <div className="text-sm text-gray-600 space-y-1">
+                                        {scenario.score !== null && (
+                                            <div className="flex justify-between">
+                                                <span>점수:</span>
+                                                <span className="font-semibold">{scenario.score}점</span>
+                                            </div>
+                                        )}
+                                        {scenario.qualitativeFeedback && (
+                                            <div>
+                                                <span className="font-medium">교수 총평:</span>
+                                                <p className="text-xs mt-1 text-gray-700 line-clamp-2">
+                                                    {scenario.qualitativeFeedback}
+                                                </p>
+                                            </div>
+                                        )}
+                                        {scenario.completedAt && (
+                                            <div className="text-xs text-gray-500">
+                                                완료일: {new Date(scenario.completedAt).toLocaleDateString('ko-KR')}
+                                            </div>
+                                        )}
+                                    </div>
+                                </div>
                             ))
                         ) : (
                             <p className="text-gray-500 text-sm p-3">아직 학습을 완료한 증례가 없습니다.</p>
@@ -72,6 +124,25 @@ const IncorrectAnswersPage = () => {
 
                 {currentNoteData && status.incorrectNotes !== 'loading' && (
                     <div>
+                        {/* 선택된 증례의 요약 정보 */}
+                        <div className="mb-6 p-4 bg-blue-50 rounded-lg">
+                            <h3 className="font-semibold text-lg mb-2 text-blue-800">선택된 증례 요약</h3>
+                            <div className="grid grid-cols-2 gap-4 text-sm">
+                                {currentNoteData.score !== null && (
+                                    <div>
+                                        <span className="font-medium">점수:</span>
+                                        <span className="ml-2 font-bold text-lg">{currentNoteData.score}점</span>
+                                    </div>
+                                )}
+                                {currentNoteData.qualitativeFeedback && (
+                                    <div className="col-span-2">
+                                        <span className="font-medium">교수 총평:</span>
+                                        <p className="mt-1 text-gray-700">{currentNoteData.qualitativeFeedback}</p>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+
                         <div className="mb-8">
                             <h3 className="font-semibold text-lg mb-2 text-red-600">AI의 개선 피드백</h3>
                             <div className="bg-red-50 p-4 rounded-md space-y-2 text-red-900 border border-red-200">
@@ -83,30 +154,34 @@ const IncorrectAnswersPage = () => {
                                 }
                             </div>
                         </div>
-                        <div>
-                            <h3 className="font-semibold text-gray-700">해설</h3>
-                            <p className="text-gray-600 bg-gray-50 p-3 rounded-md">{currentNoteData.explanation}</p>
+
+                        {/* 사용자 메모 입력 */}
+                        <div className="bg-white rounded-lg shadow-md p-6">
+                            <h2 className="text-xl font-semibold mb-4 text-gray-800">나의 메모</h2>
+                            <textarea
+                                value={userMemo}
+                                onChange={(e) => setUserMemo(e.target.value)}
+                                placeholder="이 문제에 대한 개인적인 메모를 작성하세요..."
+                                className="w-full h-32 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                            />
+                            <div className="flex justify-between items-center mt-4">
+                                <button
+                                    onClick={handleSaveMemo}
+                                    disabled={status.incorrectNotes === 'saving'}
+                                    className="px-4 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:bg-gray-400"
+                                >
+                                    {status.incorrectNotes === 'saving' ? '저장 중...' : '메모 저장'}
+                                </button>
+                                <button
+                                    onClick={() => handleViewDetail(selectedScenarioId)}
+                                    className="px-4 py-2 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                                >
+                                    상세 오답노트 보기
+                                </button>
+                            </div>
                         </div>
                     </div>
                 )}
-
-                {/* 사용자 메모 입력 */}
-                <div className="bg-white rounded-lg shadow-md p-6 mt-6">
-                    <h2 className="text-xl font-semibold mb-4 text-gray-800">나의 메모</h2>
-                    <textarea
-                        value={userMemo}
-                        onChange={(e) => setUserMemo(e.target.value)}
-                        placeholder="이 문제에 대한 개인적인 메모를 작성하세요..."
-                        className="w-full h-32 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-                    />
-                    <button
-                        onClick={handleSaveMemo}
-                        disabled={status.incorrectNotes === 'saving'}
-                        className="mt-4 px-4 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:bg-gray-400"
-                    >
-                        {status.incorrectNotes === 'saving' ? '저장 중...' : '메모 저장'}
-                    </button>
-                </div>
             </main>
         </div>
     );

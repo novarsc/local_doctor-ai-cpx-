@@ -18,6 +18,9 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// 정적 파일 서빙 (프로필 이미지 등)
+app.use('/uploads', express.static('public/uploads'));
+
 // API 라우트 설정
 // 이제 /api/v1 경로로 오는 모든 요청은 v1 통합 라우터가 처리합니다.
 app.use('/api/v1', v1ApiRoutes);

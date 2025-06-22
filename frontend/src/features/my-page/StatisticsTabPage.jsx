@@ -44,7 +44,18 @@ const StatisticsTabPage = () => {
           <h3 className="text-lg font-semibold text-gray-700">완료 증례 수</h3>
           <p className="text-3xl font-bold text-gray-900 mt-2">{stats.completedCases.count} / {stats.completedCases.total}개</p>
           {stats.completedCases.total > 0 && (
-            <ProgressBar percentage={(stats.completedCases.count / stats.completedCases.total) * 100} />
+            <div className="mt-3">
+              <div className="flex justify-between text-xs text-gray-600 mb-1">
+                <span>진행률</span>
+                <span>{Math.round((stats.completedCases.count / stats.completedCases.total) * 100)}%</span>
+              </div>
+              <div className="w-full bg-gray-200 rounded-full h-2">
+                <div 
+                  className="bg-blue-500 h-2 rounded-full transition-all duration-300"
+                  style={{ width: `${(stats.completedCases.count / stats.completedCases.total) * 100}%` }}
+                ></div>
+              </div>
+            </div>
           )}
         </div>
         <div className="p-6 bg-white rounded-lg shadow">
@@ -58,15 +69,43 @@ const StatisticsTabPage = () => {
         <h3 className="text-xl font-bold text-gray-800 mb-4">분류별 성취도</h3>
         <div className="space-y-4 p-6 bg-white rounded-lg shadow">
           {stats.performanceByCategory && stats.performanceByCategory.length > 0 ? (
-            stats.performanceByCategory.map((item) => (
-              <div key={item.category}>
-                <div className="flex justify-between mb-1">
-                  <span className="font-semibold text-gray-700">{item.category}</span>
-                  <span className="text-gray-600">{item.averageScore}점</span>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {stats.performanceByCategory.map((item) => (
+                <div key={item.category} className="p-4 border rounded-lg bg-gray-50">
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="font-semibold text-gray-800 text-sm">{item.category}</h4>
+                    <span className="text-xs text-gray-500">
+                      {item.completedCount}/{item.totalCount}
+                    </span>
+                  </div>
+                  
+                  {/* 완료율 프로그레스 바 */}
+                  <div className="mb-2">
+                    <div className="flex justify-between text-xs text-gray-600 mb-1">
+                      <span>완료율</span>
+                      <span>{item.completionRate}%</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div 
+                        className="bg-blue-500 h-2 rounded-full transition-all duration-300"
+                        style={{ width: `${item.completionRate}%` }}
+                      ></div>
+                    </div>
+                  </div>
+                  
+                  {/* 평균 점수 */}
+                  <div className="flex justify-between items-center">
+                    <span className="text-xs text-gray-600">평균 점수</span>
+                    <span className={`text-sm font-bold ${
+                      item.averageScore >= 80 ? 'text-green-600' :
+                      item.averageScore >= 60 ? 'text-yellow-600' : 'text-red-600'
+                    }`}>
+                      {item.completedCount > 0 ? `${item.averageScore}점` : 'N/A'}
+                    </span>
+                  </div>
                 </div>
-                <ProgressBar percentage={item.averageScore} />
-              </div>
-            ))
+              ))}
+            </div>
           ) : (
             <p className="text-gray-500">아직 분류별 성취도 데이터가 없습니다.</p>
           )}
