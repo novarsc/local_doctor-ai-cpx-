@@ -99,6 +99,38 @@ function safeGet(obj, path, defaultValue = null) {
 }
 
 /**
+ * Finds the appropriate checklist file for a case file
+ * @param {string} fileName - Name of the case file
+ * @returns {string|null} Checklist file path or null if not found
+ */
+function getChecklistPath(fileName) {
+    const baseFileName = path.basename(fileName, path.extname(fileName));
+    
+    // 1. 정확한 매칭 체크리스트 찾기 (개별 체크리스트)
+    let checklistFile = `${baseFileName}_checklist.yaml`;
+    let checklistPath = path.join(__dirname, 'data', 'checklists', checklistFile);
+    
+    if (fs.existsSync(checklistPath)) {
+        return `data/checklists/${checklistFile}`;
+    }
+    
+    // 2. 패턴 매칭 체크리스트 찾기 (공통 체크리스트)
+    // 파일명 끝의 숫자(_01, _02 등)를 제거하고 공통 체크리스트 찾기
+    const patternName = baseFileName.replace(/_\d+$/, '');
+    
+    if (patternName !== baseFileName) { // 숫자가 제거된 경우만
+        checklistFile = `${patternName}_checklist.yaml`;
+        checklistPath = path.join(__dirname, 'data', 'checklists', checklistFile);
+        
+        if (fs.existsSync(checklistPath)) {
+            return `data/checklists/${checklistFile}`;
+        }
+    }
+    
+    return null;
+}
+
+/**
  * Processes a single YAML case file
  * @param {string} filePath - Path to the YAML file
  * @param {string} fileName - Name of the file
@@ -121,11 +153,8 @@ async function processCaseFile(filePath, fileName, personalityId) {
         const secondaryCategory = extractSecondaryCategory(caseData.title);
         const keywords = generateKeywords(caseData, secondaryCategory);
         
-        // Check for checklist file
-        const baseFileName = path.basename(fileName, path.extname(fileName));
-        const expectedChecklistFile = `${baseFileName}_checklist.yaml`;
-        const checklistPath = path.join(__dirname, 'data', 'checklists', expectedChecklistFile);
-        const checklistFilePath = fs.existsSync(checklistPath) ? `data/checklists/${expectedChecklistFile}` : null;
+        // Check for checklist file (improved to support shared checklists)
+        const checklistFilePath = getChecklistPath(fileName);
         
         // Safely extract values with fallbacks
         const scenarioData = {

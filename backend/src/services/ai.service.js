@@ -227,6 +227,13 @@ sections:
 
       **과제:**
       위 평가 자료를 바탕으로, 아래 JSON 형식에 맞춰 학생의 수행을 평가하고 채점 결과를 생성해주세요.
+      
+      **중요한 채점 지침:**
+      1. 체크리스트의 각 section → subsection → items 구조를 이해하고, items의 모든 개별 항목을 평가하세요.
+      2. 대화가 짧더라도, 실제로 수행한 항목은 'yes', 수행하지 않은 항목은 'no'로 정확히 판단하세요.
+      3. 환자가 자발적으로 제공한 정보도 의사가 "확인했다"고 간주할 수 있습니다.
+      
+      **출력 요구사항:**
       - \`overallScore\`: 체크리스트 수행률을 기반으로 0점에서 100점 사이의 점수를 계산해주세요.
       - \`qualitativeFeedback\`: 학생의 전반적인 수행에 대한 한두 문장의 총평을 작성해주세요.
       - \`checklistResults\`: 체크리스트의 모든 항목에 대해, 학생이 대화에서 실제로 수행했는지 여부('yes' 또는 'no')를 판단하고, 그 근거를 \`aiComment\`에 간략히 서술해주세요.
@@ -261,29 +268,68 @@ sections:
     console.log('-------------------------------------');
     
     try {
+        // API 키 검증
+        if (!process.env.GEMINI_API_KEY) {
+            console.error('❌ GEMINI_API_KEY is not set in environment variables');
+            throw new Error('GEMINI_API_KEY is required');
+        }
+        
+        console.log('✅ API Key found, attempting AI call...');
         const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-latest" });
+        
+        console.log('🔄 Calling Gemini API...');
         const result = await model.generateContent(evaluationPrompt);
         const responseText = result.response.text();
+        
+        // --- AI 응답 전체 로그 ---
+        console.log('--- [AI RAW RESPONSE] ---');
+        console.log('Length:', responseText.length);
+        console.log('Content:', responseText);
+        console.log('-------------------------');
+        
         let jsonString = responseText;
 
         // 1. AI가 Markdown 코드 블록을 사용했는지 먼저 확인합니다.
         const jsonMatch = responseText.match(/```json\n([\s\S]*?)\n```/);
         if (jsonMatch && jsonMatch[1]) {
+          console.log('Found JSON code block, extracting content...');
           // 코드 블록이 있다면, 그 안의 내용만 추출합니다.
           jsonString = jsonMatch[1];
+        } else {
+          console.log('No JSON code block found, using raw response...');
         }
 
         // 2. 추출된 문자열(또는 원본 문자열)에 대해 JSON 파싱을 시도합니다.
         try {
-          return JSON.parse(jsonString);
+          console.log('--- [ATTEMPTING JSON PARSE] ---');
+          console.log('JSON String to parse:', jsonString.substring(0, 500) + '...');
+          const parsedResult = JSON.parse(jsonString);
+          console.log('✅ JSON parsing successful!');
+          return parsedResult;
         } catch (parseError) {
           // 최종적으로 파싱에 실패하면, 원본 응답을 로그로 남기고 오류를 던집니다.
-          console.error("Ultimately failed to parse JSON. AI raw response:", responseText);
+          console.error("❌ JSON parsing failed!");
+          console.error("Parse Error:", parseError.message);
+          console.error("AI raw response:", responseText);
+          console.error("Attempted to parse:", jsonString);
           throw new Error('Failed to parse evaluation result from AI.');
         }
 
     } catch (error) {
-        console.error('Error evaluating practice session:', error);
+        console.error('❌ Error evaluating practice session:');
+        console.error('Error type:', error.constructor.name);
+        console.error('Error message:', error.message);
+        console.error('Error stack:', error.stack);
+        
+        // Gemini API specific error handling
+        if (error.message.includes('API key')) {
+            console.error('🔑 API Key issue detected');
+        } else if (error.message.includes('quota')) {
+            console.error('💰 API quota exceeded');
+        } else if (error.message.includes('safety')) {
+            console.error('🛡️ Content safety filter triggered');
+        }
+        
         throw new ApiError(503, 'C004_SERVICE_UNAVAILABLE', 'Failed to evaluate the session with AI service.');
     }
 };

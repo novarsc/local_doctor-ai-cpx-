@@ -1,0 +1,63 @@
+case_id: "checklist_02_indigestion_chronic_abdominal_pain"
+title: "소화불량/만성 복통 채점표 예시"
+source_page: 1
+sections:
+  - name: "병력 청취 (History Taking)"
+    subsections:
+      - name: "주제 관련 (Topic-Related)"
+        items:
+          - "복통의 위치, 양상, 강도, 방사통, 시간적 양상을 확인하였다."
+          - "복통의 시작 시점과 기간을 확인하였다."
+          - "복통의 악화 및 완화 인자(식사, 배변, 자세)를 확인하였다."
+          - "소화불량 관련 증상(속쓰림, 구역, 구토, 트림, 복부팽만, 식욕 변화)을 확인하였다."
+          - "배변 습관의 변화(변비, 설사, 혈변) 유무를 확인하였다."
+          - "체중 감소, 발열, 피로 등 경고 증상(alarm symptoms)에 대해 질문하였다."
+      - name: "기본 (Basic)"
+        items:
+          - "과거 소화기 질환(위염, 궤양, 역류성 식도염 등) 병력을 확인하였다."
+          - "현재 복용 중인 약물(소염진통제, 스테로이드, 항응고제 등)을 확인하였다."
+          - "소화기암 등의 가족력에 대해 질문하였다."
+          - "음주, 흡연력 및 스트레스 정도를 확인하였다."
+          - "환자의 식습관에 대해서 물어보았다."
+
+  - name: "신체 검진 (Physical Examination)"
+    items:
+      - "환자의 생체 징후를 확인하였다."
+      - "눈 진찰을 통해 황달, 빈혈 유무를 확인하였다."
+      - "복부 시진, 청진, 타진, 촉진을 순서대로 시행하였다."
+      - "복부 촉진 시 압통 부위, 정도, 반발통 유무를 확인하였다."
+      - "필요 시 Murphy's sign, Psoas sign, Obturator sign 등을 확인하였다."
+
+  - name: "환자 교육 (Patient Education)"
+    items:
+      - "가능한 감별 진단과 필요한 검사 계획(혈액검사, 내시경, 영상검사 등)에 대해서 설명하였다."
+      - "생활 습관 교정(식습관, 스트레스 관리)의 중요성에 대해 설명하였다."
+      - "심한 통증, 혈변, 지속적인 구토, 의도하지 않은 체중 감소 등 경고 증상 발생 시 즉시 내원하도록 안내하였다."
+
+  - name: "증례별 알고리즘 (Case-specific Algorithm)"
+    description: "소화불량/만성 복통의 원인을 감별하기 위한 진단적 사고 흐름입니다."
+    branches:
+      - condition: "경고 증상(alarm symptom)이 있거나 구조적 질환이 의심될 때 (Structural Causes)"
+        sub_branches:
+          - type: "상부위장관 질환 (Upper GI Tract Diseases)"
+            diagnoses:
+              - "Gastroesophageal Reflux Disease (GERD, 위식도 역류질환)"
+              - "Peptic Ulcer Disease (PUD, 소화성 궤양)"
+              - "Gastritis (위염)"
+              - "Malignancy (위암 등)"
+          - type: "담췌관 질환 (Hepatobiliary & Pancreatic Diseases)"
+            diagnoses:
+              - "Chronic Cholecystitis (만성 담낭염)"
+              - "Chronic Pancreatitis (만성 췌장염)"
+          - type: "장 질환 (Bowel Diseases)"
+            diagnoses:
+              - "Inflammatory Bowel Disease (IBD, 염증성 장질환)"
+              - "Diverticulitis (게실염)"
+              - "Ischemic colitis (허혈성 대장염)"
+
+      - condition: "경고 증상이 없고 구조적 질환의 증거가 없을 때 (Functional Causes)"
+        sub_branches:
+          - type: "기능성 위장장애 (Functional GI Disorders)"
+            diagnoses:
+              - "Functional Dyspepsia (기능성 소화불량)"
+              - "Irritable Bowel Syndrome (IBS, 과민성 장 증후군)"

@@ -160,6 +160,26 @@ const practiceSessionSlice = createSlice({
         state.error = action.payload;
       })
       
+      // Fetch Feedback
+      .addCase(fetchFeedbackForSession.pending, (state) => {
+        state.isLoading = true;
+        state.error = null;
+      })
+      .addCase(fetchFeedbackForSession.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.feedback = action.payload;
+        if (action.payload.status === 'completed') {
+          state.evaluationStatus = 'completed';
+        } else if (action.payload.status === 'evaluating') {
+          state.evaluationStatus = 'evaluating';
+        }
+      })
+      .addCase(fetchFeedbackForSession.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.payload;
+        state.evaluationStatus = 'error';
+      })
+
       // Resume Session
       .addCase(resumePracticeSession.pending, (state) => {
         state.isLoading = true;
