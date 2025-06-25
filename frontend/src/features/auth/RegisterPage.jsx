@@ -9,6 +9,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { registerUser, naverLogin, kakaoLogin } from '../../store/slices/authSlice';
 import SocialLogin from '../../components/common/SocialLogin';
 import { getNaverLoginUrl, getKakaoLoginUrl } from '../../utils/socialLogin';
+import Modal from '../../components/common/Modal';
+import Button from '../../components/common/Button';
 
 const RegisterPage = () => {
   const navigate = useNavigate();
@@ -24,6 +26,7 @@ const RegisterPage = () => {
     confirmPassword: '',
   });
   const [formError, setFormError] = useState(null);
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -43,8 +46,7 @@ const RegisterPage = () => {
     dispatch(registerUser({ fullName, nickname, email, password }))
       .unwrap()
       .then(() => {
-        alert('회원가입이 성공적으로 완료되었습니다. 로그인 페이지로 이동합니다.');
-        navigate('/login');
+        setShowSuccessModal(true);
       })
       .catch((err) => {
         // 에러는 reduxError 상태로 자동 처리되므로, 콘솔에만 기록합니다.
@@ -124,6 +126,35 @@ const RegisterPage = () => {
           </p>
         </div>
       </div>
+
+      {/* 회원가입 성공 모달 */}
+      <Modal
+        isOpen={showSuccessModal}
+        onClose={() => {
+          setShowSuccessModal(false);
+          navigate('/login');
+        }}
+        title="회원가입 완료"
+        footer={
+          <Button
+            variant="primary"
+            onClick={() => {
+              setShowSuccessModal(false);
+              navigate('/login');
+            }}
+          >
+            확인
+          </Button>
+        }
+        onEnter={() => {
+          setShowSuccessModal(false);
+          navigate('/login');
+        }}
+      >
+        <div className="text-center text-lg text-gray-700 py-2">
+          회원가입이 성공적으로 완료되었습니다!
+        </div>
+      </Modal>
     </div>
   );
 };

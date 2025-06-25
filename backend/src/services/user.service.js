@@ -3,7 +3,18 @@
  * @description Business logic for user-related operations.
  */
 
-const { User, UserPracticeHistory, Scenario, sequelize } = require('../models');
+// User와 관련된 모든 모델 및 트랜잭션을 위한 sequelize를 불러옵니다.
+// 최종적으로 발견된 EvaluationResult 모델을 포함합니다.
+const {
+  User,
+  UserPracticeHistory,
+  IncorrectAnswerNote,
+  UserBookmarkedScenario,
+  PracticeSession,
+  EvaluationResult, // 마지막으로 발견된 모델
+  Scenario,
+  sequelize
+} = require('../models');
 const { Op } = require('sequelize');
 const ApiError = require('../utils/ApiError');
 const bcrypt = require('bcrypt');
@@ -17,7 +28,6 @@ const path = require('path');
  */
 const getUserProfile = async (userId) => {
   const user = await User.findByPk(userId, {
-    // 보안을 위해 password 필드는 제외하고 조회합니다.
     attributes: { exclude: ['password'] }
   });
 
@@ -40,7 +50,6 @@ const updateUserProfile = async (userId, profileData) => {
     throw new ApiError(404, 'U004_USER_NOT_FOUND', 'User not found.');
   }
 
-  // 업데이트 가능한 필드들만 허용
   const allowedFields = ['nickname'];
   const updateData = {};
   
@@ -52,7 +61,6 @@ const updateUserProfile = async (userId, profileData) => {
 
   await user.update(updateData);
   
-  // 비밀번호를 제외한 사용자 정보 반환
   const { password, ...userWithoutPassword } = user.toJSON();
   return userWithoutPassword;
 };
@@ -71,13 +79,11 @@ const updateUserPassword = async (userId, currentPassword, newPassword) => {
     throw new ApiError(404, 'U004_USER_NOT_FOUND', 'User not found.');
   }
 
-  // 현재 비밀번호 확인
   const isCurrentPasswordValid = await bcrypt.compare(currentPassword, user.password);
   if (!isCurrentPasswordValid) {
     throw new ApiError(400, 'U005_INVALID_PASSWORD', 'Current password is incorrect.');
   }
 
-  // 새 비밀번호 해시화
   const hashedNewPassword = await bcrypt.hash(newPassword, 10);
   await user.update({ password: hashedNewPassword });
 };
@@ -95,17 +101,14 @@ const uploadProfileImage = async (userId, file) => {
     throw new ApiError(404, 'U004_USER_NOT_FOUND', 'User not found.');
   }
 
-  // 기존 프로필 이미지가 있다면 삭제
   if (user.profileImageUrl) {
     await deleteProfileImageFile(user.profileImageUrl);
   }
 
-  // 새 이미지 URL 생성 (실제 구현에서는 클라우드 스토리지 사용 권장)
   const imageUrl = `/uploads/profile-images/${file.filename}`;
   
   await user.update({ profileImageUrl: imageUrl });
   
-  // 비밀번호를 제외한 사용자 정보 반환
   const { password, ...userWithoutPassword } = user.toJSON();
   return userWithoutPassword;
 };
@@ -127,7 +130,6 @@ const deleteProfileImage = async (userId) => {
     await user.update({ profileImageUrl: null });
   }
   
-  // 비밀번호를 제외한 사용자 정보 반환
   const { password, ...userWithoutPassword } = user.toJSON();
   return userWithoutPassword;
 };
@@ -142,7 +144,6 @@ const deleteProfileImageFile = async (imageUrl) => {
     const filePath = path.join(__dirname, '../../public', imageUrl);
     await fs.unlink(filePath);
   } catch (error) {
-    // 파일이 존재하지 않는 경우는 무시
     if (error.code !== 'ENOENT') {
       console.error('Error deleting profile image file:', error);
     }
@@ -150,7 +151,7 @@ const deleteProfileImageFile = async (imageUrl) => {
 };
 
 /**
- * Deletes a user's account.
+ * Deletes a user's account and all related data within a transaction.
  * @param {string} userId - The ID of the user to delete.
  * @param {string} password - The user's password for confirmation.
  * @returns {Promise<void>}
@@ -162,19 +163,56 @@ const deleteUserAccount = async (userId, password) => {
     throw new ApiError(404, 'U004_USER_NOT_FOUND', 'User not found.');
   }
 
-  // 비밀번호 확인
   const isPasswordValid = await bcrypt.compare(password, user.password);
-  if (!isPasswordValid) {
+  if (!isPasswordValid) {    
     throw new ApiError(400, 'U005_INVALID_PASSWORD', 'Password is incorrect.');
   }
 
-  // 프로필 이미지가 있다면 삭제
-  if (user.profileImageUrl) {
-    await deleteProfileImageFile(user.profileImageUrl);
-  }
+  const transaction = await sequelize.transaction();
 
-  // 사용자 계정 삭제
-  await user.destroy();
+  try {
+    if (user.profileImageUrl) {
+      await deleteProfileImageFile(user.profileImageUrl);
+    }
+
+    // 1. 삭제할 사용자의 모든 PracticeSession ID를 가져옵니다.
+    const practiceSessions = await PracticeSession.findAll({
+      where: { userId },
+      attributes: ['practiceSessionId'],
+      transaction
+    });
+    const practiceSessionIds = practiceSessions.map(session => session.practiceSessionId);
+
+    // 2. PracticeSession에 종속된 데이터들을 먼저 삭제합니다.
+    if (practiceSessionIds.length > 0) {
+      // EvaluationResult를 삭제합니다.
+      await EvaluationResult.destroy({
+        where: { practiceSessionId: practiceSessionIds },
+        transaction
+      });
+    }
+    
+    // 3. 이제 PracticeSession을 삭제할 수 있습니다. (PracticeNote는 자동으로 삭제됨)
+    await PracticeSession.destroy({ where: { userId }, transaction });
+
+    // 4. User와 직접 연결된 나머지 데이터들을 삭제합니다.
+    await UserPracticeHistory.destroy({ where: { userId }, transaction });
+    await IncorrectAnswerNote.destroy({ where: { userId }, transaction });
+    await UserBookmarkedScenario.destroy({ where: { userId }, transaction });
+
+    // 5. 마지막으로 사용자 계정을 삭제합니다.
+    await user.destroy({ transaction });
+
+    // 6. 모든 작업이 성공하면 트랜잭션을 최종 확정합니다.
+    await transaction.commit();
+
+  } catch (error) {
+    // 7. 하나라도 오류가 발생하면 모든 변경사항을 되돌립니다.
+    await transaction.rollback();
+    
+    console.error('Failed to delete user account:', error);
+    throw new ApiError(500, 'U006_DELETION_FAILED', 'Failed to delete user account due to an internal error.');
+  }
 };
 
 /**
@@ -190,7 +228,6 @@ const calculateUserStats = async (userId) => {
   });
 
   const totalStudyMilliseconds = practiceHistories.reduce((total, history) => {
-    // endTime과 startTime이 유효한 Date 객체인지 확인
     if (history.endTime && history.startTime) {
       return total + (new Date(history.endTime) - new Date(history.startTime));
     }
@@ -221,7 +258,6 @@ const calculateUserStats = async (userId) => {
     : 0;
 
   // 4. 분류별 성취도 계산 (개선된 버전)
-  // 먼저 모든 분류 카테고리를 가져옵니다
   const allCategories = await Scenario.findAll({
     attributes: [
       [sequelize.fn('DISTINCT', sequelize.col('primaryCategory')), 'category']
@@ -238,12 +274,10 @@ const calculateUserStats = async (userId) => {
   const performanceByCategory = await Promise.all(
     allCategories.map(async ({ category }) => {
       try {
-        // 해당 분류의 전체 증례 수
         const totalInCategory = await Scenario.count({
           where: { primaryCategory: category }
         });
 
-        // 해당 분류에서 완료된 증례 수와 평균 점수
         const completedInCategory = await sequelize.query(`
           SELECT 
             COUNT(up.scenario_id) as "completedCount",
@@ -271,7 +305,6 @@ const calculateUserStats = async (userId) => {
         };
       } catch (error) {
         console.error(`Error processing category "${category}":`, error);
-        // 오류가 발생한 카테고리의 경우 기본값 반환
         return {
           category,
           completedCount: 0,

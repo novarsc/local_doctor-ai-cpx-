@@ -348,6 +348,7 @@ const MockExamInProgressPage = () => {
                         </Button>
                     )
                 }
+                onEnter={notificationModal.type === 'confirm' ? handleNotificationConfirm : closeNotification}
             >
                 <div className="flex items-center space-x-3">
                     {notificationModal.type === 'success' && (

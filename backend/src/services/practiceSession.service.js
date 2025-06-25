@@ -106,9 +106,84 @@ const completePracticeSession = async (sessionId, userId) => {
                 Scenario.findByPk(session.scenarioId),
             ]);
             const evaluationData = await aiService.evaluatePracticeSession({ chatLogs, scenario });
+            // --- Section-wise performanceByCriteria calculation ---
+            let performanceByCriteria = null;
+            if (evaluationData && Array.isArray(evaluationData.checklistResults)) {
+                // 1. Load checklist YAML structure
+                const fs = require('fs');
+                const path = require('path');
+                const yaml = require('js-yaml');
+                let checklistFileContent = '';
+                if (scenario.checklistFilePath) {
+                    try {
+                        checklistFileContent = fs.readFileSync(path.join(__dirname, '..', '..', scenario.checklistFilePath), 'utf8');
+                    } catch (error) {
+                        checklistFileContent = '';
+                    }
+                }
+                let checklist = null;
+                try {
+                    checklist = yaml.load(checklistFileContent);
+                } catch (e) {
+                    checklist = null;
+                }
+                // 2. Build itemText -> sectionName map
+                const itemSectionMap = {};
+                if (checklist && Array.isArray(checklist.sections)) {
+                    for (const section of checklist.sections) {
+                        // Subsections (if present)
+                        if (Array.isArray(section.subsections)) {
+                            for (const subsection of section.subsections) {
+                                if (Array.isArray(subsection.items)) {
+                                    for (const item of subsection.items) {
+                                        itemSectionMap[item] = section.name;
+                                    }
+                                }
+                            }
+                        }
+                        // Direct items (if present)
+                        if (Array.isArray(section.items)) {
+                            for (const item of section.items) {
+                                itemSectionMap[item] = section.name;
+                            }
+                        }
+                    }
+                }
+                // 3. Section-wise count
+                const sectionStats = {};
+                let total = 0, performed = 0;
+                for (const result of evaluationData.checklistResults) {
+                    const section = itemSectionMap[result.itemText] || '기타';
+                    if (!sectionStats[section]) sectionStats[section] = { total: 0, performed: 0 };
+                    sectionStats[section].total++;
+                    total++;
+                    if (result.performance === 'yes') {
+                        sectionStats[section].performed++;
+                        performed++;
+                    }
+                }
+                // 4. Calculate rates
+                const sections = {};
+                for (const [section, stat] of Object.entries(sectionStats)) {
+                    sections[section] = {
+                        total: stat.total,
+                        performed: stat.performed,
+                        rate: stat.total > 0 ? Math.round((stat.performed / stat.total) * 100) : 0
+                    };
+                }
+                performanceByCriteria = {
+                    overall: {
+                        total,
+                        performed,
+                        rate: total > 0 ? Math.round((performed / total) * 100) : 0
+                    },
+                    sections
+                };
+            }
             await EvaluationResult.create({
                 practiceSessionId: sessionId,
                 ...evaluationData,
+                performanceByCriteria // always include this field
             });
             const finalScore = evaluationData.overallScore;
             await session.update({ finalScore: finalScore });

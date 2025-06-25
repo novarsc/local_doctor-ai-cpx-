@@ -46,6 +46,7 @@ const DuringPracticePage = () => {
     
     const [userInput, setUserInput] = useState('');
     const chatEndRef = useRef(null);
+    const inputRef = useRef(null); // 채팅 입력란 ref 추가
 
     // --- 커스텀 알림 모달 상태 추가 ---
     const [notificationModal, setNotificationModal] = useState({
@@ -110,8 +111,22 @@ const DuringPracticePage = () => {
 
     // 새 메시지가 추가될 때마다 채팅창을 맨 아래로 스크롤합니다.
     useEffect(() => { 
-        chatEndRef.current?.scrollIntoView({ behavior: 'smooth' }); 
+        chatEndRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); 
     }, [chatLog]);
+
+    // AI 응답이 끝나면 채팅 입력란에 자동 포커스
+    useEffect(() => {
+        if (!isAiResponding && inputRef.current) {
+            inputRef.current.focus();
+        }
+    }, [isAiResponding]);
+
+    // 페이지 진입 시에도 포커스
+    useEffect(() => {
+        if (inputRef.current) {
+            inputRef.current.focus();
+        }
+    }, []);
 
     const handleSendMessage = (e) => {
         e.preventDefault();
@@ -165,15 +180,15 @@ const DuringPracticePage = () => {
     }
 
     return (
-        <div className="flex h-screen bg-slate-100 font-sans">
+        <div className="flex flex-col md:flex-row h-[calc(100vh-56px)] bg-slate-100 font-sans">
             {/* 중앙 메인 패널 (채팅창) */}
-            <div className="flex flex-col flex-grow h-full">
+            <div className="flex flex-col flex-1 h-full w-full md:w-0">
                 <header className="flex items-center justify-between p-4 bg-white border-b border-gray-200 shadow-sm z-10">
                     <h1 className="text-xl font-bold text-gray-800">{currentScenario?.name || 'CPX 실습'}</h1>
                     <TimerDisplay />
                 </header>
                 
-                <main className="flex-1 overflow-y-auto p-6 space-y-5">
+                <main className="flex-1 min-h-0 overflow-y-auto p-6 space-y-5 min-h-[300px]">
                     {chatLog.map((msg, index) => (
                         <div key={msg.id || index} className={`flex items-end gap-3 max-w-xl ${msg.sender === 'user' ? 'ml-auto justify-end' : 'mr-auto'}`}>
                             {msg.sender === 'ai' && (
@@ -200,7 +215,7 @@ const DuringPracticePage = () => {
                     <div ref={chatEndRef} />
                 </main>
 
-                <footer className="p-4 bg-white border-t border-gray-200">
+                <footer className="p-4 bg-white border-t border-gray-200 shrink-0">
                     {error && <p className="text-red-500 text-sm mb-2 text-center">오류: {error}</p>}
                     <form onSubmit={handleSendMessage} className="flex items-center gap-3">
                         <input 
@@ -210,6 +225,7 @@ const DuringPracticePage = () => {
                             placeholder={isAiResponding ? "AI가 응답 중입니다..." : "여기에 메시지를 입력하세요..."} 
                             className="input-base flex-1 !p-3"
                             disabled={isAiResponding} 
+                            ref={inputRef} // ref 연결
                         />
                         <Button
                             type="submit" 
@@ -223,8 +239,8 @@ const DuringPracticePage = () => {
                 </footer>
             </div>
 
-            {/* 우측 사이드바 (메모장) */}
-            <aside className="w-96 bg-white border-l border-gray-200 flex flex-col h-full flex-shrink-0">
+            {/* 우측 사이드바 (메모장) - md 이상에서만 오른쪽, 그 미만에서는 아래 */}
+            <aside className="w-full md:w-96 bg-white border-t md:border-t-0 md:border-l border-gray-200 flex flex-col h-64 md:h-full flex-shrink-0">
                  <div className="p-4 border-b border-gray-200"><h2 className="font-bold text-lg text-gray-800">메모장</h2></div>
                 <textarea 
                     placeholder="실습 중 필요한 내용을 자유롭게 메모하세요..." 
@@ -257,6 +273,7 @@ const DuringPracticePage = () => {
                         </Button>
                     )
                 }
+                onEnter={notificationModal.type === 'confirm' ? handleNotificationConfirm : closeNotification}
             >
                 <div className="flex items-center space-x-3">
                     {notificationModal.type === 'success' && (

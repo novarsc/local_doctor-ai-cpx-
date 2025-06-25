@@ -10,25 +10,27 @@ import Button from './Button'; // 우리가 만든 Button 컴포넌트 사용
  * @param {string} props.title - 모달의 제목
  * @param {React.ReactNode} props.children - 모달 내부에 표시될 내용
  * @param {React.ReactNode} props.footer - 확인/취소 버튼 등이 들어갈 푸터 영역
+ * @param {function} props.onEnter - 모달이 열려 있을 때 Enter 키를 누르면 동작할 함수
  */
-const Modal = ({ isOpen, onClose, title, children, footer }) => {
+const Modal = ({ isOpen, onClose, title, children, footer, onEnter }) => {
   // 모달이 열려있지 않으면 아무것도 렌더링하지 않음
   if (!isOpen) return null;
 
-  // 'Escape' 키를 눌렀을 때 모달이 닫히도록 하는 효과
+  // 'Escape' 또는 'Enter' 키를 눌렀을 때 모달이 닫히거나 onEnter가 동작하도록
   useEffect(() => {
-    const handleEsc = (event) => {
+    const handleKey = (event) => {
       if (event.key === 'Escape') {
         onClose();
+      } else if (event.key === 'Enter' && typeof onEnter === 'function') {
+        event.preventDefault(); // 폼 submit 등 방지
+        onEnter();
       }
     };
-    window.addEventListener('keydown', handleEsc);
-
-    // 컴포넌트가 언마운트될 때 이벤트 리스너 제거
+    window.addEventListener('keydown', handleKey);
     return () => {
-      window.removeEventListener('keydown', handleEsc);
+      window.removeEventListener('keydown', handleKey);
     };
-  }, [onClose]);
+  }, [onClose, onEnter]);
 
   // React Portal을 사용하여 #modal-root에 렌더링
   return ReactDOM.createPortal(
