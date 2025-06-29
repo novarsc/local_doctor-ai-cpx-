@@ -41,47 +41,34 @@ const startMockExamSession = async (userId, examType, specifiedCategories = []) 
             return acc;
         }, {});
         
-        // 사용자가 선택한 중분류들의 대분류 확인
-        const selectedPrimaryCategories = new Set();
-        const validSpecifiedCategories = [];
-        
+        // 사용자가 선택한 중분류에서 직접 증례 선택
         for (const secondaryCategory of specifiedCategories) {
             const scenariosInSecondary = scenariosBySecondaryCategory[secondaryCategory];
             if (scenariosInSecondary && scenariosInSecondary.length > 0) {
-                const primaryCategory = scenariosInSecondary[0].primaryCategory;
-                if (selectedPrimaryCategories.has(primaryCategory)) {
-                    throw new ApiError(400, 'M005_DUPLICATE_PRIMARY_CATEGORY', 
-                        `선택하신 증례 중 '${primaryCategory}' 계통의 증례가 2개 이상 포함되어 있습니다. 각 주요 질환 계통에서는 하나의 증례만 선택 가능합니다.`);
-                }
-                selectedPrimaryCategories.add(primaryCategory);
-                validSpecifiedCategories.push(secondaryCategory);
+                selectedScenarios.push(scenariosInSecondary[Math.floor(Math.random() * scenariosInSecondary.length)]);
             }
         }
         
-        // 사용자가 선택한 중분류에서 증례 선택
-        for (const secondaryCategory of validSpecifiedCategories) {
-            const scenariosInSecondary = scenariosBySecondaryCategory[secondaryCategory];
-            selectedScenarios.push(scenariosInSecondary[Math.floor(Math.random() * scenariosInSecondary.length)]);
-        }
-        
-        // 나머지 증례를 다른 대분류에서 랜덤 선택
+        // 선택된 증례가 6개가 되도록 나머지를 다른 중분류에서 랜덤 선택
         const remainingCount = 6 - selectedScenarios.length;
         if (remainingCount > 0) {
-            const availablePrimaryCategories = allPrimaryCategories.filter(category => 
-                !selectedPrimaryCategories.has(category)
+            // 사용자가 선택하지 않은 중분류들 중에서 랜덤 선택
+            const allSecondaryCategories = Object.keys(scenariosBySecondaryCategory);
+            const unselectedCategories = allSecondaryCategories.filter(category => 
+                !specifiedCategories.includes(category)
             );
             
-            if (availablePrimaryCategories.length < remainingCount) {
-                throw new ApiError(500, 'M006_INSUFFICIENT_CATEGORIES', '충분한 대분류가 없어 모의고사를 구성할 수 없습니다.');
+            if (unselectedCategories.length < remainingCount) {
+                throw new ApiError(500, 'M006_INSUFFICIENT_CATEGORIES', '충분한 중분류가 없어 모의고사를 구성할 수 없습니다.');
             }
             
-            const additionalPrimaryCategories = availablePrimaryCategories
-                .sort(() => 0.5 - Math.random())
-                .slice(0, remainingCount);
+            // 랜덤하게 중분류 선택
+            const shuffledCategories = unselectedCategories.sort(() => 0.5 - Math.random());
+            const additionalCategories = shuffledCategories.slice(0, remainingCount);
             
-            additionalPrimaryCategories.forEach(category => {
-                const scenariosInCat = scenariosByPrimaryCategory[category];
-                selectedScenarios.push(scenariosInCat[Math.floor(Math.random() * scenariosInCat.length)]);
+            additionalCategories.forEach(category => {
+                const scenariosInSecondary = scenariosBySecondaryCategory[category];
+                selectedScenarios.push(scenariosInSecondary[Math.floor(Math.random() * scenariosInSecondary.length)]);
             });
         }
     }

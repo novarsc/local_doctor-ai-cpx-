@@ -1,6 +1,6 @@
 /**
  * @file myNotes.controller.js
- * @description Controller for "MY 노트" related API requests.
+ * @description Controller for "학습 노트" related API requests.
  */
 
 const myNotesService = require('../services/myNotes.service');

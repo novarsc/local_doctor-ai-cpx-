@@ -45,6 +45,7 @@ const BlockMemoEditor = ({ value = '', onChange, placeholder = "메모를 작성
     const handleKeyDown = (e, blockId) => {
         if (e.key === 'Enter' && !e.shiftKey) {
             e.preventDefault();
+            e.stopPropagation();
             
             const currentBlockIndex = blocks.findIndex(block => block.id === blockId);
             const newBlockId = Math.max(...blocks.map(b => b.id)) + 1;
@@ -80,6 +81,7 @@ const BlockMemoEditor = ({ value = '', onChange, placeholder = "메모를 작성
             // 현재 블록이 비어있고 첫 번째 블록이 아닌 경우
             if (currentBlock.content === '' && currentBlockIndex > 0) {
                 e.preventDefault();
+                e.stopPropagation();
                 
                 const prevBlock = blocks[currentBlockIndex - 1];
                 const newBlocks = [...blocks];
@@ -111,6 +113,7 @@ const BlockMemoEditor = ({ value = '', onChange, placeholder = "메모를 작성
             const currentBlockIndex = blocks.findIndex(block => block.id === blockId);
             if (currentBlockIndex > 0) {
                 e.preventDefault();
+                e.stopPropagation();
                 const prevBlock = blocks[currentBlockIndex - 1];
                 setFocusedBlockId(prevBlock.id);
                 setTimeout(() => {
@@ -126,6 +129,7 @@ const BlockMemoEditor = ({ value = '', onChange, placeholder = "메모를 작성
             const currentBlockIndex = blocks.findIndex(block => block.id === blockId);
             if (currentBlockIndex < blocks.length - 1) {
                 e.preventDefault();
+                e.stopPropagation();
                 const nextBlock = blocks[currentBlockIndex + 1];
                 setFocusedBlockId(nextBlock.id);
                 setTimeout(() => {

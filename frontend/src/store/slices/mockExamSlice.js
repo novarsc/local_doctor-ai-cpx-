@@ -16,7 +16,22 @@ const initialState = {
 
 // Existing async thunks (startNewMockExam, fetchMockExamSession) ...
 export const startNewMockExam = createAsyncThunk('mockExam/startNew', async (config, { rejectWithValue }) => { try { return await mockExamService.startMockExam(config); } catch (e) { return rejectWithValue(e.message); }});
-export const fetchMockExamSession = createAsyncThunk('mockExam/fetchSession', async (id, { rejectWithValue }) => { try { return await mockExamService.getMockExamSession(id); } catch (e) { return rejectWithValue(e.message); }});
+export const fetchMockExamSession = createAsyncThunk(
+  'mockExam/fetchSession', 
+  async (id, { rejectWithValue, getState }) => { 
+    try { 
+      // 이미 로딩 중이거나 같은 세션이 이미 로드되어 있는지 확인
+      const state = getState();
+      if (state.mockExam.status === 'loading' || 
+          (state.mockExam.currentSession && state.mockExam.currentSession.mockExamSessionId === id)) {
+        return state.mockExam.currentSession;
+      }
+      return await mockExamService.getMockExamSession(id); 
+    } catch (e) { 
+      return rejectWithValue(e.message); 
+    }
+  }
+);
 
 // Async thunk for fetching secondary categories
 export const fetchSecondaryCategories = createAsyncThunk(

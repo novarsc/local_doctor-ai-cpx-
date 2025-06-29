@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import ReactDOM from 'react-dom';
 import Button from './Button'; // 우리가 만든 Button 컴포넌트 사용
 
@@ -13,24 +13,52 @@ import Button from './Button'; // 우리가 만든 Button 컴포넌트 사용
  * @param {function} props.onEnter - 모달이 열려 있을 때 Enter 키를 누르면 동작할 함수
  */
 const Modal = ({ isOpen, onClose, title, children, footer, onEnter }) => {
-  // 모달이 열려있지 않으면 아무것도 렌더링하지 않음
-  if (!isOpen) return null;
+  const isOpenRef = useRef(isOpen);
+  const onEnterRef = useRef(onEnter);
+
+  // ref를 최신 값으로 업데이트
+  useEffect(() => {
+    isOpenRef.current = isOpen;
+    onEnterRef.current = onEnter;
+  }, [isOpen, onEnter]);
 
   // 'Escape' 또는 'Enter' 키를 눌렀을 때 모달이 닫히거나 onEnter가 동작하도록
   useEffect(() => {
     const handleKey = (event) => {
+      // 모달이 닫혔거나 onEnter가 없으면 이벤트를 처리하지 않음
+      if (!isOpenRef.current || !onEnterRef.current) return;
+
       if (event.key === 'Escape') {
+        onEnterRef.current = null; // onEnter 함수 무효화
         onClose();
-      } else if (event.key === 'Enter' && typeof onEnter === 'function') {
+      } else if (event.key === 'Enter') {
         event.preventDefault(); // 폼 submit 등 방지
-        onEnter();
+        event.stopPropagation(); // 이벤트 전파 중단
+        
+        // onEnter 함수를 호출하기 전에 한 번 더 확인
+        if (onEnterRef.current && isOpenRef.current) {
+          const currentOnEnter = onEnterRef.current;
+          onEnterRef.current = null; // 즉시 무효화
+          currentOnEnter();
+        }
       }
     };
-    window.addEventListener('keydown', handleKey);
+    
+    // 모달이 열려있을 때만 이벤트 리스너 추가
+    if (isOpen) {
+      window.addEventListener('keydown', handleKey, true); // capture phase에서 처리
+    }
+    
     return () => {
-      window.removeEventListener('keydown', handleKey);
+      // 컴포넌트 언마운트 또는 isOpen이 false가 될 때 이벤트 리스너 제거
+      window.removeEventListener('keydown', handleKey, true);
+      // cleanup 시에도 onEnter 함수 무효화
+      onEnterRef.current = null;
     };
-  }, [onClose, onEnter]);
+  }, [onClose, isOpen]); // onEnter를 의존성 배열에서 제거하여 ref로 관리
+
+  // 모달이 열려있지 않으면 아무것도 렌더링하지 않음
+  if (!isOpen) return null;
 
   // React Portal을 사용하여 #modal-root에 렌더링
   return ReactDOM.createPortal(

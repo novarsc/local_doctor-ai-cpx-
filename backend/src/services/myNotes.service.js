@@ -1,6 +1,6 @@
 /**
  * @file myNotes.service.js
- * @description Business logic for features under "MY 노트".
+ * @description Business logic for features under "학습 노트".
  */
 
 // --- [수정된 부분] ---
@@ -122,11 +122,16 @@ const upsertUserIncorrectNote = async (userId, scenarioId, userMemo, hasNote = t
 };
 
 const updateNoteStatus = async (userId, scenarioId, hasNote) => {
+    const existingNote = await IncorrectAnswerNote.findOne({ 
+        where: { userId, scenarioId },
+        attributes: ['userMemo']
+    });
+    
     const [note] = await IncorrectAnswerNote.upsert({ 
         userId, 
         scenarioId, 
         hasNote,
-        userMemo: '' // 기존 메모는 유지하되 상태만 업데이트
+        userMemo: existingNote ? existingNote.userMemo : '' // 기존 메모 유지
     });
     return note.toJSON();
 };

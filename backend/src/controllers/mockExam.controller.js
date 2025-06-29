@@ -19,7 +19,17 @@ const getSession = asyncHandler(async (req, res) => {
     const { mockExamSessionId } = req.params;
     // 2. 이 부분도 실제 사용자 ID를 사용하도록 변경합니다.
     const userId = req.user.userId;
+    
+    // 디버깅을 위한 로그 추가
+    console.log('=== MockExam getSession API 호출 ===');
+    console.log('mockExamSessionId:', mockExamSessionId);
+    console.log('userId:', userId);
+    console.log('req.user:', req.user);
+    
     const result = await mockExamService.getMockExamSession(mockExamSessionId, userId);
+    console.log('=== MockExam getSession 결과 ===');
+    console.log('result:', result);
+    
     res.status(200).json(result);
 });
 

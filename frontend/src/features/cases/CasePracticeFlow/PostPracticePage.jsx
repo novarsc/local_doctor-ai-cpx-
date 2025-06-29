@@ -3,7 +3,7 @@
  * @description Page component to display the results and feedback after a practice session.
  */
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchFeedbackForSession } from '../../../store/slices/practiceSessionSlice';
@@ -26,6 +26,8 @@ const PostPracticePage = () => {
 
   // URL에서 온 sessionId를 우선 사용하고, 없으면 store의 sessionId 사용
   const currentSessionId = urlSessionId || storeSessionId;
+
+  const [openGroups, setOpenGroups] = useState({});
 
   // 평가가 진행 중일 때, 5초마다 피드백을 다시 요청하기 위한 폴링 설정
   useEffect(() => {
@@ -100,26 +102,6 @@ const PostPracticePage = () => {
         {/* 상세 피드백 섹션 */}
         <div className="bg-white p-8 rounded-2xl shadow-lg">
           <div className="space-y-12">
-            {/* 체크리스트 결과 */}
-            <div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">수행 항목 체크리스트</h3>
-              <ul className="space-y-4">
-                {checklistResults && checklistResults.map((item, index) => (
-                  <li key={index} className="p-4 border rounded-lg bg-gray-50">
-                    <div className="flex items-start">
-                      {item.performance === 'yes' ? 
-                        <CheckCircle className="h-6 w-6 text-green-500 mr-4 flex-shrink-0 mt-1" /> : 
-                        <XCircle className="h-6 w-6 text-red-500 mr-4 flex-shrink-0 mt-1" />}
-                      <div>
-                        <p className="font-semibold text-gray-800">{item.itemText}</p>
-                        <p className="text-sm text-gray-600 mt-1">{item.aiComment}</p>
-                      </div>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
             {/* 잘한 점 */}
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">잘한 점</h3>
@@ -148,30 +130,118 @@ const PostPracticePage = () => {
                 ))}
               </ul>
             </div>
+
+            {/* 체크리스트 결과 */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-6">수행 항목 체크리스트</h3>
+              {checklistResults && (() => {
+                // nameText로 그룹화
+                const groupedResults = checklistResults.reduce((groups, item) => {
+                  const category = item.nameText || '기타';
+                  if (!groups[category]) {
+                    groups[category] = [];
+                  }
+                  groups[category].push(item);
+                  return groups;
+                }, {});
+
+                return (
+                  <div className="space-y-6">
+                    {Object.entries(groupedResults).map(([category, items]) => {
+                      const sortedItems = [...items].sort((a, b) => {
+                        const aPerf = (a.performance || '').trim().toLowerCase();
+                        const bPerf = (b.performance || '').trim().toLowerCase();
+                        if (aPerf === bPerf) return 0;
+                        if (aPerf === 'no') return -1;
+                        if (bPerf === 'no') return 1;
+                        return 0;
+                      });
+                      // 펼침 상태: openGroups[category]가 true면 펼침, false면 접힘. 기본값 true
+                      const isOpen = openGroups[category] !== undefined ? openGroups[category] : true;
+                      const handleToggle = () => setOpenGroups(prev => ({ ...prev, [category]: !isOpen }));
+                      return (
+                        <div key={category} className="border border-gray-200 rounded-lg overflow-hidden">
+                          <button type="button" onClick={handleToggle} className="w-full flex items-center justify-between bg-gray-50 px-4 py-3 border-b border-gray-200 focus:outline-none">
+                            <h4 className="font-semibold text-gray-800 text-left">{category}</h4>
+                            <span className="ml-2 text-gray-500">{isOpen ? '▼' : '▶'}</span>
+                          </button>
+                          {isOpen && (
+                            <ul className="divide-y divide-gray-100">
+                              {sortedItems.map((item, index) => (
+                                <li key={index} className="p-4 bg-white">
+                                  <div className="flex items-start">
+                                    {item.performance === 'yes' ? 
+                                      <CheckCircle className="h-6 w-6 text-green-500 mr-4 flex-shrink-0 mt-1" /> : 
+                                      <XCircle className="h-6 w-6 text-red-500 mr-4 flex-shrink-0 mt-1" />}
+                                    <div className="flex-1">
+                                      <p className="font-medium text-gray-800">{item.itemText}</p>
+                                      {item.aiComment && (
+                                        <p className="text-sm text-gray-600 mt-1">{item.aiComment}</p>
+                                      )}
+                                    </div>
+                                  </div>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                );
+              })()}
+            </div>
           </div>
         </div>
         
         {/* 하단 버튼 */}
         <div className="mt-12 flex flex-col sm:flex-row justify-center items-center gap-4">
-          {/* MY 노트에서 온 경우와 일반 실습에서 온 경우를 구분 */}
+          {/* 학습 노트에서 온 경우와 일반 실습에서 온 경우를 구분 */}
+          {location.state?.fromMyNotes && (
+            // 학습 노트에서 온 경우
+            <>
+              <Link to="/my-notes/history">
+                <Button variant="primary" size="lg" className="flex items-center">
+                  학습 기록으로 돌아가기 <ArrowRight className="h-5 w-5 ml-2" />
+                </Button>
+              </Link>
+              <Link to="/my-notes/incorrect">
+                <Button variant="secondary" size="lg" className="flex items-center">
+                  오답노트로 이동 <ArrowRight className="h-5 w-5 ml-2" />
+                </Button>
+              </Link>
+            </>
+          )}
           {urlSessionId ? (
             // MY 노트에서 온 경우
-            <Link to="/my-notes/history">
-              <Button variant="primary" size="lg" className="flex items-center">
-                학습 기록으로 돌아가기 <ArrowRight className="h-5 w-5 ml-2" />
-              </Button>
-            </Link>
+            <>
+              <Link to="/my-notes/history">
+                <Button variant="primary" size="lg" className="flex items-center">
+                  학습 기록으로 돌아가기 <ArrowRight className="h-5 w-5 ml-2" />
+                </Button>
+              </Link>
+              <Link to="/my-notes/incorrect">
+                <Button variant="secondary" size="lg" className="flex items-center">
+                  오답노트로 이동 <ArrowRight className="h-5 w-5 ml-2" />
+                </Button>
+              </Link>
+            </>
           ) : (
             // 일반 실습에서 온 경우
             <>
               <Link to={`/cases/practice/${scenarioId}`}>
                 <Button variant="secondary" size="lg">다시 실습하기</Button>
-            </Link>
-            <Link to="/cases">
+              </Link>
+              <Link to="/cases">
                 <Button variant="primary" size="lg" className="flex items-center">
-                    증례 목록으로 돌아가기 <ArrowRight className="h-5 w-5 ml-2" />
+                  증례 목록으로 돌아가기 <ArrowRight className="h-5 w-5 ml-2" />
                 </Button>
-            </Link>
+              </Link>
+              <Link to="/my-notes/incorrect">
+                <Button variant="secondary" size="lg" className="flex items-center">
+                  오답노트로 이동 <ArrowRight className="h-5 w-5 ml-2" />
+                </Button>
+              </Link>
             </>
           )}
         </div>

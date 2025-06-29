@@ -91,7 +91,14 @@ const DuringPracticePage = () => {
     };
 
     const closeNotification = () => {
-        setNotificationModal(prev => ({ ...prev, isOpen: false }));
+        setNotificationModal({
+            isOpen: false,
+            type: 'success',
+            title: '',
+            message: '',
+            onConfirm: null,
+            onCancel: null
+        });
     };
 
     const handleNotificationConfirm = () => {

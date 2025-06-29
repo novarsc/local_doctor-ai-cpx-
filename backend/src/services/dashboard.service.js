@@ -5,6 +5,94 @@ const { Op } = require('sequelize');
 
 const dashboardService = {};
 
+// 월간 평균 점수 추이 데이터 계산 함수
+const calculateScoreTrendData = async (userId) => {
+  const sixMonthsAgo = new Date();
+  sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+  
+  const evaluations = await EvaluationResult.findAll({
+    include: [{
+      model: PracticeSession,
+      as: 'practiceSession',
+      where: { 
+        userId,
+        endTime: { [Op.gte]: sixMonthsAgo }
+      },
+      attributes: ['endTime']
+    }],
+    attributes: ['overallScore'],
+    order: [[{ model: PracticeSession, as: 'practiceSession' }, 'endTime', 'ASC']]
+  });
+
+  // 월별로 데이터 그룹화
+  const monthlyData = {};
+  evaluations.forEach(eval => {
+    const month = eval.practiceSession.endTime.toISOString().slice(0, 7); // YYYY-MM 형식
+    if (!monthlyData[month]) {
+      monthlyData[month] = { scores: [], count: 0 };
+    }
+    monthlyData[month].scores.push(eval.overallScore);
+    monthlyData[month].count++;
+  });
+
+  // 최근 6개월 데이터 생성
+  const result = [];
+  for (let i = 5; i >= 0; i--) {
+    const date = new Date();
+    date.setMonth(date.getMonth() - i);
+    const monthKey = date.toISOString().slice(0, 7);
+    const monthLabel = `${date.getFullYear()}년 ${date.getMonth() + 1}월`;
+    
+    if (monthlyData[monthKey]) {
+      const avgScore = Math.round(monthlyData[monthKey].scores.reduce((a, b) => a + b, 0) / monthlyData[monthKey].scores.length);
+      result.push({ month: monthLabel, score: avgScore });
+    } else {
+      result.push({ month: monthLabel, score: 0 });
+    }
+  }
+
+  return result;
+};
+
+// 월간 완료 사례 수 데이터 계산 함수
+const calculateMonthlyCompletionData = async (userId) => {
+  const sixMonthsAgo = new Date();
+  sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+  
+  const practiceSessions = await PracticeSession.findAll({
+    where: { 
+      userId,
+      status: 'completed',
+      endTime: { [Op.gte]: sixMonthsAgo }
+    },
+    attributes: ['endTime'],
+    order: [['endTime', 'ASC']]
+  });
+
+  // 월별로 완료 수 계산
+  const monthlyCompletions = {};
+  practiceSessions.forEach(session => {
+    const month = session.endTime.toISOString().slice(0, 7); // YYYY-MM 형식
+    monthlyCompletions[month] = (monthlyCompletions[month] || 0) + 1;
+  });
+
+  // 최근 6개월 데이터 생성
+  const result = [];
+  for (let i = 5; i >= 0; i--) {
+    const date = new Date();
+    date.setMonth(date.getMonth() - i);
+    const monthKey = date.toISOString().slice(0, 7);
+    const monthLabel = `${date.getFullYear()}년 ${date.getMonth() + 1}월`;
+    
+    result.push({ 
+      month: monthLabel, 
+      completed: monthlyCompletions[monthKey] || 0 
+    });
+  }
+
+  return result;
+};
+
 dashboardService.getDashboardSummary = async (userId) => {
   // 1. 진행 중인 사례 조회
   const ongoingSession = await PracticeSession.findOne({
@@ -75,8 +163,13 @@ dashboardService.getDashboardSummary = async (userId) => {
   }
   // --- 추천 사례 로직 끝 ---
 
+  // 3. 차트 데이터 계산
+  const [scoreTrendData, monthlyCompletionData] = await Promise.all([
+    calculateScoreTrendData(userId),
+    calculateMonthlyCompletionData(userId)
+  ]);
 
-  // 3. 최종 데이터 조합
+  // 4. 최종 데이터 조합
   if (evaluations.length === 0) {
     return {
       user: { name: user ? user.nickname : '사용자' },
@@ -86,8 +179,8 @@ dashboardService.getDashboardSummary = async (userId) => {
         { id: 'avg_time', icon: 'timer', label: "평균 대화 시간", value: 0, unit: "분" },
       ],
       lastActivity: null,
-      scoreTrendData: [],
-      monthlyCompletionData: [],
+      scoreTrendData: scoreTrendData,
+      monthlyCompletionData: monthlyCompletionData,
       ongoingCase: ongoingCase,
       insights: null,
       recommendedCases: recommendedCases, // 풀어본 기록이 없어도 추천은 가능
@@ -112,8 +205,8 @@ dashboardService.getDashboardSummary = async (userId) => {
         { id: 'avg_time', icon: 'timer', label: "평균 대화 시간", value: 8, unit: "분" },
     ],
     lastActivity: lastActivity,
-    scoreTrendData: [], // 차트 데이터는 별도 구현 필요
-    monthlyCompletionData: [], // 차트 데이터는 별도 구현 필요
+    scoreTrendData: scoreTrendData,
+    monthlyCompletionData: monthlyCompletionData,
     ongoingCase: ongoingCase,
     insights: null,
     recommendedCases: recommendedCases, // 계산된 추천 사례로 교체

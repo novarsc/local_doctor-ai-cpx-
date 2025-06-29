@@ -3,7 +3,7 @@
  * @description Page for setting up a specified mock exam by selecting secondary categories.
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { fetchSecondaryCategories, startNewMockExam } from '../../store/slices/mockExamSlice';
@@ -17,6 +17,9 @@ const MockExamSpecifiedSetupPage = () => {
     
     const [selectedCategories, setSelectedCategories] = useState([]);
     const [expandedCategories, setExpandedCategories] = useState(new Set());
+    const [searchTerm, setSearchTerm] = useState('');
+    const [searchResults, setSearchResults] = useState([]);
+    const [showSearchResults, setShowSearchResults] = useState(false);
 
     // 중분류 목록 로드
     useEffect(() => {
@@ -24,6 +27,52 @@ const MockExamSpecifiedSetupPage = () => {
             dispatch(fetchSecondaryCategories());
         }
     }, [dispatch, categories]);
+
+    // 검색 결과 필터링
+    const filteredCategories = useMemo(() => {
+        if (!categories || !searchTerm.trim()) {
+            return categories;
+        }
+
+        const searchLower = searchTerm.toLowerCase();
+        const filtered = {};
+
+        Object.entries(categories).forEach(([primaryCategory, secondaryCategories]) => {
+            const matchingSecondary = secondaryCategories.filter(secondaryCategory =>
+                secondaryCategory.toLowerCase().includes(searchLower)
+            );
+
+            if (matchingSecondary.length > 0) {
+                filtered[primaryCategory] = matchingSecondary;
+            }
+        });
+
+        return filtered;
+    }, [categories, searchTerm]);
+
+    // 검색 결과 목록 생성
+    const allSearchResults = useMemo(() => {
+        if (!categories || !searchTerm.trim()) {
+            return [];
+        }
+
+        const searchLower = searchTerm.toLowerCase();
+        const results = [];
+
+        Object.entries(categories).forEach(([primaryCategory, secondaryCategories]) => {
+            secondaryCategories.forEach(secondaryCategory => {
+                if (secondaryCategory.toLowerCase().includes(searchLower)) {
+                    results.push({
+                        primaryCategory,
+                        secondaryCategory,
+                        displayText: `${primaryCategory} > ${secondaryCategory}`
+                    });
+                }
+            });
+        });
+
+        return results;
+    }, [categories, searchTerm]);
 
     // 카테고리 확장/축소 토글
     const toggleCategory = (primaryCategory) => {
@@ -46,6 +95,61 @@ const MockExamSpecifiedSetupPage = () => {
             }
             return prev;
         });
+    };
+
+    // 중복 선택 방지를 위한 함수
+    const isAlreadySelected = (secondaryCategory) => {
+        return selectedCategories.includes(secondaryCategory);
+    };
+
+    // 검색어 변경 핸들러
+    const handleSearchChange = (e) => {
+        const value = e.target.value;
+        setSearchTerm(value);
+        setShowSearchResults(value.trim().length > 0);
+    };
+
+    // 검색 결과에서 선택 (중복 방지 포함)
+    const handleSearchResultSelect = (secondaryCategory) => {
+        // 이미 선택된 경우 선택하지 않음
+        if (isAlreadySelected(secondaryCategory)) {
+            return;
+        }
+        
+        toggleSecondaryCategory(secondaryCategory);
+        setSearchTerm('');
+        setShowSearchResults(false);
+    };
+
+    // 엔터키 처리 (중복 방지 포함)
+    const handleSearchKeyPress = (e) => {
+        if (e.key === 'Enter' && allSearchResults.length > 0) {
+            e.preventDefault();
+            // 첫 번째 선택 가능한 검색 결과 선택
+            const firstSelectableResult = allSearchResults.find(result => 
+                !isAlreadySelected(result.secondaryCategory)
+            );
+            
+            if (firstSelectableResult) {
+                handleSearchResultSelect(firstSelectableResult.secondaryCategory);
+            }
+        }
+    };
+
+    // 검색 결과 클릭 시 해당 카테고리 확장 (중복 방지 포함)
+    const handleSearchResultClick = (primaryCategory, secondaryCategory) => {
+        // 이미 선택된 경우 선택하지 않음
+        if (isAlreadySelected(secondaryCategory)) {
+            return;
+        }
+        
+        // 해당 대분류 확장
+        if (!expandedCategories.has(primaryCategory)) {
+            setExpandedCategories(prev => new Set([...prev, primaryCategory]));
+        }
+        
+        // 중분류 선택
+        handleSearchResultSelect(secondaryCategory);
     };
 
     // 모의고사 시작
@@ -100,8 +204,8 @@ const MockExamSpecifiedSetupPage = () => {
                 </p>
                 <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
                     <p className="text-blue-800 text-sm">
-                        <strong>안내:</strong> 최종적으로 6개의 증례가 선정되며, 각 증례는 서로 다른 주요 질환 계통(대분류)에 속해야 합니다. 
-                        선택하지 않은 증례는 나머지 질환 계통에서 랜덤으로 출제됩니다.
+                        <strong>안내:</strong> 최종적으로 6개의 증례가 선정되며, 같은 주요 질환 계통(대분류)에서도 선택이 가능합니다. 
+                        선택하지 않은 증례는 나머지 질환 계통에서 랜덤으로 출제되며, 6개 이상 선택시 먼저 선택한 증례들로 출제됩니다.
                     </p>
                 </div>
             </header>
@@ -112,7 +216,87 @@ const MockExamSpecifiedSetupPage = () => {
                     <div className="bg-white p-6 rounded-xl shadow-lg">
                         <h2 className="text-2xl font-semibold mb-6 text-gray-800">증례 중분류 선택</h2>
                         
-                        {categories && Object.entries(categories).map(([primaryCategory, secondaryCategories]) => (
+                        {/* 검색 입력 필드 */}
+                        <div className="mb-6 relative">
+                            <div className="relative">
+                                <input
+                                    type="text"
+                                    placeholder="질환명을 검색하세요 (예: 복통, 두통, 흉통)"
+                                    value={searchTerm}
+                                    onChange={handleSearchChange}
+                                    onKeyPress={handleSearchKeyPress}
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 pr-10"
+                                />
+                                {searchTerm && (
+                                    <button
+                                        onClick={() => {
+                                            setSearchTerm('');
+                                            setShowSearchResults(false);
+                                        }}
+                                        className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                                    >
+                                        ✕
+                                    </button>
+                                )}
+                            </div>
+                            
+                            {/* 검색 결과 드롭다운 */}
+                            {showSearchResults && allSearchResults.length > 0 && (
+                                <div className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded-lg shadow-lg max-h-60 overflow-y-auto">
+                                    {allSearchResults.map((result, index) => {
+                                        const isSelected = isAlreadySelected(result.secondaryCategory);
+                                        return (
+                                            <button
+                                                key={`${result.primaryCategory}-${result.secondaryCategory}`}
+                                                onClick={() => handleSearchResultClick(result.primaryCategory, result.secondaryCategory)}
+                                                disabled={isSelected}
+                                                className={`w-full text-left px-4 py-3 border-b border-gray-100 last:border-b-0 transition-colors ${
+                                                    isSelected 
+                                                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed' 
+                                                        : 'hover:bg-blue-50 text-gray-700 cursor-pointer'
+                                                }`}
+                                            >
+                                                <div className="font-medium">{result.secondaryCategory}</div>
+                                                <div className="text-sm text-gray-500">{result.primaryCategory}</div>
+                                                {isSelected && (
+                                                    <div className="text-xs text-gray-500 mt-1 flex items-center">
+                                                        <span className="mr-1">✓</span>
+                                                        이미 선택됨
+                                                    </div>
+                                                )}
+                                            </button>
+                                        );
+                                    })}
+                                </div>
+                            )}
+                            
+                            {/* 검색 결과가 없을 때 */}
+                            {showSearchResults && searchTerm.trim() && allSearchResults.length === 0 && (
+                                <div className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded-lg shadow-lg p-4 text-center text-gray-500">
+                                    검색 결과가 없습니다.
+                                </div>
+                            )}
+                        </div>
+
+                        {/* 검색어가 있을 때 필터링된 결과만 표시 */}
+                        {searchTerm.trim() ? (
+                            <div className="mb-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
+                                <p className="text-yellow-800 text-sm">
+                                    <strong>검색 결과:</strong> "{searchTerm}"에 대한 검색 결과를 표시합니다.
+                                    <button
+                                        onClick={() => {
+                                            setSearchTerm('');
+                                            setShowSearchResults(false);
+                                        }}
+                                        className="ml-2 text-blue-600 hover:text-blue-800 underline"
+                                    >
+                                        전체 보기
+                                    </button>
+                                </p>
+                            </div>
+                        ) : null}
+                        
+                        {filteredCategories && Object.entries(filteredCategories).map(([primaryCategory, secondaryCategories]) => (
                             <div key={primaryCategory} className="mb-6">
                                 <button
                                     onClick={() => toggleCategory(primaryCategory)}

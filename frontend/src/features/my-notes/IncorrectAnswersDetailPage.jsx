@@ -10,6 +10,7 @@ const IncorrectAnswersDetailPage = () => {
     const { scenarioId } = useParams();
     const [activeTab, setActiveTab] = useState('chat'); // 'chat', 'feedback', 'checklist'
     const [userMemo, setUserMemo] = useState('');
+    const [openGroups, setOpenGroups] = useState({});
 
     const { detailedIncorrectNotes, status, error } = useSelector(state => state.myNotes);
     const noteData = detailedIncorrectNotes[scenarioId];
@@ -234,41 +235,69 @@ const IncorrectAnswersDetailPage = () => {
                         {activeTab === 'checklist' && (
                             <div className="space-y-4">
                                 <h3 className="text-lg font-semibold text-gray-800 mb-4">체크리스트 결과</h3>
-                                
                                 {noteData.evaluation && noteData.evaluation.checklistResults && noteData.evaluation.checklistResults.length > 0 ? (
-                                    <div className="space-y-3">
-                                        {noteData.evaluation.checklistResults.map((item, index) => (
-                                            <div
-                                                key={index}
-                                                className={`p-4 rounded-lg border ${
-                                                    item.performance === 'yes'
-                                                        ? 'bg-green-50 border-green-200'
-                                                        : 'bg-red-50 border-red-200'
-                                                }`}
-                                            >
-                                                <div className="flex items-start gap-3">
-                                                    <div
-                                                        className={`w-6 h-6 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 ${
-                                                            item.performance === 'yes'
-                                                                ? 'bg-green-500'
-                                                                : 'bg-red-500'
-                                                        }`}
-                                                    >
-                                                        {item.performance === 'yes' ? '✓' : '✗'}
-                                                    </div>
-                                                    <div className="flex-1">
-                                                        <div className="font-medium text-gray-800 mb-1">
-                                                            {item.itemText}
-                                                        </div>
-                                                        {item.aiComment && (
-                                                            <div className="text-sm text-gray-600">
-                                                                {item.aiComment}
-                                                            </div>
+                                    <div className="space-y-6">
+                                        {(() => {
+                                            // nameText로 그룹화
+                                            const groupedResults = noteData.evaluation.checklistResults.reduce((groups, item) => {
+                                                const category = item.nameText || '기타';
+                                                if (!groups[category]) {
+                                                    groups[category] = [];
+                                                }
+                                                groups[category].push(item);
+                                                return groups;
+                                            }, {});
+                                            return Object.entries(groupedResults).map(([category, items]) => {
+                                                const sortedItems = [...items].sort((a, b) => {
+                                                    const aPerf = (a.performance || '').trim().toLowerCase();
+                                                    const bPerf = (b.performance || '').trim().toLowerCase();
+                                                    if (aPerf === bPerf) return 0;
+                                                    if (aPerf === 'no') return -1;
+                                                    if (bPerf === 'no') return 1;
+                                                    return 0;
+                                                });
+                                                // 펼침 상태: openGroups[category]가 true면 펼침, false면 접힘. 기본값 true
+                                                const isOpen = openGroups[category] !== undefined ? openGroups[category] : true;
+                                                const handleToggle = () => setOpenGroups(prev => ({ ...prev, [category]: !isOpen }));
+                                                return (
+                                                    <div key={category} className="border border-gray-200 rounded-lg overflow-hidden">
+                                                        <button type="button" onClick={handleToggle} className="w-full flex items-center justify-between bg-gray-50 px-4 py-3 border-b border-gray-200 focus:outline-none">
+                                                            <h4 className="font-semibold text-gray-800 text-left">{category}</h4>
+                                                            <span className="ml-2 text-gray-500">{isOpen ? '▼' : '▶'}</span>
+                                                        </button>
+                                                        {isOpen && (
+                                                            <ul className="divide-y divide-gray-100">
+                                                                {sortedItems.map((item, index) => (
+                                                                    <li key={index} className="p-4 bg-white">
+                                                                        <div className="flex items-start">
+                                                                            <div
+                                                                                className={`w-6 h-6 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 ${
+                                                                                    item.performance === 'yes'
+                                                                                        ? 'bg-green-500'
+                                                                                        : 'bg-red-500'
+                                                                                }`}
+                                                                            >
+                                                                                {item.performance === 'yes' ? '✓' : '✗'}
+                                                                            </div>
+                                                                            <div className="flex-1 ml-3">
+                                                                                <div className="font-medium text-gray-800 mb-1">
+                                                                                    {item.itemText}
+                                                                                </div>
+                                                                                {item.aiComment && (
+                                                                                    <div className="text-sm text-gray-600">
+                                                                                        {item.aiComment}
+                                                                                    </div>
+                                                                                )}
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                ))}
+                                                            </ul>
                                                         )}
                                                     </div>
-                                                </div>
-                                            </div>
-                                        ))}
+                                                );
+                                            });
+                                        })()}
                                     </div>
                                 ) : (
                                     <p className="text-gray-500 text-center py-8">체크리스트 결과가 없습니다.</p>

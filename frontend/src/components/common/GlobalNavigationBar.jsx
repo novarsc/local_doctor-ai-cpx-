@@ -44,18 +44,18 @@ const GlobalNavigationBar = () => {
             </NavLink>
 
             <nav className="flex items-center gap-6">
-                {/* '대시보드' 메뉴 추가 */}
+                {/* '홈' 메뉴 추가 */}
                 <NavLink to="/dashboard" className="text-gray-600 hover:text-primary text-base font-medium transition-colors" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>
-                    대시보드
+                    홈
                 </NavLink>
                 <NavLink to="/cases" className="text-gray-600 hover:text-primary text-base font-medium transition-colors" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>
-                    증례 라이브러리
+                    임상 증례
                 </NavLink>
                 <NavLink to="/mock-exams" className="text-gray-600 hover:text-primary text-base font-medium transition-colors" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>
                     모의고사
                 </NavLink>
                 <NavLink to="/my-notes" className="text-gray-600 hover:text-primary text-base font-medium transition-colors" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>
-                    MY 노트
+                    학습 노트
                 </NavLink>
             </nav>
 

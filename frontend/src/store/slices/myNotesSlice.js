@@ -1,6 +1,6 @@
 /**
  * @file myNotesSlice.js
- * @description Redux slice for managing state related to the 'MY 노트' feature.
+ * @description Redux slice for managing state related to the '학습 노트' feature.
  */
 
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';

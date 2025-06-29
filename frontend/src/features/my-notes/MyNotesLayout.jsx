@@ -17,7 +17,7 @@ const MyNotesLayout = () => {
             <aside className={`bg-white shadow-md flex-shrink-0 transition-all duration-300 ${isSidebarOpen ? 'w-64' : 'w-20'}`}>
                 <div className="flex items-center justify-between p-4 h-16 border-b">
                     <h2 className={`text-2xl font-bold transition-opacity ${isSidebarOpen ? 'opacity-100' : 'opacity-0'}`}>
-                        MY 노트
+                        학습 노트
                     </h2>
                     <button 
                         onClick={() => setIsSidebarOpen(!isSidebarOpen)} 

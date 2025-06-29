@@ -25,12 +25,28 @@ import Modal from '../../components/common/Modal';
 import BlockMemoEditor from '../../components/common/BlockMemoEditor';
 
 // 타이머 컴포넌트
-const TimerDisplay = ({ initialMinutes = 12 }) => {
+const TimerDisplay = ({ initialMinutes = 12, isPaused, onFiveMinutesLeft, onTimeUp }) => {
     const [seconds, setSeconds] = useState(initialMinutes * 60);
+    const initialSecondsRef = useRef(initialMinutes * 60);
+    const fiveMinAlerted = useRef(false);
+    const timeUpAlerted = useRef(false);
     useEffect(() => {
-        const interval = setInterval(() => { setSeconds(s => s > 0 ? s - 1 : 0); }, 1000);
+        if (isPaused) return;
+        const interval = setInterval(() => {
+            setSeconds(s => {
+                if (!fiveMinAlerted.current && s === 301) {
+                    fiveMinAlerted.current = true;
+                    if (onFiveMinutesLeft) onFiveMinutesLeft();
+                }
+                if (!timeUpAlerted.current && s === 1) {
+                    timeUpAlerted.current = true;
+                    if (onTimeUp) onTimeUp();
+                }
+                return s > 0 ? s - 1 : 0;
+            });
+        }, 1000);
         return () => clearInterval(interval);
-    }, []);
+    }, [isPaused, onFiveMinutesLeft, onTimeUp]);
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
     return <div className="font-mono text-lg bg-red-100 text-red-700 px-3 py-1 rounded-md">{String(minutes).padStart(2, '0')}:{String(remainingSeconds).padStart(2, '0')}</div>;
@@ -53,8 +69,13 @@ const MockExamInProgressPage = () => {
     const [userInput, setUserInput] = useState('');
     const [isStartingPractice, setIsStartingPractice] = useState(false);
     const chatEndRef = useRef(null);
+    const inputRef = useRef(null);
     const caseIndex = parseInt(caseNumber, 10) - 1;
     const [memoContent, setMemoContent] = useState('');
+    const [isPaused, setIsPaused] = useState(false);
+    const [showFiveMinAlert, setShowFiveMinAlert] = useState(false);
+    const [isTimeUp, setIsTimeUp] = useState(false);
+    const [showChatLog, setShowChatLog] = useState(true);
 
     // --- 커스텀 알림 모달 상태 추가 ---
     const [notificationModal, setNotificationModal] = useState({
@@ -79,7 +100,14 @@ const MockExamInProgressPage = () => {
     };
 
     const closeNotification = () => {
-        setNotificationModal(prev => ({ ...prev, isOpen: false }));
+        setNotificationModal({
+            isOpen: false,
+            type: 'success',
+            title: '',
+            message: '',
+            onConfirm: null,
+            onCancel: null
+        });
     };
 
     const handleNotificationConfirm = () => {
@@ -98,15 +126,19 @@ const MockExamInProgressPage = () => {
 
     // 모의고사 세션 정보 로드
     useEffect(() => {
-        if (!currentSession || currentSession.mockExamSessionId !== mockExamSessionId) {
+        // 이미 올바른 세션이 로드되어 있는지 확인
+        if ((!currentSession || currentSession.mockExamSessionId !== mockExamSessionId) && status !== 'loading') {
             dispatch(fetchMockExamSession(mockExamSessionId));
         }
+        
+        // 페이지 로드 시 스크롤을 맨 위로 올림
+        window.scrollTo(0, 0);
         
         // 컴포넌트 언마운트 시 실습 세션 상태 정리
         return () => {
             dispatch(resetSession());
         };
-    }, [dispatch, mockExamSessionId, currentSession]);
+    }, [dispatch, mockExamSessionId]);
 
     // 현재 증례 정보 설정
     useEffect(() => {
@@ -130,8 +162,34 @@ const MockExamInProgressPage = () => {
 
     // 새 메시지가 추가될 때마다 채팅창을 맨 아래로 스크롤
     useEffect(() => { 
-        chatEndRef.current?.scrollIntoView({ behavior: 'smooth' }); 
+        if (chatEndRef.current && chatLog.length > 0) {
+            // 약간의 지연을 두어 DOM 업데이트 완료 후 스크롤
+            setTimeout(() => {
+                chatEndRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+            }, 100);
+        }
     }, [chatLog]);
+
+    // AI 응답이 끝나면 채팅 입력란에 자동 포커스
+    useEffect(() => {
+        if (!isAiResponding && inputRef.current && currentPracticeSessionId) {
+            inputRef.current.focus();
+        }
+    }, [isAiResponding, currentPracticeSessionId]);
+
+    // 실습 세션이 시작되면 포커스
+    useEffect(() => {
+        if (currentPracticeSessionId && inputRef.current && !isStartingPractice) {
+            inputRef.current.focus();
+        }
+    }, [currentPracticeSessionId, isStartingPractice]);
+
+    useEffect(() => {
+        if (showFiveMinAlert) {
+            const timer = setTimeout(() => setShowFiveMinAlert(false), 2000);
+            return () => clearTimeout(timer);
+        }
+    }, [showFiveMinAlert]);
 
     const startPracticeSessionForCase = async () => {
         try {
@@ -207,34 +265,51 @@ const MockExamInProgressPage = () => {
             '정말로 이 증례를 종료하시겠습니까? 다음 증례로 넘어갑니다.',
             () => {
                 const nextCaseNumber = parseInt(caseNumber, 10) + 1;
+                console.log('handleEndCase called:', { nextCaseNumber, currentPracticeSessionId, mockExamSessionId });
                 
                 if (nextCaseNumber > 6) {
                     // 마지막 증례이므로 현재 실습 세션을 먼저 완료하고 모의고사 완료
                     if (currentPracticeSessionId) {
+                        console.log('Completing practice session first:', currentPracticeSessionId);
                         dispatch(completeSession(currentPracticeSessionId))
                             .unwrap()
                             .then(() => {
+                                console.log('Practice session completed, now completing mock exam');
                                 // 실습 세션 완료 후 모의고사 완료
                                 return dispatch(completeMockExam(mockExamSessionId)).unwrap();
                             })
-                            .then(() => {
-                                navigate(`/mock-exams/results/${mockExamSessionId}`);
+                            .then((completedSession) => {
+                                console.log('Mock exam completed successfully:', completedSession);
+                                // Redux store가 업데이트될 시간을 주기 위해 약간의 지연
+                                setTimeout(() => {
+                                    console.log('Navigating to results page');
+                                    navigate(`/mock-exams/results/${mockExamSessionId}`);
+                                }, 100);
                             })
                             .catch((err) => {
+                                console.error('Error completing mock exam:', err);
                                 showNotification('error', '오류', `모의고사 완료에 실패했습니다: ${err.message}`);
                             });
                     } else {
+                        console.log('No practice session, completing mock exam directly');
                         // 실습 세션이 없는 경우 바로 모의고사 완료
                         dispatch(completeMockExam(mockExamSessionId))
                             .unwrap()
-                            .then(() => {
-                                navigate(`/mock-exams/results/${mockExamSessionId}`);
+                            .then((completedSession) => {
+                                console.log('Mock exam completed successfully:', completedSession);
+                                // Redux store가 업데이트될 시간을 주기 위해 약간의 지연
+                                setTimeout(() => {
+                                    console.log('Navigating to results page');
+                                    navigate(`/mock-exams/results/${mockExamSessionId}`);
+                                }, 100);
                             })
                             .catch((err) => {
+                                console.error('Error completing mock exam:', err);
                                 showNotification('error', '오류', `모의고사 완료에 실패했습니다: ${err.message}`);
                             });
                     }
                 } else {
+                    console.log('Moving to next case:', nextCaseNumber);
                     // 다음 증례로 이동하기 전에 현재 실습 세션 상태 초기화
                     dispatch(resetSession());
                     // 다음 증례로 이동
@@ -253,9 +328,9 @@ const MockExamInProgressPage = () => {
     }
 
     return (
-        <div className="flex h-screen bg-slate-100 font-sans">
+        <div className="flex h-[calc(100vh-56px)] bg-slate-100 font-sans">
             {/* 중앙 메인 패널 (채팅창) */}
-            <div className="flex flex-col flex-grow h-full">
+            <div className="flex flex-col flex-1 h-full">
                 <header className="flex items-center justify-between p-4 bg-white border-b border-gray-200 shadow-sm z-10">
                     <div className="flex items-center gap-4">
                         <h1 className="text-xl font-bold text-gray-800">모의고사 진행 중</h1>
@@ -263,11 +338,32 @@ const MockExamInProgressPage = () => {
                             증례 {caseNumber} / 6
                         </div>
                     </div>
-                    <TimerDisplay />
+                    <div className="flex items-center gap-2">
+                        <TimerDisplay initialMinutes={12} isPaused={isPaused} onFiveMinutesLeft={() => setShowFiveMinAlert(true)} onTimeUp={() => setIsTimeUp(true)} />
+                        {!isPaused ? (
+                            <Button onClick={() => setIsPaused(true)} color="secondary" size="sm" disabled={isTimeUp}>일시정지</Button>
+                        ) : (
+                            <Button onClick={() => setIsPaused(false)} color="primary" size="sm">계속하기</Button>
+                        )}
+                        <Button
+                            onClick={() => setShowChatLog(v => !v)}
+                            color="secondary"
+                            size="sm"
+                            className="ml-2"
+                        >
+                            {showChatLog ? "채팅기록 숨기기" : "채팅기록 보이기"}
+                        </Button>
+                    </div>
+                    <div className={`fixed top-20 left-1/2 -translate-x-1/2 z-50 px-12 py-6 rounded-2xl shadow-2xl border-2 border-yellow-300 bg-yellow-100 flex items-center gap-4 transition-opacity duration-500 ${showFiveMinAlert ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+                        <span className="text-4xl">⏰</span>
+                        <span className="text-yellow-900 font-extrabold text-2xl tracking-wide text-center">
+                            실습 시간이 5분 남았습니다!
+                        </span>
+                    </div>
                 </header>
                 
-                <main className="flex-1 overflow-y-auto p-6 space-y-5">
-                    {chatLog.map((msg, index) => (
+                <main className="flex-1 min-h-0 overflow-y-auto p-6 space-y-5">
+                    {showChatLog && chatLog.map((msg, index) => (
                         <div key={msg.id || index} className={`flex items-end gap-3 max-w-xl ${msg.sender === 'user' ? 'ml-auto justify-end' : 'mr-auto'}`}>
                             {msg.sender === 'ai' && (
                                 <div className="w-10 h-10 rounded-full bg-primary flex-shrink-0 flex items-center justify-center text-white font-bold">AI</div>
@@ -293,7 +389,7 @@ const MockExamInProgressPage = () => {
                     <div ref={chatEndRef} />
                 </main>
 
-                <footer className="p-4 bg-white border-t border-gray-200">
+                <footer className="p-4 bg-white border-t border-gray-200 shrink-0">
                     {practiceError && <p className="text-red-500 text-sm mb-2 text-center">오류: {practiceError}</p>}
                     <form onSubmit={handleSendMessage} className="flex items-center gap-3">
                         <input 
@@ -302,11 +398,12 @@ const MockExamInProgressPage = () => {
                             onChange={(e) => setUserInput(e.target.value)} 
                             placeholder={isAiResponding ? "AI가 응답 중입니다..." : "여기에 메시지를 입력하세요..."} 
                             className="input-base flex-1 !p-3"
-                            disabled={isAiResponding || !currentPracticeSessionId} 
+                            disabled={isAiResponding || !currentPracticeSessionId || isPaused || isTimeUp} 
+                            ref={inputRef}
                         />
                         <Button
                             type="submit" 
-                            disabled={isAiResponding || !userInput.trim() || !currentPracticeSessionId} 
+                            disabled={isAiResponding || !userInput.trim() || !currentPracticeSessionId || isPaused || isTimeUp} 
                             variant="primary"
                             className="!py-3 !px-6"
                         >
@@ -374,6 +471,29 @@ const MockExamInProgressPage = () => {
                     <p className="text-gray-700">{notificationModal.message}</p>
                 </div>
             </Modal>
+
+            {isPaused && (
+                <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex flex-col items-center justify-center backdrop-blur">
+                    <div className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center">
+                        <h2 className="text-2xl font-bold mb-4">일시정지 중</h2>
+                        <p className="mb-6">실습이 일시정지되었습니다.<br/>"계속하기" 버튼을 눌러 계속 진행하세요.</p>
+                        <Button onClick={() => setIsPaused(false)} color="primary">계속하기</Button>
+                    </div>
+                </div>
+            )}
+
+            {isTimeUp && (
+                <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex flex-col items-center justify-center backdrop-blur">
+                    <div className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center">
+                        <h2 className="text-2xl font-bold mb-4">시간이 종료되었습니다</h2>
+                        <p className="mb-6">계속 진행하시겠습니까?</p>
+                        <div className="flex gap-4">
+                            <Button onClick={() => setIsTimeUp(false)} color="primary">계속하기</Button>
+                            <Button onClick={handleEndCase} color="secondary">종료하기</Button>
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };

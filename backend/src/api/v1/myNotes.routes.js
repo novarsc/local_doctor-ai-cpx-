@@ -1,6 +1,13 @@
 /**
  * @file myNotes.routes.js
- * @description Defines API routes for "MY 노트" features.
+ * @description Defines API routes for "학습 노트" features.
+ * 
+ * @author [Your Name]
+ * @version 1.0.0
+ * 
+ * @description
+ * 1. 이 파일은 "학습 노트" 기능과 관련된 모든 API 엔드포인트를 정의합니다.
+ * 2. "학습 노트"의 모든 기능은 로그인한 사용자만 사용 가능하므로,
  */
 
 const express = require('express');
@@ -10,7 +17,7 @@ const { verifyToken } = require('../../middlewares/auth.middleware');
 
 const router = express.Router();
 
-// 2. "MY 노트"의 모든 기능은 로그인한 사용자만 사용 가능하므로,
+// 2. "학습 노트"의 모든 기능은 로그인한 사용자만 사용 가능하므로,
 // router.use()를 사용해 이 파일의 모든 라우트에 미들웨어를 일괄 적용합니다.
 router.use(verifyToken);
 

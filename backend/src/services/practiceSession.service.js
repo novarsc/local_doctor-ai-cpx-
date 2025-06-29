@@ -80,7 +80,7 @@ const sendMessageAndGetResponse = async (sessionId, userId, messageContent) => {
 const completePracticeSession = async (sessionId, userId) => {
     const session = await PracticeSession.findOne({ where: { practiceSessionId: sessionId, userId } });
     if (!session) throw new ApiError(404, 'P001_SESSION_NOT_FOUND', 'Session not found.');
-    if (session.status !== 'started') throw new ApiError(400, 'P002_SESSION_ALREADY_COMPLETED', 'Session is not active.');
+    if (session.status !== 'started' && session.status !== 'in_progress') throw new ApiError(400, 'P002_SESSION_ALREADY_COMPLETED', 'Session is not active.');
 
     updateChatHistory(sessionId, []);
     

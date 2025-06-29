@@ -1,6 +1,6 @@
 /**
  * @file myNotesService.js
- * @description Service functions for "MY 노트" related API calls.
+ * @description Service functions for "학습 노트" related API calls.
  */
 
 import apiClient from './apiClient';

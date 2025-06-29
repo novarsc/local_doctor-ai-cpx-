@@ -7,8 +7,7 @@ const { Scenario, UserBookmarkedScenario, UserPracticeHistory } = require('../mo
 const { Op, Sequelize } = require('sequelize');
 
 const listScenarios = async (queryParams, userId = null) => {
-  const { page = 1, limit = 9, search, category, status, sortBy = 'createdAt_desc' } = queryParams;
-  const offset = (page - 1) * limit;
+  const { page = 1, limit = 1000, search, category, status, sortBy = 'createdAt_desc' } = queryParams;
   let where = {};
   
   console.log('[DEBUG] listScenarios called with:', { queryParams, userId });
@@ -25,7 +24,12 @@ const listScenarios = async (queryParams, userId = null) => {
   
   // 카테고리 필터링 (category 파라미터)
   if (category) {
-    where.primaryCategory = category;
+    // 쉼표로 구분된 카테고리들을 배열로 분리
+    const categoryArray = category.split(',').map(cat => cat.trim()).filter(cat => cat);
+    
+    if (categoryArray.length > 0) {
+      where.primaryCategory = { [Op.in]: categoryArray };
+    }
   }
   
   const [sortField, sortOrder] = sortBy.split('_');
@@ -66,6 +70,23 @@ const listScenarios = async (queryParams, userId = null) => {
       if (completedIds.length > 0) {
         where.scenarioId = { [Op.notIn]: completedIds };
       }
+    } else if (status === 'bookmarked') {
+      // 즐겨찾기된 증례만: UserBookmarkedScenario에 기록이 있는 증례
+      const bookmarkedScenarioIds = await UserBookmarkedScenario.findAll({
+        where: { userId },
+        attributes: ['scenarioId'],
+        raw: true
+      });
+      
+      const bookmarkedIds = bookmarkedScenarioIds.map(item => item.scenarioId);
+      console.log('[DEBUG] Bookmarked scenario IDs:', bookmarkedIds);
+      
+      if (bookmarkedIds.length > 0) {
+        where.scenarioId = { [Op.in]: bookmarkedIds };
+      } else {
+        // 즐겨찾기된 증례가 없으면 빈 결과 반환
+        where.scenarioId = { [Op.in]: [] };
+      }
     }
   }
   
@@ -74,7 +95,6 @@ const listScenarios = async (queryParams, userId = null) => {
   const { count, rows } = await Scenario.findAndCountAll({
     where,
     limit,
-    offset,
     attributes: [
       'scenarioId', 'name', 'primaryCategory', 'secondaryCategory', 'age', 'sex', 'shortDescription',
     ],
@@ -83,16 +103,15 @@ const listScenarios = async (queryParams, userId = null) => {
   
   console.log('[DEBUG] Query result:', { count, rowsCount: rows.length });
   
-  const totalPages = Math.ceil(count / limit);
   return {
     data: rows,
     pagination: {
       totalItems: count, 
-      totalPages, 
-      currentPage: parseInt(page, 10), 
-      pageSize: parseInt(limit, 10), 
-      hasNextPage: page < totalPages, 
-      hasPrevPage: page > 1,
+      totalPages: 1, 
+      currentPage: 1, 
+      pageSize: count, 
+      hasNextPage: false, 
+      hasPrevPage: false,
     }
   };
 };

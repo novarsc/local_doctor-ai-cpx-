@@ -11,6 +11,11 @@ const IncorrectAnswersPage = () => {
     const [userMemo, setUserMemo] = useState('');
 
     const { practicedScenarios, status, incorrectNotes, error } = useSelector(state => state.myNotes);
+    
+    // 선택된 증례의 기본 정보
+    const selectedScenario = practicedScenarios.find(scenario => scenario.scenarioId === selectedScenarioId);
+    
+    // 선택된 증례의 오답노트 데이터
     const currentNoteData = selectedScenarioId ? incorrectNotes[selectedScenarioId] : null;
 
     useEffect(() => {
@@ -122,40 +127,48 @@ const IncorrectAnswersPage = () => {
                 {!selectedScenarioId && <p>왼쪽에서 증례를 선택해주세요.</p>}
                 {selectedScenarioId && status.incorrectNotes === 'loading' && <LoadingSpinner text="노트 내용을 불러오는 중..." />}
 
-                {currentNoteData && status.incorrectNotes !== 'loading' && (
+                {selectedScenario && status.incorrectNotes !== 'loading' && (
                     <div>
                         {/* 선택된 증례의 요약 정보 */}
                         <div className="mb-6 p-4 bg-blue-50 rounded-lg">
-                            <h3 className="font-semibold text-lg mb-2 text-blue-800">선택된 증례 요약</h3>
+                            <h3 className="font-semibold text-lg mb-2 text-blue-800">선택된 증례: {selectedScenario.name}</h3>
                             <div className="grid grid-cols-2 gap-4 text-sm">
-                                {currentNoteData.score !== null && (
+                                {selectedScenario.score !== null && (
                                     <div>
                                         <span className="font-medium">점수:</span>
-                                        <span className="ml-2 font-bold text-lg">{currentNoteData.score}점</span>
+                                        <span className="ml-2 font-bold text-lg">{selectedScenario.score}점</span>
                                     </div>
                                 )}
-                                {currentNoteData.qualitativeFeedback && (
+                                {selectedScenario.qualitativeFeedback && (
                                     <div className="col-span-2">
                                         <span className="font-medium">교수 총평:</span>
-                                        <p className="mt-1 text-gray-700">{currentNoteData.qualitativeFeedback}</p>
+                                        <p className="mt-1 text-gray-700">{selectedScenario.qualitativeFeedback}</p>
+                                    </div>
+                                )}
+                                {selectedScenario.completedAt && (
+                                    <div className="col-span-2">
+                                        <span className="font-medium">완료일:</span>
+                                        <span className="ml-2">{new Date(selectedScenario.completedAt).toLocaleDateString('ko-KR')}</span>
                                     </div>
                                 )}
                             </div>
                         </div>
 
-                        <div className="mb-8">
-                            <h3 className="font-semibold text-lg mb-2 text-red-600">AI의 개선 피드백</h3>
-                            <div className="bg-red-50 p-4 rounded-md space-y-2 text-red-900 border border-red-200">
-                                {currentNoteData.aiGeneratedFeedback && currentNoteData.aiGeneratedFeedback.length > 0 ?
+                        {/* AI 피드백 섹션 */}
+                        {currentNoteData && currentNoteData.aiGeneratedFeedback && currentNoteData.aiGeneratedFeedback.length > 0 && (
+                            <div className="mb-8">
+                                <h3 className="font-semibold text-lg mb-2 text-red-600">AI의 개선 피드백</h3>
+                                <div className="bg-red-50 p-4 rounded-md space-y-2 text-red-900 border border-red-200">
                                     <ul className="list-disc list-inside">
-                                        {currentNoteData.aiGeneratedFeedback.map((fb, i) => <li key={i}>{fb.description}</li>)}
-                                    </ul> :
-                                    <p>AI 피드백이 없습니다.</p>
-                                }
+                                        {currentNoteData.aiGeneratedFeedback.map((feedback, i) => (
+                                            <li key={i}>{typeof feedback === 'string' ? feedback : feedback.description}</li>
+                                        ))}
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
+                        )}
 
-                        {/* 사용자 메모 입력 */}
+                        {/* 사용자 메모 입력 - 항상 표시 */}
                         <div className="bg-white rounded-lg shadow-md p-6">
                             <h2 className="text-xl font-semibold mb-4 text-gray-800">나의 메모</h2>
                             <textarea
@@ -180,6 +193,16 @@ const IncorrectAnswersPage = () => {
                                 </button>
                             </div>
                         </div>
+
+                        {/* AI 피드백이 없을 때 안내 메시지 */}
+                        {(!currentNoteData || !currentNoteData.aiGeneratedFeedback || currentNoteData.aiGeneratedFeedback.length === 0) && (
+                            <div className="mt-4 p-4 bg-yellow-50 border border-yellow-200 rounded-md">
+                                <p className="text-yellow-800 text-sm">
+                                    이 증례에 대한 AI 피드백이 아직 준비되지 않았습니다. 
+                                    상세 오답노트에서 더 자세한 정보를 확인할 수 있습니다.
+                                </p>
+                            </div>
+                        )}
                     </div>
                 )}
             </main>

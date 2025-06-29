@@ -7,15 +7,24 @@ import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { clearCurrentMockExam, fetchMockExamSession } from '../../store/slices/mockExamSlice';
+import LoadingSpinner from '../../components/common/LoadingSpinner';
 
 const MockExamResultPage = () => {
     const dispatch = useDispatch();
     const { mockExamSessionId } = useParams();
     const { currentSession, status, error } = useSelector(state => state.mockExam);
 
+    // 디버깅을 위한 로그
+    console.log('MockExamResultPage render:', { mockExamSessionId, currentSession, status, error });
+
     // 모의고사 세션 정보 로드
     useEffect(() => {
-        if (!currentSession || currentSession.mockExamSessionId !== mockExamSessionId) {
+        console.log('MockExamResultPage useEffect triggered:', { mockExamSessionId, currentSession, status });
+        
+        // 결과 페이지에서는 항상 최신 세션 정보를 가져오도록 함
+        // 모의고사 완료 후 최신 점수 정보를 보여주기 위함
+        if (status !== 'loading') {
+            console.log('Fetching mock exam session:', mockExamSessionId);
             dispatch(fetchMockExamSession(mockExamSessionId));
         }
         
@@ -23,11 +32,17 @@ const MockExamResultPage = () => {
         return () => {
             dispatch(clearCurrentMockExam());
         }
-    }, [dispatch, mockExamSessionId, currentSession]);
+    }, [dispatch, mockExamSessionId]); // currentSession을 의존성 배열에서 제거
 
 
     if (status === 'loading') {
-        return <div className="p-8 text-center text-xl">결과를 불러오는 중입니다...</div>;
+        return (
+            <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
+                <LoadingSpinner size="xl" />
+                <h2 className="mt-6 text-2xl font-bold text-gray-800">결과를 불러오는 중입니다...</h2>
+                <p className="mt-2 text-gray-600">모의고사 결과를 확인하고 있습니다.</p>
+            </div>
+        );
     }
 
     if (error || !currentSession) {
@@ -35,6 +50,7 @@ const MockExamResultPage = () => {
             <div className="p-8 text-center text-red-500">
                 <h1 className="text-2xl font-bold mb-4">오류</h1>
                 <p>결과를 표시하는 중 오류가 발생했습니다: {error || '세션 정보를 찾을 수 없습니다.'}</p>
+                <p className="mt-2 text-sm text-gray-600">세션 ID: {mockExamSessionId}</p>
                 <Link to="/mock-exams" className="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-lg">모의고사 홈으로 돌아가기</Link>
             </div>
         );
