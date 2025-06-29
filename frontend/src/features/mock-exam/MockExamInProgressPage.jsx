@@ -22,6 +22,7 @@ import { mockExamService } from '../../services/mockExamService';
 import Button from '../../components/common/Button';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 import Modal from '../../components/common/Modal';
+import BlockMemoEditor from '../../components/common/BlockMemoEditor';
 
 // 타이머 컴포넌트
 const TimerDisplay = ({ initialMinutes = 12 }) => {
@@ -53,6 +54,7 @@ const MockExamInProgressPage = () => {
     const [isStartingPractice, setIsStartingPractice] = useState(false);
     const chatEndRef = useRef(null);
     const caseIndex = parseInt(caseNumber, 10) - 1;
+    const [memoContent, setMemoContent] = useState('');
 
     // --- 커스텀 알림 모달 상태 추가 ---
     const [notificationModal, setNotificationModal] = useState({
@@ -317,10 +319,13 @@ const MockExamInProgressPage = () => {
             {/* 우측 사이드바 (메모장) */}
             <aside className="w-96 bg-white border-l border-gray-200 flex flex-col h-full flex-shrink-0">
                  <div className="p-4 border-b border-gray-200"><h2 className="font-bold text-lg text-gray-800">메모장</h2></div>
-                <textarea 
-                    placeholder="실습 중 필요한 내용을 자유롭게 메모하세요..." 
-                    className="w-full h-full p-4 text-base leading-relaxed focus:outline-none resize-none border-0 bg-white"
-                ></textarea>
+                <div className="flex-1 overflow-y-auto p-4">
+                    <BlockMemoEditor
+                        value={memoContent}
+                        onChange={setMemoContent}
+                        placeholder="실습 중 필요한 내용을 자유롭게 메모하세요..."
+                    />
+                </div>
                 <div className="p-4 mt-auto border-t border-gray-200">
                     <Button onClick={handleEndCase} variant="danger" className="w-full !py-3 text-base">
                         증례 종료
