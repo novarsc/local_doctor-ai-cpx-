@@ -51,7 +51,7 @@ const initializeChat = async (scenario, personality) => {
     const personalityFileContent = fs.readFileSync(path.join(__dirname, '..', '..', personality.promptFilePath), 'utf8');
 
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-flash-latest",
+      model: "gemini-2.5-flash-lite-preview-06-17",
       systemInstruction: { role: "system", parts: [{ text: SYSTEM_PROMPT }] },
     });
 
@@ -109,7 +109,7 @@ const sendMessageAndGetResponse = async (history, messageContent) => {
   }
   
   const model = genAI.getGenerativeModel({
-    model: "gemini-1.5-flash-latest",
+    model: "gemini-2.5-pro",
     systemInstruction: { role: "system", parts: [{ text: SYSTEM_PROMPT }] },
   });
   
@@ -246,8 +246,8 @@ sections:
         "overallScore": 85,
         "qualitativeFeedback": "전반적으로 문진을 꼼꼼하게 진행했지만, 통증의 방사통과 완화 요인에 대한 질문이 누락되었습니다.",
         "checklistResults": [
-          { "itemText": "복통이 시작된 시점을 확인하였다.", "performance": "yes", "aiComment": "대화 초반에 '언제부터 아프셨어요?'라고 질문하여 확인함." },
-          { "itemText": "복통의 위치와 이동 양상, 방사통, 빈도를 확인하였다.", "performance": "no", "aiComment": "통증 위치는 확인했으나, 방사통 여부를 질문하지 않았음." }
+          { "nameText": "병력 청취(주제관련)", "itemText": "복통이 시작된 시점을 확인하였다.", "performance": "yes", "aiComment": "대화 초반에 '언제부터 아프셨어요?'라고 질문하여 확인함." },
+          { "nameText": "병력 청취(주제관련)", "itemText": "복통의 위치와 이동 양상, 방사통, 빈도를 확인하였다.", "performance": "no", "aiComment": "통증 위치는 확인했으나, 방사통 여부를 질문하지 않았음." }
         ],
         "goodPoints": [
           { "description": "환자의 사회력을 상세히 질문하여 생활 습관과의 연관성을 파악하려 한 점이 돋보입니다." },
