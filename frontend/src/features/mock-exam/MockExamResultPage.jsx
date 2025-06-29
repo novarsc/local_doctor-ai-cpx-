@@ -19,13 +19,20 @@ const MockExamResultPage = () => {
 
     // 모의고사 세션 정보 로드
     useEffect(() => {
-        console.log('MockExamResultPage useEffect triggered:', { mockExamSessionId, currentSession, status });
+        console.log('MockExamResultPage useEffect triggered:', { mockExamSessionId, currentSession, status, error });
         
         // 결과 페이지에서는 항상 최신 세션 정보를 가져오도록 함
         // 모의고사 완료 후 최신 점수 정보를 보여주기 위함
         if (status !== 'loading') {
             console.log('Fetching mock exam session:', mockExamSessionId);
-            dispatch(fetchMockExamSession(mockExamSessionId));
+            dispatch(fetchMockExamSession(mockExamSessionId))
+                .unwrap()
+                .then((result) => {
+                    console.log('Mock exam session fetched successfully:', result);
+                })
+                .catch((error) => {
+                    console.error('Failed to fetch mock exam session:', error);
+                });
         }
         
         // 사용자가 이 결과 페이지를 떠날 때, Redux의 현재 모의고사 상태를 초기화합니다.
@@ -34,6 +41,18 @@ const MockExamResultPage = () => {
         }
     }, [dispatch, mockExamSessionId]); // currentSession을 의존성 배열에서 제거
 
+    // 세션이 없고 에러가 있을 때 자동으로 다시 시도
+    useEffect(() => {
+        if (!currentSession && error && status !== 'loading') {
+            console.log('세션이 없고 에러가 있음, 3초 후 다시 시도');
+            const timer = setTimeout(() => {
+                console.log('자동 재시도 시작');
+                dispatch(fetchMockExamSession(mockExamSessionId));
+            }, 3000);
+            
+            return () => clearTimeout(timer);
+        }
+    }, [currentSession, error, status, dispatch, mockExamSessionId]);
 
     if (status === 'loading') {
         return (
@@ -51,7 +70,35 @@ const MockExamResultPage = () => {
                 <h1 className="text-2xl font-bold mb-4">오류</h1>
                 <p>결과를 표시하는 중 오류가 발생했습니다: {error || '세션 정보를 찾을 수 없습니다.'}</p>
                 <p className="mt-2 text-sm text-gray-600">세션 ID: {mockExamSessionId}</p>
-                <Link to="/mock-exams" className="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-lg">모의고사 홈으로 돌아가기</Link>
+                <p className="mt-2 text-sm text-gray-600">상태: {status}</p>
+                <p className="mt-2 text-sm text-gray-600">현재 세션: {currentSession ? '존재함' : '존재하지 않음'}</p>
+                <p className="mt-2 text-sm text-gray-600">에러: {error || '없음'}</p>
+                <div className="mt-4 space-y-2">
+                    <button 
+                        onClick={() => {
+                            console.log('수동 재시도 시작');
+                            dispatch(fetchMockExamSession(mockExamSessionId));
+                        }}
+                        className="px-4 py-2 bg-blue-600 text-white rounded-lg mr-2"
+                    >
+                        다시 시도
+                    </button>
+                    <button 
+                        onClick={() => {
+                            console.log('Redux 상태 초기화 후 재시도');
+                            dispatch(clearCurrentMockExam());
+                            setTimeout(() => {
+                                dispatch(fetchMockExamSession(mockExamSessionId));
+                            }, 100);
+                        }}
+                        className="px-4 py-2 bg-yellow-600 text-white rounded-lg mr-2"
+                    >
+                        상태 초기화 후 재시도
+                    </button>
+                    <Link to="/mock-exams" className="inline-block px-4 py-2 bg-gray-600 text-white rounded-lg">
+                        모의고사 홈으로 돌아가기
+                    </Link>
+                </div>
             </div>
         );
     }

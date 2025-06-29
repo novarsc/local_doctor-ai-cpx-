@@ -180,7 +180,9 @@ const completePracticeSession = async (sessionId, userId) => {
                 const sectionStats = {};
                 let total = 0, performed = 0;
                 for (const result of evaluationData.checklistResults) {
-                    const section = itemSectionMap[result.itemText] || '기타';
+                    // itemText 또는 content 필드를 사용하여 섹션 매핑
+                    const itemText = result.itemText || result.content || '';
+                    const section = itemSectionMap[itemText] || result.nameText || result.section || '기타';
                     if (!sectionStats[section]) sectionStats[section] = { total: 0, performed: 0 };
                     sectionStats[section].total++;
                     total++;

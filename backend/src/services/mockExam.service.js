@@ -15,7 +15,7 @@ console.log('--- 디버깅: ApiError 변수의 내용물 ---');
 console.log(ApiError);
 // ▲▲▲ 여기까지 추가 ▲▲▲
 
-const startMockExamSession = async (userId, examType, specifiedCategories = []) => {
+const startMockExamSession = async (userId, examType, specifiedCases = []) => {
     const scenarios = await Scenario.findAll();
     const scenariosByPrimaryCategory = scenarios.reduce((acc, scenario) => {
         (acc[scenario.primaryCategory] = acc[scenario.primaryCategory] || []).push(scenario);
@@ -26,7 +26,7 @@ const startMockExamSession = async (userId, examType, specifiedCategories = []) 
     
     let selectedScenarios = [];
     
-    if (examType === 'random' || specifiedCategories.length === 0) {
+    if (examType === 'random' || specifiedCases.length === 0) {
         // 랜덤 모의고사 로직 (기존과 동일)
         const chosenPrimaryCategories = allPrimaryCategories.sort(() => 0.5 - Math.random()).slice(0, 6);
         
@@ -34,42 +34,36 @@ const startMockExamSession = async (userId, examType, specifiedCategories = []) 
             const scenariosInCat = scenariosByPrimaryCategory[category];
             selectedScenarios.push(scenariosInCat[Math.floor(Math.random() * scenariosInCat.length)]);
         });
-    } else if (examType === 'specified') {
-        // 지정 모의고사 로직
-        const scenariosBySecondaryCategory = scenarios.reduce((acc, scenario) => {
-            (acc[scenario.secondaryCategory] = acc[scenario.secondaryCategory] || []).push(scenario);
+    } else {
+        // 지정 모의고사 로직 - 개별 케이스 기준
+        const scenariosById = scenarios.reduce((acc, scenario) => {
+            acc[scenario.scenarioId] = scenario;
             return acc;
         }, {});
         
-        // 사용자가 선택한 중분류에서 직접 증례 선택
-        for (const secondaryCategory of specifiedCategories) {
-            const scenariosInSecondary = scenariosBySecondaryCategory[secondaryCategory];
-            if (scenariosInSecondary && scenariosInSecondary.length > 0) {
-                selectedScenarios.push(scenariosInSecondary[Math.floor(Math.random() * scenariosInSecondary.length)]);
+        // 사용자가 선택한 케이스들을 직접 추가
+        for (const caseId of specifiedCases) {
+            const scenario = scenariosById[caseId];
+            if (scenario) {
+                selectedScenarios.push(scenario);
             }
         }
         
-        // 선택된 증례가 6개가 되도록 나머지를 다른 중분류에서 랜덤 선택
+        // 선택된 케이스가 6개가 되도록 나머지를 랜덤 선택
         const remainingCount = 6 - selectedScenarios.length;
         if (remainingCount > 0) {
-            // 사용자가 선택하지 않은 중분류들 중에서 랜덤 선택
-            const allSecondaryCategories = Object.keys(scenariosBySecondaryCategory);
-            const unselectedCategories = allSecondaryCategories.filter(category => 
-                !specifiedCategories.includes(category)
-            );
+            // 이미 선택된 케이스들을 제외한 나머지 케이스들 중에서 랜덤 선택
+            const selectedIds = new Set(selectedScenarios.map(s => s.scenarioId));
+            const availableScenarios = scenarios.filter(s => !selectedIds.has(s.scenarioId));
             
-            if (unselectedCategories.length < remainingCount) {
-                throw new ApiError(500, 'M006_INSUFFICIENT_CATEGORIES', '충분한 중분류가 없어 모의고사를 구성할 수 없습니다.');
+            if (availableScenarios.length < remainingCount) {
+                throw new ApiError(500, 'M006_INSUFFICIENT_CATEGORIES', '충분한 케이스가 없어 모의고사를 구성할 수 없습니다.');
             }
             
-            // 랜덤하게 중분류 선택
-            const shuffledCategories = unselectedCategories.sort(() => 0.5 - Math.random());
-            const additionalCategories = shuffledCategories.slice(0, remainingCount);
-            
-            additionalCategories.forEach(category => {
-                const scenariosInSecondary = scenariosBySecondaryCategory[category];
-                selectedScenarios.push(scenariosInSecondary[Math.floor(Math.random() * scenariosInSecondary.length)]);
-            });
+            // 랜덤하게 케이스 선택
+            const shuffledScenarios = availableScenarios.sort(() => 0.5 - Math.random());
+            const additionalScenarios = shuffledScenarios.slice(0, remainingCount);
+            selectedScenarios.push(...additionalScenarios);
         }
     }
     
@@ -85,7 +79,7 @@ const startMockExamSession = async (userId, examType, specifiedCategories = []) 
     const newMockExamSession = await MockExamSession.create({ 
         userId, 
         examType, 
-        specifiedCategories: examType === 'specified' ? specifiedCategories : null,
+        specifiedCategories: examType === 'specified' ? specifiedCases : null,
         status: 'started', 
         selectedScenariosDetails 
     });
@@ -94,40 +88,110 @@ const startMockExamSession = async (userId, examType, specifiedCategories = []) 
 };
 
 const getMockExamSession = async (mockExamSessionId, userId) => {
+    console.log('=== getMockExamSession 호출 ===');
+    console.log('mockExamSessionId:', mockExamSessionId);
+    console.log('userId:', userId);
+    
     const session = await MockExamSession.findOne({ where: { mockExamSessionId, userId } });
-    if (!session) throw new ApiError(404, 'M002_MOCK_EXAM_SESSION_NOT_FOUND', 'Mock exam session not found or access denied.');
+    console.log('조회된 세션:', session ? '존재함' : '존재하지 않음');
+    
+    if (!session) {
+        console.log('세션을 찾을 수 없음 - 에러 발생');
+        
+        // 디버깅을 위해 해당 사용자의 모든 세션을 조회
+        const allUserSessions = await MockExamSession.findAll({ 
+            where: { userId },
+            attributes: ['mockExamSessionId', 'status', 'createdAt', 'updatedAt']
+        });
+        console.log('사용자의 모든 세션:', allUserSessions.map(s => s.toJSON()));
+        
+        // 해당 세션 ID로 조회 (사용자 ID 무관)
+        const sessionWithoutUser = await MockExamSession.findOne({ 
+            where: { mockExamSessionId },
+            attributes: ['mockExamSessionId', 'userId', 'status', 'createdAt', 'updatedAt']
+        });
+        console.log('사용자 ID 무관 세션 조회:', sessionWithoutUser ? sessionWithoutUser.toJSON() : '없음');
+        
+        throw new ApiError(404, 'M002_MOCK_EXAM_SESSION_NOT_FOUND', 'Mock exam session not found or access denied.');
+    }
+    
+    console.log('세션 조회 성공, 반환:', session.toJSON());
     return session.toJSON();
 };
 
 const completeMockExamSession = async (mockExamSessionId, userId) => {
-    const session = await MockExamSession.findOne({ where: { mockExamSessionId, userId } });
-    if (!session) throw new ApiError(404, 'M002_MOCK_EXAM_SESSION_NOT_FOUND', 'Mock exam session not found.');
-
-    // 모든 실습 세션을 완료하고 점수를 계산
-    const updatedScenariosDetails = [...session.selectedScenariosDetails];
-    let totalScore = 0;
-    let completedCases = 0;
-
-    for (let i = 0; i < updatedScenariosDetails.length; i++) {
-        const caseDetails = updatedScenariosDetails[i];
+    console.log('=== completeMockExamSession 호출 ===');
+    console.log('mockExamSessionId:', mockExamSessionId);
+    console.log('userId:', userId);
+    
+    // Sequelize 트랜잭션 시작
+    const { sequelize } = require('../models');
+    const transaction = await sequelize.transaction();
+    
+    try {
+        const session = await MockExamSession.findOne({ 
+            where: { mockExamSessionId, userId },
+            transaction 
+        });
+        console.log('조회된 세션:', session ? '존재함' : '존재하지 않음');
         
-        if (caseDetails.practiceSessionId) {
-            // 실습 세션 완료
-            const practiceSession = await PracticeSession.findOne({
-                where: { practiceSessionId: caseDetails.practiceSessionId, userId }
-            });
+        if (!session) {
+            console.log('세션을 찾을 수 없음 - 에러 발생');
+            await transaction.rollback();
+            throw new ApiError(404, 'M002_MOCK_EXAM_SESSION_NOT_FOUND', 'Mock exam session not found.');
+        }
+
+        // 모든 실습 세션을 완료하고 점수를 계산
+        const updatedScenariosDetails = [...session.selectedScenariosDetails];
+        let totalScore = 0;
+        let completedCases = 0;
+        let hasPendingEvaluations = false;
+
+        console.log('처리할 증례 수:', updatedScenariosDetails.length);
+
+        for (let i = 0; i < updatedScenariosDetails.length; i++) {
+            const caseDetails = updatedScenariosDetails[i];
+            console.log(`증례 ${i + 1} 처리 중:`, caseDetails);
             
-            if (practiceSession && practiceSession.status !== 'completed') {
-                // 실습 세션을 완료 상태로 변경
-                practiceSession.status = 'completed';
-                practiceSession.endTime = new Date();
-                await practiceSession.save();
+            if (caseDetails.practiceSessionId) {
+                // 실습 세션 완료
+                const practiceSession = await PracticeSession.findOne({
+                    where: { practiceSessionId: caseDetails.practiceSessionId, userId },
+                    transaction
+                });
                 
-                // 평가 결과에서 점수 가져오기
+                console.log(`실습 세션 ${caseDetails.practiceSessionId}:`, practiceSession ? '존재함' : '존재하지 않음');
+                
+                if (practiceSession && practiceSession.status !== 'completed') {
+                    // 실습 세션을 완료 상태로 변경
+                    practiceSession.status = 'completed';
+                    practiceSession.endTime = new Date();
+                    await practiceSession.save({ transaction });
+                    console.log('실습 세션을 완료 상태로 변경함');
+                }
+            } else {
+                console.log(`증례 ${i + 1}에 실습 세션 ID가 없음`);
+            }
+        }
+
+        // 트랜잭션 커밋 (실습 세션 완료)
+        await transaction.commit();
+        console.log('실습 세션 완료 트랜잭션 커밋 완료');
+
+        // 트랜잭션 외부에서 평가 결과 조회 및 점수 계산
+        console.log('트랜잭션 외부에서 평가 결과 조회 시작');
+        
+        for (let i = 0; i < updatedScenariosDetails.length; i++) {
+            const caseDetails = updatedScenariosDetails[i];
+            
+            if (caseDetails.practiceSessionId) {
+                // 평가 결과에서 점수 가져오기 (트랜잭션 외부에서 조회)
                 const { EvaluationResult } = require('../models');
                 const evaluationResult = await EvaluationResult.findOne({
                     where: { practiceSessionId: caseDetails.practiceSessionId }
                 });
+                
+                console.log(`증례 ${i + 1} 평가 결과:`, evaluationResult ? '존재함' : '존재하지 않음');
                 
                 if (evaluationResult) {
                     const score = evaluationResult.overallScore || 0;
@@ -137,31 +201,77 @@ const completeMockExamSession = async (mockExamSessionId, userId) => {
                     };
                     totalScore += score;
                     completedCases++;
+                    console.log(`증례 ${i + 1} 점수: ${score}`);
+                } else {
+                    // 평가 결과가 없는 경우
+                    hasPendingEvaluations = true;
+                    console.log(`증례 ${i + 1} 평가 결과 대기 중`);
                 }
-            } else if (practiceSession && practiceSession.finalScore) {
-                // 이미 완료된 세션의 경우 기존 점수 사용
-                updatedScenariosDetails[i] = {
-                    ...caseDetails,
-                    score: practiceSession.finalScore
-                };
-                totalScore += practiceSession.finalScore;
-                completedCases++;
             }
         }
+
+        // 평가가 완료되지 않은 경우가 있으면 에러 반환
+        if (hasPendingEvaluations) {
+            console.log('일부 평가가 완료되지 않음 - 에러 발생');
+            throw new ApiError(400, 'M006_EVALUATIONS_PENDING', 'Some evaluations are still in progress. Please wait a moment and try again.');
+        }
+
+        // 평균 점수 계산
+        const overallScore = completedCases > 0 ? Math.round(totalScore / completedCases) : 0;
+        console.log('최종 점수 계산:', { totalScore, completedCases, overallScore });
+
+        // 모의고사 세션 완료 (새로운 트랜잭션)
+        const updateTransaction = await sequelize.transaction();
+        try {
+            const sessionToUpdate = await MockExamSession.findOne({ 
+                where: { mockExamSessionId, userId },
+                transaction: updateTransaction
+            });
+            
+            sessionToUpdate.status = 'completed';
+            sessionToUpdate.endTime = new Date();
+            sessionToUpdate.overallScore = overallScore;
+            sessionToUpdate.selectedScenariosDetails = updatedScenariosDetails;
+
+            await sessionToUpdate.save({ transaction: updateTransaction });
+            console.log('모의고사 세션 완료 및 저장됨');
+
+            await updateTransaction.commit();
+            console.log('모의고사 세션 업데이트 트랜잭션 커밋 완료');
+        } catch (updateError) {
+            await updateTransaction.rollback();
+            throw updateError;
+        }
+
+        // 세션 완료 후 즉시 조회하여 최신 상태 확인
+        const completedSession = await MockExamSession.findOne({ 
+            where: { mockExamSessionId, userId } 
+        });
+        
+        if (!completedSession) {
+            console.log('완료된 세션을 조회할 수 없음 - 에러 발생');
+            throw new ApiError(500, 'M005_SESSION_SAVE_ERROR', 'Failed to save completed session.');
+        }
+        
+        console.log('완료된 세션 조회 성공');
+        const result = completedSession.toJSON();
+        console.log('반환할 결과:', result);
+        return result;
+        
+    } catch (error) {
+        // 트랜잭션 롤백 (안전하게 처리)
+        try {
+            if (transaction && transaction.finished === undefined) {
+                await transaction.rollback();
+                console.log('트랜잭션 롤백 완료');
+            }
+        } catch (rollbackError) {
+            console.log('트랜잭션 롤백 실패 (이미 완료됨):', rollbackError.message);
+        }
+        
+        console.log('에러 발생:', error.message);
+        throw error;
     }
-
-    // 평균 점수 계산
-    const overallScore = completedCases > 0 ? Math.round(totalScore / completedCases) : 0;
-
-    // 모의고사 세션 완료
-    session.status = 'completed';
-    session.endTime = new Date();
-    session.overallScore = overallScore;
-    session.selectedScenariosDetails = updatedScenariosDetails;
-
-    await session.save();
-
-    return session.toJSON();
 };
 
 const startCasePracticeSession = async (mockExamSessionId, caseNumber, userId) => {
@@ -262,22 +372,25 @@ const startCasePracticeSession = async (mockExamSessionId, caseNumber, userId) =
 };
 
 // 중분류 목록을 가져오는 함수 추가
-const getSecondaryCategories = async () => {
+const getCases = async () => {
     const scenarios = await Scenario.findAll({
-        attributes: ['primaryCategory', 'secondaryCategory'],
-        group: ['primaryCategory', 'secondaryCategory'],
-        order: [['primaryCategory', 'ASC'], ['secondaryCategory', 'ASC']]
+        attributes: ['scenarioId', 'name', 'primaryCategory', 'secondaryCategory'],
+        order: [['primaryCategory', 'ASC'], ['secondaryCategory', 'ASC'], ['name', 'ASC']]
     });
     
-    const categoriesByPrimary = scenarios.reduce((acc, scenario) => {
+    const casesByPrimary = scenarios.reduce((acc, scenario) => {
         if (!acc[scenario.primaryCategory]) {
             acc[scenario.primaryCategory] = [];
         }
-        acc[scenario.primaryCategory].push(scenario.secondaryCategory);
+        acc[scenario.primaryCategory].push({
+            scenarioId: scenario.scenarioId,
+            name: scenario.name,
+            secondaryCategory: scenario.secondaryCategory
+        });
         return acc;
     }, {});
     
-    return categoriesByPrimary;
+    return casesByPrimary;
 };
 
 module.exports = {
@@ -285,5 +398,5 @@ module.exports = {
   getMockExamSession,
   completeMockExamSession,
   startCasePracticeSession,
-  getSecondaryCategories
+  getCases
 };

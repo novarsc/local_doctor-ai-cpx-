@@ -238,9 +238,10 @@ const IncorrectAnswersDetailPage = () => {
                                 {noteData.evaluation && noteData.evaluation.checklistResults && noteData.evaluation.checklistResults.length > 0 ? (
                                     <div className="space-y-6">
                                         {(() => {
-                                            // nameText로 그룹화
+                                            // checklist 구조에 맞게 그룹화 (section + subtitle)
                                             const groupedResults = noteData.evaluation.checklistResults.reduce((groups, item) => {
-                                                const category = item.nameText || '기타';
+                                                // 그룹명: section + (subtitle 있으면) ' - ' + subtitle
+                                                const category = [item.section, item.subtitle].filter(Boolean).join(' - ') || '기타';
                                                 if (!groups[category]) {
                                                     groups[category] = [];
                                                 }
@@ -256,7 +257,6 @@ const IncorrectAnswersDetailPage = () => {
                                                     if (bPerf === 'no') return 1;
                                                     return 0;
                                                 });
-                                                // 펼침 상태: openGroups[category]가 true면 펼침, false면 접힘. 기본값 true
                                                 const isOpen = openGroups[category] !== undefined ? openGroups[category] : true;
                                                 const handleToggle = () => setOpenGroups(prev => ({ ...prev, [category]: !isOpen }));
                                                 return (
@@ -281,7 +281,7 @@ const IncorrectAnswersDetailPage = () => {
                                                                             </div>
                                                                             <div className="flex-1 ml-3">
                                                                                 <div className="font-medium text-gray-800 mb-1">
-                                                                                    {item.itemText}
+                                                                                    {item.itemText || item.content}
                                                                                 </div>
                                                                                 {item.aiComment && (
                                                                                     <div className="text-sm text-gray-600">

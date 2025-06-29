@@ -52,9 +52,12 @@ const startCasePractice = asyncHandler(async (req, res) => {
     res.status(201).json(result);
 });
 
-const getSecondaryCategories = asyncHandler(async (req, res) => {
-    const result = await mockExamService.getSecondaryCategories();
-    res.status(200).json(result);
+const getCases = asyncHandler(async (req, res) => {
+    const result = await mockExamService.getCases();
+    res.json({
+        success: true,
+        data: result
+    });
 });
 
 module.exports = {
@@ -62,5 +65,5 @@ module.exports = {
     getSession,
     completeSession,
     startCasePractice,
-    getSecondaryCategories
+    getCases
 };

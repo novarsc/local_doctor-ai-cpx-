@@ -6,7 +6,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchMockExamSession, completeMockExam } from '../../store/slices/mockExamSlice';
+import { fetchMockExamSession, completeMockExam, clearCurrentMockExam } from '../../store/slices/mockExamSlice';
 import { 
   addUserMessage, 
   appendAiMessageChunk, 
@@ -280,15 +280,41 @@ const MockExamInProgressPage = () => {
                             })
                             .then((completedSession) => {
                                 console.log('Mock exam completed successfully:', completedSession);
+                                // Redux 상태를 초기화하여 깨끗한 상태에서 시작
+                                dispatch(clearCurrentMockExam());
                                 // Redux store가 업데이트될 시간을 주기 위해 약간의 지연
                                 setTimeout(() => {
                                     console.log('Navigating to results page');
                                     navigate(`/mock-exams/results/${mockExamSessionId}`);
-                                }, 100);
+                                }, 500); // 지연 시간을 늘려서 데이터베이스 업데이트가 완료되도록 함
                             })
                             .catch((err) => {
                                 console.error('Error completing mock exam:', err);
-                                showNotification('error', '오류', `모의고사 완료에 실패했습니다: ${err.message}`);
+                                
+                                // 평가 대기 중 에러인 경우 자동 재시도
+                                if (err.message && (err.message.includes('evaluations are still in progress') || err.message.includes('AI 평가가 아직 완료되지 않았습니다'))) {
+                                    console.log('평가 대기 중, 3초 후 재시도');
+                                    showNotification('info', '평가 진행 중', 'AI 평가가 완료되는 중입니다. 잠시 후 다시 시도합니다.');
+                                    
+                                    setTimeout(() => {
+                                        console.log('자동 재시도 시작');
+                                        dispatch(completeMockExam(mockExamSessionId))
+                                            .unwrap()
+                                            .then((completedSession) => {
+                                                console.log('Mock exam completed successfully on retry:', completedSession);
+                                                dispatch(clearCurrentMockExam());
+                                                setTimeout(() => {
+                                                    navigate(`/mock-exams/results/${mockExamSessionId}`);
+                                                }, 500);
+                                            })
+                                            .catch((retryErr) => {
+                                                console.error('Retry failed:', retryErr);
+                                                showNotification('error', '오류', `모의고사 완료에 실패했습니다: ${retryErr.message}`);
+                                            });
+                                    }, 3000);
+                                } else {
+                                    showNotification('error', '오류', `모의고사 완료에 실패했습니다: ${err.message}`);
+                                }
                             });
                     } else {
                         console.log('No practice session, completing mock exam directly');
@@ -297,11 +323,13 @@ const MockExamInProgressPage = () => {
                             .unwrap()
                             .then((completedSession) => {
                                 console.log('Mock exam completed successfully:', completedSession);
+                                // Redux 상태를 초기화하여 깨끗한 상태에서 시작
+                                dispatch(clearCurrentMockExam());
                                 // Redux store가 업데이트될 시간을 주기 위해 약간의 지연
                                 setTimeout(() => {
                                     console.log('Navigating to results page');
                                     navigate(`/mock-exams/results/${mockExamSessionId}`);
-                                }, 100);
+                                }, 500); // 지연 시간을 늘려서 데이터베이스 업데이트가 완료되도록 함
                             })
                             .catch((err) => {
                                 console.error('Error completing mock exam:', err);

@@ -18,7 +18,7 @@ router.use(verifyToken);
 router.post('/', mockExamController.startSession);
 
 // GET /api/v1/mock-exams/categories - Get secondary categories
-router.get('/categories', mockExamController.getSecondaryCategories);
+router.get('/categories', mockExamController.getCases);
 
 // GET /api/v1/mock-exams/:mockExamSessionId - Get details of a specific mock exam session
 router.get('/:mockExamSessionId', mockExamController.getSession);

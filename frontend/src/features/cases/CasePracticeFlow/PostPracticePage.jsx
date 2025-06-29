@@ -135,9 +135,10 @@ const PostPracticePage = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">수행 항목 체크리스트</h3>
               {checklistResults && (() => {
-                // nameText로 그룹화
+                // checklist 구조에 맞게 그룹화 (section + subtitle)
                 const groupedResults = checklistResults.reduce((groups, item) => {
-                  const category = item.nameText || '기타';
+                  // 그룹명: section + (subtitle 있으면) ' - ' + subtitle
+                  const category = [item.section, item.subtitle].filter(Boolean).join(' - ') || '기타';
                   if (!groups[category]) {
                     groups[category] = [];
                   }
@@ -156,7 +157,6 @@ const PostPracticePage = () => {
                         if (bPerf === 'no') return 1;
                         return 0;
                       });
-                      // 펼침 상태: openGroups[category]가 true면 펼침, false면 접힘. 기본값 true
                       const isOpen = openGroups[category] !== undefined ? openGroups[category] : true;
                       const handleToggle = () => setOpenGroups(prev => ({ ...prev, [category]: !isOpen }));
                       return (
@@ -174,7 +174,7 @@ const PostPracticePage = () => {
                                       <CheckCircle className="h-6 w-6 text-green-500 mr-4 flex-shrink-0 mt-1" /> : 
                                       <XCircle className="h-6 w-6 text-red-500 mr-4 flex-shrink-0 mt-1" />}
                                     <div className="flex-1">
-                                      <p className="font-medium text-gray-800">{item.itemText}</p>
+                                      <p className="font-medium text-gray-800">{item.itemText || item.content}</p>
                                       {item.aiComment && (
                                         <p className="text-sm text-gray-600 mt-1">{item.aiComment}</p>
                                       )}

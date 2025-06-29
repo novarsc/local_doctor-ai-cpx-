@@ -20,28 +20,34 @@ export const fetchMockExamSession = createAsyncThunk(
   'mockExam/fetchSession', 
   async (id, { rejectWithValue, getState }) => { 
     try { 
+      console.log('fetchMockExamSession 호출:', id);
+      
       // 이미 로딩 중이거나 같은 세션이 이미 로드되어 있는지 확인
       const state = getState();
+      console.log('현재 상태:', state.mockExam);
+      
       if (state.mockExam.status === 'loading' || 
           (state.mockExam.currentSession && state.mockExam.currentSession.mockExamSessionId === id)) {
+        console.log('이미 로드된 세션 반환');
         return state.mockExam.currentSession;
       }
-      return await mockExamService.getMockExamSession(id); 
+      
+      console.log('API 호출 시작');
+      const result = await mockExamService.getMockExamSession(id);
+      console.log('API 호출 성공:', result);
+      return result;
     } catch (e) { 
-      return rejectWithValue(e.message); 
+      console.error('fetchMockExamSession 실패:', e);
+      return rejectWithValue(e.message || '세션 정보를 불러오는데 실패했습니다.'); 
     }
   }
 );
 
 // Async thunk for fetching secondary categories
-export const fetchSecondaryCategories = createAsyncThunk(
-    'mockExam/fetchCategories',
-    async (_, { rejectWithValue }) => {
-        try {
-            return await mockExamService.getSecondaryCategories();
-        } catch (error) {
-            return rejectWithValue(error.message);
-        }
+export const fetchCases = createAsyncThunk(
+    'mockExam/fetchCases',
+    async () => {
+        return await mockExamService.getCases();
     }
 );
 
@@ -78,17 +84,16 @@ const mockExamSlice = createSlice({
       .addCase(fetchMockExamSession.rejected, (state, action) => { state.status = 'error'; state.error = action.payload; })
       
       // Categories lifecycle
-      .addCase(fetchSecondaryCategories.pending, (state) => {
+      .addCase(fetchCases.pending, (state) => {
         state.status = 'loading';
-        state.error = null;
       })
-      .addCase(fetchSecondaryCategories.fulfilled, (state, action) => {
+      .addCase(fetchCases.fulfilled, (state, action) => {
         state.status = 'idle';
         state.categories = action.payload;
       })
-      .addCase(fetchSecondaryCategories.rejected, (state, action) => {
+      .addCase(fetchCases.rejected, (state, action) => {
         state.status = 'error';
-        state.error = action.payload;
+        state.error = action.error.message;
       })
       
       // New lifecycle for completing a mock exam

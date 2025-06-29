@@ -76,8 +76,8 @@ function normalizeChecklistStructure(checklistData) {
                     if (item.details) {
                         const lines = item.details.split('\n');
                         for (const line of lines) {
-                            // "- [ ]" 패턴으로 시작하는 체크리스트 항목 찾기
-                            const match = line.match(/^\s*-\s*\[\s*\]\s*(.+?)(?:\s*\([^)]+\))?\s*$/);
+                            // "- " 패턴으로 시작하는 체크리스트 항목 찾기 (기존 - [ ] 패턴 대신)
+                            const match = line.match(/^\s*-\s*(.+?)(?:\s*\([^)]+\))?\s*$/);
                             if (match) {
                                 // 한국어 부분만 추출 (영어 번역 제거)
                                 let cleanText = match[1].trim();
@@ -86,7 +86,14 @@ function normalizeChecklistStructure(checklistData) {
                                 if (koreanMatch) {
                                     cleanText = koreanMatch[1].trim();
                                 }
-                                subsection.items.push(cleanText);
+                                // 콜론(:) 이후의 설명 부분 제거
+                                const colonIndex = cleanText.indexOf(':');
+                                if (colonIndex !== -1) {
+                                    cleanText = cleanText.substring(0, colonIndex).trim();
+                                }
+                                if (cleanText) {
+                                    subsection.items.push(cleanText);
+                                }
                             }
                         }
                     }
@@ -378,6 +385,21 @@ const evaluatePracticeSession = async (practiceSessionData) => {
           console.log('JSON String to parse:', jsonString.substring(0, 500) + '...');
           const parsedResult = JSON.parse(jsonString);
           console.log('✅ JSON parsing successful!');
+          
+          // 체크리스트 결과를 프론트엔드가 기대하는 구조로 변환
+          if (parsedResult.checklistResults && Array.isArray(parsedResult.checklistResults)) {
+            parsedResult.checklistResults = parsedResult.checklistResults.map(item => ({
+              ...item,
+              // nameText가 없으면 section으로 매핑
+              section: item.nameText || item.section || '기타',
+              // itemText가 없으면 content로 매핑
+              content: item.itemText || item.content || '항목 없음',
+              // 기존 필드도 유지 (하위 호환성)
+              nameText: item.nameText || item.section || '기타',
+              itemText: item.itemText || item.content || '항목 없음'
+            }));
+          }
+          
           return parsedResult;
         } catch (parseError) {
           // 최종적으로 파싱에 실패하면, 원본 응답을 로그로 남기고 오류를 던집니다.

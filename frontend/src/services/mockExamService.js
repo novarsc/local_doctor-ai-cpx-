@@ -26,10 +26,24 @@ const startMockExam = async (examConfig) => {
  */
 const getMockExamSession = async (mockExamSessionId) => {
   try {
+    console.log('API 호출: getMockExamSession', mockExamSessionId);
     const response = await apiClient.get(`/mock-exams/${mockExamSessionId}`);
+    console.log('API 응답 성공:', response.data);
     return response.data;
   } catch (error) {
-    throw error.response?.data?.error || new Error('Failed to fetch mock exam session details.');
+    console.error('API 호출 실패:', error);
+    console.error('에러 응답:', error.response?.data);
+    console.error('에러 상태:', error.response?.status);
+    
+    if (error.response?.status === 404) {
+      throw new Error(`세션을 찾을 수 없습니다. (ID: ${mockExamSessionId})`);
+    } else if (error.response?.status === 401) {
+      throw new Error('인증이 필요합니다. 다시 로그인해주세요.');
+    } else if (error.response?.status === 403) {
+      throw new Error('접근 권한이 없습니다.');
+    } else {
+      throw error.response?.data?.error || new Error('Failed to fetch mock exam session details.');
+    }
   }
 };
 
@@ -40,10 +54,26 @@ const getMockExamSession = async (mockExamSessionId) => {
  */
 const completeMockExam = async (mockExamSessionId) => {
     try {
+        console.log('API 호출: completeMockExam', mockExamSessionId);
         const response = await apiClient.post(`/mock-exams/${mockExamSessionId}/complete`);
+        console.log('API 응답 성공:', response.data);
         return response.data;
     } catch (error) {
-        throw error.response?.data?.error || new Error('Failed to complete the mock exam.');
+        console.error('API 호출 실패:', error);
+        console.error('에러 응답:', error.response?.data);
+        console.error('에러 상태:', error.response?.status);
+        
+        if (error.response?.status === 400 && error.response?.data?.error?.includes('evaluations are still in progress')) {
+            throw new Error('AI 평가가 아직 완료되지 않았습니다. 잠시 후 다시 시도해주세요.');
+        } else if (error.response?.status === 404) {
+            throw new Error(`모의고사 세션을 찾을 수 없습니다. (ID: ${mockExamSessionId})`);
+        } else if (error.response?.status === 401) {
+            throw new Error('인증이 필요합니다. 다시 로그인해주세요.');
+        } else if (error.response?.status === 403) {
+            throw new Error('접근 권한이 없습니다.');
+        } else {
+            throw error.response?.data?.error || new Error('Failed to complete the mock exam.');
+        }
     }
 };
 
@@ -51,12 +81,12 @@ const completeMockExam = async (mockExamSessionId) => {
  * Gets secondary categories grouped by primary category.
  * @returns {Promise<object>} Object with primary categories as keys and arrays of secondary categories as values.
  */
-const getSecondaryCategories = async () => {
+const getCases = async () => {
     try {
         const response = await apiClient.get('/mock-exams/categories');
-        return response.data;
+        return response.data.data;
     } catch (error) {
-        throw error.response?.data?.error || new Error('Failed to fetch secondary categories.');
+        throw error.response?.data?.error || new Error('Failed to fetch cases.');
     }
 };
 
@@ -80,5 +110,5 @@ export const mockExamService = {
   getMockExamSession,
   completeMockExam,
   startCasePractice,
-  getSecondaryCategories
+  getCases
 };
