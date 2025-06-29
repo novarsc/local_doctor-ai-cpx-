@@ -1,0 +1,76 @@
+checklist:
+  topic_kr: "기분 변화"
+  topic_en: "Mood Changes"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [기분 변화의 양상 (슬픔, 불안, 초조, 짜증, 분노, 무감정 등): 구체적인 예시와 함께 기술하도록 함 (한국어/영어)]
+            - [기분 변화의 심각도: 일상생활에 미치는 영향을 중심으로 평가 (한국어/영어)]
+            - [기분 변화의 지속 기간 및 변동 양상: 특정 시간대나 상황에 따른 변화 유무 확인 (한국어/영어)]
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [수면 변화 (불면, 과다수면 등): 구체적인 수면 패턴 변화 기술 (한국어/영어)]
+            - [식욕 변화 (식욕부진, 과식 등): 체중 변화와 함께 기술 (한국어/영어)]
+            - [피로감, 에너지 저하: 일상 활동 수행 능력 변화 여부 확인 (한국어/영어)]
+            - [집중력 저하, 우유부단: 업무나 학업 수행에 미치는 영향 확인 (한국어/영어)]
+            - [흥미 또는 즐거움 상실: 이전에 즐기던 활동에 대한 관심 변화 확인 (한국어/영어)]
+            - [자살 사고 및 행동: 위험도 평가 필수 (한국어/영어)]
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [기분 장애 (우울증, 조울증 등) 과거력 및 가족력: 진단 시기, 치료 내용, 현재 상태 등 (한국어/영어)]
+            - [최근 스트레스 요인: 직장, 가정, 대인관계 등 다양한 요인 확인 (한국어/영어)]
+            - [약물 복용력: 처방약, 일반의약품, 건강보조식품 포함 (한국어/영어)]
+            - [알코올 및 약물 남용: 빈도, 양, 기간 등 구체적인 정보 확인 (한국어/영어)]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [활력 징후 측정 (혈압, 맥박, 호흡수, 체온): 이상 소견 유무 확인 (한국어/영어)]
+            - [전반적인 외모 및 행동 관찰: 환자의 정서 상태, 표정, 자세, 언어 및 운동 기능 등 (한국어/영어)]
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [신경학적 검사: 필요시 인지 기능, 감각 및 운동 기능 평가 (한국어/영어)]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Major Depressive Disorder (MDD)"
+            - "Bipolar Disorder"
+            - "Adjustment Disorder"
+            - "Generalized Anxiety Disorder (GAD)"
+            - "Post-traumatic Stress Disorder (PTSD)"
+            - "Substance-induced Mood Disorder"
+            - "Medical Conditions (e.g., Thyroid disorders, Anemia)"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Comprehensive Metabolic Panel (CMP)"
+                - "Thyroid Function Test (TFT)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Brain MRI (if neurological symptoms are present)"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "기분 변화의 원인과 증상에 대한 설명, 치료 방법 및 예후에 대한 정보 제공, 스트레스 관리 및 생활 습관 개선의 중요성 강조 (한국어/영어)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "자살 사고, 자해 행동, 심한 불안, 환각, 망상 등 응급 상황 발생 시 대처 방법 안내 및 정신건강 전문가에게 도움 요청 권유 (한국어/영어)"

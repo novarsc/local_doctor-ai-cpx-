@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김철수씨가 2개월 동안 체중이 급격히 감소하여 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "살이 너무 많이 빠져서 걱정입니다.",
+      "history": {
+        "onset": "2개월 전",
+        "location": "전신적 체중 감소",
+        "course": "2개월 동안 10kg 감소 (80kg → 70kg)",
+        "character": "의도적인 체중 감량 없음.  식욕 부진은 없으나, 포만감을 빨리 느껴 식사량이 줄었다고 함.",
+        "associatedSymptoms": {
+          "general": "야간 발한 (+), 피로감 (+), 권태감 (+), 근육통 (+)",
+          "digestive": "변비 (-), 설사 (-), 복통 (-), 오심 (-), 구토 (-)",
+          "endocrine": "두근거림 (+), 땀 많음 (+), 더위에 약함 (+)",
+          "respiratory": "기침 (-), 가래 (-), 호흡곤란 (-)",
+          "urinary": "다뇨 (-), 빈뇨 (-)"
+        },
+        "factors": "특별한 스트레스 요인 없음.  흡연 20갑년, 음주 주 2회",
+        "pastHistory": {
+          "medical": "고혈압 (5년 전 진단, 현재 약 복용 중)",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연 20갑년, 음주 주 2회, 운동 부족",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "안색 창백, 체중 감소 현저함",
+        "heent": "경부 림프절 종대 (-), 갑상선 종대 (-)",
+        "chest": "심잡음 (-), 폐음 정상",
+        "abdomen": "압통 (-), 반발압통 (-), 간비대 (-)",
+        "extremity": "말초 부종 (-), 피부 긴장도 감소"
+      },
+      "patientQuestion": "어떤 병일까요? 심각한 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "갈색세포종",
+          "악성 종양",
+          "갑상선 기능 항진증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사 (CBC, CMP, 종양표지자)",
+          "소변 검사 (카테콜아민, 메타네프린)",
+          "흉부 및 복부 CT",
+          "갑상선 기능 검사",
+          "심초음파"
+        ],
+        "therapeutic": [
+          "증상에 따른 대증요법"
+        ]
+      }
+    }
+  ]
+}

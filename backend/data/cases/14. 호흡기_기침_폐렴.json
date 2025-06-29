@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 72,
+        "gender": "여자"
+      },
+      "situation": "심한 기침과 발열로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "38.8℃"
+      },
+      "chiefComplaint": "기침과 열이 너무 심해요",
+      "history": {
+        "onset": "3일 전",
+        "duration": "밤낮으로",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "가래 섞인 기침, 녹색 가래",
+        "associatedSymptoms": {
+          "respiratory": "가래(+, 녹색, 끈적임), 객혈(-), 호흡곤란(+, 계단 오르기 힘듦), 흉통(+, 숨쉴 때 찌르는 듯한 통증)",
+          "general": "발열(+, 38.8℃), 오한(+), 권태감(+), 두통(+), 식욕부진(+), 체중 변화(-)",
+          "gi": "구토(-), 설사(-), 복통(-)"
+        },
+        "factors": "춥거나 습한 날씨에 악화",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 경력), 당뇨병(-), 심장질환(-), 폐질환(-)",
+          "social": "흡연(과거 흡연, 20갑년), 음주(소주 1잔/주)",
+          "family": "폐렴 병력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "구강 점막 건조, 인두 충혈(+)",
+        "chest": "호흡음 감소(우측 하엽), 거친 호흡음(+), 수포음(-), 잡음(-), 흉벽 압통(+)",
+        "cv": "심음 정상",
+        "abdomen": "연압통(-)"
+      },
+      "patientQuestion": "폐렴인가요? 얼마나 입원해야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐렴",
+          "급성 기관지염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "혈액검사(CBC, CRP, procalcitonin)",
+          "객담 배양 검사"
+        ],
+        "therapeutic": [
+          "항생제(Amoxicillin-clavulanate)",
+          "대증 치료(해열제, 진해거담제, 충분한 수분 섭취)"
+        ]
+      }
+    }
+  ]
+}

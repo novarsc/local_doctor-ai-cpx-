@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 김민수씨가 목 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "목이 뻐근하고 아파요.",
+      "history": {
+        "onset": "어제",
+        "location": "뒷목 전체",
+        "duration": "하루 종일",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "[양상] 뻐근하고 쑤시는 통증, 움직이면 더 심해짐\n[강도] NRS 5점",
+        "associatedSymptoms": {
+          "general": "두통(-)",
+          "meningitis": "최근 감기/얼굴 통증/두통/발열(-/-/-/-)"
+        },
+        "factors": "악화 : 고개 돌릴 때, 숙일 때, 기침할 때",
+        "pastHistory": {
+          "medical": "고혈압",
+          "medications": "고혈압약",
+          "social": "흡연(20갑년), 음주(주 2회 소주 1병), 직업: 사무직",
+          "family": "특이 사항 없음",
+          "obgyn": "해당없음",
+          "other": "3일 전 골프 라운딩 중 갑자기 목을 삐끗함"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 정상",
+        "heent": "결막/공막 정상",
+        "extremity": "경추 ROM 감소, 압통(+), 방사통(-)"
+      },
+      "patientQuestion": "골프 다시 칠 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "경추 염좌",
+          "근육통"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "경추 X-ray"
+        ],
+        "therapeutic": [
+          "진통소염제",
+          "경추 보조기 착용",
+          "물리치료"
+        ]
+      }
+    }
+  ]
+}

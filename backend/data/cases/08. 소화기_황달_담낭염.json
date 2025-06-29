@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "심한 오른쪽 상복부 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "20회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "오른쪽 갈비뼈 밑이 너무 아파요",
+      "history": {
+        "onset": "6시간 전",
+        "location": "오른쪽 상복부",
+        "duration": "지속적인 통증",
+        "course": "6시간 전부터 시작된 심한 통증, 점점 심해짐",
+        "experience": "처음",
+        "character": "칼로 찌르는 듯한 통증, 오른쪽 어깨로 퍼지는 방사통",
+        "associatedSymptoms": {
+          "general": "오한(+), 발열(+), 메스꺼움(+), 구토(+)",
+          "gi": "식욕부진(+), 소화불량(+)",
+          "renal": "소변색 변화(-)"
+        },
+        "factors": "고지방 식사(+, 늦은 저녁에 삼겹살 섭취)",
+        "pastHistory": {
+          "events": "수술력(-), 알레르기(-)",
+          "medical": "고혈압(+), 고지혈증(+)",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(20갑년), 음주(주 3회 소주 1병)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 황달(-)",
+        "abdomen": "오른쪽 상복부 압통(+), 반발압통(+), Murphy's sign(+)",
+        "extremity": "발적, 부종(-)"
+      },
+      "patientQuestion": "심각한 병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 담낭염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사(CRP, WBC)",
+          "복부 초음파",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "진통제 투여",
+          "항생제 투여",
+          "담낭 절제술 고려"
+        ]
+      }
+    }
+  ]
+}

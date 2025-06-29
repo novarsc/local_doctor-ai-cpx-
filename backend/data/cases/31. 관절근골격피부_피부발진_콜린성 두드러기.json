@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "28세 남자 김민수씨가 운동 후 발생한 발진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "운동 후 몸에 발진이 올라왔어요.",
+      "history": {
+        "onset": "30분 전",
+        "location": "운동 후 샤워 후 시작",
+        "duration": "현재까지 지속",
+        "course": "운동 직후 몸 전체에 작은 발진이 나타나기 시작하여 점차 퍼짐",
+        "experience": "처음",
+        "character": "[크기] 좁쌀 크기 [모양] 둥근 모양\n[색] 붉은색\n[개수] 매우 많음\n가려움(+, 심한 가려움), 따가움(-), 통증(-)\n딱지/궤양/고름/비늘(-/-/-/-)",
+        "associatedSymptoms": {
+          "rheumatologic": "SLE/베체트/RA/관절통(-/-/-/-)",
+          "other": "음식/여행(-/-), 화학약품/장신구(-/-)\n운동 후 발생, 땀을 많이 흘림, 특이한 샴푸, 로션 사용 없음, 감염(-), 아나필락시스(-)"
+        },
+        "factors": "격렬한 운동 후 샤워 후 발생, 땀을 많이 흘림",
+        "pastHistory": {
+          "medical": "특이 병력 없음",
+          "medications": "복용 약물 없음",
+          "social": "흡연(-), 음주(가끔), 직업: 회사원\n운동(주 3회 헬스), 스트레스(+), 식습관 특이 사항 없음",
+          "other": "건강검진 정상"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 전반적으로 붉은 발진 다수 관찰",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "chest_abdomen": "[피부] 몸 전체에 좁쌀 크기의 붉은 발진 다수 관찰, 압통(-), 가려움(+), 심음/호흡음(정상)\n팔다리/배/가슴 발진(+/+/+), 딱지/진물(-/-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이 발진은 언제쯤 없어질까요? 어떤 치료가 필요할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "콜린성 두드러기",
+          "약물 발진",
+          "알레르기성 두드러기"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "피부 소견 관찰",
+          "알레르기 검사 고려"
+        ],
+        "therapeutic": [
+          "항히스타민제 처방",
+          "충분한 수분 섭취 권고",
+          "운동 후 샤워 시 차가운 물 사용 권고"
+        ]
+      }
+    }
+  ]
+}

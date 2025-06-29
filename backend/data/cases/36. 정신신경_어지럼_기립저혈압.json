@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 김철수씨가 어지러움을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg (앉은 자세)",
+        "heartRate": "70회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "어지러워요",
+      "history": {
+        "onset": "오늘 아침",
+        "duration": "간헐적, 수십 초에서 수 분",
+        "course": "점차 심해짐",
+        "experience": "최근 몇 달 동안 간헐적으로 발생",
+        "character": "앉았다가 일어설 때 주로 발생하며, 갑자기 어지럽고 휘청거리며 쓰러질 뻔함. 시야가 흐려지고, 메스꺼움은 없음.",
+        "associatedSymptoms": "[전신] 최근 감기 증상 없음 [순환] 일어설 때 어지러움(+), 앉거나 누우면 호전됨 [정신] 우울감, 불안감 없음 [소화] 변비(+)",
+        "factors": "앉았다 일어설 때, 급격한 자세 변화 시 악화",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "medications": "고혈압 약, 당뇨병 약 (꾸준히 복용 중)",
+          "social": "흡연(과거력), 음주(소량, 주 1회)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 안정적",
+        "neuro": "뇌신경 검사: 정상, 소뇌 검사: 정상, 기립성 저혈압 의심"
+      },
+      "patientQuestion": "이 어지러움은 언제까지 지속될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "기립성 저혈압",
+          "전정성 어지러움",
+          "심혈관 질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "기립경사검사",
+          "심전도 검사",
+          "혈액검사 (혈당, 혈중지질)"
+        ],
+        "therapeutic": [
+          "수분 섭취 증가",
+          "저염식",
+          "압박 스타킹 착용 권고",
+          "약물치료 고려 (필요시)"
+        ]
+      }
+    }
+  ]
+}

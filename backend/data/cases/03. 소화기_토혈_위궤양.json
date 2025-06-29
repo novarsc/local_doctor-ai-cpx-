@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "심한 복통과 함께 검붉은 색의 토혈을 호소하며 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "100회/분",
+        "respiration": "20회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "배가 너무 아프고, 토했는데 피가 섞여 나왔어요.",
+      "history": {
+        "onset": "오늘 아침 8시부터",
+        "frequency": "3회",
+        "experience": "처음",
+        "character": "검붉은색, 혈액 응고 덩어리(+), 거품(-), 음식물(+)",
+        "associatedSymptoms": {
+          "general": "오한(+), 식은땀(+), 두통(+)",
+          "gi": "심한 복통(+, 상복부), 구토(+), 설사(-), 변비(-), 소화불량(+, 최근 2주간), 속쓰림(+, 특히 공복 시), 혈변(-)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "코피/멍(-/-)",
+          "dehydration": "어지럼/두근거림/소변량 감소(+/-/-)"
+        },
+        "factors": "스트레스 증가(최근 회사 업무 과다), 불규칙적인 식사(잦은 야식, 인스턴트 음식 섭취)",
+        "pastHistory": {
+          "events": "위내시경 검사(5년 전, 정상 소견)",
+          "social": "흡연(+, 하루 1갑), 음주(+, 소주 1병/주 2회), 직업(회사원), 운동(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "빈혈 기색(+), 탈수 증상(+)",
+        "heent": "구강 점막 건조(+), 결막 창백(+)",
+        "abdomen": "상복부 압통(+), 방어긴장(+), 반발압통(+), 청진 시 장음 감소",
+        "extremity": "말초 맥박 촉진 가능"
+      },
+      "patientQuestion": "위암인가요? 얼마나 위험한가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "위궤양 출혈",
+          "십이지장궤양 출혈",
+          "위염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경 검사",
+          "혈액 검사(CBC, 혈액 응고 검사)",
+          "소변 검사"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "제산제 투여",
+          "내시경적 지혈술(필요시)",
+          "항생제 투여(헬리코박터 파일로리 감염 의심 시)"
+        ]
+      }
+    }
+  ]
+}

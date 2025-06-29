@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 60,
+        "gender": "남자"
+      },
+      "situation": "가슴이 쿵하고 내려앉는 느낌이 든다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "70회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "가슴이 쿵 내려앉는 느낌",
+      "history": {
+        "onset": "2주 전부터",
+        "duration": "1~2초",
+        "course": "하루에 몇 번씩 발생",
+        "experience": "처음",
+        "character": "가슴이 쿵하고 내려앉는 느낌, 불규칙적",
+        "associatedSymptoms": {
+          "circulatory": "어지러움(-), 흉통(-), 호흡곤란(-), 실신(-)",
+          "endocrine": "더위/추위 불내성(-/-), 손떨림(-)",
+          "gi": "소화불량(-)"
+        },
+        "factors": "특별한 유발 요인 없음, 잠잘 때도 발생",
+        "pastHistory": {
+          "medical": "고혈압(10년 경력), 고지혈증(5년 경력), DM(-), TB(-), 간염(-)",
+          "social": "흡연(과거력 있음, 금연 5년), 음주(주 2회 소주 1병), 직업(은퇴)",
+          "family": "부친 고혈압 병력 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "특이소견 없음",
+        "cv": "심음 청진 시 심박동 불규칙성 발견"
+      },
+      "patientQuestion": "심장에 문제가 있는 건 아닌가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "심실조기수축(PVC)",
+          "심방세동",
+          "관상동맥질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도 검사",
+          "24시간 홀터 모니터링",
+          "심초음파 검사"
+        ],
+        "therapeutic": [
+          "생활 습관 개선(금주, 금연, 저염식)",
+          "고혈압/고지혈증 약물 재평가"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "72세 남자 김민수씨가 소변량 감소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "90회/분",
+        "respiration": "20회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "소변이 잘 안 나와요.",
+      "history": {
+        "onset": "3일 전",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "소변량 감소, 하루 5~6회에서 1~2회로 감소, 소변량은 종이컵 반 정도, 소변색 진해짐, 거품/피(-/-)",
+        "associatedSymptoms": {
+          "general": "발열/오한(-/-), 피로(+, 심함), 체중 변화(-, 2kg 감소), 식욕 감소(+)",
+          "digestive": "구토/설사/혈변/흑색변(-/-/-/-), 메스꺼움(+)",
+          "circulatory": "두근거림/어지러움/목마름(+/+/+)",
+          "renal_urinary": "절박뇨/야간뇨/배뇨통/주저뇨/혈뇨/요끊김/아랫배 힘/잔뇨감(-/-/-/-/-/-/-/-)",
+          "musculoskeletal_skin": "피부 가려움/붓기(-/-), 근육통(-)"
+        },
+        "factors": "물 섭취 감소(하루 500ml 미만), 심한 운동/사우나(-/-), 최근 감기(-), 설사(+, 2일 전부터)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 고지혈증(-)",
+          "medications": "고혈압 약(꾸준히 복용), 기타 약물(-)",
+          "social": "흡연(+, 1갑/일, 40년), 음주(+, 소주 1병/일, 30년), 직업: 농업"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 탈수 증상(+)",
+        "heent": "눈꺼풀 처짐(-), 구강 건조(+), 갑상샘/림프절(-/-), 피부 긴장도 저하(+)",
+        "abdomen": "CVAT(-), 복부 촉진/치골 상부 촉진(-/-), DRE(-), 신동맥 잡음(-)",
+        "extremity": "말초 맥박 촉진 양호, pitting edema(-)"
+      },
+      "patientQuestion": "소변량이 왜 줄었는지 궁금해요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "탈수에 의한 급성 신손상",
+          "급성 신우신염",
+          "사구체신염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (BUN, Creatinine, 전해질, 소변검사)",
+          "소변검사 (요세포검사, 요배양검사)",
+          "신장 초음파"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "전해질 교정",
+          "원인 질환 치료"
+        ]
+      }
+    }
+  ]
+}

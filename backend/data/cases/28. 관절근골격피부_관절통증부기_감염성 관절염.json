@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김민수씨가 왼쪽 무릎 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "무릎이 너무 아파요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "왼쪽 무릎",
+        "duration": "3일째 지속",
+        "course": "점점 심해짐",
+        "character": "심한 통증, NRS 8점, 움직이면 더 심해짐, 붓고 열감 있음, 조조강직(+, 30분 정도)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(+/+/ - /+)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "광과민성/피부 발진/구강 궤양/성기 궤양(-/-/-/-), 탈모(-)",
+          "infection": "관절 주사/최근 감기/감염/설사(-/-/-/-), 최근 감기 증상 있었음",
+          "sjogren": "입마름/눈마름(-/-)"
+        },
+        "factors": "무릎에 체중이 실리면 통증 심해짐, 휴식 시 다소 완화",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "10년 전 무릎 수술(십자인대 파열)",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "흡연 30갑년, 음주 주 2회 소주 1병",
+          "family": "관절염 가족력 없음",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감 있음, 활력징후 불안정",
+        "heent": "결막충혈(-), 구강 점막 정상",
+        "chest": "심음/호흡음 정상",
+        "extremity": "왼쪽 무릎 관절 부위 발적, 종창, 압통, 열감 심함, 관절 운동 제한, 능동/수동 ROM 감소"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "감염성 관절염",
+          "통풍",
+          "류마티스 관절염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "왼쪽 무릎 관절액 천자 및 세균 배양 검사",
+          "혈액 검사 (CRP, ESR, 백혈구 수)",
+          "왼쪽 무릎 X-ray"
+        ],
+        "therapeutic": [
+          "항생제 치료 (관절액 배양 결과에 따라)",
+          "진통제 및 소염제",
+          "무릎 관절 보호 및 안정"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김지혜",
+        "age": 25,
+        "gender": "여자"
+      },
+      "situation": "25세 여자 김지혜씨가 최근 심한 피로감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "90회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "너무 피곤하고 힘이 없어요.",
+      "history": {
+        "onset": "3개월 전",
+        "duration": "하루 종일 지속",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "쉽게 지치고 피곤하며, 집중력이 떨어짐.  가벼운 운동에도 숨이 차고 어지러움을 느낌.",
+        "associatedSymptoms": {
+          "general": "",
+          "digestive": "변비 경향이 있음",
+          "circulatory": "두근거림(+, 운동 후 심함), 어지럼(+, 일어설 때), 호흡곤란(+, 계단 오르내릴 때)",
+          "psychiatric": "우울감은 없음",
+          "sleep": "수면 시간 충분(8시간 이상), 수면의 질은 양호함",
+          "endocrine": "갑상선 기능 이상 증상 없음"
+        },
+        "factors": "휴식을 취하면 다소 호전되나, 활동하면 심해짐",
+        "pastHistory": {
+          "social": "직업: 대학생, 규칙적인 운동 부족,  채식 위주 식사(고기 섭취 거의 없음) 5년 이상 지속",
+          "obgyn": "월경 규칙적, 생리통 없음",
+          "other": "특이 과거병력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 다소 낮고, 맥박은 약간 빠름. 점막 창백함은 없음.",
+        "heent": "눈, 귀, 코, 목 검진 정상소견",
+        "abdomen": "복부 진찰 정상소견",
+        "extremity": "하지 부종 없음"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "채식 위주 식사로 인한 빈혈",
+          "철분 결핍성 빈혈"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CBC, 철분 검사)",
+          "혈청 페리틴 검사"
+        ],
+        "therapeutic": [
+          "철분제 처방",
+          "철분 섭취가 풍부한 식단 지도"
+        ]
+      }
+    }
+  ]
+}

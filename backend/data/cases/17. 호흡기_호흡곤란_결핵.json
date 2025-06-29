@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김철수씨가 2주간 지속되는 기침과 발열로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "20회/분",
+        "temperature": "38.0℃"
+      },
+      "chiefComplaint": "기침과 열이 나요",
+      "history": {
+        "onset": "2주 전",
+        "duration": "2주 지속",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "마른 기침이 심하고, 가래는 없음. 밤에 기침이 더 심해짐.  열은 38도까지 오르고, 낮에는 약간 내려가는 양상",
+        "associatedSymptoms": {
+          "general": "발열(+, 최고 38도), 피로(+), 체중 감소(-, 2kg), 식욕부진(+), 야간 발한(+)",
+          "respiratory": "기침(+, 마른기침), 가래(-), 흉통(-), 쌕쌕거림(-)",
+          "psychiatric": "불안(+) ",
+          "other": "밤에 잠을 잘 못잠"
+        },
+        "factors": "특별한 악화요인 없음",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 2회 소주 3병)",
+          "family": "어머니 - 결핵 병력 있음",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감이 있고, 피로해 보임",
+        "heent": "결막 충혈(-), 림프절 종대(-)",
+        "chest": "호흡음 약간 거칠고, 수포음 없음",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "이 병이 심각한 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "결핵"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "객담 검사(항산균 배양 검사)",
+          "결핵피부반응검사"
+        ],
+        "therapeutic": [
+          "항결핵제 치료 시작",
+          "격리 및 휴식 권고"
+        ]
+      }
+    }
+  ]
+}

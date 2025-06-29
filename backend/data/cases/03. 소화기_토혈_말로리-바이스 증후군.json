@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "오늘 아침 피를 토하고 내원하였습니다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "36.9℃"
+      },
+      "chiefComplaint": "피를 토했어요.",
+      "history": {
+        "onset": "오늘 아침 7시경",
+        "frequency": "1회",
+        "experience": "처음",
+        "character": "선홍색, 거품 약간, 음식물 섞임, 피덩어리 없음, 양: 종이컵 반 정도",
+        "associatedSymptoms": {
+          "general": "어지러움(+), 두통(-)",
+          "gi": "구역질(+), 구토(+), 복통(-), 설사(-), 변비(-), 혈변(-), 소화불량(+), 속쓰림(+)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "멍이 잘 듦(+), 코피(+)",
+          "dehydration": "갈증(+), 소변량 감소(-)"
+        },
+        "factors": "전날 저녁 과음(소주 5병), 평소 음주 습관(주 3회, 소주 2-3병)",
+        "pastHistory": {
+          "events": "위내시경 검사(2년 전, 정상 소견)",
+          "social": "흡연(+, 하루 1갑), 직업(회사원), 식사(불규칙적, 자극적인 음식 즐김), 운동(-) "
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 안정, 활력징후 안정적",
+        "heent": "결막 창백(-), 구강 점막 건조(-)",
+        "abdomen": "복부 압통(-), 복부 팽만(-)",
+        "extremity": "말초 부종(-)"
+      },
+      "patientQuestion": "심각한 질환인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "말로리-바이스 증후군",
+          "위궤양",
+          "식도염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경 검사",
+          "혈액검사(CBC, 간기능 검사)",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "내시경적 지혈술(필요시)",
+          "제산제 투여",
+          "금주 및 식습관 교정 권고"
+        ]
+      }
+    }
+  ]
+}

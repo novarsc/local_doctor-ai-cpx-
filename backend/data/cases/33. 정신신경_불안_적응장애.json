@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 24,
+        "gender": "남자"
+      },
+      "situation": "24세 남자 김민수씨가 최근 직장생활에 적응하지 못하고 있다며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg ",
+        "heartRate": "72회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.5℃ "
+      },
+      "chiefComplaint": "힘들어요.",
+      "history": {
+        "onset": "3개월 전",
+        "experience": "처음",
+        "course": "점진적으로 악화됨",
+        "location": "-",
+        "character": "3개월 전 대기업에 입사했는데, 업무 강도가 너무 높고, 동료들과의 관계도 어려워 적응하지 못하고 있습니다.  매일 밤 잠 못 이루고, 아침에 일어나는 것도 힘들어요.  회사에 가기 싫고,  계속해서 불안하고 초조해요.",
+        "associatedSymptoms": "[정신] 불안(+), 초조(+), 수면장애(+), 집중력 저하(+), 피로감(+), 우울감(+), 식욕부진(+), 자살사고(-).  [신체] 두통(+), 소화불량(+), 근육통(+)",
+        "factors": "과도한 업무량, 동료와의 갈등, 직장 환경 부적응",
+        "pastHistory": {
+          "medical": "특이 병력 없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 2회), 운동(-)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable, 불안해 보임",
+        "heent": "정상",
+        "chest": "정상",
+        "extremity": "정상"
+      },
+      "patientQuestion": "회사를 그만둬야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "적응장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "정신과적 평가",
+          "스트레스 척도 검사"
+        ],
+        "therapeutic": [
+          "정신치료",
+          "스트레스 관리 교육",
+          "필요시 약물치료(항불안제, 항우울제)"
+        ]
+      }
+    }
+  ]
+}

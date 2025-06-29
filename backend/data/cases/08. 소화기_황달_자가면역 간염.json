@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 42,
+        "gender": "남자"
+      },
+      "situation": "피로감과 황달 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "몸이 너무 피곤하고 눈이 노래요",
+      "history": {
+        "onset": "2주 전",
+        "location": "전신, 눈, 피부",
+        "duration": "2주째 지속",
+        "course": "처음에는 피로감만 느꼈으나, 일주일 전부터 눈과 피부가 노랗게 변하기 시작함.",
+        "experience": "처음",
+        "character": "노란색 변색, 가려움증은 없음",
+        "associatedSymptoms": {
+          "general": "심한 피로감(+), 발열/오한(-/-), 체중 변화(-), 식욕 감소(+), 근육통/관절통(-/-)",
+          "respiratory": "기침/가래(-/-)",
+          "gi": "메스꺼움/구토/변비/설사/혈변/흑색변/지방변/복통/소화불량/속쓰림 (-/-//-//-//-//-/-)",
+          "renal": "소변색 변화(+, 진한 노란색)"
+        },
+        "factors": "특별한 음식 섭취 없음, 알코올 섭취(주 2회 소주 1병), 스트레스 증가(최근 직장 내 갈등)",
+        "pastHistory": {
+          "events": "수혈/문신(-/-), 평소와 다른 성관계(-), 여행(-)",
+          "medical": "HTN/DM/Dyslipidemia(-/-/-), 간염/간염 보균자(-/-), 특이 병력 없음",
+          "medications": "없음",
+          "social": "흡연(1갑/일, 10년), 음주(주 2회 소주 1병), 직업(회사원)",
+          "family": "간질환 병력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "눈/구강/피부 긴장도(+, 공막 및 피부 황달), 갑상샘/림프절(-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-), 간장 약간 비대 의심",
+        "extremity": "Flapping tremor(-), Palmar erythema(-), Pitting edema(-)"
+      },
+      "patientQuestion": "제가 간암에 걸린 건 아닐까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "자가면역 간염",
+          "바이러스성 간염",
+          "알코올성 간염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "간기능검사",
+          "간염 바이러스 표지자검사(HAV, HBV, HCV)",
+          "자가항체 검사(ANA, SMA, LKM-1)",
+          "복부 초음파",
+          "간생검(필요시)"
+        ],
+        "therapeutic": [
+          "대증요법",
+          "스테로이드 치료(필요시)",
+          "생활 습관 교정(금주, 금연 권고)"
+        ]
+      }
+    }
+  ]
+}

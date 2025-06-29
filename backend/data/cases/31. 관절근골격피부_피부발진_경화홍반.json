@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김민수씨가 다리 통증과 피부 발진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "다리가 아프고 발진이 생겼어요.",
+      "history": {
+        "onset": "3주 전",
+        "location": "왼쪽 종아리",
+        "duration": "3주째 지속",
+        "course": "처음에는 작은 발진이었는데 점점 커지고 통증이 심해짐",
+        "experience": "처음",
+        "character": "[크기] 5cm 정도 [모양] 불규칙한 모양\n[색] 붉은색, 중앙부위는 보라색 변색\n[개수] 1개\n통증(+, 심한 통증), 가려움(-), 따가움(-), 열감(+) 압통(+)",
+        "associatedSymptoms": {
+          "rheumatologic": "관절통(-), 관절 뻣뻣함(-), 피로감(+), 체중 변화(-)",
+          "other": "발열(-), 오한(-), 야간 발한(-)"
+        },
+        "factors": "특별한 외상이나 노출은 없음. 최근 장거리 여행 이력 없음.  과거 병력으로는 고혈압과 당뇨병이 있음.",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "medications": "고혈압 약, 당뇨병 약 복용 중",
+          "social": "흡연(+, 하루 한 갑), 음주(+, 소주 1병/주), 직업: 퇴직",
+          "other": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable,  피로감 호소",
+        "heent": "눈, 귀, 코, 목: 정상",
+        "chest_abdomen": "심폐 청진: 정상, 복부: 정상",
+        "extremity": "왼쪽 종아리에 5cm 크기의 붉고 불규칙한 모양의 발진 관찰.  중앙부위는 보라색으로 변색되어 있고, 압통과 열감이 동반됨.  주변부 피부는 부종 없음."
+      },
+      "patientQuestion": "이 병은 어떻게 치료하나요? 완치될 수 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "경화홍반",
+          "셀룰라이트",
+          "정맥염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "피부 생검",
+          "혈액 검사 (혈침강 속도, 염증 수치)",
+          "초음파 검사"
+        ],
+        "therapeutic": [
+          "진통제, 소염제 처방",
+          "압박 스타킹 착용 권장",
+          "다리 거상"
+        ]
+      }
+    }
+  ]
+}

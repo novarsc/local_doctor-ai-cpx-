@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 팔에 가려움을 동반한 발진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "팔에 가려워요",
+      "history": {
+        "onset": "2일 전",
+        "location": "왼쪽 팔 앞쪽",
+        "duration": "2일째 지속",
+        "course": "처음에는 작은 발진이었으나 점점 퍼짐",
+        "experience": "처음",
+        "character": "[크기] 1cm 미만 [모양] 불규칙적\n[색] 붉은색, 약간 부어오름\n가려움(+, 심함), 통증(-), 따가움(-), 열감(-) \n물집/진물/딱지/비늘(-/-/-/-)",
+        "associatedSymptoms": {
+          "rheumatologic": "관절통/근육통(-/-)",
+          "other": "새로운 화장품 사용(+, 2일 전 새로 구입한 샴푸 사용 시작), 알레르기 병력(-), 음식/약물(-/-)"
+        },
+        "factors": "새로 산 샴푸 사용 후 발진 발생",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병(-/-)",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 2회), 직업: 회사원",
+          "other": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "chest_abdomen": "호흡음/심음 정상, 복부 촉진 정상, 피부 시진: 왼쪽 팔 앞쪽에 경계가 명확하지 않은 붉은색 발진 다수 관찰, 압통(-), 열감(-)",
+        "extremity": "왼쪽 팔 부종(+) 약간"
+      },
+      "patientQuestion": "이 샴푸 다시는 쓰면 안 되나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "접촉피부염",
+          "알레르기성 접촉피부염",
+          "지루성 피부염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "첩포검사"
+        ],
+        "therapeutic": [
+          "해당 샴푸 사용 중단",
+          "국소 스테로이드제 도포",
+          "보습제 사용"
+        ]
+      }
+    }
+  ]
+}

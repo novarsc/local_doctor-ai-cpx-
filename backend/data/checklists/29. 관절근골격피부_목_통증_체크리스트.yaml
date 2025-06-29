@@ -1,0 +1,86 @@
+checklist:
+  topic_kr: "목 통증"
+  topic_en: "Neck Pain"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [ ] 통증의 위치 (Location of pain): 국소적/방사통 (Localized/Radiating)
+            - [ ] 통증의 양상 (Character of pain): 욱신거림, 찌릿함, 쑤심 (Throbbing, Shooting, Aching)
+            - [ ] 통증의 강도 (Severity of pain): 0-10점 척도 (0-10 scale)
+            - [ ] 통증의 시작 시점 및 기간 (Onset and duration): 급성/만성 (Acute/Chronic)
+            - [ ] 통증을 악화시키거나 완화시키는 요인 (Aggravating/Alleviating factors): 자세, 활동, 약물 (Posture, Activity, Medication)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [ ] 두통 (Headache)
+            - [ ] 어깨 통증 (Shoulder pain)
+            - [ ] 팔 저림/감각 이상 (Arm numbness/paresthesia)
+            - [ ] 근력 약화 (Weakness)
+            - [ ] 어지럼증 (Dizziness)
+            - [ ] 발열 (Fever)
+            - [ ] 체중 감소 (Weight loss)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [ ] 외상 (Trauma)
+            - [ ] 목 디스크 병력 (History of cervical disc disease)
+            - [ ] 퇴행성 관절염 (Osteoarthritis)
+            - [ ] 류마티스 관절염 (Rheumatoid arthritis)
+            - [ ] 장시간 컴퓨터 사용 (Prolonged computer use)
+            - [ ] 스트레스 (Stress)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [ ] 자세 관찰 (Posture observation)
+            - [ ] 경추 움직임 범위 측정 (Range of motion of cervical spine)
+            - [ ] 압통 부위 확인 (Tenderness palpation)
+            - [ ] 근력 검사 (Muscle strength testing)
+            - [ ] 감각 검사 (Sensory testing)
+            - [ ] 반사 검사 (Reflex testing)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [ ] Spurling 검사 (Spurling's test)
+            - [ ] Lhermitte 징후 (Lhermitte's sign)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Cervical spondylosis"
+            - "Cervical disc herniation"
+            - "Cervical strain"
+            - "Whiplash injury"
+            - "Meningitis"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Erythrocyte sedimentation rate (ESR)"
+                - "C-reactive protein (CRP)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "X-ray"
+                - "CT"
+                - "MRI"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "목 통증의 원인과 증상에 대한 설명, 바른 자세 및 생활 습관 교육, 적절한 운동 및 스트레칭 교육"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "발열, 체중 감소, 심한 두통, 팔/다리 저림이나 근력 약화, 배변/배뇨 장애 등의 증상 발생 시 즉시 병원 방문 권고"

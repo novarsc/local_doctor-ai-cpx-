@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "caseType": "실전 모의 증례 [하이브리드]",
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "심한 설사와 혈변으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "16회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "변을 자주 보고 피가 섞여 나와요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "좌측 하복부 통증",
+        "duration": "하루 10회 이상 설사",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "묽은 변에 섞여 나오는 선홍색 혈변, 점액성 변",
+        "associatedSymptoms": {
+          "gi": "N/V/D/C(+/+/+/+), 항문 통증(+), 복통(+), 체중 감소(2kg)"
+        },
+        "factors": "스트레스 증가",
+        "pastHistory": {
+          "events": "특이 사항 없음",
+          "surgical": "없음",
+          "medical": "없음",
+          "social": "흡연(하루 1갑, 5년), 음주(주 2회 소주 2병), 커피(하루 3잔), 불규칙적인 식사",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "약간의 빈혈 소견",
+        "heent": "정상",
+        "abdomen": "좌측 하복부 압통(+), 반발압통(-)",
+        "extremity": "정상"
+      },
+      "patientQuestion": "이 병이 완치될 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "궤양성 대장염",
+          "감염성 대장염",
+          "크론병"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대장내시경",
+          "대변 배양 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "항염증제 투여",
+          "식이요법",
+          "수분 및 전해질 보충"
+        ]
+      }
+    }
+  ]
+}

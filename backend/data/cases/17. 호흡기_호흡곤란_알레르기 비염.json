@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김예린",
+        "age": 30,
+        "gender": "여자"
+      },
+      "situation": "30세 여자 김예린씨가 코막힘과 재채기로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "코가 너무 막혀요",
+      "history": {
+        "onset": "1주일 전",
+        "duration": "지속",
+        "course": "점점 심해짐",
+        "experience": "매년 봄에 비슷한 증상",
+        "character": "코막힘, 재채기, 맑은 콧물, 코 간지러움, 눈 가려움, 눈물",
+        "associatedSymptoms": {
+          "general": "발열/피로/체중 변화(-/-/-), 부종(-)",
+          "respiratory": "기침(-), 가래(-), 쌕쌕거림(-)",
+          "allergy": "가족력(어머니 알레르기 비염)"
+        },
+        "factors": "꽃가루 접촉 시 악화, 실내에서는 증상 완화",
+        "pastHistory": {
+          "medical": "알레르기 비염 진단 받은 적 있음",
+          "trauma_surgery": "-",
+          "medications": "항히스타민제 복용",
+          "social": "흡연(-), 음주(가끔)",
+          "family": "어머니 알레르기 비염 병력",
+          "obgyn": "-"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "코 점막 부종, 비강 분비물 맑음",
+        "chest": "-",
+        "extremity": "-"
+      },
+      "patientQuestion": "어떤 약을 복용해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "알레르기 비염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "알레르기 검사"
+        ],
+        "therapeutic": [
+          "항히스타민제",
+          "비강 스프레이"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김영수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 김영수씨가 갈증과 다뇨 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "물을 너무 자주 마시고 화장실을 자주 가요.",
+      "history": {
+        "onset": "2개월 전부터",
+        "location": "전신",
+        "course": "서서히 증상이 심해짐",
+        "character": "갈증이 심하고 하루에 10번 이상 소변을 봄. 밤에도 소변 때문에 잠에서 깨는 경우가 많음. 체중은 5kg정도 감소함.",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중감소(+), 발열/오한(-/-)",
+          "digestive": "식욕변화(-), 소화불량(+)",
+          "endocrine": "다음(+), 다뇨(+), 다갈(-), 두근거림(-)",
+          "respiratory": "기침/가래(-/-)",
+          "urinary": "소변량 증가(+), 거품뇨(-), 요통(-)",
+          "psychiatric": "우울/불안(-/-)"
+        },
+        "factors": "최근 특별한 변화 없음. 평소 음주 습관 없고, 흡연은 20년 전에 끊음. 가족력은 특이사항 없음.",
+        "pastHistory": {
+          "medical": "고혈압(+), 고지혈증(+) ",
+          "medications": "고혈압 약 복용 중(암로디핀 5mg 1일 1회)",
+          "social": "은퇴 후 집에서 주로 생활. 운동은 거의 하지 않음.",
+          "family": "부모님 고혈압 병력 있음.",
+          "obgyn": "해당사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable, 체중감소 관찰됨.",
+        "heent": "눈, 귀, 코, 목 검진 정상.",
+        "abdomen": "복부 촉진시 특이소견 없음.",
+        "extremity": "부종 없음."
+      },
+      "patientQuestion": "제가 당뇨병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "2형 당뇨병",
+          "요로감염",
+          "다뇨증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈당검사(공복혈당, 식후2시간혈당)",
+          "당화혈색소 검사",
+          "소변검사",
+          "신장기능 검사"
+        ],
+        "therapeutic": [
+          "경구 혈당강하제 처방 고려",
+          "식이요법 및 운동요법 교육"
+        ]
+      }
+    }
+  ]
+}

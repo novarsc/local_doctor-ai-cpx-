@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "속이 쓰리고 아파서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg ",
+        "heartRate": "78회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.6℃ "
+      },
+      "chiefComplaint": "속이 쓰리고 아파요.",
+      "history": {
+        "onset": "2주 전 ",
+        "location": "명치 부위 ",
+        "course": "2주 전부터 시작하여 점차 심해짐. 특히 공복 시 심함 ",
+        "experience": "이런 증상은 처음임 ",
+        "character": "쓰리고 아픈 통증, 쥐어짜는 듯한 느낌, NRS 5/10 ",
+        "associatedSymptoms": {
+          "general": "체중 변화(-), 발열(-), 피로감(+) ",
+          "gi": "식욕부진(+), 구토(-), 설사(-), 변비(-), 혈변(-), 흑변(-) "
+        },
+        "factors": "공복 시 악화, 음주 후 악화, 진통제 복용 후 일시적 호전 ",
+        "pastHistory": {
+          "medical": "고혈압(+), 고지혈증(+) ",
+          "events": "특이사항 없음 ",
+          "surgical": "맹장 수술(20세) ",
+          "medications": "고혈압약, 고지혈증약 ",
+          "social": "흡연(+, 1갑/일), 음주(+, 소주 1병/주 2회), 직업: 회사원, 스트레스(+), 운동(-) ",
+          "family": "부친: 심근경색, 모친: 당뇨병 "
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적 ",
+        "heent": "결막/공막 황달(-), 림프절 종대(-), 갑상선 비대(-)",
+        "abdomen": "압통(+), 반동압통(-) "
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "십이지장궤양",
+          "위염",
+          "위궤양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "위내시경",
+          "헬리코박터 파일로리 검사"
+        ],
+        "therapeutic": [
+          "제산제 투여",
+          "H2-blocker 투여",
+          "PPI 투여",
+          "생활습관 개선 교육"
+        ]
+      }
+    }
+  ]
+}

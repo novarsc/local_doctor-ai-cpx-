@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 22,
+        "gender": "여자"
+      },
+      "situation": "22세 여자 김민지씨가 최근 몇 달 동안 극심한 우울감과 수면 장애를 호소하며 자살 충동을 느껴 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "죽고 싶은 생각이 너무 강해요. 잠도 못 자고 힘들어요.",
+      "suicideAssessment": {
+        "onset": "2개월 전",
+        "location": "주로 자택",
+        "ideation": {
+          "trigger": "대학 졸업 후 취업 실패 및 미래에 대한 불안감",
+          "frequency": "매일, 특히 밤에 심함"
+        },
+        "plan": "구체적인 계획은 없으나, 극단적인 생각을 자주 함",
+        "attempt": "없음"
+      },
+      "psychiatricHistory": {
+        "premorbidPersonality": "활발하고 사교적이었으나 최근 소극적이고 무기력해짐.",
+        "relationships": {
+          "family": "부모님과는 원만한 관계이나, 최근 자신의 상황을 말하기 어려워함.",
+          "peer": "친구들과의 관계도 소원해짐."
+        },
+        "depressionSymptoms": "우울/흥미 감소/식욕 감소/수면 변화/피로감(+/+/+/+/+), 자살/집중력/기억력 감소/무가치감/죄책감(+/+/+/+/+), 불면(3~4시간 수면, 잦은 각성)",
+        "otherSymptoms": "환시/환청/조증/충동성(-/-/-)"
+      },
+      "pastHistory": {
+        "social": "흡연(-), 음주(가끔, 소량), 직업: 무직"
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "skin": "피부 긴장도(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-)",
+        "extremity": "특이 소견 없음"
+      },
+      "patientQuestion": "어떻게 해야 좋아질 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "주요 우울장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "우울척도검사",
+          "신체 검사"
+        ],
+        "therapeutic": [
+          "항우울제 처방",
+          "정신치료 시작",
+          "정기적인 외래 진료"
+        ]
+      },
+      "specialNote": "환자는 현재 매우 불안정한 상태이며, 꾸준한 정신과적 치료가 필요함."
+    }
+  ]
+}

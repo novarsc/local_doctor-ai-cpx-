@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김철수씨가 2주간 지속되는 기침과 발열로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "20회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "2주째 기침과 열이 나요",
+      "history": {
+        "onset": "2주 전",
+        "duration": "2주 지속",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "마른 기침이 심하며, 가래는 없고, 밤에 기침이 더 심해짐.  열은 낮에는 정상이지만, 밤에는 38도까지 올라감.",
+        "associatedSymptoms": {
+          "general": "발열(+), 피로감(+), 체중 변화(-, 2kg 감소), 식욕부진(+)",
+          "respiratory": "기침(+, 마른기침), 가래(-), 흉통(-), 쌕쌕거림(-)",
+          "psychiatric": "불안감(+)"
+        },
+        "factors": "특별한 악화 요인 없음",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "trauma_surgery": "특이 사항 없음",
+          "medications": "없음",
+          "social": "흡연(+, 하루 1갑), 음주(주 2회 소주 2병)",
+          "family": "특이 사항 없음",
+          "obgyn": ""
+        }
+      },
+      "physicalExam": {
+        "general": "열감 있음, 활력징후 안정적",
+        "heent": "결막 충혈(-), 인두 충혈(-), 림프절 종창(-)",
+        "chest": "호흡음 감소(우측 폐 상엽), 수포음(-)",
+        "extremity": "말초 부종(-)"
+      },
+      "patientQuestion": "이 병은 어떻게 치료하나요? 얼마나 오래 걸릴까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐결핵"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "객담 검사(항산균 배양 및 도말검사)",
+          "혈액 검사(CBC, CRP)"
+        ],
+        "therapeutic": [
+          "항결핵제 치료 시작",
+          "격리 및 휴식 권고"
+        ]
+      }
+    }
+  ]
+}

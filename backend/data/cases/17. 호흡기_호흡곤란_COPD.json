@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 김철수씨가 만성적인 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차요.",
+      "history": {
+        "onset": "10년 전",
+        "duration": "지속적",
+        "course": "서서히 악화",
+        "experience": "과거에도 비슷한 증상 경험",
+        "character": "운동 시 및 계단 오르내릴 때 심해짐, 휴식 시에는 호전됨.  가래는 거의 없고 기침은 간헐적으로 발생.  최근 몇 달 동안 증상이 더 심해져서 일상생활에 어려움을 느낌.",
+        "associatedSymptoms": {
+          "general": "발열/피로/체중 변화(-/-/-), 부종(-)",
+          "respiratory": "흉통(-), 기침(+, 간헐적), 가래(-), 쌕쌕거림(-)",
+          "psychiatric": "불안(+) - 미래에 대한 걱정"
+        },
+        "factors": "운동 시 악화, 계단 오르내릴 때 악화, 추운 날씨 악화",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약, 당뇨병 약",
+          "social": "흡연(+, 40갑년), 음주(+, 매일 소주 1병)",
+          "family": "부친: 심장병으로 사망",
+          "obgyn": ""
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란, 빈호흡, 숨쉴 때 힘들어 보임",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "chest": "흉부 시/촉/타/청(-/-/-/-), 폐음 감소, 호흡음 거칠고 수포음 들림",
+        "extremity": "곤봉지/청색증(-/-)"
+      },
+      "patientQuestion": "앞으로 어떻게 해야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "COPD"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "폐기능검사",
+          "흉부 X-ray",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "기관지확장제 처방",
+          "금연 상담",
+          "호흡재활 치료 권유",
+          "산소치료"
+        ]
+      }
+    }
+  ]
+}

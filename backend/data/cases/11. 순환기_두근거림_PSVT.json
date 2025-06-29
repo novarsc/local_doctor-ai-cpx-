@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "갑작스러운 심계항진으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "160회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "가슴이 갑자기 너무 빨리 뛰어요.",
+      "history": {
+        "onset": "1시간 전",
+        "duration": "지속 중",
+        "course": "갑자기 시작",
+        "experience": "처음",
+        "character": "[양상] 매우 빠르게 뛰고, 규칙적인 듯함. [정도] NRS 8점. [동반증상] 어지러움(+), 숨가쁨(+), 흉통(-)",
+        "associatedSymptoms": {
+          "general": "발열/오한(-/-), 체중 감소(-), 피로(-), 식은땀(+)",
+          "endocrine": "더위/추위 불내성(-/-)",
+          "gi": "식욕변화(-), 변비/설사(-/-)"
+        },
+        "factors": "특별한 유발 요인 없음. 운동이나 스트레스는 없었음.",
+        "pastHistory": {
+          "medical": "DM/TB/HTN/간염(-/-/-/-)",
+          "social": "직업: 회사원, 흡연(1갑/일), 음주(주 2회 소주 2병)",
+          "family": "특이 사항 없음",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이 소견 없음",
+        "extremity": "손떨림(-), 발목 부종(-), 말초 맥박 촉진 가능"
+      },
+      "patientQuestion": "심장에 문제가 있는 건 아닌가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "발작성 상심실성 빈맥(PSVT)",
+          "심방세동",
+          "심실상성 빈맥"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "심초음파",
+          "24시간 홀터 모니터링"
+        ],
+        "therapeutic": [
+          "아데노신 정맥 주사",
+          "베타 차단제",
+          "칼슘 채널 차단제"
+        ]
+      }
+    }
+  ]
+}

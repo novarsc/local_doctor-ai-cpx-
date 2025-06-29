@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 78,
+        "gender": "남자"
+      },
+      "situation": "78세 남자 박철수씨가 최근 기억력 저하로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기억력이 많이 나빠졌어요",
+      "history": {
+        "onset": "2년 전",
+        "duration": "2년",
+        "course": "서서히 악화",
+        "experience": "처음",
+        "character": "2년 전부터 기억력이 감퇴하기 시작하여 최근에는 가족의 이름조차 잊어버리는 경우가 빈번해짐.  최근 기억력 저하가 심하며, 과거의 일은 비교적 잘 기억함. 길 찾기 어려워하며, 일상생활에 지장을 초래함. 돈 계산은 어려워함.  가스불을 켜놓고 나가는 등의 안전사고 위험도 높아짐",
+        "location": "집에서 생활",
+        "associatedSymptoms": "[정신] 성격 변화(+, 예전보다 짜증이 많아짐), 우울/불안/수면장애(+, 불면증 심함/-/+), [신경] 두통(-), 팔다리 힘 빠짐(-), 감각 이상(-), [비뇨기] 요실금(+), 보폭 감소(+), [기타] 체중 감소(+)",
+        "factors": "고혈압, 당뇨병 병력",
+        "pastHistory": {
+          "medical": "고혈압(10년), 당뇨병(5년), 고지혈증(3년)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압약, 당뇨약, 고지혈증약 복용 중",
+          "social": "은퇴 후 집에서 생활, 가족과 함께 거주",
+          "family": "어머니: 알츠하이머 치매 병력"
+        }
+      },
+      "physicalExam": {
+        "general": "체중 감소 소견 보임",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "extremity": "Pitting edema(-), 근력 저하 소견 보임. 보행 느림.  Tandem gait 불안정",
+        "other": "MMSE 15점"
+      },
+      "patientQuestion": "제가 치매인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "알츠하이머 치매",
+          "혈관성 치매",
+          "혼합형 치매"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 MRI",
+          "뇌 CT",
+          "신경심리검사",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "인지행동치료",
+          "약물치료(도네페질 등)"
+        ]
+      }
+    }
+  ]
+}

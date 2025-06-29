@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이순신",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "의식을 잃고 쓰러져 응급실로 이송되었다(현재 시각: 오후 3시).",
+      "vitalSigns": {
+        "bloodPressure": "80/50mmHg",
+        "heartRate": "110회/분",
+        "respiration": "25회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "의식을 잃고 쓰러짐",
+      "history": {
+        "onset": "30분 전",
+        "duration": "30분 전부터 의식 불명",
+        "course": "갑작스러운 의식 소실",
+        "character": "목 조임 증상 후 의식 소실, 경련은 없었음",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(-/-/-)",
+          "gi": "구토/변비/설사/혈변/흑색변/지방변(-/-/-/-/-/-)",
+          "circulatory": "흉통(-)",
+          "psych": "의식소실(+)",
+          "neuro": "경련(-)",
+          "dehydration": "어지러움/목마름/소변량 감소(-/-/-)"
+        },
+        "factors": "목격자에 따르면 목이 조여지는 듯한 행동을 보였다고 함",
+        "pastHistory": {
+          "medical": "고혈압/당뇨/고지혈증(+/-/+), 심장질환(+)",
+          "social": "흡연(+, 하루 1갑), 음주(+, 소주 1병/일), 직업: 은퇴자"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정, 의식 저하",
+        "heent": "경부 압통(+), 출혈(-), 혈종(-)",
+        "abdomen": "압통(-)",
+        "neuro": "Kernig/Brudzinski(-/-)"
+      },
+      "patientQuestion": "없음",
+      "impression": {
+        "likelyDiagnoses": [
+          "교액(strangulation)",
+          "심장마비",
+          "뇌졸중"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "경부 X-ray",
+          "경부 CT",
+          "심전도",
+          "혈액검사",
+          "뇌 CT"
+        ],
+        "therapeutic": [
+          "기도 확보",
+          "산소 공급",
+          "혈압 관리",
+          "응급 처치"
+        ]
+      }
+    }
+  ]
+}

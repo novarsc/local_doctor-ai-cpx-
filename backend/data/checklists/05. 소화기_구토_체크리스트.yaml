@@ -1,0 +1,89 @@
+checklist:
+  topic_kr: "구토"
+  topic_en: "Vomiting"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 구토의 양상 (색깔, 냄새, 내용물, 담즙/혈액 포함 여부) (Appearance of vomit: color, odor, contents, presence of bile/blood)
+            - 구토의 빈도와 기간 (Frequency and duration of vomiting)
+            - 구토 시작 시점 및 악화/호전 요인 (Onset of vomiting and aggravating/alleviating factors)
+            - 구토와 관련된 증상 (메스꺼움, 복통, 설사, 발열 등) (Associated symptoms with vomiting: nausea, abdominal pain, diarrhea, fever, etc.)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 식욕 변화, 체중 감소 (Changes in appetite, weight loss)
+            - 탈수 증상 (목마름, 어지러움, 소변량 감소) (Dehydration symptoms: thirst, dizziness, decreased urine output)
+            - 두통, 어지러움, 의식 변화 (Headache, dizziness, altered mental status)
+            - 최근 복용 약물, 음식 섭취, 여행력 (Recent medications, food intake, travel history)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 소화기 질환 병력 (History of gastrointestinal diseases)
+            - 만성 질환 (당뇨병, 신장 질환 등) (Chronic diseases: diabetes, kidney disease, etc.)
+            - 임신 여부 (Pregnancy status)
+            - 수술력 (Surgical history)
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 활력징후 측정 (혈압, 맥박, 호흡수, 체온) (Vital signs: blood pressure, pulse rate, respiratory rate, body temperature)
+            - 복부 진찰 (시진, 청진, 타진, 촉진) (Abdominal examination: inspection, auscultation, percussion, palpation)
+            - 탈수 징후 확인 (피부 긴장도, 점막 상태) (Assessment of dehydration signs: skin turgor, mucous membrane condition)
+            - 신경학적 진찰 (의식 수준, 동공 반응) (Neurological examination: level of consciousness, pupillary response)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 반동 압통 (Rebound tenderness)
+            - Murphy's sign
+            - 장음 청진 (Bowel sound auscultation)
+
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Gastroenteritis"
+            - "Gastritis"
+            - "Peptic ulcer disease"
+            - "Appendicitis"
+            - "Cholecystitis"
+            - "Pancreatitis"
+            - "Bowel obstruction"
+            - "Meningitis"
+            - "Brain tumor"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Electrolyte panel"
+                - "Liver function tests (LFTs)"
+                - "Amylase/Lipase"
+                - "C-reactive protein (CRP)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Abdominal X-ray"
+                - "Abdominal ultrasound"
+                - "Abdominal CT scan"
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "구토의 원인과 증상에 대한 설명, 탈수 예방을 위한 수분 섭취 권장, 식이 요법 안내 (Explanation of the cause and symptoms of vomiting, recommendation of fluid intake to prevent dehydration, dietary guidance)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "지속적인 구토, 심한 복통, 혈변/흑색변, 의식 변화, 고열 등의 증상 발생 시 응급실 방문 권고 (Recommendation to visit the emergency room if symptoms such as persistent vomiting, severe abdominal pain, bloody/black stool, altered mental status, high fever occur)"

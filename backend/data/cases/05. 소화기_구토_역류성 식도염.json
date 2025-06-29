@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "홍길동",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "심한 속쓰림과 가슴앓이로 내원하였다 (현재 시각: 오후 3시).",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "가슴이 너무 쓰리고 아파요",
+      "history": {
+        "onset": "3주 전",
+        "duration": "3주 동안 지속, 최근 더 심해짐",
+        "course": "점차 심해짐 (처음에는 가끔씩 → 매일 발생)",
+        "character": "심한 속쓰림과 가슴앓이, 음식물 섭취 후 악화, 명치 부위 통증, 신물이 올라옴",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(-/-/-)",
+          "gi": "구역감(+), 구토(-), 변비/설사/혈변/흑색변/지방변(-/-/-/-/-), 트림(+)",
+          "circulatory": "흉통(+, 명치 부위, NRS 6~7)",
+          "psych": "스트레스(+, 최근 사업 실패)",
+          "neuro": "두통(-), 경부 뻐근함(-)",
+          "dehydration": "어지러움/목마름/소변량 감소(-/-/-)"
+        },
+        "factors": "매운 음식 섭취(+), 잦은 야식(+), 카페인 섭취(+)",
+        "pastHistory": {
+          "medical": "고혈압(+, 약물 복용 중), 당뇨/고지혈증(-/-). 위궤양 병력 없음",
+          "social": "흡연 30갑년(+), 음주 1일 1병(+), 직업: 전직 사업가. 최근 사업 실패로 스트레스 심함"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/피부 긴장도 정상",
+        "abdomen": "압통 없음, 복부 팽만 없음",
+        "neuro": "신경학적 검사 정상"
+      },
+      "patientQuestion": "이 병 때문에 위암이 생길 수도 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "역류성 식도염",
+          "위궤양",
+          "심장 질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "심전도 검사"
+        ],
+        "therapeutic": [
+          "PPI 처방",
+          "생활 습관 교정 (금주, 금연, 식습관 개선 권고)",
+          "제산제 처방"
+        ]
+      }
+    }
+  ]
+}

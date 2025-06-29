@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "72세 남자 김철수씨가 의식소실 상태로 보호자와 함께 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "160/90mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "갑자기 쓰러졌어요",
+      "history": {
+        "onset": "오늘 오전 9시",
+        "course": "발견 당시부터 의식 없음",
+        "experience": "처음",
+        "character": "아침 식사 후 거실에서 책을 읽다가 갑자기 쓰러짐. 경련은 없었음. 발견 당시 구토는 없었으나 입가에 약간의 타액이 묻어 있었음.  주변에 술병이나 약물은 없었음.",
+        "associatedSymptoms": "[전신] 발열/오한/체중 변화/피로(-/-/-/-) [소화] 구토(-), 복통(-) [신경] 두통(+, 며칠 전부터 심해짐), 어지럼증(+, 오늘 아침), 시야 변화(-), 팔다리 힘 빠짐(-), 말 어눌(-)",
+        "factors": "고혈압 병력이 있으나 치료를 잘 받지 않음. 최근 과도한 스트레스를 받았다고 함.",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨(-), 고지혈증(-), 간염(-), 뇌혈관계 질환(-)",
+          "trauma_surgery": "두부외상(-)",
+          "medications": "고혈압 약 복용 중이나 불규칙함.",
+          "social": "술(+, 소주 1잔/일), 흡연(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, GCS 6점(eye 2, verbal 1, motor 3)",
+        "heent": "눈동자 크기 같음, 반응 양호. 구강: 타액 증가.  갑상샘/림프절(-/-)",
+        "neuro": "좌측 상지 근력 저하,  깊은 힘줄 반사(DTR) 비대칭.  Babinski sign 우측 양성",
+        "abdomen": "간/비장 비대(-/-), 복수(-)",
+        "extremity": "좌측 상지 근력 저하,  좌측 하지 운동 저하"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "뇌출혈",
+          "뇌경색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "혈압 조절",
+          "수액 요법"
+        ]
+      }
+    }
+  ]
+}

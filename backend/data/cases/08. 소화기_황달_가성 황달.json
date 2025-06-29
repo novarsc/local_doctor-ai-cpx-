@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "얼굴이 노랗다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "얼굴이 노래요",
+      "history": {
+        "onset": "2일 전",
+        "location": "얼굴, 눈",
+        "duration": "2일째 지속",
+        "course": "2일 전부터 얼굴이 노랗게 보인다는 주변 사람들의 말을 듣고 내원함",
+        "experience": "처음",
+        "character": "샛노란색",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(-/-/+/-)",
+          "gi": "식욕부진(+), 메스꺼움/구토/설사/변비/복통(-/-/-/-/-), 소화불량(+)",
+          "renal": "소변색 변화(-)"
+        },
+        "factors": "특별한 음식 섭취 없음",
+        "pastHistory": {
+          "events": "수혈/문신/여행(-/-/-)",
+          "medical": "고혈압/당뇨병/이상지질혈증(-/-/-), 간염(-)",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 1회 소주 1병)",
+          "family": "간질환 병력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 황달(+), 피부 황달(+), 림프절(-)",
+        "abdomen": "복부 압통(-), 간/비장 비대(-/-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "얼굴이 노란게 심각한 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "가성 황달",
+          "길버트 증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "간기능 검사",
+          "빌리루빈 검사",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

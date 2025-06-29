@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김철수씨가 양측 다리 근력 저하를 주소로 내원하였다(현재 오후 2시).",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "다리가 힘이 없어요",
+      "history": {
+        "onset": "2주 전",
+        "location": "양측 하지, 특히 대퇴부",
+        "duration": "점진적 악화",
+        "course": "서서히 악화",
+        "experience": "처음",
+        "character": "힘이 없고, 계단 오르내리기 어려움, 걷는 것이 힘들다.",
+        "associatedSymptoms": "[전신] 체중 감소(-), 발열(-), 피로감(+), 근육통(+), 관절통(-). [신경계] 저림(-), 감각 이상(-), 마비(-), 두통(-), 어지러움(-). [소화기] 식욕부진(-), 메스꺼움(-), 구토(-). [심혈관] 흉통(-), 호흡곤란(-). [비뇨기] 배뇨장애(-)",
+        "pastHistory": {
+          "medical": "고혈압(10년 경력), 고지혈증(5년 경력)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "금주, 금연, 운동 부족",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정, 기운 없어 보임",
+        "heent": "정상",
+        "neuro": "정상",
+        "extremity": "양측 대퇴부 근력 저하 (MMT 4/5), 슬관절 및 족관절 운동범위 감소, 근육 위축 약간 관찰, 심부건 반사 정상",
+        "other": "피부 발진 없음"
+      },
+      "patientQuestion": "다시 걸을 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "염증성 근육병증",
+          "다발성 근염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CK, LDH, 알부민, 염증수치)",
+          "근전도검사",
+          "근육 생검"
+        ],
+        "therapeutic": [
+          "스테로이드 치료",
+          "물리치료",
+          "재활 치료"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 6,
+      "patientProfile": {
+        "name": "최선영",
+        "age": 65,
+        "gender": "여자"
+      },
+      "situation": "65세 여자 최선영씨가 쉽게 멍이 든다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "멍이 잘 들어요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "팔, 다리에 시작하여 점차 몸통으로 확산",
+        "duration": "2주간 지속",
+        "course": "점차 증상이 악화되는 양상",
+        "experience": "처음 발생",
+        "character": "크기가 다양한 자색 반점, 압박 시 색깔 변화 없음, 통증 없음, 가려움 없음",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중 감소(-)",
+          "digestive": "식욕부진(+), 복통(-), 황달(-), 복수(-), 소화불량(+)",
+          "urinary": "소변색 변화(-), 혈뇨(-)",
+          "neurological": "두통(-), 어지러움(-), 의식소실(-)",
+          "endocrine": "자색선조(-), 얼굴 부종(-)",
+          "bleeding_tendency": "잇몸 출혈(+), 코피(+), 월경과다(+)"
+        },
+        "factors": "최근 과도한 스트레스(+), 음주(+, 소주 1병/주 2회)",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전 진단), 당뇨병(-), 간질환(+, B형 간염 만성 보균자)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중(Amlodipine 5mg, 1일 1회)",
+          "social": "주부, 비흡연자",
+          "family": "간질환 가족력(+, 어머니 B형 간염)"
+        }
+      },
+      "physicalExam": {
+        "general": "전반적으로 피로한 인상",
+        "heent": "결막 창백(-), 경부 림프절 비대(-)",
+        "chest": "청진 소견 정상",
+        "abdomen": "간 비대(+), 비장 비대(-), 복수(-), 압통(-)",
+        "extremity": "다발성 자반 출혈 관찰(+), 부종(-)"
+      },
+      "patientQuestion": "간 때문일까요? 걱정이 됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "간질환 인한 혈액응고장애",
+          "특발성 혈소판 감소성 자반병(ITP)",
+          "Disseminated Intravascular Coagulation(DIC)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CBC, PT, aPTT, INR, 혈소판 수치)",
+          "간기능 검사(AST, ALT, ALP, GGT, Bilirubin)",
+          "혈액응고인자 검사",
+          "말초혈액 도말 검사"
+        ],
+        "therapeutic": [
+          "간 기능 보호제 투여",
+          "출혈 예방을 위한 교육",
+          "필요시 수혈"
+        ]
+      }
+    }
+  ]
+}

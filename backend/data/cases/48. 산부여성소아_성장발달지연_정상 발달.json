@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "최지우",
+        "age": "18개월",
+        "gender": "여아"
+      },
+      "situation": "아이 발달이 궁금해서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "아이 발달이 궁금해요",
+      "history": {
+        "onset": "18개월 건강검진을 위해 내원.",
+        "growthAndDevelopment": {
+          "growth": "키 80cm (50%), 몸무게 11kg (50%)",
+          "development": "혼자서 잘 걷고 뛰어다닌다. 간단한 블록 쌓기 가능.  엄마 아빠를 부르고 간단한 단어 몇 개 말한다.  낯선 사람에게는 경계심을 보인다.  장난감 가지고 놀 때 집중력이 좋다.",
+          "vaccination": "예방접종 일정대로 완료"
+        },
+        "perinatalHistory": "만삭아, 자연분만, 출생 시 체중 3.2kg, 키 48cm. 임신, 출산 과정에 특이 사항 없음.",
+        "neonatalHistory": "신생아 검사 모두 정상. 황달, 저산소증 없었음.",
+        "environment": {
+          "caregiver": "엄마가 주로 양육.  아빠는 저녁에 잠깐 함께 시간을 보냄.",
+          "nutrition": "편식 없이 잘 먹음.",
+          "sleep": "밤에 10시간 정도 수면. 낮잠 2시간 정도."
+        },
+        "hearing": "청력 검사 정상",
+        "familyHistory": "가족력에 발달 장애나 유전 질환 없음."
+      },
+      "physicalExam": "신체 검진상 특이 소견 없음.",
+      "patientQuestion": "발달이 늦는 건 아닌지 걱정이에요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "정상 발달"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "영유아 발달 검사"
+        ],
+        "therapeutic": [
+          "정기적인 건강 검진",
+          "아이의 발달에 맞는 놀이와 교육 제공"
+        ]
+      }
+    }
+  ]
+}

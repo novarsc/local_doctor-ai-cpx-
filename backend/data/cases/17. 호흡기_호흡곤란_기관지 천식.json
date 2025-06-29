@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김철수씨가 숨이 차서 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차요",
+      "history": {
+        "onset": "1시간 전",
+        "duration": "지속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "운동 후 갑자기 숨이 차고, 쌕쌕거림이 심해졌음. 말하기 어려울 정도임.",
+        "associatedSymptoms": {
+          "general": "발열/피로/체중 변화(-/-/-), 부종(-)",
+          "respiratory": "흉통(-), 기침(+, 약간의 가래 동반), 쌕쌕거림(+)",
+          "psychiatric": "불안(+) , 공포감(-)"
+        },
+        "factors": "운동 후 악화, 흡입 자극 후 악화,  찬 공기 흡입 후 악화",
+        "pastHistory": {
+          "medical": "알레르기 비염",
+          "trauma_surgery": "-",
+          "medications": "알레르기약(간헐적 복용)",
+          "social": "흡연(-), 음주(+, 주 2회), 운동(주 3회 조깅)",
+          "family": "아버지: 고혈압",
+          "obgyn": "-"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 맥박 90회/분, 호흡 22회/분, 산소포화도 95%",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "chest": "흉부 시진/청진: 수축기 잡음(-), 쌕쌕거림(+)",
+        "extremity": "곤봉지/청색증(-/-)"
+      },
+      "patientQuestion": "이 증상이 언제까지 지속될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "기관지 천식"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "폐기능검사",
+          "알레르기 검사",
+          "흉부 X-ray"
+        ],
+        "therapeutic": [
+          "기관지 확장제 투여",
+          "흡입 스테로이드 투여",
+          "환자 교육 및 자가 관리 계획 수립"
+        ]
+      }
+    }
+  ]
+}

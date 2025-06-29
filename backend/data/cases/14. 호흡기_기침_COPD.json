@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "만성 기침과 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "88회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차고 기침이 계속돼요",
+      "history": {
+        "onset": "10년 전부터",
+        "duration": "하루 종일",
+        "course": "서서히 악화됨",
+        "experience": "계속 있었음",
+        "character": "가래 섞인 기침, 점액성 가래",
+        "associatedSymptoms": {
+          "respiratory": "가래(+, 누런색, 아침에 많음), 객혈(-), 흉통(-), 호흡곤란(+, 운동 시 심해짐), 쌕쌕거림(+)",
+          "general": "피로감(+), 체중 감소(5kg, 최근 6개월)",
+          "gi": "소화불량(+)"
+        },
+        "factors": "운동, 감기 후 악화, 추운 날씨 악화",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전 진단), 고지혈증(+, 5년 전 진단)",
+          "social": "흡연(40갑년, 하루 2갑씩 20년), 음주(주 3회, 소주 3병)",
+          "family": "부친 COPD"
+        }
+      },
+      "physicalExam": {
+        "heent": "구강 점막 건조, 입술 청색증 없음",
+        "chest": "흉곽 확장 제한, 호흡음 감소, 잡음(wheezing) 청취, 심음 정상"
+      },
+      "patientQuestion": "이 병은 완치될 수 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "COPD",
+          "만성기관지염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "폐기능 검사(PFT)",
+          "흉부 X-ray",
+          "혈액검사",
+          "동맥혈가스분석"
+        ],
+        "therapeutic": [
+          "기관지 확장제(LABA/LAMA 복합제)",
+          "흡입용 코르티코스테로이드",
+          "폐 재활 프로그램",
+          "금연 상담"
+        ]
+      }
+    }
+  ]
+}

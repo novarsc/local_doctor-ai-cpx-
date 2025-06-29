@@ -1,0 +1,94 @@
+checklist:
+  topic_kr: "피로"
+  topic_en: "Fatigue"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 피로의 시작 시기와 지속 기간 (Onset and duration of fatigue)
+            - 피로의 양상 (Character of fatigue: e.g., generalized weakness, lethargy, exhaustion)
+            - 피로의 정도 (Severity of fatigue: e.g., impact on daily activities, work, social life)
+            - 피로를 악화시키거나 완화시키는 요인 (Aggravating and relieving factors)
+            - 하루 중 피로의 변화 (Diurnal variation in fatigue)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 발열, 오한 (Fever, chills)
+            - 체중 감소 또는 증가 (Weight loss or gain)
+            - 식욕 변화 (Changes in appetite)
+            - 수면 장애 (Sleep disturbances: e.g., insomnia, hypersomnia)
+            - 우울감, 불안감 (Depressed mood, anxiety)
+            - 집중력 저하 (Difficulty concentrating)
+            - 근육통, 관절통 (Muscle aches, joint pain)
+            - 두통 (Headache)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 만성 질환 (Chronic medical conditions: e.g., diabetes, hypertension, hypothyroidism)
+            - 정신 질환 (Psychiatric disorders: e.g., depression, anxiety)
+            - 최근 감염 (Recent infections)
+            - 수술 (Surgery)
+            - 약물 복용력 (Medications: including over-the-counter drugs and supplements)
+            - 생활 습관 (Lifestyle factors: e.g., diet, exercise, sleep, stress, alcohol, tobacco use)
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 활력 징후 측정 (Vital signs: blood pressure, heart rate, respiratory rate, temperature)
+            - 전반적인 외모 관찰 (General appearance: assess for signs of distress, pallor, etc.)
+            - 림프절 촉진 (Palpation of lymph nodes)
+            - 심혈관계 진찰 (Cardiovascular examination)
+            - 호흡기계 진찰 (Respiratory examination)
+            - 복부 진찰 (Abdominal examination)
+            - 신경학적 진찰 (Neurological examination)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 필요에 따라 갑상선 진찰 (Thyroid examination if indicated)
+
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Anemia"
+            - "Hypothyroidism"
+            - "Depression"
+            - "Chronic Fatigue Syndrome"
+            - "Sleep Apnea"
+            - "Diabetes Mellitus"
+            - "Heart Failure"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Comprehensive Metabolic Panel (CMP)"
+                - "Thyroid Stimulating Hormone (TSH)"
+                - "C-reactive protein (CRP)"
+                - "Erythrocyte Sedimentation Rate (ESR)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Chest X-ray (if indicated)"
+                - "Electrocardiogram (ECG) (if indicated)"
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "피로의 원인과 진단 과정에 대해 설명하고, 필요한 생활 습관 개선 (규칙적인 운동, 균형 잡힌 식사, 충분한 수면)에 대해 교육합니다."
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "흉통, 호흡곤란, 심한 두통, 혈변, 흑색변, 설명되지 않는 체중 감소 등의 증상이 나타나면 즉시 의료진에게 연락하도록 안내합니다."

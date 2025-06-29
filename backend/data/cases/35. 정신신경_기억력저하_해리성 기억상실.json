@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 35,
+        "gender": "여자"
+      },
+      "situation": "35세 여자 박선영씨가 최근 일주일간의 기억이 나지 않는다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "70회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "일주일 동안의 기억이 없어요",
+      "history": {
+        "onset": "일주일 전",
+        "duration": "일주일",
+        "course": "지속",
+        "experience": "처음",
+        "character": "일주일 전부터 어제까지의 기억이 전혀 나지 않음.  본인은 아무런 사고나 외상을 입지 않았다고 주장함. 가족에 따르면, 일주일 전부터 이상 행동을 보였고, 연락이 되지 않았다고 함. 현재는 기억이 돌아왔지만, 그 기간 동안의 일은 전혀 기억하지 못함. 과거의 기억은 정상적으로 유지하고 있음.",
+        "location": "병원 응급실에 가족이 데려옴",
+        "associatedSymptoms": "[정신] 불안감(+), 우울감(-), 수면장애(-), 환청/환시(-/-), 성격변화(-). [신경] 두통(-), 어지러움(-), 팔다리 저림(-), 운동장애(-). [기타] 발열/오한/소화기 증상(-/-/-)",
+        "factors": "최근 직장에서 심한 스트레스를 받았다고 함.  가정 내 문제는 없다고 함.",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "직업: 회사원, 결혼여부: 미혼",
+          "family": "특이사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "외관상 특이 소견 없음. V/S 정상",
+        "heent": "눈/귀/코/목/갑상선(-/-/-/-/-)",
+        "extremity": "사지 운동 및 감각 정상",
+        "neuro": "뇌신경 검사 정상, 근력 및 반사 정상, 보행 정상"
+      },
+      "patientQuestion": "왜 기억이 없었던 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "해리성 기억상실",
+          "일과성 전체 기억상실",
+          "전간 발작"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 MRI",
+          "뇌파 검사",
+          "정신과적 평가"
+        ],
+        "therapeutic": [
+          "정신치료",
+          "스트레스 관리 교육",
+          "필요시 약물 치료"
+        ]
+      }
+    }
+  ]
+}

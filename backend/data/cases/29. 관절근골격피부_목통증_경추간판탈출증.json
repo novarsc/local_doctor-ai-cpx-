@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 오른쪽 팔 저림과 목 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "목이 아프고 오른쪽 팔이 저려요",
+      "history": {
+        "onset": "2주 전",
+        "location": "뒷목, 오른쪽 팔, 오른쪽 손가락",
+        "duration": "하루 종일",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "[양상] 목 뒤쪽이 뻐근하고 쑤시는 통증, 오른쪽 팔과 손가락으로 뻗치는 저림\n[강도] NRS 7점",
+        "associatedSymptoms": {
+          "general": "팔 힘 약해짐, 손가락 감각 저하",
+          "meningitis": "발열, 두통, 오한 없음"
+        },
+        "factors": "악화: 오른쪽으로 고개를 돌릴 때, 무거운 물건을 들 때\n완화: 휴식",
+        "pastHistory": {
+          "medical": "고혈압(진단받은지 1년)",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(하루 1갑, 20년), 음주(주 2회 소주 1병), 직업: 사무직",
+          "family": "가족력 없음",
+          "obgyn": "해당 없음",
+          "other": "최근 과도한 업무 스트레스"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 정상",
+        "heent": "결막/공막 정상",
+        "extremity": "Spurling test (오른쪽 (+)), Lhermitte sign (-)\n오른쪽 상지 근력 약화, 감각 저하 (C6, C7 dermatome)\n오른쪽 어깨, 목 근육 압통"
+      },
+      "patientQuestion": "수술을 해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "경추간판탈출증",
+          "경추염좌",
+          "근막통증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "경추 X-ray",
+          "경추 MRI"
+        ],
+        "therapeutic": [
+          "진통소염제",
+          "물리치료",
+          "경추 보조기 착용"
+        ]
+      }
+    }
+  ]
+}

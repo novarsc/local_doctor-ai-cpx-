@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 소변을 자주 보고, 소변을 볼 때 통증이 있다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변을 자주 보고 아파요.",
+      "history": {
+        "onset": "일주일 전",
+        "duration": "계속",
+        "course": "점점 심해짐",
+        "character": "소변 횟수 증가(하루 8-10회), 소변량 감소, 소변 볼 때 타는 듯한 통증, 잔뇨감",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 감소(-/-/-)",
+          "urinary": "빈뇨(+), 급박뇨(+), 야간뇨(+), 배뇨통(+), 잔뇨감(+)",
+          "genitals": "회음부 통증(+), 고환 통증(-), 분비물(-)"
+        },
+        "factors": "최근 과도한 음주(+), 스트레스(+), 수면 부족(+)",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 전립선 질환(-)",
+          "medications": "없음",
+          "social": "흡연(1갑/일), 음주(주 3회 이상), 운동(없음)",
+          "family": "부친: 고혈압"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "특이 소견 없음",
+        "abdomen": "압통 없음, 방광 촉진 불가",
+        "extremity": "부종 없음",
+        "genitals": "압통 있는 전립선, 농성 분비물 없음"
+      },
+      "patientQuestion": "전립선암일까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 전립선염",
+          "만성 전립선염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사",
+          "전립선 초음파",
+          "전립선 특이항원(PSA) 검사"
+        ],
+        "therapeutic": [
+          "항생제 치료",
+          "진통제",
+          "수분 섭취 증가",
+          "휴식"
+        ]
+      }
+    }
+  ]
+}

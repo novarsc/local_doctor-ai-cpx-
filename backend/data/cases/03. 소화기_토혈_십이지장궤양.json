@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최지훈",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "심한 복통과 구토를 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "배가 너무 아파요. 토도 했어요.",
+      "history": {
+        "onset": "3일 전부터",
+        "frequency": "하루에 여러 번",
+        "experience": "처음",
+        "character": "심한 상복부 통증, 속쓰림, 구토(식사 후 주로 발생), 토사물에 피가 섞여 나옴",
+        "associatedSymptoms": {
+          "general": "식욕부진, 피로감",
+          "gi": "A/N/V/D/C(+/+/+/-/-) (구토는 3일째 지속, 혈변 없음), 복부 팽만감(+), 소화불량(+)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "양치할 때 피/멍이 자주 듦/코피 자주 남(-/-/-)",
+          "dehydration": "어지럼/두근거림/소변량 감소(-/-/-)"
+        },
+        "factors": "스트레스 증가, 불규칙한 식사, 커피 과다 섭취",
+        "pastHistory": {
+          "events": "검진/내시경(-/-)",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 2회 소주 2병), 직업(회사원), 식사 : 불규칙적, 인스턴트 음식 섭취 잦음, 운동(-) "
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 약간의 빈혈 증상",
+        "heent": "눈/입/림프절/비경(-/-/-/-)",
+        "abdomen": "복부 압통(+), 명치 부위 압통(+), 방어긴장(+), 잡음(+)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이게 위암인가 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "십이지장궤양",
+          "위궤양",
+          "위염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "헬리코박터 파일로리 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "제산제 투여",
+          "H2 수용체 길항제 투여",
+          "PPI 투여",
+          "금주, 금연, 식습관 교정 상담"
+        ]
+      }
+    }
+  ]
+}

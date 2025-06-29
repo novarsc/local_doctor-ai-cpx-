@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 김철수씨가 어지러움을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "어지러워요",
+      "history": {
+        "onset": "오늘 아침",
+        "duration": "몇 초에서 1분 정도",
+        "course": "간헐적",
+        "experience": "최근 몇 달 동안 비슷한 증상이 반복됨",
+        "character": "앉아 있다가 갑자기 일어설 때 어지럽고, 잠시 동안 세상이 빙빙 도는 느낌. 구토는 없음.",
+        "associatedSymptoms": "[전신] 발열(-), [신장/비뇨] 다음/다뇨/다갈(-/-/-) ,[순환] 일어설 때 어지러움(+), [정신] 우울/불안(-/-), [신경] 이명/이충만감(-/-), [소화] 소화불량(-)",
+        "factors": "앉은 자세에서 일어설 때, 갑작스러운 자세 변화",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연 30갑년"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "neuro": "뇌신경 검사 정상, 소뇌 검사 정상, Dix-Hallpike 검사 시 안진 없음.  Head impulse, Head shaking test 모두 정상"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "양성 발작성 체위성 현훈",
+          "전정신경염",
+          "기립성 저혈압"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "전정기능검사",
+          "기립경사검사"
+        ],
+        "therapeutic": [
+          "이석치환술(필요시)",
+          "증상 완화를 위한 약물 처방(필요시)"
+        ]
+      }
+    }
+  ]
+}

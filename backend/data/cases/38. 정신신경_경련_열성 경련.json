@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민준",
+        "age": 18,
+        "gender": "남자"
+      },
+      "situation": "18세 남자 김민준씨가 열이 나고 경련을 하여 응급실을 통해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "100회/분",
+        "respiration": "20회/분",
+        "temperature": "39.5℃"
+      },
+      "chiefComplaint": "열이 나고 경련을 했대요.",
+      "history": {
+        "onset": "3시간 전",
+        "location": "침대에서 자다가",
+        "duration": "약 2분",
+        "experience": "처음 발생",
+        "character": "열이 난 후 갑자기 경련이 시작됨.  전신 경련, 의식 소실, 혀 깨물림 없음, 침 흘림 있음. 경련 후 혼돈 상태 지속, 기억 상실.  경련 전에 오한과 두통 호소.",
+        "associatedSymptoms": "[전신] 발열(+, 39.5℃), 오한(+), 두통(+), 근육통(+), 메스꺼움(-), 구토(-), 설사(-) [신경]  의식 소실(+), 경련(+), 혼돈(+), 두통(+), 시야장애(-) [호흡기] 기침(-), 콧물(-) ",
+        "factors": "최근 감기 증상 있었음.  충분한 수면 부족.",
+        "pastHistory": {
+          "medical": "특이 과거력 없음",
+          "trauma_surgery": "특이 외상 및 수술력 없음",
+          "social": "술, 담배, 커피 안 함. 운동 규칙적으로 함. 스트레스 적음."
+        }
+      },
+      "physicalExam": {
+        "general": "열성, 의식 회복, 활력징후 안정",
+        "heent": "두부 외상 없음, 경부 압통 없음",
+        "neuro": "신경학적 검사상 이상 없음,  수막 자극 징후 없음",
+        "extremity": "팔다리 운동 및 감각 정상"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "열성 경련"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (혈구수, CRP, 감염표지자)",
+          "소변검사"
+        ],
+        "therapeutic": [
+          "해열제 투여",
+          "수분 공급",
+          "경련 재발 시 대처법 교육",
+          "추후 경과 관찰"
+        ]
+      }
+    }
+  ]
+}

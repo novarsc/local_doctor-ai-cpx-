@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "갑자기 숨쉬기가 힘들어 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨쉬기가 힘들어요",
+      "history": {
+        "onset": "2시간 전 농구 경기 중 갑자기 발생",
+        "location": "왼쪽 가슴",
+        "radiation": "없음",
+        "duration": "2시간 지속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "날카로운 통증, 숨쉴 때 심해짐, NRS 8점",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(-/-/-)",
+          "gi": "속쓰림/신물 올라옴(-/-)",
+          "circulatory": "두근거림/호흡곤란(+/+)",
+          "respiratory": "기침/가래/객혈/쌕쌕거림(-/-/-)",
+          "msk_skin": "피부 발진(-)",
+          "psych": "불안감(+)"
+        },
+        "factors": "악화: 숨 쉴 때, 움직일 때. 완화: 가만히 있을 때",
+        "pastHistory": {
+          "medical": "없음",
+          "medications": "없음",
+          "social": "흡연/음주/스트레스(-/-/+), 직업: 웹디자이너",
+          "family": "없음"
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란 보임, 불안해 보임",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-), 경동맥 시/청(-/-)",
+        "chest": "왼쪽 흉곽 팽창 감소, 호흡음 감소, 심음(-), 흉부 시/촉/타/청(-/-/-/-), 발진(-)",
+        "abdomen": "시/청/타/촉(-/-/-/-)",
+        "extremity": "맥박(-), Pitting edema(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "기흉",
+          "폐렴",
+          "늑막염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "혈액검사",
+          "동맥혈가스분석"
+        ],
+        "therapeutic": [
+          "산소 투여",
+          "흉관 삽입술",
+          "진통제"
+        ]
+      }
+    }
+  ]
+}

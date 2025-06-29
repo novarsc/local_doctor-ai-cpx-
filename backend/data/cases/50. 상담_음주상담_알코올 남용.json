@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 48,
+        "gender": "남자"
+      },
+      "situation": "회사 동료의 권유로 금주 상담을 위해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "요즘 술을 너무 많이 마시는 것 같아 걱정입니다.",
+      "history": {
+        "drinkingHistory": {
+          "amount": "매일 저녁 소주 2병 이상",
+          "onset": "대학교 졸업 후",
+          "reason": "스트레스 해소 및 사회생활 적응"
+        },
+        "motivationToQuit": "최근 건강검진에서 간수치가 높게 나왔고, 회사 동료가 걱정하며 금주를 권유함.",
+        "previousAttempts": "몇 번 시도했지만 며칠 못 가 다시 마셨습니다.",
+        "CAGE": {
+          "CutDown": "시도했으나 실패",
+          "Annoyed": "아내가 잔소리함",
+          "Guilty": "술 마신 후 후회",
+          "EyeOpener": "아침에 해장술을 마신 적 있음"
+        },
+        "abuseAndDependence": {
+          "abuse": "잦은 음주로 인해 업무 능률 저하 및 가족과의 갈등 발생.",
+          "dependence": {
+            "withdrawal": "손 떨림/불안/불면/메스꺼움(+/-/+/-)",
+            "tolerance": "술을 더 많이 마셔야 같은 효과를 느낌.",
+            "etc": "숙취가 심하고, 술 때문에 중요한 약속을 놓친 적 있음."
+          }
+        },
+        "associatedSymptoms": "체중 증가(+)/속쓰림(+)/소화 불량(+)/황달(-)/피로(+)",
+        "socialHistory": "흡연(+), 직업: 회사원, 스트레스(+)"
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도(-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": null,
+      "impression": {
+        "likelyDiagnoses": [
+          "알코올 남용"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "간기능검사",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "금주 상담",
+          "약물치료 고려"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 40,
+        "gender": "여자"
+      },
+      "situation": "40세 여자 박선영씨가 과다한 월경량과 하복부 압박감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.5℃"
+      },
+      "chiefComplaint": "생리량이 너무 많고, 배가 꽉 차는 느낌이에요.",
+      "history": {
+        "onset": "2년 전",
+        "location": "하복부",
+        "duration": "월경 기간 내내",
+        "course": "점점 심해짐",
+        "character": "월경량 증가, 생리 기간 연장, 하복부 팽만감 및 압박감,  빈혈 증상(피로감, 어지러움). 통증은 심하지 않음.",
+        "associatedSymptoms": "[전신] 피로감, 어지러움. [비뇨기] 빈뇨(-). [소화기] 변비(-). [신경계] 두통(-)",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병(-/-).",
+          "medications": "없음",
+          "social": "비흡연, 음주(주 1회 소주 1병)",
+          "family": "자궁근종 가족력 없음",
+          "gyn": "초경 13세, 규칙적인 월경 주기, 과거 월경량 정상,  출산 경험 2회,  피임 방법: 자연피임, 최근 폐경(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "안색은 다소 창백함",
+        "heent": "정상",
+        "abdomen": "하복부 촉진 시 약간의 압통 및 만져지는 덩어리(약 8cm 크기 추정)",
+        "pelvic": "자궁 비대, 압통 (+)",
+        "extremity": "부종 (-)"
+      },
+      "patientQuestion": "큰 문제는 아닐까요? 치료법은 무엇인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "자궁근종"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "골반 초음파 검사",
+          "자궁내막 조직검사(필요시)",
+          "혈액검사(CBC, 빈혈 확인)"
+        ],
+        "therapeutic": [
+          "자궁근종의 크기 및 증상의 심각도에 따라 약물치료(GnRH 작용제) 또는 수술적 치료(자궁근종절제술, 자궁적출술) 고려"
+        ]
+      }
+    }
+  ]
+}

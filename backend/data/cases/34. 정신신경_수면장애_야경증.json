@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 7,
+        "gender": "남자"
+      },
+      "situation": "7세 남자 박민수가 밤에 잠에서 깨어 소리를 지르며 울고, 땀을 흘리는 증상으로 어머니와 함께 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "80회/분",
+        "respiration": "20회/분",
+        "temperature": "36.9℃"
+      },
+      "chiefComplaint": "밤에 자다가 갑자기 소리를 지르고 울어요",
+      "history": {
+        "onset": "3개월 전",
+        "experience": "처음",
+        "course": "주 2~3회 발생, 최근 빈도 증가",
+        "character": "주로 자정에서 새벽 2시 사이에 발생, 갑자기 소리를 지르거나 울고, 땀을 흘림. 잠에서 완전히 깨지 않고, 금방 다시 잠듬.  무서운 꿈을 꾸는 것 같지는 않음. 낮잠은 잘 잠. 수면 시간은 8~9시간. 불안하거나 겁이 많은 성격은 아님.  키 120cm, 몸무게 25kg.",
+        "associatedSymptoms": "[수면장애]  낮잠을 자도 피곤함(-), 코골이(-), 수면 중 호흡곤란(-), [정서행동]  불안/공포/우울(-/-/-), 주의력결핍과잉행동장애(-),  [신체계]  발열/두통/복통(-/-/-), 야뇨증(-)",
+        "factors": "특별한 스트레스 요인 없음. 가족력 없음. 어린이집 생활은 원만함.",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "medications": "없음",
+          "social": "어린이집 다님, 친구들과 잘 지냄"
+        }
+      },
+      "physicalExam": {
+        "general": "발달은 정상, 영양상태 양호",
+        "heent": "특이소견 없음",
+        "chest": "특이소견 없음",
+        "extremity": "특이소견 없음"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "야경증",
+          "수면장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "수면다원검사(필요시)",
+          "정신과적 평가(필요시)"
+        ],
+        "therapeutic": [
+          "수면위생 교육",
+          "규칙적인 수면습관 형성",
+          "안정적인 수면환경 조성"
+        ]
+      }
+    }
+  ]
+}

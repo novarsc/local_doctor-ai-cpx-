@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 35,
+        "gender": "남자"
+      },
+      "situation": "35세 남자 김민수씨가 건강에 대한 걱정으로 인해 일상생활에 어려움을 겪고 있다며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.5℃"
+      },
+      "chiefComplaint": "몸에 이상이 있는 것 같아 걱정돼요. 잠도 잘 안 오고, 계속 불안해요.",
+      "suicideAssessment": {
+        "onset": "6개월 전",
+        "location": null,
+        "ideation": {
+          "trigger": "건강에 대한 과도한 걱정",
+          "frequency": "매일"
+        },
+        "plan": null,
+        "attempt": null
+      },
+      "psychiatricHistory": {
+        "premorbidPersonality": "예민하고 꼼꼼한 성격",
+        "relationships": {
+          "family": "아내와의 관계는 좋으나, 건강 걱정으로 인해 다툼이 잦음.",
+          "peer": "친구들과의 만남은 줄었으며, 건강에 대한 걱정으로 인해 대화가 어려움."
+        },
+        "depressionSymptoms": "우울/흥미 감소/식욕 감소/수면 변화/피로감(-/-/+/+/+), 자살/집중력/기억력 감소/무가치감/죄책감(-/-/+/+), 불면(매일 3시간 미만 수면)",
+        "otherSymptoms": "환시/환청/조증/충동성(-/-/-/-)"
+      },
+      "pastHistory": {
+        "social": "흡연(-), 음주(+, 주 2회 소주 2잔), 직업: 회사원"
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "skin": "피부 긴장도(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-)",
+        "extremity": "특이소견 없음"
+      },
+      "patientQuestion": "제가 정말 아픈 건 아닌가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "건강염려증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "신체 검사",
+          "심리 검사"
+        ],
+        "therapeutic": [
+          "인지행동치료",
+          "약물치료(필요시)"
+        ]
+      },
+      "specialNote": "환자는 자신의 건강에 대한 과도한 걱정을 호소하며, 실제로는 신체적인 이상이 발견되지 않음."
+    }
+  ]
+}

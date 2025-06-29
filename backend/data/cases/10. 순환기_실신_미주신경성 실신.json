@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민지",
+        "age": 19,
+        "gender": "여자"
+      },
+      "situation": "어제 기절했다며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "갑자기 기절했어요",
+      "history": {
+        "onset": "어제 오후 3시",
+        "location": "강의실",
+        "duration": "약 30초",
+        "experience": "강의 도중 갑자기 어지러워서 쓰러짐. 의식을 잃었고, 주변 학생들이 도와주었다고 함.  과거에도 비슷한 경험이 2번 정도 있었는데, 모두 오래 서 있거나 갑자기 일어설 때 발생했음.",
+        "character": {
+          "preSyncope": "N/V(-/-), 어지러움(+), 눈 앞 캄캄함(+), 두근거림(-)",
+          "syncope": "경련(-), 쓰러질 때 책상에 머리를 부딪힘. 안구편위/혀깨문 흔적(-/-)",
+          "postSyncope": "두통(-), 팔다리 힘 빠짐(+), 힘이 없는 느낌/피로한 느낌(+/+). 메스꺼움(+), 식은땀(+)"
+        },
+        "associatedSymptoms": {
+          "general": "발열/오한/피로/식은땀/체중감소(-/-/-/-/-)",
+          "circulatory": "두근거림/호흡곤란(-/-)",
+          "gi": "설사/구토/혈변/흑색변/토혈(-/-/-/-/-)",
+          "respiratory": "가슴 통증(-)",
+          "renal": "다음/다뇨/다갈(-/-/-), 혈뇨(-)",
+          "neuro": "두통/시야장애/보행장애/팔다리 힘 빠짐(-/-/-/-)",
+          "psych": "죽을 것 같은 공포감/불안(-/-)"
+        },
+        "factors": "오래 서 있을 때, 갑자기 일어날 때, 스트레스 받을 때 악화되는 경향이 있음.  어제는 강의 시간에 오랫동안 서 있었음.",
+        "pastMedicalHistory": "특이 사항 없음"
+      },
+      "pastHistory": {
+        "surgical": "없음",
+        "medications": "없음",
+        "social": "술, 담배 안 함. 커피 하루 1잔.  최근 시험 기간으로 수면 부족 및 스트레스가 심함."
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "결막/구강/손등 피부 긴장도(-/-/-), 머리 시/촉(-/-), 외상(이마에 작은 찰과상). 뇌신경/EOM 정상, 경동맥 청진(-)",
+        "chest": "심음 청진(-)",
+        "extremity": "팔다리 근력/감각(-/-), Pitting edema(-)"
+      },
+      "patientQuestion": "앞으로 또 이렇게 될까봐 걱정돼요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "미주신경성 실신",
+          "기립성 저혈압",
+          "저혈당"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "기립경 검사",
+          "심전도",
+          "혈당검사"
+        ],
+        "therapeutic": [
+          "안심시키고 실신 시 대처 방법 교육",
+          "위험 요인(e.g. 스트레스 및 악화 상황) 회피 교육",
+          "실신 재발 시 약물 치료 고려"
+        ]
+      }
+    }
+  ]
+}

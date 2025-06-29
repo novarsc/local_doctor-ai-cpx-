@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "72세 남자 김민수씨가 오른쪽 옆구리 통증과 발열로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "95회/분",
+        "respiration": "20회/분",
+        "temperature": "38.8℃"
+      },
+      "chiefComplaint": "오른쪽 옆구리가 아프고 열이 나요",
+      "history": {
+        "onset": "3일 전",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "오른쪽 옆구리 통증, 찌르는 듯한 통증, 심호흡 시 악화, 발열(38℃ 이상), 오한, 빈뇨, 야뇨, 소변량 감소, 소변색 진해짐, 혈뇨(-)",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 피로(+), 식욕부진(+), 체중변화(-)",
+          "digestive": "메스꺼움(+), 구토(-), 설사(-)",
+          "circulatory": "두근거림(-), 어지러움(-), 호흡곤란(-)",
+          "renal_urinary": "빈뇨(+), 야뇨(+), 배뇨통(-), 주저뇨(-), 혈뇨(-), 요끊김(-), 아랫배 힘주는 증상(-), 잔뇨감(-), 오른쪽 옆구리 통증(+)",
+          "musculoskeletal_skin": "피부 가려움(-), 부종(-)"
+        },
+        "factors": "최근 감기(-), 심한 운동(-), 사우나(-), 여행(-), 수분섭취량 감소(+), 당뇨병 병력(+), 고혈압 병력(+) ",
+        "pastHistory": {
+          "medical": "당뇨병(+), 고혈압(+), 고지혈증(-)",
+          "medications": "메트포르민, 로사르탄, 스타틴",
+          "social": "흡연(+, 30갑년), 음주(+, 소주 1병/주)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감 존재, 활력징후 불안정",
+        "heent": "결막 창백(-), 구강 건조(-)",
+        "abdomen": "오른쪽 측복부 압통(+), 반발압통(+), 방광 팽만(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "제가 무슨 병에 걸린 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 신우신염",
+          "요로결석",
+          "신장농양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사(일반검사, 배양검사)",
+          "혈액검사(CBC, CRP, BUN, Creatinine)",
+          "복부 초음파",
+          "경정맥 신우 조영술(IVP)"
+        ],
+        "therapeutic": [
+          "항생제 치료(경험적 항생제 투여)",
+          "수액 요법",
+          "통증 조절(진통제 투여)",
+          "수분 섭취 증가 권고"
+        ]
+      }
+    }
+  ]
+}

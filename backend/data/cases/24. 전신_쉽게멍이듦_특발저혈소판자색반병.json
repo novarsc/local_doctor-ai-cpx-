@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 65,
+        "gender": "남자"
+      },
+      "situation": "65세 남자 김민수씨가 전신에 자주색 반점이 생겨 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "몸에 자주색 반점이 많이 생겼어요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "다리에서 시작하여 몸 전체로 퍼짐",
+        "duration": "3일째 지속",
+        "course": "점점 수가 많아지고 크기도 커짐",
+        "experience": "처음",
+        "character": "[색] 자주색\n[크기] 2~5mm\n[개수] 매우 많음\n[모양] 다양함\n누르면 색이 바래지 않음, 통증 없음, 가려움 없음",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중변화(-)",
+          "digestive": "복통(-), 설사(-), 변비(-), 식욕부진(-)",
+          "urinary": "혈뇨(-), 소변량 변화(-)",
+          "neurological": "두통(-), 어지러움(-)",
+          "endocrine": "다른 증상 없음",
+          "bleeding_tendency": "잇몸출혈(+), 코피(+)"
+        },
+        "factors": "최근 특별한 외상이나 질병 없음",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용중(로사르탄)",
+          "social": "음주(가끔), 흡연(과거력 있음), 직업: 은퇴",
+          "family": "혈액질환 가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "전신 상태 양호, 활력징후 안정적",
+        "heent": "귀, 코, 목, 눈 정상 소견",
+        "chest": "흉부 청진 정상",
+        "abdomen": "복부 촉진 정상, 비장 비대 없음",
+        "extremity": "양쪽 다리에 자주색 반점 다수 관찰, 압통 없음"
+      },
+      "patientQuestion": "이게 무슨 병인가요? 심각한 병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "특발성 저혈소판성 자반병(ITP)",
+          "혈전성 혈소판 감소성 자반병(TTP)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CBC, 말초혈액도말검사)",
+          "혈소판 기능 검사",
+          "응고검사(PT, PTT, INR)"
+        ],
+        "therapeutic": [
+          "경과 관찰",
+          "필요시 스테로이드 치료"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 9,
+      "patientProfile": {
+        "name": "박채린",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "38주차 정기 산전 진찰을 위해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "진통이 시작된 것 같아요.",
+      "history": {
+        "onset": "3시간 전부터",
+        "location": "하복부",
+        "duration": "3시간 지속, 점점 강해짐",
+        "course": "규칙적인 간격으로 통증이 반복됨",
+        "character": "규칙적인 간격으로 나타나는, 점차 강해지는 하복부 통증.  생리통과 비슷하지만 훨씬 강함.",
+        "associatedSymptoms": {
+          "gynecological": "질 분비물 증가(점액성), 질 출혈 없음"
+        },
+        "pastHistory": {
+          "obstetricHistory": "1-0-0-1. 첫째 2년 전 자연분만, 현재 임신 38주.",
+          "contraception": "피임약 복용 후 중단",
+          "lastMenstrualPeriod": "12월 10일",
+          "menstrualHistory": "규칙적, 양/색/월경통 이상 없음",
+          "medical": "특이 병력 없음.",
+          "vaccination": "임신 전 예방접종 완료",
+          "medications": "엽산, 철분제 복용 중",
+          "social": "흡연(-), 음주(-), 커피(1일 1잔 이하), 운동(산책)",
+          "family": "특이 가족력 없음"
+        },
+        "etc": {
+          "patientBio": "키 165cm, 체중 65kg (임신 전 55kg)",
+          "partnerBio": "혈액형 A형 Rh+"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "이상 없음",
+        "abdomen": "자궁 촉진 시 경직, 태아 심박동 정상(140회/분). 골반 내진: 자궁 경부 2cm 개대, 50% 소실. 양막 파수 없음.",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "자연분만 가능할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "정상 진통",
+          "조기진통(가능성 낮음)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "초음파 검사",
+          "NST"
+        ],
+        "therapeutic": [
+          "진통 경과 관찰",
+          "진통 강도 및 간격 확인",
+          "분만 준비"
+        ]
+      }
+    }
+  ]
+}

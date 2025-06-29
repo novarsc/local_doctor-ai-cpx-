@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 22,
+        "gender": "여자"
+      },
+      "situation": "22세 여자 김민지씨가 2주 동안 계속 우울하고 아무것도 하고 싶지 않다고 하여 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "2주 동안 계속 우울하고 아무것도 하기 싫어요.",
+      "suicideAssessment": {
+        "onset": "2주 전",
+        "location": "집",
+        "ideation": {
+          "trigger": "대학 졸업 후 취업 실패",
+          "frequency": "가끔"
+        },
+        "plan": null,
+        "attempt": null
+      },
+      "psychiatricHistory": {
+        "premorbidPersonality": "대학 시절에는 활발하고 사교적이었으나, 최근 2주 동안 극심한 우울감을 경험함.",
+        "relationships": {
+          "family": "부모님과의 관계는 좋으나, 최근 자신의 상황 때문에 부모님에게 짐이 된다는 생각에 죄책감을 느낌.",
+          "peer": "친구들과는 연락을 잘 하지 않음."
+        },
+        "depressionSymptoms": "우울/흥미 감소/식욕 감소/수면 변화/피로감(+/+/+/+/+), 자살/집중력/기억력 감소/무가치감/죄책감(+/-/+/+/+), 불면(매일 4시간 미만 수면)",
+        "otherSymptoms": "환시/환청/조증/충동성(-/-/-)"
+      },
+      "pastHistory": {
+        "social": "흡연(-), 음주(-), 직업: 무직"
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "skin": "피부 긴장도(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-)",
+        "extremity": "edema(-)"
+      },
+      "patientQuestion": "어떻게 하면 좀 나아질 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "주요 우울장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "우울척도검사"
+        ],
+        "therapeutic": [
+          "항우울제 처방",
+          "정신치료 시작"
+        ]
+      },
+      "specialNote": "환자는 매우 협조적이며 치료에 대한 의욕을 보임."
+    }
+  ]
+}

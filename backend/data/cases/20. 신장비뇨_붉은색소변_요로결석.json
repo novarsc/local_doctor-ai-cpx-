@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 박민수씨가 극심한 우측 옆구리 통증과 혈뇨를 호소하며 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "95회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "옆구리가 너무 아파요. 소변에 피도 섞여 나와요.",
+      "history": {
+        "onset": "2시간 전",
+        "course": "점점 심해짐",
+        "experience": "처음 발생",
+        "character": "[양] 정확히 모르겠음, [색] 진한 붉은색, 핏덩이 (+), 냄새(-), 거품(-), 소변량 감소(+), 옆구리 통증이 갑자기 시작됨, 움직일 때 더 심해짐",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 체중 변화(-), 탈수(-), 메스꺼움(+), 구토(-), 감기 증상(-), 근육통(-), 부종(-)",
+          "digestive": "구역/구토/어지럼증(+/-/-)",
+          "renal_urinary": "F/U/N/D/H/I/S(-/-/-/-/-/-/-), 옆구리 통증(+), 하복부 통증(-), 거품뇨(-)",
+          "other": "출혈 경향(-)"
+        },
+        "factors": "심한 운동(+, 등산), 사우나(-), 스트레스(+), 불면(-), 최근 X-ray/CT(-/-)",
+        "pastHistory": {
+          "medical": "고혈압 진단받고 약 복용 중",
+          "medications": "고혈압약(Amlodipine 5mg 1일 1회)",
+          "social": "음주(+, 맥주 1일 1병), 흡연(-), 운동(등산, 주 2회), 직업 : 회사원, 식사 : 불규칙적",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정, 통증 호소",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "abdomen": "CVAT(우측 +), 복부 촉진(-), DRE(-), 신동맥 잡음(-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이게 뭐가 문제인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "요로결석",
+          "신우신염",
+          "요관암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (CBC, BUN, Creatinine, Electrolytes)",
+          "소변검사 (Urinalysis, Urine culture)",
+          "복부 단순촬영",
+          "복부 초음파",
+          "비뇨기과 전문의 진료 의뢰"
+        ],
+        "therapeutic": [
+          "통증 조절 (Analgesics)",
+          "수액 요법",
+          "필요시 체외충격파쇄석술(ESWL) 고려"
+        ]
+      }
+    }
+  ]
+}

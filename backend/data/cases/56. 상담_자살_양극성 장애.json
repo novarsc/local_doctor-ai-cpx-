@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "강민준",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "28세 남자 강민준씨가 최근 극심한 기분 변화와 불면으로 인해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "잠을 못 자고, 기분이 너무 들뜨거나 너무 가라앉아요.",
+      "suicideAssessment": {
+        "onset": "2주 전",
+        "location": "집",
+        "ideation": {
+          "trigger": "직장에서 승진 실패",
+          "frequency": "간헐적"
+        },
+        "plan": null,
+        "attempt": null
+      },
+      "psychiatricHistory": {
+        "premorbidPersonality": "평소 활동적이고 사교적인 성격이었으나, 최근 들어 예민해지고 집중력이 떨어짐.",
+        "relationships": {
+          "family": "부모님과는 사이가 좋으나, 최근 기분 변화로 인해 갈등이 발생.",
+          "peer": "친구들과의 관계는 유지되고 있으나, 최근 만남이 줄어듬."
+        },
+        "depressionSymptoms": "우울/흥미 감소/식욕 변화/수면 변화/피로감/자살(+/-/+/+/+), 집중력/기억력 감소/무가치감/죄책감(+/-/+/+), 불면(매일 2시간 미만 수면)",
+        "otherSymptoms": "환시/환청/조증/충동성(-/-/+), 과도한 지출(+)"
+      },
+      "pastHistory": {
+        "social": "흡연(+, 하루 1갑), 음주(+, 주 3회 소주 3병), 직업: 회사원"
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "skin": "피부 긴장도(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-)",
+        "extremity": "(-)"
+      },
+      "patientQuestion": "병원에 입원해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "양극성 장애 I형"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "정신과적 평가",
+          "기분장애 척도 검사"
+        ],
+        "therapeutic": [
+          "기분 안정제 처방",
+          "정신치료 상담",
+          "생활 규칙 수립"
+        ]
+      },
+      "specialNote": "환자는 현재 심한 기분 변화와 수면 장애를 호소하며, 과도한 지출과 충동적인 행동을 보이고 있다.  가족과의 상담 및 지속적인 관찰이 필요하다."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 6,
+        "gender": "남자"
+      },
+      "situation": "6세 남자 김민수 군이 경련을 하여 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "20회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "갑자기 경련을 했대요.",
+      "history": {
+        "onset": "30분 전",
+        "location": "놀이터에서 놀던 중",
+        "duration": "약 2분",
+        "experience": "처음 발생",
+        "character": "놀이터에서 놀다가 갑자기 의식을 잃고 전신 경련을 보였다고 함.  경련 후에는 잠시 혼돈 상태를 보였으나 현재는 의식이 명료함.  혀 깨물림이나 배뇨, 배변은 없었음.  경련 전 특별한 전조 증상은 없었음.  어머니에 따르면 아침에 밥을 거의 먹지 않았다고 함.",
+        "associatedSymptoms": "[전신] 발열/오한/피로(-/-/-) [신경] 두통/어지러움/구토(-/-/-)",
+        "factors": "아침 식사 거부, 평소보다 활동량 증가",
+        "pastHistory": {
+          "medical": "특이 질환 없음",
+          "trauma_surgery": "없음",
+          "social": "유치원생, 활동적임. 규칙적인 식사,  수면 시간 충분함."
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적.  의식 명료함.",
+        "heent": "두부 외상 없음.",
+        "neuro": "신경학적 검사상 이상 없음.  근력, 감각 정상.",
+        "extremity": "팔다리 운동 범위 정상."
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "저혈당성 경련"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈당 측정",
+          "혈액검사 (전해질, 간기능, 신기능)",
+          "뇌파 검사"
+        ],
+        "therapeutic": [
+          "포도당 수액 투여",
+          "경련 재발 방지 교육",
+          "규칙적인 식사 강조"
+        ]
+      }
+    }
+  ]
+}

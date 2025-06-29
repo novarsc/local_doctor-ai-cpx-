@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 전신에 자색 반점이 생겨 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "온몸에 멍이 생겼어요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "발목에서 시작하여 다리, 몸통으로 퍼짐",
+        "duration": "3일째 지속",
+        "course": "점점 넓어지고 숫자가 많아짐",
+        "experience": "처음",
+        "character": "[색] 자주색\n[크기] 다양(2~10mm)\n[개수] 매우 많음\n압박시 퇴색되지 않음, 가려움(+), 통증(-), 열감(-)",
+        "associatedSymptoms": {
+          "general": "피로감(+), 발열(+)",
+          "digestive": "복통(-), 설사(-), 구토(-)",
+          "urinary": "혈뇨(-), 소변량 감소(-)",
+          "neurological": "두통(-), 어지러움(-)",
+          "endocrine": "자색선조(-)",
+          "bleeding_tendency": "잇몸 출혈(+), 코피(+)"
+        },
+        "factors": "최근 과로, 수면 부족",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 심혈관 질환(-)",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "흡연(+), 음주(+), 직업: 사무직",
+          "family": "혈액응고 장애 가족력(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "열감(+), 활력징후 불안정",
+        "heent": "결막 창백(-), 경부 림프절 비대(-)",
+        "chest": "흉부 청진 정상",
+        "abdomen": "복부 압통(-), 간 비대(-)",
+        "extremity": "전신에 다양한 크기의 자색 반점 관찰, 압박시 퇴색되지 않음"
+      },
+      "patientQuestion": "이게 무슨 병인가요? 위험한 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "혈전성혈소판감소성자반병 (TTP)",
+          "Disseminated intravascular coagulation (DIC)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "말초혈액검사",
+          "혈소판 수치 측정",
+          "혈액 응고검사",
+          "혈액 도말 검사"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "혈장 교환술",
+          "경과 관찰",
+          "지지 요법"
+        ]
+      }
+    }
+  ]
+}

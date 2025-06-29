@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김철수씨가 허리 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "허리가 아파요",
+      "history": {
+        "onset": "2주 전",
+        "location": "허리 중앙, 왼쪽 엉덩이 방사통",
+        "duration": "간헐적 통증, 앉아 있거나 서 있을 때 악화",
+        "course": "무거운 물건을 들다가 시작됨",
+        "experience": "처음 발생",
+        "character": "심한 찌르는 듯한 통증, NRS 7점, 왼쪽 다리 저림 동반",
+        "associatedSymptoms": {
+          "neurological": "왼쪽 다리 저림, 무릎 아래 감각 저하, 발가락 힘 약화, 배뇨장애 없음"
+        },
+        "factors": "무거운 물건 들기, 장시간 앉아 있기 악화, 휴식 시 완화",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연 1갑/일, 음주 주 2회",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "정상",
+        "abdomen": "정상",
+        "extremity": "왼쪽 다리 straight leg raise test 양성, 왼쪽 발가락 힘 약화, 감각 저하,  요추 압통,  움직임 제한"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "요추간판탈출증(L4-L5)",
+          "요추 염좌",
+          "척추관 협착증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요추 MRI",
+          "신경학적 검사"
+        ],
+        "therapeutic": [
+          "진통제, 소염제",
+          "물리 치료",
+          "근육 이완제"
+        ]
+      }
+    }
+  ]
+}

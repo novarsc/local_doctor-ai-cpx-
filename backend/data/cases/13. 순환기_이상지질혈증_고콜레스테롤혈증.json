@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "최근 건강검진에서 콜레스테롤 수치가 높다는 결과를 받고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "150/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "콜레스테롤 수치가 높대요",
+      "history": {
+        "labResults": "총 콜레스테롤 270mg/dL, LDL-콜레스테롤 190mg/dL, HDL-콜레스테롤 40mg/dL, 중성지방 180mg/dL",
+        "associatedSymptoms": {
+          "general": "체중 변화 없음, 가끔 피로감 느낌",
+          "cardiovascular": "흉통(-), 두근거림(-)",
+          "neuro": "두통(-), 시야 흐림(-), 어지러움(-)"
+        },
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 흡연(+, 30갑년)",
+          "medications": "암로디핀 5mg 1일 1회",
+          "social": "음주 (주 2회 소주 1병), 흡연 (하루 1갑), 운동 (주 1회 가벼운 산책)",
+          "family": "부친 - 심근경색 병력"
+        }
+      },
+      "physicalExam": {
+        "heent": "황색판종(-), 각막환(-)",
+        "chest": "심잡음(-), 호흡음 clear",
+        "abdomen": "간비대(-)",
+        "extremity": "아킬레스건 비후(-)"
+      },
+      "patientQuestion": "어떤 치료를 받아야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "일차성 고콜레스테롤혈증",
+          "관상동맥질환 위험 증가"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도 검사",
+          "혈중 지질 검사 재검",
+          "간기능 검사"
+        ],
+        "therapeutic": [
+          "아토르바스타틴 10mg 1일 1회 시작",
+          "금연 상담 및 금연 프로그램 권유",
+          "생활 습관 개선 교육 (식이요법, 운동)"
+        ]
+      }
+    }
+  ]
+}

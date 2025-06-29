@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 48,
+        "gender": "남자"
+      },
+      "situation": "가족의 권유로 금주 상담을 위해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "술을 끊고 싶은데 힘드네요.",
+      "history": {
+        "drinkingHistory": {
+          "amount": "소주 2병, 매일 저녁",
+          "onset": "20대 중반",
+          "reason": "스트레스 해소 및 사회적 어울림"
+        },
+        "motivationToQuit": "최근 건강검진에서 간수치가 높게 나왔고, 아내와 자녀들이 걱정하고 있음.",
+        "previousAttempts": "몇 번 시도했지만 3일 이상 지속하지 못함.",
+        "CAGE": {
+          "CutDown": "시도했으나 실패",
+          "Annoyed": "아내가 잔소리함",
+          "Guilty": "술 마신 후 후회함",
+          "EyeOpener": "아침에 술을 마시지는 않음"
+        },
+        "abuseAndDependence": {
+          "abuse": "음주 후 직장에서 실수한 적 있음.",
+          "dependence": {
+            "withdrawal": "손 떨림/불안/불면/메스꺼움(-/+/-/-)",
+            "tolerance": "술 마시는 양은 변화 없음.",
+            "etc": "필름이 끊긴 적은 없음."
+          }
+        },
+        "associatedSymptoms": "체중 증가(+)/속쓰림(+)/소화 불량(+)/황달(-)/피로(+)",
+        "socialHistory": "흡연(+), 직업: 회사원, 스트레스(+)"
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도(-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "어떻게 술을 끊을 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "알코올 의존"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "간기능검사",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "금주 상담",
+          "약물치료(Naltrexone 고려)",
+          "지지 집단 상담"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28주차 산전 진찰을 위해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "요즘 갑자기 배가 자주 아파요.",
+      "history": {
+        "onset": "3일 전부터",
+        "location": "하복부",
+        "duration": "간헐적, 10분 정도 지속, 2시간 간격",
+        "course": "점점 심해지는 것 같아요",
+        "character": "쥐어짜는 듯한 통증, 뻐근함, 콕콕 찌르는 듯한 통증 동반",
+        "associatedSymptoms": {
+          "gynecological": "질출혈(+, 소량의 진한 갈색 출혈)",
+          "gastrointestinal": "오심(+), 구토(-)"
+        },
+        "pastHistory": {
+          "obstetricHistory": "1-0-0-1. 첫째 2년 전 자연분만, 현재 임신 28주, 이번 임신 계획임신",
+          "contraception": "피임약 복용 안 함",
+          "lastMenstrualPeriod": "30주 전",
+          "menstrualHistory": "규칙적, 양/색/월경통 이상 없음",
+          "medical": "특이 질환 없음",
+          "vaccination": "임신 전 예방접종 완료",
+          "medications": "엽산, 철분제 복용 중",
+          "social": "흡연(-), 음주(-), 커피(1일 1잔), 직업(회사원), 운동(주 3회 요가)",
+          "family": "유전 질환/기형 없음"
+        },
+        "etc": {
+          "patientBio": "키 165cm, 체중 62kg (임신 전 52kg)",
+          "partnerBio": null
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "abdomen": "복부 팽만감(+), 압통(+, 하복부), 방어긴장(-), 태아 심음 청진 정상, 초음파 검사 시행: 전치태반 의심 소견",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "아기에게 위험하지 않을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "전치태반",
+          "자궁수축"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "초음파 검사(태반 위치 확인)",
+          "혈액검사(빈혈, 혈액응고 기능 검사)",
+          "비스트레스 검사(NST)"
+        ],
+        "therapeutic": [
+          "절대 안정 권고",
+          "수축억제제 투여 고려",
+          "자궁출혈 모니터링",
+          "분만 방법 결정(제왕절개술 고려)"
+        ]
+      }
+    }
+  ]
+}

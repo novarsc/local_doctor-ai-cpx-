@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 김민지씨가 심한 피로감과 체중 감소를 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "95회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "너무 피곤하고 살이 계속 빠져요.",
+      "history": {
+        "onset": "3개월 전부터 서서히 시작됨",
+        "location": "전신적인 체중 감소",
+        "course": "처음에는 피로감만 느꼈으나, 최근 2개월 동안 5kg 감량, 식욕은 변화 없음",
+        "character": "키 162cm, 체중 58kg → 53kg, 옷이 커짐, 주변에서 살 빠졌다는 말을 자주 함",
+        "associatedSymptoms": {
+          "general": "발열/오한(-/-), 피로(+, 심함), 부종(-), 체중 감소(+, 5kg)",
+          "digestive": "식욕 변화 없음, A/N/V/D/C(-/-/-/-/-)",
+          "endocrine": "더위불내성(+, 심함), 두근거림(+, 심함), 두통(-), 식은땀(-), 다갈(-)",
+          "respiratory": "기침/가래(-/-)",
+          "urinary": "다음/다뇨/거품뇨(-/-/-), 부종(-)",
+          "psychiatric": "우울/불안(-/-), 수면장애(+)"
+        },
+        "factors": "특별한 스트레스 요인 없음, 음주 습관 없음",
+        "pastHistory": {
+          "medical": "고혈압(5년 전 진단, 약물 복용 중)",
+          "medications": "고혈압 약 복용 중",
+          "social": "운동량 적음, 직업: 회사원(사무직), 음주/흡연(-/-)",
+          "family": "갑상선 질환 가족력 없음",
+          "obgyn": "폐경 전"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 혈압, 맥박 상승",
+        "heent": "눈: 안구 돌출 없음, 구강: 정상, 갑상샘: 약간 비대, 림프절: 촉진 안됨",
+        "abdomen": "복부 시진/청진/타진/촉진: 정상",
+        "extremity": "말초 부종 없음"
+      },
+      "patientQuestion": "이렇게 갑자기 살이 빠지고 피곤한 게 혹시 큰 병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "갑상샘항진증",
+          "빈혈",
+          "감염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (CBC, 갑상선 기능 검사, 혈액 화학 검사)",
+          "갑상선 초음파"
+        ],
+        "therapeutic": [
+          "증상 완화를 위한 약물 처방 고려"
+        ]
+      }
+    }
+  ]
+}

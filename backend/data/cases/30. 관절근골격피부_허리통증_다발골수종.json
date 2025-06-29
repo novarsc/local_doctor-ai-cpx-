@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "72세 남자 김철수씨가 2달 전부터 시작된 허리 통증과 피로감으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "허리가 아프고 힘이 없어요",
+      "history": {
+        "onset": "2개월 전",
+        "location": "허리 전체, 특히 척추 부위",
+        "duration": "지속적",
+        "course": "점차 심해짐",
+        "experience": "처음 발생",
+        "character": "심한 압박감과 통증, 밤에 악화, NRS 7점, 휴식 시에도 통증 지속",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중 감소(5kg), 식욕 감소(+), 발열(-), 야간 발한(-)",
+          "hematologic": "빈혈(+), 잦은 코피(+), 멍이 잘 생김(+)",
+          "neurological": "하지 무력감(+), 감각 이상(-), 배뇨 장애(-)"
+        },
+        "factors": "악화 요인: 활동, 움직임,  완화 요인: 휴식, 진통제(일시적 효과)",
+        "pastHistory": {
+          "medical": "고혈압(10년 경력), 고지혈증(5년 경력)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약, 고지혈증 약 복용 중",
+          "social": "흡연 30갑년, 음주(주 2회 소주 1병)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "피로감, 저체중",
+        "heent": "결막 창백, 빈혈 소견",
+        "abdomen": "압통 없음",
+        "extremity": "하지 근력 약화, 척추 압통(+), 신경학적 이상 없음"
+      },
+      "patientQuestion": "제가 왜 이렇게 아픈 거죠?",
+      "impression": {
+        "likelyDiagnoses": [
+          "다발골수종",
+          "척추 전이암",
+          "골다공증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사(혈구 수, 혈색소, 혈청 단백질 전기영동, 면역글로불린, 유리 경쇄, 베타-2-마이크로글로불린)",
+          "골수 검사",
+          "골수 천자",
+          "영상 검사(X-ray, MRI)",
+          "소변 검사(베네 존스 단백)",
+          "혈액 검사(CRP, ESR)"
+        ],
+        "therapeutic": [
+          "진통제",
+          "수액 요법",
+          "항암 화학 요법"
+        ]
+      }
+    }
+  ]
+}

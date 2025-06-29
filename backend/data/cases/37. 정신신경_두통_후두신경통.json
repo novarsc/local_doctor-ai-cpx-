@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "최순자",
+        "age": 68,
+        "gender": "여자"
+      },
+      "situation": "68세 여자 최순자씨가 왼쪽 귀 뒤쪽 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "왼쪽 귀 뒤가 찌릿찌릿 아파요",
+      "history": {
+        "onset": "3주 전",
+        "location": "왼쪽 귀 뒤쪽, 턱 아래쪽까지 퍼지는 듯한 느낌",
+        "duration": "간헐적, 몇 초에서 몇 분씩 지속",
+        "course": "점차 빈도 증가",
+        "experience": "처음 발생",
+        "character": "찌릿찌릿하거나 칼로 찌르는 듯한 날카로운 통증, 욱신거림 동반, VAS 8점",
+        "associatedSymptoms": "[전신] 발열/오한/체중변화(-/-/-), 피로(+) [신경] 어지럼/구토/얼굴 감각 이상(-/-/+) [삼차신경통] 턱 움직임 시 통증 증가(+), 양치질 시 통증(+) [군발두통] 눈물/안구 통증(-/-)",
+        "factors": "특별한 악화 요인 없음, 밤에 더 심한 듯",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "medications": "고혈압 약, 당뇨병 약",
+          "social": "술/담배(-/-), 커피(1잔/일), 운동(가벼운 산책)",
+          "family": "고혈압 가족력"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "외이도 및 고막 정상, 왼쪽 귀 뒤쪽 압통(+), 턱 움직임 시 통증 호소(+)",
+        "neuro": "뇌신경 검사 정상, 감각 저하 범위 확인,  삼차신경 분포 영역 압통(+)"
+      },
+      "patientQuestion": "이런 통증이 왜 생기는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "후두신경통",
+          "삼차신경통",
+          "대상포진"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "MRI",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "카르바마제핀 처방",
+          "소염진통제 처방",
+          "물리치료 상담"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 27,
+        "gender": "남자"
+      },
+      "situation": "심장이 두근거린다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "95회/분",
+        "respiration": "18회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "심장이 두근거립니다.",
+      "history": {
+        "onset": "오늘 오전부터",
+        "duration": "간헐적, 10분 정도 지속",
+        "course": "점점 심해지는 느낌은 아님",
+        "experience": "처음",
+        "character": "[양상] 심장이 빨리 뛰는 느낌, 규칙적인 듯. [정도] NRS 3점. [동반증상] 흉통(-), 어지럼(-), 호흡곤란(-)",
+        "associatedSymptoms": {
+          "general": "발열/오한(-/-), 체중 변화(-), 피로(-)",
+          "endocrine": "손떨림(-), 더위/추위 불내성(-/-)",
+          "gi": "소화불량(-)"
+        },
+        "factors": "커피 3잔 마신 후 시작, 평소 커피 자주 마심(하루 4~5잔)",
+        "pastHistory": {
+          "medical": "DM/TB/HTN/간염(-/-/-/-)",
+          "social": "직업: 웹 디자이너, 흡연(-), 음주(주 1회 소주 2잔)",
+          "family": "특이사항 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이소견 없음",
+        "extremity": "특이소견 없음",
+        "cv": "심음 청진상 특이소견 없음"
+      },
+      "patientQuestion": "심장에 문제가 있는 건 아닐까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "카페인 유발 두근거림",
+          "심계항진",
+          "기능성 심계항진"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "혈액검사(기본 혈액 검사)"
+        ],
+        "therapeutic": [
+          "커피 섭취 줄이기",
+          "충분한 수면 및 휴식",
+          "필요시 베타 차단제"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "최민수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 최민수씨가 갑작스러운 두통과 의식 소실 후 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "160/90mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "갑자기 머리가 너무 아팠어요.",
+      "history": {
+        "onset": "30분 전",
+        "location": "머리 전체",
+        "duration": "지속 중",
+        "course": "갑작스럽게 발생",
+        "experience": "처음",
+        "character": "극심한 두통, 뇌가 터질 것 같은 느낌, NRS 10",
+        "associatedSymptoms": "[전신] 구토(+), 의식 소실(+, 5분 정도), 발열(-), 오한(-), [신경] 팔다리 저림(+), 시야 흐림(+), 언어 장애(-), [소화기] 구역감(+)",
+        "factors": "특별한 원인 없음",
+        "pastHistory": {
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(+, 2갑/일, 40년), 음주(+, 소주 1병/일, 30년)",
+          "family": "고혈압 가족력 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "의식이 저하된 상태, 혈압 상승",
+        "heent": "두부 외상 흔적 없음, 경동맥 맥박 촉진시 좌우 차이 없음",
+        "neuro": "의식 수준 저하, 반사 저하, 사지 근력 약화, 브루진스키 징후(-), 케르니그 징후(-)",
+        "extremity": "사지 움직임 저하"
+      },
+      "patientQuestion": "제가 괜찮아질 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "경막 외 출혈",
+          "뇌출혈",
+          "뇌동맥류 파열"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "뇌 MRI",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "혈압 조절",
+          "수술(필요시)"
+        ]
+      }
+    }
+  ]
+}

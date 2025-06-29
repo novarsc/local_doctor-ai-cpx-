@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김민수씨가 발목 부종으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "발목이 부었어요",
+      "history": {
+        "onset": "2주 전",
+        "course": "서서히 악화",
+        "experience": "처음",
+        "character": "양측 발목 부종, 특히 저녁에 심해짐, 통증은 없음, 소변량 변화는 없다고 함",
+        "associatedSymptoms": {
+          "general": "피로(+, 최근 일 많이 함), 체중 변화(+, 2kg 증가), 발열/오한(-/-)",
+          "digestive": "식욕부진(+), 메스꺼움(-), 구토(-), 설사(-)",
+          "circulatory": "호흡곤란(-), 흉통(-), 어지러움(-)",
+          "renal_urinary": "소변량 변화(-), 야뇨(-), 배뇨통(-), 혈뇨(-)",
+          "musculoskeletal_skin": "관절통(-), 근육통(-), 피부 가려움(-)"
+        },
+        "factors": "최근 과로(+), 고혈압 및 당뇨병 병력(+)",
+        "pastHistory": {
+          "medical": "고혈압(10년 경력), 당뇨병(5년 경력)",
+          "medications": "고혈압 약, 당뇨병 약(꾸준히 복용 중)",
+          "social": "흡연(-), 음주(가끔), 운동 부족"
+        }
+      },
+      "physicalExam": {
+        "general": "양측 발목에 pitting edema 관찰",
+        "heent": "눈, 귀, 코, 목소리 정상",
+        "abdomen": "압통 없음, 청진 정상",
+        "extremity": "양측 발목 부종, 피부 변색 없음"
+      },
+      "patientQuestion": "제 발목 부종은 왜 생긴 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "당뇨병성 콩팥병증",
+          "심부전",
+          "신증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(혈당, 크레아티닌, 요소질소, 혈청 알부민, HbA1c)",
+          "소변검사(단백뇨, 미세알부민뇨)",
+          "신장 초음파"
+        ],
+        "therapeutic": [
+          "혈압 조절",
+          "혈당 조절",
+          "식이요법 및 운동 상담",
+          "필요시 ACE inhibitor 처방"
+        ]
+      }
+    }
+  ]
+}

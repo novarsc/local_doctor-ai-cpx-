@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 42,
+        "gender": "여자"
+      },
+      "situation": "42세 여자 김민지씨가 체중 감소와 심계항진을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "100회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "살이 너무 빠지고, 심장이 빨리 뛰어요.",
+      "history": {
+        "onset": "3개월 전",
+        "location": "전신",
+        "course": "점진적으로 심해짐",
+        "experience": "처음",
+        "character": "체중 감소는 꾸준히 진행되었고, 심계항진은 최근 2주 사이에 심해졌음.  잠 못 이루고, 손이 떨리는 증상도 있음.",
+        "associatedSymptoms": "[내분비] 더위를 많이 타고 땀이 많아짐(+), 변비(-), 월경 불규칙(+). [신경계] 손떨림(+), 불안감(+), 초조함(+), 피로감(+). [소화기] 식욕 증가(+)",
+        "factors": "[악화] 긴장 시(+), 스트레스 시(+), [완화] 특별히 없음",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 갑상선 질환(-), 기타 질환(-)",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "직업: 회사원, 스트레스: 최근 업무량 증가, 흡연(-), 음주(가끔)",
+          "family": "갑상선 질환 가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "체중 감소, 안절부절못함, 흥분상태",
+        "heent": "갑상선 종대(+), 눈 돌출(-)",
+        "neuro": "손떨림(+), 진전(+)",
+        "cardiovascular": "빈맥(+), 심잡음(-)"
+      },
+      "patientQuestion": "갑자기 살이 빠지고, 심장이 빨리 뛰는 이유가 뭘까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "갑상샘항진증",
+          "빈혈",
+          "불안장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "갑상선 기능 검사 (TSH, T3, T4, FT3, FT4)",
+          "갑상선 자가항체 검사 (TRAb)",
+          "심전도 검사",
+          "혈액 검사 (CBC)"
+        ],
+        "therapeutic": [
+          "항갑상선제 처방 고려"
+        ]
+      }
+    }
+  ]
+}

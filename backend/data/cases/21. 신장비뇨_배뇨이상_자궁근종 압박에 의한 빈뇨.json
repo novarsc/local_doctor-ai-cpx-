@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 김민지씨가 소변을 자주 본다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.5℃"
+      },
+      "chiefComplaint": "소변을 너무 자주 봐요",
+      "history": {
+        "onset": "3개월 전",
+        "duration": "계속",
+        "course": "점차 증가",
+        "character": "[횟수] 하루 8-10회, 밤에도 2-3회\n[양] 한번에 소변량은 적음\n[성상] 색깔/냄새/거품/혈뇨(-/-/-/-)",
+        "associatedSymptoms": {
+          "general": "발열/체중감소/피로(-/-/-)",
+          "urinary": "빈뇨/절박뇨/야간뇨/배뇨통(+/+/+/-)",
+          "genitals": "외음부 가려움/분비물(-/-)",
+          "other": "골반통(+) 특히 생리 전후 심함"
+        },
+        "factors": "카페인 섭취(+, 하루 2-3잔), 물 섭취량 적당, 스트레스(+)",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-)",
+          "medications": "없음",
+          "social": "흡연(-), 음주(월 1-2회 소주 1병), 직업: 간호사",
+          "family": "특이사항 없음",
+          "obgyn": "월경 규칙적, 자궁근종 진단 받은 적 있음(크기 3cm, 증상 없어서 경과 관찰 중)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "결막/공막(-/-), 구강 건조(-)",
+        "abdomen": "압통(-), 복부진찰(-)",
+        "genitals": "외음부 소견 정상, 질 분비물 없음",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "자궁근종 때문에 소변이 자주 마려운 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "자궁근종 압박에 의한 빈뇨",
+          "과민성 방광"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "골반 초음파",
+          "소변검사"
+        ],
+        "therapeutic": [
+          "골반저 근육 운동 교육",
+          "카페인 섭취 줄이기",
+          "수분 섭취 늘리기",
+          "필요시 약물치료(항콜린성 약물)"
+        ]
+      }
+    }
+  ]
+}

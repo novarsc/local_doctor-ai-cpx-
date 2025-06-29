@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 9,
+      "patientProfile": {
+        "name": "김수현",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 김수현씨가 극심한 무기력감과 슬픔을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "너무 힘들어요. 살고 싶지 않아요.",
+      "history": {
+        "onset": "3개월 전",
+        "duration": "하루 종일, 거의 매일",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "자의로 내원, 과거 활발한 성격이었으나 최근 매우 무기력해짐. 가족과의 관계는 원만함. 직장 생활은 어려움을 겪고 있음. 도움 요청 가능한 사람(+)",
+        "associatedSymptoms": {
+          "digestive": "식욕 감소(+), 변비(+)",
+          "psychiatric": "극심한 우울감(+), 흥미 상실(+), 불안(+), 초조(+)\n수면 장애(+, 불면증), 피로감(+), 의욕 저하(+), 집중력 저하(+)\n자살 생각(+), 자살 계획(-), 자살 시도(-)\n기분이 들뜬 적(-), 환청/환시/망상(-/-/-)",
+          "endocrine": "추위 불내성(-)"
+        },
+        "factors": "직장 내 스트레스(+), 최근 직장 내 괴롭힘 증가(+)",
+        "pastHistory": {
+          "social": "음주(-), 흡연(-), 직업: 사무직, 스트레스(+), 운동(-)",
+          "family": "정신과 병력(-)",
+          "obgyn": "폐경(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 기분 침울, 눈시울 붉음",
+        "heent": "결막/구강/탈수(-/-/-), 갑상샘(-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "제가 언제쯤 다시 괜찮아질 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "주요 우울장애",
+          "적응 장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "우울척도검사(PHQ-9)",
+          "혈액검사(CBC, CMP, TSH)",
+          "신체적 질병 배제를 위한 검사"
+        ],
+        "therapeutic": [
+          "항우울제(SSRI)",
+          "정신치료(인지행동치료)",
+          "지지적 상담"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 60,
+        "gender": "남자"
+      },
+      "situation": "심한 복통으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "22회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "배가 너무 아파요",
+      "history": {
+        "onset": "3시간 전 저녁 식사 후",
+        "location": "상복부",
+        "radiation": "등으로 뻗침",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "심한 칼로 찌르는 듯한 통증, NRS 9점",
+        "associatedSymptoms": {
+          "general": "오한/발열(+/+), 구토(+), 메스꺼움(+)",
+          "gi": "복부 팽만감(+), 식욕부진(+)",
+          "circulatory": "두근거림(-)",
+          "respiratory": "호흡곤란(-)",
+          "msk_skin": "피부 발진(-)",
+          "psych": "불안감(+)"
+        },
+        "factors": "악화: 음식 섭취, 움직임. 완화: 없음",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "흡연(+, 30갑년), 음주(+, 매일 소주 1병), 스트레스(+)",
+          "family": "부친: 심근경색"
+        }
+      },
+      "physicalExam": {
+        "general": "빈맥, 발열, 복부 압통",
+        "heent": "결막/구강(-/-)",
+        "chest": "청진 정상",
+        "abdomen": "압통(+), 반발압통(+), 장음 감소",
+        "extremity": "말초 맥박 촉진 가능"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 췌장염",
+          "담석성 췌장염",
+          "알코올성 췌장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (amylase, lipase)",
+          "복부 CT",
+          "복부 초음파"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "통증 조절",
+          "금식",
+          "위관 삽입"
+        ]
+      }
+    }
+  ]
+}

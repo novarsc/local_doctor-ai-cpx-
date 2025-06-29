@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 30,
+        "gender": "여자"
+      },
+      "situation": "30세 여자 김민지씨가 피로감과 발진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "얼굴에 발진이 나고 너무 피곤해요",
+      "history": {
+        "onset": "2개월 전",
+        "location": "얼굴, 특히 볼 부위에 발진 시작, 이후 손가락 관절 통증 발생",
+        "duration": "지속적",
+        "course": "점차 심해짐",
+        "character": "얼굴 발진은 나비 모양, 햇빛 노출 후 악화, 손가락 관절 통증은 붓기와 압통 동반, 조조강직 없음, NRS 4점",
+        "associatedSymptoms": {
+          "general": "심한 피로감(+), 체중 변화(-), 발열(-), 오한(-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "광과민성(+), 피부 발진(+), 구강 궤양(-), 성기 궤양(-), 탈모(-)",
+          "infection": "최근 감염(-)",
+          "sjogren": "입마름(-), 눈마름(-)"
+        },
+        "factors": "햇빛 노출 후 발진 악화, 스트레스 증가 시 증상 악화",
+        "pastHistory": {
+          "medical": "특이 병력 없음",
+          "trauma_surgery": "특이 외상 및 수술력 없음",
+          "medications": "진통제 간헐적으로 복용",
+          "social": "사무직 근무, 흡연(-), 음주(주 1회 소량)",
+          "family": "류마티스 질환 가족력 없음",
+          "obgyn": "월경 규칙적, 임신 계획 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 안정적, 체중 정상",
+        "heent": "나비 모양의 안면 발진 관찰, 결막 충혈(-), 구강 점막 정상",
+        "chest": "심폐 청진 정상",
+        "extremity": "손가락 관절 압통 및 경미한 부종 관찰, ROM 정상"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "전신성 홍반 루푸스 (SLE)",
+          "피부 루푸스",
+          "약물 유발 발진"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "말초혈액 검사 (CBC, ESR, CRP)",
+          "자가항체 검사 (ANA, anti-dsDNA, anti-Sm)",
+          "소변 검사",
+          "신장 기능 검사",
+          "피부 생검 (필요시)"
+        ],
+        "therapeutic": [
+          "증상에 따른 대증 치료 (진통제, 소염제)",
+          "햇빛 노출 최소화",
+          "추후 검사 결과에 따른 면역억제제 치료 고려"
+        ]
+      }
+    }
+  ]
+}

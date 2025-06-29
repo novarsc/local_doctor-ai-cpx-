@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최영수",
+        "age": 35,
+        "gender": "남자"
+      },
+      "situation": "35세 남자 최영수씨가 최근 잠을 잘 못 자서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "잠을 잘 못 자겠어요",
+      "history": {
+        "onset": "2주 전",
+        "experience": "처음",
+        "course": "점진적으로 악화",
+        "character": "평소 7-8시간 수면. 최근 2주 전부터 수면시간 부족(4-5시간). 잠들기 어려움(1시간 이상 소요). 밤에 자주 깨고 다시 잠들기 어려움. 낮에 피곤하고 집중력 저하. 잠자는 환경은 조용하고 어둡게 유지. 자기 전 커피 섭취, 잦은 야근으로 스트레스 증가. 규칙적인 운동 부족.",
+        "associatedSymptoms": "[전신] 피로감(+), 두통(+), 집중력 저하(+), 기억력 저하(+) [소화] 속쓰림(-) [호흡] 쌕쌕거림(-) [신장/비뇨] 야뇨(-) [정신] 불안/우울/초조(-/-) [갑상샘] 더위불내성(-)",
+        "factors": "잦은 야근, 스트레스, 불규칙적인 생활 패턴, 수면 부족",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "medications": "없음",
+          "social": "사무직 근무, 흡연(-), 음주(주 2회 소량), 커피(1일 2잔)"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "정상",
+        "chest": "정상",
+        "extremity": "정상"
+      },
+      "patientQuestion": "잠을 잘 수 있도록 도와주세요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "일과성 수면장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "수면 일기"
+        ],
+        "therapeutic": [
+          "수면 위생 교육",
+          "규칙적인 수면 시간 확보",
+          "카페인 섭취 줄이기",
+          "스트레스 관리",
+          "규칙적인 운동"
+        ]
+      }
+    }
+  ]
+}

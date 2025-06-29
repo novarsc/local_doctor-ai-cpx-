@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이선희",
+        "age": 62,
+        "gender": "여자"
+      },
+      "situation": "속이 불편하고 며칠째 소화가 안 된다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "속이 너무 불편하고 소화가 안 돼요.",
+      "history": {
+        "onset": "3일 전",
+        "duration": "3일째 지속",
+        "course": "점점 심해짐",
+        "character": "상복부 불쾌감, 압박감, 팽만감, 속쓰림. 구토는 없음. 식사 후 증상 악화.",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(-/-/-)",
+          "gi": "구역감(+, 가끔씩), 구토(-), 변비(-), 설사(-), 혈변(-), 흑색변(-), 지방변(-), 기타 소화기 증상(-)",
+          "circulatory": "흉통(-)",
+          "psych": "스트레스(+, 최근 손주 돌봄으로 인한 피로감)",
+          "neuro": "두통(-), 어지러움(-)",
+          "dehydration": "목마름(-), 소변량 감소(-)"
+        },
+        "factors": "매운 음식 섭취(+), 불규칙적인 식사(+)",
+        "pastHistory": {
+          "medical": "고혈압(+, 약물 복용 중), 당뇨(-), 고지혈증(-). 위내시경 검사 이력(5년 전, 만성 위염 진단)",
+          "social": "흡연(-), 음주(간혹 소량), 직업: 가정주부"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 외관상 특이 소견 없음",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "상복부 압통(+), 반발 압통(-), Murphy sign(-)",
+        "neuro": "Kernig/Brudzinski(-/-)"
+      },
+      "patientQuestion": "위암일 가능성은 없나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "위염",
+          "기능성 소화불량",
+          "역류성 식도염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "제산제 처방",
+          "생활 습관 교정 상담 (규칙적인 식사, 저자극성 식단 권장)",
+          "스트레스 관리 상담"
+        ]
+      }
+    }
+  ]
+}

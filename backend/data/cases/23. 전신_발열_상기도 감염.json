@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남성"
+      },
+      "situation": "30세 남성 김민수씨가 열과 기침으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "88회/분",
+        "respiration": "18회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "열이 나고 기침이 심해요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "목, 가슴",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "38.5도의 열과 함께 마른 기침이 심하며, 가래는 없음.  해열제 복용 후 일시적 호전 있었으나 다시 열이 올라감.",
+        "associatedSymptoms": {
+          "general": "몸살, 피로감(+)",
+          "respiratory": "기침(+), 가래(-), 콧물(+), 인후통(+)",
+          "digestive": "식욕부진(+), 오심(-), 구토(-), 설사(-)",
+          "urinary": "배뇨통(-), 빈뇨(-)",
+          "other": "두통(-)"
+        },
+        "factors": "최근 감기 환자와 접촉 있었음.  여행력 없음.",
+        "pastHistory": {
+          "social": "흡연(-), 음주(주 2회 소주 1병)",
+          "medical": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감, 기침 소견 보임",
+        "heent": "인후 발적(+), 비강 분비물(+), 경부 림프절 비대(-)",
+        "chest": "호흡음 청진시 약간의 잡음 들림",
+        "abdomen": "압통(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "언제쯤 괜찮아질까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "상기도 감염",
+          "급성 기관지염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사",
+          "흉부 X-ray"
+        ],
+        "therapeutic": [
+          "대증요법(충분한 수분 섭취, 휴식)",
+          "기침 억제제",
+          "해열진통제"
+        ]
+      }
+    }
+  ]
+}

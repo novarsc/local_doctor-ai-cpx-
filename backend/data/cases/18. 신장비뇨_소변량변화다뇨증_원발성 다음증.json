@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 58,
+        "gender": "여자"
+      },
+      "situation": "58세 여자 박선영씨가 갈증과 잦은 소변으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "갈증이 심하고 소변을 자주 봐요",
+      "history": {
+        "onset": "6개월 전",
+        "course": "점차 증상이 심해짐",
+        "character": "갈증은 항상 있고, 소변은 하루 10회 이상, 양도 많음. 색깔은 맑고, 거품이나 피는 없음.",
+        "associatedSymptoms": {
+          "general": "체중 감소(3kg), 피로감(+)",
+          "renal_urinary": "빈뇨(10회 이상), 야뇨(2회), 절박뇨(-), 배뇨통(-), 혈뇨(-), 주저뇨(-), 요실금(-)",
+          "endocrine": "다음(+), 다뇨(+), 다갈(+)",
+          "psychiatric": "물을 마셔야 한다는 강박(-)",
+          "neurologic": "두통(-), 시야장애(-)"
+        },
+        "factors": "물을 아무리 마셔도 갈증이 가시지 않음",
+        "pastHistory": {
+          "social": "커피(1잔/day), 흡연(-), 음주(월 1회 소량), 불규칙적인 식사, 운동 부족",
+          "family": "당뇨병 가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 혈압 110/70mmHg, 맥박 80회/분, 호흡 16회/분, 체온 36.8℃. 체중 감소 소견(+)",
+        "heent": "눈: 정상, 구강: 건조함(-), 갑상샘: 정상, 림프절: 정상, 피부: 건조함(-), 부종(-)",
+        "abdomen": "CVAT(-), 복부 촉진(-), 신장 압통(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "제가 왜 이렇게 갈증이 심하고 소변을 자주 보는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "원발성 다음증",
+          "요붕증",
+          "당뇨병"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "공복혈당 검사",
+          "당화혈색소 검사",
+          "소변 검사(비중, 오스몰랄농도)",
+          "24시간 소변량 측정",
+          "수분 제한 검사"
+        ],
+        "therapeutic": [
+          "수분 섭취 조절 교육",
+          "데스모프레신(DDAVP) 투여 고려"
+        ]
+      }
+    }
+  ]
+}

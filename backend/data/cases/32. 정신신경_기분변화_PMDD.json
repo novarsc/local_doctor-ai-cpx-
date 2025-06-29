@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 29,
+        "gender": "여자"
+      },
+      "situation": "29세 여자 김민지씨가 생리 전 심한 기분 변화로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "118/76mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "생리 전에 너무 힘들어요",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "생리 시작 1주일 전부터 생리 시작 후 2-3일까지",
+        "course": "매달 반복",
+        "experience": "매달 반복, 점점 심해짐",
+        "character": "자의로 내원, 평소 활발한 성격, 대인관계 좋음, 직장 생활에 지장을 줄 정도로 심함\n도움 요청할 수 있는 사람(+)",
+        "associatedSymptoms": {
+          "digestive": "소화불량(+), 변비(+)",
+          "psychiatric": "극심한 우울감(+), 불안감(+), 초조함(+), 짜증(+)\n식욕 변화(+,폭식), 수면장애(+, 불면증), 집중력 저하(+), 피로감(+)\n자살 생각(-), 자살 계획(-), 자살 시도(-)\n기분 들뜬 적(-)",
+          "endocrine": "추위불내성(-), 체중 변화(+) 2kg 증가"
+        },
+        "factors": "생리 주기와 관련 있음(+)",
+        "pastHistory": {
+          "social": "음주(+, social), 흡연(-), 직업: 회사원, 스트레스(+)",
+          "family": "정신과 진료(-)",
+          "obgyn": "월경 주기 규칙적, 생리통(+)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "결막/구강/탈수(-/-/-), 갑상샘(-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "어떻게 하면 생리 전 증상을 완화시킬 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "PMDD",
+          "PMS"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "PMDD 진단 기준 충족 여부 확인",
+          "혈액 검사(갑상샘 기능 검사 포함)",
+          "일기 작성"
+        ],
+        "therapeutic": [
+          "생활습관 개선(규칙적인 운동, 수면, 스트레스 관리)",
+          "인지행동치료",
+          "약물치료(SSRI 고려)"
+        ]
+      }
+    }
+  ]
+}

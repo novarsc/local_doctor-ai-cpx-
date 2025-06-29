@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 박민수씨가 2주째 지속되는 혈뇨와 부종으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변에 피가 섞여 나오고, 다리가 붓네요.",
+      "history": {
+        "onset": "2주 전",
+        "course": "점차 악화되는 양상",
+        "experience": "처음 발생",
+        "character": "[양] 소변 전체에 섞여 나옴, [색] 콜라색, [냄새] 특이 소견 없음, [거품] 없음, [소변량] 감소, 부종(+, 특히 아침에 심함, 발목과 종아리)",
+        "associatedSymptoms": {
+          "general": "발열(-), 오한(-), 체중 변화(-), 탈수(-), 피로감(+), 식욕부진(+)",
+          "renal_urinary": "빈뇨(-), 야간뇨(-), 배뇨통(-), 옆구리 통증(-), 거품뇨(-)",
+          "digestive": "구역/구토/설사(-/-/-)",
+          "other": "출혈 경향(-)"
+        },
+        "factors": "과도한 음주(주 3회 이상 소주 1병), 스트레스(직장 업무), 최근 감염 질환(-)",
+        "pastHistory": {
+          "medical": "고혈압 진단받은 병력 있음 (약물 복용 중), 고지혈증 병력 있음(약물 복용 중)",
+          "medications": "고혈압약, 고지혈증약",
+          "social": "음주(+, 과음 잦음), 흡연(-), 직업: 회사원, 운동: 거의 없음",
+          "family": "가족력: 부친 고혈압"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 전반적으로 피로해 보임",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도 정상",
+        "abdomen": "CVAT(-), 복부 촉진(-), 신동맥 잡음(-)",
+        "extremity": "양측 하지 부종(+), Pitting edema(+)"
+      },
+      "patientQuestion": "이 병이 심각한 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "IgA 신병증",
+          "급성 사구체신염",
+          "만성 신장 질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변 검사(요검사, 요세포검사)",
+          "혈액 검사(신기능 검사, 혈청 크레아티닌, BUN, eGFR)",
+          "혈청 IgA 측정",
+          "신장 초음파 검사"
+        ],
+        "therapeutic": [
+          "혈압 조절",
+          "저단백 식이요법 교육",
+          "수분 섭취 조절",
+          "금주 권고",
+          "정기적인 추적 검사"
+        ]
+      }
+    }
+  ]
+}

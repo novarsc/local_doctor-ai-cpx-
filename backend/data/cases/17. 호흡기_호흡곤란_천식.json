@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김현수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김현수씨가 숨이 차서 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "95회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차요",
+      "history": {
+        "onset": "3시간 전",
+        "duration": "지속",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "운동 후 숨이 차기 시작, 점점 심해져서 숨을 제대로 쉴 수 없음, 말하는 것도 힘들어 보임",
+        "associatedSymptoms": {
+          "general": "발열/피로/체중 변화(-/-/-), 부종(-)",
+          "respiratory": "흉통(-), 기침(+, 마른 기침), 가래(-), 쌕쌕거림(+)",
+          "psychiatric": "죽을 것 같은 공포감(-), 불안(+)"
+        },
+        "factors": "운동 시 악화, 찬 공기 흡입 시 악화",
+        "pastHistory": {
+          "medical": "없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(+, 주 2회), 운동(+, 꾸준히 조깅)",
+          "family": "아버지 고혈압",
+          "obgyn": "-"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 맥박: 95회/분, 호흡 : 22회/분, 쌕쌕거림 들림",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "chest": "흉부 : 시/촉/타/청(-/-/-/-), 숨소리 거침, 천명음 청취됨",
+        "extremity": "곤봉지/청색증(-/-)"
+      },
+      "patientQuestion": "이런 증상이 다시 나타날까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "천식"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "폐기능검사",
+          "흉부 X-ray"
+        ],
+        "therapeutic": [
+          "흡입형 기관지확장제 처방",
+          "구강 스테로이드 처방",
+          "천식 관리 교육"
+        ]
+      }
+    }
+  ]
+}

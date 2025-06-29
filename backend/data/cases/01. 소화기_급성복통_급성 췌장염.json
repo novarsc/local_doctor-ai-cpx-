@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "심한 복통으로 응급실에 내원했다.",
+      "vitalSigns": {
+        "bloodPressure": "130/90mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "어제 저녁",
+        "location": "상복부",
+        "duration": "지속적이며 점점 심해짐",
+        "course": "어제 저녁부터 시작된 복통이 밤새도록 지속되었고, 오늘 아침에는 견딜 수 없을 정도로 심해졌다.",
+        "experience": "이전에는 이런 심한 복통을 경험한 적이 없다.",
+        "character": "심한 칼로 찌르는 듯한 통증, NRS 9점",
+        "radiation": "등으로 퍼지는 듯한 느낌",
+        "associatedSymptoms": {
+          "general": "오한과 발열이 있다.  구토를 몇 번 했다.",
+          "gi": "식욕이 없고, 메스껍고, 구토를 했다.  변비가 있다."
+        },
+        "aggravatingFactors": "음식 섭취 후 악화",
+        "relievingFactors": "아무것도 효과가 없다.",
+        "pastHistory": {
+          "medical": "고지혈증, 고혈압",
+          "medications": "고지혈증 약, 고혈압 약 복용 중",
+          "social": "흡연 20갑년, 음주는 주 2회 소주 1병",
+          "other": "최근 과음을 했다."
+        }
+      },
+      "physicalExam": {
+        "abdomen": "상복부에 심한 압통과 반발압통이 있으며, 복부 전체가 팽팽하다.  Grey Turner's sign은 없다."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 췌장염",
+          "담석성 췌장염",
+          "알코올성 췌장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (amylase, lipase, glucose, CBC)",
+          "복부 CT",
+          "심전도"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "통증 조절",
+          "금식",
+          "위관 삽입"
+        ]
+      }
+    }
+  ]
+}

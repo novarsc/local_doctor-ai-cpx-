@@ -148,6 +148,33 @@ const completePracticeSession = async (sessionId, userId) => {
                             }
                         }
                     }
+                } else if (checklist && checklist.checklist && Array.isArray(checklist.checklist.sections)) {
+                    // 새로운 체크리스트 구조 처리
+                    for (const section of checklist.checklist.sections) {
+                        const sectionName = section.title_kr || section.title_en || "미분류";
+                        
+                        if (Array.isArray(section.items)) {
+                            for (const item of section.items) {
+                                if (item.details) {
+                                    // details 필드에서 체크리스트 항목들을 추출
+                                    const lines = item.details.split('\n');
+                                    for (const line of lines) {
+                                        // "- [ ]" 패턴으로 시작하는 체크리스트 항목 찾기
+                                        const match = line.match(/^\s*-\s*\[\s*\]\s*(.+?)(?:\s*\([^)]+\))?\s*$/);
+                                        if (match) {
+                                            // 한국어 부분만 추출 (영어 번역 제거)
+                                            let cleanText = match[1].trim();
+                                            const koreanMatch = cleanText.match(/^([^(]+?)(?:\s*\([^)]+\))?\s*$/);
+                                            if (koreanMatch) {
+                                                cleanText = koreanMatch[1].trim();
+                                            }
+                                            itemSectionMap[cleanText] = sectionName;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
                 // 3. Section-wise count
                 const sectionStats = {};

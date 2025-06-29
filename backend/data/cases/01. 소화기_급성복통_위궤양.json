@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 65,
+        "gender": "남자"
+      },
+      "situation": "심한 복통으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg ",
+        "heartRate": "90회/분 ",
+        "respiration": "18회/분 ",
+        "temperature": "37.2℃ "
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "어제 저녁부터",
+        "location": "명치 부위",
+        "duration": "지속적이며 점점 심해짐",
+        "course": "어제 저녁부터 시작된 복통이 점차 심해져 잠을 못 이루었다.  오늘 아침에는 통증이 심해져 응급실을 찾았다.",
+        "experience": "비슷한 증상을 예전에도 몇 번 경험했지만 이번이 가장 심하다.",
+        "character": "쓰라리고 콕콕 쑤시는 듯한 통증, NRS 7점.",
+        "radiation": "등으로 퍼지는 느낌",
+        "associatedSymptoms": {
+          "general": "식욕 감소, 메스꺼움, 구토는 없다.",
+          "gi": "속쓰림이 심하다.  변비 경향이 있다."
+        },
+        "aggravatingFactors": "공복 시, 스트레스 받을 때, 커피 섭취 후 악화",
+        "relievingFactors": "위산제 복용 후 일시적으로 완화",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증 진단받음. 위염 병력 있음.",
+          "medications": "고혈압약, 고지혈증약 복용 중.  위산제 간헐적으로 복용.",
+          "social": "흡연 30갑년, 금주.  스트레스가 많은 직업에 종사한다.",
+          "familyHistory": "부친 위암 병력 있음."
+        }
+      },
+      "physicalExam": {
+        "abdomen": "상복부 압통이 있으며, 명치 부위에 심한 압통이 있다.  반발압통은 없다.  복부 경직은 없다."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "위궤양",
+          "십이지장궤양",
+          "위염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "혈액검사 (CBC, 혈청 화학검사)"
+        ],
+        "therapeutic": [
+          "PPI(프로톤 펌프 억제제) 투여",
+          "제산제 투여",
+          "H2 수용체 길항제 투여",
+          "금식",
+          "스트레스 관리 교육"
+        ]
+      }
+    }
+  ]
+}

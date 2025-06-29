@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 25,
+        "gender": "여자"
+      },
+      "situation": "25세 여자 박선우씨가 강박적인 생각과 행동으로 인해 불편함을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg ",
+        "heartRate": "76회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.5℃ "
+      },
+      "chiefComplaint": "강박증세가 너무 심해요.",
+      "history": {
+        "onset": "6개월 전",
+        "experience": "처음",
+        "course": "점차 심해짐",
+        "location": "-",
+        "character": "문을 잠갔는지, 가스밸브를 잠갔는지 계속 확인하게 되고, 확인하지 않으면 불안해서 다시 확인하는 행동을 반복합니다.  손을 깨끗이 씻지 않으면 병균에 감염될 것 같다는 생각에 하루에도 수십 번씩 손을 씻습니다.",
+        "associatedSymptoms": "[정신] 불안(+), 초조(+), 수면장애(+, 잠들기 어려움, 얕은 수면), 집중력 저하(+), 피로감(+), 우울감(-), 자살 생각(-). [신체] 두통(-), 소화불량(-), 근육통(-) ",
+        "factors": "특별한 스트레스 요인은 없으나, 최근 과도한 업무량으로 인한 피로감은 있음",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(월 1회 정도), 커피(하루 2잔)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적, 불안감 호소, 손이 다소 건조해 보임",
+        "heent": "결막, 구강 점막 정상",
+        "chest": "청진상 특이 소견 없음",
+        "extremity": "말초 맥박 촉진 양호, 부종 없음"
+      },
+      "patientQuestion": "이 증상은 언제까지 지속될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "강박장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "Yale-Brown 강박 척도(Y-BOCS)",
+          "정신과적 평가"
+        ],
+        "therapeutic": [
+          "인지행동치료(CBT)",
+          "선택적 세로토닌 재흡수 억제제(SSRI) 고려"
+        ]
+      }
+    }
+  ]
+}

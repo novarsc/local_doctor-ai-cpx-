@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "오늘 아침부터 질 출혈이 있어 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "아침부터 피가 나와서 걱정이에요.",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "질",
+        "duration": "지속적인 출혈은 아니고, 간헐적으로 소량씩 나옴",
+        "course": "점점 양이 줄어드는 것 같음",
+        "character": "선홍색, 소량, 덩어리 없음",
+        "associatedSymptoms": {
+          "gynecological": "복통(+, 생리통 정도), 질 분비물 증가(+)"
+        },
+        "pastHistory": {
+          "obstetricHistory": "0-0-0-0. 첫 임신",
+          "contraception": "피임약 복용 중단 후 임신",
+          "lastMenstrualPeriod": "6주 전",
+          "menstrualHistory": "규칙적, 생리통 없음",
+          "medical": "특이 질환 없음",
+          "vaccination": "예방접종 완료",
+          "medications": "엽산제 복용 중",
+          "social": "흡연(-), 음주(-), 커피(1일 1잔)",
+          "family": "특이 가족력 없음"
+        },
+        "etc": {
+          "patientBio": "키 165cm, 체중 53kg",
+          "partnerBio": null
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정",
+        "heent": "특이 소견 없음",
+        "abdomen": "복부 압통(+, 경미함), 방어긴장 없음. 자궁 약간 커져 있음. 질경 검사 시 소량의 출혈 관찰됨. 자궁 경부 문 열림 없음.",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "아기는 괜찮을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "절박유산",
+          "자궁외임신"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 hCG 검사",
+          "골반 초음파 검사"
+        ],
+        "therapeutic": [
+          "절대 안정 권고",
+          "수분 섭취 충분히 할 것",
+          "진통제 처방 (필요시)"
+        ]
+      }
+    }
+  ]
+}

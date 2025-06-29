@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 허리 통증과 다리 저림으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "허리가 아프고 다리가 저려요",
+      "history": {
+        "onset": "3일 전",
+        "location": "허리 통증, 왼쪽 다리 방사통",
+        "duration": "간헐적",
+        "course": "점차 심해짐",
+        "experience": "비슷한 증상 1년 전 경험 (물리치료 후 호전)",
+        "character": "[양상] 허리 통증과 함께 왼쪽 다리 뒤쪽으로 찌릿찌릿한 통증\n방사통(+): 왼쪽 엉덩이, 허벅지 뒤쪽, 종아리까지\n[강도] NRS 7점",
+        "associatedSymptoms": {
+          "general": "다리 운동 감소, 감각 저하",
+          "meningitis": "최근 감기/발열/두통(-/-/-)"
+        },
+        "factors": "악화 : 장시간 앉아 있을 때, 기침, 재채기 시 통증 악화",
+        "pastHistory": {
+          "medical": "고혈압",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연 20갑년, 음주 주 2회",
+          "family": "가족력 없음",
+          "obgyn": "해당 없음",
+          "other": "과거 요추부 염좌 진단 받은 적 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 정상",
+        "heent": "결막/공막 정상",
+        "extremity": "Straight leg raising test 왼쪽(+), 오른쪽(-)\n왼쪽 하지 감각 저하, 근력 약화"
+      },
+      "patientQuestion": "수술 없이 치료가 가능할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "요추간판탈출증",
+          "요추 염좌",
+          "척추관협착증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요추 X-ray",
+          "요추 MRI"
+        ],
+        "therapeutic": [
+          "약물 치료",
+          "물리 치료",
+          "수술적 치료"
+        ]
+      }
+    }
+  ]
+}

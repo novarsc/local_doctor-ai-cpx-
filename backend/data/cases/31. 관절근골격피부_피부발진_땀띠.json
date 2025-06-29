@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김민수씨가 땀띠 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "몸에 땀띠가 난 것 같아요.",
+      "history": {
+        "onset": "2일 전",
+        "location": "목, 가슴, 등",
+        "duration": "2일째 지속",
+        "course": "처음에는 작은 점 같은 발진이었는데 점점 퍼지고 많아짐",
+        "experience": "처음",
+        "character": "[크기] 좁쌀 크기 [모양] 둥근 모양\n[색] 붉은색\n[개수] 여러 개\n가려움(+), 통증(-), 따가움(-), 압통(-)\n딱지/궤양/고름/비늘(-/-/-/-)",
+        "associatedSymptoms": {
+          "rheumatologic": "SLE/베체트/RA/관절통(-/-/-/-)",
+          "other": "음식/여행(-/-), 화학약품/장신구(-/-)\n특별한 약물 복용 없음, 최근 운동량 증가"
+        },
+        "factors": "최근 날씨가 더워지면서 땀을 많이 흘림. 꽉 끼는 옷을 자주 입음",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(+, 주 2회), 직업: 회사원\n운동(+, 최근 증가), 스트레스(+), 식습관 특이 사항 없음",
+          "other": "건강검진 정상"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "chest_abdomen": "[피부] 목, 가슴, 등에 좁쌀 크기의 붉은색 발진 다수 관찰, 압통(-), 열감(+)\n팔다리/배/가슴 발진(-/-/-), 딱지/진물(-/-)\n관절통/입안 궤양(-/-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "땀띠 치료 어떻게 하나요? 빨리 낫게 할 수 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "땀띠",
+          "접촉피부염",
+          "지루성 피부염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "육안 관찰"
+        ],
+        "therapeutic": [
+          "시원하고 통풍이 잘 되는 옷 착용 권고",
+          "보습제 도포",
+          "땀 흡수가 잘 되는 소재의 옷 착용 권고",
+          "외출 시 자외선 차단제 사용 권고"
+        ]
+      }
+    }
+  ]
+}

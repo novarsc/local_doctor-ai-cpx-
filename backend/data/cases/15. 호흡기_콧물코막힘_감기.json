@@ -1,0 +1,55 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "목이 아프고 기침이 나서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "목 아픔, 기침",
+      "history": {
+        "onset": "2일 전",
+        "course": "점점 심해짐",
+        "character": "인후통, 마른기침, 가래 없음",
+        "associatedSymptoms": {
+          "general": "발열(+, 37.5℃), 오한(+), 피로(+), 근육통(+)",
+          "respiratory": "콧물(+, 맑은 콧물)",
+          "neuro": "두통(-)",
+          "gi": "구토/설사(-/-)"
+        },
+        "factors": "특별한 요인 없음",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "social": "흡연(-), 음주(주 1회, 소주 1병)",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "인두 발적(+), 비강 분비물(+, 맑은 콧물)",
+        "respiratory": "청진상 잡음 없음"
+      },
+      "patientQuestion": "얼마나 오래 아플까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 상기도 감염 (감기)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [],
+        "therapeutic": [
+          "충분한 수분 섭취",
+          "휴식",
+          "증상에 따른 대증 치료 (해열제, 진통제 필요시)"
+        ]
+      }
+    }
+  ]
+}

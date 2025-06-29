@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "72세 남자 김민수씨가 오른쪽 팔다리의 힘이 빠지고 말이 어눌해져 보호자와 함께 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "160/90mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "팔다리가 마비되고 말이 어눌해요",
+      "history": {
+        "onset": "오늘 아침 8시",
+        "course": "점진적으로 악화됨",
+        "experience": "처음",
+        "character": "아침 8시에 일어났을 때 오른쪽 팔다리의 힘이 빠지고 말이 어눌해짐. 의식은 명료함.  주변에 술병/약물(-/-), 경련(-), 대소변 지림(-)",
+        "associatedSymptoms": "[전신] 발열/오한/체중 변화/피로(-/-/-/-) [소화] 구토(-), 복통(-) [신경] 감각 이상(+, 오른쪽 얼굴과 팔 저림), 두통(-), 시야 변화(-), 팔다리 힘 빠짐(+, 오른쪽), 말 어눌(+)",
+        "factors": "고혈압, 당뇨병 병력 있음. 최근 스트레스 증가.",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(+), 고지혈증(-), 간염(-), 뇌혈관계 질환(-)",
+          "trauma_surgery": "두부외상(-)",
+          "medications": "고혈압 약, 당뇨병 약 복용 중",
+          "social": "흡연(+, 하루 한 갑), 음주(주 2회 소주 1병)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 의식 명료",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "neuro": "오른쪽 얼굴과 팔, 다리 근력 약화. 오른쪽 감각 저하. 언어장애(운동성 실어증).",
+        "abdomen": "간/비장 비대(-/-), 복수(-)",
+        "extremity": "오른쪽 상, 하지 근력 약화(3/5)"
+      },
+      "patientQuestion": "언제쯤 회복될 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "뇌경색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "뇌 MRI",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "tPA 정맥내 투여(적응증 확인 후)",
+          "항혈전제 투여",
+          "혈압 조절",
+          "재활 치료"
+        ]
+      }
+    }
+  ]
+}

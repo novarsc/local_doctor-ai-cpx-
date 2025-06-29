@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최영수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 최영수씨가 2주간 지속되는 기침과 가래, 고열로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "2주째 기침과 가래, 열이 심해요",
+      "history": {
+        "onset": "2주 전",
+        "duration": "2주 지속",
+        "course": "점차 악화",
+        "experience": "처음 발생",
+        "character": "객혈(소량, 선홍색), 악취 나는 가래, 고열, 오한",
+        "associatedSymptoms": {
+          "general": "오한(+), 권태감(+), 체중 감소(3kg, 최근 1달)",
+          "respiratory": "기침(+, 심한), 가래(+, 다량, 악취), 흉통(-), 호흡곤란(+, 운동 시)",
+          "other": "식욕부진(+), 전신쇠약감(+)"
+        },
+        "factors": "흡연(30갑년), 최근 감기 증상",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-)",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(30갑년), 음주(주 2회 소주 1병)",
+          "family": "폐질환 병력(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 전반적으로 쇠약해 보임",
+        "heent": "결막 창백(-), 경부 림프절 종대(-)",
+        "chest": "호흡음 감소(우측 하엽), 수포음(-), 잡음(-)",
+        "extremity": "말초부위 청색증(-)"
+      },
+      "patientQuestion": "폐암인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐농양",
+          "폐렴",
+          "폐암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "흉부 CT",
+          "객담 검사(세균 배양 및 감수성 검사)",
+          "혈액 검사(CBC, CRP, ESR)"
+        ],
+        "therapeutic": [
+          "항생제 치료",
+          "기침 가래 완화제",
+          "수분 섭취 증가",
+          "금연 상담"
+        ]
+      }
+    }
+  ]
+}

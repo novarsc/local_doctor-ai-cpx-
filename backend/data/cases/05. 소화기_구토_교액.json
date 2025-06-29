@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "심한 복통과 구토를 호소하며 응급실로 내원하였다.(현재 시각: 오후 3시)",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "105회/분",
+        "respiration": "22회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "배가 너무 아프고 토해요",
+      "history": {
+        "onset": "6시간 전",
+        "duration": "6시간 동안 지속적인 복통과 구토",
+        "course": "점점 심해짐",
+        "character": "심한 복통은 콕콕 찌르는 듯한 통증으로 시작하여 점점 심해짐. 구토는 처음에는 음식물이 섞여 나오다가 나중에는 녹색 담즙성 구토를 함. 총 8회 구토",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(+/+/-)",
+          "gi": "구역감(+), 구토(+), 변비(-), 설사(-), 혈변(-), 흑색변(-), 지방변(-), 기타 소화기 증상(-)",
+          "circulatory": "흉통(-)",
+          "psych": "의도적 구토(-)",
+          "neuro": "두통(-), 경부 뻐근함(-)",
+          "dehydration": "어지러움(+), 목마름(+), 소변량 감소(+)"
+        },
+        "factors": "특별한 음식 섭취 없음",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전부터 약 복용), 당뇨(-), 고지혈증(-).  과거 위궤양 병력(+, 5년 전 치료 완료)",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 3회 소주 2병), 직업: 자영업(식당 운영)."
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정, 빈맥, 탈수 증상 보임",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "압통(+), 반발압통(+), 복부 경직(+), 장음 감소",
+        "neuro": "Kernig/Brudzinski(-/-)"
+      },
+      "patientQuestion": "어떻게 된 건가요? 심각한 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "교액",
+          "장폐색",
+          "급성 충수염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "복부 단순촬영",
+          "복부 CT",
+          "혈액검사(CBC, 전해질, 염증수치)"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "통증 조절",
+          "금식",
+          "관찰"
+        ]
+      }
+    }
+  ]
+}

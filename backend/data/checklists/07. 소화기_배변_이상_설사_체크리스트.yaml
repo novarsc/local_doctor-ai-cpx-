@@ -1,0 +1,84 @@
+checklist:
+  topic_kr: "배변 이상_설사"
+  topic_en: "Abnormal Defecation_Diarrhea"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 설사의 양상 (횟수, 양, 형태, 색깔, 냄새) (Frequency, amount, consistency, color, odor of diarrhea)
+            - 설사 시작 시점 및 기간 (Onset and duration of diarrhea)
+            - 관련 증상 (복통, 발열, 구토, 체중 감소) (Associated symptoms such as abdominal pain, fever, vomiting, weight loss)
+            - 설사 악화 또는 완화 요인 (Aggravating or relieving factors for diarrhea)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 발열, 오한 (Fever, chills)
+            - 구토, 오심 (Vomiting, nausea)
+            - 복통 (Abdominal pain): 위치, 양상, 강도 (Location, character, and severity)
+            - 탈수 증상 (Dehydration symptoms): 갈증, 피로, 어지러움 (Thirst, fatigue, dizziness)
+            - 혈변, 점액변 (Bloody stool, mucus in stool)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 최근 여행력 (Recent travel history)
+            - 복용 중인 약물 (Current medications)
+            - 식이 이력 (Dietary history): 특히 최근 섭취 음식 (Recent food intake)
+            - 기저 질환 (Underlying medical conditions)
+            - 가족력 (Family history)
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 활력징후 (Vital signs): 혈압, 맥박, 호흡수, 체온 (Blood pressure, pulse rate, respiratory rate, body temperature)
+            - 복부 진찰 (Abdominal exam): 시진, 청진, 타진, 촉진 (Inspection, auscultation, percussion, palpation)
+            - 탈수 징후 확인 (Assessment of hydration status)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 직장 수지 검사 (Digital rectal exam): 필요시 시행 (If necessary)
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Viral gastroenteritis"
+            - "Bacterial gastroenteritis"
+            - "Inflammatory bowel disease (IBD)"
+            - "Irritable bowel syndrome (IBS)"
+            - "Drug-induced diarrhea"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Electrolyte panel"
+            - category_kr: "대변 검사"
+              category_en: "Stool Studies"
+              tests:
+                - "Stool culture"
+                - "Stool microscopy"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Abdominal CT (if necessary)"
+
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "설사의 원인과 증상에 대한 설명, 탈수 예방을 위한 수분 섭취의 중요성 교육, 개인 위생 관리 교육 (Explanation of the cause and symptoms of diarrhea, education on the importance of fluid intake to prevent dehydration, and hygiene education)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "고열, 심한 복통, 혈변, 지속적인 구토, 탈수 증상 악화 등의 경우 의료기관 재방문 안내 (Instruct the patient to return to the medical facility if they experience high fever, severe abdominal pain, bloody stool, persistent vomiting, or worsening dehydration symptoms)"

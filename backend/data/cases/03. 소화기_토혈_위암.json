@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "체중 감소와 빈혈 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "요즘 밥맛이 없고, 몸이 자꾸 힘들어요.",
+      "history": {
+        "onset": "6개월 전부터",
+        "frequency": "지속적",
+        "experience": "처음",
+        "character": "식욕 감소, 체중 감소(10kg), 피로감, 빈혈 증상",
+        "associatedSymptoms": {
+          "general": "체중 감소(10kg), 피로감, 어지러움, 숨가쁨",
+          "gi": "식욕부진, 상복부 불편감, 소화불량, 변비, 흑색변(-)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "코피, 멍(-/-)",
+          "dehydration": "어지럼, 두근거림, 소변량 감소(-/-)"
+        },
+        "factors": "흡연 30갑년, 음주(소주 1병/주 2회), 가족력(부친 위암)",
+        "pastHistory": {
+          "events": "위내시경 검사(10년 전, 정상)",
+          "social": "흡연(30갑년), 음주(소주 1병/주 2회), 직업(은퇴), 식사(불규칙적)",
+          "family": "부친 위암"
+        }
+      },
+      "physicalExam": {
+        "general": "피부 창백, 체중 감소 소견",
+        "heent": "눈/입/림프절/비경(-/-/-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/+), 상복부 압통",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "혹시 위암일까 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "위암",
+          "위궤양",
+          "만성 위염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경 검사",
+          "조직검사",
+          "혈액검사(CBC, 간기능 검사)",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "약물치료(제산제, H2 수용체 길항제)",
+          "식이요법",
+          "정기적인 추적 관찰"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이지혜",
+        "age": 68,
+        "gender": "여자"
+      },
+      "situation": "오른쪽 팔다리 마비로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "160/90mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "오른쪽 팔다리가 마비되었어요",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "집에서",
+        "duration": "아침 식사 중 시작, 현재까지 지속",
+        "experience": "아침 식사 중 갑자기 오른쪽 팔다리에 힘이 빠지고 말이 어눌해짐. 의식은 명료함.",
+        "character": {
+          "preSyncope": "두통(-), 어지러움(-), 메스꺼움(-)",
+          "syncope": "의식 소실(-), 경련(-), 구토(-)",
+          "postSyncope": "오른쪽 팔다리 마비(+), 말 어눌함(+), 발음이 부정확함(+)"
+        },
+        "associatedSymptoms": {
+          "general": "발열/오한/피로/식은땀/체중변화(-/-/-/-/-)",
+          "circulatory": "흉통/두근거림/호흡곤란(-/-/-)",
+          "gi": "설사/구토/혈변/흑색변/토혈(-/-/-/-/-)",
+          "respiratory": "가슴 통증(-)",
+          "renal": "다뇨/다음/다갈(-/-/-), 혈뇨(-)",
+          "neuro": "두통/시야장애/보행장애/팔다리 힘 빠짐(+/-/+/+)",
+          "psych": "죽을 것 같은 공포감/불안(-/-)"
+        },
+        "factors": "고혈압 병력, 당뇨병 병력, 최근 심한 스트레스"
+      },
+      "pastHistory": {
+        "surgical": "없음",
+        "medications": "고혈압 약, 당뇨 약",
+        "social": "흡연 20갑년, 음주 주 2회 소주 1병"
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 오른쪽 상하지 마비 관찰",
+        "heent": "결막/구강/피부(-/-/-), 뇌신경 검사: 오른쪽 안면 마비 의심",
+        "chest": "심음 청진: 정상",
+        "extremity": "오른쪽 상하지 근력 저하, 감각 저하"
+      },
+      "patientQuestion": "언제쯤 회복될 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "뇌경색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "뇌 MRI",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "항혈전제 투여",
+          "혈압 조절",
+          "재활 치료"
+        ]
+      }
+    }
+  ]
+}

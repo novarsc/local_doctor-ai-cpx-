@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 24,
+        "gender": "여자"
+      },
+      "situation": "24세 여자 박선우씨가 극심한 불안감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg ",
+        "heartRate": "88회/분 ",
+        "respiration": "18회/분 ",
+        "temperature": "36.8℃ "
+      },
+      "chiefComplaint": "너무 불안해요.",
+      "history": {
+        "onset": "6개월 전",
+        "experience": "처음",
+        "course": "점진적으로 악화",
+        "location": "-",
+        "character": "개를 보면 심장이 빨리 뛰고 숨이 가빠지며, 극심한 공포감을 느껴요. 개를 피하려고 애쓰지만, 개가 가까이 오면 기절할 것 같아요.",
+        "associatedSymptoms": "[정신] 심한 불안, 공포, 땀, 떨림(+), 어지러움(+), 메스꺼움(+), 호흡곤란(+),  식은땀(+).  [순환기] 두근거림(+), 흉통(-). [소화기] 복통(-).  개를 볼 때만 증상이 나타나고, 평소에는 정상입니다.",
+        "factors": "개를 보는 것",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "대학생,  개와의 부정적인 경험은 없음.  가족 중에 개를 무서워하는 사람은 없음.",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "Vital signs stable. 불안해 보이는 모습. ",
+        "heent": "정상",
+        "chest": "정상",
+        "extremity": "정상"
+      },
+      "patientQuestion": "개를 보지 않고 생활하는 방법이 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "특정 공포증 (견공포증)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "정신과적 평가"
+        ],
+        "therapeutic": [
+          "인지 행동 치료 (노출 요법)",
+          "이완 요법"
+        ]
+      }
+    }
+  ]
+}

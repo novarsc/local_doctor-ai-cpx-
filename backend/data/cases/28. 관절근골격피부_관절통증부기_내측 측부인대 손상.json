@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 왼쪽 무릎 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "76회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "무릎이 아파요.",
+      "history": {
+        "onset": "2일 전",
+        "location": "왼쪽 무릎 안쪽",
+        "duration": "2일째 지속",
+        "course": "점점 심해짐",
+        "character": "날카로운 통증, NRS 8점, 특히 무릎을 굽히거나 펼 때 심함. 붓기(+), 발적(+), 압통(+), 열감(+)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(-/-/-/-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "광과민성/피부 발진/구강 궤양/성기 궤양(-/-/-/-), 탈모(-)",
+          "infection": "관절 주사/최근 감기/감염/설사(-/-/-/-)",
+          "sjogren": "입마름/눈마름(-/-)"
+        },
+        "factors": "축구 경기 중 갑자기 넘어짐",
+        "pastHistory": {
+          "medical": "고혈압(+), 고지혈증(-)",
+          "trauma_surgery": "무릎 수술 경험 없음",
+          "medications": "고혈압 약 복용 중(로사르탄)",
+          "social": "직업: 사무직, 운동: 주 2회 축구",
+          "family": "고혈압 가족력(+)",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "왼쪽 무릎 내측에 압통, 붓기, 발적, 열감 관찰.  Valgus stress test(+), Varus stress test(-), McMurray test(-)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "내측 측부인대 손상",
+          "전방십자인대 손상",
+          "내측 반월상 연골판 손상"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "왼쪽 무릎 X-ray",
+          "왼쪽 무릎 MRI"
+        ],
+        "therapeutic": [
+          "RICE(Rest, Ice, Compression, Elevation)",
+          "진통소염제 처방",
+          "필요시 물리치료"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김혜진",
+        "age": 52,
+        "gender": "여자"
+      },
+      "situation": "최근 건강검진에서 이상지질혈증 소견을 받고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/75mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "콜레스테롤 수치가 높다고 합니다.",
+      "history": {
+        "labResults": "총 콜레스테롤 240mg/dL, LDL-콜레스테롤 160mg/dL, HDL-콜레스테롤 45mg/dL, 중성지방 150mg/dL",
+        "associatedSymptoms": {
+          "general": "체중 변화 없음, 가끔 야간 발한, 수면장애",
+          "endocrine": "월경이 불규칙해짐, 안면홍조, 질 건조",
+          "cardiovascular": "흉통(-), 두근거림(-)"
+        },
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 갑상선질환(-)",
+          "medications": "없음",
+          "social": "음주(월 1~2회 소량), 흡연(-), 운동(주 2회 30분 걷기)",
+          "family": "고지혈증 가족력(어머니)",
+          "obgyn": "마지막 월경 6개월 전, 폐경 진입 추정"
+        }
+      },
+      "physicalExam": {
+        "heent": "황색판종(-), 각막환(-)",
+        "chest": "심잡음(-), 호흡음 clear",
+        "abdomen": "압통(-), 반발통(-)",
+        "extremity": "부종(-), 아킬레스건 비후(-)"
+      },
+      "patientQuestion": "폐경 때문에 콜레스테롤이 높아진 건가요? 어떻게 관리해야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐경에 의한 이상지질혈증",
+          "가족성 고콜레스테롤혈증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(간기능 검사, 신장 기능 검사)",
+          "갑상선 기능 검사"
+        ],
+        "therapeutic": [
+          "생활 습관 개선(균형 잡힌 식사, 규칙적인 운동)",
+          "콜레스테롤 저하 식품 섭취 권장",
+          "필요시 스타틴 계열 약물 고려"
+        ]
+      }
+    }
+  ]
+}

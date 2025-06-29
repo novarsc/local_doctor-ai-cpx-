@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 8,
+        "gender": "남자"
+      },
+      "situation": "8세 남자 김민수군이 얼굴과 다리에 부종이 있다며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "얼굴이랑 다리가 부어요",
+      "history": {
+        "onset": "3일 전",
+        "duration": "점점 심해짐",
+        "course": "3일 전부터 얼굴과 다리에 부종이 나타나기 시작했고, 소변량이 줄고 색깔이 진해졌다.",
+        "experience": "처음",
+        "character": "얼굴과 다리에 심한 부종, 소변량 감소, 짙은 색 소변, 혈뇨는 없음.  소변 볼 때 통증은 없음.",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 두통(-), 피로(+)",
+          "urinary": "빈뇨(-), 야간뇨(-), 배뇨통(-), 소변색 변화(+), 혈뇨(-)",
+          "genitals": "음낭 부종(+)"
+        },
+        "factors": "최근 상기도 감염 증상이 있었고, 항생제를 복용한 적이 있다.",
+        "pastHistory": {
+          "medical": "상기도 감염 (1주일 전)",
+          "medications": "아목시실린 (1주일간 복용)",
+          "social": "유치원생",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "얼굴, 다리에 심한 부종 관찰, 활력징후 불안정",
+        "heent": "결막 창백, 안와 부종(+)",
+        "abdomen": "복부 압통(-), 신장 압통(-)",
+        "extremity": "말초 부종(+), 피부 긴장도(+)",
+        "genitals": "음낭 부종(+)"
+      },
+      "patientQuestion": "왜 이렇게 부었어요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "사구체신염 (PSGN)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사 (단백뇨, 혈뇨, 적혈구 원주 등)",
+          "혈액검사 (신장 기능 검사, 혈청 크레아티닌, BUN 등)",
+          "혈압 측정",
+          "초음파 검사 (신장 초음파)"
+        ],
+        "therapeutic": [
+          "수분 섭취 조절",
+          "고혈압 관리",
+          "염증 관리 (스테로이드 등)",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

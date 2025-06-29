@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "25세 남자 김민수씨가 사회생활에서 어려움을 겪고 있다며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.5℃"
+      },
+      "chiefComplaint": "사람들 만나는게 너무 힘들어요.",
+      "history": {
+        "onset": "5년 전",
+        "experience": "학창시절부터",
+        "course": "점진적으로 악화",
+        "location": "-",
+        "character": "사람들 앞에 서거나, 다른 사람과 대화를 나누는 상황에서 심한 불안감과 긴장감을 느낀다.  얼굴이 빨개지고, 심장이 두근거리고, 손이 떨리는 증상이 나타난다.  대인관계를 피하게 되고, 사회생활에 어려움을 겪고 있다.",
+        "associatedSymptoms": "[정신] 불안(+), 긴장(+), 심계항진(+), 발한(+),  집중력 저하(+), 우울감(-), 수면장애(+),  자살사고(-) [신체] 두통(-), 소화불량(-)",
+        "factors": "많은 사람들 앞에서 발표를 하거나, 새로운 사람을 만나는 상황에서 증상이 더욱 심해진다.",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "대인관계 어려움, 직장생활 어려움,  술/담배(-/-)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "외관상 특이사항 없음",
+        "heent": "정상",
+        "chest": "정상",
+        "extremity": "정상"
+      },
+      "patientQuestion": "제가 사회생활을 계속 할 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "사회불안장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "사회불안장애 척도 검사",
+          "정신과적 평가"
+        ],
+        "therapeutic": [
+          "인지행동치료",
+          "약물치료 (SSRI 고려)"
+        ]
+      }
+    }
+  ]
+}

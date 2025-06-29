@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 김민지씨가 지속적인 기분 저하로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "항상 우울해요.",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "하루 종일, 거의 매일",
+        "course": "점진적으로 악화됨",
+        "experience": "처음",
+        "character": "자의로 내원, 평소 내성적인 성격, 대인관계 어려움, 사회 활동 없음, 도움 요청할 수 있는 사람 없음(-)",
+        "associatedSymptoms": {
+          "digestive": "변비(+)",
+          "psychiatric": "하루 종일 우울/불안/초조(+/+/+)\n식욕 부진/체중 감소/의욕 저하/피로/수면 시간 증가(+/+/+/+/+)\n기억력/집중력 감소(+), 자살 생각(+), 자살 계획/시도(-/-)\n기분 들뜬 적(-)",
+          "endocrine": "추위를 많이 탐(+)"
+        },
+        "factors": "특정 시기 없음(-), 완화/악화 요인 없음(-/-)",
+        "pastHistory": {
+          "social": "음주(-), 직업: 가정주부, 스트레스(+, 자녀 양육 문제)",
+          "family": "정신과 진료 이력 없음(-)",
+          "obgyn": "폐경(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "결막/구강/탈수(-/-/-), 갑상샘(-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이렇게 계속 우울할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "주요 우울 장애",
+          "기분 부전 장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "우울 척도 검사",
+          "혈액 검사",
+          "갑상샘 기능 검사"
+        ],
+        "therapeutic": [
+          "항우울제 처방",
+          "정신치료 상담"
+        ]
+      }
+    }
+  ]
+}

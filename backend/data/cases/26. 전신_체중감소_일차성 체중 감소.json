@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 김철수씨가 체중 감소를 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "살이 점점 빠지는 것 같아요.",
+      "history": {
+        "onset": "약 6개월 전부터",
+        "location": "전신적인 체중 감소",
+        "course": "서서히 진행되는 체중 감소, 최근 3개월 동안 5kg 감소",
+        "character": "키 170cm, 체중 70kg에서 65kg로 감소. 특별한 다이어트는 하지 않았음.",
+        "associatedSymptoms": {
+          "general": "피로감(+), 식욕부진(+), 야간 발한(-), 발열(-)",
+          "digestive": "소화불량(+), 변비(+), 복통(-)",
+          "endocrine": "갈증(+), 다뇨(-), 두근거림(-)",
+          "respiratory": "기침(-), 가래(-)",
+          "urinary": "다뇨(-), 배뇨통(-)",
+          "psychiatric": "우울감(-), 불안감(-)"
+        },
+        "factors": "특별한 원인을 찾지 못함. 식사량 변화 없음.",
+        "pastHistory": {
+          "medical": "고혈압(10년 전부터 치료 중), 고지혈증(5년 전부터 치료 중)",
+          "medications": "고혈압 약, 고지혈증 약 복용 중",
+          "social": "흡연(+, 2갑/일, 40년), 음주(+, 소주 1병/일, 30년), 운동량 적음",
+          "family": "부친: 고혈압, 모친: 당뇨병",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "영양상태 저하 소견. 피부 탄력 저하.",
+        "heent": "결막 창백(-), 경부 림프절 종대(-)",
+        "abdomen": "복부 팽만(-), 복부 압통(-), 간비대(-), 비장비대(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "제가 혹시 암에 걸린 건 아닌지 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "일차성 체중 감소",
+          "위암",
+          "대장암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사 (CBC, CMP, 종양표지자)",
+          "위내시경 검사",
+          "대장내시경 검사",
+          "복부 CT 검사"
+        ],
+        "therapeutic": [
+          "영양 관리 상담",
+          "식욕 증진제 투여 고려"
+        ]
+      }
+    }
+  ]
+}

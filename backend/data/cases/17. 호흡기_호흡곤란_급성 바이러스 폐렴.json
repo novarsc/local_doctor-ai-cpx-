@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김영수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김영수씨가 2일째 지속되는 기침과 고열로 응급실을 방문하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "95회/분",
+        "respiration": "22회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "기침하고 열이 나요",
+      "history": {
+        "onset": "2일 전",
+        "duration": "2일째 지속",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "심한 기침, 가래는 없음, 숨쉬기가 힘들고 가슴이 답답함",
+        "associatedSymptoms": {
+          "general": "발열(+, 38.5℃), 오한(+), 두통(+), 근육통(+), 피로감(+), 체중변화(-)",
+          "respiratory": "기침(+, 심함), 가래(-), 객혈(-), 흉통(+, 답답한 느낌), 쌕쌕거림(-)",
+          "psychiatric": "불안감(+)"
+        },
+        "factors": "특별한 악화 요인 없음",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "trauma_surgery": "특이 사항 없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(간혹)",
+          "family": "특이 사항 없음",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 숨을 쉴 때 힘들어 보임",
+        "heent": "결막 충혈(+), 인두 충혈(+)",
+        "chest": "호흡음 감소(+, 양측 폐 하부), 수포음(-), 마찰음(-)",
+        "extremity": "특이 사항 없음"
+      },
+      "patientQuestion": "언제쯤 회복될 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 바이러스 폐렴"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "혈액 검사",
+          "객담 검사"
+        ],
+        "therapeutic": [
+          "대증 치료(해열제, 진통제)",
+          "충분한 수분 섭취",
+          "휴식",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

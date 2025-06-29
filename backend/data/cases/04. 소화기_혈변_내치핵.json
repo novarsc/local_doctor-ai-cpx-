@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "caseType": "실전 모의 증례 [하이브리드]",
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "항문 출혈과 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "변을 볼 때 피가 나고 항문이 아파요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "항문",
+        "duration": "배변 시 지속적 출혈",
+        "course": "점차 악화",
+        "experience": "처음 경험",
+        "character": "선홍색 혈액, 배변 후 휴지에 묻어나는 정도, 때때로 덩어리 형태의 혈액 관찰",
+        "associatedSymptoms": {
+          "gi": "A/N/V/D/C(-/-/-/-/+), 항문 통증(+), 항문 덩이감(+), 변비(+) 배변 시 힘주는 빈도 증가"
+        },
+        "factors": "변비 악화 시 증상 악화",
+        "pastHistory": {
+          "events": "특이 사항 없음",
+          "surgical": "없음",
+          "medical": "고혈압(약물치료 중)",
+          "social": "흡연(하루 1갑, 20년), 음주(주 2회 소주 1병), 운동 부족, 스트레스 많음",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-). DRE: 항문 직장 내 출혈 소견, 내치핵 의심되는 덩어리 촉진",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이 증상이 위험한 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "내치핵",
+          "항문 궤양",
+          "대장암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "항문경 검사",
+          "대변 잠혈 검사"
+        ],
+        "therapeutic": [
+          "항문 연고 도포",
+          "변비 치료",
+          "식이요법 및 생활 습관 개선 교육"
+        ]
+      }
+    }
+  ]
+}

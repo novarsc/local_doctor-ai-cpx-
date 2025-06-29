@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 김민지씨가 소변을 볼 때 화끈거리고 아프다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "소변 볼 때 화끈거리고 아파요.",
+      "history": {
+        "onset": "어제 저녁부터",
+        "location": "요도 및 방광",
+        "duration": "소변 볼 때마다 통증, 하루 8~10회 소변",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "화끈거림과 통증, NRS 6점, 소변 색깔은 진하지 않음, 냄새는 약간 심함, 혈뇨 없음",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 두통(-), 근육통(-)",
+          "urinary": "빈뇨(+), 절박뇨(+), 야간뇨(+), 배뇨통(+), 잔뇨감(-)",
+          "genitals": "외음부 가려움증(-), 분비물(-)"
+        },
+        "factors": "수분 섭취량은 평소와 비슷, 소변 자주 참지 않음, 최근 성관계 없음, 스트레스 증가(+)",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 1회 소주 1잔), 커피(하루 1잔), 직업: 사무직",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 발열 소견 있음, 전반적으로 불편해 보임",
+        "heent": "특이 소견 없음",
+        "abdomen": "압통 없음, 방광 촉진 불가",
+        "extremity": "부종 없음",
+        "genitals": "외음부 발적이나 부종 없음"
+      },
+      "patientQuestion": "빨리 나을 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 방광염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사",
+          "소변 배양검사"
+        ],
+        "therapeutic": [
+          "항생제 처방",
+          "수분 섭취 증가 권고",
+          "소변 자주 배출 권고",
+          "통증 조절을 위한 진통제 처방"
+        ]
+      }
+    }
+  ]
+}

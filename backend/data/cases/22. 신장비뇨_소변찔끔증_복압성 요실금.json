@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 62,
+        "gender": "여자"
+      },
+      "situation": "62세 여자 김민지씨가 기침이나 웃을 때 소변이 새는 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기침할 때 소변이 새요",
+      "history": {
+        "onset": "3개월 전",
+        "duration": "주로 기침이나 웃을 때, 운동할 때 소변이 새는 증상이 있음.  점점 심해지는 양상",
+        "course": "처음에는 가끔씩 있었지만 최근에는 매일 발생하고 있음. 소변량은 평소와 비슷함",
+        "character": "색/피/거품(-/-/-), 일상생활 불편(+), 양(+, 팬티라이너 사용 필요)",
+        "associatedSymptoms": {
+          "urinary": "F(8회/일), U(-), N(-), D/H(-/-), I(-), S(-) 소변을 참기 어려운 느낌은 없음",
+          "genitals": "분비물(-), 가려움/통증(-/-)",
+          "general": "복통/옆구리 통증(-/-), 다음/다갈/다뇨(-/-/-)",
+          "neurological": "두통/시야장애/보행장애/팔다리 힘 빠짐/말 어눌(-/-/-/-/-)"
+        },
+        "factors": "기침, 웃음, 무거운 물건 들 때 악화.  휴식 시에는 증상 호전",
+        "pastHistory": {
+          "medical": "고혈압(10년 전 진단, 현재 약 복용 중)",
+          "trauma_surgery": "자궁 적출술(15년 전)",
+          "medications": "고혈압 약(Amlodipine 5mg 1일 1회)",
+          "social": "술(가끔 소주 반병), 담배(-), 커피(1일 1잔), 운동(가벼운 산책 주 2회), 직업(은퇴)",
+          "obgyn": "[월경력] 폐경(50세), [결혼력, 피임력] 기혼, [산과력] 2-0-0-2(모두 자연분만)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "abdomen": "Suprapubic Td/rTd(-/-), CVAT(-), DRE(정상)",
+        "pelvic": "골반 내진(정상), 기침 시 소변 누출 확인",
+        "extremity": "Pitting edema(-), 하지 운동/감각(정상)"
+      },
+      "patientQuestion": "기침할 때마다 소변이 새는 게 너무 불편해요. 치료 방법이 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "복압성 요실금",
+          "절박성 요실금",
+          "혼합성 요실금"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요역동학 검사",
+          "골반 초음파",
+          "소변 검사"
+        ],
+        "therapeutic": [
+          "케겔 운동",
+          "골반저 근육 강화 운동",
+          "약물 치료(필요시)"
+        ]
+      }
+    }
+  ]
+}

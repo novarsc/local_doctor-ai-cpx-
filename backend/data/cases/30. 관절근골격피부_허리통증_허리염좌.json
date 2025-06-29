@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김철수씨가 허리가 아파 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "허리가 아파요",
+      "history": {
+        "onset": "2일 전",
+        "location": "허리 중앙부",
+        "duration": "간헐적 통증",
+        "course": "2일 전 무거운 물건을 들다가 허리를 삐끗한 후 통증 발생",
+        "experience": "처음 발생",
+        "character": "날카로운 통증, 움직일 때 악화, NRS 5~6점, 쉬면 완화",
+        "associatedSymptoms": {
+          "neurological": "하지 방사통 없음, 감각 이상 없음, 근력 저하 없음"
+        },
+        "factors": "무거운 물건 들 때 악화, 휴식 시 완화",
+        "pastHistory": {
+          "medical": "고혈압(-)",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "흡연(1갑/일), 음주(주 2회 소주 1병)",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "특이소견 없음",
+        "abdomen": "특이소견 없음",
+        "extremity": "요추부 압통(+), 허리 전방굴곡 제한, 측방굴곡 및 신전은 정상 범위, 신경학적 검사 정상"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "허리염좌",
+          "요추간판탈출증",
+          "척추관협착증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요추 X-ray"
+        ],
+        "therapeutic": [
+          "안정",
+          "진통소염제 처방",
+          "근육이완제 처방",
+          "물리치료"
+        ]
+      }
+    }
+  ]
+}

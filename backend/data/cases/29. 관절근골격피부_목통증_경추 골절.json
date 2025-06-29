@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 김민수씨가 고층 건물에서 추락 사고 후 목 통증을 호소하며 응급실로 후송되었다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "목이 너무 아파요",
+      "history": {
+        "onset": "30분 전",
+        "location": "목, 특히 C5-C6 레벨",
+        "duration": "사고 이후 지속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "심한 통증, 움직이면 더 아픔. NRS 9점",
+        "associatedSymptoms": {
+          "general": "호흡 곤란, 어지러움",
+          "meningitis": "두통, 발열(+), 의식 변화(-)"
+        },
+        "factors": "고층 건물 추락 사고",
+        "pastHistory": {
+          "medical": "고혈압",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연 20갑년",
+          "family": "특이 사항 없음",
+          "obgyn": "해당 없음",
+          "other": "평소 건강 상태 양호"
+        }
+      },
+      "physicalExam": {
+        "general": "의식 명료, 불안감 호소",
+        "heent": "결막/공막 정상",
+        "extremity": "경추부 압통, 촉진 시 심한 통증.  C5-C6 레벨에서 압통 및 방어 자세.  상지 운동 및 감각 저하 없음. Spurling sign (-).  Neurological exam: 정상"
+      },
+      "patientQuestion": "제 목뼈가 부러진 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "경추 골절",
+          "경추 염좌",
+          "척수 손상"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "경추 X-ray",
+          "경추 CT",
+          "경추 MRI"
+        ],
+        "therapeutic": [
+          "경추 고정",
+          "통증 조절",
+          "수술적 치료 (필요시)"
+        ]
+      }
+    }
+  ]
+}

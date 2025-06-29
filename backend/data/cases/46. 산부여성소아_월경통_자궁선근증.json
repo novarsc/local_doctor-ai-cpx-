@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박채린",
+        "age": 40,
+        "gender": "여자"
+      },
+      "situation": "40세 여자 박채린씨가 심한 월경통과 과다월경으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "생리통이 너무 심하고 생리량이 많아요.",
+      "history": {
+        "onset": "2년 전",
+        "location": "아랫배, 허리까지 통증이 퍼짐",
+        "duration": "월경 기간 내내",
+        "course": "점점 심해지고 기간도 길어짐",
+        "character": "[양상] 쥐어짜는 듯한 통증, 생리혈 덩어리가 나옴, NRS 8점. 월경 주기는 규칙적이나 월경량이 많아짐. 생리 기간 7일 이상 지속. 성교통 (+), 성교 출혈 (-). 임신 시도 중이나 아직 결과 없음.",
+        "associatedSymptoms": "[전신] 발열/오한(-/-). [신장/비뇨] F/U/N/D(-/-/-/-), 빈뇨(-). 복부 만져지는 덩이(-)",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병 없음.  자궁경부암 검사 1년 전 정상",
+          "medications": "진통제(효과 일시적), 비스테로이드성 항염증제(효과 부족)",
+          "social": "음주/흡연(-/-), 직업: 회사원, 스트레스 많음",
+          "family": "어머니 월경통 심함",
+          "gyn": "초경 13세, 규칙적인 월경 주기, 과거 월경량 정상, LMP 2주 전.  결혼(+), 피임(-), 임신 시도 6개월 째"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable,  약간의 빈혈 의심",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "abdomen": "복부 압통(+),  하복부 덩어리 만져지지 않음, CVAT(-)",
+        "pelvic": "자궁 약간 비대, 압통(+), 부속기 정상",
+        "extremity": "Pitting edema (-)"
+      },
+      "patientQuestion": "이 병은 완치가 될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "자궁선근증",
+          "자궁근종",
+          "자궁내막증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "자궁 초음파 검사",
+          "자궁 내막 조직 검사",
+          "혈액 검사(Hb, Hct)"
+        ],
+        "therapeutic": [
+          "진통제, 항염증제 투여",
+          "호르몬 치료 고려(GnRH agonist)",
+          "수술적 치료(자궁 적출술 또는 자궁근종 절제술) 고려"
+        ]
+      }
+    }
+  ]
+}

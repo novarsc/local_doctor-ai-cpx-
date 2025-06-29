@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "72세 남자 김민수씨가 소변량 감소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변이 잘 안 나와요.",
+      "history": {
+        "onset": "3일 전",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "소변량 감소, 하루 6~7회에서 2~3회로 감소, 소변 양은 줄었지만, 짙은 노란색, 거품(-), 혈뇨(-)",
+        "associatedSymptoms": {
+          "general": "발열/오한(-/-), 피로(+, 심함), 체중 변화(-)",
+          "digestive": "구토/설사/메스꺼움/식욕부진(-/-/+/+)",
+          "circulatory": "호흡곤란/두근거림/어지러움(-/-/-)",
+          "renal_urinary": "배뇨통(-), 야간뇨(-), 잔뇨감(-), 아랫배 통증(-), 옆구리 통증(-)",
+          "musculoskeletal_skin": "근육통(-), 피부 가려움(-), 부종(-)"
+        },
+        "factors": "최근 감기 증상(+, 1주일 전부터 기침, 콧물, 약국에서 감기약 복용), 과로(+, 밭일 많이 함), NSAID 복용(+, 2주 전부터 무릎 통증으로 셀레콕시브 복용)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 고지혈증(-)",
+          "medications": "고혈압 약(꾸준히 복용), 셀레콕시브(2주 전부터 복용 시작), 감기약(1주일 전부터 복용)",
+          "social": "흡연(20갑년), 음주(주 2회 소주 반 병), 운동(가끔 산책)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적",
+        "heent": "결막/구강 건조(-/-), 림프절(-)",
+        "abdomen": "압통(-), 복부 청진 정상",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "제가 어떻게 될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "약물(NSAID, 감기약)에 의한 급성 신손상",
+          "급성 신우신염",
+          "탈수"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(BUN, Creatinine, 전해질, eGFR)",
+          "소변검사(요검사, 요배양검사)",
+          "신장 초음파"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "셀레콕시브 및 감기약 중단",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

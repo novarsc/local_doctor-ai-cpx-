@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 35,
+        "gender": "남자"
+      },
+      "situation": "오른쪽 옆구리 통증으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "옆구리가 너무 아파요.",
+      "history": {
+        "onset": "2시간 전",
+        "location": "오른쪽 옆구리, 허리까지 뻗침",
+        "duration": "지속적이며 점점 심해짐",
+        "course": "갑자기 심한 통증이 시작되어 참을 수 없어 응급실을 찾았다.",
+        "experience": "처음 겪는 통증이다.",
+        "character": "칼로 찌르는 듯한 격렬한 통증, NRS 9점.",
+        "radiation": "오른쪽 허리, 사타구니까지 뻗침",
+        "associatedSymptoms": {
+          "general": "오한, 메스꺼움이 있다.",
+          "gi": "구토는 없으나 식욕이 없다.",
+          "urology": "소변을 자주 보며, 소변을 볼 때 따끔거림이 있다."
+        },
+        "aggravatingFactors": "움직일 때, 기침할 때 심해짐",
+        "relievingFactors": "가만히 누워 있으면 조금 나아짐",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "medications": "복용하는 약 없음",
+          "social": "흡연 1갑/일, 음주 주 2회(소주 2병)",
+          "other": "최근 물 섭취량이 적었다."
+        }
+      },
+      "physicalExam": {
+        "abdomen": "오른쪽 옆구리에 심한 압통과 반발압통이 있다. CVA tenderness 양성.",
+        "urology": "압통이 있는 부위를 촉진 시 움츠림이 관찰된다."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "요로결석",
+          "신우신염",
+          "신결핵"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요검사",
+          "혈액검사",
+          "복부 단순촬영",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "진통제 투여",
+          "수액 공급",
+          "통증 조절"
+        ]
+      }
+    }
+  ]
+}

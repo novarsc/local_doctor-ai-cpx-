@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "72세 남자 김철수씨가 의식 저하로 보호자와 함께 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "150/90mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "의식이 없어요",
+      "history": {
+        "onset": "오늘 아침 7시경",
+        "course": "점진적으로 의식 저하됨",
+        "experience": "처음",
+        "character": "아침에 깨우려 했으나 반응이 없어 응급실 내원. 발견 당시 경련이나 구토는 없었음.  주변에 술병이나 약물은 없었음.",
+        "associatedSymptoms": "[전신] 발열/오한/체중 변화/피로(-/-/-/-) [소화] 구토(-) [신경] 두통(+, 심한 두통, 어제 저녁부터),  감각 이상(-), 시야 변화(-), 팔다리 힘 빠짐(-), 말 어눌(-)",
+        "factors": "고혈압 병력 있음. 최근 과격한 운동은 없었음.  평소 술은 가끔 마심.",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨(-), 고지혈증(-), 간염(-), 뇌혈관계 질환(-)",
+          "trauma_surgery": "두부외상(-)",
+          "medications": "고혈압약 복용 중",
+          "social": "술(+, 가끔 소주 1병 정도), 흡연(-) "
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, GCS 8점(eye 4, verbal 2, motor 2)",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "neuro": "수막 자극 징후 (-),  동공 크기 및 반응 정상",
+        "abdomen": "간/비장 비대(-/-), 복수(-)",
+        "extremity": "DTR 정상"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "경막외 출혈",
+          "뇌경색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "뇌혈관조영술"
+        ],
+        "therapeutic": [
+          "혈압 관리",
+          "수액 요법"
+        ]
+      }
+    }
+  ]
+}

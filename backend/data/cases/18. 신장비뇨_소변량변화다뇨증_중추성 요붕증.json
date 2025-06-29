@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 52,
+        "gender": "남자"
+      },
+      "situation": "52세 남자 박민수씨가 최근 소변량이 늘고 갈증이 심해져 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변이 너무 많고 목이 너무 말라요",
+      "history": {
+        "onset": "1달 전",
+        "course": "점차 증상 악화",
+        "character": "소변량 증가, 횟수 증가(하루 10회 이상), 묽은 소변, 거품(-), 피(-), 특이 냄새 없음",
+        "associatedSymptoms": {
+          "general": "체중 감소(2kg), 피로감(+), 발열/오한(-/-)",
+          "renal_urinary": "빈뇨(+), 야뇨(+, 2회), 절박뇨(-), 배뇨통(-), 혈뇨(-), 주저뇨(-), 요실금(-)",
+          "endocrine": "심한 갈증(+), 다뇨(+), 다음(+, 하루 4L 이상)",
+          "psychiatric": "물을 마셔야 한다는 강박(-)",
+          "neurologic": "두통(-), 어지럼증(-), 시야장애(-)"
+        },
+        "factors": "특별한 원인 없음",
+        "pastHistory": {
+          "social": "흡연(+, 1갑/일, 20년), 음주(주 2회 소주 1병), 불규칙적인 식사, 운동 부족",
+          "family": "고혈압 가족력(+, 부친)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 혈압 110/70mmHg, 맥박 80회/분, 호흡 16회/분, 체온 36.8℃, 체중 감소 소견(+)",
+        "heent": "눈: 결막 충혈(-), 구강: 건조함(+), 갑상샘(-), 림프절(-)",
+        "abdomen": "압통(-), 청진음 정상",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "이 병은 어떻게 치료하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "요붕증",
+          "당뇨병",
+          "신부전"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(혈당, 전해질, 신장 기능 검사)",
+          "소변검사(비중, 오스몰랄농도, 포도당)",
+          "수분 제한 검사",
+          "뇌 MRI"
+        ],
+        "therapeutic": [
+          "수분 섭취 조절",
+          "데스모프레신(DDAVP) 투여"
+        ]
+      }
+    }
+  ]
+}

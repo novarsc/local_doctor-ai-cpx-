@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "임신 32주차 산전 진찰 중 양수 누출 의심으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "맑은 물이 흘러나와요.",
+      "history": {
+        "onset": "2시간 전",
+        "location": "질",
+        "duration": "지속적",
+        "course": "양이 점점 늘어나는 것 같아요.",
+        "character": "맑고 투명한 액체, 냄새 없음, 자극 증상 없음",
+        "associatedSymptoms": {
+          "gynecological": "질출혈 없음, 복통 없음, 태동 정상"
+        },
+        "pastHistory": {
+          "obstetricHistory": "1-0-0-1. 첫째는 2년 전 자연분만, 문제 없었음. 현재 임신 32주차.",
+          "contraception": "임신 전 피임약 복용",
+          "lastMenstrualPeriod": "정확히 기억나지 않음",
+          "menstrualHistory": "규칙적",
+          "medical": "특이 병력 없음.",
+          "vaccination": "임신 전 예방 접종 완료",
+          "medications": "엽산, 철분제 복용 중",
+          "social": "비흡연, 비음주, 커피 하루 1잔",
+          "family": "특이 가족력 없음"
+        },
+        "etc": {
+          "patientBio": "키 165cm, 체중 62kg (임신 전 50kg)",
+          "partnerBio": "혈액형 A형"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "이상 없음",
+        "abdomen": "자궁 크기 32주차에 상응, 태아 심박동 정상.  골반 내진: 경관 짧아짐, 자궁 경부 개대 없음, 맑은 양수 유출 확인.",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "아기에게 문제가 생기는 건 아닐까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "조기양막파수",
+          "절박조산"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "양수 검사 (Nitrazine test, Fern test)",
+          "초음파 검사 (태아 상태, 양수량 확인)",
+          "비강직 검사 (NST)",
+          "혈액 검사 (CBC, 감염 지표)"
+        ],
+        "therapeutic": [
+          "입원하여 절대 안정",
+          "항생제 투여 (감염 예방)",
+          "자궁 수축 억제제 투여 (필요시)",
+          "폐 성숙 주사 (필요시)"
+        ]
+      }
+    }
+  ]
+}

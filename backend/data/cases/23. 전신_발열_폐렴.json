@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 72,
+        "gender": "남성"
+      },
+      "situation": "72세 남성 김철수씨가 기침과 열로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "95회/분",
+        "respiration": "22회/분",
+        "temperature": "38.8℃"
+      },
+      "chiefComplaint": "기침이 심하고 열이 나요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "가슴",
+        "duration": "점점 심해짐",
+        "course": "처음에는 가벼운 기침이었으나, 점점 심해지고 열이 나기 시작함",
+        "experience": "처음",
+        "character": "심한 기침, 가래는 없음.  밤에 기침이 더 심함",
+        "associatedSymptoms": {
+          "general": "오한(+), 피로(+), 식욕부진(+)",
+          "respiratory": "기침(+), 가래(-), 호흡곤란(-), 흉통(-)",
+          "digestive": "식욕부진(+), 메스꺼움(-), 구토(-), 설사(-)",
+          "urinary": "빈뇨(-), 배뇨통(-), 혈뇨(-)",
+          "musculoskeletal": "근육통(-)"
+        },
+        "factors": "최근 감기 환자 접촉(-), 여행력(-), 흡연력(+, 30갑년), 만성폐쇄성폐질환 병력(+)",
+        "pastHistory": {
+          "medical": "만성폐쇄성폐질환(COPD), 고혈압",
+          "social": "흡연(+, 30갑년), 음주(주 2회 소주 반병)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 호흡수 증가.  전반적으로 약해 보임.",
+        "heent": "귀, 코, 목 : 특이소견 없음.",
+        "chest": "흉부 청진 시 숨소리 거침 및 잡음 청취됨.",
+        "abdomen": "부드러움, 압통 없음.",
+        "extremity": "부종 없음."
+      },
+      "patientQuestion": "폐렴인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐렴",
+          "급성기관지염",
+          "COPD 악화"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "혈액검사 (CBC, CRP)",
+          "객담 배양검사"
+        ],
+        "therapeutic": [
+          "항생제 치료(경구 또는 정맥)",
+          "기침약",
+          "산소치료 필요시"
+        ]
+      }
+    }
+  ]
+}

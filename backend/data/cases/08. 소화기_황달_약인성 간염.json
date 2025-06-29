@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 42,
+        "gender": "남자"
+      },
+      "situation": "피로감과 황달 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "몸이 너무 피곤하고 눈이 노래요",
+      "history": {
+        "onset": "2주 전",
+        "location": "전신",
+        "duration": "2주간 지속",
+        "course": "초기에는 피로감만 있었으나, 최근 눈과 피부가 노랗게 변함",
+        "experience": "처음",
+        "character": "노란색 변색",
+        "associatedSymptoms": {
+          "general": "심한 피로감(+), 식욕부진(+), 체중감소(+, 3kg), 발열/오한(-/-), 근육통(-), 관절통(-)",
+          "respiratory": "기침/가래(-/-)",
+          "gi": "오심/구토(-/-), 변비(-), 설사(-), 혈변(-), 흑색변(-), 지방변(-), 복통(-), 소화불량(-), 속쓰림(-)",
+          "renal": "소변색 변화(+, 진한 갈색)"
+        },
+        "factors": "특별한 음식 섭취 없음",
+        "pastHistory": {
+          "events": "수혈/문신(-/-), 최근 여행 없음, 최근 성관계 없음",
+          "medical": "고혈압(-), 당뇨병(-), 고지혈증(-), 간질환(-)",
+          "medications": "아스피린(1일 1회, 2개월 복용), 기타 약물 없음",
+          "social": "흡연(1갑/일, 20년), 음주(주 3회, 소주 2병), 직업(회사원), 스트레스(+)",
+          "family": "간질환 병력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 황달(+), 구강 점막 황달(+), 피부 황색증(+)",
+        "abdomen": "복부 촉진시 통증 없음, 간 비대 없음",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "어떤 약 때문에 이런 증상이 나타난 걸까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "약인성 간염",
+          "급성 바이러스성 간염",
+          "알코올성 간염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "간 기능 검사",
+          "간염 바이러스 검사",
+          "복부 초음파",
+          "아스피린 복용 중단"
+        ],
+        "therapeutic": [
+          "대증 치료",
+          "아스피린 복용 중단",
+          "생활 습관 개선 교육"
+        ]
+      }
+    }
+  ]
+}

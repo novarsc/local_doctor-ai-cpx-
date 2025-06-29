@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "caseType": "실전 모의 증례 [하이브리드]",
+      "patientProfile": {
+        "name": "김철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "혈변을 보고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "변에서 피가 나왔어요.",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "하복부",
+        "duration": "한번",
+        "course": "오늘 아침 한번만 발생",
+        "experience": "처음 발생",
+        "character": "선홍색 혈변, 양은 변기에 약간 묻을 정도",
+        "associatedSymptoms": {
+          "gi": "A/N/V/D/C(-/-/-/-/+), 복통(+, 경미한 복통, 배변 후 완화됨), 항문 통증(-), 잔변감(-)"
+        },
+        "factors": "특별한 요인 없음",
+        "pastHistory": {
+          "events": "과거 대장내시경 검사 없음",
+          "surgical": "없음",
+          "medical": "고혈압, 고지혈증",
+          "social": "흡연(과거 20갑년, 금연 중), 음주(주 2회 소주 1병), 커피(하루 2잔). 직업(은퇴), 식사(불규칙적)",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-), 부종(-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-). DRE(혈변 소량 관찰)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "심각한 질병일까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "대장게실 출혈",
+          "대장암",
+          "치질"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대장내시경",
+          "대변 잠혈 검사",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "대장내시경적 치료(필요시)",
+          "수액요법(필요시)",
+          "생활 습관 조정"
+        ]
+      }
+    }
+  ]
+}

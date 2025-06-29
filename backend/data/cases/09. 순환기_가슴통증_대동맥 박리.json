@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "갑작스러운 심한 가슴 통증으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "160/100mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "가슴이 너무 아파요.",
+      "history": {
+        "onset": "30분 전",
+        "location": "흉골 뒤쪽",
+        "radiation": "등으로 퍼지는 듯한 느낌",
+        "duration": "지속적인 통증",
+        "course": "갑자기 시작되어 점점 심해짐",
+        "experience": "처음 경험",
+        "character": "찢어지는 듯한 심한 통증, NRS 9점",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(-/-/-)",
+          "gi": "오심/구토(-/-)",
+          "circulatory": "두근거림/호흡곤란(+/+)",
+          "respiratory": "기침/가래/객혈/쌕쌕거림(-/-/-/-)",
+          "msk_skin": "피부 발진(-)",
+          "psych": "극심한 불안감(+)"
+        },
+        "factors": "악화: 움직일 때 심해짐, 완화: 없음",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(+, 30갑년), 음주(+, 매일 소주 1병), 스트레스(+, 직장 스트레스 심함), 직업: 은퇴",
+          "family": "부친: 심근경색으로 사망"
+        }
+      },
+      "physicalExam": {
+        "general": "빈맥, 고혈압",
+        "heent": "경동맥 잡음(-)",
+        "chest": "심음: 규칙적이나 약간 빠름, 호흡음: 청진상 특이 소견 없음, 흉통 부위 압통(-)",
+        "abdomen": "시진/청진상 특이 소견 없음",
+        "extremity": "말초 맥박 촉진 가능, 부종(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "대동맥 박리",
+          "급성 심근경색",
+          "불안정형 협심증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "심근 효소 검사",
+          "흉부 CT",
+          "대동맥 초음파"
+        ],
+        "therapeutic": [
+          "산소 공급",
+          "통증 조절(모르핀)",
+          "혈압 조절",
+          "수술적 치료 고려"
+        ]
+      }
+    }
+  ]
+}

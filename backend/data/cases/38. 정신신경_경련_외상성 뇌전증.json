@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민준",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 박민준씨가 경련 발작 후 의식을 잃었다는 가족의 이야기를 듣고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "경련을 했다고 해요",
+      "history": {
+        "onset": "3시간 전",
+        "location": "집에서",
+        "duration": "약 2분",
+        "experience": "처음 발생한 경련 발작",
+        "character": "가족 증언에 따르면, 전조 증상 없이 갑자기 경련이 시작, 전신 강직 간대 발작 양상. 의식 소실, 구토, 혀 깨물림(+), 침 흘림(+). 발작 후 수 분간 혼돈 상태 지속, 기억 상실(+).",
+        "associatedSymptoms": "[전신] 두통(+), 어지러움(+), 메스꺼움(+) [신경] 시야 흐림(-), 말 어눌함(-), 팔다리 저림(-)",
+        "factors": "1주일 전 교통사고로 머리 부상(CT상 경미한 뇌진탕 소견), 사고 후 두통 지속, 최근 수면 부족",
+        "pastHistory": {
+          "medical": "없음",
+          "trauma_surgery": "1주일 전 교통사고 (경미한 뇌진탕)",
+          "social": "흡연(+), 음주(+, 주 2회), 커피(+, 하루 2잔), 스트레스(+), 운동(-) "
+        }
+      },
+      "physicalExam": {
+        "general": "Vital signs stable,  의식 명료",
+        "heent": "두부 외상 소견 없음",
+        "neuro": "신경학적 검사상 이상 없음.  근력, 감각 정상. 심부건 반사 정상.",
+        "extremity": "팔다리 운동 범위 정상, 감각 정상"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "외상성 뇌전증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌파 검사",
+          "뇌 MRI",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "항경련제 처방",
+          "추가 발작 예방 교육"
+        ]
+      }
+    }
+  ]
+}

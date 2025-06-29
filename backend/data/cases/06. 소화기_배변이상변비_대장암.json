@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "최근 혈변을 보아 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "75회/분",
+        "respiration": "18회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "변에 피가 섞여 나와요",
+      "history": {
+        "onset": "2개월 전",
+        "duration": "지속적",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "변이 가늘어짐, 혈변(+), 잔변감(+), 배변 시 통증(+), 힘주어 배변함(+)",
+        "associatedSymptoms": {
+          "general": "체중 감소(5kg), 피로감(+)",
+          "gi": "복통(+, 쥐어짜는 듯한 통증), 식욕 감소(+), 변비(+), 설사(-), 구토(-)",
+          "endocrine": "추위불내성(-)",
+          "psych": "불안감(+)"
+        },
+        "pastHistory": {
+          "events": "금주 10년, 금연 5년, 건강검진 꾸준히 받지 않음",
+          "medications": "고혈압 약 복용(5년)",
+          "social": "음주(주 2회, 소주 1병), 흡연(과거 30갑/년), 직업: 은퇴, 운동: 거의 없음, 식사: 육류 위주 식사, 야채 섭취 부족",
+          "family": "아버지: 위암, 어머니: 고혈압",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 창백(-), 갑상선(-), 경부 림프절(-)",
+        "abdomen": "복부 압통(+, 좌측 하복부), 반발 압통(-), 복부 종괴(-), 촉진 시 통증(+)",
+        "extremity": "말초 부종(-)",
+        "rectal": "직장수지검사: 딱딱한 변, 혈변 소량 관찰"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "대장암",
+          "대장염",
+          "치핵"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대장내시경",
+          "대변 잠혈 검사",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "대증요법"
+        ]
+      }
+    }
+  ]
+}

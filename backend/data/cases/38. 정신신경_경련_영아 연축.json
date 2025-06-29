@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민준",
+        "age": "4개월",
+        "gender": "남아"
+      },
+      "situation": "4개월 된 김민준 군이 갑작스러운 경련으로 응급실에 내원했다.",
+      "vitalSigns": {
+        "bloodPressure": "70/40mmHg",
+        "heartRate": "130회/분",
+        "respiration": "30회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "아기가 경련을 했어요.",
+      "history": {
+        "onset": "30분 전",
+        "location": "전신",
+        "duration": "약 1분",
+        "course": "경련은 갑자기 시작되었으며, 팔다리가 뻣뻣하게 굳어지고, 이후 떨림이 있었다고 한다.  몇 번 반복 후에 자연스럽게 끝났다고 함.  오늘 2번째 경련 발작.",
+        "experience": "처음 경련은 어제 저녁에 발생.  오늘 두 번째 발작.",
+        "character": "경련 전 특별한 증상 없었음.  경련 중 의식 소실은 없었으나 칭얼거림이 심했다고 함. 침 흘림은 없었고, 대소변 실금도 없었음. 경련 후 졸음이 많았음.  눈을 위로 뜨는 모습은 관찰되지 않았음.",
+        "associatedSymptoms": "[전신] 발열(+), 구토(-), 설사(-), [신경] 두통(-), 졸음(+), [소화기] 변비(-)",
+        "factors": "특별한 원인은 알 수 없음. 이유식을 먹인 후 경련이 발생하였음.",
+        "pastHistory": {
+          "medical": "특이 병력 없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "모유 수유 중,  발달은 정상적으로 보임",
+          "family": "가족력 없음",
+          "developmentalHistory": {
+            "birth": "정상 분만, 3.2kg",
+            "milestones": "발달은 정상적인 발달 궤도를 따르고 있음."
+          }
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 불안정,  피부는 약간 붉음",
+        "neuro": "신경학적 검사는 현재로서는 정상범위이다. 뇌막자극징후는 없음.",
+        "extremity": "사지의 근력 및 감각은 정상."
+      },
+      "patientQuestion": "우리 아기가 괜찮을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "영아 연축"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌파 검사",
+          "뇌 MRI",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "경련 관리 및  추후 치료 계획에 대한 상담"
+        ],
+        "procedures": "영아 연축의 가능성을 감별하기 위한 추가 검사를 시행하고,  향후 치료 계획을 세우도록 하겠습니다.  보호자에게 영아 연축에 대한 설명 및 질문에 대한 충분한 시간을 할애하겠습니다."
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 박민수씨가 담배를 끊고 싶다며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "담배를 끊고 싶어요.",
+      "smokingHistory": {
+        "amount": "하루 1.5갑 × 10년",
+        "motivation": "최근 건강검진에서 폐 기능 저하 소견을 받고 금연을 결심함. 바로 끊고 싶어함.",
+        "reason": "대학교 2학년 때 친구들과 어울리면서 시작. 스트레스 해소 목적으로 흡연",
+        "dependency": [
+          "아침 기상 후 15분 이내에 흡연",
+          "금연 구역에서도 흡연 욕구 강함",
+          "아침 첫 담배가 가장 만족스러움",
+          "아침에 담배를 가장 많이 피움",
+          "몸이 아파도 담배를 피우고 싶음",
+          "하루 30개피(1.5갑)"
+        ],
+        "quitAttempts": "과거 몇 차례 금연 시도했으나, 금단 증상과 스트레스로 인해 실패함.",
+        "withdrawalSymptoms": "체중 증가(+), 예민해짐(+), 불안(+), 불면(+), 우울/짜증/식욕 증가(+/+/+), 구토/구역(-/-), 두근거림/손 떨림(-/-)",
+        "perception": {
+          "risk": "폐 건강에 매우 안 좋다는 것을 알고 있음",
+          "reward": "건강해지고 돈을 절약할 수 있음",
+          "roadblocks": "스트레스, 친구들과의 술자리"
+        }
+      },
+      "pastHistory": {
+        "medical": "특이 사항 없음",
+        "social": "음주(+), 직업: 회사원",
+        "family": "부모님 모두 비흡연자"
+      },
+      "associatedSymptoms": "기침(+, 심하지 않음), 가래(+, 가끔), 호흡곤란/흉통(-/-)",
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "skin": "피부 긴장도(-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "금연 치료에 대해 자세히 알고 싶어요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "니코틴 의존",
+          "니코틴 중독"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "폐 기능 검사",
+          "흉부 X-ray"
+        ],
+        "therapeutic": [
+          "금연 상담",
+          "니코틴 패치 처방",
+          "금연 지원 프로그램 안내"
+        ]
+      }
+    }
+  ]
+}

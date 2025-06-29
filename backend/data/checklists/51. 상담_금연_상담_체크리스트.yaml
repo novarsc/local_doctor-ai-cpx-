@@ -1,0 +1,89 @@
+checklist:
+  topic_kr: "금연 상담"
+  topic_en: "Smoking Cessation Counseling"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "흡연력 평가"
+          subtitle_en: "Assessment of Smoking History"
+          details: |
+            - 흡연 시작 연령 (Age of smoking initiation)
+            - 1일 흡연량 (Number of cigarettes smoked per day)
+            - 총 흡연 기간 (Total duration of smoking)
+            - 과거 금연 시도 횟수 및 기간 (Number and duration of past quit attempts)
+            - 과거 금연 시도 방법 (Methods used in past quit attempts)
+            - 금연 시도 실패 이유 (Reasons for previous failures)
+            - 니코틴 의존도 평가 (Nicotine dependence assessment)
+        - subtitle_kr: "금연 동기 및 의지"
+          subtitle_en: "Motivation and Willingness to Quit"
+          details: |
+            - 금연을 결심한 이유 (Reasons for wanting to quit)
+            - 금연에 대한 기대와 우려 (Expectations and concerns about quitting)
+            - 가족 또는 주변 사람들의 지지 (Support from family or friends)
+        - subtitle_kr: "금연 방해 요인"
+          subtitle_en: "Barriers to Quitting"
+          details: |
+            - 스트레스 해소 (Stress relief)
+            - 사회적 압력 (Social pressure)
+            - 습관적 행동 (Habitual behavior)
+            - 금단 증상에 대한 두려움 (Fear of withdrawal symptoms)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "전반적인 건강 상태"
+          subtitle_en: "General Health Status"
+          details: |
+            - 활력 징후 측정 (Vital signs measurement)
+            - 흡연 관련 질환 징후 확인 (Checking for signs of smoking-related diseases)
+        - subtitle_kr: "구강 및 호흡기계"
+          subtitle_en: "Oral Cavity and Respiratory System"
+          details: |
+            - 구강 점막 검사 (Oral mucosa examination)
+            - 폐 청진 (Lung auscultation)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "금연 관련 질환"
+          subtitle_en: "Smoking-Related Diseases"
+          diagnoses:
+            - "Chronic Obstructive Pulmonary Disease (COPD)"
+            - "Lung Cancer"
+            - "Cardiovascular Disease"
+        - subtitle_kr: "검사 계획"
+          subtitle_en: "Workup Plan"
+          workup:
+            - category_kr: "폐기능 검사"
+              category_en: "Pulmonary Function Tests"
+              tests:
+                - "Spirometry"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Chest X-ray"
+                - "CT scan"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "금연의 이점"
+          subtitle_en: "Benefits of Quitting"
+          details: |
+            - 건강 개선 효과 설명 (Explain the health benefits of quitting)
+            - 금연 성공 사례 공유 (Share success stories)
+        - subtitle_kr: "금연 방법 안내"
+          subtitle_en: "Smoking Cessation Methods"
+          details: |
+            - 니코틴 대체 요법 (Nicotine Replacement Therapy)
+            - 약물 치료 (Pharmacotherapy)
+            - 행동 요법 (Behavioral Therapy)
+        - subtitle_kr: "금단 증상 관리"
+          subtitle_en: "Managing Withdrawal Symptoms"
+          details: |
+            - 금단 증상에 대한 설명 (Explain withdrawal symptoms)
+            - 대처 전략 교육 (Provide coping strategies)
+        - subtitle_kr: "재흡연 방지 전략"
+          subtitle_en: "Relapse Prevention Strategies"
+          details: |
+            - 유혹적인 상황 회피 (Avoid triggering situations)
+            - 스트레스 관리법 교육 (Teach stress management techniques)
+            - 지지 시스템 활용 (Utilize support systems)

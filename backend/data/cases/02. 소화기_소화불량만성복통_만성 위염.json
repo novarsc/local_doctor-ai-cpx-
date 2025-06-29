@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "속이 불편하고 소화가 잘 안 돼서 내원했습니다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85 mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "속이 불편하고 소화가 안 돼요.",
+      "history": {
+        "onset": "2년 전",
+        "location": "상복부",
+        "course": "2년 전부터 증상이 있었고, 최근 몇 달 동안 더 심해졌습니다.",
+        "experience": "평소 소화가 잘 안 되는 편이었는데, 최근에는 더 심해져서 음식을 먹으면 속이 더부룩하고 불편합니다.",
+        "character": "더부룩함, 답답함, 속쓰림, 때때로 메스꺼움",
+        "associatedSymptoms": {
+          "general": "체중 변화 없음",
+          "gi": "A/N/V/D/C(+/-/+/-/-) , 혈변/지방변(-/-), 속쓰림(+, 명치 부위, NRS 3),  복통(-) "
+        },
+        "factors": "매운 음식, 기름진 음식, 술, 스트레스 받을 때 악화됨.  규칙적인 식사를 하면 증상이 다소 호전됨.",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전부터 약 복용 중), 고지혈증(+, 5년 전부터 약 복용 중)",
+          "events": "특이 사항 없음",
+          "surgical": "없음",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "흡연(+, 하루 한 갑), 음주(+, 소주 1병/주 2회), 직업: 은퇴,  식사: 불규칙적, 기름진 음식 섭취 잦음, 운동: 거의 없음, 스트레스(+)",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "정상",
+        "abdomen": "상복부 압통(+), 반발압통(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 위염",
+          "기능성 소화불량",
+          "위궤양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "헬리코박터 파일로리 검사"
+        ],
+        "therapeutic": [
+          "생활 습관 개선(규칙적인 식사, 저지방 식단, 금주, 금연 권고)",
+          "제산제, 위장운동촉진제 처방",
+          "필요시 H. pylori 제균 치료"
+        ]
+      }
+    }
+  ]
+}

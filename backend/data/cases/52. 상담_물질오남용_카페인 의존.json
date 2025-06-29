@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박민준",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "28세 남자 박민준씨가 수면장애를 호소하며 내원하였다. 카페인 과다 섭취가 의심된다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "잠을 잘 수가 없어요.",
+      "drugHistory": {
+        "drug": "커피, 에너지 드링크",
+        "history": "고등학교 때부터 커피를 하루에 2잔씩 마셨고, 대학교 4학년부터는 에너지 드링크를 즐겨 마시기 시작. 취업 후에는 스트레스 때문에 커피와 에너지 드링크 섭취량이 늘어남.",
+        "currentUse": "커피: 하루 4~5잔, 에너지 드링크: 하루 2~3캔",
+        "prescriptionSource": "편의점 구매",
+        "dependency": {
+          "quitAttempts": "몇 번 시도했지만, 두통, 피로감, 집중력 저하 등 금단 증상 때문에 실패",
+          "tolerance": "처음에는 커피 2잔으로도 충분했지만, 최근에는 4~5잔은 마셔야 잠시 졸음이 깨는 느낌",
+          "withdrawal": "카페인 섭취를 줄이면 두통, 피로감, 집중력 저하, 기분 저하가 나타남"
+        },
+        "abuse": {
+          "occupationalIssues": "카페인 섭취 없이는 업무 집중이 어려움",
+          "interpersonalIssues": "예민해지고 짜증이 늘어남"
+        }
+      },
+      "associatedSymptoms": "불면증(+), 두통(+), 초조함(+), 심계항진(+), 위장장애(-)",
+      "pastHistory": {
+        "medical": "특이 사항 없음",
+        "social": "흡연(-), 음주(주 2회 소주 2병), 직업: 웹 디자이너, 스트레스 높음"
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "정상",
+        "chest": "정상",
+        "abdomen": "정상"
+      },
+      "patientQuestion": "커피를 끊으면 일을 할 수 없을 것 같아요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "카페인 의존"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "카페인 섭취 단계적 감량 계획 수립",
+          "수면 위생 교육",
+          "스트레스 관리 상담"
+        ]
+      }
+    }
+  ]
+}

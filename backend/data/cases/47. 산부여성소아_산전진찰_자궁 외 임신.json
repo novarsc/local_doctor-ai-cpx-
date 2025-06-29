@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "오늘 아침부터 심한 하복부 통증과 질 출혈을 주소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "100회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "배가 너무 아프고 피가 나와서 왔어요.",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "하복부",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "character": "심한 쥐어짜는 듯한 통증,  생리혈보다 진한 갈색의 질 출혈",
+        "associatedSymptoms": {
+          "gynecological": "질 분비물 증가(+), 어지러움(+)"
+        },
+        "pastHistory": {
+          "obstetricHistory": "0-0-0-0. 첫 임신 시도",
+          "contraception": "피임약 복용 안함",
+          "lastMenstrualPeriod": "6주 전",
+          "menstrualHistory": "규칙적, 양/색/월경통 이상 없음",
+          "medical": "특이 병력 없음",
+          "vaccination": "B형 간염, 풍진 예방접종 완료",
+          "medications": "엽산제 복용 중",
+          "social": "흡연(-), 음주(-), 커피(하루 1잔), 직업(간호사), 운동(주 3회 요가)",
+          "family": "특이 가족력 없음"
+        },
+        "etc": {
+          "patientBio": "키 165cm, 체중 53kg, 혈액형 A형 Rh+",
+          "partnerBio": "혈액형 B형 Rh+"
+        }
+      },
+      "physicalExam": {
+        "general": "빈혈 소견, 안색 창백",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "abdomen": "복부 압통(+), 방어긴장(+), 초음파: 좌측 난소에 혈종 확인, 자궁 내 태낭 확인 안됨",
+        "extremity": "말초 맥박 촉진 가능"
+      },
+      "patientQuestion": null,
+      "impression": {
+        "likelyDiagnoses": [
+          "자궁 외 임신",
+          "자궁 파열"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사(베타-hCG, 혈액형, 혈액응고검사)",
+          "골반 초음파",
+          "경동맥 도플러"
+        ],
+        "therapeutic": [
+          "수혈",
+          "응급 수술(복강경 또는 개복 수술)"
+        ]
+      }
+    }
+  ]
+}

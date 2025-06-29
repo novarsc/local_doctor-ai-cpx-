@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김철수씨가 몇 달 동안 지속되는 기침과 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차고 기침이 심해요",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "지속",
+        "course": "점진적으로 악화",
+        "experience": "처음",
+        "character": "운동 시 심해지고, 가만히 있어도 숨이 차며, 마른 기침이 잦고 가래는 없음.  최근에는 짧은 거리만 걸어도 숨이 차다고 함.",
+        "associatedSymptoms": {
+          "general": "발열/피로/체중 변화(-/-/체중 감소 5kg)",
+          "respiratory": "흉통(-), 기침(+, 마른기침), 가래(-), 쌕쌕거림(-)",
+          "psychiatric": "불안(+)  힘든 일상에 대한 불안감 표현"
+        },
+        "factors": "운동 시 악화, 계단 오르기 어려움",
+        "pastHistory": {
+          "medical": "고혈압(10년 전부터 치료 중), 고지혈증",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약(Amlodipine 5mg 1일 1회), 고지혈증 약(Atorvastatin 10mg 1일 1회)",
+          "social": "흡연(+, 40갑년, 현재 금연 중), 음주(소주 1병/주)",
+          "family": "형제자매 중 폐질환 병력 없음",
+          "obgyn": "남자"
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란, 빈호흡, 체중 감소 관찰됨",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "chest": "흉부 시진 : 흉곽 확장 감소, 촉진 : 흉벽 압통 없음, 타진 : 청징음, 청진 : 숨소리 약간 거침",
+        "extremity": "곤봉지/청색증(-/-), 말초 부종 없음"
+      },
+      "patientQuestion": "이 병은 어떻게 치료하나요?  앞으로 더 악화될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "특발성 폐섬유화증(IPF)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "고해상도 흉부 CT",
+          "폐기능검사",
+          "혈액 검사",
+          "폐생검(필요시)"
+        ],
+        "therapeutic": [
+          "피르페니돈 또는 닌테다닙 투여 고려",
+          "산소치료",
+          "재활치료",
+          "금연 상담",
+          "지지요법"
+        ]
+      }
+    }
+  ]
+}

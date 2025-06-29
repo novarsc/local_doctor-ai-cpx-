@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 10,
+      "patientProfile": {
+        "name": "최지혜",
+        "age": 3,
+        "gender": "여자"
+      },
+      "situation": "3세 여자아이 최지혜 양이 기침과 콧물, 열로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "24회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "기침을 심하게 해요",
+      "history": {
+        "onset": "3일 전",
+        "duration": "지속적",
+        "course": "점차 심해짐",
+        "experience": "첫 경험",
+        "character": "마른기침, 가래는 없음, 밤에 더 심함",
+        "associatedSymptoms": {
+          "general": "열/오한(+/+), 식욕부진(+), 구토(-)",
+          "respiratory": "콧물(+), 재채기(+), 인후통(-), 호흡곤란(-)",
+          "other": "귀통증(-)"
+        },
+        "factors": "최근 어린이집 등원, 감기 유행",
+        "pastHistory": {
+          "medical": "알레르기 질환(-)",
+          "medications": "없음",
+          "social": "어린이집 등원, 다른 아이들 감기 증상 관찰",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 불안정, 기침, 코막힘, 콧물 관찰",
+        "heent": "귀(-), 코(콧물, 맑은 분비물), 목(인두 충혈)",
+        "chest": "청진 시 잡음 없음, 호흡수 증가",
+        "extremity": "발진(-)"
+      },
+      "patientQuestion": "폐렴일까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "바이러스성 기관지염",
+          "급성 상기도 감염",
+          "급성 기관지염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "수분 섭취 충분히",
+          "해열제",
+          "가습기 사용",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

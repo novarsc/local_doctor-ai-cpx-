@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 35,
+        "gender": "남자"
+      },
+      "situation": "35세 남자 김철수씨가 설사와 복통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "배가 아프고 설사를 자주 해요.",
+      "history": {
+        "onset": "6개월 전부터",
+        "location": "주로 우하복부",
+        "course": "처음에는 가끔씩 있었으나 최근에는 매일 발생",
+        "character": "심한 복통과 함께 물 같은 설사가 하루 5-6회 정도 발생. 혈변은 없음.",
+        "associatedSymptoms": {
+          "general": "체중 감소(5kg), 피로감(+)",
+          "digestive": "설사(+, 하루 5-6회, 물 같은 변), 복통(+, 심한 복통), 구토(-), 변비(-), 혈변(-), 식욕부진(+)",
+          "endocrine": "더위/추위(-/-)",
+          "respiratory": "기침/가래(-/-)",
+          "urinary": "다뇨(-)",
+          "psychiatric": "불안감(+)"
+        },
+        "factors": "스트레스 증가",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "medications": "없음",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 2회), 직업: 회사원",
+          "family": "특이사항 없음",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "안색 창백",
+        "heent": "정상",
+        "abdomen": "우하복부 압통(+), 방어긴장(-), 반발통(-)",
+        "extremity": "정상"
+      },
+      "patientQuestion": "이게 뭐가 문제인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "IBD(염증성 장 질환)",
+          "과민성 대장 증후군",
+          "장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CRP, ESR, 혈구수)",
+          "대변검사(잠혈, 백혈구)",
+          "대장내시경"
+        ],
+        "therapeutic": [
+          "항염증제",
+          "설사 억제제",
+          "식이요법 및 생활습관 조정"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김철수씨가 허리 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "허리가 아파요",
+      "history": {
+        "onset": "2주 전",
+        "location": "허리 중앙부, 왼쪽 엉덩이 및 허벅지 뒤쪽으로 방사통",
+        "duration": "주로 낮에 심하고, 밤에는 다소 호전됨",
+        "course": "무거운 물건을 들다가 갑자기 심해짐",
+        "experience": "과거에도 비슷한 증상이 있었지만, 며칠 휴식 후 자연적으로 호전됨",
+        "character": "심한 쑤시는 통증과 함께 왼쪽 다리 저림 및 당김 증상 동반, NRS 7점 (최대 통증 시)",
+        "associatedSymptoms": {
+          "neurological": "왼쪽 다리 저림(+), 약간의 감각 저하(+), 운동 저하는 없음(-), 변실금/요실금(-/-)"
+        },
+        "factors": "장시간 앉아 있거나, 무거운 물건을 들 때 악화, 휴식 시 다소 완화",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(1갑/일), 음주(주 2회 소주 1병)",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "이상 없음",
+        "abdomen": "이상 없음",
+        "extremity": "왼쪽 다리 직거상 검사(SLR) 양성(+), 압통 및 신경학적 이상 소견(+), 요추부 압통(+), 움직임 제한(+)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "추간판탈출증(L4-L5)",
+          "요추 염좌",
+          "척추관 협착증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요추부 MRI",
+          "신경학적 검사"
+        ],
+        "therapeutic": [
+          "진통제 및 소염제 처방",
+          "물리치료",
+          "근육 이완제 처방",
+          "필요시 수술적 치료"
+        ]
+      }
+    }
+  ]
+}

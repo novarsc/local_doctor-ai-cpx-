@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이지혜",
+        "age": 65,
+        "gender": "여자"
+      },
+      "situation": "갑자기 의식을 잃고 쓰러졌다고 한다.",
+      "vitalSigns": {
+        "bloodPressure": "160/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "갑자기 쓰러졌어요",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "집에서 식사 중",
+        "duration": "약 30초",
+        "experience": "갑자기 두통이 심하게 발생 후 의식을 잃었다고 함. 목격자에 따르면 쓰러지면서 경련을 했다고 함.",
+        "character": {
+          "preSyncope": "심한 두통(+), 메스꺼움(-), 어지러움(-), 눈앞이 캄캄함(-)",
+          "syncope": "경련(+), 혀 깨문 흔적(-), 구토(-), 대소변 실금(-)",
+          "postSyncope": "두통(+), 팔다리 힘 빠짐(+), 의식 혼탁(+), 구토(-)"
+        },
+        "associatedSymptoms": {
+          "general": "발열(-), 오한(-), 피로(+), 식은땀(-), 체중변화(-)",
+          "circulatory": "두근거림(-), 호흡곤란(-)",
+          "gi": "설사(-), 구토(-), 혈변(-), 흑색변(-), 토혈(-)",
+          "respiratory": "가슴 통증(-)",
+          "renal": "다음(-), 다뇨(-), 다갈(-), 혈뇨(-)",
+          "neuro": "두통(+), 시야장애(-), 보행장애(-), 팔다리 힘 빠짐(+)",
+          "psych": "죽을 것 같은 공포감(-), 불안(-)"
+        },
+        "factors": "고혈압 병력(+), 최근 스트레스 증가(+), 가족력(뇌졸중)(+)"
+      },
+      "pastHistory": {
+        "surgical": "없음",
+        "medications": "고혈압약 복용 중",
+        "social": "흡연(-), 음주(소주 반병/주)",
+        "family": "고혈압, 뇌졸중 가족력 있음"
+      },
+      "physicalExam": {
+        "general": "의식은 회복되었으나, 두통 호소. 왼쪽 상지 근력 저하 보임",
+        "heent": "결막 창백(-), 구강 건조(-), 경동맥 청진(-), 뇌신경학적 검사에서 왼쪽 상지 근력 저하 발견",
+        "chest": "심음 청진 정상",
+        "extremity": "왼쪽 상지 근력 약화, 감각 저하(+)"
+      },
+      "patientQuestion": "머리가 너무 아프고 왼쪽 팔이 힘이 없어요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "뇌출혈"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "두부 CT",
+          "뇌 MRI",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "혈압 조절",
+          "항혈전제 투여",
+          "수술적 치료 고려"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+checklist:
+  topic_kr: "소변량 변화 - 핍뇨"
+  topic_en: "Changes in Urine Output - Oliguria"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 소변량 감소는 언제부터 시작되었나요? (When did the decrease in urine output begin?)
+            - 하루 소변량은 어느 정도인가요? 구체적인 양이나 횟수를 알려주세요. (What is your daily urine output? Please specify the amount or frequency.)
+            - 소변량 감소 외 다른 증상이 있나요? (Are there any other symptoms besides decreased urine output?)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 옆구리 통증, 발열, 오한, 구토, 메스꺼움, 부종 등이 있나요? (Do you have any flank pain, fever, chills, vomiting, nausea, or swelling?)
+            - 소변을 볼 때 통증이나 작열감이 있나요? (Do you experience any pain or burning sensation during urination?)
+            - 소변 색깔이나 냄새에 변화가 있었나요? (Have there been any changes in the color or odor of your urine?)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 신장 질환, 당뇨병, 고혈압, 심부전 등의 과거력이 있나요? (Do you have a history of kidney disease, diabetes, hypertension, or heart failure?)
+            - 최근 복용한 약물이 있나요? (Have you taken any medications recently?)
+            - 외상을 입은 적이 있나요? (Have you experienced any trauma?)
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 활력징후 측정 (체온, 맥박, 호흡, 혈압) (Measure vital signs: temperature, pulse, respiration, blood pressure)
+            - 체액 상태 평가 (부종, 탈수 징후 확인) (Assess fluid status: check for edema or signs of dehydration)
+            - 복부 진찰 (압통, 종괴 확인) (Abdominal examination: check for tenderness or masses)
+            - 늑골척추각 압통 확인 (Costovertebral angle tenderness)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 필요시 신장 초음파 검사 (Renal ultrasound if necessary)
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Acute Kidney Injury (AKI)"
+            - "Chronic Kidney Disease (CKD)"
+            - "Prerenal Azotemia"
+            - "Postrenal Obstruction"
+            - "Glomerulonephritis"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Basic Metabolic Panel (BMP)"
+                - "Blood Urea Nitrogen (BUN)"
+                - "Creatinine"
+                - "Glomerular Filtration Rate (GFR)"
+            - category_kr: "소변 검사"
+              category_en: "Urine Tests"
+              tests:
+                - "Urinalysis"
+                - "Urine Culture"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Renal Ultrasound"
+
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "핍뇨의 원인과 증상에 대해 설명하고, 진단 및 치료 계획에 대해 자세히 안내합니다. (Explain the causes and symptoms of oliguria, and provide detailed information about the diagnosis and treatment plan.)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "호흡 곤란, 흉통, 의식 저하, 심한 부종 등의 증상이 나타나면 즉시 응급실에 방문하도록 안내합니다. (Instruct the patient to visit the emergency room immediately if symptoms such as dyspnea, chest pain, altered mental status, or severe swelling occur.)"

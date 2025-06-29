@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "28세 남자 김민수씨가 교통사고 후 목 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "목이 아파요.",
+      "history": {
+        "onset": "2일 전",
+        "location": "뒷목 전체, 특히 오른쪽",
+        "duration": "2일 내내",
+        "course": "지속적",
+        "experience": "처음",
+        "character": "뻐근하고 쑤시는 통증, 움직일 때 심해짐. NRS 5점.",
+        "associatedSymptoms": {
+          "general": "두통, 어지럼증, 메스꺼움(-/-)",
+          "neck": "압통(+), 뻣뻣함(+)",
+          "neurological": "사지 감각 저하/근력 약화(-/-)",
+          "other": "없음"
+        },
+        "factors": "악화: 목 움직임, 기침, 재채기\n완화: 휴식, 진통제 복용",
+        "pastHistory": {
+          "medical": "없음",
+          "medications": "진통제(타이레놀)",
+          "social": "흡연(-), 음주(주 1회 소주 2잔), 직업: 사무직",
+          "family": "특이 사항 없음",
+          "obgyn": "해당 없음",
+          "other": "2일 전 교통사고(후방 추돌) 경험"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 정상, 활력징후 안정적",
+        "heent": "결막/공막 정상, 귀/코/목(-)",
+        "extremity": "Spurling's sign (+), Lhermitte's sign (-), 오른쪽 목 근육 압통(+), 경추 ROM 제한(+)"
+      },
+      "patientQuestion": "회복에 얼마나 걸릴까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "채찍질 손상",
+          "경추 염좌"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "경추 X-ray",
+          "경추 CT"
+        ],
+        "therapeutic": [
+          "경추 보조기 착용",
+          "진통소염제 복용",
+          "물리치료"
+        ]
+      }
+    }
+  ]
+}

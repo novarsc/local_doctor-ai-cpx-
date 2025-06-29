@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "심한 복통과 설사로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "88회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "배가 너무 아프고 설사를 계속해요.",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "지속적, 최근 2주 동안 악화",
+        "course": "2주 전부터 설사 횟수 증가, 복통 심해짐.  간헐적으로 혈변 관찰",
+        "experience": "이전에는 없었음.",
+        "character": "묽은 변, 점액성 변, 간헐적인 혈변, 하루 8-10회 정도 설사, 변의 양은 보통",
+        "associatedSymptoms": {
+          "general": "열/오한/피로/부종(-/-/+/-) 체중 감소 (약 5kg)",
+          "gi": "A/N/V/C/D(-/-/+/+/+), 복통(+, 우측 하복부 통증 심함, 배변 후 일시적 완화), H/M/H(-/-/-), 항문 통증(+)",
+          "endocrine": "두근거림/더위불내성(-/-)",
+          "dehydration": "어지러움/목마름(+/+) 소변량 감소(+)"
+        },
+        "factors": "악화: 스트레스, 기름진 음식, 유제품 섭취. 완화: 배변 후 일시적 통증 완화",
+        "pastHistory": {
+          "events": "대장내시경 검사 (-), 건강검진 특이 소견 없음",
+          "medical": "고혈압/당뇨/결핵/간염(-/-/-/-)",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 2회 소주 1병), 스트레스 많은 직업(프로그래머)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable,  약간의 탈수 증상 보임",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "우측 하복부 압통(+), 반발 압통(+), 장음 감소, DRE: 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이 병이 계속될까봐 걱정됩니다. 어떤 치료를 받아야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "크론병",
+          "궤양성 대장염",
+          "장결핵"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대장내시경 검사",
+          "대변 검사(잠혈, 배양)",
+          "복부 CT",
+          "혈액 검사(CRP, ESR, 빈혈 검사)"
+        ],
+        "therapeutic": [
+          "5-ASA 약물 치료",
+          "항생제(감염 의심 시)",
+          "항염증제",
+          "영양 관리 및 식이 요법 상담",
+          "수액 치료(탈수 증상 시)"
+        ]
+      }
+    }
+  ]
+}

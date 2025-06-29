@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 김민지씨가 잦은 배뇨와 배뇨통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "소변 볼 때 너무 아파요.",
+      "history": {
+        "onset": "어제 저녁부터",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "소변 횟수 증가(1시간에 2~3회), 소변량 감소, 배뇨 시 심한 통증, 잔뇨감, 소변 색깔 변화 없음, 혈뇨 없음",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 피로(+), 체중 변화(-)",
+          "digestive": "메스꺼움(-), 구토(-), 식욕 감소(+)",
+          "circulatory": "두근거림(-), 어지러움(-), 호흡곤란(-)",
+          "renal_urinary": "절박뇨(+), 야간뇨(+), 배뇨통(+), 주저뇨(-), 혈뇨(-), 요끊김(-), 아랫배 힘주기(-), 잔뇨감(+), 아랫배 통증(+)",
+          "musculoskeletal_skin": "피부 가려움(-), 붓기(-), 근육통(-)"
+        },
+        "factors": "최근 성관계(+, 어제), 과도한 수분 섭취(-), 심한 운동(-), 스트레스(+, 시험 기간), 요로 감염 병력(-)",
+        "pastHistory": {
+          "medical": "고혈압/당뇨병(-/-), 천식(-)",
+          "medications": "없음",
+          "social": "흡연(-), 음주(가끔 소주 1잔), 직업: 대학생"
+        }
+      },
+      "physicalExam": {
+        "general": "열감 존재, 활력징후 안정",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "abdomen": "압통: 하복부(+), 방광 촉진: 약간 확장됨, 타진통(-), 청진(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "어떻게 치료해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 방광염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사(일반검사, 배양검사, 세균검사)",
+          "혈액검사(CBC, CRP)"
+        ],
+        "therapeutic": [
+          "항생제(TMP-SMX) 처방",
+          "수분 섭취 증가 권고",
+          "배뇨 시 통증 완화를 위한 진통제 처방(Paracetamol)",
+          "충분한 휴식 권고"
+        ]
+      }
+    }
+  ]
+}

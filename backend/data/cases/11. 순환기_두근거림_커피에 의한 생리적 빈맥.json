@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 27,
+        "gender": "남자"
+      },
+      "situation": "심장이 두근거린다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "100회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "심장이 두근거려요.",
+      "history": {
+        "onset": "오늘 아침부터",
+        "duration": "지속적",
+        "course": "점점 심해지는 것 같아요.",
+        "experience": "처음",
+        "character": "[양상] 빠르게 뜀, 규칙적. [정도] NRS 5점. [동반증상] 흉통(-), 호흡곤란(-), 어지럼(-)",
+        "associatedSymptoms": {
+          "general": "발열/오한(-/-), 체중 감소(-), 피로(-), 식은땀(-)",
+          "endocrine": "더위/추위 불내성(-/-)",
+          "gi": "식욕(-), 변비/설사(-/-)"
+        },
+        "factors": "아침에 커피 3잔 마셨어요.",
+        "pastHistory": {
+          "medical": "DM/TB/HTN/간염(-/-/-/-)",
+          "social": "직업 : 프로그래머, 흡연(-), 음주(주 1회, 소주 1병)",
+          "family": "특이사항 없음",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이 소견 없음",
+        "extremity": "손떨림(-), 맥박 규칙적"
+      },
+      "patientQuestion": "심장에 문제 있는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "커피에 의한 생리적 빈맥",
+          "심방세동",
+          "기타"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "커피 섭취 줄이기",
+          "충분한 수분 섭취"
+        ]
+      }
+    }
+  ]
+}

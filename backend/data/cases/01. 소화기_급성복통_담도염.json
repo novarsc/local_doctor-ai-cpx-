@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 65,
+        "gender": "남자"
+      },
+      "situation": "오른쪽 상복부 통증으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg ",
+        "heartRate": "90회/분 ",
+        "respiration": "18회/분 ",
+        "temperature": "38.2℃ "
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "2일 전 저녁부터",
+        "location": "오른쪽 상복부",
+        "duration": "지속적이며 점점 심해짐",
+        "course": "2일 전 저녁부터 시작된 오른쪽 상복부 통증이 지속되고 있으며, 오늘 아침부터 열이 나기 시작했습니다.",
+        "experience": "이전에 비슷한 증상을 경험한 적이 없음.",
+        "character": "심한 압박감과 콕콕 찌르는 듯한 통증, NRS 8점",
+        "radiation": "등쪽으로 퍼지는 듯한 느낌",
+        "associatedSymptoms": {
+          "general": "오한, 발열, 식은땀",
+          "gi": "오심, 구토(황록색 담즙성 구토 2회), 식욕부진",
+          "urology": "소변색깔 변화 없음"
+        },
+        "aggravatingFactors": "숨을 깊이 쉴 때, 움직일 때",
+        "relievingFactors": "가만히 누워 있을 때 약간 완화",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약, 고지혈증 약 복용 중",
+          "surgical": "없음",
+          "social": "흡연 30갑년, 음주 주 2회 소주 1병",
+          "other": "최근 2주 동안 과식을 자주 했다."
+        }
+      },
+      "physicalExam": {
+        "abdomen": "오른쪽 상복부 압통 및 반발압통, Murphy's sign 양성"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "담도염",
+          "담낭염",
+          "급성췌장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "복부 초음파",
+          "혈액 검사 (CBC, 간기능 검사, 췌장 효소)",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "진통제",
+          "항생제",
+          "금식"
+        ]
+      }
+    }
+  ]
+}

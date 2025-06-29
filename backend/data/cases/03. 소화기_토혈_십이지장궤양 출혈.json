@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "오전 10시경, 검붉은 색의 토혈을 하고 내원하였다. ",
+      "vitalSigns": {
+        "bloodPressure": "105/65mmHg",
+        "heartRate": "98회/분",
+        "respiration": "20회/분",
+        "temperature": "36.9℃"
+      },
+      "chiefComplaint": "피를 토했습니다. ",
+      "history": {
+        "onset": "오전 8시경",
+        "frequency": "2회",
+        "experience": "처음",
+        "character": "검붉은색, 혈덩이(+), 거품(-), 음식물(-), 양: 소주잔 반 정도",
+        "associatedSymptoms": {
+          "general": "어지러움(+), 힘없음(+), 발열(-), 식은땀(-)",
+          "gi": "복통(-), 소화불량(+, 1년전부터), 속쓰림(+, 1년전부터), 혈변(-), 흑색변(-)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "멍이 잘 듦(+), 코피(+)",
+          "dehydration": "갈증(+), 소변량 감소(+)"
+        },
+        "factors": "특별한 원인 없음, 평소 스트레스가 많음",
+        "pastHistory": {
+          "events": "2년전 건강검진에서 위내시경 시행, 이상 없음",
+          "social": "흡연(+, 하루 1갑, 40년), 음주(+, 소주 1병/주, 30년), 직업: 자영업(식당 운영), 식사: 불규칙적, 맵고 짠 음식 즐김, 운동: 거의 없음",
+          "medical": "고혈압(+), 고지혈증(+) "
+        }
+      },
+      "physicalExam": {
+        "general": "빈혈 소견(+), 맥박 빠름(+)",
+        "heent": "결막 창백(+)",
+        "abdomen": "복부 압통(-), 방어긴장(-)",
+        "extremity": "말초부위 냉감(-)"
+      },
+      "patientQuestion": "심각한 병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "십이지장궤양 출혈",
+          "위궤양 출혈",
+          "식도정맥류 출혈"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "CBC",
+          "혈액 응고 검사"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "내시경적 지혈술",
+          "제산제 투여",
+          "금주 및 금연 상담"
+        ]
+      }
+    }
+  ]
+}

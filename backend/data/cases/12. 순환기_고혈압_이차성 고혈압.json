@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 60,
+        "gender": "남자"
+      },
+      "situation": "혈압이 높아 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "180/100mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "혈압이 높아요.",
+      "history": {
+        "onset": "3개월 전",
+        "duration": "3개월 동안 지속",
+        "course": "점차 악화",
+        "character": "3개월 전 건강검진에서 160/90mmHg로 측정되었고, 최근에는 180/100mmHg까지 상승함",
+        "associatedSymptoms": {
+          "general": "발열/오한/식은땀/체중 변화/피로/부종(-/-/-/-/-/-)",
+          "circulatory": "가슴 통증(-), 두근거림(-)",
+          "endocrine": "다음/다뇨/다갈(-/-/-), 식은땀/손떨림(-/-)",
+          "neuro": "두통(+, 심한 두통, 간헐적), 어지럼(+, 가끔), 시야 변화(-)"
+        },
+        "factors": "스트레스 많고, 짠 음식 즐김, 운동 부족",
+        "pastHistory": {
+          "events": "5년 전 신장결석 수술 이력 있음",
+          "medical": "DM/TB/HTN/간염/고지혈증(-/-/+/-)",
+          "medications": "없음",
+          "social": "술(+, 소주 1병/주, 주 2회), 담배(+, 30갑년), 직업(은퇴), 스트레스(심함)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 확인(현재 혈압 180/100mmHg)",
+        "heent": "안저검사(동맥경화 소견 약간 있음), 갑상샘(-), 경정맥 울혈(-), 경동맥 잡음(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부대동맥류(-), 신혈관 잡음(-)",
+        "extremity": "오목 부종(-), 사지맥박 정상"
+      },
+      "patientQuestion": "왜 혈압이 이렇게 높은 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "이차성 고혈압",
+          "일차성 고혈압",
+          "신장질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(creatinine, BUN, eGFR)",
+          "소변검사",
+          "신초음파",
+          "24시간 소변 검사"
+        ],
+        "therapeutic": [
+          "항고혈압제 시작",
+          "저염식, 금주, 금연 상담"
+        ]
+      }
+    }
+  ]
+}

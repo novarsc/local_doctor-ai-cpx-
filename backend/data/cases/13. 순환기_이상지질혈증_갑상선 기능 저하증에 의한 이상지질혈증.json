@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김지영",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "건강검진에서 이상지질혈증 소견으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/75mmHg",
+        "heartRate": "70회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "콜레스테롤 수치가 높다고 합니다.",
+      "history": {
+        "labResults": "총 콜레스테롤 240, LDL 160, HDL 40, 중성지방 180",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중 증가(5kg 증가/6개월), 변비(+)",
+          "endocrine": "추위를 많이 탐(+), 피부 건조(+), 목소리가 변화됨(+)"
+        },
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 갑상선 질환(-)",
+          "medications": "없음",
+          "social": "음주(월 1~2회 소주 반병), 흡연(-), 운동(주 2회 걷기)",
+          "family": "어머니 - 고혈압"
+        }
+      },
+      "physicalExam": {
+        "heent": "황색판종(-), 각막환(-), 갑상선 종대(+) 약간의 만져짐",
+        "chest": "청진 소견 없음",
+        "abdomen": "특이 소견 없음",
+        "extremity": "아킬레스건 비후(-)"
+      },
+      "patientQuestion": "갑상선 때문인가요? 어떻게 치료해야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "갑상선 기능 저하증에 의한 이상지질혈증",
+          "일차성 고콜레스테롤혈증",
+          "대사증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "갑상선 기능 검사 (TSH, free T4, free T3)",
+          "지질 검사 재검",
+          "공복 혈당 측정"
+        ],
+        "therapeutic": [
+          "갑상선 호르몬 보충 요법 시작",
+          "생활 습관 개선 교육(식이요법, 운동)",
+          "추후 지질 프로파일 재평가"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김철수씨가 발 저림과 발의 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "발이 저리고 아파요",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "주로 저녁에 심하고, 밤에 수면을 방해할 정도로 심해짐",
+        "course": "초기에는 간헐적인 저림 증상이었으나, 점차 지속적인 통증으로 악화됨",
+        "character": "화끈거림, 따끔거림, 저림, 압박감 등 다양한 증상이 나타나며, 특히 발가락 끝에 심함",
+        "associatedSymptoms": {
+          "neurological": "발의 감각 저하(+), 발의 근력 약화(+),  보행 장애(+),  손 저림(-)",
+          "general": "체중 변화(-), 피로감(+),  수면 장애(+)",
+          "others": "소화불량(-) , 변비(-)"
+        },
+        "factors": "날씨 변화, 과도한 운동,  알코올 섭취 후 악화",
+        "pastHistory": {
+          "medical": "당뇨병(+, 10년 전 진단,  혈당 조절 불량), 고혈압(-)",
+          "trauma_surgery": "없음",
+          "medications": "메트포르민,  글리벤클라마이드(혈당 조절 미흡)",
+          "social": "흡연(+, 하루 1갑), 음주(+, 소주 1병/일), 운동(-)",
+          "family": "당뇨병 가족력(+)"
+        }
+      },
+      "physicalExam": {
+        "general": "일반적인 상태 양호",
+        "neurological": "발의 감각 저하 및 통각 과민(+),  발목 반사 저하(+),  발의 근력 약화(+),  바빈스키 반사(-)",
+        "others": "신경학적 검사 외에 특이 소견 없음"
+      },
+      "patientQuestion": "발 저림과 통증이 너무 심해서 잠을 잘 수가 없는데, 어떻게 치료해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "당뇨병성 신경병증",
+          "말초 신경병증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈당 검사",
+          "HbA1c 검사",
+          "신경 전도 검사",
+          "근전도 검사"
+        ],
+        "therapeutic": [
+          "혈당 조절 강화(인슐린 치료 고려)",
+          "통증 조절(항경련제,  항우울제)",
+          "신경병증 치료제(알파리포산)",
+          "생활 습관 개선(금연, 절주, 운동)"
+        ]
+      }
+    }
+  ]
+}

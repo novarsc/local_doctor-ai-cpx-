@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "최수진",
+        "age": 23,
+        "gender": "여자"
+      },
+      "situation": "23세 여자 최수진씨가 고열과 두통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "100회/분",
+        "respiration": "20회/분",
+        "temperature": "39.5℃"
+      },
+      "chiefComplaint": "머리가 너무 아프고 열이 나요",
+      "history": {
+        "onset": "어제 저녁부터",
+        "location": "머리 전체",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "심한 두통, 욱신거림, 압박감",
+        "associatedSymptoms": "[전신] 고열(+), 오한(+), 구토(+), 목이 뻣뻣함(+), 발진(-) [소화] 식욕부진(+), 설사(-) [순환] 어지러움(+) [정신] 혼란(-) [신경] 광과민증(+), 경부강직(+), 의식 저하(-)",
+        "factors": "특별한 요인 없음",
+        "pastHistory": {
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "술(-), 담배(-), 커피(1잔/일)",
+          "family": "특이사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열성, 탈수 증상 없음",
+        "heent": "경부 압통(+), 광과민증(+)",
+        "neuro": "의식 명료, 뇌신경 검사 정상, 브루진스키 징후(+), 케르니그 징후(+)",
+        "extremity": "사지 운동성 및 감각 정상"
+      },
+      "patientQuestion": "이 병이 뭐 때문에 생긴 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "뇌수막염",
+          "바이러스성 뇌염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌척수액 검사",
+          "혈액 검사",
+          "뇌 영상 검사(CT/MRI)"
+        ],
+        "therapeutic": [
+          "항생제 치료 (뇌수막염 의심 시)",
+          "수액 치료",
+          "해열제",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김철수씨가 최근 소변을 자주 보고 혈뇨를 보여 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변을 자주 보고, 소변에 피가 섞여 나와요.",
+      "history": {
+        "onset": "2개월 전",
+        "duration": "계속",
+        "course": "점점 심해짐",
+        "character": "소변 횟수 증가(하루 8-10회), 야간뇨(2회), 소변량 감소, 소변에 혈뇨(간헐적), 소변 줄기 약화, 잔뇨감",
+        "associatedSymptoms": {
+          "general": "체중 감소(5kg), 피로감, 식욕부진",
+          "urinary": "빈뇨, 혈뇨, 잔뇨감, 배뇨통(가끔)",
+          "genitals": "외성기 통증 없음, 분비물 없음"
+        },
+        "factors": "흡연(과거 40갑년), 음주(주 2회 소주 1병), 가족력(아버지 전립선암)",
+        "pastHistory": {
+          "medical": "고혈압(10년 전 진단), 고지혈증(5년 전 진단)",
+          "medications": "로사르탄, 아토르바스타틴",
+          "social": "흡연(과거 40갑년), 음주(주 2회 소주 1병), 운동 부족",
+          "family": "아버지: 전립선암(75세 사망)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 고혈압, 체중 감소 소견",
+        "heent": "결막/공막 황색 착색(-/-)",
+        "abdomen": "복부 팽만(-), 압통(-), 촉진시 덩어리(-),  DRE: 전립선 비대, 경결, 딱딱한 부위 촉지",
+        "extremity": "하지 부종 없음"
+      },
+      "patientQuestion": "암일까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "전립선암",
+          "전립선비대증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈청 PSA 검사",
+          "경직장 초음파 검사",
+          "전립선 생검"
+        ],
+        "therapeutic": [
+          "추가 검사 결과에 따른 치료 계획 수립"
+        ]
+      }
+    }
+  ]
+}

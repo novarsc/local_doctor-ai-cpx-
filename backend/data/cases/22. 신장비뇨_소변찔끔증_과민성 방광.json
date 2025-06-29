@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 35,
+        "gender": "여자"
+      },
+      "situation": "35세 여자 김민지씨가 잦은 배뇨와 절박뇨로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "화장실을 자주 가요",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "하루 8-10번 소변을 봄, 소변을 참기 어려움",
+        "course": "처음에는 가끔씩이었으나 최근 몇 달 동안 증상이 점점 심해짐",
+        "character": "소변 색깔 정상, 혈뇨, 거품 없음, 일상생활 불편함 많음, 소변량은 정상",
+        "associatedSymptoms": {
+          "urinary": "빈뇨(+, 하루 8-10회), 절박뇨(+), 야간뇨(+, 2회), 배뇨통(-), 주저뇨(-), 요실금(-), 잔뇨감(-)",
+          "genitals": "분비물(-), 가려움(-), 통증(-)",
+          "general": "복통(-), 옆구리 통증(-), 발열(-), 체중변화(-)",
+          "neurological": "두통(-), 어지러움(-), 보행장애(-)"
+        },
+        "factors": "카페인 섭취(커피 2잔/일), 스트레스 증가 시 악화, 물 섭취량은 정상",
+        "pastHistory": {
+          "medical": "없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(월 1-2회), 직업(사무직), 스트레스 많음",
+          "obgyn": "월경 정상, 임신 경험 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "정상",
+        "abdomen": "압통 없음, 방광 촉진 안됨",
+        "pelvic": "정상",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "증상이 언제쯤 좋아질까요?  어떤 치료를 받아야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "과민성 방광",
+          "방광염",
+          "요로감염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사",
+          "요배양검사",
+          "방광초음파"
+        ],
+        "therapeutic": [
+          "방광훈련",
+          "골반저근운동",
+          "행동요법",
+          "필요시 약물치료(항콜린제)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 52,
+        "gender": "남자"
+      },
+      "situation": "52세 남자 박선우씨가 최근 소변량이 증가하고 갈증이 심해져 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변을 너무 많이 봐요",
+      "history": {
+        "onset": "1달 전",
+        "course": "점진적으로 증가",
+        "character": "소변량 증가, 묽은 소변, 거품(-), 혈뇨(-), 냄새(-)",
+        "associatedSymptoms": {
+          "general": "체중 감소(+, 5kg), 피로(+)",
+          "renal_urinary": "빈뇨(10회/일), 야뇨(+, 2회), 갈증(+, 심함), 다뇨(+), 다갈(+)",
+          "endocrine": "다음(+, 하루 5L 이상),  다뇨(+), 다갈(+) ",
+          "psychiatric": "기분 변화(-)",
+          "neurologic": "두통(-), 어지러움(-)"
+        },
+        "factors": "최근 조울증 진단 후 리튬 복용 시작",
+        "pastHistory": {
+          "social": "흡연(+, 1갑/일, 20년), 음주(주 2회 소주 2병), 운동(-)",
+          "family": "고혈압 가족력(+, 부친)"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 110/70mmHg, 맥박 80회/분, 호흡 16회/분, 체온 36.8℃, 체중 감소 소견(+)",
+        "heent": "결막/구강 건조(-), 갑상선(-)",
+        "abdomen": "압통(-), 방광 촉진(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "이 증상이 언제까지 지속될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "리튬에 의한 신성 요붕증",
+          "당뇨병",
+          "원발성 요붕증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사(비중, 오스몰랄농도)",
+          "혈액검사(혈당, 전해질, 신장 기능)",
+          "리튬 혈중 농도 측정",
+          "수분 제한 검사"
+        ],
+        "therapeutic": [
+          "리튬 용량 조절 또는 다른 약물로 변경 고려",
+          "수분 및 전해질 관리",
+          "증상 완화를 위한 약물 처방(예: 데스모프레신)"
+        ]
+      }
+    }
+  ]
+}

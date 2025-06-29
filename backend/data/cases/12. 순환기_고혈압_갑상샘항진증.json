@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 38,
+        "gender": "여자"
+      },
+      "situation": "체중 감소와 심계항진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "100회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "심장이 빨리 뛰고, 살이 빠져요.",
+      "history": {
+        "onset": "2개월 전",
+        "duration": "2개월 동안 지속",
+        "course": "점차 심해짐",
+        "character": "2개월 전부터 심계항진이 시작되었고, 최근 5kg 체중 감소를 경험함.  잠을 잘 못 이루고, 땀을 많이 흘림.",
+        "associatedSymptoms": {
+          "general": "발열/오한/식은땀/체중 변화/피로/부종(-/+/-/+/+/-)",
+          "circulatory": "가슴 통증(-), 두근거림(+, 지속적)",
+          "endocrine": "다음/다뇨/다갈(-/-/-), 식은땀/손떨림(+/+) ",
+          "neuro": "두통(-), 어지럼(-), 시야 변화(-)"
+        },
+        "factors": "스트레스 많고, 커피를 하루에 5잔 이상 마심",
+        "pastHistory": {
+          "events": "특이 사항 없음",
+          "medical": "DM/TB/HTN/간염/고지혈증(-/-/(-/-/-)",
+          "medications": "없음",
+          "social": "술(-), 담배(-), 직업(사무직), 스트레스(많음)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 확인(현재 혈압 130/80mmHg, 심박수 100회/분).  체중 감소 소견 보임.",
+        "heent": "안저검사(-), 갑상샘(확대됨), 경정맥 울혈(-), 경동맥 잡음(-)",
+        "chest": "심음(규칙적, 빠름), 호흡음(-)",
+        "abdomen": "복부대동맥류(-), 신혈관 잡음(-)",
+        "extremity": "오목 부종(-), 사지맥박 정상"
+      },
+      "patientQuestion": "왜 이렇게 심장이 빨리 뛰고 살이 빠지는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "갑상샘항진증",
+          "빈맥"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "갑상샘 기능 검사 (TSH, T3, T4, Free T3, Free T4)",
+          "갑상샘 초음파",
+          "심전도"
+        ],
+        "therapeutic": [
+          "항갑상선제 투여 고려",
+          "생활 습관 조정 (카페인 섭취 줄이기, 스트레스 관리)"
+        ]
+      }
+    }
+  ]
+}

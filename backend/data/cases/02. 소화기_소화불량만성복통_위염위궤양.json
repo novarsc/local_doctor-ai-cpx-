@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최수현",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "속이 쓰리고 아파서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg ",
+        "heartRate": "78회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.6℃ "
+      },
+      "chiefComplaint": "속이 쓰리고 아파요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "명치 부위",
+        "course": "2주 전부터 시작하여 점점 심해짐",
+        "experience": "이전에도 비슷한 증상이 있었으나 이렇게 심한 적은 없음",
+        "character": "쓰라림, 콕콕 찌르는 듯한 통증, NRS 5점",
+        "associatedSymptoms": {
+          "general": "체중 감소(-, 2kg)",
+          "gi": "식욕부진(+), 구토(-), 설사(-), 변비(-), 혈변(-), 흑변(-)"
+        },
+        "factors": "공복 시 악화, 식후 약간 호전, 커피 섭취 시 악화, 술, 담배 섭취 시 악화",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전 진단, 꾸준히 약 복용), 당뇨병(-)",
+          "events": "10년 전 건강검진에서 위염 진단 받고 약 복용 후 호전",
+          "surgical": "없음",
+          "medications": "고혈압약(+)",
+          "social": "흡연(+, 하루 한 갑), 음주(+, 소주 2병/주 2회), 직업: 은퇴, 식사: 불규칙적, 인스턴트 음식 잦음, 운동: 없음, 스트레스: 많음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "결막 빈혈(-), 림프절(-)",
+        "abdomen": "심와부 압통(+), 반동 압통(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "위염/위궤양",
+          "십이지장궤양",
+          "위암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "위내시경",
+          "헬리코박터균 검사"
+        ],
+        "therapeutic": [
+          "제산제",
+          "H2 수용체 길항제",
+          "PPI",
+          "생활 습관 교정"
+        ]
+      }
+    }
+  ]
+}

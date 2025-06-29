@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김지혜",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 김지혜씨가 극심한 피로감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "88회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "너무 피곤하고 힘이 없어요.",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "하루 종일 지속",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "쉽게 피곤해지고, 아무리 자도 개운하지 않음. 일상생활에 지장이 있을 정도임.",
+        "associatedSymptoms": {
+          "general": "체중 감소(3kg)",
+          "digestive": "변비(+)",
+          "circulatory": "두근거림(+), 어지럼증(+)",
+          "psychiatric": "우울감(+)",
+          "sleep": "수면 시간은 충분하지만 숙면을 취하지 못함",
+          "endocrine": "월경량 증가(최근 3개월)"
+        },
+        "factors": "휴식을 취해도 증상 호전 없음.  활동 시 더욱 심해짐.",
+        "pastHistory": {
+          "social": "주부, 가사일, 흡연(-), 음주(가끔 소주 1잔)",
+          "obgyn": "월경 규칙적이나 최근 3개월 동안 월경량이 증가함. 과거 자궁근종 진단받은 적 있음.",
+          "other": "특이 사항 없음."
+        }
+      },
+      "physicalExam": {
+        "general": "피부 창백, 빈혈 의심",
+        "heent": "결막 창백(+), 구강(-), 갑상샘(-)",
+        "abdomen": "압통(-), 복부 진찰(-)",
+        "extremity": "말초부종(-)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "자궁근종으로 인한 빈혈",
+          "철결핍성 빈혈"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CBC, 철분 검사)",
+          "골반 초음파"
+        ],
+        "therapeutic": [
+          "철분제 처방",
+          "자궁근종 치료(약물치료 또는 수술적 치료 고려)"
+        ]
+      }
+    }
+  ]
+}

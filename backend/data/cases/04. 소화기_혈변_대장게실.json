@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "caseType": "실전 모의 증례 [하이브리드]",
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "복통과 혈변으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "배가 아프고 변에 피가 섞여 나와요",
+      "history": {
+        "onset": "3일 전",
+        "location": "좌측 하복부",
+        "duration": "간헐적 복통, 혈변은 매일",
+        "course": "점차 악화",
+        "experience": "처음 경험하는 증상",
+        "character": "복통: 쥐어짜는 듯한 통증, 혈변: 선홍색, 소량, 변에 섞여 나옴",
+        "associatedSymptoms": {
+          "gi": "식욕부진(+), 오심(-), 구토(-), 설사(-), 변비(-)"
+        },
+        "factors": "특별한 악화 요인 없음",
+        "pastHistory": {
+          "events": "고혈압, 당뇨병 진단받음",
+          "surgical": "없음",
+          "medical": "고혈압, 당뇨병, 고지혈증",
+          "social": "흡연(20갑년, 금연 중), 음주(주 2회 소주 1병), 운동(없음)",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/피부(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "좌측 하복부 압통(+), 반발압통(-), 방어긴장(-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "심각한 질환인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "대장게실",
+          "대장암",
+          "장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대장내시경",
+          "복부 CT",
+          "대변 잠혈 검사"
+        ],
+        "therapeutic": [
+          "대증요법",
+          "식이요법 지도"
+        ]
+      }
+    }
+  ]
+}

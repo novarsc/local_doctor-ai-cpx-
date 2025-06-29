@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "가슴 통증과 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "가슴이 아프고 숨이 차요",
+      "history": {
+        "onset": "2일 전부터",
+        "location": "가슴 중앙",
+        "radiation": "등으로 퍼지는 느낌",
+        "duration": "간헐적, 수 분에서 수십 분 지속",
+        "course": "점차 심해지는 경향",
+        "experience": "처음",
+        "character": "찌르는 듯한 통증, 답답함, 숨을 쉴 때 더 심함. NRS 6/10",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(+/+/-)",
+          "gi": "속쓰림/신물 올라옴(-/-)",
+          "circulatory": "두근거림/호흡곤란(+/+), 흉통 시 동반",
+          "respiratory": "기침/가래/객혈/쌕쌕거림(-/-/-/-)",
+          "msk_skin": "피부 발진(-)",
+          "psych": "불안감(+)"
+        },
+        "factors": "악화: 심호흡, 기침, 움직임. 완화: 휴식, 앉아 있을 때 다소 호전",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약, 스타틴",
+          "social": "흡연/음주/스트레스(+/+/+), 직업: 은퇴",
+          "family": "부친: 심근경색"
+        }
+      },
+      "physicalExam": {
+        "general": "열감, 호흡곤란",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-), 경동맥 시/청(-/-)",
+        "chest": "심음 약간 빠름, 흉통 부위 압통(+), 흉부 시/촉/타/청(-/-/-/-), 발진(-)",
+        "abdomen": "시/청/타/촉(-/-/-/-)",
+        "extremity": "맥박(+), Pitting edema(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "심막염",
+          "급성 관상동맥 증후군",
+          "폐렴"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "심초음파",
+          "흉부 X선",
+          "혈액검사(심근효소, 염증수치)"
+        ],
+        "therapeutic": [
+          "산소요법",
+          "진통제",
+          "항생제(필요시)",
+          "염증억제제(필요시)"
+        ]
+      }
+    }
+  ]
+}

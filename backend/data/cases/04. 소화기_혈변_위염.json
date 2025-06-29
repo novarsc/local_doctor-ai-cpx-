@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "caseType": "실전 모의 증례 [하이브리드]",
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "속이 쓰리고 아파서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "속이 쓰리고 아파요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "상복부",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "비슷한 증상 경험 있음",
+        "character": "쓰라림, 압박감, 욱신거림",
+        "associatedSymptoms": {
+          "gi": "식욕부진(+), 구역감(+), 구토(-), 설사(-), 변비(-), 트림(+), 신물(-), 잦은 트림(+)"
+        },
+        "factors": "매운 음식 섭취 후 악화",
+        "pastHistory": {
+          "events": "과거 위내시경 시행, 위염 진단 받음",
+          "surgical": "없음",
+          "medical": "고혈압, 고지혈증",
+          "social": "흡연(하루 1갑, 20년), 음주(주 3회, 소주 2병), 커피(하루 3잔), 스트레스 많음, 불규칙한 식사",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "결막 창백(-), 경부 림프절 종대(-)",
+        "abdomen": "상복부 압통(+), 반발압통(-), 청진상 이상 없음",
+        "extremity": "말초부종(-)"
+      },
+      "patientQuestion": "위암일까봐 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "위염",
+          "기능성 소화불량",
+          "위궤양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "위내시경",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "제산제",
+          "H2 수용체 길항제",
+          "생활습관 개선 교육"
+        ]
+      }
+    }
+  ]
+}

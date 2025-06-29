@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 40,
+        "gender": "남자"
+      },
+      "situation": "40세 남자 김민수씨가 극심한 두통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "머리가 너무 아파요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "오른쪽 눈 주변과 관자놀이",
+        "duration": "매일 밤 1~2시간 지속",
+        "course": "점점 심해짐",
+        "experience": "처음 경험",
+        "character": "심한 욱신거림과 압박감, 눈알이 빠질 것 같은 느낌, NRS 10",
+        "associatedSymptoms": "[전신] 발열/오한/피로/체중 감소(-/-/-/-) [소화] 구역/구토(+/-) [순환] 식은땀/두근거림(-/-) [정신] 우울/불안(-/-) [신경] 눈물/콧물/얼굴에 전기 통하는 느낌(+/-/-) 콧물이 많이 나옴, 눈이 충혈됨, 오른쪽 눈 주위가 붓는 듯한 느낌. 팔다리 힘 빠짐/시야장애(-/-)",
+        "factors": "알코올 섭취 후 악화, 술 마시고 잠들면 두통이 심해짐",
+        "pastHistory": {
+          "trauma_surgery": "없음",
+          "medications": "진통제 복용 시 일시적 효과만 있음",
+          "social": "술(+, 매일 1~2잔 소주), 담배(-), 커피(+, 2잔/일). 스트레스(+, 최근 회사 업무 과다), 운동(-)",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "오른쪽 눈 주위 약간의 부종과 충혈 관찰",
+        "neuro": "뇌신경 검사 정상, 눈 운동 정상",
+        "extremity": "사지 운동 능력 및 감각 정상"
+      },
+      "patientQuestion": "이렇게 심한 두통이 왜 생기는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "군발성 두통",
+          "편두통",
+          "긴장성 두통"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사",
+          "뇌 영상 검사(MRI)"
+        ],
+        "therapeutic": [
+          "산소 흡입",
+          "수마트립탄 비강 스프레이",
+          "예방 약물 (베라파밀)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+checklist:
+  topic_kr: "배뇨 이상 - 소변 찔끔증"
+  topic_en: "Urinary Incontinence - Dribbling"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [소변 찔끔증의 양상 (예: 지속적, 간헐적)] (Characteristics of dribbling: Constant or intermittent)
+            - [소변 찔끔증의 시작 시점 및 기간] (Onset and duration of dribbling)
+            - [하루 중 언제 소변 찔끔증이 발생하는지] (Time of day when dribbling occurs)
+            - [소변 찔끔증을 악화시키거나 완화시키는 요인] (Aggravating or relieving factors)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [빈뇨, 야간뇨, 절박뇨, 배뇨통, 혈뇨] (Frequency, nocturia, urgency, dysuria, hematuria)
+            - [복통, 요통, 골반통] (Abdominal pain, back pain, pelvic pain)
+            - [발열, 오한, 전신 피로감] (Fever, chills, general fatigue)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [비뇨기계 질환, 신경계 질환, 당뇨병, 전립선 질환] (History of urinary tract diseases, neurological disorders, diabetes, prostate problems)
+            - [복부 수술, 골반 수술] (History of abdominal or pelvic surgery)
+            - [출산력 (여성)] (Parity (for female patients))
+            - [복용 중인 약물] (Current medications)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [복부 진찰: 압통, 종괴 유무 확인] (Abdominal examination: Check for tenderness and masses)
+            - [신경학적 진찰: 하지 근력, 감각, 반사 검사] (Neurological examination: Evaluate lower extremity strength, sensation, and reflexes)
+            - [직장 수지 검사 (남성)] (Digital rectal examination (for male patients))
+            - [골반 진찰 (여성)] (Pelvic examination (for female patients))
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [기침 시 소변 유출 여부 확인] (Check for urine leakage during coughing)
+            - [배뇨 후 잔뇨량 측정] (Post-void residual urine measurement)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Benign Prostatic Hyperplasia (BPH)"
+            - "Urinary Tract Infection (UTI)"
+            - "Stress Incontinence"
+            - "Overactive Bladder (OAB)"
+            - "Neurogenic Bladder"
+            - "Urethral Stricture"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Blood Urea Nitrogen (BUN)"
+                - "Creatinine"
+                - "Urinalysis"
+                - "Urine Culture"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Ultrasound of the kidneys, ureters, and bladder (KUB)"
+                - "Post-void residual urine measurement (PVR)"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "소변 찔끔증의 원인, 진단 과정, 치료 방법에 대해 자세히 설명합니다."
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "혈뇨, 발열, 심한 통증 등의 경고 증상 발생 시 즉시 의료기관을 방문하도록 안내합니다."

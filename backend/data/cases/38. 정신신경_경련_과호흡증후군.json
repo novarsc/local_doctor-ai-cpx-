@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 30,
+        "gender": "여자"
+      },
+      "situation": "30세 여자 박선우씨가 어지럼증과 호흡곤란을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "90회/분",
+        "respiration": "30회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 너무 막히고 어지러워요",
+      "history": {
+        "onset": "30분 전",
+        "location": "집에서",
+        "duration": "지속 중",
+        "experience": "처음 경험",
+        "character": "갑자기 숨이 가빠지고 어지러움을 느낌. 손발 저림, 입술 저림 동반.  가슴이 두근거리고 답답함.  심호흡을 해도 호흡곤란이 해소되지 않음.  현재도 과호흡 상태 지속 중.",
+        "associatedSymptoms": "[전신] 발열/오한/피로(-/-/-) [호흡기] 기침/가래/흉통(-/-/-)[심혈관] 가슴 두근거림(+), 흉통(-)[신경계] 어지러움(+), 손발 저림(+), 입술 저림(+), 두통(-)[정신] 불안감(+), 공황감(+) ",
+        "factors": "최근 시험 때문에 스트레스 심함, 불안감 증가, 수면 부족",
+        "pastHistory": {
+          "medical": "특이병력 없음",
+          "trauma_surgery": "없음",
+          "social": "술, 담배, 커피 모두 안 함. 직업: 대학생. 운동 거의 안 함."
+        }
+      },
+      "physicalExam": {
+        "general": "과호흡, 불안해 보임",
+        "heent": "정상",
+        "neuro": "신경학적 검사 정상",
+        "extremity": "손발 저림, 입술 저림 확인됨.  근력 약화 없음."
+      },
+      "patientQuestion": "제가 왜 이렇게 숨이 가쁜 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "과호흡증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (혈액가스 분석)",
+          "심전도"
+        ],
+        "therapeutic": [
+          "산소 흡입",
+          "종이봉투 호흡법 교육",
+          "인지행동치료 상담 권유"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박민준",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "28세 남자 박민준씨가 불면증과 심계항진으로 내원하였다.  카페인 과다 섭취가 의심된다.",
+      "vitalSigns": {
+        "bloodPressure": "135/85mmHg",
+        "heartRate": "92회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "잠을 못 자겠고 가슴이 두근거려요.",
+      "drugHistory": {
+        "drug": "커피, 에너지 드링크",
+        "history": "대학교때부터 커피를 하루 2잔 정도 마셨고, 최근 6개월 전부터 업무 스트레스로 인해 에너지 드링크를 하루 2~3캔씩 추가로 섭취하기 시작함.",
+        "currentUse": "커피 2잔, 에너지 드링크 2~3캔/일",
+        "prescriptionSource": "개인 구매",
+        "dependency": {
+          "quitAttempts": "잠을 못 자서 몇 번 커피와 에너지 드링크 섭취를 줄이려고 시도했지만, 피로감과 집중력 저하로 인해 실패함.",
+          "tolerance": "처음에는 에너지 드링크 한 캔으로 효과를 봤지만 최근에는 두 캔 이상 마셔야 효과가 느껴짐.",
+          "withdrawal": "섭취를 줄이면 심한 피로감, 두통, 기분 저하를 경험함."
+        },
+        "abuse": {
+          "occupationalIssues": "업무 효율 향상을 위해 섭취한다고 함.",
+          "interpersonalIssues": "예민해지고 짜증이 늘었다고 함."
+        }
+      },
+      "associatedSymptoms": "불면증(+), 심계항진(+), 두통(+), 불안감(+), 초조함(+), 변비(-), 설사(-)",
+      "pastHistory": {
+        "medical": "특이 사항 없음",
+        "social": "흡연(-), 음주(주 2회 소주 1병), 직업: 웹 개발자"
+      },
+      "physicalExam": {
+        "general": "V/S stable, 외관상 특이 소견 없음",
+        "heent": "결막 충혈(-), 구강 점막 정상",
+        "chest": "심음 청진시 빈맥, 잡음 없음",
+        "abdomen": "압통, 반발 압통 없음"
+      },
+      "patientQuestion": "카페인 섭취를 줄이면서 불면증과 심계항진을 어떻게 해결할 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "카페인 중독"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "카페인 섭취 단계적 감량 계획",
+          "수면 위생 교육",
+          "필요시 수면제 처방 고려"
+        ]
+      }
+    }
+  ]
+}

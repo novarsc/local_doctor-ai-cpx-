@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 58,
+        "gender": "남자"
+      },
+      "situation": "오른쪽 상복부 통증과 황달 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "20회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "오른쪽 갈비뼈 밑이 아프고 눈이 노래요",
+      "history": {
+        "onset": "3일 전",
+        "location": "오른쪽 상복부, 눈, 피부",
+        "duration": "3일째 지속",
+        "course": "3일 전부터 오른쪽 상복부 통증 시작, 2일 전부터 눈과 피부가 노래짐",
+        "experience": "처음",
+        "character": "오른쪽 상복부 욱신거리는 통증, 간헐적으로 심해짐, 눈과 피부는 샛노란색",
+        "associatedSymptoms": {
+          "general": "발열/오한(+/+), 식욕부진(-), 피로감(+), 체중변화(-, 2kg 감소)",
+          "gi": "구역/구토(+/-), 설사(-), 변비(-), 복통(+, 오른쪽 상복부), 소화불량(+)",
+          "renal": "소변색 변화(+, 진한 갈색)"
+        },
+        "factors": "특별한 음식 섭취 없음",
+        "pastHistory": {
+          "events": "수술 경험 없음",
+          "medical": "고혈압(+), 당뇨병(-)",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(20갑년, 현재 금연 중), 음주(주 2회 소주 1병)",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 황달(+), 피부 황달(+)",
+        "abdomen": "오른쪽 상복부 압통(+), 반발 압통(+), Murphy 징후(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "어떤 병인지 궁금하고 얼마나 심각한 건지 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "담관염",
+          "담석증",
+          "급성 췌장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(간기능 검사, 암종표지자, 염증수치)",
+          "복부 초음파",
+          "ERCP"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "항생제 치료",
+          "진통제 처방"
+        ]
+      }
+    }
+  ]
+}

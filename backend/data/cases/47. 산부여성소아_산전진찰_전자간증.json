@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 35,
+        "gender": "여자"
+      },
+      "situation": "36주차 산전 진찰을 위해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "160/100mmHg",
+        "heartRate": "88회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "머리가 너무 아프고 속이 메스껍습니다.",
+      "history": {
+        "onset": "2일 전부터 두통 시작, 오늘 아침부터 구역질 동반",
+        "location": "두통은 양측성, 전두부, 구역은 위장부위",
+        "duration": "지속적 악화",
+        "course": "점점 심해지는 중",
+        "character": "두통은 욱신거리는 통증, 구역은 심하지 않음",
+        "associatedSymptoms": {
+          "neurological": "시야 흐림(+), 빛에 민감(+)",
+          "renal": "거품뇨(+), 하지 부종(+)",
+          "gynecological": "질출혈(-), 복통(-), 태동 감소(-) "
+        },
+        "pastHistory": {
+          "obstetricHistory": "2-0-0-2. 현재 임신 36주, 이전 임신 및 분만 시 특이사항 없음.",
+          "menstrualHistory": "규칙적, 양/색/월경통 이상 없음",
+          "medical": "고혈압 병력 없음, 산전 진찰 중 혈압 상승 소견 있었음.",
+          "medications": "엽산, 철분제 복용 중, 기타 약물 복용 없음",
+          "social": "흡연(-), 음주(-), 커피(1일 1잔), 운동(주 2회 산책)",
+          "family": "고혈압 가족력(+) (어머니)"
+        },
+        "etc": {
+          "patientBio": "키 165cm, 체중 70kg (임신 전 58kg)",
+          "partnerBio": null
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 상승, 두통 호소, 불안감 호소",
+        "heent": "안저 검사 시행 예정, 구강 점막 건조 없음",
+        "abdomen": "복부 압통 없음, 태아 심박동 정상, 자궁 크기 36주에 상응",
+        "extremity": "하지 부종(+), 피부 긴장도 정상"
+      },
+      "patientQuestion": "아기에게 위험한 건 아닌지 걱정입니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "전자간증",
+          "임신중독증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변 검사 (단백뇨 확인)",
+          "혈액 검사 (혈소판, 간 기능, 신장 기능 확인)",
+          "안저 검사",
+          "초음파 검사 (태아 성장 및 양수량 확인)"
+        ],
+        "therapeutic": [
+          "입원하여 혈압 및 증상 모니터링",
+          "혈압 강하제 투여 고려",
+          "경과 관찰 후 분만 시기 결정"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 10,
+        "gender": "남자"
+      },
+      "situation": "10세 남자 김민수 군이 무릎 관절의 심한 통증과 부종을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "무릎이 너무 아파요.",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "오른쪽 무릎",
+        "duration": "오늘 아침부터 지속",
+        "course": "오늘 아침 운동 중 넘어진 후 발생, 점점 심해짐",
+        "experience": "처음",
+        "character": "심한 통증, 부종, 관절 운동 제한",
+        "associatedSymptoms": {
+          "general": "피로감(+)",
+          "digestive": "복통(-)",
+          "urinary": "소변 이상(-)",
+          "neurological": "두통(-)",
+          "endocrine": "자색선조(-)",
+          "bleeding_tendency": "과거 자주 멍이 들고 코피가 잘 남(+)"
+        },
+        "factors": "넘어짐",
+        "pastHistory": {
+          "medical": "혈우병 가족력(+)",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "초등학생",
+          "family": "아버지 혈우병 병력(+)"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "정상",
+        "chest": "정상",
+        "abdomen": "정상",
+        "extremity": "오른쪽 무릎 관절 부종 심함, 압통(+), 관절 운동 제한, 피하 출혈 소견(+)"
+      },
+      "patientQuestion": "무릎이 왜 이렇게 부었을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "혈우병 A",
+          "혈관종"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액응고인자 검사(factor VIII)",
+          "혈소판 수치 측정",
+          "PT/PTT 검사"
+        ],
+        "therapeutic": [
+          "RICE(Rest, Ice, Compression, Elevation)",
+          "통증 조절(아세트아미노펜)",
+          "응고인자 제제 투여"
+        ]
+      }
+    }
+  ]
+}

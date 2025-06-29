@@ -1,0 +1,64 @@
+checklist:
+  topic_kr: "나쁜 소식 전하기"
+  topic_en: "Delivering Bad News"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "환자의 현재 상태 파악"
+          subtitle_en: "Assessment of Patient's Current Condition"
+          details: |
+            - [환자의 주된 증상 및 우려사항 확인 (Identify the patient's primary concerns and worries)]
+            - [환자의 질병에 대한 이해도 평가 (Assess the patient's understanding of their illness)]
+            - [환자가 받고 있는 사회적, 정서적 지지 확인 (Assess the patient's social and emotional support system)]
+        - subtitle_kr: "정보 제공에 대한 환자의 선호도 파악"
+          subtitle_en: "Understanding Patient's Preferences for Information"
+          details: |
+            - [환자가 어느 정도까지 자세한 정보를 원하는지 확인 (Determine how much detail the patient wants)]
+            - [누구와 함께 소식을 듣고 싶어 하는지 확인 (Determine who the patient wants present)]
+            - [선호하는 의사소통 방식 확인 (Identify preferred communication styles)]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "환자의 정서적 상태 관찰"
+          subtitle_en: "Observation of Patient's Emotional State"
+          details: |
+            - [환자의 표정, 자세, 언어적/비언어적 단서 관찰 (Observe the patient's facial expressions, posture, and verbal/nonverbal cues)]
+            - [환자의 불안, 두려움, 슬픔 등의 감정 표현에 주의 (Pay attention to expressions of anxiety, fear, or sadness)]
+        - subtitle_kr: "신체적, 인지적 기능 평가 (필요시)"
+          subtitle_en: "Assessment of Physical and Cognitive Function (if necessary)"
+          details: |
+            - [환자의 의사 결정 능력 평가 (Assess patient's capacity for decision-making)]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "환자의 반응 예측"
+          subtitle_en: "Anticipating Patient Reactions"
+          diagnoses:
+            - "[Denial (부정)]"
+            - "[Anger (분노)]"
+            - "[Bargaining (타협)]"
+            - "[Depression (우울)]"
+            - "[Acceptance (수용)]"
+        - subtitle_kr: "추가 지원 계획"
+          subtitle_en: "Planning for Additional Support"
+          workup:
+            - category_kr: "정신 건강 전문가"
+              category_en: "Mental Health Professionals"
+              tests:
+                - "[정신과 의사 (Psychiatrist)]"
+                - "[심리 상담가 (Psychologist/Counselor)]"
+            - category_kr: "사회적 지원"
+              category_en: "Social Support"
+              tests:
+                - "[가족 및 친구 (Family and friends)]"
+                - "[지지 단체 (Support groups)]"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "진솔하고 공감적인 태도 유지"
+          subtitle_en: "Maintaining a Truthful and Empathetic Approach"
+          details: "[환자의 감정을 인정하고 공감하며, 질문에 솔직하게 답변합니다. (Acknowledge and validate the patient's feelings and answer questions honestly.)]"
+        - subtitle_kr: "환자의 반응에 대한 지지 제공"
+          subtitle_en: "Providing Support for Patient Reactions"
+          details: "[환자의 감정적 반응에 충분한 시간을 주고, 필요한 지원을 제공합니다. (Allow the patient time to process their emotional response and offer appropriate support.)]"

@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김민수씨가 발열과 함께 전신에 나타나는 자반증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "105/65mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "몸에 멍이 많이 생기고 열이 나요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "양쪽 다리에서 시작하여 전신으로 퍼짐",
+        "duration": "3일째 지속",
+        "course": "점차 증상이 악화되고, 반점의 크기와 수가 증가함",
+        "experience": "처음",
+        "character": "[색] 자주색\n[크기] 다양(1~5mm)\n[개수] 매우 많음\n누르면 하얗게 되지 않음, 통증(+), 가려움(-), 열감(+) ",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 두통(+), 피로감(+)",
+          "digestive": "복통(-), 설사(-), 구토(-), 황달(-)",
+          "urinary": "혈뇨(-), 소변량 감소(-)",
+          "neurological": "의식소실(-), 시야장애(-), 혼돈(-)",
+          "endocrine": "자색선조(-)",
+          "bleeding_tendency": "잇몸 출혈(+), 코피(+)"
+        },
+        "factors": "최근 여행(-), 수술(-), 약물 복용(-)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압약(Amlodipine 5mg 1일 1회)",
+          "social": "흡연(+, 1갑/일), 음주(+, 소주 1병/일)",
+          "family": "혈전성혈소판감소성자반병 가족력(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "열감(+), 빈맥(+), 전신에 다양한 크기의 자반증 관찰",
+        "heent": "결막 창백(-), 경부 림프절 비대(-)",
+        "chest": "흉부 청진 정상",
+        "abdomen": "복부 압통(-), 간 비대(-), 비장 비대(-)",
+        "extremity": "말초 맥박 촉진 가능, 부종(-)"
+      },
+      "patientQuestion": "이 병이 위험한 병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "혈전성혈소판감소성자반병(TTP)",
+          "Disseminated intravascular coagulation(DIC)",
+          "특발성 혈소판 감소성 자반병(ITP)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CBC, peripheral blood smear)",
+          "혈액응고검사(PT, aPTT, fibrinogen)",
+          "ADAMTS13 활성도 검사",
+          "신장 기능 검사"
+        ],
+        "therapeutic": [
+          "대증요법(수액요법, 산소요법)",
+          "혈장교환술",
+          "코르티코스테로이드"
+        ]
+      }
+    }
+  ]
+}

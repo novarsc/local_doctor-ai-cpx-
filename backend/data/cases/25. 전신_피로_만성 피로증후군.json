@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김지혜",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 김지혜씨가 극심한 피로감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "너무 피곤하고 힘이 없어요.",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "하루 종일 지속되는 피로감",
+        "course": "점진적으로 악화됨",
+        "experience": "처음 경험하는 증상",
+        "character": "전신적인 피로감, 잠을 자도 개운하지 않음, 집중력 저하, 기억력 감퇴, 일상생활에 지장을 줄 정도로 심함",
+        "associatedSymptoms": {
+          "general": "체중변화 없음, 발열 없음, 식은땀 없음",
+          "digestive": "소화불량(+), 변비(+)",
+          "circulatory": "두근거림(-), 어지럼증(-), 호흡곤란(-)",
+          "psychiatric": "우울감(+), 불안감(+), 수면장애(+, 잠들기 어려움)",
+          "sleep": "수면시간 7시간, 수면의 질 저하",
+          "endocrine": "갑상선 기능 이상 없음"
+        },
+        "factors": "휴식을 취해도 피로가 회복되지 않음, 가벼운 운동 후에도 심한 피로감을 느낌",
+        "pastHistory": {
+          "social": "직업: 회사원(업무 스트레스 심함), 음주: 가끔(월 1-2회), 흡연: 없음, 식습관: 불규칙적",
+          "obgyn": "폐경 전",
+          "other": "특이 과거력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "전반적인 상태 양호, 활력징후 안정적",
+        "heent": "귀, 코, 목, 눈 검사 정상, 갑상선 촉진 정상",
+        "abdomen": "복부 촉진 정상",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "이 증상이 언제까지 지속될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 피로증후군",
+          "우울증",
+          "철결핍성 빈혈"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CBC, 철분 수치, 갑상선 기능 검사, 간 기능 검사)",
+          "소변검사",
+          "심리 검사"
+        ],
+        "therapeutic": [
+          "충분한 휴식 권고",
+          "규칙적인 운동 권고(가벼운 운동부터 시작)",
+          "스트레스 관리 상담",
+          "필요시 항우울제 처방"
+        ]
+      }
+    }
+  ]
+}

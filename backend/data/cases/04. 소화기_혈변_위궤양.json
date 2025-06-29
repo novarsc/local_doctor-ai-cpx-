@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "caseType": "실전 모의 증례 [하이브리드]",
+      "patientProfile": {
+        "name": "김철수",
+        "age": 60,
+        "gender": "남자"
+      },
+      "situation": "심한 상복부 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "20회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "상복부, 명치 부위",
+        "duration": "지속적, 간헐적 악화",
+        "course": "점차 악화",
+        "experience": "과거에도 비슷한 증상 있었으나, 이번이 가장 심함",
+        "character": "심한 욱신거림, 압박감, 속쓰림 동반, 음식 섭취 후 악화",
+        "associatedSymptoms": {
+          "gi": "식욕부진(+), 구역감(+), 구토(-), 변비(-), 설사(-),  흑색변(+) , 위산 과다(+)"
+        },
+        "factors": "스트레스, 불규칙한 식사, 과음",
+        "pastHistory": {
+          "events": "과거 위염 진단, 위내시경 시행, H. pylori 양성",
+          "surgical": "없음",
+          "medical": "고혈압, 고지혈증",
+          "social": "흡연(1일 1갑, 30년), 음주(주 3회, 소주 2병), 스트레스 많은 직업(자영업)",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "빈혈 소견 없음",
+        "heent": "정상",
+        "abdomen": "상복부 압통(+), 반발압통(+),  청진시 위장음 감소",
+        "extremity": "정상"
+      },
+      "patientQuestion": "위암일까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "위궤양",
+          "위염",
+          "십이지장궤양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "위내시경",
+          "상부위장관조영술",
+          "혈액검사(CBC, 혈청생화학검사)"
+        ],
+        "therapeutic": [
+          "제산제 투여",
+          "H2 수용체 길항제 투여",
+          "PPI 투여",
+          "생활습관 교정 상담"
+        ]
+      }
+    }
+  ]
+}

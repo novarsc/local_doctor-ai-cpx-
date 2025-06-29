@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "최근 혈압이 높다는 소견을 받고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "150/95mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "혈압이 높다고 합니다.",
+      "history": {
+        "onset": "2달 전",
+        "duration": "2달 동안 지속",
+        "course": "점차 증가하는 양상",
+        "character": "건강검진에서 혈압이 높게 나왔다고 함. 집에서 측정했을 때도 높은 수치를 보임.",
+        "associatedSymptoms": {
+          "general": "발열/오한/식은땀/체중 변화/피로/부종(-/-/-/-/-/-)",
+          "circulatory": "가슴 통증(-), 두근거림(-)",
+          "endocrine": "다음/다뇨/다갈(-/-/-), 식은땀/손떨림(-/-)",
+          "neuro": "두통(-), 어지럼(-), 시야 변화(-)"
+        },
+        "factors": "평소 운동 부족, 짜고 기름진 음식 즐김, 스트레스 많음",
+        "pastHistory": {
+          "events": "특이 사항 없음",
+          "medical": "DM/TB/HTN/간염/고지혈증(-/-/(-)/-/-)",
+          "medications": "없음",
+          "social": "술(+, 주 2회 소주 1병), 담배(+, 20갑년), 직업(회사원, 야근 잦음), 스트레스(직장 스트레스 심함)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 확인(현재 혈압 150/95mmHg)",
+        "heent": "안저검사(-), 갑상샘(-), 경정맥 울혈(-), 경동맥 잡음(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부대동맥류(-), 신혈관 잡음(-)",
+        "extremity": "오목 부종(-), 사지맥박 정상"
+      },
+      "patientQuestion": "어떻게 치료해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "일차성 고혈압",
+          "고혈압 전단계"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈압 재측정",
+          "혈액검사(혈당, 콜레스테롤, 크레아티닌)",
+          "심전도 검사"
+        ],
+        "therapeutic": [
+          "생활 습관 교정(금주, 금연, 저염식, 규칙적인 운동)",
+          "항고혈압제 처방 고려"
+        ]
+      }
+    }
+  ]
+}

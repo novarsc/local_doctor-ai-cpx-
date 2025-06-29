@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 27,
+        "gender": "여자"
+      },
+      "situation": "27세 여자 김민지씨가 6개월째 생리가 없어 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "생리가 안 해요.",
+      "history": {
+        "onset": "6개월 전",
+        "course": "6개월 전부터 생리가 갑자기 없어졌다.",
+        "experience": "과거에는 규칙적인 생리주기를 가졌었다.",
+        "associatedSymptoms": "[전신] 발열/오한/체중 감소/체중 증가(-/-/+/2kg) [신장/비뇨] F/U/N/D(-/-/-/-), [기타] 어지럼/두근거림(-/-), 멍/잇몸 출혈(-/-), PCOS(-), Prolactinoma(-), 화끈거림(-), 성격 예민(-), 불면(-), 갑상샘기능항진증(-), 무리한 운동/다이어트/두통/유즙 분비(-/-/-/-)",
+        "pastHistory": {
+          "medical": "고혈압/당뇨/고지혈증(-/-/-), 부인과 질환(-), 질염(-), PID(-)",
+          "trauma_surgery": "부인과적 시술(-)",
+          "medications": "호르몬제/피임약(-/-)",
+          "social": "흡연(-), 음주(가끔), 커피(1잔/day), 운동(주 2회), 스트레스(+), 식습관 변화(-)",
+          "family": "어머니 조기폐경(45세)",
+          "gyn": "초경 13세, 생리 주기 28일, 생리통(-), 월경량 보통, 결혼(+), 피임(콘돔), 임신 계획 있음, 0-0-0-0"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-), CVAT/DRE(-/-)",
+        "pelvic": "자궁 크기 정상, 압통 없음",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "임신이 될 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "아셔만증후군",
+          "스트레스성 무월경",
+          "조기난소부전"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈중 호르몬 검사(FSH, LH, Estradiol, AMH)",
+          "프롤락틴 검사",
+          "갑상선 기능 검사",
+          "골반 초음파"
+        ],
+        "therapeutic": [
+          "생활 습관 개선 상담",
+          "스트레스 관리 상담",
+          "필요시 호르몬 대체 요법"
+        ]
+      }
+    }
+  ]
+}

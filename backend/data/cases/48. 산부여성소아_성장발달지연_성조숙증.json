@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김서윤",
+        "age": "7세",
+        "gender": "여아"
+      },
+      "situation": "딸의 가슴이 발달한 것 같아 걱정되어 내원하셨습니다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "80회/분",
+        "respiration": "20회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "딸 가슴이 너무 일찍 나온 것 같아요.",
+      "history": {
+        "onset": "6개월 전부터 유방이 발달하기 시작했으며, 최근 2개월 사이에 더욱 커졌다고 합니다.",
+        "growthAndDevelopment": {
+          "growth": "키 125cm(50%), 체중 25kg(40%).",
+          "secondarySexualCharacteristics": "유방 발달(Tanner stage 2), 음모 발달(Tanner stage 2), 초경 없음."
+        },
+        "menarche": "없음",
+        "perinatalHistory": "만삭아, 자연분만, 출생 시 체중 3.2kg, 신생아 기간 특이 소견 없음.",
+        "pastHistory": "특이 과거력 없음.",
+        "familyHistory": "어머니 초경 12세, 고모 성조숙증 병력 있음.",
+        "environment": {
+          "nutrition": "편식 없이 골고루 잘 먹음.",
+          "sleep": "수면 시간 충분함.",
+          "stress": "학업 스트레스는 없다고 함."
+        }
+      },
+      "physicalExam": "유방 발달(Tanner stage 2), 음모 발달(Tanner stage 2), 자궁 크기 정상.",
+      "patientQuestion": "성조숙증인가요? 치료가 필요한가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "성조숙증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈중 난포자극호르몬(FSH), 황체형성호르몬(LH), 에스트라디올 수치 측정",
+          "골연령 검사",
+          "성선 자극 호르몬 방출 호르몬 검사(GnRH 자극 검사)"
+        ],
+        "therapeutic": [
+          "검사 결과에 따른 치료 계획 수립 (예: GnRH 작용제)"
+        ]
+      }
+    }
+  ]
+}

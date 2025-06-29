@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이지혜",
+        "age": 35,
+        "gender": "여자"
+      },
+      "situation": "어지러움과 힘이 빠지는 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "갑자기 어지럽고 힘이 없어요",
+      "history": {
+        "onset": "오늘 오후 2시",
+        "location": "회사에서 업무 중",
+        "duration": "약 5분",
+        "experience": "몇 시간 동안 아무것도 먹지 않았고, 갑자기 어지러움을 느끼고 힘이 빠져 의자에 주저앉았음. 식은땀이 나고 심장이 두근거렸으며, 잠시 후 증상이 호전됨.",
+        "character": {
+          "preSyncope": "어지러움(+), 흐릿한 시야(+), 땀(+), 심계항진(+), 메스꺼움(-)",
+          "syncope": "의식 소실(-), 경련(-), 넘어짐(-)",
+          "postSyncope": "피로감(+), 몸이 떨림(-), 두통(-), 근육통(-)"
+        },
+        "associatedSymptoms": {
+          "general": "발열/오한/피로/식은땀/체중변화(-/-/-/-/-)",
+          "circulatory": "두근거림(+), 호흡곤란(-)",
+          "gi": "설사/구토/혈변/흑색변/토혈(-/-/-/-/-)",
+          "respiratory": "가슴 통증(-)",
+          "renal": "다음/다뇨/다갈(-/-/-), 혈뇨(-)",
+          "neuro": "두통(-), 시야장애(-), 보행장애(-), 팔다리 힘 빠짐(+)",
+          "psych": "죽을 것 같은 공포감/불안(-/-)"
+        },
+        "factors": "공복 상태(+), 스트레스(+), 수면 부족(+)"
+      },
+      "pastHistory": {
+        "surgical": "없음",
+        "medications": "없음",
+        "social": "술(1주일에 1~2회 소량), 담배(비흡연), 커피(하루 1잔)"
+      },
+      "physicalExam": {
+        "general": "V/S: 안정적",
+        "heent": "결막/구강/손등 피부 긴장도(-/-/-), 머리 시/촉(-/-), 외상(-). 뇌신경/EOM 정상, 경동맥 청진(-)",
+        "chest": "심음 청진(-)",
+        "extremity": "팔다리 근력/감각(-/-), Pitting edema(-)"
+      },
+      "patientQuestion": "다시 이런 증상이 나타날까 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "저혈당",
+          "기립성 저혈압",
+          "미주신경성 실신"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈당 검사",
+          "기립성 저혈압 검사",
+          "심전도 검사"
+        ],
+        "therapeutic": [
+          "규칙적인 식사 권고",
+          "충분한 수분 섭취 권고",
+          "스트레스 관리 교육"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+checklist:
+  topic_kr: "근력/감각 이상"
+  topic_en: "Weakness/Sensory Disturbance"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [근력 저하 또는 감각 이상 시작 시기 (Onset): 급성/아급성/만성] (When did the weakness or sensory change start?: Acute/Subacute/Chronic)
+            - [진행 양상: 점진적 악화/변동/호전] (Progression pattern: Gradually worsening/Fluctuating/Improving)
+            - [근력 저하 또는 감각 이상의 위치 (Location): 국소적/전신적, 대칭적/비대칭적] (Location of weakness or sensory change: Localized/Generalized, Symmetric/Asymmetric)
+            - [근력 저하 또는 감각 이상의 특징 (Character): 저림/무감각/따끔거림/화끈거림/시림/통증] (Character of weakness or sensory change: Numbness/Loss of sensation/Tingling/Burning/Stabbing/Pain)
+            - [악화/완화 요인] (Aggravating/Alleviating factors)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [통증 (Pain): 위치, 특징, 강도] (Pain: Location, Character, Intensity)
+            - [발열 (Fever)] (Fever)
+            - [체중 감소 (Weight loss)] (Weight loss)
+            - [피로감 (Fatigue)] (Fatigue)
+            - [배변/배뇨 장애 (Bowel/Bladder dysfunction)] (Bowel/Bladder dysfunction)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [외상 (Trauma)] (Trauma)
+            - [수술 (Surgery)] (Surgery)
+            - [만성 질환: 당뇨병, 고혈압, 신장 질환 등] (Chronic diseases: Diabetes, Hypertension, Kidney disease, etc.)
+            - [가족력 (Family history)] (Family history)
+            - [직업 (Occupation)] (Occupation)
+            - [독소 노출 (Toxic exposure)] (Toxic exposure)
+            - [약물 복용력 (Medication history)] (Medication history)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [근력 검사 (Muscle strength testing): Medical Research Council (MRC) scale 사용] (Muscle strength testing: Using the Medical Research Council (MRC) scale)
+            - [감각 검사 (Sensory examination): 통각, 온도각, 진동각, 위치 감각] (Sensory examination: Pain, Temperature, Vibration, Position sense)
+            - [심부건 반사 (Deep tendon reflexes)] (Deep tendon reflexes)
+            - [병적 반사 (Pathological reflexes)] (Pathological reflexes)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [척수병증 의심 시: Spurling test, Hoffman's sign] (If spinal cord lesion is suspected: Spurling test, Hoffman's sign)
+            - [말초신경병증 의심 시: Tinel's sign, Phalen's test] (If peripheral neuropathy is suspected: Tinel's sign, Phalen's test)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Cervical/Lumbar radiculopathy"
+            - "Peripheral neuropathy (Diabetic, Alcoholic, etc.)"
+            - "Multiple sclerosis"
+            - "Myasthenia gravis"
+            - "Amyotrophic Lateral Sclerosis (ALS)"
+            - "Guillain-Barre syndrome"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Comprehensive metabolic panel (CMP)"
+                - "Thyroid function test (TFT)"
+                - "Vitamin B12 level"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "X-ray"
+                - "MRI"
+                - "CT"
+                - "EMG/NCS (Electromyography/Nerve conduction study)"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "환자의 증상과 의심되는 질환에 대한 자세한 설명을 제공하고, 추가 검사의 필요성과 치료 계획에 대해 논의합니다." (Provide a detailed explanation of the patient's symptoms and suspected conditions, and discuss the need for further tests and treatment plans.)
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "배변/배뇨 장애, 급격한 근력 저하, 의식 저하 등의 증상 발생 시 즉시 응급실에 내원하도록 교육합니다." (Instruct the patient to immediately visit the emergency room if symptoms such as bowel/bladder dysfunction, rapid muscle weakness, or loss of consciousness occur.)

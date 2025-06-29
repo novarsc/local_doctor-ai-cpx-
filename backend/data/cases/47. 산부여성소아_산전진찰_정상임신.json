@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "caseNumber": 10,
+      "patientProfile": {
+        "name": "박민지",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "임신 가능성을 확인하고자 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "임신인지 확인하고 싶어요.",
+      "history": {
+        "onset": "마지막 생리가 6주 전",
+        "location": null,
+        "duration": null,
+        "course": "소변 임신 검사 양성 반응 확인 후 내원",
+        "character": "월경이 없고, 유방 압통, 메스꺼움 증상 있음.",
+        "associatedSymptoms": {
+          "gynecological": "질 출혈 없음, 질 분비물 증가"
+        },
+        "pastHistory": {
+          "obstetricHistory": "0-0-0-0",
+          "contraception": "피임약 복용 중단 후 임신 시도",
+          "lastMenstrualPeriod": "6주 전",
+          "menstrualHistory": "규칙적, 양/색/월경통 이상 없음",
+          "medical": "특이 질환 없음",
+          "vaccination": "예방접종력 확인 필요",
+          "medications": "엽산제 복용 중",
+          "social": "흡연(-), 음주(임신 계획 후 중단), 커피(1일 1잔)",
+          "family": "유전 질환 없음"
+        },
+        "etc": {
+          "patientBio": "키 165cm, 체중 52kg, 혈액형 A형 Rh+",
+          "partnerBio": "혈액형 B형 Rh+"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정",
+        "heent": "눈/귀/코/목/후두/림프절 (-/-/-/-/-/-)",
+        "abdomen": "부드러움, 압통 없음, 자궁 약간 커짐. 초음파 검사 시행: 자궁 내 임신 확인, 태아 심박동 확인",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "임신 관리 어떻게 해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "정상임신"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 임신 검사",
+          "초음파 검사 (태아 심박동 확인)",
+          "혈액형 검사"
+        ],
+        "therapeutic": [
+          "엽산제 지속 복용",
+          "정기적인 산전 진찰",
+          "금주, 금연 권고",
+          "임신 초기 주의사항 교육"
+        ]
+      }
+    }
+  ]
+}

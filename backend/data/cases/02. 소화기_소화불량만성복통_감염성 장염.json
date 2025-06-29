@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최수현",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "심한 설사와 복통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg ",
+        "heartRate": "90회/분 ",
+        "respiration": "18회/분 ",
+        "temperature": "38.2℃ "
+      },
+      "chiefComplaint": "배가 너무 아프고 설사를 계속 해요.",
+      "history": {
+        "onset": "어제 저녁부터",
+        "location": "전체 복부, 특히 하복부",
+        "course": "어제 저녁부터 심한 설사와 복통이 시작되었고, 밤새도록 화장실을 여러 번 갔습니다. 오늘 아침에는 열이 나기 시작했습니다.",
+        "experience": "이런 증상은 처음입니다.",
+        "character": "심한 쥐어짜는 듯한 복통과 묽은 변의 설사, 빈번한 배변",
+        "associatedSymptoms": {
+          "general": "오한(+), 발열(+), 피로감(+), 체중변화(-)",
+          "gi": "식욕부진(+), 구토(-), 혈변(-), 점액변(-), 복부팽만(+)"
+        },
+        "factors": "어제 저녁에 회식에서 회와 날것을 많이 먹었습니다. 특별한 음식 알레르기는 없습니다.",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "events": "특이 사항 없음",
+          "surgical": "특이 사항 없음",
+          "medications": "특이 사항 없음",
+          "social": "흡연(-), 음주(+, 어제 회식), 직업: 사무직, 스트레스(+)",
+          "obgyn": "월경 주기 정상, 임신 가능성(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 얼굴이 창백하며, 탈수 증상이 약간 보입니다. V/S: 불안정",
+        "heent": "경부 림프절 비대 없음",
+        "abdomen": "전체적으로 압통이 있고, 하복부에 더 심한 압통이 있습니다. 반발압통은 없습니다. 장음은 활발합니다."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "감염성 장염",
+          "식중독"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변 배양 검사",
+          "혈액 검사 (CBC, CRP)"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "지사제",
+          "항생제 (필요시)"
+        ]
+      }
+    }
+  ]
+}

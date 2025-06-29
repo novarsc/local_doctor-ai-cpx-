@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 김철수씨가 만성 기침과 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "88회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기침이 계속 나고 숨이 차요.",
+      "history": {
+        "onset": "20년 전부터 기침, 점차 악화",
+        "location": "가슴, 기도",
+        "course": "만성 기침, 가래 동반, 최근 2주간 악화, 숨참 증상 심해짐",
+        "character": "마른 기침, 가래는 끈적이며 누런색, 객혈(-),  운동 시 호흡곤란 심해짐, 야간 호흡곤란(+)",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중 감소(5kg/6개월)",
+          "respiratory": "만성 기침(+), 가래(+, 황색 점액성), 객혈(-), 호흡곤란(+), 흉통(-), 쌕쌕거림(+)",
+          "digestive": "식욕부진(+)",
+          "cardiovascular": "부종(-)"
+        },
+        "factors": "40년간 흡연(1갑/일), 과거 폐렴 병력(+)",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전 진단), 폐렴(+, 5년 전)",
+          "medications": "고혈압약 복용 중(Amlodipine 5mg 1일 1회)",
+          "social": "흡연(+, 40갑년), 음주(소주 1병/주)",
+          "family": "가족력(특이사항 없음)"
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란, 빈호흡, 체중 감소 소견",
+        "respiratory": "호흡음 감소, 잡음(wheezing) 청취, 산소포화도 90%",
+        "cardiovascular": "심음 정상"
+      },
+      "patientQuestion": "이 병은 어떻게 치료하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "COPD",
+          "만성 기관지염",
+          "폐암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X선 촬영",
+          "폐기능 검사",
+          "혈액 검사(혈액 가스 분석)",
+          "객담 검사"
+        ],
+        "therapeutic": [
+          "기관지 확장제(Salbutamol, Ipratropium bromide)",
+          "흡입 코르티코스테로이드(Beclomethasone)",
+          "산소 치료",
+          "금연 상담",
+          "폐 재활 프로그램"
+        ]
+      }
+    }
+  ]
+}

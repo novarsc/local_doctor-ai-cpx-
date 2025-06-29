@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 김민지씨가 소변을 자주 본다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.5℃"
+      },
+      "chiefComplaint": "소변을 너무 자주 봐요.",
+      "history": {
+        "onset": "3개월 전",
+        "duration": "계속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "[횟수] 하루 10회 이상\n[양] 소변량은 적음\n[성상] 색깔/냄새/거품/피(-/-/-/-)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중감소/피로(-/-/-/-)",
+          "urinary": "빈뇨/절박뇨/야간뇨/배뇨통(+/+/+/-/-)",
+          "genitals": "외음부 통증/분비물/가려움(-/-/-)"
+        },
+        "factors": "카페인 섭취 많음(하루 3~4잔), 스트레스 많음, 물 섭취량 적음(1L 미만)",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병(-/-)",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(-), 음주(주 1회 소주 1잔), 커피(3~4잔/일), 운동(주 1회 30분)",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "결막/공막(-/-), 구강/피부(-/-)",
+        "abdomen": "복부 시진/청진/타진/촉진(-/-/-/-), 압통(-), CVAT(-)",
+        "extremity": "부종(-)",
+        "genitals": "외음부 정상"
+      },
+      "patientQuestion": "치료 방법은 무엇인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "과민성 방광",
+          "방광염",
+          "요로감염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사",
+          "요배양검사",
+          "방광초음파"
+        ],
+        "therapeutic": [
+          "골반저 근육운동 교육",
+          "방광훈련",
+          "약물치료(항콜린성 약물 등)",
+          "수분 섭취 증가 권고",
+          "카페인 섭취 줄이기 권고"
+        ]
+      }
+    }
+  ]
+}

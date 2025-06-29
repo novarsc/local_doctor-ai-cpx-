@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 박철수씨가 낮에 졸리고 피곤하다며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "낮에 너무 졸려요",
+      "history": {
+        "onset": "5년 전",
+        "experience": "처음",
+        "course": "점진적으로 악화",
+        "character": "밤에 잠은 7시간 정도 자지만, 깊이 잠들지 못하고 자주 깨는 편이며, 낮에 졸음이 쏟아진다. 특히 운전 중이나 회의 중에 졸음이 심하다.  키 170cm, 몸무게 85kg, 허리둘레 40인치",
+        "associatedSymptoms": "[전신] 체중 증가(+, 10kg 증가), [OSA] 코골이(+, 배우자 증언), [소화] 속쓰림(-), [순환] 두근거림(-), [호흡] 쌕쌕거림(-), [신장/비뇨] 야뇨(-), [정신] 주간졸림(+), 우울/불안(-/-), [갑상샘] 더위불내성(-)",
+        "factors": "과체중, 음주 습관(주 3회 소주 2병), 운동 부족",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 고지혈증(-), 결핵(-), 간염(-)",
+          "medications": "고혈압약(로사르탄 50mg 1일 1회)",
+          "social": "은퇴 후 집에서 주로 생활, 스트레스(+), 술(+), 커피(1일 1잔)"
+        }
+      },
+      "physicalExam": {
+        "general": "비만, 수면부족의 징후 관찰됨",
+        "heent": "결막/구강/피부 긴장도(-/-/-), 갑상샘(-)",
+        "chest": "심음/호흡음(-/-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "수면무호흡",
+          "주간과다수면증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "수면다원검사",
+          "혈액검사(혈당, 콜레스테롤)",
+          "체성분 분석"
+        ],
+        "therapeutic": [
+          "CPAP 치료",
+          "체중 감량",
+          "금주 권고",
+          "규칙적인 운동"
+        ]
+      }
+    }
+  ]
+}

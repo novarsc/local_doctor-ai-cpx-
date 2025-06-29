@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민준",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "25세 남자 김민준씨가 고열과 두통, 목 경직을 주소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "100회/분",
+        "respiration": "20회/분",
+        "temperature": "39.5℃"
+      },
+      "chiefComplaint": "고열과 두통, 목이 너무 아파요.",
+      "history": {
+        "onset": "2일 전",
+        "location": "전신",
+        "duration": "지속적",
+        "experience": "처음 경험하는 증상",
+        "character": "2일 전부터 시작된 고열(39℃ 이상)과 심한 두통, 구토, 오한을 호소하며, 어제부터 목이 뻣뻣하고 움직이기 어렵다고 함. 의식은 명료하며, 발열 외 다른 신경학적 증상은 없음.",
+        "associatedSymptoms": "[전신] 발열(+), 오한(+), 구토(+), 근육통(+) [신경] 두통(+, 심함), 목 경직(+), 광과민성(-),  [소화기] 설사(-), 변비(-)",
+        "factors": "최근 여행 다녀옴. 수영장에서 수영을 했고, 수영장 물이 다소 오염된 것 같았다고 함.",
+        "pastHistory": {
+          "medical": "특이 병력 없음",
+          "trauma_surgery": "특이 병력 없음",
+          "social": "흡연(-), 음주(주 1회 소주 1병), 커피(하루 1잔), 스트레스(보통)"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 약간의 탈수 증상 보임.  혈압은 정상 범위.",
+        "heent": "경부 강직(+), 두통(+), 귀 및 코 점막 소견 없음",
+        "neuro": "의식 명료, 신경학적 검사 정상 소견,  브루진스키 징후(+), 케르니그 징후(+)",
+        "extremity": "사지 운동 범위 정상, 근력 정상"
+      },
+      "patientQuestion": "저 괜찮아질까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "뇌수막염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌척수액 검사",
+          "혈액 배양 검사",
+          "뇌 CT",
+          "혈액 검사 (CBC, CRP, LDH)"
+        ],
+        "therapeutic": [
+          "항생제 투여 (경험적 항생제 치료)",
+          "수액 공급",
+          "진통제 투여",
+          "항염증제 투여 (필요시)",
+          "격리 조치"
+        ]
+      }
+    }
+  ]
+}

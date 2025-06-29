@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "복통과 변비, 설사를 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "배가 아프고 화장실을 자주 가요.",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "지속적",
+        "course": "최근 스트레스 증가로 증상 악화",
+        "experience": "이전에도 스트레스 받으면 비슷한 증상 경험",
+        "character": "변비와 설사가 번갈아 나타나며, 변의 형태와 횟수가 불규칙함. 혈변은 없음.",
+        "associatedSymptoms": {
+          "general": "열/오한/피로/부종(-/-/-/-), 체중 변화 없음",
+          "gi": "A/N/V/C/D(-/-/+/+/+), 복부 팽만감(+),  가스 참(+), 항문 통증(-), 잔변감(+)",
+          "endocrine": "두근거림/더위불내성(-/-)",
+          "dehydration": "어지러움/목마름(-/-)"
+        },
+        "factors": "악화 : 스트레스, 커피, 술. 완화 : 배변 후 일시적 증상 완화",
+        "pastHistory": {
+          "events": "특이 사항 없음",
+          "medical": "고혈압/당뇨/결핵/간염(-/-/-/-)",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 2회), 커피(매일 2잔), 불규칙한 식사 습관"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "압통 없음.  청진 시 장음 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이게 심각한 병인가요? 앞으로 어떻게 해야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "과민성 대장증후군(IBS)",
+          "염증성 장 질환",
+          "기능성 소화불량"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변 검사",
+          "복부 초음파"
+        ],
+        "therapeutic": [
+          "식이 섬유 섭취 증가",
+          "규칙적인 식사 습관",
+          "스트레스 관리",
+          "필요시 약물 치료(항진경제, 지사제 등)"
+        ]
+      }
+    }
+  ]
+}

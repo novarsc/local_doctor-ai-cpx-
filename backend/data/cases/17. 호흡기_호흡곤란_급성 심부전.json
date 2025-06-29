@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 78,
+        "gender": "남자"
+      },
+      "situation": "78세 남자 김철수씨가 숨이 차서 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "28회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차요.",
+      "history": {
+        "onset": "2시간 전",
+        "duration": "지속",
+        "course": "악화",
+        "experience": "처음",
+        "character": "가만히 있어도 숨이 차고, 눕기 힘들다고 함. 말하는 것도 힘들어 보임.",
+        "associatedSymptoms": {
+          "general": "발열/피로/체중 변화(-/-/-), 부종(+, 양측 하지)",
+          "respiratory": "흉통(-), 기침/가래/쌕쌕거림(-/-/-)",
+          "cardiovascular": "흉부압박감(+), 두근거림(-)"
+        },
+        "factors": "누우면 악화, 앉으면 호전",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "trauma_surgery": "없음",
+          "medications": "혈압약, 당뇨약",
+          "social": "흡연(+, 과거 40갑년), 음주(-), 운동(-)",
+          "family": "부친: 심근경색으로 사망",
+          "obgyn": ""
+        }
+      },
+      "physicalExam": {
+        "general": "빈호흡, 창백, 발한, 양측 하지 부종",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/+) ",
+        "chest": "심음 약화, 잡음(-)",
+        "extremity": "말초 냉감(+), 맥박 촉지 약함"
+      },
+      "patientQuestion": "제가 죽는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 심부전"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "흉부 X선 촬영",
+          "심초음파",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "산소요법",
+          "이뇨제",
+          "정맥내 수액 공급",
+          "입원"
+        ]
+      }
+    }
+  ]
+}

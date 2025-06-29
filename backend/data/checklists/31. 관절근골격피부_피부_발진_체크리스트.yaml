@@ -1,0 +1,78 @@
+checklist:
+  topic_kr: "피부 발진"
+  topic_en: "Skin Rash"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [발진의 발생 시기: 언제부터 발진이 시작되었습니까? (Onset: When did the rash start?)]
+            - [발진의 양상: 발진이 어떻게 생겼습니까? (Appearance: How does the rash look?  e.g., flat, raised, bumpy, blisters)]
+            - [발진의 위치: 발진이 어디에 발생했습니까? (Location: Where is the rash located?)]
+            - [발진의 범위: 발진이 얼마나 넓게 퍼져 있습니까? (Distribution: How widespread is the rash?)]
+            - [동반되는 증상: 가려움, 통증, 열, 부종 등 다른 증상이 있습니까? (Associated symptoms:  Any other symptoms like itching, pain, fever, or swelling?)]
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [전신 증상: 발열, 오한, 피로감, 식욕 부진, 체중 감소 등이 있습니까? (Systemic symptoms:  Fever, chills, fatigue, loss of appetite, weight loss?)]
+            - [관절통, 근육통: 관절이나 근육에 통증이 있습니까? (Joint or muscle pain)]
+            - [호흡기 증상: 기침, 콧물, 인후통 등이 있습니까? (Respiratory symptoms: Cough, runny nose, sore throat?)]
+            - [소화기 증상: 구역, 구토, 설사, 복통 등이 있습니까? (Gastrointestinal symptoms: Nausea, vomiting, diarrhea, abdominal pain?)]
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [알레르기: 약물, 음식, 환경 등에 알레르기가 있습니까? (Allergies:  Drug, food, environmental allergies?)]
+            - [최근 약물 복용력: 최근에 복용한 약이 있습니까? (Recent medication history)]
+            - [만성 질환: 아토피 피부염, 건선 등의 피부 질환이나 다른 만성 질환이 있습니까? (Chronic diseases:  Atopic dermatitis, psoriasis, or other chronic illnesses?)]
+            - [여행력: 최근에 여행을 다녀오셨습니까? (Travel history)]
+            - [접촉력: 발진이 있는 사람과 접촉한 적이 있습니까? (Contact history)]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [피부 병변의 종류: 구진, 반점, 농포, 수포 등 (Type of skin lesions: papules, macules, pustules, vesicles, etc.)]
+            - [피부 병변의 색깔과 모양 (Color and shape of skin lesions)]
+            - [피부 병변의 분포 및 범위 (Distribution and extent of skin lesions)]
+            - [림프절 비대 여부 (Lymph node enlargement)]
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [diascopy (피부 병변을 눌러 혈관의 출혈 여부 확인)]
+            - [dermatoscope 검사 (필요시)]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Allergic contact dermatitis"
+            - "Atopic dermatitis"
+            - "Drug eruption"
+            - "Urticaria"
+            - "Psoriasis"
+            - "Viral exanthem"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Allergy testing (if indicated)"
+            - category_kr: "피부 생검"
+              category_en: "Skin Biopsy"
+              tests:
+                - "(If diagnosis is uncertain)"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "발진의 원인과 치료 방법에 대해 설명하고, 환자의 질문에 답변합니다. (Explain the cause and treatment of the rash and answer the patient's questions.)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "발진과 함께 호흡곤란, 의식 저하, 입술이나 얼굴의 부종 등이 나타나면 즉시 응급실을 방문하도록 안내합니다. (Instruct the patient to visit the emergency room immediately if they experience difficulty breathing, loss of consciousness, or swelling of the lips or face along with the rash.)"

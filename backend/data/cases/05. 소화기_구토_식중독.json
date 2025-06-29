@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이민수",
+        "age": 27,
+        "gender": "남자"
+      },
+      "situation": "심한 설사와 구토로 응급실에 내원하였다(현재 시각: 오후 3시).",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "90회/분",
+        "respiration": "16회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "설사와 구토가 심해요",
+      "history": {
+        "onset": "12시간 전",
+        "duration": "12시간 동안 설사 5회, 구토 3회",
+        "course": "점점 심해짐",
+        "character": "설사: 수양성, 묽은 변. 구토: 음식물과 담즙 섞여 나옴. 분출성은 아님.",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(+/+/-)",
+          "gi": "구역감(+), 구토(+), 변비(-), 설사(+), 혈변(-), 흑색변(-), 지방변(-), 기타 소화기 증상(-)",
+          "circulatory": "흉통(-)",
+          "psych": "의도적 구토(-)",
+          "neuro": "두통(-), 경부 뻐근함(-)",
+          "dehydration": "어지러움(+), 목마름(+), 소변량 감소(+)"
+        },
+        "factors": "어제 저녁 회식에서 회와 굴을 먹음",
+        "pastHistory": {
+          "medical": "고혈압/당뇨/고지혈증(-/-/-)",
+          "social": "흡연(+, 하루 한 갑), 음주(+, 어제 소주 3병), 직업: 회사원. 스트레스(+)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정, 탈수 증상 보임",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "압통(+), 반발 압통(-), Murphy (-), DRE(-)",
+        "neuro": "Kernig/Brudzinski(-/-)"
+      },
+      "patientQuestion": "회복까지 얼마나 걸릴까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "식중독 (회, 굴 섭취)",
+          "급성 위장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변 배양 검사",
+          "혈액 검사 (전해질, 혈구 수)",
+          "복부 X-ray (필요시)"
+        ],
+        "therapeutic": [
+          "수액 치료",
+          "대증 요법 (항구토제, 진통제)",
+          "경구 수액 보충",
+          "식이 요법 (금식 후 점진적 식사)"
+        ]
+      }
+    }
+  ]
+}

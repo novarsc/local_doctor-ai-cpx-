@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 9,
+      "patientProfile": {
+        "name": "김영수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김영수씨가 2주간 지속되는 기침과 발열로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "2주째 기침과 열이 나요.",
+      "history": {
+        "onset": "2주 전",
+        "duration": "2주",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "마른 기침, 가래는 없음, 밤에 열이 더 심함, 낮에는 괜찮은 편",
+        "associatedSymptoms": {
+          "general": "식은땀(+), 체중 감소(5kg, 3개월), 야간 발한(+)",
+          "respiratory": "기침(+, 마른기침), 가래(-), 객혈(-), 흉통(-), 호흡곤란(-)",
+          "digestive": "식욕부진(+), 메스꺼움(-), 구토(-), 설사(-), 변비(-)",
+          "circulatory": "두근거림(-), 어지러움(-), 빈혈(-)",
+          "psychiatric": "우울(-), 불안(-)",
+          "sleep": "수면장애(+), 밤에 잠 못 이룸"
+        },
+        "factors": "흡연(30갑년), 최근 과로",
+        "pastHistory": {
+          "social": "흡연 30갑년, 음주 가끔, 직업: 은퇴, 가족력: 결핵 없음",
+          "medical": "고혈압(5년전 진단, 약 복용중), 당뇨병(-) ",
+          "other": "최근 2개월 동안 잦은 야근"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 피로해 보임",
+        "heent": "결막 창백(-), 경부 림프절 종대(-)",
+        "chest": "호흡음 감소(오른쪽 폐 상엽), 잡음(-)",
+        "abdomen": "압통(-), 방어긴장(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐결핵",
+          "폐렴",
+          "기관지염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "객담 검사(항산균 배양, 핵산 증폭 검사)",
+          "혈액 검사(CBC, CRP, ESR)",
+          "PPD skin test"
+        ],
+        "therapeutic": [
+          "항결핵제 투여(Rifampin, Isoniazid, Pyrazinamide, Ethambutol)"
+        ]
+      }
+    }
+  ]
+}

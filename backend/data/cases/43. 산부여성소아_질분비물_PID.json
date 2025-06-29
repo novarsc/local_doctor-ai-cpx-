@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 김민지씨가 하복부 통증과 질 분비물 증가를 주소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "80회/분",
+        "respiration": "18회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "아랫배가 아프고 질 분비물이 많아요.",
+      "history": {
+        "onset": "3일 전",
+        "duration": "계속 지속",
+        "course": "점점 심해짐",
+        "experience": "처음 발생",
+        "character": "[양] 팬티 라이너를 자주 갈아야 할 정도로 많음. [양상] 끈적끈적하고 농성. [색] 노란색. [냄새] 악취 있음. 피/거품(-/-)",
+        "associatedSymptoms": "[전신] 발열/오한(+/+), 피로(+), 체중 변화(-). [소화기] 식욕부진(+), 메스꺼움(+), 구토(-), 설사(-). [비뇨기] 빈뇨(+), 배뇨통(+), 잔뇨감(+). [생식기] 질 가려움(+), 성교통(+). [기타] 두통(-), 어지러움(-)",
+        "factors": "최근 성관계(+, 마지막 성관계 2일 전), 질세척(-), IUD 사용(-)",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "medications": "없음",
+          "social": "비흡연자, 음주량 적음, 스트레스 중간 정도",
+          "gyn": "초경 13세, 생리 주기 규칙적, 월경량 보통, 생리통 없음, 기혼, 파트너 1명, 피임 방법: 콘돔(일관성 없음), 과거 성병력(-), 임신 가능성(-), 산과력: 0-0-0-0"
+        }
+      },
+      "physicalExam": {
+        "general": "열감 있음",
+        "heent": "특이 소견 없음",
+        "abdomen": "하복부 압통(+), 반발압통(+), 방어긴장(+), 복부팽만(-)",
+        "pelvic": "자궁압통(+), 부속기압통(+), 농성 질 분비물 관찰됨",
+        "extremity": "특이 소견 없음"
+      },
+      "patientQuestion": "PID인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "골반염증성질환(PID)",
+          "자궁경부염",
+          "세균성 질염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "질 분비물 검사(세균 배양, 그람 염색)",
+          "혈액 검사(CBC, CRP, ESR)",
+          "골반 초음파",
+          "임신 검사"
+        ],
+        "therapeutic": [
+          "항생제 치료(Broad-spectrum antibiotics)",
+          "수분 섭취 증가",
+          "진통제",
+          "충분한 휴식"
+        ]
+      }
+    }
+  ]
+}

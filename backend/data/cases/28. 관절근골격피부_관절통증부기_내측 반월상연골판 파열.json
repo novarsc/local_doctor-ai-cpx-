@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 왼쪽 무릎 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "무릎이 갑자기 아파요",
+      "history": {
+        "onset": "2일 전",
+        "location": "왼쪽 무릎 안쪽",
+        "duration": "2일째 지속",
+        "course": "점점 심해짐",
+        "character": "심한 통증(NRS 8점), 무릎을 굽히거나 펼 때 더 심함, 삐끗하는 느낌 후 발생, 붓기(+), 열감(+), 압통(+), 방사통(-)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(-/-/-/-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "피부 발진/부종(-/-)",
+          "infection": "최근 감염(-)",
+          "other": "약물 복용 없음"
+        },
+        "factors": "농구 경기 중 갑자기 왼쪽 무릎에 힘이 빠지면서 통증 발생, 계단 오르내리기 어려움",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 관절염(-)",
+          "trauma_surgery": "과거 무릎 수술력 없음",
+          "medications": "없음",
+          "social": "흡연(1갑/일), 음주(주 2회 소주 1병)",
+          "family": "관절 질환 가족력 없음",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "특이 소견 없음",
+        "chest": "청진 소견 정상",
+        "abdomen": "특이 소견 없음",
+        "extremity": "왼쪽 무릎 관절 부종(+), 압통(+), 열감(+), 피부 발적(+),  McMurray test(+),  Apley test(+),  활동범위 제한(+)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "내측 반월상연골판 파열",
+          "전방십자인대 손상",
+          "슬관절염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "왼쪽 무릎 X-ray",
+          "왼쪽 무릎 MRI"
+        ],
+        "therapeutic": [
+          "RICE(Rest, Ice, Compression, Elevation)",
+          "진통소염제",
+          "물리치료",
+          "필요시 수술적 치료"
+        ]
+      }
+    }
+  ]
+}

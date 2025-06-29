@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 김철수씨가 어지럼증과 이명으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "어지러워요, 귀에서 윙윙거려요",
+      "history": {
+        "onset": "3일 전",
+        "duration": "간헐적, 수 분에서 수 시간 지속",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "빙빙 도는 어지럼증, 왼쪽 귀에서 윙윙거리는 이명, 귀가 꽉 막힌 느낌",
+        "associatedSymptoms": "[전신] 발열/오한/피로(+/-/+) [신경] 두통/구역/구토(+/-/-) [이비인후과] 청력 저하(+), 이충만감(+) [심혈관] 흉통/두근거림(-/-)",
+        "factors": "스트레스, 과도한 업무",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "흡연(20갑/년), 음주(주 2회 소주 2병)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "neuro": "뇌신경 검사 정상, 소뇌 검사 정상",
+        "ENT": "왼쪽 귀에 경도의 청력 저하, 고막 정상"
+      },
+      "patientQuestion": "어지럼증과 이명이 언제까지 지속될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "메니에르병",
+          "전정신경염",
+          "이석증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "청력 검사",
+          "전정 기능 검사",
+          "전정 자극 검사"
+        ],
+        "therapeutic": [
+          "저염식이요법",
+          "이뇨제",
+          "어지럼증 약물 치료"
+        ]
+      }
+    }
+  ]
+}

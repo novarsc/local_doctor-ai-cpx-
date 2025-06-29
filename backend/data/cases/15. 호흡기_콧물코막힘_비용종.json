@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "만성적인 코막힘과 두통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "만성적인 코막힘과 두통",
+      "history": {
+        "onset": "5년 전",
+        "course": "점진적으로 악화",
+        "character": "양측성 코막힘, 간헐적 콧물(맑은 콧물), 후비루, 두통(전두부, 압박감), 후각 감퇴",
+        "associatedSymptoms": {
+          "general": "발열/오한/피로(-/-/-), 체중 변화(-)",
+          "neuro": "두통(+), 안면통(-)",
+          "respiratory": "기침(-)",
+          "olfactory": "후각 저하(+)"
+        },
+        "factors": "특정 계절(-), 먼지/온도차(-/-), 특정 장소(-), 동물(-)",
+        "pastHistory": {
+          "medical": "고혈압(+), 고지혈증(+), 알레르기 비염(-), 천식(-), 축농증(-), 아토피(-)",
+          "social": "흡연(과거력, 금연 10년), 음주(주 1회, 소주 1병), 직업(은퇴), 스트레스(보통)",
+          "family": "가족력(-)"
+        }
+      },
+      "physicalExam": {
+        "heent": "비강 점막 부종, 다량의 점액성 분비물, 비중격 만곡 의심"
+      },
+      "patientQuestion": "코막힘과 두통을 해결할 수 있는 방법이 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 비염",
+          "비용종",
+          "비중격 만곡"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "비내시경 검사",
+          "부비동 CT",
+          "알레르기 검사"
+        ],
+        "therapeutic": [
+          "비강 스테로이드 분무제",
+          "식염수 비강 세척",
+          "필요시 수술적 치료 고려"
+        ]
+      }
+    }
+  ]
+}

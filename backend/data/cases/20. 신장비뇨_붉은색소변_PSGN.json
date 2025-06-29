@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 8,
+        "gender": "여자"
+      },
+      "situation": "8세 여자 박선우 양이 엄마와 함께 붉은 소변을 보고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "소변이 빨갛게 나와요",
+      "history": {
+        "onset": "2일 전",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "[양] 소량, [색] 진한 붉은색, 냄새(-), 거품(-), 소변량 감소(+), 핏덩이(+), 아침에 소변을 볼 때 더 심함",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 체중 변화(-), 탈수(+), 감기 증상(+, 기침, 코 막힘), 근육통(-), 부종(+, 특히 눈 주위)",
+          "digestive": "구역/구토/어지럼증(-/-/-), 설사(-)",
+          "renal_urinary": "F/U/N/D/H/I/S(-/-/-/-/-/-/-), 옆구리 통증(-), 거품뇨(-)",
+          "other": "인후통(+), 피부 발진(-)"
+        },
+        "factors": "심한 운동(-), 사우나(-), 스트레스(-), 최근 감염 증상(+)",
+        "pastHistory": {
+          "medical": "특이 없음",
+          "medications": "없음",
+          "social": "유치원생",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 안절부절 못함",
+        "heent": "눈 주위 부종(+), 구강(-), 갑상샘/림프절(-/-), 피부(-)",
+        "abdomen": "CVAT(-), 복부 촉진(-), DRE(-)",
+        "extremity": "말초 부종(+)"
+      },
+      "patientQuestion": "왜 소변이 빨간색인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "PSGN",
+          "급성 신염",
+          "요로 감염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사(현미경적 혈뇨, 단백뇨 확인)",
+          "혈액검사(혈액 요소 질소, 크레아티닌, 보체 수치 확인)",
+          "ASO 용혈성 연쇄구균 항체 검사",
+          "신장 초음파"
+        ],
+        "therapeutic": [
+          "수분 섭취 증가",
+          "항생제 치료(감염 증상이 있는 경우)",
+          "염증 조절 치료(스테로이드 등)",
+          "경과 관찰 및 정기적인 검사"
+        ]
+      }
+    }
+  ]
+}

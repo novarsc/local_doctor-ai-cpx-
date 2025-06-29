@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "이민수",
+        "age": 32,
+        "gender": "남자"
+      },
+      "situation": "32세 남자 이민수씨가 머리가 아파 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "머리가 아파요",
+      "history": {
+        "onset": "10년 전",
+        "location": "오른쪽 관자놀이 부위",
+        "duration": "4시간~하루 정도 지속, 월 1~2회 발생",
+        "course": "최근 스트레스 증가로 빈도 증가",
+        "experience": "청소년기부터 간헐적으로 발생",
+        "character": "심한 욱신거림과 맥박이 뛰는 듯한 통증, 구토 동반, 빛과 소리에 민감함. NRS 7~8",
+        "associatedSymptoms": "[전신] 발열/오한/피로/체중 감소(-/-/-/-) [소화] 구역(+), 구토(+), 설사(-) [순환] 식은땀/두근거림(-/-) [정신] 우울/불안(-/-) [신경] 전조 증상(시야 흐릿함+), 눈물/콧물(-/-), 얼굴에 전기 통하는 느낌(-). 팔다리 힘 빠짐/시야장애(-/-), 복시/어지럼/말 어눌/경련(-/-/-/-)",
+        "factors": "스트레스, 수면 부족, 생리 전 악화, 술, 카페인 섭취 악화. 휴식, 수면 후 완화",
+        "pastHistory": {
+          "trauma_surgery": "없음",
+          "medications": "진통제(이부프로펜) 간헐적으로 복용",
+          "social": "술(+, 주 2회 소주 2병), 담배(-), 커피(+, 하루 3잔). 스트레스(+, 업무 스트레스), 운동(-)",
+          "family": "어머니 편두통 병력 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "두부 시진/촉진(-/-), 눈/구강(-/-)",
+        "neuro": "동공 반사, 안구 운동, 시야 정상, 뇌신경검사 정상. 소뇌기능검사 : 정상, Kernig/Brudzinski 정상",
+        "extremity": "사지 MSR 정상"
+      },
+      "patientQuestion": "이 두통이 편두통인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "편두통",
+          "긴장성 두통",
+          "군발성 두통"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사",
+          "뇌영상검사(필요시)"
+        ],
+        "therapeutic": [
+          "트립탄계 약물 투여",
+          "예방 약물 고려",
+          "생활습관 개선(수면, 스트레스 관리)",
+          "카페인 섭취 줄이기"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 박선우씨가 2달째 우울감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.5℃"
+      },
+      "chiefComplaint": "힘들어요.",
+      "history": {
+        "onset": "2개월 전",
+        "experience": "처음",
+        "course": "점차 심해짐",
+        "location": "-",
+        "character": "2달 전부터 아무것도 하고 싶지 않고, 매사에 의욕이 없어요.  잠도 잘 안 오고, 밤에 자주 깨요.  예전에는 즐거워했던 일들에도 재미를 못 느껴요.  자꾸만 짜증이 나고, 주변 사람들에게 쉽게 화를 내게 되네요. 살도 5kg 빠졌어요.",
+        "associatedSymptoms": "[정신] 우울감(+), 무력감(+), 수면장애(+), 식욕부진(+), 체중감소(+), 흥미소실(+), 집중력저하(+), 자살사고(-), 불안(-), 초조(-),  [신체] 두통(-), 소화불량(-), 변비(-) ",
+        "factors": "직장에서의 스트레스,  가족 간의 갈등",
+        "pastHistory": {
+          "medical": "고혈압 진단받은 적 없음(-)",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(월 1회 소량), 커피(하루 2잔)",
+          "family": "부모님 모두 건강하심"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "결막/구강 점막 정상",
+        "chest": "청진 소견 정상",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "이렇게 계속 힘들 거 같아서 걱정이에요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "주요 우울장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "우울증 척도 검사(PHQ-9)",
+          "신체 검사"
+        ],
+        "therapeutic": [
+          "항우울제 처방",
+          "정신치료(인지행동치료)"
+        ]
+      }
+    }
+  ]
+}

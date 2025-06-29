@@ -1,0 +1,69 @@
+checklist:
+  topic_kr: "예방접종"
+  topic_en: "Vaccination"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "예방 접종력 확인"
+          subtitle_en: "Vaccination History"
+          details: |
+            - [ ] 과거 예방 접종 기록 확인 (국가예방접종정보시스템 활용) (Check past vaccination records using National Immunization Information System)
+            - [ ] 접종 시기 및 종류 확인 (Confirm date and type of vaccination)
+            - [ ] 접종 후 이상 반응 발생 여부 확인 (Check for any adverse reactions after vaccination)
+        - subtitle_kr: "알레르기 및 과거 병력"
+          subtitle_en: "Allergies and Past Medical History"
+          details: |
+            - [ ] 약물, 음식, 백신 성분 등 알레르기 병력 확인 (Check for allergies to medications, food, or vaccine components)
+            - [ ] 과거 아나필락시스, 면역 질환 병력 확인  (Check history of anaphylaxis or immune disorders)
+            - [ ] 만성 질환, 최근 질병, 수술, 입원력 확인 (Check for chronic diseases, recent illness, surgery, hospitalization)
+        - subtitle_kr: "현재 건강 상태"
+          subtitle_en: "Current Health Status"
+          details: |
+            - [ ] 발열, 급성 질환, 임신, 수유 여부 확인 (Check for fever, acute illness, pregnancy, or breastfeeding)
+            - [ ] 면역 억제제 복용 여부 확인 (Check for use of immunosuppressants)
+            - [ ] 현재 복용 중인 약물 확인 (Check current medications)
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "전반적인 상태 평가"
+          subtitle_en: "General Appearance"
+          details: |
+            - [ ] 활력 징후 측정 (Measure vital signs)
+            - [ ] 전반적인 건강 상태 관찰 (Observe general health status)
+        - subtitle_kr: "접종 부위 확인"
+          subtitle_en: "Inspection of Injection Site"
+          details: |
+            - [ ] 발적, 부종, 통증 여부 확인 (Check for redness, swelling, or pain)
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Vaccine-related adverse reactions"
+            - "Infection"
+            - "Allergic reaction"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Allergy testing (if indicated)"
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "예방 접종 후 주의사항"
+          subtitle_en: "Post-vaccination Precautions"
+          details: |
+            접종 부위 청결 유지, 통증 관리 (예: 냉찜질) (Maintain hygiene at the injection site and manage pain, such as applying a cold compress.)
+        - subtitle_kr: "이상 반응 발생 시 대처 방법"
+          subtitle_en: "Management of Adverse Reactions"
+          details: |
+             발열, 부종, 발진 등 경미한 증상 발생 시 대증 치료 안내 (Guide symptomatic treatment for mild symptoms such as fever, swelling, rash.)
+             심각한 알레르기 반응(호흡곤란, 어지러움 등) 발생 시 즉시 의료기관 방문 안내 (Instruct to visit a medical institution immediately if serious allergic reactions, such as difficulty breathing or dizziness, occur.)

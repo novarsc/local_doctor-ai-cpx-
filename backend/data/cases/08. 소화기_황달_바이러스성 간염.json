@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 27,
+        "gender": "남자"
+      },
+      "situation": "피로감과 황달 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "37.1℃"
+      },
+      "chiefComplaint": "몸이 너무 노랗고 피곤해요",
+      "history": {
+        "onset": "일주일 전",
+        "location": "전신",
+        "duration": "일주일째 지속",
+        "course": "처음에는 피로감만 있었으나, 3일 전부터 눈과 피부가 노랗게 변하기 시작함.",
+        "experience": "처음",
+        "character": "피부와 눈의 황달, 진한 노란색",
+        "associatedSymptoms": {
+          "general": "발열/오한(+/+, 3일 전부터), 피로감(+, 심함), 근육통(+), 체중 변화(-, 2kg 감소), 식욕 감소(-), 메스꺼움(+)",
+          "respiratory": "기침/가래(-/-)",
+          "gi": "메스꺼움/구토/변비/설사/혈변/흑색변/지방변/복통/소화불량/속쓰림 (+/-/+/+/-/-/-/-/-/-)",
+          "renal": "소변색 변화(+, 진한 갈색)"
+        },
+        "factors": "과음(+, 일주일 전 친구들과 과음), 굴 섭취(+, 일주일 전 횟집에서 굴을 섭취함), 여행(-)",
+        "pastHistory": {
+          "events": "수혈/문신(-/-), 성관계(+, 최근 파트너와 관계), 여행(-)",
+          "medical": "HTN/DM/Dyslipidemia(-/-/-), 간염/간염 보균자(-/-)",
+          "medications": "타이레놀(최근 감기 증상으로 복용)",
+          "social": "흡연(-), 음주(주 2~3회 소주 2병 정도), 직업(사무직), 스트레스(+)",
+          "family": "간질환(-) "
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 및 경결막 황달(+), 갑상샘/림프절(-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-), 간 약간 비대 의심",
+        "extremity": "Flapping tremor(-), Palmar erythema(-), Pitting edema(-)"
+      },
+      "patientQuestion": "이게 무슨 병인가요? 얼마나 심각한 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 바이러스성 간염",
+          "알코올성 간염",
+          "약물 유발 간 손상"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "간기능검사",
+          "간염 바이러스 표지자 검사",
+          "복부 초음파"
+        ],
+        "therapeutic": [
+          "수분 섭취 증가",
+          "충분한 휴식",
+          "금주",
+          "간 기능 보호제 처방"
+        ]
+      }
+    }
+  ]
+}

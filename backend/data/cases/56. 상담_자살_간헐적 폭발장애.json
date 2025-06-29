@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민준",
+        "age": 27,
+        "gender": "남자"
+      },
+      "situation": "27세 남자 김민준씨가 갑작스러운 분노 발작으로 인해 병원에 내원하였다. (분노 조절에 대한 평가와 치료 계획을 세우시오)",
+      "vitalSigns": {
+        "bloodPressure": "130/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "갑자기 화가 너무 많이 나서 참을 수가 없었어요.",
+      "suicideAssessment": {
+        "onset": null,
+        "location": null,
+        "ideation": null,
+        "plan": null,
+        "attempt": null
+      },
+      "psychiatricHistory": {
+        "premorbidPersonality": "어릴 적부터 성격이 급하고 참을성이 부족했으나, 최근 몇 달 동안 더욱 심해졌다.",
+        "relationships": {
+          "family": "부모님과는 사이가 좋으나, 형제들과는 갈등이 잦다.",
+          "peer": "친구들과는 평소에 잘 지내지만, 다툼이 발생하면 폭력적인 행동을 보일 때가 있다."
+        },
+        "depressionSymptoms": "우울/흥미 감소/식욕 감소/수면 변화/피로감(-/-//-//-), 자살/집중력/기억력 감소/무가치감/죄책감(-/-//-//-), 불면(-)",
+        "otherSymptoms": "환시/환청/조증/충동성(-/-/+), 분노 발작(+, 빈도: 주 2~3회, 지속 시간: 30분~1시간)"
+      },
+      "pastHistory": {
+        "social": "흡연(+, 하루 1갑), 음주(+, 주 3회, 소주 3병), 직업: 프로그래머"
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "skin": "피부 긴장도(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-)",
+        "extremity": "특이 소견 없음"
+      },
+      "patientQuestion": "이런 증상이 언제까지 갈까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "간헐적 폭발장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "정신과적 평가",
+          "뇌파 검사"
+        ],
+        "therapeutic": [
+          "인지행동치료",
+          "분노 조절 훈련",
+          "약물 치료 고려 (항정신병약물)"
+        ]
+      },
+      "specialNote": "최근 직장에서 스트레스를 많이 받고 있다고 함."
+    }
+  ]
+}

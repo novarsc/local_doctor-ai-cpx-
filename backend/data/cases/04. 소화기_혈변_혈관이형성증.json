@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "caseType": "실전 모의 증례 [하이브리드]",
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "갑작스러운 혈변으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "85회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "변을 보는데 피가 섞여 나와요.",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "직장",
+        "duration": "한 번",
+        "course": "갑자스럽게 발생",
+        "experience": "처음",
+        "character": "선홍색 혈변, 변기에 흥건할 정도의 양, 핏덩이 없음",
+        "associatedSymptoms": {
+          "gi": "복통(-), 설사(-), 변비(-), 구토(-), 구역(-), 식욕부진(-)"
+        },
+        "factors": "특별한 위험요인 없음",
+        "pastHistory": {
+          "events": "5년 전 건강검진 시 대장내시경 정상 소견",
+          "surgical": "없음",
+          "medical": "고혈압, 당뇨병",
+          "social": "흡연(과거력, 금연 10년), 음주(주 2회 소주 1병), 식사(규칙적)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "이상 없음",
+        "abdomen": "압통 없음, 방어긴장 없음, 청진 정상",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "심각한 질환일까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "혈관이형성증",
+          "대장게실 출혈",
+          "대장암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대장내시경",
+          "대변 잠혈 검사",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "수혈 (필요시)",
+          "대증요법"
+        ]
+      }
+    }
+  ]
+}

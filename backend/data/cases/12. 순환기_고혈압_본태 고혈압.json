@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 60,
+        "gender": "남자"
+      },
+      "situation": "혈압이 높아 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "165/95mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "혈압이 높다고 합니다.",
+      "history": {
+        "onset": "2주 전",
+        "duration": "2주 동안 지속",
+        "course": "점점 심해짐",
+        "character": "2주 전 건강검진에서 160/90mmHg, 어제 병원에서 170/100mmHg로 측정됨",
+        "associatedSymptoms": {
+          "general": "발열/오한/식은땀/체중 변화/피로/부종(-/-/-/-/-/-)",
+          "circulatory": "가슴 통증(-), 두근거림(-)",
+          "endocrine": "다음/다뇨/다갈(-/-/-), 식은땀/손떨림(-/-)",
+          "neuro": "두통(-), 어지럼(-), 시야 변화(-)"
+        },
+        "factors": "평소 짜게 먹고 운동을 거의 하지 않음, 스트레스 많음",
+        "pastHistory": {
+          "events": "고혈압 가족력 있음 (어머니)",
+          "medical": "DM/TB/HTN/간염/고지혈증(-/-/+/-)",
+          "medications": "없음",
+          "social": "술(+, 소주 1병/주, 주 2회), 담배(+, 30갑년), 직업(은퇴), 스트레스(심함)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 확인(현재 혈압 165/95mmHg)",
+        "heent": "안저검사(-), 갑상샘(-), 경정맥 울혈(-), 경동맥 잡음(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부대동맥류(-), 신혈관 잡음(-)",
+        "extremity": "오목 부종(-), 사지맥박 정상"
+      },
+      "patientQuestion": "어떻게 치료해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "본태 고혈압"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈압 재측정",
+          "혈액검사 (혈당, 콜레스테롤, 크레아티닌)",
+          "심전도"
+        ],
+        "therapeutic": [
+          "생활 습관 개선 (저염식, 금주, 금연, 규칙적인 운동)",
+          "항고혈압제 처방 고려"
+        ]
+      }
+    }
+  ]
+}

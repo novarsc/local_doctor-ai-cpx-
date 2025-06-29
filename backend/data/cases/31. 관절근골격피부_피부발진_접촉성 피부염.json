@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 38,
+        "gender": "남자"
+      },
+      "situation": "38세 남자 김민수씨가 손에 발진이 생겨 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "손에 빨갛게 부어올랐어요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "왼쪽 손바닥",
+        "duration": "3일째 지속",
+        "course": "처음에는 작은 발진이었는데 점점 퍼지고 부어올랐습니다.",
+        "experience": "처음",
+        "character": "[크기] 2cm 정도 [모양] 불규칙적인 모양\n[색] 붉은색, 부종(+)\n가려움(+), 통증(-), 따가움(+), 열감(-)",
+        "associatedSymptoms": {
+          "rheumatologic": "SLE/베체트/RA/관절통(-/-/-/-)",
+          "other": "새로운 세제 사용 시작(+), 음식/여행(-/-)"
+        },
+        "factors": "3일 전 새로 산 세제를 사용하기 시작했습니다.  사용 후 곧바로 증상이 나타났습니다.",
+        "pastHistory": {
+          "medical": "특이 병력 없음",
+          "medications": "복용하는 약물 없음",
+          "social": "흡연(-), 음주(주 2회 소주 1병), 직업: 요리사",
+          "other": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 안정적",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/+) (왼쪽 손바닥)",
+        "chest_abdomen": "심음/호흡음(정상), 압통(-), 팔다리/배/가슴 발진(-/-/-), 딱지/진물(-/-)",
+        "extremity": "왼쪽 손바닥에 붉고 부어오른 발진 관찰, 촉진 시 따가움 호소"
+      },
+      "patientQuestion": "이 세제 때문에 생긴 건가요?  얼마나 오래 치료받아야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "접촉성 피부염",
+          "알레르기 접촉 피부염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "첩포검사"
+        ],
+        "therapeutic": [
+          "새로운 세제 사용 중지",
+          "국소 스테로이드제 도포",
+          "항히스타민제 복용"
+        ]
+      }
+    }
+  ]
+}

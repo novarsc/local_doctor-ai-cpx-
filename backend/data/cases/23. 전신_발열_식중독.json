@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남성"
+      },
+      "situation": "30세 남성 김민수씨가 심한 설사와 구토 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "95회/분",
+        "respiration": "20회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "설사와 구토가 심해요.",
+      "history": {
+        "onset": "6시간 전",
+        "location": "복부",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "물처럼 묽은 설사와 심한 구토가 반복됨.  해열제 복용 X",
+        "associatedSymptoms": {
+          "general": "오한(+), 발열(+), 전신 권태감(+)",
+          "digestive": "구토(+, 5회 이상), 설사(+, 10회 이상, 수양성), 복통(+, 심한 복통)",
+          "other": "식욕부진(+), 두통(-)"
+        },
+        "factors": "어제 저녁 회식에서 회와 조개를 많이 먹음.",
+        "pastHistory": {
+          "social": "음주(+, 소주 3병), 흡연(-)",
+          "medical": "특이병력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "탈수 증상 약간 보임. 복부 압통(+)",
+        "heent": "특이 소견 없음",
+        "abdomen": "압통(+), 방사통(-), 복부 팽만(-), 청진시 장음 항진",
+        "extremity": "특이 소견 없음"
+      },
+      "patientQuestion": "언제쯤 괜찮아질까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "식중독"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "수액 치료",
+          "대증요법(진토제, 지사제)"
+        ]
+      }
+    }
+  ]
+}

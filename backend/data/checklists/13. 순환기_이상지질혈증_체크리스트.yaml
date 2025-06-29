@@ -1,0 +1,72 @@
+checklist:
+  topic_kr: "이상지질혈증"
+  topic_en: "Dyslipidemia"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [ ] 특별한 증상 없는 경우가 많음 (Often asymptomatic)
+            - [ ] 관련 증상 발생 시: 흉통, 호흡곤란, 복통, 다리 통증/저림 등 (Symptoms if present: chest pain, dyspnea, abdominal pain, leg pain/numbness)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [ ] 심혈관 질환 위험 요인: 고혈압, 당뇨병, 흡연, 비만, 가족력 등 (Cardiovascular risk factors: hypertension, diabetes, smoking, obesity, family history)
+            - [ ] 췌장염 의심 증상: 심한 복통, 오심, 구토 (Symptoms suggestive of pancreatitis: severe abdominal pain, nausea, vomiting)
+            - [ ] 기타: 황색종, 황색판종 (Others: xanthelasma, xanthoma)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [ ] 과거 심혈관 질환, 뇌혈관 질환 병력 (History of cardiovascular or cerebrovascular disease)
+            - [ ] 약물 복용력: 이뇨제, 스테로이드, 에스트로겐, 베타 차단제 등 (Medications: thiazides, glucocorticoids, estrogen, beta blockers)
+            - [ ] 생활 습관: 식습관, 운동량, 음주, 흡연 (Lifestyle: diet, exercise, alcohol consumption, smoking)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [ ] 활력 징후 측정: 혈압, 맥박, 호흡수, 체온 (Vital signs: blood pressure, pulse, respiratory rate, temperature)
+            - [ ] 심혈관계 진찰: 심음, 심잡음, 경동맥 청진 (Cardiovascular examination: heart sounds, murmurs, carotid auscultation)
+            - [ ] 복부 진찰: 압통, 장음 (Abdominal examination: tenderness, bowel sounds)
+            - [ ] 신경학적 진찰: 근력, 감각, 반사 (Neurological examination: motor strength, sensation, reflexes)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [ ] 황색종, 황색판종 확인 (Check for xanthelasma and xanthoma)
+            - [ ] 말초 혈관 진찰: 맥박 촉지 (Peripheral vascular examination: palpation of pulses)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Familial Hypercholesterolemia"
+            - "Familial Combined Hyperlipidemia"
+            - "Secondary Dyslipidemia (due to medications, other diseases)"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Lipid profile (Total cholesterol, LDL-C, HDL-C, Triglycerides)"
+                - "Fasting blood sugar"
+                - "Liver function tests"
+                - "Kidney function tests"
+                - "Thyroid function tests"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Carotid ultrasound (if indicated)"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "이상지질혈증의 원인, 위험성, 치료의 필요성 설명 (Explain the causes, risks, and necessity of treatment for dyslipidemia)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "흉통, 호흡곤란, 복통, 다리 통증/저림 발생 시 즉시 병원 방문 (Seek immediate medical attention if chest pain, dyspnea, abdominal pain, or leg pain/numbness occurs)"

@@ -1,0 +1,76 @@
+checklist:
+  topic_kr: "기억력 저하"
+  topic_en: "Memory Loss"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 기억력 저하는 언제부터 시작되었습니까? (When did the memory loss start?)
+            - 어떤 종류의 기억력 저하를 경험하고 있습니까? (What kind of memory loss are you experiencing?)
+            - 기억력 저하의 정도는 어느 정도입니까? (What is the severity of your memory loss?)
+            - 기억력 저하가 점진적인지 갑작스러운지 설명해주십시오. (Describe the onset of memory loss - gradual or sudden?)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 두통, 어지럼증, 언어 장애, 시력 변화 등 다른 증상이 있습니까? (Do you have other symptoms like headaches, dizziness, speech problems, or vision changes?)
+            - 일상생활에 어떤 어려움을 겪고 있습니까? (What difficulties are you experiencing in daily life?)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 과거에 머리 외상, 뇌졸중, 또는 신경계 질환을 앓은 적이 있습니까? (Do you have a history of head trauma, stroke, or neurological diseases?)
+            - 가족 중에 치매나 기타 기억력 저하 질환을 앓은 분이 있습니까? (Is there a family history of dementia or other memory-related disorders?)
+            - 현재 복용 중인 약물이 있습니까? (Are you currently taking any medications?)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 활력 징후 측정 (Vital signs measurement)
+            - 신경학적 검사 (Neurological examination)
+            - 정신 상태 검사 (Mental status examination)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 필요에 따라 추가적인 신경학적 검사 시행 (Further neurological tests as needed)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Alzheimer's Disease"
+            - "Vascular Dementia"
+            - "Parkinson's Disease Dementia"
+            - "Lewy Body Dementia"
+            - "Normal Pressure Hydrocephalus (NPH)"
+            - "Brain Tumor"
+            - "Metabolic Disorders"
+            - "Medication Side Effects"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Comprehensive Metabolic Panel (CMP)"
+                - "Thyroid Function Test (TFT)"
+                - "Vitamin B12 Level"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Brain MRI"
+                - "Brain CT"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "기억력 저하의 원인, 진단 과정, 치료법 및 예후에 대해 설명합니다. (Explain the causes, diagnostic process, treatment options, and prognosis of memory loss.)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "갑작스러운 의식 변화, 심한 두통, 발작, 언어 장애 악화 등의 증상이 나타나면 즉시 병원을 방문하도록 안내합니다. (Advise the patient to seek immediate medical attention if they experience sudden changes in consciousness, severe headaches, seizures, or worsening speech problems.)"

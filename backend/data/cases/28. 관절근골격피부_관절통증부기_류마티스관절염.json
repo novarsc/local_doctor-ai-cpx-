@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 48,
+        "gender": "남자"
+      },
+      "situation": "48세 남자 김민수씨가 손가락과 무릎 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "손가락과 무릎이 아파요.",
+      "history": {
+        "onset": "6개월 전",
+        "location": "양측 손가락의 PIP, MCP 관절, 양측 무릎 관절",
+        "duration": "지속적",
+        "course": "서서히 악화",
+        "character": "욱신거리는 통증과 뻣뻣함, NRS 6점, 조조강직(60분), 붓기(+), 발적(+), 압통(+), 열감(+)",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중변화(-), 발열(-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "피부발진(-), 광과민성(-)",
+          "infection": "최근 감염(-)",
+          "sjogren": "입마름(-), 눈마름(-)"
+        },
+        "factors": "날씨 변화에 따라 악화, 휴식 시 다소 호전, 진통제 복용 시 일시적 완화",
+        "pastHistory": {
+          "medical": "고혈압(+), 고지혈증(+)",
+          "trauma_surgery": "특이 사항 없음",
+          "medications": "고혈압약, 고지혈증약",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 2회 소주 1병)",
+          "family": "류마티스 관절염 가족력(-)",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적",
+        "heent": "특이 소견 없음",
+        "chest": "청진상 특이 소견 없음",
+        "extremity": "양측 손가락 PIP, MCP 관절 압통, 붓기, 발적, 열감(+, ++, +, +) 관찰, 활동범위 제한, 양측 무릎 관절 압통, 붓기, 발적, 열감(+, +, +, +) 관찰, 활동범위 제한"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "류마티스관절염",
+          "골관절염",
+          "반응성 관절염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "류마티스 인자 검사",
+          "항CCP 항체 검사",
+          "혈액검사(CRP, ESR)",
+          "손가락 및 무릎 X-ray",
+          "관절액 검사"
+        ],
+        "therapeutic": [
+          "NSAID(이부프로펜) 처방",
+          "DMARD(메토트렉세이트) 고려",
+          "물리치료",
+          "운동요법",
+          "생활습관 개선 상담"
+        ]
+      }
+    }
+  ]
+}

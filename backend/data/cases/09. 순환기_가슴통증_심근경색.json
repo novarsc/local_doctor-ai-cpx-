@@ -1,0 +1,75 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "가슴 통증으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "160/90mmHg",
+        "heartRate": "95회/분",
+        "respiration": "22회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "가슴이 너무 아파요",
+      "history": {
+        "onset": "3시간 전, 식사 중 갑자기 발생",
+        "location": "왼쪽 가슴 중앙",
+        "radiation": "왼쪽 팔과 어깨로 퍼짐",
+        "duration": "지속적으로 3시간째",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "쥐어짜는 듯한 심한 통증, NRS 9점",
+        "associatedSymptoms": {
+          "general": "발열/오한/식은땀(+/-/-/-/-)",
+          "gi": "오심/구토/복통(-/-/-)",
+          "circulatory": "두근거림/호흡곤란(+/+)",
+          "respiratory": "기침/가래/객혈/쌕쌕거림(-/-/-/-)",
+          "msk_skin": "피부 발진(-)",
+          "psych": "극심한 불안감(+)"
+        },
+        "factors": "악화: 운동, 움직임. 완화: 쉬면 약간 완화되나 사라지지 않음. 식사와는 무관.",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약, 스타틴",
+          "social": "흡연(30갑년), 음주(주 3회 소주 1병), 스트레스 많음, 직업: 은퇴",
+          "family": "부친: 심근경색"
+        }
+      },
+      "physicalExam": {
+        "general": "불안정한 상태, 창백함",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-), 경동맥 시/청(-/-)",
+        "chest": "심음 약함, 흉부 시/촉/타/청(-/-/-/-), 발진(-)",
+        "abdomen": "시/청/타/촉(-/-/-/-)",
+        "extremity": "맥박 약함, Pitting edema(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 심근경색",
+          "불안정형 협심증",
+          "폐색전증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "심근효소검사 (CK-MB, Troponin I)",
+          "심초음파",
+          "관상동맥조영술"
+        ],
+        "therapeutic": [
+          "산소요법",
+          "니트로글리세린 정맥주사",
+          "아스피린",
+          "클로피도그렐",
+          "베타차단제",
+          "ACE 저해제",
+          "통증 조절"
+        ]
+      }
+    }
+  ]
+}

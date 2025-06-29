@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "최순자",
+        "age": 68,
+        "gender": "여자"
+      },
+      "situation": "황달과 복통으로 내원하였다. ",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg ",
+        "heartRate": "72회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.8℃ "
+      },
+      "chiefComplaint": "배가 아프고 눈과 피부가 노래요 ",
+      "history": {
+        "onset": "2개월 전 ",
+        "location": "상복부 ",
+        "duration": "지속적, 점차 심해짐 ",
+        "course": "처음에는 가끔씩 통증이 있었으나 최근 몇 주 동안 지속적으로 통증이 느껴지고, 황달이 심해짐 ",
+        "character": "둔한 통증, 간헐적 심한 통증 ",
+        "associatedSymptoms": {
+          "general": "체중 5kg 감소, 피로감, 식욕부진 ",
+          "gi": "소화불량, 구토, 변비 ",
+          "hepatobiliary": "진한 소변, 창백한 대변, 황달 "
+        },
+        "aggravatingFactors": "기름진 음식 섭취 후 심해짐 ",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증 ",
+          "medications": "고혈압 약 복용 중 ",
+          "surgical": "없음 ",
+          "social": "과거 흡연, 현재 금연 10년차, 음주는 거의 하지 않음 "
+        }
+      },
+      "physicalExam": {
+        "general": "황달 소견(피부 및 공막 황색), 체중 감소 관찰 ",
+        "abdomen": "상복부 압통, 간 비대 의심 "
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "담도암",
+          "췌장암",
+          "담낭암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (간기능 검사, 암 표지자)",
+          "복부 초음파",
+          "복부 CT",
+          "ERCP (내시경적 역행성 담췌관 조영술)",
+          "MRCP (자기공명 담췌관 조영술)"
+        ],
+        "therapeutic": [
+          "통증 조절",
+          "황달 관리"
+        ]
+      }
+    }
+  ]
+}

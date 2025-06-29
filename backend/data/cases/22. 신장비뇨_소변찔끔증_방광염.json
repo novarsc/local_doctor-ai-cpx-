@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 김민지씨가 잦은 배뇨와 배뇨 시 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "소변 볼 때 아파요, 자주 화장실 가요",
+      "history": {
+        "onset": "2일 전",
+        "duration": "2일째 지속 중",
+        "course": "2일 전부터 소변을 자주 보고, 소변 볼 때 따끔거리는 통증이 나타났습니다. 점점 심해지는 양상입니다.",
+        "character": "소변 색깔은 탁하고, 냄새가 심합니다. 소변량은 평소보다 줄었습니다. 배뇨 시 작열감이 심합니다.",
+        "associatedSymptoms": {
+          "urinary": "빈뇨(+, 1시간에 2-3회), 절박뇨(+), 야간뇨(+, 2회), 배뇨통(+, 심한 작열감), 주저뇨(-), 요끊김(-), 잔뇨감(-), 혈뇨(-)",
+          "genitals": "외음부 가려움증(-), 분비물(-), 통증(-)",
+          "general": "발열(+, 37.2℃), 오한(+), 두통(-), 메스꺼움(-), 구토(-), 복통(-)",
+          "neurological": "두통/시야장애/보행장애/팔다리 힘 빠짐/말 어눌(-/-/-/-/-)"
+        },
+        "factors": "최근 성관계(+), 수분 섭취량 감소(-)",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "trauma_surgery": "특이 사항 없음",
+          "medications": "특이 사항 없음",
+          "social": "흡연(-), 음주(가끔 소주 1잔)",
+          "obgyn": "월경 주기 정상, 최근 생리 끝난 지 1주일, 피임방법 없음, 임신 가능성(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "열감 있음, 활력징후 안정적",
+        "heent": "결막 충혈(-), 구강 건조(-), 갑상샘/림프절(-/-)",
+        "abdomen": "복부 압통(-), 방광 촉진(-), CVA tenderness(-)",
+        "pelvic": "외음부 발적 없음, 압통 없음",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "빨리 낫고 싶어요. 어떻게 치료해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "방광염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사(세균 배양 및 항생제 감수성 검사)",
+          "소변 침사 검사"
+        ],
+        "therapeutic": [
+          "경구 항생제 처방",
+          "충분한 수분 섭취 권고",
+          "배뇨 시 통증 완화제 처방"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 65,
+        "gender": "여자"
+      },
+      "situation": "65세 여자 김민지씨가 소변을 너무 자주 본다고 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "소변을 너무 자주 봐요.",
+      "history": {
+        "onset": "서서히 시작",
+        "duration": "2년 정도",
+        "course": "점진적으로 증상 악화",
+        "character": "[횟수] 하루 10회 이상, 야간뇨 2회\n[양] 소변량은 정상, 잔뇨감 없음\n[성상] 색깔, 냄새, 거품 등 특이 소견 없음",
+        "associatedSymptoms": {
+          "general": "발열, 체중 감소, 피로(-, -, +)",
+          "urinary": "빈뇨, 절박뇨, 야간뇨, 배뇨통(+, +, +, -)",
+          "genitals": "외음부 가려움증, 분비물(-, -)"
+        },
+        "factors": "카페인 섭취(커피 2잔/일), 수분 섭취(1.5L/일), 스트레스(중등도)",
+        "pastHistory": {
+          "medical": "고혈압(10년 경력), 당뇨병(-)",
+          "medications": "고혈압약(로사르탄 50mg 1일 1회)",
+          "social": "흡연(-), 음주(가끔 소주 반병), 직업(은퇴)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈, 귀, 코, 목, 갑상선(-)",
+        "abdomen": "복부 촉진 시 통증 없음, 방광 촉진 불가, CVAT(-)",
+        "extremity": "부종 없음",
+        "genitals": "외음부 발적, 분비물 없음"
+      },
+      "patientQuestion": "이 증상이 심각한 질환일까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "생리적 빈뇨",
+          "과민성 방광"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사",
+          "요배양검사"
+        ],
+        "therapeutic": [
+          "수분 섭취 조절 교육",
+          "카페인 섭취 줄이기 권고",
+          "골반저 근육 운동 권고",
+          "필요시 항콜린제 처방 고려"
+        ]
+      }
+    }
+  ]
+}

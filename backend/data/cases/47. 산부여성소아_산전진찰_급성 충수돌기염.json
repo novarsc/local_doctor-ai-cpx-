@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 22,
+        "gender": "남자"
+      },
+      "situation": "오른쪽 하복부 통증을 주소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "8시간 전",
+        "location": "오른쪽 하복부",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "character": "날카로운 통증, 콕콕 찌르는 듯한 느낌",
+        "associatedSymptoms": {
+          "gastrointestinal": "오심(+), 구토(+), 식욕부진(+), 변비(+)"
+        },
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "surgical": "특이 사항 없음",
+          "allergies": "특이 사항 없음",
+          "medications": "복용 중인 약 없음",
+          "familyHistory": "특이 사항 없음",
+          "socialHistory": "흡연(-), 음주(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "열감 존재, 불안해 보임",
+        "abdomen": "오른쪽 하복부 압통 및 반발압통(+), McBurney point 압통(+), rebound tenderness(+), guarding(+)",
+        "bowelSounds": "감소",
+        "rectalExam": "오른쪽 하복부 압통 재현"
+      },
+      "patientQuestion": null,
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 충수돌기염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사 (CBC, CRP, ESR)",
+          "소변 검사",
+          "복부 초음파 검사",
+          "CT 검사"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "항생제 투여",
+          "충수절제술"
+        ]
+      }
+    }
+  ]
+}

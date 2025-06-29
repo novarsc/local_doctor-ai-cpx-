@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 60,
+        "gender": "남자"
+      },
+      "situation": "복통과 황달 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "배가 아프고 눈이 노래요",
+      "history": {
+        "onset": "2주 전",
+        "location": "상복부, 눈, 피부",
+        "duration": "2주 지속",
+        "course": "2주 전부터 상복부 불편감 시작, 1주 전부터 눈과 피부 황달 발생",
+        "experience": "처음",
+        "character": "상복부 둔통, 오른쪽 옆구리 통증, 진한 노란색 황달",
+        "associatedSymptoms": {
+          "general": "체중 감소(5kg, 3개월), 피로감(+), 식욕 감소(+)",
+          "gi": "오심(+), 구토(-), 변비(-), 설사(-), 흑색변(-), 혈변(-), 복통(+), 소화불량(+)",
+          "renal": "소변색 변화(+, 진한 갈색)",
+          "hepatobiliary": "가려움증(+)"
+        },
+        "factors": "알코올 섭취(과거 20년간 매일 소주 1병), B형 간염 보균력(+)",
+        "pastHistory": {
+          "events": "B형 간염 진단 20년 전, 간경변증 진단 5년 전",
+          "medical": "고혈압(+), 고지혈증(+), B형 간염(+), 간경변증(+)",
+          "medications": "고혈압약, 고지혈증약",
+          "social": "흡연(20갑년, 10년 전 금연), 음주(과거 매일 소주 1병, 최근 1개월 절주)",
+          "family": "간암 가족력(-)"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 및 피부 황달(+), 경부 림프절(-)",
+        "abdomen": "상복부 압통(+), 간 비대(+), 비장 비대(-), 복수(-),  Murphy sign(-)",
+        "extremity": "하지 부종(-), 거미 혈관종(-)"
+      },
+      "patientQuestion": "간암인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "간세포암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(간 기능 검사, 종양표지자 검사)",
+          "영상검사(복부 초음파, 복부 CT, 간 생검)"
+        ],
+        "therapeutic": [
+          "경과 관찰",
+          "항암 치료",
+          "간 이식"
+        ]
+      }
+    }
+  ]
+}

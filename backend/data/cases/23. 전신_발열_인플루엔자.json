@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남성"
+      },
+      "situation": "30세 남성 김민수씨가 고열과 기침으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "95회/분",
+        "respiration": "20회/분",
+        "temperature": "39.5℃"
+      },
+      "chiefComplaint": "열이 나고 기침이 심해요.",
+      "history": {
+        "onset": "2일 전",
+        "location": "전신",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "39.5℃ 고열, 마른 기침, 가래는 없음",
+        "associatedSymptoms": {
+          "general": "오한(+), 전신통증(+), 두통(+), 식욕부진(+), 피로감(+)",
+          "respiratory": "기침(+), 콧물(+), 인후통(+), 호흡곤란(-)",
+          "digestive": "구토(-), 설사(-), 복통(-)",
+          "urinary": "빈뇨(-), 배뇨통(-)",
+          "other": "근육통(+)"
+        },
+        "factors": "최근 감기 환자와 접촉(+), 해외여행(-)",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "social": "흡연(-), 음주(주 1회 소주 1병)",
+          "family": "가족 중 유사 증상 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "고열, 안절부절못함, 움츠린 자세",
+        "heent": "결막충혈(+), 인후부 발적(+), 비강 분비물(+)",
+        "chest": "호흡음 약간 거칠어짐",
+        "abdomen": "압통 없음",
+        "extremity": "피부 발진 없음"
+      },
+      "patientQuestion": "얼마나 더 아플까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "인플루엔자"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "인플루엔자 신속항원검사"
+        ],
+        "therapeutic": [
+          "충분한 수분 섭취",
+          "해열제",
+          "대증요법"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+checklist:
+  topic_kr: "떨림(Tremor)"
+  topic_en: "Tremor"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "떨림 증상 분석"
+          subtitle_en: "Tremor Characteristics"
+          details: |
+            - [떨림이 시작된 시기는 언제입니까? (When did the tremor start?)]
+            - [떨림의 빈도와 지속 시간은 어떻게 됩니까? (What is the frequency and duration of the tremor?)]
+            - [떨림의 강도는 어느 정도입니까? (What is the severity of the tremor?)]
+            - [떨림은 어떤 신체 부위에서 발생합니까? (Which body parts are affected by the tremor?)]
+            - [떨림은 특정 자세나 행동을 할 때 심해지거나 완화됩니까? (Does the tremor worsen or improve with certain postures or actions? 예: 휴식 시, 활동 시, 특정 자세 유지 시)]
+            - [떨림은 어떤 요인에 의해 악화되거나 호전됩니까? (What factors aggravate or alleviate the tremor? 예: 스트레스, 카페인, 약물, 알코올)]
+        - subtitle_kr: "동반 증상 및 과거력"
+          subtitle_en: "Associated Symptoms and Past Medical History"
+          details: |
+            - [다른 신경학적 증상이 있습니까? (e.g., weakness, numbness, stiffness, balance problems, speech difficulties) (다른 신경학적 증상이 있습니까? 예: 쇠약, 무감각, 경직, 균형 문제, 언어 장애)]
+            - [떨림 이외의 다른 증상이 있습니까? (Are there any other symptoms besides tremor? 예: 두통, 발열, 체중 감소)]
+            - [과거에 비슷한 증상을 경험한 적이 있습니까? (Have you experienced similar symptoms in the past?)]
+            - [만성 질환이나 복용 중인 약물이 있습니까? (Do you have any chronic medical conditions or are you taking any medications?)]
+            - [가족 중에 떨림이나 다른 신경학적 질환을 앓는 사람이 있습니까? (Is there a family history of tremor or other neurological disorders?)]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "신경학적 검사"
+          subtitle_en: "Neurological Examination"
+          details: |
+            - [떨림의 종류(resting, postural, kinetic, intention) 및 분포 관찰 (Observe the type and distribution of tremor (resting, postural, kinetic, intention))]
+            - [근긴장도 평가 (Assess muscle tone)]
+            - [운동 범위 및 근력 검사 (Evaluate range of motion and muscle strength)]
+            - [반사 검사 (Test reflexes)]
+            - [소뇌 기능 검사 (cerebellar function tests: finger-to-nose test, rapid alternating movements, heel-to-shin test) (소뇌 기능 검사 (손가락-코 검사, 빠른 교대 운동, 발꿈치-정강이 검사))]
+            - [보행 검사 (Assess gait)]
+            - [자세 및 균형 검사 (Romberg test) (자세 및 균형 검사 (롬버그 검사))]
+        - subtitle_kr: "전신 검진"
+          subtitle_en: "General Physical Examination"
+          details: |
+            - [활력징후 측정 (Measure vital signs)]
+            - [갑상선 검진 (Examine the thyroid gland)]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "감별 진단"
+          subtitle_en: "Differential Diagnoses"
+          diagnoses:
+            - "Essential Tremor"
+            - "Parkinson's Disease"
+            - "Multiple Sclerosis"
+            - "Drug-induced Tremor"
+            - "Physiological Tremor"
+            - "Dystonia"
+            - "Cerebellar Ataxia"
+        - subtitle_kr: "검사 계획"
+          subtitle_en: "Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Electrolyte Panel"
+                - "Thyroid Function Tests (TFTs)"
+                - "Liver Function Tests (LFTs)"
+                - "Renal Function Tests (RFTs)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging Studies"
+              tests:
+                - "Brain MRI (if indicated)"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "질환 설명 및 생활 습관 교정"
+          subtitle_en: "Disease Explanation and Lifestyle Modifications"
+          details: |
+            - 떨림의 원인과 증상에 대해 설명합니다.
+            - 카페인, 알코올, 스트레스와 같은 악화 요인을 피하도록 교육합니다.
+            - 규칙적인 운동과 충분한 수면을 권장합니다.
+            - 필요시 보조 기구 사용을 교육합니다.
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: |
+            - 갑작스러운 떨림 악화, 의식 변화, 언어 장애, 균형 장애, 시야 변화 등의 증상이 나타나면 즉시 의료진에게 연락하도록 안내합니다.

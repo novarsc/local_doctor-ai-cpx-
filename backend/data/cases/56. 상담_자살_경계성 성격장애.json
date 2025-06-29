@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "강민지",
+        "age": 22,
+        "gender": "여자"
+      },
+      "situation": "22세 여자 강민지씨가 불안정한 대인관계와 감정 조절 어려움으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "감정이 너무 왔다갔다하고, 사람들이랑 관계 맺기가 너무 힘들어요.",
+      "suicideAssessment": {
+        "onset": "최근 1년",
+        "location": null,
+        "ideation": {
+          "trigger": "잦은 이별과 직장에서의 갈등",
+          "frequency": "주 1~2회"
+        },
+        "plan": null,
+        "attempt": null
+      },
+      "psychiatricHistory": {
+        "premorbidPersonality": "어릴 적부터 감정 표현이 격했고, 타인의 기대에 민감하게 반응함. 학창 시절 친구 관계가 불안정했음.",
+        "relationships": {
+          "family": "부모님과의 관계는 좋지 않음.  잦은 다툼이 있었고, 부모님의 과도한 간섭을 받았다고 느낌.",
+          "peer": "친한 친구는 몇 명 있지만, 관계가 쉽게 깨짐.  깊은 관계를 유지하는데 어려움을 겪음."
+        },
+        "depressionSymptoms": "우울/흥미 감소/식욕 감소/수면 변화/피로감(+/-/-/+/+), 자살/집중력/기억력 감소/무가치감/죄책감(-/-/+/+), 불안감(+)",
+        "otherSymptoms": "환시/환청/조증/충동성(-/-/+) 특히 충동적인 행동을 자주 함"
+      },
+      "pastHistory": {
+        "social": "흡연(-), 음주(+, 주 2~3회), 직업: 파트타임 아르바이트"
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "skin": "피부 긴장도(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-)",
+        "extremity": "특이 소견 없음"
+      },
+      "patientQuestion": "제가 왜 이렇게 감정 기복이 심한가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "경계성 성격장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "MMPI-2-RF",
+          "경계선 성격장애 검사"
+        ],
+        "therapeutic": [
+          "정신치료(DBT)",
+          "약물치료(항불안제, 항우울제) 고려"
+        ]
+      },
+      "specialNote": "환자는 자신의 감정 변화와 대인관계 어려움에 대해 깊은 고민을 하고 있음. 치료에 대한 동기는 높은 편."
+    }
+  ]
+}

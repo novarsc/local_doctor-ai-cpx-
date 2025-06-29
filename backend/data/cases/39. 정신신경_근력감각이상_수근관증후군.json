@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 오른손 저림과 통증을 호소하며 내원하였다(현재 오후 2시).",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "오른손이 저리고 아파요",
+      "history": {
+        "onset": "3개월 전",
+        "location": "오른손 엄지, 검지, 중지",
+        "duration": "밤에 심하고 낮에는 가끔",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "저림, 통증, 밤에 심해져 잠을 설침",
+        "associatedSymptoms": "[전신] 발열(-), 체중변화(-), 피로(-) [신경계] 두통(-), 어지러움(-), 시야장애(-), 근력약화(-) [근골격계] 어깨 통증(-), 목 통증(-)",
+        "pastHistory": {
+          "medical": "고혈압(약 복용 중)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압약",
+          "social": "흡연(1갑/일), 음주(주 2회 소주 1병)",
+          "family": "고혈압 가족력 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "정상",
+        "neuro": "뇌신경 검사 정상, 근력 정상",
+        "extremity": "오른손 엄지, 검지, 중지에 감각 저하, Tinel's sign (+), Phalen's test (+) 손목의 압통 있음"
+      },
+      "patientQuestion": "일을 계속 할 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "수근관증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "근전도 검사",
+          "신경전도 검사"
+        ],
+        "therapeutic": [
+          "손목 보조기 착용",
+          "약물치료(소염진통제)",
+          "스테로이드 주사"
+        ]
+      }
+    }
+  ]
+}

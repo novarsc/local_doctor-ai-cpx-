@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 박철수씨가 최근 기억력 저하와 성격 변화로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기억력이 안 좋아지고 성격이 변했어요",
+      "history": {
+        "onset": "2년 전",
+        "duration": "2년",
+        "course": "서서히 악화",
+        "experience": "처음",
+        "character": "2년 전부터 기억력이 점차 감퇴하기 시작. 최근 기억력 감퇴가 두드러짐. 예전 일은 잘 기억하지만 최근 일은 잘 기억 못함.  예전에는 꼼꼼하고 차분했으나, 최근에는 짜증이 많아지고 충동적인 행동을 보임. 길을 잃는 일이 잦아짐.",
+        "location": "가족 동반 내원",
+        "associatedSymptoms": "[정신] 성격 변화(+, 짜증, 충동성 증가), 우울/불안/수면장애(-/-/-) [신경] 두통(-), 팔다리 힘 빠짐(-), 감각 이상(-),  [신체] 요실금(-), 보폭 감소(-), 식욕 변화(-)",
+        "factors": "고혈압, 당뇨병 병력",
+        "pastHistory": {
+          "medical": "고혈압(10년 경력), 당뇨병(5년 경력)",
+          "trauma_surgery": "특이 사항 없음",
+          "medications": "고혈압 약, 당뇨병 약 복용 중",
+          "social": "은퇴 후 집에서 주로 시간 보냄, 가족과의 관계는 양호함",
+          "family": "부모님: 고혈압, 당뇨병 병력 있었음"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 상승 소견",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "extremity": "부종(-), 근력/감각/반사 정상",
+        "other": "MMSE 19점"
+      },
+      "patientQuestion": "제가 치매인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "전두측두 치매",
+          "알츠하이머병",
+          "혈관성 치매"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 MRI",
+          "뇌 CT",
+          "신경심리검사"
+        ],
+        "therapeutic": [
+          "인지행동치료",
+          "가족 상담",
+          "약물치료 고려 (증상에 따라)"
+        ]
+      }
+    }
+  ]
+}

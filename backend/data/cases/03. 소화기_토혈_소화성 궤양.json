@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "최지혜",
+        "age": 50,
+        "gender": "여자"
+      },
+      "situation": "심한 복통과 함께 검붉은색 토혈로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "22회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "배가 너무 아프고 피를 토했어요.",
+      "history": {
+        "onset": "오늘 아침 8시부터",
+        "frequency": "3회",
+        "experience": "처음",
+        "character": "검붉은색, 소량의 피가 섞인 토사물, 거품(-), 음식물(+)",
+        "associatedSymptoms": {
+          "general": "오한(+), 발열(+), 식은땀(+)",
+          "gi": "심한 상복부 통증(+), 구토(+), 식욕부진(+), 혈변(-), 설사(-), 변비(-), 속쓰림(+, 몇 달 전부터)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "멍이 잘 듦(+), 코피(+)",
+          "dehydration": "어지럼증(+), 두근거림(+), 소변량 감소(+)"
+        },
+        "factors": "최근 스트레스 증가, 불규칙적인 식사, 진통제 복용(+, 두통 때문에)",
+        "pastHistory": {
+          "events": "위내시경 검사 5년 전(정상)",
+          "social": "흡연(-), 음주(간혹 소주 1병), 직업(주부), 식사(불규칙적, 인스턴트 음식 섭취 빈번), 운동(-) "
+        }
+      },
+      "physicalExam": {
+        "general": "빈혈 증상, 맥박 빠름, 혈압 저하",
+        "heent": "결막 창백(+)",
+        "abdomen": "상복부 압통(+), 반발압통(+), 방어긴장(+)",
+        "extremity": "말초 냉감(+)"
+      },
+      "patientQuestion": "제가 위암인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "소화성 궤양 출혈",
+          "위염",
+          "위암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "혈액 검사(CBC, 혈액 응고검사)",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "수액 공급",
+          "제산제",
+          "진통제",
+          "금식",
+          "내시경적 지혈"
+        ]
+      }
+    }
+  ]
+}

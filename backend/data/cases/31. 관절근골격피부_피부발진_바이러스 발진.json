@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김민수씨가 전신 발진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "37.1℃"
+      },
+      "chiefComplaint": "몸에 발진이 갑자기 많이 생겼어요.",
+      "history": {
+        "onset": "2일 전",
+        "location": "가슴에서 시작하여 전신으로 퍼짐",
+        "duration": "2일째 지속",
+        "course": "점점 증가하는 양상",
+        "experience": "처음",
+        "character": "[크기] 좁쌀 크기 [모양] 둥근 모양\n[색] 붉은색\n[개수] 매우 많음\n가려움(+), 통증(-), 따가움(-), 열감(+) ",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 두통(+), 근육통(+), 피로감(+)",
+          "respiratory": "기침(-), 인후통(-)",
+          "digestive": "식욕부진(-), 오심(-), 구토(-), 설사(-)",
+          "rheumatologic": "관절통(-)",
+          "other": "최근 여행력(-), 새로운 음식 섭취(-), 새로운 약물 복용(-), 알레르기 병력(-)"
+        },
+        "factors": "특별한 원인을 알 수 없음",
+        "pastHistory": {
+          "medical": "특이 질환 없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 2회 소량), 직업: 회사원",
+          "other": "건강검진 정상"
+        }
+      },
+      "physicalExam": {
+        "general": "전신에 걸쳐 좁쌀 크기의 붉은색 발진 다수 관찰됨.  압통(-)",
+        "heent": "결막 충혈(-), 인후 충혈(-), 경부 림프절 비대(-)",
+        "chest_abdomen": "심폐 청진 정상, 복부 촉진 정상",
+        "extremity": "말초부종(-)"
+      },
+      "patientQuestion": "이 발진은 어떤 병일까요? 얼마나 오래 갈까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "바이러스성 발진",
+          "약물 알레르기",
+          "알레르기성 접촉피부염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사 (CBC, CRP)",
+          "바이러스 감염 검사 (혈청학적 검사)",
+          "알레르기 검사 (필요시)"
+        ],
+        "therapeutic": [
+          "대증요법 (해열진통제, 항히스타민제)",
+          "수분 섭취 충분히 권고",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

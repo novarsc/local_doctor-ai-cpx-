@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 최근 소변 시 통증과 불편감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변 볼 때 따끔거리고 아파요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "요도",
+        "duration": "소변 볼 때마다 지속, 하루 6-7회 소변",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "소변 시 요도 끝에 따끔거림, 통증은 NRS 4점 정도, 소변 색깔이나 냄새는 특이 없음. 소변 줄기는 약간 가늘어진 느낌",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중감소(-/-/-)",
+          "urinary": "F/U/N/D(-/-/+/-) H/I/R/S(-/-/-/-)",
+          "genitals": "회음부 통증(+), 고환 통증(-), 분비물(-)"
+        },
+        "factors": "과도한 음주(주 3회 소주 2병), 야외 활동 감소, 스트레스 증가",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증 약물 복용 중",
+          "medications": "로사르탄, 아토르바스타틴",
+          "social": "흡연(1일 1갑, 20년), 음주(주 3회, 소주 2병), 커피(1일 3잔), 운동 부족, 스트레스 많음 직업: 회사원",
+          "family": "부친: 당뇨병"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "abdomen": "Suprapubic Td(-), CVAT(-), DRE: 전립선 약간 비대, 압통(+) ",
+        "extremity": "부종(-)",
+        "genitals": "외성기 발적, 종창 없음"
+      },
+      "patientQuestion": "이 병 오래 갈까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 전립선염",
+          "급성 전립선염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사",
+          "전립선 초음파",
+          "PSA 검사"
+        ],
+        "therapeutic": [
+          "항생제 치료",
+          "소염제 투여",
+          "수분 섭취 증가",
+          "알코올 섭취 제한",
+          "규칙적인 운동 권고"
+        ]
+      }
+    }
+  ]
+}

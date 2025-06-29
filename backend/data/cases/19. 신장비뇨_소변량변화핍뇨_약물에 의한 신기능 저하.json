@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "최수현",
+        "age": 72,
+        "gender": "여자"
+      },
+      "situation": "72세 여자 최수현씨가 소변량 감소와 함께 부종으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "160/95mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변이 잘 안 나오고, 다리가 부어요.",
+      "history": {
+        "onset": "일주일 전",
+        "course": "점진적으로 악화",
+        "experience": "처음",
+        "character": "소변량 감소, 하루 2~3회, 양 매우 적음, 거품/피(-/-), 소변 색깔 진해짐, 다리 부종은 3일 전부터 시작, 아침에 심함",
+        "associatedSymptoms": {
+          "general": "발열/오한(-/-), 피로(+, 심함), 체중 증가(+, 2kg)",
+          "digestive": "식욕부진(+), 메스꺼움(-), 구토(-), 설사(-)",
+          "circulatory": "두근거림(-), 어지러움(-), 호흡곤란(-)",
+          "renal_urinary": "절박뇨(-), 야간뇨(-), 배뇨통(-), 주저뇨(-), 혈뇨(-), 요끊김(-), 아랫배 힘(-), 잔뇨감(-), 아랫배 통증/옆구리 통증(-/-)",
+          "musculoskeletal_skin": "피부 가려움(-), 붓기(+, 다리)"
+        },
+        "factors": "물 섭취량 감소(+, 최근 식욕 감소로 인함), 심한 운동(-), 사우나(-), 최근 감기(-), 최근 과로(+, 손주 돌봄)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 고지혈증(-), 신장질환(-)",
+          "medications": "이뇨제(하루 1회, 2주 전부터 복용 시작), 고혈압약(꾸준히 복용)",
+          "social": "흡연(-), 음주(월 1회 소주 반병), 직업: 가정주부"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 다리 부종(+), 압박시 오목하게 들어감",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/+, 다리)",
+        "abdomen": "CVAT(-), 복부 촉진/치골 상부 촉진(-/-), DRE(-), 신동맥 잡음(-)",
+        "extremity": "Pitting edema(+, 양측 하지)"
+      },
+      "patientQuestion": "제 다리가 이렇게 부은 이유가 뭘까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "이뇨제에 의한 신기능 저하",
+          "심부전",
+          "만성 신부전"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(BUN, creatinine, 전해질, 소변검사)",
+          "소변검사",
+          "신장 초음파"
+        ],
+        "therapeutic": [
+          "이뇨제 일시 중단",
+          "수액 치료",
+          "혈압 조절"
+        ]
+      }
+    }
+  ]
+}

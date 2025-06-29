@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "속쓰림과 가슴앓이로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "속이 너무 쓰리고 가슴이 아파요.",
+      "history": {
+        "onset": "3개월 전부터",
+        "frequency": "주 2-3회",
+        "experience": "지속적",
+        "character": "심한 속쓰림, 가슴이 타는 듯한 느낌, 음식물 역류, 신물 올라옴",
+        "associatedSymptoms": {
+          "general": "체중 변화 없음",
+          "gi": "구역감(+), 구토(-), 설사(-), 변비(-), 복통(-)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "멍이 잘 듦(-)",
+          "dehydration": "어지럼증/두근거림/소변량 감소(-/-/-)"
+        },
+        "factors": "매운 음식 섭취, 야식, 스트레스, 커피 섭취",
+        "pastHistory": {
+          "events": "위내시경 검사 이력 없음",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 2회 소주 2병), 직업(회사원), 식사: 불규칙적, 인스턴트 음식 잦음, 운동(-) "
+        }
+      },
+      "physicalExam": {
+        "general": "일반적으로 건강해 보임",
+        "heent": "눈/입/림프절/비경(-/-/-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "이 병은 위험한가요? 어떻게 치료해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "역류성 식도염",
+          "위염",
+          "기능성 소화불량"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경 검사",
+          "헬리코박터 파일로리 검사"
+        ],
+        "therapeutic": [
+          "제산제 복용",
+          "H2 수용체 길항제 복용",
+          "PPI 복용",
+          "생활습관 교정(금주, 금연, 식습관 개선, 스트레스 관리)"
+        ]
+      }
+    }
+  ]
+}

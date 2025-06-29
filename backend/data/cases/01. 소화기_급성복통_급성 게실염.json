@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "심한 복통으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg ",
+        "heartRate": "90회/분 ",
+        "respiration": "18회/분 ",
+        "temperature": "38.2℃ "
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "어제 저녁부터",
+        "location": "좌측 하복부",
+        "duration": "지속적이며 점점 심해짐",
+        "course": "어제 저녁부터 시작된 복통이 점점 심해져서 잠을 잘 수 없을 정도이다. 오늘 아침에는 구토를 했다.",
+        "experience": "이전에도 비슷한 증상이 있었지만, 이번이 가장 심하다.",
+        "character": "칼로 찌르는 듯한 통증, NRS 8점",
+        "radiation": "없음",
+        "associatedSymptoms": {
+          "general": "오한과 발열이 있다. 며칠 전부터 변비가 있었다.",
+          "gi": "구토를 1회 했다. 식욕이 없다.  변비가 있다.",
+          "events": "최근 과도한 변비약 복용은 없다."
+        },
+        "aggravatingFactors": "움직일 때, 기침할 때",
+        "relievingFactors": "옆으로 누우면 약간 완화됨",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병 약 복용 중",
+          "medications": "고혈압 약, 당뇨병 약",
+          "social": "과거 흡연자(금연 10년), 음주는 거의 하지 않음",
+          "other": "최근 건강검진에서 대장 게실이 발견되었으나 증상은 없었음"
+        }
+      },
+      "physicalExam": {
+        "abdomen": "좌측 하복부에 심한 압통과 반발압통이 있다. 복부팽만이 약간 있다. 장음은 감소되어 있다."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 게실염",
+          "대장염",
+          "대장암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "복부 CT",
+          "혈액검사(CBC, CRP, LDH)",
+          "대장내시경 (상태 호전 후)"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "항생제",
+          "진통제",
+          "금식"
+        ]
+      }
+    }
+  ]
+}

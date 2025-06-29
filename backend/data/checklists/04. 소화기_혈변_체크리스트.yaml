@@ -1,0 +1,74 @@
+checklist:
+  topic_kr: "혈변"
+  topic_en: "Hematochezia"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [혈변의 양상 (선홍색, 검붉은색, 흑색 등) / Color of blood (bright red, maroon, black, etc.)]
+            - [혈변의 횟수 및 기간 / Frequency and duration of bleeding]
+            - [혈변과 동반된 증상 (복통, 설사, 변비, 구토 등) / Associated symptoms (abdominal pain, diarrhea, constipation, vomiting, etc.)]
+            - [배변 습관의 변화 / Changes in bowel habits]
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [어지럼 또는 실신 / Dizziness or syncope]
+            - [피로감 / Fatigue]
+            - [체중 감소 / Weight loss]
+            - [발열 / Fever]
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [소화기 질환 병력 (궤양, 염증성 장 질환 등) / History of gastrointestinal diseases (ulcer, inflammatory bowel disease, etc.)]
+            - [항응고제 복용력 / Use of anticoagulants]
+            - [가족력 (대장암 등) / Family history (colorectal cancer, etc.)]
+            - [음주 및 흡연력 / Alcohol and smoking history]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [복부 진찰 (압통, 반발통, 장음 등) / Abdominal examination (tenderness, rebound tenderness, bowel sounds, etc.)]
+            - [직장 수지 검사 / Digital rectal examination]
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [필요시 신경학적 진찰 / Neurological examination if necessary]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "[Anal fissure]"
+            - "[Hemorrhoids]"
+            - "[Diverticulosis]"
+            - "[Angiodysplasia]"
+            - "[Inflammatory bowel disease (IBD)]"
+            - "[Colorectal cancer]"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "[Complete blood count (CBC)]"
+                - "[Coagulation studies]"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "[Colonoscopy]"
+                - "[CT scan]"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "[혈변의 원인 및 검사 절차에 대한 설명 / Explanation of the causes of hematochezia and the examination procedure]"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "[지속적인 혈변, 심한 복통, 어지럼, 실신 등 응급 상황 발생 시 대처 방법 안내 / Instructions on how to deal with emergencies such as continuous bleeding, severe abdominal pain, dizziness, and syncope]"

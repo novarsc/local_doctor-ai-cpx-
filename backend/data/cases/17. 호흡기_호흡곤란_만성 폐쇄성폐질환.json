@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김철수씨가 숨이 차서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차요.",
+      "history": {
+        "onset": "1년 전",
+        "duration": "지속",
+        "course": "서서히 악화",
+        "experience": "처음",
+        "character": "평지 걷기 어려움, 계단 오르기 매우 힘듬, 가래 동반, 기침은 밤에 심함",
+        "associatedSymptoms": {
+          "general": "발열/피로/체중 변화(-/-/체중 감소 약 5kg)",
+          "respiratory": "흉통(-), 기침(+, 흰색 가래 동반), 가래(+, 흰색, 점액성), 쌕쌕거림(+)",
+          "psychiatric": "불안(+) , 우울감(+)"
+        },
+        "factors": "운동 시 악화, 추운 날씨 악화, 누우면 호흡 곤란 심해짐",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "trauma_surgery": "없음",
+          "medications": "고혈압약, 당뇨약",
+          "social": "흡연(+, 40갑년), 음주(+, 소주 1병/일), 운동(-)",
+          "family": "부친: 폐암으로 사망",
+          "obgyn": ""
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란, 체중 감소 소견 보임",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "chest": "흉부 시진: 호흡운동 감소, 촉진: 흉곽 확장 감소, 타진: 맑은 폐음, 청진: 폐저부에서 거친 숨소리 및 천명음",
+        "extremity": "곤봉지/청색증(-/-)"
+      },
+      "patientQuestion": "이 병은 완치될 수 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 폐쇄성폐질환 (COPD)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "폐기능검사",
+          "흉부 X-ray",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "기관지 확장제 처방",
+          "흡입 스테로이드 처방",
+          "금연 상담 및 교육",
+          "재활 운동 프로그램",
+          "산소 치료"
+        ]
+      }
+    }
+  ]
+}

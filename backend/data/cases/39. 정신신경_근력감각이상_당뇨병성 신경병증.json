@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김철수씨가 오른쪽 발 저림과 통증을 호소하며 내원하였다(현재 오후 2시).",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "오른쪽 발이 저리고 아파요",
+      "history": {
+        "onset": "2개월 전",
+        "location": "오른쪽 발, 특히 발가락",
+        "duration": "지속적",
+        "course": "점진적으로 악화",
+        "experience": "처음",
+        "character": "저림, 화끈거림, 따끔거림, 통증(밤에 심함)",
+        "associatedSymptoms": "[전신] 체중감소(-), 발열(-), 피로(+) [신경] 두통(-), 시야 흐림(-), 어지러움(-) [소화기] 변비(+), 설사(-) [비뇨기] 배뇨장애(-)",
+        "pastHistory": {
+          "medical": "당뇨병(20년), 고혈압(10년)",
+          "trauma_surgery": "없음",
+          "medications": "메트포르민, 글리벤클라마이드, 로사르탄",
+          "social": "흡연(20갑년, 금연 중), 음주(주 2회 소주 1병)",
+          "family": "부친 당뇨병"
+        }
+      },
+      "physicalExam": {
+        "general": "체중 감소 없음, 활력징후 안정",
+        "heent": "정상",
+        "neuro": "오른쪽 발 감각 저하, 통각 과민, 진동 감각 저하, 근력 약화 없음, 반사 정상",
+        "extremity": "오른쪽 발 피부 건조, 창백함 없음, 맥박 촉진 정상"
+      },
+      "patientQuestion": "발 저림이 더 심해지는 것을 어떻게 막을 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "당뇨병성 신경병증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈당 검사",
+          "HbA1c 검사",
+          "신경전도검사"
+        ],
+        "therapeutic": [
+          "혈당 조절 강화(식이요법, 운동, 약물 조절)",
+          "통증 조절(진통제, 항경련제)",
+          "신경병증 치료제(프레가발린, 두록세틴)"
+        ]
+      }
+    }
+  ]
+}

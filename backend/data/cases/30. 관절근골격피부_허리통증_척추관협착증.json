@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "72세 남자 김철수씨가 허리와 다리 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "허리랑 다리가 아파요",
+      "history": {
+        "onset": "6개월 전",
+        "location": "허리, 엉덩이, 오른쪽 종아리",
+        "duration": "간헐적, 악화 시 하루 종일",
+        "course": "서서히 심해짐",
+        "experience": "이전에도 비슷한 증상이 있었으나, 휴식 후 호전됨. 이번에는 휴식에도 호전이 없음.",
+        "character": "허리에는 뻐근한 통증, 엉덩이와 오른쪽 종아리에는 찌릿한 통증이 방사됨.  오래 서 있거나 걸으면 심해지고, 앉아서 쉬면 다소 완화됨.  NRS 평균 4점, 최대 7점",
+        "associatedSymptoms": {
+          "neurological": "오른쪽 다리 저림(+), 감각 저하(+), 근력 약화는 없음. 변실금/요실금(-/-)."
+        },
+        "factors": "오래 걷거나 서 있으면 악화, 앉아서 쉬면 완화. 계단 오르내리기 힘들어짐.",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(+, 하루 한 갑), 음주(+, 소주 반병/주 2회), 직업: 은퇴",
+          "obgyn": "N/A"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "정상",
+        "abdomen": "정상",
+        "extremity": "오른쪽 다리에 감각 저하, 압통(+), 근력 정상.  SLR test(+), straight leg raise test(+),  척추 전만/후만 없음.  허리 굴곡, 신전 운동 제한."
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "척추관협착증",
+          "추간판탈출증",
+          "요추 척추염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요추부 X-ray",
+          "요추부 MRI"
+        ],
+        "therapeutic": [
+          "진통제 처방",
+          "물리치료",
+          "보조기 착용 권고",
+          "증상 악화 시 수술 고려"
+        ]
+      }
+    }
+  ]
+}

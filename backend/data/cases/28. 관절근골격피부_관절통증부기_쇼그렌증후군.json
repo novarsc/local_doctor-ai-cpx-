@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 48,
+        "gender": "여자"
+      },
+      "situation": "48세 여자 김민지씨가 입마름과 눈마름 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.5℃"
+      },
+      "chiefComplaint": "입이 너무 마르고 눈도 자꾸 건조해요",
+      "history": {
+        "onset": "6개월 전",
+        "location": "입과 눈",
+        "duration": "지속적",
+        "course": "서서히 악화",
+        "character": "입안이 건조하고 끈적거리며, 음식을 삼키기 어려움. 눈은 뻑뻑하고 이물감이 느껴짐.  최근에는 입술이 갈라지고 눈꺼풀이 붓기도 함.",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(-/-/-/-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "관절통/근육통/피부 발진/구강 궤양(-/-/-/-)",
+          "infection": "잦은 감염/설사(-/-)",
+          "sjogren": "입마름/눈마름(+, 심각한 수준)/구강건조/안구건조(+, 일상생활에 지장 있음)"
+        },
+        "factors": "계절이나 날씨의 영향을 받는 것 같지는 않음. 스트레스는 평소 많이 받는 편임.",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-)",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "사무직 근무, 흡연(-), 음주(주 2회 소량)",
+          "family": "류마티스 관절염 병력(-)",
+          "obgyn": "폐경(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 안정적",
+        "heent": "결막 충혈(-), 눈물 분비 감소(+), 구강 점막 건조(+), 혀 갈라짐(+), 입술 갈라짐(+), 침 분비 감소(+), 갑상선 비대(-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "관절 부종/압통(-/-)"
+      },
+      "patientQuestion": "이 병은 완치가 될 수 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "쇼그렌증후군",
+          "자가면역질환",
+          "약물 부작용"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "쉬머 검사",
+          "침 분비량 검사",
+          "안과 검사 (안구 건조증 평가)",
+          "혈액 검사 (자가항체 검사, 염증 수치 검사)",
+          "립 바이옵시"
+        ],
+        "therapeutic": [
+          "인공 눈물 및 인공 타액제 처방",
+          "구강 관리 교육",
+          "증상 완화를 위한 약물 처방 (필요시)",
+          "정기적인 추적 관찰"
+        ]
+      }
+    }
+  ]
+}

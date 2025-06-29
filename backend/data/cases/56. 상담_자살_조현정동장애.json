@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민준",
+        "age": 22,
+        "gender": "남자"
+      },
+      "situation": "22세 남자 김민준씨가 최근 이상한 행동을 보이고, 잠을 잘 수 없다고 하여 어머니와 함께 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.5℃"
+      },
+      "chiefComplaint": "잠을 잘 수가 없고, 이상한 생각이 계속 들어요.",
+      "suicideAssessment": {
+        "onset": "2주 전",
+        "location": "집",
+        "ideation": {
+          "trigger": "대학 졸업 후 취업 실패",
+          "frequency": "가끔"
+        },
+        "plan": null,
+        "attempt": null
+      },
+      "psychiatricHistory": {
+        "premorbidPersonality": "내성적이고 조용한 성격이었으나, 최근 불안정해짐.",
+        "relationships": {
+          "family": "어머니와 단둘이 거주. 어머니와의 관계는 좋으나, 최근 갈등 증가.",
+          "peer": "친구들과의 관계는 소원해짐."
+        },
+        "depressionSymptoms": "우울/흥미 감소/식욕 감소/수면 변화/피로감(+/-/+/+/+), 자살/집중력/기억력 감소(-/-/+/+), 무가치감/죄책감(-/-), 불면(매일 2시간 미만, 잦은 각성)",
+        "otherSymptoms": "환시(-), 환청(+, 속삭이는 소리), 조증(-), 충동성(+, 물건을 부수거나 소리 지름)"
+      },
+      "pastHistory": {
+        "social": "흡연(-), 음주(-), 직업: 무직"
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "skin": "피부 긴장도(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-)",
+        "extremity": "특이 소견 없음"
+      },
+      "patientQuestion": "제가 괜찮아질 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "조현정동장애",
+          "주요 우울 장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "정신상태 평가",
+          "신경인지 검사"
+        ],
+        "therapeutic": [
+          "항정신병 약물 치료",
+          "정신치료"
+        ]
+      },
+      "specialNote": "환청 증상이 지속적으로 나타나고 있으며, 충동성이 높아 주의 깊은 관찰이 필요함."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "최지훈",
+        "age": 65,
+        "gender": "남자"
+      },
+      "situation": "갑작스러운 심한 복통으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "22회/분",
+        "temperature": "38.1℃"
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "1시간 전",
+        "location": "상복부",
+        "duration": "지속적",
+        "course": "갑자기 심한 통증이 시작되었다.",
+        "experience": "이전에 비슷한 경험은 없다.",
+        "character": "칼로 찌르는 듯한 심한 통증, NRS 10점.",
+        "radiation": "등으로 퍼지는 느낌.",
+        "associatedSymptoms": {
+          "general": "오한, 식은땀이 있다.",
+          "gi": "구토를 한 번 했다. 식욕 없다.  ",
+          "cv": "어지럽다."
+        },
+        "aggravatingFactors": "움직일 때 악화됨.",
+        "relievingFactors": "없음.",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병 진단받음.",
+          "medications": "고혈압약, 당뇨약 복용 중.",
+          "social": "흡연 30갑년, 과거 음주 많았으나 최근에는 줄임.",
+          "other": "위내시경 검사 받은 적 있음 (5년 전, 위궤양 진단 받음)."
+        }
+      },
+      "physicalExam": {
+        "abdomen": "복부 전체적으로 심한 압통과 반발압통이 있다. 복부 경직이 관찰된다. 청진 시 장음 감소."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "소화성 궤양 천공",
+          "급성 췌장염",
+          "장폐색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "복부 X-ray",
+          "복부 CT",
+          "혈액검사 (혈액 가스 분석, 혈액 검사)"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "진통제 투여",
+          "위관 삽입",
+          "항생제 투여",
+          "응급 수술 준비"
+        ]
+      }
+    }
+  ]
+}

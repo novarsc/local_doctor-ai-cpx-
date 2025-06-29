@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "가슴이 두근거리고 숨이 차서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "120회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "가슴이 두근거리고 숨이 차요.",
+      "history": {
+        "onset": "2시간 전부터",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "심장이 빠르게 뛰고, 규칙적이지 않음. 숨이 가쁘고 답답함. 흉통은 없음.",
+        "associatedSymptoms": {
+          "general": "발열/오한(-/-), 피로감(+), 어지러움(+)",
+          "circulatory": "하지 부종(+)",
+          "endocrine": "체중변화 없음"
+        },
+        "factors": "특별한 유발 요인 없음.  평소 고혈압 약 복용 중.",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 경력), 고지혈증(+), 흡연(+, 30갑년)",
+          "social": "은퇴 후 집에서 시간을 보냄. 가족력: 부친 심방세동 병력 있음.",
+          "family": "부친 심방세동 병력 있음."
+        }
+      },
+      "physicalExam": {
+        "heent": "특이 소견 없음",
+        "cardiovascular": "심첨부 박동 약화, 심음 불규칙적. 맥박 빠르고 불규칙적.",
+        "respiratory": "호흡곤란 증상 보임",
+        "extremity": "하지 부종(+)"
+      },
+      "patientQuestion": "심장에 큰 문제가 있는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "심방세동",
+          "심부전",
+          "폐색전증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "심초음파",
+          "흉부 X-ray",
+          "혈액검사(BNP, D-dimer)"
+        ],
+        "therapeutic": [
+          "항응고제 투여",
+          "심율동 전환",
+          "혈압 조절"
+        ]
+      }
+    }
+  ]
+}

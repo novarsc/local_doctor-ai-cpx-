@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김지수",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 김지수씨가 최근 극심한 피로감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "너무 피곤해요.",
+      "history": {
+        "onset": "2주 전",
+        "duration": "하루 종일 지속되는 피로감",
+        "course": "점차 심해짐",
+        "experience": "처음 경험하는 증상",
+        "character": "쉽게 지치고 피곤하며, 집중력 저하가 동반됨.  잠을 충분히 자도 개운하지 않음. 몸이 무겁고 나른한 느낌.",
+        "associatedSymptoms": {
+          "general": "두통(+, 측두부), 근육통(-), 관절통(-), 발열(-), 체중변화(-)",
+          "digestive": "식욕부진(+), 소화불량(-), 변비(-), 설사(-)",
+          "circulatory": "가슴 두근거림(-), 어지러움(-), 호흡곤란(-)",
+          "psychiatric": "불안감(+, 가끔), 우울감(-), 수면장애(-)",
+          "sleep": "수면시간 7시간, 수면의 질 양호, 수면장애 없음",
+          "endocrine": "갑상선 증상 없음"
+        },
+        "factors": "스트레스 증가(최근 업무량 증가), 휴식 시 다소 호전",
+        "pastHistory": {
+          "social": "직업: 사무직, 스트레스 증가(최근 프로젝트 진행 중), 흡연(-), 음주(월 1회 소주 1병)",
+          "obgyn": "월경주기 정상, 생리통 없음",
+          "other": "특이 병력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 정상, 체중 감소 없음, 탈수 소견 없음",
+        "heent": "결막, 공막 황색 없음, 갑상선 비대 없음, 경부 림프절 종대 없음",
+        "abdomen": "복부 압통 없음, 청진상 이상 없음",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "일과성 피로",
+          "스트레스 관련 피로"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CBC, 혈액화학검사)"
+        ],
+        "therapeutic": [
+          "충분한 수면 및 휴식 권고",
+          "스트레스 관리 상담 권고",
+          "필요시 비타민 B 복합제 처방"
+        ]
+      }
+    }
+  ]
+}

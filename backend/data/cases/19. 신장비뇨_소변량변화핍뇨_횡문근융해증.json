@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 40,
+        "gender": "남자"
+      },
+      "situation": "40세 남자 김철수씨가 심한 근육통과 짙은 색 소변으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "100회/분",
+        "respiration": "20회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "근육이 너무 아프고 소변 색깔이 이상해요",
+      "history": {
+        "onset": "3일 전",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "전신 근육통, 특히 허벅지와 종아리 통증 심함, 움직이기 어려울 정도, 소변량 감소, 색깔이 콜라색으로 진함, 혈뇨는 없음",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 피로감(+), 전신 권태감(+), 체중 변화(-)",
+          "digestive": "식욕부진(+), 메스꺼움(+), 구토(-), 설사(-)",
+          "circulatory": "두근거림(-), 어지러움(-), 호흡곤란(-)",
+          "renal_urinary": "소변량 감소(+), 빈뇨(-), 야뇨(-), 배뇨통(-), 혈뇨(-)",
+          "musculoskeletal_skin": "근육통(+, 심함), 근육 경직(+), 피부 발진(-), 부종(-)"
+        },
+        "factors": "격렬한 운동(+, 3일 전 마라톤 대회 참가), 과음(-), 약물 복용(-), 감염 증상(-)",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 신장 질환(-)",
+          "medications": "없음",
+          "social": "흡연(+, 하루 1갑), 음주(주 2회 소주 1병), 운동(주 3회 헬스)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감(+), 탈수 소견(-)",
+        "heent": "결막 충혈(-), 구강 건조(-), 림프절 종창(-)",
+        "abdomen": "압통(-), 방어긴장(-)",
+        "extremity": "근육 압통(+, 특히 허벅지와 종아리), 근육 경직(+), 부종(-)"
+      },
+      "patientQuestion": "제 상태가 어떻게 된 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "횡문근융해증",
+          "감염성 근육통",
+          "다발성 근염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (CK, LDH, BUN, Creatinine, Myoglobin)",
+          "소변검사 (소변 Myoglobin)",
+          "근전도 검사",
+          "근육 생검"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "진통제",
+          "근육 이완제",
+          "필요시 이뇨제"
+        ]
+      }
+    }
+  ]
+}

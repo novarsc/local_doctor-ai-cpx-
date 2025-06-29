@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김영희",
+        "age": 72,
+        "gender": "여자"
+      },
+      "situation": "72세 여자 김영희씨가 허리 통증을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "허리가 너무 아파요",
+      "history": {
+        "onset": "2주 전",
+        "location": "허리 중앙부",
+        "duration": "지속적 통증",
+        "course": "미끄러져 넘어진 후부터 심해짐",
+        "experience": "처음",
+        "character": "심한 압통과 욱신거리는 통증, NRS 7점, 기침이나 재채기시 통증 악화",
+        "associatedSymptoms": {
+          "neurological": "하지 방사통, 감각 저하, 근력 약화 없음"
+        },
+        "factors": "움직일 때 악화, 휴식 시 다소 완화, 특별한 자세에서 악화되는 것은 없음",
+        "pastHistory": {
+          "medical": "골다공증, 고혈압",
+          "trauma_surgery": "과거 골절 경험 없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연, 음주력 없음, 가사일 주로 함",
+          "obgyn": "폐경 15년"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "이상 없음",
+        "abdomen": "이상 없음",
+        "extremity": "요추부 압통 심함, 척추 만곡 변화 없음, 하지 근력 및 감각 정상, 슬관절 및 고관절 운동범위 정상,  SLR test 음성"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "요추 압박 골절",
+          "요추 염좌",
+          "척추 전이암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요추 척추 X-ray",
+          "요추 척추 CT",
+          "혈액검사 (혈구수, 혈청 칼슘, 알칼라인 포스파타제)"
+        ],
+        "therapeutic": [
+          "통증 조절을 위한 진통제 처방",
+          "보조기 착용 권고",
+          "골다공증 관리"
+        ]
+      }
+    }
+  ]
+}

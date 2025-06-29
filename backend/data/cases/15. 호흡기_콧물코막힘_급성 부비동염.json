@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "홍길동",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "심한 코막힘과 누런 콧물 때문에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "심한 코막힘과 누런 콧물",
+      "history": {
+        "onset": "5일 전",
+        "course": "점점 심해짐",
+        "character": "처음에는 맑은 콧물이었으나, 점차 누렇고 끈적끈적해짐, 코막힘 심함, 후각 저하(+), 두통(+, 이마)",
+        "associatedSymptoms": {
+          "general": "발열(+, 38℃까지 상승), 오한(+), 피로(+), 체중 변화(-)",
+          "neuro": "두통(+, 이마, 욱신거림), 안면통(-)",
+          "respiratory": "기침(-), 가래(-)",
+          "olfactory": "후각 저하(+)"
+        },
+        "factors": "특별한 요인 없음",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 알레르기(-)",
+          "social": "흡연(1일 1갑, 20년), 음주(주 3회, 소주 3병), 직업(택시 운전사), 스트레스(많음)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "비강 내 누런 농성 분비물 관찰, 비강 점막 부종 및 발적, 전두동 압통(+)"
+      },
+      "patientQuestion": "얼마나 더 아플까요? 어떤 치료를 받아야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 부비동염",
+          "급성 비염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "부비동 X-ray",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "항생제(Amoxicillin/Clavulanate)",
+          "해열 진통제(Acetaminophen)",
+          "비강 세척",
+          "충분한 수분 섭취"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "25세 남자 김민수씨가 불안감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "88회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "너무 불안해요.",
+      "history": {
+        "onset": "3일 전",
+        "experience": "처음",
+        "course": "점점 심해짐",
+        "location": "-",
+        "character": "가슴이 두근거리고 숨이 차며, 잠을 잘 수 없어요. 온몸이 떨리고 초조해요.",
+        "associatedSymptoms": "[순환기] 두근거림(+), 심계항진(+), 흉통(-) [호흡기] 호흡곤란(+), 숨가쁨(+) [정신] 불안(+), 초조(+), 불면(+), 집중력 저하(+), 과민성(+), 짜증(+) [소화기] 메스꺼움(-), 구토(-), 복통(-) [신경계] 어지러움(-), 손떨림(+), 발한(+) [기타] 피로감(+)",
+        "factors": "시험 기간이라 밤새도록 커피를 많이 마셨어요. 잠도 제대로 못 잤고요.",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "음주: 주 1회 소량, 흡연: 없음, 커피: 하루 5~6잔",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적, 불안감이 관찰됨",
+        "heent": "결막: 정상, 구강: 정상, 갑상선: 정상",
+        "chest": "심음: 규칙적, 호흡음: 청명함",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "시험을 잘 볼 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "카페인 과다 섭취에 의한 불안",
+          "불안장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사",
+          "심전도 검사"
+        ],
+        "therapeutic": [
+          "카페인 섭취 제한",
+          "수면 위생 개선",
+          "필요시 항불안제 처방"
+        ]
+      }
+    }
+  ]
+}

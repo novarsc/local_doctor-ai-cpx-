@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 28,
+        "gender": "여성"
+      },
+      "situation": "28세 여성 김민지씨가 잦은 배뇨와 배뇨통을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "소변 볼 때 너무 아파요.",
+      "history": {
+        "onset": "어제 저녁부터",
+        "location": "하복부, 특히 방광 부위",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "소변을 볼 때 타는 듯한 통증, 빈뇨, 야뇨",
+        "associatedSymptoms": {
+          "general": "전신 권태감(+)",
+          "urinary": "빈뇨(+, 1시간에 4~5회), 절박뇨(+), 배뇨통(+), 잔뇨감(+), 혈뇨(-)",
+          "pain": "하복부 통증(+)",
+          "other": "소변 색깔 변화(-), 오한(-)"
+        },
+        "factors": "성관계(+, 어제 있었음), 수분 섭취량 감소(+), 평소보다 스트레스 많음(+)",
+        "pastHistory": {
+          "social": "흡연(-), 음주(가끔 소주 1잔), 직업: 사무직",
+          "obgyn": "월경 규칙적, 최근 피임약 복용 중단"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "특이소견 없음",
+        "abdomen": "하복부 압통(+), 방광 압통(+), 반발통(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "빨리 낫고 싶어요. 어떻게 해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 방광염",
+          "요도염",
+          "간질성 방광염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요검사(소변 일반검사, 소변 배양검사)",
+          "혈액검사(CBC)"
+        ],
+        "therapeutic": [
+          "항생제(페니실린계열) 처방",
+          "수분 섭취 증가 권고",
+          "배뇨 후 요도 청결 권고",
+          "통증 조절을 위한 진통제 처방"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 68,
+        "gender": "여자"
+      },
+      "situation": "68세 여자 박민수씨가 며칠 전부터 생긴 피부 발진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "다리에 발진이 생겼어요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "오른쪽 종아리",
+        "duration": "3일째 지속",
+        "course": "처음에는 작은 반점이었는데, 지금은 5cm 정도로 커졌어요.",
+        "experience": "처음",
+        "character": "[크기] 5cm 정도 [모양] 불규칙적 [색] 붉은색\n가려움(+), 통증(-), 열감(-), 부종(+) 약간\n딱지/궤양/고름/비늘(-/-/-/-)",
+        "associatedSymptoms": {
+          "rheumatologic": "관절통(-)",
+          "other": "새로운 약 복용(+, 고혈압 약 2일 전부터 복용 시작), 새로운 음식(-), 여행(-)"
+        },
+        "factors": "새로 복용 시작한 고혈압 약과 관련이 있을 가능성이 있다고 생각함.",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약(2일 전부터 복용 시작)",
+          "social": "흡연(-), 음주(-), 직업: 주부(은퇴)",
+          "other": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "chest_abdomen": "[피부] 오른쪽 종아리에 5cm 크기의 불규칙적인 모양의 붉은 발진, 부종 약간 존재\n압통(-), 가려움(+), 열감(-)\n다른 부위 발진(-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이 약 때문에 발진이 생긴 건가요? 어떻게 치료해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "약진",
+          "접촉성 피부염",
+          "두드러기"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "피부 생검",
+          "패치 테스트"
+        ],
+        "therapeutic": [
+          "고혈압 약 중단",
+          "항히스타민제 처방",
+          "보습제 처방"
+        ]
+      }
+    }
+  ]
+}

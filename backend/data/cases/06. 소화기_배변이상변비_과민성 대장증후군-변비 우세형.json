@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 35,
+        "gender": "여자"
+      },
+      "situation": "변비 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.5℃"
+      },
+      "chiefComplaint": "변비가 너무 심해요.",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "일주일에 2회 미만",
+        "course": "점차 심해짐",
+        "experience": "어릴 때부터 가끔씩 있었지만, 최근 6개월 동안 심해짐",
+        "character": "힘주기(+), 변 딱딱함(+), 잔변감(+), 항문 막힘 느낌(-), 손으로 파낸 적 없음(-), 배변시간 길어짐(+), 피/통증 없음(-/-)",
+        "associatedSymptoms": {
+          "general": "체중 변화/피로감/부종(-/-/-)",
+          "gi": "식욕부진/오심/구토/설사/복통(-/-//-/+), 복부 팽만감(+)",
+          "endocrine": "추위/피부건조(-/-)",
+          "psych": "스트레스(+), 불안감(+)"
+        },
+        "pastHistory": {
+          "events": "특이사항 없음",
+          "medications": "변비약(단기간 복용, 효과 미미)",
+          "social": "음주(월 1회), 흡연(-), 커피(하루 1잔), 직업(사무직), 스트레스(업무 스트레스 많음), 식사(채소 섭취 부족, 인스턴트 식품 섭취 많음), 운동량 부족",
+          "family": "특이 병력 없음",
+          "obgyn": "월경 규칙적, 임신 가능성(-)"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이 소견 없음",
+        "abdomen": "복부 팽만감(+), 압통(-), 청진음 정상",
+        "extremity": "부종(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "기능성 변비",
+          "과민성 대장증후군-변비 우세형"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대장내시경",
+          "대장 통과 시간 검사"
+        ],
+        "therapeutic": [
+          "고섬유질 식사",
+          "충분한 수분 섭취",
+          "규칙적인 운동",
+          "스트레스 관리",
+          "대증 치료(변완화제)"
+        ]
+      }
+    }
+  ]
+}

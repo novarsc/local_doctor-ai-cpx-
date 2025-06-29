@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 65,
+        "gender": "남자"
+      },
+      "situation": "65세 남자 김민수씨가 2주 전부터 시작된 피부 자반으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "몸에 멍이 계속 생겨요",
+      "history": {
+        "onset": "2주 전",
+        "location": "양쪽 다리에서 시작하여 몸통으로 퍼짐",
+        "duration": "2주 지속",
+        "course": "점차 증가하는 경향",
+        "experience": "처음",
+        "character": "[색] 자주색\n[크기] 다양, 핀 포인트 크기부터 1cm까지\n[개수] 매우 많음\n압박시 소실, 통증/가려움 없음",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중변화(-)",
+          "digestive": "복통(-), 소화불량(-), 변비(-)",
+          "urinary": "혈뇨(-), 소변량 변화(-)",
+          "neurological": "두통(-), 어지러움(-)",
+          "endocrine": "다한증(-)",
+          "bleeding_tendency": "잇몸 출혈(+), 코피(+)"
+        },
+        "factors": "최근 여행 없음, 특별한 외상 없음",
+        "pastHistory": {
+          "medical": "고혈압(10년 경력), 당뇨병(-)",
+          "trauma_surgery": "무릎 수술(5년 전)",
+          "medications": "고혈압약 복용 중",
+          "social": "흡연 20갑년, 음주 가끔",
+          "family": "혈액 질환 가족력(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "전반적으로 건강해 보임, 활력징후 안정적",
+        "heent": "결막 창백(-), 경부 림프절 종대(-)",
+        "chest": "청진 소견 정상",
+        "abdomen": "부드러움, 압통(-), 간 비대(-)",
+        "extremity": "양측 다리에 다양한 크기의 자반 흔적 관찰, 압박 시 소실"
+      },
+      "patientQuestion": "이게 뭐가 문제일까요? 심각한 질병일까 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 특발성 혈소판 감소성자반증(ITP)",
+          "혈소판 감소증을 동반한 감염",
+          "약물 유발 혈소판 감소증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "CBC(전혈구 수치)",
+          "말초 혈액 도말 검사",
+          "혈소판 기능 검사",
+          "골수 검사(필요시)"
+        ],
+        "therapeutic": [
+          "경과 관찰",
+          "혈소판 수치에 따른 약물 치료(예: 코르티코스테로이드, 면역 억제제)"
+        ]
+      }
+    }
+  ]
+}

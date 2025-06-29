@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 58,
+        "gender": "남자"
+      },
+      "situation": "58세 남자 박철수씨가 어제 저녁부터 기억이 나지 않는다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "125/80mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "어제 저녁부터 기억이 안 나요.",
+      "history": {
+        "onset": "어제 저녁",
+        "duration": "약 12시간",
+        "course": "갑작스러운 발병",
+        "experience": "처음",
+        "character": "어제 저녁 퇴근 후부터 기억이 나지 않음. 아침에 일어나니 집에 있었고, 아내 말에 의하면 집에 무사히 들어왔다고 함.  평소 기억력에는 문제 없었음.  최근 스트레스는 없었으며, 특별한 외상도 없었음.",
+        "location": "병원 응급실",
+        "associatedSymptoms": "[정신] 성격 변화(-), 환청/환시(-/-), 우울/불안/수면장애(-/-/-) [신경] 두통(-), 팔다리 힘 빠짐(-), 감각 이상(-), 두통(-). 요실금/보폭 감소(-/-) [갑상샘] 저하증(-)",
+        "factors": "과도한 음주 없음. 최근 스트레스 요인 없음.",
+        "pastHistory": {
+          "medical": "고혈압(10년 전 진단, 약물복용 중), 고지혈증(5년 전 진단, 약물복용 중)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "흡연(1갑/일, 30년), 음주(주 2회 소량)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 정상",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "extremity": "Pitting edema(-), M/S/R 정상. Tandem gait 정상, CNS test 정상",
+        "other": "MMSE 28점"
+      },
+      "patientQuestion": "이게 왜 이렇게 된 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "일시적 전반적 기억상실",
+          "해리성 기억상실",
+          "일과성 허혈 발작"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "뇌 MRI",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "경과 관찰",
+          "필요시 약물 치료"
+        ]
+      }
+    }
+  ]
+}

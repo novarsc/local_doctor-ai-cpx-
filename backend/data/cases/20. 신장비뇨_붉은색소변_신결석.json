@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 박민수씨가 심한 우측 옆구리 통증으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "92회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "옆구리가 너무 아파요",
+      "history": {
+        "onset": "3시간 전",
+        "course": "점점 심해짐",
+        "experience": "처음 발생",
+        "character": "[통증의 위치] 우측 옆구리, [통증의 양상] 칼로 찌르는 듯한 심한 통증, [통증의 강도] 10점 만점에 9점, [방사통] 허벅지 안쪽으로 퍼짐, [소변] 소변을 볼 때 통증이 심해짐, [소변색] 붉은색 소변",
+        "associatedSymptoms": {
+          "general": "오한(+), 발열(+), 메스꺼움(+), 구토(-),  체중 변화(-)",
+          "digestive": "식욕부진(+)",
+          "renal_urinary": "빈뇨(+), 뇨의 탁도(+), 옆구리 통증(+)",
+          "other": "활동 제한(+)"
+        },
+        "factors": "최근 과도한 수분 섭취(-), 심한 운동(-), 감염 증상(-)",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증, 당뇨병(-,-,-)",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(+), 음주(+), 직업: 회사원",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정",
+        "heent": "이상 없음",
+        "abdomen": "우측 측복부 압통(+), 반발압통(+), 방어긴장(+)",
+        "extremity": "pitting edema(-)"
+      },
+      "patientQuestion": "어떻게 된 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "신결석",
+          "요로감염",
+          "신우신염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (CBC, CRP, BUN, Creatinine)",
+          "소변검사 (요검사, 요배양)",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "통증 조절 (진통제 투여)",
+          "수액요법",
+          "항생제 투여 (요배양 결과에 따라)"
+        ]
+      }
+    }
+  ]
+}

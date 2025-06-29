@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 박철수씨가 수면제 처방을 위해 내원하였다. 최근 수면제를 복용하지 못해 불면증과 불안감을 호소한다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "잠을 잘 수가 없어요. 너무 불안해요.",
+      "drugHistory": {
+        "drug": "졸피뎀",
+        "history": "10년 전부터 불면증으로 졸피뎀을 복용해왔으며, 최근 3개월 동안 복용량을 점차 늘려왔다.",
+        "currentUse": "매일 밤 10mg 복용, 최근에는 20mg까지 늘려 복용한 적도 있다.",
+        "prescriptionSource": "동네 의원에서 처방받았으나, 최근 처방이 중단되었다.",
+        "dependency": {
+          "quitAttempts": "몇 번 끊어보려고 시도했지만 불면증, 불안, 떨림 등 금단 증상으로 인해 실패했다.",
+          "tolerance": "효과가 줄어들어 복용량을 늘렸다.",
+          "withdrawal": "불면, 불안, 떨림, 식은땀"
+        },
+        "abuse": {
+          "interpersonalIssues": "약을 복용하지 못하면 가족과 다투는 일이 많아졌다."
+        }
+      },
+      "associatedSymptoms": "불면(+), 불안(+), 떨림(+), 식은땀(+), 두통(+), 오심(-), 구토(-)",
+      "pastHistory": {
+        "medical": "고혈압, 당뇨병",
+        "social": "흡연(20갑년), 음주(주 3회 소주 2병), 직업: 회사원(정년퇴직 후 실직)"
+      },
+      "physicalExam": {
+        "general": "불안해 보이는 상태, 떨림 관찰됨.",
+        "heent": "눈꺼풀 처짐(-), 결막 충혈(-)",
+        "chest": "심음과 호흡음 정상",
+        "abdomen": "압통(-)"
+      },
+      "patientQuestion": "약을 다시 처방받을 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "졸피뎀 금단"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사",
+          "심전도 검사"
+        ],
+        "therapeutic": [
+          "졸피뎀 감량 계획 수립",
+          "불면증 치료제 처방(단기간)",
+          "정신과 상담 권유"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이수진",
+        "age": 72,
+        "gender": "여자"
+      },
+      "situation": "어지럼증과 실신으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "45회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "어지럽고 쓰러질 것 같아요.",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "집에서",
+        "duration": "약 30초",
+        "experience": "최근 몇 달 동안 가끔씩 어지럼증을 느꼈고, 오늘 아침에는 갑자기 어지러워서 의자에 앉았다가 잠시 의식을 잃었다고 함. 과거에도 비슷한 경험이 있었으나 병원을 찾지 않았다고 함.",
+        "character": {
+          "preSyncope": "어지러움(+), 흐릿한 시야(+), 메스꺼움(-)",
+          "syncope": "의식 소실(+), 경련(-), 혀 깨문 흔적(-), 안구 편위(-)",
+          "postSyncope": "피로감(+), 근육통(-), 두통(-)"
+        },
+        "associatedSymptoms": {
+          "general": "발열/오한/피로/식은땀/체중변화(-/-/-/-/-)",
+          "circulatory": "두근거림(-), 호흡곤란(-)",
+          "gi": "설사/구토/혈변/흑색변/토혈(-/-/-/-/-)",
+          "respiratory": "가슴 통증(-)",
+          "renal": "다뇨/다음/다갈(-/-/-), 혈뇨(-)",
+          "neuro": "두통(-), 시야장애(-), 보행장애(-), 팔다리 힘 빠짐(-)",
+          "psych": "죽을 것 같은 공포감/불안(-/-)"
+        },
+        "factors": "특별한 악화 요인 없음, 오래 서 있을 때 증상이 심해지는 것 같다고 함."
+      },
+      "pastHistory": {
+        "surgical": "없음",
+        "medications": "고혈압 약 복용(Amlodipine 5mg 1일 1회)",
+        "social": "금주, 금연, 커피 하루 1잔.  최근 스트레스 증가(손주 양육)"
+      },
+      "physicalExam": {
+        "general": "V/S: stable,  피부 건조함 없음",
+        "heent": "결막/구강/손등 피부 긴장도 정상, 머리 시진/촉진 정상, 외상 없음. 뇌신경/EOM 정상, 경동맥 청진 정상",
+        "chest": "심음: 서맥, 심잡음 없음",
+        "extremity": "팔다리 근력/감각 정상, Pitting edema 없음"
+      },
+      "patientQuestion": "앞으로 어떻게 해야 할까요?  다시 쓰러질까 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "서맥",
+          "승모판 협착증",
+          "심방 세동"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도 검사",
+          "심초음파 검사",
+          "24시간 홀터 심전도 검사",
+          "갑상선 기능 검사"
+        ],
+        "therapeutic": [
+          "서맥 증상 조절 위한 약물 치료(아트로핀 등)",
+          "인공 심박동기 삽입술 고려"
+        ]
+      }
+    }
+  ]
+}

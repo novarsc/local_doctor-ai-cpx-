@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김민수씨가 전신에 퍼진 자반으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "몸에 멍이 많이 생겼어요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "다리에서 시작하여 전신으로 확산",
+        "duration": "2주간 지속",
+        "course": "점차 증가하는 경향",
+        "experience": "처음",
+        "character": "[색] 자주색\n[크기] 다양, 핀포인트부터 몇 cm까지\n[개수] 매우 많음\n가려움(-), 압통(-), 열감(-), 멍 자체는 단단하지 않고, 누르면 하얗게 변하지 않음",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중변화(-)",
+          "digestive": "복통(-), 소화불량(-), 변비(-)",
+          "urinary": "혈뇨(-), 배뇨통(-)",
+          "neurological": "두통(-), 어지러움(-), 시야장애(-)",
+          "endocrine": "다한증(-), 체중변화(-)",
+          "bleeding_tendency": "잇몸 출혈(+), 코피(+)"
+        },
+        "factors": "최근 특별한 외상 없음, 약물 복용 없음",
+        "pastHistory": {
+          "medical": "고혈압(10년 경력), 당뇨병(-)",
+          "trauma_surgery": "무릎 수술(5년 전)",
+          "medications": "고혈압 약 복용 중",
+          "social": "음주(소량, 매일), 흡연(과거력), 직업: 은퇴",
+          "family": "혈액 질환 가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "전신 자반 출현,  vital signs stable",
+        "heent": "결막 창백(-), 구강 점막 출혈(+), 림프절 비대(-)",
+        "chest": "심폐 청진 정상",
+        "abdomen": "복부 압통(-), 간 비대(-), 비장 비대(-)",
+        "extremity": "말초 부종(-), 압통(-)"
+      },
+      "patientQuestion": "이게 혹시 백혈병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "특발혈소판감소자색반병(ITP)",
+          "혈소판 감소증을 동반한 다른 질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사(CBC, 말초혈액 도말 검사, 혈소판 기능 검사)",
+          "골수 검사",
+          "자가면역 질환 검사"
+        ],
+        "therapeutic": [
+          "경과 관찰",
+          "필요시 코르티코스테로이드 치료",
+          "면역억제제 치료 고려"
+        ]
+      }
+    }
+  ]
+}

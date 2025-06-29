@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김영수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김영수씨가 발목 부종과 피로감으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "150/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "발목이 붓고 몸이 너무 피곤해요",
+      "history": {
+        "onset": "2개월 전",
+        "duration": "지속적",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "오후가 되면 발목 부종이 심해지고, 쉽게 피곤해져서 일상생활에 어려움을 느낌.  밤에는 잘 수면을 취하지만 아침에도 피곤함이 지속됨.",
+        "associatedSymptoms": {
+          "general": "체중 감소(-, 5kg), 식욕부진(+)",
+          "circulatory": "발목 부종(+, 양측), 저혈압(-), 어지러움(-)",
+          "digestive": "소화불량(+)",
+          "psychiatric": "우울감(+)",
+          "sleep": "수면장애(-)",
+          "endocrine": "갈증(-), 다뇨(-)"
+        },
+        "factors": "특별한 악화요인 없음.  휴식에도 증상 호전 없음.",
+        "pastHistory": {
+          "social": "퇴직 후 집에서 생활, 가족력: 당뇨병(아버지), 고혈압(어머니)",
+          "medical": "고혈압(10년 전부터 약물 복용), 고지혈증(5년 전부터 약물 복용)",
+          "other": "정기적인 건강검진은 받지 않음"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 150/90mmHg, 빈혈 소견 없음, 양측 발목 부종(+)",
+        "heent": "눈, 귀, 코, 목 정상",
+        "abdomen": "압통, 반발압통 없음",
+        "extremity": "양측 발목 부종(+), 피부색 변화 없음"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 신장 질환",
+          "심부전",
+          "간경변증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사(단백뇨, 혈뇨 검사)",
+          "혈액검사(creatinine, BUN, GFR)",
+          "심장 초음파",
+          "간 기능 검사"
+        ],
+        "therapeutic": [
+          "고혈압 관리 강화",
+          "저염식이 권고",
+          "수분 섭취 조절"
+        ]
+      }
+    }
+  ]
+}

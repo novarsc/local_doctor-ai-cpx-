@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "25세 남자 김민수씨가 극심한 불안감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "96회/분",
+        "respiration": "20회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "너무 불안하고 잠을 못 자겠어요.",
+      "history": {
+        "onset": "1주일 전",
+        "experience": "처음",
+        "course": "지속적으로 심해짐",
+        "location": "-",
+        "character": "일주일 전 강도를 만나 귀중품을 강탈당한 이후부터 밤에 잠을 잘 수 없고, 끊임없이 불안하고 초조함을 느낍니다.  강도를 마주했던 장소 근처를 지나갈 때면 심장이 빨리 뛰고 숨이 가빠집니다.",
+        "associatedSymptoms": "[정신] 불안(+), 초조함(+), 불면증(+), 악몽(+), 집중력 저하(+), 과민반응(+), 공포(+), 놀람(+), 긴장(+), 수면장애(+), 기억력 저하(-), 우울(-), 자살사고(-) [신체] 두통(+), 근육통(+), 소화불량(+), 식욕부진(+), 심계항진(+), 호흡곤란(+) [기타]  사고 이후 외출을 꺼리고 집에만 머물러 있습니다.",
+        "factors": "강도를 만난 사건",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "직장인, 흡연(+), 음주(-), 커피(+, 하루 2잔)",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "불안해 보이는 모습. 긴장된 자세.  말을 더듬거리며 이야기함.",
+        "heent": "특이 소견 없음",
+        "chest": "호흡음 clear, 심음 regular rhythm",
+        "extremity": "특이 소견 없음"
+      },
+      "patientQuestion": "이 불안감은 언제까지 지속될까요? 다시는 강도를 만나지 않을까 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 스트레스 장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "정신과적 평가",
+          "심리검사 (예: 불안 척도 검사)"
+        ],
+        "therapeutic": [
+          "심리치료 (예: 인지행동치료)",
+          "약물치료 (예: 항불안제, 필요시 항우울제)"
+        ]
+      }
+    }
+  ]
+}

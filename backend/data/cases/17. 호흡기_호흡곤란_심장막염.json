@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김철수씨가 가슴 통증과 호흡곤란으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "25회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "가슴이 답답하고 숨쉬기가 힘들어요",
+      "history": {
+        "onset": "2일 전",
+        "duration": "점진적으로 악화",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "가슴 중앙에 날카로운 통증, 숨을 쉴 때마다 심해짐, 눕거나 움직일 때 악화됨",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 피로감(+), 체중변화 없음",
+          "respiratory": "기침(-), 가래(-), 쌕쌕거림(-)",
+          "circulatory": "하지 부종(-)",
+          "psychiatric": "불안감(+)"
+        },
+        "factors": "눕거나 움직이면 악화, 앉아 있으면 다소 호전",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(+, 30갑년), 음주(+, 소주 1병/일)",
+          "family": "부친: 심장마비로 사망",
+          "obgyn": ""
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 불안해 보임",
+        "heent": "결막/구강(-/-)",
+        "chest": "심음: 빈맥, 심잡음(+), 폐음: 청진 정상",
+        "extremity": "말초 맥박 촉진 가능, 부종(-) "
+      },
+      "patientQuestion": "제가 심장병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "심장막염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도 검사",
+          "심초음파 검사",
+          "흉부 X-ray",
+          "혈액검사(염증 수치)"
+        ],
+        "therapeutic": [
+          "산소 공급",
+          "진통제 투여",
+          "항생제 투여(원인균 확인 후)",
+          "입원 치료"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 박민수씨가 극심한 우측 옆구리 통증과 혈뇨를 호소하며 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "옆구리가 너무 아파요. 소변에 피도 보여요.",
+      "history": {
+        "onset": "2시간 전",
+        "course": "점점 심해짐",
+        "experience": "처음 발생",
+        "character": "[양] 정확히 모르겠으나 소량, [색] 짙은 적색, 냄새(-), 거품(-), 소변량 감소(+), 통증과 동시에 시작됨",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 체중 변화(-), 탈수(-), 감기 증상(-), 근육통(-), 부종(-)",
+          "digestive": "구역/구토/어지럼증(-/-/-), 설사(-)",
+          "renal_urinary": "F/U/N/D/H/I/S(-/-/-/-/-/-/-), 옆구리 통증(+, 우측), 하복부 통증(-), 거품뇨(-)",
+          "other": "출혈 경향(-)"
+        },
+        "factors": "심한 운동(+, 등산), 사우나(-), 스트레스(+), 수분 섭취량 감소(+)",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증 진단받고 약물 복용 중",
+          "medications": "로사르탄, 아토르바스타틴",
+          "social": "음주(+, 맥주 1병/주), 흡연(-), 운동(등산 주 1회), 직업: 회사원, 식사: 불규칙적",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정, 통증 호소",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "abdomen": "CVAT(+, 우측), 복부 촉진(-), 치골 상부 촉진(-), DRE(-), 신동맥 잡음(-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이 통증이 언제까지 갈까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "요로결석",
+          "신우신염",
+          "요관암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "복부 단순촬영",
+          "복부 CT",
+          "소변검사",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "통증 조절(진통제 투여)",
+          "수분 공급",
+          "필요시 체외충격파쇄석술"
+        ]
+      }
+    }
+  ]
+}

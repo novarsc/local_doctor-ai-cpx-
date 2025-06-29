@@ -1,0 +1,82 @@
+checklist:
+  topic_kr: "황달"
+  topic_en: "Jaundice"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 황달의 시작 시기와 지속 기간 (Onset and duration of jaundice)
+            - 황달의 양상 변화 (Changes in the intensity of jaundice)
+            - 소변 및 대변 색깔 변화 (Changes in urine and stool color)
+            - 가려움증 유무 (Presence of itching)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 복통 (Abdominal pain) - 위치, 양상, 악화/완화 요인 (Location, character, aggravating/relieving factors)
+            - 발열 (Fever)
+            - 오한 (Chills)
+            - 식욕 부진 (Loss of appetite)
+            - 체중 감소 (Weight loss)
+            - 피로감 (Fatigue)
+            - 구토 (Nausea/Vomiting)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 간 질환 병력 (History of liver disease)
+            - 수혈 (Blood transfusion)
+            - 약물 복용력 (Medication history)
+            - 음주력 (Alcohol consumption)
+            - 여행력 (Travel history)
+            - 가족력 (Family history of liver disease)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 황달의 정도 확인 (Assessment of the degree of jaundice) - 눈의 공막, 피부 (Sclera, skin)
+            - 복부 진찰 (Abdominal examination) - 간 비대, 압통 (Hepatomegaly, tenderness)
+            - 복수 (Ascites)
+            - 생체 징후 측정 (Vital signs)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - Murphy's sign
+            - Shifting dullness (for ascites)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Pre-hepatic jaundice (Hemolytic anemia)"
+            - "Hepatic jaundice (Hepatitis, Cirrhosis)"
+            - "Post-hepatic jaundice (Gallstones, Pancreatic cancer)"
+            - "Gilbert's syndrome"
+            - "Crigler-Najjar syndrome"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Liver function tests (LFTs)"
+                - "Bilirubin (Total, direct, indirect)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Abdominal ultrasound"
+                - "CT scan"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "황달의 원인과 증상에 대한 설명, 진단 검사의 필요성, 치료 계획에 대한 설명"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "심한 복통, 발열, 의식 변화, 지속적인 구토 등의 증상 발생 시 즉시 의료진에게 연락하도록 교육"

@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "오른쪽 아랫배 통증으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg ",
+        "heartRate": "90회/분 ",
+        "respiration": "18회/분 ",
+        "temperature": "38.1℃ "
+      },
+      "chiefComplaint": "배가 아파요.",
+      "history": {
+        "onset": "12시간 전",
+        "location": "배꼽 주변에서 시작하여 오른쪽 아랫배로 이동",
+        "duration": "지속적인 통증, 점점 심해짐",
+        "course": "처음에는 뻐근한 통증이었으나 점점 심해져 견딜 수 없을 정도가 되었다.",
+        "experience": "처음 겪는 통증",
+        "character": "칼로 찌르는 듯한 통증, NRS 8점",
+        "radiation": "오른쪽 허벅지로 방사됨",
+        "associatedSymptoms": {
+          "general": "오한, 발열, 구토 1회",
+          "gi": "식욕부진, 메스꺼움",
+          "urology": "소변을 자주 본다."
+        },
+        "aggravatingFactors": "움직일 때, 기침할 때 악화",
+        "relievingFactors": "가만히 누워 있으면 다소 완화",
+        "pastHistory": {
+          "medical": "특이 병력 없음",
+          "medications": "없음",
+          "social": "흡연 5갑/년, 음주 주 2회(소주 2병)",
+          "other": "최근 과식을 한 적이 있다."
+        }
+      },
+      "physicalExam": {
+        "abdomen": "오른쪽 하복부에 심한 압통 및 반발압통. McBurney point 압통. Rovsing sign 양성. Psoas sign 음성. Obturator sign 음성."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 충수돌기염",
+          "난소 낭종 염전",
+          "장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "복부 초음파",
+          "혈액 검사 (CBC, CRP, ESR)",
+          "소변 검사"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "진통제",
+          "항생제"
+        ],
+        "surgical": [
+          "충수돌기 절제술 (필요시)"
+        ]
+      }
+    }
+  ]
+}

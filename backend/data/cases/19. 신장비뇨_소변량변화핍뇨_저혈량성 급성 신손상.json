@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "72세 남자 김민수씨가 소변량 감소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "100회/분",
+        "respiration": "20회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변이 잘 안 나와요.",
+      "history": {
+        "onset": "3일 전",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "소변량 감소, 하루 6회에서 2회로 감소, 소변 양은 매우 적음, 색깔은 진한 황색, 거품이나 피는 없음.",
+        "associatedSymptoms": {
+          "general": "피로감(+, 심함), 식욕부진(+), 체중 감소(2kg, 1주일 전부터), 발열/오한(-/-), 두통(-)",
+          "digestive": "구토/설사(-/-), 복통(-)",
+          "circulatory": "어지러움(+), 흉통(-), 호흡곤란(-)",
+          "renal_urinary": "배뇨통(-), 잔뇨감(-), 야뇨(-), 절박뇨(-)",
+          "musculoskeletal_skin": "근육통(-), 관절통(-), 부종(-)"
+        },
+        "factors": "최근 감기(-), 심한 운동(-), 과도한 음주(-), 최근 수술/외상(-), 약물 복용(고혈압 약, 매일 복용)",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전 진단), 당뇨병(-), 심혈관 질환(-), 신장 질환(-)",
+          "medications": "고혈압 약(암로디핀 5mg, 1일 1회)",
+          "social": "흡연(과거력, 20갑년), 음주(주 2회 소주 1병), 직업: 퇴직",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 저하, 빈맥, 점막 건조 소견",
+        "heent": "결막 창백(-), 경부 림프절(-)",
+        "abdomen": "압통(-), 청진음 정상",
+        "extremity": "말초 부종(-)"
+      },
+      "patientQuestion": "제가 왜 소변이 잘 안 나오는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "저혈량성 급성 신손상",
+          "사구체 신염",
+          "신우신염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(BUN, Cr, 전해질, 혈색소, 헤마토크릿)",
+          "소변검사(일반검사, 세디먼트, 배양검사)",
+          "신장 초음파"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "혈압 관리",
+          "원인 질환 치료"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 김민수씨가 갑작스러운 목 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "목이 갑자기 아파요",
+      "history": {
+        "onset": "어제 저녁",
+        "location": "뒷목 전체, 특히 오른쪽",
+        "duration": "밤새도록",
+        "course": "심해짐",
+        "experience": "처음",
+        "character": "[양상] 뻐근하고 쑤시는 통증, 움직이면 더 심해짐\n[강도] NRS 8점",
+        "associatedSymptoms": {
+          "general": "두통(-), 어지러움(-)",
+          "meningitis": "발열/오한/구토(-/-/-)"
+        },
+        "factors": "악화: 목을 돌리거나 숙일 때, 기침할 때",
+        "pastHistory": {
+          "medical": "고혈압(약물치료 중)",
+          "medications": "고혈압 약",
+          "social": "흡연 20갑년, 음주 주 2회",
+          "family": "특이 사항 없음",
+          "obgyn": "해당없음",
+          "other": "어제 무거운 물건을 들었다"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 정상",
+        "heent": "결막/공막 정상",
+        "extremity": "경추의 ROM 감소, 오른쪽 압통(+), Spurling test (+), Lhermitte sign (-)"
+      },
+      "patientQuestion": "얼마나 오래 아플까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "경추염좌",
+          "근육통",
+          "경추 추간판 탈출증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "경추 X-ray",
+          "경추 MRI"
+        ],
+        "therapeutic": [
+          "진통소염제",
+          "근육 이완제",
+          "물리치료"
+        ]
+      }
+    }
+  ]
+}

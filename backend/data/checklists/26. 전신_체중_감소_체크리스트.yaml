@@ -1,0 +1,88 @@
+checklist:
+  topic_kr: "체중 감소"
+  topic_en: "Weight Loss"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 체중 감소 기간 (Duration of weight loss): 얼마나 오랫동안 체중이 감소했는지? (How long has the weight loss been occurring?)
+            - 체중 감소 정도 (Amount of weight loss): 구체적으로 몇 kg이나 감소했는지? (How much weight has been lost specifically?)
+            - 의도적 체중 감소 여부 (Intentional or unintentional weight loss): 다이어트나 운동 등 의도적으로 체중을 감량하려고 했는지? (Was the weight loss intentional, such as through diet or exercise?)
+            - 식욕 변화 (Changes in appetite): 식욕이 증가했는지, 감소했는지, 변화가 없는지? (Has there been any change in appetite - increased, decreased, or no change?)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 발열 (Fever): 열이 나는지? (Any fever?)
+            - 오한 (Chills): 오한이 있는지? (Experiencing any chills?)
+            - 야간 발한 (Night sweats): 밤에 땀을 많이 흘리는지? (Experiencing night sweats?)
+            - 피로감 (Fatigue): 쉽게 피로를 느끼는지? (Experiencing fatigue or tiredness easily?)
+            - 소화기 증상 (Gastrointestinal symptoms): 복통, 설사, 변비, 구토 등의 증상이 있는지? (Any gastrointestinal symptoms such as abdominal pain, diarrhea, constipation, or vomiting?)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 만성 질환 (Chronic diseases): 당뇨병, 고혈압, 심장 질환 등 만성 질환 병력이 있는지? (Any history of chronic diseases like diabetes, hypertension, or heart disease?)
+            - 정신 질환 (Psychiatric history): 우울증, 불안 장애, 섭식 장애 등 정신 질환 병력이 있는지? (Any history of psychiatric conditions like depression, anxiety disorders, or eating disorders?)
+            - 약물 복용력 (Medication history): 현재 복용 중인 약물이 있는지? (Currently taking any medications?)
+            - 가족력 (Family history): 가족 중에 비슷한 증상을 경험한 사람이 있는지? (Any family history of similar symptoms?)
+
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 활력 징후 측정 (Vital signs): 혈압, 맥박, 호흡수, 체온 측정 (Measure blood pressure, pulse, respiratory rate, and temperature)
+            - 전반적인 외형 관찰 (General appearance): 환자의 전반적인 상태, 영양 상태, 정신 상태 관찰 (Observe the patient's general appearance, nutritional status, and mental status)
+            - 림프절 촉진 (Lymph node palpation): 경부, 액와, 서혜부 림프절 촉진 (Palpate cervical, axillary, and inguinal lymph nodes)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 복부 진찰 (Abdominal examination): 복부 촉진, 청진, 타진 (Abdominal palpation, auscultation, and percussion)
+            - 갑상선 진찰 (Thyroid examination): 갑상선 크기, 결절 유무 확인 (Check thyroid size and presence of nodules)
+            - 심장 및 폐 청진 (Cardiopulmonary auscultation): 심음 및 호흡음 청진 (Auscultate heart and lung sounds)
+
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Hyperthyroidism"
+            - "Hypothyroidism"
+            - "Diabetes Mellitus"
+            - "Gastrointestinal disorders (e.g., IBD, Malabsorption)"
+            - "Malignancy"
+            - "Psychiatric disorders (e.g., Anorexia Nervosa, Depression)"
+            - "Infections (e.g., HIV, Tuberculosis)"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Comprehensive Metabolic Panel (CMP)"
+                - "Thyroid function tests (TSH, Free T4)"
+                - "HbA1c"
+                - "ESR/CRP"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Chest X-ray"
+                - "Abdominal CT scan (if indicated)"
+
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "체중 감소의 원인과 진단 과정에 대해 설명하고, 추가 검사 결과에 따라 치료 계획을 수립할 것임을 안내합니다. 건강한 식습관과 규칙적인 운동의 중요성을 강조하고, 필요시 영양 상담을 권장합니다. (Explain the possible causes of weight loss and the diagnostic process. Inform the patient that a treatment plan will be established based on further test results. Emphasize the importance of a healthy diet and regular exercise. Recommend nutritional counseling if necessary.)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "고열, 심한 복통, 혈변, 흑색변, 지속적인 구토 등의 증상이 나타나면 즉시 병원을 방문하도록 안내합니다. (Instruct the patient to seek immediate medical attention if they experience symptoms such as high fever, severe abdominal pain, bloody stool, black stool, or persistent vomiting.)"

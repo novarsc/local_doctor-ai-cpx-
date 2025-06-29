@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김철수씨가 허리와 엉치 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "허리랑 엉치가 아파요.",
+      "history": {
+        "onset": "6개월 전",
+        "location": "허리 중앙부와 엉치뼈 부위",
+        "duration": "주로 아침에 심하고, 저녁에는 다소 완화됨",
+        "course": "점진적으로 악화됨.  초기에는 가끔씩만 아팠지만 최근 몇 주 동안은 매일 통증을 경험하고 있음.",
+        "experience": "처음 경험하는 증상임.",
+        "character": "뻐근하고 뻣뻣한 느낌의 통증.  아침에 일어날 때 특히 심하며, 움직이면 조금씩 나아짐.  NRS 4~6점 정도.",
+        "associatedSymptoms": {
+          "neurological": "하지 방사통(-),  하지 저림(-),  배뇨장애(-),  대변장애(-), 조조강직(+)"
+        },
+        "factors": "악화 요인: 오래 앉아 있거나,  추운 날씨,  장시간 운동. 완화 요인:  움직임,  온찜질",
+        "pastHistory": {
+          "medical": "고혈압 진단 받은 적 있음. 현재는 약 복용 안 함.",
+          "trauma_surgery": "특별한 외상이나 수술 경험 없음.",
+          "medications": "현재 복용 중인 약 없음.",
+          "social": "흡연(1일 1갑), 음주(주 2회 소주 1병)",
+          "family": "가족력 없음."
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적.  전반적인 상태 양호.",
+        "heent": "특이 소견 없음.",
+        "abdomen": "특이 소견 없음.",
+        "extremity": "요추부 압통(+).  요추 신전 시 통증 증가.  슬관절 및 고관절 운동 범위 제한 없음.  하지 신경학적 검사 정상."
+      },
+      "patientQuestion": "이게 뭐가 문제일까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "강직성 척추염",
+          "요추 척추관 협착증",
+          "섬유근육통"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "척추 X-ray",
+          "HLA-B27 검사",
+          "혈액검사 (CRP, ESR)"
+        ],
+        "therapeutic": [
+          "NSAID 처방",
+          "물리 치료",
+          "정기적인 운동 권장"
+        ]
+      }
+    }
+  ]
+}

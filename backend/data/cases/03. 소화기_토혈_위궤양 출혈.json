@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "최지원",
+        "age": 62,
+        "gender": "여자"
+      },
+      "situation": "오늘 아침 검붉은 색의 토혈로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "22회/분",
+        "temperature": "36.9℃"
+      },
+      "chiefComplaint": "아침에 피를 토했어요.",
+      "history": {
+        "onset": "오늘 아침 7시경",
+        "frequency": "1회",
+        "experience": "처음",
+        "character": "검붉은색, 혈덩이가 섞여 있었고, 양은 종이컵 반 정도 였습니다. 거품이나 음식물은 섞여있지 않았습니다.",
+        "associatedSymptoms": {
+          "general": "어지러움, 힘없음(+/+) ",
+          "gi": "속쓰림(+, 최근 몇 달간 지속), 복통(-), 혈변(-), 변비(-)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "멍이 잘 듦(+), 코피(+)",
+          "dehydration": "갈증(+), 소변량 감소(+)"
+        },
+        "factors": "특별한 위험요인은 없으나, 최근 스트레스가 심했습니다.",
+        "pastHistory": {
+          "events": "10년 전 건강검진에서 위염 진단 받음. 그 이후 특별한 검사는 없었음.",
+          "social": "흡연(-), 음주(소주 반병/주 1회), 직업(주부), 식사(불규칙적, 맵고 짠 음식 선호), 운동(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 저하, 빈맥, 창백한 피부",
+        "heent": "결막 창백(+), 입술 건조(+)",
+        "abdomen": "복부 압통(+), 방어긴장(-)",
+        "extremity": "말초 냉감(-), 부종(-)"
+      },
+      "patientQuestion": "위암이 아닐까 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "위궤양 출혈",
+          "미란성 위염",
+          "위암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "혈액검사(CBC, 혈액형, 응고검사)",
+          "혈액검사(간기능 검사)"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "혈압 모니터링",
+          "내시경적 지혈술(필요시)",
+          "제산제 투여",
+          "금식"
+        ]
+      }
+    }
+  ]
+}

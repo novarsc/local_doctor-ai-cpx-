@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "2달째 지속되는 기침과 가래로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기침과 가래가 계속돼요",
+      "history": {
+        "onset": "2달 전",
+        "duration": "하루 종일",
+        "course": "지속적, 점차 악화",
+        "experience": "이전에도 비슷한 증상 있었음",
+        "character": "끈적끈적한 황색 가래 동반 기침",
+        "associatedSymptoms": {
+          "respiratory": "가래(+, 황색, 점액성), 객혈(-), 흉통(-), 호흡곤란(+, 계단 오르내릴 때), 쌕쌕거림(-)",
+          "general": "피로감(+), 체중변화(-, 3kg 감소)",
+          "gi": "소화불량(-)"
+        },
+        "factors": "흡연 후 악화, 아침에 기침 심함, 추운 날씨에 악화",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전 진단), 당뇨병(-), 폐렴(+, 5년 전)",
+          "social": "흡연(40갑년, 하루 1.5갑), 음주(주 3회, 소주 2병)",
+          "family": "부친 만성 기관지염"
+        }
+      },
+      "physicalExam": {
+        "heent": "구강 내 이상 소견 없음",
+        "chest": "호흡음 감소(양측 폐 기저부), 잡음(-), 흉곽 확장 제한(+)"
+      },
+      "patientQuestion": "이 기침은 언제까지 계속될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 기관지염",
+          "COPD"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "폐기능 검사(FEV1/FVC 비율 측정)",
+          "혈액 검사(혈액가스 분석)"
+        ],
+        "therapeutic": [
+          "기관지 확장제(Salmeterol/Fluticasone)",
+          "진해거담제",
+          "금연 상담",
+          "폐 재활 프로그램"
+        ]
+      }
+    }
+  ]
+}

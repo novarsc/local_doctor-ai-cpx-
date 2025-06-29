@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "2개월째 지속되는 기침과 객혈로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기침과 피섞인 가래가 나와요",
+      "history": {
+        "onset": "2개월 전",
+        "duration": "주로 저녁",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "마른기침과 가끔 피섞인 가래",
+        "associatedSymptoms": {
+          "respiratory": "가래(+, 간헐적으로 피섞임), 객혈(+, 소량), 호흡곤련(+, 운동 시), 흉통(+, 욱신거림)",
+          "general": "체중 감소(+, 5kg), 피로(+), 식욕부진(+)",
+          "gi": "속쓰림(-), 신물(-)"
+        },
+        "factors": "흡연 후 악화",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전 진단), 고지혈증(+)",
+          "social": "흡연(하루 1.5갑씩 40년), 음주(주 2회, 소주 3병), 직업(은퇴)",
+          "family": "부친 폐암"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이소견 없음",
+        "chest": "호흡음 감소(우측 상엽), 수포음(-), 마찰음(-)"
+      },
+      "patientQuestion": "혹시 폐암인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐암",
+          "폐결핵",
+          "폐렴"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "흉부 CT",
+          "객담 세포진 검사",
+          "PET-CT",
+          "기관지경 검사"
+        ],
+        "therapeutic": [
+          "항생제(경험적 치료)"
+        ]
+      }
+    }
+  ]
+}

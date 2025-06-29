@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김철수씨가 허리 통증과 오른쪽 다리 저림으로 내원하였다(현재 오후 2시).",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "허리 아프고 다리 저려요",
+      "history": {
+        "onset": "3일 전",
+        "location": "허리, 오른쪽 다리(허벅지, 종아리)",
+        "duration": "3일째 지속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "허리 통증은 뻐근하고 쑤시는 통증이며, 오른쪽 다리는 저리고 당기는 듯한 통증.  앉거나 서 있으면 통증이 심해지고 누워 있으면 다소 완화됨.",
+        "associatedSymptoms": "[전신] 발열(-), 체중 변화(-), 소화불량(-) [신경] 두통(-), 어지러움(-), 팔 저림(-) [근골격] 목 통증(-), 어깨 통증(-)",
+        "pastHistory": {
+          "medical": "고혈압(약 복용 중), 고지혈증(약 복용 중)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "흡연(1갑/일), 음주(주 2회 소주 2병)",
+          "family": "부모님 모두 고혈압 병력 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "neuro": "오른쪽 다리의 감각 저하(Lasegue's sign 양성), 근력 저하(미약함), 족저 반사 저하. 왼쪽 다리는 정상.",
+        "musculoskeletal": "요추부 압통, 척추의 측만 없음.  오른쪽 다리의 움직임 제한."
+      },
+      "patientQuestion": "이게 뭐 때문에 이렇게 된 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "추간판탈출증",
+          "요추 척추관 협착증",
+          "요통"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요추부 X-ray",
+          "요추부 MRI"
+        ],
+        "therapeutic": [
+          "진통소염제 처방",
+          "물리치료",
+          "근육이완제 처방",
+          "운동 요법 교육"
+        ]
+      }
+    }
+  ]
+}

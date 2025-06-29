@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 10,
+      "patientProfile": {
+        "name": "최지훈",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 최지훈씨가 2주째 지속되는 기침과 가래로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "2주째 기침과 가래가 심해요",
+      "history": {
+        "onset": "2주 전",
+        "location": "가슴",
+        "duration": "2주 지속",
+        "course": "점차 심해짐",
+        "experience": "매년 겨울마다 비슷한 증상 경험",
+        "character": "마른 기침, 끈적끈적한 누런색 가래, 가래에 피는 없음",
+        "associatedSymptoms": {
+          "general": "열/오한/피로(+/+/+)",
+          "respiratory": "가슴 통증(-), 호흡곤란(-), 숨 찰 때(-)",
+          "other": "콧물(-), 인후통(-)"
+        },
+        "factors": "최근 감기 유행, 흡연(30갑년)",
+        "pastHistory": {
+          "medical": "고혈압(+), 고지혈증(+) ",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(+, 하루 1갑×30년), 음주(주 2회 소주 1병)",
+          "family": "폐 질환 병력(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "열감 존재, 호흡 시 약간의 흉부 거친 숨소리",
+        "heent": "결막/공막(-/-), 인두 충혈(+)",
+        "chest": "흉부 청진 시 잡음(+)",
+        "extremity": "청색증/곤봉지(-/-)"
+      },
+      "patientQuestion": "폐렴은 아닌가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 기관지염",
+          "만성 기관지염의 급성 악화",
+          "폐렴"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "기침약",
+          "가래약",
+          "충분한 수분 섭취",
+          "금연 상담"
+        ]
+      }
+    }
+  ]
+}
