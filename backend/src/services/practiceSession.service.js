@@ -14,32 +14,49 @@ const { setChatHistory, getChatHistory, hasSession, updateChatHistory } = requir
 
 const startPracticeSession = async (sessionData, userId) => {
     const { scenarioId, selectedAiPersonalityId, practiceMode } = sessionData;
-    await PracticeSession.update(
-      { status: 'abandoned', endTime: new Date() },
-      { where: { userId: userId, status: 'started' } }
-    );
-    const scenario = await Scenario.findByPk(scenarioId);
-    if (!scenario) throw new ApiError(404, 'S001_SCENARIO_NOT_FOUND', 'Scenario not found.');
-    const personalityId = selectedAiPersonalityId || scenario.defaultAiPersonalityId;
-    const personality = await AIPatientPersonality.findByPk(personalityId);
-    if (!personality) throw new ApiError(404, 'P005_PERSONALITY_NOT_FOUND', 'AI personality not found.');
-    const { history, aiPatientInitialInteraction } = await aiService.initializeChat(scenario, personality);
-    const newSession = await PracticeSession.create({
-      userId,
-      scenarioId,
-      selectedAiPersonalityId: personality.personalityId,
-      practiceMode,
-      status: 'started',
+    
+    // 트랜잭션 사용하여 세션 상태 변경과 생성을 원자적으로 처리
+    const { sequelize } = require('../models');
+    
+    return await sequelize.transaction(async (transaction) => {
+        // 기존 시작된 세션들을 abandoned로 변경 (트랜잭션 내에서)
+        await PracticeSession.update(
+            { status: 'abandoned', endTime: new Date() },
+            { 
+                where: { userId: userId, status: 'started' },
+                transaction
+            }
+        );
+        
+        const scenario = await Scenario.findByPk(scenarioId, { transaction });
+        if (!scenario) throw new ApiError(404, 'S001_SCENARIO_NOT_FOUND', 'Scenario not found.');
+        
+        const personalityId = selectedAiPersonalityId || scenario.defaultAiPersonalityId;
+        const personality = await AIPatientPersonality.findByPk(personalityId, { transaction });
+        if (!personality) throw new ApiError(404, 'P005_PERSONALITY_NOT_FOUND', 'AI personality not found.');
+        
+        const { history, aiPatientInitialInteraction } = await aiService.initializeChat(scenario, personality);
+        
+        // 새 세션 생성 (트랜잭션 내에서)
+        const newSession = await PracticeSession.create({
+            userId,
+            scenarioId,
+            selectedAiPersonalityId: personality.personalityId,
+            practiceMode,
+            status: 'started',
+        }, { transaction });
+        
+        setChatHistory(newSession.practiceSessionId, history);
+        
+        return {
+            practiceSessionId: newSession.practiceSessionId,
+            userId: newSession.userId,
+            scenarioId: newSession.scenarioId,
+            startTime: newSession.startTime,
+            status: newSession.status,
+            aiPatientInitialInteraction: aiPatientInitialInteraction,
+        };
     });
-    setChatHistory(newSession.practiceSessionId, history);
-    return {
-      practiceSessionId: newSession.practiceSessionId,
-      userId: newSession.userId,
-      scenarioId: newSession.scenarioId,
-      startTime: newSession.startTime,
-      status: newSession.status,
-      aiPatientInitialInteraction: aiPatientInitialInteraction,
-    };
 };
 
 const sendMessageAndGetResponse = async (sessionId, userId, messageContent) => {
@@ -78,9 +95,20 @@ const sendMessageAndGetResponse = async (sessionId, userId, messageContent) => {
 };
 
 const completePracticeSession = async (sessionId, userId) => {
+    console.log(`[DEBUG] completePracticeSession called: sessionId=${sessionId}, userId=${userId}`);
+    
     const session = await PracticeSession.findOne({ where: { practiceSessionId: sessionId, userId } });
-    if (!session) throw new ApiError(404, 'P001_SESSION_NOT_FOUND', 'Session not found.');
-    if (session.status !== 'started' && session.status !== 'in_progress') throw new ApiError(400, 'P002_SESSION_ALREADY_COMPLETED', 'Session is not active.');
+    if (!session) {
+        console.log(`[ERROR] Session not found: sessionId=${sessionId}, userId=${userId}`);
+        throw new ApiError(404, 'P001_SESSION_NOT_FOUND', 'Session not found.');
+    }
+    
+    console.log(`[DEBUG] Session found: status=${session.status}, startTime=${session.startTime}, endTime=${session.endTime}`);
+    
+    if (session.status !== 'started' && session.status !== 'in_progress') {
+        console.log(`[ERROR] Session is not active: sessionId=${sessionId}, current status=${session.status}, expected=started or in_progress`);
+        throw new ApiError(400, 'P002_SESSION_ALREADY_COMPLETED', `Session is not active. Current status: ${session.status}`);
+    }
 
     updateChatHistory(sessionId, []);
     
