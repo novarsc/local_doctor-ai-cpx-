@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "최수현",
+        "age": 48,
+        "gender": "여자"
+      },
+      "situation": "오랫동안 콧물과 코막힘이 있어 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/75mmHg",
+        "heartRate": "70회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "오래된 콧물과 코막힘",
+      "history": {
+        "onset": "5년 전",
+        "course": "지속적, 간헐적 악화",
+        "character": "끈적한 콧물, 코막힘(+), 재채기(+), 가끔 후비루(+), 코 가려움(-)",
+        "associatedSymptoms": {
+          "general": "발열/오한/피로(-/-/-), 체중 변화(-)",
+          "neuro": "두통(-), 안면통(-)",
+          "respiratory": "기침(-)",
+          "olfactory": "후각 저하(++)"
+        },
+        "factors": "계절 변화(-), 먼지/온도차(-/-), 특정 장소(-), 동물(-), 스트레스(+)",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 알레르기 질환(-)",
+          "social": "흡연(-), 음주(월 1회), 직업(주부), 스트레스(중간)",
+          "family": "부모님 비염(-) "
+        }
+      },
+      "physicalExam": {
+        "heent": "비점막 부종(+), 비루(+), 콧속 건조(+), 폴립(-) "
+      },
+      "patientQuestion": "이 증상을 어떻게 치료할 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 비염",
+          "비강 건조증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "비강 내시경 검사"
+        ],
+        "therapeutic": [
+          "생리식염수 코 세척",
+          "코 점막 보습제 사용",
+          "코 스테로이드 분무제"
+        ]
+      }
+    }
+  ]
+}

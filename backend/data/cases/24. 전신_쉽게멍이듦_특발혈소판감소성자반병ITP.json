@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김민수씨가 2주 전부터 다리에 생긴 자주색 반점 때문에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "다리에 자주색 반점이 생겼어요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "양쪽 종아리에서 시작하여 허벅지로 퍼짐",
+        "duration": "2주 지속",
+        "course": "처음에는 작은 반점이었으나 점점 커지고 수도 늘어남",
+        "experience": "처음",
+        "character": "[색] 자주색\n[크기] 2~5mm\n[개수] 많음\n가려움(-), 압통(-), 열감(-)\n누르면 색이 잠시 사라짐",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중변화(-)",
+          "digestive": "복통(-), 소화불량(-)",
+          "urinary": "혈뇨(-), 소변량 변화(-)",
+          "neurological": "두통(-), 어지러움(-)",
+          "endocrine": "다한증(-)",
+          "bleeding_tendency": "잇몸 출혈(+), 코피(+)"
+        },
+        "factors": "최근 특별한 외상 없음",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전부터 약 복용 중), 당뇨병(-)",
+          "trauma_surgery": "무릎 수술(10년 전)",
+          "medications": "고혈압 약(로사르탄)",
+          "social": "흡연(+, 하루 1갑), 음주(주 2회 소주 1병)",
+          "family": "혈액 질환 가족력(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "결막창백(-), 경부 림프절(-)",
+        "chest": "청진상 이상 없음",
+        "abdomen": "압통(-), 청진상 이상 없음",
+        "extremity": "양측 종아리와 허벅지에 다양한 크기의 자주색 반점 관찰, 압박시 일시적으로 색깔이 옅어짐"
+      },
+      "patientQuestion": "이게 무슨 병인가요? 심각한 병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "특발혈소판감소성자반병(ITP)",
+          "혈전성혈소판감소성자반병(TTP)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "CBC",
+          "말초혈액 도말 검사",
+          "혈소판 기능 검사"
+        ],
+        "therapeutic": [
+          "경과 관찰",
+          "필요시 스테로이드 치료"
+        ]
+      }
+    }
+  ]
+}

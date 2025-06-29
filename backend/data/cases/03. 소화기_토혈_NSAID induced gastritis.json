@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 62,
+        "gender": "여자"
+      },
+      "situation": "속쓰림과 상복부 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "속이 너무 쓰리고 아파요.",
+      "history": {
+        "onset": "3일 전부터",
+        "frequency": "지속적",
+        "experience": "이전에도 비슷한 증상이 있었으나 이렇게 심한 적은 없음",
+        "character": "상복부 압박감과 쓰림, 공복 시 심해짐, 음식 섭취 후 일시적 호전",
+        "associatedSymptoms": {
+          "general": "식욕부진(+), 체중감소(-)",
+          "gi": "오심/구토/설사/변비(-/-/+/-)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "코피/멍(-/-)",
+          "dehydration": "어지럼/두근거림/소변량 감소(-/-/-)"
+        },
+        "factors": "3일 전부터 이부프로펜 복용 시작(관절염 통증 완화 목적), 과거 위장장애 병력 없음",
+        "pastHistory": {
+          "events": "건강검진 정기적으로 시행(최근 1년 전 정상 소견)",
+          "social": "흡연(-), 음주(월 1회 소량), 직업(주부), 식사(규칙적, 채소 위주)",
+          "medications": "이부프로펜(3일 전부터 시작)"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "눈/입/림프절/비경(-/-/-/-)",
+        "abdomen": "복부 시진/청진/타진/촉진(-/-/-/-), 명치 부위 압통(+)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "이 약 때문에 속이 이렇게 아픈 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "NSAID induced gastritis",
+          "기능성 소화불량",
+          "위궤양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경 검사",
+          "혈액 검사(CBC, 간 기능 검사)"
+        ],
+        "therapeutic": [
+          "이부프로펜 중단",
+          "제산제 투여",
+          "H2 수용체 길항제 투여",
+          "PPI 투여 고려"
+        ]
+      }
+    }
+  ]
+}

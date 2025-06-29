@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김철수씨가 설사와 구토 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "심한 설사와 구토 때문에 힘들어요.",
+      "history": {
+        "onset": "어제 저녁부터",
+        "location": "전신",
+        "course": "어제 저녁부터 설사와 구토가 시작되어 밤새도록 증상이 지속되었고, 오늘 아침에도 증상이 계속되고 있다.  수분 섭취는 제대로 하지 못했다.",
+        "character": "심한 설사(하루 10회 이상, 수양변), 심한 구토(섭취한 음식물 모두 토함), 복통(심하지 않음), 오심, 발열, 몸살",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 피로감(+), 근육통(+), 두통(-)",
+          "digestive": "설사(+), 구토(+), 복통(+), 식욕부진(+), 변비(-), 혈변(-), 흑색변(-)",
+          "endocrine": "다뇨(-), 다갈(-), 더위불내성(-)",
+          "respiratory": "기침(-), 가래(-), 호흡곤란(-)",
+          "urinary": "다뇨(-), 빈뇨(-), 배뇨통(-)",
+          "psychiatric": "불안감(+), 우울감(-)"
+        },
+        "factors": "어제 회식 후 야식으로 매운 닭갈비를 과식함.  함께 식사한 사람들 중 몇 명도 비슷한 증상을 호소함.",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "medications": "복용 중인 약 없음",
+          "social": "음주(+, 어제 소주 2병), 흡연(-), 운동(-)",
+          "family": "특이사항 없음",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 탈수 증상 의심됨.  의식은 명료함.",
+        "heent": "결막 혈관 확장 소견(+), 구강 점막 건조(+)",
+        "abdomen": "압통(+), 방어긴장(-), 청진 소견(-)",
+        "extremity": "피부 터거 약간 감소(+)"
+      },
+      "patientQuestion": "빨리 낫고 싶어요.  어떻게 해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 위장염 (Gastroenteritis)",
+          "식중독"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (CBC, 전해질)",
+          "대변검사 (배양검사)"
+        ],
+        "therapeutic": [
+          "수액요법 (탈수 교정)",
+          "대증요법 (항구토제, 지사제 필요시)",
+          "식이요법 (자극적인 음식 피하기), 충분한 수분 섭취 권고"
+        ]
+      }
+    }
+  ]
+}

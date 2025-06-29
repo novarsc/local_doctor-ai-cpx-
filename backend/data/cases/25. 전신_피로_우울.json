@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김지영",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 김지영씨가 우울감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "70회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "매일 우울해요.",
+      "history": {
+        "onset": "2개월 전",
+        "duration": "대부분의 날, 하루 종일",
+        "course": "점진적으로 악화",
+        "experience": "처음",
+        "character": "삶에 대한 흥미 감소, 슬픔, 무기력감, 수면장애(불면증), 식욕저하, 집중력 저하",
+        "associatedSymptoms": {
+          "general": "체중변화(-, 3kg 감소)",
+          "digestive": "변비(+)",
+          "circulatory": "두근거림(-)",
+          "psychiatric": "우울감(+), 불안감(+), 자살 생각(+, 구체적인 계획은 없음)",
+          "sleep": "불면증(+), 잠들기 어려움, 수면 시간 부족",
+          "endocrine": "갑상선 기능 저하 의심 증상(-)"
+        },
+        "factors": "스트레스 증가(직장 내 갈등), 최근 배우자와의 불화",
+        "pastHistory": {
+          "social": "직업: 회사원, 흡연(-), 음주(월 1-2회), 스트레스 높음",
+          "obgyn": "폐경 전",
+          "other": "고혈압, 당뇨병 가족력 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정, 기분 침울, 눈가 붉음, 눈물 어린 표정",
+        "heent": "결막 창백(-), 갑상선 비대(-)",
+        "abdomen": "압통(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "제가 괜찮아질 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "주요 우울 장애",
+          "적응 장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "HAM-D 척도 검사",
+          "혈액검사(갑상선 기능 검사 포함)",
+          "정신과적 평가"
+        ],
+        "therapeutic": [
+          "항우울제 처방(SSRI)",
+          "정신치료(인지행동치료)",
+          "정기적인 정신과 상담"
+        ]
+      }
+    }
+  ]
+}

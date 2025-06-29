@@ -1,0 +1,82 @@
+checklist:
+  topic_kr: "월경통"
+  topic_en: "Dysmenorrhea"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [월경통의 위치 (Location): 하복부, 골반, 허리 등]
+            - [월경통의 양상 (Character): 쥐어짜는 듯한 통증, 둔한 통증, 찌르는 듯한 통증 등]
+            - [월경통의 강도 (Severity): 통증 척도 (0-10) 사용]
+            - [월경통의 시작 시기 (Onset): 월경 시작 전, 시작 후, 월경 기간 중 언제 발생하는지]
+            - [월경통의 기간 (Duration): 얼마나 지속되는지]
+            - [악화 및 완화 요인 (Aggravating/Relieving factors): 특정 자세, 활동, 약물 복용 등]
+            - [동반 증상 (Associated symptoms): 메스꺼움, 구토, 설사, 두통, 어지럼 등]
+        - subtitle_kr: "월경력"
+          subtitle_en: "Menstrual History"
+          details: |
+            - [초경 연령 (Age at menarche)]
+            - [월경 주기 (Menstrual cycle): 규칙적인지, 불규칙적인지]
+            - [월경 기간 (Menstrual period): 보통 며칠 동안 지속되는지]
+            - [월경량 (Amount of flow): 보통, 많음, 적음]
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [골반 염증성 질환 (Pelvic Inflammatory Disease)]
+            - [자궁내막증 (Endometriosis)]
+            - [자궁 선근증 (Adenomyosis)]
+            - [자궁 근종 (Uterine fibroids)]
+            - [골반 유착 (Pelvic adhesions)]
+            - [가족력 (Family history of dysmenorrhea)]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "복부 진찰"
+          subtitle_en: "Abdominal Examination"
+          details: |
+            - [시진 (Inspection): 복부 팽만, 반흔 등]
+            - [청진 (Auscultation): 장음]
+            - [촉진 (Palpation): 압통, 반발통, 종괴 등]
+        - subtitle_kr: "골반 진찰"
+          subtitle_en: "Pelvic Examination"
+          details: |
+            - [외음부 검사 (External genitalia examination)]
+            - [질경 검사 (Speculum examination)]
+            - [쌍합진 (Bimanual examination): 자궁 및 난소의 크기, 모양, 압통 확인]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - [Primary Dysmenorrhea]
+            - [Secondary Dysmenorrhea]
+            - [Endometriosis]
+            - [Adenomyosis]
+            - [Pelvic Inflammatory Disease (PID)]
+            - [Ovarian Cysts]
+            - [Ectopic Pregnancy]
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - [Complete Blood Count (CBC)]
+                - [Pregnancy test]
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - [Pelvic Ultrasound]
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "월경통의 원인과 증상에 대한 설명, 생활 습관 개선 (규칙적인 운동, 금연, 스트레스 관리), 약물 치료 (진통제, 경구 피임약) 등에 대한 정보 제공"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "심한 통증, 발열, 오한, 질 분비물 증가, 실신 등의 증상 발생 시 즉시 의료기관 방문 권고"

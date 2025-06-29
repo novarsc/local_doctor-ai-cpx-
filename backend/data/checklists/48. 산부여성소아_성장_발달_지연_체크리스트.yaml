@@ -1,0 +1,78 @@
+checklist:
+  topic_kr: "성장 발달 지연"
+  topic_en: "Growth and Developmental Delay"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [ ] 성장 속도 평가 (키, 몸무게, 머리둘레) (Growth velocity assessment - height, weight, head circumference)
+            - [ ] 발달 이정표 달성 여부 확인 (언어, 운동, 인지, 사회성)  (Check attainment of developmental milestones - speech, motor, cognitive, social)
+            - [ ] 지연 시작 시기 및 양상 (Onset and pattern of delay)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [ ] 식이 및 수면 패턴 확인 (Dietary and sleep patterns)
+            - [ ] 만성 질환 유무 (Presence of chronic medical conditions)
+            - [ ] 행동 문제 유무 (Presence of behavioral problems)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [ ] 가족력 (유전 질환, 성장 지연 등) (Family history of genetic disorders, growth delay, etc.)
+            - [ ] 임신 및 출산 과정 (산모 건강 상태, 조산, 저체중 출생 등) (Pregnancy and birth history: maternal health, premature birth, low birth weight, etc.)
+            - [ ] 사회경제적 환경 (Socioeconomic environment)
+
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [ ] 신장 및 체중 측정 (Measurement of height and weight)
+            - [ ] 머리둘레 측정 (Head circumference measurement)
+            - [ ] 전반적인 신체 비율 및 이상 소견 확인 (Overall body proportion and dysmorphic features)
+            - [ ] 신경학적 검사 (Neurological examination)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [ ] 필요시 특정 장기 또는 계통에 대한 추가적인 검사  (Further examination of specific organ systems if necessary)
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Constitutional growth delay"
+            - "Familial short stature"
+            - "Growth hormone deficiency"
+            - "Hypothyroidism"
+            - "Genetic syndromes (e.g., Turner syndrome, Down syndrome)"
+            - "Chronic diseases (e.g., celiac disease, inflammatory bowel disease)"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Comprehensive metabolic panel (CMP)"
+                - "Thyroid function tests (TFTs)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Bone age assessment (X-ray of the hand and wrist)"
+                - "Brain MRI (if indicated)"
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "성장 및 발달 지연의 원인, 진단 과정, 치료 계획에 대해 자세히 설명합니다. (Detailed explanation of causes, diagnostic process, and treatment plan for growth and developmental delay)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "발달 퇴행, 지속적인 구토, 과도한 졸음 등의 경고 증상 발생 시 즉시 의료진에게 연락하도록 안내합니다. (Instruct patients to contact healthcare provider immediately if red flag signs such as developmental regression, persistent vomiting, or excessive sleepiness occur)"

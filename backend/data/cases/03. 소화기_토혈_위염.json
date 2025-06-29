@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "속이 쓰리고 아파서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "속이 너무 쓰리고 아파요.",
+      "history": {
+        "onset": "3일 전부터",
+        "frequency": "지속적",
+        "experience": "재발성",
+        "character": "상복부 압박감, 쓰라림, 속쓰림, 공복 시 심화",
+        "associatedSymptoms": {
+          "general": "식욕부진(+), 체중변화(-)",
+          "gi": "구토(-), 설사(-), 변비(-), 혈변(-), 흑색변(-)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "멍이 잘 듦(-), 코피(-)",
+          "dehydration": "어지럼증(-), 두근거림(-), 소변량 감소(-)"
+        },
+        "factors": "스트레스, 불규칙적인 식사, 매운 음식 섭취",
+        "pastHistory": {
+          "events": "위내시경 검사 2년 전 시행(정상소견)",
+          "social": "흡연(-), 음주(소주 1잔/주 1회), 직업(회사원), 식사(불규칙적, 인스턴트 음식 섭취 잦음), 운동(없음)",
+          "familyHistory": "위암 가족력(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "결막/구강 점막 창백(-)",
+        "abdomen": "압통(+), 반발압통(-), 청진 소견(정상)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "위암은 아닐까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 위염",
+          "만성 위염",
+          "기능성 소화불량"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경 검사",
+          "헬리코박터 파일로리 검사",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "제산제 복용",
+          "H2 수용체 길항제 복용",
+          "PPI 복용",
+          "식습관 개선",
+          "스트레스 관리"
+        ]
+      }
+    }
+  ]
+}

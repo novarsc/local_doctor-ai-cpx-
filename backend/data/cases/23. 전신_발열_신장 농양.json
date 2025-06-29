@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 50,
+        "gender": "남성"
+      },
+      "situation": "50세 남성 김철수씨가 오른쪽 옆구리 통증과 고열을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "100회/분",
+        "respiration": "20회/분",
+        "temperature": "39.5℃"
+      },
+      "chiefComplaint": "옆구리가 너무 아프고 열이 많이 나요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "오른쪽 옆구리",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "오른쪽 옆구리에 콕콕 쑤시는 듯한 통증과 함께 고열 발생.  해열제 복용 후 일시적 호전 있었으나 재발.",
+        "associatedSymptoms": {
+          "general": "오한(+), 전신 권태감(+), 식욕부진(+)",
+          "urinary": "빈뇨(+), 배뇨통(+), 탁한 소변(+)",
+          "pain": "오른쪽 옆구리 압통(+), 심한 통증(+)",
+          "other": "구토(-), 설사(-), 기침(-)",
+          "musculoskeletal": "근육통(-)"
+        },
+        "factors": "최근 감기 증상 없음, 특별한 외상 없음, 요로감염 병력 없음",
+        "pastHistory": {
+          "social": "음주(+, 소주 1병/주), 흡연(-), 운동(-), 직업: 건설노동자",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "고열, 빈맥, 안면홍조",
+        "heent": "결막 충혈(-), 인두 홍반(-)",
+        "abdomen": "오른쪽 측복부 압통(+), 방수(+),  CVA tenderness(+, 우측)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "왜 이렇게 아픈 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "신장 농양",
+          "급성 신우신염",
+          "요로결석"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요검사(소변검사)",
+          "혈액검사(CBC, CRP)",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "항생제 정맥 투여",
+          "진통제 투여",
+          "수액 요법"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 허리 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "허리가 아파요",
+      "history": {
+        "onset": "2주 전",
+        "location": "허리 중앙부, 왼쪽 엉덩이 방사통",
+        "duration": "간헐적 통증, 심해지면 하루 종일",
+        "course": "무거운 물건을 들다가 시작, 점차 심해짐",
+        "experience": "처음 발생",
+        "character": "심한 콕콕 찌르는 듯한 통증, 왼쪽 다리 저림 동반, NRS 5~8점(최근 2일간 8점)",
+        "associatedSymptoms": {
+          "neurological": "왼쪽 다리 저림, 무력감(+), 왼쪽 발가락 감각 저하(+), 배뇨장애(-), 변비(-)"
+        },
+        "factors": "장시간 앉아 있거나 서 있으면 악화, 움직이면 다소 완화, 누우면 통증 감소",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중(암로디핀)",
+          "social": "흡연(1갑/일), 음주(주 2회 소주 1병)",
+          "family": "부친: 고혈압, 당뇨병"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적",
+        "heent": "특이 소견 없음",
+        "abdomen": "특이 소견 없음",
+        "extremity": "왼쪽 다리 슬관절 신전시 통증 악화, 좌측 straight leg raise test 양성, 좌측 Lasegue sign 양성, 왼쪽 발목 배측굴곡 약화, 왼쪽 발가락 감각 저하, 근력 4/5,  압통 L4-L5 level"
+      },
+      "patientQuestion": "수술이 필요할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "추간판탈출증(HIVD)",
+          "요추 염좌",
+          "척추관협착증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요추부 MRI",
+          "신경학적 검사"
+        ],
+        "therapeutic": [
+          "진통소염제 처방",
+          "근육이완제 처방",
+          "물리치료",
+          "보존적 치료 실패시 수술 고려"
+        ]
+      }
+    }
+  ]
+}

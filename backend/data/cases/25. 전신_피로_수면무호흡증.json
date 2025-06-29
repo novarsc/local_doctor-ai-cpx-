@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김영수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 김영수씨가 낮에 졸음이 심해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "낮에 너무 졸려요",
+      "history": {
+        "onset": "5년 전",
+        "duration": "주로 오후에 심한 졸음",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "낮에 갑작스러운 졸음, 운전 중에도 졸음이 와서 위험함, 집중력 저하, 업무 효율 저하",
+        "associatedSymptoms": {
+          "general": "체중 증가(10kg, 5년 전부터)",
+          "digestive": "",
+          "circulatory": "",
+          "psychiatric": "",
+          "sleep": "코골이(+, 배우자 증언), 수면 중 숨이 막히는 느낌(+, 배우자 증언), 수면 시간 7시간",
+          "endocrine": ""
+        },
+        "factors": "밤에 술을 마시면 다음날 졸음이 더 심해짐",
+        "pastHistory": {
+          "social": "직업: 회사원(사무직), 음주(+, 매일 맥주 2캔), 흡연(-), 운동 거의 안 함",
+          "obgyn": "",
+          "other": "고혈압 진단받고 약 복용 중"
+        }
+      },
+      "physicalExam": {
+        "general": "비만 소견(BMI 30)",
+        "heent": "목둘레 42cm",
+        "abdomen": "",
+        "extremity": ""
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "수면무호흡증",
+          "만성피로증후군",
+          "기면증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "수면다원검사",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "수면위생 개선 교육",
+          "체중감량 권고",
+          "CPAP 치료"
+        ]
+      }
+    }
+  ]
+}

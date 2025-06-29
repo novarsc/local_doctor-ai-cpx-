@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최수현",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "속이 쓰리고 아파서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg ",
+        "heartRate": "78회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.8℃ "
+      },
+      "chiefComplaint": "속이 쓰리고 아파요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "명치 부위",
+        "course": "2주 전부터 명치 부위에 쓰라림이 시작되었고 점점 심해짐",
+        "experience": "이전에도 속이 쓰린 적은 있었지만 이렇게 심한 적은 없었음",
+        "character": "쓰라림, 콕콕 쑤시는 듯한 통증, NRS 5/10, 공복 시 심함",
+        "associatedSymptoms": {
+          "general": "체중 감소(-, 3kg)",
+          "gi": "식욕부진(+), 구역감(+), 구토(-), 혈변(-), 흑변(-), 설사(-), 변비(-), 트림(+)"
+        },
+        "factors": "매운 음식 섭취 후 악화, 공복 시 악화, 식후 호전",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전부터 약 복용), 당뇨병(-), 흡연(+, 2갑/일, 30년), 음주(+, 소주 1병/주, 30년)",
+          "events": "10년 전 건강검진에서 위염 진단받고 약물 치료 받았으나 완치 확인 안함",
+          "surgical": "없음",
+          "medications": "고혈압 약(Amlodipine 5mg, 1일 1회)",
+          "social": "흡연(+, 2갑/일, 30년), 음주(+, 소주 1병/주, 30년), 직업: 은퇴, 스트레스(+)",
+          "family": "아버지: 위암(사망)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적",
+        "heent": "결막/구강 점막 창백(-/-)",
+        "abdomen": "심와부 압통(+), 반발압통(-), 복부팽만(-) "
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "소화성 궤양",
+          "위암",
+          "십이지장궤양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "헬리코박터 파일로리 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "제산제 복용",
+          "H2 수용체 길항제 복용",
+          "PPI 복용",
+          "생활 습관 교정(금연, 절주)"
+        ]
+      }
+    }
+  ]
+}

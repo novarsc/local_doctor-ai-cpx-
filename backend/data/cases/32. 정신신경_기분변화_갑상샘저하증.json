@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 김민지씨가 피로감과 체중 증가를 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "68회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "너무 피곤하고 살이 쪘어요",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "지속적",
+        "course": "점진적 악화",
+        "experience": "처음",
+        "character": "자의로 내원, 평소 활동적인 성격이나 최근 활동량 감소, 가족 관계 원만, 직장 생활은 스트레스가 있음,  도움 요청할 수 있는 사람(+)",
+        "associatedSymptoms": {
+          "digestive": "변비(+)",
+          "psychiatric": "피로감(+), 의욕 저하(+), 기억력 감퇴(+), 우울감(+), 수면 과다(+), 집중력 저하(+)",
+          "endocrine": "추위를 많이 탐(+), 부종(+) ",
+          "general": "체중 증가(5kg)"
+        },
+        "factors": "스트레스 증가(+), 특별한 계절적 영향(-)",
+        "pastHistory": {
+          "social": "음주(소량, 주 1회 이하), 흡연(-), 직업: 회사원, 운동(-)",
+          "family": "가족력 없음",
+          "obgyn": "폐경 전"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 비만 소견",
+        "heent": "결막/구강/탈수(-/-/-), 갑상샘 비대 없음",
+        "chest": "심음/호흡음 정상",
+        "extremity": "말초부종(+)"
+      },
+      "patientQuestion": "왜 이렇게 피곤하고 살이 찌는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "갑상샘저하증",
+          "대사증후군",
+          "만성피로증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "갑상샘 기능 검사 (TSH, Free T3, Free T4)",
+          "혈액검사 (혈당, 콜레스테롤, 중성지방)",
+          "체성분 분석"
+        ],
+        "therapeutic": [
+          "갑상샘 호르몬 보충 요법(필요시)",
+          "생활 습관 개선 상담(식이요법, 운동)"
+        ]
+      }
+    }
+  ]
+}

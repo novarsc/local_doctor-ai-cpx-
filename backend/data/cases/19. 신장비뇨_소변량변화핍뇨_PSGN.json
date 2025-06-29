@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 8,
+        "gender": "남자"
+      },
+      "situation": "8세 남자 김민수씨가 혈뇨와 부종으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "20회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "소변에 피가 섞여 나와요.",
+      "history": {
+        "onset": "3일 전",
+        "course": "지속",
+        "experience": "처음",
+        "character": "소변에 피가 섞여 나오고, 소변량은 평소와 비슷함.  피는 혈뇨(육안적 혈뇨)로 관찰됨.  소변색은 짙은 갈색을 띰. 부종은 얼굴과 발목에 나타남.",
+        "associatedSymptoms": {
+          "general": "발열(+, 38℃까지 상승), 오한(+), 피로(+), 체중 변화(-)",
+          "digestive": "구토(-), 설사(-), 복통(-)",
+          "circulatory": "두근거림(-), 호흡곤란(-)",
+          "renal_urinary": "배뇨통(-), 빈뇨(-), 야뇨(-), 요통(-)",
+          "musculoskeletal_skin": "피부 가려움(-), 관절통(-)"
+        },
+        "factors": "최근 인후통과 발열 증상을 보인 후 낫음(약 1주 전).  최근 여행이나 특별한 노출 없음.",
+        "pastHistory": {
+          "medical": "상기도 감염 병력(+)",
+          "medications": "감기약 복용 병력(+, 1주일 전)",
+          "social": "흡연(-), 음주(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "전반적으로 활력이 저하되어 보임.  얼굴과 발목에 부종 관찰됨.",
+        "heent": "결막 창백(-), 인후 발적(-)",
+        "abdomen": "압통 없음",
+        "extremity": "얼굴과 발목에 경미한 부종 관찰됨."
+      },
+      "patientQuestion": "아이가 괜찮을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "사구체신염(Poststreptococcal glomerulonephritis, PSGN)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사(요검사, 뇨침사), 혈액검사(혈액생화학검사, 혈액 일반검사), 사구체 여과율(GFR) 검사, 항스트렙토리신 O(ASO) 항체 검사"
+        ],
+        "therapeutic": [
+          "수분 섭취 조절,  염분 섭취 제한,  혈압 관리,  지지 요법,  경과 관찰"
+        ]
+      }
+    }
+  ]
+}

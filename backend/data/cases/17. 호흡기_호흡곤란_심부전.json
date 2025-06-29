@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 78,
+        "gender": "남자"
+      },
+      "situation": "78세 남자 김철수씨가 숨이 차서 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "28회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차서 잠을 못 자겠어요.",
+      "history": {
+        "onset": "2주 전",
+        "duration": "점진적 악화",
+        "course": "밤에 더 심함",
+        "experience": "처음",
+        "character": "누워있으면 숨이 차서 앉아서 자야함, 숨을 쉴 때마다 힘들고 답답함",
+        "associatedSymptoms": {
+          "general": "발열/피로/체중 변화(-/-/+), 3kg 증가",
+          "respiratory": "흉통(-), 기침/가래/쌕쌕거림(-/-/-)",
+          "circulatory": "하지 부종(+), 저녁에 심해짐"
+        },
+        "factors": "누워있으면 악화, 앉아있으면 호전",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "trauma_surgery": "",
+          "medications": "고혈압 약, 당뇨 약",
+          "social": "흡연(+, 40갑년), 음주(-)",
+          "family": "부친: 심근경색",
+          "obgyn": ""
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 맥박: 110회/분, 호흡 : 28회/분, 혈압: 100/60mmHg,  하지 부종 관찰됨.",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/+) ",
+        "chest": "흉부 : 시/촉/타/청(-/-/-/-), 심음: 빈맥, 심잡음(-)",
+        "extremity": "곤봉지/청색증(-/-), 하지 부종(+)"
+      },
+      "patientQuestion": "제가 언제쯤 퇴원할 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "심부전"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심초음파",
+          "흉부 X선 촬영",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "이뇨제 투여",
+          "ACE 저해제 투여",
+          "베타 차단제 투여",
+          "산소 요법",
+          "입원 치료"
+        ]
+      }
+    }
+  ]
+}

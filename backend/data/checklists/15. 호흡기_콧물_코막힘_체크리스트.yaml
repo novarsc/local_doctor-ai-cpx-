@@ -1,0 +1,83 @@
+checklist:
+  topic_kr: "콧물_코막힘"
+  topic_en: "Rhinorrhea & Nasal Congestion"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 콧물의 양상 (점도, 색깔, 냄새): (Character of rhinorrhea (consistency, color, odor))
+            - 코막힘의 정도 및 지속 시간: (Severity and duration of nasal congestion)
+            - 증상 악화 및 완화 요인: (Aggravating and relieving factors)
+            - 코막힘 발생 부위 (한쪽 or 양쪽): (Unilateral or bilateral nasal congestion)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 발열, 오한: (Fever, chills)
+            - 두통: (Headache)
+            - 안면 통증/압박감: (Facial pain/pressure)
+            - 후각 감퇴/상실: (Hyposmia/anosmia)
+            - 재채기: (Sneezing)
+            - 기침: (Cough)
+            - 가려움: (Itching)
+            - 눈물: (Epiphora)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 알레르기 비염, 부비동염, 천식 등 과거력: (History of allergic rhinitis, sinusitis, asthma, etc.)
+            - 약물 복용력 (비강 스프레이 등): (Medication history (e.g., nasal spray))
+            - 최근 감염 노출력: (Recent exposure to infection)
+            - 환경적 요인 (꽃가루, 먼지, 애완동물 등): (Environmental factors (e.g., pollen, dust, pets))
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 코의 외형 관찰 (부종, 발적): (Observation of nasal appearance (swelling, redness))
+            - 비경 검사: (Rhinoscopy)
+            - 부비동 촉진: (Palpation of sinuses)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 필요시 후각 검사: (Olfactory test if needed)
+            - 필요시 내시경 검사: (Endoscopy if needed)
+
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Allergic rhinitis"
+            - "Viral rhinitis"
+            - "Sinusitis"
+            - "Nasal polyp"
+            - "Vasomotor rhinitis"
+            - "CSF leak"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC) (필요시)"
+                - "Allergy testing (필요시)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Sinus X-ray or CT scan (필요시)"
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "콧물 및 코막힘의 원인과 치료법에 대해 설명하고, 생활 습관 개선 (금연, 충분한 수분 섭취, 적절한 습도 유지 등)의 중요성을 교육합니다. (Explain the causes and treatments of rhinorrhea and nasal congestion, and educate on the importance of lifestyle modifications such as smoking cessation, adequate hydration, and maintaining appropriate humidity.)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "지속적인 고열, 심한 두통, 시력 변화, 의식 저하 등의 증상 발생 시 즉시 의료기관을 방문하도록 안내합니다. (Instruct the patient to seek immediate medical attention if they experience persistent high fever, severe headache, vision changes, or altered mental status.)"

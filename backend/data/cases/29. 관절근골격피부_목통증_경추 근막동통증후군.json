@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 뒷목 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "뒷목이 뻐근하고 아파요",
+      "history": {
+        "onset": "2주 전",
+        "location": "뒷목, 특히 오른쪽",
+        "duration": "하루 종일",
+        "course": "점차 심해짐",
+        "experience": "이전에도 비슷한 증상 있었으나, 며칠 쉬면 호전됨",
+        "character": "뻐근하고 묵직한 통증, 움직이면 심해짐, NRS 5점",
+        "associatedSymptoms": {
+          "general": "두통(-)",
+          "neck": "압통(+), 열감(-)",
+          "neurological": "팔 저림/약화(-/-)",
+          "rheumatologic": "관절통(-)"
+        },
+        "factors": "악화: 장시간 컴퓨터 작업, 목을 오래 숙일 때\n완화: 휴식, 스트레칭",
+        "pastHistory": {
+          "medical": "고혈압(-)",
+          "medications": "고혈압 약 복용 중",
+          "social": "스트레스 많음, 직업: 사무직, 흡연 20갑년",
+          "family": "특이 사항 없음",
+          "obgyn": "해당 없음",
+          "other": "최근 운동 부족"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 정상",
+        "heent": "결막/공막 정상",
+        "extremity": "오른쪽 뒷목 압통(+), 근육 경직(+), Spurling sign (-), 상지 운동/감각 정상"
+      },
+      "patientQuestion": "이 증상이 오래갈까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "경추 근막동통증후군",
+          "경추 염좌"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "경추 X-ray"
+        ],
+        "therapeutic": [
+          "진통소염제",
+          "물리치료",
+          "스트레칭 및 자세교정"
+        ]
+      }
+    }
+  ]
+}

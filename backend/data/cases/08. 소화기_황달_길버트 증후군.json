@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "피곤함과 함께 눈의 흰자위가 노래져서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "눈이 노래요",
+      "history": {
+        "onset": "일주일 전",
+        "location": "눈의 흰자위, 피부",
+        "duration": "일주일 전부터 서서히 진행됨",
+        "course": "처음에는 눈의 흰자위가 약간 노란 느낌이었으나, 최근에는 얼굴과 몸에도 노란기가 돌기 시작함",
+        "experience": "처음",
+        "character": "노란색, 가려움증 없음",
+        "associatedSymptoms": {
+          "general": "피로감(+), 발열/오한(-/-), 체중 변화(-), 식욕 감소(-), 근육통/관절통(-/-)",
+          "respiratory": "기침/가래(-/-)",
+          "gi": "메스꺼움/구토/변비/설사/혈변/흑색변/지방변/복통/소화불량/속쓰림 (-/-/-/-/-/-/-/-/-)",
+          "renal": "소변색 변화(-) "
+        },
+        "factors": "과음(-), 특별한 약물 복용(-), 간염 접종력(+)",
+        "pastHistory": {
+          "events": "수혈/문신(-/-), 평소와 다른 성관계(-), 여행(-)",
+          "medical": "HTN/DM/Dyslipidemia(-/-/-), 간염(-), 기타 질환 없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(가끔), 직업(회사원), 스트레스(+) ",
+          "family": "간질환 병력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 황달(+), 구강/피부 긴장도(-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "심각한 간 질환은 아닐까 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "길버트 증후군",
+          "급성 바이러스성 간염",
+          "담석"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "간 기능 검사",
+          "간염 바이러스 표지자 검사",
+          "복부 초음파"
+        ],
+        "therapeutic": [
+          "충분한 휴식",
+          "수분 섭취 증가",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

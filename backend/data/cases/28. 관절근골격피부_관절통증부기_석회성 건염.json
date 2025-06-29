@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 오른쪽 어깨 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "어깨가 너무 아파서 잠도 못 자겠어요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "오른쪽 어깨, 특히 어깨의 바깥쪽",
+        "duration": "밤에 더 심하고, 낮에는 괜찮음",
+        "course": "점점 심해짐",
+        "character": "심한 욱신거림과 찌릿함, 밤에 심해져 잠을 못 이룸, NRS 8점, 팔을 들어올리면 통증 심해짐, 방사통 없음, 붓기/발적/압통/열감(+/-/+/-)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(-/-/-/-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "광과민성/피부 발진/구강 궤양/성기 궤양(-/-/-/-), 탈모(-)",
+          "infection": "관절 주사/최근 감기/감염/설사(-/-/-/-)",
+          "sjogren": "입마름/눈마름(-/-)"
+        },
+        "factors": "특별한 외상이나 과격한 운동은 없었음, 잠자는 자세에 따라 통증이 심해지는 경향이 있음",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "어깨 수술 경험 없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "사무직 근무, 컴퓨터 사용 시간이 많음",
+          "family": "관절 질환 가족력 없음",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "오른쪽 어깨 외전 제한, 압통(+), 열감(+), 능동 및 수동 ROM 제한, 견관절 주변 근육의 약간의 경직"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "석회성 건염",
+          "회전근개 파열",
+          "어깨 관절염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "오른쪽 어깨 X-ray",
+          "오른쪽 어깨 초음파"
+        ],
+        "therapeutic": [
+          "진통소염제 처방",
+          "물리치료 (초음파, 간섭파 치료 등)",
+          "필요시 어깨 주사 치료"
+        ]
+      }
+    }
+  ]
+}

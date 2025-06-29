@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 김철수씨가 어지러움을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "어지러워요",
+      "history": {
+        "onset": "오늘 아침",
+        "duration": "몇 초",
+        "course": "간헐적",
+        "experience": "최근 몇 달 동안 간헐적으로 발생",
+        "character": "갑자기 어지러워서 잠시 휘청거렸어요. 빙빙 도는 느낌은 없고, 균형을 잃는 느낌이었어요.  몇 초 후에 사라졌어요.",
+        "associatedSymptoms": "[전신] 발열/오한/피로(-/-/-). [순환] 일어설 때 어지러움(+). [소화] 소화불량(-). [신경] 이명/두통(-/-).",
+        "factors": "앉았다가 갑자기 일어설 때, 고개를 숙였다 일어날 때",
+        "pastHistory": {
+          "medical": "고혈압",
+          "medications": "고혈압약(꾸준히 복용 중)",
+          "social": "흡연(과거력), 음주(소량)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "neuro": "뇌신경: 정상, EOM: 정상, 시야: 정상, 소뇌: 정상. Dix-Hallpike 검사: 안진 없음, 어지러움 호소 없음. Head impulse test: 정상, Head shaking test: 정상."
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "양성 돌발성 체위 현훈",
+          "기립성 저혈압",
+          "전정신경염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "전정기능검사",
+          "기립경사검사"
+        ],
+        "therapeutic": [
+          "이석치환술(필요시)",
+          "생활습관 조절(수분섭취, 규칙적인 운동)"
+        ]
+      }
+    }
+  ]
+}

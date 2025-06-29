@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "caseType": "실전 모의 증례 [하이브리드]",
+      "patientProfile": {
+        "name": "김철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "심한 복통과 어지러움으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "24회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "배가 너무 아파요",
+      "history": {
+        "onset": "2시간 전",
+        "location": "상복부",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "칼로 찌르는 듯한 심한 통증, 등으로 퍼짐",
+        "associatedSymptoms": {
+          "gi": "오심, 구토(+/+), 식욕부진(+), 복부 팽만감(+), 설사(-), 변비(-), 혈변(-)",
+          "emergency": "어지러움(+), 쇼크 증상(혈압 저하, 빈맥, 식은땀)(+), 냉한 땀(+)"
+        },
+        "factors": "특별한 없음",
+        "pastHistory": {
+          "events": "고혈압, 위궤양 병력 있음",
+          "medical": "고혈압, 위궤양, 당뇨병",
+          "medications": "고혈압약, 위산억제제",
+          "surgical": "없음",
+          "social": "흡연(과거력), 음주(소량)",
+          "family": "고혈압 가족력"
+        }
+      },
+      "physicalExam": {
+        "general": "빈맥, 저혈압, 냉한 땀, 불안",
+        "heent": "결막 창백",
+        "abdomen": "복부 압통, 반발압통(+), 복부 경직(+), 압통이 심한 부위에서 청진 시 장음 감소",
+        "extremity": "말초 냉감"
+      },
+      "patientQuestion": "제가 죽을 수도 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "궤양 천공",
+          "급성 복막염",
+          "위 천공"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "복부 X-ray",
+          "복부 CT",
+          "혈액검사",
+          "응급 수술"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "항생제 투여",
+          "위 천공 수술(복강경 또는 개복술), 궤양 천공 수술 (복강경 또는 개복술), 급성복막염 수술"
+        ]
+      }
+    }
+  ]
+}

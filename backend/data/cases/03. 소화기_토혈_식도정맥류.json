@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최지훈",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "오늘 아침부터 피를 토했다며 응급실로 내원하였다. ",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "22회/분",
+        "temperature": "36.9℃"
+      },
+      "chiefComplaint": "아침부터 피를 토하고 있어요. ",
+      "history": {
+        "onset": "오늘 아침 7시경 ",
+        "frequency": "3회 ",
+        "experience": "처음 ",
+        "quantity": "종이컵 2컵 정도 ",
+        "character": "검붉은색, 덩어리진 피, 거품(-), 음식물(-) ",
+        "associatedSymptoms": {
+          "general": "어지러움(+), 식은땀(+), 쇠약감(+) ",
+          "gi": "복통(-), 설사(-), 변비(-), 혈변(-), 흑변(-) ",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "멍이 잘 듦(+), 코피(+)",
+          "dehydration": "갈증(+) "
+        },
+        "factors": "평소 알코올성 간질환 병력이 있고, 최근 술을 많이 마셨음(+)",
+        "pastHistory": {
+          "events": "간경변증 진단 받음(5년 전), 최근 간 기능 검사에서 악화 소견 보임 ",
+          "medical": "고혈압(+), 당뇨병(-), 간경변증(+)",
+          "surgical": "없음 ",
+          "medications": "베타차단제 복용 중 ",
+          "social": "알코올 섭취(+, 매일 소주 2병 이상), 흡연(+, 하루 1갑) "
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 저하, 빈맥, 창백, 맥박 약함 ",
+        "heent": "결막 창백(+)",
+        "abdomen": "간 비대(+), 복수(+) ",
+        "extremity": "말초부위 냉감(+)"
+      },
+      "patientQuestion": "제가 얼마나 위험한 상황인가요? ",
+      "impression": {
+        "likelyDiagnoses": [
+          "식도정맥류 출혈",
+          "위궤양 출혈",
+          "십이지장궤양 출혈"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경 검사",
+          "혈액 검사(CBC, PT/PTT, 간 기능 검사)",
+          "복부 초음파 검사"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "혈압 상승제 투여",
+          "내시경적 지혈술",
+          "비타민 K 투여"
+        ]
+      }
+    }
+  ]
+}

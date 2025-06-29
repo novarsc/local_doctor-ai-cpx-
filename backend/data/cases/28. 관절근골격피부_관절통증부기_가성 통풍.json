@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김민수씨가 왼쪽 무릎 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "76회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "무릎이 너무 아파요.",
+      "history": {
+        "onset": "2일 전",
+        "location": "왼쪽 무릎",
+        "duration": "2일째 지속",
+        "course": "갑자기 시작",
+        "character": "심한 통증, NRS 8점, 붓고 따뜻하며 움직이기 힘들다.  방사통 없음. 조조강직 없음.  열감/부종/발적/압통(+/+/+/+)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(-/-/-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "피부 발진/광과민성(-/-)",
+          "infection": "관절 주사/최근 감기/감염/설사(-/-/-/-)",
+          "sjogren": "입마름/눈마름(-/-)"
+        },
+        "factors": "특별한 외상이나 과격한 운동은 없었음.  과음 후 증상 시작.",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "무릎 수술력 없음",
+          "medications": "고혈압약, 고지혈증약 복용 중",
+          "social": "흡연 20갑/년, 음주 잦음",
+          "family": "가족력 없음",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "결막/공막/갑상선(-/-/-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "왼쪽 무릎 관절에 심한 부종과 발적, 압통 및 열감 관찰.  관절 운동 제한.  피부 병변 없음."
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "가성 통풍",
+          "급성 통풍",
+          "감염성 관절염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (혈액세포 수, 혈청 요산 수치, 염증 지표)",
+          "관절액 검사",
+          "무릎 X-ray"
+        ],
+        "therapeutic": [
+          "휴식",
+          "냉찜질",
+          "진통소염제",
+          "콜히친(필요시)"
+        ]
+      }
+    }
+  ]
+}

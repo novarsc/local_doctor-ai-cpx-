@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 24,
+        "gender": "여자"
+      },
+      "situation": "24세 여자 박선우씨가 불안감과 함께 심계항진을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg ",
+        "heartRate": "90회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.5℃ "
+      },
+      "chiefComplaint": "가슴이 두근거리고 불안해요.",
+      "history": {
+        "onset": "3일 전 ",
+        "experience": "처음",
+        "course": "점차 심해짐",
+        "location": "-",
+        "character": "시험 기간이라 커피를 평소보다 많이 마셨는데, 갑자기 가슴이 두근거리고 불안해졌어요. 숨이 차고 손이 떨리는 증상도 있어요.",
+        "associatedSymptoms": "[순환] 심계항진(+), 두근거림(+), 손떨림(+)  [호흡] 숨참(+), 호흡곤란(+) [정신] 불안(+), 초조함(+), 집중 안 됨(+), 수면장애(+), 식욕부진(+)  [소화기] 복통(-), 설사(-) [기타] 어지러움(-)",
+        "factors": "카페인 섭취 증가(하루 5잔 이상)",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "커피를 하루에 1~2잔 정도 마시는 편이나, 최근 시험 때문에 하루 5잔 이상 마심, 흡연(-), 음주(월 1회 소량)",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적, 불안감 보임",
+        "heent": "결막/구강(-/-), 갑상샘(-)",
+        "chest": "청진상 심잡음(-)",
+        "extremity": "말초부종(-)"
+      },
+      "patientQuestion": "시험 때문에 커피를 끊을 수 없는데 어떻게 해야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "카페인 유도성 불안장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(갑상샘 기능 검사, 전해질 검사)",
+          "심전도"
+        ],
+        "therapeutic": [
+          "카페인 섭취 감소 권고",
+          "충분한 수면 및 휴식 강조",
+          "필요시 항불안제 단기 처방"
+        ]
+      }
+    }
+  ]
+}

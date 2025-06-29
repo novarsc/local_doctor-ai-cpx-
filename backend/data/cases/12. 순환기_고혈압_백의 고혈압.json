@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 50,
+        "gender": "남자"
+      },
+      "situation": "혈압이 높다고 하여 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "160/95mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "혈압이 높다고 합니다.",
+      "history": {
+        "onset": "3개월 전",
+        "duration": "3개월 동안 지속됨",
+        "course": "점차 증가하는 양상",
+        "character": "건강검진에서 혈압이 높게 나왔다고 연락을 받았습니다.",
+        "associatedSymptoms": {
+          "general": "발열/오한/식은땀/체중 변화/피로/부종(-/-/-/-/-)",
+          "circulatory": "가슴 통증(-), 두근거림(-)",
+          "endocrine": "다음/다뇨/다갈(-/-/-), 식은땀/손떨림(-/-)",
+          "neuro": "두통(-), 어지럼(-), 시야 변화(-)"
+        },
+        "factors": "스트레스가 많고, 야근을 자주 합니다. 흡연 20갑년.",
+        "pastHistory": {
+          "events": "특이사항 없음",
+          "medical": "DM/TB/HTN/간염/고지혈증(-/-/-/-)",
+          "medications": "없음",
+          "social": "술(+, 주 2회 소주 1병), 담배(+, 20갑년), 직업(회사원), 스트레스(매우 심함)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 확인(현재 혈압 160/95mmHg)",
+        "heent": "안저검사(-), 갑상샘(-), 경정맥 울혈(-), 경동맥 잡음(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부대동맥류(-), 신혈관 잡음(-)",
+        "extremity": "오목 부종(-), 사지맥박 정상"
+      },
+      "patientQuestion": "혈압약을 먹어야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "백의 고혈압",
+          "본태성 고혈압"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "24시간 혈압 측정",
+          "혈액검사",
+          "심전도"
+        ],
+        "therapeutic": [
+          "생활습관 교정 상담",
+          "추가적인 혈압 측정"
+        ]
+      }
+    }
+  ]
+}

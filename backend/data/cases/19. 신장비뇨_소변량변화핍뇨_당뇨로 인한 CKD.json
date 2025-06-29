@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김철수씨가 2주 전부터 소변량이 줄고, 다리가 붓는 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "145/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변량이 줄고, 다리가 부어요.",
+      "history": {
+        "onset": "2주 전",
+        "course": "점진적 악화",
+        "experience": "처음",
+        "character": "소변량 감소, 하루 소변 횟수 감소, 소변 색깔 진해짐, 거품소변 없음, 다리 부종, 양측성 발목 부종, 심한 경우 무릎까지 부종",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중 변화(-), 발열/오한(-/-)",
+          "digestive": "식욕부진(+), 메스꺼움(-), 구토(-)",
+          "circulatory": "호흡곤란(-), 흉통(-)",
+          "renal_urinary": "야뇨(+), 절박뇨(-), 배뇨통(-), 혈뇨(-)",
+          "musculoskeletal_skin": "피부 가려움증(-), 근육통(-)"
+        },
+        "factors": "고혈압, 당뇨병 병력 있음, 최근 과도한 운동이나 섭취한 특이사항 없음",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전 진단), 당뇨병(+, 5년 전 진단), 고지혈증(-)",
+          "medications": "고혈압약(Amlodipine 5mg 1일 1회), 당뇨약(Metformin 500mg 1일 3회), 기타 약물(-)",
+          "social": "흡연(+, 2갑/일, 30년), 음주(+, 소주 1병/주, 20년)",
+          "family": "부모님 당뇨병 병력 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 상승, 양측성 발목 부종 관찰",
+        "heent": "결막/구강 건조 없음, 갑상선 비대 없음",
+        "abdomen": "복부 촉진시 통증 없음, 신장 압통 없음",
+        "extremity": "양측성 발목, 종아리 부종(+), 피부색 변화 없음"
+      },
+      "patientQuestion": "제 상태가 얼마나 심각한가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "당뇨로 인한 CKD",
+          "만성 심부전",
+          "사구체 신염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(BUN, Creatinine, eGFR, 전해질, 당화혈색소, 지질, 염증수치)",
+          "소변검사(단백뇨, 미세알부민뇨)",
+          "신장 초음파"
+        ],
+        "therapeutic": [
+          "혈압 조절 강화",
+          "당뇨 관리 강화",
+          "저단백 식이요법 교육",
+          "필요시 ACE inhibitor 처방"
+        ]
+      }
+    }
+  ]
+}

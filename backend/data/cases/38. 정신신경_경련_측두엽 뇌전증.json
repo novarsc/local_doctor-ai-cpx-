@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민준",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김민준씨가 반복적인 경련 발작으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "최근 경련이 자주 일어나요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "전신",
+        "duration": "각 발작 당 2-3분",
+        "experience": "약 10회 발생",
+        "character": "발작 전 특징적인 전조 증상으로 오른쪽 측두부의 이상한 냄새 감지 및 섬광을 호소. 발작 중 의식 소실, 전신 강직-간대 경련, 혀 깨물림, 타액 분비. 발작 후 피로감 및 두통 호소, 발작에 대한 기억 상실. ",
+        "associatedSymptoms": "[전신] 발열/오한/피로(+/-/+) [신경] 두통/어지럼증/시야장애(+/+/-) [정신] 기억력 저하/집중력 저하(+/+) ",
+        "factors": "스트레스 증가, 수면 부족",
+        "pastHistory": {
+          "medical": "특이 질환 없음",
+          "trauma_surgery": "없음",
+          "social": "흡연(+, 하루 한 갑), 음주(+, 주 3회 소주 2병), 커피(+, 하루 3잔), 운동(-), 스트레스(+) "
+        }
+      },
+      "physicalExam": {
+        "general": "Vital signs stable",
+        "heent": "두경부 외상 없음",
+        "neuro": "신경계 진찰상 특이 소견 없음. 근력, 감각, 반사 정상.",
+        "extremity": "팔다리 운동 범위 정상"
+      },
+      "patientQuestion": "이 병이 완치될 수 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "측두엽 뇌전증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌파 검사",
+          "뇌 MRI",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "항경련제 처방",
+          "생활 습관 개선 상담",
+          "정기적인 추적 관찰"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 60,
+        "gender": "남자"
+      },
+      "situation": "가슴이 두근거린다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "가슴이 쿵하고 내려앉는 느낌이에요.",
+      "history": {
+        "onset": "2주 전부터",
+        "duration": "1~2초",
+        "course": "하루에 몇 번씩 발생",
+        "experience": "처음",
+        "character": "쿵하고 내려앉는 느낌, 불규칙적. 숨이 차거나 어지러운 느낌은 없음.",
+        "associatedSymptoms": {
+          "circulatory": "어지러움(-), 흉통(-), 호흡곤란(-), 실신(-)",
+          "endocrine": "더위/추위 불내성(-/-), 손떨림(-)",
+          "gi": "소화불량(-)"
+        },
+        "factors": "특별한 유발 요인 없음.  휴식 시에도 발생.",
+        "pastHistory": {
+          "medical": "고혈압(10년 경력), 고지혈증(5년 경력), DM(-), TB(-), 간염(-)",
+          "social": "흡연(하루 1갑, 30년 경력), 음주(주 2회, 소주 1병), 커피(하루 2잔)",
+          "family": "부친 고혈압, 고지혈증 병력"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 약간 높음.  심음 청진 시 심박 불규칙성은 관찰되지 않음.",
+        "cardiovascular": "심첨부 박동 규칙적이며, 잡음 없음."
+      },
+      "patientQuestion": "심장에 문제가 있는 건 아닐까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "심방조기수축(PAC)",
+          "심실조기수축(PVC)",
+          "생리적 심계항진"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도 검사",
+          "24시간 홀터 모니터링",
+          "심초음파 검사"
+        ],
+        "therapeutic": [
+          "생활 습관 개선 상담(금연, 절주, 저염식)",
+          "고혈압, 고지혈증 약물 복용 지속"
+        ]
+      }
+    }
+  ]
+}

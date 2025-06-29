@@ -1,0 +1,85 @@
+checklist:
+  topic_kr: "발열"
+  topic_en: "Fever"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 발열 시작 시점 및 기간 (Onset and duration of fever)
+            - 발열 패턴 (e.g., 지속적, 간헐적, 재발성) (Pattern of fever (e.g., continuous, intermittent, relapsing))
+            - 최고 체온 (Maximum temperature recorded)
+            - 발열 양상 (e.g., 오한, 식은땀) (Characteristics of fever (e.g., chills, night sweats))
+            - 해열제 사용 및 반응 (Use of antipyretics and response)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 상기도 감염 증상 (Upper respiratory tract infection symptoms: 기침, 콧물, 인후통) (Cough, runny nose, sore throat)
+            - 위장관 증상 (Gastrointestinal symptoms: 오심, 구토, 설사, 복통) (Nausea, vomiting, diarrhea, abdominal pain)
+            - 근육통/관절통 (Myalgia/Arthralgia)
+            - 피부 발진 (Skin rash)
+            - 두통 (Headache)
+            - 기타 증상 (Other symptoms)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 최근 여행력 (Recent travel history)
+            - 감염자 접촉력 (Contact with infected individuals)
+            - 만성 질환 (Chronic medical conditions)
+            - 면역 저하 상태 (Immunocompromised status)
+            - 최근 예방 접종 (Recent vaccinations)
+            - 약물 복용력 (Medication history)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 활력 징후 측정 (Vital signs: 체온, 맥박, 호흡, 혈압) (Temperature, pulse, respiration, blood pressure)
+            - 전반적인 상태 관찰 (General appearance)
+            - 피부 병변 확인 (Skin examination for lesions)
+            - 림프절 촉진 (Lymph node palpation)
+            - 심폐음 청진 (Cardiopulmonary auscultation)
+            - 복부 진찰 (Abdominal examination)
+            - 신경학적 진찰 (Neurological examination)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 필요시 특정 부위 추가 진찰 (Further examination of specific areas as needed)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Infection (viral, bacterial, fungal, parasitic)"
+            - "Autoimmune disease (e.g., Systemic lupus erythematosus, Rheumatoid arthritis)"
+            - "Malignancy"
+            - "Drug-induced fever"
+            - "Other inflammatory conditions"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Comprehensive metabolic panel (CMP)"
+                - "Inflammatory markers (CRP, ESR)"
+                - "Blood cultures (if indicated)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Chest X-ray (if respiratory symptoms present)"
+                - "CT scan (if localized infection suspected)"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "발열의 원인과 진단 과정에 대해 설명하고, 충분한 수분 섭취 및 휴식의 중요성을 강조합니다. (Explain the causes and diagnostic process of fever, and emphasize the importance of adequate hydration and rest.)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "의식 변화, 호흡 곤란, 심한 두통, 발진, 지속적인 구토 등 악화되는 증상 발생 시 즉시 의료기관을 방문하도록 안내합니다. (Instruct the patient to seek immediate medical attention if worsening symptoms such as altered mental status, difficulty breathing, severe headache, rash, or persistent vomiting occur.)"

@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 27,
+        "gender": "남자"
+      },
+      "situation": "불안감과 초조함을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "88회/분",
+        "respiration": "18회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "가슴이 답답하고 불안해요",
+      "history": {
+        "onset": "3개월 전부터",
+        "duration": "수 시간에서 수 일간 지속",
+        "course": "점점 심해지는 양상",
+        "experience": "처음",
+        "character": "[양상] 갑작스러운 불안감과 초조함, 숨이 가빠짐. [정도] 심한 불안감. [동반증상] 가슴 두근거림(+), 손떨림(+), 식은땀(+), 어지러움(+), 수면장애(+)",
+        "associatedSymptoms": {
+          "general": "피로감(+), 집중력 저하(+), 불면증(+), 식욕부진(+)",
+          "circulatory": "가슴 두근거림(+), 손발 저림(+)",
+          "gi": "소화불량(+), 설사(+)"
+        },
+        "factors": "특별한 유발 요인 없음, 스트레스 받을 때 악화, 술을 마시면 증상 완화",
+        "pastHistory": {
+          "medical": "DM/TB/HTN/간염(-/-/-/-)",
+          "social": "직업: 회사원, 흡연(하루 1갑), 음주(주 2회, 소주 3병), 스트레스(많음)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "안절부절못함, 불안한 표정, 손떨림(+), 땀이 남",
+        "neurological": "의식청명"
+      },
+      "patientQuestion": "제가 괜찮을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "불안장애",
+          "공황장애",
+          "일반화된 불안장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "정신과적 평가",
+          "신체검사",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "인지행동치료(CBT)",
+          "약물치료(항불안제, 항우울제)",
+          "스트레스 관리 교육"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "오른쪽 가슴 통증과 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "가슴이 아프고 숨쉬기가 힘들어요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "오른쪽 가슴, 옆구리까지 퍼짐",
+        "radiation": "등쪽으로 퍼지는 통증",
+        "duration": "지속적, 간헐적으로 심해짐",
+        "course": "3일 전부터 시작, 점차 심해짐.  오늘 아침 기침 후 심해짐.",
+        "experience": "처음",
+        "character": "날카로운 찌르는 듯한 통증, 숨을 쉴 때 심해짐. NRS 8/10.  깊게 숨 쉴 때 통증 심함.",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(+/+/-)",
+          "gi": "속쓰림/신물 올라옴(-/-)",
+          "circulatory": "두근거림/호흡곤란(+/+, 심한 가슴 통증과 동반)",
+          "respiratory": "기침/가래/객혈/쌕쌕거림(++/-/-/-)",
+          "msk_skin": "피부 발진(-)",
+          "psych": "불안감(+)"
+        },
+        "factors": "악화: 깊은 호흡, 기침, 움직임. 완화: 가만히 있을 때, 진통제 복용 후 일시적 완화.",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "medications": "고혈압 약, 당뇨병 약",
+          "social": "흡연(+, 하루 한 갑/30년), 음주(+, 소주 1병/주 2회), 스트레스(+), 직업: 은퇴",
+          "family": "아버지: 심장병"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정, 호흡곤란, 발열",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "chest": "오른쪽 흉곽 압통(+),  호흡음 감소(오른쪽 하부). 심음(-)",
+        "abdomen": "시/청/타/촉(-/-/-/-)",
+        "extremity": "맥박(-), Pitting edema(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "늑막염",
+          "폐렴",
+          "폐색전증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "혈액 검사(CBC, CRP, procalcitonin)",
+          "객담 검사",
+          "CT 촬영"
+        ],
+        "therapeutic": [
+          "항생제",
+          "진통제",
+          "산소요법",
+          "수액요법"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 오른쪽 어깨 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "어깨가 아파요",
+      "history": {
+        "onset": "2주 전",
+        "location": "오른쪽 어깨, 목덜미",
+        "duration": "주로 저녁에 심해짐",
+        "course": "점차 악화",
+        "experience": "비슷한 증상 6개월 전 있었으나, 자연적으로 호전됨",
+        "character": "[양상] 뻐근하고 쑤시는 통증, 움직일 때 심해짐\n[강도] NRS 5~6점",
+        "associatedSymptoms": {
+          "general": "수면장애(+), 피로감(+)",
+          "meningitis": "두통/발열/경부 강직(-/-/-)"
+        },
+        "factors": "악화: 오른팔을 위로 들어올릴 때, 무거운 물건 들 때\n완화: 휴식, 온찜질",
+        "pastHistory": {
+          "medical": "고혈압(진단받은지 5년), 고지혈증",
+          "medications": "로사르탄 50mg 1일 1회, 아토르바스타틴 10mg 1일 1회",
+          "social": "흡연(1일 1갑, 20년), 음주(주 2회 소주 2병)",
+          "family": "부친 고혈압",
+          "obgyn": "해당없음",
+          "other": "사무직 근무(장시간 컴퓨터 사용)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 정상",
+        "heent": "결막/공막 정상",
+        "extremity": "오른쪽 어깨 상부 압통(+), 견관절 운동 범위 제한(+), 근육 경직(+)"
+      },
+      "patientQuestion": "어깨 수술은 해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "근막동통증후군",
+          "회전근개 손상",
+          "오십견"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "어깨 X-ray",
+          "어깨 초음파"
+        ],
+        "therapeutic": [
+          "물리치료",
+          "약물치료(소염진통제)",
+          "주사치료(유발점 주사)"
+        ]
+      }
+    }
+  ]
+}

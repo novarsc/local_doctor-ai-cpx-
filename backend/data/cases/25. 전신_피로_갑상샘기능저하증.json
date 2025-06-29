@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김지수",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 김지수씨가 체중 증가와 변비, 피로감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "60회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "살이 찌고 변비가 심해졌어요.  그리고 너무 피곤해요.",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "지속적",
+        "course": "점진적으로 악화됨",
+        "experience": "처음",
+        "character": "쉽게 피곤해지고, 아침에 일어나기 힘들며, 집중력이 떨어짐.  변비는 일주일에 2회 미만으로 변을 보며, 딱딱한 변을 보는 경우가 많음. 체중은 6개월 전부터 약 5kg 증가함.",
+        "associatedSymptoms": {
+          "general": "체중 증가(5kg), 추위를 많이 탐",
+          "digestive": "변비(일주일에 2회 미만, 딱딱한 변)",
+          "circulatory": "손발이 차고 저림",
+          "psychiatric": "우울감",
+          "sleep": "수면 시간은 충분하지만, 숙면을 취하지 못함",
+          "endocrine": "월경량 감소"
+        },
+        "factors": "특별한 악화 요인 없음",
+        "pastHistory": {
+          "social": "직업: 회사원, 스트레스는 중간 정도,  규칙적인 운동은 하지 않음, 식사는 불규칙적임",
+          "obgyn": "폐경 전",
+          "other": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "체중 증가, 피부 건조, 얼굴 부종 약간 관찰됨",
+        "heent": "갑상선 비대 없음",
+        "abdomen": "복부 압통 없음",
+        "extremity": "말초 부종 없음"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "갑상샘기능저하증",
+          "만성피로증후군",
+          "우울증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "갑상선 기능 검사 (TSH, FT4, FT3)",
+          "혈액검사 (CBC, CMP)",
+          "갑상선 초음파"
+        ],
+        "therapeutic": [
+          "갑상선 호르몬 보충 요법"
+        ]
+      }
+    }
+  ]
+}

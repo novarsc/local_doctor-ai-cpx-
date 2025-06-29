@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "caseType": "실전 모의 증례 [하이브리드]",
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "심한 복통과 설사로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "16회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "배가 너무 아프고 설사를 계속 해요",
+      "history": {
+        "onset": "3일 전",
+        "location": "하복부, 특히 좌측 하복부 통증 심함",
+        "duration": "지속적, 배변 후 일시적 완화",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "심한 복통, 혈변은 없음, 하루 10회 이상 물 같은 설사",
+        "associatedSymptoms": {
+          "gi": "오심, 구토(1회), 식욕부진(+), 복부 팽만감(+), 잔변감(+), 체중 감소(2kg, 최근 1달간)"
+        },
+        "factors": "특별한 원인 없음",
+        "pastHistory": {
+          "events": "특이 사항 없음",
+          "surgical": "없음",
+          "medical": "없음",
+          "social": "흡연(1갑/일, 5년), 음주(주 2~3회, 소주 2병), 커피(2잔/일), 스트레스 많음",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감, 빈맥",
+        "heent": "정상",
+        "abdomen": "복부 압통(좌측 하복부), 반발압통(+), 장음 항진",
+        "extremity": "정상"
+      },
+      "patientQuestion": "무슨 병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "염증성 장질환 (궤양성 대장염 의심)",
+          "감염성 장염",
+          "과민성 대장 증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변 검사(대장균, 염증 수치),",
+          "혈액 검사(CRP, WBC)",
+          "대장내시경"
+        ],
+        "therapeutic": [
+          "수액 치료",
+          "항생제(감염 의심 시)",
+          "항염증제(궤양성 대장염 의심 시)"
+        ]
+      }
+    }
+  ]
+}

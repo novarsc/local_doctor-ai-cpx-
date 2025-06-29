@@ -1,0 +1,95 @@
+checklist:
+  topic_kr: "산전 진찰"
+  topic_en: "Prenatal Checkup"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "현재 임신 관련 정보"
+          subtitle_en: "Current Pregnancy Information"
+          details: |
+            - [마지막 월경 시작일 (Last Menstrual Period, LMP)]
+            - [예정일 (Estimated Date of Delivery, EDD)]
+            - [현재 임신 주수 (Current Gestational Age)]
+            - [과거 산과력 (Gravida, Para, Abortion)]
+        - subtitle_kr: "증상 확인"
+          subtitle_en: "Symptom Assessment"
+          details: |
+            - [질 출혈 (Vaginal Bleeding)]
+            - [복통 (Abdominal Pain)]
+            - [태동 (Fetal Movement)]
+            - [두통, 시야 변화, 부종 (Headache, Vision Changes, Edema)]
+        - subtitle_kr: "과거력 및 위험 요인"
+          subtitle_en: "Past Medical History and Risk Factors"
+          details: |
+            - [만성 질환 (Chronic Diseases, e.g., Hypertension, Diabetes)]
+            - [감염 질환 (Infections, e.g., Hepatitis B, HIV)]
+            - [알레르기 (Allergies)]
+            - [가족력 (Family History of Genetic Disorders)]
+            - [약물 복용력 (Medication History)]
+            - [사회력 (Social History, e.g., Smoking, Alcohol)]
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "전반적인 상태"
+          subtitle_en: "General Appearance"
+          details: |
+            - [활력 징후 (Vital Signs)]
+            - [신장 및 체중 (Height and Weight)]
+        - subtitle_kr: "산과적 진찰"
+          subtitle_en: "Obstetric Examination"
+          details: |
+            - [자궁 크기 측정 (Fundal Height Measurement)]
+            - [태아 심박동 확인 (Fetal Heart Rate Monitoring)]
+            - [태아 위치 확인 (Fetal Presentation)]
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "정상 임신"
+          subtitle_en: "Normal Pregnancy"
+          diagnoses:
+            - "Normal Pregnancy"
+        - subtitle_kr: "임신 관련 합병증"
+          subtitle_en: "Pregnancy-Related Complications"
+          diagnoses:
+            - "Gestational Diabetes Mellitus"
+            - "Pre-eclampsia"
+            - "Placenta Previa"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Blood Type and Rh Factor"
+                - "Rubella Antibody Titer"
+                - "Hepatitis B Surface Antigen (HBsAg)"
+                - "HIV Antibody Test"
+                - "Syphilis Test (RPR or VDRL)"
+            - category_kr: "소변 검사"
+              category_en: "Urine Tests"
+              tests:
+                - "Urinalysis"
+                - "Urine Culture"
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "산전 관리 교육"
+          subtitle_en: "Prenatal Care Education"
+          details: |
+            - [규칙적인 산전 진찰의 중요성 (Importance of Regular Prenatal Visits)]
+            - [건강한 식단 및 영양 섭취 (Healthy Diet and Nutrition)]
+            - [적절한 운동 (Appropriate Exercise)]
+            - [약물 복용 및 음주, 흡연 금지 (Avoidance of Medications, Alcohol, and Smoking)]
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: |
+            - [질 출혈 (Vaginal Bleeding)]
+            - [심한 복통 (Severe Abdominal Pain)]
+            - [심한 두통 또는 시야 변화 (Severe Headache or Vision Changes)]
+            - [손발의 부종 (Swelling of Hands and Feet)]
+            - [태동 감소 (Decreased Fetal Movement)]

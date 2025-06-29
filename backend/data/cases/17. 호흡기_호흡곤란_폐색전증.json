@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김지혜",
+        "age": 60,
+        "gender": "여자"
+      },
+      "situation": "60세 여자 김지혜씨가 갑작스러운 호흡곤란으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/90mmHg",
+        "heartRate": "110회/분",
+        "respiration": "25회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "숨을 쉴 수가 없어요",
+      "history": {
+        "onset": "2시간 전",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "갑자기 숨이 가빠지고, 숨을 쉴 때마다 가슴이 찢어지는 듯한 통증이 있다고 함.  앉아있거나 걸어다닐 때 더 심해짐.",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 피로감(+), 체중변화(-)",
+          "respiratory": "기침(-), 가래(-), 객혈(-), 흉통(+, 칼로 찌르는 듯한 통증)",
+          "circulatory": "다리 부종(+, 오른쪽 다리)",
+          "psychiatric": "불안감(+), 공포감(+)"
+        },
+        "factors": "앉아있거나 움직일 때 악화, 누워 있으면 다소 호전",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "2주 전 우측 하지 정맥류 수술",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "흡연(-), 음주(+, 술을 자주 마심)",
+          "family": "가족력 없음",
+          "obgyn": "폐경"
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란, 빈맥, 불안한 상태",
+        "heent": "결막창백(-), 경부 림프절(-)",
+        "chest": "호흡음 감소(우측 폐 하엽), 잡음(+)",
+        "extremity": "오른쪽 다리 부종(+), 압통(+), 발적(+), Homan's sign(+)"
+      },
+      "patientQuestion": "제가 왜 이렇게 힘든 건가요? 괜찮아질 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐색전증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 CT 촬영",
+          "다리 정맥 초음파",
+          "심전도",
+          "동맥혈 가스 분석"
+        ],
+        "therapeutic": [
+          "헤파린 정맥 주사",
+          "산소 요법",
+          "입원 치료"
+        ]
+      }
+    }
+  ]
+}

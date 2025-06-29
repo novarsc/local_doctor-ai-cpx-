@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 27,
+        "gender": "남자"
+      },
+      "situation": "27세 남자 김민수씨가 소변 시 통증과 분비물을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변 볼 때 따갑고, 뭔가 나와요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "요도",
+        "duration": "소변 볼 때마다 지속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "소변 시 요도 끝의 작열감과 통증(NRS 6/10), 노란색 농성 분비물 관찰, 소변량 감소 없음",
+        "associatedSymptoms": {
+          "general": "발열/오한/근육통(-/-/-)",
+          "urinary": "빈뇨/절박뇨/야간뇨/배뇨통(+/-/-)",
+          "genitals": "요도 분비물(+, 노란색 고름), 외음부 통증/가려움(-/-)"
+        },
+        "factors": "3일 전 새로운 파트너와 콘돔 없이 성관계, 파트너의 증상은 확인하지 못함",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 2회, 소주 2병), 커피(+, 하루 2잔), 스트레스(+)",
+          "family": "특이사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정",
+        "heent": "특이 소견 없음",
+        "abdomen": "특이 소견 없음",
+        "extremity": "특이 소견 없음",
+        "genitals": "요도구에서 노란색 농성 분비물 관찰, 압통(+) 서혜부 림프절 비대 없음"
+      },
+      "patientQuestion": "이 병은 어떻게 걸린 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "임균성 요도염",
+          "클라미디아 요도염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요도 분비물 배양 검사",
+          "핵산 증폭 검사 (NAAT)"
+        ],
+        "therapeutic": [
+          "세프트리아크손(ceftriaxone) 단회 투여",
+          "아지트로마이신(azithromycin) 1회 복용",
+          "파트너 검사 및 치료 권고",
+          "성관계 자제"
+        ]
+      }
+    }
+  ]
+}

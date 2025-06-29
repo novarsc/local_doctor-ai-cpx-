@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 10,
+      "patientProfile": {
+        "name": "최민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 최민수씨가 2주간 지속되는 기침과 함께 가래에 피가 섞여 나와 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "80회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "가래에 피가 섞여 나와요",
+      "history": {
+        "onset": "2주 전",
+        "duration": "2주간 지속",
+        "course": "점차 증상 악화",
+        "experience": "처음 발생",
+        "character": "가래 양은 많지 않으나, 가래에 혈액이 섞여 나옴. 색깔은 선홍색, 거품 없음, 냄새 없음, 기침과 동반됨.",
+        "associatedSymptoms": {
+          "general": "발열(+, 37.2℃), 오한(+), 체중 감소(5kg, 3개월), 야간 발한(+), 피로감(+)",
+          "respiratory": "기침(+, 심한 기침), 가래(+, 혈액 섞임), 흉통(-), 호흡곤란(-)",
+          "other": "식욕 감소(+)"
+        },
+        "factors": "최근 해외여행(-), 접촉자 없음, 흡연력(+, 30갑년)",
+        "pastHistory": {
+          "medical": "결핵(-), 고혈압(+), 당뇨병(-)",
+          "medications": "고혈압약 복용 중",
+          "social": "흡연(+, 30갑년), 음주(주 2회 소주 1병), 직업: 은퇴, 스트레스(+)",
+          "family": "결핵 병력(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "미열, 피로감 보임",
+        "heent": "결막/공막(정상), 경부 림프절(촉진 불가능)",
+        "chest": "흉부 청진시 약간의 수포음 들림",
+        "extremity": "청색증/곤봉지(-/-)"
+      },
+      "patientQuestion": "폐암일까 걱정입니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐결핵",
+          "폐암",
+          "기관지확장증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "흉부 CT",
+          "객담 검사(항산균 배양, 핵산 증폭 검사)",
+          "혈액 검사(CBC, 간기능 검사)"
+        ],
+        "therapeutic": [
+          "경험적 항결핵 치료 시작",
+          "금연 상담"
+        ]
+      }
+    }
+  ]
+}

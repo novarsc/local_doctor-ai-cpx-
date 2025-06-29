@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "가슴 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "가슴이 답답하고 아파요.",
+      "history": {
+        "onset": "30분 전 운동 중 발생",
+        "location": "가슴 중앙",
+        "radiation": "왼쪽 팔로 뻗침",
+        "duration": "약 5분 지속 후 호전",
+        "course": "운동 시 반복적으로 발생",
+        "experience": "3개월 전부터 간헐적으로 발생",
+        "character": "압박감과 뻐근함, NRS 6점",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(-/-/-)",
+          "gi": "속쓰림/신물 올라옴(-/-)",
+          "circulatory": "두근거림/호흡곤란(-/-)",
+          "respiratory": "기침/가래/객혈/쌕쌕거림(-/-/-/-)",
+          "msk_skin": "피부 발진(-)",
+          "psych": "불안감(-)"
+        },
+        "factors": "악화: 운동, 계단 오르기. 완화: 휴식",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약, 스타틴",
+          "social": "흡연(+, 하루 1갑, 30년), 음주(+, 주 2회 소주 1병), 스트레스(+, 직장 업무)",
+          "family": "부친: 심근경색"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-), 경동맥 시/청(-/-)",
+        "chest": "심음 정상, 폐음 정상, 압통(-)",
+        "abdomen": "시/청/타/촉(-/-/-/-)",
+        "extremity": "맥박(-), Pitting edema(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "협심증",
+          "불안정형 협심증",
+          "심근경색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "심근효소 검사",
+          "심초음파",
+          "관상동맥조영술"
+        ],
+        "therapeutic": [
+          "니트로글리세린",
+          "아스피린",
+          "베타 차단제",
+          "ACE 억제제"
+        ]
+      }
+    }
+  ]
+}

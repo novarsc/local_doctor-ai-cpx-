@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 김민수씨가 갑작스러운 어지럼증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "어지러워요",
+      "history": {
+        "onset": "어제 저녁",
+        "duration": "지속적",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "빙빙 도는 느낌과 함께 메스꺼움과 구토를 동반",
+        "associatedSymptoms": "[전신] 발열, 오한(-/-) [신경] 이명(-), 두통(+), 구토(+), 메스꺼움(+),  시야 흐림(-), 보행 장애(+) [소화] 식욕부진(+) ",
+        "factors": "특별한 유발 요인 없음",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연 40갑년, 음주 주 2회"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "neuro": "의식 명료, 뇌신경 검사 정상, 소뇌 기능 검사 정상,  자발 안진 관찰됨, Dix-Hallpike 검사 양성 소견 없음"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "전정신경염",
+          "뇌졸중",
+          "소뇌 이상"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "전정 기능 검사",
+          "뇌영상 검사(MRI)",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "항구토제",
+          "메스꺼움 완화제",
+          "증상 완화 치료"
+        ]
+      }
+    }
+  ]
+}

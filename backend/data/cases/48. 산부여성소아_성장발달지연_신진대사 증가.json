@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박선우",
+        "age": "10세",
+        "gender": "여아"
+      },
+      "situation": "키가 작고 체중이 적어 걱정되어 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "85회/분",
+        "respiration": "20회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "아이 키가 작고 체중도 적은 것 같아요.",
+      "history": {
+        "onset": "최근 1년 동안 키 성장이 거의 없었고, 체중도 잘 늘지 않음.",
+        "growthAndDevelopment": {
+          "growth": "키 120cm (3%), 체중 25kg (5%).  최근 1년간 키 2cm 성장.",
+          "development": "정상 발달. 또래 아이들과 잘 어울리고, 학업 성취도도 좋음.",
+          "vaccination": "예방접종 모두 완료"
+        },
+        "perinatalHistory": "만삭아, 자연분만, 출생 시 체중 및 키 정상. 임신 및 분만 과정에 특이사항 없음.",
+        "neonatalHistory": "신생아 대사이상 검사 정상. 신생아 황달 없었음.",
+        "pastHistory": "특이 병력 없음.",
+        "environment": {
+          "caregiver": "엄마가 주로 양육. 맞벌이 가정.",
+          "nutrition": "편식 없이 잘 먹음. 식사량 충분.",
+          "sleep": "수면 시간 충분 (매일 밤 9시 취침, 아침 7시 기상)",
+          "exercise": "주 3회 발레 수업"
+        },
+        "familyHistory": "부모 모두 키가 작은 편임. 가족력에 특이사항 없음."
+      },
+      "physicalExam": "신체 검진상 특이 소견 없음.",
+      "patientQuestion": "아이의 키가 더 크지 않을까 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "체질적 성장 지연",
+          "신진대사 증가"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "성장 호르몬 검사",
+          "갑상선 기능 검사",
+          "손목 X-ray",
+          "혈액 검사 (빈혈, 영양 상태 확인)"
+        ],
+        "therapeutic": [
+          "정기적인 키와 체중 측정 및 경과 관찰",
+          "영양 섭취 및 수면 관리 지도",
+          "필요시 성장호르몬 치료 고려"
+        ]
+      }
+    }
+  ]
+}

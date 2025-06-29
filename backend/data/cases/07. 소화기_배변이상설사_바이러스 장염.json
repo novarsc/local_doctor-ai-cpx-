@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "심한 설사로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "88회/분",
+        "respiration": "16회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "설사 때문에 힘들어요.",
+      "history": {
+        "onset": "1일 전",
+        "duration": "1일 전부터",
+        "course": "점점 심해짐",
+        "character": "물 같은 설사, 하루 8회 정도",
+        "associatedSymptoms": {
+          "general": "열/오한/피로/부종(-/+/-/-)",
+          "gi": "A/N/V/C/D(-/-/+/+/+), 복통(+, 아랫배, 심하지 않음), H/M/H(-/-/-)",
+          "dehydration": "어지러움/목마름(+/+), 소변량 감소(+)"
+        },
+        "factors": "특별한 것은 없음",
+        "pastHistory": {
+          "events": "특이사항 없음",
+          "medical": "고혈압/당뇨/결핵/간염(-/-/-/-)",
+          "medications": "없음",
+          "social": "음주: 1일 전 소주 2병, 흡연: 1갑/일"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 탈수 증상 없음",
+        "heent": "눈/구강/피부 긴장도(-/-/-)",
+        "abdomen": "압통 없음, 장음 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "빨리 낫고 싶어요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "바이러스 장염",
+          "식중독"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변검사"
+        ],
+        "therapeutic": [
+          "수액치료",
+          "대증요법"
+        ]
+      }
+    }
+  ]
+}

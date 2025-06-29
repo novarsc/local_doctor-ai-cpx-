@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선주",
+        "age": 38,
+        "gender": "여자"
+      },
+      "situation": "38세 여자 박선주씨가 6개월째 생리가 없어 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "생리를 안 해요.",
+      "history": {
+        "onset": "6개월 전",
+        "course": "6개월 전부터 생리가 갑자기 없어졌고, 그 전에는 규칙적인 28일 주기였습니다.",
+        "experience": "과거에 생리 불규칙 경험 없음.",
+        "associatedSymptoms": "[전신] 발열/오한/체중 감소/체중 증가(-/-/-/-) [신장/비뇨] F/U/N/D(-/-/-/-) [기타] 어지럼/두근거림(-/+), 멍/잇몸 출혈(-/-), 안면홍조(+), 야간 발한(+), 수면장애(+),  갑상샘기능항진증(-). 무리한 운동/다이어트/두통/유즙 분비(-/-/-/-)",
+        "pastHistory": {
+          "medical": "고혈압/당뇨/고지혈증(-/-/-), 부인과 질환(-)",
+          "trauma_surgery": "없음",
+          "medications": "호르몬제/피임약(-/-)",
+          "social": "흡연(-), 음주(가끔), 커피(1잔/day). 운동(주 2회), 스트레스(+), 식습관 변화(-)",
+          "family": "어머니 폐경 50세",
+          "gyn": "초경 13세,  과거 규칙적인 28일 주기, 생리통(-), 월경량 보통, 결혼(+), 출산 경험 1회,  현재 임신 계획 없음,  인공유산 경험 없음, 1-0-0-1"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable,  안면 홍조 약간 관찰됨",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-), CVAT/DRE(-/-)",
+        "pelvic": "자궁 크기 정상, 압통 없음.",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "폐경인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "조기난소부전(조기폐경)",
+          "스트레스성 무월경"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈중 FSH, LH, Estradiol 측정",
+          "AMH 측정",
+          "갑상선 기능 검사"
+        ],
+        "therapeutic": [
+          "호르몬 대체 요법 (HRT) 상담",
+          "생활 습관 개선 상담",
+          "정기적인 추적 관찰"
+        ]
+      }
+    }
+  ]
+}

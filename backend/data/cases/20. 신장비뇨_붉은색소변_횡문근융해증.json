@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 박민수씨가 심한 근육통과 짙은 색 소변으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "온몸이 너무 아프고 소변 색깔이 이상해요.",
+      "history": {
+        "onset": "2일 전",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "근육통이 심하고, 소변 색깔이 콜라색으로 진해졌습니다. 소변량은 줄어든 것 같습니다.",
+        "associatedSymptoms": {
+          "general": "심한 근육통(+), 발열(+), 오한(+), 전신 권태감(+), 메스꺼움(+), 구토(-), 체중 변화(-), 탈수(+)",
+          "digestive": "식욕부진(+)",
+          "renal_urinary": "소변 색깔 변화(+, 콜라색), 소변량 감소(+), 옆구리 통증(-)",
+          "other": "근력 저하(+)"
+        },
+        "factors": "격렬한 운동(마라톤 완주) 1일 전",
+        "pastHistory": {
+          "medical": "고혈압 진단받은 적 없음",
+          "medications": "없음",
+          "social": "흡연(+, 하루 한 갑), 음주(주 2회 소주 1병), 직업: 회사원",
+          "family": "특이사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감, 탈수 증상 보임",
+        "heent": "눈-결막 충혈(-), 구강(-), 갑상샘/림프절(-/-), 피부(-)",
+        "abdomen": "CVAT(-), 복부 촉진(-)",
+        "extremity": "전신 근육 압통(+), 부종(-)"
+      },
+      "patientQuestion": "이게 왜 이렇게 아픈 거죠?",
+      "impression": {
+        "likelyDiagnoses": [
+          "횡문근융해증",
+          "감염",
+          "약물 부작용"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CK, LDH, BUN, Creatinine, Myoglobin)",
+          "소변검사",
+          "심전도 검사"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "진통제",
+          "근육 이완제",
+          "필요시 투석"
+        ]
+      }
+    }
+  ]
+}

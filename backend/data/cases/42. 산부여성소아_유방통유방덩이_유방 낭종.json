@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 38,
+        "gender": "여자"
+      },
+      "situation": "38세 여자 박선영씨가 오른쪽 유방에 만져지는 덩어리 때문에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "오른쪽 유방에 덩어리가 만져져요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "오른쪽 유방 상외측",
+        "course": "2주 전부터 오른쪽 유방 상외측에 덩어리가 만져지기 시작했으며, 크기 변화는 없음. 통증은 없음.",
+        "character": "크기는 약 1.5cm, 부드럽고, 경계가 명확하며, 이동성이 있음. 압통은 없음.",
+        "associatedSymptoms": "열감/부종/발적/유방 피부 변화(-/-/-/-). 겨드랑이 멍울/피부 함몰/유두 함몰/유두 분비물(-/-/-/-)",
+        "pastHistory": {
+          "medical": "특이 병력 없음. 정기적인 건강검진 받은 적 없음.",
+          "trauma_surgery": "유방 수술이나 보형물 삽입 경험 없음.",
+          "medications": "현재 복용 중인 약물 없음.",
+          "social": "음주/흡연(-/-), 커피 하루 1잔 정도 섭취, 직업은 사무직.",
+          "family": "유방암 가족력 없음.",
+          "gyn": "초경 13세, 월경 주기는 규칙적이며, 생리통은 없음. 출산 경험 없음. 현재 피임약 복용 안 함."
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 안정적",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-), 피부 긴장도/부종(-/-)",
+        "chest": "심음/호흡음 정상. 오른쪽 유방 상외측에 1.5cm 크기의 부드럽고 이동성이 있는 덩어리가 촉진됨. 압통 없음. 유방 피부 변화/유두 변화/유두 분비물(-/-/-). 겨드랑이 림프절 비대 없음.",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이 덩어리가 암일까 걱정돼요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "유방 낭종",
+          "섬유선종"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "유방 초음파 검사"
+        ],
+        "therapeutic": [
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

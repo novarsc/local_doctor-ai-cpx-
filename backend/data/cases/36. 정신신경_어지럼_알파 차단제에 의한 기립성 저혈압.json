@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 김철수씨가 어지러움을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg(앉은 자세), 100/60mmHg(선 자세)",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "어지러워요",
+      "history": {
+        "onset": "2주 전",
+        "duration": "지속적",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "앉았다 일어설 때 심한 어지러움, 흐릿함, 곧 쓰러질 것 같은 느낌",
+        "associatedSymptoms": "[전신] 피로감(+), 어지러움(+), 두통(-), [순환] 맥박 빨라짐(+), 가슴 두근거림(-), [소화] 소화불량(-), 변비(-), [신경] 시야 흐릿함(+), [정신] 불안감(+)",
+        "factors": "앉았다 일어설 때, 오래 서 있을 때 악화",
+        "pastHistory": {
+          "medical": "고혈압, 전립선비대증",
+          "medications": "프로프라놀롤(알파 차단제) 2주 전부터 복용 시작",
+          "social": "흡연 40갑년, 음주 주 2회"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable, 혈압 측정 시 기립성 저혈압 의심",
+        "neuro": "뇌신경 검사 정상, 소뇌 검사 정상, 보행 정상"
+      },
+      "patientQuestion": "이 어지러움이 언제까지 갈까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "알파 차단제에 의한 기립성 저혈압",
+          "양성 발작성 체위성 현훈",
+          "전정신경염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "기립경사검사",
+          "심전도",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "프로프라놀롤 용량 조절 또는 다른 약제로 변경",
+          "수분 섭취 증가",
+          "기립성 저혈압 교육"
+        ]
+      }
+    }
+  ]
+}

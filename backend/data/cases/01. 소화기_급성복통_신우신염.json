@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "오른쪽 옆구리 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "옆구리가 너무 아파요.",
+      "history": {
+        "onset": "2일 전",
+        "location": "오른쪽 옆구리",
+        "duration": "지속적이며 점점 심해짐",
+        "course": "처음에는 뻐근했으나 점점 심한 통증으로 악화됨.",
+        "experience": "비슷한 증상 처음 경험",
+        "character": "심한 찌르는 듯한 통증, NRS 8점",
+        "radiation": "허리, 사타구니로 방사됨",
+        "associatedSymptoms": {
+          "general": "오한, 발열, 전신 권태감",
+          "gi": "구역질, 식욕 감소",
+          "urology": "소변을 자주 보고, 소변 시 작열감 있음, 소변량 감소"
+        },
+        "aggravatingFactors": "움직일 때, 기침할 때",
+        "relievingFactors": "가만히 누워 있을 때 다소 완화",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "medications": "고혈압약, 당뇨병약 복용 중",
+          "social": "과거 흡연력 있음(금연 중 10년), 음주는 가끔 소주 1병",
+          "other": "최근 탈수 증상 있었음"
+        }
+      },
+      "physicalExam": {
+        "abdomen": "오른쪽 늑골 척추각(CVA) 압통 심함.  복부 팽만은 없음.",
+        "urology": "수분 부족 소견"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "신우신염",
+          "요로결석",
+          "신농양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사",
+          "혈액검사(혈액 배양, 염증 수치)",
+          "복부 초음파",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "수액 치료",
+          "항생제 투여",
+          "진통제 투여"
+        ]
+      }
+    }
+  ]
+}

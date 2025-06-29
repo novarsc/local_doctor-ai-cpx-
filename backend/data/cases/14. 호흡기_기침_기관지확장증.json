@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "오랜 기간 지속되는 기침과 가래로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "88회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기침과 가래가 계속돼요.",
+      "history": {
+        "onset": "10년 전부터",
+        "duration": "하루 종일, 특히 아침에 심함",
+        "course": "점진적으로 악화됨",
+        "experience": "반복적",
+        "character": "끈적끈적한 누런색 가래를 동반한 기침",
+        "associatedSymptoms": {
+          "respiratory": "호흡곤란(+, 계단 오르기 어려움), 흉통(-), 쌕쌕거림(-)",
+          "general": "체중 감소(+, 5kg), 피로(+)",
+          "gi": "속쓰림(-), 신물(-)"
+        },
+        "factors": "감기 후 악화, 찬 공기 흡입 시 악화, 운동 후 악화",
+        "pastHistory": {
+          "medical": "고혈압(+, 15년째 약 복용), 당뇨병(-), 결핵(-)",
+          "social": "흡연(하루 2갑씩 50년), 음주(주 3회, 소주 1병)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이 소견 없음",
+        "chest": "호흡음 감소, 수포음(+), 흉벽 압통(-) "
+      },
+      "patientQuestion": "이 병은 완치가 될 수 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 기관지염",
+          "기관지확장증",
+          "폐기종"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "흉부 CT",
+          "폐기능 검사",
+          "객담 배양 검사"
+        ],
+        "therapeutic": [
+          "기관지 확장제",
+          "거담제",
+          "호흡 재활 치료",
+          "산소 치료"
+        ]
+      }
+    }
+  ]
+}

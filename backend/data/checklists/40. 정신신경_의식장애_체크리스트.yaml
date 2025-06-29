@@ -1,0 +1,82 @@
+checklist:
+  topic_kr: "의식장애"
+  topic_en: "Altered Mental Status"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 의식 수준의 변화 시작 시점 및 기간 (Onset and duration of altered mental status)
+            - 의식 변화 양상 (Pattern of change: sudden, gradual, fluctuating)
+            - 동반 증상 (Accompanying symptoms: fever, headache, seizure, trauma)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 두통 (Headache)
+            - 구토 (Nausea/Vomiting)
+            - 발열 (Fever)
+            - 경련 (Seizure)
+            - 외상 (Trauma)
+            - 약물 복용력 (Medication history)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 과거 의식장애 병력 (Past medical history of altered mental status)
+            - 만성 질환 (Chronic medical conditions: diabetes, hypertension, etc.)
+            - 최근 약물 또는 알코올 섭취 (Recent medication/alcohol use)
+            - 두부 외상 (Head trauma)
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 활력 징후 측정 (Vital signs: blood pressure, pulse, respiration, temperature)
+            - 신경학적 검사 (Neurological exam: Glasgow Coma Scale, pupillary response, motor strength)
+            - 경부 강직 (Nuchal rigidity: meningismus)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - Kernig sign
+            - Brudzinski sign
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Stroke"
+            - "Seizure"
+            - "Infection (Meningitis, Encephalitis)"
+            - "Metabolic disturbance (Hypoglycemia, Hyponatremia)"
+            - "Drug overdose/intoxication"
+            - "Trauma"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Basic metabolic panel (BMP)"
+                - "Blood glucose"
+                - "Toxicology screen"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Computed tomography (CT) scan of the head"
+                - "Magnetic resonance imaging (MRI) of the brain"
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "의식장애의 원인과 치료에 대해 설명하고, 필요한 경우 추가 검사 또는 입원에 대해 안내합니다."
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "의식 수준의 악화, 지속적인 구토, 심한 두통, 발작 등의 증상이 나타나면 즉시 응급실로 방문하도록 교육합니다."

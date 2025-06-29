@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 27,
+        "gender": "여자"
+      },
+      "situation": "27세 여자 박선우씨가 수면장애와 악몽으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg ",
+        "heartRate": "76회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.5℃ "
+      },
+      "chiefComplaint": "잠을 잘 수가 없어요.",
+      "history": {
+        "onset": "6개월 전",
+        "experience": "처음",
+        "course": "점차 심해짐",
+        "location": "-",
+        "character": "6개월 전 교통사고를 당한 후부터 잠을 제대로 잘 수 없어요. 사고 당시의 장면이 계속 떠오르고, 악몽을 자주 꾸며 잠에서 깨어나면 심장이 빨리 뛰고 땀이 나요.  사고 현장 근처를 지나갈 때도 심한 불안감을 느껴요.",
+        "associatedSymptoms": "[수면] 불면(+, 매일), 악몽(+, 사고 관련), 낮잠을 자도 피곤함(+),  [정신] 불안(+, 특히 사고 관련 장소나 상황에서), 집중력 저하(+), 과민반응(+), 놀람(+), 기분 저하(+), 짜증(+), 사회적 활동 감소(+),  [신체] 두통(+, 간헐적), 소화불량(+), 식욕부진(+),  [기타] 사고 관련 기억이 떠오르는 빈도 증가, 사고 현장 회피(+)",
+        "factors": "교통사고 경험",
+        "pastHistory": {
+          "medical": "정신과적 과거력 없음",
+          "trauma_surgery": "6개월 전 교통사고 (경상)",
+          "medications": "없음",
+          "social": "직업: 사무직, 흡연(-), 음주(월 1-2회), 커피(하루 1잔)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적, 불안해 보임",
+        "heent": "정상",
+        "chest": "정상",
+        "extremity": "정상"
+      },
+      "patientQuestion": "이 증상은 언제까지 지속될까요? 다시 평범한 일상으로 돌아갈 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "PTSD",
+          "불면증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "PTSD 증상 척도 검사",
+          "수면다원검사 (필요시)"
+        ],
+        "therapeutic": [
+          "인지행동치료 (CBT)",
+          "트라우마 집중 인지 행동 치료 (TF-CBT)",
+          "약물치료 (필요시, 항불안제, 항우울제)"
+        ]
+      }
+    }
+  ]
+}

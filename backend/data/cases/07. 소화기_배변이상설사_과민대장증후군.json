@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "복통과 설사로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "배가 아프고 설사를 자주 해요",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "주 2~3회",
+        "course": "최근 스트레스 때문에 증상이 심해짐",
+        "experience": "이전에도 스트레스 받으면 비슷한 증상 있었음",
+        "character": "묽은 변, 배변 후 일시적 통증 완화, 혈변 없음",
+        "associatedSymptoms": {
+          "general": "열/오한/피로/부종(-/-/-/-), 체중 변화 없음",
+          "gi": "A/N/V/C/D(-/-/-/+/+), P(+, 아랫배, 배변 후 완화), H/M/H(-/-/-), 항문 통증 없음",
+          "endocrine": "두근거림/더위불내성(-/-)",
+          "dehydration": "어지러움/목마름(-/-)"
+        },
+        "factors": "악화 : 스트레스, 커피, 맵고 기름진 음식. 완화: 배변 후",
+        "pastHistory": {
+          "events": "대장내시경, 위내시경 없음",
+          "medical": "고혈압/당뇨/결핵/간염(-/-/-/-)",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 1회 소주 1병)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 정상",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "압통(+, 아랫배, 심하지 않음), 방어긴장 없음, DRE: 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "큰 병은 아닌지 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "과민성대장증후군(IBS)",
+          "염증성 장질환",
+          "기능성 소화불량"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변검사",
+          "복부 초음파"
+        ],
+        "therapeutic": [
+          "식이요법 및 생활습관 개선 교육",
+          "대증요법(진경제, 지사제 등)"
+        ]
+      }
+    }
+  ]
+}

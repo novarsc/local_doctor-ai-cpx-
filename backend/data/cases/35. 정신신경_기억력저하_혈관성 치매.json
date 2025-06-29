@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 78,
+        "gender": "남자"
+      },
+      "situation": "78세 남자 박철수씨가 최근 기억력 저하와 언어 장애를 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "150/90mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기억력이 급격히 나빠졌어요.",
+      "history": {
+        "onset": "2주 전",
+        "duration": "2주",
+        "course": "점진적으로 악화",
+        "experience": "처음",
+        "character": "2주 전부터 기억력이 급격히 감퇴하여 최근 일을 잘 기억하지 못함.  이름을 잊어버리거나, 물건을 어디에 두었는지 기억하지 못함.  대화 중에 말이 끊기거나, 하고 싶은 말을 찾지 못하는 언어 장애도 나타남.  과거의 기억은 비교적 잘 유지함.",
+        "location": "집에서 주로 발생",
+        "associatedSymptoms": "[정신] 성격 변화(-), 환청/환시(-/-), 우울/불안/수면장애(+/-/-) [신경] 두통(+, 간헐적), 팔다리 힘 빠짐(-), 감각 이상(-),  [비뇨기] 요실금(+), 보폭 감소(-), [심혈관] 협심증(+, 과거력 있음)",
+        "factors": "고혈압, 당뇨병 병력",
+        "pastHistory": {
+          "medical": "고혈압(20년), 당뇨병(15년), 협심증(5년 전 스텐트 시술)",
+          "trauma_surgery": "머리 외상(-)",
+          "medications": "고혈압약, 당뇨약, 아스피린",
+          "social": "학력: 고졸, 은퇴 후 집에서 주로 생활",
+          "family": "부친: 뇌졸중으로 사망"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 상승",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "extremity": "Pitting edema(-), M/S/R 정상. Tandem gait 약간 불안정,  좌측 상지 근력 약화",
+        "other": "MMSE 15점, 언어유창성 저하"
+      },
+      "patientQuestion": "제가 치매인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "혈관성 치매",
+          "알츠하이머병",
+          "혼합형 치매"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 MRI",
+          "뇌 CT",
+          "신경심리검사",
+          "혈액검사(혈당, 콜레스테롤)"
+        ],
+        "therapeutic": [
+          "혈압, 혈당 조절",
+          "인지재활치료",
+          "필요시 항혈전제 투여"
+        ]
+      }
+    }
+  ]
+}

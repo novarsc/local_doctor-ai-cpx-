@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 박민수씨가 갈증과 소변량 증가로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "갈증이 심하고 소변을 자주 봐요.",
+      "history": {
+        "onset": "3개월 전",
+        "course": "점진적으로 증가",
+        "character": "소변량 증가, 횟수 증가, 갈증 심함, 체중 감소(5kg)",
+        "associatedSymptoms": {
+          "general": "체중 감소(+, 5kg), 발열/오한/피로(-/-/-), 식은땀(-)",
+          "renal_urinary": "빈뇨(8회/일), 야뇨(+, 1회), 아랫배 통증(-), 옆구리 통증(-), 절박뇨/배뇨통/혈뇨(-/-/-), 주저뇨/요끊김/복압배뇨(-/-/-), 요실금(-)",
+          "endocrine": "다음(+, 하루 4L 이상), 다뇨(+), 다갈(+)",
+          "psychiatric": "물 마셔야 한다는 강박(-)",
+          "neurologic": "두통(-), 시야장애(-)"
+        },
+        "factors": "최근 스트레스 증가, 운동 부족, 고지방 식사 습관",
+        "pastHistory": {
+          "social": "흡연(+, 20갑년), 음주(+, 소주 1병/주), 고지방/고탄수화물 식사 습관, 운동 부족",
+          "family": "당뇨병 가족력(+, 부친 당뇨병)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 혈압 130/85mmHg, 맥박 72회/분, 호흡 16회/분, 체온 36.8℃, 체중 감소 관찰",
+        "heent": "눈(-), 구강 건조(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-), Pupil reflex/EOM 모두 정상",
+        "abdomen": "CVAT(-), 복부 촉진(-), 치골 상부 촉진(-), DRE(-), 골반 내진(-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "제가 당뇨병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "2형 당뇨병",
+          "요붕증",
+          "신부전"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "공복혈당검사",
+          "당화혈색소 검사",
+          "경구 포도당 부하 검사",
+          "소변검사",
+          "신장 기능 검사"
+        ],
+        "therapeutic": [
+          "생활 습관 개선 교육 (식이요법, 운동)",
+          "혈당 측정 및 관리 교육",
+          "경구 혈당강하제 (필요시)",
+          "인슐린 치료 (필요시)"
+        ]
+      }
+    }
+  ]
+}

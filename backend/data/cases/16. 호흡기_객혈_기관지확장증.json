@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 10,
+      "patientProfile": {
+        "name": "최지훈",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 최지훈씨가 오랜 기간 지속되는 기침과 가래, 그리고 최근 객혈로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "가래에 피가 섞여 나와요",
+      "history": {
+        "onset": "20년 전",
+        "location": "가슴",
+        "duration": "지속적",
+        "course": "점진적 악화",
+        "experience": "20년 동안 지속적인 기침과 가래, 최근 1주일 동안 가래에 피가 섞여 나옴",
+        "character": "가래는 주로 흰색 또는 황색, 점액성, 양은 변화가 있음. 최근 객혈은 소량(약 티스푼 1/2 정도), 선홍색, 기침 후 발생",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중감소(2kg, 최근 6개월)",
+          "respiratory": "만성 기침(+, 20년), 가래(+, 20년), 호흡곤란(운동 시), 흉통(-), 야간 발한(-)",
+          "events": "최근 감기 증상 없음"
+        },
+        "factors": "흡연(40갑년), 먼지 노출(과거 건설현장 근무)",
+        "pastHistory": {
+          "medical": "고혈압(10년), 폐렴(5년 전)",
+          "medications": "고혈압약(복용 중)",
+          "social": "흡연(하루 1갑, 40년), 음주(주 2회, 소주 1병), 직업(은퇴)",
+          "family": "폐질환 가족력(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "결막/공막(정상), 구강(정상)",
+        "chest": "흉부 청진 시 잡음(수포음), 흉곽 팽창 제한",
+        "extremity": "곤봉지(-) , 말초 부종(-)"
+      },
+      "patientQuestion": "제가 폐암인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "기관지확장증",
+          "만성 폐쇄성 폐질환(COPD)",
+          "폐암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "흉부 CT",
+          "폐기능검사",
+          "기관지 내시경 검사",
+          "객담 검사"
+        ],
+        "therapeutic": [
+          "금연 상담",
+          "기관지 확장제 처방",
+          "호흡 재활 치료",
+          "객혈 관리 교육"
+        ]
+      }
+    }
+  ]
+}

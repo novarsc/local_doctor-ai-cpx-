@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 75,
+        "gender": "남자"
+      },
+      "situation": "심한 복통으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "20회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "어제 저녁부터",
+        "location": "좌하복부",
+        "duration": "지속적이며 점점 심해짐",
+        "course": "어제 저녁부터 시작된 복통은 처음에는 참을만 했으나, 점점 심해져서 밤잠을 설쳤고, 오늘 아침에는 걷지도 못할 정도로 심해졌다.",
+        "experience": "비슷한 통증을 이전에도 몇 번 경험했지만, 이번이 가장 심하다.",
+        "character": "칼로 찌르는 듯한 극심한 통증, NRS 9점",
+        "radiation": "좌측 옆구리로 방사",
+        "associatedSymptoms": {
+          "general": "오한과 발열이 있다.  전신 권태감이 심하다.",
+          "gi": "식욕이 없고, 메스꺼움과 구토 증상이 있다. 변비가 있다.",
+          "urology": "소변을 볼 때 통증이 있다."
+        },
+        "aggravatingFactors": "움직임, 기침, 깊게 숨쉴 때",
+        "relievingFactors": "움직이지 않고 가만히 있을 때 다소 완화됨",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병, 고지혈증 진단받음.  만성 변비 있음.",
+          "medications": "고혈압약, 당뇨약 복용 중.",
+          "social": "흡연 40갑년. 과거 음주 잦았으나 최근에는 거의 하지 않음.",
+          "other": "최근 건강 검진에서 대장 내시경 검사는 받지 않았다."
+        }
+      },
+      "physicalExam": {
+        "abdomen": "좌하복부에 심한 압통과 반발압통이 있으며, 방어근긴장이 관찰된다.  장음은 감소되어 있다.  복부 팽만이 약간 있다."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "게실 천공",
+          "대장염",
+          "대장암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사 (CBC, CRP, LFT)",
+          "혈액 가스 분석",
+          "복부 단순 X-ray",
+          "복부 CT",
+          "혈청 아밀라아제/리파아제 측정"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "항생제 투여",
+          "통증 조절 (진통제)",
+          "금식",
+          "위관 삽입",
+          "응급 수술 고려"
+        ]
+      }
+    }
+  ]
+}

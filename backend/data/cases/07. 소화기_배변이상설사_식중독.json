@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "심한 설사와 구토로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "설사와 구토가 너무 심해요.",
+      "history": {
+        "onset": "6시간 전",
+        "duration": "6시간 동안 지속",
+        "course": "점점 심해짐",
+        "experience": "처음 발생",
+        "character": "물 같은 설사, 빈번한 구토(음식물 및 위액), 혈변 없음",
+        "associatedSymptoms": {
+          "general": "오한(+), 두통(+), 근육통(-), 피로감(+)",
+          "gi": "식욕부진(+), 복통(+, 쥐어짜는 듯한 통증), 팽만감(+),  변비(-)",
+          "dehydration": "갈증(+), 입마름(+), 소변량 감소(+)",
+          "endocrine": "두근거림(-), 더위불내성(-)"
+        },
+        "factors": "4시간 전 회식에서 굴을 먹음. 회식 참석자 중 2명이 비슷한 증상 호소",
+        "pastHistory": {
+          "events": "특이사항 없음",
+          "medical": "고혈압/당뇨병/천식(-/-/-)",
+          "medications": "없음",
+          "social": "음주(+, 소주 2병), 흡연(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "탈수 증상 약간 보임, 복부 압통(+)",
+        "heent": "결막 혈관 충혈 없음, 구강 점막 건조함",
+        "abdomen": "압통(+, 주로 상복부), 반발압통(-), 장음 감소",
+        "extremity": "말초 맥박 촉진 가능, 부종(-)"
+      },
+      "patientQuestion": "이게 뭐 때문에 이렇게 된 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "식중독 (굴에 의한)",
+          "급성 위장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변 배양 검사",
+          "혈액 검사 (CBC, 전해질)"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "대증요법 (진토제, 지사제)"
+        ]
+      }
+    }
+  ]
+}

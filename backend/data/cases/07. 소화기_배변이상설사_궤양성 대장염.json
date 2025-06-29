@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "심한 설사와 복통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "88회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "배가 아프고 설사가 계속 돼요.",
+      "history": {
+        "onset": "2주 전",
+        "duration": "지속적으로 증상이 있었으나 최근 악화",
+        "course": "처음에는 하루 3-4회 설사였으나, 최근 1주일 동안 하루 8-10회로 증가, 혈변은 없음",
+        "experience": "이전에 비슷한 증상 경험 없음",
+        "character": "묽은 변, 점액성 변, 혈변 없음",
+        "associatedSymptoms": {
+          "general": "열/오한/피로/부종(-/-/-/-)",
+          "gi": "A/N/V/C/D(-/-/-/+/+), 복통(+, 좌측 하복부 통증, 배변 후 호전), H/M/H(-/-/-), 항문 통증(-)",
+          "endocrine": "두근거림/더위불내성(-/-)",
+          "dehydration": "어지러움/목마름(+/-)"
+        },
+        "factors": "악화: 스트레스, 맵고 자극적인 음식, 완화: 배변 후 통증 완화",
+        "pastHistory": {
+          "events": "대장내시경 검사 이력 없음",
+          "medical": "고혈압/당뇨/결핵/간염(-/-/-/-)",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 2회 소주 1병), 스트레스 많은 직업(프로그래머)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable, 체중 감소는 없음",
+        "heent": "눈/구강/피부 긴장도(-/-/-)",
+        "abdomen": "좌측 하복부 압통(+), 반발압통(-), 다른 부위 압통(-), 장음 증가",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "이게 무슨 병인지 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "궤양성 대장염",
+          "과민성 대장 증후군",
+          "크론병"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대장내시경",
+          "대변 잠혈 검사",
+          "혈액 검사(CRP, ESR)"
+        ],
+        "therapeutic": [
+          "5-ASA 약물 처방",
+          "식이요법 조절(맵고 자극적인 음식 제한)",
+          "스트레스 관리 상담"
+        ]
+      }
+    }
+  ]
+}

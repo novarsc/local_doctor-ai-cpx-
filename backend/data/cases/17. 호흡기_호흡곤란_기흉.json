@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "28세 남자 김철수씨가 갑작스러운 흉통과 호흡곤란으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "100회/분",
+        "respiration": "25회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨쉬기가 힘들고 가슴이 아파요",
+      "history": {
+        "onset": "30분 전",
+        "duration": "지속적",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "심한 흉통과 호흡곤란, 숨을 들이쉴 때 통증이 더 심함",
+        "associatedSymptoms": {
+          "general": "발열/오한/피로/체중 변화(-/-/-/-)",
+          "respiratory": "기침/가래/쌕쌕거림(-/-/-)",
+          "circulatory": "두근거림(-)",
+          "psychiatric": "불안감(+)"
+        },
+        "factors": "갑자기 시작됨, 특별한 유발 요인 없음",
+        "pastHistory": {
+          "medical": "없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "흡연(+, 하루 한갑), 음주(가끔)",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란, 빈맥, 불안해 보임",
+        "heent": "눈/구강/이비인후과적 이상 없음",
+        "chest": "호흡음 감소, 흉곽 움직임 제한",
+        "extremity": "말초 혈관 수축 없음"
+      },
+      "patientQuestion": "괜찮아질까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "기흉"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X선 촬영",
+          "흉부 CT"
+        ],
+        "therapeutic": [
+          "산소 투여",
+          "흉관 삽입술"
+        ]
+      }
+    }
+  ]
+}

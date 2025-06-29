@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 박철수씨가 갈증과 다뇨로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "갈증이 심하고 소변을 자주 봐요",
+      "history": {
+        "onset": "3개월 전",
+        "course": "서서히 심해짐",
+        "character": "갈증이 심하고, 하루에 8-10회 소변을 보며, 소변량이 많음. 소변 색깔은 맑음.  혈뇨, 거품뇨 없음.",
+        "associatedSymptoms": {
+          "general": "체중 감소(5kg), 피로감(+)",
+          "renal_urinary": "빈뇨(+), 야뇨(+, 1회), 다뇨(+), 갈증(+), 배뇨통(-)",
+          "endocrine": "다음(+), 다갈(+)",
+          "psychiatric": "물을 많이 마셔야 한다는 강박(-)",
+          "neurologic": "두통(-), 시야장애(-)"
+        },
+        "factors": "최근 과도한 스트레스, 불규칙적인 식사, 운동 부족",
+        "pastHistory": {
+          "social": "흡연 20갑년, 음주 주 2회(소주 2병), 고지방, 고당류 식단 선호, 운동 부족",
+          "family": "부친 당뇨병 병력(+)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 혈압 130/85mmHg, 맥박 72회/분, 호흡 16회/분, 체온 36.8℃, 체중 감소 소견(+)",
+        "heent": "눈, 귀, 코, 목 이상 없음. 갑상선 비대 없음.",
+        "abdomen": "복부 촉진시 특이 소견 없음.",
+        "extremity": "말초부종 없음."
+      },
+      "patientQuestion": "제가 당뇨병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "2형 당뇨병",
+          "요붕증",
+          "신성 요붕증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "공복 혈당 검사",
+          "당화혈색소 검사",
+          "경구 당부하 검사",
+          "소변 검사",
+          "소변 삼투압 검사"
+        ],
+        "therapeutic": [
+          "생활 습관 개선 교육(식이요법, 운동)",
+          "경구 혈당강하제(필요시)",
+          "인슐린(필요시)"
+        ]
+      }
+    }
+  ]
+}

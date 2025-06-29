@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김민수씨가 왼쪽 무릎 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "무릎이 너무 아파요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "왼쪽 무릎, 특히 내측에 집중된 통증",
+        "duration": "2주 동안 지속",
+        "course": "점차 심해짐",
+        "character": "심한 통증(NRS 7점), 붓기(+), 발적(+), 열감(+), 압통(+), 조조강직(-), 무릎 관절 운동 제한(+), 무릎에서 비벼지는 소리(-)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(-/-/-/-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "광과민성/피부 발진/구강 궤양/성기 궤양(-/-/-/-), 탈모(-)",
+          "infection": "관절 주사/최근 감기/감염/설사(-/-/-/-), 요도염(+)",
+          "sjogren": "입마름/눈마름(-/-)"
+        },
+        "factors": "무릎을 많이 사용하면 통증 악화, 휴식 시 통증 완화, 진통제 복용 시 일시적 효과",
+        "pastHistory": {
+          "medical": "류마티스 질환(-), 관절염(-)",
+          "trauma_surgery": "무릎 외상(-)",
+          "medications": "이부프로펜(진통제)",
+          "social": "사무직 근무, 흡연(-), 음주(주 2회 소주 1병)",
+          "family": "관절염 가족력(-)",
+          "obgyn": "남성"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "왼쪽 무릎 관절 부종(+), 발적(+), 열감(+), 압통(+), 활동/수동 관절 운동 범위 제한(+), 오른쪽 무릎 정상"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "반응성 관절염",
+          "감염성 관절염",
+          "류마티스 관절염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사(CRP, ESR, 관절염 관련 자가항체)",
+          "무릎 관절액 천자",
+          "무릎 X-ray",
+          "무릎 초음파"
+        ],
+        "therapeutic": [
+          "NSAID(이부프로펜 등) 복용",
+          "휴식 및 무릎 보호",
+          "물리치료",
+          "필요 시 스테로이드 주사"
+        ]
+      }
+    }
+  ]
+}

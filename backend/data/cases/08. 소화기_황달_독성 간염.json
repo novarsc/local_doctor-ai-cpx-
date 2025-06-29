@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 40,
+        "gender": "남자"
+      },
+      "situation": "피로감과 황달 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "몸이 노랗고 피곤해요",
+      "history": {
+        "onset": "일주일 전",
+        "location": "전신",
+        "duration": "일주일째 지속",
+        "course": "일주일 전부터 피로감이 심해지기 시작했고, 3일 전부터 눈과 피부가 노랗게 변함",
+        "experience": "처음",
+        "character": "피부와 눈의 황달, 짙은 색 소변",
+        "associatedSymptoms": {
+          "general": "심한 피로감(+), 발열(+), 오한(+), 체중 변화(-, 2kg 감소), 식욕 감소(+)",
+          "respiratory": "기침/가래(-/-)",
+          "gi": "메스꺼움/구토/변비/설사/혈변/흑색변/지방변/복통/소화불량/속쓰림 (-/-/+/-/-/-/-/-/+/-)",
+          "renal": "소변색 변화(+, 진한 갈색)"
+        },
+        "factors": "최근 과음(+, 소주 1병/일, 3일간 지속), 특이한 음식 섭취(-)",
+        "pastHistory": {
+          "events": "수혈/문신(-/-), 평소와 다른 성관계(-), 여행(-)",
+          "medical": "HTN/DM/Dyslipidemia(-/-/-), 간염/간염 보균자(-/-)",
+          "medications": "없음",
+          "social": "흡연(1갑/일, 10년), 음주(주 2-3회, 소주 1병), 직업(회사원), 스트레스(+)",
+          "family": "간질환 병력(-)"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 및 피부 황달(+), 갑상샘/림프절(-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-)",
+        "extremity": "Flapping tremor(-), Palmar erythema(-), Pitting edema(-)"
+      },
+      "patientQuestion": "간에 문제가 있는 건 아닌가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "알코올성 간염",
+          "독성 간염",
+          "바이러스성 간염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "간기능검사",
+          "간염 바이러스 표지자검사",
+          "복부 초음파",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "금주 권고",
+          "간 보호제 처방",
+          "충분한 수분 섭취 권장",
+          "정기적인 간 기능 검사"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최수현",
+        "age": 62,
+        "gender": "여자"
+      },
+      "situation": "속이 불편하고 음식이 잘 안넘어간다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg ",
+        "heartRate": "78회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.8℃ "
+      },
+      "chiefComplaint": "음식이 잘 안넘어가요",
+      "history": {
+        "onset": "6개월 전",
+        "location": "상복부",
+        "course": "처음에는 가끔씩 그러더니 최근 2달 동안 점점 심해졌습니다.",
+        "experience": "이런 증상은 처음입니다.",
+        "character": "음식이 위에 걸리는 듯한 느낌, 답답함, 통증은 없음",
+        "associatedSymptoms": {
+          "general": "체중 감소(+, 5kg 감소)",
+          "gi": "구토(-), 설사(-), 변비(+), 혈변(-), 복통(-), 속쓰림(-) "
+        },
+        "factors": "식사 후 더 심해지며, 특정 음식과 관련은 없어 보입니다.  물을 마셔도 잘 안넘어가는 느낌입니다.",
+        "pastHistory": {
+          "medical": "당뇨병(+, 15년 경력, 최근 혈당 조절이 잘 안됨), 고혈압(+), 고지혈증(+)",
+          "events": "1년 전 건강검진에서 위내시경 정상 소견",
+          "surgical": "없음",
+          "medications": "당뇨약, 고혈압약, 고지혈증약",
+          "social": "흡연(-), 음주(소량, 주 1회), 직업(은퇴), 식사(불규칙적, 인스턴트 음식 섭취 잦음), 운동(없음), 스트레스(중등도)",
+          "obgyn": "폐경(5년 전)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈/입/림프절(-/-/-)",
+        "abdomen": "상복부 압통(+), 반동 압통(-), 청진 소견(정상)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "당뇨병성 위마비",
+          "기능성 소화불량",
+          "위암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "위 배출 시간 검사",
+          "혈액 검사(혈당, 혈색소)"
+        ],
+        "therapeutic": [
+          "혈당 조절 강화",
+          "소화기능 개선을 위한 약물 치료",
+          "식습관 및 생활 습관 개선 교육"
+        ]
+      }
+    }
+  ]
+}

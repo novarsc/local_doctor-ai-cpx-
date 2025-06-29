@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 10,
+      "patientProfile": {
+        "name": "최영수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 최영수씨가 만성 기침과 호흡곤란을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "80회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차고 기침이 계속돼요",
+      "history": {
+        "onset": "20년 전",
+        "location": "가슴, 폐",
+        "duration": "지속적",
+        "course": "점진적으로 악화",
+        "experience": "젊은 시절부터 지속적인 기침, 최근 5년 동안 호흡곤란 심해짐",
+        "character": "기침은 마른기침, 가래는 거의 없음, 호흡곤란은 운동 시 더 심함",
+        "associatedSymptoms": {
+          "general": "체중 감소(5kg, 최근 1년), 피로감(심함), 식은땀(-)",
+          "respiratory": "기침(+, 심함, 20년 이상 지속), 가래(-), 객혈(-), 흉통(-), 호흡곤란(+, 운동 시 심함)",
+          "events": "최근 감기 없음"
+        },
+        "factors": "석면 노출(30년간 광산 근무)",
+        "pastHistory": {
+          "medical": "고혈압(10년 전부터 약 복용), 흡연(하루 1갑 × 40년), 결핵(-)",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(하루 1갑 × 40년), 음주(소주 1병/주), 직업(30년간 광산 근무, 석면 노출), 운동(없음)",
+          "family": "폐질환 가족력(없음)"
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란, 빈호흡",
+        "heent": "결막 창백(-), 림프절 비대(-)",
+        "chest": "흉부 청진 시 숨소리 거침, 수포음(-)",
+        "extremity": "곤봉지(약간)"
+      },
+      "patientQuestion": "제가 폐암에 걸린 건 아닌가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "진폐증(석면 관련)",
+          "만성 폐쇄성 폐질환(COPD)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "흉부 고해상도 CT",
+          "폐 기능 검사",
+          "혈액 검사(혈액 가스 분석)",
+          "객담 검사"
+        ],
+        "therapeutic": [
+          "산소 요법",
+          "기관지 확장제",
+          "금연 상담",
+          "호흡 재활 치료"
+        ]
+      }
+    }
+  ]
+}

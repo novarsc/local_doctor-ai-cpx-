@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "최서준",
+        "age": "13세",
+        "gender": "남아"
+      },
+      "situation": "키가 작아서 성장클리닉에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "키가 작은 것 같아요",
+      "history": {
+        "growthAndDevelopment": {
+          "growth": "현재 키 145cm(10%), 체중 38kg(25%). 최근 1년간 3cm 성장.",
+          "secondarySexualCharacteristics": "고환크기 증가, 음모 발생(Tanner stage 2)"
+        },
+        "perinatalHistory": "만삭아, 자연분만, 출생시 체중 3.2kg, 신장 50cm. 임신 및 분만 과정 특이사항 없음.",
+        "neonatalHistory": "신생아기 황달, 광선치료 시행. 신생아 대사검사 및 유전자 검사 정상.",
+        "pastHistory": "특이 과거력 없음.",
+        "environment": {
+          "nutrition": "편식 없이 골고루 잘 먹음.",
+          "exercise": "주 3회 축구",
+          "sleep": "수면 시간 충분(매일 밤 9시 취침, 아침 7시 기상)."
+        },
+        "familyHistory": "아버지 175cm, 어머니 160cm. 가족력상 저신장 환자 없음."
+      },
+      "physicalExam": "골연령 11세. 사춘기 발달 양호.",
+      "patientQuestion": "성장호르몬 치료를 받아야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "체질적 성장 지연"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "손목 X-ray (골연령 평가)",
+          "성장호르몬 자극 검사",
+          "갑상선 기능 검사"
+        ],
+        "therapeutic": [
+          "성장 호르몬 검사 결과에 따라 치료 결정",
+          "정기적인 키, 체중 측정 및 경과 관찰"
+        ]
+      }
+    }
+  ]
+}

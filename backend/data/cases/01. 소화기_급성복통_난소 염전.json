@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김수진",
+        "age": 25,
+        "gender": "여자"
+      },
+      "situation": "갑자기 심한 복통으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg ",
+        "heartRate": "100회/분 ",
+        "respiration": "18회/분 ",
+        "temperature": "37.2℃ "
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "30분 전",
+        "location": "하복부, 주로 오른쪽",
+        "duration": "지속적이며 점점 심해짐",
+        "course": "갑자기 시작된 심한 통증",
+        "experience": "처음 겪는 통증",
+        "character": "칼로 찌르는 듯한 통증, 간헐적으로 쥐어짜는 듯한 통증도 있음. NRS 9점.",
+        "radiation": "허리까지 퍼지는 듯함",
+        "associatedSymptoms": {
+          "general": "오한이 있고, 메스꺼움은 있지만 구토는 없음.",
+          "gi": "식욕 없음",
+          "obgyn": "최근 생리가 2주 정도 늦었음."
+        },
+        "aggravatingFactors": "움직일 때 심해짐",
+        "relievingFactors": "움직이지 않고 가만히 있으면 약간 완화됨",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "medications": "복용 약 없음",
+          "social": "흡연, 음주 없음",
+          "obgyn": {
+            "parity": "0-0-0-0",
+            "lmp": "4주 전",
+            "lastIntercourse": "3주 전"
+          }
+        }
+      },
+      "physicalExam": {
+        "abdomen": "오른쪽 하복부에 심한 압통 및 반발압통이 있으며, 자궁이 약간 크게 만져짐.  움직임 제한이 있음."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "난소 염전",
+          "자궁외 임신",
+          "급성 충수돌기염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "골반 초음파",
+          "혈액 검사 (β-hCG, 혈구 수)",
+          "소변 검사"
+        ],
+        "therapeutic": [
+          "진통제 투여",
+          "수액 공급",
+          "응급 수술 준비"
+        ]
+      }
+    }
+  ]
+}

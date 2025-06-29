@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 42,
+        "gender": "남성"
+      },
+      "situation": "42세 남성 김민수씨가 고열과 전신통증을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "105회/분",
+        "respiration": "22회/분",
+        "temperature": "39.8℃"
+      },
+      "chiefComplaint": "열이 너무 심하고 몸이 너무 아파요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "전신",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "오한과 함께 시작된 고열, 해열제 복용 후 일시적 호전 후 재발",
+        "associatedSymptoms": {
+          "general": "오한(+), 두통(+), 전신 근육통(+), 피로감(+), 식욕부진(+), 메스꺼움(+)",
+          "urinary": "빈뇨(+), 소변량 감소(+)",
+          "digestive": "구토(1회), 설사(1회)",
+          "skin": "발진(-)"
+        },
+        "factors": "최근 농촌 지역 야외 활동(논에서 일 도움), 야생 동물 접촉(-)",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 간질환(-)",
+          "social": "흡연(1갑/일), 음주(주 2회 소주 2병)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "빈맥, 저혈압, 고열, 안면 홍조",
+        "heent": "결막 충혈(+), 인두 홍조(+)",
+        "chest": "호흡음 청진상 청색증(-)",
+        "abdomen": "압통(-), 복부 경직(-)",
+        "extremity": "피부 발진(-), 부종(-)"
+      },
+      "patientQuestion": "이 병이 옮을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "신증후군출혈열",
+          "렙토스피라증",
+          "쯔쯔가무시병"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사 (CBC, BUN, Creatinine, LFT, 소변검사)",
+          "혈청 IgM 항체 검사 (한타바이러스)",
+          "Chest X-ray"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "항바이러스제 (필요시)",
+          "대증요법"
+        ]
+      }
+    }
+  ]
+}

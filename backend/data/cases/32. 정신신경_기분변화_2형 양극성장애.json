@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김수현",
+        "age": 35,
+        "gender": "여자"
+      },
+      "situation": "35세 여자 김수현씨가 불면 및 과도한 활동으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "85회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "잠을 잘 못 자고, 너무 활동적이에요.",
+      "history": {
+        "onset": "2주 전",
+        "duration": "매일 밤, 몇 시간 못 잠",
+        "course": "점점 심해짐",
+        "experience": "이전에도 비슷한 경험 있음 (약 1년 전)",
+        "character": "자의로 내원, 평소 활발한 성격, 대인관계 좋음, 가족관계 원만\n도움 요청할 수 있는 사람(+)",
+        "associatedSymptoms": {
+          "digestive": "소화불량(-)",
+          "psychiatric": "수면 부족(+, 2시간 미만 수면)\n과도한 활동(+, 잠 안 자고 여러 가지 일 함, 집안일, 쇼핑 등)\n기분 고조(+, 매우 들뜸, 자신감 과도, 말이 많아짐)\n식욕 증가(+, 많이 먹음), 체중 증가(+, 2kg 증가)\n집중력 저하(+), 자살 생각(-)",
+          "endocrine": "추위불내성(-)"
+        },
+        "factors": "특정 시기(-), 스트레스 증가(+, 최근 직장에서 승진)",
+        "pastHistory": {
+          "social": "음주(+, social), 직업: 회사원, 스트레스(+), 운동(-)",
+          "family": "정신과 진료(-)",
+          "obgyn": "월경 주기와 관련 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "결막/구강/탈수(-/-/-), 갑상샘(-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이런 증상이 언제까지 갈까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "2형 양극성장애",
+          "조울증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "기분장애 척도 검사",
+          "혈액검사",
+          "갑상샘 기능 검사"
+        ],
+        "therapeutic": [
+          "기분 안정제",
+          "인지 행동 치료",
+          "정신치료"
+        ]
+      }
+    }
+  ]
+}

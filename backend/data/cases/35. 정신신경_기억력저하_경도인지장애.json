@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 박철수씨가 최근 기억력 저하를 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기억력이 떨어져요.",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "6개월",
+        "course": "서서히 악화",
+        "experience": "처음",
+        "character": "최근 6개월 동안 기억력이 점점 떨어지는 것을 느낀다고 함. 특히, 최근에 있었던 일을 잘 기억하지 못하고, 물건을 어디에 두었는지 자주 잊어버림.  이전 기억은 비교적 잘 유지되고 있음.  길 찾기는 약간 어려워졌지만, 일상생활은 스스로 할 수 있음.",
+        "location": "가정에서 주로 생활, 최근 외부 활동 감소.",
+        "associatedSymptoms": "[정신] 우울감(+), 불안감(-), 수면장애(-), 성격변화(-), 환청/환시(-/-) [신경] 두통(-), 어지러움(-), 팔다리 저림(-), 보행장애(-) [기타] 배뇨장애(-), 변비(-)",
+        "factors": "최근 배우자 사망, 사회적 활동 감소.",
+        "pastHistory": {
+          "medical": "고혈압(10년 전 진단), 고지혈증(5년 전 진단)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "은퇴 후 집에서 주로 생활, 가족과 함께 거주",
+          "family": "자녀 2명, 치매 병력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "외관상 특이 소견 없음. 활력징후 안정.",
+        "heent": "눈/귀/코/목/구강 검사상 특이 소견 없음",
+        "extremity": "사지 운동능력 및 감각 정상, 부종 없음",
+        "neuro": "MMSE 24점"
+      },
+      "patientQuestion": "제가 치매인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "경도인지장애",
+          "알츠하이머병",
+          "혈관성인지장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 MRI",
+          "신경심리검사",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "인지 재활 치료",
+          "정기적 추적 관찰"
+        ]
+      }
+    }
+  ]
+}

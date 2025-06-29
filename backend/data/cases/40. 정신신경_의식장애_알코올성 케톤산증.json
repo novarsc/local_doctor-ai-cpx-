@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 58,
+        "gender": "남자"
+      },
+      "situation": "58세 남자 김민수씨가 의식 저하로 보호자와 함께 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "24회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "의식이 혼미해요",
+      "history": {
+        "onset": "오늘 아침",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "아침에 일어나지 못하고 의식이 혼미해짐.  구토는 없었으나, 심한 복통 호소.  주변에 술병 발견됨.",
+        "associatedSymptoms": "[전신] 발열(+), 오한(-), 체중 변화(-), 피로(+). [소화기] 구토(-), 설사(-), 복통(+, 심함). [신경] 의식 저하(+), 두통(-), 시야 변화(-), 팔다리 힘 빠짐(-), 말 어눌(-)",
+        "factors": "지난 3일간 과음. 최근 식사량 감소.",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 고지혈증(-), 간염(-), 뇌혈관계 질환(-)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중 (불규칙)",
+          "social": "알코올 남용 (주 5회 이상 과음)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 불안정, 의식 저하, 깊은 호흡, 아세톤 냄새 나는 구취(+)",
+        "heent": "결막 창백(-), 구강 건조(+), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "neuro": "뇌신경 검사 정상",
+        "abdomen": "간/비장 비대(-/-), 복수(-)",
+        "extremity": "말초 혈관 수축(+)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "알코올성 케톤산증",
+          "당뇨병성 케톤산증",
+          "알코올성 간염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사 (혈당, 혈액 가스 분석, 전해질, 간 기능 검사, 케톤체)",
+          "소변 검사 (케톤체)",
+          "심전도"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "포도당 용액 투여",
+          "전해질 교정",
+          "비타민 B 보충"
+        ]
+      }
+    }
+  ]
+}

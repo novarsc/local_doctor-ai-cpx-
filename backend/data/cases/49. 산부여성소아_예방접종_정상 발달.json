@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "caseNumber": 9,
+      "patientProfile": {
+        "name": "박채린",
+        "age": "18개월",
+        "gender": "여아"
+      },
+      "situation": "정기 건강검진을 위해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "95/60mmHg",
+        "heartRate": "85회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "아이의 건강 상태를 전반적으로 확인하고 싶어요.",
+      "history": {
+        "vaccinationHistory": "모든 예방접종 완료.  예방접종 후 특별한 이상 반응 없었음.",
+        "growthAndDevelopment": "성장 및 발달 정상. 키 80백분위, 몸무게 75백분위.  말하기, 걷기, 놀이 등 발달 단계에 맞춰 정상적으로 발달하고 있음.  퇴행 증상 없음.",
+        "perinatalHistory": "39주, 자연분만, 출생 시 키/몸무게 정상. 임신 중 특이사항 없음.",
+        "pastHistory": "감기 증상 외 특이 질환 없음.  경련(-), 황달(-).",
+        "contraindications": {
+          "diseases": "암, 백혈병 등 면역 저하 질환 없음. 심장병, 선천 기형, 신경계 질환 없음.",
+          "medications": "스테로이드/수혈/면역글로불린/면역억제제(-).",
+          "allergies": "알레르기 병력 없음."
+        },
+        "environment": {
+          "nutrition": "균형 잡힌 식단으로 이유식과 일반식을 잘 먹고 있음.",
+          "activity": "활동량이 많으며, 잘 뛰어놀고  사회성이 좋음."
+        },
+        "familyHistory": "가족력상 특이사항 없음."
+      },
+      "physicalExam": "신체 검진 결과 정상.  청진 시 심폐음 정상, 복부 촉진 시 특이 소견 없음.  발달 평가에서 정상 범위를 보임.",
+      "patientQuestion": "아이의 발달이 잘 되고 있는지 궁금해요.  앞으로 주의해야 할 점이 있다면 알려주세요.",
+      "impression": {
+        "patientStatus": [
+          "정상 발달",
+          "정상 성장"
+        ]
+      },
+      "plan": {
+        "followUp": "6개월 후 건강검진 예약.",
+        "education": [
+          "균형 잡힌 영양 섭취 및 규칙적인 운동 지도",
+          "안전사고 예방 교육",
+          "정서적 안정 및 사회성 발달 지원"
+        ]
+      }
+    }
+  ]
+}

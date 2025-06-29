@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박민지",
+        "age": 25,
+        "gender": "여자"
+      },
+      "situation": "밤에 심한 기침 때문에 잠을 못 이루고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "80회/분",
+        "respiration": "18회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "밤에 기침이 너무 심해요",
+      "history": {
+        "onset": "1주일 전",
+        "duration": "주로 밤에",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "마른 기침, 가끔씩 가래가 나옴(끈적임)",
+        "associatedSymptoms": {
+          "respiratory": "가래(+, 흰색, 끈적임), 쌕쌕거림(+, 특히 밤에), 호흡곤란(+, 운동 시 심해짐), 흉통(-), 콧물(-), 코막힘(-)",
+          "general": "발열(-), 오한(-), 체중 변화(-)",
+          "gi": "속쓰림(-), 신물(-)"
+        },
+        "factors": "밤에 심해짐, 운동 후 악화, 차가운 공기 흡입 시 악화",
+        "pastHistory": {
+          "medical": "알레르기 비염(+)",
+          "social": "흡연(-), 음주(가끔)",
+          "family": "아버지 천식 병력"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이 소견 없음",
+        "chest": "호흡음 약간 거칠고 쌕쌕거림(+) 들림"
+      },
+      "patientQuestion": "이 기침이 천식인가요? 앞으로 어떻게 해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "천식",
+          "급성 기관지염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "폐기능검사",
+          "메타콜린 유발검사",
+          "흉부 X-ray"
+        ],
+        "therapeutic": [
+          "흡입식 기관지확장제",
+          "필요시 경구용 스테로이드"
+        ]
+      }
+    }
+  ]
+}

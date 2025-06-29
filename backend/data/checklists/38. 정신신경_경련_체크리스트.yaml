@@ -1,0 +1,110 @@
+checklist:
+  topic_kr: "경련"
+  topic_en: "Seizure"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "경련 양상"
+          subtitle_en: "Characteristics of Seizure"
+          details: |
+            - 경련 시작 시점, 지속 시간 (Onset and duration of seizure)
+            - 경련의 빈도, 패턴 (Frequency and pattern of seizure)
+            - 경련 전, 중, 후 증상 (Symptoms before, during and after seizure: aura, prodrome, ictal phase, post-ictal phase)
+            - 의식 소실 여부 (Loss of consciousness)
+            - 경련 형태 (Type of seizure: tonic, clonic, tonic-clonic, absence, myoclonic, atonic)
+            - 신체 부위별 경련 양상 (Localization of seizure)
+            - 방광/장 조절 상실 여부 (Loss of bowel/bladder control)
+            - 혀 깨물음 여부 (Tongue biting)
+            - 외상 여부 (Trauma during seizure)
+        - subtitle_kr: "동반 증상 및 유발 요인"
+          subtitle_en: "Associated Symptoms and Triggers"
+          details: |
+            - 발열 (Fever)
+            - 두통 (Headache)
+            - 구토 (Vomiting)
+            - 어지러움 (Dizziness)
+            - 수면 부족 (Sleep deprivation)
+            - 스트레스 (Stress)
+            - 약물 복용력 (Medication history)
+            - 음주 및 흡연력 (Alcohol and smoking history)
+        - subtitle_kr: "과거력 및 가족력"
+          subtitle_en: "Past Medical and Family History"
+          details: |
+            - 경련 과거력 (History of seizures)
+            - 신경계 질환 (Neurological disorders)
+            - 두부 외상 (Head trauma)
+            - 뇌졸중 (Stroke)
+            - 가족력 (Family history of seizures or neurological disorders)
+
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "일반적 진찰"
+          subtitle_en: "General Examination"
+          details: |
+            - 활력 징후 (Vital signs)
+            - 신경학적 상태 (Neurological status)
+            - 의식 수준 (Level of consciousness: Glasgow Coma Scale)
+            - 외상 흔적 (Signs of trauma)
+        - subtitle_kr: "신경학적 진찰"
+          subtitle_en: "Neurological Examination"
+          details: |
+            - 뇌신경 검사 (Cranial nerve examination)
+            - 운동 기능 검사 (Motor examination)
+            - 감각 기능 검사 (Sensory examination)
+            - 반사 검사 (Reflexes: Deep tendon reflexes)
+            - 뇌막 자극 징후 (Meningeal irritation signs: Kernig's sign, Brudzinski's sign)
+
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Epilepsy"
+            - "Syncope"
+            - "Transient Ischemic Attack (TIA)"
+            - "Migraine"
+            - "Psychogenic Non-Epileptic Seizures (PNES)"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Electrolytes"
+                - "Glucose"
+                - "Toxicology screening"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Brain CT"
+                - "Brain MRI"
+            - category_kr: "기타 검사"
+              category_en: "Other Tests"
+              tests:
+                - "Electroencephalogram (EEG)"
+                - "Lumbar puncture (if meningitis is suspected)"
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "경련 관리 교육"
+          subtitle_en: "Seizure Management Education"
+          details: |
+            - 경련 발생 시 대처 방법 교육 (How to respond during a seizure: protect from injury, do not restrain, turn on side)
+            - 규칙적인 약물 복용의 중요성 (Importance of medication adherence)
+            - 유발 요인 피하기 (Avoidance of triggers: sleep deprivation, stress, alcohol)
+            - 응급 상황 발생 시 대처 방법 (When to seek emergency medical attention)
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: |
+            - 지속적인 경련 (Status epilepticus)
+            - 의식 회복 지연 (Prolonged post-ictal state)
+            - 새로운 신경학적 증상 발생 (New neurological symptoms)
+            - 호흡 곤란 (Difficulty breathing)
+            - 심한 두통 (Severe headache)

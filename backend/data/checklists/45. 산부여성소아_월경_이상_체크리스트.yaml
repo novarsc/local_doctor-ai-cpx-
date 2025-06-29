@@ -1,0 +1,99 @@
+checklist:
+  topic_kr: "월경 이상"
+  topic_en: "Abnormal Menstruation"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [월경 시작 시기 (Menarche age)]
+            - [마지막 월경 시기 (Date of last menstrual period, LMP)]
+            - [월경 주기 (Menstrual cycle length): 규칙적인지, 불규칙적인지 (Regular or irregular)]
+            - [월경 기간 (Menstrual duration)]
+            - [월경량 (Amount of menstrual flow): 평소와 비교하여 (Compared to usual)]
+            - [월경통 (Dysmenorrhea): 양상, 기간, 정도, 완화 요인 (Character, duration, severity, relieving factors)]
+            - [출혈 양상 (Bleeding pattern): 지속적인지, 간헐적인지 (Continuous or intermittent), 덩어리 유무 (Presence of clots)]
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [복통 (Abdominal pain): 위치, 양상 (Location, character)]
+            - [골반통 (Pelvic pain)]
+            - [두통 (Headache)]
+            - [어지럼증 (Dizziness)]
+            - [피로감 (Fatigue)]
+            - [체중 변화 (Weight change)]
+            - [모발 변화 (Hair changes)]
+            - [유즙 분비 (Galactorrhea)]
+            - [열 (Fever)]
+            - [오한 (Chills)]
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [임신 및 출산력 (Pregnancy and childbirth history)]
+            - [피임 방법 (Contraceptive methods)]
+            - [만성 질환 (Chronic medical conditions)]
+            - [약물 복용력 (Medication history)]
+            - [가족력 (Family history)]
+            - [스트레스 (Stress)]
+            - [최근 체중 변화 (Recent weight changes)]
+            - [운동 습관 (Exercise habits)]
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [활력 징후 (Vital signs)]
+            - [복부 진찰 (Abdominal examination)]
+            - [골반 진찰 (Pelvic examination)]
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [필요시 직장 진찰 (Rectal examination if necessary)]
+
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Polycystic ovary syndrome (PCOS)"
+            - "Hypothyroidism"
+            - "Hyperprolactinemia"
+            - "Premature ovarian insufficiency (POI)"
+            - "Uterine fibroids"
+            - "Endometrial polyps"
+            - "Endometriosis"
+            - "Pelvic inflammatory disease (PID)"
+            - "Pregnancy"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Beta-human chorionic gonadotropin (β-hCG)"
+                - "Thyroid stimulating hormone (TSH)"
+                - "Prolactin"
+                - "Follicle-stimulating hormone (FSH)"
+                - "Luteinizing hormone (LH)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Pelvic ultrasound"
+
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "월경 이상의 원인과 증상에 대한 설명, 진단 및 치료 계획에 대한 설명, 생활 습관 개선의 중요성 (식이, 운동, 스트레스 관리)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "심한 복통, 지속적인 출혈, 고열, 어지럼증 또는 실신 등의 증상 발생 시 즉시 의료기관 방문 (Seek immediate medical attention if experiencing severe abdominal pain, persistent bleeding, high fever, dizziness, or syncope)"

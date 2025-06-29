@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민준",
+        "age": 16,
+        "gender": "남자"
+      },
+      "situation": "16세 남자 김민준씨가 경련을 주소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "경련을 했어요.",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "침대에서",
+        "duration": "약 30초",
+        "experience": "처음 경험하는 경련",
+        "character": "잠에서 깨어난 후 갑자기 발생. 팔다리가 뻣뻣해지면서 떨림. 의식 소실 없었음. 경련 후 혼란스러움과 피로감 호소. 혀 깨물거나 침 흘림은 없었음.  전조 증상 없었음.",
+        "associatedSymptoms": "[전신] 발열/오한/두통/피로(+/-/+/+)",
+        "factors": "최근 수면 부족, 스트레스 증가(학업)",
+        "pastHistory": {
+          "medical": "특이 병력 없음",
+          "trauma_surgery": "특이 사항 없음",
+          "social": "술/담배/커피(-/-/-). 운동 규칙적으로 하지 않음.  학업 스트레스 심함."
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "두경부 이상 없음",
+        "neuro": "신경학적 검사 정상. 수막 자극 징후 없음.",
+        "extremity": "팔다리 감각 및 근력 정상."
+      },
+      "patientQuestion": "다시 경련이 올까봐 걱정돼요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "청소년 근간대 뇌전증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌파 검사",
+          "뇌 MRI"
+        ],
+        "therapeutic": [
+          "항전간제 처방",
+          "경련 관리 교육"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박채린",
+        "age": 20,
+        "gender": "여자"
+      },
+      "situation": "20세 여자 박채린씨가 심한 월경통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.5℃"
+      },
+      "chiefComplaint": "생리통이 너무 심해요.",
+      "history": {
+        "onset": "초경 시작 시점부터",
+        "location": "아랫배 중심, 허리까지 퍼지는 느낌",
+        "duration": "월경 첫째 날부터 둘째 날까지 가장 심하고, 3일까지 지속됨",
+        "course": "매달 비슷한 정도의 통증",
+        "character": "쥐어짜는 듯한 통증, NRS 8점. 진통제 복용에도 효과가 미미함.  월경량은 정상적이며, 생리 주기는 규칙적임(28일). 성교통은 없음.  임신 경험 없음.",
+        "associatedSymptoms": "[전신] 메스꺼움(+), 구토(-). [신장/비뇨] 빈뇨(-), 배뇨통(-).  복부 덩어리 만져지는 것 없음.",
+        "pastHistory": {
+          "medical": "특이 질환 없음",
+          "medications": "진통제(이부프로펜) 복용 중, 효과 불충분",
+          "social": "흡연(-), 음주(가끔 소량)",
+          "family": "어머니 월경통 경험 있음",
+          "gyn": "초경 14세, 월경 주기 28일, 월경량 정상,  산부인과적 수술 경험 없음, 현재 피임 안 함, 임신 계획 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적",
+        "heent": "정상 소견",
+        "abdomen": "압통 없음,  만져지는 덩어리 없음",
+        "pelvic": "자궁 크기 정상, 압통 없음",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "이 통증은 계속될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "일차성 월경통"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "골반 초음파"
+        ],
+        "therapeutic": [
+          "NSAID 계열 진통제 용량 증량",
+          "월경통 관리 교육",
+          "생활습관 개선(규칙적인 운동, 충분한 수면, 스트레스 관리)"
+        ]
+      }
+    }
+  ]
+}

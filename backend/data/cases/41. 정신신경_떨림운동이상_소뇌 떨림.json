@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김민수씨가 걷다가 자꾸 비틀거린다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "걷다가 자꾸 비틀거려요",
+      "history": {
+        "onset": "6개월 전",
+        "location": "몸 전체, 특히 걷는 동안",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "걷기 어려움, 비틀거림, 균형 잡기 어려움, 떨림은 없음",
+        "associatedSymptoms": "[신경] 어지러움(+), 두통(-), 시야 흐림(-), 언어장애(-), 삼킴곤란(-), 팔다리 저림(-), 근력 약화(-)",
+        "factors": "[악화] 피로, 스트레스(+). [완화] 휴식(-)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 고지혈증(-), 뇌졸중(-), 심장질환(-)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "은퇴 후 집에서 시간 보냄, 가족과 함께 생활, 스트레스 상당히 높다고 함",
+          "family": "부모: 고혈압, 고지혈증 병력 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "정상",
+        "neuro": "뇌신경 검사: 정상. 소뇌 기능 검사: 균형 감각 저하(+), 보행 실조(+), 손가락-코 검사(+), 발뒤꿈치-정강이 검사(+) ",
+        "extremity": "근력, 감각 정상"
+      },
+      "patientQuestion": "뇌에 문제가 있는 건 아닐까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "소뇌 떨림",
+          "소뇌 위축증",
+          "뇌종양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 MRI",
+          "뇌파 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "물리 치료",
+          "보행 보조기구 사용 권고"
+        ]
+      }
+    }
+  ]
+}

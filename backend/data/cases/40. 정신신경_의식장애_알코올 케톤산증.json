@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 58,
+        "gender": "남자"
+      },
+      "situation": "58세 남자 김철수씨가 의식 저하로 보호자와 함께 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "22회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "의식이 혼미해요",
+      "history": {
+        "onset": "오늘 아침",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "아침에 일어나지 못하고 의식이 혼미해짐. 구토는 없었으나, 깊은 숨을 헐떡거림. 주변에 술병 발견(+), 약물(-). 경련(-), 대소변 지림(-)",
+        "associatedSymptoms": "[전신] 발열/오한/체중 변화/피로(+/-/-) [소화] 구토(-), 복통(-) [신경] 감각 이상(-), 두통(-), 시야 변화(-), 팔다리 힘 빠짐(-), 말 어눌(-)",
+        "factors": "3일째 금주 후 과음(어제 저녁 소주 3병).  최근 식사는 불규칙적",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨(-), 고지혈증(-), 간염(-), 뇌혈관계 질환(-)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중(불규칙)",
+          "social": "알코올 남용 병력 있음(주 4회 이상 소주 1~2병). 최근 3일 금주 후 어제 과음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정, GCS 12점 (eye 4, verbal 4, motor 4),  심한 탈수 증상 보임,  과호흡 관찰됨,  구취에서 아세톤 냄새(+)",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "neuro": "수막 자극 징후(-)",
+        "abdomen": "간/비장 비대(-/-), 복수(-)",
+        "extremity": "DTR(-)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "알코올 케톤산증",
+          "당뇨병성 케톤산증",
+          "알코올성 간질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(혈당, 혈액가스분석, 케톤체, 전해질, 간기능검사)",
+          "소변검사(케톤체)",
+          "심전도"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "혈당 조절",
+          "전해질 교정",
+          "비타민 B1 투여"
+        ]
+      }
+    }
+  ]
+}

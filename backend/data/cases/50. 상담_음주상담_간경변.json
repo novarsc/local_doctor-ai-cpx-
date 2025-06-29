@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "만성피로와 복통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "몸이 너무 피곤하고 배가 아파요.",
+      "history": {
+        "drinkingHistory": {
+          "amount": "소주 1병 이상, 매일",
+          "onset": "20대 후반부터",
+          "reason": "스트레스 해소 및 친구들과 어울리기 위해"
+        },
+        "motivationToQuit": "최근 건강검진에서 간수치가 높게 나왔고, 의사의 권고로 금주 상담을 받으러 왔다.",
+        "previousAttempts": "몇 번 시도했지만 쉽지 않았다.",
+        "CAGE": {
+          "CutDown": "시도해 본 적이 있지만 실패했다.",
+          "Annoyed": "가족들이 술 때문에 잔소리를 한다.",
+          "Guilty": "술 때문에 일을 못한 적이 있다.",
+          "EyeOpener": "숙취 때문에 아침에 술을 마신 적이 있다."
+        },
+        "abuseAndDependence": {
+          "abuse": "잦은 음주로 인해 직장에서 꾸중을 들은 적이 있다.",
+          "dependence": {
+            "withdrawal": "손 떨림/불안/불면/메스꺼움(+/+/+/+)",
+            "tolerance": "술을 마시는 양이 늘었다.",
+            "etc": "술을 끊으면 불안하고 초조하다."
+          }
+        },
+        "associatedSymptoms": "체중 감소(+), 황달(+), 복수(+),  피로(+),  구토(+)",
+        "socialHistory": "흡연(+), 직업: 은퇴, 스트레스(+)"
+      },
+      "physicalExam": {
+        "general": "황달 소견, 거미 혈관종 관찰됨",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도(-)",
+        "abdomen": "복부 팽만, 복수(+) 확인",
+        "extremity": "하지 부종(+)"
+      },
+      "patientQuestion": null,
+      "impression": {
+        "likelyDiagnoses": [
+          "알코올성 간경변"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "간기능검사",
+          "복부 초음파",
+          "혈액검사",
+          "위내시경"
+        ],
+        "therapeutic": [
+          "금주 상담 및 교육",
+          "간경변 치료 약물",
+          "영양 관리",
+          "정기적인 추적 관찰"
+        ]
+      }
+    }
+  ]
+}

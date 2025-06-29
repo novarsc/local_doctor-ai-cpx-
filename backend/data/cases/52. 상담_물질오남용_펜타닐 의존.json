@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 박철수씨가 펜타닐 패치 처방을 위해 내원하였다. 최근 펜타닐 패치를 구하기 어려워졌다고 호소한다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "펜타닐 패치 처방해주세요.",
+      "drugHistory": {
+        "drug": "펜타닐 패치",
+        "history": "3년 전 허리 수술 후 통증 관리를 위해 처방받아 복용 시작",
+        "currentUse": "현재 25mcg/72시간 패치를 2개 부착 중",
+        "prescriptionSource": "지역 병원에서 처방받았으나, 최근 처방이 어려워져 내원",
+        "dependency": {
+          "quitAttempts": "패치 용량을 줄여본 적 있으나, 심한 통증과 불면으로 인해 실패",
+          "tolerance": "처방 초기에는 1개 패치로 효과를 보았으나, 현재는 2개 패치를 사용해야 통증이 조절됨",
+          "withdrawal": "패치를 떼면 심한 통증, 불면, 불안 증상 나타남"
+        },
+        "abuse": {
+          "interpersonalIssues": "통증 때문에 예민해져 가족과 갈등이 잦아짐"
+        }
+      },
+      "associatedSymptoms": "만성 요통(+), 수면 장애(+), 불안(+), 우울감(+), 변비(+), 식욕 부진(+)",
+      "pastHistory": {
+        "medical": "허리 디스크 수술, 고혈압",
+        "social": "흡연(20갑년), 음주(주 2회 소주 1병), 직업: 은퇴"
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 체중 감소 소견",
+        "heent": "눈/귀/코/목 (-/-/-/-)",
+        "neuro": "보행 장애(+), 감각 저하(+)",
+        "chest": "심음/호흡음 (-/-)",
+        "abdomen": "압통 (-)",
+        "extremity": "하지 근력 약화(+)"
+      },
+      "patientQuestion": "펜타닐 패치 없이는 못 살 것 같아요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "펜타닐 의존",
+          "만성 요통"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사",
+          "요 검사",
+          "X-ray",
+          "MRI"
+        ],
+        "therapeutic": [
+          "펜타닐 패치 감량 계획",
+          "다른 진통제 처방 (트라마돌, 옥시코돈 등)",
+          "정신과 상담",
+          "물리치료"
+        ]
+      }
+    }
+  ]
+}

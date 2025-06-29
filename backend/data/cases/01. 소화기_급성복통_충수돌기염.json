@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "오른쪽 아랫배 통증으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg ",
+        "heartRate": "90회/분 ",
+        "respiration": "18회/분 ",
+        "temperature": "38.2℃ "
+      },
+      "chiefComplaint": "배가 아파요.",
+      "history": {
+        "onset": "12시간 전",
+        "location": "배꼽 주변에서 시작하여 오른쪽 아랫배로 이동",
+        "duration": "지속적이며 점점 심해짐",
+        "course": "처음에는 둔한 통증이었으나 점점 심해지고 칼로 찌르는 듯한 통증이 되었다.",
+        "experience": "처음 겪는 통증",
+        "character": "칼로 찌르는 듯한 통증, NRS 8점",
+        "radiation": "없음",
+        "associatedSymptoms": {
+          "general": "오한과 발열이 있다.",
+          "gi": "식욕부진, 구역질, 구토 1회(맑은 액체)",
+          "urology": "배뇨통은 없다."
+        },
+        "aggravatingFactors": "움직일 때, 기침할 때",
+        "relievingFactors": "가만히 누워 있으면 약간 완화됨",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "medications": "없음",
+          "surgical": "없음",
+          "social": "흡연은 하지 않으며, 음주는 주 1회 소주 1병 정도."
+        }
+      },
+      "physicalExam": {
+        "abdomen": "오른쪽 아랫배에 압통과 반발압통이 있으며, McBurney point에 국소적인 근육 경직이 관찰된다.  Rovsing sign 양성."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "충수돌기염",
+          "난소낭종 염전",
+          "장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "복부 초음파",
+          "혈액 검사 (CBC, CRP)"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "진통제 투여",
+          "금식"
+        ]
+      }
+    }
+  ]
+}

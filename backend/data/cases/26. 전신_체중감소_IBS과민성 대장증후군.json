@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김민수씨가 복통과 설사로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "배가 아프고 설사를 자주 해요.",
+      "history": {
+        "onset": "2년 전부터",
+        "location": "주로 하복부",
+        "course": "간헐적으로 발생하며, 최근 몇 주 동안 증상이 악화됨",
+        "character": "배에 쥐어짜는 듯한 통증, 설사는 하루에 3~4회 정도, 변은 물기가 많고 묽음",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중 변화 없음",
+          "digestive": "복부 팽만감(+), 변비(-), 혈변(-), 복부 압통(+)",
+          "endocrine": "다음/다뇨/다갈(-/-/-)",
+          "respiratory": "기침/가래(-/-)",
+          "urinary": "다음/다뇨/거품뇨(-/-/-)",
+          "psychiatric": "스트레스(+), 불안감(+), 수면장애(-)"
+        },
+        "factors": "스트레스, 특정 음식 섭취 후 증상 악화",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "medications": "복용 중인 약물 없음",
+          "social": "흡연(-), 음주(주 2회 소주 2잔)",
+          "family": "특이사항 없음",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "특이사항 없음",
+        "abdomen": "복부 팽만감(+), 하복부 압통(+), 방사통(-), 복부 진탕음(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "이 병은 완치가 될 수 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "IBS(과민성 대장증후군)",
+          "염증성 장 질환",
+          "세균성 장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변 검사",
+          "복부 초음파",
+          "대장내시경(필요시)"
+        ],
+        "therapeutic": [
+          "식이요법 지도(유제품, 카페인 제한)",
+          "스트레스 관리 교육",
+          "증상 완화제(필요시)"
+        ]
+      }
+    }
+  ]
+}

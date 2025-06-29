@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 35,
+        "gender": "여자"
+      },
+      "situation": "심한 복통과 질출혈을 주소로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "배가 너무 아프고 피가 나와요.",
+      "history": {
+        "onset": "3시간 전 갑자기 심한 복통 시작, 1시간 전부터 질출혈 시작.",
+        "location": "전체 하복부",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "character": "쥐어짜는 듯한 심한 통증, 선홍색 질출혈, 패드 2장 정도 젖을 정도.",
+        "associatedSymptoms": {
+          "gynecological": "질분비물(-), 아래로 빠지는 느낌(-)"
+        },
+        "pastHistory": {
+          "obstetricHistory": "2-0-0-2. 이전 임신 및 출산 모두 정상. 현재 임신 30주.",
+          "contraception": "이전에는 피임약 사용, 현재는 사용하지 않음.",
+          "lastMenstrualPeriod": "정확히 기억나지 않음.",
+          "menstrualHistory": "규칙적, 양/색/월경통 이상 없음",
+          "medical": "고혈압 병력 없음.",
+          "vaccination": "B형 간염, 풍진 예방접종 완료",
+          "medications": "엽산, 철분 복용 중, 기타 약물 없음.",
+          "social": "흡연(-), 음주(-), 커피(하루 1잔), 직업(주부), 운동(가벼운 산책), 스트레스(+) ",
+          "family": "유전 질환/기형(-/-)"
+        },
+        "etc": {
+          "patientBio": "키 165cm, 체중 68kg, 혈액형 A형 Rh+",
+          "partnerBio": "혈액형 B형 Rh+"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 저하, 빈맥, 불안정해 보임",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "abdomen": "복부 압통 및 반발압통 심함. 자궁 긴장도 증가. 태아 심박동 불규칙적이고 감소 추세. 골반 내진: 자궁경부 닫혀있음,  질 내에 많은 양의 선홍색 출혈 관찰.",
+        "extremity": "Pitting edema(-), 피부 긴장도/부종(-/-)"
+      },
+      "patientQuestion": "아기는 괜찮을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "태반조기박리",
+          "자궁파열"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "응급 초음파",
+          "혈액검사 (CBC, PT/PTT, Fibrinogen)",
+          "혈액형 및 Rh 식별 검사"
+        ],
+        "therapeutic": [
+          "수액 공급",
+          "산소 공급",
+          "자궁 수축억제제 투여",
+          "응급 제왕절개술 준비"
+        ]
+      }
+    }
+  ]
+}

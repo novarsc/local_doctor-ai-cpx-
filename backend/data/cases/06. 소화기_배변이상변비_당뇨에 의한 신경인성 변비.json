@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 62,
+        "gender": "여자"
+      },
+      "situation": "2달째 변비가 지속되어 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "75회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "변비가 너무 심해요.",
+      "history": {
+        "onset": "2달 전",
+        "duration": "주 1회 미만 배변",
+        "course": "점진적으로 악화",
+        "experience": "과거에도 가끔 변비 있었으나, 이렇게 심한 것은 처음",
+        "character": "힘주어 배변(+), 변 딱딱함(+), 잔변감(+), 항문 막힘 느낌(-), 손가락 사용(-), 혈변(-), 통증(-)",
+        "associatedSymptoms": {
+          "general": "체중 변화(-), 피로감(+), 부종(-)",
+          "gi": "식욕부진(-), 구역/구토(-/-), 복통(-), 속쓰림(-)",
+          "endocrine": "다뇨(+), 다갈증(+), 체중 감소(+)",
+          "psych": "우울감(-), 불안감(-)"
+        },
+        "pastHistory": {
+          "events": "2년 전 당뇨병 진단",
+          "medications": "메트포르민, 글리벤클라마이드",
+          "social": "음주(-), 흡연(-), 커피(1잔/일), 운동(산책 30분/일), 식사(채소 섭취 부족)",
+          "family": "부친 당뇨병",
+          "obgyn": "폐경 5년 전"
+        }
+      },
+      "physicalExam": {
+        "heent": "눈/구강/피부(-/-/-), 갑상샘(-), 림프절(-)",
+        "abdomen": "복부 시진/청진/타진/촉진(-/-/-/-), DRE(딱딱한 변 촉지)",
+        "extremity": "부종(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "당뇨에 의한 신경인성 변비",
+          "기능성 변비"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈당 측정",
+          "HbA1c 측정",
+          "대장내시경(필요시)",
+          "배변조영술(필요시)"
+        ],
+        "therapeutic": [
+          "고섬유 식사 권장",
+          "충분한 수분 섭취",
+          "규칙적인 운동",
+          "변비약(필요시)",
+          "당뇨 관리 강화"
+        ]
+      }
+    }
+  ]
+}

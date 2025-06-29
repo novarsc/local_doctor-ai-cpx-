@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 40,
+        "gender": "남자"
+      },
+      "situation": "심한 콧물과 코막힘으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/75mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "콧물과 코막힘이 심해요",
+      "history": {
+        "onset": "5년 전",
+        "course": "간헐적으로 발생, 최근 악화",
+        "character": "맑은 콧물, 재채기(+), 코막힘(+), 후비루(+), 코 가려움(+), 눈 가려움(+), 눈물(+),  심한 경우 두통(+)",
+        "associatedSymptoms": {
+          "general": "발열/오한/피로(-/-/-), 체중 변화(-)",
+          "neuro": "두통(간헐적), 안면통(-)",
+          "respiratory": "기침(-)",
+          "olfactory": "후각 저하(경미)"
+        },
+        "factors": "특정 계절(봄, 가을), 찬바람, 냄새, 스트레스, 알코올 섭취 시 악화",
+        "pastHistory": {
+          "medical": "알레르기 비염(-), 천식(-), 축농증(-), 아토피(-)",
+          "social": "흡연(-), 음주(주 1회, 소주 1병), 직업(프로그래머), 스트레스(중간)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 충혈(+, 양쪽), 비점막 부종(+), 비루(+), 콧속에 물혹(-)"
+      },
+      "patientQuestion": "이 증상이 언제까지 지속될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "혈관 운동성 비염",
+          "알레르기 비염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "알레르기 검사",
+          "비내시경 검사"
+        ],
+        "therapeutic": [
+          "항히스타민제",
+          "비강 스테로이드 분무제",
+          "생리식염수 세척",
+          "환경 조절",
+          "스트레스 관리"
+        ]
+      }
+    }
+  ]
+}

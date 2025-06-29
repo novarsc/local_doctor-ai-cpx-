@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선주",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "오른쪽 옆구리 통증과 발열로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "38.8℃"
+      },
+      "chiefComplaint": "오른쪽 옆구리가 너무 아프고 열이 나요.",
+      "history": {
+        "onset": "2일 전부터 오른쪽 옆구리 통증 시작, 어제부터 발열",
+        "location": "오른쪽 옆구리, 허리 부근 방사통",
+        "duration": "지속적, 심해짐",
+        "course": "점점 심해지는 통증과 발열",
+        "character": "심한 콕콕 찌르는 듯한 통증, 움직일 때 더 심함",
+        "associatedSymptoms": {
+          "urinary": "빈뇨(+), 배뇨통(+), 잔뇨감(+), 혈뇨(-) "
+        },
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병 병력 없음. 과거 요로감염 병력 있음(5년 전).",
+          "surgical": "없음",
+          "allergies": "특이 사항 없음",
+          "medications": "현재 복용 약 없음",
+          "social": "흡연(-), 음주(소량, 가끔)",
+          "family": "특이 가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감, 안절부절 못함",
+        "heent": "결막 충혈(-), 구강 점막 건조(-)",
+        "abdomen": "오른쪽 측복부 압통(+), 반발압통(+), 방광 촉진(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "얼마나 아플까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "APN (급성 신우신염)",
+          "요로결석"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사(요배양검사, 소변세디먼트)",
+          "혈액검사(CBC, CRP, BUN, Creatinine)",
+          "복부 초음파",
+          "요배양 검사"
+        ],
+        "therapeutic": [
+          "경구 항생제 처방 (Ciprofloxacin)",
+          "수분 섭취 증가 권고",
+          "진통제 처방 (Acetaminophen)"
+        ]
+      }
+    }
+  ]
+}

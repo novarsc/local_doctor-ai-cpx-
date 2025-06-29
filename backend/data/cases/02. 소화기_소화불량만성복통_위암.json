@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최수진",
+        "age": 62,
+        "gender": "여자"
+      },
+      "situation": "몇 달째 소화가 안 되고 체중이 줄어서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg ",
+        "heartRate": "78회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.8℃ "
+      },
+      "chiefComplaint": "소화가 안 돼요.",
+      "history": {
+        "onset": "6개월 전 ",
+        "location": "상복부 ",
+        "course": "처음에는 가끔씩 더부룩했는데, 점점 심해지면서 지속적으로 불편함을 느낌. 최근 2달 동안 체중이 5kg 감소 ",
+        "experience": "이전에는 소화불량 경험 없었음 ",
+        "character": "속이 더부룩하고 답답하며, 음식이 잘 안 넘어가는 느낌.  NRS 4~5점 ",
+        "associatedSymptoms": {
+          "general": "체중 감소(+, 5kg 감소), 피로감(+), 식욕 감소(+) ",
+          "gi": "A/N/V/D/C(-/-/+/-/-) , 혈변(-), 흑변(-), 속쓰림(+) "
+        },
+        "factors": "특별한 악화 요인 없음. 기름진 음식 섭취 후 증상 악화되는 경향. ",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전 진단, 약 복용 중), 당뇨병(-), 위궤양(-) ",
+          "events": "특이 사항 없음 ",
+          "surgical": "자궁적출술(5년 전) ",
+          "medications": "고혈압약(로사르탄) ",
+          "social": "흡연(-), 음주(가끔 소주 1잔), 직업(은퇴), 운동(가끔 산책), 스트레스(중간) ",
+          "obgyn": "폐경(5년 전), 생리 관련 증상 없음 "
+        }
+      },
+      "physicalExam": {
+        "general": "영양상태 좋지 않음,  체중 감소 관찰됨 ",
+        "heent": "눈/입/귀/코/목/림프절(정상) ",
+        "abdomen": "상복부 압통(+), 반발압통(-) "
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "위암",
+          "위궤양",
+          "만성 위염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "혈액 검사",
+          "대변 잠혈 검사"
+        ],
+        "therapeutic": [
+          "내시경 결과에 따른 치료"
+        ]
+      }
+    }
+  ]
+}

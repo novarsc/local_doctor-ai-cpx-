@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "25세 남자 박민수씨가 이상한 생각이 든다며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg ",
+        "heartRate": "72회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.8℃ "
+      },
+      "chiefComplaint": "이상한 생각이 들어요",
+      "history": {
+        "onset": "6개월 전",
+        "experience": "처음",
+        "course": "점점 심해짐",
+        "location": "-",
+        "character": "6개월 전부터 주변 사람들이 나를 감시하고 음모를 꾸민다고 생각하게 되었고, TV나 라디오에서 나에게 하는 메시지가 숨겨져 있다고 느낍니다.  또한, 내 머릿속에 누군가의 목소리가 들리는 것 같습니다.",
+        "associatedSymptoms": "[정신] 환청(+), 환시(-), 망상(+), 사고의 지연(+), 무관심(+), 사회적 고립(+), 불면증(+),  [신체] 식욕변화(-), 체중변화(-), 피로감(+), [기타] 직장생활 힘들어짐(+)",
+        "factors": "스트레스 증가, 사회적 고립, 수면 부족",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "대학 졸업 후 취업난으로 어려움을 겪고 있음, 친구들과의 관계도 소원해짐,  흡연(+, 하루 1갑)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "외관상 특이사항 없음, 불안해 보임",
+        "heent": "정상",
+        "chest": "정상",
+        "extremity": "정상"
+      },
+      "patientQuestion": "이상한 생각이 계속되는데 어떻게 해야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "조현병"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "정신과적 평가",
+          "신경학적 검사",
+          "혈액검사",
+          "뇌영상 검사(MRI 또는 CT)"
+        ],
+        "therapeutic": [
+          "항정신병 약물 치료",
+          "정신치료",
+          "사회적 재활 프로그램"
+        ]
+      }
+    }
+  ]
+}

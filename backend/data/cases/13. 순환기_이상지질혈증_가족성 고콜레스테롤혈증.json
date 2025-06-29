@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "가족력이 있어 콜레스테롤 검사를 받았는데 수치가 높다고 하여 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "135/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "콜레스테롤 수치가 높대요",
+      "history": {
+        "labResults": "총 콜레스테롤 280mg/dL, LDL-C 190mg/dL, HDL-C 40mg/dL, TG 150mg/dL",
+        "associatedSymptoms": {
+          "general": "체중 변화 없음, 피로감(+), 소화불량(+)",
+          "cardiovascular": "흉통(-), 두근거림(-)"
+        },
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 고지혈증(-)",
+          "medications": "없음",
+          "social": "음주 (주 2회 소주 1병), 흡연 (1일 1갑, 20년), 운동 부족",
+          "family": "아버지: 조기 심근경색으로 사망, 어머니: 고지혈증"
+        }
+      },
+      "physicalExam": {
+        "heent": "황색판종(-), 각막환(-)",
+        "chest": "심잡음(-), 호흡음(clear)",
+        "abdomen": "간비대(-)",
+        "extremity": "아킬레스건 비후(-)"
+      },
+      "patientQuestion": "약을 꼭 먹어야 하나요? 생활습관만 바꾸면 안 될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "가족성 고콜레스테롤혈증",
+          "이상지질혈증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (간기능검사, 신장기능검사)",
+          "심전도 검사"
+        ],
+        "therapeutic": [
+          "스타틴 계열 약물 처방",
+          "생활 습관 개선 교육 (식이요법, 운동, 금주, 금연)"
+        ]
+      }
+    }
+  ]
+}

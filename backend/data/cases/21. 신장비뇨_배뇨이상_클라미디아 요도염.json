@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "28세 남자 김민수씨가 소변 시 통증을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변 볼 때 너무 아파요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "요도",
+        "duration": "소변 볼 때마다 통증이 있고, 특히 아침 첫 소변이 가장 심합니다.",
+        "course": "점점 심해지고 있습니다.",
+        "experience": "처음입니다.",
+        "character": "화끈거리고 따가운 통증입니다. NRS 7점 정도입니다. 소변 색깔은 평소와 같고, 혈뇨는 없습니다.",
+        "associatedSymptoms": {
+          "general": "발열/오한/근육통(-/-/-)",
+          "urinary": "빈뇨(+), 잔뇨감(-), 혈뇨(-), 요폐색(-)",
+          "genitals": "요도 분비물(+, 흰색, 소량), 외음부 가려움(-)"
+        },
+        "factors": "최근 새로운 파트너와 콘돔 없이 성관계를 가졌습니다.",
+        "pastHistory": {
+          "medical": "특이 질환 없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 1회, 소주 2병), 커피(+, 하루 2잔), 스트레스(+)",
+          "family": "특이 가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적",
+        "heent": "눈/귀/코/목/인후(-/-/-/-/-)",
+        "abdomen": "복부 압통(-), 방광 압통(-)",
+        "extremity": "부종(-)",
+        "genitals": "요도구 홍반(+), 분비물(+, 흰색, 소량), 서혜부 림프절 비대(-)"
+      },
+      "patientQuestion": "이 병 걸리면 불임이 되나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "클라미디아 요도염",
+          "임균성 요도염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요도 분비물 검사(PCR)",
+          "소변 검사"
+        ],
+        "therapeutic": [
+          "항생제 치료(아지스로마이신)",
+          "파트너에게도 검사 및 치료 권고",
+          "성관계 자제"
+        ]
+      }
+    }
+  ]
+}

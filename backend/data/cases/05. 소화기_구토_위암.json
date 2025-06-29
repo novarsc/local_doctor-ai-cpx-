@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "2주 전부터 지속되는 상복부 통증과 체중 감소를 주소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "배가 아프고 살이 빠져요",
+      "history": {
+        "onset": "2주 전",
+        "duration": "지속적",
+        "course": "점차 심해짐",
+        "character": "상복부 둔통, 식후 악화, 최근 5kg 감소",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(-/-/+5kg 감소)",
+          "gi": "구역감(+), 구토(-), 변비(-), 설사(-), 혈변(-), 흑색변(-), 지방변(-), 식욕부진(+)",
+          "circulatory": "흉통(-)",
+          "psych": "스트레스(+)",
+          "neuro": "두통(-), 어지러움(-)",
+          "dehydration": "목마름(-), 소변량 감소(-)"
+        },
+        "factors": "흡연(+, 30갑년), 음주(+, 소주 1병/일), 가족력(위암: 아버지)",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전 진단), 당뇨병(-), 고지혈증(-)",
+          "social": "흡연(30갑년), 음주(소주 1병/일), 직업: 회사원(정년퇴직)",
+          "family": "아버지: 위암"
+        }
+      },
+      "physicalExam": {
+        "general": "영양상태 불량, 체중 감소",
+        "heent": "결막/피부 착색(-/-)",
+        "abdomen": "상복부 압통(+), 반발압통(-), 청진 소견(-)",
+        "neuro": "신경학적 검사 정상"
+      },
+      "patientQuestion": "위암일까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "위암",
+          "위궤양",
+          "위염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "위조영술",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "금주, 금연 교육",
+          "증상 완화 치료"
+        ]
+      }
+    }
+  ]
+}

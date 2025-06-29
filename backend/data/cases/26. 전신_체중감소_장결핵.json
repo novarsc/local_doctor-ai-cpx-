@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 35,
+        "gender": "남자"
+      },
+      "situation": "35세 남자 김철수씨가 2개월 동안 체중이 감소하여 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "살이 빠지고 기침이 계속 나와요.",
+      "history": {
+        "onset": "2개월 전부터 서서히 체중 감소 및 기침 시작",
+        "location": "전신적인 체중 감소, 주로 저녁에 기침 심함",
+        "course": "체중 감소는 서서히 진행되었고, 기침은 처음에는 가볍게 시작되었으나 점차 심해짐.  최근 밤에 잠을 설칠 정도로 기침이 심해짐.",
+        "character": "키 175cm, 체중 70kg → 65kg 감소.  기침은 마른 기침이며 가래는 없음.  밤에 땀을 많이 흘림.",
+        "associatedSymptoms": {
+          "general": "발열/오한(+, 저녁에 열이 남)/피로(+), 야간 발한(+), 체중 감소(+)",
+          "digestive": "식욕부진(+), 복통(-), 설사(-)",
+          "respiratory": "기침(+, 마른기침), 가래(-), 흉통(-), 호흡곤란(-)",
+          "endocrine": "더위불내성(-), 두근거림(-)",
+          "urinary": "다뇨(-), 빈뇨(-)",
+          "psychiatric": "불안(+), 수면장애(+)"
+        },
+        "factors": "특별한 위험 요인 없음.  최근 여행 및 해외 체류 경험 없음.  흡연, 음주 없음.",
+        "pastHistory": {
+          "medical": "특이 병력 없음",
+          "medications": "복용 중인 약물 없음",
+          "social": "흡연(-), 음주(-), 직업: 사무직, 스트레스 중간 정도",
+          "family": "특이 가족력 없음",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "기침을 자주 하며, 약간의 쇠약감 보임.  체중 감소 관찰됨.",
+        "heent": "귀코입목 검사 정상",
+        "chest": "호흡음 약간 거칠고, 수포음 없음.",
+        "abdomen": "압통 없음",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "이 기침과 체중 감소가 걱정입니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "결핵",
+          "만성 기침",
+          "폐렴"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-선 검사",
+          "객담 검사(항산성 염색, 배양)",
+          "혈액 검사(CBC, CRP, ESR)"
+        ],
+        "therapeutic": [
+          "기침 완화제 처방",
+          "충분한 휴식 권고",
+          "검사 결과에 따른 추가적인 치료 계획 수립"
+        ]
+      }
+    }
+  ]
+}

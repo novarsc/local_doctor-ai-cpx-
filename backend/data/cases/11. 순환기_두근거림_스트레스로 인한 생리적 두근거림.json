@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 27,
+        "gender": "남자"
+      },
+      "situation": "심한 두근거림으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "95회/분",
+        "respiration": "18회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "가슴이 쿵쾅거리고 빨리 뛰어요",
+      "history": {
+        "onset": "2주 전부터",
+        "duration": "몇 초에서 몇 분까지 다양",
+        "course": "점점 빈도가 증가하는 추세",
+        "experience": "처음",
+        "character": "[양상] 갑자기 시작해서 갑자기 멈춤, 불규칙적인 맥박. [정도] NRS 6점. [동반증상] 흉통(-), 어지럼(+), 숨가쁨(+)",
+        "associatedSymptoms": {
+          "general": "발열/오한(-/-), 체중 변화(-), 피로감(+), 식은땀(+)",
+          "circulatory": "손발 저림(-)",
+          "gi": "소화불량(-)"
+        },
+        "factors": "스트레스 받을 때, 시험기간, 야근 후에 심해짐, 잠을 제대로 못 잤을 때",
+        "pastHistory": {
+          "medical": "DM/TB/HTN/간염(-/-/-/-)",
+          "social": "흡연(-), 음주(주 2회, 소주 1병), 커피(하루 2잔), 직업: 웹 개발자",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이 소견 없음",
+        "cv": "심잡음 없음, 규칙적인 맥박"
+      },
+      "patientQuestion": "심장에 문제가 있는 건 아닌가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "스트레스로 인한 생리적 두근거림",
+          "심방세동",
+          "심실상성 빈맥"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도 검사",
+          "24시간 홀터 심전도 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "스트레스 관리 상담",
+          "수면 개선",
+          "필요시 베타 차단제"
+        ]
+      }
+    }
+  ]
+}

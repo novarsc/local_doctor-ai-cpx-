@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김민수씨가 몇 달 전부터 손이 떨린다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "손이 떨려서 일상생활이 불편해요.",
+      "history": {
+        "onset": "3개월 전",
+        "location": "양손, 특히 오른손이 더 심함",
+        "course": "서서히 시작하여 점차 악화됨",
+        "experience": "처음 경험",
+        "character": "주로 움직일 때 떨리고, 가만히 있을 때는 덜 떨림. 글씨 쓰거나 물건 집을 때 심하게 떨림.",
+        "associatedSymptoms": "[신경] 걸음걸이 이상(-), 어지러움(-), 두통(-), 인지장애(-). [전신] 체중 감소(-), 발열(-), 근육통(-)",
+        "factors": "[악화] 긴장 시, 피로 시(+/+). [완화] 알코올 섭취 시(-)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 고지혈증(+), 뇌졸중(-), 파킨슨병(-)",
+          "trauma_surgery": "10년 전 골절 수술",
+          "medications": "고혈압약(Amlodipine 5mg 1일 1회), 고지혈증약(Atorvastatin 20mg 1일 1회), 최근 3개월 전부터 불면증으로 Zolpidem 5mg 1일 1회 복용 시작",
+          "social": "은퇴 후 집에서 주로 생활, 가족과 함께 거주, 스트레스는 보통 수준",
+          "family": "부모 모두 고혈압 병력 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 안정적",
+        "heent": "눈, 코, 귀, 목 정상 소견",
+        "neuro": "뇌신경 검사 정상, 소뇌 기능 검사 정상, 근력 및 감각 정상, 경직(-)",
+        "extremity": "안정 시 떨림(-), 자세 떨림(+), 의도 떨림(+)"
+      },
+      "patientQuestion": "이 떨림이 심해지면 어떻게 될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "본태성 진전",
+          "약제 유발성 진전",
+          "파킨슨병"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 MRI",
+          "혈액 검사(갑상선 기능 검사, B12 수치)",
+          "약물 중단 후 추적 관찰"
+        ],
+        "therapeutic": [
+          "Zolpidem 감량 또는 중단 후 경과 관찰"
+        ]
+      }
+    }
+  ]
+}

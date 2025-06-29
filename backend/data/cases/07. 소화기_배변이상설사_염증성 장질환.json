@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "심한 복통과 설사로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "배가 너무 아프고 설사가 계속돼요.",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "간헐적으로 발생, 최근 2주 심해짐",
+        "course": "최근 2주 동안 설사 횟수 증가(하루 8-10회), 혈변 동반. 복통은 주로 밤에 심해짐.",
+        "experience": "과거 설사 경험 있으나, 이번처럼 심하지 않았음.",
+        "character": "수양성 설사, 점액 및 혈액 혼합. 대변 양은 많음.",
+        "associatedSymptoms": {
+          "general": "열/오한/피로/부종(-/-/+/-) 체중 감소(약 5kg)",
+          "gi": "식욕부진(+), 구역/구토(-/-), 복통(+, 주로 좌측 하복부, 심한 통증), 잔변감(+), 항문 통증(+)",
+          "endocrine": "두근거림/더위불내성(-/-)",
+          "dehydration": "어지러움/목마름(+/+) 소변량 감소(+)"
+        },
+        "factors": "악화: 스트레스, 맵거나 기름진 음식. 완화: 배변 후 일시적 통증 완화.",
+        "pastHistory": {
+          "events": "특이 사항 없음",
+          "medical": "고혈압/당뇨/결핵/간염(-/-/-/-)",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 2회 소주 2병)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 체중 감소 소견 관찰",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "좌측 하복부 압통(+), 반발압통(-), 장음 항진, 복부 팽만(-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이 병이 계속될까봐 걱정돼요. 어떤 치료를 받아야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "크론병",
+          "궤양성 대장염",
+          "결장암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대장내시경",
+          "대변검사(잠혈, 배양)",
+          "혈액검사(CRP, ESR, 혈액형)"
+        ],
+        "therapeutic": [
+          "5-ASA 약물",
+          "항생제 (필요시)",
+          "영양 관리",
+          "수액 요법(필요시)"
+        ]
+      }
+    }
+  ]
+}

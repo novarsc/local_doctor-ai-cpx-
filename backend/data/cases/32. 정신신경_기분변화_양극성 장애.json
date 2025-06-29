@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 9,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 35,
+        "gender": "남자"
+      },
+      "situation": "35세 남자 김민수씨가 수면장애와 과도한 활동성으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "잠을 못 자고 너무 활동적이에요",
+      "history": {
+        "onset": "2주 전",
+        "duration": "매일 밤, 잠 못 이룸, 낮에도 과도하게 활동적",
+        "course": "점점 심해짐",
+        "experience": "이전에도 비슷한 경험 있음 (약 6개월 전, 2주 정도 지속 후 자연스럽게 호전)",
+        "character": "자의로 내원, 평소 조용한 성격, 최근 사업 실패 후 극심한 스트레스 경험\n도움 요청할 수 있는 사람(+)",
+        "associatedSymptoms": {
+          "digestive": "소화불량(-)",
+          "psychiatric": "수면 부족(+), 과도한 활동성(+), 불안감(+)\n기분 고조(+, 자신감 넘침, 쉽게 흥분), 말이 많아짐(+)\n식욕 증가(+), 체중 증가(+, 2kg)\n집중력 저하(+), 판단력 저하(+)\n자살 생각(-), 자살 계획(-), 자살 시도(-)\n우울감(-)",
+          "endocrine": "추위불내성(-)"
+        },
+        "factors": "스트레스(+, 사업 실패), 수면 부족(+), 알코올 섭취(+, 매일 소주 2병)",
+        "pastHistory": {
+          "social": "음주(+, 매일 2병), 흡연(-), 직업: 사업가, 스트레스(+)",
+          "family": "정신과 진료력(-)",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 말이 많고 행동이 과다함",
+        "heent": "결막/구강/탈수(-/-/-), 갑상샘(-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "빨리 회복할 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "1형 양극성 장애",
+          "조울증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "기분장애 척도 검사",
+          "혈액 검사",
+          "갑상샘 기능 검사"
+        ],
+        "therapeutic": [
+          "기분 안정제 (예: 리튬)",
+          "정신 치료",
+          "알코올 중독 치료"
+        ]
+      }
+    }
+  ]
+}

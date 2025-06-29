@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 60,
+        "gender": "남자"
+      },
+      "situation": "갑작스러운 심계항진으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "180회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "가슴이 쿵쾅거리고 숨이 차요.",
+      "history": {
+        "onset": "1시간 전",
+        "duration": "지속 중",
+        "course": "갑자기 시작됨",
+        "experience": "처음",
+        "character": "심장이 매우 빠르게 뛰고, 규칙적으로 뛰는 느낌.  숨이 차고 어지러움.",
+        "associatedSymptoms": {
+          "circulatory": "어지러움(+), 흉통(-), 호흡곤란(+)",
+          "endocrine": "손떨림(-), 더위/추위 불내성(-/-)",
+          "gi": "식욕저하(-), 소화불량(-)"
+        },
+        "factors": "특별한 유발 요인 없음",
+        "pastHistory": {
+          "medical": "고혈압(10년 경력, 꾸준히 약 복용 중), 고지혈증(5년 경력, 약 복용 중),  당뇨병(-)",
+          "social": "흡연(하루 1갑, 30년 경력), 음주(주 2회, 소주 3병), 직업(은퇴)",
+          "family": "부친 고혈압 병력"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이 소견 없음",
+        "cardiovascular": "심박수 180회/분, 규칙적 리듬, 심음 청진 시 잡음 없음.",
+        "respiratory": "호흡수 22회/분, 청진 시 잡음 없음.",
+        "extremity": "말초 맥박 촉진 가능, 혈압 측정 가능."
+      },
+      "patientQuestion": "심장마비인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "발작성 심실상성 빈맥(PSVT)",
+          "심방세동",
+          "심근경색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도(ECG)",
+          "심초음파",
+          "혈액검사(심근 효소, 전해질)"
+        ],
+        "therapeutic": [
+          "아데노신 정맥 주사",
+          "베타 차단제",
+          "칼슘 채널 차단제"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 30,
+        "gender": "여자"
+      },
+      "situation": "30세 여자 박선영씨가 심한 월경통과 불임으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "생리통이 너무 심하고, 임신이 안 돼요.",
+      "history": {
+        "onset": "20대 초반부터",
+        "location": "하복부, 때때로 허리까지 통증이 퍼짐",
+        "duration": "월경 시작 2일 전부터 월경 기간 내내",
+        "course": "점차 심해짐",
+        "character": "[양상] 쥐어짜는 듯한 통증, NRS 8점. 진통제 효과 미미. 월경량은 정상. 월경 주기는 불규칙적(28~35일). 성교통(+), 성교 출혈(-). 임신 시도 2년째 실패.",
+        "associatedSymptoms": "[전신] 발열/오한(-/-). [신장/비뇨] 빈뇨(-), 배뇨통(-), 혈뇨(-).",
+        "pastHistory": {
+          "medical": "특이 병력 없음.",
+          "medications": "진통제(이부프로펜 등), 효과 없음.",
+          "social": "음주(주 2회, 소주 2잔), 흡연(-), 직업: 회사원",
+          "family": "자궁내막증 가족력 없음.",
+          "gyn": "초경 13세, 월경 주기 불규칙, LMP 2주 전, 결혼 3년차, 피임 없음, 임신 시도 2년, 임신 가능성 낮음."
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "abdomen": "압통(+), 방어긴장(-), 반발압통(-), 덩어리 만져지지 않음.",
+        "pelvic": "자궁 후굴, 자궁 크기 정상, 압통(+), 난소 종괴(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "저 완치 가능한가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "자궁내막증",
+          "골반염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "골반 초음파",
+          "자궁경검사",
+          "CA-125 혈청 검사"
+        ],
+        "therapeutic": [
+          "진통제(NSAID)",
+          "호르몬 치료(경구 피임약, GnRH agonist 고려)",
+          "복강경 검사(진단 및 치료)"
+        ]
+      }
+    }
+  ]
+}

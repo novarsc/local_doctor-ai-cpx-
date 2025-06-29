@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김철수씨가 심한 두통과 오른쪽 팔다리 마비 증상을 호소하며 응급실로 내원하였다(현재 오후 3시).",
+      "vitalSigns": {
+        "bloodPressure": "160/95mmHg",
+        "heartRate": "92회/분",
+        "respiration": "16회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "머리가 너무 아프고 오른쪽 팔다리가 마비됐어요.",
+      "history": {
+        "onset": "오후 2시",
+        "location": "머리 전체, 오른쪽 팔과 다리",
+        "duration": "1시간 지속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "극심한 두통, 갑작스러운 오른쪽 팔다리 마비, 말하기 어려움",
+        "associatedSymptoms": "[전신] 발열(-), 오한(-), 메스꺼움(+), 구토(+), [순환] 두근거림(-), [신경] 시야 흐림(-), 의식 저하(-), [관절/골격/피부] 통증(-)",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약, 당뇨 약",
+          "social": "흡연(+, 하루 한 갑), 음주(+, 주 2회 소주 1병)",
+          "family": "아버지 고혈압"
+        }
+      },
+      "physicalExam": {
+        "general": "의식 명료, 불안해 보임",
+        "heent": "안면비대칭(+), 경동맥 잡음(-)",
+        "neuro": "오른쪽 상지 및 하지 근력 저하(MMT 3/5), 감각 저하(+), 반사항진(+), Babinski sign(+)",
+        "extremity": "오른쪽 팔다리 움직임 제한적"
+      },
+      "patientQuestion": "괜찮아질 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "뇌출혈",
+          "뇌경색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "뇌 MRI"
+        ],
+        "therapeutic": [
+          "혈압 조절",
+          "항혈전제 투여",
+          "필요시 수술"
+        ]
+      }
+    }
+  ]
+}

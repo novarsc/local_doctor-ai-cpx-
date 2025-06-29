@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "오랜 기침과 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "88회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기침이 너무 심하고 숨이 차요",
+      "history": {
+        "onset": "10년 전부터",
+        "duration": "주로 아침과 저녁",
+        "course": "서서히 악화됨",
+        "experience": "재발하는 양상",
+        "character": "가래 있는 기침, 끈적끈적한 황색 가래",
+        "associatedSymptoms": {
+          "respiratory": "가래(+, 아침에 많고 점액성), 쌕쌕거림(+, 특히 밤에 심함), 호흡곤란(+, 계단 오르내릴 때 심함), 흉통(-)",
+          "general": "피로감(+), 체중 감소(-)",
+          "gi": "속쓰림(-), 신물(-)"
+        },
+        "factors": "감기에 걸린 후 악화, 찬 공기에 노출 시 악화, 흡연 후 악화",
+        "pastHistory": {
+          "medical": "고혈압(+, 5년 전부터 약 복용), 당뇨병(-), 결핵(-)",
+          "social": "흡연(하루 1갑 40년), 음주(주 3회, 소주 2병)",
+          "family": "부친 만성폐쇄성폐질환"
+        }
+      },
+      "physicalExam": {
+        "heent": "구강 내 특이 소견 없음",
+        "chest": "호흡음 감소, 잡음(+), 폐포음(+), Barrel chest(+), PND(+)",
+        "cardiovascular": "심음 정상"
+      },
+      "patientQuestion": "이 병이 나을 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성폐쇄성폐질환(COPD)",
+          "PND"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "폐기능검사(스피로메트리)",
+          "흉부 X-ray",
+          "혈액 검사(혈액가스분석)"
+        ],
+        "therapeutic": [
+          "기관지 확장제(Salmeterol/Fluticasone)",
+          "흡입 코르티코스테로이드",
+          "산소요법",
+          "폐 재활 프로그램"
+        ]
+      }
+    }
+  ]
+}

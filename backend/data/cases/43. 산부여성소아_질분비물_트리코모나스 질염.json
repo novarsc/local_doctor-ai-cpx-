@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 김민지씨가 질 분비물 증가와 가려움증을 주소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "질 분비물이 많고 가려워요",
+      "history": {
+        "onset": "3일 전",
+        "duration": "계속됨",
+        "course": "점점 심해짐",
+        "experience": "처음 경험",
+        "character": "[양] 팬티라이너를 자주 갈아야 할 정도로 많음. [양상] 거품이 약간 있고 묽은 형태. [색] 황록색. [냄새] 비릿한 냄새. 피/거품(+/-)",
+        "associatedSymptoms": "[전신] 발열/오한/피로(-/-/-). [소화기] 복통/설사(-/-). [비뇨기] 배뇨통/빈뇨(-/-). 외음부 가려움/따가움(+/+). 질출혈/질건조(-/-). [폐경] 안면홍조/식은땀(-/-)",
+        "factors": "질세척(-), 이물질 삽입(-), 생리 주기와 관계없음. 최근 성관계(+, 2일 전)",
+        "pastHistory": {
+          "medical": "특이 병력 없음",
+          "medications": "없음",
+          "social": "직업: 사무직, 음주/흡연(-/-)",
+          "gyn": "초경 13세, LMP 1주 전, 생리 규칙적, 월경량 보통, 생리통 없음.  기혼, 파트너 1명, 성교통(-), 피임: 경구피임약 사용, 산부인과 검진 이상 없음, 만조유생 0-0-0-0"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "abdomen": "복부 압통(-), 하복부 불편감(-), CVAT(-)",
+        "pelvic": "질경 검사 시 황록색, 거품이 약간 있는 묽은 분비물 관찰. 자궁경부 및 자궁 부속기 압통(-).",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "치료받으면 빨리 낫나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "트리코모나스 질염",
+          "세균성 질염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "질 분비물 현미경 검사",
+          "질 분비물 배양 검사"
+        ],
+        "therapeutic": [
+          "메트로니다졸 복용"
+        ]
+      }
+    }
+  ]
+}

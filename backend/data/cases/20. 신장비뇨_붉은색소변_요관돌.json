@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 48,
+        "gender": "남자"
+      },
+      "situation": "48세 남자 박민수씨가 심한 우측 옆구리 통증과 혈뇨를 호소하며 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "92회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "옆구리가 너무 아파요. 소변에 피도 섞여 나와요.",
+      "history": {
+        "onset": "6시간 전",
+        "course": "점점 심해짐",
+        "experience": "처음 경험",
+        "character": "[양] 알 수 없음, [색] 콜라색, [냄새] 특이 없음, [거품] 없음, 우측 옆구리에서 시작된 통증이 점점 심해지며, 하복부로 퍼짐, 구역감 동반",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 메스꺼움(+), 구토(-), 체중 변화(-), 탈수(-), 감기 증상(-), 근육통(-), 부종(-)",
+          "digestive": "구역/구토/어지럼증(+/-/-)",
+          "renal_urinary": "빈뇨(-), 절박뇨(-), 야간뇨(-), 배뇨통(-), 주저뇨(-), 요로감염 증상(-), 옆구리 통증(+, 우측), 하복부 통증(+)",
+          "other": "출혈 경향(-)"
+        },
+        "factors": "최근 과격한 운동(-), 과도한 수분 섭취(-), 스트레스(+), 최근 X-ray/CT(-/-)",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "로사르탄, 아토르바스타틴",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 2회 소주 2병), 운동(-), 직업: 회사원",
+          "family": "부친 고혈압, 모친 당뇨병"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정, 움직임 제한",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "abdomen": "CVAT(+, 우측), 복부 촉진시 심한 통증 호소, 복부 경직(+),  방광 팽만(-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이렇게 아픈 이유가 뭘까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "요관결석",
+          "신우신염",
+          "급성 충수염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (CBC, BMP)",
+          "소변검사",
+          "복부 단순촬영",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "통증 조절 (진통제 투여)",
+          "수액 요법",
+          "필요시 체외 충격파 쇄석술"
+        ]
+      }
+    }
+  ]
+}

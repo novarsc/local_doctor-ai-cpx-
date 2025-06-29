@@ -1,0 +1,55 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김수현",
+        "age": "10개월",
+        "gender": "여아"
+      },
+      "situation": "아이의 체중 증가가 부족하여 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "아이 체중이 잘 안 늘어요.",
+      "history": {
+        "onset": "7개월부터 체중 증가 속도가 느려짐.",
+        "growthAndDevelopment": {
+          "growth": "키 72cm (50%), 몸무게 7kg (10%).",
+          "development": "앉기, 기어다니기 가능.  옹알이 많이 함.  발달은 정상 범위.",
+          "vaccination": "예방접종 계획대로 접종 완료."
+        },
+        "perinatalHistory": "38주 만삭아, 자연분만, 출생 시 체중 3.2kg, 키 50cm.  임신, 분만 과정에 특이사항 없음.",
+        "neonatalHistory": "신생아 대사이상검사, 유전자 검사 정상.  신생아 황달 없음.",
+        "environment": {
+          "caregiver": "엄마가 주 양육자.",
+          "nutrition": "모유 수유 후 6개월부터 이유식 시작하였으나, 이유식 양이 적고, 다양한 음식 섭취가 부족함.  고기, 야채 섭취가 적음.",
+          "sleep": "수면 시간 충분."
+        },
+        "familyHistory": "가족력에 특이사항 없음."
+      },
+      "physicalExam": "영양 상태가 다소 부족해 보이나, 신체 검진상 특이 소견 없음.",
+      "patientQuestion": null,
+      "impression": {
+        "likelyDiagnoses": [
+          "이유식 지연으로 인한 열량 섭취 부족",
+          "선택적 식사"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (혈구수, 빈혈 여부 확인)",
+          "소변검사"
+        ],
+        "therapeutic": [
+          "이유식 섭취량 증가 및 다양한 음식 섭취 권장",
+          "영양 상담",
+          "정기적인 성장 발달 관찰"
+        ]
+      }
+    }
+  ]
+}

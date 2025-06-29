@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 50,
+        "gender": "남성"
+      },
+      "situation": "50세 남성 김민수씨가 고열과 발진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "95회/분",
+        "respiration": "20회/분",
+        "temperature": "39.5℃"
+      },
+      "chiefComplaint": "열이 나고 몸에 발진이 생겼어요.",
+      "history": {
+        "onset": "4일 전",
+        "location": "전신",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "고열과 함께 몸에 발진이 나타남.  해열제 복용 후 일시적으로 열이 내렸으나 다시 상승.",
+        "associatedSymptoms": {
+          "general": "오한, 두통, 근육통, 피로감, 식욕부진",
+          "skin": "전신에 작은 발진, 특히 몸통에 집중",
+          "digestive": "구토 1회, 설사 2회",
+          "respiratory": "기침, 가래 없음"
+        },
+        "factors": "최근 농사일을 함. 풀을 베다가 긁힌 상처가 있었음.  진드기에 물린 기억은 없음.",
+        "pastHistory": {
+          "social": "흡연 20갑년, 음주 주 2회 소주 1병",
+          "medical": "고혈압, 고지혈증, 당뇨병 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 나고 전신적으로 피로해 보임.  탈수 증상은 없음.",
+        "skin": "전신에 1~2mm 크기의 작은 구진성 발진이 관찰됨.  특히 몸통에 집중되어 있으며, 긁힌 상처가 발진과 연관된 부위에 보임.",
+        "heent": "결막 충혈 없음. 인두 충혈 없음.",
+        "chest": "호흡음 청진상 특이 소견 없음.",
+        "abdomen": "압통 없음.  청진상 특이 소견 없음."
+      },
+      "patientQuestion": "이 병이 옮을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "쯔쯔가무시병",
+          "발진티푸스",
+          "홍역"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(혈액 일반 검사, 간 기능 검사, 신 기능 검사)",
+          "쯔쯔가무시병 특이 항체 검사",
+          "발진 사진 촬영"
+        ],
+        "therapeutic": [
+          "도파민성 효과가 있는 항생제 처방(예: 도키사이클린)",
+          "수액요법",
+          "대증요법(해열제, 진통제)"
+        ]
+      }
+    }
+  ]
+}

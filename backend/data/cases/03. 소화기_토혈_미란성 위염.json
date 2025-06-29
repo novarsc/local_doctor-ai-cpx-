@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "속쓰림과 상복부 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "속이 너무 쓰리고 아파요.",
+      "history": {
+        "onset": "3일 전부터",
+        "frequency": "지속적",
+        "experience": "비슷한 증상 경험 있음 (가끔씩 속쓰림)",
+        "character": "상복부 압박감, 쓰라림, 공복 시 심화, 음식 섭취 후 일시적 호전",
+        "associatedSymptoms": {
+          "general": "권태감(+)",
+          "gi": "식욕부진(+), 구토(-), 설사(-), 변비(-), 혈변(-), 흑변(-)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "코피, 멍(-/-)",
+          "dehydration": "어지럼, 두근거림, 소변량 감소(-/-/-)"
+        },
+        "factors": "스트레스 증가, 불규칙적인 식사, 잦은 야식, 커피 섭취(+)",
+        "pastHistory": {
+          "events": "위내시경 검사 2년 전 시행 (미란성 위염 진단, 치료 후 증상 호전)",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 2회 소주 1병), 직업(회사원), 식사(불규칙적, 인스턴트 음식 섭취 잦음), 운동(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적",
+        "heent": "눈/입/림프절/비경(-/-/-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/+), 명치 부위 압통(+), 반발압통(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "이번에도 위염인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "미란성 위염",
+          "기능성 소화불량",
+          "위궤양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "헬리코박터 파일로리 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "제산제",
+          "H2 수용체 길항제",
+          "양성자 펌프 억제제",
+          "식습관 및 생활 습관 개선 상담"
+        ]
+      }
+    }
+  ]
+}

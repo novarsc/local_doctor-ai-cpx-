@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 35,
+        "gender": "여자"
+      },
+      "situation": "심계항진과 체중 감소를 주소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "100회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "심장이 빨리 뛰고 살이 빠져요",
+      "history": {
+        "onset": "2개월 전부터",
+        "duration": "하루 종일",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "[양상] 두근거림, 맥박이 빨라짐, 불규칙적. [정도] NRS 5점. [동반증상] 어지럼(+), 숨가쁨(+)",
+        "associatedSymptoms": {
+          "general": "체중 감소(+, 5kg), 발열/오한(-/-), 피로감(+), 식은땀(+), 떨림(+)",
+          "endocrine": "더위를 잘 탐",
+          "gi": "식욕 증가(+), 설사(+)"
+        },
+        "factors": "스트레스, 카페인 섭취 시 악화",
+        "pastHistory": {
+          "medical": "DM/TB/HTN/간염(-/-/-/-)",
+          "social": "직업: 사무직, 커피(하루 3잔), 흡연(-), 음주(월 1회)",
+          "family": "갑상선 질환 가족력 없음",
+          "obgyn": "월경 규칙적, 임신 가능성(-)"
+        }
+      },
+      "physicalExam": {
+        "heent": "안구 돌출(-), 갑상선 비대(+), 촉진 시 약간 단단함",
+        "extremity": "손떨림(+), 미세진동(+), 피부 습윤(+)"
+      },
+      "patientQuestion": "심장병일까봐 걱정돼요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "갑상샘기능항진증",
+          "빈맥",
+          "불안장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "갑상선 호르몬 검사 (TSH, FT3, FT4, TPOAb)",
+          "심전도 검사",
+          "심초음파 검사"
+        ],
+        "therapeutic": [
+          "항갑상선제 투여",
+          "베타차단제 투여(증상 조절)",
+          "생활 습관 교정(카페인 섭취 줄이기, 스트레스 관리)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민지",
+        "age": 68,
+        "gender": "여자"
+      },
+      "situation": "어지러움과 실신으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "어지럽고 쓰러질 것 같아요.",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "집에서 일어나려 할 때",
+        "duration": "약 30초간 의식 소실",
+        "experience": "최근 몇 달 동안 앉았다 일어설 때 어지러움을 자주 느꼈으며, 오늘 아침에는 침대에서 일어나려다 의식을 잃고 바닥에 쓰러짐. 과거에도 유사한 경험이 있었으나 병원 방문은 없었음.",
+        "character": {
+          "preSyncope": "어지러움(+), 흐릿함(+), 메스꺼움(-), 가슴 두근거림(-)",
+          "syncope": "경련(-), 혀 깨물림(-), 의식 소실(+), 낙상(+)",
+          "postSyncope": "두통(-), 팔다리 힘 빠짐(+), 피로감(+), 식은땀(+)"
+        },
+        "associatedSymptoms": {
+          "general": "발열/오한/피로/식은땀/체중변화(-/-/-/-/-)",
+          "circulatory": "두근거림/호흡곤란(-/-)",
+          "gi": "설사/구토/혈변/흑색변/토혈(-/-/-/-/-)",
+          "respiratory": "가슴 통증(-)",
+          "renal": "다음/다뇨/다갈(-/-/-), 혈뇨(-)",
+          "neuro": "두통/시야장애/보행장애/팔다리 힘 빠짐(-/-/-/-)",
+          "psych": "죽을 것 같은 공포감/불안(-/-)"
+        },
+        "factors": "앉았다 일어설 때 악화됨(+),  오래 서 있을 때 악화됨(+),  탈수(-)"
+      },
+      "pastHistory": {
+        "surgical": "없음",
+        "medications": "고혈압 약(로사르탄 50mg, 1일 1회)",
+        "social": "술(소주 반병/주 1회), 담배(금연 20년), 커피(1일 1잔).  최근 수면 부족(+)"
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "결막/구강/손등 피부 긴장도 정상",
+        "chest": "심음 청진 정상",
+        "extremity": "팔다리 근력/감각 정상, 부종(-)"
+      },
+      "patientQuestion": "다시 쓰러질까 봐 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "기립성 저혈압",
+          "심혈관계 질환",
+          "탈수"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "기립경 검사",
+          "심전도 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "수분 섭취 증가 권고",
+          "기립성 저혈압 관리 교육",
+          "필요시 약물 조절"
+        ]
+      }
+    }
+  ]
+}

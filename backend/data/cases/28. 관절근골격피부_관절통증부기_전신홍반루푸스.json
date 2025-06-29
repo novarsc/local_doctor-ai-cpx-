@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 30,
+        "gender": "여자"
+      },
+      "situation": "30세 여자 김민지씨가 얼굴 발진과 관절통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "얼굴이 빨갛게 되고, 손가락 마디가 아파요.",
+      "history": {
+        "onset": "2개월 전",
+        "location": "얼굴, 손가락, 손목, 무릎",
+        "duration": "간헐적으로 아픔",
+        "course": "점점 심해짐",
+        "character": "얼굴에 나비 모양의 발진, 손가락 마디 부종과 통증, 아침에 관절이 뻣뻣함, 햇빛 노출 후 증상 악화, NRS 6점(손가락), NRS 4점(무릎)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(+/-/+/+)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "광과민성(+), 피부 발진(+), 구강 궤양(-), 성기 궤양(-), 탈모(-)",
+          "infection": "관절 주사(-), 최근 감기(-), 감염(-), 설사(-)",
+          "sjogren": "입마름(-), 눈마름(-)"
+        },
+        "factors": "햇빛 노출 후 악화, 스트레스 받으면 악화",
+        "pastHistory": {
+          "medical": "류마티스 질환(-), 관절염(-)",
+          "trauma_surgery": "외상 및 수술(-)",
+          "medications": "진통제 복용(효과 일시적)",
+          "social": "사무직 근무, 흡연(-), 음주(주 1회 소량)",
+          "family": "류마티스성 질환 가족력(-)",
+          "obgyn": "월경 규칙적, 임신 계획 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable, 나비 모양의 발진 관찰",
+        "heent": "결막/공막 정상, 구강 점막 정상, 림프절 비대(-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "손가락 관절 부종 및 압통(+), 무릎 관절 압통(+), ROM 감소(+)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "전신홍반루푸스",
+          "류마티스 관절염",
+          "피부 루푸스"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(ANA, anti-dsDNA, anti-Sm, complement levels)",
+          "소변검사",
+          "손목 및 무릎 X-ray"
+        ],
+        "therapeutic": [
+          "NSAID 복용",
+          "스테로이드 치료 고려",
+          "햇빛 차단"
+        ]
+      }
+    }
+  ]
+}

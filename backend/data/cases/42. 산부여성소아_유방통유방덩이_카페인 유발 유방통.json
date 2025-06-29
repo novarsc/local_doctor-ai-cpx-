@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 32,
+        "gender": "여자"
+      },
+      "situation": "32세 여자 박선영씨가 유방 통증을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "왼쪽 유방이 콕콕 쑤시고 아파요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "왼쪽 유방 전체",
+        "course": "3일 전부터 왼쪽 유방에 쑤시는 듯한 통증이 시작되었으며, 점점 심해지는 느낌이다. 특별한 외상이나 유방의 변화는 없었다.",
+        "character": "콕콕 쑤시는 듯한 통증으로, 심할 때는 NRS 4점 정도이다. 만져지는 덩어리는 없다.",
+        "associatedSymptoms": "열감/부종/발적/유방 피부 변화(-/-/-/-). 겨드랑이 멍울/피부 함몰/유두 함몰/유두 분비물(-/-/-/-)",
+        "pastHistory": {
+          "medical": "특이병력 없음",
+          "trauma_surgery": "유방 수술이나 보형물 삽입력 없음",
+          "medications": "호르몬제, 피임약(-/-)",
+          "social": "음주/흡연(-/-), 커피 하루 4잔 이상, 스트레스 많음(직업: 변호사)",
+          "family": "유방암 가족력 없음",
+          "gyn": "초경 13세, 월경 주기 규칙적, 생리통 없음, 출산 경험 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "chest": "심음/호흡음(정상), 유방 피부 변화/유두 변화/유두 분비물(-/-/-). 유방 촉진 시 특별한 덩어리나 압통 없음. 겨드랑이 림프절 비대 없음",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "카페인 섭취가 문제일까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "카페인 유발 유방통",
+          "생리전 유방통",
+          "섬유선종"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "유방 초음파"
+        ],
+        "therapeutic": [
+          "카페인 섭취 줄이기",
+          "진통제 처방(필요시)",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

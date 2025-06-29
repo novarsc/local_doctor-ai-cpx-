@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 12,
+        "gender": "남자"
+      },
+      "situation": "12세 남자 김민수군이 눈을 깜빡이고 어깨를 으쓱거린다고 어머니가 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "눈을 자꾸 깜빡이고 어깨를 으쓱거려요.",
+      "history": {
+        "onset": "7세경",
+        "location": "눈, 어깨",
+        "course": "초등학교 입학 후 증상이 심해짐. 최근 스트레스 증가로 더 심해짐.",
+        "experience": "처음",
+        "character": "눈 깜빡임과 어깨 으쓱거림은 불수의적이고 반복적임.  특정 상황에서 더 심해짐.",
+        "associatedSymptoms": "[신경] 걸음 이상, 언어장애, 인지장애(-/-/-).  수면장애(+), 집중력 저하(+)",
+        "factors": "[악화] 스트레스, 긴장, 피로(+). [완화] 수면, 휴식(+)",
+        "pastHistory": {
+          "medical": "감기 외 특이 병력 없음.",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "초등학교 6학년, 학업 스트레스 호소. 친구들과의 관계는 양호.",
+          "family": "부모 모두 건강함. 가족력 없음."
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "neuro": "뇌신경학적 검사 정상. 눈 깜빡임과 어깨 으쓱거림 관찰됨.",
+        "extremity": "근력 및 감각 정상."
+      },
+      "patientQuestion": "아이의 증상이 심해지는 것 같아 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "틱 장애",
+          "불안 장애",
+          "강박 장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "정신과 상담",
+          "행동 관찰"
+        ],
+        "therapeutic": [
+          "행동 치료",
+          "약물 치료(필요시)"
+        ]
+      }
+    }
+  ]
+}

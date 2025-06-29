@@ -1,0 +1,87 @@
+checklist:
+  topic_kr: "소변량 변화 - 다뇨증"
+  topic_en: "Changes in Urine Output - Polyuria"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가 (소변량 증가)"
+          subtitle_en: "Assessment of Chief Complaint (Increased Urine Output)"
+          details: |
+            - [ ] 소변량 증가 시작 시기 (Onset of increased urine output)
+            - [ ] 소변량 변화 양상 (Pattern of urine output changes): 급격한 변화 vs. 점진적인 변화 (Sudden vs. Gradual)
+            - [ ] 하루 평균 소변량 (Average daily urine volume) 및 배뇨 횟수 (Frequency of urination)
+            - [ ] 소변량 증가로 인한 일상생활의 불편감 (Impact on daily life)
+            - [ ] 야간뇨 여부 및 횟수 (Nocturia and frequency)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [ ] 갈증 (Thirst)
+            - [ ] 체중 변화 (Weight changes)
+            - [ ] 식욕 변화 (Appetite changes)
+            - [ ] 피로감 (Fatigue)
+            - [ ] 시야 흐림 (Blurred vision)
+            - [ ] 구역, 구토 (Nausea, vomiting)
+            - [ ] 복통 (Abdominal pain)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [ ] 당뇨병 가족력 (Family history of diabetes)
+            - [ ] 신장 질환 과거력 (History of kidney disease)
+            - [ ] 약물 복용력 (Medication history): 이뇨제, 스테로이드 등 (Diuretics, steroids, etc.)
+            - [ ] 최근 감염 (Recent infections)
+            - [ ] 수술력 (Surgical history)
+
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [ ] 활력 징후 측정 (Vital signs): 혈압, 맥박, 호흡수, 체온 (Blood pressure, pulse rate, respiratory rate, body temperature)
+            - [ ] 전반적인 외형 관찰 (General appearance): 탈수 징후 (Signs of dehydration)
+            - [ ] 복부 진찰 (Abdominal examination): 압통, 장음 (Tenderness, bowel sounds)
+        - subtitle_kr: "특수 진찰 (필요시)"
+          subtitle_en: "Special Maneuvers (If necessary)"
+          details: |
+            - [ ] 신경학적 검사 (Neurological examination)
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Diabetes Mellitus (DM)"
+            - "Diabetes Insipidus (DI)"
+            - "Chronic Kidney Disease (CKD)"
+            - "Primary Polydipsia"
+            - "Medication-induced polyuria"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Blood glucose"
+                - "Electrolytes"
+                - "Blood Urea Nitrogen (BUN)"
+                - "Creatinine"
+                - "Osmolality"
+            - category_kr: "소변 검사"
+              category_en: "Urine Tests"
+              tests:
+                - "Urinalysis"
+                - "Urine osmolality"
+                - "24-hour urine collection"
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "다뇨증의 원인 및 증상에 대한 설명, 검사 결과에 따른 추가적인 검사 및 치료 계획 설명"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "심한 갈증, 체중 감소, 탈수 증상, 시야 흐림, 의식 저하 등의 증상 발생 시 즉시 의료진에게 연락하도록 교육"

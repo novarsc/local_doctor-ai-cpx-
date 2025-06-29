@@ -99,6 +99,37 @@ function safeGet(obj, path, defaultValue = null) {
 }
 
 /**
+ * Converts Korean age expressions to numbers
+ * @param {string|number} ageStr - Age string like "7세", "4개월", "생후 4개월"
+ * @returns {number|null} Converted age number or null
+ */
+function convertAgeToNumber(ageStr) {
+    if (!ageStr) return null;
+    if (typeof ageStr === 'number') return ageStr;
+    if (typeof ageStr !== 'string') return null;
+    
+    // "생후 4개월" -> 4
+    const monthMatch = ageStr.match(/생후\s*(\d+)개월/);
+    if (monthMatch) {
+        return parseInt(monthMatch[1]);
+    }
+    
+    // "18개월" -> 18
+    const monthOnlyMatch = ageStr.match(/(\d+)개월/);
+    if (monthOnlyMatch) {
+        return parseInt(monthOnlyMatch[1]);
+    }
+    
+    // "7세" -> 7 or any number extraction
+    const ageMatch = ageStr.match(/(\d+)/);
+    if (ageMatch) {
+        return parseInt(ageMatch[1]);
+    }
+    
+    return null;
+}
+
+/**
  * Finds the appropriate checklist file for a case file
  * @param {string} fileName - Name of the case file
  * @returns {string|null} Checklist file path or null if not found
@@ -106,6 +137,28 @@ function safeGet(obj, path, defaultValue = null) {
 function getChecklistPath(fileName) {
     const baseFileName = path.basename(fileName, path.extname(fileName));
     
+    // 넘버링 기반 매핑: 파일명 앞의 번호를 추출하여 매핑
+    // 예: "01. 소화기_급성복통_급성 게실염.json" → "01"로 시작하는 체크리스트 찾기
+    const numberMatch = baseFileName.match(/^(\d+)\./);
+    if (numberMatch) {
+        const number = numberMatch[1];
+        const checklistsDir = path.join(__dirname, 'data', 'checklists');
+        
+        if (fs.existsSync(checklistsDir)) {
+            const files = fs.readdirSync(checklistsDir);
+            // 같은 번호로 시작하는 체크리스트 파일 찾기
+            const matchingFile = files.find(file => 
+                file.startsWith(`${number}.`) && 
+                (file.endsWith('.yaml') || file.endsWith('.yml'))
+            );
+            
+            if (matchingFile) {
+                return `data/checklists/${matchingFile}`;
+            }
+        }
+    }
+    
+    // 기존 YAML 파일용 매핑 로직 (하위 호환성)
     // 1. 정확한 매칭 체크리스트 찾기 (개별 체크리스트)
     let checklistFile = `${baseFileName}_checklist.yaml`;
     let checklistPath = path.join(__dirname, 'data', 'checklists', checklistFile);
@@ -128,6 +181,106 @@ function getChecklistPath(fileName) {
     }
     
     return null;
+}
+
+/**
+ * Processes a single JSON case file
+ * @param {string} filePath - Path to the JSON file
+ * @param {string} fileName - Name of the file
+ * @param {string} personalityId - AI personality ID
+ * @returns {Promise<Object[]>} Array of created scenario data
+ */
+async function processJsonFile(filePath, fileName, personalityId) {
+    try {
+        const rawContent = fs.readFileSync(filePath, 'utf8');
+        const jsonData = JSON.parse(rawContent);
+        
+        if (!jsonData || !jsonData.cases || !Array.isArray(jsonData.cases)) {
+            throw new Error('JSON file must contain a "cases" array');
+        }
+
+        const results = [];
+        
+        for (const caseData of jsonData.cases) {
+            try {
+                // Extract category from filename (format: "01. 소화기_급성복통_급성 게실염.json")
+                const fileNameWithoutExt = fileName.replace('.json', '');
+                const parts = fileNameWithoutExt.split('_');
+                
+                                 let primaryCategory = '기타';
+                 let secondaryCategory = '';
+                 let caseName = fileName.replace('.json', '');
+                 
+                 if (parts.length >= 2) {
+                     // First part contains number and primary category: "01. 소화기"
+                     const firstPart = parts[0];
+                     const categoryMatch = firstPart.match(/\d+\.\s*(.+)/);
+                     if (categoryMatch) {
+                         primaryCategory = categoryMatch[1].trim();
+                     }
+                     
+                     // Second part is secondary category: "급성복통"
+                     secondaryCategory = parts[1];
+                     
+                     // Third part and beyond form the case name
+                     if (parts.length > 2) {
+                         caseName = parts.slice(2).join(' ');
+                     }
+                 }
+                
+                // Generate keywords from case data
+                const keywords = [];
+                if (caseData.patientProfile?.name) keywords.push(caseData.patientProfile.name);
+                if (caseData.chiefComplaint) keywords.push(...caseData.chiefComplaint.split(/\s+/));
+                if (primaryCategory !== '기타') keywords.push(primaryCategory);
+                if (secondaryCategory) keywords.push(secondaryCategory);
+                
+                                                                   // Find corresponding checklist file
+                 const checklistFilePath = getChecklistPath(fileName);
+                 
+                 // Map JSON structure to database schema
+                 const scenarioData = {
+                     scenarioId: uuidv4(),
+                     name: caseName || '제목 없음',
+                     shortDescription: caseData.situation || '',
+                     description: null,
+                     primaryCategory: primaryCategory,
+                     secondaryCategory: secondaryCategory,
+                     age: convertAgeToNumber(caseData.patientProfile?.age) || null,
+                     sex: caseData.patientProfile?.gender || null,
+                     presentingComplaint: caseData.chiefComplaint || '',
+                     bloodPressure: caseData.vitalSigns?.bloodPressure || null,
+                     pulse: caseData.vitalSigns?.heartRate || null,
+                     respiration: caseData.vitalSigns?.respiration || null,
+                     temperature: caseData.vitalSigns?.temperature || null,
+                     keywords: keywords.filter(k => k && k.trim().length > 0),
+                     caseFilePath: `data/cases/${fileName}`,
+                     checklistFilePath: checklistFilePath,
+                     defaultAiPersonalityId: personalityId,
+                 };
+
+                const scenario = await Scenario.create(scenarioData);
+                results.push({ success: true, scenario, title: scenarioData.name });
+                
+            } catch (error) {
+                results.push({ 
+                    success: false, 
+                    error: error.message, 
+                    fileName: fileName,
+                    caseNumber: caseData.caseNumber 
+                });
+            }
+        }
+        
+        return results;
+        
+    } catch (error) {
+        return [{ 
+            success: false, 
+            error: error.message, 
+            fileName: fileName 
+        }];
+    }
 }
 
 /**
@@ -217,28 +370,47 @@ async function seedDatabase() {
             throw new Error(`Cases directory not found: ${casesDir}`);
         }
 
-        const yamlFiles = fs.readdirSync(casesDir)
-                            .filter(file => file.endsWith('.yaml') || file.endsWith('.yml'))
+        const caseFiles = fs.readdirSync(casesDir)
+                            .filter(file => file.endsWith('.yaml') || file.endsWith('.yml') || file.endsWith('.json'))
                             .sort(); // Sort for consistent ordering
 
-        console.log(`\n📁 총 ${yamlFiles.length}개의 증례 파일을 발견했습니다. 시딩을 시작합니다...\n`);
+        console.log(`\n📁 총 ${caseFiles.length}개의 증례 파일을 발견했습니다. 시딩을 시작합니다...\n`);
 
         let successCount = 0;
         let errorCount = 0;
         const errors = [];
 
         // Process files sequentially to avoid overwhelming the database
-        for (const file of yamlFiles) {
+        for (const file of caseFiles) {
             const caseFilePath = path.join(casesDir, file);
-            const result = await processCaseFile(caseFilePath, file, personality.personalityId);
+            const isJsonFile = file.endsWith('.json');
             
-            if (result.success) {
-                console.log(`  ✅ [${result.title}] 증례가 성공적으로 추가되었습니다.`);
-                successCount++;
+            if (isJsonFile) {
+                // Process JSON file
+                const results = await processJsonFile(caseFilePath, file, personality.personalityId);
+                
+                for (const result of results) {
+                    if (result.success) {
+                        console.log(`  ✅ [${result.title}] JSON 증례가 성공적으로 추가되었습니다.`);
+                        successCount++;
+                    } else {
+                        console.error(`  ❌ [${file}] JSON 파일 처리 중 오류 발생: ${result.error}`);
+                        errorCount++;
+                        errors.push({ file, error: result.error });
+                    }
+                }
             } else {
-                console.error(`  ❌ [${file}] 파일 처리 중 오류 발생: ${result.error}`);
-                errorCount++;
-                errors.push({ file, error: result.error });
+                // Process YAML file
+                const result = await processCaseFile(caseFilePath, file, personality.personalityId);
+                
+                if (result.success) {
+                    console.log(`  ✅ [${result.title}] YAML 증례가 성공적으로 추가되었습니다.`);
+                    successCount++;
+                } else {
+                    console.error(`  ❌ [${file}] YAML 파일 처리 중 오류 발생: ${result.error}`);
+                    errorCount++;
+                    errors.push({ file, error: result.error });
+                }
             }
         }
 

@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "황달 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "눈이 노랗고 가렵습니다",
+      "history": {
+        "onset": "2주 전",
+        "location": "눈, 피부",
+        "duration": "2주 지속",
+        "course": "눈의 황달이 먼저 시작되었고, 이후 전신으로 퍼짐",
+        "experience": "처음",
+        "character": "샛노란색",
+        "associatedSymptoms": {
+          "general": "체중 감소(5kg, 3개월), 피로감(+), 발열/오한(-/-)",
+          "gi": "식욕부진(+), 오심/구토(+/-), 복통(+, 상복부 우측), 소화불량(+), 설사/변비(-/-), 혈변/흑변(-/-)",
+          "renal": "소변색 변화(+, 진한 갈색), 가려움증(+, 심한 정도)",
+          "respiratory": "기침/가래(-/-)"
+        },
+        "factors": "특별한 음식 섭취 없음, 최근 여행 없음, 흡연 30갑년(2년 전 금연)",
+        "pastHistory": {
+          "events": "수술 경험 없음, 알레르기 없음",
+          "medical": "고혈압(10년), 당뇨병(5년), 고지혈증(10년)",
+          "medications": "고혈압 약, 당뇨 약, 고지혈증 약 복용 중",
+          "social": "음주(소주 1병/주, 20년), 흡연(과거 30갑년), 직업(은퇴)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 황달(+), 경부 림프절(-)",
+        "abdomen": "상복부 압통(+, 우측), 간 비대 의심(+), 복수(-)",
+        "extremity": "부종(-), 피부 가려움증(+)"
+      },
+      "patientQuestion": "얼마나 심각한 질환인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "담관암",
+          "담낭암",
+          "간암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(간기능검사, 종양표지자)",
+          "복부 초음파",
+          "복부 CT",
+          "ERCP"
+        ],
+        "therapeutic": [
+          "대증요법(가려움증 완화제)",
+          "수액요법"
+        ]
+      }
+    }
+  ]
+}

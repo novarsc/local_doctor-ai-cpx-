@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 50,
+        "gender": "남자"
+      },
+      "situation": "검붉은 색의 토혈로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "22회/분",
+        "temperature": "36.9℃"
+      },
+      "chiefComplaint": "피를 토했어요.",
+      "history": {
+        "onset": "3시간 전",
+        "frequency": "2회",
+        "experience": "처음",
+        "character": "검붉은색, 덩어리진 피가 섞여 있었고, 양은 종이컵 반 정도 였습니다. 거품은 없었고, 음식물은 섞여 있지 않았습니다.",
+        "associatedSymptoms": {
+          "general": "어지러움, 힘이 없음(+/+)",
+          "gi": "A/N/V/D/C(+/+/+/-) (구토는 피가 섞인 2회), 복통(+, 명치 부위 욱신거림), 혈변/흑색변(-/-)",
+          "circulatory": "흉통(-)",
+          "bleedingTendency": "평소 코피, 멍이 잘 드는 증상은 없음(-/-)",
+          "dehydration": "갈증(+), 소변량 감소(+)"
+        },
+        "factors": "특별한 원인 없음. 평소 위가 불편했지만, 최근 특별한 증상은 없었음.",
+        "pastHistory": {
+          "events": "건강검진(2년 전, 위내시경 정상)",
+          "social": "흡연(+, 하루 1갑 20년), 음주(+, 소주 1병/주 1회), 직업(회사원), 스트레스(+), 식사(불규칙적, 인스턴트 음식 섭취 많음)"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 저하, 빈맥, 창백한 피부색(+/+/+)",
+        "heent": "결막 창백(+)",
+        "abdomen": "복부 압통(+, 명치 부위), 청진상 특이 소견 없음(-)",
+        "extremity": "말초 맥박 촉진 가능(+)"
+      },
+      "patientQuestion": "어디가 문제인지 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "소화성 궤양 출혈",
+          "식도정맥류 출혈",
+          "위암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "혈액검사(CBC, PT/PTT)",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "내시경적 지혈술",
+          "제산제"
+        ]
+      }
+    }
+  ]
+}

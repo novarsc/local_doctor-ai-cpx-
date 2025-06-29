@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 68,
+        "gender": "여자"
+      },
+      "situation": "68세 여자 박민수씨가 다리에 생긴 발진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "다리에 빨간 혹이 생겼어요.",
+      "history": {
+        "onset": "3주 전",
+        "location": "왼쪽 정강이",
+        "duration": "3주째 지속",
+        "course": "처음에는 작은 붉은 반점이었는데, 점점 커지고 혹처럼 튀어나왔어요.",
+        "experience": "처음",
+        "character": "[크기] 2cm 정도 [모양] 둥글고 단단함\n[색] 붉은색, 중앙부 약간 자색\n[개수] 1개\n가려움(-), 통증(+, 만지면 아픔), 따가움(-), 열감(+) \n딱지/궤양/고름/비늘(-/-/-/-)",
+        "associatedSymptoms": {
+          "rheumatologic": "관절통(-), 관절염(-)",
+          "other": "피로감(+), 식욕부진(-), 체중변화(-) \n최근 감염증(-), 특별한 약물 복용(-), 여행력(-)"
+        },
+        "factors": "특별한 원인을 찾지 못했음.",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약, 고지혈증 약 복용 중",
+          "social": "흡연(-), 음주(가끔 소주 반병), 직업(은퇴)",
+          "other": "정기적인 건강검진 시행, 특이사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적",
+        "heent": "눈, 귀, 코, 목, 갑상선(-)",
+        "chest_abdomen": "심폐음 정상, 복부(-)",
+        "extremity": "왼쪽 정강이에 2cm 크기의 단단하고 붉은 결절, 압통(+), 주변 피부 발적(+), 열감(+), 다른 피부 병변 없음"
+      },
+      "patientQuestion": "이게 뭐 때문에 생긴 건가요?  낫는 데 얼마나 걸릴까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "결절 홍반",
+          "세포괴사성 혈관염",
+          "피부 염증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "피부 생검",
+          "혈액 검사 (CRP, ESR, 혈구수)"
+        ],
+        "therapeutic": [
+          "진통제 처방",
+          "소염진통제 처방",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 박철수씨가 수면제인 Zolpidem의 처방을 위해 내원하였다. 최근 잠을 이루지 못하고 힘들어하는 모습을 보였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "잠을 잘 수가 없어요. Zolpidem 처방해주세요.",
+      "drugHistory": {
+        "drug": "Zolpidem",
+        "history": "불면증으로 3년 전부터 복용 시작. 처음에는 가끔 복용했으나 최근에는 매일 복용",
+        "currentUse": "매일 10mg 1정 취침 전 복용",
+        "prescriptionSource": "동네 의원에서 처방 받음. 최근에는 처방받기 어려워짐",
+        "dependency": {
+          "quitAttempts": "몇 번 시도했으나 불면증과 불안감 때문에 실패",
+          "tolerance": "최근 효과가 떨어지는 느낌",
+          "withdrawal": "복용하지 않으면 불면, 불안, 초조함"
+        },
+        "abuse": {
+          "interpersonalIssues": "가족과의 관계가 어려워짐"
+        }
+      },
+      "associatedSymptoms": "불면(+), 불안(+), 초조함(+), 두통(-), 오심(-), 변비(-)",
+      "pastHistory": {
+        "medical": "고혈압, 고지혈증",
+        "social": "흡연(20갑년), 음주(주 3회 소주 1병), 직업: 회사원(정년퇴직 후 실직)"
+      },
+      "physicalExam": {
+        "general": "V/S stable. 기분이 다소 불안해 보임.",
+        "heent": "눈, 코, 귀, 목 정상",
+        "chest": "심음, 폐음 정상",
+        "abdomen": "정상"
+      },
+      "patientQuestion": "약을 끊고 싶은데 어떻게 해야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "Zolpidem 의존"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(간기능, 신기능)",
+          "심전도 검사"
+        ],
+        "therapeutic": [
+          "Zolpidem 감량 계획 수립",
+          "수면 위생 교육",
+          "인지행동치료 상담 연결"
+        ]
+      }
+    }
+  ]
+}

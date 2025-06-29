@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선주",
+        "age": 40,
+        "gender": "여자"
+      },
+      "situation": "40세 여자 박선주씨가 체중감소와 심계항진을 주소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "100회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "심장이 빨리 뛰고 살이 빠져요",
+      "history": {
+        "onset": "2개월 전",
+        "course": "서서히 심해짐",
+        "experience": "처음",
+        "associatedSymptoms": "[전신] 발열/오한/체중 감소/체중 증가(-/-/+/-) [신장/비뇨] F/U/N/D(-/-/-/-) [기타] 어지럼/두근거림(+/+), 멍/잇몸 출혈(-/-), 손떨림(+), 불안감(+), 수면장애(+), 변비(+), 식욕항진(+), 발한(+), 월경과다(+).  갑상선종대(+)",
+        "pastHistory": {
+          "medical": "고혈압/당뇨/고지혈증(-/-/-), 갑상선 질환(-)",
+          "trauma_surgery": "-",
+          "medications": "-",
+          "social": "흡연(-), 음주(가끔), 커피(1잔/day), 스트레스(+), 운동량 감소",
+          "family": "갑상선 질환 병력(-)",
+          "gyn": "월경 주기 불규칙, 월경량 증가, 폐경(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 상기 기재, 체중 감소,  다소 불안해 보임",
+        "heent": "눈(돌출 없음), 구강(-), 갑상샘(확대, 만져짐), 림프절(-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-), CVAT/DRE(-/-)",
+        "pelvic": "-",
+        "extremity": "손떨림(+), 피부 촉촉"
+      },
+      "patientQuestion": "혹시 심각한 병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "갑상샘항진증",
+          "빈혈",
+          "불안장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "TSH, FT4, FT3 측정",
+          "갑상선 초음파 검사",
+          "갑상선 스캔",
+          "CBC"
+        ],
+        "therapeutic": [
+          "항갑상선제 투여",
+          "베타 차단제 투여(필요시)",
+          "정기적인 추적 관찰"
+        ]
+      }
+    }
+  ]
+}

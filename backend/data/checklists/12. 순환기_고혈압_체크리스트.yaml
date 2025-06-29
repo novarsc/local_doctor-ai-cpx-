@@ -1,0 +1,87 @@
+checklist:
+  topic_kr: "고혈압"
+  topic_en: "Hypertension"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 두통 유무 (Presence of headache)
+            - 어지러움 유무 (Presence of dizziness)
+            - 시야 변화 유무 (Changes in vision)
+            - 흉통 유무 (Presence of chest pain)
+            - 호흡곤란 유무 (Presence of shortness of breath)
+            - 기타 증상 유무 (Presence of other symptoms)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 피로감 (Fatigue)
+            - 수면 장애 (Sleep disturbance)
+            - 코피 (Epistaxis)
+            - 이명 (Tinnitus)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 고혈압 가족력 (Family history of hypertension)
+            - 당뇨병 (Diabetes)
+            - 이상지질혈증 (Dyslipidemia)
+            - 흡연 (Smoking)
+            - 음주 (Alcohol consumption)
+            - 비만 (Obesity)
+            - 스트레스 (Stress)
+            - 신장 질환 (Kidney disease)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 혈압 측정 (Blood pressure measurement)
+            - 심박수 측정 (Heart rate measurement)
+            - 심음 청진 (Cardiac auscultation)
+            - 폐음 청진 (Lung auscultation)
+            - 복부 진찰 (Abdominal examination)
+            - 신경학적 진찰 (Neurological examination)
+            - 말초 맥박 촉진 (Peripheral pulse palpation)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 기립성 저혈압 검사 (Orthostatic hypotension test)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Essential Hypertension"
+            - "Secondary Hypertension"
+            - "White Coat Hypertension"
+            - "Hypertensive Urgency"
+            - "Hypertensive Emergency"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Basic Metabolic Panel (BMP)"
+                - "Lipid Panel"
+                - "HbA1c"
+                - "Urinalysis"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Electrocardiogram (ECG)"
+                - "Chest X-ray"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "고혈압의 원인, 증상, 합병증 및 치료의 중요성에 대해 설명합니다. 생활습관 개선 (식이요법, 운동, 금연, 절주, 스트레스 관리 등)의 중요성을 강조하고 구체적인 방법을 교육합니다."
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "심한 두통, 흉통, 호흡곤란, 시야 변화, 의식 변화 등의 증상 발생 시 즉시 응급실에 내원하도록 안내합니다."

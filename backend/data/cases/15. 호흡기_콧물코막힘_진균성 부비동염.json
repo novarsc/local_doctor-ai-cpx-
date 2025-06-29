@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "최수지",
+        "age": 48,
+        "gender": "여자"
+      },
+      "situation": "오른쪽 콧속에 딱딱한 덩어리가 만져져 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/75mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "오른쪽 코에 딱딱한 덩어리",
+      "history": {
+        "onset": "3개월 전",
+        "course": "서서히 커짐",
+        "character": "오른쪽 코 막힘(+), 누런 콧물(+), 콧물 냄새 악취(+), 코피(+, 간헐적)",
+        "associatedSymptoms": {
+          "general": "발열/오한/피로(-/-/-), 체중 변화(-)",
+          "neuro": "두통(+, 오른쪽), 안면통(+, 오른쪽)",
+          "respiratory": "기침(-)",
+          "olfactory": "후각 저하(+, 오른쪽)"
+        },
+        "factors": "특별한 악화 요인 없음",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 면역억제제 복용(-)",
+          "social": "흡연(-), 음주(주 1회, 소주 1병), 직업(주부), 스트레스(보통)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "오른쪽 비강 내에 회백색의 단단한 덩어리가 촉진됨. 비점막 발적 및 부종(+, 오른쪽). 콧물은 누런색이며 악취가 남."
+      },
+      "patientQuestion": "어떤 검사를 받아야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "진균성 부비동염",
+          "비용종",
+          "비강 이물"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "부비동 CT",
+          "비강 내시경 검사",
+          "콧물 배양 검사"
+        ],
+        "therapeutic": [
+          "항진균제"
+        ]
+      }
+    }
+  ]
+}

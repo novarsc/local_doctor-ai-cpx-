@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "심한 복통과 구토로 응급실에 내원하였다(현재 시각: 오후 3시).",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "90회/분",
+        "respiration": "16회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "배가 너무 아프고 토해요",
+      "history": {
+        "onset": "3시간 전",
+        "duration": "3시간 동안 지속적인 복통과 4회의 구토",
+        "course": "점점 심해짐",
+        "character": "심한 명치 부위 통증, 칼로 찌르는 듯한 느낌. 구토는 분출성은 아니며, 내용물은 위산과 소량의 음식물이 섞여 있음.",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(-/-/-)",
+          "gi": "구역감(+), 구토(+), 변비(-), 설사(-), 혈변(-), 흑색변(-), 지방변(-), 기타 소화기 증상(-)",
+          "circulatory": "흉통(-)",
+          "psych": "의도적 구토(-)",
+          "neuro": "두통(-), 경부 뻐근함(-)",
+          "dehydration": "어지러움(-), 목마름(+), 소변량 감소(+)"
+        },
+        "factors": "어제 저녁 매운 음식 과다 섭취(+), 스트레스(+)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨(-), 고지혈증(-). 위궤양 병력(+, 20년 전, 치료 완료)",
+          "social": "흡연(+, 하루 한 갑), 음주(+, 소주 1병/주), 직업: 은퇴",
+          "family": "부친 위암 병력(+)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 약간 불안정",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "명치 부위 심한 압통(+), 반발 압통(+), Murphy (-), DRE(-)",
+        "neuro": "Kernig/Brudzinski(-/-)"
+      },
+      "patientQuestion": "제가 또 위궤양인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "위궤양",
+          "급성 위염",
+          "십이지장궤양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "위내시경",
+          "상부 위장관 조영술",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "진통제",
+          "제산제",
+          "수액 치료",
+          "금식"
+        ]
+      }
+    }
+  ]
+}

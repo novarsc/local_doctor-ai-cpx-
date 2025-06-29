@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 7,
+        "gender": "남자"
+      },
+      "situation": "7세 남자 김민수군이 몸에 발진이 생겨 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "90회/분",
+        "respiration": "20회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "몸에 빨간 점이 많이 나고 가려워요.",
+      "history": {
+        "onset": "2일 전",
+        "location": "얼굴에서 시작하여 몸 전체로 퍼짐",
+        "duration": "계속",
+        "course": "점점 갯수가 늘어나고 있음",
+        "experience": "처음",
+        "character": "[크기] 좁쌀 크기에서 콩알 크기까지 다양 [모양] 둥근 모양\n[색] 붉은색, 가운데는 약간 솟아오름\n[개수] 매우 많음\n가려움(+, 심하게 긁음), 통증(-), 따가움(-), 열감(+) \n물집/딱지/진물(+/-/+) ",
+        "associatedSymptoms": {
+          "general": "발열(+), 오한(+), 식욕부진(+), 피로(+)",
+          "respiratory": "기침(-), 콧물(-), 인후통(-)",
+          "digestive": "구토(-), 설사(-)",
+          "rheumatologic": "관절통(-)",
+          "other": "두통(-), 근육통(-)"
+        },
+        "factors": "최근 유치원에서 수두 환자가 있었음",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "medications": "없음",
+          "social": "유치원생",
+          "other": "예방접종 완료"
+        }
+      },
+      "physicalExam": {
+        "general": "전신 발진, 열감이 있음",
+        "heent": "결막 충혈(-), 인후부 발적(-), 경부 림프절 종대(-)",
+        "chest_abdomen": "흉부, 복부 청진 정상, 발진은 주로 얼굴, 몸통, 사지에 분포",
+        "extremity": "말초 부종(-)"
+      },
+      "patientQuestion": "빨리 낫게 할 수 있는 방법이 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "수두"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "임상적 소견"
+        ],
+        "therapeutic": [
+          "대증요법(해열제, 가려움증 완화제)",
+          "물집 터뜨리지 않도록 주의",
+          "손씻기 등 위생 관리 철저"
+        ]
+      }
+    }
+  ]
+}

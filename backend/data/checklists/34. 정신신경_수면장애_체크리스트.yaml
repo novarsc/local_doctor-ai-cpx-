@@ -1,0 +1,77 @@
+checklist:
+  topic_kr: "수면장애"
+  topic_en: "Sleep Disorders"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [수면의 어려움 종류 (잠들기 어려움, 자주 깨는 것, 너무 일찍 깨는 것, 잠을 자도 개운하지 않음) (Type of sleep difficulty: difficulty falling asleep, frequent awakenings, early morning awakenings, non-restorative sleep)]
+            - [증상 지속 기간 (Onset and duration of symptoms)]
+            - [수면 패턴 및 시간 (Sleep patterns and timings)]
+            - [일상생활에 미치는 영향 (Impact on daily life)]
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [코골이 (Snoring)]
+            - [수면 무호흡 (Apnea episodes witnessed by others)]
+            - [주간 졸림 (Daytime sleepiness)]
+            - [하지 불안 증후군 (Restless legs syndrome)]
+            - [우울감, 불안감 (Symptoms of depression or anxiety)]
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [과거 수면장애 병력 (Past history of sleep disorders)]
+            - [정신 질환 병력 (History of psychiatric illness)]
+            - [내과적 질환 병력 (History of medical conditions)]
+            - [복용 약물 (Current medications)]
+            - [카페인, 알코올 섭취 (Caffeine and alcohol intake)]
+            - [수면 습관 (Sleep hygiene)]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [활력징후 측정 (Vital signs)]
+            - [비만도 확인 (BMI)]
+            - [심폐기능 평가 (Cardiopulmonary examination)]
+            - [신경학적 검사 (Neurological examination)]
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [필요시 수면다원검사 의뢰 (Referral for polysomnography if indicated)]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "[Insomnia]"
+            - "[Obstructive Sleep Apnea (OSA)]"
+            - "[Restless Legs Syndrome (RLS)]"
+            - "[Circadian Rhythm Sleep Disorders]"
+            - "[Narcolepsy]"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "[Complete Blood Count (CBC)]"
+                - "[Thyroid function test (TFT)]"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "[Polysomnography (PSG) if clinically indicated]"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "[수면 위생 교육 (Sleep hygiene education), 수면 습관 개선 권고 (Recommendations for improving sleep habits), 약물 치료 및 기타 치료법 설명 (Explanation of medication and other treatment options)]"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "[심한 주간 졸림, 호흡 곤란, 가슴 통증 등의 증상 발생 시 즉시 의료진에게 연락 (Contact healthcare provider immediately if experiencing severe daytime sleepiness, shortness of breath, chest pain, etc.)]"

@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "황달 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "눈과 피부가 노랗습니다",
+      "history": {
+        "onset": "2주 전",
+        "location": "눈, 피부",
+        "duration": "2주 동안 지속",
+        "course": "처음에는 눈만 노랬는데, 점점 몸 전체로 퍼짐",
+        "experience": "처음",
+        "character": "짙은 노란색",
+        "associatedSymptoms": {
+          "general": "체중 감소(5kg, 3개월), 피로감(+), 식욕부진(+)",
+          "gi": "오른쪽 상복부 통증(+, 묵직한 느낌), 소화불량(+), 메스꺼움(+)",
+          "renal": "소변 색깔 진해짐(+), 대변 색깔 변화 없음(-)"
+        },
+        "factors": "특별한 위험 요인 없음",
+        "pastHistory": {
+          "events": "특이사항 없음",
+          "medical": "고혈압(+, 10년 전부터 약 복용), 당뇨병(-)",
+          "medications": "고혈압약(로사르탄)",
+          "social": "흡연(30갑년, 5년 전 금연), 음주(주 2회 소주 1병), 직업(은퇴)",
+          "family": "특이 가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 황달(+), 피부 황달(+)",
+        "abdomen": "오른쪽 상복부 압통(+), 간 비대 의심(+)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "암인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "담도암",
+          "간암",
+          "급성 담낭염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(간기능검사, 종양표지자)",
+          "복부 초음파",
+          "복부 CT",
+          "ERCP"
+        ],
+        "therapeutic": [
+          "통증 조절",
+          "황달 치료"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "45세 여자 박선우씨가 체중 감소와 심계항진을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/85mmHg ",
+        "heartRate": "100회/분 ",
+        "respiration": "18회/분 ",
+        "temperature": "36.8℃ "
+      },
+      "chiefComplaint": "살이 빠지고 가슴이 쿵쾅거려요.",
+      "history": {
+        "onset": "3개월 전",
+        "experience": "처음",
+        "course": "점진적으로 심해짐",
+        "location": "-",
+        "character": "3개월 전부터 체중이 5kg 감소하였고, 최근 2주 동안 심계항진이 심해져서 일상생활에 지장을 받고 있다고 호소함.  잠을 잘 못 이루고, 쉽게 흥분하고, 더위를 많이 탄다고 함.",
+        "associatedSymptoms": "[순환기] 심계항진(+), 두근거림(+), 빈맥(+), 흉통(-) [호흡기] 호흡곤란(-) [정신신경] 불안(+), 초조감(+), 수면장애(+), 기분 변화(+), 집중력 저하(+) [내분비] 더위에 매우 민감(+), 체중 감소(+, 5kg), 변비(-), 다뇨(+) [소화기] 식욕 증가(+), 식욕부진(-), 변비(-), 설사(-) [근골격] 근육통(-), 관절통(-)",
+        "factors": "특별한 스트레스 요인은 없다고 함.",
+        "pastHistory": {
+          "medical": "고혈압 약 복용 중(Amlodipine 5mg 1일 1회)",
+          "trauma_surgery": "-",
+          "medications": "Amlodipine 5mg 1일 1회",
+          "social": "흡연(-), 음주(주 1~2회 소량), 커피(하루 2잔)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활동성이 높고, 말이 빠름. 안절부절못함.",
+        "heent": "결막 충혈(-), 갑상선 비대(+), 촉진 시 약간 단단하고, 압통은 없음.",
+        "chest": "심음 빠르고 규칙적. 잡음 없음.",
+        "extremity": "말초부종(-)"
+      },
+      "patientQuestion": "제가 갑자기 아픈 건가요? 앞으로 어떻게 해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "갑상샘항진증",
+          "갑상선기능항진증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "갑상선 기능 검사 (TSH, FT3, FT4, T3, T4)",
+          "갑상선 자가항체 검사 (TRAb, TgAb)",
+          "심전도 검사",
+          "경부 초음파 검사"
+        ],
+        "therapeutic": [
+          "갑상선 기능 억제제 (methimazole 또는 propylthiouracil) 투여 고려"
+        ]
+      }
+    }
+  ]
+}

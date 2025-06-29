@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 35,
+        "gender": "남자"
+      },
+      "situation": "속이 쓰리고 배가 아파 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "속이 쓰리고 배가 아파요.",
+      "history": {
+        "onset": "어제 저녁부터",
+        "location": "상복부",
+        "duration": "지속적",
+        "course": "어제 저녁 매운 음식을 먹은 후부터 속이 쓰리고 배가 아팠다. 오늘 아침에는 잠깐 나아졌으나 점심 식사 후 다시 심해졌다.",
+        "experience": "평소 스트레스를 많이 받으면 속이 쓰리고 더부룩한 증상이 종종 있었다.",
+        "character": "쓰라림과 압박감이 동반된 통증, NRS 4점.",
+        "radiation": "없음",
+        "associatedSymptoms": {
+          "general": "특이 사항 없음.",
+          "gi": "식욕 감소, 트림, 신물이 올라옴.  구토는 없다. 변비는 없고 설사는 약간 있다.",
+          "events": "어제 저녁 맵고 기름진 음식을 과식했다."
+        },
+        "aggravatingFactors": "매운 음식, 기름진 음식, 스트레스, 공복",
+        "relievingFactors": "제산제 복용 후 일시적 완화",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병 없음.",
+          "medications": "제산제를 가끔 복용.",
+          "social": "흡연 1갑/일, 음주 주 2회 (소주 2병).",
+          "other": "과거 위내시경 검사 경험 없음."
+        }
+      },
+      "physicalExam": {
+        "abdomen": "상복부 압통이 약하게 관찰됨.  압박감은 있으나 반발압통은 없다."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 위염",
+          "기능성 소화불량",
+          "위궤양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "위내시경 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "제산제 복용",
+          "H2-receptor antagonist 복용",
+          "PPI 복용",
+          "식습관 조절 및 스트레스 관리 교육"
+        ]
+      }
+    }
+  ]
+}

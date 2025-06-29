@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 52,
+        "gender": "여자"
+      },
+      "situation": "52세 여자 박선영씨가 우측 유방에 멍울이 만져진다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "오른쪽 유방에 멍울이 만져져요.",
+      "history": {
+        "onset": "2개월 전",
+        "location": "오른쪽 유방 외상부",
+        "course": "처음 발견 시에는 작았으나, 최근 2주 동안 크기가 커진 것 같음. 통증은 없음.",
+        "character": "오른쪽 유방 외상부에 2cm 크기의 단단한 멍울이 만져짐. 경계가 불분명하고, 주위 조직과 약간 고정되어 있는 느낌. 통증은 없음.",
+        "associatedSymptoms": "열감/부종/발적/유방 피부 변화(-/-/-/-). 겨드랑이 멍울/피부 함몰/유두 함몰/유두 분비물(-/-/-)",
+        "pastHistory": {
+          "medical": "고혈압 진단받고 약 복용 중. 정기적인 건강검진은 받지 않음.",
+          "trauma_surgery": "유방 수술이나 보형물 삽입 경험 없음.",
+          "medications": "고혈압 약 복용 중 (종류 및 용량 생략)",
+          "social": "음주/흡연(-/-). 커피 하루 1잔 정도 마심. 직업은 주부.",
+          "family": "어머니 유방암 병력 있음.",
+          "gyn": "초경 13세, 폐경 1년 전. 월경 주기 불규칙. 출산 경험 2회. 모유 수유 경험 있음."
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "chest": "심음/호흡음(정상). 오른쪽 유방 외상부에 2cm 크기의 단단하고, 고정된 멍울 촉진됨. 겨드랑이 림프절 촉진되지 않음. 유방 피부 변화/유두 변화/유두 분비물(-/-/-).",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "혹시 유방암일까봐 걱정입니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "유방암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "유방 초음파 검사",
+          "유방촬영술",
+          "유방 조직검사 (core needle biopsy)"
+        ],
+        "therapeutic": [
+          "추가 검사 결과에 따른 치료 계획 수립"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 박철수씨가 진통제인 옥시코돈 과다 복용으로 인해 어지러움을 호소하며 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "머리가 너무 어지러워요.",
+      "drugHistory": {
+        "drug": "옥시코돈",
+        "history": "5년 전 교통사고 후 만성적인 요통으로 인해 옥시코돈을 처방받아 복용하기 시작함.",
+        "currentUse": "처방량보다 많은 양을 복용하고 있음. 최근 몇 달 동안 복용량을 꾸준히 늘려왔다고 함.",
+        "prescriptionSource": "처방받은 병원에서 처방받았으나, 추가 처방을 받지 못해 다른 경로를 통해 구매.",
+        "dependency": {
+          "quitAttempts": "여러 번 복용량을 줄이려고 시도했지만, 심한 통증과 금단 증상으로 실패함.",
+          "tolerance": "처음에는 소량으로 효과를 보았으나, 점차 효과가 감소하여 복용량이 증가함.",
+          "withdrawal": "약물 복용을 중단하면 심한 통증, 불안, 구토, 설사 등의 증상을 경험함."
+        },
+        "abuse": {
+          "interpersonalIssues": "약물 복용으로 인해 가족과의 관계가 악화됨. 직장 생활에도 어려움을 겪고 있음."
+        }
+      },
+      "associatedSymptoms": "어지러움(+), 구토(+), 오심(+), 두통(+), 변비(-), 졸음(+), 호흡곤란(-)",
+      "pastHistory": {
+        "medical": "교통사고 후 요추 척추 손상",
+        "social": "흡연(1일 1갑), 음주(주 2회), 직업: 무직"
+      },
+      "physicalExam": {
+        "general": "의식은 명료하나, 어지러움을 호소함. 땀이 많이 남.",
+        "heent": "결막 충혈(-), 구강 점막 건조(+)",
+        "chest": "심음과 호흡음은 정상.",
+        "abdomen": "압통(-), 청진(-)",
+        "extremity": "피부 긴장도 감소(-)"
+      },
+      "patientQuestion": "진통제를 더 달라고 요구함.",
+      "impression": {
+        "likelyDiagnoses": [
+          "옥시코돈 오용",
+          "옥시코돈 의존"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사",
+          "소변 검사",
+          "심전도 검사"
+        ],
+        "therapeutic": [
+          "해독 치료",
+          "통증 관리",
+          "정신과 상담",
+          "약물 중독 치료 프로그램 연결"
+        ]
+      }
+    }
+  ]
+}

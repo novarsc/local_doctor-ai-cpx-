@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김민수씨가 소변량 감소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변량이 줄었어요.",
+      "history": {
+        "onset": "3일 전",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "소변량 감소, 하루 6회에서 2회로 감소, 소변색 진해짐, 거품뇨(-), 혈뇨(-)",
+        "associatedSymptoms": {
+          "general": "발열/오한(-/-), 피로(+, 최근 일 많이 함), 체중 변화(-)",
+          "digestive": "구토/설사/복통(-/-/-), 식욕 감소(+)",
+          "circulatory": "두근거림/어지러움/호흡곤란(-/-/-)",
+          "renal_urinary": "절박뇨/야간뇨/배뇨통/주저뇨/요 끊김/잔뇨감(-/-/-/-/-/-), 아랫배 통증/옆구리 통증(-/-)",
+          "musculoskeletal_skin": "근육통/피부 가려움/붓기(-/-/-)"
+        },
+        "factors": "물 섭취량 감소(하루 1L 미만), 최근 과로(+, 야근 많음), 이부프로펜 복용(3일 전부터 관절통으로 2정/일)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 고지혈증(-)",
+          "medications": "이부프로펜(관절통), 고혈압약(꾸준히 복용)",
+          "social": "흡연(+, 1갑/일), 음주(주 2회 소주 1병), 운동(-) 직업: 사무직"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "결막/구강 건조(-/-), 림프절(-)",
+        "abdomen": "압통(-), 신장 촉진(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "제가 왜 소변량이 줄었는지 궁금합니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "이부프로펜 유발 급성 신손상",
+          "탈수",
+          "만성 신장 질환 악화"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(BUN, Creatinine, 전해질, 소변검사)",
+          "소변검사(요침사, 단백질, 혈뇨)",
+          "신장 초음파"
+        ],
+        "therapeutic": [
+          "이부프로펜 중단",
+          "수액 공급",
+          "혈압 관리"
+        ]
+      }
+    }
+  ]
+}

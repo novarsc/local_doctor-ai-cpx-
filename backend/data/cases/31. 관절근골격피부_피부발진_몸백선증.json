@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 등에 발진이 생겨 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "등에 발진이 생겼어요.",
+      "history": {
+        "onset": "3주 전",
+        "location": "등",
+        "duration": "3주",
+        "course": "처음에는 작은 반점이었는데 점점 커지고 퍼졌습니다.",
+        "experience": "처음",
+        "character": "[크기] 5cm 정도 [모양] 둥근 모양\n[색] 붉은색, 가운데는 약간 하얗습니다.\n[개수] 1개\n가려움(+), 따가움(-), 통증(-), 딱지(-), 궤양(-), 고름(-), 비늘(-) ",
+        "associatedSymptoms": {
+          "rheumatologic": "SLE/베체트/RA/관절통(-/-/-/-)",
+          "other": "음식/여행(-/-), 화학약품/장신구(-/-)\n특별히 사용하는 화학약품이나 장신구는 없습니다. 감염(-), 아나필락시스(-)"
+        },
+        "factors": "최근에 등산을 갔는데, 땀을 많이 흘리고 샤워를 늦게 했습니다.",
+        "pastHistory": {
+          "medical": "고혈압 약 복용 중",
+          "medications": "고혈압 약(1년 이상 복용)",
+          "social": "흡연(+, 하루 한 갑), 음주(+, 주 2회), 직업: 회사원\n운동(등산, 주 1회), 스트레스(+), 식습관 특이 사항 없음",
+          "other": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "chest_abdomen": "[피부] 등에 경계가 명확한 붉은색 발진, 중앙부는 약간 창백함. 압통(-), 눌렀을 때 하얗게 변함(-), 가려움(+), 심음/호흡음(정상)\n팔다리/배/가슴 발진(-/-/-), 딱지/진물(-/-) \n관절통/입안 궤양(-/-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이 병은 어떻게 치료하나요? 재발 가능성은 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "몸백선증",
+          "건선",
+          "지루피부염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "우드등 검사",
+          "KOH 검사",
+          "피부 생검"
+        ],
+        "therapeutic": [
+          "항진균제 외용제 도포",
+          "보습제 사용",
+          "개인 위생 관리"
+        ]
+      }
+    }
+  ]
+}

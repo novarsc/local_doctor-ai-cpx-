@@ -1,0 +1,84 @@
+checklist:
+  topic_kr: "붉은색 소변 (혈뇨)"
+  topic_en: "Hematuria (Red Urine)"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 소변 색깔 변화 시점 (Onset of color change): 언제부터 붉은 소변을 보았는지?
+            - 소변 색깔의 변화 양상 (Pattern of color change): 항상 붉은색인지, 간헐적인지?
+            - 소변 색깔의 정확한 묘사 (Description of color): 선홍색(bright red), 콜라색(cola-colored), 혹은 녹슨 색(rusty)인지?
+            - 동반된 통증 유무 (Presence of pain): 배뇨통(dysuria), 측복부 통증(flank pain), 복통(abdominal pain) 등
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 전신 증상 (Systemic symptoms): 발열(fever), 오한(chills), 피로(fatigue), 체중 감소(weight loss)
+            - 비뇨기계 증상 (Urinary symptoms): 배뇨 빈도 증가(frequency), 긴급뇨(urgency), 야간뇨(nocturia), 배뇨량 감소(oliguria), 무뇨(anuria)
+            - 부종 (Edema): 얼굴, 다리 부종 등
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 신장 질환 병력 (History of kidney disease)
+            - 요로 감염 병력 (History of urinary tract infections)
+            - 신장 결석 병력 (History of kidney stones)
+            - 최근 외상 (Recent trauma)
+            - 약물 복용력 (Medication history): 항응고제(anticoagulants), NSAIDs 등
+            - 가족력 (Family history): 신장 질환 가족력
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 활력 징후 (Vital signs): 혈압(blood pressure), 맥박(pulse rate), 호흡수(respiratory rate), 체온(body temperature)
+            - 복부 진찰 (Abdominal examination): 압통(tenderness), 종괴(mass), 반발통(rebound tenderness)
+            - 늑골척추각 압통 (Costovertebral angle tenderness)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 직장 수지 검사 (Digital rectal examination) - 필요시
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Urinary tract infection (UTI)"
+            - "Kidney stones"
+            - "Glomerulonephritis"
+            - "Bladder cancer"
+            - "Prostate cancer"
+            - "Rhabdomyolysis"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "소변 검사"
+              category_en: "Urinalysis"
+              tests:
+                - "Urine dipstick"
+                - "Microscopic examination"
+                - "Urine culture"
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Basic metabolic panel (BMP)"
+                - "Coagulation studies (PT/INR, aPTT)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Kidney, ureter, and bladder (KUB) X-ray"
+                - "CT scan of the abdomen and pelvis"
+                - "Ultrasound of the kidneys and bladder"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "혈뇨의 원인과 검사 결과에 대한 자세한 설명을 제공합니다. 충분한 수분 섭취를 권장합니다."
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "심한 통증, 발열, 오한, 혈뇨 지속 시 즉시 의료진에게 연락하도록 교육합니다."

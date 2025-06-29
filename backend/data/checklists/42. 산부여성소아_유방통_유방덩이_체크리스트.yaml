@@ -1,0 +1,84 @@
+checklist:
+  topic_kr: "유방통 및 유방덩이"
+  topic_en: "Breast Pain and Lump"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가 (유방통)"
+          subtitle_en: "Assessment of Chief Complaint (Breast Pain)"
+          details: |
+            - [ ] 통증의 위치 (Location): 어느 쪽 유방인지, 특정 부위인지, 겨드랑이까지 퍼지는지 (Which breast, specific location, radiating to axilla)
+            - [ ] 통증의 특징 (Character): 욱신거리는 통증, 찌르는 듯한 통증, 둔한 통증 등 (Throbbing, stabbing, dull ache, etc.)
+            - [ ] 통증의 강도 (Severity): 통증 척도 (0-10) 사용 (Pain scale 0-10)
+            - [ ] 통증의 시작 시점 및 기간 (Onset & Duration): 언제 시작되었는지, 얼마나 지속되었는지 (When did it start, how long has it lasted)
+            - [ ] 통증의 양상 (Timing): 주기적인지, 지속적인지, 특정 시간이나 활동과 관련 있는지 (Cyclic, constant, related to specific time or activity)
+            - [ ] 악화 및 완화 요인 (Aggravating/Relieving Factors): 어떤 상황에서 악화되거나 완화되는지 (What makes it better or worse)
+            - [ ] 관련 증상 (Associated Symptoms): 유방 덩이, 유두 분비물, 피부 변화 등 (Breast lump, nipple discharge, skin changes)
+        - subtitle_kr: "주요 증상 평가 (유방덩이)"
+          subtitle_en: "Assessment of Chief Complaint (Breast Lump)"
+          details: |
+            - [ ] 덩이의 위치 (Location): 어느 쪽 유방인지, 특정 사분면인지 (Which breast, specific quadrant)
+            - [ ] 덩이의 크기 및 모양 (Size & Shape): 크기, 모양, 경계 등 (Size, shape, margins)
+            - [ ] 덩이의 질감 (Texture): 단단한지, 부드러운지, 움직이는지 (Hard, soft, mobile)
+            - [ ] 덩이의 발견 시점 및 변화 (Onset & Change): 언제 발견했는지, 크기나 모양의 변화가 있는지 (When was it noticed, any changes in size or shape)
+            - [ ] 통증 유무 (Pain): 덩이를 만졌을 때 통증이 있는지 (Painful or not)
+            - [ ] 관련 증상 (Associated Symptoms): 유방통, 유두 분비물, 피부 변화 등 (Breast pain, nipple discharge, skin changes)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [ ] 유방 질환 가족력 (Family history of breast disease)
+            - [ ] 과거 유방 수술 또는 생검 이력 (History of breast surgery or biopsy)
+            - [ ] 호르몬 요법 (Hormone therapy)
+            - [ ] 출산 및 수유력 (Pregnancy and breastfeeding history)
+            - [ ] 월경력 (Menstrual history)
+            - [ ] 기타 위험 요인 (Other risk factors)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "시진"
+          subtitle_en: "Inspection"
+          details: |
+            - [ ] 유방의 크기, 모양, 대칭성 관찰 (Observe breast size, shape, and symmetry)
+            - [ ] 피부 변화 (발적, 부종, 함몰, 궤양 등) 확인 (Check for skin changes: redness, swelling, dimpling, ulceration)
+            - [ ] 유두 및 유륜의 변화 (함몰, 분비물 등) 확인 (Check for nipple and areola changes: retraction, discharge)
+        - subtitle_kr: "촉진"
+          subtitle_en: "Palpation"
+          details: |
+            - [ ] 앙와위 및 앉은 자세에서 유방 전체 촉진 (Palpate the entire breast in supine and sitting positions)
+            - [ ] 겨드랑이 림프절 촉진 (Palpate axillary lymph nodes)
+            - [ ] 덩이의 위치, 크기, 모양, 질감, 이동성 확인 (Assess location, size, shape, texture, and mobility of any lumps)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Fibrocystic breast changes"
+            - "Breast cyst"
+            - "Fibroadenoma"
+            - "Mastitis"
+            - "Breast abscess"
+            - "Breast cancer"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Mammography"
+                - "Ultrasound"
+            - category_kr: "조직 검사"
+              category_en: "Biopsy"
+              tests:
+                - "Fine needle aspiration (FNA)"
+                - "Core needle biopsy"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "자가 검진 교육"
+          subtitle_en: "Breast Self-Examination Education"
+          details: "월경 주기가 끝난 후 규칙적으로 유방 자가 검진을 하는 방법 교육 (Educate on how to perform breast self-examination regularly after the end of the menstrual cycle)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "유방 덩이가 새롭게 만져지거나, 크기가 변하거나, 피부 변화가 동반되는 경우 즉시 의사와 상담하도록 교육 (Advise to consult a doctor immediately if a new lump is found, the size changes, or skin changes are accompanied)"

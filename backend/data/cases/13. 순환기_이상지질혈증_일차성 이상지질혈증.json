@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "최근 건강검진에서 이상지질혈증 소견을 받고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "125/80mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "콜레스테롤 수치가 높다고 합니다.",
+      "history": {
+        "labResults": "총 콜레스테롤 260mg/dL, LDL-콜레스테롤 180mg/dL, HDL-콜레스테롤 40mg/dL, 트리글리세라이드 150mg/dL",
+        "associatedSymptoms": {
+          "general": "특별한 증상 없음",
+          "cardiovascular": "흉통(-), 두근거림(-)",
+          "neuro": "두통(-), 어지러움(-)"
+        },
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 가족력(아버지: 심혈관 질환)",
+          "medications": "없음",
+          "social": "음주(주 2회 소주 1병), 흡연(과거 10갑/년, 금연 5년)",
+          "family": "아버지: 심근경색으로 사망(65세)"
+        }
+      },
+      "physicalExam": {
+        "heent": "황색판종(-), 각막환(-)",
+        "chest": "심잡음(-), 호흡음(정상)",
+        "abdomen": "복부 비만(+)",
+        "extremity": "아킬레스건 비후(-)"
+      },
+      "patientQuestion": "약을 먹어야 할까요? 생활습관 개선만으로는 충분하지 않을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "일차성 이상지질혈증",
+          "가족성 고콜레스테롤혈증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(간기능 검사 포함)",
+          "혈당 검사",
+          "신장 기능 검사"
+        ],
+        "therapeutic": [
+          "스타틴 계열 약물 투여 고려",
+          "생활습관 개선(저지방 식단, 규칙적인 운동)"
+        ]
+      }
+    }
+  ]
+}

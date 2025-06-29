@@ -1,0 +1,79 @@
+checklist:
+  topic_kr: "가정 폭력"
+  topic_en: "Domestic Violence"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "폭력 발생 양상"
+          subtitle_en: "Pattern of Violence"
+          details: |
+            - [ ] 폭력의 종류 (신체적, 정서적, 성적, 경제적) (Type of violence (physical, emotional, sexual, economic))
+            - [ ] 폭력의 빈도 및 기간 (Frequency and duration of violence)
+            - [ ] 폭력의 강도 변화 추이 (Changes in the severity of violence)
+            - [ ] 가해자와의 관계 (Relationship with the perpetrator)
+        - subtitle_kr: "신체적/정신적 증상"
+          subtitle_en: "Physical/Psychological Symptoms"
+          details: |
+            - [ ] 외상의 유무 및 위치 (Presence and location of injuries)
+            - [ ] 통증, 불편감, 수면 장애, 불안, 우울 등 (Pain, discomfort, sleep disturbances, anxiety, depression, etc.)
+            - [ ] 자해/자살 시도 과거력 (History of self-harm/suicide attempts)
+        - subtitle_kr: "안전 및 지원 체계"
+          subtitle_en: "Safety and Support Systems"
+          details: |
+            - [ ] 현재 안전 여부 (Current safety)
+            - [ ] 도움을 요청할 수 있는 사람 (Available support system)
+            - [ ] 경찰 신고 경험 (Experience reporting to the police)
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "전반적 상태"
+          subtitle_en: "General Appearance"
+          details: |
+            - [ ] 외상 흔적, 멍, 상처 등의 유무 및 위치 (Presence and location of trauma, bruises, wounds, etc.)
+            - [ ] 환자의 전반적인 정신 상태 (Patient's overall mental state)
+        - subtitle_kr: "신경학적 검사"
+          subtitle_en: "Neurological Examination"
+          details: |
+            - [ ] 의식 수준, 지남력, 기억력 등 (Level of consciousness, orientation, memory, etc.)
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Post-traumatic Stress Disorder (PTSD)"
+            - "Depression"
+            - "Anxiety Disorders"
+            - "Substance Abuse"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "필요시 추가 검사"
+              category_en: "Additional Tests (If necessary)"
+              tests:
+                - "Imaging studies (X-ray, CT scan) if physical trauma is suspected"
+                - "Toxicology screening if substance abuse is suspected"
+
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "안전 확보 및 지원"
+          subtitle_en: "Safety and Support"
+          details: |
+            즉각적인 안전 확보 방법, 지역 사회 지원 기관 정보 제공 (Providing information about how to ensure immediate safety and local community support organizations)
+        - subtitle_kr: "추가 폭력 예방"
+          subtitle_en: "Preventing Further Violence"
+          details: |
+            폭력의 순환 고리에 대한 교육 및 대처 전략 (Educating patients about the cycle of violence and coping strategies)
+        - subtitle_kr: "심리적 지원"
+          subtitle_en: "Psychological Support"
+          details: |
+             심리 상담 및 치료의 필요성 설명 (Explaining the necessity of psychological counseling and treatment)
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: |
+            폭력 상황 악화 징후 인지 및 대처 방법 교육 (Educating patients on how to recognize and respond to signs of escalating violence)

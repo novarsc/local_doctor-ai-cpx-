@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 35,
+        "gender": "여자"
+      },
+      "situation": "변비 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "변비가 너무 심해요.",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "일주일에 2~3회 배변",
+        "course": "점차 악화되는 양상",
+        "experience": "과거에는 변비 경험 없었음",
+        "character": "힘주는 정도(+), 변의 경도(딱딱함+), 잔변감(+), 항문 막힌 느낌(-), 손으로 변을 파낸 경험(-), 혈변/점액변(-/-), 배변 시 통증(-)",
+        "associatedSymptoms": {
+          "general": "체중 증가/피로감/부종(-/-/-)",
+          "gi": "식욕부진/구역/구토/설사/복통(-/-//-/-)",
+          "endocrine": "추위/더위 불내성(-/-)",
+          "psych": "우울/불안(-/-)"
+        },
+        "pastHistory": {
+          "events": "특이 질환 없음",
+          "medications": "없음",
+          "social": "음주(월 1회, 소주 1병), 커피(하루 1잔), 흡연(-), 직업(사무직), 스트레스(중간), 신체활동(적음), 식사(채소 섭취 적음, 맵고 짠 음식 선호, 물 섭취 적음)",
+          "family": "가족력 없음",
+          "obgyn": "월경 규칙적, 임신 가능성(-)"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이 소견 없음",
+        "abdomen": "복부 압통/반발압통(-/-), DRE(정상)",
+        "extremity": "부종(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "기능성 변비",
+          "과민성 대장증후군(변비형)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대장내시경"
+        ],
+        "therapeutic": [
+          "식이요법(고섬유질 식사, 충분한 수분 섭취)",
+          "규칙적인 배변 습관",
+          "운동 증가",
+          "필요시 완화제 처방"
+        ]
+      }
+    }
+  ]
+}

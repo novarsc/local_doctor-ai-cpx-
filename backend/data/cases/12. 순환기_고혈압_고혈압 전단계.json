@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 48,
+        "gender": "남자"
+      },
+      "situation": "건강검진에서 혈압이 높다고 하여 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "138/86mmHg",
+        "heartRate": "70회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "혈압이 높다고 합니다.",
+      "history": {
+        "onset": "오늘",
+        "duration": "건강검진 결과 확인 후",
+        "course": "최근 혈압 측정 경험 없음",
+        "character": "오늘 건강검진에서 혈압 138/86mmHg로 측정됨",
+        "associatedSymptoms": {
+          "general": "발열/오한/식은땀/체중 변화/피로/부종(-/-/-/-/-/-)",
+          "circulatory": "가슴 통증(-), 두근거림(-)",
+          "endocrine": "다음/다뇨/다갈(-/-/-), 식은땀/손떨림(-/-)",
+          "neuro": "두통(-), 어지럼(-), 시야 변화(-)"
+        },
+        "factors": "스트레스 많고, 야근 잦음. 운동 부족, 술, 담배 안 함",
+        "pastHistory": {
+          "events": "특이 사항 없음",
+          "medical": "DM/TB/HTN/간염/고지혈증(-/-/-/-)",
+          "medications": "없음",
+          "social": "술(-), 담배(-), 직업(회사원), 스트레스(많음)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 확인(현재 혈압 138/86mmHg)",
+        "heent": "안저검사(-), 갑상샘(-), 경정맥 울혈(-), 경동맥 잡음(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부대동맥류(-), 신혈관 잡음(-)",
+        "extremity": "오목 부종(-), 사지맥박 정상"
+      },
+      "patientQuestion": "앞으로 어떻게 해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "고혈압 전단계",
+          "백의 고혈압"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "가정 혈압 측정",
+          "24시간 혈압 측정",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "생활 습관 교정 상담",
+          "정기적 혈압 측정"
+        ]
+      }
+    }
+  ]
+}

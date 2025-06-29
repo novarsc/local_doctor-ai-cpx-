@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 65,
+        "gender": "남자"
+      },
+      "situation": "황달과 복통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg ",
+        "heartRate": "78회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.8℃ "
+      },
+      "chiefComplaint": "배가 아프고 눈이 노래요",
+      "history": {
+        "onset": "2달 전",
+        "location": "상복부",
+        "duration": "지속적, 최근 악화",
+        "course": "처음에는 가끔씩 묵직한 통증이 있었으나, 최근 몇 주 동안 지속적인 통증과 황달이 나타났다.",
+        "experience": "이전에는 비슷한 증상이 없었다.",
+        "character": "둔한 통증, 간헐적으로 심해짐, NRS 4~6점",
+        "radiation": "등으로 방사됨",
+        "associatedSymptoms": {
+          "general": "5kg 체중 감소, 피로감",
+          "gi": "소화불량, 식욕부진, 변비, 황달",
+          "urology": "소변 색깔이 진해짐"
+        },
+        "aggravatingFactors": "식후",
+        "relievingFactors": "없음",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "medications": "고혈압 약, 당뇨병 약 복용 중",
+          "social": "흡연 30갑년, 음주 주 2회 소주 1병",
+          "other": "가족력: 부친 췌장암"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 황달, 경결(jaundice)",
+        "abdomen": "상복부 압통, 담낭 촉진 안됨"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "췌장 두부암",
+          "담낭암",
+          "담석"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "복부 초음파",
+          "복부 CT",
+          "혈액 검사(간기능 검사, 암종표지자)",
+          "내시경 역행적 담췌관 조영술(ERCP)"
+        ],
+        "therapeutic": [
+          "통증 조절",
+          "황달 관리"
+        ]
+      }
+    }
+  ]
+}

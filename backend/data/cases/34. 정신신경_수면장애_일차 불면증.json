@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 이민수씨가 잠을 잘 못 이룬다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "잠을 못 자겠어요",
+      "history": {
+        "onset": "6개월 전",
+        "experience": "처음",
+        "course": "서서히 악화",
+        "character": "잠자리에 들면 1시간 이상 잠들지 못하고, 잠들어도 2시간마다 깨어남. 낮잠은 거의 자지 않음. 수면 시간은 5시간 정도.  수면 환경은 조용하고 어둡게 유지, 자기 전 카페인 섭취 없음. 최근 스트레스 증가(퇴직 후 무료함). 키 175cm, 몸무게 75kg, 허리둘레 36인치",
+        "associatedSymptoms": "[전신] 체중 변화 없음 [OSA] 코골이(-) [소화] 속쓰림(-) [순환] 두근거림(-) [호흡] 쌕쌕거림(-) [신장/비뇨] 야뇨(-) [정신] 우울/불안/낮에 웃다가 힘 빠짐/공황(-/-/-/-) 범불안/광장/사회 불안/하지 불안(-/-/-/-) [갑상샘] 더위불내성(-)",
+        "factors": "퇴직 후 심리적 스트레스 증가, 규칙적인 운동 부족",
+        "pastHistory": {
+          "medical": "HTN(+)/DM(-)/Dyslipidemia(-)/Tb(-)/Hepatitis(-/-/-/-/-)",
+          "medications": "고혈압약(Amlodipine 5mg 1일 1회)",
+          "social": "퇴직, 스트레스(+), 술(-), 커피(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: HTN",
+        "heent": "결막/구강/피부 긴장도(-/-/-), 갑상샘(-)",
+        "chest": "심음/호흡음(-/-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "일차 불면증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "수면 일기",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "수면위생교육",
+          "인지행동치료(CBT-I) 상담",
+          "필요시 수면제 단기 처방"
+        ]
+      }
+    }
+  ]
+}

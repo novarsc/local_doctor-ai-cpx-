@@ -1,0 +1,72 @@
+checklist:
+  topic_kr: "불안"
+  topic_en: "Anxiety"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 불안의 시작 시기와 양상 (Onset and characteristics of anxiety): 언제부터 시작되었는지, 어떤 상황에서 발생하는지, 얼마나 자주 발생하는지 등
+            - 불안의 정도 (Severity of anxiety): 일상생활에 어느 정도 영향을 미치는지, 불안감으로 인해 어려움을 겪는 활동은 무엇인지 등
+            - 불안을 유발하거나 악화시키는 요인 (Triggers or exacerbating factors): 특정 상황, 생각, 감정 등 불안을 유발하는 요인이 있는지
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 심계항진, 호흡곤란, 발한, 떨림, 소화불량, 불면 등 (Palpitations, shortness of breath, sweating, tremor, indigestion, insomnia)
+            - 우울감, 집중력 저하, 피로감, 과민성 등 (Depressed mood, poor concentration, fatigue, irritability)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 과거 불안 장애, 우울증, 외상 후 스트레스 장애 등의 병력 (Past history of anxiety disorders, depression, PTSD)
+            - 가족력 (Family history)
+            - 현재 복용 중인 약물 (Current medications)
+            - 스트레스 요인 (Stressors)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 활력 징후 측정 (Vital signs): 혈압, 맥박, 호흡수, 체온
+            - 심혈관계, 호흡기계, 신경계 진찰 (Cardiovascular, respiratory and neurological examination)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 필요에 따라 갑상선 진찰 (Thyroid examination if necessary)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Generalized Anxiety Disorder (GAD)"
+            - "Panic Disorder"
+            - "Social Anxiety Disorder (SAD)"
+            - "Post-traumatic Stress Disorder (PTSD)"
+            - "Obsessive-Compulsive Disorder (OCD)"
+            - "Major Depressive Disorder (MDD)"
+            - "Substance-induced anxiety disorder"
+            - "Medical conditions (e.g., hyperthyroidism, pheochromocytoma)"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Thyroid function tests (TFTs)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Electrocardiogram (ECG)"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "불안 증상에 대한 설명과 함께 증상 관리 및 치료법에 대한 교육을 제공합니다. (Provide education on anxiety symptoms, management, and treatment options)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "자살 충동, 심한 불안 발작, 약물 남용 등 악화되는 증상 발생 시 즉시 의료진에게 연락하도록 안내합니다. (Instruct patients to contact a healthcare professional immediately if they experience worsening symptoms such as suicidal thoughts, severe anxiety attacks, or substance abuse)"

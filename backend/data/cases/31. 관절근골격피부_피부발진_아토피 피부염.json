@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 김민수씨가 전신 가려움증과 피부 발진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "몸이 너무 가려워요.",
+      "history": {
+        "onset": "유아기",
+        "location": "얼굴, 목, 팔꿈치 안쪽, 무릎 뒤쪽",
+        "duration": "지속적",
+        "course": "계절에 따라 심해짐(특히 겨울)",
+        "experience": "재발성",
+        "character": "[크기] 다양, 좁쌀 크기부터 동전 크기까지 [모양] 구진, 수포, 습진 [개수] 다수\n[색] 붉은색, 갈색, 흰색 비늘\n가려움(+, 심함), 통증(-), 따가움(+, 간헐적), 건조함(+), 딱지/궤양/고름/비늘(+/-/+) ",
+        "associatedSymptoms": {
+          "rheumatologic": "관절통(-)",
+          "other": "스트레스 악화 요인(+), 알레르기 비염 동반(+), 특정 음식 악화 요인(-)"
+        },
+        "factors": "추운 날씨, 건조한 환경, 스트레스, 땀, 샤워 후 악화",
+        "pastHistory": {
+          "medical": "알레르기 비염, 천식(가족력 있음)",
+          "medications": "항히스타민제, 보습제 간헐적으로 사용",
+          "social": "흡연(-), 음주(가끔), 직업: 회사원",
+          "other": "소아기 아토피 피부염 진단"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘(-), 림프절(-)",
+        "chest_abdomen": "[피부] 얼굴, 목, 팔꿈치 안쪽, 무릎 뒤쪽에 홍반성 구진, 수포, 습진 병변 다수 관찰. 긁은 자국, 비늘, 건조함 확인. 압통(-), 열감(-)",
+        "extremity": "피부 건조, 습진, 긁은 자국 확인"
+      },
+      "patientQuestion": "가려움증을 줄이는 방법과 관리 방법에 대해 알고 싶습니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "아토피 피부염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "피부 생검(필요시)"
+        ],
+        "therapeutic": [
+          "국소 스테로이드제 도포",
+          "보습제 사용",
+          "항히스타민제 복용",
+          "피부 관리 교육",
+          "환경 관리(온도, 습도 조절)"
+        ]
+      }
+    }
+  ]
+}

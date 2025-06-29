@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 42,
+        "gender": "남자"
+      },
+      "situation": "속이 불편해서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg ",
+        "heartRate": "70회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.6℃ "
+      },
+      "chiefComplaint": "속이 더부룩해요.",
+      "history": {
+        "onset": "6개월 전",
+        "location": "상복부",
+        "course": "6개월 전부터 시작하여 점차 심해짐",
+        "experience": "처음 경험하는 증상",
+        "character": "더부룩함, 답답함, 명치 묵직함, 식후 증상 악화, 일상생활 지장은 크지 않음",
+        "associatedSymptoms": {
+          "general": "체중변화(-), 발열(-), 오한(-)",
+          "gi": "식욕부진(+), 구역감(+), 구토(-), 설사(-), 변비(-), 혈변(-), 흑변(-), 복통(-), 트림(+), 속쓰림(+) - 명치 부위, 가끔 심함, NRS 2점"
+        },
+        "factors": "기름진 음식 섭취 후 악화, 스트레스와의 연관성은 불분명, 매운 음식 섭취 후 악화, 과식 후 악화, 술, 담배와의 연관성은 없음",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 위궤양(-), 위염(-)",
+          "events": "특이사항 없음",
+          "surgical": "없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(월 1회 소주 1병), 직업: 회사원, 스트레스 중간 정도",
+          "obgyn": "해당없음",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "정상",
+        "abdomen": "압통 없음, 반발압통 없음, 청진 정상"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "일차성 소화불량",
+          "기능성 소화불량",
+          "위염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부위장관내시경",
+          "헬리코박터 파일로리 검사"
+        ],
+        "therapeutic": [
+          "생활습관 교정(규칙적인 식사, 저지방 식사, 스트레스 관리)",
+          "증상에 따른 약물 치료(제산제, 위장운동촉진제 등)"
+        ]
+      }
+    }
+  ]
+}

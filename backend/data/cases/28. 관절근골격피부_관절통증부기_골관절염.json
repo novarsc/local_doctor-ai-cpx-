@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김민수씨가 오른쪽 무릎 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "무릎이 너무 아파서 걷기가 힘들어요.",
+      "history": {
+        "onset": "서서히 시작, 1년 전부터",
+        "location": "오른쪽 무릎, 특히 내측",
+        "duration": "1년 이상 지속, 최근 악화",
+        "course": "점진적 악화, 계단 오르내리기 어려움",
+        "character": "심한 통증, NRS 7점, 움직일 때 악화, 휴식 시 다소 호전,  조조강직(30분), 무릎 관절 부종(+), 발적(-), 열감(-), 압통(+), 비벼지는 소리(-)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(-/-/-/-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "광과민성/피부 발진/구강 궤양/성기 궤양(-/-/-/-), 탈모(-)",
+          "infection": "관절 주사/최근 감기/감염/설사(-/-/-/-)",
+          "sjogren": "입마름/눈마름(-/-)"
+        },
+        "factors": "장시간 서 있거나 걷기, 계단 오르내리기 시 악화, 휴식 시 호전, 날씨 변화에 영향 받는 듯 함",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "무릎 수술 병력 없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "퇴직 후 집에서 주로 생활, 운동 부족",
+          "family": "어머니 골관절염 병력 있음",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 보행시 절뚝거림 관찰됨",
+        "heent": "특이 소견 없음",
+        "chest": "심음, 폐음 정상",
+        "extremity": "오른쪽 무릎 내측에 압통, 부종(+),  활동 범위(ROM) 제한, 능동적 및 수동적 운동 시 통증"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "골관절염",
+          "퇴행성 관절염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "오른쪽 무릎 X-ray",
+          "혈액 검사(염증 지표)"
+        ],
+        "therapeutic": [
+          "진통소염제 처방",
+          "물리치료",
+          "체중 조절 권고",
+          "보조기 착용 권고",
+          "필요시 관절 주사 치료"
+        ]
+      }
+    }
+  ]
+}

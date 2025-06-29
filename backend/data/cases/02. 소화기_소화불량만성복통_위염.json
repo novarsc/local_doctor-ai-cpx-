@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최순자",
+        "age": 62,
+        "gender": "여자"
+      },
+      "situation": "속이 쓰리고 불편해서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg ",
+        "heartRate": "78회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.6℃ "
+      },
+      "chiefComplaint": "속이 쓰리고 불편해요.",
+      "history": {
+        "onset": "2주 전 ",
+        "location": "상복부 ",
+        "course": "2주 전부터 시작해서 점점 심해짐 ",
+        "experience": "이런 증상은 처음임 ",
+        "character": "속쓰림, 콕콕 쑤시는 듯한 통증, 더부룩함, NRS 4점 ",
+        "associatedSymptoms": {
+          "general": "체중 감소(-), 발열(-), 오한(-) ",
+          "gi": "식욕부진(+), 구토(-), 설사(-), 변비(-), 혈변(-), 흑변(-) "
+        },
+        "factors": "매운 음식 섭취 후 악화됨, 공복 시 증상 완화 ",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전 진단, 약 복용 중), 당뇨병(-), 위궤양(-) ",
+          "events": "특이 사항 없음 ",
+          "surgical": "자궁 적출술(10년 전) ",
+          "medications": "고혈압 약(복용 중) ",
+          "social": "흡연(-), 음주(월 1회 소량), 직업(가정주부), 스트레스(중간 정도), 식사(불규칙적) "
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable ",
+        "heent": "눈/입/림프절(-/-/-) ",
+        "abdomen": "상복부 압통(+), 반발 압통(-) "
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "위염",
+          "기능성 소화불량",
+          "십이지장궤양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "위내시경 검사",
+          "헬리코박터균 검사"
+        ],
+        "therapeutic": [
+          "제산제 처방",
+          "H2 수용체 길항제 처방",
+          "생활 습관 교정 상담"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 27,
+        "gender": "남자"
+      },
+      "situation": "심한 두근거림으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "가슴이 너무 두근거려요.",
+      "history": {
+        "onset": "2주 전부터",
+        "duration": "몇 분에서 몇 시간까지 다양",
+        "course": "점점 빈도와 강도가 증가",
+        "experience": "처음",
+        "character": "[양상] 심장이 쿵쾅거리고 빠르게 뛰는 느낌, 불규칙적. [정도] NRS 7점. [동반증상] 숨가쁨(+), 어지러움(+), 가슴 통증(-)",
+        "associatedSymptoms": {
+          "general": "수면장애(+), 피로감(+), 식욕부진(+), 체중변화(-)",
+          "circulatory": "손발 저림(-)",
+          "gi": "변비(-)",
+          "neurological": "불안감(+), 초조함(+), 집중력 저하(+)"
+        },
+        "factors": "스트레스 받을 때 악화, 혼자 있을 때 악화, 카페인 섭취 후 악화",
+        "pastHistory": {
+          "medical": "DM/TB/HTN/간염(-/-/-/-)",
+          "social": "흡연(-), 음주(주 1회 소주 1병), 직업(프로그래머), 스트레스(매우 심함), 최근 이직 후 직장 적응 어려움",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이소견 없음",
+        "cardiovascular": "심음 정상, 맥박 규칙적",
+        "respiratory": "호흡음 청진 시 청색증 없음",
+        "neurological": "의식 명료, 신경학적 이상 없음"
+      },
+      "patientQuestion": "심장병이 아닐까 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "불안장애에 의한 두근거림",
+          "심계항진",
+          "심방세동"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "24시간 홀터 모니터링",
+          "혈액검사(갑상선 기능 검사 포함)"
+        ],
+        "therapeutic": [
+          "약물치료(항불안제, 베타차단제 고려)",
+          "정신치료(인지행동치료 고려)",
+          "생활습관 개선(스트레스 관리, 카페인 섭취 줄이기)"
+        ]
+      }
+    }
+  ]
+}

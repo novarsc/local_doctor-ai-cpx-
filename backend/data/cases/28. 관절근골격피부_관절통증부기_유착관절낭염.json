@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김민수씨가 오른쪽 어깨 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "어깨가 너무 아파서 팔을 못 들겠어요.",
+      "history": {
+        "onset": "2개월 전",
+        "location": "오른쪽 어깨",
+        "duration": "계속 아픔",
+        "course": "점점 심해짐",
+        "character": "심한 통증, NRS 8점, 밤에 더 심함, 팔을 움직일 때 더욱 심해짐, 방사통 없음, 붓기/발적/압통/열감(-/-/+/-)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(-/-/-/-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "광과민성/피부 발진/구강 궤양/성기 궤양(-/-/-/-), 탈모(-)",
+          "infection": "관절 주사/최근 감기/감염/설사(-/-/-/-)",
+          "sjogren": "입마름/눈마름(-/-)"
+        },
+        "factors": "팔을 들거나 움직일 때 통증 심해짐, 휴식 시 다소 완화, 최근 무리한 운동 없음",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "어깨 수술이나 외상 없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "은퇴 후 가정에서 생활, 운동은 가끔 산책",
+          "family": "가족력 없음",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "오른쪽 어깨 관절 운동 범위 제한, 압통 +, 열감 -, 부종 -"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "유착관절낭염",
+          "회전근개 손상",
+          "석회성 건염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "어깨 X-ray",
+          "어깨 MRI"
+        ],
+        "therapeutic": [
+          "물리치료",
+          "진통소염제",
+          "관절내 주사"
+        ]
+      }
+    }
+  ]
+}

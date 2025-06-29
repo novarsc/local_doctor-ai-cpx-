@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김민수씨가 손이 떨린다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "손이 계속 떨려요.",
+      "history": {
+        "onset": "5년 전",
+        "location": "오른손",
+        "course": "서서히 시작하여 점점 심해짐. 최근 몇 달 동안 악화됨.",
+        "experience": "처음",
+        "character": "주로 오른손이 떨리고, 글씨를 쓰거나 물건을 집을 때 더 심해짐. 쉬고 있을 때는 덜 떨림.",
+        "associatedSymptoms": "[신경] 걸음 느려짐(-), 무표정(-), 몸 굳어짐(-). 말 어눌(-), 팔다리 힘 빠짐(-), 두통(-)",
+        "factors": "[악화] 스트레스, 긴장, 카페인 섭취(+). [완화] 알코올 섭취(-)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 고지혈증(-), 간염(-), 뇌혈관질환(-)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "은퇴 후 집에서 시간을 보냄. 스트레스는 가끔 있음.",
+          "family": "부모님 모두 고혈압 병력 있음."
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 갑상샘(一)",
+        "neuro": "뇌신경검사(-). 소뇌기능검사: FTN/Romberg(-/-)",
+        "extremity": "팔다리 rigidity(-), 오른손 떨림(+). postural/action tremor(+/+): 팔을 들 때 떨림 시작."
+      },
+      "patientQuestion": "심각한 질병일까봐 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "본태성 진전",
+          "파킨슨병",
+          "필수 진전"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 MRI",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "프로프라놀롤 처방",
+          "생활 습관 조절 상담"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 왼쪽 무릎 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "무릎이 아파요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "왼쪽 무릎 내측",
+        "duration": "3일째 지속",
+        "course": "점점 심해짐",
+        "character": "날카로운 통증, NRS 6점, 붓기(+), 발적(+), 압통(+), 열감(+), 조조강직(-), 방사통(-), 무릎을 굽히거나 펼 때 심해짐, 체중 부하 시 통증 증가",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(-/-/-/-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "광과민성/피부 발진/구강 궤양/성기 궤양(-/-/-/-), 탈모(-)",
+          "infection": "관절 주사/최근 감기/감염/설사(-/-/-/-)",
+          "sjogren": "입마름/눈마름(-/-)"
+        },
+        "factors": "농구 경기 중 부딪힘",
+        "pastHistory": {
+          "medical": "고혈압(-)",
+          "trauma_surgery": "과거 무릎 수술력(-)",
+          "medications": "없음",
+          "social": "직업: 사무직",
+          "family": "관절 질환 가족력(-)",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "결막/공막(-/-), 구강(-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "왼쪽 무릎 내측 압통, 발적, 부종, 열감(+/+/+/+), ROM 제한, Valgus stress test(+)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "내측 측부인대염",
+          "내측 반월상 연골판 손상",
+          "관절염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "왼쪽 무릎 X-ray",
+          "왼쪽 무릎 MRI"
+        ],
+        "therapeutic": [
+          "RICE(Rest, Ice, Compression, Elevation)",
+          "진통소염제",
+          "물리치료"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 김철수씨가 갑자기 어지러워서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "갑자기 어지러워요",
+      "history": {
+        "onset": "오늘 아침",
+        "duration": "30분 전부터 지속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "걸을 때 휘청거리고, 균형을 잡기 어려움. 주변이 빙빙 도는 느낌은 없음. 오른쪽 팔과 다리에 힘이 약해짐",
+        "associatedSymptoms": "[전신] 발열/오한/피로(+/-/+) [신경] 두통/구역/구토/말 어눌함/시야 흐림(+/-/+/-) [소화기] 식욕부진(+) [심혈관] 가슴 통증(-)",
+        "factors": "아침에 일어나면서 갑자기 시작",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "medications": "고혈압약, 당뇨약",
+          "social": "흡연 20갑년, 음주 주 2회"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "neuro": "의식 수준: clear. 뇌신경: 정상. 운동: 오른쪽 상지와 하지의 근력 약화(4/5). 감각: 오른쪽 상지와 하지의 감각 저하. 반사: 오른쪽 상지와 하지의 심부 건 반사 저하. 협응: 팔-코 검사, 무릎-발가락 검사에서 오른쪽에 비틀거림. 소뇌: 균형 감각 저하, 보행 실조. 안구 운동: 정상."
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "소뇌경색",
+          "소뇌출혈",
+          "뇌종양"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "뇌 MRI",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "항혈전제",
+          "재활 치료"
+        ]
+      }
+    }
+  ]
+}

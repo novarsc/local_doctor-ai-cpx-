@@ -1,0 +1,80 @@
+checklist:
+  topic_kr: "배변 이상 - 변비"
+  topic_en: "Changes in Bowel Habits - Constipation"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [배변 횟수 감소 여부 (횟수/주) / Decreased bowel movement frequency (times/week)]
+            - [배변 시 힘주는 정도 / Straining during bowel movements]
+            - [변의 굳기 (딱고 둥근 변, 토끼똥처럼 작고 딱고 둥근 변, 소시지 또는 뱀처럼 길지만 덩어리가 있거나 매끄럽지 않은 변, 소시지처럼 길고 매끄러운 변, 부드럽고 덩어리가 없는 변) / Stool consistency (separate hard lumps, lumpy sausage, smooth sausage, soft blobs, watery)]
+            - [변의 양 / Amount of stool]
+            - [증상 시작 시기 및 기간 / Onset and duration of symptoms]
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [복부 통증 / Abdominal pain]
+            - [복부 팽만감 / Abdominal distension]
+            - [직장 출혈 / Rectal bleeding]
+            - [식욕 부진 / Loss of appetite]
+            - [체중 감소 / Weight loss]
+            - [구토 / Vomiting]
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [과거력 (복부 수술, 대장 질환, 당뇨병, 갑상선 질환 등) / Past medical history (abdominal surgery, colon diseases, diabetes, thyroid disease etc.)]
+            - [가족력 (대장암, 변비 등) / Family history (colon cancer, constipation etc.)]
+            - [약물 복용력 (철분제, 마약성 진통제, 항우울제 등) / Medication history (iron supplements, opioid analgesics, antidepressants etc.)]
+            - [식이 습관 / Dietary habits]
+            - [운동량 / Exercise level]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [복부 시진, 청진, 타진, 촉진 / Abdominal inspection, auscultation, percussion, and palpation]
+            - [직장 수지 검사 / Digital rectal examination]
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [필요시 신경학적 검사 / Neurological examination if necessary]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Irritable bowel syndrome (IBS)"
+            - "Colon cancer"
+            - "Diverticulitis"
+            - "Hypothyroidism"
+            - "Obstruction"
+            - "Fecal impaction"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Comprehensive metabolic panel (CMP)"
+                - "Thyroid function test (TFT)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Abdominal X-ray"
+                - "CT scan of the abdomen and pelvis"
+                - "Colonoscopy or sigmoidoscopy (if indicated)"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "[변비의 원인과 증상에 대한 설명, 식이섬유 섭취 증가, 수분 섭취 증가, 규칙적인 운동의 중요성 교육 / Explain the causes and symptoms of constipation, educate on increasing fiber and fluid intake, and the importance of regular exercise]"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "[직장 출혈, 심한 복통, 설명되지 않는 체중 감소, 갑작스러운 배변 습관 변화 등의 증상 발생 시 즉시 의사에게 연락하도록 안내 / Instruct the patient to contact a doctor immediately if they experience symptoms such as rectal bleeding, severe abdominal pain, unexplained weight loss, or sudden changes in bowel habits]"

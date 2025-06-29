@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 58,
+        "gender": "남자"
+      },
+      "situation": "심한 복통으로 응급실에 내원했습니다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "2일 전",
+        "location": "상복부, 특히 명치 부위",
+        "duration": "지속적이며 점점 심해짐",
+        "course": "처음에는 참을 만했지만, 점점 심해져서 밤에는 잠을 못 이룰 정도입니다.",
+        "experience": "비슷한 통증을 몇 차례 경험했지만, 이번이 가장 심합니다.",
+        "character": "심한 쥐어짜는 듯한 통증, NRS 8점.  등으로 퍼지는 느낌도 있습니다.",
+        "radiation": "등으로 방사",
+        "associatedSymptoms": {
+          "general": "체중이 5kg 감소했습니다.  오심과 구토 증상도 있습니다.",
+          "gi": "식욕부진, 지방변, 설사가 있습니다.  잦은 트림과 복부 팽만감도 느낍니다.",
+          "endocrine": "갈증과 빈뇨 증상은 없지만, 최근에 소변색이 진해졌습니다."
+        },
+        "aggravatingFactors": "알코올 섭취 후, 고지방 음식 섭취 후",
+        "relievingFactors": "구부리고 앉아 있으면 약간 완화됩니다.",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증 진단받았으며 약물 복용 중입니다.",
+          "medications": "고혈압약, 고지혈증 약 복용 중입니다.",
+          "social": "30년 동안 하루에 소주 2병씩 마셨습니다. 최근에는 조금 줄였습니다.",
+          "other": "가족력에는 특이사항이 없습니다."
+        }
+      },
+      "physicalExam": {
+        "abdomen": "상복부 압통과 반발압통이 심하며,  수지압박 시 심한 통증을 호소합니다.  췌장 부위 압통이 뚜렷합니다."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 췌장염",
+          "급성 췌장염",
+          "췌장암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사 (아밀라아제, 리파아제, 혈당)",
+          "복부 CT",
+          "복부 초음파",
+          "내시경적 역행성 담췌관 조영술 (ERCP)"
+        ],
+        "therapeutic": [
+          "진통제 투여",
+          "수액 요법",
+          "금주 및 저지방 식이요법 지도",
+          "소화효소제 처방"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김수현",
+        "age": "7세",
+        "gender": "여아"
+      },
+      "situation": "아이가 밤에 소변을 자주 싸서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "80회/분",
+        "respiration": "20회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "밤에 소변을 자주 싸요.",
+      "history": {
+        "onset": "만 5세부터 밤에 소변을 가리지 못함. 주 2~3회 정도.",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 증가/근육통/두통/피로(-)",
+          "urinary": "F/U/N/D(-)",
+          "endocrine": "다음/다갈/다뇨(-)",
+          "sleep": "야경증/몽유병/낮잠/기면(-)"
+        },
+        "pastHistory": "특이 질환 없음.",
+        "perinatalHistory": "정상 분만, 출생 시 건강 상태 양호.",
+        "environment": {
+          "caregiver": "부모님과 함께 거주, 양육 환경 양호.",
+          "nutrition": "균형 잡힌 식사, 편식 없음.",
+          "social": "또래 친구들과 잘 어울림."
+        },
+        "familyHistory": "가족력 없음."
+      },
+      "physicalExam": "복부 촉진 시 특이 소견 없음.",
+      "patientQuestion": "아이가 언제쯤 밤에 소변을 가릴 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "야뇨증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "기저귀 착용 중단 및 야간 배뇨 훈련",
+          "수분 섭취 조절",
+          "취침 전 소변 보기",
+          "알람 시계 활용",
+          "긍정적 강화"
+        ],
+        "education": [
+          "야뇨증에 대한 교육",
+          "스트레스 관리",
+          "수면 습관 개선"
+        ]
+      }
+    }
+  ]
+}

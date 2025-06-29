@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "심한 설사와 복통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "88회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "설사가 너무 심하고 배가 아파요",
+      "history": {
+        "onset": "어제 저녁",
+        "duration": "지속 중",
+        "course": "어제 저녁부터 설사 시작, 점점 심해짐",
+        "experience": "처음",
+        "character": "물처럼 묽은 설사, 하루 8회 이상, 혈변 없음",
+        "associatedSymptoms": {
+          "general": "열/오한/피로/부종(-/+/-/-)",
+          "gi": "A/N/V/C/D(+/-/+/-/+), 복통(+, 중간 정도의 심한 정도), H/M/H(-/-/-), 항문 통증(-)",
+          "endocrine": "두근거림/더위불내성(-/-)",
+          "dehydration": "어지러움/목마름(+/+) 소변량 감소(+)"
+        },
+        "factors": "어제 회식에서 과음, 매운 음식 섭취",
+        "pastHistory": {
+          "events": "특이사항 없음",
+          "medical": "고혈압/당뇨/결핵/간염(-/-/-/-)",
+          "medications": "없음",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 3회 이상), 식사 : 불규칙적"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 약간의 탈수 증상 보임",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "전체적으로 압통, 반발압통 없음, 장음 증가",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이게 뭐가 문제인가요? 얼마나 걸릴까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 위장관염",
+          "식중독"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변검사",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "수액 치료",
+          "대증요법 (지사제, 진통제)"
+        ]
+      }
+    }
+  ]
+}

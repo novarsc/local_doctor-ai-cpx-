@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 김민지씨가 질 분비물 증가와 하복부 통증을 주소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "37.1℃"
+      },
+      "chiefComplaint": "질 분비물이 많고 아랫배가 아파요.",
+      "history": {
+        "onset": "2주 전",
+        "duration": "2주째 지속",
+        "course": "점점 심해지는 것 같아요.",
+        "character": "[양] 많음. [색] 흰색, 끈적끈적함. [냄새] 약간 고약한 냄새. 통증(+, 콕콕 쑤시는 듯한 통증), 분비물(+)",
+        "associatedSymptoms": "[전신] 발열/오한/체중 감소(-/-/-). [신장/비뇨] F/U/N/D(-/-/-/-). [기타] 소변 빈뇨(+), 성교통(+). 최근 성관계(+, 콘돔 사용).",
+        "pastHistory": {
+          "medical": "특이병력 없음.",
+          "medications": "없음",
+          "social": "흡연(-), 음주(가끔), 커피(1잔/day). 직장인, 스트레스(+)",
+          "family": "특이 가족력 없음.",
+          "gyn": "초경 나이 13세, 월경 주기 규칙적, 미혼, 성경험(+), 성병 검사 이력(-), 임신 경험 없음."
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 키 165cm, 몸무게 52kg",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-), CVAT/DRE(-/-)",
+        "pelvic": "골반 내진 상 자궁경부 발적과 분비물 관찰, 압통(+)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "어떻게 치료해야 하나요? 다시는 안 아프게 할 수 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "자궁경부염",
+          "세균성 질염",
+          "칸디다 질염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "자궁경부 분비물 검사(세균 배양 및 감수성 검사)",
+          "질 pH 검사"
+        ],
+        "therapeutic": [
+          "항생제 치료(검사 결과에 따라)",
+          "질 세척제 사용 지침",
+          "생활 습관 개선(청결 유지 등)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+checklist:
+  topic_kr: "허리 통증"
+  topic_en: "Low Back Pain"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [ ] 통증의 위치 (Location): 허리 어느 부위에 통증이 있는지 정확히 질문합니다. (Where exactly is the pain located in your back?)
+            - [ ] 통증의 양상 (Quality): 찌르는 듯한 통증인지, 둔한 통증인지, 쥐어짜는 듯한 통증인지 등을 질문합니다. (Can you describe the type of pain? Is it sharp, dull, throbbing, or something else?)
+            - [ ] 통증의 강도 (Severity): 통증의 강도를 0에서 10까지의 척도로 평가합니다. (On a scale of 0 to 10, with 0 being no pain and 10 being the worst pain imaginable, how would you rate your pain?)
+            - [ ] 통증의 시작 시점 및 기간 (Onset & Duration): 언제부터 통증이 시작되었는지, 얼마나 지속되었는지 질문합니다. (When did the pain start? How long has it been bothering you?)
+            - [ ] 악화 및 완화 요인 (Aggravating & Relieving Factors): 어떤 자세나 활동이 통증을 악화시키거나 완화시키는지 질문합니다. (What makes the pain better or worse? Are there any specific positions or activities that affect it?)
+            - [ ] 방사통 유무 (Radiation): 통증이 다른 부위로 뻗어나가는지, 예를 들어 다리나 엉덩이 쪽으로 내려가는지 질문합니다. (Does the pain radiate or travel to other areas, such as your legs or buttocks?)
+            - [ ] 동반 증상 (Associated Symptoms): 마비, 저림, 감각 이상 등의 동반 증상이 있는지 확인합니다. (Do you have any other symptoms like numbness, tingling, or weakness?)
+
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [ ] 하지 방사통 (Radicular pain): 다리로 내려가는 통증, 저림, 감각 이상 (Pain, numbness, tingling radiating down the leg)
+            - [ ] 요실금/변실금 (Urinary/fecal incontinence): 소변/대변을 가리지 못하는 증상 (Loss of bladder/bowel control)
+            - [ ] 발열/오한 (Fever/chills): 체온 상승과 오한 (Elevated body temperature and chills)
+            - [ ] 야간 통증 (Night pain): 밤에 심해지는 통증 (Pain worsening at night)
+            - [ ] 체중 감소 (Weight loss): 설명되지 않는 체중 감소 (Unexplained weight loss)
+
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [ ] 외상력 (Trauma history): 과거 허리 부상 경험 (History of back injury)
+            - [ ] 수술력 (Surgical history): 허리 수술 경험 (History of back surgery)
+            - [ ] 만성 질환 (Chronic conditions): 당뇨병, 골다공증 등 (Diabetes, osteoporosis, etc.)
+            - [ ] 가족력 (Family history): 허리 질환 가족력 (Family history of back problems)
+            - [ ] 직업 (Occupation): 허리에 부담을 주는 직업 (Occupation involving heavy lifting or repetitive movements)
+
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [ ] 자세 관찰 (Posture assessment): 환자의 서 있는 자세, 앉은 자세, 걷는 모습 관찰 (Observe patient's posture while standing, sitting, and walking)
+            - [ ] 척추 움직임 범위 검사 (Range of motion): 굴곡, 신전, 회전, 측굴 (Flexion, extension, rotation, lateral bending)
+            - [ ] 압통 부위 확인 (Palpation): 척추 주변 근육과 뼈의 압통 확인 (Palpate paraspinal muscles and bony prominences)
+            - [ ] 하지 신경학적 검사 (Neurological examination of lower extremities): 근력, 감각, 반사 검사 (Muscle strength, sensation, reflexes)
+
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [ ] Straight leg raise test (SLR test): 하지 직거상 검사 (Assess for nerve root irritation)
+            - [ ] Schober test: 요추 굴곡 검사 (Assess lumbar spine flexibility)
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Lumbar strain/sprain"
+            - "Herniated disc"
+            - "Spinal stenosis"
+            - "Degenerative disc disease"
+            - "Osteoarthritis"
+            - "Spondylolisthesis"
+
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete blood count (CBC)"
+                - "Erythrocyte sedimentation rate (ESR)"
+                - "C-reactive protein (CRP)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "X-ray"
+                - "MRI (Magnetic Resonance Imaging)"
+                - "CT (Computed Tomography)"
+
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "환자에게 허리 통증의 원인, 진단, 치료 계획에 대해 자세히 설명합니다. (Explain the cause, diagnosis, and treatment plan for low back pain in detail.) 바른 자세, 규칙적인 운동, 적절한 휴식의 중요성을 교육합니다. (Educate on the importance of proper posture, regular exercise, and adequate rest.)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "하지 마비, 감각 이상, 배변/배뇨 장애 등 응급 상황을 시사하는 경고 증상 발생 시 즉시 병원을 방문하도록 안내합니다. (Instruct the patient to seek immediate medical attention if they experience red flag signs such as leg paralysis, sensory loss, or bowel/bladder dysfunction.)"

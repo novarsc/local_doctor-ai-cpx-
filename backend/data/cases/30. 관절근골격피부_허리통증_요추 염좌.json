@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김철수씨가 허리 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "허리가 아파요",
+      "history": {
+        "onset": "2일 전",
+        "location": "허리 중앙부",
+        "duration": "간헐적 통증",
+        "course": "무거운 물건을 들다가 갑자기 심해짐",
+        "experience": "처음",
+        "character": "심한 쑤시는 통증과 뻐근함, NRS 6점, 기침이나 재채기 시 통증 악화, 방사통 없음",
+        "associatedSymptoms": {
+          "neurological": "하지 저림, 감각 이상, 근력 약화 없음"
+        },
+        "factors": "무거운 물건 들 때 악화, 휴식 시 완화",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(1갑/일), 음주(주 2회 소주 1병)",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적",
+        "heent": "정상",
+        "abdomen": "정상",
+        "extremity": "요추부 압통, 촉진 시 통증, ROM 제한, 신경학적 이상 없음, Straight leg raise test 음성"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "요추 염좌",
+          "요추부 근육통"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요추 X-ray"
+        ],
+        "therapeutic": [
+          "진통소염제 처방",
+          "근육 이완제 처방",
+          "온찜질 권고",
+          "휴식 및 안정 권고",
+          "필요시 물리치료"
+        ]
+      }
+    }
+  ]
+}

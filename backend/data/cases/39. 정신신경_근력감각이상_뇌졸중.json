@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "72세 남자 김철수씨가 오른쪽 팔다리에 힘이 없다고 응급실에 내원하였다(현재 오후 2시).",
+      "vitalSigns": {
+        "bloodPressure": "160/95mmHg",
+        "heartRate": "92회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "오른쪽 팔다리에 힘이 없어요",
+      "history": {
+        "onset": "오후 1시",
+        "location": "오른쪽 팔, 다리",
+        "duration": "1시간 지속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "오른쪽 팔, 다리에 힘이 없고, 움직이기 어려움. 저림은 없음.",
+        "associatedSymptoms": "[전신] 발열(-), 오한(-), 메스꺼움(-), 구토(-), 두통(+, 욱신거리는 통증, NRS 4점, 1시간 전부터). [순환기] 가슴 통증(-), 호흡곤란(-). [신경계] 어지러움(-), 시야 흐림(-), 말 어눌함(-), 의식 변화(-), 삼킴곤란(-), 배뇨/배변 장애(-/-). [기타] 최근 감기 증상(-), 전날 과음(-)",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약, 당뇨병 약",
+          "social": "금주, 금연, 스트레스 많음",
+          "family": "부친: 심근경색"
+        }
+      },
+      "physicalExam": {
+        "general": "혈압 상승, 의식 청명",
+        "heent": "안면 마비 없음, 눈동자 반사 정상",
+        "neuro": "오른쪽 상지 근력 저하(MMT 3/5), 오른쪽 하지 근력 저하(MMT 4/5), 오른쪽 상,하지 감각 저하. 깊은 건 반사 정상, 바빈스키 반사(-)",
+        "extremity": "오른쪽 팔, 다리 움직임 제한"
+      },
+      "patientQuestion": "이게 뭐 때문에 이런 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "뇌졸중(뇌경색)",
+          "일과성 허혈 발작"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "혈액 검사(혈당, 혈액 응고 기능)"
+        ],
+        "therapeutic": [
+          "혈압 조절",
+          "항혈전제 투여"
+        ]
+      }
+    }
+  ]
+}

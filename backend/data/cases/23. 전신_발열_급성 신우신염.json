@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 72,
+        "gender": "남성"
+      },
+      "situation": "72세 남성 김민수씨가 오른쪽 옆구리 통증과 고열을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "100회/분",
+        "respiration": "20회/분",
+        "temperature": "39.5℃"
+      },
+      "chiefComplaint": "옆구리가 너무 아프고 열이 많이 나요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "오른쪽 옆구리",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "오른쪽 옆구리에 콕콕 쑤시는 듯한 통증과 함께 열이 남.  해열제 복용 후 일시적으로 열이 내려갔으나 다시 상승",
+        "associatedSymptoms": {
+          "general": "오한(+), 피로(+), 식욕부진(+)",
+          "urinary": "빈뇨(+, 1시간에 2~3회), 잔뇨감(+), 배뇨통(+), 소변색 변화(탁함, 짙은 노란색)",
+          "pain": "오른쪽 옆구리 통증(심함), 움직일 때 악화",
+          "other": "구토(-), 설사(-), 기침(-)"
+        },
+        "factors": "최근 감기 증상 없음, 요로 감염 병력 없음, 수분 섭취 부족",
+        "pastHistory": {
+          "social": "흡연(20갑년), 음주(소주 1병/주)",
+          "medical": "고혈압(10년 경력), 당뇨병(5년 경력)"
+        }
+      },
+      "physicalExam": {
+        "general": "고열(39.5℃), 탈수 증상(약간의 구강 건조)",
+        "heent": "결막 충혈(-), 인후 발적(-)",
+        "abdomen": "오른쪽 측복부 압통(+),  CVA tenderness(+, 오른쪽),  복부 팽만(-),  장음 정상",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "이 병이 얼마나 위험한가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 신우신염",
+          "신장결석",
+          "요로감염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변검사(일반검사, 배양검사)",
+          "혈액검사(CBC, CRP)",
+          "복부 초음파"
+        ],
+        "therapeutic": [
+          "항생제 정맥 투여",
+          "수액 치료",
+          "통증 조절"
+        ]
+      }
+    }
+  ]
+}

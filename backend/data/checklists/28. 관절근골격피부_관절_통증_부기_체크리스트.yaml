@@ -1,0 +1,76 @@
+checklist:
+  topic_kr: "관절 통증 및 부종"
+  topic_en: "Joint Pain and Swelling"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [ ] 통증 발생 부위 (Location of pain): 어느 관절에 통증이 있습니까? (Which joint(s) are painful?)
+            - [ ] 통증의 양상 (Character of pain): 욱신거리는 통증, 찌르는 듯한 통증, 둔한 통증 등 어떤 느낌입니까? (Describe the pain - throbbing, sharp, dull, etc.)
+            - [ ] 통증의 강도 (Severity of pain): 통증의 정도는 0에서 10까지의 척도에서 어느 정도입니까? (Rate your pain from 0 to 10.)
+            - [ ] 통증의 시작 시점 및 기간 (Onset and Duration): 언제부터 통증이 시작되었으며, 얼마나 지속되었습니까? (When did the pain start and how long has it lasted?)
+            - [ ] 악화 및 완화 요인 (Aggravating and Alleviating factors): 통증을 악화시키거나 완화시키는 요인은 무엇입니까? (What makes the pain better or worse?)
+            - [ ] 부종의 정도 및 양상 (Swelling characteristics): 부종이 얼마나 심하며, 어떤 모양입니까? (How severe is the swelling and what does it look like?)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [ ] 발열 (Fever): 열이 있습니까? (Do you have a fever?)
+            - [ ] 오한 (Chills): 오한이 있습니까? (Do you have chills?)
+            - [ ] 발진 (Rash): 피부 발진이 있습니까? (Do you have a rash?)
+            - [ ] 관절 강직 (Joint stiffness): 관절이 뻣뻣합니까? (Do you have joint stiffness?)
+            - [ ] 전신 피로감 (Fatigue): 피곤함을 느끼십니까? (Do you feel fatigued?)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [ ] 과거 관절 질환 병력 (History of joint problems): 이전에 관절 관련 질환을 앓았던 적이 있습니까? (Have you had any previous joint problems?)
+            - [ ] 외상 병력 (Trauma history): 최근에 관절 부상을 입은 적이 있습니까? (Have you recently injured the joint?)
+            - [ ] 가족력 (Family history): 가족 중에 관절염이나 류마티스 질환을 앓는 분이 있습니까? (Does anyone in your family have arthritis or rheumatic diseases?)
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [ ] 시진 (Inspection): 관절의 부종, 발적, 변형 등을 확인합니다. (Inspect the joint for swelling, redness, and deformity.)
+            - [ ] 촉진 (Palpation): 관절의 압통, 온도, 관절 운동 범위를 확인합니다. (Palpate the joint for tenderness, temperature, and range of motion.)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [ ] 해당 관절에 대한 특수 검사 (Specific tests for the affected joint): 예) 무릎 관절의 경우 McMurray 검사, Lachman 검사 등 (e.g., McMurray test, Lachman test for knee joint)
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Osteoarthritis"
+            - "Rheumatoid Arthritis"
+            - "Gout"
+            - "Septic Arthritis"
+            - "Trauma"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Erythrocyte Sedimentation Rate (ESR)"
+                - "C-Reactive Protein (CRP)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "X-ray"
+                - "Ultrasound"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "환자의 상태에 대한 자세한 설명과 함께 질병의 경과, 치료 계획, 예후 등에 대한 정보를 제공합니다. (Provide a detailed explanation of the patient's condition, including the disease course, treatment plan, and prognosis.)"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "고열, 심한 통증, 관절 운동 제한 등 악화되는 증상 발생 시 즉시 병원을 방문하도록 안내합니다. (Instruct the patient to seek immediate medical attention if they experience worsening symptoms such as high fever, severe pain, or limited range of motion.)"

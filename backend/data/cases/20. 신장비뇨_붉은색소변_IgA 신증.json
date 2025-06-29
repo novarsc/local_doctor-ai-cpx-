@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 박민수씨가 2주째 지속되는 혈뇨와 부종으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변에 피가 섞여 나오고, 다리가 붓네요.",
+      "history": {
+        "onset": "2주 전",
+        "course": "점진적으로 악화됨",
+        "experience": "처음 발생",
+        "character": "[양] 종이컵 반 정도, [색] 콜라색, [냄새] 특이 없음, [거품] 없음, 소변량 감소, 부종은 발목부터 시작하여 종아리까지",
+        "associatedSymptoms": {
+          "general": "발열(-), 오한(-), 체중 변화(+, 2kg 증가), 탈수(-), 피로감(+), 감기 증상(-), 근육통(-)",
+          "digestive": "구역/구토/어지럼증(-/-/-), 설사(-)",
+          "renal_urinary": "F/U/N/D/H/I/S(-/-/-/-/-/-/-), 옆구리 통증(-), 거품뇨(-)",
+          "other": "출혈 경향(-)"
+        },
+        "factors": "심한 운동(-), 사우나(-), 스트레스(+, 최근 사업 실패), 불면증(+)",
+        "pastHistory": {
+          "medical": "고혈압 진단받은 적 있음(약 복용 중단), 감기 외 특이 병력 없음",
+          "medications": "현재 복용하는 약 없음(과거 고혈압 약 복용)",
+          "social": "음주(+, 매일 소주 1병), 흡연(+, 하루 1갑), 운동(일주일에 2~3회 30분 정도 산책), 직업: 사업가(최근 사업 실패), 식사: 불규칙적",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 안색 창백",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/+)",
+        "abdomen": "CVAT(-), 복부 촉진(-), DRE(-), 신동맥 잡음(-)",
+        "extremity": "양측 하지 부종(+), Pitting edema(+)"
+      },
+      "patientQuestion": "이게 심각한 병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "IgA 신증",
+          "급성 사구체신염",
+          "다낭성 신장 질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(혈액형, 신장기능검사, 혈청 크레아티닌, 요소질소, BUN, creatinine, eGFR, 전해질, 간기능 검사, 혈액응고검사)",
+          "소변검사(소변 일반검사, 소변 세포검사, 소변 단백질 정량)",
+          "영상 검사(복부 초음파)"
+        ],
+        "therapeutic": [
+          "혈압 조절(고혈압 치료), 수분 섭취 조절, 저염식이요법, 금주, 금연 권고, 정기적 추적 관찰"
+        ]
+      }
+    }
+  ]
+}

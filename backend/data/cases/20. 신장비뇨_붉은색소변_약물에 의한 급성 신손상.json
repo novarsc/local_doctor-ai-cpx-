@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 52,
+        "gender": "남자"
+      },
+      "situation": "52세 남자 박민수씨가 갑자기 소변 색깔이 변했다며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "85회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변이 갈색으로 변했어요.",
+      "history": {
+        "onset": "2일 전",
+        "course": "점점 진해짐",
+        "experience": "처음 발생",
+        "character": "소변색: 진한 갈색, 거품(+), 냄새(약간 고약함), 통증(-), 혈뇨(?), 소변량 감소(+)",
+        "associatedSymptoms": {
+          "general": "발열(-), 오한(-), 피로감(+), 체중변화(-), 탈수(-), 근육통(-), 부종(-)",
+          "digestive": "구역/구토/설사(-/-/-)",
+          "renal_urinary": "빈뇨/야뇨/배뇨통(-/-/-), 옆구리 통증(-)",
+          "other": "두통(-), 어지러움(-)"
+        },
+        "factors": "최근 감기 증상(약 복용-), 과도한 운동(-), 스트레스(+), 음주(+, 소주 1병/주 2회)",
+        "pastHistory": {
+          "medical": "고혈압(약 복용 중, amlodipine 5mg 1일 1회), 고지혈증(약 복용 중, atorvastatin 10mg 1일 1회)",
+          "medications": "암로디핀, 아토르바스타틴, 2일 전부터 진통제(ibuprofen 400mg, 1일 3회) 복용",
+          "social": "흡연(20갑년), 직업: 회사원",
+          "family": "부모님 모두 고혈압 병력 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable,  피부 건조함(-)",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "abdomen": "CVAT(-), 복부 촉진(-), 신동맥잡음(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "제가 먹는 약 때문에 그런 건 아닌가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "약물에 의한 급성 신손상",
+          "급성 신염",
+          "요로결석"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(BUN, Creatinine, eGFR, 전해질, 소변검사(요검사, 소변세디먼트), 소변 배양검사,  이부프로펜 약물 수치 측정)",
+          "영상검사(복부 초음파)"
+        ],
+        "therapeutic": [
+          "ibuprofen 복용 중지",
+          "수분 섭취 증가",
+          "혈압, 신기능 모니터링",
+          "필요시 투석"
+        ]
+      }
+    }
+  ]
+}

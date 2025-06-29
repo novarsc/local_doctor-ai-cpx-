@@ -1,0 +1,90 @@
+checklist:
+  topic_kr: "쉽게 멍이 듦"
+  topic_en: "Easy Bruising"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "멍의 특징"
+          subtitle_en: "Characteristics of Bruises"
+          details: |
+            - [멍의 크기 (Size of bruises): 작은 점상출혈부터 큰 멍까지]
+            - [멍의 색깔 변화 (Color changes of bruises): 처음 발생했을 때부터 현재까지]
+            - [멍의 발생 위치 (Location of bruises): 특정 부위에 집중되는지, 전신적인지]
+            - [멍의 발생 빈도 (Frequency of bruises): 얼마나 자주 멍이 드는지]
+            - [멍이 발생하는 데 걸리는 시간 (Time to bruise): 가벼운 충격에도 쉽게 멍이 드는지]
+            - [통증 유무 (Presence of pain): 멍든 부위가 아픈지]
+            - [가려움증 유무 (Presence of itching): 멍든 부위가 가려운지]
+            - [부종 유무 (Presence of swelling): 멍 주변이 부어 오르는지]
+        - subtitle_kr: "동반 증상 및 관련 과거력"
+          subtitle_en: "Associated Symptoms and Relevant History"
+          details: |
+            - [비정상적인 출혈 (Unusual bleeding): 코피, 잇몸 출혈, 혈뇨, 흑색변 등]
+            - [피로감 (Fatigue)]
+            - [발열 (Fever)]
+            - [체중 감소 (Weight loss)]
+            - [관절통 (Joint pain)]
+            - [가족력 (Family history): 가족 중에 비슷한 증상을 보이는 사람이 있는지]
+            - [약물 복용력 (Medication history): 특히 아스피린, 와파린, 항응고제 등]
+            - [과거 질병력 (Past medical history)]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "전반적인 상태"
+          subtitle_en: "General Appearance"
+          details: |
+            - [활력 징후 (Vital signs)]
+            - [피부 및 점막 (Skin and mucous membranes): 창백, 황달, 점상출혈 등]
+            - [림프절 (Lymph nodes)]
+            - [비장 비대 (Splenomegaly)]
+            - [간 비대 (Hepatomegaly)]
+        - subtitle_kr: "멍 부위"
+          subtitle_en: "Bruised Area"
+          details: |
+            - [크기, 색깔, 모양, 압통 (Size, color, shape, tenderness)]
+            - [주변 부종 및 발적 (Surrounding swelling and erythema)]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Thrombocytopenia (ITP, TTP)"
+            - "Von Willebrand Disease"
+            - "Hemophilia"
+            - "Leukemia"
+            - "Aplastic Anemia"
+            - "Vitamin K Deficiency"
+            - "Drug-induced Thrombocytopenia"
+            - "Cushing Syndrome"
+            - "Vasculitis (Henoch-Schonlein purpura)"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "Peripheral Blood Smear"
+                - "Coagulation Studies (PT, aPTT, INR)"
+                - "Platelet Function Test"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Ultrasound (If splenomegaly or hepatomegaly is suspected)"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "멍 예방법 교육"
+          subtitle_en: "Education on preventing bruises"
+          details: |
+            - [안전한 환경 조성 (Creating a safe environment): 낙상 위험 요소 제거]
+            - [보호 장비 착용 (Wearing protective gear): 운동 시 필요한 경우]
+            - [균형 잡힌 식사 (Maintaining a balanced diet)]
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: |
+            - [심한 출혈 (Severe bleeding)]
+            - [지속적인 코피 또는 잇몸 출혈 (Persistent nosebleeds or gum bleeding)]
+            - [어지럼증 또는 실신 (Dizziness or fainting)]
+            - [심한 복통 (Severe abdominal pain)]

@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김철수씨가 2개월간 지속되는 기침과 체중 감소를 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "80회/분",
+        "respiration": "20회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "두 달째 기침이 계속되고, 살이 빠져요.",
+      "history": {
+        "onset": "2개월 전",
+        "location": "전신",
+        "course": "처음에는 가벼운 기침이었으나 점차 심해지고, 밤에 심해짐.  체중은 약 5kg 감소.",
+        "character": "마른 기침이 주로 나타나며, 가래는 거의 없음.  밤에 땀을 많이 흘림.",
+        "associatedSymptoms": {
+          "general": "피로감(+), 식욕부진(+), 야간 발한(+), 오한(+)",
+          "digestive": "소화불량(+)",
+          "respiratory": "기침(+), 흉통(-), 호흡곤란(-)",
+          "urinary": "다뇨(-)",
+          "psychiatric": "불안감(+)"
+        },
+        "factors": "최근 해외여행(동남아시아) 다녀온 적 없음.  흡연, 음주 병력 없음. 가족력 없음.",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "medications": "복용 약물 없음",
+          "social": "흡연(-), 음주(-), 직업: 사무직",
+          "family": "특이 사항 없음",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 피로해 보임.",
+        "heent": "특이 소견 없음",
+        "chest": "호흡음 약간 거칠고, 숨소리 약간 들림",
+        "abdomen": "특이 소견 없음",
+        "extremity": "특이 소견 없음"
+      },
+      "patientQuestion": "제가 결핵인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "결핵",
+          "폐렴",
+          "기관지염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X선 검사",
+          "객담 검사(항산성 염색, 배양)",
+          "결핵 피부반응검사(TST)"
+        ],
+        "therapeutic": [
+          "경험적 항결핵제 치료 시작 (결과 확인 후 조정)"
+        ]
+      }
+    }
+  ]
+}

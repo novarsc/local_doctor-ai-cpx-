@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 40,
+        "gender": "여자"
+      },
+      "situation": "심한 속쓰림과 신물로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "속이 너무 쓰리고 신물이 올라와요",
+      "history": {
+        "onset": "1년 전부터",
+        "duration": "간헐적, 주로 저녁",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "심한 속쓰림, 신물",
+        "associatedSymptoms": {
+          "gi": "가슴쓰림(+), 신물(+), 역류(+), 구역질(+), 구토(-)",
+          "respiratory": "기침(-), 가래(-), 호흡곤란(-)",
+          "general": "체중 변화(-), 소화불량(+)"
+        },
+        "factors": "매운 음식 섭취 후 악화, 늦은 저녁 식사 후 악화, 잠자리에 들 때 악화",
+        "pastHistory": {
+          "medical": "없음",
+          "social": "음주(주 1회, 소주 1병), 흡연(-)",
+          "family": "부모님 당뇨병"
+        }
+      },
+      "physicalExam": {
+        "general": "특이소견 없음",
+        "abdominal": "압통 없음"
+      },
+      "patientQuestion": "약을 먹으면 괜찮아질까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "위식도 역류 질환(GERD)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경"
+        ],
+        "therapeutic": [
+          "제산제",
+          "H2 수용체 길항제",
+          "생활습관 개선 상담"
+        ]
+      }
+    }
+  ]
+}

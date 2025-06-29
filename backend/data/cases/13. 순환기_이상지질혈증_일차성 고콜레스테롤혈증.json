@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김지혜",
+        "age": 45,
+        "gender": "여자"
+      },
+      "situation": "건강검진 결과 고콜레스테롤혈증 소견으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/75mmHg",
+        "heartRate": "70회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "콜레스테롤 수치가 높대요",
+      "history": {
+        "labResults": "총 콜레스테롤 260mg/dL, LDL-C 180mg/dL, HDL-C 40mg/dL, TG 150mg/dL",
+        "associatedSymptoms": {
+          "general": "체중 변화 없음, 피로감 없음, 특별한 증상 없음",
+          "cardiovascular": "흉통(-), 두근거림(-)"
+        },
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 가족력(아버지-심혈관질환)",
+          "medications": "없음",
+          "social": "음주(월 1회 소량), 흡연(-), 운동(주 2회 30분 걷기)",
+          "family": "아버지 60세에 심근경색으로 사망"
+        }
+      },
+      "physicalExam": {
+        "heent": "황색판종(-), 각막환(-)",
+        "chest": "심잡음(-), 호흡음(clear)",
+        "abdomen": "간비대(-)",
+        "extremity": "말초부종(-), 아킬레스건 비후(-)"
+      },
+      "patientQuestion": "약을 먹어야 할까요? 어떻게 관리해야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "일차성 고콜레스테롤혈증",
+          "가족성 고콜레스테롤혈증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "지질검사 재검",
+          "간기능 검사",
+          "신장기능 검사"
+        ],
+        "therapeutic": [
+          "생활습관 개선(저지방 식단, 규칙적 운동)",
+          "스타틴 계열 약물 고려"
+        ]
+      }
+    }
+  ]
+}

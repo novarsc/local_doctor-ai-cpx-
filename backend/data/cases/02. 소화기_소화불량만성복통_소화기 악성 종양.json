@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최순자",
+        "age": 62,
+        "gender": "여자"
+      },
+      "situation": "식욕부진과 체중감소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg ",
+        "heartRate": "78회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.6℃ "
+      },
+      "chiefComplaint": "밥맛이 없고 살이 빠져요.",
+      "history": {
+        "onset": "6개월 전",
+        "location": "상복부",
+        "course": "처음에는 소화불량인 줄 알았는데 점점 심해짐",
+        "experience": "예전에는 잘 먹었는데 최근 들어 음식을 먹으면 속이 더부룩하고 불편함",
+        "character": "속이 더부룩하고, 메스꺼움, 음식이 잘 안넘어감, 체중 감소(5kg)",
+        "associatedSymptoms": {
+          "general": "체중 감소(+, 5kg), 피로감(+)",
+          "gi": "A/N/D/V/C(+/+/-/+/-) , 속쓰림(+, 명치 부위, NRS 4), 혈변/지방변(-/-), 복통(-)"
+        },
+        "factors": "특별한 악화 요인 없음, 기름진 음식 먹으면 더 심함",
+        "pastHistory": {
+          "medical": "고혈압(+, 10년 전부터 약 복용 중), 고지혈증(+)",
+          "events": "건강검진에서 고혈압, 고지혈증 진단 받음",
+          "surgical": "없음",
+          "medications": "고혈압약, 고지혈증약",
+          "social": "흡연(-), 음주(소주 반병/주 1회), 직업(가정주부), 식사(불규칙적, 기름진 음식 즐겨 먹음), 운동(-), 스트레스(중간)",
+          "obgyn": "폐경(5년 전), 자녀 2명"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable, 체중 감소 소견(+)",
+        "heent": "눈/입/림프절(-/-/-)",
+        "abdomen": "상복부 압통(+), 반동 압통(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "위암",
+          "십이지장궤양",
+          "만성 위염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "혈액 검사",
+          "대변 잠혈 검사"
+        ],
+        "therapeutic": [
+          "내시경 검사 결과에 따른 치료",
+          "생활 습관 개선 교육"
+        ]
+      }
+    }
+  ]
+}

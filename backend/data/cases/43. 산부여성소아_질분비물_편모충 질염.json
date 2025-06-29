@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 김민지씨가 질 분비물 증가와 가려움증을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "질 분비물이 많고 가려워요",
+      "history": {
+        "onset": "3일 전",
+        "duration": "지속됨",
+        "course": "점점 심해짐",
+        "experience": "처음 발생",
+        "character": "[양] 평소보다 많아짐, 팬티라이너 2~3번 갈아야 함. [양상] 거품이 약간 있고 묽은 편. [색] 황록색. 냄새/피/거품(+/-/+)",
+        "associatedSymptoms": "[전신] 발열/오한/피로(-/-/-). [소화] 복통(-). [신장/비뇨] 빈뇨/배뇨통(-/-). [기타] 외음부 가려움/따가움(+/+), 질출혈(-), 외음부 이상(-), 질 건조함(-). [성관계] 최근 성관계 잦음(1주일에 3회)",
+        "factors": "질세척(주 1회), 콘돔 사용, 파트너 1명, 파트너 증상(-)",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "medications": "없음",
+          "social": "직업: 사무직, 비흡연, 주 1회 음주",
+          "gyn": "초경 13세, 월경 규칙적, 생리통 없음, 기혼, 현재 임신 아님, 자궁경부암 검진 정상(최근 6개월 전)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "abdomen": "복부 압통(-)",
+        "pelvic": "질경 검사 시 황록색의 거품 있는 분비물 관찰, 자궁경부 정상, 자궁 및 부속기 압통(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "편모충 질염",
+          "세균성 질염",
+          "칸디다 질염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "질 분비물 검사(현미경 검사, 배양 검사)",
+          "pH 검사"
+        ],
+        "therapeutic": [
+          "메트로니다졸 복용",
+          "파트너 동반 치료 권고",
+          "질 세척 횟수 줄이기 교육"
+        ]
+      }
+    }
+  ]
+}

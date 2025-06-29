@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김철수씨가 양쪽 다리가 저리고 힘이 빠진다고 내원하였다(현재 오후 2시).",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "다리가 저리고 힘이 없어요",
+      "history": {
+        "onset": "6개월 전",
+        "location": "양쪽 다리, 발가락까지",
+        "duration": "지속적",
+        "course": "서서히 악화",
+        "experience": "처음",
+        "character": "저림, 화끈거림, 통증, 힘 빠짐",
+        "associatedSymptoms": "[전신] 체중 감소(-), 발열(-), 오한(-) [신경] 두통(-), 어지러움(-), 시야 변화(-) [소화기] 변비(+), 속쓰림(-) [비뇨기] 배뇨장애(-)",
+        "pastHistory": {
+          "medical": "당뇨병(20년), 고혈압(10년)",
+          "trauma_surgery": "무",
+          "medications": "메트포르민, 글리벤클라마이드, 로사르탄",
+          "social": "흡연(30갑년), 음주(주 3회 소주 1병), 운동 부족",
+          "family": "부친 당뇨병"
+        }
+      },
+      "physicalExam": {
+        "general": "외관상 특이 소견 없음",
+        "heent": "정상",
+        "neuro": "뇌신경 검사 정상, 심부건 반사 정상, 병적 반사 음성",
+        "extremity": "양측 다리에 감각 저하, 근력 약화(MMT 4/5), 족배굴곡 및 저측굴곡 약화"
+      },
+      "patientQuestion": "다리 저림과 힘 빠짐이 언제까지 지속될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "당뇨신경병증",
+          "말초동맥질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈당 검사",
+          "HbA1c 검사",
+          "신경전도검사",
+          "혈액검사(크레아티닌, 콜레스테롤 등)",
+          "발목-팔 혈압 지수(ABI) 측정"
+        ],
+        "therapeutic": [
+          "혈당 조절 강화",
+          "통증 조절 약물(가바펜틴, 아미트립틸린 등)",
+          "규칙적인 운동",
+          "금주, 금연 권고"
+        ]
+      }
+    }
+  ]
+}

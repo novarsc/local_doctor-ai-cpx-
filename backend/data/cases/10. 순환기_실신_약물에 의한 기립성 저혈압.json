@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이지혜",
+        "age": 68,
+        "gender": "여자"
+      },
+      "situation": "어지러움과 실신으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "어지러워서 쓰러졌어요.",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "화장실에서 일어날 때",
+        "duration": "약 30초",
+        "experience": "최근 몇 주 동안 아침에 일어날 때 어지러움을 느끼는 빈도가 증가했으며, 오늘은 의식을 잠시 잃었다. 과거에는 이런 경험이 없었다.",
+        "character": {
+          "preSyncope": "심한 어지러움(+), 메스꺼움(+), 흐릿한 시야(+)",
+          "syncope": "경련(-), 넘어짐(+), 혀 깨물음(-), 안구 편위(-)",
+          "postSyncope": "피로감(+), 어지러움(+), 몸이 냉기가 돌음(+)"
+        },
+        "associatedSymptoms": {
+          "general": "발열(-), 오한(-), 피로(+), 체중 변화(-)",
+          "circulatory": "두근거림(-), 호흡곤란(-)",
+          "gi": "설사(-), 구토(-), 혈변(-), 흑색변(-), 토혈(-)",
+          "respiratory": "가슴 통증(-)",
+          "renal": "다뇨(-), 다갈(-), 다음(-), 혈뇨(-)",
+          "neuro": "두통(-), 시야 장애(-), 보행 장애(-), 팔다리 힘 빠짐(-)",
+          "psych": "죽을 것 같은 공포감(-), 불안감(-)"
+        },
+        "factors": "아침에 일어설 때 악화(+), 앉았다 일어설 때 악화(+), 탈수(-)"
+      },
+      "pastHistory": {
+        "surgical": "없음",
+        "medications": "고혈압 약(로살탄 50mg 1일 1회, 3개월째 복용 중)",
+        "social": "술(-), 담배(-), 커피(1잔/일)"
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "결막 창백(-), 구강 건조(-), 경동맥 박동 정상",
+        "chest": "심음 정상",
+        "extremity": "팔다리 부종(-), 근력 정상, 감각 정상"
+      },
+      "patientQuestion": "고혈압 약 때문에 이런 증상이 생긴 걸까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "약물에 의한 기립성 저혈압",
+          "미주신경성 실신",
+          "심혈관계 질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "기립경 검사",
+          "심전도 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "수분 섭취 충분히 할 것",
+          "아침에 천천히 일어설 것",
+          "약물 용량 조절 및 변경 검토"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박서준",
+        "age": "13세",
+        "gender": "남아"
+      },
+      "situation": "키가 작아 성장클리닉에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "키가 작은 것 같아요.",
+      "history": {
+        "onset": "초등학교 입학 후 친구들보다 키가 작다는 것을 인지.",
+        "growthAndDevelopment": {
+          "growth": "현재 키 145cm(10%), 체중 38kg(25%). 연간 성장속도 4cm 미만.",
+          "secondarySexualCharacteristics": "음모(Tanner stage 2), 고환 크기 12ml"
+        },
+        "perinatalHistory": "만삭아, 자연분만, 출생 시 체중 3.2kg, 신장 50cm. 임신 및 분만 과정 특이 소견 없음.",
+        "neonatalHistory": "신생아기 황달(+), 광선치료 시행. 신생아 대사검사 정상.",
+        "pastHistory": "특이 과거력 없음.",
+        "environment": {
+          "nutrition": "골고루 잘 먹음. 편식 없음.",
+          "exercise": "주 2회 축구 수업.",
+          "sleep": "매일 밤 10시 취침, 7시 기상."
+        },
+        "familyHistory": "아버지 키 175cm, 어머니 키 160cm. 가족력상 저신장 및 성장 장애 없음."
+      },
+      "physicalExam": "신체 비례 정상. 골연령 검사 예정.",
+      "patientQuestion": "성장호르몬 치료를 받아야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "체질성 성장 지연"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "손목 방사선 사진 촬영(골연령 평가)",
+          "혈액검사(성장 호르몬, IGF-1, TSH 등)"
+        ],
+        "therapeutic": [
+          "검사 결과에 따른 치료 계획 수립 (성장호르몬 치료 여부 결정)",
+          "정기적인 성장 추적 관찰"
+        ]
+      }
+    }
+  ]
+}

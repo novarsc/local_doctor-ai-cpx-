@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김민수씨가 소변량 감소로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변이 잘 안 나와요.",
+      "history": {
+        "onset": "3일 전",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "소변량 감소, 하루 6~7회에서 2~3회로 감소, 소변 색깔 진해짐, 거품 소변 없음, 혈뇨 없음",
+        "associatedSymptoms": {
+          "general": "피로감(+), 발열/오한(-/-), 체중 변화(-)",
+          "digestive": "식욕 감소(+), 메스꺼움(-), 구토(-), 설사(-)",
+          "circulatory": "호흡곤란(-), 어지러움(-), 두근거림(-)",
+          "renal_urinary": "배뇨통(-), 잔뇨감(-), 절박뇨(-), 야뇨(-)",
+          "musculoskeletal_skin": "근육통(-), 관절통(-), 피부 발진(-)"
+        },
+        "factors": "최근 감기(-), 심한 운동(-), 과도한 음주(-), NSAID 복용(+, 이부프로펜 3일째 복용 중, 무릎 통증으로 복용 시작)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 고지혈증(-), 신장질환(-)",
+          "medications": "고혈압약(꾸준히 복용), 이부프로펜(3일째 복용 중)",
+          "social": "흡연(1갑/일, 30년), 음주(주 2회 소주 1병)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "결막 창백(-), 경부 림프절 비대(-)",
+        "abdomen": "압통(-), 복부팽만(-), 청진음 정상",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "제 상태가 어떤 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "진통소염제(NSAID)에 의한 급성 신손상",
+          "탈수",
+          "급성 신우신염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (BUN, creatinine, 전해질, 혈구수)",
+          "소변검사 (소변검사, 요배양검사)",
+          "신장 초음파"
+        ],
+        "therapeutic": [
+          "NSAID 중단",
+          "수액요법",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 박철수씨가 2년째 지속되는 기침과 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "88회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차고 기침이 계속 돼요",
+      "history": {
+        "onset": "2년 전",
+        "duration": "지속",
+        "course": "점진적으로 악화",
+        "experience": "처음",
+        "character": "운동 시 악화, 휴식 시 호전, 마른 기침, 가래는 없음, 숨이 차서 일상생활에 불편함을 느낌",
+        "associatedSymptoms": {
+          "general": "발열/피로/체중 변화(-/-/-), 부종(-)",
+          "respiratory": "흉통(-), 기침(+, 마른기침), 가래(-), 쌕쌕거림(-)",
+          "psychiatric": "불안감(+), 우울감(-)"
+        },
+        "factors": "운동 시 악화, 먼지 흡입 시 악화",
+        "pastHistory": {
+          "medical": "고혈압",
+          "trauma_surgery": "-",
+          "medications": "고혈압약 복용 중",
+          "social": "흡연(+, 40갑년), 음주(-), 30년간 석탄 광산에서 근무",
+          "family": "-",
+          "obgyn": "-"
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란, 빈호흡, 객담 없음",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-)",
+        "chest": "흉부 시진: 호흡운동 저하, 촉진: 흉벽 진동 감소, 타진: 둔탁음, 청진: 수포음 감소",
+        "extremity": "곤봉지/청색증(-/-)"
+      },
+      "patientQuestion": "이 병 때문에 일을 못하게 되는 건 아닐까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "진폐증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X선 촬영",
+          "고해상도 흉부 CT",
+          "폐기능 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "산소 치료",
+          "기관지 확장제",
+          "호흡 재활 치료",
+          "금연 상담"
+        ]
+      }
+    }
+  ]
+}

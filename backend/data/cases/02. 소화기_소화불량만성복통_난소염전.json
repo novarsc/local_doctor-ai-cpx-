@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최수진",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "갑작스러운 오른쪽 아랫배 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg ",
+        "heartRate": "90회/분 ",
+        "respiration": "18회/분 ",
+        "temperature": "37.1℃ "
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "3시간 전 ",
+        "location": "오른쪽 아랫배 ",
+        "course": "갑자기 시작된 심한 통증, 점점 심해짐 ",
+        "experience": "처음 경험하는 통증 ",
+        "character": "날카로운 통증, 쥐어짜는 듯한 느낌, NRS 8/10 ",
+        "associatedSymptoms": {
+          "general": "메스꺼움(+), 구토(-), 발열(+) ",
+          "gi": "식욕부진(+), 설사(-), 변비(-), 혈변(-) ",
+          "obgyn": "마지막 생리 2주 전, 월경통 없음, 질출혈 없음"
+        },
+        "factors": "운동 후 발생, 특별한 음식 섭취 없음 ",
+        "pastHistory": {
+          "medical": "특이사항 없음 ",
+          "events": "특이사항 없음 ",
+          "surgical": "없음 ",
+          "medications": "없음 ",
+          "social": "흡연(-), 음주(-), 직업: 사무직, 스트레스 중간 정도 ",
+          "obgyn": "규칙적인 생리 주기, 임신 경험 없음, 피임약 복용 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감 있음 ",
+        "heent": "특이사항 없음 ",
+        "abdomen": "오른쪽 아랫배 압통(+), 반발압통(+), 방어긴장(+), 다른 부위 압통 없음"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "난소염전",
+          "맹장염",
+          "난관임신"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "골반 초음파",
+          "혈액 검사(CBC, CRP)",
+          "소변 검사"
+        ],
+        "therapeutic": [
+          "통증 조절 (진통제)",
+          "수술적 치료 고려"
+        ]
+      }
+    }
+  ]
+}

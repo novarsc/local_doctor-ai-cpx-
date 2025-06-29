@@ -10,6 +10,105 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
 
+/**
+ * 기본 체크리스트 내용을 반환합니다.
+ */
+function getDefaultChecklistContent() {
+    return `
+case_id: "default_checklist"
+title: "기본 채점표"
+sections:
+  - name: "병력 청취"
+    subsections:
+      - name: "기본"
+        items:
+          - "주요 증상을 확인하였다."
+          - "증상의 시작 시점을 확인하였다."
+          - "증상의 위치와 양상을 확인하였다."
+          - "증상의 강도를 확인하였다."
+          - "악화 및 완화 인자를 확인하였다."
+  - name: "신체 진찰"
+    subsections:
+      - name: "기본"
+        items:
+          - "시진을 시행하였다."
+          - "청진을 시행하였다."
+          - "타진을 시행하였다."
+          - "촉진을 시행하였다."
+  - name: "환자 교육"
+    subsections:
+      - name: "기본"
+        items:
+          - "진단에 대해 설명하였다."
+          - "치료 계획을 설명하였다."
+          - "추가 검사의 필요성을 설명하였다."
+            `;
+}
+
+/**
+ * 새로운 체크리스트 구조(checklist format)를 기존 구조로 변환합니다.
+ * @param {Object} checklistData - 파싱된 체크리스트 데이터
+ * @returns {Object} 변환된 체크리스트 데이터 
+ */
+function normalizeChecklistStructure(checklistData) {
+    // 새로운 형식인지 확인 (checklist > sections 구조)
+    if (checklistData.checklist && checklistData.checklist.sections) {
+        const newData = {
+            case_id: checklistData.checklist.topic_kr || "converted_checklist",
+            title: checklistData.checklist.topic_kr || "변환된 채점표",
+            sections: []
+        };
+
+        for (const section of checklistData.checklist.sections) {
+            const convertedSection = {
+                name: section.title_kr || section.title_en || "미분류",
+                subsections: []
+            };
+
+            if (section.items && Array.isArray(section.items)) {
+                for (const item of section.items) {
+                    const subsection = {
+                        name: item.subtitle_kr || item.subtitle_en || "기본",
+                        items: []
+                    };
+
+                    // details 필드에서 체크리스트 항목들을 추출
+                    if (item.details) {
+                        const lines = item.details.split('\n');
+                        for (const line of lines) {
+                            // "- [ ]" 패턴으로 시작하는 체크리스트 항목 찾기
+                            const match = line.match(/^\s*-\s*\[\s*\]\s*(.+?)(?:\s*\([^)]+\))?\s*$/);
+                            if (match) {
+                                // 한국어 부분만 추출 (영어 번역 제거)
+                                let cleanText = match[1].trim();
+                                // "내용 (English translation)" 패턴에서 한국어만 추출
+                                const koreanMatch = cleanText.match(/^([^(]+?)(?:\s*\([^)]+\))?\s*$/);
+                                if (koreanMatch) {
+                                    cleanText = koreanMatch[1].trim();
+                                }
+                                subsection.items.push(cleanText);
+                            }
+                        }
+                    }
+
+                    if (subsection.items.length > 0) {
+                        convertedSection.subsections.push(subsection);
+                    }
+                }
+            }
+
+            if (convertedSection.subsections.length > 0) {
+                newData.sections.push(convertedSection);
+            }
+        }
+
+        return newData;
+    }
+
+    // 기존 형식이면 그대로 반환
+    return checklistData;
+}
+
 // API 키가 정의되지 않은 경우, 즉시 오류를 발생시켜 서버 시작을 막습니다.
 if (!geminiConfig.apiKey) {
   throw new Error("FATAL ERROR: GEMINI_API_KEY is not defined in the .env file. The AI service cannot start.");
@@ -136,78 +235,52 @@ const sendMessageAndGetResponse = async (history, messageContent) => {
 const evaluatePracticeSession = async (practiceSessionData) => {
     const { chatLogs, scenario } = practiceSessionData;
 
-    // 체크리스트 파일이 없는 경우 기본 체크리스트 사용
+    // 체크리스트 파일 처리
     let checklistFileContent = '';
+    let normalizedChecklist = null;
+    
     if (scenario.checklistFilePath) {
         try {
-            checklistFileContent = fs.readFileSync(path.join(__dirname, '..', '..', scenario.checklistFilePath), 'utf8');
+            const rawChecklistContent = fs.readFileSync(path.join(__dirname, '..', '..', scenario.checklistFilePath), 'utf8');
+            const parsedChecklist = yaml.load(rawChecklistContent);
+            
+            // 새로운 체크리스트 구조를 기존 구조로 변환
+            normalizedChecklist = normalizeChecklistStructure(parsedChecklist);
+            checklistFileContent = yaml.dump(normalizedChecklist);
+            
+            console.log('✅ Checklist loaded and normalized:', scenario.checklistFilePath);
         } catch (error) {
-            console.warn(`Checklist file not found: ${scenario.checklistFilePath}, using default checklist`);
-            checklistFileContent = `
-case_id: "default_checklist"
-title: "기본 채점표"
-sections:
-  - name: "병력 청취"
-    subsections:
-      - name: "기본"
-        items:
-          - "주요 증상을 확인하였다."
-          - "증상의 시작 시점을 확인하였다."
-          - "증상의 위치와 양상을 확인하였다."
-          - "증상의 강도를 확인하였다."
-          - "악화 및 완화 인자를 확인하였다."
-  - name: "신체 진찰"
-    subsections:
-      - name: "기본"
-        items:
-          - "시진을 시행하였다."
-          - "청진을 시행하였다."
-          - "타진을 시행하였다."
-          - "촉진을 시행하였다."
-  - name: "환자 교육"
-    subsections:
-      - name: "기본"
-        items:
-          - "진단에 대해 설명하였다."
-          - "치료 계획을 설명하였다."
-          - "추가 검사의 필요성을 설명하였다."
-            `;
+            console.warn(`❌ Checklist file not found: ${scenario.checklistFilePath}, using default checklist`);
+            checklistFileContent = getDefaultChecklistContent();
         }
     } else {
-        // 체크리스트 파일 경로가 없는 경우 기본 체크리스트 사용
-        checklistFileContent = `
-case_id: "default_checklist"
-title: "기본 채점표"
-sections:
-  - name: "병력 청취"
-    subsections:
-      - name: "기본"
-        items:
-          - "주요 증상을 확인하였다."
-          - "증상의 시작 시점을 확인하였다."
-          - "증상의 위치와 양상을 확인하였다."
-          - "증상의 강도를 확인하였다."
-          - "악화 및 완화 인자를 확인하였다."
-  - name: "신체 진찰"
-    subsections:
-      - name: "기본"
-        items:
-          - "시진을 시행하였다."
-          - "청진을 시행하였다."
-          - "타진을 시행하였다."
-          - "촉진을 시행하였다."
-  - name: "환자 교육"
-    subsections:
-      - name: "기본"
-        items:
-          - "진단에 대해 설명하였다."
-          - "치료 계획을 설명하였다."
-          - "추가 검사의 필요성을 설명하였다."
-            `;
+        console.warn('⚠️ No checklist file path provided, using default checklist');
+        checklistFileContent = getDefaultChecklistContent();
     }
 
+    // Case 파일에서 진단명 추출
     const caseFileContent = fs.readFileSync(path.join(__dirname, '..', '..', scenario.caseFilePath), 'utf8');
-    const diagnosis = yaml.load(caseFileContent).patient_education.probable_diagnoses[0];
+    let diagnosis = '진단명 없음';
+    
+    try {
+        if (scenario.caseFilePath.endsWith('.json')) {
+            // JSON 파일 처리
+            const jsonData = JSON.parse(caseFileContent);
+            if (jsonData.cases && jsonData.cases.length > 0) {
+                const caseData = jsonData.cases[0]; // 첫 번째 케이스 사용
+                diagnosis = caseData.diagnosis || caseData.finalDiagnosis || scenario.name || '진단명 없음';
+            }
+        } else {
+            // YAML 파일 처리 (기존 방식)
+            const yamlData = yaml.load(caseFileContent);
+            diagnosis = yamlData.patient_education?.probable_diagnoses?.[0] || scenario.name || '진단명 없음';
+        }
+    } catch (error) {
+        console.warn('❌ Failed to extract diagnosis from case file, using scenario name');
+        diagnosis = scenario.name || '진단명 없음';
+    }
+    
+    console.log('📋 Extracted diagnosis:', diagnosis);
 
     const evaluationPrompt = `
       **당신의 역할:** 당신은 의과대학 교수로, 학생의 CPX(임상수행능력시험) 수행 능력을 채점하는 평가자입니다. 당신의 평가는 매우 엄격하고 객관적이어야 합니다.

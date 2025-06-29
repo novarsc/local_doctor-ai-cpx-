@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김민수씨가 가슴에 심한 통증을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "20회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "가슴이 너무 아파요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "좌측 가슴 부위, 특히 흉골 주변",
+        "duration": "지속적, 간헐적으로 심해짐",
+        "course": "점차 악화",
+        "experience": "처음 경험",
+        "character": "심한 찌르는 듯한 통증, 숨쉴 때 더 심해짐, NRS 8",
+        "associatedSymptoms": "[전신] 발열(+), 오한(+), 피로(+), 식은땀(+), [소화] 메스꺼움(-), 구토(-), [순환] 두근거림(-), [정신] 불안(+), [피부] 가슴 부위 발진(+), 가슴 부위 피부에 물집(+)",
+        "factors": "특별한 유발인자 없음",
+        "pastHistory": {
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(+, 하루 한 갑), 음주(+, 소주 1병/주), 운동(-)",
+          "family": "부친 고혈압 병력"
+        }
+      },
+      "physicalExam": {
+        "general": "열감 존재, 불안해 보임",
+        "heent": "정상",
+        "cardiovascular": "심음 정상, 잡음 없음",
+        "respiratory": "호흡수 증가, 숨쉴 때 통증 호소",
+        "skin": "좌측 가슴 부위 대상포진성 발진 및 수포 관찰, 띠 모양 분포"
+      },
+      "patientQuestion": "이게 뭐가 문제인가요? 심장병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "대상포진 (Herpes Zoster)",
+          "급성 심근 경색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도 검사",
+          "혈액 검사 (혈구 수, 혈액 지표)",
+          "대상포진 바이러스 검사"
+        ],
+        "therapeutic": [
+          "항바이러스제 (아시클로버)",
+          "진통제",
+          "항염증제",
+          "통증 관리"
+        ]
+      }
+    }
+  ]
+}

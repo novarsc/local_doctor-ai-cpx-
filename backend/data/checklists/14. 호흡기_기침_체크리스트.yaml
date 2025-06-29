@@ -1,0 +1,96 @@
+checklist:
+  topic_kr: "기침"
+  topic_en: "Cough"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 기침 시작 시기 및 기간 (Onset and duration of cough)
+            - 기침의 양상 (Character of cough: dry, wet, barking, whooping)
+            - 기침의 빈도와 정도 (Frequency and severity of cough)
+            - 기침 유발 또는 악화 요인 (Aggravating or triggering factors for cough)
+            - 기침 완화 요인 (Relieving factors for cough)
+            - 객담의 유무, 색깔, 양 (Presence, color, and amount of sputum)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 발열 (Fever)
+            - 오한 (Chills)
+            - 인후통 (Sore throat)
+            - 콧물 (Runny nose)
+            - 코막힘 (Nasal congestion)
+            - 호흡곤란 (Dyspnea)
+            - 천명 (Wheezing)
+            - 흉통 (Chest pain)
+            - 체중 감소 (Weight loss)
+            - 야간 발한 (Night sweats)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 감기, 독감 등 최근 감염 (Recent infections, such as cold or flu)
+            - 알레르기 (Allergies)
+            - 천식 (Asthma)
+            - 만성 폐쇄성 폐질환 (COPD)
+            - 위식도 역류질환 (GERD)
+            - 흡연력 (Smoking history)
+            - 직업 환경 노출 (Occupational exposures)
+            - 약물 복용력 (Medication history, especially ACE inhibitors)
+
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 활력 징후 측정 (Vital signs: blood pressure, heart rate, respiratory rate, temperature, oxygen saturation)
+            - 머리 및 목 검사 (Head and neck exam: examine for nasal discharge, sinus tenderness, pharyngeal erythema or exudates)
+            - 흉부 청진 (Lung auscultation: assess for breath sounds, wheezing, crackles, rhonchi)
+            - 심장 청진 (Heart auscultation: assess for murmurs or other abnormalities)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            -  흉부 촉진 (Chest palpation: assess for tactile fremitus and any areas of tenderness)
+            -  부비동 압통 확인 (Sinus percussion: assess for tenderness over the sinuses)
+
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Upper Respiratory Infection (URI)"
+            - "Acute Bronchitis"
+            - "Pneumonia"
+            - "Asthma"
+            - "Allergic Rhinitis"
+            - "Chronic Obstructive Pulmonary Disease (COPD)"
+            - "Gastroesophageal Reflux Disease (GERD)"
+            - "Pertussis"
+            - "Tuberculosis"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "Complete Blood Count (CBC)"
+                - "C-reactive protein (CRP)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Chest X-ray (CXR)"
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "기침의 원인과 치료 계획에 대해 설명합니다. 충분한 수분 섭취, 휴식, 가습기 사용 등 증상 완화 방법을 교육합니다. 필요시 약물 복용 방법 및 주의사항을 안내합니다."
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "호흡곤란 악화, 객혈, 고열, 심한 흉통, 의식 변화 등의 증상 발생 시 즉시 병원을 방문하도록 안내합니다."

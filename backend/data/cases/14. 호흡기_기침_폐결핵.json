@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 30,
+        "gender": "여자"
+      },
+      "situation": "2주째 지속되는 기침과 발열로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "90회/분",
+        "respiration": "20회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "기침과 열이 계속 나요",
+      "history": {
+        "onset": "2주 전",
+        "duration": "주로 밤에 심함",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "마른 기침, 가끔 가래(흰색)",
+        "associatedSymptoms": {
+          "respiratory": "가래(+, 흰색, 소량), 객혈(-), 호흡곤란(-), 흉통(-)",
+          "general": "발열(+, 37.5~38℃), 오한(+), 야간 발한(+), 체중 감소(+, 2kg)",
+          "gi": "식욕부진(+), 소화불량(-)"
+        },
+        "factors": "밤에 기침이 더 심해짐, 특별한 악화 요인 없음",
+        "pastHistory": {
+          "medical": "특이 질환 없음",
+          "social": "흡연(-), 음주(월 1~2회, 소주 1병)",
+          "family": "특이 가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 충혈(-), 인후염(-)",
+        "chest": "호흡음 약간 거칠지만 크랙클 없음, 폐음 정상"
+      },
+      "patientQuestion": "폐렴인가요? 혹시 결핵인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 기관지염",
+          "폐렴",
+          "폐결핵"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "객담 검사(항산균 배양 및 도말검사)",
+          "혈액검사(CBC, CRP)"
+        ],
+        "therapeutic": [
+          "대증요법(해열제, 진해거담제)"
+        ]
+      }
+    }
+  ]
+}

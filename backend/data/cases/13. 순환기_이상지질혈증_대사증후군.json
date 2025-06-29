@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "복부비만과 고혈압으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "150/95mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "혈압이 높고 배가 많이 나왔어요.",
+      "history": {
+        "labResults": "공복혈당 110mg/dL, 총콜레스테롤 240mg/dL, 중성지방 180mg/dL, HDL 40mg/dL, LDL 160mg/dL",
+        "associatedSymptoms": {
+          "general": "체중 증가(5kg/6개월), 피로감(+), 목 뒤 통증(+)",
+          "cardiovascular": "흉통(-), 두근거림(-)",
+          "neuro": "두통(-), 어지러움(-)"
+        },
+        "pastHistory": {
+          "medical": "고혈압(+), 고지혈증(-), 당뇨병(-), 관절염(-)",
+          "medications": "암로디핀 5mg 1일 1회",
+          "social": "음주(주 2회 소주 2병), 흡연(금연 1년), 운동(거의 없음)",
+          "family": "부친: 고혈압, 고지혈증"
+        }
+      },
+      "physicalExam": {
+        "heent": "황색판종(-), 각막환(-)",
+        "chest": "심잡음(-), 호흡음(-)",
+        "abdomen": "복부 비만(+), 간비대(-)",
+        "extremity": "하지부종(-), 아킬레스건 비후(-)"
+      },
+      "patientQuestion": "어떻게 하면 건강해질 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "대사증후군",
+          "고혈압",
+          "고지혈증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도 검사",
+          "혈액검사(간기능 검사 포함)",
+          "소변검사"
+        ],
+        "therapeutic": [
+          "생활습관 개선(식이요법, 운동)",
+          "약물치료(고혈압, 고지혈증 치료제)",
+          "정기적인 추적 관찰"
+        ]
+      }
+    }
+  ]
+}

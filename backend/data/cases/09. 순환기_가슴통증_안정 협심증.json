@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "가슴 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "가슴이 답답해요.",
+      "history": {
+        "onset": "3개월 전부터 간헐적으로 발생",
+        "location": "가슴 중앙",
+        "radiation": "왼쪽 팔로 방사되는 경우도 있음",
+        "duration": "5-10분 정도 지속",
+        "course": "점점 빈도가 증가하는 경향",
+        "experience": "이전에도 비슷한 증상 경험 있음",
+        "character": "압박감, 답답함, 묵직함. NRS 3-4점. 움직이거나 운동 후 발생. 쉬면 호전됨.",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(-/-/-)",
+          "gi": "속쓰림/신물 올라옴(-/-)",
+          "circulatory": "두근거림/호흡곤란(-/-)",
+          "respiratory": "기침/가래/객혈/쌕쌕거림(-/-/-/-)",
+          "msk_skin": "피부 발진(-)",
+          "psych": "불안감(-)"
+        },
+        "factors": "악화: 빠른 걸음, 계단 오르기. 완화: 휴식.  식사와는 무관.",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(+, 하루 1갑, 30년), 음주(+, 주 2회 소주 1병), 스트레스(+, 직장 스트레스), 직업: 은퇴",
+          "family": "부친: 심근경색"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-), 경동맥 시/청(-/-)",
+        "chest": "심음 정상, 폐음 정상, 흉부 압통(-)",
+        "abdomen": "시/청/타/촉(-/-/-/-)",
+        "extremity": "맥박(-), Pitting edema(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "안정 협심증",
+          "불안정 협심증",
+          "역류성 식도염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "심초음파",
+          "운동 부하 심장 검사",
+          "관상동맥 조영술"
+        ],
+        "therapeutic": [
+          "아스피린, 베타 차단제, 스타틴 등의 약물 치료",
+          "생활 습관 개선 (금연, 절주, 운동)",
+          "심장 재활 프로그램"
+        ]
+      }
+    }
+  ]
+}

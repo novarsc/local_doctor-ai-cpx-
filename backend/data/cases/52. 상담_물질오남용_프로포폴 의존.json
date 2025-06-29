@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 박철수씨가 수면장애를 호소하며 내원하였다. 프로포폴 남용 의심.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "90회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "잠을 잘 수가 없습니다.",
+      "drugHistory": {
+        "drug": "프로포폴",
+        "history": "5년 전부터 수면장애로 인해 불면증 치료를 위해 프로포폴을 불법적으로 구매하여 사용 시작",
+        "currentUse": "최근 1년간 매일 밤 프로포폴을 사용하고 있으며, 양도 점점 늘리고 있음.",
+        "prescriptionSource": "불법적으로 구매",
+        "dependency": {
+          "quitAttempts": "여러 차례 금단 증상으로 인해 중단 시도를 포기함.",
+          "tolerance": "처음에는 소량으로 효과를 보았으나, 점차 내성이 생겨 양을 늘림.",
+          "withdrawal": "프로포폴을 사용하지 않으면 심한 불면, 불안, 초조함을 경험함."
+        },
+        "abuse": {
+          "interpersonalIssues": "가족들과의 관계 악화. 프로포폴 구매 자금 마련으로 인한 경제적 어려움."
+        }
+      },
+      "associatedSymptoms": "불면증(+), 불안(+), 초조함(+), 식은땀(+), 두통(+), 기억력 감퇴(+)",
+      "pastHistory": {
+        "medical": "고혈압, 고지혈증",
+        "social": "흡연(20갑년), 음주(주 3회, 소주 2병)",
+        "family": "부모님 모두 고혈압 병력"
+      },
+      "physicalExam": {
+        "general": "수척해 보임.",
+        "heent": "결막 충혈 (-), 구강 건조 (+)",
+        "neuro": "진탕, 경직 (-)",
+        "chest": "심음, 폐음 정상",
+        "abdomen": "무른 복부 (+)",
+        "extremity": "부종 (-)"
+      },
+      "patientQuestion": "제발 잠을 잘 수 있게 도와주세요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "프로포폴 의존"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사",
+          "소변 검사",
+          "심전도 검사"
+        ],
+        "therapeutic": [
+          "프로포폴 금단 치료",
+          "정신과 상담 및 약물 치료",
+          "가족 상담"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 왼쪽 손 저림과 힘 약화를 호소하며 내원하였다(현재 오후 2시).",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "왼쪽 손이 저리고 힘이 없어요",
+      "history": {
+        "onset": "2주 전",
+        "location": "왼쪽 손, 특히 엄지, 검지, 중지",
+        "duration": "2주간 지속, 점차 악화",
+        "course": "점진적 악화",
+        "experience": "처음",
+        "character": "저림, 힘 빠짐, 물건 잡기 어려움, 손목을 굽히면 통증 증가",
+        "associatedSymptoms": "[전신] 발열(-), 체중 변화(-), 피로(+) [신경계] 두통(-), 어지러움(-), 시야 흐림(-), 말 어눌함(-) [근골격계] 어깨 통증(-), 목 통증(-)",
+        "pastHistory": {
+          "medical": "고혈압(약 복용 중), 고지혈증(약 복용 중)",
+          "trauma_surgery": "5년 전 오토바이 사고로 왼쪽 손목 골절 수술 병력 있음",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "흡연(1갑/일), 음주(주 2회 소주 2병)",
+          "family": "부친 고혈압, 당뇨병"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "정상",
+        "neuro": "뇌신경 검사 정상, 왼쪽 손목 및 손가락 감각 저하(엄지, 검지, 중지), 근력 약화(3/5)",
+        "extremity": "왼쪽 손목의 Tinel 징후 양성, Phalen 징후 양성, 손목의 운동 범위 제한"
+      },
+      "patientQuestion": "손이 완전히 나을 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "Median nerve injury",
+          "수근관 증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "근전도 검사",
+          "신경전도 검사"
+        ],
+        "therapeutic": [
+          "손목 보조기 착용",
+          "약물 치료(소염제, 진통제)",
+          "물리치료",
+          "수술적 치료 고려(증상 악화 시)"
+        ]
+      }
+    }
+  ]
+}

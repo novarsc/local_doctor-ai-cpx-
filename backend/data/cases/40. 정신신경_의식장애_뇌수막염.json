@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "25세 남자 김민수씨가 고열과 심한 두통을 호소하며 응급실로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "39.5℃"
+      },
+      "chiefComplaint": "머리가 너무 아프고 열이 나요",
+      "history": {
+        "onset": "2일 전",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "2일 전부터 시작된 두통과 고열.  점점 심해지고 오심, 구토 동반.  의식 변화는 없음.",
+        "associatedSymptoms": "[전신] 발열(+, 39.5℃), 오한(+), 체중 변화(-), 피로(+) [소화] 구토(+, 2회), 설사(-) [신경] 두통(+, 심함), 경부통(+), 광선공포증(+), 발작(-)",
+        "factors": "최근 감기 증상 있었음.  밀접 접촉자는 없음.",
+        "pastHistory": {
+          "medical": "고혈압/당뇨/고지혈증(-/-/-), 간염(-), 뇌혈관계 질환(-)",
+          "trauma_surgery": "두부외상(-)",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 1회 소주 1병)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정, 의식 명료",
+        "heent": "결막 충혈(+), 구강(-), 갑상샘/림프절(-/-), 피부 발적(-)",
+        "neuro": "수막 자극 징후 : 경부 강직(+), Kernig(+), Brudzinski(+)",
+        "abdomen": "간/비장 비대(-/-), 복수(-)",
+        "extremity": "DTR(-)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "뇌수막염",
+          "바이러스성 뇌염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사",
+          "뇌척수액 검사",
+          "뇌 CT"
+        ],
+        "therapeutic": [
+          "항생제(경험적 치료)",
+          "수액 공급",
+          "해열제"
+        ]
+      }
+    }
+  ]
+}

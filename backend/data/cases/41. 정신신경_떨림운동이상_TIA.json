@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김민수씨가 왼쪽 팔다리에 힘이 빠지고 말이 어눌해졌다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "76회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "왼쪽 팔다리에 힘이 없고 말이 잘 안 나와요.",
+      "history": {
+        "onset": "30분 전",
+        "location": "왼쪽 팔, 다리, 얼굴",
+        "course": "갑자기 시작됨, 점점 심해짐",
+        "experience": "처음",
+        "character": "왼쪽 팔, 다리에 힘이 빠지고, 말이 어눌해짐. 얼굴이 약간 처진 것 같음.",
+        "associatedSymptoms": "[신경] 두통(-), 어지럼증(-), 시야장애(-), 의식소실(-)",
+        "factors": "[악화] 특별한 요인 없음 [완화] 없음",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 고지혈증(+)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압약, 고지혈증약",
+          "social": "흡연(+, 하루 한 갑), 음주(+, 소주 한 병/주 2회), 직업: 은퇴",
+          "family": "부친 고혈압, 심근경색으로 사망"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 의식 명료",
+        "heent": "왼쪽 얼굴 약간 처짐, 구강 내 이상 없음",
+        "neuro": "왼쪽 상, 하지 근력 저하, 심한 말 어눌함, 깊은 힘줄 반사 정상",
+        "extremity": "왼쪽 상, 하지 감각 저하 없음"
+      },
+      "patientQuestion": "뇌졸중인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "TIA",
+          "뇌경색",
+          "뇌출혈"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "뇌 MRI",
+          "혈액검사",
+          "심전도"
+        ],
+        "therapeutic": [
+          "아스피린 투여",
+          "혈압 조절",
+          "혈당 조절"
+        ]
+      }
+    }
+  ]
+}

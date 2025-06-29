@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박순자",
+        "age": 78,
+        "gender": "여자"
+      },
+      "situation": "78세 여자 박순자씨가 최근 기억력 저하를 호소하며 보호자와 함께 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기억력이 점점 나빠져요",
+      "history": {
+        "onset": "2년 전",
+        "duration": "지속적",
+        "course": "서서히 악화",
+        "experience": "처음",
+        "character": "2년 전부터 기억력 저하를 느끼기 시작, 최근 6개월 동안 심해짐.  예전 일은 잘 기억하지만, 최근에 있었던 일을 기억하지 못함.  가까운 친척의 이름을 잊어버리거나, 물건을 어디에 두었는지 찾지 못함.  길을 잃어버리는 경우도 잦아짐.  일상생활에 어려움을 느끼기 시작함.",
+        "location": "보호자 동반",
+        "associatedSymptoms": "[정신]  성격 변화(+, 예전보다 예민해짐), 우울/불안/수면장애(+, 불면증 심함/-/+),  [신경] 두통(-), 팔다리 힘 빠짐(-), 감각 이상(-), [기타] 요실금(+), 보폭 감소(-),  [갑상샘] 저하증(-)",
+        "factors": "고령, 가족력(어머니: 알츠하이머 치매)",
+        "pastHistory": {
+          "medical": "고혈압(10년 전 진단), 당뇨병(5년 전 진단)",
+          "trauma_surgery": "머리 외상(-)",
+          "medications": "고혈압약, 당뇨약",
+          "social": "학력: 중졸, 전업주부",
+          "family": "어머니: 알츠하이머 치매로 사망"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 고혈압",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "extremity": "Pitting edema(-), M/S/R 정상. Tandem gait 비정상, CNS test 일부 비정상",
+        "other": "MMSE 15점"
+      },
+      "patientQuestion": "제 어머니처럼 치매에 걸린 것 같아 두렵습니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "알츠하이머성 치매",
+          "혈관성 치매",
+          "혼합성 치매"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 MRI",
+          "뇌 CT",
+          "신경심리검사",
+          "혈액검사(혈당, 콜레스테롤 등)"
+        ],
+        "therapeutic": [
+          "인지행동치료",
+          "약물치료(도네페질 고려)"
+        ]
+      }
+    }
+  ]
+}

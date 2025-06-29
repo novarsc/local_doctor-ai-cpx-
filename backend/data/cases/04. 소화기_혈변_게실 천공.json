@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "caseType": "실전 모의 증례 [하이브리드]",
+      "patientProfile": {
+        "name": "김철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "심한 복통과 혈변으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "110회/분",
+        "respiration": "22회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "배가 너무 아프고 변에 피가 섞여 나와요.",
+      "history": {
+        "onset": "6시간 전",
+        "location": "좌하복부",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "심한 통증, 혈변은 소량, 선홍색",
+        "associatedSymptoms": {
+          "gi": "오심, 구토(-/+), 변비(+), 설사(-), 복부팽만(+) ,  기립성 저혈압(+)"
+        },
+        "factors": "특별한 원인 없음",
+        "pastHistory": {
+          "events": "고혈압, 당뇨병, 고지혈증 진단받음",
+          "surgical": "없음",
+          "medical": "고혈압, 당뇨병, 고지혈증",
+          "social": "흡연(과거력), 음주(소량)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "빈혈 소견, 탈수 소견",
+        "heent": "결막 창백",
+        "abdomen": "좌하복부 심한 압통 및 반발압통, 복부팽만",
+        "extremity": "말초 맥박 약함"
+      },
+      "patientQuestion": "어떻게 된 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "게실 천공",
+          "급성 충수염",
+          "대장암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "복부 X-ray",
+          "복부 CT",
+          "혈액검사",
+          "대장내시경 (상태 호전 후)"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "항생제 투여",
+          "수술 (필요시)"
+        ]
+      }
+    }
+  ]
+}

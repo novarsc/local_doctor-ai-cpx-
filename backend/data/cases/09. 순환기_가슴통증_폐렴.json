@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이선우",
+        "age": 67,
+        "gender": "남자"
+      },
+      "situation": "기침과 가래, 그리고 열이 나서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "열이 나고 기침이 심해요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "가슴",
+        "radiation": "없음",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "마른 기침과 함께 가래가 나오고, 숨쉬기가 힘들어요.  NRS 6/10.  밤에 잠을 잘 수 없을 정도로 힘들어요.",
+        "associatedSymptoms": {
+          "general": "발열(+, 38.5℃), 오한(+), 체중 변화(-)",
+          "gi": "속쓰림/신물 올라옴(-/-)",
+          "circulatory": "두근거림/호흡곤란(-/+)",
+          "respiratory": "기침(+, 심함), 가래(+, 누렇고 진한색), 객혈(-), 쌕쌕거림(-)",
+          "msk_skin": "피부 발진(-)",
+          "psych": "불안함(+)"
+        },
+        "factors": "악화: 움직일 때, 기침할 때. 완화: 휴식 시 약간 호전",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "medications": "고혈압 약, 당뇨 약",
+          "social": "흡연(+, 하루 한갑, 30년), 음주(+, 소주 한병/주 2회), 스트레스(+), 직업: 은퇴",
+          "family": "부친: 심근경색"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 호흡이 약간 곤란해 보임.  V/S: 불안정",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "chest": "호흡음에서 수포음 들림, 압통(-)",
+        "abdomen": "시/청/타/촉(-/-/-/-)",
+        "extremity": "맥박(+), Pitting edema(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "폐렴",
+          "급성 기관지염",
+          "폐색전증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "혈액검사(CBC, CRP, 혈액 배양)",
+          "객담 검사"
+        ],
+        "therapeutic": [
+          "항생제 투여",
+          "기침 억제제",
+          "가래 흡입제",
+          "충분한 수분 섭취"
+        ]
+      }
+    }
+  ]
+}

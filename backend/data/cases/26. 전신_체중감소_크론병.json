@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 35,
+        "gender": "남자"
+      },
+      "situation": "35세 남자 김민수씨가 설사와 복통으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "배가 아프고 설사를 자주 해요.",
+      "history": {
+        "onset": "6개월 전부터",
+        "location": "주로 우측 하복부",
+        "course": "간헐적으로 발생하다 최근 2주 동안 지속적으로 증상 악화",
+        "character": "심한 복통과 함께 하루 5-6회의 물 같은 설사, 혈변은 없음. 체중 7kg 감소",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중감소(+), 발열(-)",
+          "digestive": "설사(+), 복통(+), 오심(-), 구토(-), 변비(-), 식욕부진(+)",
+          "endocrine": "다뇨(-), 다갈(-), 더위불내성(-)",
+          "respiratory": "기침(-), 가래(-)",
+          "urinary": "배뇨장애(-)",
+          "psychiatric": "불안감(+), 우울감(-)"
+        },
+        "factors": "스트레스 증가, 불규칙적인 식사",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "medications": "없음",
+          "social": "흡연(+), 음주(+, 주 2회), 직업: 회사원",
+          "family": "특이사항 없음",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable, 체중 감소 소견",
+        "heent": "특이소견 없음",
+        "abdomen": "우측 하복부 압통(+), 반발압통(+), 장음 항진",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "어떤 병인지 궁금하고, 치료법이 궁금합니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "크론병",
+          "궤양성 대장염",
+          "감염성 장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대장내시경 검사",
+          "혈액검사(CRP, ESR, 혈구수)",
+          "대변 검사",
+          "복부 CT"
+        ],
+        "therapeutic": [
+          "설사 및 복통 완화제 처방",
+          "식이요법 교육",
+          "항염증제 투여(진단 결과에 따라)"
+        ]
+      }
+    }
+  ]
+}

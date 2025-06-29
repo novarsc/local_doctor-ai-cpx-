@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 52,
+        "gender": "남자"
+      },
+      "situation": "52세 남자 박민수씨가 갈증과 잦은 배뇨로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "물을 너무 많이 마셔요",
+      "history": {
+        "onset": "1달 전",
+        "course": "점점 심해짐",
+        "character": "하루에 물을 5리터 이상 마시고, 소변량도 많아짐. 소변 색깔은 맑음. 냄새는 특이 없음.",
+        "associatedSymptoms": {
+          "general": "체중 감소(+, 5kg), 발열/오한/피로(-/-/-), 식은땀(-)",
+          "renal_urinary": "빈뇨(15번 이상), 야뇨(+, 2번), 아랫배 통증(-), 옆구리 통증(-), 절박뇨/배뇨통/혈뇨(-/-/-), 주저뇨/요끊김/복압배뇨(-/-/-), 요실금(-)",
+          "endocrine": "다음(+, 극심한 갈증), 다뇨(+), 다갈(+)",
+          "psychiatric": "물 마셔야 한다는 강박(-)",
+          "neurologic": "두통(-), 시야장애(-)"
+        },
+        "factors": "갈증이 심해서 물을 계속 마시게 됨. 밤에도 갈증 때문에 잠에서 깸.",
+        "pastHistory": {
+          "social": "커피(+, 3잔/day), 술(-), 담배(-), 불규칙한 식사, 운동 거의 안 함",
+          "family": "당뇨병 가족력(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 혈압 110/70mmHg, 맥박 80회/분, 호흡 16회/분, 체온 36.8℃, 체중 감소 관찰",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-), Pupil reflex/EOM 모두 정상",
+        "abdomen": "CVAT(-), 복부 촉진(-), 치골 상부 촉진(-), DRE(-), 골반 내진(-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이렇게 계속 갈증이 나면 어떻게 해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "요붕증",
+          "당뇨병",
+          "신성 요붕증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변 검사(오스몰랄농도, 비중), 혈액 검사(혈당, 전해질), 수분 제한 검사, 24시간 소변 검사",
+          "항이뇨호르몬 검사"
+        ],
+        "therapeutic": [
+          "수분 섭취 조절,  항이뇨 호르몬제 투여 고려"
+        ]
+      }
+    }
+  ]
+}

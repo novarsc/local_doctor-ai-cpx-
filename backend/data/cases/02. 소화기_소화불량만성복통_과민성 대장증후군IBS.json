@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "복통과 설사로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg ",
+        "heartRate": "76회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.6℃ "
+      },
+      "chiefComplaint": "배 아프고 설사해요.",
+      "history": {
+        "onset": "2주 전 ",
+        "location": "아랫배, 특히 왼쪽 아랫배 ",
+        "course": "처음에는 가끔씩 아팠는데, 최근 2주 동안 매일 아픔. 설사도 매일 있음. ",
+        "experience": "이런 증상은 처음 ",
+        "character": "쥐어짜는 듯한 아랫배 통증, 빈번한 설사(하루 3~4회), 배에 가스 참 ",
+        "associatedSymptoms": {
+          "general": "체중 변화(-), 발열(-), 피로감(+) ",
+          "gi": "구토(-), 혈변(-), 변비(-), 복부 팽만감(+), 식욕부진(+) "
+        },
+        "factors": "스트레스 받으면 증상 악화, 특정 음식 섭취와 관련 없음, 변 보면 통증 감소 ",
+        "pastHistory": {
+          "medical": "특이 사항 없음 ",
+          "events": "특이 사항 없음 ",
+          "surgical": "없음 ",
+          "medications": "없음 ",
+          "social": "흡연(-), 음주(간혹), 직업: 프로그래머, 스트레스 많음, 불규칙적인 식사 습관 ",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적 ",
+        "heent": "정상 ",
+        "abdomen": "왼쪽 아랫배 압통(+), 반발압통(-), 다른 이상 소견 없음 "
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "과민성 대장증후군(IBS)",
+          "염증성 장질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변 검사",
+          "복부 초음파"
+        ],
+        "therapeutic": [
+          "식이 조절",
+          "스트레스 관리",
+          "증상 완화제 처방"
+        ]
+      }
+    }
+  ]
+}

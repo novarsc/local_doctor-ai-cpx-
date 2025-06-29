@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 72,
+        "gender": "남자"
+      },
+      "situation": "72세 남자 김철수씨가 만성 기침과 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "80회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차고 기침이 계속돼요",
+      "history": {
+        "onset": "10년 전",
+        "location": "가슴",
+        "duration": "지속적",
+        "course": "점진적 악화",
+        "experience": "오랜 기간 지속되는 기침과 점점 심해지는 호흡곤란",
+        "character": "기침은 마른 기침과 가래가 섞인 기침이 번갈아 나타나며, 가래는 점액성에서 점액농성으로 변화함. 호흡곤란은 운동 시 더욱 심해짐",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중 감소(+, 5kg)",
+          "respiratory": "기침(+), 가래(+), 호흡곤란(+), 흉통(-), 쌕쌕거림(+)",
+          "events": "최근 감기 증상 없음"
+        },
+        "factors": "흡연(+, 40갑년), 먼지 노출(+, 과거 목수로 근무)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-)",
+          "medications": "고혈압약 복용 중",
+          "social": "흡연(+, 40갑년), 음주(소주 1병/주)",
+          "family": "폐질환 병력(-)"
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란, 숨을 쉴 때 쌕쌕거리는 소리 들림",
+        "heent": "정상",
+        "chest": "흉곽이 팽창되어 있고, 폐음에서 수포음과 천명음이 들림",
+        "extremity": "말초부위 청색증(-)"
+      },
+      "patientQuestion": "이 병은 완치가 가능한가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "COPD",
+          "만성 기관지염",
+          "폐기종"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "폐기능 검사",
+          "흉부 X-ray",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "금연 상담",
+          "기관지 확장제",
+          "흡입 코르티코스테로이드",
+          "산소 치료",
+          "폐 재활 프로그램"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 70,
+        "gender": "여자"
+      },
+      "situation": "70세 여자 박선영씨가 점점 심해지는 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨이 차요",
+      "history": {
+        "onset": "2년 전",
+        "duration": "지속적",
+        "course": "서서히 악화",
+        "experience": "처음",
+        "character": "운동 시 심해지고, 휴식 시 호전, 최근에는 가만히 있어도 숨이 차고, 옷을 입거나 잠자리에서 일어날 때도 힘들다고 함.",
+        "associatedSymptoms": {
+          "general": "발열/피로/체중 변화(-/-/체중 감소 5kg)",
+          "respiratory": "마른 기침(+, 심하지 않음), 가래(-), 흉통(-), 쌕쌕거림(-)",
+          "psychiatric": "불안감(+), 우울감(+)"
+        },
+        "factors": "운동 시 악화, 계단 오르기 어려움, 누워 있으면 숨쉬기가 더 힘들어짐",
+        "pastHistory": {
+          "medical": "고혈압(10년 전부터 약물 치료 중), 관절염",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약(amlodipine 5mg 1일 1회)",
+          "social": "흡연(-, 20년 전 금연), 음주(소주 반병/주, 10년 전부터 감소), 운동(과거 정기적으로 산책, 최근 운동량 감소)",
+          "family": "자녀 2명, 부모님 고혈압 병력 있음",
+          "obgyn": "폐경(10년 전)"
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란 양상 보임, 체중 감소 소견 있음",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부(-)",
+        "chest": "흉부 시진, 촉진, 타진 정상, 청진시 미세한 잡음 들림",
+        "extremity": "말초 부종(-), 곤봉지(-)"
+      },
+      "patientQuestion": "제가 이 병에 걸린 건가요? 앞으로 어떻게 해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "특발성 폐섬유화증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "고해상도 흉부 CT",
+          "폐기능 검사",
+          "혈액 검사(CRP, LDH)",
+          "폐생검"
+        ],
+        "therapeutic": [
+          "항섬유화제(pirfenidone 또는 nintedanib) 고려",
+          "산소 치료",
+          "호흡 재활 치료",
+          "지지 요법"
+        ]
+      }
+    }
+  ]
+}

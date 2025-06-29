@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "28세 남자 박민수씨가 붉은색 소변을 보았다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "85회/분",
+        "respiration": "18회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "소변이 붉게 나와요.",
+      "history": {
+        "onset": "2일 전",
+        "course": "점차 심해짐",
+        "experience": "처음 발생",
+        "character": "[양] 정확히 모르겠으나 소변 전체가 붉은색, [색] 진한 붉은색, 냄새(-), 거품(-), 소변량 변화(-), 혈전 관찰(-)",
+        "associatedSymptoms": {
+          "general": "발열(+, 38℃까지 상승), 오한(+), 체중 변화(-), 탈수(-), 감기 증상(+, 인후통, 기침), 근육통(-), 부종(-)",
+          "digestive": "구역/구토/어지럼증(-/-/-), 설사(-)",
+          "renal_urinary": "F/U/N/D/H/I/S(-/-/-/-/-/-/-), 옆구리 통증(-), 거품뇨(-)",
+          "other": "인후통(+), 목부종(+)"
+        },
+        "factors": "심한 운동(-), 사우나(-), 스트레스(+, 최근 시험 준비), 최근 X-ray/CT(-/-)",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "medications": "없음",
+          "social": "음주/흡연(-/-), 운동(가끔), 직업: 대학생, 식사: 평범",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 인후부 발적 관찰",
+        "heent": "눈(-), 구강(인두 발적), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "abdomen": "CVAT(-), 복부 촉진/치골 상부 촉진(-/-), DRE(-), 신동맥 잡음(-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "심각한 병인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "사슬알균 감염 후 토리콩팥염",
+          "급성 사구체 신염",
+          "일과성 혈뇨"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사 (혈구수, 혈액화학검사, 혈액 배양, 항스트렙토리신 O 역가, 보체 수준)",
+          "소변검사 (일반검사, 세균 배양, 현미경 검사)",
+          "소변 세포 검사",
+          "신장 초음파"
+        ],
+        "therapeutic": [
+          "항생제 치료 (페니실린 계열)",
+          "수분 섭취 증가",
+          "염분 섭취 제한",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

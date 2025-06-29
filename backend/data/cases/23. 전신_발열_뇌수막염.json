@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남성"
+      },
+      "situation": "25세 남성 김민수씨가 고열과 두통을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "39.8℃"
+      },
+      "chiefComplaint": "머리가 너무 아프고 열이 많이 나요.",
+      "history": {
+        "onset": "1일 전",
+        "location": "전신",
+        "duration": "지속적인 고열",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "두통은 욱신거리는 듯한 심한 통증이며, 열은 39℃ 이상 지속됨",
+        "associatedSymptoms": {
+          "general": "오한, 발열, 구토, 메스꺼움, 전신 권태감",
+          "neurological": "심한 두통, 경부강직",
+          "digestive": "구토 2회",
+          "other": "빛에 민감함(photophobia)"
+        },
+        "factors": "최근 해외여행 없음, 동물 접촉 없음, 최근 감염 환자 접촉 없음",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "social": "흡연(-), 음주(+, 주 2회 소주 2병)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "고열(39.8℃), 탈수 증상 없음",
+        "heent": "경부강직(+), 광선 공포증(+),  인두 충혈(+)",
+        "neurological": "의식 청명, 뇌신경 검사 정상",
+        "other": "피부 발진 없음"
+      },
+      "patientQuestion": "어떤 병에 걸린 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "뇌수막염",
+          "바이러스성 수막염",
+          "세균성 수막염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌척수액 검사(Lumbar Puncture)",
+          "혈액 배양 검사",
+          "혈액 검사(CBC, CRP)"
+        ],
+        "therapeutic": [
+          "항생제 투여 (세균성 수막염 의심 시)",
+          "수액 치료",
+          "두통 완화제",
+          "항바이러스제 (바이러스성 수막염 의심 시)"
+        ]
+      }
+    }
+  ]
+}

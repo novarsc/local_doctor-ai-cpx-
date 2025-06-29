@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김수현",
+        "age": "4세",
+        "gender": "여아"
+      },
+      "situation": "아이의 언어발달이 느리고 사회적 상호작용이 부족하여 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "85회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "아이가 말을 잘 못하고 다른 아이들과 잘 어울리지 않아요.",
+      "history": {
+        "onset": "2세경부터 언어발달이 또래 아이들에 비해 느리다는 것을 인지. 3세 이후 어린이집에서 사회성 부족을 지적받음.",
+        "growthAndDevelopment": {
+          "growth": "키와 몸무게 모두 정상 성장 곡선",
+          "development": "언어발달 지연, 단순한 단어만 사용하며 문장 구성 어려움.  눈 맞춤 회피 경향 보임. 반복적인 행동(손뼉 치기)을 보임.  상상놀이, 역할놀이 참여 어려움. 다른 아이들과의 상호작용 미흡.",
+          "vaccination": "정상적으로 접종 완료"
+        },
+        "perinatalHistory": "만삭아, 자연분만, 출생 시 체중 및 신장 정상. 임신 및 분만 과정 특이사항 없음.",
+        "neonatalHistory": "신생아기 특이사항 없음. 신생아 대사이상 검사 및 유전자 검사 정상.",
+        "environment": {
+          "caregiver": "엄마가 주 양육자. 아빠는 맞벌이.",
+          "nutrition": "편식 없이 잘 먹음.",
+          "sleep": "수면 패턴 정상"
+        },
+        "hearing": "청력 검사 정상",
+        "familyHistory": "가족력에 발달 장애 없음."
+      },
+      "physicalExam": "신체 검진상 특이 소견 없음.",
+      "patientQuestion": "아이가 자폐스펙트럼장애인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "자폐스펙트럼장애",
+          "언어발달장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "정신과 전문의 진료 및 평가 (ADOS-2, ADI-R 등)",
+          "언어치료 평가",
+          "발달 검사 (Bayley-III 등)"
+        ],
+        "therapeutic": [
+          "조기 개입 프로그램 (언어치료, 행동치료, 사회성 훈련 등)",
+          "가족 상담 및 지원"
+        ]
+      }
+    }
+  ]
+}

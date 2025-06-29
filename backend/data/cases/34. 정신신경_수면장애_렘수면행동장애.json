@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이민수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 이민수씨가 아내의 신고로 렘수면행동장애 의심 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "잠잘 때 폭력적인 행동을 한다고 합니다.",
+      "history": {
+        "onset": "1년 전",
+        "experience": "처음",
+        "course": "서서히 악화",
+        "character": "수면 중 폭력적인 행동(발길질, 주먹질)을 한다고 아내가 증언.  본인은 기억하지 못함. 수면 시간은 6-7시간(23시~6시). 잠자는 환경은 조용하고 어둡다고 함.  최근 스트레스 증가(퇴직 후).  평소 술을 즐겨 마심(소주 1병/일). 키 175cm, 몸무게 78kg.",
+        "associatedSymptoms": "[전신] 체중 변화 없음 [신경계] 떨림/경련(-/-) [정신] 불안/우울/기억상실(+/+/+), 낮 시간대 집중력 저하, [소화] 속쓰림(-)",
+        "factors": "퇴직 후 스트레스 증가, 과도한 음주",
+        "pastHistory": {
+          "medical": "고혈압(10년 전 진단), 고지혈증(5년 전 진단)",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "퇴직,  소주 1병/일 음주, 커피 1-2잔/일"
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적, 외관상 특이 소견 없음",
+        "neurological": "신경학적 검사 정상"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "렘수면행동장애",
+          "알코올성 수면장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "수면다원검사",
+          "혈액검사(간기능 검사)"
+        ],
+        "therapeutic": [
+          "알코올 섭취 감소 권고",
+          "클로나제팜(clonazepam) 저용량 투여 고려"
+        ]
+      }
+    }
+  ]
+}

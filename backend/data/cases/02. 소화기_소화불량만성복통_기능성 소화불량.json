@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최수진",
+        "age": 42,
+        "gender": "여자"
+      },
+      "situation": "속이 불편하여 내원하였다. ",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg ",
+        "heartRate": "78회/분 ",
+        "respiration": "16회/분 ",
+        "temperature": "36.6℃ "
+      },
+      "chiefComplaint": "속이 더부룩해요 ",
+      "history": {
+        "onset": "6개월 전 ",
+        "location": "상복부 ",
+        "course": "6개월 전부터 시작하여 점점 심해짐 ",
+        "experience": "처음 경험하는 증상임 ",
+        "character": "더부룩하고 답답함, 명치가 꽉 막히는 느낌,  NRS 3/10 ",
+        "associatedSymptoms": {
+          "general": "체중변화(-), 발열(-), 오한(-), 피로감(+) ",
+          "gi": "구토(-), 설사(-), 변비(+), 혈변(-), 흑변(-), 복통(-) , 속쓰림(+, 가끔) "
+        },
+        "factors": "특별한 악화요인 없음, 식사 후 더 심해지는 경향이 있음,  스트레스 받을 때 더 심함, 커피 섭취 후 악화됨 ",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 위궤양(-) ",
+          "events": "특이사항 없음 ",
+          "surgical": "없음 ",
+          "medications": "없음 ",
+          "social": "흡연(-), 음주(월 1회 소주 1병), 직업: 간호사, 스트레스 많음, 식사: 불규칙적, 야식 잦음, 운동: 거의 없음 ",
+          "obgyn": "월경 규칙적,  임신 경험 2회, 출산 경험 2회 "
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable ",
+        "heent": "특이소견 없음 ",
+        "abdomen": "압통 없음,  반발압통 없음,  장음 정상 "
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "기능성 소화불량",
+          "과민성 대장 증후군",
+          "위염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "위내시경 검사"
+        ],
+        "therapeutic": [
+          "생활 습관 개선 교육(규칙적인 식사, 스트레스 관리, 운동)",
+          "제산제 처방"
+        ]
+      }
+    }
+  ]
+}

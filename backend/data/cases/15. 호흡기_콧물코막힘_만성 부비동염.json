@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "만성적인 코막힘과 누런 콧물 때문에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "만성적인 코막힘과 누런 콧물",
+      "history": {
+        "onset": "5년 전",
+        "course": "지속적이며 간헐적으로 악화됨",
+        "character": "양측성 코막힘, 끈적끈적한 누런 콧물, 후비루, 가끔 두통",
+        "associatedSymptoms": {
+          "general": "피로(+), 체중변화(-)",
+          "neuro": "두통(+, 이마), 안면통(-)",
+          "respiratory": "기침(-), 가래(-)",
+          "olfactory": "후각 저하(+)"
+        },
+        "factors": "계절 변화(-), 먼지(-), 온도 변화(-), 특정 장소(-), 스트레스(+)",
+        "pastHistory": {
+          "medical": "고혈압(+), 당뇨병(-), 알레르기(-)",
+          "social": "흡연(1일 1갑, 20년), 음주(주 3회, 소주 3병), 직업(자영업)",
+          "family": "부모님 고혈압(+) "
+        }
+      },
+      "physicalExam": {
+        "heent": "비강 내 분비물 다량 관찰, 비갑개 비대, 비점막 부종 및 발적"
+      },
+      "patientQuestion": "코막힘과 콧물을 어떻게 치료할 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 부비동염",
+          "비중격만곡증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "부비동 CT",
+          "비내시경 검사"
+        ],
+        "therapeutic": [
+          "비강 세척",
+          "코르티코스테로이드 비강 스프레이",
+          "항생제(필요시)",
+          "비중격 교정술(필요시)"
+        ]
+      }
+    }
+  ]
+}

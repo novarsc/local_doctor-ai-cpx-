@@ -1,0 +1,87 @@
+checklist:
+  topic_kr: "객혈"
+  topic_en: "Hemoptysis"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "객혈의 양상"
+          subtitle_en: "Characteristics of Hemoptysis"
+          details: |
+            - [객혈의 색깔 (Color of blood: 선홍색/암적색/갈색/검은색 - Bright red/Dark red/Brown/Black)]
+            - [객혈량 (Amount of blood: 소량/중등도/대량 - Small/Moderate/Massive)]
+            - [객혈의 지속시간 (Duration of hemoptysis)]
+            - [객혈 빈도 (Frequency of hemoptysis)]
+        - subtitle_kr: "동반 증상"
+          subtitle_en: "Associated Symptoms"
+          details: |
+            - [기침 (Cough)]
+            - [호흡곤란 (Dyspnea)]
+            - [흉통 (Chest pain)]
+            - [발열 (Fever)]
+            - [체중 감소 (Weight loss)]
+            - [전신 위약감 (General weakness)]
+        - subtitle_kr: "과거력 및 위험 인자"
+          subtitle_en: "Past Medical History and Risk Factors"
+          details: |
+            - [폐질환 병력 (History of lung disease: 결핵, 기관지확장증, 폐암 등 - Tuberculosis, bronchiectasis, lung cancer, etc.)]
+            - [심혈관 질환 병력 (History of cardiovascular disease)]
+            - [출혈 경향 (Bleeding tendency)]
+            - [항응고제 복용력 (History of anticoagulant use)]
+            - [흡연력 (Smoking history)]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "활력 징후"
+          subtitle_en: "Vital Signs"
+          details: |
+            - [혈압 (Blood pressure)]
+            - [맥박 (Pulse rate)]
+            - [호흡수 (Respiratory rate)]
+            - [체온 (Body temperature)]
+            - [산소포화도 (Oxygen saturation)]
+        - subtitle_kr: "흉부 진찰"
+          subtitle_en: "Chest Examination"
+          details: |
+            - [시진 (Inspection)]
+            - [촉진 (Palpation)]
+            - [타진 (Percussion)]
+            - [청진 (Auscultation)]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "감별 진단"
+          subtitle_en: "Differential Diagnoses"
+          diagnoses:
+            - "Bronchitis"
+            - "Pneumonia"
+            - "Tuberculosis"
+            - "Lung Cancer"
+            - "Bronchiectasis"
+            - "Pulmonary Embolism"
+            - "Mitral Stenosis"
+            - "Congestive Heart Failure"
+            - "AVM (Arteriovenous Malformation)"
+        - subtitle_kr: "검사 계획"
+          subtitle_en: "Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "CBC (Complete Blood Count)"
+                - "Coagulation studies (PT/INR, aPTT)"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "Chest X-ray"
+                - "CT scan"
+                - "Bronchoscopy"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "질병 설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "객혈의 원인과 증상에 대해 설명하고, 진단 및 치료 계획에 대해 자세히 안내합니다."
+        - subtitle_kr: "주의 사항 및 응급 상황 대처법"
+          subtitle_en: "Precautions and Emergency Management"
+          details: "대량 객혈 발생 시 응급실 방문을 권유하고, 금연의 중요성을 강조합니다."

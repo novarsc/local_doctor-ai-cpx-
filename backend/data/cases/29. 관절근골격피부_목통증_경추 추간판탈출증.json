@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민준",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민준씨가 며칠 전부터 목 통증과 팔 저림으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "목이 아프고 팔이 저려요",
+      "history": {
+        "onset": "3일 전",
+        "location": "목, 왼쪽 팔",
+        "duration": "하루 종일",
+        "course": "점차 악화",
+        "experience": "비슷한 증상으로 1년 전 병원 치료받은 적 있음 (약물 치료 후 호전)",
+        "character": "[양상] 목 뒤쪽 뻐근함과 왼쪽 팔, 손가락 저림\n방사통(+): 어깨, 팔꿈치까지 뻗침\n[강도] NRS 7점",
+        "associatedSymptoms": {
+          "general": "팔 운동 능력 감소, 감각 감소",
+          "meningitis": "최근 감기/얼굴 통증/두통/발열(-/-/-)"
+        },
+        "factors": "악화: 왼쪽으로 목을 돌릴 때, 무거운 물건 들 때",
+        "pastHistory": {
+          "medical": "고혈압(약물 치료 중)",
+          "medications": "고혈압 약, 진통제(이부프로펜)",
+          "social": "흡연(1일 1갑, 20년), 음주(주 2회 소주 1병), 직업: 사무직",
+          "family": "특이 사항 없음",
+          "obgyn": "해당 없음",
+          "other": "최근 과도한 업무 스트레스"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 정상",
+        "heent": "결막/공막 정상",
+        "extremity": "Spurling sign Lt(+), Rt(-)\nL'hermitte sign (-)\n왼쪽 상지 운동, 감각 저하\n왼쪽 목, 어깨 압통(+)"
+      },
+      "patientQuestion": "이번에도 수술해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "경추 추간판탈출증",
+          "경추 염좌",
+          "근막통증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "경추 X-ray",
+          "경추 MRI"
+        ],
+        "therapeutic": [
+          "약물 치료",
+          "물리치료",
+          "경추 보조기 착용"
+        ]
+      }
+    }
+  ]
+}

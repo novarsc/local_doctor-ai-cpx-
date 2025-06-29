@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 70,
+        "gender": "남자"
+      },
+      "situation": "70세 남자 박철수씨가 왼쪽 팔다리의 힘이 빠지고 말이 어눌해졌다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "180/95mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "왼쪽 팔다리가 마비되고 말이 어눌해요",
+      "history": {
+        "onset": "30분 전",
+        "duration": "30분",
+        "course": "갑작스럽게 시작",
+        "experience": "처음",
+        "character": "30분 전 갑자기 왼쪽 팔다리의 힘이 빠지고 말이 어눌해짐.  얼굴은 괜찮다고 함.  현재는 증상이 조금 호전되는 중.  과거에 비슷한 증상 경험 없음.",
+        "location": "집에서 발생",
+        "associatedSymptoms": "[신경] 두통/어지러움/시야 흐림(+/-/-) [정신] 의식소실/기억상실(-/-) [심혈관] 가슴 통증/호흡곤란(-/-)",
+        "factors": "고혈압, 당뇨병 병력 있음.  최근 스트레스 증가.",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병, 고지혈증",
+          "trauma_surgery": "없음",
+          "medications": "고혈압약, 당뇨약",
+          "social": "흡연 30갑년, 음주 주 3회",
+          "family": "고혈압 가족력 있음"
+        }
+      },
+      "physicalExam": {
+        "general": "왼쪽 상지 근력 저하, 말이 다소 어눌함.  의식은 명료함.",
+        "heent": "정상",
+        "extremity": "왼쪽 상지 근력 4/5, 왼쪽 하지 근력 4/5.  감각 저하는 없음.  심장 초음파 정상 소견.",
+        "other": "NIHSS 2점"
+      },
+      "patientQuestion": "뇌졸중인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "TIA",
+          "경색성 뇌졸중",
+          "일과성 허혈 발작"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "뇌 MRI",
+          "경동맥 초음파",
+          "심전도"
+        ],
+        "therapeutic": [
+          "아스피린 100mg 1일 1회 경구 투여",
+          "혈압 강하제 투여",
+          "고지혈증 관리",
+          "금연, 절주 상담"
+        ]
+      }
+    }
+  ]
+}

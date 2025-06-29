@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김철수씨가 2달 동안 체중이 급격히 감소하여 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "76회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "살이 너무 많이 빠져서 걱정입니다.",
+      "history": {
+        "onset": "2달 전부터",
+        "location": "전체적으로",
+        "course": "서서히 빠지다가 최근 1달 동안 급격히 빠짐.  약 8kg 감량",
+        "character": "키 175cm, 체중 72kg → 64kg.  특별한 다이어트는 하지 않았음. 식욕은 감소하지 않았으나, 소화불량으로 인해 음식 섭취량이 줄어들었음.",
+        "associatedSymptoms": {
+          "general": "발열/오한(-/-), 피로감(+), 부종(-)",
+          "digestive": "A/N/V/D/C(+/-/+/+/+),  상복부 통증(+),  소화불량(+),  식후 포만감(+),  식욕부진(-),  삼킴곤란(-)",
+          "endocrine": "더위불내성/두근거림(-/-), 두통/식은땀(-/-), 다갈(-)",
+          "respiratory": "기침/가래(-/-)",
+          "urinary": "다음/다뇨/거품뇨(-/-/-), 부종(-)",
+          "psychiatric": "우울/불안(-/-), 수면장애(+)"
+        },
+        "factors": "최근 2달 동안  소화불량 증상이 심해지면서 음식 섭취량이 감소함.  과거 위궤양 병력 있음.",
+        "pastHistory": {
+          "medical": "위궤양(10년 전), 고혈압(5년 전)",
+          "medications": "고혈압 약 복용 중",
+          "social": "음주(소주 1병/주), 흡연(1갑/일, 30년), 직업: 은퇴한 공무원",
+          "family": "부친: 위암",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 체중 감소 소견,  피부와 점막의 혈색은 좋지 않음",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "abdomen": "상복부 압통(+),  심한 압통은 없음,  복부팽만(-),  청진음 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "제가 위암인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "위암",
+          "위궤양 악화",
+          "위염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부위장관 내시경",
+          "혈액검사(CBC, Liver function test, Renal function test)",
+          "상복부 CT"
+        ],
+        "therapeutic": [
+          "내시경 검사 결과에 따른 치료 계획 수립",
+          "영양 상태 개선을 위한 식사 지도"
+        ]
+      }
+    }
+  ]
+}

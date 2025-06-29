@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 전신 발진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "몸 전체에 발진이 올라왔어요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "몸 전체",
+        "duration": "3일째 지속",
+        "course": "처음에는 가슴 부위에 작은 발진이 시작되었고, 점차 전신으로 퍼짐.",
+        "experience": "처음",
+        "character": "[크기] 2~5mm [모양] 원형 [색] 붉은색\n가려움(+), 통증(-), 따가움(-), 열감(+), 물집(-), 딱지(-)",
+        "associatedSymptoms": {
+          "rheumatologic": "관절통(-), 부종(-)",
+          "other": "콧물(-), 기침(-), 인후통(-), 발열(-), 오한(-), 설사(-), 변비(-), 두통(-), 어지러움(-)"
+        },
+        "factors": "3일 전부터 새로운 고혈압 약 복용 시작.",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약(3일 전부터 복용 시작)",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 2회), 직업: 회사원",
+          "other": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable, 전신에 2~5mm 크기의 붉은색 원형 발진 다수 관찰. 압통(-)",
+        "heent": "결막충혈(-), 인두 충혈(-), 경부 림프절 비대(-)",
+        "chest_abdomen": "심음, 폐음 정상, 복부 촉진시 통증(-)",
+        "extremity": "말초부종(-)"
+      },
+      "patientQuestion": "새로 먹기 시작한 약 때문에 발진이 생긴 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "약물 발진",
+          "알레르기 접촉 피부염",
+          "두드러기"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "약물 중단",
+          "피부 생검 (필요시)",
+          "알레르기 검사 (필요시)"
+        ],
+        "therapeutic": [
+          "항히스타민제",
+          "국소 스테로이드제 (필요시)",
+          "경구 스테로이드제 (필요시)"
+        ]
+      }
+    }
+  ]
+}

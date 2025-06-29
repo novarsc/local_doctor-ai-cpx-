@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "지속적인 콧물과 코막힘으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/75mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "콧물과 코막힘이 심해요",
+      "history": {
+        "onset": "5년 전",
+        "course": "계절에 따라 심해짐",
+        "character": "맑은 콧물, 재채기(+), 코막힘(+), 가려움증(+, 코/눈), 눈물(+), 후비루(+)",
+        "associatedSymptoms": {
+          "general": "발열/오한/피로(-/-/-), 체중 변화(-)",
+          "neuro": "두통(-), 안면통(-)",
+          "respiratory": "기침(-)",
+          "olfactory": "후각 저하(-)"
+        },
+        "factors": "특정 계절에 악화(+, 봄/가을), 먼지/온도차(+/+), 특정 장소(-), 동물(-)",
+        "pastHistory": {
+          "medical": "알레르기 비염(의심), 천식(-), 축농증(-), 아토피(-)",
+          "social": "흡연(-), 음주(월 1회, 소주 1병), 직업(학생), 스트레스(보통)",
+          "family": "아버지 비염(+)"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 충혈(+, 양쪽), Allergic shiner(+, 양쪽), 비점막(창백하고 부어 있음), 물혹(-)"
+      },
+      "patientQuestion": "어떤 치료를 받아야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "알레르기 비염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "피부따끔검사",
+          "혈청 IgE 검사"
+        ],
+        "therapeutic": [
+          "항히스타민제 복용",
+          "비강 코르티코스테로이드 스프레이 사용",
+          "알레르겐 회피 요법"
+        ]
+      }
+    }
+  ]
+}

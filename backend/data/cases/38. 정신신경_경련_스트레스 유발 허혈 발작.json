@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 38,
+        "gender": "남자"
+      },
+      "situation": "38세 남자 김민수씨가 어지러움과 왼쪽 상지의 힘 저하를 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "어지럽고 왼쪽 팔이 힘이 없어요",
+      "history": {
+        "onset": "30분 전",
+        "location": "회사에서 업무 중",
+        "duration": "30분 지속 중",
+        "experience": "처음",
+        "character": "갑자기 어지러움과 함께 왼쪽 팔에 힘이 빠지는 증상 발생. 의식은 명료함. 말하는데 어려움은 없음.  왼쪽 손을 사용하는 데 어려움을 호소.  구토는 없었음.",
+        "associatedSymptoms": "[전신] 발열/오한/흉통/두통(-/-/-) [신경] 시야 흐림/언어장애/보행장애/감각 이상(-/-/-) [정신] 불안감(+)",
+        "factors": "최근 회사 업무로 인한 스트레스 증가.  수면 부족.  카페인 섭취 증가(커피 4잔/일).",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-), 심혈관 질환(-)",
+          "trauma_surgery": "특이 사항 없음",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 2회 소주 2병), 커피(+, 4잔/일), 운동(-), 스트레스(+) "
+        }
+      },
+      "physicalExam": {
+        "general": "활력징후 안정적",
+        "heent": "두경부 특이 소견 없음",
+        "neuro": "왼쪽 상지 근력 저하(+), 감각 저하(-), 깊은 건 반사(DTR) 정상",
+        "extremity": "왼쪽 상지 근력 저하 외에 다른 사지의 이상 소견 없음"
+      },
+      "patientQuestion": "심각한 질병은 아닐까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "스트레스 유발 허혈 발작"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 MRI",
+          "경동맥 초음파",
+          "심전도"
+        ],
+        "therapeutic": [
+          "스트레스 관리 교육",
+          "생활 습관 개선 상담",
+          "필요시 항혈전제 처방"
+        ]
+      }
+    }
+  ]
+}

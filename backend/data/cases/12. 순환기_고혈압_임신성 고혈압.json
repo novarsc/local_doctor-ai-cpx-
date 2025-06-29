@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박선영",
+        "age": 32,
+        "gender": "여자"
+      },
+      "situation": "혈압이 높아 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "148/92mmHg",
+        "heartRate": "88회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "혈압이 높고, 머리가 아파요.",
+      "history": {
+        "onset": "임신 24주부터",
+        "duration": "2주",
+        "course": "점점 심해짐",
+        "character": "2주 전부터 혈압이 높게 측정되기 시작했고, 최근 며칠 동안 두통이 심해짐.  눈앞이 깜빡거리는 증상도 있음.",
+        "associatedSymptoms": {
+          "general": "발열/오한/식은땀/체중 변화/피로/부종(+, 발목, 저녁에 심함)/-/-/-/-)",
+          "circulatory": "가슴 통증(-), 두근거림(-)",
+          "endocrine": "다음/다뇨/다갈(-/-/-), 식은땀/손떨림(-/-)",
+          "neuro": "두통(+, 심함, 욱신거림), 어지럼(+, 가끔), 시야 변화(+, 깜빡임)"
+        },
+        "factors": "임신 중",
+        "pastHistory": {
+          "events": "과거 고혈압 병력 없음",
+          "medical": "DM/TB/HTN/간염/고지혈증(-/-/-/-)",
+          "medications": "없음",
+          "social": "술(-), 담배(-), 직업(회사원), 스트레스(평소보다 많음)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 확인(현재 혈압 148/92mmHg),  임신 24주로 보임.  발목에 약간의 부종 관찰됨.",
+        "heent": "안저검사(황반부출혈 없음), 갑상샘(-), 경정맥 울혈(-), 경동맥 잡음(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부대동맥류(-), 신혈관 잡음(-), 자궁 크기(24주수)",
+        "extremity": "발목에 약간의 부종(+), 사지맥박 정상"
+      },
+      "patientQuestion": "아기에게 영향이 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "임신성 고혈압",
+          "임신중독증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "24시간 소변 단백 검사",
+          "혈액검사(혈소판, 간기능, 신기능)",
+          "태아 심음 청진"
+        ],
+        "therapeutic": [
+          "절대 안정",
+          "혈압 관리",
+          "정기적인 진찰"
+        ]
+      }
+    }
+  ]
+}

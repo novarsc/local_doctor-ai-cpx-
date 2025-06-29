@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김지혜",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 김지혜씨가 최근 몇 달 동안 피곤함을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "너무 피곤하고 힘이 없어요.",
+      "history": {
+        "onset": "3개월 전",
+        "duration": "하루 종일 지속",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "쉽게 지치고 피곤함, 아침에 일어나기 힘들고, 집중력 저하, 숨이 가쁨",
+        "associatedSymptoms": {
+          "general": "체중 감소(2kg)",
+          "digestive": "변비(+)",
+          "circulatory": "두근거림(+), 어지럼증(+)",
+          "psychiatric": "기분 저하(+)",
+          "sleep": "수면 시간 7시간, 수면 질 저하(+)",
+          "endocrine": "월경량 증가(+), 생리통(+)"
+        },
+        "factors": "휴식을 취해도 피곤함이 지속됨",
+        "pastHistory": {
+          "social": "직업: 사무직, 스트레스 증가, 불규칙적인 식사, 채식 위주 식단",
+          "obgyn": "월경 주기 규칙적, 최근 월경량 증가, 생리통 심해짐",
+          "other": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "피곤해 보이는 인상, 창백한 피부",
+        "heent": "결막 창백(+), 구강 점막 창백(+), 갑상샘 만져보기(-)",
+        "abdomen": "압통(-), 복부 팽만(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "철결핍성 빈혈",
+          "만성 피로 증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "CBC (complete blood count)",
+          "철분 수치 검사",
+          "갑상선 기능 검사"
+        ],
+        "therapeutic": [
+          "철분제 복용 권고",
+          "규칙적인 식사 및 충분한 수면 권고",
+          "스트레스 관리 상담"
+        ]
+      }
+    }
+  ]
+}

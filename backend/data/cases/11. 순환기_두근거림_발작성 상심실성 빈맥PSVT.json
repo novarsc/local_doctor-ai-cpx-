@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "갑작스러운 심계항진으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "160회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "가슴이 쿵쾅거리고 숨이 차요.",
+      "history": {
+        "onset": "30분 전",
+        "duration": "지속 중",
+        "course": "갑자기 시작됨",
+        "experience": "처음",
+        "character": "심장이 매우 빠르게 뛰고, 규칙적인 듯함.  가슴이 두근거리고 답답하며, 숨이 가빠서 힘들다고 함.",
+        "associatedSymptoms": {
+          "circulatory": "어지러움(+), 실신(-), 흉통(-)",
+          "endocrine": "손떨림(-), 더위/추위 불내성(-/-)",
+          "gi": "식욕부진(-), 메스꺼움(-)"
+        },
+        "factors": "특별한 유발 요인 없음.  평소 운동 부족, 스트레스 많음.",
+        "pastHistory": {
+          "medical": "DM/TB/HTN/간염(-/-/-/-)",
+          "social": "흡연(1갑/일), 음주(주 2회 소주 2병), 커피(하루 2잔), 직업(프로그래머)",
+          "family": "고혈압 가족력(+) "
+        }
+      },
+      "physicalExam": {
+        "general": "불안해 보임.  피부는 약간 창백함.",
+        "cv": "심박수 160회/분, 규칙적.  심음 청진 시 특이 소견 없음."
+      },
+      "patientQuestion": "심장에 문제가 있는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "발작성 상심실성 빈맥(PSVT)",
+          "심방세동",
+          "심근경색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "심초음파",
+          "혈액검사(심근효소, 갑상샘 기능 검사)"
+        ],
+        "therapeutic": [
+          "아데노신 정맥 주사",
+          "베타 차단제",
+          "산소 공급"
+        ]
+      }
+    }
+  ]
+}

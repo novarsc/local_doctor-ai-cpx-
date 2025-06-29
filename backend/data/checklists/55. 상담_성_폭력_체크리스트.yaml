@@ -1,0 +1,101 @@
+checklist:
+  topic_kr: "성폭력"
+  topic_en: "Sexual Assault"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "사건 경위"
+          subtitle_en: "Circumstances of the Assault"
+          details: |
+            - 사건 발생 시간 및 장소 (Time and location of the assault)
+            - 가해자와의 관계 (Relationship with the perpetrator)
+            - 폭행의 종류 (Nature of the assault: physical, verbal threats, etc.)
+            - 흉기 사용 여부 (Use of weapons)
+            - 구체적인 폭행 행위 (Specific acts of assault)
+            - 피해자의 저항 여부 및 방법 (Victim's resistance, if any)
+        - subtitle_kr: "신체적 증상"
+          subtitle_en: "Physical Symptoms"
+          details: |
+            - 통증 부위 및 양상 (Location and characteristics of pain: OPQRST)
+            - 질 출혈, 분비물, 골반 통증 (Vaginal bleeding, discharge, pelvic pain)
+            - 구역, 구토 (Nausea, vomiting)
+            - 배뇨곤란, 배변 이상 (Dysuria, changes in bowel habits)
+            - 외상의 유무 및 위치 (Presence and location of any injuries)
+        - subtitle_kr: "정신적 증상"
+          subtitle_en: "Psychological Symptoms"
+          details: |
+            - 불안, 공포, 공황발작 (Anxiety, fear, panic attacks)
+            - 악몽, flashback (Nightmares, flashbacks)
+            - 우울증, 자살 충동 (Depression, suicidal ideation)
+            - 수면 장애 (Sleep disturbances)
+            - 식욕 변화 (Changes in appetite)
+
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "전반적 상태"
+          subtitle_en: "General Appearance"
+          details: |
+            - 외상 흔적, 멍, 찰과상 (Signs of trauma, bruises, abrasions)
+            - 정신 상태 평가 (Mental status assessment)
+        - subtitle_kr: "산부과적 진찰"
+          subtitle_en: "Gynecological Examination"
+          details: |
+            - 외음부, 질, 자궁경부 검진 (Examination of external genitalia, vagina, and cervix)
+            - STD 검사 (Testing for sexually transmitted diseases)
+
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Physical Trauma"
+            - "Sexually Transmitted Infections (STIs)"
+            - "Post-Traumatic Stress Disorder (PTSD)"
+            - "Depression"
+            - "Anxiety Disorders"
+
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "성병 검사"
+              category_en: "STI Testing"
+              tests:
+                - "Chlamydia and Gonorrhea testing"
+                - "Syphilis testing"
+                - "HIV testing"
+            - category_kr: "임신 검사"
+              category_en: "Pregnancy Test"
+              tests:
+                - "Urine hCG"
+                - "Serum hCG"
+            - category_kr: "법의학적 증거 채취"
+              category_en: "Forensic Evidence Collection"
+              tests:
+                - "Sexual Assault Forensic Evidence Kit (SAFE Kit)"
+
+
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "정신적 지원 및 상담 안내"
+          subtitle_en: "Psychological Support and Counseling Referral"
+          details: |
+            - 정신과 의사, 심리 상담가, 성폭력 상담 센터 연계 (Referral to psychiatrist, psychologist, or sexual assault support center)
+            - 지지 그룹 정보 제공 (Information on support groups)
+        - subtitle_kr: "법적 지원 안내"
+          subtitle_en: "Legal Support Information"
+          details: |
+            - 경찰 신고 절차 안내 (Information on reporting to the police)
+            - 법률 상담 연계 (Referral to legal counsel)
+        - subtitle_kr: "추후 관리 안내"
+          subtitle_en: "Follow-up Care"
+          details: |
+            - 성병 예방적 치료 안내 (Information on prophylactic treatment for STIs)
+            - 응급 피임약 처방 (Prescription for emergency contraception, if applicable)
+            - 정기적인 신체 검사 및 정신과적 상담 권고 (Recommendation for regular physical check-ups and psychological counseling)

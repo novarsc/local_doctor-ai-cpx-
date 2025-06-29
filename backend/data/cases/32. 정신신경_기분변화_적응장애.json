@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 9,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 24,
+        "gender": "남자"
+      },
+      "situation": "24세 남자 김민수씨가 최근 직장 문제로 인한 스트레스와 불안감으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "힘들어요.",
+      "history": {
+        "onset": "3개월 전",
+        "duration": "주로 저녁 시간대, 잠들기 전에 심해짐",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "자의로 내원, 평소 차분한 성격으로 대인 관계 좋음, 취미 활동(게임) 함\n도움 요청할 수 있는 사람(+)",
+        "associatedSymptoms": {
+          "digestive": "소화불량(+)",
+          "psychiatric": "불안/초조/긴장/수면장애(+/+/+/+)\n집중력 저하/피로/우울감(+/+/+)\n식욕 변화 없음, 체중 변화 없음\n자살 생각/자살 계획/자살 시도(-/-/-)\n기분 들뜬 적(-)\n환시/환청/망상(-/-/-)",
+          "endocrine": "추위불내성(-)"
+        },
+        "factors": "직장 내 스트레스(+, 상사와의 갈등, 업무 과다)",
+        "pastHistory": {
+          "social": "음주(+, social), 직업: 웹디자이너, 운동(-)",
+          "family": "정신과 진료(-)",
+          "obgyn": "해당 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "결막/구강/탈수(-/-/-), 갑상샘(-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "어떻게 하면 괜찮아질 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "적응장애",
+          "불안장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "불안 척도 검사",
+          "스트레스 척도 검사"
+        ],
+        "therapeutic": [
+          "인지행동치료",
+          "스트레스 관리 교육",
+          "필요시 항불안제"
+        ]
+      }
+    }
+  ]
+}

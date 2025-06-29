@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 10,
+      "patientProfile": {
+        "name": "최영수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 최영수씨가 2주째 지속되는 기침과 객혈로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "80회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "기침과 가래에 피가 섞여 나와요",
+      "history": {
+        "onset": "2주 전",
+        "location": "가슴",
+        "duration": "2주 지속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "가래에 피가 섞여 나옴, 양은 처음에는 소량이었으나 최근에는 찻숟가락 정도, 색깔은 선홍색, 거품은 없음",
+        "associatedSymptoms": {
+          "general": "체중 감소(5kg, 3개월), 피로감(심함), 식욕 감소",
+          "respiratory": "기침(심함, 마른 기침), 가래(점액성, 혈액 섞임), 호흡곤란(운동 시), 흉통(없음)",
+          "other": "야간 발한(없음)"
+        },
+        "factors": "흡연(하루 1갑, 40년), 직업(석탄 광산 근무, 30년)",
+        "pastHistory": {
+          "medical": "고혈압(10년 전부터), 당뇨병(없음), 결핵(없음)",
+          "medications": "고혈압약(복용 중)",
+          "social": "흡연(하루 1갑, 40년), 음주(소주 1병/주), 운동(없음)",
+          "family": "폐암 가족력(없음)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable, 체중 감소 소견",
+        "heent": "결막/공막 창백, 경부 림프절 촉진(없음)",
+        "chest": "호흡음 감소(우측 폐 하부), 수포음(없음), 마찰음(없음)",
+        "extremity": "말초부종(없음), 곤봉지(없음)"
+      },
+      "patientQuestion": "폐암일까봐 걱정입니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐암",
+          "폐결핵",
+          "기관지확장증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "흉부 CT",
+          "객담 검사(세포검사, 배양검사)",
+          "기관지내시경"
+        ],
+        "therapeutic": [
+          "금연 상담",
+          "지지 요법"
+        ]
+      }
+    }
+  ]
+}

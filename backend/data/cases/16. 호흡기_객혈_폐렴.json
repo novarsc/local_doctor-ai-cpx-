@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최지훈",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 최지훈씨가 심한 기침과 가래를 동반한 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "24회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "숨쉬기가 너무 힘들어요",
+      "history": {
+        "onset": "3일 전",
+        "location": "가슴",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "과거 폐렴 경험 있음(10년 전)",
+        "character": "심한 기침, 끈적끈적한 황색 가래, 호흡곤란, 가슴 통증",
+        "associatedSymptoms": {
+          "general": "오한, 발열, 권태감, 식욕부진",
+          "respiratory": "기침, 가래, 호흡곤란, 흉통",
+          "other": "두통, 근육통"
+        },
+        "factors": "최근 감기 유행, 면역력 저하",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "medications": "고혈압약, 당뇨약",
+          "social": "흡연(30갑년), 음주(주 2회 소주 1병)",
+          "family": "폐질환 가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감, 호흡곤란, 기침",
+        "heent": "결막 충혈, 인두 홍조",
+        "chest": "호흡음 감소, 수포음 청취",
+        "extremity": "말초 혈액순환 양호"
+      },
+      "patientQuestion": "폐렴인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐렴",
+          "급성 기관지염",
+          "폐색전증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "혈액 검사(혈액세포 수, 염증 수치)",
+          "객담 검사"
+        ],
+        "therapeutic": [
+          "항생제 치료",
+          "기침 억제제",
+          "가래 배출제",
+          "수액 치료",
+          "산소 요법"
+        ]
+      }
+    }
+  ]
+}

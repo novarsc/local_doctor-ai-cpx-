@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 65,
+        "gender": "남자"
+      },
+      "situation": "심한 복통과 혈변을 동반한 설사로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "100회/분",
+        "respiration": "20회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "배가 너무 아프고 피가 섞인 설사를 계속 해요.",
+      "history": {
+        "onset": "2시간 전",
+        "duration": "2시간 전부터 지속",
+        "course": "갑자기 심한 복통 발생 후 혈변을 동반한 설사 시작",
+        "experience": "처음 발생",
+        "character": "심한 복통과 함께 혈액이 섞인 수양성 설사, 하루 5-6회 정도",
+        "associatedSymptoms": {
+          "general": "오한(+), 발열(+), 어지러움(+), 쇠약감(+)",
+          "gi": "심한 복통(+, 좌측 하복부 집중), 구토(-), 구역감(+), 식욕부진(+)",
+          "cv": "흉통(-)",
+          "dehydration": "목마름(+), 소변량 감소(+)"
+        },
+        "factors": "최근 심한 스트레스 경험, 고지혈증 약 복용 중",
+        "pastHistory": {
+          "events": "고혈압 진단, 고지혈증 치료 중",
+          "medical": "고혈압(+), 고지혈증(+), 당뇨병(-), 심장질환(-)",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "흡연(+, 하루 1갑), 음주(+, 소주 1병/주)"
+        }
+      },
+      "physicalExam": {
+        "general": "빈혈 소견(+), 탈수 소견(+)",
+        "heent": "결막 창백(+)",
+        "abdomen": "좌측 하복부 심한 압통(+), 반발압통(+), 장음 감소",
+        "extremity": "말초 맥박 약화(+)"
+      },
+      "patientQuestion": "어떤 병인지 걱정돼요. 심각한 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "허혈성 대장염",
+          "급성 궤양성 대장염",
+          "장폐색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "복부 CT",
+          "대장내시경",
+          "혈액검사(CBC, 혈액형, 혈액 응고검사)"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "통증 조절",
+          "항생제"
+        ]
+      }
+    }
+  ]
+}

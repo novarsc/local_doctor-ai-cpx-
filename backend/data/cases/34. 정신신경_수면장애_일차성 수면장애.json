@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "최수현",
+        "age": 32,
+        "gender": "여자"
+      },
+      "situation": "32세 여자 최수현씨가 잠을 잘 못자서 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.5℃"
+      },
+      "chiefComplaint": "잠을 못 자겠어요",
+      "history": {
+        "onset": "1년 전",
+        "experience": "처음",
+        "course": "점진적 악화",
+        "character": "잠자리에 들면 잠이 잘 오지 않고, 잠이 들더라도 자주 깨서 숙면을 취하지 못함. 잠을 자도 개운하지 않고, 낮에 졸음이 쏟아짐. 수면 시간은 5-6시간 정도. 잠자리 환경은 조용하고 어둡지만, 잠을 잘 수 없음.  스트레스는 직장 때문에 많이 받고 있음. 운동은 거의 하지 않음. 규칙적인 식사는 하고 있지만, 저녁에 야식을 자주 먹는 편임. 술과 담배는 하지 않음. 카페인 섭취는 하루에 2잔 정도의 커피.",
+        "associatedSymptoms": "[전신] 피로감(+), 체중 증가(+, 5kg 증가) [소화] 속쓰림(-) [호흡] 쌕쌕거림(-) [신장/비뇨] 야뇨(-) [정신] 불안/우울/초조(+/+/+), 집중력 저하(+), 기억력 감퇴(+) [갑상샘] 더위/추위 불내성(-/-)",
+        "factors": "직장 스트레스, 불규칙적인 수면 패턴, 야식 섭취",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "medications": "없음",
+          "social": "회사원, 스트레스 많음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "정상",
+        "chest": "정상",
+        "extremity": "정상"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "일차성 수면장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "수면다원검사",
+          "수면 일기"
+        ],
+        "therapeutic": [
+          "수면 위생 교육",
+          "인지행동치료",
+          "필요시 수면제 처방"
+        ]
+      }
+    }
+  ]
+}

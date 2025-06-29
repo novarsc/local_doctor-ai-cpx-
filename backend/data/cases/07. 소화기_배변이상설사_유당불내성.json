@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "우유 섭취 후 설사 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "우유 마시면 설사해요",
+      "history": {
+        "onset": "어릴 적부터",
+        "duration": "지속적",
+        "course": "우유 섭취 후 30분~1시간 이내 설사 발생",
+        "character": "수양성 설사, 혈변 없음",
+        "associatedSymptoms": {
+          "general": "열/오한/피로/부종(-/-/-/-), 체중 변화 없음",
+          "gi": "A/N/V/C/D(-/-/-/-/+), 복통(+, 경미함), H/M/H(-/-/-), 항문 통증(-)",
+          "endocrine": "두근거림/더위불내성(-/-)",
+          "dehydration": "어지러움/목마름(-/-)",
+          "other": "가스 참"
+        },
+        "factors": "악화: 우유 섭취, 유제품 섭취. 완화: 우유 섭취 회피",
+        "pastHistory": {
+          "events": "특이 사항 없음",
+          "medical": "고혈압/당뇨/결핵/간염(-/-/-/-)",
+          "medications": "없음",
+          "social": "평소 식습관 정상, 유제품 섭취 시 설사 발생"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 정상",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "압통 없음, 청진 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "우유를 계속 못 먹어야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "유당불내성"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "유당불내증 검사(수소호기 검사)"
+        ],
+        "therapeutic": [
+          "유제품 섭취 제한",
+          "유당분해효소제 복용 권고"
+        ]
+      }
+    }
+  ]
+}

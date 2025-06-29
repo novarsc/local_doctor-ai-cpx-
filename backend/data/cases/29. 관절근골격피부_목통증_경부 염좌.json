@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 27,
+        "gender": "여자"
+      },
+      "situation": "27세 여자 김민지씨가 목 통증을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "목이 아파요.",
+      "history": {
+        "onset": "어제 저녁",
+        "location": "뒷목 전체",
+        "duration": "밤새도록",
+        "course": "아침에 더 심해짐",
+        "experience": "처음",
+        "character": "[양상] 뻐근하고 뻣뻣함\n[강도] NRS 5점",
+        "associatedSymptoms": {
+          "general": "두통(-)",
+          "meningitis": "발열/오한/구토(-/-/-)"
+        },
+        "factors": "악화 : 고개를 돌릴 때, 숙일 때",
+        "pastHistory": {
+          "medical": "",
+          "medications": "",
+          "social": "사무직, 컴퓨터 작업 많음",
+          "family": "",
+          "obgyn": "월경 정상",
+          "other": "최근 과도한 스트레스"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 정상",
+        "heent": "결막/공막 정상",
+        "extremity": "경추 ROM 제한, 압통(+), 방사통(-)"
+      },
+      "patientQuestion": "언제쯤 괜찮아질까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "경부 염좌",
+          "근막통증 증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "경추 X-ray"
+        ],
+        "therapeutic": [
+          "진통소염제 처방",
+          "경추 보호대 착용 권고",
+          "물리치료 권고"
+        ]
+      }
+    }
+  ]
+}

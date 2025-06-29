@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 30,
+        "gender": "남성"
+      },
+      "situation": "30세 남성 김철수씨가 고열과 복통을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "100회/분",
+        "respiration": "20회/분",
+        "temperature": "39.8℃"
+      },
+      "chiefComplaint": "열이 너무 나고 배가 아파요.",
+      "history": {
+        "onset": "5일 전",
+        "location": "전신, 주로 복부",
+        "duration": "지속적",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "처음에는 가벼운 오한과 두통이 있었으나, 점차 고열과 심한 복통으로 악화됨.  해열제 복용 후 일시적으로 열이 내렸으나, 다시 상승.",
+        "associatedSymptoms": {
+          "general": "오한(+), 발열(+), 두통(+), 피로(+), 식욕부진(+), 체중감소(-)",
+          "digestive": "복통(+, 심한 복통, 특히 배꼽 주변), 설사(+, 수양성 설사, 하루 5~6회), 구토(-), 변비(-)",
+          "urinary": "빈뇨(-), 배뇨통(-), 혈뇨(-)",
+          "respiratory": "기침(-), 가래(-), 콧물(-)",
+          "musculoskeletal": "근육통(-)"
+        },
+        "factors": "최근 해외여행(-), 오염된 음식 섭취 가능성(+, 길거리 음식 섭취 기억), 가족 중 유사 증상자(-), 동물 접촉(-)",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "social": "흡연(-), 음주(가끔)",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "고열, 맥박 빠름, 탈수 증상 약간 보임",
+        "heent": "결막 충혈(-), 인후염(-)",
+        "abdomen": "압통(+, 배꼽 주변), 반발압통(+), 장음 감소",
+        "extremity": "피부 발진(-), 부종(-)"
+      },
+      "patientQuestion": "이 병이 얼마나 위험한 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "장티푸스",
+          "급성 위장염",
+          "살모넬라 감염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 배양 검사",
+          "대변 배양 검사",
+          "혈액 검사 (CBC, 혈청학 검사)"
+        ],
+        "therapeutic": [
+          "항생제 치료",
+          "수액 요법",
+          "대증 요법"
+        ]
+      }
+    }
+  ]
+}

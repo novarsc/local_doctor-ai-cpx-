@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박채영",
+        "age": 25,
+        "gender": "여자"
+      },
+      "situation": "25세 여자 박채영씨가 생리 과다로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "생리량이 너무 많아요",
+      "history": {
+        "onset": "2개월 전",
+        "course": "2개월 전부터 생리량이 갑자기 많아짐",
+        "character": "생리 기간은 평소와 같으나, 양이 많아져 대형 생리대를 하루에 8개 이상 사용하고 밤에도 새는 경우가 있음. 생리혈에 덩어리가 섞여 나오기도 함.  생리통은 평소와 비슷함.  성교통이나 성교 후 출혈은 없음.",
+        "associatedSymptoms": "[전신] 발열/오한/체중 감소/체중 증가(-/-/-/-) [신장/비뇨] F/U/N/D(-/-/-/-) [기타] 어지럼/두근거림(-/-), 멍/잇몸 출혈(-/-),  피로감(+).",
+        "pastHistory": {
+          "medical": "고혈압/당뇨/고지혈증(-/-/-), 부인과 질환(-), 질염(-), PID(-)",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(가끔), 커피(1잔/day). 운동(일주일에 2회). 스트레스(+), 식습관 변화(-)",
+          "family": "특이사항 없음",
+          "gyn": "초경 13세, 월경 주기 28일, 생리통 경미함.  1년 전 IUD 삽입 후 현재까지 사용 중.  임신 계획 없음.  성관계는 있으나 규칙적이지 않음. 0-0-0-0"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable,  안색 다소 창백",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-), CVAT/DRE(-/-)",
+        "pelvic": "자궁 크기 정상, IUD 위치 정상, 압통 없음.  경부 분비물 없음.",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "IUD때문에 생리량이 많아진 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "IUD에 의한 부정 출혈",
+          "기능성 자궁출혈",
+          "자궁근종"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CBC, 혈액형)",
+          "골반 초음파",
+          "자궁내막 조직검사(필요시)"
+        ],
+        "therapeutic": [
+          "IUD 제거 고려(생리량 지속 시)",
+          "철분제 처방(빈혈 증상 시)",
+          "대증요법(진통제 처방 등)"
+        ]
+      }
+    }
+  ]
+}

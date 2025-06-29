@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 25,
+        "gender": "여자"
+      },
+      "situation": "25세 여자 김민지씨가 생리 불순으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "생리가 불규칙해요",
+      "history": {
+        "onset": "3개월 전",
+        "course": "최근 3개월 동안 생리 주기가 불규칙해지고 양도 줄었음. 이전에는 규칙적으로 생리를 했음.",
+        "experience": "없음",
+        "associatedSymptoms": "[전신] 발열/오한/체중 감소/체중 증가(-/-/-/-) [신장/비뇨] F/U/N/D(-/-/-/-) [기타] 어지럼/두근거림(-/-), 멍/잇몸 출혈(-/-), PCOS(-), Prolactinoma(-). 화끈거림(-), 성격 예민(+, 최근 스트레스가 많았다고 함), 불면(+, 잠을 잘 못 이룸), 갑상샘기능항진증(-). 무리한 운동/다이어트/두통/유즙 분비(-/-/-/-)",
+        "pastHistory": {
+          "medical": "고혈압/당뇨/고지혈증(-/-/-), 부인과 질환(-), 질염(-), PID(-)",
+          "trauma_surgery": "없음",
+          "medications": "호르몬제/피임약(-/-)",
+          "social": "흡연(-), 음주(가끔), 커피(1잔/day). 운동(가끔), 스트레스(+, 직장 스트레스 심함), 식습관 변화(-)",
+          "family": "특이 사항 없음",
+          "gyn": "원래 규칙적, 3개월 전부터 주기 불규칙해짐, 원래 주기는 28일, 생리통(-). 월경량 감소(+), 결혼(-), 피임(-), 임신 가능성 없고, 현재는 임신 계획 없음. 0-0-0-0"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/-)",
+        "abdomen": "복부 시/청/타/촉(-/-/-/-), CVAT/DRE(-/-)",
+        "pelvic": "골반 내진 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "큰일 나는 건 아니겠죠?",
+      "impression": {
+        "likelyDiagnoses": [
+          "스트레스 유발 월경 이상",
+          "기능성 자궁출혈"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(CBC, 호르몬 검사)",
+          "초음파 검사"
+        ],
+        "therapeutic": [
+          "스트레스 관리 상담",
+          "생활 습관 개선 교육",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

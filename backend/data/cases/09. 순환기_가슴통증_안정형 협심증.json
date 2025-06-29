@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "가슴 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "가슴이 답답해요.",
+      "history": {
+        "onset": "3개월 전부터 간헐적으로 발생",
+        "location": "흉골 뒤쪽",
+        "radiation": "왼쪽 팔로 퍼지는 듯한 느낌",
+        "duration": "5-10분 정도 지속",
+        "course": "운동 후 주로 발생, 최근에는 걷는 중에도 발생",
+        "experience": "반복적인 경험",
+        "character": "압박감, 답답함, 뻐근함. NRS 4-5점.  숨을 쉴 때 더 심해짐. 눌렀을 때 압통(-)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(-/-/-)",
+          "gi": "속쓰림/신물 올라옴(-/-)",
+          "circulatory": "두근거림/호흡곤란(-/+), 흉통시 동반. 숨을 깊이 들이쉴 때 더 힘듦.",
+          "respiratory": "최근 감기(-), 기침/가래/객혈/쌕쌕거림(-/-/-/-)",
+          "msk_skin": "피부 발진(-)",
+          "psych": "불안감(+) - 흉통 발생 시"
+        },
+        "factors": "악화: 빠른 걸음, 계단 오르기, 추운 날씨. 완화: 휴식, 니트로글리세린 혀밑에 넣으면 5분 이내 호전.",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "고혈압 약, 고지혈증 약",
+          "social": "흡연/음주/스트레스(+/+/+), 직업: 은퇴, 운동: 가끔 산책",
+          "family": "아버지: 심근경색"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-), 경동맥 시/청(-/-)",
+        "chest": "심음: 규칙적, 흉부 시/촉/타/청(-/-/-/-), 발진(-), 압통(-)",
+        "abdomen": "시/청/타/촉(-/-/-/-)",
+        "extremity": "맥박(-), Pitting edema(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "안정형 협심증",
+          "불안정형 협심증",
+          "심근경색"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "심근효소검사",
+          "심초음파",
+          "운동부하검사"
+        ],
+        "therapeutic": [
+          "아스피린, 베타차단제, ACE 저해제",
+          "생활습관 개선(금연, 절주, 저지방 식단, 규칙적인 운동)",
+          "니트로글리세린 휴대"
+        ]
+      }
+    }
+  ]
+}

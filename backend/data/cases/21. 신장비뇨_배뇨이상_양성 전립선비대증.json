@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 박철수씨가 소변을 자주 보고 힘들다고 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "소변을 자주 보고 힘들어요.",
+      "history": {
+        "onset": "3개월 전",
+        "duration": "계속",
+        "course": "점점 심해짐",
+        "character": "[횟수] 하루 8~10회, 야간뇨 2회\n[양] 한번에 보는 소변량은 줄었고, 하루 소변 총량은 비슷함\n[성상] 거품/피(-/-), 색 변화/냄새(-/-)",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 감소(-/-/-)",
+          "urinary": "빈뇨/절박뇨/야간뇨/배뇨통(+/+/+/-)\n주저뇨/요끊김/복압 배뇨/잔뇨감(+/+/+/+)",
+          "genitals": "외성기 통증/가려움증/분비물(-/-/-)"
+        },
+        "factors": "성관계(아내와, 아내는 증상 없음), 위험한 성관계(-)",
+        "pastHistory": {
+          "medical": "고혈압(약물치료 중), 당뇨병(-)",
+          "medications": "고혈압약(로사르탄 50mg 1일 1회)",
+          "social": "술(주 2회, 소주 1병), 담배(과거 흡연자, 10년 전 금연), 커피(1일 2잔)",
+          "family": "부친: 고혈압, BPH 병력"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "결막/공막(-/-), 입/피부 탈수 소견(-/-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-), CVA tenderness(-)\nDRE(+, 전립선 비대, 촉진 시 약간의 압통)",
+        "extremity": "피부 긴장도, 오목 부종 정상"
+      },
+      "patientQuestion": "전립선암일까 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "양성 전립선비대증",
+          "전립선염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "경직장 초음파",
+          "혈액 PSA 검사",
+          "소변검사"
+        ],
+        "therapeutic": [
+          "알파 차단제 처방(탐수로신 0.4mg 1일 1회)",
+          "수분 섭취 조절 교육",
+          "카페인 섭취 줄이기 교육",
+          "경과 관찰"
+        ]
+      }
+    }
+  ]
+}

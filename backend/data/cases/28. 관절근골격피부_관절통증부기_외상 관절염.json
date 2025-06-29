@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "45세 남자 김민수씨가 왼쪽 무릎 통증으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "무릎이 너무 아파요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "왼쪽 무릎, 특히 내측",
+        "duration": "계속 아픔",
+        "course": "점점 심해짐",
+        "character": "심한 통증, NRS 8점, 움직일 때 더 심함, 붓고 열감 있음, 조조강직 있음(30분 정도), 무릎을 굽히거나 펼 때 통증 심함, 계단 오르내리기 힘들어짐, 잠잘 때도 아픔, 무릎에 압력을 가하면 더 아픔",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화/피로감(-/-/-/-)",
+          "respiratory": "호흡곤란(-)",
+          "musculoskeletal_skin": "광과민성/피부 발진/구강 궤양/성기 궤양(-/-/-/-), 탈모(-)",
+          "infection": "관절 주사/최근 감기/감염/설사(-/-/-/-)",
+          "sjogren": "입마름/눈마름(-/-)"
+        },
+        "factors": "2주 전 축구 경기 중 넘어져서 무릎을 다침, 그 이후로 통증 시작",
+        "pastHistory": {
+          "medical": "고혈압(-)",
+          "trauma_surgery": "2주 전 무릎 외상(축구 중 넘어짐)",
+          "medications": "진통제 복용(일시적 효과)",
+          "social": "직업: 사무직, 운동을 좋아함",
+          "family": "관절염 가족력(-)",
+          "obgyn": "남자"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "chest": "심음/호흡음 정상",
+        "extremity": "왼쪽 무릎 관절 부종, 발적, 압통, 열감(+/+/+/+), 능동/수동 ROM 제한, 슬관절 내측에 압통 심함"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "외상 관절염",
+          "반월상 연골판 손상",
+          "측부 인대 손상"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "왼쪽 무릎 X-ray",
+          "왼쪽 무릎 MRI",
+          "관절액 검사"
+        ],
+        "therapeutic": [
+          "RICE(Rest, Ice, Compression, Elevation)",
+          "진통소염제",
+          "물리치료",
+          "필요시 관절내 주사"
+        ]
+      }
+    }
+  ]
+}

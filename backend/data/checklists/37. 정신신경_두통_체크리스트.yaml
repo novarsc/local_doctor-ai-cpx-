@@ -1,0 +1,86 @@
+checklist:
+  topic_kr: "두통"
+  topic_en: "Headache"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [두통의 양상 (욱신거리는 통증, 쥐어짜는 듯한 통증, 날카로운 통증 등) (Character of headache: Throbbing, squeezing, sharp, etc.)]
+            - [두통의 위치 (국소적, 전체적) (Location of headache: Localized or diffuse)]
+            - [두통의 강도 (0~10점 척도) (Severity of headache using a 0-10 scale)]
+            - [두통의 시작 시점 및 기간 (Onset and duration of headache)]
+            - [악화 또는 완화 요인 (Aggravating or alleviating factors)]
+            - [두통의 빈도 및 지속 시간 (Frequency and duration of each headache episode)]
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - [구역, 구토 (Nausea, vomiting)]
+            - [시각 변화 (오라, 흐릿함, 복시) (Visual changes: Aura, blurry vision, diplopia)]
+            - [빛 또는 소리 공포증 (Photophobia or phonophobia)]
+            - [어지럼증 (Dizziness)]
+            - [발열 (Fever)]
+            - [경부 강직 (Neck stiffness)]
+            - [신경학적 이상 (Neurological deficits)]
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [두통 과거력 (Past history of headache)]
+            - [가족력 (Family history of headache)]
+            - [최근 스트레스 (Recent stress)]
+            - [수면 패턴 변화 (Changes in sleep patterns)]
+            - [약물 복용력 (Medication history)]
+            - [외상 (Trauma)]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [활력 징후 측정 (Vital signs)]
+            - [신경학적 검사 (Neurological examination, including cranial nerve assessment)]
+            - [경부 촉진 (Palpation of the neck)]
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - [Kernig sign & Brudzinski sign (수막 자극 징후 확인) (Assessing for meningeal irritation)]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "[Migraine (with or without aura)]"
+            - "[Tension-type headache]"
+            - "[Cluster headache]"
+            - "[Subarachnoid hemorrhage]"
+            - "[Intracerebral hemorrhage]"
+            - "[Brain tumor]"
+            - "[Giant cell arteritis]"
+            - "[Meningitis]"
+            - "[Sinusitis]"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "[Complete blood count (CBC)]"
+                - "[Erythrocyte sedimentation rate (ESR)]"
+                - "[C-reactive protein (CRP)]"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "[CT scan of the head (non-contrast)]"
+                - "[MRI of the brain]"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "[두통의 원인과 증상에 대한 설명 (Explanation of the potential causes and symptoms of the headache)]"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "[의식 변화, 갑작스러운 심한 두통, 발열, 구토, 신경학적 이상 등 응급 상황을 시사하는 증상 발생 시 즉시 병원 방문 (Advise the patient to seek immediate medical attention if they experience red flag symptoms, such as altered mental status, sudden onset of severe headache, fever, vomiting, or neurological deficits)]"

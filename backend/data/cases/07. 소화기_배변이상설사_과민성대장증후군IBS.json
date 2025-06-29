@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "복통과 설사로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "배가 아프고 설사를 자주 해요.",
+      "history": {
+        "onset": "6개월 전",
+        "duration": "주 2~3회",
+        "course": "최근 스트레스 증가로 증상 악화",
+        "experience": "과거에도 스트레스 받으면 비슷한 증상 경험",
+        "character": "묽은 변, 잔변감, 혈변 없음",
+        "associatedSymptoms": {
+          "general": "열/오한/피로/부종(-/-/-/-), 체중 변화 없음",
+          "gi": "A/N/V/C/D(-/-/+/-) , 복통(+, 주로 아랫배, 배변 후 호전), H/M/H(-/-/-), 항문 통증 없음",
+          "endocrine": "두근거림/더위불내성(-/-)",
+          "dehydration": "어지러움/목마름(-/-)"
+        },
+        "factors": "악화: 스트레스, 커피, 술. 완화: 배변 후",
+        "pastHistory": {
+          "events": "대장내시경 검사 없음",
+          "medical": "고혈압/당뇨/결핵/간염(-/-/-/-)",
+          "medications": "없음",
+          "social": "흡연(-), 음주(주 2~3회), 커피(매일 2잔)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "압통(+, 아랫배, 심하지 않음), 반발압통(-),  장음 정상",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이 증상이 계속될까 걱정입니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "과민성대장증후군(IBS)",
+          "염증성 장질환",
+          "기능성 소화불량"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변검사",
+          "복부 초음파"
+        ],
+        "therapeutic": [
+          "식이요법 교육",
+          "스트레스 관리 상담",
+          "대증요법(진경제, 지사제)"
+        ]
+      }
+    }
+  ]
+}

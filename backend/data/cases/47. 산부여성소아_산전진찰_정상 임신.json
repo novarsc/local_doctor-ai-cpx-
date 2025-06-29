@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1001,
+      "patientProfile": {
+        "name": "박채린",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "결혼 후 첫 산전 진찰을 위해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "76회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "임신 초기라서 검진 받으러 왔어요.",
+      "history": {
+        "onset": "마지막 생리 6주 전에 임신 테스트기 양성 확인.",
+        "location": null,
+        "duration": null,
+        "course": "증상 없음.",
+        "character": null,
+        "associatedSymptoms": {
+          "gynecological": "질 분비물 증가(+), 질 출혈(-), 복통(-)"
+        },
+        "pastHistory": {
+          "obstetricHistory": "0-0-0-0",
+          "contraception": "피임약 복용(결혼 전까지).",
+          "lastMenstrualPeriod": "6주 전",
+          "menstrualHistory": "규칙적, 양/색/월경통 이상 없음",
+          "medical": "특이 질환 없음.",
+          "vaccination": "풍진, B형 간염 예방접종 완료.",
+          "medications": "엽산제 복용(임신 계획 전부터).",
+          "social": "흡연(-), 음주(-), 커피(1일 1잔). 직업(간호사). 운동(주 3회 요가). 스트레스(보통)",
+          "family": "유전 질환/기형 없음."
+        },
+        "etc": {
+          "patientBio": "키 165cm, 체중 52kg, 혈액형 A형 Rh+",
+          "partnerBio": "혈액형 B형 Rh+"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "눈/구강/갑상샘/림프절(-/-/-/-)",
+        "abdomen": "복부 부드러움. 자궁 크기 임신 주수에 맞음. 초음파 검사: 자궁 내 임신 확인, 태아 심박동 양호.",
+        "extremity": "부종 없음."
+      },
+      "patientQuestion": "아기 건강하게 잘 키울 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "정상 임신"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(혈액형, 빈혈 검사, 감염 수치)",
+          "초음파 검사(태아 성장 확인)"
+        ],
+        "therapeutic": [
+          "엽산제 계속 복용",
+          "건강한 식습관 유지",
+          "정기적인 산전 진찰"
+        ]
+      }
+    }
+  ]
+}

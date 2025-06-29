@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 30,
+        "gender": "남성"
+      },
+      "situation": "30세 남성 김철수씨가 고열과 오한을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "100회/분",
+        "respiration": "20회/분",
+        "temperature": "39.8℃"
+      },
+      "chiefComplaint": "열이 너무 심하고 몸이 떨려요.",
+      "history": {
+        "onset": "5일 전",
+        "location": "전신",
+        "duration": "간헐적",
+        "course": "열이 오르락내리락하고, 오한이 심하게 동반됨.",
+        "experience": "처음",
+        "character": "39℃ 이상의 고열이 지속되며, 땀을 많이 흘림. 해열제 복용 후 일시적으로 호전되나 다시 열이 오름.",
+        "associatedSymptoms": {
+          "general": "오한(+), 발열(+), 두통(+), 근육통(+), 피로감(+), 식욕부진(+)",
+          "digestive": "구토(-), 설사(-), 복통(-)",
+          "respiratory": "기침(-), 가래(-), 콧물(-)",
+          "other": "전신 권태감, 밤에 땀을 많이 흘림"
+        },
+        "factors": "1주일 전 아프리카 케냐 여행 경험(+).  모기 물린 기억 있음(+).  주변 사람 중 유사 증상자 없음(-).",
+        "pastHistory": {
+          "medical": "특이 사항 없음",
+          "social": "흡연(-), 음주(가끔)",
+          "travel": "케냐 여행(1주일 전)"
+        }
+      },
+      "physicalExam": {
+        "general": "고열, 빈맥, 안색 창백, 땀을 많이 흘림.",
+        "heent": "결막 충혈(+), 경부 림프절 비대(-)",
+        "chest": "호흡음 청진 정상",
+        "abdomen": "복부 촉진시 통증 없음",
+        "extremity": "피부 발진(-)"
+      },
+      "patientQuestion": "이 병이 옮을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "말라리아",
+          "뎅기열",
+          "세균성 감염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "말라리아 혈액 검사",
+          "혈액 검사(CBC, 간기능 검사)",
+          "혈액 도말 검사"
+        ],
+        "therapeutic": [
+          "항말라리아제 투여",
+          "수액 공급",
+          "대증 치료"
+        ]
+      }
+    }
+  ]
+}

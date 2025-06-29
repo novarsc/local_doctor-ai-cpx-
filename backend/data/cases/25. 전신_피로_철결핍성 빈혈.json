@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김혜진",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 김혜진씨가 최근 심한 피로감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "90회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "너무 피곤하고 힘이 없어요.",
+      "history": {
+        "onset": "2개월 전",
+        "duration": "하루 종일 지속",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "쉽게 지치고 피곤하며, 집중력 저하와 어지럼증이 동반됨.  가벼운 운동에도 숨이 차고 심장이 두근거림.",
+        "associatedSymptoms": {
+          "general": "체중 감소(2kg)",
+          "digestive": "변비(+)",
+          "circulatory": "두근거림(+), 어지럼증(+), 호흡곤란(+, 계단 오르내리기 힘들 정도)",
+          "psychiatric": "우울감(+)",
+          "sleep": "수면 시간 충분(8시간 이상), 수면의 질 양호",
+          "endocrine": "월경과다(최근 2개월)"
+        },
+        "factors": "휴식을 취해도 피로감이 호전되지 않음.  철분이 풍부한 음식 섭취가 부족함.",
+        "pastHistory": {
+          "social": "직업: 사무직, 스트레스 중간, 흡연(-), 음주(월 1-2회 소주 1병)",
+          "obgyn": "월경 규칙적, 최근 2개월간 월경량 증가",
+          "other": "특이 과거력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "피부 창백, 결막 창백",
+        "heent": "눈, 귀, 코, 목 검진 정상",
+        "abdomen": "복부 촉진 정상",
+        "extremity": "부종 없음"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "철결핍성 빈혈",
+          "만성피로증후군"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "CBC, Iron study, Ferritin, TIBC"
+        ],
+        "therapeutic": [
+          "경구 철분제 처방",
+          "식이요법 상담(철분 섭취 증가)"
+        ]
+      }
+    }
+  ]
+}

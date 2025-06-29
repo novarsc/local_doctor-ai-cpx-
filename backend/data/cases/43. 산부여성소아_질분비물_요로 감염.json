@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 27,
+        "gender": "여자"
+      },
+      "situation": "27세 여자 김민지씨가 잦은 배뇨와 소변 시 통증을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "75회/분",
+        "respiration": "18회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "소변 볼 때 너무 아파요",
+      "history": {
+        "onset": "2일 전",
+        "duration": "계속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "[소변] 빈번/자주/따끔거림(+/+/+), 소변량 감소(-), 혈뇨(-), 악취(+). [통증] 하복부 통증(+), 옆구리 통증(-)",
+        "associatedSymptoms": "[전신] 발열/오한/두통/근육통(+/+/+/+). [소화기] 메스꺼움/구토/설사/변비(-/-/-/-). [비뇨기] 잔뇨감(-), 야뇨(-). [기타] 외음부 가려움(-)",
+        "factors": "과거 요로감염 병력(-), 성관계(+, 마지막 성관계 1일 전), 수분 섭취량 감소(+), 질 세척(-)",
+        "pastHistory": {
+          "medical": "특이 없음",
+          "medications": "없음",
+          "social": "직업: 사무직, 비흡연, 음주(주 1회 소량)",
+          "gyn": "초경 13세, 생리 주기 규칙적, 월경량 정상, 산부인과 과거력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감, 안색 좋지 않음",
+        "heent": "결막 충혈(-), 구강 건조(-), 림프절 종대(-)",
+        "abdomen": "압통(+, 하복부), 방사통(-), 복부팽만(-)",
+        "pelvic": "골반 내진 시 통증(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "약을 먹으면 빨리 나을 수 있나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "요로 감염",
+          "방광염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "소변 검사(일반 검사, 세균 배양, 감염 표지자)",
+          "혈액 검사(CBC, CRP)"
+        ],
+        "therapeutic": [
+          "항생제 처방(경구)",
+          "충분한 수분 섭취 권고",
+          "소변 배출 촉진",
+          "진통제 처방(필요시)"
+        ]
+      }
+    }
+  ]
+}

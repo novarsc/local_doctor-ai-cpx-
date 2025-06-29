@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김수진",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 김수진씨가 생리 전 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "118/76mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "생리 전에 기분이 너무 안 좋아요",
+      "history": {
+        "onset": "매달 생리 시작 1주일 전",
+        "duration": "5일",
+        "course": "매달 반복",
+        "experience": "5년 이상 지속",
+        "character": "자의로 내원, 평소 활발한 성격, 대인관계 양호, 결혼 2년차, 직업: 간호사, 스트레스 중간 정도",
+        "associatedSymptoms": {
+          "digestive": "변비(+), 소화불량(+)",
+          "psychiatric": "우울/불안/초조(+/+/+)\n식욕 변화 없음\n수면 장애(+, 불면증)\n피로감(+)\n집중력 저하(+)",
+          "endocrine": "유방 압통(+)",
+          "gynecologic": "생리통(+)"
+        },
+        "factors": "생리 주기와 관련 있음(+)",
+        "pastHistory": {
+          "social": "음주(+, social), 흡연(-), 운동(주 2회)",
+          "family": "가족력 없음",
+          "obgyn": "월경 주기 28일, 생리 기간 5일"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적",
+        "heent": "정상",
+        "chest": "정상",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "어떻게 하면 증상을 완화할 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "PMS"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "PMS 증상 일기 작성"
+        ],
+        "therapeutic": [
+          "생활 습관 개선(규칙적인 운동, 충분한 수면)",
+          "식이요법(카페인, 알코올 섭취 줄이기)",
+          "진통제(필요시)",
+          "경구피임약(고려)"
+        ]
+      }
+    }
+  ]
+}

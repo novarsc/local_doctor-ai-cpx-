@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 60,
+        "gender": "남자"
+      },
+      "situation": "60세 남자 김철수씨가 오른쪽 종아리 통증과 부종으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "오른쪽 종아리가 아파요",
+      "history": {
+        "onset": "3일 전",
+        "duration": "3일째 지속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "오른쪽 종아리에 뻐근한 통증과 함께 부종이 발생, 움직일 때 통증이 심해짐",
+        "associatedSymptoms": {
+          "general": "발열/피로/체중 변화(-/-/-), 부종(+, 오른쪽 종아리)",
+          "respiratory": "흉통/기침/가래/쌕쌕거림(-/-/-)",
+          "cardiovascular": "가슴 두근거림(-)",
+          "digestive": "복통/구토/설사(-/-/-)"
+        },
+        "factors": "움직임에 따라 통증 악화, 휴식 시 완화",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "trauma_surgery": "최근 큰 외상이나 수술 없음",
+          "medications": "고혈압 약, 당뇨병 약",
+          "social": "흡연(+, 30갑년), 음주(+, 매일 소주 1병)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "Vital sign stable",
+        "heent": "눈/구강/귀/코/목(-/-/-/-/-), 림프절(-)",
+        "chest": "흉부 시진/청진 정상",
+        "extremity": "오른쪽 종아리 부종(+), 압통(+), 발적(+), Homans' sign(+)",
+        "neurological": "신경학적 검사 정상"
+      },
+      "patientQuestion": "이 병이 심각한 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "DVT"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "다리 정맥 초음파",
+          "D-dimer 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "항응고제 투여",
+          "다리 거상",
+          "압박 스타킹 착용 권고"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 박철수씨가 배뇨장애와 혈뇨를 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "소변 보기가 힘들고 소변에 피가 섞여 나와요.",
+      "history": {
+        "onset": "2개월 전",
+        "course": "점차 악화",
+        "experience": "과거에는 없었음",
+        "character": "[양] 소량, [색] 붉은색, [냄새] 특이 없음, [거품] 없음, 소변 줄기 약함, 배뇨 후 잔뇨감 있음",
+        "associatedSymptoms": {
+          "general": "체중 감소(5kg), 야간 발한(+), 피로감(+)",
+          "digestive": "변비(+)",
+          "renal_urinary": "빈뇨(+), 야간뇨(+), 배뇨통(-), 옆구리 통증(-)",
+          "other": "골반 통증(-)"
+        },
+        "factors": "흡연(30갑년), 가족력(형제 전립선암 병력)",
+        "pastHistory": {
+          "medical": "고혈압(10년 전 진단), 당뇨병(5년 전 진단)",
+          "medications": "고혈압 약 복용(Amlodipine 5mg 1일 1회), 당뇨약 복용(Metformin 500mg 1일 2회)",
+          "social": "흡연(30갑년), 음주(주 2회 소주 1병)",
+          "family": "형제: 전립선암 병력"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈/귀/코/목/인후(-/-/-/-/-)",
+        "abdomen": "복부 촉진: 무통성, DRE: 전립선 비대, 경결 병변 촉지",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "전립선암인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "전립선암",
+          "전립선 비대증",
+          "방광암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "PSA 검사",
+          "전립선 초음파 검사",
+          "전립선 생검",
+          "소변 검사",
+          "CT 검사"
+        ],
+        "therapeutic": [
+          "약물 치료(알파 차단제 고려)",
+          "수술적 치료(필요시)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 9,
+      "patientProfile": {
+        "name": "박지후",
+        "age": "7세",
+        "gender": "남아"
+      },
+      "situation": "키가 작다는 이유로 부모님과 함께 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "100/60mmHg",
+        "heartRate": "75회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "아이 키가 또래보다 작아서 걱정입니다.",
+      "history": {
+        "growthAndDevelopment": {
+          "growth": "키 105cm (10%), 몸무게 18kg (25%). 최근 1년간 키 성장 속도가 느리다.",
+          "development": "언어, 인지, 사회성 발달은 정상이다."
+        },
+        "perinatalHistory": "38주, 제왕절개, 출생 시 체중 2.8kg. 출생 시 키는 평균이었다.",
+        "pastHistory": "특이 소아과 질환 없음. 감기 증상을 종종 앓았으나 심각한 질환은 없었다.",
+        "familyHistory": "아버지 170cm, 어머니 155cm. 가족 중 성장 장애 병력 없음.",
+        "environment": {
+          "nutrition": "식사는 잘 하지만 편식이 심하며 야채 섭취가 부족하다.",
+          "sleep": "수면 시간은 규칙적이다. 평균 9시간 수면."
+        }
+      },
+      "physicalExam": "신체 검진상 특이 소견 없음.",
+      "patientQuestion": "아이의 키가 작은 이유와 치료 방법에 대해 알고 싶습니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "체질적 성장 지연",
+          "영양 불균형"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "성장 호르몬 검사",
+          "갑상선 기능 검사",
+          "골연령 검사",
+          "영양 상태 평가"
+        ],
+        "treatment": [
+          "영양 섭취 개선 상담",
+          "규칙적인 운동 권장",
+          "충분한 수면 확보",
+          "정기적인 성장 관찰"
+        ],
+        "education": [
+          "체질적 성장 지연에 대한 설명 및 안심시키기",
+          "균형 잡힌 영양 섭취의 중요성 강조",
+          "정기적인 진료의 필요성 강조"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "최수지",
+        "age": 48,
+        "gender": "여자"
+      },
+      "situation": "오른쪽 윗니 통증과 콧물로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/75mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "37.2℃"
+      },
+      "chiefComplaint": "오른쪽 윗니 통증, 콧물",
+      "history": {
+        "onset": "3일 전",
+        "course": "점점 심해짐",
+        "character": "오른쪽 윗어금니 통증, 욱신거림, 압통(+), 콧물(누런색), 코막힘(+, 오른쪽), 후비루(+)",
+        "associatedSymptoms": {
+          "general": "발열(+, 37.5℃), 오한(+)",
+          "neuro": "두통(+, 오른쪽 안면부), 안면통(+, 오른쪽 뺨)",
+          "respiratory": "기침(-)",
+          "olfactory": "후각 저하(+, 오른쪽)"
+        },
+        "factors": "치아 통증은 찬 음식 섭취 시 악화",
+        "pastHistory": {
+          "medical": "고혈압(-), 당뇨병(-)",
+          "dental": "오른쪽 윗어금니 충치 치료 이력 있음 (약 6개월 전)",
+          "social": "흡연(-), 음주(월 1~2회)",
+          "family": "특이 사항 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "오른쪽 상악치아 압통(+), 치은 부종(+), 오른쪽 비강 내 누런 콧물 관찰, 비강 점막 부종 및 발적(+, 오른쪽)"
+      },
+      "patientQuestion": "치아 때문에 콧물이 나는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "치성 부비동염",
+          "급성 부비동염",
+          "치주질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "구강 내 검사",
+          "파노라마 방사선 촬영",
+          "부비동 CT",
+          "비강 내시경"
+        ],
+        "therapeutic": [
+          "항생제",
+          "진통소염제",
+          "비강 세척",
+          "필요시 치과 진료"
+        ]
+      }
+    }
+  ]
+}

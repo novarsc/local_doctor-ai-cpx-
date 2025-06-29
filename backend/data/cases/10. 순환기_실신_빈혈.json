@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "이지혜",
+        "age": 35,
+        "gender": "여자"
+      },
+      "situation": "극심한 피로감과 어지러움으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "80회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "몸이 너무 피곤하고 어지러워요",
+      "history": {
+        "onset": "2주 전부터",
+        "location": "일상생활 중",
+        "duration": "지속적",
+        "experience": "최근 2주 동안 심한 피로감과 어지러움을 느끼고 있으며, 계단을 오르내릴 때 더 심해진다고 함.  두통이나 메스꺼움은 없다고 함.  월경량은 평소와 같다고 함.",
+        "character": {
+          "preSyncope": "어지러움(+), 숨가쁨(-), 가슴 두근거림(-)",
+          "syncope": "실신(-)",
+          "postSyncope": "피로감(+), 팔다리 저림(-)"
+        },
+        "associatedSymptoms": {
+          "general": "발열/오한/피로/식은땀/체중감소(-/-/+/+/-)",
+          "circulatory": "두근거림/호흡곤란(-/-)",
+          "gi": "설사/구토/혈변/흑색변/토혈(-/-/-/-/-)",
+          "respiratory": "가슴 통증(-)",
+          "renal": "다음/다뇨/다갈(-/-/-), 혈뇨(-)",
+          "neuro": "두통/시야장애/보행장애/팔다리 힘 빠짐(-/-/-/-)",
+          "psych": "죽을 것 같은 공포감/불안(-/-)"
+        },
+        "factors": "운동 후 악화(+),  휴식 후 호전(+)"
+      },
+      "pastHistory": {
+        "surgical": "없음",
+        "medications": "없음",
+        "social": "술(1주에 1~2회 소주 1병), 담배(1일 1갑), 커피(1일 3잔). 최근 스트레스 증가(직장 문제)"
+      },
+      "physicalExam": {
+        "general": "안색 창백, 피로감 관찰됨",
+        "heent": "결막 창백(+), 구강 점막 창백(+),  경부 림프절 비대(-)",
+        "chest": "심음 및 폐음 청진 정상",
+        "extremity": "말초 맥박 촉진 양호,  부종(-)"
+      },
+      "patientQuestion": "왜 이렇게 피곤하고 어지러운 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "빈혈",
+          "철 결핍성 빈혈"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "CBC (Complete Blood Count)",
+          "철분 수치 검사",
+          "위내시경"
+        ],
+        "therapeutic": [
+          "철분제 처방",
+          "충분한 휴식 권고",
+          "철분 섭취 증가를 위한 식이 지도"
+        ]
+      }
+    }
+  ]
+}

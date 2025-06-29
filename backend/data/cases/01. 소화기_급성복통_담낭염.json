@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 65,
+        "gender": "남자"
+      },
+      "situation": "오른쪽 상복부 통증으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "38.2℃"
+      },
+      "chiefComplaint": "배가 너무 아파요.",
+      "history": {
+        "onset": "어제 저녁부터",
+        "location": "오른쪽 상복부",
+        "duration": "지속적이며 점점 심해짐",
+        "course": "어제 저녁부터 시작된 오른쪽 상복부 통증은 처음에는 참을만했으나, 점차 심해져 잠을 잘 수 없을 정도가 되었다.  오늘 아침에는 구토를 2회 했다.",
+        "experience": "이전에는 비슷한 증상을 경험한 적이 없다.",
+        "character": "심한 콕콕 찌르는 듯한 통증, NRS 8점.",
+        "radiation": "오른쪽 어깨로 퍼지는 듯한 느낌",
+        "associatedSymptoms": {
+          "general": "오한과 발열이 있다.",
+          "gi": "식욕부진, 구역, 구토(담즙성 구토 2회).",
+          "other": "소변을 잘 못보고 있다."
+        },
+        "aggravatingFactors": "깊게 숨을 쉴 때, 움직일 때",
+        "relievingFactors": "가만히 누워 있을 때 다소 완화",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증 진단받고 약 복용 중.",
+          "medications": "고혈압 약, 고지혈증 약 복용 중.",
+          "social": "금주, 금연.",
+          "other": "정기적인 건강검진은 받고 있다.  최근 1년 동안 체중이 5kg 증가하였다."
+        }
+      },
+      "physicalExam": {
+        "abdomen": "오른쪽 상복부 압통 및 반발압통이 심하다. Murphy's sign 양성.  장음 감소."
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "담낭염",
+          "담석증",
+          "급성췌장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "복부 초음파",
+          "혈액 검사 (CBC, Liver function test, Amylase, Lipase)",
+          "CRP, ESR"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "진통제",
+          "항생제",
+          "금식"
+        ]
+      }
+    }
+  ]
+}

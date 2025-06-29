@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김영수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김영수씨가 갑작스러운 호흡곤란으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "110회/분",
+        "respiration": "25회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "숨을 쉴 수가 없어요",
+      "history": {
+        "onset": "2시간 전",
+        "duration": "지속",
+        "course": "점점 심해짐",
+        "experience": "처음",
+        "character": "갑자기 숨이 차서 말하기도 힘들고, 가슴이 답답하고 쥐어짜는 듯한 통증이 있다고 함",
+        "associatedSymptoms": {
+          "general": "발열/오한/피로/체중변화(-/-/-/-), 부종(오른쪽 다리)",
+          "respiratory": "흉통(+, 칼로 찌르는 듯한 갑작스러운 통증, NRS 8점), 기침/가래/쌕쌕거림(-/-/-)",
+          "psychiatric": "죽을 것 같은 공포감(+), 불안(+) "
+        },
+        "factors": "움직일 때 악화, 누워있을 때 악화",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병",
+          "trauma_surgery": "2주 전에 오른쪽 다리 골절 수술을 받았으며, 현재는 퇴원 후 가정에서 요양 중임",
+          "medications": "고혈압 약, 당뇨병 약, 진통제",
+          "social": "흡연(+, 30갑년), 음주(-), 운동(-) ",
+          "family": "부친: 심근경색으로 사망",
+          "obgyn": ""
+        }
+      },
+      "physicalExam": {
+        "general": "호흡곤란, 불안감, 빈맥, 혈압 상승, 오른쪽 다리 부종",
+        "heent": "눈/구강(-/-), 갑상샘/림프절(-/-), 피부 긴장도/부종(-/+) 오른쪽 다리",
+        "chest": "흉부 시진/촉진/타진/청진(-/-/-/-), 심음(-)",
+        "extremity": "오른쪽 다리 압통(+), 붉은 반점(+) "
+      },
+      "patientQuestion": "제가 왜 이렇게 숨이 차는 거죠? 죽는 건 아니겠죠?",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐색전증(PTE)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 CT",
+          "다리 정맥 초음파",
+          "심전도",
+          "동맥혈 가스 분석",
+          "D-dimer"
+        ],
+        "therapeutic": [
+          "산소 공급",
+          "항응고제 투여",
+          "입원 치료"
+        ]
+      }
+    }
+  ]
+}

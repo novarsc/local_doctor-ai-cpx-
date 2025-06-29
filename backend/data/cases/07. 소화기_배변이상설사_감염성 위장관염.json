@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 25,
+        "gender": "남자"
+      },
+      "situation": "심한 설사와 구토로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "90회/분",
+        "respiration": "18회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "설사와 구토가 너무 심해요.",
+      "history": {
+        "onset": "어제 저녁",
+        "duration": "지속 중",
+        "course": "어제 저녁부터 설사와 구토가 시작되었고, 점점 심해지고 있다.",
+        "character": "물 설사, 하루 8회 이상, 구토는 3회 정도. 혈변은 없다.",
+        "associatedSymptoms": {
+          "general": "열/오한/피로/부종(-/+/-/-)",
+          "gi": "A/N/V/C/D(+/+/+/+/+), 복통(+, 심하지 않고 쥐어짜는 듯한 느낌), H/M/H(-/-/-), 항문 통증(-)",
+          "dehydration": "어지러움/목마름(++/+), 소변량 감소(+)",
+          "endocrine": "두근거림/더위불내성(-/-)"
+        },
+        "factors": "어제 저녁 회식에서 회와 술을 많이 마셨다. 회식에 참석한 다른 사람들도 비슷한 증상을 호소하는 사람들이 있다.",
+        "pastHistory": {
+          "events": "특이 사항 없음",
+          "medical": "고혈압/당뇨/결핵/간염(-/-/-/-)",
+          "medications": "없음",
+          "social": "흡연(-), 음주(+, 어제 과음)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정, 약간의 탈수 증상 보임",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "abdomen": "압통(+, 특정 부위 없이 전반적으로 민감함), 반발압통(-), 장음(+)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이게 무슨 병인가요? 얼마나 더 아플까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "감염성 위장관염",
+          "식중독"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "대변 검사",
+          "혈액 검사"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "대증 치료 (지사제, 항구토제)"
+        ]
+      }
+    }
+  ]
+}

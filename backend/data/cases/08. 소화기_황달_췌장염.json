@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 50,
+        "gender": "남자"
+      },
+      "situation": "심한 복통으로 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "38.5℃"
+      },
+      "chiefComplaint": "배가 너무 아파요",
+      "history": {
+        "onset": "6시간 전",
+        "location": "상복부",
+        "duration": "6시간 전부터 지속적으로 심해짐",
+        "course": "갑자기 심한 복통 발생 후 지속적으로 심해짐. 구토 1회 있었음.",
+        "experience": "처음",
+        "character": "심한 격렬한 통증, 숨쉴 때 더 심해짐",
+        "associatedSymptoms": {
+          "general": "발열/오한(+/+), 오한, 메스꺼움(+), 구토(+), 식욕 감소(-), 피로(+)",
+          "gi": "복통(+), 메스꺼움(+), 구토(+), 설사(-), 변비(-)",
+          "respiratory": "호흡곤란(-)",
+          "renal": "소변색 변화(-)"
+        },
+        "factors": "과음(+, 어제 소주 5병), 고지방 음식 섭취(+, 어제 삼겹살 과다 섭취), 운동(-)",
+        "pastHistory": {
+          "events": "수술 이력(-), 알레르기(-)",
+          "medical": "고혈압(+), 고지혈증(+)",
+          "medications": "고혈압약, 고지혈증약 복용 중",
+          "social": "흡연(+, 하루 1갑), 음주(+, 주 3회 이상 과음), 직업(자영업)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "결막 황달(-), 혈압 140/90mmHg",
+        "abdomen": "압통 및 반발압통 상복부에 심하게 나타남. 복부팽만(+), 장음 감소",
+        "extremity": "말초부종(-)"
+      },
+      "patientQuestion": "이렇게 아픈데 괜찮을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 췌장염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(amylase, lipase, CRP, WBC)",
+          "복부 CT",
+          "복부 초음파"
+        ],
+        "therapeutic": [
+          "수액요법",
+          "진통제",
+          "위관 삽입",
+          "공격적 통증 관리",
+          "금주 및 금식"
+        ]
+      }
+    }
+  ]
+}

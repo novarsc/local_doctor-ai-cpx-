@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민서",
+        "age": "36개월",
+        "gender": "여아"
+      },
+      "situation": "아이의 말이 늦어 걱정되어 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "80회/분",
+        "respiration": "20회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "아이 말이 너무 늦어요.",
+      "history": {
+        "onset": "24개월 건강검진에서 언어발달이 지연되었다는 소견을 받음.  최근 어린이집에서 친구들과 소통에 어려움을 겪는다는 이야기를 들음.",
+        "growthAndDevelopment": {
+          "growth": "키와 몸무게는 정상 성장 곡선 내에 있음.",
+          "development": "대근육, 소근육 발달은 정상이나 언어발달이 지연. 단어를 몇 개 말하지만 문장으로 말하지 못하며, 의사소통에 어려움을 보임.  인지 발달은 또래에 비해 다소 낮음.",
+          "vaccination": "예방접종은 정상적으로 완료됨."
+        },
+        "perinatalHistory": "38주 만삭아로 자연분만. 출생 시 체중 및 신장은 정상. 임신 및 분만 과정에 특이 사항 없음.",
+        "neonatalHistory": "신생아기 특이 소견 없음. 신생아 대사선별검사 및 청력검사 정상.",
+        "environment": {
+          "caregiver": "부모 모두 맞벌이.  할머니가 주로 양육하며, 어린이집에 다님.",
+          "nutrition": "균형 잡힌 식사를 하고 있으며, 편식은 없음.",
+          "sleep": "수면 시간 및 패턴은 정상."
+        },
+        "hearing": "청력검사 정상.",
+        "familyHistory": "가족력에 발달장애 관련 병력은 없음."
+      },
+      "physicalExam": "신체 검진상 특이 소견 없음.",
+      "patientQuestion": "우리 아이가 언어발달장애인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "언어발달장애",
+          "특발성 언어발달 지연"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "정밀 언어 검사 (언어이해 및 표현능력 평가)",
+          "인지 발달 검사",
+          "청력 재검사 (필요시)"
+        ],
+        "therapeutic": [
+          "언어치료 (개별 또는 집단치료)",
+          "놀이치료 (필요시)",
+          "부모 교육 및 상담"
+        ]
+      }
+    }
+  ]
+}

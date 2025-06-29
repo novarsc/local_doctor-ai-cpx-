@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김영수",
+        "age": 62,
+        "gender": "남자"
+      },
+      "situation": "62세 남자 김영수씨가 2주째 지속되는 기침과 발열로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "90회/분",
+        "respiration": "22회/분",
+        "temperature": "38.1℃"
+      },
+      "chiefComplaint": "2주째 기침과 열이 나요",
+      "history": {
+        "onset": "2주 전",
+        "duration": "2주째 지속",
+        "course": "점차 심해짐",
+        "experience": "처음",
+        "character": "마른 기침, 가래는 없음, 밤에 열이 더 심함, 낮에는 괜찮음",
+        "associatedSymptoms": {
+          "general": "식은땀(+), 체중감소(3kg, 2달 전부터), 권태감(+), 오한(+)",
+          "respiratory": "기침(+, 마른기침), 가래(-), 흉통(-), 호흡곤란(-)",
+          "digestive": "식욕부진(+), 메스꺼움(-), 구토(-), 설사(-), 변비(-)",
+          "circulatory": "두근거림(-), 어지러움(-)",
+          "psychiatric": "불안감(+)",
+          "sleep": "수면장애(+), 잠을 잘 못잠"
+        },
+        "factors": "특별한 위험요인 없음, 최근 해외여행 없음, 흡연력 30갑년",
+        "pastHistory": {
+          "social": "흡연 30갑년, 음주 10년 전부터 중단, 직업: 은퇴한 교사, 가족력: 특이사항 없음",
+          "medical": "고혈압 진단받은 적 있음(현재 약 복용 중단)",
+          "other": "최근 건강검진에서 특이사항 없었음"
+        }
+      },
+      "physicalExam": {
+        "general": "열이 있고, 기침을 자주 함, 호흡수 증가",
+        "heent": "결막 충혈(-), 림프절 종창(-)",
+        "chest": "호흡음 감소, 수포음(-)",
+        "abdomen": "압통(-), 반발압통(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "폐결핵"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "객담 검사(항산균 검사, 세균 배양)",
+          "혈액 검사(혈액세포 수, 염증 수치)",
+          "PPD skin test"
+        ],
+        "therapeutic": [
+          "항결핵제(이소니아지드, 리팜핀, 피라지나마이드, 에탐부톨) 투여"
+        ]
+      }
+    }
+  ]
+}

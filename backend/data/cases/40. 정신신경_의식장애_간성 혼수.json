@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 58,
+        "gender": "남자"
+      },
+      "situation": "58세 남자 김철수씨가 의식 저하로 보호자와 함께 응급실에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "90/60mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "의식이 혼미해요",
+      "history": {
+        "onset": "오늘 아침",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "아침에 일어나지 못하고 의식이 혼미해짐.  구토는 없었으나, 냄새가 심하게 났다고 보호자가 진술함.",
+        "associatedSymptoms": "[전신] 발열/오한/체중 변화/피로(-/-/-/-) [소화] 구토(-), 복통(-), 설사(-) [신경] 감각 이상(-), 두통(-), 시야 변화(-), 팔다리 힘 빠짐(-), 말 어눌(-)",
+        "factors": "알코올성 간질환 병력이 있으며, 최근 술을 과하게 섭취함. 평소 식사도 불규칙적이었음.",
+        "pastHistory": {
+          "medical": "알코올성 간경변증(+), 당뇨(-), 고혈압(-), 고지혈증(-)",
+          "trauma_surgery": "없음",
+          "medications": "없음",
+          "social": "알코올 섭취(+, 매일 소주 2병 이상), 흡연(+, 하루 한 갑)"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S: 불안정, 의식 저하, 혈압 저하, 빈맥, 호흡 곤란.  간성 냄새(+) ",
+        "heent": "결막 황달(-), 구강 점막 건조(+)",
+        "neuro": "GCS 10점 (E3 V4 M3), 경부 강직(-), Kernig sign(-)",
+        "abdomen": "간 비대(+), 비장 비대(-), 복수(-)",
+        "extremity": "말초 부종(-)"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "간성 혼수",
+          "알코올 금단 증상"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액 검사 (혈액 가스 분석, 간 기능 검사, 암모니아 농도 측정)",
+          "복부 초음파"
+        ],
+        "therapeutic": [
+          "수액 요법",
+          "락툴로스 투여",
+          "저단백 식이요법",
+          "알코올 섭취 중단",
+          "전해질 교정"
+        ]
+      }
+    }
+  ]
+}

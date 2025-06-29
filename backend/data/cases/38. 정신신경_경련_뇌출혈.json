@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 65,
+        "gender": "남자"
+      },
+      "situation": "65세 남자 김민수씨가 의식 소실 및 오른쪽 팔다리 마비 증상을 보이며 응급실로 후송되었다.",
+      "vitalSigns": {
+        "bloodPressure": "180/100mmHg",
+        "heartRate": "90회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "갑자기 쓰러졌대요",
+      "history": {
+        "onset": "30분 전",
+        "location": "집에서 앉아 있다가",
+        "duration": "의식 소실은 5분 정도 지속",
+        "experience": "처음",
+        "character": "의식 소실 후 오른쪽 팔다리 마비 발생. 구토(+).  목격자(아내)에 따르면, 경련은 없었음.  입술 움직임은 있었으나 말을 하지 못함.",
+        "associatedSymptoms": "[전신] 두통(+, 심한 정도), 메스꺼움(+), 구토(+), [신경] 오른쪽 팔다리 마비(+), 언어장애(+), 의식 소실(+), [심혈관] 가슴 통증(-)",
+        "factors": "고혈압 병력 있음. 최근 과도한 스트레스",
+        "pastHistory": {
+          "medical": "고혈압(10년 경력), 고지혈증",
+          "trauma_surgery": "없음",
+          "social": "흡연(+, 하루 1갑), 음주(+, 소주 1병/주 2회), 운동(-), 스트레스(+)"
+        }
+      },
+      "physicalExam": {
+        "general": "의식은 명료하나, 오른쪽 팔다리 마비.  혈압 상승.",
+        "heent": "두부 외상 없음.",
+        "neuro": "오른쪽 상지 및 하지 근력 저하(4/5).  오른쪽 얼굴 근육 약화.  깊은 힘줄 반사 비대칭적(오른쪽이 약함).  병적 반사 없음.",
+        "extremity": "오른쪽 팔다리 운동 범위 감소, 감각 저하."
+      },
+      "patientQuestion": "제가 괜찮아질 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "뇌출혈"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "뇌 CT",
+          "뇌 MRI",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "혈압 조절",
+          "수액 요법",
+          "뇌출혈 부위에 따른 신경외과적 수술 고려"
+        ]
+      }
+    }
+  ]
+}

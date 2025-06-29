@@ -1,0 +1,99 @@
+checklist:
+  topic_kr: "질 분비물"
+  topic_en: "Vaginal Discharge"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - 분비물의 양 (Amount of discharge): 많음, 적음, 평소와 비슷 (Large, small, usual)
+            - 분비물의 색깔 (Color of discharge): 투명, 흰색, 노란색, 녹색, 회색, 갈색 (Clear, white, yellow, green, gray, brown)
+            - 분비물의 냄새 (Odor of discharge): 없음, 비린내, 악취 (None, fishy, foul)
+            - 분비물의 점도 (Consistency of discharge):  watery, creamy, thick
+            - 증상 지속 기간 (Duration of symptoms)
+        - subtitle_kr: "동반 증상 확인"
+          subtitle_en: "Assessment of Associated Symptoms"
+          details: |
+            - 가려움증 (Itching/Pruritus)
+            - 작열감 (Burning sensation)
+            - 통증 (Pain/Discomfort)
+            - 성교통 (Dyspareunia)
+            - 배뇨통 (Dysuria)
+            - 빈뇨 (Frequent urination)
+            - 발진 (Rash)
+            - 하복부 통증 (Lower abdominal pain)
+            - 발열 (Fever)
+            - 오한 (Chills)
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - 과거 질염 병력 (History of vaginal infections)
+            - 성병 과거력 (History of STIs)
+            - 최근 성관계 (Recent sexual activity)
+            - 피임 방법 (Contraceptive methods)
+            - 질 세척제 사용 (Use of vaginal douches)
+            - 당뇨병 (Diabetes)
+            - 면역 저하 (Immunosuppression)
+            - 항생제 사용 (Antibiotic use)
+
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - 외음부 시진 (Inspection of external genitalia): 발적, 부종, 병변 유무 확인 (Check for redness, swelling, lesions)
+            - 질경 검사 (Speculum examination): 분비물 확인, 질벽 및 자궁경부 관찰 (Observe discharge, vaginal walls, and cervix)
+        - subtitle_kr: "특수 진찰"
+          subtitle_en: "Special Maneuvers"
+          details: |
+            - 필요시 bimanual exam
+
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "Bacterial Vaginosis"
+            - "Vulvovaginal Candidiasis (Yeast Infection)"
+            - "Trichomoniasis"
+            - "Atrophic Vaginitis"
+            - "Allergic or Irritant Vaginitis"
+            - "Foreign Body"
+            - "Cervicitis"
+            - "Pelvic Inflammatory Disease (PID)"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "분비물 검사"
+              category_en: "Vaginal Discharge Tests"
+              tests:
+                - "Wet mount microscopy"
+                - "pH measurement"
+                - "Whiff test (amine test)"
+                - "KOH preparation"
+            - category_kr: "필요시 추가 검사"
+              category_en: "Further Tests if needed"
+              tests:
+                - "STD testing (Chlamydia, Gonorrhea, Trichomonas)"
+                - "Vaginal culture"
+
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: |
+            - 질 분비물의 원인과 치료법 설명 (Explain the cause and treatment of vaginal discharge)
+            - 성병 예방법 교육 (Educate on STI prevention)
+            - 질 세척제 사용 자제 교육 (Discourage the use of vaginal douches)
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: |
+            - 심한 복통 (Severe abdominal pain)
+            - 고열 (High fever)
+            - 악취가 심한 분비물 (Foul-smelling discharge)
+            - 비정상적인 출혈 (Abnormal bleeding)

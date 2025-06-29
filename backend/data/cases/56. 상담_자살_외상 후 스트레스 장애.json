@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "강민주",
+        "age": 28,
+        "gender": "여자"
+      },
+      "situation": "28세 여자 강민주씨가 불면증과 악몽으로 인한 심한 불안감을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "잠을 잘 수가 없어요. 악몽 때문에 너무 힘들어요.",
+      "suicideAssessment": {
+        "onset": "2개월 전",
+        "location": "집",
+        "ideation": {
+          "trigger": "강도 사건을 목격한 후",
+          "frequency": "매일 밤"
+        },
+        "plan": null,
+        "attempt": null
+      },
+      "psychiatricHistory": {
+        "premorbidPersonality": "성격이 온순하고 예민한 편이었으나, 사건 이후로 극도로 예민해짐.",
+        "relationships": {
+          "family": "부모님과는 관계가 좋으나, 사건 이후 부모님께 자신의 상태를 말하기 어려워 함.",
+          "peer": "친구들과의 관계는 소원해짐."
+        },
+        "depressionSymptoms": "우울/흥미 감소/식욕 감소/수면 변화/피로감(+/-/+/+/+), 자살/집중력/기억력 감소/무가치감/죄책감(-/-/+/+), 불면(매일 밤 잠 못 이룸, 잦은 악몽)",
+        "otherSymptoms": "환시/환청/조증/충동성(-/-/-/-)"
+      },
+      "pastHistory": {
+        "social": "흡연(-), 음주(-), 직업: 간호사"
+      },
+      "physicalExam": {
+        "general": "V/S: stable",
+        "heent": "눈(-), 구강(-), 갑상샘/림프절(-/-)",
+        "skin": "피부 긴장도(-)",
+        "chest": "심음/호흡음(-/-)",
+        "abdomen": "복부 시/촉/타/청(-/-/-/-)",
+        "extremity": "특이 소견 없음"
+      },
+      "patientQuestion": "어떻게 하면 악몽을 꾸지 않고 잠을 잘 수 있을까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "외상 후 스트레스 장애"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "PTSD 척도 검사",
+          "신체 검사"
+        ],
+        "therapeutic": [
+          "약물 치료 (항불안제, 수면제)",
+          "정신 치료 (인지 행동 치료)"
+        ]
+      },
+      "specialNote": "사건에 대한 이야기를 꺼내는 것을 힘들어함. 환자의 심리 상태를 고려하여 천천히 접근해야 함."
+    }
+  ]
+}

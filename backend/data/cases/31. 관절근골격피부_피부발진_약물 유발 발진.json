@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 김민수씨가 전신 발진으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "온몸에 발진이 났어요.",
+      "history": {
+        "onset": "3일 전",
+        "location": "등에서 시작하여 전신으로 퍼짐",
+        "duration": "3일째 지속",
+        "course": "점점 범위가 넓어짐",
+        "experience": "처음",
+        "character": "[크기] 1cm 미만 [모양] 원형 [색] 붉은색\n가려움(+), 통증(-), 열감(-), 딱지/진물(-/-)",
+        "associatedSymptoms": {
+          "rheumatologic": "관절통(-)",
+          "other": "소화불량(+), 기침(-), 설사(-), 두통(-), 발열(-), 오한(-), 호흡곤란(-)"
+        },
+        "factors": "3일 전부터 새로운 고혈압약 복용 시작",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "medications": "새로운 고혈압약(3일전부터 복용 시작), 고지혈증약(장기 복용)",
+          "social": "흡연(+, 1갑/일), 음주(+, 소주 1병/주), 직업: 은퇴",
+          "other": "특이사항 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable, 전신에 1cm 미만의 원형 붉은색 발진 다수 관찰",
+        "heent": "눈/구강/귀/코/목(-/-/-/-/-)",
+        "chest_abdomen": "심폐음 정상, 복부 촉진 시 통증 없음, 발진 압통(-)",
+        "extremity": "말초부종(-)"
+      },
+      "patientQuestion": "이 발진이 심각한 건가요?  약을 끊어야 할까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "약물 유발 발진",
+          "알레르기성 접촉피부염",
+          "두드러기"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "피부생검",
+          "알레르기 검사"
+        ],
+        "therapeutic": [
+          "새로운 고혈압약 복용 중단",
+          "항히스타민제 처방",
+          "국소 스테로이드제 처방"
+        ]
+      }
+    }
+  ]
+}

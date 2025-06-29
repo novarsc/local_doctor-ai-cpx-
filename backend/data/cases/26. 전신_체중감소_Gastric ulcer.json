@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김철수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 김철수씨가 상복부 통증과 체중 감소를 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "속이 쓰리고 배가 아파요. 그리고 살이 빠진 것 같아요.",
+      "history": {
+        "onset": "2개월 전부터 상복부 통증 시작, 최근 1개월 동안 체중 감소",
+        "location": "상복부, 명치 부위 중심",
+        "course": "처음에는 간헐적인 통증이었으나 최근에는 지속적인 통증으로 악화됨.  체중은 약 5kg 감소.",
+        "character": "쓰라림과 압박감 동반, 음식 섭취 후 악화, 제산제 복용 시 일시적 호전.  체중 감소는 특별한 이유 없이 발생.",
+        "associatedSymptoms": {
+          "general": "식욕부진(+), 피로감(+), 발열/오한(-/-)",
+          "digestive": "속쓰림(+), 트림(+),  구토(-),  변비(-), 설사(-), 흑변(-),  식후 복통(+)",
+          "endocrine": "다음/다뇨/다갈(-/-/-),  두근거림(-)",
+          "respiratory": "기침/가래(-/-)",
+          "urinary": "다음/다뇨/거품뇨(-/-/-)",
+          "psychiatric": "불안/우울(-/-)"
+        },
+        "factors": "흡연 20갑년,  음주 주 2회 소주 1병",
+        "pastHistory": {
+          "medical": "고혈압(+),  고지혈증(+)",
+          "medications": "고혈압 약, 고지혈증 약 복용 중",
+          "social": "흡연 20갑년, 음주 주 2회 소주 1병, 직업: 회사원, 스트레스 많음",
+          "family": "부친: 위암 병력",
+          "obgyn": "해당없음"
+        }
+      },
+      "physicalExam": {
+        "general": "영양상태 저하 소견",
+        "heent": "결막/구강 점막 창백(-/-)",
+        "abdomen": "상복부 압통(+),  반발압통(+),  복부 청진음 정상",
+        "extremity": "말초부종(-)"
+      },
+      "patientQuestion": "위암인지 걱정됩니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "위궤양",
+          "위염",
+          "위암"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "상부 위장관 내시경",
+          "혈액검사 (CBC, Liver function test, Renal function test)",
+          "헬리코박터균 검사"
+        ],
+        "therapeutic": [
+          "제산제 투여",
+          "H2 수용체 길항제 또는 양성자 펌프 억제제 투여",
+          "항생제 투여 (헬리코박터균 양성 시)"
+        ]
+      }
+    }
+  ]
+}

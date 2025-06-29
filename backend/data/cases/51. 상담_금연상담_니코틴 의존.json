@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박민수",
+        "age": 30,
+        "gender": "남자"
+      },
+      "situation": "30세 남자 박민수씨가 금연 상담을 위해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "담배를 끊고 싶어요.",
+      "smokingHistory": {
+        "amount": "하루 1.5갑 × 10년",
+        "motivation": "건강검진에서 폐 기능 저하 소견을 받았고, 최근 기침과 가래가 심해짐.  끊고 싶은 의지가 있음.",
+        "reason": "대학교 1학년 때 친구들 따라 시작. 스트레스 해소 및 사회생활 적응에 도움이 된다고 생각했음.",
+        "dependency": [
+          "아침 기상 후 30분 이내 흡연",
+          "금연 구역에서도 흡연 충동 느낌",
+          "스트레스 받을 때 흡연량 증가",
+          "아침 첫 담배가 가장 맛있음",
+          "하루 30개피(1.5갑)"
+        ],
+        "quitAttempts": "2년 전 1달 동안 금연 시도, 금단 증상으로 실패. 니코틴 패치 사용 경험 있으나 효과 없었음.",
+        "withdrawalSymptoms": "불안(+), 집중력 저하(+), 불면(+), 식욕 증가(+), 체중 증가(+), 기침/가래 악화(+/+) ",
+        "perception": {
+          "risk": "폐 건강 악화가 가장 걱정됨",
+          "reward": "건강해지고, 돈을 아낄 수 있음",
+          "roadblocks": "스트레스, 흡연하는 친구들과의 만남"
+        }
+      },
+      "pastHistory": {
+        "medical": "특이 사항 없음",
+        "social": "음주 (주 2회, 소주 2병), 직업: 회사원",
+        "family": "부모님 모두 비흡연자"
+      },
+      "associatedSymptoms": "만성 기침(+), 가래(+), 가끔 흉통(-), 호흡곤란(-) ",
+      "physicalExam": {
+        "general": "V/S: 안정적",
+        "heent": "정상 소견",
+        "skin": "정상 소견",
+        "abdomen": "정상 소견",
+        "extremity": "정상 소견"
+      },
+      "patientQuestion": "금연 성공률을 높이는 방법이 궁금합니다.",
+      "impression": {
+        "likelyDiagnoses": [
+          "니코틴 의존"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "폐 기능 검사"
+        ],
+        "therapeutic": [
+          "금연 상담",
+          "니코틴 대체 요법 (패치 또는 껌)",
+          "금연 지원 프로그램"
+        ]
+      }
+    }
+  ]
+}

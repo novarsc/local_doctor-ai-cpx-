@@ -1,0 +1,77 @@
+checklist:
+  topic_kr: "두근거림"
+  topic_en: "Palpitations"
+  sections:
+    - title_kr: "병력 청취"
+      title_en: "History Taking"
+      items:
+        - subtitle_kr: "주요 증상 평가"
+          subtitle_en: "Assessment of Chief Complaint"
+          details: |
+            - [두근거림의 시작 시기: 언제 처음 시작되었나요? (Onset: When did it start?)]
+            - [두근거림의 양상: 쿵쾅거림, 빠른 박동, 엇박자 등 어떤 느낌인가요? (Character: How does it feel? Pounding, rapid, irregular, etc.)]
+            - [두근거림의 빈도: 얼마나 자주 발생하나요? (Frequency: How often does it occur?)]
+            - [두근거림의 지속 시간: 한 번 발생하면 얼마나 지속되나요? (Duration: How long does it last each time?)]
+            - [두근거림의 강도: 얼마나 심하게 느껴지나요? (Severity: How intense is it?)]
+            - [두근거림을 유발하거나 악화시키는 요인: 특정 활동, 음식, 약물, 감정적 스트레스 등이 있나요? (Provoking/Aggravating factors: Any specific activities, foods, medications, or emotional stress?)]
+            - [두근거림을 완화시키는 요인: 특정 자세나 행동이 도움이 되나요? (Relieving factors: Any specific positions or actions that help?)]
+            - [동반 증상: 어지러움, 흉통, 호흡곤란, 실신 등 다른 증상이 함께 있나요? (Associated symptoms: Any other symptoms like dizziness, chest pain, shortness of breath, or syncope?)]
+        - subtitle_kr: "관련 과거력 및 위험 요인"
+          subtitle_en: "Relevant History and Risk Factors"
+          details: |
+            - [심혈관 질환 과거력 (History of cardiovascular disease)]
+            - [갑상선 질환 과거력 (History of thyroid disease)]
+            - [당뇨병, 고혈압, 고지혈증 등 만성 질환 병력 (History of chronic diseases such as diabetes, hypertension, hyperlipidemia)]
+            - [약물 복용력 (Medication history)]
+            - [카페인, 알코올, 흡연 등 생활 습관 (Lifestyle habits: caffeine, alcohol, smoking)]
+            - [가족력 (Family history)]
+    - title_kr: "신체 진찰"
+      title_en: "Physical Examination"
+      items:
+        - subtitle_kr: "필수 항목"
+          subtitle_en: "Essential Components"
+          details: |
+            - [활력 징후 측정 (Vital signs: blood pressure, heart rate, respiratory rate, temperature)]
+            - [심음 청진 (Cardiac auscultation: heart sounds, murmurs)]
+            - [경동맥 촉진 (Carotid artery palpation)]
+            - [갑상선 촉진 (Thyroid palpation)]
+            - [폐 청진 (Lung auscultation)]
+    - title_kr: "감별 진단 및 검사 계획"
+      title_en: "Differential Diagnosis & Workup Plan"
+      items:
+        - subtitle_kr: "주요 감별 진단"
+          subtitle_en: "Key Differential Diagnoses"
+          diagnoses:
+            - "[Arrhythmia]"
+            - "[Valvular Heart Disease]"
+            - "[Myocardial Ischemia]"
+            - "[Thyroid Disorders]"
+            - "[Anxiety/Panic Disorder]"
+            - "[Anemia]"
+            - "[Dehydration]"
+        - subtitle_kr: "초기 검사 계획"
+          subtitle_en: "Initial Workup Plan"
+          workup:
+            - category_kr: "혈액 검사"
+              category_en: "Blood Tests"
+              tests:
+                - "[Complete Blood Count (CBC)]"
+                - "[Comprehensive Metabolic Panel (CMP)]"
+                - "[Thyroid Function Test (TFT)]"
+            - category_kr: "심전도 검사"
+              category_en: "Electrocardiogram (ECG)"
+              tests:
+                - "[12-lead ECG]"
+            - category_kr: "영상 검사"
+              category_en: "Imaging"
+              tests:
+                - "[Echocardiography]"
+    - title_kr: "환자 교육 및 상담"
+      title_en: "Patient Education & Counseling"
+      items:
+        - subtitle_kr: "설명 및 교육"
+          subtitle_en: "Explanation & Education"
+          details: "[두근거림의 원인과 증상에 대한 설명 (Explanation of the causes and symptoms of palpitations)]"
+        - subtitle_kr: "경고 증상 안내"
+          subtitle_en: "Red Flag Signs"
+          details: "[흉통, 호흡곤란, 실신 등 응급 상황 발생 시 즉시 병원 방문 (Seek immediate medical attention if experiencing chest pain, shortness of breath, or syncope)]"

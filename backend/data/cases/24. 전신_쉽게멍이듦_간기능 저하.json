@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 65,
+        "gender": "남자"
+      },
+      "situation": "65세 남자 김민수씨가 오른쪽 상복부 통증과 황달을 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "오른쪽 갈비뼈 밑이 아프고 눈과 피부가 노래요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "오른쪽 상복부",
+        "duration": "2주간 지속",
+        "course": "점점 심해짐, 최근 며칠간 황달 발생",
+        "experience": "처음",
+        "character": "오른쪽 상복부 둔통, 식후 악화, 구역감 동반, 황달은 진행성",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중 감소(5kg, 3개월 전부터)",
+          "digestive": "식욕부진(+), 메스꺼움(+), 구토(-), 설사(-), 변비(-)",
+          "urinary": "소변색 변화(진한 갈색), 혈뇨(-)",
+          "neurological": "의식소실(-), 두통(-), 시야장애(-)",
+          "endocrine": "자색선조(-), 얼굴 동그래짐(-)",
+          "bleeding_tendency": "잇몸 출혈(+), 코피(+) 자주 발생"
+        },
+        "factors": "과거 알코올 남용력(20년 전까지), 최근 알코올 섭취 없음, 고지방 식단",
+        "pastHistory": {
+          "medical": "고혈압(10년 전 진단, 꾸준히 약 복용), 당뇨병(-)",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약(꾸준히 복용 중)",
+          "social": "과거 흡연력(20년 전 금연), 음주력(과거), 직업: 은퇴",
+          "family": "간질환 가족력(부친 간경변증으로 사망)"
+        }
+      },
+      "physicalExam": {
+        "general": "황달(+), 피부 건조(+)",
+        "heent": "결막 황색(+), 구강 점막 황색(+), 갑상선 비대(-), 경부 림프절 종대(-)",
+        "chest": "청진 소견 정상",
+        "abdomen": "오른쪽 상복부 압통(+), 간 비대(+), 비장 비대(-), 복수(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "제가 간암인가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "간경변증",
+          "알코올성 간질환",
+          "비알코올성 지방간 질환"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사(간기능 검사, 혈구 수치, 응고 기능 검사)",
+          "영상 검사(복부 초음파, CT)",
+          "간 생검(필요시)"
+        ],
+        "therapeutic": [
+          "알코올 섭취 금지",
+          "저염식, 저지방식",
+          "간 보호제 처방(필요시)"
+        ]
+      }
+    }
+  ]
+}

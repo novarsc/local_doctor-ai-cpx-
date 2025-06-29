@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박철수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 박철수씨가 극심한 불면증과 불안감을 호소하며 응급실로 내원하였다. 최근 프로포폴 사용을 중단한 사실이 확인되었다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "100회/분",
+        "respiration": "22회/분",
+        "temperature": "37.0℃"
+      },
+      "chiefComplaint": "잠을 못자겠고 너무 불안해요.",
+      "drugHistory": {
+        "drug": "프로포폴",
+        "history": "만성 통증 관리를 위해 6개월간 프로포폴을 정기적으로 투여받았다. 최근 의사의 권고로 프로포폴 사용을 중단.",
+        "currentUse": "중단한지 3일째",
+        "prescriptionSource": "정형외과",
+        "dependency": {
+          "quitAttempts": "의사의 권고에 따라 중단을 시도하였으나 금단증상으로 인해 어려움을 겪고 있음.",
+          "tolerance": "용량 증가는 없었으나, 효과 감소는 느꼈음.",
+          "withdrawal": "불면증, 불안, 떨림, 오심, 발한 등의 증상이 심하게 나타남."
+        },
+        "abuse": {
+          "interpersonalIssues": "가족과의 갈등 증가"
+        }
+      },
+      "associatedSymptoms": "불면증(+), 불안(+), 떨림(+), 오심(+), 발한(+), 근육통(-), 두통(-)",
+      "pastHistory": {
+        "medical": "고혈압, 허리 디스크",
+        "social": "흡연 20갑년, 음주 주 2회"
+      },
+      "physicalExam": {
+        "general": "불안해 보이는 상태, 땀을 많이 흘리고 있음.",
+        "heent": "눈꺼풀 떨림 관찰됨.",
+        "skin": "피부 발한(+)",
+        "chest": "심박수 증가, 흉통(-)",
+        "abdomen": "압통(-)",
+        "extremity": "떨림(+)"
+      },
+      "patientQuestion": "이 고통이 언제까지 지속될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "프로포폴 금단"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "혈액검사",
+          "심전도"
+        ],
+        "therapeutic": [
+          "벤조디아제핀 계열 약물 처방 (단기간 사용)",
+          "수면제 처방",
+          "정신과 진료 의뢰"
+        ]
+      }
+    }
+  ]
+}

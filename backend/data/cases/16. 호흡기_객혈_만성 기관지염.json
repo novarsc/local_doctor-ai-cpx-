@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "caseNumber": 10,
+      "patientProfile": {
+        "name": "최영수",
+        "age": 68,
+        "gender": "남자"
+      },
+      "situation": "68세 남자 최영수씨가 만성적인 기침과 가래 때문에 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "72회/분",
+        "respiration": "18회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "오래된 기침과 가래가 계속 됩니다.",
+      "history": {
+        "onset": "30년 전",
+        "location": "가슴",
+        "duration": "지속적",
+        "course": "점진적으로 악화",
+        "experience": "어릴 때부터 가끔 기침은 있었으나, 30년 전부터 기침과 가래가 심해짐",
+        "character": "가래는 주로 점액성, 때때로 황색, 혈담은 없음, 기침은 주로 아침에 심함",
+        "associatedSymptoms": {
+          "general": "체중 감소(-), 발열(-), 야간 발한(-)",
+          "respiratory": "호흡곤란(+, 계단 오르내릴 때), 흉통(-)",
+          "other": "만성 피로(+)"
+        },
+        "factors": "흡연(+, 40갑년), 먼지 노출(+, 과거 목수 일),  감기 자주 걸림(+)",
+        "pastHistory": {
+          "medical": "고혈압(+), 고지혈증(+) ",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(40갑년), 음주(소주 1병/주), 직업: 은퇴",
+          "family": "폐질환 병력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "체중 감소 없음, 호흡 시 숨소리 거침",
+        "heent": "정상",
+        "chest": "호흡음 감소, 수포음(+)",
+        "extremity": "말초 부종(-)"
+      },
+      "patientQuestion": "이 기침은 평생 가는 건가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "만성 기관지염",
+          "COPD"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "폐 기능 검사",
+          "흉부 X-ray"
+        ],
+        "therapeutic": [
+          "금연 상담",
+          "기관지 확장제",
+          "호흡 재활 치료",
+          "폐렴 예방 접종"
+        ]
+      }
+    }
+  ]
+}

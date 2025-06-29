@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 68,
+        "gender": "여자"
+      },
+      "situation": "고혈압 치료 중 지속적인 마른 기침으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "140/90mmHg",
+        "heartRate": "76회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "기침이 계속돼요.",
+      "history": {
+        "onset": "고혈압 약 복용 시작 2주 후",
+        "duration": "하루 종일",
+        "course": "지속됨",
+        "experience": "처음",
+        "character": "마른 기침",
+        "associatedSymptoms": {
+          "respiratory": "가래(-), 콧물(-), 코막힘(-), 호흡곤란(-), 흉통(-)",
+          "general": "발열(-), 오한(-), 체중 변화(-)",
+          "gi": "속쓰림(-), 신물(-)"
+        },
+        "factors": "특별한 악화 요인 없음",
+        "pastHistory": {
+          "medical": "고혈압(+, 5년 전 진단), 당뇨병(-), 고지혈증(-)",
+          "social": "음주(월 1~2회 소주 1병), 흡연(과거력, 20년 전 금연)",
+          "family": "고혈압 가족력(+) "
+        }
+      },
+      "physicalExam": {
+        "heent": "특이 소견 없음",
+        "chest": "호흡음 청진상 정상 소견",
+        "cardiovascular": "심음 정상"
+      },
+      "patientQuestion": "이 기침이 언제까지 갈까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "ACE 억제제 부작용",
+          "만성 기침"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "흉부 X-ray",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "ACE 억제제 중단 및 ARB 계열 약제로 변경 고려",
+          "기침 억제제 처방"
+        ]
+      }
+    }
+  ]
+}

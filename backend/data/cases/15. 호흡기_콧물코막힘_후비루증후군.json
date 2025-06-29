@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 45,
+        "gender": "남자"
+      },
+      "situation": "목이 자주 간지럽고 침을 삼킬 때 불편감이 있어 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "75회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "목 간지러움, 침 삼킬 때 불편감",
+      "history": {
+        "onset": "3개월 전",
+        "course": "지속적, 간헐적 악화",
+        "character": "목 간지러움, 이물감, 침 삼키기 어려움, 가래 끓는 느낌, 잦은 헛기침, 코막힘(간헐적)",
+        "associatedSymptoms": {
+          "general": "발열/오한/피로(-/-/-), 체중 변화(-)",
+          "neuro": "두통(-), 안면통(-)",
+          "respiratory": "기침(+, 헛기침 위주)",
+          "olfactory": "후각 저하(-)"
+        },
+        "factors": "특정 계절에 악화(-), 먼지/온도차(-/-), 특정 장소(-), 스트레스(+)",
+        "pastHistory": {
+          "medical": "알레르기 비염(-), 축농증(-), 위식도역류질환(-)",
+          "social": "흡연(1일 1갑, 20년), 음주(주 3회, 소주 3병), 직업(사업가), 스트레스(매우 많음)",
+          "family": "가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "heent": "비강 충혈(-), 비루(-), 후두경 검사(정상)"
+      },
+      "patientQuestion": "이 증상이 계속될까요? 어떻게 치료해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "후비루증후군",
+          "만성 비염"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "비내시경 검사",
+          "알레르기 검사"
+        ],
+        "therapeutic": [
+          "점비약(생리식염수)",
+          "항히스타민제(필요시)",
+          "금연 상담",
+          "스트레스 관리 상담"
+        ]
+      }
+    }
+  ]
+}

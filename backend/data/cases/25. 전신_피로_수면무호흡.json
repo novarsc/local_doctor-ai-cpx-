@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김영수",
+        "age": 55,
+        "gender": "남자"
+      },
+      "situation": "55세 남자 김영수씨가 낮에 졸음이 심해 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "16회/분",
+        "temperature": "36.8℃"
+      },
+      "chiefComplaint": "낮에 너무 졸려요",
+      "history": {
+        "onset": "5년 전",
+        "duration": "주로 낮에 심한 졸음",
+        "course": "점진적으로 악화",
+        "experience": "처음",
+        "character": "낮에 졸음이 심하고, 운전 중에도 졸음이 쏟아짐.  집중력 저하도 동반됨. 밤에는 잘 수면 유지함.",
+        "associatedSymptoms": {
+          "general": "",
+          "digestive": "",
+          "circulatory": "",
+          "psychiatric": "",
+          "sleep": "코골이(+, 배우자 증언), 수면 시간 7시간, 수면 중 숨 막힘 느낌(+, 배우자 증언), 수면 위생 양호",
+          "endocrine": ""
+        },
+        "factors": "낮에 졸음이 심해지면 커피를 마시면 일시적으로 개선됨.  알코올 섭취 후에는 수면 질이 더 나빠짐.",
+        "pastHistory": {
+          "social": "직업: 회사원(사무직), 흡연(+, 하루 한 갑), 음주(+, 주 2~3회 소주 1병), 운동 거의 없음, 비만(+, BMI 30)",
+          "obgyn": "",
+          "other": "고혈압 진단받고 약 복용 중"
+        }
+      },
+      "physicalExam": {
+        "general": "비만, 목둘레 두꺼움",
+        "heent": "눈(-), 구강(-), 갑상샘(-), 림프절(-)",
+        "abdomen": "복부 비만, 압통(-)",
+        "extremity": "부종(-)"
+      },
+      "patientQuestion": "운전을 계속 해도 될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "수면무호흡증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "수면다원검사"
+        ],
+        "therapeutic": [
+          "CPAP 치료 시작 권고"
+        ]
+      }
+    }
+  ]
+}

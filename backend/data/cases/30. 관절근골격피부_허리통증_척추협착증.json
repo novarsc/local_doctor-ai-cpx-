@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "이순자",
+        "age": 72,
+        "gender": "여자"
+      },
+      "situation": "72세 여자 이순자씨가 허리 통증과 다리 저림으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/85mmHg",
+        "heartRate": "78회/분",
+        "respiration": "18회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "허리가 아프고 다리가 저려요",
+      "history": {
+        "onset": "6개월 전",
+        "location": "허리, 엉치, 양쪽 다리",
+        "duration": "간헐적, 악화 시 하루 종일",
+        "course": "서서히 심해짐, 최근 걷기 힘들어짐",
+        "experience": "과거 허리 통증 경험 있으나 이렇게 심한 적은 없음",
+        "character": "허리는 뻐근하고 아픈 느낌, 다리는 저리고 당기는 듯한 통증, 간헐적 마비감.  NRS 평균 4점, 심할 때 7점.  오래 걷거나 서 있으면 심해짐.",
+        "associatedSymptoms": {
+          "neurological": "양측 다리 저림, 약간의 감각 저하, 걸을 때 다리에 힘이 빠지는 느낌,  요실금 없음"
+        },
+        "factors": "오래 걷거나 서 있으면 악화, 앉아서 쉬면 호전,  계단 오르내리기 힘들어짐",
+        "pastHistory": {
+          "medical": "고혈압, 고지혈증",
+          "trauma_surgery": "없음",
+          "medications": "고혈압 약 복용 중",
+          "social": "흡연(-), 음주(가끔 소주 반병),  전업주부",
+          "obgyn": "폐경 10년"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S 안정적",
+        "heent": "이상 없음",
+        "abdomen": "이상 없음",
+        "extremity": "양측 하지 근력 약화(+), 감각 저하(+),  슬괵근 신전시 통증(+),  straight leg raising test 양성(+),  척추 전만 감소"
+      },
+      "patientQuestion": "",
+      "impression": {
+        "likelyDiagnoses": [
+          "척추관협착증",
+          "척추전방전위증",
+          "요추 추간판 탈출증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "요추부 X-ray",
+          "요추부 MRI"
+        ],
+        "therapeutic": [
+          "보존적 치료 (약물치료, 물리치료)",
+          "필요시 수술"
+        ]
+      }
+    }
+  ]
+}

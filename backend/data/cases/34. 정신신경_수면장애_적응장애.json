@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "caseNumber": 8,
+      "patientProfile": {
+        "name": "박선우",
+        "age": 23,
+        "gender": "여자"
+      },
+      "situation": "23세 여자 박선우씨가 최근 직장생활에 적응하지 못해 힘들다고 호소하며 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "직장 생활이 너무 힘들어요",
+      "history": {
+        "onset": "3개월 전",
+        "experience": "처음",
+        "course": "점진적 악화",
+        "character": "새로운 직장에 적응하지 못하고 업무량과 스트레스에 시달리고 있으며, 수면장애, 식욕부진, 피로감을 호소하고 있다.  자신감 상실 및 무기력감을 느낀다고 말한다.  매일 밤 잠자리에 들기 어렵고 잠을 설치는 경우가 잦다.",
+        "associatedSymptoms": "[소화] 속쓰림(-), [호흡] 쌕쌕거림(-), [신장/비뇨] 야뇨(-), [정신] 우울감(+), 불안감(+), 초조감(+), 집중력 저하(+), 자존감 저하(+), 공황(-), 범불안(-), 광장공포(-), 사회불안(-), [갑상샘] 더위불내성(-)",
+        "factors": "3개월 전 대기업에 취업 후 업무 강도 및 인간관계 어려움 경험",
+        "pastHistory": {
+          "medical": "특이사항 없음",
+          "medications": "없음",
+          "social": "흡연(-), 음주(가끔), 커피(하루 1잔), 스트레스(+), 대인관계 어려움(+)"
+        }
+      },
+      "physicalExam": {
+        "general": "외관상 특이 소견 없음. 활력징후 안정적.",
+        "heent": "결막/구강/피부(-/-/-), 갑상샘(-)",
+        "chest": "심음/호흡음(-/-)",
+        "extremity": "Pitting edema(-)"
+      },
+      "patientQuestion": "이런 상태가 계속될까봐 걱정이에요.",
+      "impression": {
+        "likelyDiagnoses": [
+          "적응장애",
+          "우울증"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "Beck 우울척도 검사",
+          "상담 및 정신과적 평가"
+        ],
+        "therapeutic": [
+          "인지행동치료(CBT)",
+          "스트레스 관리 교육",
+          "필요시 항우울제 처방"
+        ]
+      }
+    }
+  ]
+}

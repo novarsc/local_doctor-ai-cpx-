@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "patientProfile": {
+        "name": "김민수",
+        "age": 28,
+        "gender": "남자"
+      },
+      "situation": "가슴 통증과 호흡곤란으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "110/70mmHg",
+        "heartRate": "110회/분",
+        "respiration": "22회/분",
+        "temperature": "37.8℃"
+      },
+      "chiefComplaint": "가슴이 아프고 숨이 차요.",
+      "history": {
+        "onset": "3일 전 감기 증상 시작 후, 어제부터 가슴 통증 발생",
+        "location": "가슴 중앙",
+        "radiation": "왼쪽 어깨와 팔로 퍼짐",
+        "duration": "간헐적으로 몇 분씩 지속",
+        "course": "점차 심해지는 양상",
+        "experience": "처음",
+        "character": "찌르는 듯한 통증과 압박감 동반, NRS 6/10, 숨쉴 때 통증 심해짐",
+        "associatedSymptoms": {
+          "general": "발열/오한/체중 변화(+/+/-)",
+          "gi": "속쓰림/신물 올라옴(-/-)",
+          "circulatory": "두근거림/호흡곤란(+/+),  맥박 빨라짐",
+          "respiratory": "기침/가래/객혈/쌕쌕거림(+/-//-/-)",
+          "msk_skin": "피부 발진(-)",
+          "psych": "불안감(+)"
+        },
+        "factors": "악화: 심호흡, 운동, 기침. 완화: 휴식",
+        "pastHistory": {
+          "medical": "특이 병력 없음",
+          "medications": "없음",
+          "social": "흡연/음주/스트레스(-/-/+), 운동 규칙적으로 함",
+          "family": "특이 가족력 없음"
+        }
+      },
+      "physicalExam": {
+        "general": "열감, 빈맥, 호흡곤란 보임",
+        "heent": "눈/구강/피부 긴장도(-/-/-), 갑상샘/림프절(-/-)",
+        "chest": "심음 약간 빠름, 흉부 시진/촉진 정상, 압통(+)",
+        "abdomen": "시/청/타/촉(-/-/-/-)",
+        "extremity": "맥박 촉진 시 불규칙적인 맥박 관찰됨, Pitting edema(-)"
+      },
+      "impression": {
+        "likelyDiagnoses": [
+          "급성 심근염",
+          "급성 심막염",
+          "폐렴"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도",
+          "심근효소 검사(Troponin)",
+          "심초음파",
+          "흉부 X-선 촬영"
+        ],
+        "therapeutic": [
+          "산소 투여",
+          "수액 요법",
+          "진통제",
+          "항생제(폐렴 의심 시)",
+          "염증 치료제"
+        ]
+      }
+    }
+  ]
+}

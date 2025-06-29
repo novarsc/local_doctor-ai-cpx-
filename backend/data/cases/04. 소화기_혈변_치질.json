@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 1,
+      "caseType": "실전 모의 증례 [하이브리드]",
+      "patientProfile": {
+        "name": "김철수",
+        "age": 60,
+        "gender": "남자"
+      },
+      "situation": "항문 통증과 출혈로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "항문이 너무 아프고 피가 나와요.",
+      "history": {
+        "onset": "2주 전",
+        "location": "항문",
+        "duration": "지속적",
+        "course": "점차 악화",
+        "experience": "처음",
+        "character": "항문 통증: 심한 작열감, 배변 시 악화, 출혈: 선홍색, 소량, 배변 후 지속, 항문 주변 덩이 만져짐",
+        "associatedSymptoms": {
+          "gi": "변비(+), 설사(-), 복통(-), 구역(-), 구토(-), 식욕부진(-)"
+        },
+        "factors": "변비 악화 시 증상 심해짐",
+        "pastHistory": {
+          "events": "특이 사항 없음",
+          "surgical": "없음",
+          "medical": "고혈압(약 복용 중)",
+          "social": "흡연(1갑/일, 30년), 음주(소주 1병/주, 20년), 운동(없음), 스트레스(많음)",
+          "obgyn": "N/A"
+        }
+      },
+      "physicalExam": {
+        "general": "V/S stable",
+        "heent": "특이 소견 없음",
+        "abdomen": "특이 소견 없음",
+        "extremity": "특이 소견 없음",
+        "rectal": "항문 직장 검사: 내치핵 2기, 항문 주위 덩이 촉진됨"
+      },
+      "patientQuestion": "수술해야 하나요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "치질 (내치핵 2기)"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "항문경 검사"
+        ],
+        "therapeutic": [
+          "항문 연고 및 좌약 처방",
+          "고섬유질 식사 및 충분한 수분 섭취 권고",
+          "배변 습관 개선 교육",
+          "필요시 수술(치핵절제술) 고려"
+        ]
+      }
+    }
+  ]
+}

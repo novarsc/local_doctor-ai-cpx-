@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "김민지",
+        "age": 48,
+        "gender": "여자"
+      },
+      "situation": "심계항진 증상으로 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "120/80mmHg",
+        "heartRate": "95회/분",
+        "respiration": "18회/분",
+        "temperature": "36.7℃"
+      },
+      "chiefComplaint": "가슴이 두근거려요",
+      "history": {
+        "onset": "3개월 전부터",
+        "duration": "1~2분 지속, 하루에 여러 번 발생",
+        "course": "점점 빈도와 강도가 증가하는 추세",
+        "experience": "처음",
+        "character": "[양상] 쿵쾅거리는 느낌, 불규칙적인 맥박. [정도] NRS 5점. [동반증상] 어지럼증(+), 숨가쁨(+)",
+        "associatedSymptoms": {
+          "general": "피로감(+), 체중변화(-, 3kg 감소)",
+          "endocrine": "안면홍조(+), 밤에 땀을 많이 흘림(+)",
+          "gi": "소화불량(-), 변비(-)"
+        },
+        "factors": "특별한 유발요인 없음, 스트레스 받을 때 악화",
+        "pastHistory": {
+          "medical": "고혈압, 당뇨병, 갑상선 질환(-/-/-)",
+          "social": "흡연(-), 음주(월 1회 소주 1병), 직업: 주부",
+          "family": "특이사항 없음",
+          "obgyn": "마지막 월경 6개월 전, 월경 불규칙, 최근 3개월간 월경 없음, 임신 가능성(-)"
+        }
+      },
+      "physicalExam": {
+        "heent": "특이 소견 없음",
+        "extremity": "말초 맥박 촉진 시 규칙적이지 않음"
+      },
+      "patientQuestion": "심장병이 있는 건 아닌가요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "조기 폐경에 의한 심계항진",
+          "갑상선 기능 항진증",
+          "부정맥"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "심전도 검사",
+          "24시간 홀터 심전도 검사",
+          "갑상선 기능 검사",
+          "FSH, LH 검사"
+        ],
+        "therapeutic": [
+          "생활 습관 교정(규칙적인 운동, 충분한 수면)",
+          "호르몬 대체 요법 고려",
+          "필요시 베타차단제 처방"
+        ]
+      }
+    }
+  ]
+}

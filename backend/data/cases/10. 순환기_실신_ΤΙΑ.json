@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "caseNumber": 7,
+      "patientProfile": {
+        "name": "이수현",
+        "age": 68,
+        "gender": "여자"
+      },
+      "situation": "오른쪽 팔다리 힘이 약해져 내원하였다.",
+      "vitalSigns": {
+        "bloodPressure": "130/80mmHg",
+        "heartRate": "72회/분",
+        "respiration": "16회/분",
+        "temperature": "36.6℃"
+      },
+      "chiefComplaint": "오른쪽 팔다리가 약해요",
+      "history": {
+        "onset": "오늘 아침",
+        "location": "집에서",
+        "duration": "30분 전부터",
+        "experience": "아침에 일어나서 왼쪽 팔을 움직이려고 하는데 힘이 없어서 넘어질 뻔 했고, 오른쪽 팔, 다리에도 힘이 없음. 말하는 데는 문제 없음.  과거에 비슷한 증상 경험 없음.",
+        "character": {
+          "preSyncope": "두통(-), 어지러움(-), 시야 흐림(-)",
+          "syncope": "의식 소실(-), 경련(-), 혀 깨물림(-)",
+          "postSyncope": "구토(-), 메스꺼움(-), 오른쪽 팔, 다리 저림(+) "
+        },
+        "associatedSymptoms": {
+          "general": "발열(-), 오한(-), 피로(+), 체중변화(-)",
+          "circulatory": "가슴 통증(-), 호흡곤란(-), 두근거림(-)",
+          "gi": "구토(-), 설사(-), 복통(-)",
+          "respiratory": "기침(-), 객담(-)",
+          "renal": "다뇨(-), 다갈(-), 혈뇨(-)",
+          "neuro": "두통(-), 어지러움(-), 언어장애(-), 시야장애(-), 보행장애(+), 팔다리 힘 빠짐(+)",
+          "psych": "불안(-), 우울(-)"
+        },
+        "factors": "특별한 악화 요인 없음. 고혈압 약 복용 중."
+      },
+      "pastHistory": {
+        "surgical": "없음",
+        "medications": "고혈압 약(Amlodipine 5mg 1일 1회)",
+        "social": "흡연(-), 음주(소주 반병/주 1회), 커피(1잔/일)"
+      },
+      "physicalExam": {
+        "general": "활력징후 안정",
+        "heent": "안면 비대칭(-), 경동맥 잡음(-)",
+        "chest": "심음 및 폐음 정상",
+        "extremity": "오른쪽 상지 및 하지 근력 저하(+), 감각 저하(+), 반사 저하(+) , 오른쪽 측에 편마비 소견 의심됨"
+      },
+      "patientQuestion": "오른쪽 팔다리가 언제쯤 회복될까요?",
+      "impression": {
+        "likelyDiagnoses": [
+          "ΤΙΑ",
+          "뇌경색",
+          "뇌출혈"
+        ]
+      },
+      "plan": {
+        "diagnostic": [
+          "두부 CT",
+          "뇌 MRI",
+          "혈액검사"
+        ],
+        "therapeutic": [
+          "항혈전제 투여",
+          "재활 치료"
+        ]
+      }
+    }
+  ]
+}
