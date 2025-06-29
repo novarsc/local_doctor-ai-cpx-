@@ -20,6 +20,7 @@ import PrePracticePage from './features/cases/CasePracticeFlow/PrePracticePage';
 import DuringPracticePage from './features/cases/CasePracticeFlow/DuringPracticePage';
 import PostPracticePage from './features/cases/CasePracticeFlow/PostPracticePage';
 import MockExamMainPage from './features/mock-exam/MockExamMainPage';
+import MockExamPrePracticePage from './features/mock-exam/MockExamPrePracticePage';
 import MockExamInProgressPage from './features/mock-exam/MockExamInProgressPage';
 import MockExamResultPage from './features/mock-exam/MockExamResultPage';
 import MockExamSpecifiedSetupPage from './features/mock-exam/MockExamSpecifiedSetupPage';
@@ -27,6 +28,7 @@ import BookmarksPage from './features/my-notes/BookmarksPage';
 import IncorrectAnswersPage from './features/my-notes/IncorrectAnswersPage';
 import LearningHistoryPage from './features/my-notes/LearningHistoryPage';
 import LearningStatisticsPage from './features/my-notes/LearningStatisticsPage';
+import MockExamResultHistoryPage from './features/my-notes/MockExamResultHistoryPage';
 import MyPage from './features/my-page/MyPage';
 import IncorrectAnswersDetailPage from './features/my-notes/IncorrectAnswersDetailPage';
 
@@ -81,6 +83,7 @@ const router = createBrowserRouter([
 
       { path: 'mock-exams', element: <MockExamMainPage /> },
       { path: 'mock-exams/specified-setup', element: <MockExamSpecifiedSetupPage /> },
+      { path: 'mock-exams/pre-practice/:mockExamSessionId/:caseNumber', element: <MockExamPrePracticePage /> },
       { path: 'mock-exams/live/:mockExamSessionId/:caseNumber', element: <MockExamInProgressPage /> },
       { path: 'mock-exams/results/:mockExamSessionId', element: <MockExamResultPage /> },
 
@@ -95,7 +98,7 @@ const router = createBrowserRouter([
           { path: 'history', element: <LearningHistoryPage /> },
           { path: 'statistics', element: <LearningStatisticsPage /> },
           { path: 'history/case-results/:sessionId', element: <PostPracticePage /> },
-          { path: 'history/mock-exam-results/:mockExamSessionId', element: <MockExamResultPage /> },
+          { path: 'history/mock-exam-results/:mockExamSessionId', element: <MockExamResultHistoryPage /> },
         ],
       },
       { path: 'my-page', element: <MyPage /> },

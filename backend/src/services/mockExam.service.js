@@ -72,6 +72,14 @@ const startMockExamSession = async (userId, examType, specifiedCases = []) => {
         name: s.name, 
         primaryCategory: s.primaryCategory, 
         secondaryCategory: s.secondaryCategory, 
+        age: s.age,
+        sex: s.sex,
+        presentingComplaint: s.presentingComplaint,
+        bloodPressure: s.bloodPressure,
+        pulse: s.pulse,
+        respiration: s.respiration,
+        temperature: s.temperature,
+        description: s.description,
         practiceSessionId: null, 
         score: null,
     }));
@@ -115,8 +123,47 @@ const getMockExamSession = async (mockExamSessionId, userId) => {
         throw new ApiError(404, 'M002_MOCK_EXAM_SESSION_NOT_FOUND', 'Mock exam session not found or access denied.');
     }
     
-    console.log('세션 조회 성공, 반환:', session.toJSON());
-    return session.toJSON();
+    // 환자 정보가 없는 경우 증례 정보를 다시 조회하여 추가
+    const sessionData = session.toJSON();
+    if (sessionData.selectedScenariosDetails && sessionData.selectedScenariosDetails.length > 0) {
+        const firstCase = sessionData.selectedScenariosDetails[0];
+        if (!firstCase.age && !firstCase.presentingComplaint) {
+            console.log('환자 정보가 없어 증례 정보를 다시 조회합니다.');
+            
+            // 모든 증례 정보를 다시 조회
+            const scenarioIds = sessionData.selectedScenariosDetails.map(caseDetail => caseDetail.scenarioId);
+            const scenarios = await Scenario.findAll({
+                where: { scenarioId: scenarioIds }
+            });
+            
+            const scenariosMap = scenarios.reduce((acc, scenario) => {
+                acc[scenario.scenarioId] = scenario;
+                return acc;
+            }, {});
+            
+            // 환자 정보 추가
+            sessionData.selectedScenariosDetails = sessionData.selectedScenariosDetails.map(caseDetail => {
+                const scenario = scenariosMap[caseDetail.scenarioId];
+                if (scenario) {
+                    return {
+                        ...caseDetail,
+                        age: scenario.age,
+                        sex: scenario.sex,
+                        presentingComplaint: scenario.presentingComplaint,
+                        bloodPressure: scenario.bloodPressure,
+                        pulse: scenario.pulse,
+                        respiration: scenario.respiration,
+                        temperature: scenario.temperature,
+                        description: scenario.description,
+                    };
+                }
+                return caseDetail;
+            });
+        }
+    }
+    
+    console.log('세션 조회 성공, 반환:', sessionData);
+    return sessionData;
 };
 
 const completeMockExamSession = async (mockExamSessionId, userId) => {

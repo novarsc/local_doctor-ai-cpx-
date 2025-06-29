@@ -52,4 +52,7 @@ router.patch('/incorrect-notes/:scenarioId/status', myNotesController.updateNote
 router.put('/incorrect-notes/:scenarioId', myNotesController.saveIncorrectNoteMemo);
 router.get('/history', myNotesController.getHistory);
 
+// GET /my-notes/mock-exam/:mockExamSessionId/cases - Get individual cases from a mock exam
+router.get('/mock-exam/:mockExamSessionId/cases', myNotesController.getMockExamCases);
+
 module.exports = router;

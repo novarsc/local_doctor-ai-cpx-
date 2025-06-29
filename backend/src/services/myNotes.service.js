@@ -137,21 +137,49 @@ const updateNoteStatus = async (userId, scenarioId, hasNote) => {
 };
 
 const getLearningHistory = async (userId) => {
-    const history = await UserPracticeHistory.findAll({
+    // 증례 실습 기록 가져오기 (모의고사에서 실습한 것은 제외)
+    const practiceHistory = await UserPracticeHistory.findAll({
         where: { userId },
         include: [
             { model: Scenario, as: 'scenario', attributes: ['name'] },
-            { model: PracticeSession, as: 'practiceSession', attributes: ['finalScore'] }
+            { model: PracticeSession, as: 'practiceSession', attributes: ['finalScore', 'practiceMode', 'mockExamSessionId'] }
         ],
         order: [['completedAt', 'DESC']]
     });
-    return history.map(h => ({
-        id: h.practiceSessionId,
-        type: '증례 실습',
-        name: h.scenario.name,
-        completedAt: h.completedAt,
-        score: h.practiceSession?.finalScore || h.score
+
+    // 모의고사 기록 가져오기
+    const mockExamHistory = await MockExamSession.findAll({
+        where: { 
+            userId, 
+            status: 'completed' 
+        },
+        order: [['endTime', 'DESC']]
+    });
+
+    // 증례 실습 기록 변환 (모의고사에서 실습한 것은 제외)
+    const practiceRecords = practiceHistory
+        .filter(h => !h.practiceSession?.mockExamSessionId) // 모의고사에서 실습한 것은 제외
+        .map(h => ({
+            id: h.practiceSessionId,
+            type: '증례 실습',
+            name: h.scenario.name,
+            completedAt: h.completedAt,
+            score: h.practiceSession?.finalScore || h.score
+        }));
+
+    // 모의고사 기록 변환
+    const mockExamRecords = mockExamHistory.map(session => ({
+        id: session.mockExamSessionId,
+        type: '모의고사',
+        name: `모의고사 (${session.examType === 'random' ? '랜덤' : '지정'})`,
+        completedAt: session.endTime,
+        score: session.overallScore,
+        examType: session.examType
     }));
+
+    // 모든 기록을 완료일 기준으로 정렬하여 반환
+    const allRecords = [...practiceRecords, ...mockExamRecords];
+    return allRecords.sort((a, b) => new Date(b.completedAt) - new Date(a.completedAt));
 };
 
 const getPracticedScenarios = async (userId) => {
@@ -175,6 +203,66 @@ const getPracticedScenarios = async (userId) => {
     }));
 };
 
+// 모의고사 세션의 개별 증례들을 가져오는 새로운 함수
+const getMockExamCases = async (userId, mockExamSessionId) => {
+    const mockExamSession = await MockExamSession.findOne({
+        where: { 
+            mockExamSessionId, 
+            userId, 
+            status: 'completed' 
+        }
+    });
+
+    if (!mockExamSession) {
+        throw new Error('Mock exam session not found');
+    }
+
+    // 각 증례의 실습 세션 정보를 가져오기
+    const caseDetails = await Promise.all(
+        mockExamSession.selectedScenariosDetails.map(async (caseDetail, index) => {
+            let practiceSession = null;
+            let evaluationResult = null;
+
+            if (caseDetail.practiceSessionId) {
+                practiceSession = await PracticeSession.findOne({
+                    where: { practiceSessionId: caseDetail.practiceSessionId },
+                    include: [
+                        { model: EvaluationResult, as: 'evaluationResult', attributes: ['overallScore', 'qualitativeFeedback'] }
+                    ]
+                });
+                
+                if (practiceSession) {
+                    evaluationResult = practiceSession.evaluationResult;
+                }
+            }
+
+            return {
+                caseNumber: index + 1,
+                scenarioId: caseDetail.scenarioId,
+                name: caseDetail.name,
+                age: caseDetail.age,
+                sex: caseDetail.sex,
+                presentingComplaint: caseDetail.presentingComplaint,
+                primaryCategory: caseDetail.primaryCategory,
+                secondaryCategory: caseDetail.secondaryCategory,
+                practiceSessionId: caseDetail.practiceSessionId,
+                score: caseDetail.score || (evaluationResult ? evaluationResult.overallScore : null),
+                qualitativeFeedback: evaluationResult ? evaluationResult.qualitativeFeedback : '',
+                completedAt: practiceSession ? practiceSession.endTime : null
+            };
+        })
+    );
+
+    return {
+        mockExamSessionId: mockExamSession.mockExamSessionId,
+        examType: mockExamSession.examType,
+        overallScore: mockExamSession.overallScore,
+        startTime: mockExamSession.startTime,
+        endTime: mockExamSession.endTime,
+        cases: caseDetails
+    };
+};
+
 module.exports = {
     getBookmarkedScenarios,
     getIncorrectNotesForScenario,
@@ -183,4 +271,5 @@ module.exports = {
     updateNoteStatus,
     getLearningHistory,
     getPracticedScenarios,
+    getMockExamCases,
 };

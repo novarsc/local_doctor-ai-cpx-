@@ -49,6 +49,20 @@ const updateNoteStatus = async (scenarioId, hasNote) => {
     throw error.response?.data?.error || new Error('Failed to update note status.');
   }
 };
+
+/**
+ * 모의고사 세션의 개별 증례들을 가져옵니다.
+ * @param {string} mockExamSessionId - 모의고사 세션 ID
+ * @returns {Promise<Object>}
+ */
+const getMockExamCases = async (mockExamSessionId) => {
+  try {
+    const response = await apiClient.get(`/my-notes/mock-exam/${mockExamSessionId}/cases`);
+    return response.data;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('Failed to fetch mock exam cases.');
+  }
+};
 // --- [여기까지 추가] ---
 
 const saveIncorrectNoteMemo = async (scenarioId, userMemo) => { try { const response = await apiClient.put(`/my-notes/incorrect-notes/${scenarioId}`, { userMemo }); return response.data; } catch (error) { throw error.response?.data?.error || new Error('Failed to save the note.'); } };
@@ -81,4 +95,5 @@ export const myNotesService = {
   addBookmark,
   removeBookmark,
   getPracticedScenarios,
+  getMockExamCases,
 };

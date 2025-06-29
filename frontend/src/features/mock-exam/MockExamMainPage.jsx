@@ -18,9 +18,9 @@ const MockExamMainPage = () => {
         dispatch(startNewMockExam({ examType: 'random' }))
             .unwrap()
             .then((session) => {
-                // 세션이 성공적으로 생성되면, 해당 세션의 첫 번째 증례 페이지로 이동합니다.
+                // 세션이 성공적으로 생성되면, 해당 세션의 환자 정보 페이지로 이동합니다.
                 if (session && session.mockExamSessionId) {
-                    navigate(`/mock-exams/live/${session.mockExamSessionId}/1`);
+                    navigate(`/mock-exams/pre-practice/${session.mockExamSessionId}/1`);
                 } else {
                     // 비정상적인 응답에 대한 방어 코드
                     console.error("Mock exam session ID not found in response.");

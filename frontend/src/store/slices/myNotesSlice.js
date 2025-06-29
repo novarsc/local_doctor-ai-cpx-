@@ -32,6 +32,19 @@ export const fetchLearningHistory = createAsyncThunk(
   }
 );
 
+// 모의고사 세션의 개별 증례들 조회 Thunk
+export const fetchMockExamCases = createAsyncThunk(
+  'myNotes/fetchMockExamCases',
+  async (mockExamSessionId, { rejectWithValue }) => {
+    try {
+      const response = await myNotesService.getMockExamCases(mockExamSessionId);
+      return response;
+    } catch (error) {
+      return rejectWithValue(error.response?.data || { message: 'Unknown error' });
+    }
+  }
+);
+
 // 즐겨찾기 조회 Thunk
 export const fetchBookmarks = createAsyncThunk(
   'myNotes/fetchBookmarks',
@@ -117,12 +130,14 @@ const initialState = {
   incorrectNotes: {},
   detailedIncorrectNotes: {},
   practicedScenarios: [],
+  mockExamCases: null,
   status: {
     learningHistory: 'idle',
     bookmarks: 'idle',
     incorrectNotes: 'idle',
     detailedIncorrectNotes: 'idle',
     practicedScenarios: 'idle',
+    mockExamCases: 'idle',
   },
   error: null,
 };
@@ -169,6 +184,19 @@ const myNotesSlice = createSlice({
       .addCase(fetchLearningHistory.rejected, (state, action) => {
         state.status.learningHistory = 'failed';
         state.error = action.payload?.message || 'Failed to fetch learning history';
+      })
+      
+      // 모의고사 세션의 개별 증례들 상태 처리
+      .addCase(fetchMockExamCases.pending, (state) => {
+        state.status.mockExamCases = 'loading';
+      })
+      .addCase(fetchMockExamCases.fulfilled, (state, action) => {
+        state.status.mockExamCases = 'succeeded';
+        state.mockExamCases = action.payload;
+      })
+      .addCase(fetchMockExamCases.rejected, (state, action) => {
+        state.status.mockExamCases = 'failed';
+        state.error = action.payload?.message || 'Failed to fetch mock exam cases';
       })
       
       // 즐겨찾기 상태 처리

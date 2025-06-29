@@ -48,6 +48,12 @@ const getHistory = asyncHandler(async (req, res) => {
     res.status(200).json({ data: history });
 });
 
+const getMockExamCases = asyncHandler(async (req, res) => {
+    const { mockExamSessionId } = req.params;
+    const userId = req.user.userId;
+    const mockExamCases = await myNotesService.getMockExamCases(userId, mockExamSessionId);
+    res.status(200).json(mockExamCases);
+});
 
 // --- [추가된 부분] ---
 /**
@@ -68,5 +74,6 @@ module.exports = {
     saveIncorrectNoteMemo,
     updateNoteStatus,
     getHistory,
+    getMockExamCases,
     getPracticedScenarios,
 };

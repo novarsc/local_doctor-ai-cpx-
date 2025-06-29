@@ -99,9 +99,9 @@ const PrePracticePage = () => {
               <h3 className="text-md font-semibold text-gray-800 mb-3">[활력 징후]</h3>
               <ul className="space-y-2 text-gray-700">
                 <li><span className="font-medium w-20 inline-block">혈압:</span> {currentScenario.bloodPressure} mmHg</li>
-                <li><span className="font-medium w-20 inline-block">맥박:</span> {currentScenario.pulse} 회/분</li>
-                <li><span className="font-medium w-20 inline-block">호흡:</span> {currentScenario.respiration} 회/분</li>
-                <li><span className="font-medium w-20 inline-block">체온:</span> {currentScenario.temperature} °C</li>
+                <li><span className="font-medium w-20 inline-block">맥박:</span> {currentScenario.pulse} </li>
+                <li><span className="font-medium w-20 inline-block">호흡:</span> {currentScenario.respiration} </li>
+                <li><span className="font-medium w-20 inline-block">체온:</span> {currentScenario.temperature} </li>
               </ul>
             </div>
 
@@ -142,7 +142,7 @@ const PrePracticePage = () => {
         {/* 하단 버튼 영역 */}
         <div className="mt-10 pt-6 border-t border-gray-200 flex flex-col sm:flex-row justify-end items-center gap-4">
             <div className="text-sm text-gray-600">
-              <p>이번 달 남은 오디오 실습 횟수: <span className="font-bold text-green-600">48회</span></p>
+              <p>버튼을 누르면 채팅 실습이 시작됩니다. <span className="font-bold text-green-600">Click!</span></p>
             </div>
             <Button
                 onClick={handleStartPractice}

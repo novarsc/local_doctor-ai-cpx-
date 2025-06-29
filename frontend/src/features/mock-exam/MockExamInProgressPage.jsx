@@ -340,8 +340,8 @@ const MockExamInProgressPage = () => {
                     console.log('Moving to next case:', nextCaseNumber);
                     // 다음 증례로 이동하기 전에 현재 실습 세션 상태 초기화
                     dispatch(resetSession());
-                    // 다음 증례로 이동
-                    navigate(`/mock-exams/live/${mockExamSessionId}/${nextCaseNumber}`);
+                    // 다음 증례의 환자 정보 페이지로 이동
+                    navigate(`/mock-exams/pre-practice/${mockExamSessionId}/${nextCaseNumber}`);
                 }
             }
         );

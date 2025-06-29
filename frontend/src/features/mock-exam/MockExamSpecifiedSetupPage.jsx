@@ -165,7 +165,7 @@ const MockExamSpecifiedSetupPage = () => {
             .unwrap()
             .then((session) => {
                 if (session && session.mockExamSessionId) {
-                    navigate(`/mock-exams/live/${session.mockExamSessionId}/1`);
+                    navigate(`/mock-exams/pre-practice/${session.mockExamSessionId}/1`);
                 } else {
                     alert("모의고사 세션을 생성했지만, 세션 ID를 받지 못했습니다. 다시 시도해 주세요.");
                 }
