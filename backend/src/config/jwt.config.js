@@ -8,8 +8,8 @@ module.exports = {
     // JWT 서명에 사용할 비밀 키
     secret: process.env.JWT_SECRET,
   
-    // Access Token 만료 시간 (예: 1시간)
-    accessTokenExpiresIn: '1h',
+    // Access Token 만료 시간 (모의고사 진행을 위해 4시간으로 연장)
+    accessTokenExpiresIn: '4h',
   
     // Refresh Token 만료 시간 (예: 14일)
     refreshTokenExpiresIn: '14d',

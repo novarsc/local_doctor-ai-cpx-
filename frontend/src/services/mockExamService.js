@@ -63,17 +63,21 @@ const completeMockExam = async (mockExamSessionId) => {
         console.error('에러 응답:', error.response?.data);
         console.error('에러 상태:', error.response?.status);
         
-        if (error.response?.status === 400 && error.response?.data?.error?.includes('evaluations are still in progress')) {
-            throw new Error('AI 평가가 아직 완료되지 않았습니다. 잠시 후 다시 시도해주세요.');
+        if (error.response?.status === 400) {
+            const errorMessage = error.response?.data?.error || '';
+            if (errorMessage.includes('evaluations are still in progress') || 
+                errorMessage.includes('taking longer than expected')) {
+                throw new Error('AI 평가가 예상보다 오래 걸리고 있습니다. 잠시 후 다시 시도해주세요.');
+            }
         } else if (error.response?.status === 404) {
             throw new Error(`모의고사 세션을 찾을 수 없습니다. (ID: ${mockExamSessionId})`);
         } else if (error.response?.status === 401) {
             throw new Error('인증이 필요합니다. 다시 로그인해주세요.');
         } else if (error.response?.status === 403) {
             throw new Error('접근 권한이 없습니다.');
-        } else {
-            throw error.response?.data?.error || new Error('Failed to complete the mock exam.');
         }
+        
+        throw error.response?.data?.error || new Error('Failed to complete the mock exam.');
     }
 };
 

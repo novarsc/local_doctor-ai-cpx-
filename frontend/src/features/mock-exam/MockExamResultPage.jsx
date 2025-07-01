@@ -23,7 +23,7 @@ const MockExamResultPage = () => {
         
         // 결과 페이지에서는 항상 최신 세션 정보를 가져오도록 함
         // 모의고사 완료 후 최신 점수 정보를 보여주기 위함
-        if (status !== 'loading') {
+        if (mockExamSessionId && status !== 'loading') {
             console.log('Fetching mock exam session:', mockExamSessionId);
             dispatch(fetchMockExamSession(mockExamSessionId))
                 .unwrap()
@@ -39,11 +39,11 @@ const MockExamResultPage = () => {
         return () => {
             dispatch(clearCurrentMockExam());
         }
-    }, [dispatch, mockExamSessionId]); // currentSession을 의존성 배열에서 제거
+    }, [dispatch, mockExamSessionId]); // status를 의존성에서 제거하여 무한 반복 방지
 
-    // 세션이 없고 에러가 있을 때 자동으로 다시 시도
+    // 세션이 없고 에러가 있을 때 자동으로 다시 시도 (한 번만)
     useEffect(() => {
-        if (!currentSession && error && status !== 'loading') {
+        if (!currentSession && error && status === 'error') {
             console.log('세션이 없고 에러가 있음, 3초 후 다시 시도');
             const timer = setTimeout(() => {
                 console.log('자동 재시도 시작');
@@ -52,7 +52,7 @@ const MockExamResultPage = () => {
             
             return () => clearTimeout(timer);
         }
-    }, [currentSession, error, status, dispatch, mockExamSessionId]);
+    }, [error, status, dispatch, mockExamSessionId]); // currentSession 의존성 제거
 
     if (status === 'loading') {
         return (

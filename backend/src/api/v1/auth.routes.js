@@ -43,6 +43,6 @@ router.post('/reset-password', authController.resetPassword);
 // router.post('/logout', ...);
 
 // POST /api/v1/auth/refresh-token
-// router.post('/refresh-token', ...);
+router.post('/refresh-token', authController.refreshToken);
 
 module.exports = router;

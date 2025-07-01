@@ -359,6 +359,43 @@ const resetPassword = async (token, newPassword) => {
   };
 };
 
+/**
+ * 토큰 갱신
+ * @param {string} refreshToken - 갱신 토큰
+ * @returns {Promise<object>} 새로운 액세스 토큰
+ */
+const refreshToken = async (refreshToken) => {
+  try {
+    // 1. Refresh Token 검증
+    const decoded = tokenManager.verifyToken(refreshToken);
+    if (!decoded) {
+      throw new ApiError(401, 'INVALID_REFRESH_TOKEN', '유효하지 않은 Refresh Token입니다.');
+    }
+
+    // 2. 사용자 존재 확인
+    const user = await User.findByPk(decoded.userId);
+    if (!user) {
+      throw new ApiError(401, 'USER_NOT_FOUND', '사용자를 찾을 수 없습니다.');
+    }
+
+    // 3. 새로운 Access Token 생성
+    const payload = {
+      userId: user.userId,
+      role: user.role,
+    };
+    const newAccessToken = tokenManager.generateAccessToken(payload);
+
+    return {
+      accessToken: newAccessToken,
+    };
+  } catch (error) {
+    if (error instanceof ApiError) {
+      throw error;
+    }
+    throw new ApiError(401, 'TOKEN_REFRESH_FAILED', '토큰 갱신에 실패했습니다.');
+  }
+};
+
 module.exports = {
   registerUser,
   loginUser,
@@ -367,4 +404,5 @@ module.exports = {
   findUserId,
   findUserPassword,
   resetPassword,
+  refreshToken,
 };

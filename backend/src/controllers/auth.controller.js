@@ -124,6 +124,24 @@ const resetPassword = asyncHandler(async (req, res) => {
   res.status(200).json(result);
 });
 
+/**
+ * 토큰 갱신 처리
+ * @param {object} req - Express request object.
+ * @param {object} res - Express response object.
+ */
+const refreshToken = asyncHandler(async (req, res) => {
+  const { refreshToken } = req.body;
+  
+  if (!refreshToken) {
+    return res.status(400).json({
+      error: 'Refresh token이 필요합니다.',
+    });
+  }
+
+  const result = await authService.refreshToken(refreshToken);
+  res.status(200).json(result);
+});
+
 module.exports = {
   register,
   login,
@@ -132,4 +150,5 @@ module.exports = {
   findId,
   findPassword,
   resetPassword,
+  refreshToken,
 };

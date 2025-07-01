@@ -75,6 +75,16 @@ apiClient.interceptors.response.use(
 
       const refreshToken = getRefreshToken();
       if (!refreshToken) {
+        // 모의고사 진행 중인지 확인
+        const currentPath = window.location.pathname;
+        const isMockExamInProgress = currentPath.includes('/mock-exams/') && currentPath.includes('/case/');
+        
+        if (isMockExamInProgress) {
+          // 모의고사 진행 중이면 경고만 표시하고 리다이렉트하지 않음
+          console.warn('모의고사 진행 중 토큰이 만료되었습니다. 세션을 완료한 후 다시 로그인해주세요.');
+          return Promise.reject(error);
+        }
+        
         // Handle logout
         clearTokens();
         window.location.href = '/login'; // Or use React Router history
@@ -94,6 +104,17 @@ apiClient.interceptors.response.use(
 
       } catch (refreshError) {
         processQueue(refreshError, null);
+        
+        // 모의고사 진행 중인지 확인
+        const currentPath = window.location.pathname;
+        const isMockExamInProgress = currentPath.includes('/mock-exams/') && currentPath.includes('/case/');
+        
+        if (isMockExamInProgress) {
+          // 모의고사 진행 중이면 경고만 표시하고 리다이렉트하지 않음
+          console.warn('모의고사 진행 중 토큰 갱신에 실패했습니다. 세션을 완료한 후 다시 로그인해주세요.');
+          return Promise.reject(refreshError);
+        }
+        
         clearTokens();
         window.location.href = '/login';
         return Promise.reject(refreshError);

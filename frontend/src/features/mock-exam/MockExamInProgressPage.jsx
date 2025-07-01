@@ -126,39 +126,82 @@ const MockExamInProgressPage = () => {
 
     // 모의고사 세션 정보 로드
     useEffect(() => {
+        console.log('모의고사 세션 로드 useEffect 실행:', {
+            hasCurrentSession: !!currentSession,
+            currentSessionId: currentSession?.mockExamSessionId,
+            urlMockExamSessionId: mockExamSessionId,
+            status,
+            needsRefetch: (!currentSession || currentSession.mockExamSessionId !== mockExamSessionId) && status !== 'loading'
+        });
+        
         // 이미 올바른 세션이 로드되어 있는지 확인
         if ((!currentSession || currentSession.mockExamSessionId !== mockExamSessionId) && status !== 'loading') {
+            console.log('모의고사 세션 정보 다시 로드:', mockExamSessionId);
             dispatch(fetchMockExamSession(mockExamSessionId));
         }
         
         // 페이지 로드 시 스크롤을 맨 위로 올림
         window.scrollTo(0, 0);
         
-        // 컴포넌트 언마운트 시 실습 세션 상태 정리
+        // 컴포넌트 언마운트 시 실습 세션 상태 정리 (모의고사 완전 종료 시에만)
         return () => {
-            dispatch(resetSession());
+            // 모의고사 진행 중 페이지 이동은 정상적인 흐름이므로 상태를 유지
+            const currentPath = window.location.pathname;
+            console.log('컴포넌트 언마운트:', { currentPath, shouldReset: !currentPath.includes('/mock-exams/live/') });
+            if (!currentPath.includes('/mock-exams/live/')) {
+                dispatch(resetSession());
+            }
         };
     }, [dispatch, mockExamSessionId]);
 
     // 현재 증례 정보 설정
     useEffect(() => {
+        console.log('현재 증례 정보 설정 useEffect 실행:', {
+            hasCurrentSession: !!currentSession,
+            mockExamSessionId: currentSession?.mockExamSessionId,
+            caseIndex,
+            caseNumber,
+            selectedScenariosDetailsLength: currentSession?.selectedScenariosDetails?.length
+        });
+        
         if (currentSession?.selectedScenariosDetails) {
             const caseDetails = currentSession.selectedScenariosDetails[caseIndex];
+            console.log('케이스 상세 정보:', { caseIndex, caseDetails, allCases: currentSession.selectedScenariosDetails });
+            
             if (caseDetails) {
+                console.log('케이스 정보 설정 성공:', caseDetails);
                 setCurrentCase(caseDetails);
             } else {
+                console.error('케이스를 찾을 수 없어 /mock-exams로 리다이렉션:', { caseIndex, totalCases: currentSession.selectedScenariosDetails.length });
                 navigate('/mock-exams');
             }
+        } else {
+            console.log('currentSession 또는 selectedScenariosDetails가 없음');
         }
-    }, [currentSession, caseIndex, navigate]);
+    }, [currentSession?.selectedScenariosDetails, caseIndex, navigate, caseNumber]);
 
     // 실습 세션 시작
     useEffect(() => {
-        if (currentCase && !currentPracticeSessionId && !isStartingPractice) {
+        console.log('실습 세션 시작 useEffect 실행:', {
+            hasCurrentCase: !!currentCase,
+            currentCaseName: currentCase?.name,
+            hasPracticeSessionId: !!currentPracticeSessionId,
+            isStartingPractice,
+            sessionMatches: currentSession?.mockExamSessionId === mockExamSessionId,
+            mockExamSessionId,
+            currentSessionId: currentSession?.mockExamSessionId
+        });
+        
+        // 페이지가 변경되는 중이 아니고, 현재 케이스가 있으며, 실습 세션이 없고, 시작 중이 아닐 때만 시작
+        if (currentCase && !currentPracticeSessionId && !isStartingPractice && 
+            currentSession && currentSession.mockExamSessionId === mockExamSessionId) {
+            console.log('실습 세션 시작 조건 충족, 시작합니다.');
             setIsStartingPractice(true);
             startPracticeSessionForCase();
+        } else {
+            console.log('실습 세션 시작 조건 미충족');
         }
-    }, [currentCase, currentPracticeSessionId, isStartingPractice]);
+    }, [currentCase, currentPracticeSessionId, isStartingPractice, mockExamSessionId, currentSession]);
 
     // 새 메시지가 추가될 때마다 채팅창을 맨 아래로 스크롤
     useEffect(() => { 
@@ -194,6 +237,14 @@ const MockExamInProgressPage = () => {
     const startPracticeSessionForCase = async () => {
         try {
             console.log('Starting practice session for case:', caseNumber);
+            
+            // 중복 시작 방지: 이미 동일한 케이스로 세션이 진행 중인 경우
+            if (currentPracticeSessionId && currentScenario?.scenarioId === currentCase?.scenarioId) {
+                console.log('Session already exists for this case, skipping');
+                setIsStartingPractice(false);
+                return;
+            }
+            
             const result = await mockExamService.startCasePractice(mockExamSessionId, caseNumber);
             console.log('Practice session result:', result);
             
@@ -338,20 +389,43 @@ const MockExamInProgressPage = () => {
                     }
                 } else {
                     console.log('Moving to next case:', nextCaseNumber);
-                    // 다음 증례로 이동하기 전에 현재 실습 세션 상태 초기화
-                    dispatch(resetSession());
-                    // 다음 증례로 이동
-                    navigate(`/mock-exams/live/${mockExamSessionId}/${nextCaseNumber}`);
+                    // 다음 증례로 이동하기 전에 현재 실습 세션을 완료 처리
+                    if (currentPracticeSessionId) {
+                        console.log('Completing practice session before moving to next case:', currentPracticeSessionId);
+                        dispatch(completeSession(currentPracticeSessionId))
+                            .unwrap()
+                            .then(() => {
+                                console.log('Practice session completed, moving to next case');
+                                // 실습 세션 상태 초기화 후 다음 증례로 이동
+                                dispatch(resetSession());
+                                navigate(`/mock-exams/live/${mockExamSessionId}/${nextCaseNumber}`);
+                            })
+                            .catch((err) => {
+                                console.error('Error completing practice session:', err);
+                                // 에러가 발생해도 실습 세션 상태 초기화 후 다음 증례로 이동
+                                dispatch(resetSession());
+                                navigate(`/mock-exams/live/${mockExamSessionId}/${nextCaseNumber}`);
+                            });
+                    } else {
+                        console.log('No practice session to complete, moving to next case directly');
+                        // 실습 세션이 없는 경우에도 상태 초기화 후 다음 증례로 이동
+                        dispatch(resetSession());
+                        navigate(`/mock-exams/live/${mockExamSessionId}/${nextCaseNumber}`);
+                    }
                 }
             }
         );
     };
 
+    // 렌더링 상태 체크 로그 제거 (무한 리렌더링 방지)
+
     if (status === 'loading' || !currentCase || isStartingPractice) {
+        console.log('로딩 상태로 렌더링');
         return <div className="flex items-center justify-center h-screen"><LoadingSpinner text="모의고사 정보를 불러오는 중입니다..."/></div>;
     }
 
     if (status === 'error') {
+        console.error('에러 상태로 렌더링:', error);
         return <div className="flex items-center justify-center h-screen text-red-500">오류가 발생했습니다: {error}</div>;
     }
 
