@@ -80,60 +80,20 @@ const MockExamPrePracticePage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 p-4 sm:p-6 lg:p-8">
-      <div className="max-w-3xl mx-auto">
+    <div className="min-h-screen bg-gray-50 p-4 sm:p-6 lg:p-8 flex flex-col">
+      <div className="max-w-3xl mx-auto flex flex-col flex-1">
         {/* 페이지 헤더 */}
-        <header className="mb-8 text-center">
+        <header className="mb-6 text-center">
           <p className="text-sm font-semibold text-indigo-600 mb-2">
             모의고사 진행 중
           </p>
           <h1 className="text-3xl font-bold text-gray-800">
             증례 {caseNumber} / 6
           </h1>
-          <p className="mt-2 text-md text-gray-500">실습을 시작하기 전, 아래 내용을 확인하세요.</p>
         </header>
 
-        {/* 상황 지침 박스 */}
-        <div className="bg-white rounded-lg shadow-md border border-gray-200">
-          <div className="bg-gray-100 px-6 py-4 border-b border-gray-200 rounded-t-lg">
-            <h2 className="text-lg font-semibold text-gray-700">상황 지침</h2>
-          </div>
-          
-          <div className="p-6 space-y-8">
-            {/* 환자 정보 */}
-            <div>
-              <h3 className="text-md font-semibold text-gray-800 mb-3">[환자 정보]</h3>
-              <ul className="space-y-2 text-gray-700">
-                <li><strong className="font-medium w-24 inline-block">나이/성별:</strong> {currentCase.age}세 / {currentCase.sex === 'male' ? '남자' : '여성'}</li>
-                <li><strong className="font-medium w-24 inline-block">주요 호소:</strong> {currentCase.presentingComplaint}</li>
-              </ul>
-            </div>
-            
-            {/* 활력 징후 */}
-            <div>
-              <h3 className="text-md font-semibold text-gray-800 mb-3">[활력 징후]</h3>
-              <ul className="space-y-2 text-gray-700">
-                <li><span className="font-medium w-20 inline-block">혈압:</span> {currentCase.bloodPressure} mmHg</li>
-                <li><span className="font-medium w-20 inline-block">맥박:</span> {currentCase.pulse} </li>
-                <li><span className="font-medium w-20 inline-block">호흡:</span> {currentCase.respiration} </li>
-                <li><span className="font-medium w-20 inline-block">체온:</span> {currentCase.temperature} </li>
-              </ul>
-            </div>
-
-            {/* 응시자 지침 */}
-            {currentCase.description && (
-              <div>
-                <h3 className="text-md font-semibold text-gray-800 mb-3">[응시자는 이 환자에게]</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  {currentCase.description}
-                </p>
-              </div>
-            )}
-          </div>
-        </div>
-
-        {/* 모의고사 안내 */}
-        <div className="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-6">
+        {/* 모의고사 안내 - 상단에 단독 배치 */}
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6 w-full">
           <h2 className="text-xl font-semibold text-blue-800 mb-4 text-center">모의고사 안내</h2>
           <div className="space-y-3 text-blue-700">
             <p className="flex items-center">
@@ -155,8 +115,44 @@ const MockExamPrePracticePage = () => {
           </div>
         </div>
 
+        {/* 상황 지침 박스 - 가운데 넓게 배치 */}
+        <div className="bg-white rounded-lg shadow-md border border-gray-200 w-full mx-auto mb-6">
+          <div className="bg-gray-100 px-6 py-4 border-b border-gray-200 rounded-t-lg">
+            <h2 className="text-lg font-semibold text-gray-700">상황 지침</h2>
+          </div>
+          <div className="p-6 space-y-8">
+            {/* 환자 정보 */}
+            <div>
+              <h3 className="text-md font-semibold text-gray-800 mb-3">[환자 정보]</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong className="font-medium w-24 inline-block">나이/성별:</strong> {currentCase.age}세 / {currentCase.sex === 'male' ? '남자' : '여성'}</li>
+                <li><strong className="font-medium w-24 inline-block">주요 호소:</strong> {currentCase.presentingComplaint}</li>
+              </ul>
+            </div>
+            {/* 활력 징후 */}
+            <div>
+              <h3 className="text-md font-semibold text-gray-800 mb-3">[활력 징후]</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li><span className="font-medium w-20 inline-block">혈압:</span> {currentCase.bloodPressure} </li>
+                <li><span className="font-medium w-20 inline-block">맥박:</span> {currentCase.pulse} </li>
+                <li><span className="font-medium w-20 inline-block">호흡:</span> {currentCase.respiration} </li>
+                <li><span className="font-medium w-20 inline-block">체온:</span> {currentCase.temperature} </li>
+              </ul>
+            </div>
+            {/* 응시자 지침 */}
+            {currentCase.description && (
+              <div>
+                <h3 className="text-md font-semibold text-gray-800 mb-3">[응시자는 이 환자에게]</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  {currentCase.description}
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+
         {/* 하단 버튼 영역 */}
-        <div className="mt-10 pt-6 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="mt-2 pt-2 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center gap-4 sticky bottom-0 bg-gray-50 z-10">
             <Button
                 onClick={() => navigate('/mock-exams')}
                 variant="secondary"
@@ -164,7 +160,6 @@ const MockExamPrePracticePage = () => {
             >
                 모의고사 취소
             </Button>
-            
             <div className="flex flex-col sm:flex-row items-center gap-4">
                 <div className="text-sm text-gray-600">
                   <p>증례 {caseNumber} / 6</p>

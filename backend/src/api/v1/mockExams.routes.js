@@ -29,4 +29,7 @@ router.post('/:mockExamSessionId/complete', mockExamController.completeSession);
 // POST /api/v1/mock-exams/:mockExamSessionId/cases/:caseNumber/start - Start practice session for a specific case in mock exam
 router.post('/:mockExamSessionId/cases/:caseNumber/start', mockExamController.startCasePractice);
 
+// GET /api/v1/mock-exams/:mockExamSessionId/evaluation-progress - Get evaluation progress for a mock exam session
+router.get('/:mockExamSessionId/evaluation-progress', mockExamController.getEvaluationProgress);
+
 module.exports = router;

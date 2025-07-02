@@ -14,32 +14,49 @@ const { setChatHistory, getChatHistory, hasSession, updateChatHistory } = requir
 
 const startPracticeSession = async (sessionData, userId) => {
     const { scenarioId, selectedAiPersonalityId, practiceMode } = sessionData;
-    await PracticeSession.update(
-      { status: 'abandoned', endTime: new Date() },
-      { where: { userId: userId, status: 'started' } }
-    );
-    const scenario = await Scenario.findByPk(scenarioId);
-    if (!scenario) throw new ApiError(404, 'S001_SCENARIO_NOT_FOUND', 'Scenario not found.');
-    const personalityId = selectedAiPersonalityId || scenario.defaultAiPersonalityId;
-    const personality = await AIPatientPersonality.findByPk(personalityId);
-    if (!personality) throw new ApiError(404, 'P005_PERSONALITY_NOT_FOUND', 'AI personality not found.');
-    const { history, aiPatientInitialInteraction } = await aiService.initializeChat(scenario, personality);
-    const newSession = await PracticeSession.create({
-      userId,
-      scenarioId,
-      selectedAiPersonalityId: personality.personalityId,
-      practiceMode,
-      status: 'started',
+    
+    // 트랜잭션 사용하여 세션 상태 변경과 생성을 원자적으로 처리
+    const { sequelize } = require('../models');
+    
+    return await sequelize.transaction(async (transaction) => {
+        // 기존 시작된 세션들을 abandoned로 변경 (트랜잭션 내에서)
+        await PracticeSession.update(
+            { status: 'abandoned', endTime: new Date() },
+            { 
+                where: { userId: userId, status: 'started' },
+                transaction
+            }
+        );
+        
+        const scenario = await Scenario.findByPk(scenarioId, { transaction });
+        if (!scenario) throw new ApiError(404, 'S001_SCENARIO_NOT_FOUND', 'Scenario not found.');
+        
+        const personalityId = selectedAiPersonalityId || scenario.defaultAiPersonalityId;
+        const personality = await AIPatientPersonality.findByPk(personalityId, { transaction });
+        if (!personality) throw new ApiError(404, 'P005_PERSONALITY_NOT_FOUND', 'AI personality not found.');
+        
+        const { history, aiPatientInitialInteraction } = await aiService.initializeChat(scenario, personality);
+        
+        // 새 세션 생성 (트랜잭션 내에서)
+        const newSession = await PracticeSession.create({
+            userId,
+            scenarioId,
+            selectedAiPersonalityId: personality.personalityId,
+            practiceMode,
+            status: 'started',
+        }, { transaction });
+        
+        setChatHistory(newSession.practiceSessionId, history);
+        
+        return {
+            practiceSessionId: newSession.practiceSessionId,
+            userId: newSession.userId,
+            scenarioId: newSession.scenarioId,
+            startTime: newSession.startTime,
+            status: newSession.status,
+            aiPatientInitialInteraction: aiPatientInitialInteraction,
+        };
     });
-    setChatHistory(newSession.practiceSessionId, history);
-    return {
-      practiceSessionId: newSession.practiceSessionId,
-      userId: newSession.userId,
-      scenarioId: newSession.scenarioId,
-      startTime: newSession.startTime,
-      status: newSession.status,
-      aiPatientInitialInteraction: aiPatientInitialInteraction,
-    };
 };
 
 const sendMessageAndGetResponse = async (sessionId, userId, messageContent) => {
@@ -77,155 +94,263 @@ const sendMessageAndGetResponse = async (sessionId, userId, messageContent) => {
     return historyAndUpdateStream();
 };
 
-const completePracticeSession = async (sessionId, userId) => {
-    const session = await PracticeSession.findOne({ where: { practiceSessionId: sessionId, userId } });
-    if (!session) throw new ApiError(404, 'P001_SESSION_NOT_FOUND', 'Session not found.');
-    if (session.status !== 'started' && session.status !== 'in_progress') throw new ApiError(400, 'P002_SESSION_ALREADY_COMPLETED', 'Session is not active.');
+// AI 평가 대기열 관리
+const evaluationQueue = [];
+let isProcessingQueue = false;
 
-    updateChatHistory(sessionId, []);
+// AI 평가를 순차적으로 처리하는 함수
+const processEvaluationQueue = async () => {
+    if (isProcessingQueue || evaluationQueue.length === 0) {
+        return;
+    }
     
-    const completionTime = new Date();
-    session.status = 'completed';
-    session.endTime = completionTime;
+    isProcessingQueue = true;
+    console.log(`📋 AI 평가 처리 시작 - 대기열에 ${evaluationQueue.length}개 평가 대기 중`);
     
-    await session.save();
-
-    await UserPracticeHistory.create({
-        userId: session.userId,
-        practiceSessionId: session.practiceSessionId,
-        scenarioId: session.scenarioId,
-        startTime: session.startTime,
-        completedAt: completionTime,
-        score: null, 
-    });
-
-    (async () => {
+    while (evaluationQueue.length > 0) {
+        const evaluationTask = evaluationQueue.shift();
+        console.log(`🔄 세션 ${evaluationTask.sessionId} 평가 시작`);
+        
         try {
-            const [chatLogs, scenario] = await Promise.all([
-                ChatLog.findAll({ where: { practiceSessionId: sessionId }, order: [['createdAt', 'ASC']] }),
-                Scenario.findByPk(session.scenarioId),
-            ]);
-            const evaluationData = await aiService.evaluatePracticeSession({ chatLogs, scenario });
-            // --- Section-wise performanceByCriteria calculation ---
-            let performanceByCriteria = null;
-            if (evaluationData && Array.isArray(evaluationData.checklistResults)) {
-                // 1. Load checklist YAML structure
-                const fs = require('fs');
-                const path = require('path');
-                const yaml = require('js-yaml');
-                let checklistFileContent = '';
-                if (scenario.checklistFilePath) {
+            await evaluationTask.execute();
+            console.log(`✅ 세션 ${evaluationTask.sessionId} 평가 완료`);
+        } catch (error) {
+            console.error(`❌ 세션 ${evaluationTask.sessionId} 평가 실패:`, error);
+        }
+        
+        // 각 평가 사이에 1초 대기 (API Rate Limiting 방지)
+        if (evaluationQueue.length > 0) {
+            console.log('⏳ 다음 평가를 위해 1초 대기...');
+            await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+    }
+    
+    isProcessingQueue = false;
+    console.log('📋 모든 AI 평가 처리 완료');
+};
+
+const completePracticeSession = async (sessionId, userId) => {
+    console.log(`[DEBUG] completePracticeSession called: sessionId=${sessionId}, userId=${userId}`);
+    
+    try {
+        const session = await PracticeSession.findOne({ where: { practiceSessionId: sessionId, userId } });
+        if (!session) {
+            console.log(`[ERROR] Session not found: sessionId=${sessionId}, userId=${userId}`);
+            throw new ApiError(404, 'P001_SESSION_NOT_FOUND', 'Session not found.');
+        }
+        
+        console.log(`[DEBUG] Session found: status=${session.status}, startTime=${session.startTime}, endTime=${session.endTime}`);
+        
+        if (session.status !== 'started' && session.status !== 'in_progress') {
+            console.log(`[ERROR] Session is not active: sessionId=${sessionId}, current status=${session.status}, expected=started or in_progress`);
+            throw new ApiError(400, 'P002_SESSION_ALREADY_COMPLETED', `Session is not active. Current status: ${session.status}`);
+        }
+
+        console.log(`[DEBUG] Updating chat history for session: ${sessionId}`);
+        updateChatHistory(sessionId, []);
+        
+        console.log(`[DEBUG] Setting session status to completed`);
+        const completionTime = new Date();
+        session.status = 'completed';
+        session.endTime = completionTime;
+        
+        console.log(`[DEBUG] Saving session to database`);
+        await session.save();
+
+        console.log(`[DEBUG] Creating UserPracticeHistory record`, {
+            userId: session.userId,
+            practiceSessionId: session.practiceSessionId,
+            scenarioId: session.scenarioId,
+            startTime: session.startTime,
+            completedAt: completionTime,
+        });
+        
+        await UserPracticeHistory.create({
+            userId: session.userId,
+            practiceSessionId: session.practiceSessionId,
+            scenarioId: session.scenarioId,
+            startTime: session.startTime,
+            completedAt: completionTime,
+            score: null, 
+        });
+        
+        console.log(`[DEBUG] UserPracticeHistory created successfully`);
+
+        // AI 평가를 대기열에 추가 (즉시 실행하지 않음)
+        const evaluationTask = {
+            sessionId: sessionId,
+            execute: async () => {
+                const [chatLogs, scenario] = await Promise.all([
+                    ChatLog.findAll({ where: { practiceSessionId: sessionId }, order: [['createdAt', 'ASC']] }),
+                    Scenario.findByPk(session.scenarioId),
+                ]);
+                // [0점 처리 분기] 대화가 없으면 AI 호출 없이 0점 결과 생성
+                if (chatLogs.length === 0) {
+                    const fs = require('fs');
+                    const path = require('path');
+                    const yaml = require('js-yaml');
+                    let checklistFileContent = '';
+                    if (scenario.checklistFilePath) {
+                        try {
+                            checklistFileContent = fs.readFileSync(path.join(__dirname, '..', '..', scenario.checklistFilePath), 'utf8');
+                        } catch (error) {
+                            checklistFileContent = '';
+                        }
+                    }
+                    let checklist = null;
                     try {
-                        checklistFileContent = fs.readFileSync(path.join(__dirname, '..', '..', scenario.checklistFilePath), 'utf8');
-                    } catch (error) {
-                        checklistFileContent = '';
+                        checklist = yaml.load(checklistFileContent);
+                    } catch (e) {
+                        checklist = null;
                     }
-                }
-                let checklist = null;
-                try {
-                    checklist = yaml.load(checklistFileContent);
-                } catch (e) {
-                    checklist = null;
-                }
-                // 2. Build itemText -> sectionName map
-                const itemSectionMap = {};
-                if (checklist && Array.isArray(checklist.sections)) {
-                    for (const section of checklist.sections) {
-                        // Subsections (if present)
-                        if (Array.isArray(section.subsections)) {
-                            for (const subsection of section.subsections) {
-                                if (Array.isArray(subsection.items)) {
-                                    for (const item of subsection.items) {
-                                        itemSectionMap[item] = section.name;
-                                    }
-                                }
-                            }
-                        }
-                        // Direct items (if present)
-                        if (Array.isArray(section.items)) {
-                            for (const item of section.items) {
-                                itemSectionMap[item] = section.name;
-                            }
-                        }
-                    }
-                } else if (checklist && checklist.checklist && Array.isArray(checklist.checklist.sections)) {
-                    // 새로운 체크리스트 구조 처리
-                    for (const section of checklist.checklist.sections) {
-                        const sectionName = section.title_kr || section.title_en || "미분류";
-                        
-                        if (Array.isArray(section.items)) {
-                            for (const item of section.items) {
-                                if (item.details) {
-                                    // details 필드에서 체크리스트 항목들을 추출
-                                    const lines = item.details.split('\n');
-                                    for (const line of lines) {
-                                        // "- [ ]" 패턴으로 시작하는 체크리스트 항목 찾기
-                                        const match = line.match(/^\s*-\s*\[\s*\]\s*(.+?)(?:\s*\([^)]+\))?\s*$/);
-                                        if (match) {
-                                            // 한국어 부분만 추출 (영어 번역 제거)
-                                            let cleanText = match[1].trim();
-                                            const koreanMatch = cleanText.match(/^([^(]+?)(?:\s*\([^)]+\))?\s*$/);
-                                            if (koreanMatch) {
-                                                cleanText = koreanMatch[1].trim();
-                                            }
-                                            itemSectionMap[cleanText] = sectionName;
+                    const checklistResults = [];
+                    if (checklist && checklist.sections) {
+                        for (const section of checklist.sections) {
+                            if (section.subsections) {
+                                for (const subsection of section.subsections) {
+                                    if (subsection.items) {
+                                        for (const item of subsection.items) {
+                                            checklistResults.push({
+                                                nameText: section.name,
+                                                itemText: item,
+                                                performance: 'no',
+                                                aiComment: '진료 기록 없음'
+                                            });
                                         }
                                     }
                                 }
                             }
                         }
                     }
+                    const evaluationData = {
+                        overallScore: 0,
+                        qualitativeFeedback: '진료 기록이 없어 평가할 수 없습니다.',
+                        checklistResults,
+                        goodPoints: [],
+                        improvementAreas: [
+                            {
+                                description: '진료 기록이 없어 평가할 수 없습니다.',
+                                advice: '최소 한 가지 이상 환자와 대화를 진행해 주세요.'
+                            }
+                        ]
+                    };
+                    await EvaluationResult.create({
+                        practiceSessionId: sessionId,
+                        ...evaluationData,
+                        performanceByCriteria: {
+                            overall: { total: checklistResults.length, performed: 0, rate: 0 },
+                            sections: {}
+                        }
+                    });
+                    await session.update({ finalScore: 0 });
+                    await UserPracticeHistory.update(
+                        { score: 0 },
+                        { where: { practiceSessionId: sessionId } }
+                    );
+                    return;
                 }
-                // 3. Section-wise count
-                const sectionStats = {};
-                let total = 0, performed = 0;
-                for (const result of evaluationData.checklistResults) {
-                    // itemText 또는 content 필드를 사용하여 섹션 매핑
-                    const itemText = result.itemText || result.content || '';
-                    const section = itemSectionMap[itemText] || result.nameText || result.section || '기타';
-                    if (!sectionStats[section]) sectionStats[section] = { total: 0, performed: 0 };
-                    sectionStats[section].total++;
-                    total++;
-                    if (result.performance === 'yes') {
-                        sectionStats[section].performed++;
-                        performed++;
+                const evaluationData = await aiService.evaluatePracticeSession({ chatLogs, scenario });
+                
+                // Section-wise performanceByCriteria calculation
+                let performanceByCriteria = null;
+                if (evaluationData && Array.isArray(evaluationData.checklistResults)) {
+                    const fs = require('fs');
+                    const path = require('path');
+                    const yaml = require('js-yaml');
+                    let checklistFileContent = '';
+                    if (scenario.checklistFilePath) {
+                        try {
+                            checklistFileContent = fs.readFileSync(path.join(__dirname, '..', '..', scenario.checklistFilePath), 'utf8');
+                        } catch (error) {
+                            checklistFileContent = '';
+                        }
                     }
-                }
-                // 4. Calculate rates
-                const sections = {};
-                for (const [section, stat] of Object.entries(sectionStats)) {
-                    sections[section] = {
-                        total: stat.total,
-                        performed: stat.performed,
-                        rate: stat.total > 0 ? Math.round((stat.performed / stat.total) * 100) : 0
+                    let checklist = null;
+                    try {
+                        checklist = yaml.load(checklistFileContent);
+                    } catch (e) {
+                        checklist = null;
+                    }
+
+                    const itemSectionMap = {};
+                    if (checklist && checklist.sections) {
+                        for (const section of checklist.sections) {
+                            if (section.subsections) {
+                                for (const subsection of section.subsections) {
+                                    if (subsection.items) {
+                                        for (const item of subsection.items) {
+                                            const cleanItem = item.replace(/^\[\s*\]\s*/, '').trim();
+                                            itemSectionMap[cleanItem] = section.name;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    const sectionStats = {};
+                    let total = 0, performed = 0;
+
+                    for (const result of evaluationData.checklistResults) {
+                        const itemText = result.itemText || result.content || '';
+                        const section = itemSectionMap[itemText] || result.nameText || result.section || '기타';
+                        if (!sectionStats[section]) sectionStats[section] = { total: 0, performed: 0 };
+                        sectionStats[section].total++;
+                        total++;
+                        if (result.performance === 'yes') {
+                            sectionStats[section].performed++;
+                            performed++;
+                        }
+                    }
+
+                    const sections = {};
+                    for (const [section, stat] of Object.entries(sectionStats)) {
+                        sections[section] = {
+                            total: stat.total,
+                            performed: stat.performed,
+                            rate: stat.total > 0 ? Math.round((stat.performed / stat.total) * 100) : 0
+                        };
+                    }
+                    performanceByCriteria = {
+                        overall: {
+                            total,
+                            performed,
+                            rate: total > 0 ? Math.round((performed / total) * 100) : 0
+                        },
+                        sections
                     };
                 }
-                performanceByCriteria = {
-                    overall: {
-                        total,
-                        performed,
-                        rate: total > 0 ? Math.round((performed / total) * 100) : 0
-                    },
-                    sections
-                };
+                
+                await EvaluationResult.create({
+                    practiceSessionId: sessionId,
+                    ...evaluationData,
+                    performanceByCriteria
+                });
+                
+                const finalScore = evaluationData.overallScore;
+                await session.update({ finalScore: finalScore });
+                await UserPracticeHistory.update(
+                    { score: finalScore },
+                    { where: { practiceSessionId: sessionId } }
+                );
             }
-            await EvaluationResult.create({
-                practiceSessionId: sessionId,
-                ...evaluationData,
-                performanceByCriteria // always include this field
-            });
-            const finalScore = evaluationData.overallScore;
-            await session.update({ finalScore: finalScore });
-            await UserPracticeHistory.update(
-                { score: finalScore },
-                { where: { practiceSessionId: sessionId } }
-            );
-        } catch (evalError) {
-            console.error(`Evaluation failed for session ${sessionId}:`, evalError);
-        }
-    })();
+        };
+        
+        console.log(`[DEBUG] Adding evaluation task to queue for session: ${sessionId}`);
+        console.log(`📋 세션 ${sessionId} AI 평가를 대기열에 추가`);
+        evaluationQueue.push(evaluationTask);
+        
+        console.log(`[DEBUG] Starting evaluation queue processing`);
+        // 대기열 처리 시작 (백그라운드에서 실행)
+        setImmediate(() => processEvaluationQueue());
 
-    return { message: 'Session completed. Evaluation has started.' };
+        console.log(`[DEBUG] completePracticeSession completed successfully`);
+        return { message: 'Session completed. Evaluation has started.' };
+    } catch (error) {
+        console.error(`[ERROR] completePracticeSession failed for sessionId=${sessionId}, userId=${userId}:`, error);
+        console.error(`[ERROR] Error stack:`, error.stack);
+        throw error;
+    }
 };
 
 // --- [추가] 누락되었던 getSessionDetails 함수 ---
@@ -273,7 +398,9 @@ module.exports = {
   startPracticeSession,
   sendMessageAndGetResponse,
   completePracticeSession,
-  getSessionDetails, // [수정] exports에 추가
+  getSessionDetails,
   getPracticeSessionFeedback,
   getSessionChatHistory,
+  evaluationQueue,
+  processEvaluationQueue,
 };

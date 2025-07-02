@@ -24,6 +24,14 @@ import LoadingSpinner from '../../components/common/LoadingSpinner';
 import Modal from '../../components/common/Modal';
 import BlockMemoEditor from '../../components/common/BlockMemoEditor';
 
+// 타임아웃 유틸 함수 추가 (컴포넌트 상단에 위치)
+function withTimeout(promise, ms) {
+  return Promise.race([
+    promise,
+    new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), ms))
+  ]);
+}
+
 // 타이머 컴포넌트
 const TimerDisplay = ({ initialMinutes = 12, isPaused, onFiveMinutesLeft, onTimeUp }) => {
     const [seconds, setSeconds] = useState(initialMinutes * 60);
@@ -126,39 +134,82 @@ const MockExamInProgressPage = () => {
 
     // 모의고사 세션 정보 로드
     useEffect(() => {
+        console.log('모의고사 세션 로드 useEffect 실행:', {
+            hasCurrentSession: !!currentSession,
+            currentSessionId: currentSession?.mockExamSessionId,
+            urlMockExamSessionId: mockExamSessionId,
+            status,
+            needsRefetch: (!currentSession || currentSession.mockExamSessionId !== mockExamSessionId) && status !== 'loading'
+        });
+        
         // 이미 올바른 세션이 로드되어 있는지 확인
         if ((!currentSession || currentSession.mockExamSessionId !== mockExamSessionId) && status !== 'loading') {
+            console.log('모의고사 세션 정보 다시 로드:', mockExamSessionId);
             dispatch(fetchMockExamSession(mockExamSessionId));
         }
         
         // 페이지 로드 시 스크롤을 맨 위로 올림
         window.scrollTo(0, 0);
         
-        // 컴포넌트 언마운트 시 실습 세션 상태 정리
+        // 컴포넌트 언마운트 시 실습 세션 상태 정리 (모의고사 완전 종료 시에만)
         return () => {
-            dispatch(resetSession());
+            // 모의고사 진행 중 페이지 이동은 정상적인 흐름이므로 상태를 유지
+            const currentPath = window.location.pathname;
+            console.log('컴포넌트 언마운트:', { currentPath, shouldReset: !currentPath.includes('/mock-exams/live/') });
+            if (!currentPath.includes('/mock-exams/live/')) {
+                dispatch(resetSession());
+            }
         };
     }, [dispatch, mockExamSessionId]);
 
     // 현재 증례 정보 설정
     useEffect(() => {
+        console.log('현재 증례 정보 설정 useEffect 실행:', {
+            hasCurrentSession: !!currentSession,
+            mockExamSessionId: currentSession?.mockExamSessionId,
+            caseIndex,
+            caseNumber,
+            selectedScenariosDetailsLength: currentSession?.selectedScenariosDetails?.length
+        });
+        
         if (currentSession?.selectedScenariosDetails) {
             const caseDetails = currentSession.selectedScenariosDetails[caseIndex];
+            console.log('케이스 상세 정보:', { caseIndex, caseDetails, allCases: currentSession.selectedScenariosDetails });
+            
             if (caseDetails) {
+                console.log('케이스 정보 설정 성공:', caseDetails);
                 setCurrentCase(caseDetails);
             } else {
+                console.error('케이스를 찾을 수 없어 /mock-exams로 리다이렉션:', { caseIndex, totalCases: currentSession.selectedScenariosDetails.length });
                 navigate('/mock-exams');
             }
+        } else {
+            console.log('currentSession 또는 selectedScenariosDetails가 없음');
         }
-    }, [currentSession, caseIndex, navigate]);
+    }, [currentSession?.selectedScenariosDetails, caseIndex, navigate, caseNumber]);
 
     // 실습 세션 시작
     useEffect(() => {
-        if (currentCase && !currentPracticeSessionId && !isStartingPractice) {
+        console.log('실습 세션 시작 useEffect 실행:', {
+            hasCurrentCase: !!currentCase,
+            currentCaseName: currentCase?.name,
+            hasPracticeSessionId: !!currentPracticeSessionId,
+            isStartingPractice,
+            sessionMatches: currentSession?.mockExamSessionId === mockExamSessionId,
+            mockExamSessionId,
+            currentSessionId: currentSession?.mockExamSessionId
+        });
+        
+        // 페이지가 변경되는 중이 아니고, 현재 케이스가 있으며, 실습 세션이 없고, 시작 중이 아닐 때만 시작
+        if (currentCase && !currentPracticeSessionId && !isStartingPractice && 
+            currentSession && currentSession.mockExamSessionId === mockExamSessionId) {
+            console.log('실습 세션 시작 조건 충족, 시작합니다.');
             setIsStartingPractice(true);
             startPracticeSessionForCase();
+        } else {
+            console.log('실습 세션 시작 조건 미충족');
         }
-    }, [currentCase, currentPracticeSessionId, isStartingPractice]);
+    }, [currentCase, currentPracticeSessionId, isStartingPractice, mockExamSessionId, currentSession]);
 
     // 새 메시지가 추가될 때마다 채팅창을 맨 아래로 스크롤
     useEffect(() => { 
@@ -194,6 +245,14 @@ const MockExamInProgressPage = () => {
     const startPracticeSessionForCase = async () => {
         try {
             console.log('Starting practice session for case:', caseNumber);
+            
+            // 중복 시작 방지: 이미 동일한 케이스로 세션이 진행 중인 경우
+            if (currentPracticeSessionId && currentScenario?.scenarioId === currentCase?.scenarioId) {
+                console.log('Session already exists for this case, skipping');
+                setIsStartingPractice(false);
+                return;
+            }
+            
             const result = await mockExamService.startCasePractice(mockExamSessionId, caseNumber);
             console.log('Practice session result:', result);
             
@@ -275,83 +334,99 @@ const MockExamInProgressPage = () => {
                             .unwrap()
                             .then(() => {
                                 console.log('Practice session completed, now completing mock exam');
-                                // 실습 세션 완료 후 모의고사 완료
-                                return dispatch(completeMockExam(mockExamSessionId)).unwrap();
-                            })
-                            .then((completedSession) => {
-                                console.log('Mock exam completed successfully:', completedSession);
-                                // Redux 상태를 초기화하여 깨끗한 상태에서 시작
-                                dispatch(clearCurrentMockExam());
-                                // Redux store가 업데이트될 시간을 주기 위해 약간의 지연
-                                setTimeout(() => {
-                                    console.log('Navigating to results page');
-                                    navigate(`/mock-exams/results/${mockExamSessionId}`);
-                                }, 500); // 지연 시간을 늘려서 데이터베이스 업데이트가 완료되도록 함
+                                // 실습 세션 완료 후 모의고사 완료 (타임아웃 적용)
+                                return withTimeout(dispatch(completeMockExam(mockExamSessionId)).unwrap(), 10000);
                             })
                             .catch((err) => {
-                                console.error('Error completing mock exam:', err);
-                                
-                                // 평가 대기 중 에러인 경우 자동 재시도
-                                if (err.message && (err.message.includes('evaluations are still in progress') || err.message.includes('AI 평가가 아직 완료되지 않았습니다'))) {
-                                    console.log('평가 대기 중, 3초 후 재시도');
-                                    showNotification('info', '평가 진행 중', 'AI 평가가 완료되는 중입니다. 잠시 후 다시 시도합니다.');
-                                    
-                                    setTimeout(() => {
-                                        console.log('자동 재시도 시작');
-                                        dispatch(completeMockExam(mockExamSessionId))
-                                            .unwrap()
-                                            .then((completedSession) => {
-                                                console.log('Mock exam completed successfully on retry:', completedSession);
-                                                dispatch(clearCurrentMockExam());
-                                                setTimeout(() => {
-                                                    navigate(`/mock-exams/results/${mockExamSessionId}`);
-                                                }, 500);
-                                            })
-                                            .catch((retryErr) => {
-                                                console.error('Retry failed:', retryErr);
-                                                showNotification('error', '오류', `모의고사 완료에 실패했습니다: ${retryErr.message}`);
-                                            });
-                                    }, 3000);
-                                } else {
-                                    showNotification('error', '오류', `모의고사 완료에 실패했습니다: ${err.message}`);
-                                }
+                                console.error('Error or timeout completing mock exam:', err);
+                                showNotification('error', '오류', `모의고사 완료에 실패했거나 시간이 초과되었습니다: ${err.message}`);
+                            })
+                            .finally(() => {
+                                console.log('navigate 호출!', { mockExamSessionId, caseNumber, status });
+                                setTimeout(() => {
+                                    if (mockExamSessionId) {
+                                        navigate(`/mock-exams/results/${mockExamSessionId}`);
+                                        setTimeout(() => {
+                                            if (window.location.pathname !== `/mock-exams/results/${mockExamSessionId}`) {
+                                                window.location.href = `/mock-exams/results/${mockExamSessionId}`;
+                                            }
+                                        }, 1500);
+                                    } else {
+                                        alert('mockExamSessionId가 올바르지 않습니다!');
+                                    }
+                                }, 1000);
                             });
                     } else {
                         console.log('No practice session, completing mock exam directly');
-                        // 실습 세션이 없는 경우 바로 모의고사 완료
-                        dispatch(completeMockExam(mockExamSessionId))
-                            .unwrap()
-                            .then((completedSession) => {
-                                console.log('Mock exam completed successfully:', completedSession);
-                                // Redux 상태를 초기화하여 깨끗한 상태에서 시작
-                                dispatch(clearCurrentMockExam());
-                                // Redux store가 업데이트될 시간을 주기 위해 약간의 지연
-                                setTimeout(() => {
-                                    console.log('Navigating to results page');
-                                    navigate(`/mock-exams/results/${mockExamSessionId}`);
-                                }, 500); // 지연 시간을 늘려서 데이터베이스 업데이트가 완료되도록 함
-                            })
+                        // 실습 세션이 없는 경우 바로 모의고사 완료 (타임아웃 적용)
+                        withTimeout(dispatch(completeMockExam(mockExamSessionId)).unwrap(), 10000)
                             .catch((err) => {
-                                console.error('Error completing mock exam:', err);
-                                showNotification('error', '오류', `모의고사 완료에 실패했습니다: ${err.message}`);
+                                console.error('Error or timeout completing mock exam:', err);
+                                showNotification('error', '오류', `모의고사 완료에 실패했거나 시간이 초과되었습니다: ${err.message}`);
+                            })
+                            .finally(() => {
+                                console.log('navigate 호출!', { mockExamSessionId, caseNumber, status });
+                                setTimeout(() => {
+                                    if (mockExamSessionId) {
+                                        navigate(`/mock-exams/results/${mockExamSessionId}`);
+                                        setTimeout(() => {
+                                            if (window.location.pathname !== `/mock-exams/results/${mockExamSessionId}`) {
+                                                window.location.href = `/mock-exams/results/${mockExamSessionId}`;
+                                            }
+                                        }, 1500);
+                                    } else {
+                                        alert('mockExamSessionId가 올바르지 않습니다!');
+                                    }
+                                }, 1000);
                             });
                     }
                 } else {
                     console.log('Moving to next case:', nextCaseNumber);
-                    // 다음 증례로 이동하기 전에 현재 실습 세션 상태 초기화
-                    dispatch(resetSession());
-                    // 다음 증례의 환자 정보 페이지로 이동
-                    navigate(`/mock-exams/pre-practice/${mockExamSessionId}/${nextCaseNumber}`);
+                    // 다음 증례로 이동하기 전에 현재 실습 세션을 완료 처리
+                    if (currentPracticeSessionId) {
+                        console.log('Completing practice session before moving to next case:', currentPracticeSessionId);
+                        dispatch(completeSession(currentPracticeSessionId))
+                            .unwrap()
+                            .then(() => {
+                                console.log('Practice session completed, moving to next case');
+                                // 실습 세션 상태 초기화 후 다음 증례로 이동
+                                dispatch(resetSession());
+                                navigate(`/mock-exams/pre-practice/${mockExamSessionId}/${nextCaseNumber}`);
+                            })
+                            .catch((err) => {
+                                console.error('Error completing practice session:', err);
+                                // 에러가 발생해도 실습 세션 상태 초기화 후 다음 증례로 이동
+                                dispatch(resetSession());
+                                navigate(`/mock-exams/pre-practice/${mockExamSessionId}/${nextCaseNumber}`);
+                            });
+                    } else {
+                        console.log('No practice session to complete, moving to next case directly');
+                        // 실습 세션이 없는 경우에도 상태 초기화 후 다음 증례로 이동
+                        dispatch(resetSession());
+                        navigate(`/mock-exams/pre-practice/${mockExamSessionId}/${nextCaseNumber}`);
+                    }
                 }
             }
         );
     };
 
+    // 렌더링 상태 체크 로그 제거 (무한 리렌더링 방지)
+
     if (status === 'loading' || !currentCase || isStartingPractice) {
+        // 마지막 6번째 실습을 마치고 채점 대기 상태라면 안내 메시지 변경
+        if (parseInt(caseNumber, 10) === 6 && status === 'loading') {
+            return (
+                <div className="flex items-center justify-center h-screen">
+                    <LoadingSpinner text="AI 평가가 완료되는 중입니다. 최대 5분이 소요될 수 있습니다. 전체 채점이 완료되면 자동으로 결과 페이지로 이동됩니다!" />
+                </div>
+            );
+        }
+        // 그 외 기존 메시지
         return <div className="flex items-center justify-center h-screen"><LoadingSpinner text="모의고사 정보를 불러오는 중입니다..."/></div>;
     }
 
     if (status === 'error') {
+        console.error('에러 상태로 렌더링:', error);
         return <div className="flex items-center justify-center h-screen text-red-500">오류가 발생했습니다: {error}</div>;
     }
 

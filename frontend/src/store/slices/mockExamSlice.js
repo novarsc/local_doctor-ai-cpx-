@@ -18,21 +18,10 @@ const initialState = {
 export const startNewMockExam = createAsyncThunk('mockExam/startNew', async (config, { rejectWithValue }) => { try { return await mockExamService.startMockExam(config); } catch (e) { return rejectWithValue(e.message); }});
 export const fetchMockExamSession = createAsyncThunk(
   'mockExam/fetchSession', 
-  async (id, { rejectWithValue, getState }) => { 
+  async (id, { rejectWithValue }) => { 
     try { 
       console.log('fetchMockExamSession 호출:', id);
-      
-      // 이미 로딩 중이거나 같은 세션이 이미 로드되어 있는지 확인
-      const state = getState();
-      console.log('현재 상태:', state.mockExam);
-      
-      if (state.mockExam.status === 'loading' || 
-          (state.mockExam.currentSession && state.mockExam.currentSession.mockExamSessionId === id)) {
-        console.log('이미 로드된 세션 반환');
-        return state.mockExam.currentSession;
-      }
-      
-      console.log('API 호출 시작');
+      console.log('API 호출 시작 (결과 페이지에서 최신 정보를 위해 항상 호출)');
       const result = await mockExamService.getMockExamSession(id);
       console.log('API 호출 성공:', result);
       return result;

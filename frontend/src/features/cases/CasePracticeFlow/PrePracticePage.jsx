@@ -98,7 +98,7 @@ const PrePracticePage = () => {
             <div>
               <h3 className="text-md font-semibold text-gray-800 mb-3">[활력 징후]</h3>
               <ul className="space-y-2 text-gray-700">
-                <li><span className="font-medium w-20 inline-block">혈압:</span> {currentScenario.bloodPressure} mmHg</li>
+                <li><span className="font-medium w-20 inline-block">혈압:</span> {currentScenario.bloodPressure} </li>
                 <li><span className="font-medium w-20 inline-block">맥박:</span> {currentScenario.pulse} </li>
                 <li><span className="font-medium w-20 inline-block">호흡:</span> {currentScenario.respiration} </li>
                 <li><span className="font-medium w-20 inline-block">체온:</span> {currentScenario.temperature} </li>

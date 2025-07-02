@@ -157,11 +157,17 @@ const initializeChat = async (scenario, personality) => {
     const personalityFileContent = fs.readFileSync(path.join(__dirname, '..', '..', personality.promptFilePath), 'utf8');
 
     const model = genAI.getGenerativeModel({
-      model: "gemini-2.5-flash-lite-preview-06-17",
+      model: "gemini-2.5-flash",
       systemInstruction: { role: "system", parts: [{ text: SYSTEM_PROMPT }] },
     });
 
-    const chat = model.startChat();
+    const chat = model.startChat({
+      generationConfig: {
+        thinkingConfig: {
+          thinkingBudget: 0  // 최대 응답 속도를 위해 thinking 완전 비활성화
+        }
+      }
+    });
     
     const initialUserPrompt = `
       지금부터 당신이 연기해야 할 역할의 대본입니다. 이 대본을 완전히 숙지하고, 의사(사용자)의 첫 질문을 기다리세요.
@@ -215,7 +221,7 @@ const sendMessageAndGetResponse = async (history, messageContent) => {
   }
   
   const model = genAI.getGenerativeModel({
-    model: "gemini-2.5-pro",
+    model: "gemini-2.5-flash",
     systemInstruction: { role: "system", parts: [{ text: SYSTEM_PROMPT }] },
   });
   
@@ -230,7 +236,14 @@ const sendMessageAndGetResponse = async (history, messageContent) => {
   console.log(JSON.stringify(contents, null, 2)); // 전체 대화 내용을 보기 쉽게 출력
   console.log('--------------------------');
 
-  const result = await model.generateContentStream({ contents });
+  const result = await model.generateContentStream({ 
+    contents,
+    generationConfig: {
+      thinkingConfig: {
+        thinkingBudget: 0  // 최대 응답 속도를 위해 thinking 완전 비활성화
+      }
+    }
+  });
   return result.stream;
 };
 
@@ -355,7 +368,7 @@ const evaluatePracticeSession = async (practiceSessionData) => {
         }
         
         console.log('✅ API Key found, attempting AI call...');
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-latest" });
+        const model = genAI.getGenerativeModel({ model: "gemini-2.5-pro" });
         
         console.log('🔄 Calling Gemini API...');
         const result = await model.generateContent(evaluationPrompt);

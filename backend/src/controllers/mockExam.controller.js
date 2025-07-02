@@ -60,10 +60,18 @@ const getCases = asyncHandler(async (req, res) => {
     });
 });
 
+const getEvaluationProgress = asyncHandler(async (req, res) => {
+    const { mockExamSessionId } = req.params;
+    const userId = req.user.userId;
+    const progress = await mockExamService.getEvaluationProgress(mockExamSessionId, userId);
+    res.status(200).json(progress);
+});
+
 module.exports = {
     startSession,
     getSession,
     completeSession,
     startCasePractice,
-    getCases
+    getCases,
+    getEvaluationProgress
 };

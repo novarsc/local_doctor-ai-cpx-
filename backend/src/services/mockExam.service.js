@@ -5,10 +5,10 @@
 
 const { Scenario, MockExamSession, PracticeSession, AIPatientPersonality } = require('../models');
 const { fn, col } = require('sequelize');
-// ▼▼▼ 이 부분의 코드를 수정합니다. { } 삭제. ▼▼▼
 const ApiError = require('../utils/ApiError');
+const { updateChatHistory, setChatHistory } = require('./activeChatHistories');
 const aiService = require('./ai.service');
-const { setChatHistory } = require('./activeChatHistories');
+const { completePracticeSession, evaluationQueue, processEvaluationQueue } = require('./practiceSession.service');
 
 // ▼▼▼ 디버깅을 위해 이 두 줄을 추가합니다 ▼▼▼
 console.log('--- 디버깅: ApiError 변수의 내용물 ---');
@@ -161,7 +161,44 @@ const getMockExamSession = async (mockExamSessionId, userId) => {
             });
         }
     }
-    
+
+    // === 추가: 각 증례별로 EvaluationResult의 피드백을 포함 ===
+    const { EvaluationResult } = require('../models');
+    if (sessionData.selectedScenariosDetails && sessionData.selectedScenariosDetails.length > 0) {
+        // practiceSessionId가 있는 증례만 추출
+        const practiceSessionIds = sessionData.selectedScenariosDetails
+            .filter(detail => detail.practiceSessionId)
+            .map(detail => detail.practiceSessionId);
+        let evaluationResultsMap = {};
+        if (practiceSessionIds.length > 0) {
+            const evaluationResults = await EvaluationResult.findAll({
+                where: { practiceSessionId: practiceSessionIds }
+            });
+            evaluationResultsMap = evaluationResults.reduce((acc, result) => {
+                acc[result.practiceSessionId] = result.toJSON();
+                return acc;
+            }, {});
+        }
+        // 각 증례에 feedback 필드 추가
+        sessionData.selectedScenariosDetails = sessionData.selectedScenariosDetails.map(detail => {
+            if (detail.practiceSessionId && evaluationResultsMap[detail.practiceSessionId]) {
+                const evalResult = evaluationResultsMap[detail.practiceSessionId];
+                return {
+                    ...detail,
+                    feedback: {
+                        goodPoints: evalResult.goodPoints || [],
+                        improvementAreas: evalResult.improvementAreas || [],
+                        checklistResults: evalResult.checklistResults || [],
+                        qualitativeFeedback: evalResult.qualitativeFeedback || '',
+                        overallScore: evalResult.overallScore || null
+                    }
+                };
+            }
+            return detail;
+        });
+    }
+    // === 끝 ===
+
     console.log('세션 조회 성공, 반환:', sessionData);
     return sessionData;
 };
@@ -171,96 +208,114 @@ const completeMockExamSession = async (mockExamSessionId, userId) => {
     console.log('mockExamSessionId:', mockExamSessionId);
     console.log('userId:', userId);
     
-    // Sequelize 트랜잭션 시작
     const { sequelize } = require('../models');
-    const transaction = await sequelize.transaction();
     
     try {
         const session = await MockExamSession.findOne({ 
-            where: { mockExamSessionId, userId },
-            transaction 
+            where: { mockExamSessionId, userId }
         });
         console.log('조회된 세션:', session ? '존재함' : '존재하지 않음');
         
         if (!session) {
             console.log('세션을 찾을 수 없음 - 에러 발생');
-            await transaction.rollback();
             throw new ApiError(404, 'M002_MOCK_EXAM_SESSION_NOT_FOUND', 'Mock exam session not found.');
         }
 
-        // 모든 실습 세션을 완료하고 점수를 계산
+        // 모든 실습 세션 ID 수집
         const updatedScenariosDetails = [...session.selectedScenariosDetails];
-        let totalScore = 0;
-        let completedCases = 0;
-        let hasPendingEvaluations = false;
+        const practiceSessionIds = updatedScenariosDetails
+            .filter(details => details.practiceSessionId)
+            .map(details => details.practiceSessionId);
+        
+        console.log('평가 대상 실습 세션 ID:', practiceSessionIds);
+        console.log(`총 ${practiceSessionIds.length}개 세션의 평가 결과 대기 중`);
 
-        console.log('처리할 증례 수:', updatedScenariosDetails.length);
+        // AI 평가 완료를 대기하는 로직
+        const { EvaluationResult } = require('../models');
+        const maxRetries = 300; // 최대 5분
+        const retryDelay = 1000; // 1초 간격
+        
+        // 평가 완료를 대기하는 함수
+        const waitForEvaluations = async (practiceSessionIds) => {
+            console.log('평가 결과 확인 시작...');
+            let lastProgress = { completed: 0, total: practiceSessionIds.length };
+            for (let attempt = 1; attempt <= maxRetries; attempt++) {
+                console.log(`평가 완료 확인 시도 ${attempt}/${maxRetries}`);
+                const evaluationResults = await EvaluationResult.findAll({
+                    where: { 
+                        practiceSessionId: practiceSessionIds 
+                    }
+                });
+                lastProgress = { completed: evaluationResults.length, total: practiceSessionIds.length };
+                console.log(`평가 완료된 세션 수: ${evaluationResults.length}/${practiceSessionIds.length}`);
+                if (evaluationResults.length === practiceSessionIds.length) {
+                    console.log('🎉 모든 평가가 완료됨!');
+                    return { evaluationResults, progress: lastProgress };
+                }
+                if (attempt < maxRetries) {
+                    console.log(`${retryDelay}ms 대기 후 재시도`);
+                    await new Promise(resolve => setTimeout(resolve, retryDelay));
+                }
+            }
+            console.log('⏰ 평가 완료 대기 시간 초과');
+            return { evaluationResults: null, progress: lastProgress };
+        };
 
-        for (let i = 0; i < updatedScenariosDetails.length; i++) {
-            const caseDetails = updatedScenariosDetails[i];
-            console.log(`증례 ${i + 1} 처리 중:`, caseDetails);
-            
-            if (caseDetails.practiceSessionId) {
-                // 실습 세션 완료
-                const practiceSession = await PracticeSession.findOne({
-                    where: { practiceSessionId: caseDetails.practiceSessionId, userId },
-                    transaction
+        if (practiceSessionIds.length === 0) {
+            console.log('평가할 세션이 없음');
+            // 세션이 없는 경우 바로 완료 처리
+            const updateTransaction = await sequelize.transaction();
+            try {
+                const sessionToUpdate = await MockExamSession.findOne({ 
+                    where: { mockExamSessionId, userId },
+                    transaction: updateTransaction
                 });
                 
-                console.log(`실습 세션 ${caseDetails.practiceSessionId}:`, practiceSession ? '존재함' : '존재하지 않음');
+                sessionToUpdate.status = 'completed';
+                sessionToUpdate.endTime = new Date();
+                sessionToUpdate.overallScore = 0;
                 
-                if (practiceSession && practiceSession.status !== 'completed') {
-                    // 실습 세션을 완료 상태로 변경
-                    practiceSession.status = 'completed';
-                    practiceSession.endTime = new Date();
-                    await practiceSession.save({ transaction });
-                    console.log('실습 세션을 완료 상태로 변경함');
-                }
-            } else {
-                console.log(`증례 ${i + 1}에 실습 세션 ID가 없음`);
+                await sessionToUpdate.save({ transaction: updateTransaction });
+                await updateTransaction.commit();
+                
+                return await getMockExamSession(mockExamSessionId, userId);
+            } catch (updateError) {
+                await updateTransaction.rollback();
+                throw updateError;
             }
         }
-
-        // 트랜잭션 커밋 (실습 세션 완료)
-        await transaction.commit();
-        console.log('실습 세션 완료 트랜잭션 커밋 완료');
-
-        // 트랜잭션 외부에서 평가 결과 조회 및 점수 계산
-        console.log('트랜잭션 외부에서 평가 결과 조회 시작');
+        
+        // 평가 결과 대기
+        const { evaluationResults, progress } = await waitForEvaluations(practiceSessionIds);
+        
+        if (!evaluationResults) {
+            console.log('평가 완료 대기 시간 초과 - 에러 발생');
+            throw new ApiError(400, 'M006_EVALUATIONS_PENDING', `AI evaluations are taking longer than expected. Please wait a moment and try again.`, progress);
+        }
+        
+        // 평가 결과를 매핑하여 점수 계산
+        const evaluationMap = {};
+        evaluationResults.forEach(result => {
+            evaluationMap[result.practiceSessionId] = result;
+        });
+        
+        let totalScore = 0;
+        let completedCases = 0;
         
         for (let i = 0; i < updatedScenariosDetails.length; i++) {
             const caseDetails = updatedScenariosDetails[i];
             
-            if (caseDetails.practiceSessionId) {
-                // 평가 결과에서 점수 가져오기 (트랜잭션 외부에서 조회)
-                const { EvaluationResult } = require('../models');
-                const evaluationResult = await EvaluationResult.findOne({
-                    where: { practiceSessionId: caseDetails.practiceSessionId }
-                });
-                
-                console.log(`증례 ${i + 1} 평가 결과:`, evaluationResult ? '존재함' : '존재하지 않음');
-                
-                if (evaluationResult) {
-                    const score = evaluationResult.overallScore || 0;
-                    updatedScenariosDetails[i] = {
-                        ...caseDetails,
-                        score: score
-                    };
-                    totalScore += score;
-                    completedCases++;
-                    console.log(`증례 ${i + 1} 점수: ${score}`);
-                } else {
-                    // 평가 결과가 없는 경우
-                    hasPendingEvaluations = true;
-                    console.log(`증례 ${i + 1} 평가 결과 대기 중`);
-                }
+            if (caseDetails.practiceSessionId && evaluationMap[caseDetails.practiceSessionId]) {
+                const evaluationResult = evaluationMap[caseDetails.practiceSessionId];
+                const score = evaluationResult.overallScore || 0;
+                updatedScenariosDetails[i] = {
+                    ...caseDetails,
+                    score: score
+                };
+                totalScore += score;
+                completedCases++;
+                console.log(`증례 ${i + 1} (${caseDetails.name}) 점수: ${score}`);
             }
-        }
-
-        // 평가가 완료되지 않은 경우가 있으면 에러 반환
-        if (hasPendingEvaluations) {
-            console.log('일부 평가가 완료되지 않음 - 에러 발생');
-            throw new ApiError(400, 'M006_EVALUATIONS_PENDING', 'Some evaluations are still in progress. Please wait a moment and try again.');
         }
 
         // 평균 점수 계산
@@ -281,7 +336,7 @@ const completeMockExamSession = async (mockExamSessionId, userId) => {
             sessionToUpdate.selectedScenariosDetails = updatedScenariosDetails;
 
             await sessionToUpdate.save({ transaction: updateTransaction });
-            console.log('모의고사 세션 완료 및 저장됨');
+            console.log('🎉 모의고사 세션 완료 및 저장됨');
 
             await updateTransaction.commit();
             console.log('모의고사 세션 업데이트 트랜잭션 커밋 완료');
@@ -289,7 +344,7 @@ const completeMockExamSession = async (mockExamSessionId, userId) => {
             await updateTransaction.rollback();
             throw updateError;
         }
-
+        
         // 세션 완료 후 즉시 조회하여 최신 상태 확인
         const completedSession = await MockExamSession.findOne({ 
             where: { mockExamSessionId, userId } 
@@ -306,17 +361,7 @@ const completeMockExamSession = async (mockExamSessionId, userId) => {
         return result;
         
     } catch (error) {
-        // 트랜잭션 롤백 (안전하게 처리)
-        try {
-            if (transaction && transaction.finished === undefined) {
-                await transaction.rollback();
-                console.log('트랜잭션 롤백 완료');
-            }
-        } catch (rollbackError) {
-            console.log('트랜잭션 롤백 실패 (이미 완료됨):', rollbackError.message);
-        }
-        
-        console.log('에러 발생:', error.message);
+        console.log(`에러 발생: ${error.message}`);
         throw error;
     }
 };
@@ -440,10 +485,25 @@ const getCases = async () => {
     return casesByPrimary;
 };
 
+const getEvaluationProgress = async (mockExamSessionId, userId) => {
+    const { EvaluationResult } = require('../models');
+    const session = await MockExamSession.findOne({ where: { mockExamSessionId, userId } });
+    if (!session) throw new ApiError(404, 'M002_MOCK_EXAM_SESSION_NOT_FOUND', 'Mock exam session not found.');
+    const scenarios = session.selectedScenariosDetails || [];
+    const practiceSessionIds = scenarios.filter(s => s.practiceSessionId).map(s => s.practiceSessionId);
+    const total = practiceSessionIds.length;
+    let completed = 0;
+    if (total > 0) {
+        completed = await EvaluationResult.count({ where: { practiceSessionId: practiceSessionIds } });
+    }
+    return { completed, total };
+};
+
 module.exports = {
   startMockExamSession,
   getMockExamSession,
   completeMockExamSession,
   startCasePracticeSession,
-  getCases
+  getCases,
+  getEvaluationProgress
 };
