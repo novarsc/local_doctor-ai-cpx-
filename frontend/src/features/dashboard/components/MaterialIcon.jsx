@@ -65,6 +65,7 @@ const iconMapping = {
   'school_outlined': 'school',
   'star_outline_outlined': 'star_outline',
   'timer_outlined': 'timer',
+  'replay': 'replay',
 };
 
 export const MaterialIcon = ({ iconName, className = "text-primary" }) => {

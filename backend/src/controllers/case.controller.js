@@ -31,6 +31,16 @@ const getCaseCategories = asyncHandler(async (req, res) => {
   });
 });
 
+// [추가] 대분류별 중분류 카테고리 조회를 위한 컨트롤러 함수
+const getSubCategories = asyncHandler(async (req, res) => {
+  const { primaryCategory } = req.params;
+  const subCategories = await caseService.fetchSubCategoriesByPrimary(primaryCategory);
+  res.status(200).json({
+    message: '성공적으로 중분류 카테고리 목록을 조회했습니다.',
+    data: subCategories,
+  });
+});
+
 /**
  * Handles the request to add a bookmark.
  */
@@ -60,6 +70,7 @@ module.exports = {
   getAllScenarios,
   getScenarioById,
   getCaseCategories,
+  getSubCategories,
   addBookmark,
   removeBookmark,
 };

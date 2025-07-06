@@ -93,6 +93,86 @@ const calculateMonthlyCompletionData = async (userId) => {
   return result;
 };
 
+// 학습성과요약 계산 함수
+const calculateLearningPerformance = async (userId) => {
+  const now = new Date();
+  const thisWeekStart = new Date(now);
+  thisWeekStart.setDate(now.getDate() - now.getDay()); // 이번 주 시작
+  thisWeekStart.setHours(0, 0, 0, 0);
+  
+  const thisMonthStart = new Date(now.getFullYear(), now.getMonth(), 1);
+  const lastMonthStart = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+  
+  // 이번 주 데이터
+  const thisWeekSessions = await PracticeSession.findAll({
+    where: { 
+      userId,
+      status: 'completed',
+      endTime: { [Op.gte]: thisWeekStart }
+    },
+    include: [{ model: EvaluationResult, as: 'evaluationResult' }]
+  });
+  
+  // 이번 달 데이터
+  const thisMonthSessions = await PracticeSession.findAll({
+    where: { 
+      userId,
+      status: 'completed',
+      endTime: { [Op.gte]: thisMonthStart }
+    },
+    include: [{ model: EvaluationResult, as: 'evaluationResult' }]
+  });
+  
+  // 지난 달 데이터 (비교용)
+  const lastMonthSessions = await PracticeSession.findAll({
+    where: { 
+      userId,
+      status: 'completed',
+      endTime: { [Op.gte]: lastMonthStart, [Op.lt]: thisMonthStart }
+    },
+    include: [{ model: EvaluationResult, as: 'evaluationResult' }]
+  });
+  
+  // evaluationResult가 있는 세션만 필터링
+  const thisWeekSessionsWithScore = thisWeekSessions.filter(session => session.evaluationResult);
+  const thisMonthSessionsWithScore = thisMonthSessions.filter(session => session.evaluationResult);
+  const lastMonthSessionsWithScore = lastMonthSessions.filter(session => session.evaluationResult);
+
+  return {
+    thisWeek: {
+      completedCases: thisWeekSessions.length,
+      averageScore: thisWeekSessionsWithScore.length > 0 
+        ? Math.round(thisWeekSessionsWithScore.reduce((sum, session) => sum + session.evaluationResult.overallScore, 0) / thisWeekSessionsWithScore.length)
+        : 0,
+      totalTime: thisWeekSessions.reduce((sum, session) => {
+        if (session.startTime && session.endTime) {
+          return sum + Math.round((new Date(session.endTime) - new Date(session.startTime)) / (1000 * 60));
+        }
+        return sum;
+      }, 0)
+    },
+    thisMonth: {
+      completedCases: thisMonthSessions.length,
+      averageScore: thisMonthSessionsWithScore.length > 0 
+        ? Math.round(thisMonthSessionsWithScore.reduce((sum, session) => sum + session.evaluationResult.overallScore, 0) / thisMonthSessionsWithScore.length)
+        : 0,
+      totalTime: thisMonthSessions.reduce((sum, session) => {
+        if (session.startTime && session.endTime) {
+          return sum + Math.round((new Date(session.endTime) - new Date(session.startTime)) / (1000 * 60));
+        }
+        return sum;
+      }, 0)
+    },
+    improvement: {
+      scoreChange: thisMonthSessionsWithScore.length > 0 && lastMonthSessionsWithScore.length > 0
+        ? Math.round((thisMonthSessionsWithScore.reduce((sum, session) => sum + session.evaluationResult.overallScore, 0) / thisMonthSessionsWithScore.length) - 
+                    (lastMonthSessionsWithScore.reduce((sum, session) => sum + session.evaluationResult.overallScore, 0) / lastMonthSessionsWithScore.length))
+        : 0,
+      caseChange: thisMonthSessions.length - lastMonthSessions.length
+    }
+  };
+};
+
 dashboardService.getDashboardSummary = async (userId) => {
   // 1. 진행 중인 사례 조회
   const ongoingSession = await PracticeSession.findOne({
@@ -163,20 +243,40 @@ dashboardService.getDashboardSummary = async (userId) => {
   }
   // --- 추천 사례 로직 끝 ---
 
-  // 3. 차트 데이터 계산
-  const [scoreTrendData, monthlyCompletionData] = await Promise.all([
+  // 3. 차트 데이터 및 학습성과요약 계산
+  const [scoreTrendData, monthlyCompletionData, learningPerformance] = await Promise.all([
     calculateScoreTrendData(userId),
-    calculateMonthlyCompletionData(userId)
+    calculateMonthlyCompletionData(userId),
+    calculateLearningPerformance(userId)
   ]);
 
-  // 4. 최종 데이터 조합
+  // 4. 누적 대화 시간 계산
+  const completedSessions = await PracticeSession.findAll({
+    where: { 
+      userId,
+      status: 'completed',
+      endTime: { [Op.not]: null }
+    },
+    attributes: ['startTime', 'endTime']
+  });
+
+  let totalConversationMinutes = 0;
+  completedSessions.forEach(session => {
+    if (session.startTime && session.endTime) {
+      const durationMs = new Date(session.endTime) - new Date(session.startTime);
+      const durationMinutes = Math.round(durationMs / (1000 * 60)); // 밀리초를 분으로 변환
+      totalConversationMinutes += durationMinutes;
+    }
+  });
+
+  // 5. 최종 데이터 조합
   if (evaluations.length === 0) {
     return {
       user: { name: user ? user.nickname : '사용자' },
       stats: [
         { id: 'completed_cases', icon: 'school', label: "완료한 사례", value: 0, unit: "건" },
         { id: 'avg_score', icon: 'star_outline', label: "평균 점수", value: 0, unit: "점" },
-        { id: 'avg_time', icon: 'timer', label: "평균 대화 시간", value: 0, unit: "분" },
+        { id: 'total_time', icon: 'timer', label: "누적 대화 시간", value: 0, unit: "분" },
       ],
       lastActivity: null,
       scoreTrendData: scoreTrendData,
@@ -185,7 +285,8 @@ dashboardService.getDashboardSummary = async (userId) => {
       insights: null,
       recommendedCases: recommendedCases, // 풀어본 기록이 없어도 추천은 가능
       weeklyGoal: null,
-      learningTip: null
+      learningTip: null,
+      learningPerformance: learningPerformance
     };
   }
 
@@ -194,7 +295,8 @@ dashboardService.getDashboardSummary = async (userId) => {
   const averageScore = Math.round(totalScore / completedCasesCount);
   const lastActivity = {
     caseTitle: evaluations[0].practiceSession.scenario.name,
-    date: evaluations[0].practiceSession.endTime.toISOString().split('T')[0]
+    date: evaluations[0].practiceSession.endTime.toISOString().split('T')[0],
+    scenarioId: evaluations[0].practiceSession.scenarioId
   };
 
   const summaryData = {
@@ -202,7 +304,7 @@ dashboardService.getDashboardSummary = async (userId) => {
     stats: [
         { id: 'completed_cases', icon: 'school', label: "완료한 사례", value: completedCasesCount, unit: "건" },
         { id: 'avg_score', icon: 'star_outline', label: "평균 점수", value: averageScore, unit: "점" },
-        { id: 'avg_time', icon: 'timer', label: "평균 대화 시간", value: 8, unit: "분" },
+        { id: 'total_time', icon: 'timer', label: "누적 대화 시간", value: totalConversationMinutes, unit: "분" },
     ],
     lastActivity: lastActivity,
     scoreTrendData: scoreTrendData,
@@ -211,7 +313,8 @@ dashboardService.getDashboardSummary = async (userId) => {
     insights: null,
     recommendedCases: recommendedCases, // 계산된 추천 사례로 교체
     weeklyGoal: null,
-    learningTip: null
+    learningTip: null,
+    learningPerformance: learningPerformance
   };
 
   return summaryData;

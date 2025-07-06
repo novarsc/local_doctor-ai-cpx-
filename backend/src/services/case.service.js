@@ -28,7 +28,25 @@ const listScenarios = async (queryParams, userId = null) => {
     const categoryArray = category.split(',').map(cat => cat.trim()).filter(cat => cat);
     
     if (categoryArray.length > 0) {
-      where.primaryCategory = { [Op.in]: categoryArray };
+      // 기존 검색 조건이 있으면 AND 조건으로 추가
+      if (where[Op.or]) {
+        where[Op.and] = [
+          { [Op.or]: where[Op.or] },
+          {
+            [Op.or]: [
+              { primaryCategory: { [Op.in]: categoryArray } },
+              { secondaryCategory: { [Op.in]: categoryArray } }
+            ]
+          }
+        ];
+        delete where[Op.or];
+      } else {
+        // 중분류 카테고리인지 확인하기 위해 secondaryCategory도 검색
+        where[Op.or] = [
+          { primaryCategory: { [Op.in]: categoryArray } },
+          { secondaryCategory: { [Op.in]: categoryArray } }
+        ];
+      }
     }
   }
   
@@ -145,6 +163,24 @@ const fetchDistinctCategories = async () => {
   return categories.map(item => item.get('category'));
 };
 
+// [추가] 대분류별 중분류 카테고리를 조회하는 서비스 함수
+const fetchSubCategoriesByPrimary = async (primaryCategory) => {
+  const subCategories = await Scenario.findAll({
+    attributes: [
+      [Sequelize.fn('DISTINCT', Sequelize.col('secondaryCategory')), 'subCategory']
+    ],
+    where: {
+      primaryCategory: primaryCategory,
+      secondaryCategory: {
+        [Op.ne]: null // NULL 값은 제외합니다.
+      }
+    },
+    order: [[Sequelize.col('subCategory'), 'ASC']],
+  });
+
+  return subCategories.map(item => item.get('subCategory'));
+};
+
 
 
 /**
@@ -191,6 +227,7 @@ module.exports = {
   listScenarios,
   getScenarioById,
   fetchDistinctCategories,
+  fetchSubCategoriesByPrimary,
   addBookmark,
   removeBookmark,
 };

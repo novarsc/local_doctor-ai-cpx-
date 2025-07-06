@@ -161,6 +161,7 @@ const getLearningHistory = async (userId) => {
         .filter(h => !h.practiceSession?.mockExamSessionId) // 모의고사에서 실습한 것은 제외
         .map(h => ({
             id: h.practiceSessionId,
+            scenarioId: h.scenarioId, // scenarioId 추가
             type: '증례 실습',
             name: h.scenario.name,
             completedAt: h.completedAt,

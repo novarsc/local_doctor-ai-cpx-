@@ -49,7 +49,7 @@ const GlobalNavigationBar = () => {
                     홈
                 </NavLink>
                 <NavLink to="/cases" className="text-gray-600 hover:text-primary text-base font-medium transition-colors" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>
-                    임상 증례
+                    실전 증례
                 </NavLink>
                 <NavLink to="/mock-exams" className="text-gray-600 hover:text-primary text-base font-medium transition-colors" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>
                     모의고사

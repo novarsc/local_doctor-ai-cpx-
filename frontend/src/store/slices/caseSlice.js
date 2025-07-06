@@ -12,6 +12,7 @@ const initialState = {
   scenarios: [],
   pagination: null,
   categories: [], // 기존 카테고리 상태 유지
+  subCategories: {}, // 대분류별 중분류 카테고리를 저장
   currentScenario: null, // [추가] 현재 선택된 단일 증례 정보
   isLoading: false,
   error: null,
@@ -49,6 +50,18 @@ export const fetchCategories = createAsyncThunk(
     try {
       const response = await caseService.getCaseCategories();
       return response.data;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
+
+export const fetchSubCategories = createAsyncThunk(
+  'cases/fetchSubCategories',
+  async (primaryCategory, { rejectWithValue }) => {
+    try {
+      const response = await caseService.getSubCategories(primaryCategory);
+      return { primaryCategory, subCategories: response.data };
     } catch (error) {
       return rejectWithValue(error.message);
     }
@@ -120,6 +133,13 @@ const caseSlice = createSlice({
       })
       .addCase(fetchCategories.rejected, (state, action) => {
         console.error('Failed to fetch categories:', action.payload);
+      })
+      // 중분류 카테고리
+      .addCase(fetchSubCategories.fulfilled, (state, action) => {
+        state.subCategories[action.payload.primaryCategory] = action.payload.subCategories;
+      })
+      .addCase(fetchSubCategories.rejected, (state, action) => {
+        console.error('Failed to fetch subcategories:', action.payload);
       })
       // 북마크 (기존 코드 유지)
       .addCase(addBookmark.fulfilled, (state, action) => {

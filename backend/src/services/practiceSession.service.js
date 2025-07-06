@@ -55,6 +55,7 @@ const startPracticeSession = async (sessionData, userId) => {
             startTime: newSession.startTime,
             status: newSession.status,
             aiPatientInitialInteraction: aiPatientInitialInteraction,
+            scenario: scenario.toJSON(), // 시나리오 정보 추가
         };
     });
 };

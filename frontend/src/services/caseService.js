@@ -45,9 +45,20 @@ const getCaseCategories = async () => {
   }
 };
 
+// [추가] 대분류별 중분류 카테고리를 가져오는 서비스 함수
+const getSubCategories = async (primaryCategory) => {
+  try {
+    const response = await apiClient.get(`/cases/categories/${encodeURIComponent(primaryCategory)}/subcategories`);
+    return response.data;
+  } catch (error) {
+    throw error.response?.data?.error || new Error('Failed to fetch subcategories.');
+  }
+};
+
 
 export const caseService = {
   getScenarios,
   getScenarioById,
   getCaseCategories, // [추가]
+  getSubCategories, // [추가]
 };

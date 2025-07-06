@@ -5,17 +5,11 @@ const BlockMemoEditor = ({ value = '', onChange, placeholder = "메모를 작성
     const [focusedBlockId, setFocusedBlockId] = useState(1);
     const blockRefs = useRef({});
 
-    // 초기값이 있으면 블록으로 분할
+    // 초기값이 있으면 단일 블록으로 설정 (줄바꿈으로 분할하지 않음)
     useEffect(() => {
         if (value && blocks.length === 1 && blocks[0].content === value) {
-            const contentBlocks = value.split('\n').filter(block => block.trim() !== '');
-            if (contentBlocks.length > 1) {
-                const newBlocks = contentBlocks.map((content, index) => ({
-                    id: index + 1,
-                    content: content.trim()
-                }));
-                setBlocks(newBlocks);
-            }
+            // 줄바꿈으로 분할하지 않고 전체 내용을 하나의 블록으로 설정
+            setBlocks([{ id: 1, content: value }]);
         }
     }, [value]);
 
@@ -39,7 +33,8 @@ const BlockMemoEditor = ({ value = '', onChange, placeholder = "메모를 작성
 
     const adjustTextareaHeight = (textarea) => {
         textarea.style.height = 'auto';
-        textarea.style.height = Math.min(textarea.scrollHeight, 200) + 'px';
+        // 최소 높이 60px, 최대 높이 제한 없이 텍스트 길이에 맞춰 조절
+        textarea.style.height = Math.max(textarea.scrollHeight, 60) + 'px';
     };
 
     const handleKeyDown = (e, blockId) => {
@@ -50,18 +45,11 @@ const BlockMemoEditor = ({ value = '', onChange, placeholder = "메모를 작성
             const currentBlockIndex = blocks.findIndex(block => block.id === blockId);
             const newBlockId = Math.max(...blocks.map(b => b.id)) + 1;
             
-            // 현재 블록의 내용을 분할
-            const currentBlock = blocks[currentBlockIndex];
-            const cursorPosition = e.target.selectionStart;
-            const beforeCursor = currentBlock.content.substring(0, cursorPosition);
-            const afterCursor = currentBlock.content.substring(cursorPosition);
-            
-            // 새로운 블록들 생성
+            // 현재 블록의 모든 내용을 유지하고, 새로운 빈 블록 추가
             const newBlocks = [...blocks];
-            newBlocks[currentBlockIndex] = { ...currentBlock, content: beforeCursor };
             
-            // 새 블록 삽입
-            newBlocks.splice(currentBlockIndex + 1, 0, { id: newBlockId, content: afterCursor });
+            // 새 블록 삽입 (현재 블록 다음에)
+            newBlocks.splice(currentBlockIndex + 1, 0, { id: newBlockId, content: '' });
             
             setBlocks(newBlocks);
             setFocusedBlockId(newBlockId);
@@ -193,7 +181,6 @@ const BlockMemoEditor = ({ value = '', onChange, placeholder = "메모를 작성
                         className="w-full min-h-[60px] p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-none bg-white transition-all duration-200"
                         style={{ 
                             minHeight: '60px',
-                            maxHeight: '200px',
                             height: 'auto'
                         }}
                     />

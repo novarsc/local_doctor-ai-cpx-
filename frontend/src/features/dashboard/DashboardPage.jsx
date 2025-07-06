@@ -36,7 +36,11 @@ const DashboardPage = () => {
         <Greeting user={summary.user} insights={summary.insights} />
         <StatsSummary stats={summary.stats} />
         <PrimaryAction ongoingCase={summary.ongoingCase} />
-        <SecondaryInfo weeklyGoal={summary.weeklyGoal} lastActivity={summary.lastActivity} />
+        <SecondaryInfo 
+          weeklyGoal={summary.weeklyGoal} 
+          lastActivity={summary.lastActivity} 
+          learningPerformance={summary.learningPerformance}
+        />
         <LearningCharts 
           scoreTrend={summary.scoreTrendData} 
           completionTrend={summary.monthlyCompletionData}
