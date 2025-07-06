@@ -8,7 +8,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { registerUser, naverLogin, kakaoLogin } from '../../store/slices/authSlice';
 import SocialLogin from '../../components/common/SocialLogin';
-import { getNaverLoginUrl, getKakaoLoginUrl } from '../../utils/socialLogin';
+import { handleSocialLogin } from '../../utils/socialLogin';
 import Modal from '../../components/common/Modal';
 import Button from '../../components/common/Button';
 
@@ -55,13 +55,15 @@ const RegisterPage = () => {
   };
 
   const handleNaverLogin = () => {
-    const naverUrl = getNaverLoginUrl();
-    window.location.href = naverUrl;
+    handleSocialLogin('naver');
+  };
+
+  const handleGoogleLogin = () => {
+    handleSocialLogin('google');
   };
 
   const handleKakaoLogin = () => {
-    const kakaoUrl = getKakaoLoginUrl();
-    window.location.href = kakaoUrl;
+    handleSocialLogin('kakao');
   };
 
   return (
@@ -111,11 +113,12 @@ const RegisterPage = () => {
         </form>
 
         {/* 소셜 로그인 */}
-        <SocialLogin
-          onNaverLogin={handleNaverLogin}
-          onKakaoLogin={handleKakaoLogin}
-          isLoading={isLoading}
-        />
+                  <SocialLogin
+            onNaverLogin={handleNaverLogin}
+            onGoogleLogin={handleGoogleLogin}
+            onKakaoLogin={handleKakaoLogin}
+            isLoading={isLoading}
+          />
 
         <div className="text-center mt-6">
           <p className="text-gray-600">
