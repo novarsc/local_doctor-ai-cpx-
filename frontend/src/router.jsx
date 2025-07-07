@@ -63,6 +63,10 @@ const router = createBrowserRouter([
         element: <PublicRoute><SocialCallbackPage /></PublicRoute>,
       },
       {
+        path: 'login/callback',
+        element: <PublicRoute><SocialCallbackPage /></PublicRoute>,
+      },
+      {
         path: 'auth/reset-password',
         element: <PublicRoute><ResetPasswordPage /></PublicRoute>,
       },

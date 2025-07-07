@@ -1,53 +1,61 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { naverLogin, kakaoLogin } from '../../store/slices/authSlice';
-import { extractAuthCode } from '../../utils/socialLogin';
+import { loginSuccess } from '../../store/slices/authSlice';
+import { extractAuthData } from '../../utils/socialLogin';
+import { setToken, setRefreshToken, setUser } from '../../utils/localStorageHelper';
 
 const SocialCallbackPage = () => {
   const navigate = useNavigate();
-  const [searchParams] = useSearchParams();
+  const location = useLocation();
   const dispatch = useDispatch();
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const handleSocialCallback = async () => {
       try {
-        const code = searchParams.get('code');
-        const state = searchParams.get('state');
-        const error = searchParams.get('error');
-        const provider = searchParams.get('provider') || 'naver'; // 기본값은 naver
+        // URL에서 토큰과 사용자 정보 추출
+        const { accessToken, refreshToken, user, error: authError } = extractAuthData(location.search);
 
-        if (error) {
-          setError('로그인이 취소되었습니다.');
-          setTimeout(() => navigate('/login'), 2000);
+        if (authError) {
+          const errorMessages = {
+            'social_login_failed': '소셜 로그인에 실패했습니다.',
+            'token_generation_failed': '토큰 생성에 실패했습니다.',
+          };
+          setError(errorMessages[authError] || '로그인 중 오류가 발생했습니다.');
+          setTimeout(() => navigate('/login'), 3000);
           return;
         }
 
-        if (!code) {
-          setError('인증 코드를 받지 못했습니다.');
-          setTimeout(() => navigate('/login'), 2000);
+        if (!accessToken || !refreshToken || !user) {
+          setError('인증 정보가 불완전합니다.');
+          setTimeout(() => navigate('/login'), 3000);
           return;
         }
 
-        // 소셜 로그인 처리
-        if (provider === 'naver') {
-          await dispatch(naverLogin(code)).unwrap();
-        } else if (provider === 'kakao') {
-          await dispatch(kakaoLogin(code)).unwrap();
-        }
+        // 토큰과 사용자 정보를 localStorage에 저장
+        setToken(accessToken);
+        setRefreshToken(refreshToken);
+        setUser(user);
+
+        // Redux 상태 업데이트
+        dispatch(loginSuccess({
+          accessToken,
+          refreshToken,
+          user
+        }));
 
         // 성공 시 대시보드로 이동
         navigate('/dashboard');
       } catch (err) {
-        console.error('Social login error:', err);
-        setError(err.message || '소셜 로그인에 실패했습니다.');
+        console.error('Social login callback error:', err);
+        setError(err.message || '소셜 로그인 처리 중 오류가 발생했습니다.');
         setTimeout(() => navigate('/login'), 3000);
       }
     };
 
     handleSocialCallback();
-  }, [searchParams, dispatch, navigate]);
+  }, [location.search, dispatch, navigate]);
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center">

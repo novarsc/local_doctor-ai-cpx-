@@ -6,6 +6,7 @@
 
 const authService = require('../services/auth.service');
 const asyncHandler = require('../middlewares/asyncHandler.middleware');
+const tokenManager = require('../utils/tokenManager');
 
 /**
  * Handles user registration request.
@@ -142,6 +143,72 @@ const refreshToken = asyncHandler(async (req, res) => {
   res.status(200).json(result);
 });
 
+/**
+ * 소셜 로그인 성공 후 콜백 처리 (Passport 기반)
+ * @param {object} req - Express request object.
+ * @param {object} res - Express response object.
+ */
+const socialLoginCallback = asyncHandler(async (req, res) => {
+  if (process.env.NODE_ENV === 'development') {
+    console.log('=== 소셜 로그인 콜백 시작 ===');
+    console.log('User ID:', req.user?.userId);
+  }
+  
+  if (!req.user) {
+    console.error('소셜 로그인 콜백: 사용자 정보가 없습니다.');
+    const clientUrl = process.env.CLIENT_URL || 'http://localhost:3000';
+    return res.redirect(`${clientUrl}/login?error=social_login_failed`);
+  }
+
+  try {
+    // JWT 토큰 생성
+    const payload = {
+      userId: req.user.userId,
+      role: req.user.role,
+    };
+    
+    if (process.env.NODE_ENV === 'development') {
+      console.log('JWT 페이로드 생성 완료');
+    }
+    
+    const accessToken = tokenManager.generateAccessToken(payload);
+    const refreshToken = tokenManager.generateRefreshToken(payload);
+    
+    const userObject = req.user.toJSON();
+    delete userObject.password;
+    delete userObject.resetPasswordToken;
+    delete userObject.socialId; // 민감한 정보 제거
+    
+    if (process.env.NODE_ENV === 'development') {
+      console.log('토큰 생성 및 사용자 데이터 정제 완료');
+    }
+    
+    // 프론트엔드로 리다이렉트하면서 토큰 전달
+    const clientUrl = process.env.CLIENT_URL || 'http://localhost:3000';
+    const redirectUrl = `${clientUrl}/login/callback?accessToken=${accessToken}&refreshToken=${refreshToken}&user=${encodeURIComponent(JSON.stringify(userObject))}`;
+    
+    if (process.env.NODE_ENV === 'development') {
+      console.log('리다이렉트 준비 완료');
+      console.log('=== 소셜 로그인 콜백 완료 ===');
+    }
+    
+    res.redirect(redirectUrl);
+  } catch (error) {
+    console.error('소셜 로그인 콜백 오류:', error.message);
+    const clientUrl = process.env.CLIENT_URL || 'http://localhost:3000';
+    res.redirect(`${clientUrl}/login?error=token_generation_failed`);
+  }
+});
+
+/**
+ * 소셜 로그인 실패 처리
+ * @param {object} req - Express request object.
+ * @param {object} res - Express response object.
+ */
+const socialLoginFailure = asyncHandler(async (req, res) => {
+  res.redirect(`${process.env.CLIENT_URL}/login?error=social_login_failed`);
+});
+
 module.exports = {
   register,
   login,
@@ -151,4 +218,6 @@ module.exports = {
   findPassword,
   resetPassword,
   refreshToken,
+  socialLoginCallback,
+  socialLoginFailure,
 };

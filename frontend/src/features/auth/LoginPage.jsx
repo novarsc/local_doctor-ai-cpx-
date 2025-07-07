@@ -10,7 +10,7 @@ import { loginUser, naverLogin, kakaoLogin, findUserId, findUserPassword } from 
 import Button from '../../components/common/Button';
 import SocialLogin from '../../components/common/SocialLogin';
 import ForgotPasswordModal from '../../components/common/ForgotPasswordModal';
-import { getNaverLoginUrl, getKakaoLoginUrl } from '../../utils/socialLogin';
+import { handleSocialLogin } from '../../utils/socialLogin';
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -35,13 +35,15 @@ const LoginPage = () => {
   };
 
   const handleNaverLogin = () => {
-    const naverUrl = getNaverLoginUrl();
-    window.location.href = naverUrl;
+    handleSocialLogin('naver');
+  };
+
+  const handleGoogleLogin = () => {
+    handleSocialLogin('google');
   };
 
   const handleKakaoLogin = () => {
-    const kakaoUrl = getKakaoLoginUrl();
-    window.location.href = kakaoUrl;
+    handleSocialLogin('kakao');
   };
 
   const handleFindId = async (email) => {
@@ -116,11 +118,12 @@ const LoginPage = () => {
         </form>
 
         {/* 소셜 로그인 */}
-        <SocialLogin
-          onNaverLogin={handleNaverLogin}
-          onKakaoLogin={handleKakaoLogin}
-          isLoading={isLoading}
-        />
+                  <SocialLogin
+            onNaverLogin={handleNaverLogin}
+            onGoogleLogin={handleGoogleLogin}
+            onKakaoLogin={handleKakaoLogin}
+            isLoading={isLoading}
+          />
 
         <div className="text-center mt-6">
           <p className="text-gray-600">

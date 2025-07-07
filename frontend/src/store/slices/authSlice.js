@@ -183,6 +183,13 @@ const authSlice = createSlice({
       state.isAuthenticated = false;
       state.error = null;
     },
+    // Reducer for successful login (used by social login callback)
+    loginSuccess: (state, action) => {
+      state.isLoading = false;
+      state.isAuthenticated = true;
+      state.user = action.payload.user;
+      state.error = null;
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -356,6 +363,6 @@ const authSlice = createSlice({
   },
 });
 
-export const { logout } = authSlice.actions;
+export const { logout, loginSuccess } = authSlice.actions;
 
 export default authSlice.reducer;
