@@ -6,20 +6,32 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { fetchCases, startNewMockExam } from '../../store/slices/mockExamSlice';
+import { fetchCases, startNewMockExam, setCaseSelection } from '../../store/slices/mockExamSlice';
 import Button from '../../components/common/Button';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 
 const MockExamSpecifiedSetupPage = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
-    const { categories, status, error } = useSelector(state => state.mockExam);
+    const { categories, status, error, caseSelection } = useSelector(state => state.mockExam);
     
     const [selectedCases, setSelectedCases] = useState([]);
     const [expandedCategories, setExpandedCategories] = useState(new Set());
     const [searchTerm, setSearchTerm] = useState('');
     const [searchResults, setSearchResults] = useState([]);
     const [showSearchResults, setShowSearchResults] = useState(false);
+    const [selectedMiddleCategories, setSelectedMiddleCategories] = useState([]);
+    const [expandedMiddleCategories, setExpandedMiddleCategories] = useState([]);
+    const [middleCategoryCounts, setMiddleCategoryCounts] = useState({});
+
+    // 진입 시 Redux에 저장된 선택 상태가 있으면 복원
+    useEffect(() => {
+        if (caseSelection && (caseSelection.selectedCases.length > 0 || caseSelection.selectedMiddleCategories.length > 0)) {
+            setSelectedCases(caseSelection.selectedCases || []);
+            setSelectedMiddleCategories(caseSelection.selectedMiddleCategories || []);
+            setMiddleCategoryCounts(caseSelection.middleCategoryCounts || {});
+        }
+    }, [caseSelection]);
 
     // 케이스 목록 로드
     useEffect(() => {
@@ -154,13 +166,85 @@ const MockExamSpecifiedSetupPage = () => {
         handleSearchResultSelect(caseItem);
     };
 
+    // 중분류별로 케이스를 그룹핑하는 함수
+    const getMiddleCategoryGroups = (cases) => {
+        const groups = {};
+        cases.forEach((caseItem) => {
+            if (!groups[caseItem.secondaryCategory]) {
+                groups[caseItem.secondaryCategory] = [];
+            }
+            groups[caseItem.secondaryCategory].push(caseItem);
+        });
+        return groups;
+    };
+
+    // 중분류별로 n개 랜덤 케이스 뽑기
+    const getRandomCasesFromMiddleCategories = (categories, selectedMiddleCategories, middleCategoryCounts) => {
+        const selected = [];
+        Object.entries(categories).forEach(([primaryCategory, cases]) => {
+            const groups = {};
+            cases.forEach((caseItem) => {
+                if (!groups[caseItem.secondaryCategory]) {
+                    groups[caseItem.secondaryCategory] = [];
+                }
+                groups[caseItem.secondaryCategory].push(caseItem);
+            });
+            selectedMiddleCategories.forEach((middleCategory) => {
+                if (groups[middleCategory]) {
+                    const groupCases = [...groups[middleCategory]];
+                    const n = Math.min(
+                        middleCategoryCounts[middleCategory] || 1,
+                        groupCases.length
+                    );
+                    // 랜덤 n개 추출
+                    for (let i = 0; i < n; i++) {
+                        if (groupCases.length === 0) break;
+                        const randomIdx = Math.floor(Math.random() * groupCases.length);
+                        selected.push(groupCases[randomIdx]);
+                        groupCases.splice(randomIdx, 1);
+                    }
+                }
+            });
+        });
+        return selected;
+    };
+
     // 모의고사 시작
     const handleStartExam = () => {
+        // 1. 중분류 선택분에서 n개씩 랜덤으로 뽑기
+        const middleCategoryCases = getRandomCasesFromMiddleCategories(categories, selectedMiddleCategories, middleCategoryCounts);
+        // 2. 개별 선택분과 합치기(중복 제거)
+        const allSelected = [...middleCategoryCases, ...selectedCases].filter((caseItem, idx, arr) =>
+            arr.findIndex(c => c.scenarioId === caseItem.scenarioId) === idx
+        );
+        // 3. 6개 미만이면, 나머지는 전체 pool에서 랜덤으로 채움(중복 없이)
+        let finalCases = [...allSelected];
+        if (finalCases.length < 6) {
+            // 전체 케이스 pool 만들기
+            const allCases = Object.values(categories).flat();
+            // 중복/이미 선택된 것 제외
+            const remainingPool = allCases.filter(
+                c => !finalCases.some(sel => sel.scenarioId === c.scenarioId)
+            );
+            // 랜덤하게 남은 자리만큼 뽑기
+            while (finalCases.length < 6 && remainingPool.length > 0) {
+                const idx = Math.floor(Math.random() * remainingPool.length);
+                finalCases.push(remainingPool[idx]);
+                remainingPool.splice(idx, 1);
+            }
+        }
+        // 4. 6개 초과면 앞에서 6개만
+        finalCases = finalCases.slice(0, 6);
+        // 선택 상태 Redux에 저장
+        dispatch(setCaseSelection({
+            selectedCases,
+            selectedMiddleCategories,
+            middleCategoryCounts
+        }));
         const examConfig = {
             examType: 'specified',
-            specifiedCases: selectedCases.map(c => c.scenarioId)
+            specifiedCases: finalCases.map(c => c.scenarioId)
         };
-
         dispatch(startNewMockExam(examConfig))
             .unwrap()
             .then((session) => {
@@ -199,18 +283,28 @@ const MockExamSpecifiedSetupPage = () => {
 
     return (
         <div className="container mx-auto p-6 bg-gray-50 min-h-screen">
-            <header className="mb-8">
+            {/* 헤더: h1 + 메인으로 돌아가기 버튼 */}
+            <header className="mb-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                 <h1 className="text-4xl font-bold text-gray-800">지정 모의고사 증례 선택</h1>
-                <p className="text-lg text-gray-600 mt-2">
-                    응시하고 싶은 증례를 최대 6개까지 선택해주세요.
-                </p>
-                <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-                    <p className="text-blue-800 text-sm">
-                        <strong>안내:</strong> 최종적으로 6개의 증례가 선정되며, 같은 주요 질환 계통(대분류)에서도 선택이 가능합니다. 
-                        선택하지 않은 증례는 나머지 질환 계통에서 랜덤으로 출제되며, 6개 이상 선택시 먼저 선택한 증례들로 출제됩니다.
-                    </p>
-                </div>
+                <button
+                    onClick={() => navigate('/mock-exams')}
+                    className="flex items-center border border-blue-500 text-blue-700 hover:bg-blue-50 hover:border-blue-600 focus:ring-2 focus:ring-blue-200 font-semibold rounded-lg px-4 py-2 transition-colors duration-150 shadow-sm bg-white"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 mr-2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
+                    모의고사 메인으로 돌아가기
+                </button>
             </header>
+            <p className="text-lg text-gray-600 mt-2">
+                응시하고 싶은 증례를 최대 6개까지 선택해주세요.
+            </p>
+            <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                <p className="text-blue-800 text-sm">
+                    <strong>안내:</strong> 최종적으로 6개의 증례가 선정되며, 같은 주요 질환 계통(대분류)에서도 선택이 가능합니다. 
+                    선택하지 않은 증례는 나머지 질환 계통에서 랜덤으로 출제되며, 6개 이상 선택시 먼저 선택한 증례들로 출제됩니다.
+                </p>
+            </div>
 
             <div className="grid lg:grid-cols-3 gap-8">
                 {/* 케이스 선택 영역 */}
@@ -304,20 +398,103 @@ const MockExamSpecifiedSetupPage = () => {
                                 
                                 {expandedCategories.has(primaryCategory) && (
                                     <div className="mt-2 ml-4 space-y-2">
-                                        {cases.map((caseItem) => (
-                                            <label key={caseItem.scenarioId} className="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
-                                                <input
-                                                    type="checkbox"
-                                                    checked={isAlreadySelected(caseItem.scenarioId)}
-                                                    onChange={() => toggleCase(caseItem)}
-                                                    className="mr-3 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-                                                />
-                                                <div className="flex-1">
-                                                    <div className="text-gray-700 font-medium">{caseItem.name}</div>
-                                                    <div className="text-sm text-gray-500">{caseItem.secondaryCategory}</div>
+                                        {/* 중분류별 그룹핑 */}
+                                        {Object.entries(getMiddleCategoryGroups(cases)).map(([middleCategory, groupCases]) => {
+                                            const isExpanded = expandedMiddleCategories.includes(middleCategory);
+                                            const n = middleCategoryCounts[middleCategory] || 1;
+                                            // 전체 중분류 n값 합계 계산
+                                            const totalMiddleCount = Object.entries(middleCategoryCounts).reduce((sum, [cat, val]) =>
+                                                selectedMiddleCategories.includes(cat) ? sum + val : sum, 0
+                                            );
+                                            return (
+                                                <div key={middleCategory} className="mb-2">
+                                                    <div className="flex items-center">
+                                                        <label className="flex items-center p-2 bg-gray-50 rounded cursor-pointer flex-1">
+                                                            <input
+                                                                type="checkbox"
+                                                                checked={selectedMiddleCategories.includes(middleCategory)}
+                                                                onChange={() => {
+                                                                    setSelectedMiddleCategories((prev) =>
+                                                                        prev.includes(middleCategory)
+                                                                            ? prev.filter((cat) => cat !== middleCategory)
+                                                                            : [...prev, middleCategory]
+                                                                    );
+                                                                    // 체크 해제 시 n값도 1로 초기화
+                                                                    setMiddleCategoryCounts((prev) => {
+                                                                        const copy = { ...prev };
+                                                                        if (!selectedMiddleCategories.includes(middleCategory)) {
+                                                                            copy[middleCategory] = 1;
+                                                                        } else {
+                                                                            delete copy[middleCategory];
+                                                                        }
+                                                                        return copy;
+                                                                    });
+                                                                }}
+                                                                className="mr-2 h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded"
+                                                            />
+                                                            <span className="font-semibold text-green-700">{middleCategory}</span>
+                                                            <span className="ml-2 text-xs text-gray-400">({groupCases.length}개)</span>
+                                                            {/* n값 입력 UI */}
+                                                            {selectedMiddleCategories.includes(middleCategory) && (
+                                                                <input
+                                                                    type="number"
+                                                                    min={1}
+                                                                    max={Math.min(groupCases.length, 6 - (totalMiddleCount - n))}
+                                                                    value={n}
+                                                                    onChange={e => {
+                                                                        let value = parseInt(e.target.value, 10);
+                                                                        if (isNaN(value) || value < 1) value = 1;
+                                                                        if (value > groupCases.length) value = groupCases.length;
+                                                                        // 전체 합이 6을 넘지 않도록 제한
+                                                                        const otherTotal = totalMiddleCount - n;
+                                                                        if (value + otherTotal > 6) value = 6 - otherTotal;
+                                                                        setMiddleCategoryCounts(prev => ({ ...prev, [middleCategory]: value }));
+                                                                    }}
+                                                                    className="ml-2 w-14 px-1 py-0.5 border border-gray-300 rounded text-xs text-center"
+                                                                    style={{ minWidth: 0 }}
+                                                                />
+                                                            )}
+                                                            {selectedMiddleCategories.includes(middleCategory) && (
+                                                                <span className="ml-1 text-xs text-gray-500">개</span>
+                                                            )}
+                                                        </label>
+                                                        <button
+                                                            type="button"
+                                                            className="ml-2 text-gray-500 hover:text-gray-700 text-lg focus:outline-none"
+                                                            onClick={() => {
+                                                                setExpandedMiddleCategories((prev) =>
+                                                                    prev.includes(middleCategory)
+                                                                        ? prev.filter((cat) => cat !== middleCategory)
+                                                                        : [...prev, middleCategory]
+                                                                );
+                                                            }}
+                                                            aria-label={isExpanded ? '질환명 접기' : '질환명 펼치기'}
+                                                        >
+                                                            {isExpanded ? '▼' : '▶'}
+                                                        </button>
+                                                    </div>
+                                                    {/* 중분류가 펼쳐져 있으면 해당 케이스 목록도 보여줌 */}
+                                                    {isExpanded && (
+                                                        <div className="ml-6 mt-1 space-y-1">
+                                                            {groupCases.map((caseItem) => (
+                                                                <label key={caseItem.scenarioId} className="flex items-center p-2 hover:bg-gray-100 rounded cursor-pointer">
+                                                                    <input
+                                                                        type="checkbox"
+                                                                        checked={isAlreadySelected(caseItem.scenarioId)}
+                                                                        onChange={() => toggleCase(caseItem)}
+                                                                        className="mr-2 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                                                                        disabled={selectedMiddleCategories.includes(middleCategory)}
+                                                                    />
+                                                                    <div className="flex-1">
+                                                                        <div className="text-gray-700 font-medium">{caseItem.name}</div>
+                                                                    </div>
+                                                                </label>
+                                                            ))}
+                                                        </div>
+                                                    )}
                                                 </div>
-                                            </label>
-                                        ))}
+                                            );
+                                        })}
                                     </div>
                                 )}
                             </div>
@@ -332,9 +509,21 @@ const MockExamSpecifiedSetupPage = () => {
                         
                         <div className="mb-6">
                             <p className="text-sm text-gray-600 mb-2">
-                                선택된 증례: <span className="font-semibold text-blue-600">{selectedCases.length}/6</span>
+                                선택된 증례: <span className="font-semibold text-blue-600">{Object.entries(middleCategoryCounts).reduce((sum, [cat, val]) => selectedMiddleCategories.includes(cat) ? sum + val : sum, 0) + selectedCases.length}/6</span>
                             </p>
                             
+                            {/* 중분류 선택 요약 */}
+                            {selectedMiddleCategories.length > 0 && (
+                                <div className="mb-2">
+                                    <div className="text-xs text-green-700 font-semibold">중분류 선택:</div>
+                                    <ul className="list-disc ml-5 text-green-700 text-xs">
+                                        {selectedMiddleCategories.map((cat) => (
+                                            <li key={cat}>{cat} <span className="text-gray-500">({middleCategoryCounts[cat] || 1}개)</span></li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            )}
+                            {/* 개별 케이스 선택 요약 */}
                             {selectedCases.length > 0 ? (
                                 <div className="space-y-2">
                                     {selectedCases.map((caseItem) => (

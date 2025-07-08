@@ -368,15 +368,38 @@ const CaseListPage = () => {
         return filteredScenarios;
     }, [scenarios, bookmarks, history, status, optimisticBookmarks]);
 
-    // 증례명 표시 함수
+    // --- 추가: 중분류별로 personalizedScenarios를 그룹화 ---
+    const scenariosGroupedBySecondary = useMemo(() => {
+        const groups = {};
+        (personalizedScenarios || []).forEach((scenario) => {
+            const key = scenario.secondaryCategory || '기타';
+            if (!groups[key]) groups[key] = [];
+            groups[key].push(scenario);
+        });
+        return groups;
+    }, [personalizedScenarios]);
+
+    // --- 추가: scenarioId별로 넘버링 인덱스 맵 생성 ---
+    const scenarioNumberingMap = useMemo(() => {
+        const map = {};
+        Object.entries(scenariosGroupedBySecondary).forEach(([secondary, scenarios]) => {
+            scenarios.forEach((scenario, idx) => {
+                map[scenario.scenarioId] = idx + 1;
+            });
+        });
+        return map;
+    }, [scenariosGroupedBySecondary]);
+
+    // --- 수정: 넘버링 및 상세질환명 스위치 반영한 이름 생성 함수 ---
     const getDisplayName = (scenario) => {
+        const secondary = scenario.secondaryCategory || '기타';
+        const number = scenarioNumberingMap[scenario.scenarioId] || 1;
         if (showOriginalNames) {
-            // 기존 질환명 + JSON 파일명의 2번째 단어
-            const secondaryCategory = scenario.secondaryCategory || '';
-            return secondaryCategory ? `${scenario.name} (${secondaryCategory})` : scenario.name;
+            // 중분류+번호 - 기존이름
+            return `${secondary}${number} - ${scenario.name}`;
         } else {
-            // JSON 파일명의 2번째 단어만 표시
-            return scenario.secondaryCategory || scenario.name;
+            // 중분류+번호
+            return `${secondary}${number}`;
         }
     };
 
@@ -708,74 +731,76 @@ const CaseListPage = () => {
                             {!error && (personalizedScenarios || []).length > 0 && (
                                 <div className="p-4 sm:p-6 lg:p-8">
                                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
-                                        {personalizedScenarios.map((scenario) => (
-                                            <div key={scenario.scenarioId} className="bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden">
-                                                {/* 썸네일 영역 - 환자 설명 */}
-                                                <div className="aspect-video bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
-                                                    <div className="text-center w-full">
-                                                        <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-2">
-                                                            <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                                                            </svg>
+                                        {/* 카드 리스트 렌더링 부분 수정: personalizedScenarios.map -> 중분류 그룹 순회 */}
+                                        {Object.entries(scenariosGroupedBySecondary).flatMap(([secondary, scenarios]) =>
+                                            scenarios.map((scenario) => (
+                                                <div key={scenario.scenarioId} className="bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden">
+                                                    {/* 썸네일 영역 - 환자 설명 */}
+                                                    <div className="aspect-video bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
+                                                        <div className="text-center w-full">
+                                                            <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-2">
+                                                                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                                                </svg>
+                                                            </div>
+                                                            <p className="text-sm font-medium text-gray-800 leading-relaxed line-clamp-4">
+                                                                {scenario.shortDescription}
+                                                            </p>
                                                         </div>
-                                                        <p className="text-sm font-medium text-gray-800 leading-relaxed line-clamp-4">
-                                                            {scenario.shortDescription}
-                                                        </p>
                                                     </div>
-                                                </div>
 
-                                                {/* 콘텐츠 영역 */}
-                                                <div className="p-4">
-                                                    <div className="flex justify-between items-start mb-2">
-                                                        <h3 className="text-sm font-semibold text-gray-900 line-clamp-2">
-                                                            {getDisplayName(scenario)}
-                                                        </h3>
-                                                        <BookmarkIcon 
-                                                            isBookmarked={scenario.isBookmarked} 
-                                                            onClick={() => handleBookmarkToggle(scenario.scenarioId, scenario.isBookmarked)} 
-                                                            isLoading={isLoading}
-                                                            disabled={status === 'bookmarked' && scenario.isBookmarked}
-                                                        />
-                                                    </div>
-                                                    <div className="mb-3">
-                                                        <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                                                            {scenario.primaryCategory}
-                                                        </span>
-                                                        {scenario.secondaryCategory && (
-                                                            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-700 ml-2">
-                                                                {scenario.secondaryCategory}
+                                                    {/* 콘텐츠 영역 */}
+                                                    <div className="p-4">
+                                                        <div className="flex justify-between items-start mb-2">
+                                                            <h3 className="text-sm font-semibold text-gray-900 line-clamp-2">
+                                                                {getDisplayName(scenario)}
+                                                            </h3>
+                                                            <BookmarkIcon 
+                                                                isBookmarked={scenario.isBookmarked} 
+                                                                onClick={() => handleBookmarkToggle(scenario.scenarioId, scenario.isBookmarked)} 
+                                                                isLoading={isLoading}
+                                                                disabled={status === 'bookmarked' && scenario.isBookmarked}
+                                                            />
+                                                        </div>
+                                                        <div className="mb-3">
+                                                            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                                                                {scenario.primaryCategory}
                                                             </span>
-                                                        )}
-                                                    </div>
-                                                    
-                                                    {/* 상태 및 버튼 */}
-                                                    <div className="flex items-center justify-between">
-                                                        <div className="flex items-center space-x-2">
-                                                            {scenario.isCompleted ? (
-                                                                <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                                                                    <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                                                                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                                                    </svg>
-                                                                    실습 완료
-                                                                </span>
-                                                            ) : (
-                                                                <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-red-100 text-red-800">
-                                                                    <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                                                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
-                                                                    </svg>
-                                                                    미완료
+                                                            {scenario.secondaryCategory && (
+                                                                <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-700 ml-2">
+                                                                    {scenario.secondaryCategory}
                                                                 </span>
                                                             )}
                                                         </div>
-                                                        <Link to={`/cases/practice/${scenario.scenarioId}`}>
-                                                            <button className="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors">
-                                                                실습 시작
-                                                            </button>
-                                                        </Link>
+                                                        {/* 상태 및 버튼 */}
+                                                        <div className="flex items-center justify-between">
+                                                            <div className="flex items-center space-x-2">
+                                                                {scenario.isCompleted ? (
+                                                                    <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                                                        <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                                                                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                                                        </svg>
+                                                                        실습 완료
+                                                                    </span>
+                                                                ) : (
+                                                                    <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-red-100 text-red-800">
+                                                                        <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                                                                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                                                                        </svg>
+                                                                        미완료
+                                                                    </span>
+                                                                )}
+                                                            </div>
+                                                            <Link to={`/cases/practice/${scenario.scenarioId}`}>
+                                                                <button className="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors">
+                                                                    실습 시작
+                                                                </button>
+                                                            </Link>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        ))}
+                                            ))
+                                        )}
                                     </div>
                                 </div>
                             )}

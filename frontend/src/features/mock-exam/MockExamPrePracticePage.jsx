@@ -153,13 +153,28 @@ const MockExamPrePracticePage = () => {
 
         {/* 하단 버튼 영역 */}
         <div className="mt-2 pt-2 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center gap-4 sticky bottom-0 bg-gray-50 z-10">
-            <Button
-                onClick={() => navigate('/mock-exams')}
-                variant="secondary"
-                className="w-full sm:w-auto"
-            >
-                모의고사 취소
-            </Button>
+            <div className="flex flex-row w-full sm:w-auto">
+                {currentSession?.examType === 'random' ? (
+                    <Button
+                        onClick={() => navigate('/mock-exams')}
+                        variant="secondary"
+                        className="w-full sm:w-auto"
+                    >
+                        모의고사 취소
+                    </Button>
+                ) : (
+                    <Button
+                        onClick={() => navigate('/mock-exams/specified-setup')}
+                        variant="outline"
+                        className="w-full sm:w-auto border-blue-500 text-blue-700 hover:bg-blue-50 hover:border-blue-600 focus:ring-2 focus:ring-blue-200 font-semibold rounded-lg px-6 py-2 flex items-center gap-2 transition-colors duration-150"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 mr-1 inline-block">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>
+                        이전 단계로 돌아가기
+                    </Button>
+                )}
+            </div>
             <div className="flex flex-col sm:flex-row items-center gap-4">
                 <div className="text-sm text-gray-600">
                   <p>증례 {caseNumber} / 6</p>

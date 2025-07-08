@@ -12,6 +12,12 @@ const initialState = {
   categories: null,
   status: 'idle', // 'idle' | 'loading' | 'active' | 'completed' | 'error'
   error: null,
+  // 증례 선택 상태 저장용
+  caseSelection: {
+    selectedCases: [],
+    selectedMiddleCategories: [],
+    middleCategoryCounts: {},
+  },
 };
 
 // Existing async thunks (startNewMockExam, fetchMockExamSession) ...
@@ -61,6 +67,9 @@ const mockExamSlice = createSlice({
       state.status = 'idle';
       state.error = null;
     },
+    setCaseSelection: (state, action) => {
+      state.caseSelection = action.payload;
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -100,6 +109,6 @@ const mockExamSlice = createSlice({
   },
 });
 
-export const { clearCurrentMockExam } = mockExamSlice.actions;
+export const { clearCurrentMockExam, setCaseSelection } = mockExamSlice.actions;
 
 export default mockExamSlice.reducer;
