@@ -232,7 +232,7 @@ const completeMockExamSession = async (mockExamSessionId, userId) => {
 
         // AI 평가 완료를 대기하는 로직
         const { EvaluationResult } = require('../models');
-        const maxRetries = 300; // 최대 5분
+        const maxRetries = 9999; // 최대 5분
         const retryDelay = 1000; // 1초 간격
         
         // 평가 완료를 대기하는 함수

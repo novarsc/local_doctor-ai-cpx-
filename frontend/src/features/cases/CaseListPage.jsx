@@ -196,13 +196,19 @@ const CaseListPage = () => {
         
         // 디바운스 시간을 줄여서 더 빠른 응답 제공
         const handler = setTimeout(() => {
-            dispatch(fetchScenarios({ 
+            const requestParams = {
                 page: 1, 
                 limit: 1000, // 모든 증례를 한 번에 가져오기 위해 큰 값 설정
                 search: searchTerm, 
-                category: selectedCategories.join(','),
                 status: status 
-            }));
+            };
+            
+            // 카테고리가 선택된 경우에만 카테고리 필터 추가
+            if (selectedCategories.length > 0) {
+                requestParams.category = selectedCategories.join(',');
+            }
+            
+            dispatch(fetchScenarios(requestParams));
         }, 300);
         return () => clearTimeout(handler);
     }, [searchTerm, selectedCategories, status, dispatch, filtersInitialized]);
@@ -244,17 +250,11 @@ const CaseListPage = () => {
         });
     };
 
-    // 모든 카테고리 선택/해제 함수
-    const handleSelectAllCategories = () => {
-        setSelectedCategories(prev => {
-            if (prev.length === categories.length) {
-                // 모든 카테고리가 선택되어 있으면 모두 해제
-                return [];
-            } else {
-                // 모든 카테고리 선택
-                return [...categories];
-            }
-        });
+    // 필터 초기화 함수
+    const handleResetFilters = () => {
+        setSelectedCategories([]);
+        setSearchTerm('');
+        setStatus('all');
     };
 
     // 대분류 카테고리 토글 함수 - 수정된 버전
@@ -356,6 +356,13 @@ const CaseListPage = () => {
             };
         });
 
+        // 카테고리 필터 적용
+        if (selectedCategories.length > 0) {
+            filteredScenarios = filteredScenarios.filter(scenario => 
+                selectedCategories.includes(scenario.secondaryCategory)
+            );
+        }
+
         // 학습 상태 필터 적용
         if (status === 'completed') {
             filteredScenarios = filteredScenarios.filter(scenario => scenario.isCompleted);
@@ -366,7 +373,7 @@ const CaseListPage = () => {
         }
 
         return filteredScenarios;
-    }, [scenarios, bookmarks, history, status, optimisticBookmarks]);
+    }, [scenarios, bookmarks, history, status, optimisticBookmarks, selectedCategories]);
 
     // --- 추가: 중분류별로 personalizedScenarios를 그룹화 ---
     const scenariosGroupedBySecondary = useMemo(() => {
@@ -481,11 +488,26 @@ const CaseListPage = () => {
 
                     <div className="flex">
                         {/* 사이드바 */}
-                        <div className={`fixed inset-y-0 left-0 z-50 bg-white shadow-lg transform ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 lg:static lg:inset-0 transition duration-200 ease-in-out ${sidebarCollapsed ? 'w-16' : 'w-64'}`}>
-                            <div className="h-full flex flex-col">
+                        <div className={`fixed inset-y-0 left-0 z-50 bg-white shadow-lg transform ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 lg:static lg:inset-0 transition duration-200 ease-in-out ${sidebarCollapsed ? 'w-16' : 'w-64'} max-h-screen`}>
+                            <div className="h-full flex flex-col min-h-0">
                                 {/* 사이드바 헤더 */}
-                                <div className="flex items-center justify-between p-4 border-b border-gray-200">
-                                    {!sidebarCollapsed && <h2 className="text-lg font-semibold text-gray-900">필터</h2>}
+                                <div className="flex-shrink-0 flex items-center justify-between p-4 border-b border-gray-200">
+                                    {!sidebarCollapsed && (
+                                        <div className="flex items-center space-x-2">
+                                            <h2 className="text-lg font-semibold text-gray-900">필터</h2>
+                                            {(selectedCategories.length > 0 || searchTerm || status !== 'all') && (
+                                                <button
+                                                    onClick={handleResetFilters}
+                                                    className="p-1 rounded-md text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors"
+                                                    title="필터 초기화"
+                                                >
+                                                    <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                                    </svg>
+                                                </button>
+                                            )}
+                                        </div>
+                                    )}
                                     <div className="flex items-center space-x-2">
                                         <button
                                             onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
@@ -508,7 +530,7 @@ const CaseListPage = () => {
                                 </div>
 
                                 {/* 사이드바 내용 */}
-                                <div className={`flex-1 overflow-y-auto transition-all duration-200 ${sidebarCollapsed ? 'p-2' : 'p-4'} space-y-6`}>
+                                <div className={`flex-1 overflow-y-auto transition-all duration-200 ${sidebarCollapsed ? 'p-2' : 'p-4'} space-y-6 pb-4 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 overscroll-contain`}>
                                     {/* 카테고리 필터 */}
                                     <div>
                                         {sidebarCollapsed ? (
@@ -524,18 +546,7 @@ const CaseListPage = () => {
                                                 </button>
                                                 {categoryExpanded && (
                                                     <div className="flex flex-col items-center space-y-1">
-                                                        <button
-                                                            onClick={handleSelectAllCategories}
-                                                            className={`p-1 rounded text-xs transition-colors ${
-                                                                selectedCategories.length === 0 
-                                                                    ? 'bg-blue-100 text-blue-700' 
-                                                                    : 'text-gray-600 hover:bg-gray-100'
-                                                            }`}
-                                                            title={selectedCategories.length === categories.length ? '전체 해제' : '전체 선택'}
-                                                        >
-                                                            전체
-                                                        </button>
-                                                        {(categories || []).slice(0, 3).map(cat => (
+                                                        {(categories || []).slice(0, 4).map(cat => (
                                                             <button
                                                                 key={cat}
                                                                 onClick={() => handlePrimaryCategoryToggle(cat)}
@@ -549,8 +560,8 @@ const CaseListPage = () => {
                                                                 {cat.slice(0, 2)}
                                                             </button>
                                                         ))}
-                                                        {(categories || []).length > 3 && (
-                                                            <span className="text-xs text-gray-400">+{categories.length - 3}</span>
+                                                        {(categories || []).length > 4 && (
+                                                            <span className="text-xs text-gray-400">+{categories.length - 4}</span>
                                                         )}
                                                     </div>
                                                 )}
@@ -571,57 +582,49 @@ const CaseListPage = () => {
                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                                                     </svg>
                                                 </button>
-                                                <div className={`space-y-2 transition-all duration-200 overflow-hidden ${categoryExpanded ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
-                                                    <button
-                                                        onClick={handleSelectAllCategories}
-                                                        className={`w-full text-left px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                                                            selectedCategories.length === 0 
-                                                                ? 'bg-blue-100 text-blue-700' 
-                                                                : 'text-gray-600 hover:bg-gray-100'
-                                                        }`}
-                                                    >
-                                                        {selectedCategories.length === categories.length ? '전체 해제' : '전체 선택'}
-                                                    </button>
-                                                    {(categories || []).map(primaryCat => (
-                                                        <div key={primaryCat} className="space-y-1">
-                                                            <button
-                                                                onClick={() => handlePrimaryCategoryToggle(primaryCat)}
-                                                                className={`w-full text-left px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center justify-between ${
-                                                                    expandedPrimaryCategories.has(primaryCat)
-                                                                        ? 'bg-blue-50 text-blue-700'
-                                                                        : 'text-gray-600 hover:bg-gray-100'
-                                                                }`}
-                                                            >
-                                                                <span>{primaryCat}</span>
-                                                                <svg 
-                                                                    className={`w-4 h-4 transition-transform duration-200 ${expandedPrimaryCategories.has(primaryCat) ? 'rotate-90' : ''}`} 
-                                                                    fill="none" 
-                                                                    viewBox="0 0 24 24" 
-                                                                    stroke="currentColor"
+                                                {categoryExpanded && (
+                                                    <div className="space-y-2">
+                                                        {(categories || []).map(primaryCat => (
+                                                            <div key={primaryCat} className="space-y-1">
+                                                                <button
+                                                                    onClick={() => handlePrimaryCategoryToggle(primaryCat)}
+                                                                    className={`w-full text-left px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center justify-between ${
+                                                                        expandedPrimaryCategories.has(primaryCat)
+                                                                            ? 'bg-blue-50 text-blue-700'
+                                                                            : 'text-gray-600 hover:bg-gray-100'
+                                                                    }`}
                                                                 >
-                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                                                </svg>
-                                                            </button>
-                                                            {expandedPrimaryCategories.has(primaryCat) && subCategories[primaryCat] && (
-                                                                <div className="ml-4 space-y-1">
-                                                                    {subCategories[primaryCat].map(subCat => (
-                                                                        <button
-                                                                            key={subCat}
-                                                                            onClick={() => handleCategoryToggle(subCat)}
-                                                                            className={`w-full text-left px-2 py-1.5 rounded text-xs transition-colors ${
-                                                                                selectedCategories.includes(subCat)
-                                                                                    ? 'bg-blue-100 text-blue-700'
-                                                                                    : 'text-gray-500 hover:bg-gray-50'
-                                                                            }`}
-                                                                        >
-                                                                            {subCat}
-                                                                        </button>
-                                                                    ))}
-                                                                </div>
-                                                            )}
-                                                        </div>
-                                                    ))}
-                                                </div>
+                                                                    <span>{primaryCat}</span>
+                                                                    <svg 
+                                                                        className={`w-4 h-4 transition-transform duration-200 ${expandedPrimaryCategories.has(primaryCat) ? 'rotate-90' : ''}`} 
+                                                                        fill="none" 
+                                                                        viewBox="0 0 24 24" 
+                                                                        stroke="currentColor"
+                                                                    >
+                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                                                    </svg>
+                                                                </button>
+                                                                {expandedPrimaryCategories.has(primaryCat) && subCategories[primaryCat] && (
+                                                                    <div className="ml-4 space-y-1">
+                                                                        {subCategories[primaryCat].map(subCat => (
+                                                                            <button
+                                                                                key={subCat}
+                                                                                onClick={() => handleCategoryToggle(subCat)}
+                                                                                className={`w-full text-left px-2 py-1.5 rounded text-xs transition-colors ${
+                                                                                    selectedCategories.includes(subCat)
+                                                                                        ? 'bg-blue-100 text-blue-700'
+                                                                                        : 'text-gray-500 hover:bg-gray-50'
+                                                                                }`}
+                                                                            >
+                                                                                {subCat}
+                                                                            </button>
+                                                                        ))}
+                                                                    </div>
+                                                                )}
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                )}
                                             </>
                                         )}
                                     </div>
@@ -679,26 +682,28 @@ const CaseListPage = () => {
                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                                                     </svg>
                                                 </button>
-                                                <div className={`space-y-2 transition-all duration-200 overflow-hidden ${statusExpanded ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
-                                                    {[
-                                                        { value: 'all', label: '전체' },
-                                                        { value: 'completed', label: '실습 완료' },
-                                                        { value: 'incomplete', label: '미완료' },
-                                                        { value: 'bookmarked', label: '즐겨찾기' }
-                                                    ].map(option => (
-                                                        <button
-                                                            key={option.value}
-                                                            onClick={() => setStatus(option.value)}
-                                                            className={`w-full text-left px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                                                                status === option.value
-                                                                    ? 'bg-blue-100 text-blue-700'
-                                                                    : 'text-gray-600 hover:bg-gray-100'
-                                                            }`}
-                                                        >
-                                                            {option.label}
-                                                        </button>
-                                                    ))}
-                                                </div>
+                                                {statusExpanded && (
+                                                    <div className="space-y-2">
+                                                        {[
+                                                            { value: 'all', label: '전체' },
+                                                            { value: 'completed', label: '실습 완료' },
+                                                            { value: 'incomplete', label: '미완료' },
+                                                            { value: 'bookmarked', label: '즐겨찾기' }
+                                                        ].map(option => (
+                                                            <button
+                                                                key={option.value}
+                                                                onClick={() => setStatus(option.value)}
+                                                                className={`w-full text-left px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                                                                    status === option.value
+                                                                        ? 'bg-blue-100 text-blue-700'
+                                                                        : 'text-gray-600 hover:bg-gray-100'
+                                                                }`}
+                                                            >
+                                                                {option.label}
+                                                            </button>
+                                                        ))}
+                                                    </div>
+                                                )}
                                             </>
                                         )}
                                     </div>

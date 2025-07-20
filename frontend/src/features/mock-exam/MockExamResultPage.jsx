@@ -4,7 +4,7 @@
  */
 
 import React, { useEffect, useRef, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { clearCurrentMockExam, fetchMockExamSession } from '../../store/slices/mockExamSlice';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
@@ -16,6 +16,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Star, Target, CheckCircle, XCircle } from 'lucide-react';
 
+const DEV_FORCE_LOADING = true; // 테스트 끝나면 false 또는 삭제
+const DEV_FORCE_ERROR = false; // 에러 모달 테스트용
+const DEV_FORCE_CANCEL = false; // 채점 취소 모달 테스트용
+const DEV_FORCE_TOAST = false; // 채점 완료 알림 테스트용
+
+
+
 const MockExamResultPage = () => {
     const dispatch = useDispatch();
     const { mockExamSessionId } = useParams();
@@ -26,6 +33,89 @@ const MockExamResultPage = () => {
     // 체크리스트 아코디언 상태를 scenarioId+category별로 관리
     const [openGroups, setOpenGroups] = useState({});
     const swiperRef = useRef(null);
+    const feedbackSectionRef = useRef(null); // Swiper 영역 ref 추가
+    const location = useLocation();
+    const isDev = DEV_FORCE_LOADING || new URLSearchParams(location.search).get('dev') === '1';
+    const isDevError = DEV_FORCE_ERROR || new URLSearchParams(location.search).get('error') === '1';
+    const isDevCancel = DEV_FORCE_CANCEL || new URLSearchParams(location.search).get('cancel') === '1';
+    const isDevToast = DEV_FORCE_TOAST || new URLSearchParams(location.search).get('toast') === '1';
+    const fakeProgress = { completed: 2, total: 6 };
+    const fakeError = '테스트용 에러 메시지입니다. 서버와의 통신이 원활하지 않습니다.';
+    const fakeSessionId = 'test-session-1234';
+
+    // ✨ 이 코드를 추가하세요.
+// 아코디언 상태 변경 시 Swiper 높이 강제 업데이트
+useEffect(() => {
+  if (swiperRef.current) {
+      // DOM 렌더링이 완료된 후 Swiper 높이를 업데이트하기 위해
+      // 짧은 지연 시간을 줍니다.
+      setTimeout(() => {
+          swiperRef.current.update();
+      }, 10);
+  }
+}, [openGroups]);
+
+    const renderToast = () => (
+      <div className="fixed top-[60px] right-4 z-50 bg-blue-50 border-2 border-blue-400 shadow-2xl rounded-2xl max-w-xs px-4 py-4 flex flex-col items-center animate-fade-in">
+        <button
+          className="absolute top-2 right-2 text-gray-400 hover:text-gray-700"
+          onClick={handleCloseToast}
+          aria-label="닫기"
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+        <div className="text-2xl mb-2">🎉</div>
+        <div className="font-bold text-blue-800 text-base mb-1 text-center">모의고사 채점이 완료되었습니다!</div>
+        <div className="text-gray-700 text-xs mb-3 text-center">결과를 바로 확인해보세요.</div>
+        <button
+          className="w-full px-3 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition mb-1 text-sm"
+          onClick={handleGoToResult}
+        >
+          결과 바로가기
+        </button>
+      </div>
+    );
+    // 재시도 횟수 상태
+    const [retryCount, setRetryCount] = useState(0);
+    const RETRY_LIMIT = 5;
+    const [showCancelModal, setShowCancelModal] = useState(false);
+
+    // Toast 알림 상태
+    const [showToast, setShowToast] = useState(isDevToast);
+
+    // Toast 알림 핸들러
+    const handleGoToResult = () => {
+        window.location.href = `/mock-exams/results/${fakeSessionId}`;
+    };
+    const handleCloseToast = () => {
+        setShowToast(false);
+    };
+
+    // 버튼 핸들러
+    const handleRetry = () => {
+        if (retryCount + 1 >= RETRY_LIMIT) {
+            setShowCancelModal(true);
+        } else {
+            setRetryCount(c => c + 1);
+            window.location.reload(); // 테스트용: 새로고침으로 대체
+        }
+    };
+    const handleResetAndRetry = () => {
+        if (retryCount + 1 >= RETRY_LIMIT) {
+            setShowCancelModal(true);
+        } else {
+            setRetryCount(c => c + 1);
+            window.location.reload(); // 테스트용: 새로고침으로 대체
+        }
+    };
+    const handleGoHome = () => {
+        window.location.href = '/mock-exams';
+    };
+    const handleContact = () => {
+        window.open('mailto:support@example.com'); // 실제 문의 메일/페이지로 변경
+    };
 
     // 디버깅을 위한 로그
     console.log('MockExamResultPage render:', { mockExamSessionId, currentSession, status, error });
@@ -96,7 +186,83 @@ const MockExamResultPage = () => {
         }
     }, [status, mockExamSessionId]);
 
-    if (status === 'loading') {
+    // Toast 테스트 분기
+    if (showToast) {
+        return (
+            <>
+                {renderToast()}
+                {/* 실제 페이지 내용은 생략, 알림만 표시 */}
+            </>
+        );
+    }
+
+    if (isDevCancel || showCancelModal) {
+        return (
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 backdrop-blur-sm">
+                <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md flex flex-col items-center">
+                    {/* 취소 아이콘 */}
+                    <div className="mb-4">
+                        <svg className="w-12 h-12 text-red-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    {/* 제목 */}
+                    <h2 className="text-2xl font-bold text-red-600 mb-2">채점이 취소되었습니다</h2>
+                    {/* 본문 메시지 */}
+                    <div className="text-gray-800 text-center mb-2 font-semibold text-sm">
+                        여러 번 시도했지만 채점이 완료되지 않았습니다.<br />
+                        네트워크 상태를 확인하거나, 잠시 후 다시 시도해 주세요.<br />
+                        문제가 계속된다면 고객센터로 문의해 주세요.
+                    </div>
+                    {/* 추가 안내 */}
+                    <div className="text-gray-400 text-xs mb-4">
+                        채점이 취소된 세션은 결과를 확인할 수 없습니다.
+                    </div>
+                    {/* 버튼 */}
+                    <div className="flex gap-2 mt-4">
+                        <button className="px-4 py-2 bg-blue-600 text-white rounded-lg font-semibold" onClick={handleGoHome}>모의고사 홈으로</button>
+                        <button className="px-4 py-2 bg-gray-500 text-white rounded-lg font-semibold" onClick={handleContact}>문의하기</button>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    if (isDevError) {
+        return (
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 backdrop-blur-sm">
+                <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md flex flex-col items-center">
+                    {/* 경고 아이콘 */}
+                    <div className="mb-4">
+                        <svg className="w-12 h-12 text-red-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    {/* 제목 */}
+                    <h2 className="text-2xl font-bold text-red-600 mb-2">채점 중 오류 발생</h2>
+                    {/* 본문 메시지 */}
+                    <div className="text-gray-800 text-sm font-semibold text-center mb-2">
+                        채점 서버와의 통신에 문제가 발생했습니다.<br />
+                        네트워크 상태를 확인하거나, 아래 버튼을 눌러 재시도해 주세요.
+                    </div>
+                    {/* 에러 상세 메시지 */}
+                    <div className="text-gray-400 text-xs mb-4 break-all max-w-xs">{fakeError}</div>
+                    {/* 버튼 */}
+                    <div className="flex gap-2 mt-4">
+                        <button className="px-3 py-2 bg-blue-600 text-white rounded-lg font-semibold" onClick={handleRetry}>다시 시도</button>
+                        <button className="px-3 py-2 bg-yellow-500 text-white rounded-lg font-semibold" onClick={handleResetAndRetry}>상태 초기화 후 재시도</button>
+                        <button className="px-3 py-2 bg-gray-500 text-white rounded-lg font-semibold" onClick={handleGoHome}>모의고사 홈으로</button>
+                    </div>
+                    {/* 추가 안내 */}
+                    <div className="text-gray-400 text-xs mt-4">
+                        문제가 반복된다면 고객센터로 문의해 주세요.
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    if (status === 'loading'|| status === 'idle') {
         return (
             <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
                 <LoadingSpinner size="xl" />
@@ -109,7 +275,7 @@ const MockExamResultPage = () => {
         );
     }
 
-    if (error || !currentSession) {
+    if (status === 'error') {
         // 평가 진행상황 추출
         let progress = null;
         if (error && typeof error === 'object' && error.progress) {
@@ -121,41 +287,34 @@ const MockExamResultPage = () => {
             } catch {}
         }
         return (
-            <div className="p-8 text-center text-red-500">
-                <h1 className="text-2xl font-bold mb-4">오류</h1>
-                <p>결과를 표시하는 중 오류가 발생했습니다: {typeof error === 'string' ? error : error?.message}</p>
-                {progress && (
-                    <p className="mt-4 text-lg text-blue-700 font-semibold">진행상황: {progress.completed} / {progress.total} 평가 완료</p>
-                )}
-                <p className="mt-2 text-sm text-gray-600">세션 ID: {mockExamSessionId}</p>
-                <p className="mt-2 text-sm text-gray-600">상태: {status}</p>
-                <p className="mt-2 text-sm text-gray-600">현재 세션: {currentSession ? '존재함' : '존재하지 않음'}</p>
-                <p className="mt-2 text-sm text-gray-600">에러: {typeof error === 'string' ? error : error?.message}</p>
-                <div className="mt-4 space-y-2">
-                    <button 
-                        onClick={() => {
-                            dispatch(fetchMockExamSession(mockExamSessionId));
-                        }}
-                        className="px-4 py-2 bg-blue-600 text-white rounded-lg mr-2"
-                    >
-                        다시 시도
-                    </button>
-                    <button 
-                        onClick={() => {
-                            dispatch(clearCurrentMockExam());
-                            setTimeout(() => {
-                                dispatch(fetchMockExamSession(mockExamSessionId));
-                            }, 100);
-                        }}
-                        className="px-4 py-2 bg-yellow-600 text-white rounded-lg mr-2"
-                    >
-                        상태 초기화 후 재시도
-                    </button>
-                    <Link to="/mock-exams" className="inline-block px-4 py-2 bg-gray-600 text-white rounded-lg">
-                        모의고사 홈으로 돌아가기
-                    </Link>
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 backdrop-blur-sm">
+                <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md flex flex-col items-center">
+                    {/* 경고 아이콘 */}
+                    <div className="mb-4">
+                        <svg className="w-12 h-12 text-red-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    {/* 제목 */}
+                    <h2 className="text-2xl font-bold text-red-600 mb-2">채점 중 오류 발생</h2>
+                    {/* 본문 메시지 */}
+                    <div className="text-gray-800 text-sm font-semibold text-center mb-2">
+                        채점 서버와의 통신에 문제가 발생했습니다.<br />
+                        네트워크 상태를 확인하거나, 아래 버튼을 눌러 다시 시도해 주세요.
+                    </div>
+                    {/* 에러 상세 메시지 */}
+                    <div className="text-gray-400 text-xs mb-4 break-all max-w-xs">{typeof error === 'string' ? error : error?.message}</div>
+                    {/* 버튼 */}
+                    <div className="flex gap-2 mt-4">
+                        <button className="px-3 py-2 bg-blue-600 text-white rounded-lg font-semibold" onClick={handleRetry}>다시 시도</button>
+                        <button className="px-3 py-2 bg-yellow-500 text-white rounded-lg font-semibold" onClick={handleResetAndRetry}>상태 초기화 후 재시도</button>
+                        <button className="px-3 py-2 bg-gray-500 text-white rounded-lg font-semibold" onClick={handleGoHome}>모의고사 홈으로</button>
+                    </div>
+                    {/* 추가 안내 */}
+                    <div className="text-gray-400 text-xs mt-4">
+                        문제가 반복된다면 고객센터로 문의해 주세요.
+                    </div>
                 </div>
-                <p className="mt-6 text-gray-500 text-sm">10초 후 자동으로 다시 시도합니다...</p>
             </div>
         );
     }
@@ -170,15 +329,13 @@ const MockExamResultPage = () => {
 
                 {/* Overall Score + Score by Case (가로 정렬) */}
                 <div className="flex flex-col lg:flex-row gap-8 mb-8">
-                    {/* 종합 평균 점수 */}
-                    <div className="flex-1 bg-white p-8 rounded-xl shadow-lg text-center flex flex-col justify-center min-h-[260px]">
-                    <h2 className="text-xl font-semibold text-gray-500">종합 평균 점수</h2>
-                    <p className="text-7xl font-bold text-blue-600 my-3">{currentSession.overallScore ?? 'N/A'}</p>
-                    <p className="text-gray-700">6개 증례의 평균 점수입니다.</p>
-                </div>
                     {/* 증례별 점수 상세 */}
-                    <div className="flex-1 bg-white p-8 rounded-xl shadow-lg flex flex-col min-h-[260px]">
-                    <h3 className="text-2xl font-semibold mb-6 text-gray-800 border-b pb-4">증례별 점수 상세</h3>
+                    <div className="flex-1 bg-white p-8 rounded-xl shadow-lg flex flex-col min-h-[260px] relative">
+                        {/* 종합 평균 점수 badge */}
+                        <div className="absolute right-8 top-8 flex items-center space-x-2">
+                            <span className="bg-blue-100 text-blue-700 font-bold px-4 py-2 rounded-full text-lg shadow-sm">종합 평균 {currentSession.overallScore ?? 'N/A'}점</span>
+                        </div>
+                        <h3 className="text-2xl font-semibold mb-6 text-gray-800 border-b pb-4">증례별 점수 상세</h3>
                         <div className="space-y-4 flex-1">
                         {currentSession.selectedScenariosDetails.map((scenario, index) => (
                                 <div
@@ -187,6 +344,9 @@ const MockExamResultPage = () => {
                                     onClick={() => {
                                         if (swiperRef.current) {
                                             swiperRef.current.slideTo(index);
+                                        }
+                                        if (feedbackSectionRef.current) {
+                                            feedbackSectionRef.current.scrollIntoView({ behavior: 'smooth' });
                                         }
                                     }}
                                 >
@@ -204,7 +364,7 @@ const MockExamResultPage = () => {
                 </div>
 
                 {/* Scenario Feedback Carousel */}
-                <div className="bg-white p-8 rounded-xl shadow-lg mt-10">
+                <div ref={feedbackSectionRef} className="bg-white p-8 rounded-xl shadow-lg mt-10">
                   <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">증례별 AI 피드백</h3>
                   <div className="relative">
                     <Swiper
@@ -219,6 +379,7 @@ const MockExamResultPage = () => {
                       onSwiper={swiper => { swiperRef.current = swiper; }}
                       allowTouchMove={true}
                       style={{ cursor: 'grab' }}
+                      autoHeight={true}
                     >
                     {currentSession.selectedScenariosDetails.map((scenario, idx) => (
                       <SwiperSlide key={scenario.scenarioId}>
@@ -273,7 +434,44 @@ const MockExamResultPage = () => {
                             {/* 체크리스트 - PostPracticePage 스타일 */}
                           {scenario.feedback?.checklistResults?.length > 0 && (
                             <div className="mb-8">
-                              <h4 className="text-lg font-bold text-gray-700 mb-2">수행 항목 체크리스트</h4>
+                              <div className="flex items-center justify-between mb-2">
+                                <h4 className="text-lg font-bold text-gray-700">수행 항목 체크리스트</h4>
+                                {/* 전체 펼치기/접기 버튼 */}
+                                <button
+                                  type="button"
+                                  className="text-blue-600 text-sm font-semibold px-3 py-1 rounded hover:bg-blue-50 border border-blue-100"
+                                  onClick={() => {
+                                    // 해당 증례의 checklist 그룹 key들만 추출
+                                    const groupedResults = scenario.feedback.checklistResults.reduce((groups, item) => {
+                                      const category = [item.section, item.subtitle].filter(Boolean).join(' - ') || '기타';
+                                      if (!groups[category]) groups[category] = [];
+                                      groups[category].push(item);
+                                      return groups;
+                                    }, {});
+                                    const groupKeys = Object.keys(groupedResults).map(category => `${scenario.scenarioId}__${category}`);
+                                    // 현재 상태가 모두 열려있으면 -> 모두 닫기, 아니면 모두 열기
+                                    const allOpen = groupKeys.every(key => openGroups[key] !== undefined ? openGroups[key] : true);
+                                    setOpenGroups(prev => {
+                                      const updated = { ...prev };
+                                      groupKeys.forEach(key => { updated[key] = !allOpen; });
+                                      return updated;
+                                    });
+                                  }}
+                                >
+                                  {/* 버튼 텍스트: 모두 열려있으면 '전체 접기', 아니면 '전체 펼치기' */}
+                                  {(() => {
+                                    const groupedResults = scenario.feedback.checklistResults.reduce((groups, item) => {
+                                      const category = [item.section, item.subtitle].filter(Boolean).join(' - ') || '기타';
+                                      if (!groups[category]) groups[category] = [];
+                                      groups[category].push(item);
+                                      return groups;
+                                    }, {});
+                                    const groupKeys = Object.keys(groupedResults).map(category => `${scenario.scenarioId}__${category}`);
+                                    const allOpen = groupKeys.every(key => openGroups[key] !== undefined ? openGroups[key] : true);
+                                    return allOpen ? '전체 접기' : '전체 펼치기';
+                                  })()}
+                                </button>
+                              </div>
                                 {/* 그룹핑 및 토글 구현 */}
                                 {(() => {
                                   const groupedResults = scenario.feedback.checklistResults.reduce((groups, item) => {

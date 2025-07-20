@@ -55,122 +55,7 @@ const TimerDisplay = ({ initialMinutes = 12, isPaused, onFiveMinutesLeft, onTime
     return <div className="font-mono text-lg bg-red-100 text-red-700 px-3 py-1 rounded-md">{String(minutes).padStart(2, '0')}:{String(remainingSeconds).padStart(2, '0')}</div>;
 };
 
-// 환자정보 툴팁 컴포넌트
-const PatientInfoTooltip = ({ scenario, isVisible }) => {
-    const [copySuccess, setCopySuccess] = useState(false);
-    const [showCopyTooltip, setShowCopyTooltip] = useState(false);
 
-    if (!isVisible || !scenario) return null;
-
-    // 환자정보를 텍스트로 포맷팅하는 함수
-    const formatPatientInfo = () => {
-        let info = `[환자 정보]\n`;
-        info += `나이/성별: ${scenario.age}세 / ${scenario.sex === 'male' ? '남자' : '여성'}\n`;
-        info += `주요 호소: ${scenario.presentingComplaint}\n\n`;
-        
-        info += `[활력 징후]\n`;
-        info += `혈압: ${scenario.bloodPressure}\n`;
-        info += `맥박: ${scenario.pulse}\n`;
-        info += `호흡: ${scenario.respiration}\n`;
-        info += `체온: ${scenario.temperature}\n\n`;
-        
-        info += `[응시자는 이 환자에게]\n`;
-        info += `증상과 관련된 병력을 청취하고, 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오\n`;
-        
-        if (scenario.description) {
-            info += `\n[추가 지침]\n${scenario.description}`;
-        }
-        
-        return info;
-    };
-
-    // 클립보드에 복사하는 함수
-    const handleCopy = async () => {
-        try {
-            const patientInfo = formatPatientInfo();
-            await navigator.clipboard.writeText(patientInfo);
-            setCopySuccess(true);
-            setTimeout(() => setCopySuccess(false), 2000); // 2초 후 성공 메시지 제거
-        } catch (err) {
-            console.error('복사에 실패했습니다:', err);
-        }
-    };
-
-    return (
-        <div className="absolute top-full left-0 mt-2 z-50 w-80 bg-white rounded-lg shadow-xl border border-gray-200">
-            {/* 툴팁 화살표 */}
-            <div className="absolute -top-2 left-4 w-4 h-4 bg-white border-l border-t border-gray-200 transform rotate-45"></div>
-            
-            <div className="p-4 space-y-4">
-                {/* 복사 버튼 */}
-                <div className="flex justify-end">
-                    <div className="relative">
-                        <button
-                            onClick={handleCopy}
-                            onMouseEnter={() => setShowCopyTooltip(true)}
-                            onMouseLeave={() => setShowCopyTooltip(false)}
-                            className="text-gray-500 hover:text-gray-700 transition-colors duration-200"
-                        >
-                            {copySuccess ? (
-                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                            ) : (
-                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
-                                </svg>
-                            )}
-                        </button>
-                        {/* 툴팁 */}
-                        <div className={`absolute top-full right-0 mt-1 px-2 py-1 bg-gray-800 text-white text-xs rounded transition-opacity duration-200 whitespace-nowrap z-10 pointer-events-none ${
-                            showCopyTooltip ? 'opacity-100' : 'opacity-0'
-                        }`}>
-                            환자내용을 복사해서 메모장에 추가해보세요
-                        </div>
-                    </div>
-                </div>
-
-                {/* 환자 정보 */}
-                <div>
-                    <h3 className="text-sm font-semibold text-gray-800 mb-2">[환자 정보]</h3>
-                    <ul className="space-y-1 text-sm text-gray-700">
-                        <li><strong className="font-medium w-16 inline-block">나이/성별:</strong> {scenario.age}세 / {scenario.sex === 'male' ? '남자' : '여성'}</li>
-                        <li><strong className="font-medium w-16 inline-block">주요 호소:</strong> {scenario.presentingComplaint}</li>
-                    </ul>
-                </div>
-                
-                {/* 활력 징후 */}
-                <div>
-                    <h3 className="text-sm font-semibold text-gray-800 mb-2">[활력 징후]</h3>
-                    <ul className="space-y-1 text-sm text-gray-700">
-                        <li><span className="font-medium w-12 inline-block">혈압:</span> {scenario.bloodPressure} </li>
-                        <li><span className="font-medium w-12 inline-block">맥박:</span> {scenario.pulse} </li>
-                        <li><span className="font-medium w-12 inline-block">호흡:</span> {scenario.respiration} </li>
-                        <li><span className="font-medium w-12 inline-block">체온:</span> {scenario.temperature} </li>
-                    </ul>
-                </div>
-
-                {/* 실습 안내 문구 */}
-                <div>
-                    <h3 className="text-sm font-semibold text-gray-800 mb-2">[응시자는 이 환자에게]</h3>
-                    <p className="text-sm text-gray-700 leading-relaxed">
-                        증상과 관련된 병력을 청취하고, 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오
-                    </p>
-                </div>
-
-                {/* 추가 지침 */}
-                {scenario.description && (
-                    <div>
-                        <h3 className="text-sm font-semibold text-gray-800 mb-2">[추가 지침]</h3>
-                        <p className="text-sm text-gray-700 leading-relaxed">
-                            {scenario.description}
-                        </p>
-                    </div>
-                )}
-            </div>
-        </div>
-    );
-};
 
 const DuringPracticePage = () => {
     const dispatch = useDispatch();
@@ -199,21 +84,15 @@ const DuringPracticePage = () => {
         onCancel: null
     });
 
-    // 환자정보 툴팁 상태
-    const [showPatientInfo, setShowPatientInfo] = useState(false);
-    const [isPatientInfoLocked, setIsPatientInfoLocked] = useState(false); // 클릭으로 고정된 상태
+    // 환자정보 박스 펼침/접힘 상태
+    const [isPatientInfoExpanded, setIsPatientInfoExpanded] = useState(false);
 
     // 통합된 메모장 state (기존 SOAP 개별 state들을 하나로 통합)
     const [memoContent, setMemoContent] = useState('');
 
-    // 메모 내용 변경 시 환자정보 자동 닫기
+    // 메모 내용 변경
     const handleMemoChange = (newContent) => {
         setMemoContent(newContent);
-        // 메모 입력 시 환자정보 자동 닫기
-        if (isPatientInfoLocked) {
-            setIsPatientInfoLocked(false);
-            setShowPatientInfo(false);
-        }
     };
 
     // 세팅 저장 및 복원을 위한 함수들
@@ -436,16 +315,7 @@ const DuringPracticePage = () => {
     }
 
     return (
-        <div 
-            className="flex flex-col md:flex-row h-[calc(100vh-56px)] bg-slate-100 font-sans"
-            onClick={() => {
-                // 다른 곳 클릭 시 환자정보 자동 닫기
-                if (isPatientInfoLocked) {
-                    setIsPatientInfoLocked(false);
-                    setShowPatientInfo(false);
-                }
-            }}
-        >
+        <div className="flex flex-col md:flex-row h-[calc(100vh-56px)] bg-slate-100 font-sans">
             {/* 중앙 메인 패널 (채팅창) */}
             <div className="flex flex-col flex-1 h-full w-full md:w-0">
                 <header className="flex items-center justify-between p-4 bg-white border-b border-gray-200 shadow-sm z-10">
@@ -506,47 +376,6 @@ const DuringPracticePage = () => {
                                 </div>
                             </div>
                         )}
-                        {/* 환자정보 버튼 */}
-                        <div className="relative ml-2 group" onClick={(e) => e.stopPropagation()}>
-                            <Button
-                                onMouseEnter={() => {
-                                    if (!isPatientInfoLocked) {
-                                        setShowPatientInfo(true);
-                                    }
-                                }}
-                                onMouseLeave={() => {
-                                    if (!isPatientInfoLocked) {
-                                        setShowPatientInfo(false);
-                                    }
-                                }}
-                                onClick={() => {
-                                    if (isPatientInfoLocked) {
-                                        // 고정 해제
-                                        setIsPatientInfoLocked(false);
-                                        setShowPatientInfo(false);
-                                    } else {
-                                        // 고정
-                                        setIsPatientInfoLocked(true);
-                                        setShowPatientInfo(true);
-                                    }
-                                }}
-                                color="secondary"
-                                size="sm"
-                                className={`flex items-center justify-center ${isPatientInfoLocked ? 'bg-blue-500 text-white' : ''}`}
-                            >
-                                <UserIcon className="w-4 h-4" />
-                            </Button>
-                            {/* 툴팁 */}
-                            <div className={`absolute top-full left-1/2 transform -translate-x-1/2 mt-1 px-2 py-1 bg-gray-800 text-white text-xs rounded transition-opacity duration-200 whitespace-nowrap z-10 ${
-                                showPatientInfo ? 'opacity-0' : 'opacity-0 group-hover:opacity-100'
-                            }`}>
-                                환자정보
-                            </div>
-                            <PatientInfoTooltip 
-                                scenario={currentScenario}
-                                isVisible={showPatientInfo}
-                            />
-                        </div>
                         {/* 채팅기록 on/off 스위치 */}
                         <div className="flex items-center gap-2 ml-2">
                             <span className="text-sm text-gray-600 hidden sm:inline">채팅</span>
@@ -627,6 +456,74 @@ const DuringPracticePage = () => {
 
             {/* 우측 사이드바 (메모장) - md 이상에서만 오른쪽, 그 미만에서는 아래 */}
             <aside className="w-full md:w-96 bg-white border-t md:border-t-0 md:border-l border-gray-200 flex flex-col h-64 md:h-full flex-shrink-0">
+                {/* 환자정보 박스 - 메모장 위에 추가 */}
+                <div className="p-4 border-b border-gray-200 bg-blue-50">
+                    <button 
+                        onClick={() => setIsPatientInfoExpanded(!isPatientInfoExpanded)}
+                        className="w-full flex items-center justify-between text-left"
+                    >
+                        <h2 className="font-bold text-lg text-gray-800 flex items-center gap-2">
+                            <UserIcon className="w-5 h-5 text-blue-600" />
+                            환자정보
+                        </h2>
+                        <svg 
+                            className={`w-5 h-5 text-gray-600 transition-transform duration-200 ${isPatientInfoExpanded ? 'rotate-180' : ''}`}
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24"
+                        >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    
+                    {/* 환자정보 내용 - 접힘/펼침 상태에 따라 표시 */}
+                    <div className={`overflow-hidden transition-all duration-300 ${isPatientInfoExpanded ? 'max-h-96 opacity-100 mt-3' : 'max-h-0 opacity-0'}`}>
+                        {currentScenario ? (
+                            <div className="space-y-3 text-sm">
+                                {/* 환자 정보 */}
+                                <div>
+                                    <h3 className="font-semibold text-gray-800 mb-1">[환자 정보]</h3>
+                                    <ul className="space-y-1 text-gray-700">
+                                        <li><strong className="font-medium w-16 inline-block">나이/성별:</strong> {currentScenario.age}세 / {currentScenario.sex === 'male' ? '남자' : '여성'}</li>
+                                        <li><strong className="font-medium w-16 inline-block">주요 호소:</strong> {currentScenario.presentingComplaint}</li>
+                                    </ul>
+                                </div>
+                                
+                                {/* 활력 징후 */}
+                                <div>
+                                    <h3 className="font-semibold text-gray-800 mb-1">[활력 징후]</h3>
+                                    <ul className="space-y-1 text-gray-700">
+                                        <li><span className="font-medium w-12 inline-block">혈압:</span> {currentScenario.bloodPressure} </li>
+                                        <li><span className="font-medium w-12 inline-block">맥박:</span> {currentScenario.pulse} </li>
+                                        <li><span className="font-medium w-12 inline-block">호흡:</span> {currentScenario.respiration} </li>
+                                        <li><span className="font-medium w-12 inline-block">체온:</span> {currentScenario.temperature} </li>
+                                    </ul>
+                                </div>
+
+                                {/* 실습 안내 문구 */}
+                                <div>
+                                    <h3 className="font-semibold text-gray-800 mb-1">[응시자는 이 환자에게]</h3>
+                                    <p className="text-gray-700 leading-relaxed">
+                                        증상과 관련된 병력을 청취하고, 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오
+                                    </p>
+                                </div>
+
+                                {/* 추가 지침 */}
+                                {currentScenario.description && (
+                                    <div>
+                                        <h3 className="font-semibold text-gray-800 mb-1">[추가 지침]</h3>
+                                        <p className="text-gray-700 leading-relaxed">
+                                            {currentScenario.description}
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
+                        ) : (
+                            <p className="text-gray-500 text-sm">환자정보를 불러오는 중...</p>
+                        )}
+                    </div>
+                </div>
+                
                 <div className="p-4 border-b border-gray-200"><h2 className="font-bold text-lg text-gray-800">메모장</h2></div>
                 <div className="flex-1 overflow-y-auto p-4 space-y-4">
                     <BlockMemoEditor

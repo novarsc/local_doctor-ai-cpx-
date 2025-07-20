@@ -23,6 +23,13 @@ import Button from '../../components/common/Button';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 import Modal from '../../components/common/Modal';
 import BlockMemoEditor from '../../components/common/BlockMemoEditor';
+import { 
+    PauseIcon, 
+    PlayIcon, 
+    UserIcon, 
+    EyeIcon, 
+    EyeSlashIcon 
+} from '@heroicons/react/24/outline';
 
 // 타임아웃 유틸 함수 추가 (컴포넌트 상단에 위치)
 function withTimeout(promise, ms) {
@@ -84,6 +91,10 @@ const MockExamInProgressPage = () => {
     const [showFiveMinAlert, setShowFiveMinAlert] = useState(false);
     const [isTimeUp, setIsTimeUp] = useState(false);
     const [showChatLog, setShowChatLog] = useState(true);
+    
+    // --- DuringPracticePage에서 추가된 상태들 ---
+    const [showDiseaseName, setShowDiseaseName] = useState(false);
+    const [isPatientInfoExpanded, setIsPatientInfoExpanded] = useState(false);
 
     // --- 커스텀 알림 모달 상태 추가 ---
     const [notificationModal, setNotificationModal] = useState({
@@ -94,6 +105,41 @@ const MockExamInProgressPage = () => {
         onConfirm: null,
         onCancel: null
     });
+
+    // --- 세션 설정 저장/복원 함수들 ---
+    const saveSessionSettings = () => {
+        if (mockExamSessionId && caseNumber) {
+            const settings = {
+                memoContent,
+                showChatLog,
+                showDiseaseName,
+                timestamp: Date.now()
+            };
+            localStorage.setItem(`mock_exam_settings_${mockExamSessionId}_${caseNumber}`, JSON.stringify(settings));
+        }
+    };
+
+    const loadSessionSettings = () => {
+        if (mockExamSessionId && caseNumber) {
+            const savedSettings = localStorage.getItem(`mock_exam_settings_${mockExamSessionId}_${caseNumber}`);
+            if (savedSettings) {
+                try {
+                    const settings = JSON.parse(savedSettings);
+                    if (settings.memoContent !== undefined) {
+                        setMemoContent(settings.memoContent);
+                    }
+                    if (settings.showChatLog !== undefined) {
+                        setShowChatLog(settings.showChatLog);
+                    }
+                    if (settings.showDiseaseName !== undefined) {
+                        setShowDiseaseName(settings.showDiseaseName);
+                    }
+                } catch (error) {
+                    console.error('저장된 세션 세팅을 불러오는데 실패했습니다:', error);
+                }
+            }
+        }
+    };
 
     // --- 커스텀 알림 모달 함수들 ---
     const showNotification = (type, title, message, onConfirm = null, onCancel = null) => {
@@ -130,6 +176,11 @@ const MockExamInProgressPage = () => {
             notificationModal.onCancel();
         }
         closeNotification();
+    };
+
+    // --- 메모 내용 변경 핸들러 ---
+    const handleMemoChange = (newContent) => {
+        setMemoContent(newContent);
     };
 
     // 모의고사 세션 정보 로드
@@ -277,6 +328,37 @@ const MockExamInProgressPage = () => {
         }
     };
 
+    // 세션 세팅 복원
+    useEffect(() => {
+        if (mockExamSessionId && caseNumber) {
+            loadSessionSettings();
+        }
+    }, [mockExamSessionId, caseNumber]);
+
+    // 메모장 내용이 변경될 때마다 세팅 저장
+    useEffect(() => {
+        if (mockExamSessionId && caseNumber && memoContent !== '') {
+            const timeoutId = setTimeout(() => {
+                saveSessionSettings();
+            }, 1000); // 1초 딜레이로 저장
+            return () => clearTimeout(timeoutId);
+        }
+    }, [memoContent, mockExamSessionId, caseNumber]);
+
+    // 채팅 기록 상태가 변경될 때마다 세팅 저장
+    useEffect(() => {
+        if (mockExamSessionId && caseNumber) {
+            saveSessionSettings();
+        }
+    }, [showChatLog, mockExamSessionId, caseNumber]);
+
+    // 질환명 표시 상태가 변경될 때마다 세팅 저장
+    useEffect(() => {
+        if (mockExamSessionId && caseNumber) {
+            saveSessionSettings();
+        }
+    }, [showDiseaseName, mockExamSessionId, caseNumber]);
+
     const handleSendMessage = (e) => {
         e.preventDefault();
         console.log('handleSendMessage called', { userInput, isAiResponding, currentPracticeSessionId });
@@ -318,6 +400,11 @@ const MockExamInProgressPage = () => {
     };
     
     const handleEndCase = () => {
+        // 세션 종료 시 저장된 세팅 삭제
+        if (mockExamSessionId && caseNumber) {
+            localStorage.removeItem(`mock_exam_settings_${mockExamSessionId}_${caseNumber}`);
+        }
+
         showNotification(
             'confirm', 
             '증례 종료 확인', 
@@ -431,12 +518,32 @@ const MockExamInProgressPage = () => {
     }
 
     return (
-        <div className="flex h-[calc(100vh-56px)] bg-slate-100 font-sans">
+        <div className="flex flex-col md:flex-row h-[calc(100vh-56px)] bg-slate-100 font-sans">
             {/* 중앙 메인 패널 (채팅창) */}
-            <div className="flex flex-col flex-1 h-full">
+            <div className="flex flex-col flex-1 h-full w-full md:w-0">
                 <header className="flex items-center justify-between p-4 bg-white border-b border-gray-200 shadow-sm z-10">
-                    <div className="flex items-center gap-4">
-                        <h1 className="text-xl font-bold text-gray-800">모의고사 진행 중</h1>
+                    <div className="flex items-center gap-3">
+                        {/* 질환명 표시 스위치 */}
+                        <div className="flex items-center gap-2">
+                            <span className="text-sm text-gray-600">질환명</span>
+                            <button
+                                onClick={() => setShowDiseaseName(v => !v)}
+                                className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
+                                    showDiseaseName ? 'bg-blue-600' : 'bg-gray-200'
+                                }`}
+                                role="switch"
+                                aria-checked={showDiseaseName}
+                            >
+                                <span
+                                    className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                                        showDiseaseName ? 'translate-x-6' : 'translate-x-1'
+                                    }`}
+                                />
+                            </button>
+                        </div>
+                        {showDiseaseName && (
+                            <h1 className="text-xl font-bold text-gray-800">{currentCase?.name || '모의고사 증례'}</h1>
+                        )}
                         <div className="text-lg font-semibold bg-blue-100 text-blue-700 px-4 py-1 rounded-full">
                             증례 {caseNumber} / 6
                         </div>
@@ -444,18 +551,60 @@ const MockExamInProgressPage = () => {
                     <div className="flex items-center gap-2">
                         <TimerDisplay initialMinutes={12} isPaused={isPaused} onFiveMinutesLeft={() => setShowFiveMinAlert(true)} onTimeUp={() => setIsTimeUp(true)} />
                         {!isPaused ? (
-                            <Button onClick={() => setIsPaused(true)} color="secondary" size="sm" disabled={isTimeUp}>일시정지</Button>
+                            <div className="relative group">
+                                <Button 
+                                    onClick={() => setIsPaused(true)} 
+                                    color="secondary" 
+                                    size="sm" 
+                                    disabled={isTimeUp}
+                                    className="flex items-center justify-center"
+                                >
+                                    <PauseIcon className="w-4 h-4" />
+                                </Button>
+                                {/* 툴팁 */}
+                                <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-1 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10">
+                                    일시정지
+                                </div>
+                            </div>
                         ) : (
-                            <Button onClick={() => setIsPaused(false)} color="primary" size="sm">계속하기</Button>
+                            <div className="relative group">
+                                <Button 
+                                    onClick={() => setIsPaused(false)} 
+                                    color="primary" 
+                                    size="sm"
+                                    className="flex items-center justify-center"
+                                >
+                                    <PlayIcon className="w-4 h-4" />
+                                </Button>
+                                {/* 툴팁 */}
+                                <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-1 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap z-10">
+                                    계속하기
+                                </div>
+                            </div>
                         )}
-                        <Button
+                        {/* 채팅기록 on/off 스위치 */}
+                        <div className="flex items-center gap-2 ml-2">
+                            <span className="text-sm text-gray-600 hidden sm:inline">채팅</span>
+                            <button
                             onClick={() => setShowChatLog(v => !v)}
-                            color="secondary"
-                            size="sm"
-                            className="ml-2"
-                        >
-                            {showChatLog ? "채팅기록 숨기기" : "채팅기록 보이기"}
-                        </Button>
+                                className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
+                                    showChatLog ? 'bg-blue-600' : 'bg-gray-200'
+                                }`}
+                                role="switch"
+                                aria-checked={showChatLog}
+                            >
+                                <span
+                                    className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                                        showChatLog ? 'translate-x-6' : 'translate-x-1'
+                                    }`}
+                                />
+                                {showChatLog ? (
+                                    <EyeIcon className="absolute left-1 w-3 h-3 text-white" />
+                                ) : (
+                                    <EyeSlashIcon className="absolute right-1 w-3 h-3 text-gray-400" />
+                                )}
+                            </button>
+                        </div>
                     </div>
                     <div className={`fixed top-20 left-1/2 -translate-x-1/2 z-50 px-12 py-6 rounded-2xl shadow-2xl border-2 border-yellow-300 bg-yellow-100 flex items-center gap-4 transition-opacity duration-500 ${showFiveMinAlert ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
                         <span className="text-4xl">⏰</span>
@@ -465,8 +614,9 @@ const MockExamInProgressPage = () => {
                     </div>
                 </header>
                 
-                <main className="flex-1 min-h-0 overflow-y-auto p-6 space-y-5">
-                    {showChatLog && chatLog.map((msg, index) => (
+                {/* 채팅 로그 - 블러 처리 방식으로 변경 */}
+                <main className={`flex-1 min-h-0 overflow-y-auto p-6 space-y-5 min-h-[300px] transition-all duration-300 ${!showChatLog ? 'filter blur-md pointer-events-none' : ''}`}>
+                    {chatLog.map((msg, index) => (
                         <div key={msg.id || index} className={`flex items-end gap-3 max-w-xl ${msg.sender === 'user' ? 'ml-auto justify-end' : 'mr-auto'}`}>
                             {msg.sender === 'ai' && (
                                 <div className="w-10 h-10 rounded-full bg-primary flex-shrink-0 flex items-center justify-center text-white font-bold">AI</div>
@@ -494,21 +644,20 @@ const MockExamInProgressPage = () => {
 
                 <footer className="p-4 bg-white border-t border-gray-200 shrink-0">
                     {practiceError && <p className="text-red-500 text-sm mb-2 text-center">오류: {practiceError}</p>}
-                    <form onSubmit={handleSendMessage} className="flex items-center gap-3">
+                    <form onSubmit={handleSendMessage} className="flex gap-2 mt-4">
                         <input 
-                            type="text" 
-                            value={userInput} 
-                            onChange={(e) => setUserInput(e.target.value)} 
-                            placeholder={isAiResponding ? "AI가 응답 중입니다..." : "여기에 메시지를 입력하세요..."} 
-                            className="input-base flex-1 !p-3"
-                            disabled={isAiResponding || !currentPracticeSessionId || isPaused || isTimeUp} 
                             ref={inputRef}
+                            type="text"
+                            className="flex-1 border rounded px-3 py-2"
+                            value={userInput}
+                            onChange={e => setUserInput(e.target.value)}
+                            disabled={isAiResponding || isPaused || isTimeUp || !currentPracticeSessionId}
+                            placeholder={isAiResponding ? "AI가 응답 중입니다..." : "여기에 메시지를 입력하세요..."}
                         />
                         <Button
                             type="submit" 
-                            disabled={isAiResponding || !userInput.trim() || !currentPracticeSessionId || isPaused || isTimeUp} 
-                            variant="primary"
-                            className="!py-3 !px-6"
+                            disabled={isAiResponding || isPaused || isTimeUp || !userInput.trim() || !currentPracticeSessionId} 
+                            color="primary"
                         >
                             전송
                         </Button>
@@ -516,13 +665,81 @@ const MockExamInProgressPage = () => {
                 </footer>
             </div>
 
-            {/* 우측 사이드바 (메모장) */}
-            <aside className="w-96 bg-white border-l border-gray-200 flex flex-col h-full flex-shrink-0">
+            {/* 우측 사이드바 (메모장) - md 이상에서만 오른쪽, 그 미만에서는 아래 */}
+            <aside className="w-full md:w-96 bg-white border-t md:border-t-0 md:border-l border-gray-200 flex flex-col h-64 md:h-full flex-shrink-0">
+                {/* 환자정보 박스 - 메모장 위에 추가 */}
+                <div className="p-4 border-b border-gray-200 bg-blue-50">
+                    <button 
+                        onClick={() => setIsPatientInfoExpanded(!isPatientInfoExpanded)}
+                        className="w-full flex items-center justify-between text-left"
+                    >
+                        <h2 className="font-bold text-lg text-gray-800 flex items-center gap-2">
+                            <UserIcon className="w-5 h-5 text-blue-600" />
+                            환자정보
+                        </h2>
+                        <svg 
+                            className={`w-5 h-5 text-gray-600 transition-transform duration-200 ${isPatientInfoExpanded ? 'rotate-180' : ''}`}
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24"
+                        >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    
+                    {/* 환자정보 내용 - 접힘/펼침 상태에 따라 표시 */}
+                    <div className={`overflow-hidden transition-all duration-300 ${isPatientInfoExpanded ? 'max-h-96 opacity-100 mt-3' : 'max-h-0 opacity-0'}`}>
+                        {currentCase ? (
+                            <div className="space-y-3 text-sm">
+                                {/* 환자 정보 */}
+                                <div>
+                                    <h3 className="font-semibold text-gray-800 mb-1">[환자 정보]</h3>
+                                    <ul className="space-y-1 text-gray-700">
+                                        <li><strong className="font-medium w-16 inline-block">나이/성별:</strong> {currentCase.age}세 / {currentCase.sex === 'male' ? '남자' : '여성'}</li>
+                                        <li><strong className="font-medium w-16 inline-block">주요 호소:</strong> {currentCase.presentingComplaint}</li>
+                                    </ul>
+                                </div>
+                                
+                                {/* 활력 징후 */}
+                                <div>
+                                    <h3 className="font-semibold text-gray-800 mb-1">[활력 징후]</h3>
+                                    <ul className="space-y-1 text-gray-700">
+                                        <li><span className="font-medium w-12 inline-block">혈압:</span> {currentCase.bloodPressure} </li>
+                                        <li><span className="font-medium w-12 inline-block">맥박:</span> {currentCase.pulse} </li>
+                                        <li><span className="font-medium w-12 inline-block">호흡:</span> {currentCase.respiration} </li>
+                                        <li><span className="font-medium w-12 inline-block">체온:</span> {currentCase.temperature} </li>
+                                    </ul>
+                                </div>
+
+                                {/* 실습 안내 문구 */}
+                                <div>
+                                    <h3 className="font-semibold text-gray-800 mb-1">[응시자는 이 환자에게]</h3>
+                                    <p className="text-gray-700 leading-relaxed">
+                                        증상과 관련된 병력을 청취하고, 증상과 관련된 적절한 신체 진찰을 시행한 후, 추정 진단과 향후 진단 계획 등에 대해 환자와 논의하시오
+                                    </p>
+                                </div>
+
+                                {/* 추가 지침 */}
+                                {currentCase.description && (
+                                    <div>
+                                        <h3 className="font-semibold text-gray-800 mb-1">[추가 지침]</h3>
+                                        <p className="text-gray-700 leading-relaxed">
+                                            {currentCase.description}
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
+                        ) : (
+                            <p className="text-gray-500 text-sm">환자정보를 불러오는 중...</p>
+                        )}
+                    </div>
+                </div>
+                
                  <div className="p-4 border-b border-gray-200"><h2 className="font-bold text-lg text-gray-800">메모장</h2></div>
-                <div className="flex-1 overflow-y-auto p-4">
+                <div className="flex-1 overflow-y-auto p-4 space-y-4">
                     <BlockMemoEditor
                         value={memoContent}
-                        onChange={setMemoContent}
+                        onChange={handleMemoChange}
                         placeholder="실습 중 필요한 내용을 자유롭게 메모하세요..."
                     />
                 </div>
@@ -575,12 +792,15 @@ const MockExamInProgressPage = () => {
                 </div>
             </Modal>
 
+            {/* 일시정지 상태일 때 블러 처리 및 팝업 */}
             {isPaused && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex flex-col items-center justify-center backdrop-blur">
                     <div className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center">
-                        <h2 className="text-2xl font-bold mb-4">일시정지 중</h2>
-                        <p className="mb-6">실습이 일시정지되었습니다.<br/>"계속하기" 버튼을 눌러 계속 진행하세요.</p>
+                        <h2 className="text-2xl font-bold mb-4">실습이 일시정지되었습니다</h2>
+                        <p className="mb-6">계속 진행하시겠습니까?</p>
+                        <div className="flex gap-4">
                         <Button onClick={() => setIsPaused(false)} color="primary">계속하기</Button>
+                        </div>
                     </div>
                 </div>
             )}
